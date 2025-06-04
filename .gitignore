@@ -1,4 +1,6 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+./ocr_venv/**
+./postprocessing_venv/**
+./preprocessing_venv/**
+./evaluate_venv/**
+*.tiff
+*.json
