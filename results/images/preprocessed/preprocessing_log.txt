@@ -1,0 +1,3 @@
+example3.jpg - Time needed: 0.011815786361694336 - Config 0: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.0009386539459228516 - Config 1: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0038805007934570312 - Config 2: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.median_filter
