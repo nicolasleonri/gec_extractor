@@ -16,3 +16,20 @@ Logged processing details for Config 5: Binarization.basic, SkewCorrection.boxes
 Loading: 25%
 Loading: 50%
 Loading: 75%
+Loading: 100%
+Logged processing details for Config 6: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
+--------------------------------------------------
+Logged processing details for Config 7: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
+--------------------------------------------------
+Logged processing details for Config 8: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+--------------------------------------------------
+Logged processing details for Config 9: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+--------------------------------------------------
+Logged processing details for Config 10: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+--------------------------------------------------
+Logged processing details for Config 11: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
+--------------------------------------------------
+Logged processing details for Config 12: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
+--------------------------------------------------
+Logged processing details for Config 13: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
+--------------------------------------------------

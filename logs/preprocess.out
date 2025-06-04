@@ -10,3 +10,19 @@ example3.jpg - Time needed: 0.011021614074707031 - Config 4: Binarization.basic,
 Saved processed image to: ./results/images/preprocessed/example3_config4.tiff 
 example3.jpg - Time needed: 0.3266119956970215 - Config 5: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.frequency_filter
 Saved processed image to: ./results/images/preprocessed/example3_config5.tiff 
+example3.jpg - Time needed: 337.50103282928467 - Config 6: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
+Saved processed image to: ./results/images/preprocessed/example3_config6.tiff 
+example3.jpg - Time needed: 0.09629988670349121 - Config 7: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
+Saved processed image to: ./results/images/preprocessed/example3_config7.tiff 
+example3.jpg - Time needed: 0.007918357849121094 - Config 8: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+Saved processed image to: ./results/images/preprocessed/example3_config8.tiff 
+example3.jpg - Time needed: 0.0017783641815185547 - Config 9: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+Saved processed image to: ./results/images/preprocessed/example3_config9.tiff 
+example3.jpg - Time needed: 0.0033571720123291016 - Config 10: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+Saved processed image to: ./results/images/preprocessed/example3_config10.tiff 
+example3.jpg - Time needed: 78.92247748374939 - Config 11: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
+Saved processed image to: ./results/images/preprocessed/example3_config11.tiff 
+example3.jpg - Time needed: 0.012848615646362305 - Config 12: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
+Saved processed image to: ./results/images/preprocessed/example3_config12.tiff 
+example3.jpg - Time needed: 0.4266376495361328 - Config 13: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
+Saved processed image to: ./results/images/preprocessed/example3_config13.tiff 
