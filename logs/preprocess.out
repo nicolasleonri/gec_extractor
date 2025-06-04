@@ -1,12 +1,12 @@
-example3.jpg - Time needed: 0.009706258773803711 - Config 0: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.009788751602172852 - Config 0: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.mean_filter
 Saved processed image to: ./results/images/preprocessed/example3_config0.tiff 
-example3.jpg - Time needed: 0.0016207695007324219 - Config 1: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0013394355773925781 - Config 1: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
 Saved processed image to: ./results/images/preprocessed/example3_config1.tiff 
-example3.jpg - Time needed: 0.003854036331176758 - Config 2: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.003667116165161133 - Config 2: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.median_filter
 Saved processed image to: ./results/images/preprocessed/example3_config2.tiff 
-example3.jpg - Time needed: 60.106608152389526 - Config 3: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.conservative_filter
+example3.jpg - Time needed: 58.87675070762634 - Config 3: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.conservative_filter
 Saved processed image to: ./results/images/preprocessed/example3_config3.tiff 
-example3.jpg - Time needed: 0.013380289077758789 - Config 4: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
+example3.jpg - Time needed: 0.011021614074707031 - Config 4: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
 Saved processed image to: ./results/images/preprocessed/example3_config4.tiff 
-example3.jpg - Time needed: 0.336162805557251 - Config 5: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.frequency_filter
+example3.jpg - Time needed: 0.3266119956970215 - Config 5: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.frequency_filter
 Saved processed image to: ./results/images/preprocessed/example3_config5.tiff 
