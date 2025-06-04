@@ -7,6 +7,7 @@ import os
 import itertools
 import cv2
 from pdf2image import convert_from_path
+import sys
 
 
 class Binarization:
@@ -356,7 +357,57 @@ class NoiseRemoval:
         return sharpened
 
 
+def print_help():
+    help_text = """
+Preprocessing Pipeline Help
+--------------------------
+
+This script runs a comprehensive image preprocessing pipeline for OCR, testing multiple combinations of:
+
+Binarization Methods:
+    - Basic thresholding
+    - Otsu's method (with/without Gaussian)
+    - Adaptive Mean
+    - Adaptive Gaussian
+    - Yannihorne method
+    - Niblack method (configurable window size and k value)
+
+Skew Correction Methods:
+    - Bounding boxes
+    - Hough transform
+    - Moments
+    - Topline detection
+    - Scanline detection
+
+Noise Removal Methods:
+    - Mean filter
+    - Gaussian filter
+    - Median filter
+    - Conservative filter
+    - Laplacian filter
+    - Frequency domain filter
+    - Crimmins speckle removal
+    - Unsharp masking
+
+Usage:
+    python preprocessing.py              # Run full pipeline with all combinations based on data folder "./data/images/"
+    
+    python preprocessing.py --help       # Show this help message
+    python preprocessing.py --h       # Show this help message
+    python preprocessing.py -h       # Show this help message
+
+Input/Output:
+    - Input images should be in ./data/images/
+    - Processed images will be saved in ./results/images/preprocessed/
+    - Processing log will be saved as preprocessing_log.txt
+    """
+    print(help_text)
+
 def main():
+    if len(sys.argv) > 1 and (sys.argv[1] == '--help' or sys.argv[1]== "--h" or sys.argv[1]== "-h" ):
+        print_help()
+        return
+
     binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
 
     skew_correction_methods = ["boxes", "hough_transform", "moments", "topline", "scanline"]
@@ -378,7 +429,7 @@ def main():
 
     image_files = get_image_files("./data/images/")
     processed_dir = "./results/images/preprocessed/"
-    log_file_path = os.path.join(processed_dir, "preprocessing_log.txt")
+    log_file_path = os.path.join("./logs/", "preprocess.out")
 
     os.makedirs(processed_dir, exist_ok=True)
 
@@ -409,9 +460,9 @@ def main():
                 save_image(processed_image, filepath)
                 log_file.write(
                     f"{image_file.name} - Time needed: {time_elapsed} - Config {idx}: {', '.join(techniques)}\n")
+                log_file.write(
+                    f"Saved processed image to: {filepath} \n")
                 log_file.flush()
-                print(f"Saved processed image to: {filepath}")
-                print(f"Time nedded: {round(time_elapsed, 5)}")
                 print(f"Logged processing details for Config {idx}: {', '.join(techniques)}")
                 print("-" * 50)
                 

@@ -7,7 +7,7 @@ from utils_postprocessing import parse_ocr_results
 import json
 
 
-class AnyScaleLLM():
+
     def __init__(self, model_name, api_key, base_url="https://api.endpoints.anyscale.com/v1"):
         self.base_url = base_url
         self.api_key = api_key
