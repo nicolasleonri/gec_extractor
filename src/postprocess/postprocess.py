@@ -168,6 +168,24 @@ def save_results_to_json(results_dict, model_display_name):
             config_name = value["config"]
             pathfile = f"{filename}_{config_name}_{model_display_name}"
             file_name_json = f"./results/txt/extracted/{pathfile}.json"
+
+            metadata_parts = filename.split('_')[0].split('#')
+
+            if len(metadata_parts) == 3:
+                newspaper_name, publication_date, page_str = metadata_parts
+                try:
+                    page_number = int(page_str)
+                except ValueError:
+                    page_number = None
+            else:
+                newspaper_name = publication_date = None
+                page_number = None
+
+            document_metadata = {
+                "newspaper_name": newspaper_name,
+                "publication_date": publication_date,
+                "page_number": page_number
+            }
             
             # Parse JSON output
             try:
@@ -177,6 +195,10 @@ def save_results_to_json(results_dict, model_display_name):
                 # print(f"Original answer: {result['output']}")
                 error_count += 1
                 continue
+
+            # Add document_metadata key if not already present
+            if "metadata" not in json_object:
+                json_object["document_metadata"] = document_metadata
             
             # Save to file
             with open(file_name_json, 'w', encoding='utf-8') as f:
@@ -260,9 +282,9 @@ def main():
     max_threads = mp.cpu_count()
         
     models = {
-        # "phi4:latest": "phi4",
+        "phi4:latest": "phi4",
         # "llama4:latest": "llama4",
-        "gemma3:27b": "gemma3",
+        # "gemma3:27b": "gemma3",
         # "qwen3:32b": "qwen3",
         # "deepseek-r1:32b": "deepseek-r1",
         # "magistral:24b": "magistral",

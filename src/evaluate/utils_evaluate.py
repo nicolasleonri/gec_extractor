@@ -2,6 +2,7 @@ import json
 from fuzzywuzzy import fuzz
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 import numpy as np
+import difflib
 from pathlib import Path
 
 def load_json_file(file_path):
@@ -19,95 +20,77 @@ def preprocess_data(gold_data, eval_data):
     results = []
 
     # Find matching keys for top-level structures
-    patient_info_key = find_matching_key('patient_information', eval_data)
-    test_results_key = find_matching_key('test_results', eval_data)
+    articles_key = find_matching_key('articles', eval_data)
+    # brief_news_key = find_matching_key('brief_news', eval_data)
 
-    if not patient_info_key or not test_results_key:
-        print(f"Warning: Could not find matching keys for patient information or test results.")
+    if not articles_key:
+        print(f"Warning: Could not find matching keys for articles results.")
         return None
-    
-    # Check patient information
-    if eval_data[patient_info_key] is None:
-        for key in gold_data['patient_information']:
-            gold_value = str(gold_data['patient_information'][key]).lower()
-            results.append({
-                'field': key,
-                'correct': False,
-                'gold_value': gold_value,
-                'eval_value': "null"
-            })
-    else:
-        for key in gold_data['patient_information']:
-            matching_key = find_matching_key(key, eval_data[patient_info_key])
-            if matching_key:
-                gold_value = str(gold_data['patient_information'][key]).lower()
-                eval_value = str(eval_data['patient_information'][matching_key]).lower()
-                results.append({
-                    'field': key,
-                    'correct': gold_value == eval_value,
-                    'gold_value': gold_value,
-                    'eval_value': eval_value
-                })
 
-    # Check test results
-    if eval_data[test_results_key] is None:
-        for key in gold_data['test_results']:
-            gold_value = str(gold_data['test_results'][key]).lower()
-            results.append({
-                'field': key,
-                'correct': False,
-                'gold_value': gold_value,
-                'eval_value': "null"
-            })
-    else:
-        for gold_test in gold_data['test_results']:
-            
-            matching_test = None
-            for eval_test in eval_data[test_results_key]:
+    gold_articles = gold_data.get('articles', [])
+    eval_articles = eval_data.get(articles_key, [])
 
-                if not isinstance(eval_test, dict):
-                        print(f"Warning: eval_test is not a dictionary. Type: {type(eval_test)}")
-                        continue
+    used_eval_indices = set()
+    for gold_idx, gold_article in enumerate(gold_articles):
+        gold_headline = gold_article.get("headline", "").lower()
+        
+        best_score = 0
+        best_eval_idx = None
+        
+        for eval_idx, eval_article in enumerate(eval_articles):
+            if eval_idx in used_eval_indices:
+                continue
+            eval_headline = eval_article.get("headline", "").lower()
+            score = difflib.SequenceMatcher(None, gold_headline, eval_headline).ratio()
+            if score > best_score:
+                best_score = score
+                best_eval_idx = eval_idx
+        
+        # If found a close match above threshold
+        if best_eval_idx is not None and best_score > 0.5:
+            used_eval_indices.add(best_eval_idx)
+            eval_article = eval_articles[best_eval_idx]
+        else:
+            eval_article = {}
 
-                test_name_key = find_matching_key('test_name', eval_test)
-                
-                if eval_test[test_name_key] == None:
-                    eval_test[test_name_key] = "NA"
+        # Compare fields headline, subheadline, content
+        def similarity(a, b):
+            return difflib.SequenceMatcher(None, (a or "").lower(), (b or "").lower()).ratio()
 
-                if fuzz.ratio(gold_test['test_name'].lower(), eval_test[test_name_key].lower()) >= 80:
-                    matching_test = eval_test
-                    break
+        results.append({
+            "index": gold_idx,
+            "headline": {
+                "gold": gold_article.get("headline", ""),
+                "eval": eval_article.get("headline", ""),
+                "similarity": similarity(gold_article.get("headline", ""), eval_article.get("headline", ""))
+            },
+            "subheadline": {
+                "gold": gold_article.get("subheadline", ""),
+                "eval": eval_article.get("subheadline", ""),
+                "similarity": similarity(gold_article.get("subheadline", ""), eval_article.get("subheadline", ""))
+            },
+            "content": {
+                "gold": gold_article.get("content", ""),
+                "eval": eval_article.get("content", ""),
+                "similarity": similarity(gold_article.get("content", ""), eval_article.get("content", ""))
+            }
+        })
 
-            if matching_test:
-                test_result = {'test_name': gold_test['test_name']}
-                for key in gold_test:
-                    matching_key = find_matching_key(key, matching_test)
-                    if matching_key:
-                        gold_value = str(gold_test[key]).lower()
-                        eval_value = str(matching_test[matching_key]).lower()
-                        test_result[key] = {
-                            'field': key,
-                            'correct': gold_value == eval_value,
-                            'gold_value': gold_value,
-                            'eval_value': eval_value
-                        }
-                results.append(test_result)
+    # print(results)
 
     return results
 
-def prepare_for_sklearn_metrics(comparison_results):
+def prepare_for_sklearn_metrics(comparison_results, similarity_threshold=0.8):
     y_true = []
     y_pred = []
 
     for item in comparison_results:
-        if 'test_name' in item:  # It's a test result
-            for key, value in item.items():
-                if key != 'test_name':
-                    y_true.append(1)  # The gold standard is always considered correct
-                    y_pred.append(1 if value['correct'] else 0)
-        else:  # It's a patient information field
-            y_true.append(1)  # The gold standard is always considered correct
-            y_pred.append(1 if item['correct'] else 0)
+        # Each item corresponds to one gold article comparison, with fields headline, subheadline, content
+        for field in ['headline', 'subheadline', 'content']:
+            similarity = item.get(field, {}).get('similarity', 0)
+            correct = similarity >= similarity_threshold
+            y_true.append(1)          # Gold data always correct
+            y_pred.append(1 if correct else 0)
 
     return y_true, y_pred
 

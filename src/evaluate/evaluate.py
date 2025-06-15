@@ -7,7 +7,6 @@ def main():
     gold_standard_dir = "./data/json/"
     results_dir = "./results/txt/extracted/"
 
-    # Process all gold standards
     gold_standards = process_gold_standards(gold_standard_dir)
 
     results_path = Path(results_dir)
@@ -52,7 +51,7 @@ def main():
         else:
             print(f"Warning: No matching gold standard found for {eval_file.name}")
 
-    print(final_results)
+    # print(final_results)
 
     with open('./results/csv/evaluation.csv', 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
