@@ -1,28 +1,54 @@
-example3.jpg - Time needed: 0.009788751602172852 - Config 0: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.mean_filter
-Saved processed image to: ./results/images/preprocessed/example3_config0.tiff 
-example3.jpg - Time needed: 0.0013394355773925781 - Config 1: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
-Saved processed image to: ./results/images/preprocessed/example3_config1.tiff 
-example3.jpg - Time needed: 0.003667116165161133 - Config 2: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.median_filter
-Saved processed image to: ./results/images/preprocessed/example3_config2.tiff 
-example3.jpg - Time needed: 58.87675070762634 - Config 3: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.conservative_filter
-Saved processed image to: ./results/images/preprocessed/example3_config3.tiff 
-example3.jpg - Time needed: 0.011021614074707031 - Config 4: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
-Saved processed image to: ./results/images/preprocessed/example3_config4.tiff 
-example3.jpg - Time needed: 0.3266119956970215 - Config 5: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.frequency_filter
-Saved processed image to: ./results/images/preprocessed/example3_config5.tiff 
-example3.jpg - Time needed: 337.50103282928467 - Config 6: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
-Saved processed image to: ./results/images/preprocessed/example3_config6.tiff 
-example3.jpg - Time needed: 0.09629988670349121 - Config 7: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
-Saved processed image to: ./results/images/preprocessed/example3_config7.tiff 
-example3.jpg - Time needed: 0.007918357849121094 - Config 8: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
-Saved processed image to: ./results/images/preprocessed/example3_config8.tiff 
-example3.jpg - Time needed: 0.0017783641815185547 - Config 9: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
-Saved processed image to: ./results/images/preprocessed/example3_config9.tiff 
-example3.jpg - Time needed: 0.0033571720123291016 - Config 10: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.median_filter
-Saved processed image to: ./results/images/preprocessed/example3_config10.tiff 
-example3.jpg - Time needed: 78.92247748374939 - Config 11: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
-Saved processed image to: ./results/images/preprocessed/example3_config11.tiff 
-example3.jpg - Time needed: 0.012848615646362305 - Config 12: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
-Saved processed image to: ./results/images/preprocessed/example3_config12.tiff 
-example3.jpg - Time needed: 0.4266376495361328 - Config 13: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
-Saved processed image to: ./results/images/preprocessed/example3_config13.tiff 
+example2.png - Time needed: 0.1489s - Config 0: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.1407s - Config 1: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.1485s - Config 2: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.median_filter
+example2.png - Time needed: 0.2407s - Config 3: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.2529s - Config 4: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.2732s - Config 5: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+example2.png - Time needed: 0.0737s - Config 6: Binarization.basic, SkewCorrection.topline, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.0465s - Config 7: Binarization.basic, SkewCorrection.topline, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.0538s - Config 8: Binarization.basic, SkewCorrection.topline, NoiseRemoval.median_filter
+example2.png - Time needed: 0.1641s - Config 9: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.1635s - Config 10: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.1577s - Config 11: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.median_filter
+example2.png - Time needed: 0.2642s - Config 12: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.2511s - Config 13: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.2630s - Config 14: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+example2.png - Time needed: 0.0811s - Config 15: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.0570s - Config 16: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.0597s - Config 17: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.median_filter
+example2.png - Time needed: 0.2133s - Config 18: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.1980s - Config 19: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.1975s - Config 20: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.median_filter
+example2.png - Time needed: 0.3787s - Config 21: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.4191s - Config 22: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.4006s - Config 23: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+example2.png - Time needed: 0.1587s - Config 24: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.mean_filter
+example2.png - Time needed: 0.1076s - Config 25: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.gaussian_filter
+example2.png - Time needed: 0.1191s - Config 26: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.0914s - Config 0: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.0931s - Config 1: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0815s - Config 2: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.1904s - Config 3: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.2106s - Config 4: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0600s - Config 6: Binarization.basic, SkewCorrection.topline, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.2263s - Config 5: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.0473s - Config 7: Binarization.basic, SkewCorrection.topline, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0444s - Config 8: Binarization.basic, SkewCorrection.topline, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.0886s - Config 9: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.1016s - Config 10: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0814s - Config 11: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.2152s - Config 12: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.1828s - Config 13: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0607s - Config 15: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.0481s - Config 16: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.2474s - Config 14: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.0535s - Config 17: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.1023s - Config 18: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.0967s - Config 19: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0977s - Config 20: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.2973s - Config 21: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.0731s - Config 24: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.mean_filter
+example3.jpg - Time needed: 0.2930s - Config 22: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.0642s - Config 25: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.gaussian_filter
+example3.jpg - Time needed: 0.2967s - Config 23: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.median_filter
+example3.jpg - Time needed: 0.0889s - Config 26: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.median_filter

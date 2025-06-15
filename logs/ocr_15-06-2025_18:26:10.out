@@ -1,0 +1,1375 @@
+2025-06-15 18:26:22.194936: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-15 18:26:22.195058: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-15 18:26:22.196981: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-15 18:26:22.204995: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-15 18:26:23.024727: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Starting processing of 54 images with 5 methods
+Total tasks: 270
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:26:26.528774: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.532028: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.533558: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.538651: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.540170: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.541670: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.720621: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.721866: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.722955: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-15 18:26:26.723966: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79181 MB memory:  -> device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:05:00.0, compute capability: 8.0
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:26:29,848] [ WARNING] deprecation.py:50 - From /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1260: resize_bilinear (from tensorflow.python.ops.image_ops_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.image.resize(...method=ResizeMethod.BILINEAR...)` instead.
+[2025-06-15 18:26:31,363] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+2025-06-15 18:26:31.418798: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+[2025-06-15 18:26:31,801] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:32,094] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:32,390] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:33,257] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:33,261] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:33,265] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:33,269] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:33,272] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:33,274] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:26:33,773] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:34,125] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:34,516] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:34,879] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+2025-06-15 18:26:35.824573: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8902
+2025-06-15 18:26:35.881198: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+Progress: 5/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.23 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:26:50,520] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:50,524] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:50,527] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:50,529] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:50,532] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:26:50,535] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 21s 21s/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 21s 21s/step
+2025-06-15 18:27:02.758897: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)2025-06-15 18:27:02.778891: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+
+Error: NEW ERROR: Exception encountered when calling layer 'dense' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:27:07,189] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:07,512] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:07,748] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:08,023] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Progress: 10/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:27:13,073] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:13,077] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:13,079] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:13,081] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:13,084] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:13,086] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 15s 15s/step
+[2025-06-15 18:27:28,034] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+Progress: 15/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:27:28,631] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:29,031] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:29,372] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+2025-06-15 18:27:29.635013: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_2' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_2' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.50 GiB. GPU Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+
+Progress: 20/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:27:40,198] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:40,201] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:40,206] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:40,208] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:40,211] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:40,215] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:41,551] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:42,256] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:42,528] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:43,497] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 13s 13s/step
+2025-06-15 18:27:56.205360: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_1' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_1' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:27:57,871] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:57,874] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:57,876] [   DEBUG] lstm.py:589 - Layer lstm will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:57,879] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:57,881] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:27:57,884] [   DEBUG] lstm.py:589 - Layer lstm_1 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 15s 15s/step
+[2025-06-15 18:28:00,593] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:01,003] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:01,311] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:01,633] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:28:04.037906: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_1' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_1' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 25/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Progress: 30/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.43 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:28:16,621] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:16,931] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:17,250] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 13s 13s/step
+[2025-06-15 18:28:17,694] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:18,483] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:18,487] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:18,491] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:18,493] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:18,496] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:18,500] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:28:20,749] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:20,752] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:20,755] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:20,757] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:20,760] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:20,762] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 12s 12s/step
+2025-06-15 18:28:35.146514: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_3' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_3' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+2025-06-15 18:28:35.695640: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_4' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_4' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 35/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:28:39,246] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:39,671] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:40,084] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:40,349] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.23 GiB. GPU 
+[2025-06-15 18:28:41,660] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:41,663] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:41,665] [   DEBUG] lstm.py:589 - Layer lstm_2 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:41,668] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:41,670] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:41,672] [   DEBUG] lstm.py:589 - Layer lstm_3 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 230ms/step
+[2025-06-15 18:28:44,409] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:44,711] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:44,981] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:28:45,226] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:28:47.797844: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 40/270 tasks completed
+Error: NEW ERROR: Exception encountered when calling layer 'dense_6' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_6' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Progress: 45/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+[2025-06-15 18:29:00,400] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:29:00,985] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 13s 13s/step
+[2025-06-15 18:29:01,724] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:01,775] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:01,779] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:01,782] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:01,788] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:01,791] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:01,795] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:02,410] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 295ms/step
+2025-06-15 18:29:07.190764: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_6' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_6' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:29:07,523] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:07,526] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:07,530] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:07,533] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:07,537] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:07,539] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:29:10.958466: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_4' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_4' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 50/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:29:15,413] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:16,930] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:17,533] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:18,146] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.23 GiB. GPU 
+
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 310ms/step
+[2025-06-15 18:29:22,011] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:22,016] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:22,019] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:22,022] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:22,025] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:22,028] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:23,525] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:24,178] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:24,777] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:25,243] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:29:26.804170: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 55/270 tasks completedError: NEW ERROR: Exception encountered when calling layer 'dense_8' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_8' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 311ms/step
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:29:34,168] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:34,172] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:34,183] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:34,186] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:34,190] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:34,195] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+2025-06-15 18:29:34.287576: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 60/270 tasks completed
+Error: NEW ERROR: Exception encountered when calling layer 'dense_6' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_6' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:29:37,710] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:38,275] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:38,783] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:39,213] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:29:43,712] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:43,726] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:43,741] [   DEBUG] lstm.py:589 - Layer lstm_4 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:43,745] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:43,760] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:43,764] [   DEBUG] lstm.py:589 - Layer lstm_5 will use cuDNN kernels when running on GPU.
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.15 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 14s 14s/step
+[2025-06-15 18:29:55,775] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:56,197] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:56,412] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:29:56,697] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 65/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 7s 7s/step
+[2025-06-15 18:30:07,322] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:07,325] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:07,330] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:07,334] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:07,337] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:07,340] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:08,199] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:08,632] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:09,054] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+2025-06-15 18:30:09.289942: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_10' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_10' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:30:09,952] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:30:11.396959: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 70/270 tasks completed
+Error: NEW ERROR: Exception encountered when calling layer 'dense_7' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_7' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 538ms/step
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 
+2025-06-15 18:30:16.076958: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_11' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_11' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 75/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:30:18,106] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:18,109] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:18,112] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:18,114] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:18,117] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:18,119] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:19,515] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:20,150] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:20,561] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:20,896] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:30:28,919] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:28,925] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:28,928] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:28,931] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:28,936] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:28,939] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+Progress: 80/270 tasks completed
+Error: NEW ERROR: In this `tf.Variable` creation, the initial value's shape ((256, 124)) is not compatible with the explicitly supplied `shape` argument ((3, 3, 512, 512)).
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 10s 10s/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:30:37,210] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:37,213] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:37,215] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:37,220] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:37,225] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:37,229] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:38,775] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:39,049] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:39,269] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:39,563] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:30:40.974673: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 85/270 tasks completedError: NEW ERROR: Exception encountered when calling layer 'dense_13' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_13' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 284ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:30:44,854] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:44,861] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:44,863] [   DEBUG] lstm.py:589 - Layer lstm_6 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:44,866] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:44,868] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:44,870] [   DEBUG] lstm.py:589 - Layer lstm_7 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:47,887] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:48,722] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:49,536] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+2025-06-15 18:30:49.583929: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_10' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_10' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 90/270 tasks completed
+Error: NEW ERROR: {{function_node __wrapped__Pack_N_2_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:Pack] name: size
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:30:50,224] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 119ms/step
+[2025-06-15 18:30:53,981] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:53,984] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:53,986] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:53,988] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:53,991] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:30:53,993] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:30:58.809268: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_11' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_11' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 95/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.43 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:31:00,353] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:00,614] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:00,935] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:01,329] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+[2025-06-15 18:31:03,754] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:03,761] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:03,764] [   DEBUG] lstm.py:589 - Layer lstm_8 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:03,767] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:03,770] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:03,772] [   DEBUG] lstm.py:589 - Layer lstm_9 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 264ms/step
+[2025-06-15 18:31:05,990] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:06,287] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:06,552] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:06,924] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:31:09.240705: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 100/270 tasks completedError: NEW ERROR: Exception encountered when calling layer 'dense_13' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_13' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 553ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+[2025-06-15 18:31:14,079] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:14,082] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:14,084] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:14,087] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:14,089] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:14,091] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:14,965] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:15,460] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:15,968] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:16,249] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:31:16.893019: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 105/270 tasks completedError: NEW ERROR: Exception encountered when calling layer 'dense_13' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_13' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 318ms/step
+2025-06-15 18:31:21.981643: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_13' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_13' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:31:22,247] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:22,250] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:22,253] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:22,255] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:22,258] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:22,261] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:24,714] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:24,980] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:25,210] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:25,711] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.50 GiB. GPU 
+Progress: 110/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 397ms/step
+2025-06-15 18:31:31.386203: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_16' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_16' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+[2025-06-15 18:31:31,753] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:31,755] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:31,758] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:31,761] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:31,763] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:31,765] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+Progress: 115/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:31:36,672] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:37,613] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:37,875] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:38,099] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:31:39,029] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:39,032] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:39,034] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:39,037] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:39,039] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:39,041] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 275ms/step
+2025-06-15 18:31:41.074544: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_18' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_18' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 120/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:31:44,688] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:44,941] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:45,204] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:45,494] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 238ms/step
+[2025-06-15 18:31:49,431] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:49,434] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:49,439] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:49,443] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:49,445] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:49,448] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:49,555] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:49,893] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:50,377] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:50,729] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+2025-06-15 18:31:52.746657: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 125/270 tasks completed
+Error: NEW ERROR: Exception encountered when calling layer 'dense_20' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_20' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 556ms/step
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 
+2025-06-15 18:31:57.579745: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_15' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_15' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:31:58,756] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:58,759] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:58,762] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:58,764] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:58,767] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:31:58,770] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+Progress: 130/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:32:01,625] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:02,184] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:02,608] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:03,002] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+2025-06-15 18:32:03.888836: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at strided_slice_op.cc:117 : INVALID_ARGUMENT: Expected begin, end, and strides to be 1D equal size tensors, but got shapes [4], [1], and [1] instead.
+2025-06-15 18:32:03.893095: W tensorflow/core/framework/op_kernel.cc:1827] INVALID_ARGUMENT: required broadcastable shapes
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: NEW ERROR: {{function_node __wrapped__StridedSlice_device_/job:localhost/replica:0/task:0/device:GPU:0}} Expected begin, end, and strides to be 1D equal size tensors, but got shapes [4], [1], and [1] instead. [Op:StridedSlice] name: strided_slice/
+[2025-06-15 18:32:05,702] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:05,705] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:05,707] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:05,710] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:05,712] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:05,715] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 344ms/step
+[2025-06-15 18:32:10,848] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:11,143] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:11,422] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:11,707] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:32:12.370410: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_17' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_17' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+Progress: 135/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 310ms/step
+[2025-06-15 18:32:15,730] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:15,735] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:15,738] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:15,741] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:15,744] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:15,749] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:16,155] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:16,579] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:16,984] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:17,410] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:32:18.612682: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_23' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_23' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 150ms/step
+2025-06-15 18:32:19.641296: W tensorflow/core/framework/op_kernel.cc:1827] INVALID_ARGUMENT: required broadcastable shapes
+Progress: 140/270 tasks completed
+Error: NEW ERROR: {{function_node __wrapped__RealDiv_device_/job:localhost/replica:0/task:0/device:GPU:0}} required broadcastable shapes [Op:RealDiv] name: 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.43 GiB. GPU 
+[2025-06-15 18:32:23,442] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:23,446] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:23,449] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:23,452] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:23,455] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:23,457] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+2025-06-15 18:32:23.976048: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_19' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_19' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:32:26,334] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:26,604] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:26,841] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:27,215] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 145/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 372ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+2025-06-15 18:32:32.619706: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 150/270 tasks completed
+Error: NEW ERROR: Exception encountered when calling layer 'dense_21' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_21' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:32:33,547] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:33,550] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:33,552] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:33,555] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:33,557] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:33,559] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:38,272] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:38,496] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:38,721] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:38,987] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:32:39,916] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:39,919] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:39,922] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:39,925] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:39,927] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:39,930] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 300ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:32:45,245] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:45,569] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:45,827] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:46,043] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:32:46.980829: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_20' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_20' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 155/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.27 GiB. GPU 
+
+Progress: 160/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:32:57,029] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:57,334] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:57,584] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:57,850] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 11s 11s/step
+[2025-06-15 18:32:59,140] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:59,143] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:59,147] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:59,150] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:59,156] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:32:59,159] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 424ms/step
+[2025-06-15 18:33:01,911] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:01,914] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:01,917] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:01,919] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:01,922] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:01,924] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+2025-06-15 18:33:04.945211: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_26' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_26' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+2025-06-15 18:33:05.396988: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_22' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_22' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 165/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:33:09,474] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:10,216] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:10,665] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:11,059] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 335ms/step
+[2025-06-15 18:33:13,359] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:13,363] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:13,367] [   DEBUG] lstm.py:589 - Layer lstm_12 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:13,370] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:13,373] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:13,376] [   DEBUG] lstm.py:589 - Layer lstm_13 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:14,903] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:15,165] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:15,428] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:15,735] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+2025-06-15 18:33:18.432937: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 170/270 tasks completed
+Error: NEW ERROR: Exception encountered when calling layer 'dense_24' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_24' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 305ms/step
+2025-06-15 18:33:21.357905: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: Exception encountered when calling layer 'dense_25' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_25' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:33:21,753] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:21,757] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:21,759] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:21,761] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:21,764] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:21,766] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+Progress: 175/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:33:24,534] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:24,889] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:25,242] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:25,975] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 673ms/step
+[2025-06-15 18:33:30,662] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:30,665] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:30,668] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:30,671] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:30,673] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:30,675] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+
+2025-06-15 18:33:32.887623: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_27' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_27' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 180/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:33:37,803] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:33:38,257] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:38,632] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:39,017] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:33:40,561] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:40,564] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:40,567] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:40,570] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:40,573] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:40,579] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 543ms/step
+[2025-06-15 18:33:42,377] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:42,593] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:42,930] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:43,260] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:33:45.839403: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_21' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_21' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)Progress: 185/270 tasks completed
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 380ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:33:50,401] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:50,405] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:50,407] [   DEBUG] lstm.py:589 - Layer lstm_14 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:50,410] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:50,413] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:50,416] [   DEBUG] lstm.py:589 - Layer lstm_15 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:51,794] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:52,101] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+2025-06-15 18:33:52.297204: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_29' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_29' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:33:52,381] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:52,587] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 190/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 720ms/step
+[2025-06-15 18:33:57,788] [   DEBUG] lstm.py:589 - Layer lstm_22 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:57,791] [   DEBUG] lstm.py:589 - Layer lstm_22 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:57,794] [   DEBUG] lstm.py:589 - Layer lstm_22 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:57,796] [   DEBUG] lstm.py:589 - Layer lstm_23 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:57,799] [   DEBUG] lstm.py:589 - Layer lstm_23 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:33:57,801] [   DEBUG] lstm.py:589 - Layer lstm_23 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:33:58.968194: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_28' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_28' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:34:00,352] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:00,867] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:01,663] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:02,198] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 195/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 205ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:34:07,229] [   DEBUG] lstm.py:589 - Layer lstm_24 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:07,232] [   DEBUG] lstm.py:589 - Layer lstm_24 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:07,236] [   DEBUG] lstm.py:589 - Layer lstm_24 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:07,239] [   DEBUG] lstm.py:589 - Layer lstm_25 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:07,243] [   DEBUG] lstm.py:589 - Layer lstm_25 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:07,246] [   DEBUG] lstm.py:589 - Layer lstm_25 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:07,367] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:07,770] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:08,252] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:08,607] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:34:09.475342: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_24' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_24' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 200/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.27 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 277ms/step
+[2025-06-15 18:34:14,077] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:14,080] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:14,082] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:14,084] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:14,087] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:14,091] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:34:15.116007: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_31' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_31' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:34:17,976] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:18,210] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:18,425] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:18,683] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Progress: 205/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 117ms/step
+[2025-06-15 18:34:21,486] [   DEBUG] lstm.py:589 - Layer lstm_22 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:21,488] [   DEBUG] lstm.py:589 - Layer lstm_22 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:21,491] [   DEBUG] lstm.py:589 - Layer lstm_22 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:21,493] [   DEBUG] lstm.py:589 - Layer lstm_23 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:21,495] [   DEBUG] lstm.py:589 - Layer lstm_23 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:21,497] [   DEBUG] lstm.py:589 - Layer lstm_23 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:34:24.476275: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_31' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_31' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:34:26,093] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:26,317] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:26,527] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:26,724] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 210/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 289ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:34:30,231] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:30,235] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:30,237] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:30,240] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:30,242] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:30,245] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+2025-06-15 18:34:31.486686: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_26' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_26' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 215/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:34:34,668] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:35,041] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:35,381] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:35,685] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 228ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:34:38,071] [   DEBUG] lstm.py:589 - Layer lstm_26 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:38,073] [   DEBUG] lstm.py:589 - Layer lstm_26 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:38,075] [   DEBUG] lstm.py:589 - Layer lstm_26 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:38,078] [   DEBUG] lstm.py:589 - Layer lstm_27 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:38,080] [   DEBUG] lstm.py:589 - Layer lstm_27 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:38,082] [   DEBUG] lstm.py:589 - Layer lstm_27 will use cuDNN kernels when running on GPU.
+2025-06-15 18:34:40.643602: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_32' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_32' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 220/270 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.27 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:34:41,729] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:42,947] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:43,493] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:43,847] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 238ms/step
+[2025-06-15 18:34:46,499] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:46,502] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:46,505] [   DEBUG] lstm.py:589 - Layer lstm_16 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:46,508] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:46,511] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:46,513] [   DEBUG] lstm.py:589 - Layer lstm_17 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:48,864] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:49,164] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:49,483] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:49,734] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 
+Progress: 225/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+2025-06-15 18:34:52.445448: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_34' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_34' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 220ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:34:55,467] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:55,470] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:55,474] [   DEBUG] lstm.py:589 - Layer lstm_18 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:55,478] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:55,482] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:55,486] [   DEBUG] lstm.py:589 - Layer lstm_19 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:56,118] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:56,590] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:57,031] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:34:57,399] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:34:58.559599: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_34' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_34' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 230/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 783ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:35:03,629] [   DEBUG] lstm.py:589 - Layer lstm_24 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:03,632] [   DEBUG] lstm.py:589 - Layer lstm_24 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:03,634] [   DEBUG] lstm.py:589 - Layer lstm_24 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:03,637] [   DEBUG] lstm.py:589 - Layer lstm_25 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:03,640] [   DEBUG] lstm.py:589 - Layer lstm_25 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:03,642] [   DEBUG] lstm.py:589 - Layer lstm_25 will use cuDNN kernels when running on GPU.
+2025-06-15 18:35:05.901554: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_36' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_36' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:35:06,625] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:06,930] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:07,765] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:08,572] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 235/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 273ms/step
+[2025-06-15 18:35:11,900] [   DEBUG] lstm.py:589 - Layer lstm_26 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:11,904] [   DEBUG] lstm.py:589 - Layer lstm_26 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:11,907] [   DEBUG] lstm.py:589 - Layer lstm_26 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:11,909] [   DEBUG] lstm.py:589 - Layer lstm_27 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:11,912] [   DEBUG] lstm.py:589 - Layer lstm_27 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:11,914] [   DEBUG] lstm.py:589 - Layer lstm_27 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:35:16,077] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+2025-06-15 18:35:16.531433: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_30' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_30' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:35:16,559] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:16,823] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:17,055] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Progress: 240/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.46 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 218ms/step
+[2025-06-15 18:35:21,077] [   DEBUG] lstm.py:589 - Layer lstm_28 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:21,080] [   DEBUG] lstm.py:589 - Layer lstm_28 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:21,084] [   DEBUG] lstm.py:589 - Layer lstm_28 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:21,090] [   DEBUG] lstm.py:589 - Layer lstm_29 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:21,096] [   DEBUG] lstm.py:589 - Layer lstm_29 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:21,098] [   DEBUG] lstm.py:589 - Layer lstm_29 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:22,633] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:22,868] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:23,239] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:23,773] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+2025-06-15 18:35:25.876578: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Progress: 245/270 tasks completed
+Error: NEW ERROR: Exception encountered when calling layer 'dense_36' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_36' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 211ms/step
+[2025-06-15 18:35:28,549] [   DEBUG] lstm.py:589 - Layer lstm_28 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:28,552] [   DEBUG] lstm.py:589 - Layer lstm_28 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:28,555] [   DEBUG] lstm.py:589 - Layer lstm_28 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:28,557] [   DEBUG] lstm.py:589 - Layer lstm_29 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:28,559] [   DEBUG] lstm.py:589 - Layer lstm_29 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:28,561] [   DEBUG] lstm.py:589 - Layer lstm_29 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:35:29.695270: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_38' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_38' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:35:32,234] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:32,976] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:33,248] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:33,508] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 250/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.45 GiB. GPU 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 285ms/step
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+[2025-06-15 18:35:36,888] [   DEBUG] lstm.py:589 - Layer lstm_30 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:36,891] [   DEBUG] lstm.py:589 - Layer lstm_30 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:36,894] [   DEBUG] lstm.py:589 - Layer lstm_30 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:36,896] [   DEBUG] lstm.py:589 - Layer lstm_31 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:36,899] [   DEBUG] lstm.py:589 - Layer lstm_31 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:36,901] [   DEBUG] lstm.py:589 - Layer lstm_31 will use cuDNN kernels when running on GPU.
+2025-06-15 18:35:38.951021: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_37' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_37' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+[2025-06-15 18:35:41,520] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+Progress: 255/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.15 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:35:42,229] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:42,603] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:42,937] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 563ms/step
+[2025-06-15 18:35:45,806] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:45,809] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:45,811] [   DEBUG] lstm.py:589 - Layer lstm_20 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:45,813] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:45,816] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:45,818] [   DEBUG] lstm.py:589 - Layer lstm_21 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-15 18:35:47.011374: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_32' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_32' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Progress: 260/270 tasks completedError: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:35:51,576] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:51,800] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:52,114] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:52,345] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[2025-06-15 18:35:53,023] [   DEBUG] lstm.py:589 - Layer lstm_30 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:53,025] [   DEBUG] lstm.py:589 - Layer lstm_30 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:53,027] [   DEBUG] lstm.py:589 - Layer lstm_30 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:53,030] [   DEBUG] lstm.py:589 - Layer lstm_31 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:53,032] [   DEBUG] lstm.py:589 - Layer lstm_31 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:53,034] [   DEBUG] lstm.py:589 - Layer lstm_31 will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 236ms/step
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.15 GiB. GPU 
+[2025-06-15 18:35:57,694] [   DEBUG] lstm.py:589 - Layer lstm_10 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:57,921] [   DEBUG] lstm.py:589 - Layer lstm_10_back will use cuDNN kernels when running on GPU.
+[2025-06-15 18:35:58,140] [   DEBUG] lstm.py:589 - Layer lstm_11 will use cuDNN kernels when running on GPU.
+Progress: 265/270 tasks completed
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+[2025-06-15 18:35:58,699] [   DEBUG] lstm.py:589 - Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-15 18:36:00.729086: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_40' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_40' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 91ms/step
+[2025-06-15 18:36:01,393] [   DEBUG] lstm.py:589 - Layer lstm_32 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:36:01,396] [   DEBUG] lstm.py:589 - Layer lstm_32 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:36:01,398] [   DEBUG] lstm.py:589 - Layer lstm_32 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:36:01,401] [   DEBUG] lstm.py:589 - Layer lstm_33 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:36:01,403] [   DEBUG] lstm.py:589 - Layer lstm_33 will use cuDNN kernels when running on GPU.
+[2025-06-15 18:36:01,405] [   DEBUG] lstm.py:589 - Layer lstm_33 will use cuDNN kernels when running on GPU.
+2025-06-15 18:36:03.400709: W tensorflow/core/framework/op_kernel.cc:1839] OP_REQUIRES failed at matmul_op_impl.h:817 : INTERNAL: the function failed to launch on the GPU
+Error: NEW ERROR: Exception encountered when calling layer 'dense_41' (type Dense).
+
+{{function_node __wrapped__MatMul_device_/job:localhost/replica:0/task:0/device:GPU:0}} the function failed to launch on the GPU [Op:MatMul] name: 
+
+Call arguments received by layer 'dense_41' (type Dense):
+  • inputs=tf.Tensor(shape=(32, 11200), dtype=float32)
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.11 GiB. GPU 
+Progress: 270/270 tasks completed
+
+============================================================
+PROCESSING SUMMARY
+============================================================
+Total time: 579.10 seconds
+Processing log saved to: ./results/txt/extracted/ocr_results_log.txt
+============================================================

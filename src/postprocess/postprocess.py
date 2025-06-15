@@ -7,28 +7,18 @@ from utils_postprocessing import parse_ocr_results
 import json
 
 
-
-    def __init__(self, model_name, api_key, base_url="https://api.endpoints.anyscale.com/v1"):
-        self.base_url = base_url
-        self.api_key = api_key
+class ollama:
+    def __init__(self, model_name):
         self.model_name = model_name
 
     def chat_completion(self, prompt, question):
-
-        client = OpenAI(
-            base_url=self.base_url,
-            api_key=self.api_key
-        )
-
-        chat_completion = client.chat.completions.create(
-            model=self.model_name,
+        response: ChatResponse = chat(
+            model=self.model_name, 
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": question}],
             temperature=0.1
         )
-
-        response = chat_completion.choices[0].message.content
-
+        response = response['message']['content']
         return response
 
     def extract_test_results(self, ocr_text):
@@ -87,13 +77,8 @@ import json
 
 
 def main():
-    load_dotenv('./postprocessing_venv/key.env')  # Load the .env file
-
-    ANYSCALE_API_KEY = os.getenv('API_KEY')  # Access the API key
     models = {
-        "meta-llama/Meta-Llama-3-8B-Instruct": "Llama37B",
-        "mistralai/Mistral-7B-Instruct-v0.1": "Mistral7B",
-        "google/gemma-7b-it": "Gemma7B"
+        "phi4:latest": "phi4",
     }
 
     for key, model in models.items():
