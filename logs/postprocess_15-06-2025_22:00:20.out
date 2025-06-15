@@ -1,0 +1,35 @@
+Starting multithreaded LLM postprocessing...
+Models to process: ['phi4']
+
+Loading OCR results...
+2
+Loaded 2 OCR results
+
+============================================================
+Starting multithreaded processing for model: phi4
+Total OCR results to process: 2
+Using 64 worker threads
+============================================================
+✓ Progress: 1/2 (50.0%) - Processed trome2021-03-02#02_config0.tiff with phi4 in 1.72s
+✓ Progress: 2/2 (100.0%) - Processed example2_config0.tiff with phi4 in 10.64s
+
+============================================================
+Completed processing for phi4
+Total processing time: 10.64 seconds
+Average time per result: 5.32 seconds
+
+Saving results to JSON files...
+JSON Parse ERROR for trome2021-03-02#02_config0.tiff: Expecting value: line 1 column 1 (char 0)
+JSON Parse ERROR for example2_config0.tiff: Expecting value: line 1 column 1 (char 0)
+✓ Successfully saved: 0 files
+✗ Errors encountered: 2 files
+============================================================
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+Total execution time: 10.64 seconds
+Models processed: 1
+Total OCR results per model: 2
+Total processing tasks: 2
+================================================================================
