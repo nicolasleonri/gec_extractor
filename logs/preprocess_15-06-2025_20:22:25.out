@@ -1,0 +1,17 @@
+Using 64 threads in per-image mode
+Total configurations to test: 1
+Processing 1 images
+Processing: example2.png
+Progress: 1/1 configurations completed
+Completed processing example2.png
+--------------------------------------------------
+
+============================================================
+PROCESSING SUMMARY
+============================================================
+Total time: 1.09 seconds
+Successful processes: 1
+Failed processes: 0
+Average time per successful process: 1.092 seconds
+Processing log saved to: ./logs/preprocess.out
+============================================================
