@@ -26,40 +26,43 @@ class ollama:
 
     def extract_test_results(self, ocr_text):
         prompt = """
-        CONTEXT: You are an expert in analyzing blood test results in a laboratory. Your work is extremely important and will be used in a life or death situation.  
+        CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text.
 
-        TASK: Given the following text extracted from a blood test report, please extract and structure the following information:
-        - Date of the test
-        - Patient information (if available)
-        - Test results, including:
-            - Test name
-            - Result value
-            - Unit of measurement
-            - Reference range (if available)
+        TASK: Given the extracted content, please extract and structure the following information into a JSON object containing only:
 
-        Format the output as a JSON object. If a piece of information is not available, use null for its value.
+        - articles: a list of article objects, each with:
+            - headline (string)
+            - subheadline (string or null)
+            - byline (string or null)
+            - content (string)
+
+        Focus on extracting articles (small or long) with actual information. Exclude any brief news items like: date, weather, public announcements, or other short notices that do not contain substantial content.
+
+        If any field is missing or unavailable, use null for its value.
+
+        Format the output strictly as a JSON object like the example below.
 
         EXAMPLE:
         {
-        "Date": "XX.XX.XXX",
-        "patient_information": {
-            "patient_id": [FILL],
-            "patient_name": "[FILL]",
-            "patient_sex": "[FILL]",
-            "patient_age": [FILL]
-            },
-        "test_results": [
+        "articles": [
             {
-                "test_name": "[FILL]",
-                "result_value": [FILL],
-                "unit_of_measurement": "[FILL]",
-                "reference_range": "[FILL]"
+            "headline": "El loco del martillo",
+            "subheadline": "La Seño María",
+            "byline": null,
+            "content": "Full article content here..."
+            },
+            {
+            "headline": "Contento por fin de cuarentena",
+            "subheadline": "Habla Trome",
+            "byline": "Ismael Lazo, Vecino de San Luis",
+            "content": "Brief news content here..."
             }
-            ]
+            // More articles and briefs...
+        ]
         }
-        
-        IMPORTANT: Just return the JSON object. Do not make any further comment. Otherwise, the patient will die.
-        IMPORTANT: Avoid the following error "JSON Parse ERROR: Expecting value: line 1 column 1 (char 0)" as this is a typical error.
+
+        IMPORTANT: Only return the JSON object exactly as specified. Do not add any explanation or commentary.
+        IMPORTANT: Avoid JSON parsing errors like empty or malformed outputs.
         """
         response = self.chat_completion(prompt, ocr_text)
 
@@ -283,11 +286,11 @@ def main():
         
     models = {
         "phi4:latest": "phi4",
-        # "llama4:latest": "llama4",
-        # "gemma3:27b": "gemma3",
-        # "qwen3:32b": "qwen3",
-        # "deepseek-r1:32b": "deepseek-r1",
-        # "magistral:24b": "magistral",
+        "llama4:latest": "llama4",
+        "gemma3:27b": "gemma3",
+        "qwen3:32b": "qwen3",
+        "deepseek-r1:32b": "deepseek-r1",
+        "magistral:24b": "magistral",
     }
     
     print("Starting multithreaded LLM postprocessing...")

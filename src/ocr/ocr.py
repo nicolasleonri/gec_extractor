@@ -157,10 +157,10 @@ def main():
     # Define the OCR classes and their corresponding process methods
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
-        # "KerasOCR": KerasOCR.process,
-        # "EasyOCR": EasyOCR.process,
-        # "PaddleOCR": PaddlePaddle.process,
-        # "docTR": docTR.process
+        "KerasOCR": KerasOCR.process,
+        "EasyOCR": EasyOCR.process,
+        "PaddleOCR": PaddlePaddle.process,
+        "docTR": docTR.process
     }
     
     # Define the directory containing image files
