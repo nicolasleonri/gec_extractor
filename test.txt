@@ -1,0 +1,44 @@
+Starting processing of 2 images with 5 methods
+Total tasks: 10
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+Progress: 5/10 tasks completed
+Error: COMMON ERROR: CUDA out of memory. Tried to allocate 1.54 GiB. GPU 
+Error: NEW ERROR: (InvalidArgument) Failed to parse program_desc from binary string.
+  [Hint: Expected desc_.ParseFromString(binary_str) == true, but received desc_.ParseFromString(binary_str):0 != true:1.] (at /paddle/paddle/fluid/framework/program_desc.cc:152)
+
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 22s 22s/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 25s 25s/step
+1/7 [===>..........................] - ETA: 33s2/7 [=======>......................] - ETA: 2s 3/7 [===========>..................] - ETA: 1s4/7 [================>.............] - ETA: 1s5/7 [====================>.........] - ETA: 0s6/7 [========================>.....] - ETA: 0sError: NEW ERROR: Exception encountered when calling layer 'backward_lstm' (type LSTM).
+
+{{function_node __wrapped__CudnnRNN_device_/job:localhost/replica:0/task:0/device:GPU:0}} input_h and input_c must have the same shape w/o projection: [1,128,128] [1,135,1] [Op:CudnnRNN]
+
+Call arguments received by layer 'backward_lstm' (type LSTM):
+  • inputs=tf.Tensor(shape=(128, 32, 512), dtype=float32)
+  • mask=None
+  • training=False
+  • initial_state=None
+Error: NEW ERROR: Exception encountered when calling layer 'crnn' (type CRNN).
+
+{{function_node __wrapped__Pack_N_2_device_/job:localhost/replica:0/task:0/device:GPU:0}} input_h and input_c must have the same shape w/o projection: [1,128,128] [1,135,1] [Op:Pack] name: 
+
+Call arguments received by layer 'crnn' (type CRNN):
+  • x=tf.Tensor(shape=(128, 32, 128, 3), dtype=float32)
+  • target=None
+  • return_model_output=False
+  • return_preds=True
+  • beam_width=1
+  • top_paths=1
+  • kwargs={'training': 'False'}
+7/7 [==============================] - ETA: 0s7/7 [==============================] - 10s 782ms/step
+1/7 [===>..........................] - ETA: 0s2/7 [=======>......................] - ETA: 0s3/7 [===========>..................] - ETA: 0s4/7 [================>.............] - ETA: 0s5/7 [====================>.........] - ETA: 0s6/7 [========================>.....] - ETA: 0s7/7 [==============================] - ETA: 0s7/7 [==============================] - 2s 257ms/step
+Progress: 10/10 tasks completed
+--------------------------------------------------
+All processing completed in 53.02 seconds
+Processing log saved to: ./results/txt/extracted/ocr_results_log.txt

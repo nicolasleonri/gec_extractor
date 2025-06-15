@@ -8,7 +8,15 @@ import itertools
 import cv2
 from pdf2image import convert_from_path
 import sys
-
+import multiprocessing as mp
+from concurrent.futures import ProcessPoolExecutor, as_completed
+from threading import Lock
+import gc
+import psutil
+from functools import lru_cache
+import hashlib
+import pickle
+from pathlib import Path
 
 class Binarization:
     @staticmethod
@@ -326,12 +334,12 @@ class NoiseRemoval:
             for i in range(1, image.shape[0] - 1):
                 for j in range(1, image.shape[1] - 1):
                     current_iteration += 1
-                    if current_iteration == total_iterations // 4:
-                        print("Loading: 25%")
-                    elif current_iteration == total_iterations // 2:
-                        print("Loading: 50%")
-                    elif current_iteration == 3 * (total_iterations // 4):
-                        print("Loading: 75%")
+                    # if current_iteration == total_iterations // 4:
+                    #     print("Loading: 25%")
+                    # elif current_iteration == total_iterations // 2:
+                    #     print("Loading: 50%")
+                    # elif current_iteration == 3 * (total_iterations // 4):
+                    #     print("Loading: 75%")
 
                     current_pixel = output[i, j]
                     neighbors = [output[i-1, j], output[i+1, j],
@@ -357,63 +365,180 @@ class NoiseRemoval:
         return sharpened
 
 
+def process_image_configuration(args):
+    """
+    Process a single image with a single configuration.
+    This function will be run in parallel.
+    """
+    image_data, image_file, config, idx, processed_dir = args
+    
+    try:
+        processed_image = image_data.copy()  # Work on a copy
+        techniques = []
+        
+        start_time = time.time()
+        
+        # Apply each preprocessing step
+        for step, method in config["preprocess"]:
+            processed_image = getattr(step, method)(processed_image)
+            techniques.append(f"{step.__name__}.{method}")
+        
+        end_time = time.time()
+        time_elapsed = end_time - start_time
+        
+        # Save the processed image
+        filepath = os.path.join(processed_dir, f"{image_file.stem}_config{idx}.tiff")
+        save_image(processed_image, filepath)
+        
+        # Create log entry
+        log_entry = f"{image_file.name} - Time needed: {time_elapsed:.4f}s - Config {idx}: {', '.join(techniques)}\n"
+        
+        del processed_image
+        gc.collect()
+        del image_data
+
+        return {
+            'success': True,
+            'log_entry': log_entry,
+            'config_idx': idx,
+            'techniques': techniques,
+            'time_elapsed': time_elapsed,
+            'image_name': image_file.name
+        }
+        
+    except Exception as e:
+        error_msg = f"ERROR processing {image_file.name} with config {idx}: {str(e)}\n"
+        return {
+            'success': False,
+            'log_entry': error_msg,
+            'config_idx': idx,
+            'error': str(e),
+            'image_name': image_file.name
+        }
+
+def process_single_image_all_configs(image_file, configurations, processed_dir, max_workers=None):
+    """
+    Process a single image with all configurations using threading.
+    """
+    print(f"Processing: {image_file.name}")
+    
+    # Read image once
+    try:
+        image = read_image(image_file)
+    except Exception as e:
+        print(f"Error reading {image_file.name}: {e}")
+        return []
+    
+    # Prepare arguments for all configurations for this image
+    args_list = [
+        (image, image_file, config, idx, processed_dir) 
+        for idx, config in enumerate(configurations)
+    ]
+    
+    results = []
+    completed_count = 0
+    total_configs = len(configurations)
+    
+    # Use ProcessPoolExecutor for I/O bound operations (image saving)
+    # For CPU-bound operations, you might want to use ProcessPoolExecutor instead
+    with ProcessPoolExecutor(max_workers=max_workers) as executor:
+        # Submit all tasks
+        future_to_args = {
+            executor.submit(process_image_configuration, args): args 
+            for args in args_list
+        }
+        
+        # Process completed tasks
+        for future in as_completed(future_to_args):
+            result = future.result()
+            results.append(result)
+            completed_count += 1
+            
+            # if result['success']:
+            #     print(f"✓ Config {result['config_idx']}: {', '.join(result['techniques'])} ({result['time_elapsed']:.3f}s)")
+            # else:
+            #     print(f"✗ Config {result['config_idx']}: {result['error']}")
+            
+            # Progress update
+            if completed_count % 5 == 0 or completed_count == total_configs:
+                print(f"Progress: {completed_count}/{total_configs} configurations completed")
+    
+    print(f"Completed processing {image_file.name}")
+    print("-" * 50)
+    return results
+
 def print_help():
     help_text = """
-Preprocessing Pipeline Help
---------------------------
+    Preprocessing Pipeline Help
+    --------------------------
 
-This script runs a comprehensive image preprocessing pipeline for OCR, testing multiple combinations of:
+    This script runs a comprehensive image preprocessing pipeline for OCR, testing multiple combinations of:
 
-Binarization Methods:
-    - Basic thresholding
-    - Otsu's method (with/without Gaussian)
-    - Adaptive Mean
-    - Adaptive Gaussian
-    - Yannihorne method
-    - Niblack method (configurable window size and k value)
+    Binarization Methods:
+        - Basic thresholding
+        - Otsu's method (with/without Gaussian)
+        - Adaptive Mean
+        - Adaptive Gaussian
+        - Yannihorne method
+        - Niblack method (configurable window size and k value)
 
-Skew Correction Methods:
-    - Bounding boxes
-    - Hough transform
-    - Moments
-    - Topline detection
-    - Scanline detection
+    Skew Correction Methods:
+        - Bounding boxes
+        - Hough transform
+        - Moments
+        - Topline detection
+        - Scanline detection
 
-Noise Removal Methods:
-    - Mean filter
-    - Gaussian filter
-    - Median filter
-    - Conservative filter
-    - Laplacian filter
-    - Frequency domain filter
-    - Crimmins speckle removal
-    - Unsharp masking
+    Noise Removal Methods:
+        - Mean filter
+        - Gaussian filter
+        - Median filter
+        - Conservative filter
+        - Laplacian filter
+        - Frequency domain filter
+        - Crimmins speckle removal
+        - Unsharp masking
 
-Usage:
-    python preprocessing.py              # Run full pipeline with all combinations based on data folder "./data/images/"
-    
-    python preprocessing.py --help       # Show this help message
-    python preprocessing.py --h       # Show this help message
-    python preprocessing.py -h       # Show this help message
+    Usage:
+        python preprocessing.py              # Run full pipeline with all combinations based on (default) data folder "./data/images/"
+        python preprocessing.py --help/--h/-h     # Show this help message
 
-Input/Output:
-    - Input images should be in ./data/images/
-    - Processed images will be saved in ./results/images/preprocessed/
-    - Processing log will be saved as preprocessing_log.txt
+    Input/Output:
+        - Input images should be in ./data/images/
+        - Processed images will be saved in ./results/images/preprocessed/
+        - Processing log will be saved as ./logs/preprocess.out
     """
     print(help_text)
 
 def main():
-    if len(sys.argv) > 1 and (sys.argv[1] == '--help' or sys.argv[1]== "--h" or sys.argv[1]== "-h" ):
-        print_help()
-        return
+    gc.enable()
 
-    binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+    # Parse command line arguments
+    max_threads = mp.cpu_count()
+    processing_mode = "per-image"  # default mode
 
-    skew_correction_methods = ["boxes", "hough_transform", "moments", "topline", "scanline"]
+    if len(sys.argv) > 1:
+        if any(arg in ['--help', '--h', '-h'] for arg in sys.argv):
+            print_help()
+            return
+        
+        for i, arg in enumerate(sys.argv[1:], 1):
+            if arg == '--threads' and i + 1 < len(sys.argv):
+                try:
+                    max_threads = int(sys.argv[i + 1])
+                except ValueError:
+                    print("Invalid thread count. Using default.")
+            elif arg == '--per-image':
+                processing_mode = "per-image"
+            elif arg == '--global':
+                processing_mode = "global"
 
-    noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter",
-                            "laplacian_filter", "frequency_filter", "crimmins_speckle_removal", "unsharp_filter"]
+    print(f"Using {max_threads} threads in {processing_mode} mode")
+
+    # Define preprocessing methods
+    binarization_methods = ["basic", "otsu", "adaptive_mean",] #  "adaptive_gaussian", "yannihorne", "niblack"
+    skew_correction_methods = ["boxes", "hough_transform", "topline",] #  "scanline", "moments"
+    noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter",] #  "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"
 
     # Generate all possible configurations
     configurations = [
@@ -424,50 +549,99 @@ def main():
                 (NoiseRemoval, noise_method)
             ]
         }
-        for bin_method, skew_method, noise_method in itertools.product(binarization_methods, skew_correction_methods, noise_removal_methods)
+        for bin_method, skew_method, noise_method in itertools.product(
+            binarization_methods, skew_correction_methods, noise_removal_methods
+        )
     ]
 
+    print(f"Total configurations to test: {len(configurations)}")
+    
+    # Setup directories
     image_files = get_image_files("./data/images/")
     processed_dir = "./results/images/preprocessed/"
     log_file_path = os.path.join("./logs/", "preprocess.out")
-
+    
     os.makedirs(processed_dir, exist_ok=True)
+    os.makedirs("./logs/", exist_ok=True)
 
-    with open(log_file_path, 'w') as log_file:
+    # Filter out PDF files (as in original)
+    image_files = [f for f in image_files if "pdf" not in str(f)]
+    print(f"Processing {len(image_files)} images")
+    
+    start_time = time.time()
+    all_results = []
+    
+    if processing_mode == "per-image":
+        # Process each image sequentially, but all configs for each image in parallel
         for image_file in image_files:
-            if "pdf" in str(image_file):
-                # TODO: FIX
-                continue
+            results = process_single_image_all_configs(
+                image_file, configurations, processed_dir, max_threads
+            )
+            all_results.extend(results)
 
-            print(f"Processing: {image_file.name}")
-            image = read_image(image_file)
-
-            for idx, config in enumerate(configurations):
-
-                processed_image = image
-                techniques = []
-
-                for step, method in config["preprocess"]:
-                    start = time.time()
-                    processed_image = getattr(step, method)(processed_image)
-                    techniques.append(f"{step.__name__}.{method}")
-                    end = time.time()
-
-                time_elapsed = end - start
-
-                filepath = os.path.join(
-                    processed_dir, f"{image_file.stem}_config{idx}.tiff")
-                save_image(processed_image, filepath)
-                log_file.write(
-                    f"{image_file.name} - Time needed: {time_elapsed} - Config {idx}: {', '.join(techniques)}\n")
-                log_file.write(
-                    f"Saved processed image to: {filepath} \n")
-                log_file.flush()
-                print(f"Logged processing details for Config {idx}: {', '.join(techniques)}")
-                print("-" * 50)
+    elif processing_mode == "global":
+        # Process all image/configuration combinations globally in parallel
+        print("Processing all combinations globally in parallel...")
+        
+        # Prepare all tasks
+        all_tasks = []
+        for image_file in image_files:
+            try:
+                image = read_image(image_file)
+                for idx, config in enumerate(configurations):
+                    all_tasks.append((image, image_file, config, idx, processed_dir))
+            except Exception as e:
+                print(f"Error reading {image_file.name}: {e}")
+        
+        print(f"Total tasks: {len(all_tasks)}")
+        
+        # Process all tasks
+        with ProcessPoolExecutor(max_workers=max_threads) as executor:
+            future_to_task = {
+                executor.submit(process_image_configuration, task): task 
+                for task in all_tasks
+            }
+            
+            completed = 0
+            for future in as_completed(future_to_task):
+                result = future.result()
+                all_results.append(result)
+                completed += 1
                 
+                if completed % 5 == 0:
+                    print(f"Progress: {completed}/{len(all_tasks)} tasks completed")
 
+    # Write all results to log file
+    with open(log_file_path, 'w') as log_file:
+        successful_results = [r for r in all_results if r['success']]
+        failed_results = [r for r in all_results if not r['success']]
+        
+        # Write successful results
+        for result in successful_results:
+            log_file.write(result['log_entry'])
+        
+        # Write failed results
+        if failed_results:
+            log_file.write("\n--- ERRORS ---\n")
+            for result in failed_results:
+                log_file.write(result['log_entry'])
+    
+    end_time = time.time()
+    total_time = end_time - start_time
+
+    # Print summary
+    successful_count = len([r for r in all_results if r['success']])
+    failed_count = len([r for r in all_results if not r['success']])
+    
+    print("\n" + "="*60)
+    print("PROCESSING SUMMARY")
+    print("="*60)
+    print(f"Total time: {total_time:.2f} seconds")
+    print(f"Successful processes: {successful_count}")
+    print(f"Failed processes: {failed_count}")
+    print(f"Average time per successful process: {total_time/max(successful_count, 1):.3f} seconds")
     print(f"Processing log saved to: {log_file_path}")
+    print("="*60)
 
 if __name__ == "__main__":
     main()
