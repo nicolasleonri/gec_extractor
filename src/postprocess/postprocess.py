@@ -8,7 +8,27 @@ from queue import Queue
 from ollama import chat, ChatResponse
 from utils_postprocessing import parse_ocr_results
 import multiprocessing as mp
+import typing as T
+from csv import DictReader
+from io import StringIO
+import csv
 
+def extract_code_block(text: str, language_hint: str = "") -> str:
+    # 1. Try to match a code block with the language hint
+    if language_hint:
+        pattern_lang = rf"```{language_hint}\n(.*?)```"
+        match = re.search(pattern_lang, text, re.DOTALL)
+        if match:
+            return match.group(1).strip()
+
+    # 2. Try to match any code block (with or without language)
+    pattern_any = r"```(?:\w+\n)?(.*?)```"
+    match = re.search(pattern_any, text, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+
+    # 3. Fallback: assume the whole response *is* the output
+    return text.strip()
 
 class ollama:
     def __init__(self, model_name):
@@ -24,7 +44,32 @@ class ollama:
         response = response['message']['content']
         return response
 
-    def extract_test_results(self, ocr_text):
+    def extract_test_results_as_csv(self, ocr_text):
+        prompt = """
+        GOAL: Given the raw text output from an OCR-Engine, extract and structure the following information:
+        - headline of the article: string or NA
+        - subheadline of the article: string or NA
+        - author of the article:: string or NA
+        - content of the article:: string
+
+        Focus on extracting articles (small or long) with actual information. Exclude any brief news items like: date, weather, public announcements, or other short notices that do not contain substantial content. Ask yourself if the content is relevant for media and discourse anaylisis. If any field is missing or unavailable, use "NA" for its value.
+
+        RETURN FORMAT: Format the output strictly as a pythonic dictionary with keys and values like the following example:
+        "headline";"subheadline";"author";"content"
+        "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
+        "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
+
+        WARNING: Only return the CSV exactly as specified. Do not add any explanation or commentary.
+        WARNING: Avoid CSV parsing errors like empty or malformed outputs. After the header, each row should contain the extracted information for one article, with fields separated by semicolons and declared in quotation marks.
+
+        CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text. If you fail in this task, you will lose your job and your family will be very disappointed in you.
+        """ 
+
+        response = self.chat_completion(prompt, ocr_text)
+
+        return response
+
+    def extract_test_results_as_json(self, ocr_text):
         prompt = """
         CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text.
 
@@ -68,19 +113,19 @@ class ollama:
 
         return response
 
-    # def read_txt_file(self, file_path):
-    #     ocr_results = parse_ocr_results(os.path.join(os.getcwd(), file_path))
+    def read_txt_file(self, file_path):
+        ocr_results = parse_ocr_results(os.path.join(os.getcwd(), file_path))
 
-    #     for key, value in ocr_results.items():
-    #         print(f"Prompting extracted text from {value['filepath']} using module {value['config']}:")
-    #         start = time.time()
-    #         structured_results = self.extract_test_results(value['text'])
-    #         ocr_results[key]["Output"] = structured_results
-    #         end = time.time()
-    #         time_elapsed = end - start
-    #         print(f"Time nedded: {round(time_elapsed, 5)}")
+        for key, value in ocr_results.items():
+            print(f"Prompting extracted text from {value['filepath']} using module {value['config']}:")
+            start = time.time()
+            structured_results = self.extract_test_results_as_json(value['text'])
+            ocr_results[key]["Output"] = structured_results
+            end = time.time()
+            time_elapsed = end - start
+            print(f"Time nedded: {round(time_elapsed, 5)}")
 
-    #     return ocr_results
+        return ocr_results
 
 def process_single_result(key, value, model_name, model_display_name, progress_queue):
     """Process a single OCR result with LLM"""
@@ -89,7 +134,8 @@ def process_single_result(key, value, model_name, model_display_name, progress_q
         llm = ollama(model_name=model_name)
         
         start = time.time()
-        structured_results = llm.extract_test_results(value['text'])
+        # structured_results = llm.extract_test_results_as_json(value['text'])
+        structured_results = llm.extract_test_results_as_csv(value['text'])
         end = time.time()
         time_elapsed = end - start
         
@@ -153,6 +199,103 @@ def progress_monitor(progress_queue, total_tasks, results_dict, lock):
         except:
             continue  # Timeout, continue waiting
 
+class Article(T.NamedTuple):
+    headline: str
+    subheadline: str
+    author: str
+    content: str
+    
+    @classmethod
+    def from_row(cls, row: dict):
+        return cls(**{
+            key: type_(row[key]) for key, type_ in cls._field_types.items()
+        })
+    
+def validate_csv(reader: DictReader) -> bool:
+    for row in reader:
+        try:
+            Article.from_row(row)
+        except Exception as e:
+            print('type: {} msg: {}'.format(type(e), e))
+            return False
+    return True
+
+def save_results_to_csv(results_dict, model_display_name):
+    """Save all results to CSV files"""
+    saved_count = 0
+    error_count = 0
+
+    for key, result in results_dict.items():
+        try:
+            value = result['value']
+            filename = os.path.splitext(os.path.basename(value['filepath']))[0]
+            config_name = value["config"]
+            pathfile = f"{filename}_{config_name}_{model_display_name}"
+            file_name_csv = f"./results/csv/extracted/{pathfile}.csv"
+
+            metadata_parts = filename.split('_')[0].split('#')
+
+            if len(metadata_parts) == 3:
+                newspaper_name, publication_date, page_str = metadata_parts
+                try:
+                    page_number = int(page_str)
+                except ValueError:
+                    page_number = None
+            else:
+                newspaper_name = publication_date = None
+                page_number = None
+
+            document_metadata = {
+                "newspaper_name": newspaper_name,
+                "publication_date": publication_date,
+                "page_number": page_number
+            }
+
+            data = extract_code_block(result['output'], language_hint="csv")
+
+            f = StringIO(data)
+            reader = csv.reader(f, delimiter=';', quotechar='"')
+
+            # Save to CSV file
+            with open(file_name_csv, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.writer(
+                    f,
+                    delimiter=';',
+                    quotechar='"',
+                    quoting=csv.QUOTE_ALL  # ← Force quotation around every field
+                )
+                
+                # Extended header
+                header = ["headline", "subheadline", "author", "content", "newspaper_name", "publication_date", "page_number"]
+                writer.writerow(header)
+                
+                # Write data rows
+                for row in reader:
+                    if row == ["headline", "subheadline", "author", "content"]:
+                        continue
+                    if len(row) == 4:
+                        full_row = row + [
+                            document_metadata["newspaper_name"],
+                            document_metadata["publication_date"],
+                            document_metadata["page_number"]
+                        ]
+                        writer.writerow(full_row)
+
+            # # Read file to validate CSV structure
+            # with open(file_name_csv, 'r', encoding='utf-8') as f:
+            #     f.seek(0)
+            #     reader = csv.DictReader(f, delimiter=';', quotechar='"')
+            #     for row in reader:
+            #         print(row)
+
+            print(f"✓ Results saved: {file_name_csv}")
+            saved_count += 1
+        except Exception as e:
+            print(f"Error processing result for {value['filepath']}: {e}")
+            error_count += 1
+            continue
+
+    return saved_count, error_count
         
 def save_results_to_json(results_dict, model_display_name):
     """Save all results to JSON files"""
@@ -271,9 +414,9 @@ def process_model_multithreaded(model_name, model_display_name, ocr_results, max
     print(f"Total processing time: {round(processing_time, 2)} seconds")
     print(f"Average time per result: {round(processing_time / len(ocr_results), 2)} seconds")
     
-    # Save results to JSON files
-    print(f"\nSaving results to JSON files...")
-    saved_count, error_count = save_results_to_json(results_dict, model_display_name)
+    print(f"\nSaving results to CSV files...")
+    saved_count, error_count = save_results_to_csv(results_dict, model_display_name)
+    # saved_count, error_count = save_results_to_json(results_dict, model_display_name)
     
     print(f"✓ Successfully saved: {saved_count} files")
     print(f"✗ Errors encountered: {error_count} files")

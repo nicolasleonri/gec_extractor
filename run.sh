@@ -37,6 +37,7 @@ declare -a arr3=(
 "$SCRIPT_DIR/requirements/postprocess_requirements.txt"
 "$SCRIPT_DIR/requirements/evaluate_requirements.txt")
 
+
 for i in "${arr[@]}"
 do
     # echo "Index $index, Value: $i"

@@ -1,0 +1,18 @@
+Starting multithreaded LLM postprocessing...
+Models to process: ['phi4', 'llama4', 'gemma3', 'qwen3', 'deepseek-r1', 'magistral']
+
+Loading OCR results...
+1200
+Loaded 1200 OCR results
+
+============================================================
+Starting multithreaded processing for model: phi4
+Total OCR results to process: 1200
+Using 64 worker threads
+============================================================
+✓ Progress: 1/1200 (0.1%) - Processed trome#2021-03-02#02_config77.tiff with phi4 in 10.77s
+✓ Progress: 2/1200 (0.2%) - Processed trome#2021-03-02#02_config77.tiff with phi4 in 11.19s
+✓ Progress: 3/1200 (0.2%) - Processed trome#2021-03-02#02_config77.tiff with phi4 in 17.12s
+✓ Progress: 4/1200 (0.3%) - Processed trome#2021-03-02#02_config101.tiff with phi4 in 21.05s
+✓ Progress: 5/1200 (0.4%) - Processed trome#2021-03-02#02_config101.tiff with phi4 in 26.84s
+✓ Progress: 6/1200 (0.5%) - Processed trome#2021-03-02#02_config101.tiff with phi4 in 30.75s
