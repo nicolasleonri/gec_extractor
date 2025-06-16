@@ -348,7 +348,7 @@ class NoiseRemoval:
                     if abs(current_pixel - med) > abs(current_pixel - np.mean(neighbors)):
                         output[i, j] = med
 
-        print("Loading: 100%")
+        # print("Loading: 100%")
         return output.astype(np.uint8)
 
     @staticmethod
