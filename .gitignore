@@ -3,5 +3,4 @@
 *.json
 ./results/csv/extracted/**
 ./results/models/**
-# !./results/models/visualizations/**
 **/__pycache__/**
