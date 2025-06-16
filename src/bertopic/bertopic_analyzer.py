@@ -247,7 +247,7 @@ if __name__ == "__main__":
         print(topic_info.head())
 
         # Define output directory for visualizations
-        viz_output_dir = "./results/models/visualizations/"
+        viz_output_dir = "./results/visualizations/"
         os.makedirs(viz_output_dir, exist_ok=True)
 
         # Save visualizations as interactive HTML
