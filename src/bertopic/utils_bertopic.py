@@ -2,6 +2,12 @@ import csv
 from pathlib import Path
 import subprocess
 import torch
+from collections import Counter
+
+def chunk_documents(documents, rows, chunk_size=100):
+    """Yield successive chunks of documents and rows."""
+    for i in range(0, len(documents), chunk_size):
+        yield documents[i:i + chunk_size], rows[i:i + chunk_size]
 
 def load_csv_file(file_path):
     with open(file_path, encoding='utf-8') as f:
@@ -29,3 +35,7 @@ def print_gpu_usage(note=""):
         print(output)
     except Exception as e:
         print(f"Could not run nvidia-smi: {e}")
+
+def majority_vote(votes):
+    most_common = Counter(votes).most_common(1)
+    return most_common[0][0] if most_common else None
