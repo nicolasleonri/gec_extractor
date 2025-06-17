@@ -195,16 +195,16 @@ def main():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="BERTopic Voting & Model Saving")
-    parser.add_argument("--load-model", type=str, default=None,
+    parser.add_argument("--visualize-model", type=str, default=None,
                         help="Path to a saved BERTopic model to load instead of training")
     
     args = parser.parse_args()
-    if args.load_model:
-        print(f"📦 Loading BERTopic model from {args.load_model}")
-        model = BERTopic.load(args.load_model)
+    if args.visualize_model:
+        print(f"📦 Loading BERTopic model from {args.visualize_model}")
+        model = BERTopic.load(args.visualize_model)
 
         # Clean model name for filenames (e.g., strip paths, spaces, slashes)
-        model_id = Path(args.load_model).stem
+        model_id = Path(args.visualize_model).stem
         model_id = re.sub(r'\W+', '_', model_id)  # Replace non-alphanumeric with underscores
             
         topic_info = model.get_topic_info()
@@ -217,6 +217,10 @@ if __name__ == "__main__":
         # Save visualizations as interactive HTML
         print("📊 Saving visualizations...")
 
+        #TODO: Fix visualizations
+        # model.visualize_documents().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
+        # model.visualize_hierarchy().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))            
+        # model.visualize_topics_per_class().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
         model.visualize_topics().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
         model.visualize_barchart(top_n_topics=20).write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
         model.visualize_heatmap().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_heatmap.html"))
