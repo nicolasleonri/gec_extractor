@@ -1,0 +1,93 @@
+Processing 1200 CSV files from ./results/csv/extracted/
+🧵 Using ProcessPoolExecutor with 64 workers
+✅ Processed 1000 rows...
+✅ Processed 2000 rows...
+✅ Processed 3000 rows...
+✅ Processed 4000 rows...
+✅ Processed 5000 rows...
+✅ Processed 6000 rows...
+📄 Total valid documents: 5887
+
+==================================================
+Processing with model: hiiamsid/sentence_similarity_spanish_es
+==================================================
+📦 Loading existing BERTopic model from ./results/models/bertopic_model_sentence_similarity_spanish_es
+✅ Completed hiiamsid/sentence_similarity_spanish_es
+
+==================================================
+Processing with model: Qwen/Qwen3-Embedding-8B
+==================================================
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.85s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.03s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:10<00:03,  3.47s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.52s/it]
+📦 Loading existing BERTopic model from ./results/models/bertopic_model_Qwen3_Embedding_8B
+✅ Completed Qwen/Qwen3-Embedding-8B
+
+==================================================
+Processing with model: Linq-AI-Research/Linq-Embed-Mistral
+==================================================
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.96s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.45s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.25s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.35s/it]
+📦 Loading existing BERTopic model from ./results/models/bertopic_model_Linq_Embed_Mistral
+✅ Completed Linq-AI-Research/Linq-Embed-Mistral
+
+📊 Processing majority vote from 3 models
+Processing agreement: 1/5887
+Processing agreement: 101/5887
+Processing agreement: 201/5887
+Processing agreement: 301/5887
+Processing agreement: 401/5887
+Processing agreement: 501/5887
+Processing agreement: 601/5887
+Processing agreement: 701/5887
+Processing agreement: 801/5887
+Processing agreement: 901/5887
+Processing agreement: 1001/5887
+Processing agreement: 1101/5887
+Processing agreement: 1201/5887
+Processing agreement: 1301/5887
+Processing agreement: 1401/5887
+Processing agreement: 1501/5887
+Processing agreement: 1601/5887
+Processing agreement: 1701/5887
+Processing agreement: 1801/5887
+Processing agreement: 1901/5887
+Processing agreement: 2001/5887
+Processing agreement: 2101/5887
+Processing agreement: 2201/5887
+Processing agreement: 2301/5887
+Processing agreement: 2401/5887
+Processing agreement: 2501/5887
+Processing agreement: 2601/5887
+Processing agreement: 2701/5887
+Processing agreement: 2801/5887
+Processing agreement: 2901/5887
+Processing agreement: 3001/5887
+Processing agreement: 3101/5887
+Processing agreement: 3201/5887
+Processing agreement: 3301/5887
+Processing agreement: 3401/5887
+Processing agreement: 3501/5887
+Processing agreement: 3601/5887
+Processing agreement: 3701/5887
+Processing agreement: 3801/5887
+Processing agreement: 3901/5887
+Processing agreement: 4001/5887
+Processing agreement: 4101/5887
+Processing agreement: 4201/5887
+Processing agreement: 4301/5887
+Processing agreement: 4401/5887
+Processing agreement: 4501/5887
+Processing agreement: 4601/5887
+Processing agreement: 4701/5887
+Processing agreement: 4801/5887
+Processing agreement: 4901/5887
+Processing agreement: 5001/5887
+Processing agreement: 5101/5887
+Processing agreement: 5201/5887
+Processing agreement: 5301/5887
+Processing agreement: 5401/5887
+Processing agreement: 5501/5887
+Processing agreement: 5601/5887
+Processing agreement: 5701/5887
+Processing agreement: 5801/5887
+
+💾 Writing 3561 agreed topics to CSV...
+✅ Results written to: ./results/csv/results_topics.csv
