@@ -1,6 +1,10 @@
 ./venv/**
-*.tiff
-*.json
-./results/csv/extracted/**
-./results/models/**
 **/__pycache__/**
+
+./results/images/**
+*.tiff
+
+./results/csv/extracted/**
+./results/csv/test/**
+ 
+./results/models/**
