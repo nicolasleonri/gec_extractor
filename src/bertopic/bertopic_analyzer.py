@@ -12,12 +12,11 @@ import argparse
 import csv
 import re
 import numpy as np
+import pickle
 from pathlib import Path
 
 
-def run_single_model(documents, embedding_model_name, chunk_size=1000):
-    print(f"🧠 Running BERTopic with {embedding_model_name}")
-    
+def run_single_model(documents, embedding_model_name, chunk_size=1000):    
     # Create fresh embedding model and BERTopic instance
     embedding_model = SentenceTransformer(embedding_model_name)
     model = BERTopic(
@@ -31,25 +30,33 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
     os.makedirs(os.path.dirname(model_path), exist_ok=True)
     
     try:
-        if os.path.exists(model_path):
-            print(f"📦 Loading existing BERTopic model from {model_path} instead of training.")
-            model = BERTopic.load(model_path)
-            topics, probs = model.transform(documents)
-            topic_keywords = get_topics_keywords(model)
+        pickle_file = model_path + ".pkl"
+
+        if os.path.exists(model_path) and os.path.exists(pickle_file):
+            print(f"📦 Loading existing BERTopic model from {model_path}")
+            # model = BERTopic.load(model_path)
+
+            with open(pickle_file, "rb") as f:
+                results = pickle.load(f)
         else:
+            print(f"🧠 Training BERTopic model with {embedding_model_name}")
             model.verbose = True
             topics, probs = model.fit_transform(documents)
             topic_keywords = get_topics_keywords(model)
+
             model.save(model_path, save_embedding_model=True)
 
-        results = {
-            'topics': topics,
-            'probs': probs,
-            'topic_info': model.get_topic_info().to_dict('records') if hasattr(model, 'get_topic_info') else None,
-            'topic_keywords': topic_keywords
-        }
+            topic_info = model.get_topic_info().to_dict('records') if hasattr(model, 'get_topic_info') else None
+            results = {
+                'topics': topics,
+                'probs': probs,
+                'topic_info': topic_info,
+                'topic_keywords': topic_keywords
+            }
+
+            with open(pickle_file, "wb") as f:
+                pickle.dump(results, f)
     finally:
-        # Clean up
         del model
         del embedding_model
         clear_gpu_memory()

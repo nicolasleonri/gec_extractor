@@ -1,0 +1,42 @@
+Processing 1 CSV files from ./results/csv/test/
+🧵 Using ProcessPoolExecutor with 64 workers
+📄 Total valid documents: 12
+
+==================================================
+Processing with model: hiiamsid/sentence_similarity_spanish_es
+==================================================
+📦 Loading existing BERTopic model from ./results/models/bertopic_model_sentence_similarity_spanish_es
+✅ Completed hiiamsid/sentence_similarity_spanish_es
+
+==================================================
+Processing with model: Qwen/Qwen3-Embedding-8B
+==================================================
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.00it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.05it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.07it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.37it/s]
+📦 Loading existing BERTopic model from ./results/models/bertopic_model_Qwen3_Embedding_8B
+Traceback (most recent call last):
+  File "/data/gec_extractor/src/bertopic/bertopic_analyzer.py", line 37, in run_single_model
+    # model = BERTopic.load(model_path)
+  File "/data/gec_extractor/venv/bertopic/lib/python3.10/site-packages/bertopic/_bertopic.py", line 3421, in load
+    topic_model = joblib.load(file)
+  File "/data/gec_extractor/venv/bertopic/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 733, in load
+    obj = _unpickle(fobj, ensure_native_byte_order=ensure_native_byte_order)
+  File "/data/gec_extractor/venv/bertopic/lib/python3.10/site-packages/joblib/numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+  File "/usr/lib/python3.10/pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+  File "/usr/lib/python3.10/pickle.py", line 1355, in load_binbytes
+    self.append(self.read(len))
+  File "/usr/lib/python3.10/pickle.py", line 298, in read
+    return self.file_read(n)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/gec_extractor/src/bertopic/bertopic_analyzer.py", line 227, in <module>
+    main()
+  File "/data/gec_extractor/src/bertopic/bertopic_analyzer.py", line 103, in main
+    results = run_single_model(all_documents, model_name, chunk_size=1000)
+  File "/data/gec_extractor/src/bertopic/bertopic_analyzer.py", line 63, in run_single_model
+    time.sleep(2)  # Brief pause for cleanup
+KeyboardInterrupt
