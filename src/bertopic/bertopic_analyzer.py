@@ -4,6 +4,7 @@ import os
 import plotly.io as fig
 from sentence_transformers import SentenceTransformer
 from collections import Counter
+import multiprocessing as mp
 import gc
 import torch
 import time
@@ -23,55 +24,41 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
         language="multilingual", 
         calculate_probabilities=True
     )
+
+    model_suffix = re.sub(r'\W+', '_', embedding_model_name.split('/')[-1])
+    model_path = f"./results/models/bertopic_model_{model_suffix}"
+    os.makedirs(os.path.dirname(model_path), exist_ok=True)
     
     try:
-        model_suffix = re.sub(r'\W+', '_', embedding_model_name.split('/')[-1])
-        model_path = f"./results/models/bertopic_model_{model_suffix}"
-        os.makedirs(os.path.dirname(model_path), exist_ok=True)
-
         if os.path.exists(model_path):
             print(f"📦 Loading existing BERTopic model from {model_path} instead of training.")
             model = BERTopic.load(model_path)
             topics, probs = model.transform(documents)
+            topic_keywords = get_topics_keywords(model)
         else:
             model.verbose = True
             topics, probs = model.fit_transform(documents)
-            # Get topic keywords (top 5 words per topic)
-            topic_keywords = {}
-            topic_info = model.get_topic_info()
-            for topic_num in topic_info.Topic:
-                if topic_num == -1:  # ignore outliers
-                    continue
-                top_words = model.get_topic(topic_num)
-                if top_words:
-                    label = ", ".join([word for word, _ in top_words[:5]])
-                    topic_keywords[topic_num] = label
+            topic_keywords = get_topics_keywords(model)
             model.save(model_path, save_embedding_model=True)
-    
-        # Extract results before cleanup
+
         results = {
             'topics': topics,
             'probs': probs,
             'topic_info': model.get_topic_info().to_dict('records') if hasattr(model, 'get_topic_info') else None,
             'topic_keywords': topic_keywords
         }
-        
     finally:
         # Clean up
         del model
         del embedding_model
-        gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
-        else:
-            print("⚠️ No GPU available, skipping CUDA cleanup")
+        clear_gpu_memory()
         time.sleep(2)  # Brief pause for cleanup
     
     return results
 
 
 def main():
-    input_folder = "./results/csv/test/"
+    input_folder = "./results/csv/extracted/"
     results_dir = "./results/csv/"
     output_csv = os.path.join(results_dir, "results_topics.csv")
 
@@ -82,26 +69,10 @@ def main():
 
     print(f"Processing {len(csv_files)} CSV files from {input_folder}")
 
-    for stem, csv_data in csv_files.items():
-        for idx, row in enumerate(csv_data):
-            print(f"Processing row {idx+1}/{len(csv_data)} in {stem}")
-            output_parts = []
+    max_threads = mp.cpu_count()
+    all_documents, row_mappings = process_all_rows(csv_files, max_workers=max_threads)
 
-            if row['headline'] != 'NA':
-                output_parts.append(row['headline'])
-            if row['subheadline'] != 'NA':
-                output_parts.append(row['subheadline'])
-            if row['content'] != 'NA':
-                output_parts.append(row['content'])
-
-            output = ". ".join(output_parts)
-
-            if output.strip() != "":
-                row['combined_text'] = output
-                all_documents.append(output)
-                row_mappings.append(row)
-    
-    print(f"Total valid documents: {len(all_documents)}")
+    print(f"📄 Total valid documents: {len(all_documents)}")
 
     if not all_documents:
         print("No valid documents found to process.")
@@ -130,21 +101,11 @@ def main():
             print(f"✅ Completed {model_name}")
         except Exception as e:
             print(f"❌ Error with {model_name}: {str(e)}")
-            # all_model_results.append(None)
-            gc.collect()
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
-            else:
-                print("⚠️ No GPU available, skipping CUDA cleanup")
+            clear_gpu_memory()
             time.sleep(5)
             continue
         
-        # Additional cleanup between models
-        gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
-        else:
-            print("⚠️ No GPU available, skipping CUDA cleanup")
+        clear_gpu_memory()
         time.sleep(5)  # Longer pause between models
 
     valid_results = [r for r in all_model_results if r is not None]
@@ -175,26 +136,21 @@ def main():
             agreeing_probs = []
             for model_idx, vote in enumerate(votes):
                 if vote == agreed_topic and model_idx < len(probs_by_model):
-                    prob = probs_by_model[model_idx][i] if i < len(probs_by_model[model_idx]) else 0.5
-                    if prob is not None and prob > 0:
-                        agreeing_probs.append(prob)
+                    if i < len(probs_by_model[model_idx]):
+                        prob_vector = probs_by_model[model_idx][i]
+                        if isinstance(prob_vector, (list, tuple, np.ndarray)) and agreed_topic < len(prob_vector):
+                            topic_prob = prob_vector[agreed_topic]
+                            if topic_prob is not None:
+                                agreeing_probs.append(topic_prob)
+                        elif isinstance(prob_vector, float):
+                            agreeing_probs.append(prob_vector)
+                    else:
+                        agreeing_probs.append(0.5)  # fallback if index out of range
             
             mean_agreed_prob = sum(agreeing_probs) / len(agreeing_probs) if agreeing_probs else 0.5
             majority_agreed_topics.append((i, agreed_topic, mean_agreed_prob))
 
-    # Extract topic labels from the first model
-    # topic_labels = {}
-    # for topic_num in set(agreed_topic for _, agreed_topic, _ in majority_agreed_topics):
-    #     top_words = model.get_topic(topic_num)  # [(word1, score1), (word2, score2), ...]
-    #     if top_words:
-    #         label = "-".join([word for word, _ in top_words[:5]])
-    #         topic_labels[topic_num] = label
-    #     else:
-    #         topic_labels[topic_num] = "Unknown"
-
     topic_labels = valid_results[0]['topic_keywords']
-    
-    # Prepare final results
     agreed_rows = []
     for i, agreed_topic, mean_agreed_prob in majority_agreed_topics:
         row = row_mappings[i].copy()

@@ -3,6 +3,75 @@ from pathlib import Path
 import subprocess
 import torch
 from collections import Counter
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import multiprocessing
+import gc
+import torch
+
+def clear_gpu_memory():
+    """Comprehensive GPU memory cleanup"""
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        torch.cuda.synchronize()
+        # Force garbage collection of CUDA tensors
+        for obj in gc.get_objects():
+            if torch.is_tensor(obj) and obj.is_cuda:
+                del obj
+        torch.cuda.empty_cache()
+    else:
+        print("⚠️ No GPU available, skipping CUDA cleanup")
+
+def process_row(row):
+    output_parts = []
+    if row.get('headline') != 'NA':
+        output_parts.append(row['headline'])
+    if row.get('subheadline') != 'NA':
+        output_parts.append(row['subheadline'])
+    if row.get('content') != 'NA':
+        output_parts.append(row['content'])
+
+    output = ". ".join(output_parts).strip()
+    
+    if output:
+        row['combined_text'] = output
+        return output, row
+    return None
+
+def process_all_rows(csv_files, max_workers=64):
+    print(f"🧵 Using ProcessPoolExecutor with {max_workers} workers")
+    all_documents = []
+    row_mappings = []
+    futures = []
+
+    with ProcessPoolExecutor(max_workers=max_workers) as executor:
+        for stem, csv_data in csv_files.items():
+            for idx, row in enumerate(csv_data):
+                futures.append(executor.submit(process_row, row))
+
+        for i, future in enumerate(as_completed(futures), 1):
+            result = future.result()
+            if result:
+                output, row = result
+                all_documents.append(output)
+                row_mappings.append(row)
+
+            if i % 1000 == 0:
+                print(f"✅ Processed {i} rows...")
+
+    return all_documents, row_mappings
+
+def get_topics_keywords(model):
+    topic_keywords = {}
+    topic_info = model.get_topic_info()
+    for topic_num in topic_info.Topic:
+        if topic_num == -1:  # ignore outliers
+            continue
+        top_words = model.get_topic(topic_num)
+        if top_words:
+            label = ", ".join([word for word, _ in top_words[:5]])
+            topic_keywords[topic_num] = label
+    return topic_keywords
 
 def chunk_documents(documents, rows, chunk_size=100):
     """Yield successive chunks of documents and rows."""
