@@ -14,10 +14,6 @@ def clear_gpu_memory():
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
         torch.cuda.synchronize()
-        # Force garbage collection of CUDA tensors
-        for obj in gc.get_objects():
-            if torch.is_tensor(obj) and obj.is_cuda:
-                del obj
         torch.cuda.empty_cache()
     else:
         print("⚠️ No GPU available, skipping CUDA cleanup")
