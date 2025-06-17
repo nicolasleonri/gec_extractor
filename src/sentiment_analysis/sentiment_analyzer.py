@@ -6,6 +6,8 @@ import pandas as pd
 import csv
 from glob import glob
 from tqdm import tqdm
+import concurrent.futures
+from datasets import Dataset
 
 def main():
     input_folder = "./results/csv/extracted/"
@@ -15,18 +17,26 @@ def main():
     # Read and append CSV files
     all_files = glob(os.path.join(input_folder, "*.csv"))
     df_list = []
-    for file in tqdm(all_files, desc="Reading CSV files"):
-        df_list.append(pd.read_csv(file, sep=";", na_values="NA", quotechar='"'))
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        # Map files to read_csv_file with progress bar
+        for df_chunk in tqdm(executor.map(read_csv_file, all_files), total=len(all_files), desc="Reading CSV files"):
+            df_list.append(df_chunk)
+
     df = pd.concat(df_list, ignore_index=True)
-    
-    # Apply process_row with progress bar
+
+    # For applying process_row, you can keep tqdm as before
     df["combined_text"] = tqdm(df.apply(process_row, axis=1), total=len(df), desc="Processing rows")
     df = df[df["combined_text"].notnull()].reset_index(drop=True)
+
     print(f"📄 Total valid rows: {len(df)}")
+
+    # Convert pandas DataFrame to HF Dataset
+    dataset = Dataset.from_pandas(df)
 
     # Define models to loop over
     models = {
-        # "sabert": "VerificadoProfesional/SaBERT-Spanish-Sentiment-Analysis",
+        "sabert": "VerificadoProfesional/SaBERT-Spanish-Sentiment-Analysis",
         "robertuito": "pysentimiento/robertuito-sentiment-analysis",
         # "lxyuan": "lxyuan/distilbert-base-multilingual-cased-sentiments-student",
         # "edumunozsala": "edumunozsala/roberta_bne_sentiment_analysis_es",
@@ -67,27 +77,33 @@ def main():
         print(f"Loading model: {model_name}")
         classifier = pipeline("text-classification", model=model_path, batch_size=64)
 
-        # Prepare containers for each column
-        results = {
-            "headline": {"label": [], "score": []},
-            "subheadline": {"label": [], "score": []},
-            "content": {"label": [], "score": []},
+        def classify_batch(batch):
+            results = {}
+            for col in ["headline", "subheadline", "content"]:
+                texts = batch.get(col, [])
+                texts = [text if text is not None and text != "NA" else "" for text in texts]
+
+                preds = classifier(texts, truncation=True)
+
+                labels = [label_maps.get(model_name, {}).get(p["label"], p["label"]) for p in preds]
+                scores = [p["score"] for p in preds]
+
+                results[f"{col}_label"] = labels
+                results[f"{col}_score"] = scores
+            return results
+        
+        # Run batch inference on dataset
+        dataset = dataset.map(classify_batch, batched=True, batch_size=64)
+
+        # Store the model's results in dict to merge later
+        all_model_results[model_name] = {
+            col: {
+                "label": dataset[f"{col}_label"],
+                "score": dataset[f"{col}_score"]
+            }
+            for col in ["headline", "subheadline", "content"]
         }
 
-        print(f"Running sentiment analysis with {model_name}...")
-        for _, row in tqdm(df.iterrows(), total=len(df), desc=f"Sentiment analysis ({model_name})"):
-            for col in ["headline", "subheadline", "content"]:
-                text = row.get(col)
-                if pd.notnull(text) and text != 'NA':
-                    result = classifier(str(text), truncation=True)[0]
-                    normalized_label = label_maps.get(model_name, {}).get(result["label"], result["label"])
-                    results[col]["label"].append(normalized_label)
-                    results[col]["score"].append(result["score"])
-                else:
-                    results[col]["label"].append("NA")
-                    results[col]["score"].append("NA")
-
-        all_model_results[model_name] = results
         del classifier
 
     # Now, add those results into df as columns
@@ -96,12 +112,22 @@ def main():
             df[f"{model_name}_{col}_label"] = res[col]["label"]
             df[f"{model_name}_{col}_score"] = res[col]["score"]
 
-    # Aggregates final label and score using majority vote and mean score
-    aggregated_results = aggregate_from_model_results(all_model_results)
+    print("🗳️ Aggregating majority votes and mean scores across models...")
+    num_rows = len(next(iter(all_model_results.values()))["headline"]["label"])
+
+    def aggregate_row(i):
+        return aggregate_single_row(all_model_results, i)
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        results = list(tqdm(executor.map(aggregate_row, range(num_rows)), total=num_rows))
+
+    aggregated_results = {i: results[i] for i in range(num_rows)}
     
     for col in ["headline", "subheadline", "content"]:
         df[f"agreed_{col}_label"] = [aggregated_results[i][col]["label"] for i in range(len(df))]
         df[f"agreed_{col}_score"] = [aggregated_results[i][col]["score"] for i in range(len(df))]
+
+    print(f"✅ Results written to: {output_csv}")
 
     # Save results
     df.to_csv(

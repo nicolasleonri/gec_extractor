@@ -68,3 +68,36 @@ def aggregate_from_model_results(all_model_results, columns=["headline", "subhea
             }
 
     return aggregated_results
+
+def aggregate_single_row(all_model_results, i, columns=["headline", "subheadline", "content"]):
+    row_result = {}
+    for col in columns:
+        label_votes = []
+        score_map = defaultdict(list)
+
+        for model_name, model_data in all_model_results.items():
+            label = model_data[col]["label"][i]
+            score = model_data[col]["score"][i]
+
+            if label != "NA" and score != "NA":
+                label_votes.append(label)
+                score_map[label].append(float(score))
+
+        if label_votes:
+            majority_label = Counter(label_votes).most_common(1)[0][0]
+            mean_score = sum(score_map[majority_label]) / len(score_map[majority_label])
+        else:
+            majority_label = "NA"
+            mean_score = "NA"
+
+        row_result[col] = {
+            "label": majority_label,
+            "score": mean_score
+        }
+    return row_result
+
+def aggregate_row(i):
+    return aggregate_single_row(all_model_results, i)
+
+def read_csv_file(file):
+    return pd.read_csv(file, sep=";", na_values="NA", quotechar='"')
