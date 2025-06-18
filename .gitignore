@@ -1,18 +1,18 @@
 # Ignore Python virtual environment
-venv/
-./venv/
+venv/**
+./venv/**
 
 # Ignore Python bytecode and cache directories
-__pycache__/
-**/__pycache__/
+__pycache__/**
+**/__pycache__/**
 
 # Ignore image outputs
-results/images/
+results/images/**
 *.tiff
 
 # Ignore CSV outputs and test data
-results/csv/extracted/
-results/csv/test/
+results/csv/extracted/**
+results/csv/test/**
 
 # Ignore saved BERTopic models or other large model files
-results/models/
+results/models/**
