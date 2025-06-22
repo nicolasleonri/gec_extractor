@@ -552,6 +552,12 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
         # Create log entry
         log_entry = f"{image_file.name} - Time needed: {time_elapsed:.4f}s - Config {idx}: {', '.join(techniques)}\n"
 
+        # TODO: If flag, reate folder {image_file.stem}_config{idx} and save cropped columns there
+
+        # columns = crop_columns(processed_image, debug=False)
+        # for i, col in enumerate(columns):
+        #     cv2.imwrite(f"{image_file.stem}_config{idx}_#{i}.png", col)
+
         del processed_image
         del image_data
         gc.collect()
@@ -684,6 +690,77 @@ def print_help() -> None:
     """
     print(help_text)
 
+def crop_columns(binary_img, min_col_width=35, debug=False):
+    """
+    Crop columns from a preprocessed binary image.
+
+    Args:
+        binary_img: numpy array, binary image with text in black (0), background white (255).
+        min_col_width: minimum width in pixels to consider a column (filter noise).
+        debug: if True, shows intermediate images and plots.
+
+    Returns:
+        List of cropped column images as numpy arrays.
+    """
+
+    # Invert image if text is white and background black
+    # We want text as black (0), background white (255)
+    if np.mean(binary_img) < 128:
+        binary_img = 255 - binary_img
+
+    # Sum pixels vertically (along rows), black pixels count per column
+    vertical_sum = np.sum(binary_img == 0, axis=0)
+
+    # Normalize for visualization/debugging
+    norm_vertical_sum = (vertical_sum - vertical_sum.min()) / (vertical_sum.max() - vertical_sum.min())
+
+    # Threshold to find gaps: columns with very low black pixel count represent whitespace between columns
+    threshold = np.max(vertical_sum) * 0.05  # tweak this if needed
+    gaps = vertical_sum < threshold
+
+    # Find start/end indices of columns by detecting transitions in gaps
+    column_edges = []
+    in_column = False
+    for i, is_gap in enumerate(gaps):
+        if not is_gap and not in_column:
+            # start of column
+            start = i
+            in_column = True
+        elif is_gap and in_column:
+            # end of column
+            end = i
+            in_column = False
+            if end - start >= min_col_width:
+                column_edges.append((start, end))
+
+    # Handle case where column goes till end of image
+    if in_column:
+        end = len(gaps) - 1
+        if end - start >= min_col_width:
+            column_edges.append((start, end))
+
+    if debug:
+        import matplotlib.pyplot as plt
+        plt.figure(figsize=(15, 5))
+        plt.subplot(1, 2, 1)
+        plt.imshow(binary_img, cmap='gray')
+        plt.title("Binary Image")
+        plt.subplot(1, 2, 2)
+        plt.plot(vertical_sum)
+        for (s, e) in column_edges:
+            plt.axvline(s, color='r')
+            plt.axvline(e, color='r')
+        plt.title("Vertical Projection with Detected Columns")
+        plt.show()
+
+    # Crop columns from original image
+    columns = []
+    for start, end in column_edges:
+        col_img = binary_img[:, start:end]
+        columns.append(col_img)
+
+    return columns
+
 def main():
     """Main function to run preprocessing pipeline based on CLI arguments."""
     gc.enable()
@@ -732,12 +809,15 @@ def main():
         {
             "preprocess": [
                 (Binarization, bin_method),
-                (SkewCorrection, skew_method),
+                # (SkewCorrection, skew_method),
                 (NoiseRemoval, noise_method)
             ]
         }
-        for bin_method, skew_method, noise_method in itertools.product(
-            binarization_methods, skew_correction_methods, noise_removal_methods
+        # for bin_method, skew_method, noise_method in itertools.product(
+        #     binarization_methods, skew_correction_methods, noise_removal_methods
+        # )
+        for bin_method, noise_method in itertools.product(
+            binarization_methods, noise_removal_methods
         )
     ]
 

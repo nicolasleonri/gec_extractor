@@ -1,6 +1,20 @@
-from pathlib import Path
+"""
+utils_ocr.py
 
-def get_image_files(directory):
+Utility functions for discovering image files for OCR processing.
+"""
+from pathlib import Path
+from typing import List
+
+def get_image_files(directory: str) -> List[Path]:
+    """Returns a list of supported image files from the given directory.
+
+    Args:
+        directory (str): Path to the folder containing image files.
+
+    Returns:
+        List[Path]: A list of valid image file paths.
+    """
     SUPPORTED_FORMATS = ['.png', '.jpg', '.jpeg', '.webp', '.tiff', '.bmp']
     image_files = []
     for file in Path(directory).iterdir():
