@@ -1,24 +1,50 @@
-from utils_ocr import get_image_files
-from paddleocr import PaddleOCR
-from doctr.io import DocumentFile
+"""
+ocr.py
+
+This module runs OCR extraction using multiple backends in parallel, including:
+- Tesseract
+- Keras-OCR
+- EasyOCR
+- PaddleOCR
+- docTR
+
+The pipeline supports multithreaded execution and performance logging.
+"""
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from doctr.models import ocr_predictor
+from utils_ocr import get_image_files
+from doctr.io import DocumentFile
+from paddleocr import PaddleOCR
+from typing import Union
+from queue import Queue
 from PIL import Image
-import torch
-import time
+import numpy as np
 import pytesseract
+import threading
 import keras_ocr
 import easyocr
+import torch
+import time
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
-import threading
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from queue import Queue
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 
 class TesseractOCR:
+    """Wrapper for Tesseract OCR using pytesseract."""
+
     @staticmethod
-    def process(image):
-        result = pytesseract.image_to_string(image)
-        result = result.replace("\n", " ")
+    def process(image: Union[str, np.ndarray]) -> str:
+        """Extracts text using Tesseract.
+
+        Args:
+            image (str or ndarray): Path to image or image array.
+
+        Returns:
+            str: Extracted text.
+        """
+        result = pytesseract.image_to_string(image, lang='spa', config="--psm 3 --oem 1")
+        result = result.replace("\n", " ") ##TODO: try without combining
         return result
 
 
@@ -157,10 +183,10 @@ def main():
     # Define the OCR classes and their corresponding process methods
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
-        "KerasOCR": KerasOCR.process,
-        "EasyOCR": EasyOCR.process,
-        "PaddleOCR": PaddlePaddle.process,
-        "docTR": docTR.process
+        # "KerasOCR": KerasOCR.process,
+        # "EasyOCR": EasyOCR.process,
+        # "PaddleOCR": PaddlePaddle.process,
+        # "docTR": docTR.process
     }
     
     # Define the directory containing image files
