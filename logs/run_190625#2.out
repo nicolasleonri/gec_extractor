@@ -1,0 +1,7 @@
+/data/gec_extractor/venv/postprocess/bin/activate: Succesfully activated.
+./run.sh: line 41: 909248 Killed                  python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
+/data/gec_extractor/venv/postprocess: Succesfully deactivated.
+/data/gec_extractor/venv/evaluate/bin/activate: Succesfully activated.
+./run.sh: line 41: 624587 Killed                  python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
+/data/gec_extractor/venv/evaluate: Succesfully deactivated.
+Pipeline done!
