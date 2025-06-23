@@ -25,10 +25,11 @@ Extracts text from preprocessed images using multiple OCR engines.
 ```bash
 python ocr.py
 python ocr.py --test
+python ocr.py --help
 ```
 
 ---
 
 ## Notes
-- Each image is processed by each OCR engine in parallel
-- Threaded using `ThreadPoolExecutor`
+- Each image is processed by each OCR engine in sequence to prevent GPU memory issues
+- Threaded Image Importation using `ThreadPoolExecutor`

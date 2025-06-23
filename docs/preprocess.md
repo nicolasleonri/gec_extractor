@@ -1,14 +1,14 @@
 # preprocess.py
 
-Applies image enhancement techniques to prepare newspaper images for OCR.
+Applies image enhancement techniques to prepare image files for OCR.
 
 ---
 
 ## 📥 Input
-- Raw `.jpg`, `.png`, or `.tiff` images in `./data/images/`
+- Raw images (e.g. `.png`, `.tiff`) in `./data/images/`
 
 ## 📤 Output
-- Cleaned images saved to `./results/images/preprocessed/`
+- Preprocessed images saved to `./results/images/preprocessed/`
 - Log file: `./logs/preprocess.out`
 
 ---
@@ -20,6 +20,7 @@ Applies image enhancement techniques to prepare newspaper images for OCR.
   - Noise filters (median, conservative, unsharp, etc.)
 - Parallel processing (per-image or global mode)
 - `--test` flag runs unit tests
+- `--help` shows usage
 
 ---
 
