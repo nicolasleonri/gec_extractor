@@ -1,50 +1,95 @@
-import re
-import os
-import time
-import json
-import threading
+"""
+postprocess.py
+
+This script performs postprocessing on raw OCR-extracted newspaper text using LLMs via Ollama.
+It converts unstructured text into structured CSV files, extracting articles, headlines, subheadlines,
+authors, and content for each image-configuration pair.
+
+Supports multithreaded processing and multiple model runs.
+
+Author: @nicolasleonri (GitHub)
+License: GPL
+"""
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from queue import Queue
-from ollama import chat, ChatResponse
 from utils_postprocessing import parse_ocr_results
+from ollama import chat, ChatResponse
 import multiprocessing as mp
-import typing as T
 from csv import DictReader
 from io import StringIO
+from queue import Queue
+import typing as T
+import threading
+import unittest
+import time
+import json
+import sys
 import csv
+import re
+import os
 
 def extract_code_block(text: str, language_hint: str = "") -> str:
-    # 1. Try to match a code block with the language hint
+    """Extracts a code block (e.g., CSV) from a markdown-formatted LLM response.
+
+    Args:
+        text (str): Full response string from LLM.
+        language_hint (str, optional): Language label to look for (e.g., "csv").
+
+    Returns:
+        str: Cleaned code block string (e.g., CSV content).
+    """
     if language_hint:
         pattern_lang = rf"```{language_hint}\n(.*?)```"
         match = re.search(pattern_lang, text, re.DOTALL)
         if match:
             return match.group(1).strip()
 
-    # 2. Try to match any code block (with or without language)
     pattern_any = r"```(?:\w+\n)?(.*?)```"
     match = re.search(pattern_any, text, re.DOTALL)
     if match:
         return match.group(1).strip()
 
-    # 3. Fallback: assume the whole response *is* the output
     return text.strip()
 
 class ollama:
-    def __init__(self, model_name):
+    """Wrapper around Ollama-based LLMs for structured postprocessing of OCR content."""
+
+    def __init__(self, model_name: str):
+        """
+        Args:
+            model_name (str): Name of the LLM model to use via Ollama.
+        """
         self.model_name = model_name
 
-    def chat_completion(self, prompt, question):
+    def chat_completion(self, prompt: str, question: str) -> str:
+        """Sends a chat completion request to Ollama.
+
+        Args:
+            prompt (str): System-level instruction.
+            question (str): User query containing OCR text.
+
+        Returns:
+            str: LLM response content.
+        """
         response: ChatResponse = chat(
             model=self.model_name, 
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": question}],
-            options={"temperature": 0},
+            options={"temperature": 0.1},
         )
         response = response['message']['content']
         return response
 
-    def extract_test_results_as_csv(self, ocr_text):
+    def extract_test_results_as_csv(self, ocr_text: str) -> str:
+        """Uses an LLM to extract OCR content into CSV-formatted string.
+
+        Args:
+            ocr_text (str): Raw OCR text.
+
+        Returns:
+            str: CSV string in markdown code block format.
+        """
+
+        #TODO: Try different prompts in different languages
         prompt = """
         GOAL: Given the raw text output from an OCR-Engine, extract and structure the following information:
         - headline of the article: string or NA
@@ -69,7 +114,16 @@ class ollama:
 
         return response
 
-    def extract_test_results_as_json(self, ocr_text):
+    def extract_test_results_as_json(self, ocr_text: str) -> str:
+        """Uses an LLM to extract OCR content into a structured JSON string.
+
+        Args:
+            ocr_text (str): Raw OCR text.
+
+        Returns:
+            str: JSON string with article metadata and content.
+        """
+
         prompt = """
         CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text.
 
@@ -113,7 +167,15 @@ class ollama:
 
         return response
 
-    def read_txt_file(self, file_path):
+    def read_txt_file(self, file_path: str) -> dict:
+        """Reads OCR log file and prompts each result using the LLM.
+
+        Args:
+            file_path (str): Path to the OCR log output.
+
+        Returns:
+            dict: Dictionary of enriched OCR results keyed by index.
+        """
         ocr_results = parse_ocr_results(os.path.join(os.getcwd(), file_path))
 
         for key, value in ocr_results.items():
@@ -127,11 +189,22 @@ class ollama:
 
         return ocr_results
 
-def process_single_result(key, value, model_name, model_display_name, progress_queue):
-    """Process a single OCR result with LLM"""
+def process_single_result(key: int, value: dict, model_name: str, model_display_name: str, progress_queue: Queue) -> dict:
+    """Processes one OCR result with a specified LLM model.
+
+    Args:
+        key (int): Dictionary key for the OCR result.
+        value (dict): OCR result metadata and text.
+        model_name (str): LLM model identifier.
+        model_display_name (str): Short label for display/logging.
+        progress_queue (Queue): Shared queue for reporting progress.
+
+    Returns:
+        dict: Result including extracted data, runtime, and status.
+    """
+
     try:
-        # Create LLM instance for this thread
-        llm = ollama(model_name=model_name)
+        llm = ollama(model_name=model_name) # Create LLM instance for this thread
         
         start = time.time()
         # structured_results = llm.extract_test_results_as_json(value['text'])
@@ -150,8 +223,7 @@ def process_single_result(key, value, model_name, model_display_name, progress_q
             'error': None
         }
         
-        # Send progress update
-        progress_queue.put(result)
+        progress_queue.put(result) # Send progress update
         
         return result
         
@@ -170,8 +242,15 @@ def process_single_result(key, value, model_name, model_display_name, progress_q
         return error_result
 
 
-def progress_monitor(progress_queue, total_tasks, results_dict, lock):
-    """Monitor progress and handle results"""
+def progress_monitor(progress_queue: Queue, total_tasks: int, results_dict: dict, lock: threading.Lock) -> None:
+    """Consumes result objects from the queue and tracks processing progress.
+
+    Args:
+        progress_queue (Queue): Queue receiving LLM task results.
+        total_tasks (int): Total number of expected results.
+        results_dict (dict): Shared dictionary storing all results.
+        lock (threading.Lock): Thread lock for safe writes.
+    """
     completed = 0
     
     while completed < total_tasks:
@@ -200,6 +279,7 @@ def progress_monitor(progress_queue, total_tasks, results_dict, lock):
             continue  # Timeout, continue waiting
 
 class Article(T.NamedTuple):
+    """Typed representation of a structured newspaper article."""
     headline: str
     subheadline: str
     author: str
@@ -212,6 +292,14 @@ class Article(T.NamedTuple):
         })
     
 def validate_csv(reader: DictReader) -> bool:
+    """Validates that a CSV reader produces rows compatible with Article.
+
+    Args:
+        reader (DictReader): CSV reader object.
+
+    Returns:
+        bool: True if all rows are valid Article entries; False otherwise.
+    """
     for row in reader:
         try:
             Article.from_row(row)
@@ -220,8 +308,16 @@ def validate_csv(reader: DictReader) -> bool:
             return False
     return True
 
-def save_results_to_csv(results_dict, model_display_name):
-    """Save all results to CSV files"""
+def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[int, int]:
+    """Saves structured OCR results (CSV-formatted strings) into CSV files with metadata.
+
+    Args:
+        results_dict (dict): Dictionary of processed results.
+        model_display_name (str): Short model name to include in filenames.
+
+    Returns:
+        Tuple[int, int]: (successful saves, errors encountered)
+    """
     saved_count = 0
     error_count = 0
 
@@ -233,6 +329,7 @@ def save_results_to_csv(results_dict, model_display_name):
             pathfile = f"{filename}_{config_name}_{model_display_name}"
             file_name_csv = f"./results/csv/extracted/{pathfile}.csv"
 
+            # Extract metadata from filename (e.g., newspaper#date#page_imgXX)
             metadata_parts = filename.split('_')[0].split('#')
 
             if len(metadata_parts) == 3:
@@ -251,18 +348,18 @@ def save_results_to_csv(results_dict, model_display_name):
                 "page_number": page_number
             }
 
+            # Extract CSV content from LLM response
             data = extract_code_block(result['output'], language_hint="csv")
-
             f = StringIO(data)
             reader = csv.reader(f, delimiter=';', quotechar='"')
 
-            # Save to CSV file
+            # Write CSV with extended metadata columns
             with open(file_name_csv, 'w', encoding='utf-8', newline='') as f:
                 writer = csv.writer(
                     f,
                     delimiter=';',
                     quotechar='"',
-                    quoting=csv.QUOTE_ALL  # ← Force quotation around every field
+                    quoting=csv.QUOTE_ALL  # Force quotation around every field
                 )
                 
                 # Extended header
@@ -281,24 +378,25 @@ def save_results_to_csv(results_dict, model_display_name):
                         ]
                         writer.writerow(full_row)
 
-            # # Read file to validate CSV structure
-            # with open(file_name_csv, 'r', encoding='utf-8') as f:
-            #     f.seek(0)
-            #     reader = csv.DictReader(f, delimiter=';', quotechar='"')
-            #     for row in reader:
-            #         print(row)
-
             print(f"✓ Results saved: {file_name_csv}")
             saved_count += 1
         except Exception as e:
-            print(f"Error processing result for {value['filepath']}: {e}")
+            print(f"✗ Error saving for {value['filepath']}: {e}")
             error_count += 1
             continue
 
     return saved_count, error_count
         
-def save_results_to_json(results_dict, model_display_name):
-    """Save all results to JSON files"""
+def save_results_to_json(results_dict: dict, model_display_name: str) -> T.Tuple[int, int]:
+    """Saves structured OCR results (JSON) into JSON files.
+
+    Args:
+        results_dict (dict): Dictionary of processed results.
+        model_display_name (str): Short model name to include in filenames.
+
+    Returns:
+        Tuple[int, int]: (successful saves, errors encountered)
+    """
     saved_count = 0
     error_count = 0
     
@@ -359,8 +457,18 @@ def save_results_to_json(results_dict, model_display_name):
     
     return saved_count, error_count
 
-def process_model_multithreaded(model_name, model_display_name, ocr_results, max_workers=3):
-    """Process all OCR results for a single model using multithreading"""
+def process_model_multithreaded(model_name: str, model_display_name: str, ocr_results: dict, max_workers: int = 3) -> dict:
+    """Processes all OCR results using a specific LLM with multithreading.
+
+    Args:
+        model_name (str): Internal LLM model identifier for Ollama.
+        model_display_name (str): Friendly name for filenames/logs.
+        ocr_results (dict): Parsed OCR results.
+        max_workers (int, optional): Thread count.
+
+    Returns:
+        dict: Result dictionary of processed entries.
+    """
     
     print(f"\n{'='*60}")
     print(f"Starting multithreaded processing for model: {model_display_name}")
@@ -424,16 +532,83 @@ def process_model_multithreaded(model_name, model_display_name, ocr_results, max
     
     return results_dict
 
-def main():
+def print_help() -> None:
+    """Display usage instructions for the LLM postprocessing script."""
+    print("""
+    LLM Postprocessing Script (Newspaper OCR Pipeline)
+    --------------------------------------------------
+
+    This script uses Ollama to postprocess raw OCR-extracted text into structured data (CSV or JSON).
+    It extracts article headlines, subheadlines, authors, and content from `.txt` logs.
+
+    Usage:
+        python postprocess.py                   Run full postprocessing for all models
+        python postprocess.py --test            Run a unit test with a mock LLM output
+        python postprocess.py --help | -h       Show this help message
+
+    Input:
+        ./results/txt/extracted/ocr_results_log.txt   ← from the OCR step
+
+    Output:
+        ./results/csv/extracted/                    ← structured CSVs
+        ./results/txt/extracted/                    ← structured JSONs (optional)
+
+    Dependencies:
+        - ollama (local models)
+        - LLMs must be available locally via Ollama
+    """)
+
+class TestPostprocessing(unittest.TestCase):
+    def test_csv_mock(self):
+        """Test code block extraction from mock CSV response."""
+        mock_response = '''```csv
+"headline";"subheadline";"author";"content"
+"Test Title";"Test Subtitle";"John Doe";"This is a test article."
+```'''
+        csv_block = extract_code_block(mock_response, language_hint="csv")
+        reader = csv.reader(StringIO(csv_block), delimiter=';', quotechar='"')
+        rows = list(reader)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[1][0], "Test Title")
+        self.assertEqual(rows[1][2], "John Doe")
+
+    def test_single_ollama_model(self):
+        """Run a real or mock LLM call using one model and minimal input."""
+        from postprocess import ollama
+
+        sample_text = (
+            "1. Headline: 'Breaking News'\n"
+            "   Subheadline: 'This is a subhead'\n"
+            "   Author: John Doe\n"
+            "   Content: Today something very important happened in the city."
+        )
+
+        try:
+            model = ollama(model_name="phi4:latest")  # Replace with any model available locally
+            response = model.extract_test_results_as_csv(sample_text)
+        except Exception as e:
+            self.fail(f"Ollama test failed: {e}")
+
+
+def main() -> None:
+    if '--help' in sys.argv or '-h' in sys.argv:
+        print_help()
+        return
+
+    if '--test' in sys.argv:
+        unittest.main(argv=['first-arg-is-ignored'], exit=False)
+        return
+    
     max_threads = mp.cpu_count()
-        
+    os.makedirs("./results/csv/extracted/", exist_ok=True)
+
     models = {
         "phi4:latest": "phi4",
-        "llama4:latest": "llama4",
-        "gemma3:27b": "gemma3",
-        "qwen3:32b": "qwen3",
-        "deepseek-r1:32b": "deepseek-r1",
-        "magistral:24b": "magistral",
+        # "llama4:latest": "llama4",
+        # "gemma3:27b": "gemma3",
+        # "qwen3:32b": "qwen3",
+        # "deepseek-r1:32b": "deepseek-r1",
+        # "magistral:24b": "magistral",
     }
     
     print("Starting multithreaded LLM postprocessing...")
