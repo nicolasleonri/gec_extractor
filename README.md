@@ -47,7 +47,7 @@ python3 src/postprocess/postprocess.py
 python3 src/evaluate/evaluate.py
 ```
 
-                **OR:**
+**OR:**
 
 1. **Run Pipeline in a single Bash-script**
 ```bash
