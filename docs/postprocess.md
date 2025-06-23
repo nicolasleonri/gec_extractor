@@ -9,7 +9,7 @@ Uses Ollama (local LLMs) to convert raw OCR text into structured article CSVs or
 
 ## 📤 Output
 - Structured `.csv` files: `./results/csv/extracted/`
-- Optional `.json` files: `./results/txt/extracted/`
+- (Optional) structured `.json` files: `./results/txt/extracted/`
 
 ---
 
@@ -24,7 +24,7 @@ Uses Ollama (local LLMs) to convert raw OCR text into structured article CSVs or
 ---
 
 ## ⚙️ Features
-- Multithreaded LLM processing
+- Multithreaded CSV processing
 - CSV or JSON output with metadata extraction
 - `--test` flag to run mock/test LLM output
 - `--help` flag for usage instructions
@@ -42,4 +42,3 @@ python postprocess.py --help
 
 ## ⚠️ Notes
 - Requires Ollama server running locally
-- You can limit to one model in tests or future refinements
