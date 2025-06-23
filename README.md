@@ -39,24 +39,20 @@ This project extracts structured data from newspaper page images using a multi-s
 pip3 install -r requirements/<script>_requirements.txt
 ```
 
-1. **Preprocess images**
+1. **Run scripts independently**
 ```bash
 python3 src/preprocess/preprocess.py
-```
-
-2. **Run OCR with multiple engines**
-```bash
 python3 src/ocr/ocr.py
-```
-
-3. **Postprocess with LLMs**
-```bash
 python3 src/postprocess/postprocess.py
+python3 src/evaluate/evaluate.py
 ```
 
-4. **Run evaluation**
+OR:
+
+1. **Run Pipeline in a single Bash-script**
 ```bash
-python3 src/evaluate/evaluate.py
+chmod +x ./run_ocr_pipeline.sh
+./run_ocr_pipeline.sh
 ```
 
 ## 📢 Get quick help
