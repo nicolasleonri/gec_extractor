@@ -15,7 +15,7 @@ from utils_preprocessing import read_image, save_image, show_image, get_image_fi
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from typing import List, Tuple, Dict, Any, Optional, Union
 from skimage.filters import threshold_niblack
-from pdf2image import convert_from_path
+import matplotlib.pyplot as plt
 import multiprocessing as mp
 from numpy import ndarray
 from pathlib import Path
@@ -517,6 +517,150 @@ class NoiseRemoval:
             np.copyto(sharpened, image, where=low_contrast_mask)
         return sharpened
 
+class ColumnExtraction:
+    @staticmethod
+    def crop_vertical_columns(binary_img: ndarray, min_col_width: int = 35, debug: bool = False) -> List[ndarray]:
+        """
+        Crop vertical columns from a preprocessed binary image.
+
+        Args:
+            binary_img (ndarray): Binary image with text in black (0), background white (255).
+            min_col_width (int): Minimum width in pixels to consider a column (filter noise).
+            debug (bool): If True, shows intermediate images and plots.
+
+        Returns:
+            List[ndarray]: List of cropped column images as numpy arrays.
+        """
+
+        # Invert image if text is white and background black
+        # We want text as black (0), background white (255)
+        if np.mean(binary_img) < 128:
+            binary_img = 255 - binary_img
+
+        # Sum pixels vertically (along rows), black pixels count per column
+        vertical_sum = np.sum(binary_img == 0, axis=0)
+
+        # Threshold to find gaps: columns with very low black pixel count represent whitespace between columns
+        threshold = np.max(vertical_sum) * 0.05  # tweak this if needed
+        gaps = vertical_sum < threshold
+
+        # Find start/end indices of columns by detecting transitions in gaps
+        column_edges = []
+        in_column = False
+        start = 0
+        for i, is_gap in enumerate(gaps):
+            if not is_gap and not in_column:
+                # start of column
+                start = i
+                in_column = True
+            elif is_gap and in_column:
+                # end of column
+                end = i
+                in_column = False
+                if end - start >= min_col_width:
+                    column_edges.append((start, end))
+
+        # Handle case where column goes till end of image
+        if in_column:
+            end = len(gaps) - 1
+            if end - start >= min_col_width:
+                column_edges.append((start, end))
+
+        if debug:
+            try:
+                plt.figure(figsize=(15, 5))
+                plt.subplot(1, 2, 1)
+                plt.imshow(binary_img, cmap='gray')
+                plt.title("Binary Image")
+                plt.subplot(1, 2, 2)
+                plt.plot(vertical_sum)
+                for (s, e) in column_edges:
+                    plt.axvline(s, color='r')
+                    plt.axvline(e, color='r')
+                plt.title("Vertical Projection with Detected Columns")
+                plt.show()
+            except ImportError:
+                print("matplotlib not available for debug visualization")
+
+        # Crop columns from original image
+        columns = []
+        for start, end in column_edges:
+            col_img = binary_img[:, start:end]
+            columns.append(col_img)
+
+        return columns
+    
+    @staticmethod
+    def crop_horizontal_columns(binary_img: ndarray, min_row_height: int = 75, debug: bool = False) -> List[ndarray]:
+        """
+        Crop horizontal sections (rows) from a preprocessed binary image.
+
+        Args:
+            binary_img (ndarray): Binary image with text in black (0), background white (255).
+            min_row_height (int): Minimum height in pixels to consider a row (filter noise).
+            debug (bool): If True, shows intermediate images and plots.
+
+        Returns:
+            List[ndarray]: List of cropped row images as numpy arrays.
+        """
+        # Invert image if text is white and background black
+        # We want text as black (0), background white (255)
+        if np.mean(binary_img) < 128:
+            binary_img = 255 - binary_img
+
+        # Sum pixels horizontally (along columns), black pixels count per row
+        horizontal_sum = np.sum(binary_img == 0, axis=1)
+
+        # Threshold to find gaps: rows with very low black pixel count represent whitespace between rows
+        threshold = np.max(horizontal_sum) * 0.05  # tweak this if needed
+        gaps = horizontal_sum < threshold
+
+        # Find start/end indices of rows by detecting transitions in gaps
+        row_edges = []
+        in_row = False
+        start = 0
+        for i, is_gap in enumerate(gaps):
+            if not is_gap and not in_row:
+                # start of row
+                start = i
+                in_row = True
+            elif is_gap and in_row:
+                # end of row
+                end = i
+                in_row = False
+                if end - start >= min_row_height:
+                    row_edges.append((start, end))
+
+        # Handle case where row goes till end of image
+        if in_row:
+            end = len(gaps) - 1
+            if end - start >= min_row_height:
+                row_edges.append((start, end))
+
+        if debug:
+            try:
+                plt.figure(figsize=(15, 5))
+                plt.subplot(1, 2, 1)
+                plt.imshow(binary_img, cmap='gray')
+                plt.title("Binary Image")
+                plt.subplot(1, 2, 2)
+                plt.plot(horizontal_sum)
+                for (s, e) in row_edges:
+                    plt.axhline(s, color='r')
+                    plt.axhline(e, color='r')
+                plt.title("Horizontal Projection with Detected Rows")
+                plt.show()
+            except ImportError:
+                print("matplotlib not available for debug visualization")
+
+        # Crop rows from original image
+        rows = []
+        for start, end in row_edges:
+            row_img = binary_img[start:end, :]
+            rows.append(row_img)
+
+        return rows
+
 
 def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]) -> Dict[str, Any]:
     """
@@ -552,11 +696,19 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
         # Create log entry
         log_entry = f"{image_file.name} - Time needed: {time_elapsed:.4f}s - Config {idx}: {', '.join(techniques)}\n"
 
-        # TODO: If flag, reate folder {image_file.stem}_config{idx} and save cropped columns there
+        # TODO: If flag "crop_columns" was used, crop vertical and horizontal columns. Cropped images shall be saved in a subfolder named after the file under processed_dir
 
-        # columns = crop_columns(processed_image, debug=False)
-        # for i, col in enumerate(columns):
-        #     cv2.imwrite(f"{image_file.stem}_config{idx}_#{i}.png", col)
+        new_folder = os.path.join(processed_dir, f"{image_file.stem}_config{idx}")
+        os.makedirs(new_folder, exist_ok=True)
+
+        vertical_columns = ColumnExtraction.crop_vertical_columns(processed_image)
+        for i, vert_col in enumerate(vertical_columns):
+            path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_#{i}.png")
+            cv2.imwrite(path_file_columns, vert_col)
+            horizontal_columns = ColumnExtraction.crop_horizontal_columns(vert_col)
+            for j, hor_col in enumerate(horizontal_columns):
+                path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_#{i}{j}.png")
+                cv2.imwrite(path_file_columns, hor_col)
 
         del processed_image
         del image_data
@@ -694,7 +846,6 @@ def print_help() -> None:
     print(help_text)
 
 
-def crop_columns(binary_img, min_col_width=35, debug=False):
     """
     Crop columns from a preprocessed binary image.
 
@@ -766,7 +917,6 @@ def crop_columns(binary_img, min_col_width=35, debug=False):
 
     return columns
 
-
 def main() -> None:
     """Main function to run preprocessing pipeline based on CLI arguments."""
     gc.enable()
@@ -775,6 +925,8 @@ def main() -> None:
     max_threads = mp.cpu_count()
     processing_mode = "per-image"
     run_tests = False
+
+    # TODO: Add flag "--crop_columns" and run pipeline
 
     if len(sys.argv) > 1:
         if any(arg in ['--help', '--h', '-h'] for arg in sys.argv):
@@ -803,12 +955,12 @@ def main() -> None:
     print(f"Using {max_threads} threads in {processing_mode} mode")
 
     # Define preprocessing methods
-    binarization_methods = ["basic", "otsu", "adaptive_mean",
-                            "adaptive_gaussian", "yannihorne", "niblack"]
-    skew_correction_methods = [
-        "boxes", "hough_transform", "topline", "scanline", "moments"]
-    noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter",
-                             "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
+    binarization_methods = ["basic"]
+    noise_removal_methods = ["mean_filter"]
+
+    # binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+    # skew_correction_methods = ["boxes", "hough_transform", "topline", "scanline", "moments"]
+    # noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
 
     # Generate all possible configurations
     configurations = [
