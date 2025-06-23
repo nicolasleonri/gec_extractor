@@ -64,8 +64,7 @@ Each article’s `headline`, `subheadline`, and `content` fields are compared ag
 - **Recall**
 - **F1-score**
 
-Results are saved to:  
-📄 `./results/csv/evaluation.csv`
+Results are saved to: `./results/csv/evaluation.csv`
 
 ## 📢 Get quick help
 
@@ -84,7 +83,7 @@ python <script>.py --test
 
 - Python 3.10+
 - Tesseract (installed locally)
-- Ollama (installed locally and running LLMs)
+- Ollama (installed locally and initialized)
 - Dependencies (see `/requirements/*.txt`)
 
 ---
