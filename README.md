@@ -3,7 +3,7 @@ This project extracts structured data from newspaper page images using a multi-s
 1. 🧼 **Preprocessing** — binarizes, deskews, and denoises images
 2. 🧠 **OCR Extraction** — applies multiple OCR models (Tesseract, etc.)
 3. 🤖 **Postprocessing with LLMs** — uses Ollama-based models to structure text into CSV
-4. 📊 **Evaluation** - automatically compares extracted CSV-files with gold standards
+4. 📊 **Evaluation** — automatically scores LLM output against ground truth using F1, precision, recall
 ---
 
 ## 🔁 Pipeline Overview
@@ -13,8 +13,7 @@ This project extracts structured data from newspaper page images using a multi-s
 | Preprocessing | Enhances image quality for OCR                    | Cleaned `.tiff` images            |
 | OCR           | Extracts raw text using multiple engines          | `.txt` files + log                |
 | Postprocessing| Converts OCR text to structured CSV via LLMs      | `.csv` (or `.json`) per article   |
-| Evaluation    | Compares generated CSV to gold labels             | `.csv` with results               |
-
+| Evaluation    | Measures similarity between predictions and gold labels (headline, content, etc.) | `.csv` with F1/precision/recall  |
 ---
 
 ## 📦 Folder Structure
@@ -24,6 +23,7 @@ This project extracts structured data from newspaper page images using a multi-s
 /results/images/preprocessed/     → Generated preprocessed image outputs
 /results/txt/extracted/           → Generated raw OCR `.txt` or `.json`
 /results/csv/extracted/           → Final structured CSV output
+/results/csv/evaluation.csv       → Evaluation results (F1, etc.)
 /logs/                            → Saved logs
 /scripts/                         → Core pipeline scripts
 /docs/                            → Script-specific documentation
@@ -54,6 +54,18 @@ python3 src/evaluate/evaluate.py
 chmod +x run_ocr_pipeline.sh
 ./run_ocr_pipeline.sh
 ```
+
+## 📊 Evaluation Metrics
+
+Each article’s `headline`, `subheadline`, and `content` fields are compared against gold labels using fuzzy string similarity (via `difflib`). Predictions are converted to binary matches and evaluated using:
+
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-score**
+
+Results are saved to:  
+📄 `./results/csv/evaluation.csv`
 
 ## 📢 Get quick help
 
