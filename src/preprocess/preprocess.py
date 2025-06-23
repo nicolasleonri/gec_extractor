@@ -761,7 +761,7 @@ def crop_columns(binary_img, min_col_width=35, debug=False):
 
     return columns
 
-def main():
+def main() -> None:
     """Main function to run preprocessing pipeline based on CLI arguments."""
     gc.enable()
 

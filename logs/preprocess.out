@@ -1,240 +1,48 @@
-trome#2021-03-02#02.png - Time needed: 0.0332s - Config 0: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0306s - Config 1: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0373s - Config 2: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0403s - Config 5: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0564s - Config 7: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.1662s - Config 6: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0359s - Config 18: Binarization.basic, SkewCorrection.topline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0248s - Config 17: Binarization.basic, SkewCorrection.topline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0228s - Config 16: Binarization.basic, SkewCorrection.topline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1968s - Config 9: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0315s - Config 21: Binarization.basic, SkewCorrection.topline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0533s - Config 24: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1745s - Config 8: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2006s - Config 10: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0525s - Config 26: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0460s - Config 25: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.1002s - Config 23: Binarization.basic, SkewCorrection.topline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.2262s - Config 13: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0644s - Config 29: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.2591s - Config 15: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0902s - Config 31: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0627s - Config 33: Binarization.basic, SkewCorrection.moments, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0405s - Config 32: Binarization.basic, SkewCorrection.moments, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0587s - Config 34: Binarization.basic, SkewCorrection.moments, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.1588s - Config 30: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0702s - Config 37: Binarization.basic, SkewCorrection.moments, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0610s - Config 41: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0551s - Config 42: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.1063s - Config 39: Binarization.basic, SkewCorrection.moments, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0726s - Config 40: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.3723s - Config 14: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0718s - Config 45: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.3300s - Config 22: Binarization.basic, SkewCorrection.topline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.1338s - Config 47: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0401s - Config 56: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0367s - Config 57: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0613s - Config 58: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.1802s - Config 46: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.2845s - Config 38: Binarization.basic, SkewCorrection.moments, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0267s - Config 64: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2345s - Config 50: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0453s - Config 65: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0211s - Config 69: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0662s - Config 61: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.1968s - Config 53: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0446s - Config 66: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.2794s - Config 49: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.2998s - Config 48: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0153s - Config 74: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0098s - Config 73: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0125s - Config 72: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0796s - Config 71: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0139s - Config 77: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.1538s - Config 63: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0701s - Config 79: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0512s - Config 82: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0716s - Config 80: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1709s - Config 70: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.3855s - Config 55: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0489s - Config 81: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0786s - Config 85: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0968s - Config 87: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.4779s - Config 54: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0236s - Config 98: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0342s - Config 97: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0427s - Config 96: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.4270s - Config 62: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.2388s - Config 78: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0857s - Config 103: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0335s - Config 101: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.2280s - Config 95: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0321s - Config 113: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.3852s - Config 94: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0375s - Config 114: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.1814s - Config 110: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0752s - Config 119: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.2257s - Config 86: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0497s - Config 106: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.2517s - Config 90: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0636s - Config 120: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0380s - Config 105: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0475s - Config 112: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2361s - Config 89: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.2262s - Config 88: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0363s - Config 104: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1070s - Config 111: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0293s - Config 117: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0490s - Config 109: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.2290s - Config 93: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0675s - Config 121: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0594s - Config 122: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.3654s - Config 102: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0658s - Config 125: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.1786s - Config 118: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.1173s - Config 127: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0683s - Config 136: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0495s - Config 138: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0451s - Config 137: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0638s - Config 141: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0640s - Config 144: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2828s - Config 130: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.3117s - Config 128: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2871s - Config 133: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.3202s - Config 129: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.2859s - Config 126: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0973s - Config 143: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0836s - Config 145: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0925s - Config 146: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0867s - Config 149: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0513s - Config 157: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0967s - Config 152: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1461s - Config 151: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0573s - Config 154: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.3802s - Config 135: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.1367s - Config 153: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0170s - Config 168: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1100s - Config 159: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.3516s - Config 142: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0227s - Config 169: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0369s - Config 170: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.1933s - Config 161: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0391s - Config 173: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.1861s - Config 162: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.2749s - Config 150: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.2642s - Config 160: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0554s - Config 175: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0150s - Config 176: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2703s - Config 158: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.6197s - Config 134: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0199s - Config 177: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0374s - Config 178: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.2312s - Config 165: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.2091s - Config 167: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0304s - Config 181: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0081s - Config 184: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0103s - Config 186: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0078s - Config 185: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.2474s - Config 174: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0935s - Config 183: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0103s - Config 189: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.0108s - Config 193: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.0243s - Config 194: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.0456s - Config 191: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.0115s - Config 192: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.0109s - Config 197: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.3987s - Config 166: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.0283s - Config 199: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.1588s - Config 190: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.3132s - Config 182: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.2166s - Config 202: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.2367s - Config 201: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.1867s - Config 198: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.2235s - Config 200: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2753s - Config 205: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.2172s - Config 209: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.2974s - Config 208: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.4087s - Config 207: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.2134s - Config 213: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.4275s - Config 206: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.1358s - Config 218: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.1803s - Config 217: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.3221s - Config 215: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.2642s - Config 216: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1267s - Config 221: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.1618s - Config 223: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.5404s - Config 210: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.5263s - Config 214: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.1376s - Config 225: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.1247s - Config 224: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.1542s - Config 226: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.3429s - Config 222: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.1760s - Config 229: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.1540s - Config 231: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.1670s - Config 233: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.gaussian_filter
-trome#2021-03-02#02.png - Time needed: 0.1335s - Config 234: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.median_filter
-trome#2021-03-02#02.png - Time needed: 0.2213s - Config 232: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.mean_filter
-trome#2021-03-02#02.png - Time needed: 0.2952s - Config 230: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 0.1437s - Config 237: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.laplacian_filter
-trome#2021-03-02#02.png - Time needed: 0.2480s - Config 239: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.unsharp_filter
-trome#2021-03-02#02.png - Time needed: 0.3083s - Config 238: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.frequency_filter
-trome#2021-03-02#02.png - Time needed: 15.4146s - Config 91: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.4127s - Config 3: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.3150s - Config 27: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.0204s - Config 107: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 24.5367s - Config 67: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.5212s - Config 171: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 24.1680s - Config 123: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.3654s - Config 187: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.2834s - Config 195: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.9177s - Config 163: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 24.4872s - Config 131: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 23.5492s - Config 203: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 25.7721s - Config 43: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 25.9380s - Config 83: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 27.0609s - Config 11: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 27.0094s - Config 51: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 25.9121s - Config 147: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 27.0181s - Config 115: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 25.7254s - Config 227: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 28.8352s - Config 75: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 27.9603s - Config 211: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 32.4346s - Config 59: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 34.6010s - Config 35: Binarization.basic, SkewCorrection.moments, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 35.2503s - Config 155: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 36.7708s - Config 99: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 37.6310s - Config 179: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 44.8151s - Config 19: Binarization.basic, SkewCorrection.topline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 45.8699s - Config 139: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 45.1678s - Config 219: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 45.1775s - Config 235: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.conservative_filter
-trome#2021-03-02#02.png - Time needed: 75.8228s - Config 52: Binarization.otsu, SkewCorrection.hough_transform, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 82.6948s - Config 108: Binarization.adaptive_mean, SkewCorrection.scanline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 83.1796s - Config 172: Binarization.yannihorne, SkewCorrection.hough_transform, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 83.1767s - Config 188: Binarization.yannihorne, SkewCorrection.scanline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 87.0446s - Config 44: Binarization.otsu, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 92.9011s - Config 132: Binarization.adaptive_gaussian, SkewCorrection.hough_transform, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 93.8508s - Config 124: Binarization.adaptive_gaussian, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 94.8986s - Config 196: Binarization.yannihorne, SkewCorrection.moments, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 97.2394s - Config 68: Binarization.otsu, SkewCorrection.scanline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 96.8762s - Config 164: Binarization.yannihorne, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 97.5291s - Config 204: Binarization.niblack, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 99.6042s - Config 84: Binarization.adaptive_mean, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 103.4965s - Config 148: Binarization.adaptive_gaussian, SkewCorrection.scanline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 105.8037s - Config 28: Binarization.basic, SkewCorrection.scanline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 103.6705s - Config 212: Binarization.niblack, SkewCorrection.hough_transform, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 107.7631s - Config 12: Binarization.basic, SkewCorrection.hough_transform, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 106.9926s - Config 92: Binarization.adaptive_mean, SkewCorrection.hough_transform, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 112.4359s - Config 116: Binarization.adaptive_mean, SkewCorrection.moments, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 118.0960s - Config 4: Binarization.basic, SkewCorrection.boxes, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 118.7443s - Config 76: Binarization.otsu, SkewCorrection.moments, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 119.3293s - Config 228: Binarization.niblack, SkewCorrection.scanline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 124.2070s - Config 36: Binarization.basic, SkewCorrection.moments, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 128.7234s - Config 156: Binarization.adaptive_gaussian, SkewCorrection.moments, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 141.3666s - Config 180: Binarization.yannihorne, SkewCorrection.topline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 144.3327s - Config 20: Binarization.basic, SkewCorrection.topline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 144.5295s - Config 60: Binarization.otsu, SkewCorrection.topline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 144.2591s - Config 140: Binarization.adaptive_gaussian, SkewCorrection.topline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 143.1524s - Config 220: Binarization.niblack, SkewCorrection.topline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 146.1338s - Config 100: Binarization.adaptive_mean, SkewCorrection.topline, NoiseRemoval.crimmins_speckle_removal
-trome#2021-03-02#02.png - Time needed: 158.4173s - Config 236: Binarization.niblack, SkewCorrection.moments, NoiseRemoval.crimmins_speckle_removal
+trome#2021-03-02#02.png - Time needed: 0.0129s - Config 0: Binarization.basic, NoiseRemoval.mean_filter
+trome#2021-03-02#02.png - Time needed: 0.0142s - Config 1: Binarization.basic, NoiseRemoval.gaussian_filter
+trome#2021-03-02#02.png - Time needed: 0.0157s - Config 2: Binarization.basic, NoiseRemoval.median_filter
+trome#2021-03-02#02.png - Time needed: 0.0096s - Config 5: Binarization.basic, NoiseRemoval.laplacian_filter
+trome#2021-03-02#02.png - Time needed: 0.0122s - Config 9: Binarization.otsu, NoiseRemoval.gaussian_filter
+trome#2021-03-02#02.png - Time needed: 0.0103s - Config 10: Binarization.otsu, NoiseRemoval.median_filter
+trome#2021-03-02#02.png - Time needed: 0.0131s - Config 8: Binarization.otsu, NoiseRemoval.mean_filter
+trome#2021-03-02#02.png - Time needed: 0.0364s - Config 7: Binarization.basic, NoiseRemoval.unsharp_filter
+trome#2021-03-02#02.png - Time needed: 0.0137s - Config 13: Binarization.otsu, NoiseRemoval.laplacian_filter
+trome#2021-03-02#02.png - Time needed: 0.1149s - Config 6: Binarization.basic, NoiseRemoval.frequency_filter
+trome#2021-03-02#02.png - Time needed: 0.0210s - Config 17: Binarization.adaptive_mean, NoiseRemoval.gaussian_filter
+trome#2021-03-02#02.png - Time needed: 0.0509s - Config 15: Binarization.otsu, NoiseRemoval.unsharp_filter
+trome#2021-03-02#02.png - Time needed: 0.0226s - Config 16: Binarization.adaptive_mean, NoiseRemoval.mean_filter
+trome#2021-03-02#02.png - Time needed: 0.0277s - Config 18: Binarization.adaptive_mean, NoiseRemoval.median_filter
+trome#2021-03-02#02.png - Time needed: 0.0254s - Config 21: Binarization.adaptive_mean, NoiseRemoval.laplacian_filter
+trome#2021-03-02#02.png - Time needed: 0.1131s - Config 14: Binarization.otsu, NoiseRemoval.frequency_filter
+trome#2021-03-02#02.png - Time needed: 0.0256s - Config 24: Binarization.adaptive_gaussian, NoiseRemoval.mean_filter
+trome#2021-03-02#02.png - Time needed: 0.0281s - Config 26: Binarization.adaptive_gaussian, NoiseRemoval.median_filter
+trome#2021-03-02#02.png - Time needed: 0.0351s - Config 25: Binarization.adaptive_gaussian, NoiseRemoval.gaussian_filter
+trome#2021-03-02#02.png - Time needed: 0.0633s - Config 23: Binarization.adaptive_mean, NoiseRemoval.unsharp_filter
+trome#2021-03-02#02.png - Time needed: 0.0265s - Config 29: Binarization.adaptive_gaussian, NoiseRemoval.laplacian_filter
+trome#2021-03-02#02.png - Time needed: 0.0122s - Config 32: Binarization.yannihorne, NoiseRemoval.mean_filter
+trome#2021-03-02#02.png - Time needed: 0.0115s - Config 33: Binarization.yannihorne, NoiseRemoval.gaussian_filter
+trome#2021-03-02#02.png - Time needed: 0.0164s - Config 34: Binarization.yannihorne, NoiseRemoval.median_filter
+trome#2021-03-02#02.png - Time needed: 0.1501s - Config 22: Binarization.adaptive_mean, NoiseRemoval.frequency_filter
+trome#2021-03-02#02.png - Time needed: 0.0120s - Config 37: Binarization.yannihorne, NoiseRemoval.laplacian_filter
+trome#2021-03-02#02.png - Time needed: 0.0823s - Config 31: Binarization.adaptive_gaussian, NoiseRemoval.unsharp_filter
+trome#2021-03-02#02.png - Time needed: 0.0512s - Config 39: Binarization.yannihorne, NoiseRemoval.unsharp_filter
+trome#2021-03-02#02.png - Time needed: 0.1017s - Config 40: Binarization.niblack, NoiseRemoval.mean_filter
+trome#2021-03-02#02.png - Time needed: 0.0948s - Config 42: Binarization.niblack, NoiseRemoval.median_filter
+trome#2021-03-02#02.png - Time needed: 0.1793s - Config 30: Binarization.adaptive_gaussian, NoiseRemoval.frequency_filter
+trome#2021-03-02#02.png - Time needed: 0.1201s - Config 38: Binarization.yannihorne, NoiseRemoval.frequency_filter
+trome#2021-03-02#02.png - Time needed: 0.1160s - Config 41: Binarization.niblack, NoiseRemoval.gaussian_filter
+trome#2021-03-02#02.png - Time needed: 0.1103s - Config 45: Binarization.niblack, NoiseRemoval.laplacian_filter
+trome#2021-03-02#02.png - Time needed: 0.1179s - Config 47: Binarization.niblack, NoiseRemoval.unsharp_filter
+trome#2021-03-02#02.png - Time needed: 0.2359s - Config 46: Binarization.niblack, NoiseRemoval.frequency_filter
+trome#2021-03-02#02.png - Time needed: 12.4264s - Config 27: Binarization.adaptive_gaussian, NoiseRemoval.conservative_filter
+trome#2021-03-02#02.png - Time needed: 12.5242s - Config 19: Binarization.adaptive_mean, NoiseRemoval.conservative_filter
+trome#2021-03-02#02.png - Time needed: 12.7643s - Config 3: Binarization.basic, NoiseRemoval.conservative_filter
+trome#2021-03-02#02.png - Time needed: 13.5504s - Config 11: Binarization.otsu, NoiseRemoval.conservative_filter
+trome#2021-03-02#02.png - Time needed: 13.3800s - Config 35: Binarization.yannihorne, NoiseRemoval.conservative_filter
+trome#2021-03-02#02.png - Time needed: 13.4753s - Config 43: Binarization.niblack, NoiseRemoval.conservative_filter
+trome#2021-03-02#02.png - Time needed: 66.9149s - Config 20: Binarization.adaptive_mean, NoiseRemoval.crimmins_speckle_removal
+trome#2021-03-02#02.png - Time needed: 67.3307s - Config 4: Binarization.basic, NoiseRemoval.crimmins_speckle_removal
+trome#2021-03-02#02.png - Time needed: 68.0371s - Config 36: Binarization.yannihorne, NoiseRemoval.crimmins_speckle_removal
+trome#2021-03-02#02.png - Time needed: 68.7444s - Config 12: Binarization.otsu, NoiseRemoval.crimmins_speckle_removal
+trome#2021-03-02#02.png - Time needed: 68.4915s - Config 44: Binarization.niblack, NoiseRemoval.crimmins_speckle_removal
+trome#2021-03-02#02.png - Time needed: 70.1018s - Config 28: Binarization.adaptive_gaussian, NoiseRemoval.crimmins_speckle_removal
