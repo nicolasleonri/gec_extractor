@@ -55,7 +55,7 @@ class TesseractOCR:
         gc.collect()
         torch.cuda.empty_cache()
         wait_for_gpu_memory()
-        
+
         result = pytesseract.image_to_string(
             image, lang='spa', config="--psm 3 --oem 1")
         result = result.replace("\n", " ")  # TODO: try without combining
@@ -80,13 +80,13 @@ class KerasOCR:
         torch.cuda.empty_cache()
 
         wait_for_gpu_memory()
-        
+
         detector = keras_ocr.detection.Detector(weights='clovaai_general')
         recognizer = keras_ocr.recognition.Recognizer(
             # alphabet=keras_ocr.recognition.DEFAULT_ALPHABET + 'ñáéíóúüÑÁÉÍÓÚÜ¿¡',
             weights='kurapan'  # This recognizer performs better on Latin characters
         )
-        
+
         pipeline = keras_ocr.pipeline.Pipeline(
             detector=detector, recognizer=recognizer)
         read_image = keras_ocr.tools.read(image)
@@ -123,7 +123,7 @@ class EasyOCR:
         gc.collect()
         torch.cuda.empty_cache()
         wait_for_gpu_memory()
-        
+
         reader = easyocr.Reader(['es'], gpu=True)
         result = reader.readtext(image)
         output = [j for _, j, _ in result]
@@ -223,11 +223,11 @@ class docTR:
     @staticmethod
     def extract_text_from_document(document: DocumentFile, preserve_structure: bool = True) -> str:
         """Flattens a DocumentFile into a plain text string with Spanish text handling.
-        
+
         Args:
             document (DocumentFile): Parsed document object.
             preserve_structure (bool): Whether to preserve line breaks and structure.
-            
+
         Returns:
             str: Combined text from all pages.
         """
@@ -239,14 +239,15 @@ class docTR:
                 for block in page.blocks:
                     block_text = []
                     for line in block.lines:
-                        line_text = " ".join(word.value for word in line.words if word.value.strip())
+                        line_text = " ".join(
+                            word.value for word in line.words if word.value.strip())
                         if line_text.strip():
                             block_text.append(line_text)
                     if block_text:
                         page_text.append("\n".join(block_text))
                 if page_text:
                     text_parts.append("\n\n".join(page_text))
-            
+
             return "\n\n".join(text_parts)
         else:
             # Simple flat text extraction
@@ -294,7 +295,6 @@ class docTR:
         return cleaned_output
 
 
-
 class TestOCRPipeline(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -325,9 +325,11 @@ class TestOCRPipeline(unittest.TestCase):
     def check_ocr_output(self, method, method_name):
         """Helper: run method and assert it returns expected text"""
         output = method(self.test_file_path)
-        self.assertIsInstance(output, str, f"{method_name} returned non-string output")
+        self.assertIsInstance(
+            output, str, f"{method_name} returned non-string output")
         self.assertTrue(
-            any(word.lower() in output.lower() for word in ["test", "ocr", "line"]),
+            any(word.lower() in output.lower()
+                for word in ["test", "ocr", "line"]),
             f"{method_name} failed to detect expected text"
         )
 
@@ -351,6 +353,7 @@ class TestOCRPipeline(unittest.TestCase):
         from ocr import docTR
         self.check_ocr_output(docTR.process, "docTR")
 
+
 def process_single_ocr(image_path: str, method_name: str, method: Callable[[Union[str, np.ndarray]], str], log_queue: Queue) -> Dict[str, Union[str, float]]:
     """Processes a single image with a given OCR method.
 
@@ -370,7 +373,8 @@ def process_single_ocr(image_path: str, method_name: str, method: Callable[[Unio
     try:
         output = method(image_path)
     except ValueError as ve:
-        error_msg = f'COMMON ERROR: {ve}' if "unable to read" in str(ve) else f'NEW ERROR: {ve}'
+        error_msg = f'COMMON ERROR: {ve}' if "unable to read" in str(
+            ve) else f'NEW ERROR: {ve}'
     except Exception as e:
         if "CUDA out of memory" in str(e) or "32-bit samples" in str(e):
             error_msg = f'COMMON ERROR: {e}'
@@ -388,7 +392,7 @@ def process_single_ocr(image_path: str, method_name: str, method: Callable[[Unio
         'error_msg': error_msg
     }
 
-    log_queue.put(result) # Thread-safe logging
+    log_queue.put(result)  # Thread-safe logging
 
     return result
 
@@ -423,6 +427,7 @@ def log_writer(log_queue: Queue, log_file_path: str, total_tasks: int) -> None:
             except:
                 continue  # No log yet, keep looping
 
+
 def print_help() -> None:
     """Display usage instructions for the OCR script."""
     help_text = """
@@ -450,6 +455,7 @@ def print_help() -> None:
     """
     print(help_text)
 
+
 def main() -> None:
     """Main entry point for OCR pipeline."""
     max_threads = mp.cpu_count()
@@ -461,7 +467,7 @@ def main() -> None:
     if '--test' in sys.argv:
         unittest.main(argv=['first-arg-is-ignored'], exit=False)
         return
-    
+
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
         "KerasOCR": KerasOCR.process,
@@ -496,58 +502,66 @@ def main() -> None:
 
     def process_by_image():
         """Process images sequentially to avoid GPU memory conflicts."""
-        
+
         total_tasks = len(image_files) * len(ocr_methods)
         completed = 0
-        
-        print(f"Starting sequential processing of {len(image_files)} images with {len(ocr_methods)} methods")
+
+        print(
+            f"Starting sequential processing of {len(image_files)} images with {len(ocr_methods)} methods")
         print(f"Total tasks: {total_tasks}")
-        
+
         start_time = time.time()
-        
+
         # Process each image with each OCR method sequentially
         for image_idx, image_file in enumerate(image_files):
             image_path = os.path.join(os.getcwd(), image_file)
-            
-            print(f"\n📄 Processing image {image_idx + 1}/{len(image_files)}: {image_file}")
-            
+
+            print(
+                f"\n📄 Processing image {image_idx + 1}/{len(image_files)}: {image_file}")
+
             for method_idx, (method_name, method) in enumerate(ocr_methods.items()):
                 try:
-                    print(f"  🔍 Running {method_name}... ({method_idx + 1}/{len(ocr_methods)})")
-                    
+                    print(
+                        f"  🔍 Running {method_name}... ({method_idx + 1}/{len(ocr_methods)})")
+
                     task_start = time.time()
-                    result = process_single_ocr(image_path, method_name, method, log_queue)
+                    result = process_single_ocr(
+                        image_path, method_name, method, log_queue)
                     task_duration = time.time() - task_start
-                    
+
                     completed += 1
-                    
+
                     # Progress update
                     progress_percent = (completed / total_tasks) * 100
                     elapsed_time = time.time() - start_time
                     avg_time_per_task = elapsed_time / completed if completed > 0 else 0
-                    estimated_remaining = (total_tasks - completed) * avg_time_per_task
-                    
-                    print(f"    ✅ {method_name} completed in {task_duration:.1f}s")
-                    print(f"    📊 Progress: {completed}/{total_tasks} ({progress_percent:.1f}%)")
-                    
+                    estimated_remaining = (
+                        total_tasks - completed) * avg_time_per_task
+
+                    print(
+                        f"    ✅ {method_name} completed in {task_duration:.1f}s")
+                    print(
+                        f"    📊 Progress: {completed}/{total_tasks} ({progress_percent:.1f}%)")
+
                     if completed % 5 == 0 or method_idx == len(ocr_methods) - 1:
-                        print(f"    ⏱️  Elapsed: {elapsed_time:.1f}s, Est. remaining: {estimated_remaining:.1f}s")
-                    
+                        print(
+                            f"    ⏱️  Elapsed: {elapsed_time:.1f}s, Est. remaining: {estimated_remaining:.1f}s")
+
                 except Exception as e:
                     completed += 1
                     print(f"    ❌ {method_name} failed: {e}")
-                    
+
                     # Log the error but continue processing
                     try:
-                        log_queue.put(f"ERROR - {method_name} on {image_file}: {str(e)}")
+                        log_queue.put(
+                            f"ERROR - {method_name} on {image_file}: {str(e)}")
                     except:
                         pass
-    
+
         total_time = time.time() - start_time
         print(f"\n🎉 All processing completed!")
         print(f"Total time: {total_time:.1f}s")
         print(f"Average time per task: {total_time/total_tasks:.1f}s")
-
 
     start_time = time.time()
 

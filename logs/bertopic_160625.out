@@ -1,56 +1,0 @@
-Processing 1 CSV files from ./results/csv/test/
-🧵 Using ProcessPoolExecutor with 64 workers
-📄 Total valid documents: 12
-
-==================================================
-Processing with model: hiiamsid/sentence_similarity_spanish_es
-==================================================
-🧠 Training BERTopic model with hiiamsid/sentence_similarity_spanish_es
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.63it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.62it/s]
-2025-06-17 11:51:08,642 - BERTopic - Embedding - Completed ✓
-2025-06-17 11:51:08,642 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
-2025-06-17 11:51:19,223 - BERTopic - Dimensionality - Completed ✓
-2025-06-17 11:51:19,224 - BERTopic - Cluster - Start clustering the reduced embeddings
-2025-06-17 11:51:19,227 - BERTopic - Cluster - Completed ✓
-2025-06-17 11:51:19,231 - BERTopic - Representation - Fine-tuning topics using representation models.
-2025-06-17 11:51:19,239 - BERTopic - Representation - Completed ✓
-2025-06-17 11:51:19,246 - BERTopic - WARNING: When you use `pickle` to save/load a BERTopic model,please make sure that the environments in which you saveand load the model are **exactly** the same. The version of BERTopic,its dependencies, and python need to remain the same.
-✅ Completed hiiamsid/sentence_similarity_spanish_es
-
-==================================================
-Processing with model: Qwen/Qwen3-Embedding-8B
-==================================================
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.01it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.17s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:00,  1.01it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]
-🧠 Training BERTopic model with Qwen/Qwen3-Embedding-8B
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
-2025-06-17 11:51:42,413 - BERTopic - Embedding - Completed ✓
-2025-06-17 11:51:42,413 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
-2025-06-17 11:51:42,702 - BERTopic - Dimensionality - Completed ✓
-2025-06-17 11:51:42,702 - BERTopic - Cluster - Start clustering the reduced embeddings
-2025-06-17 11:51:42,705 - BERTopic - Cluster - Completed ✓
-2025-06-17 11:51:42,708 - BERTopic - Representation - Fine-tuning topics using representation models.
-2025-06-17 11:51:42,714 - BERTopic - Representation - Completed ✓
-2025-06-17 11:51:42,720 - BERTopic - WARNING: When you use `pickle` to save/load a BERTopic model,please make sure that the environments in which you saveand load the model are **exactly** the same. The version of BERTopic,its dependencies, and python need to remain the same.
-✅ Completed Qwen/Qwen3-Embedding-8B
-
-==================================================
-Processing with model: Linq-AI-Research/Linq-Embed-Mistral
-==================================================
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.07s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.12s/it]
-🧠 Training BERTopic model with Linq-AI-Research/Linq-Embed-Mistral
-Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
-2025-06-17 11:53:40,036 - BERTopic - Embedding - Completed ✓
-2025-06-17 11:53:40,036 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
-2025-06-17 11:53:40,162 - BERTopic - Dimensionality - Completed ✓
-2025-06-17 11:53:40,163 - BERTopic - Cluster - Start clustering the reduced embeddings
-2025-06-17 11:53:40,165 - BERTopic - Cluster - Completed ✓
-2025-06-17 11:53:40,167 - BERTopic - Representation - Fine-tuning topics using representation models.
-2025-06-17 11:53:40,173 - BERTopic - Representation - Completed ✓
-2025-06-17 11:53:40,179 - BERTopic - WARNING: When you use `pickle` to save/load a BERTopic model,please make sure that the environments in which you saveand load the model are **exactly** the same. The version of BERTopic,its dependencies, and python need to remain the same.
-✅ Completed Linq-AI-Research/Linq-Embed-Mistral
-
-📊 Processing majority vote from 3 models
-Processing agreement: 1/12
-
-💾 Writing 12 agreed topics to CSV...
-✅ Results written to: ./results/csv/results_topics.csv

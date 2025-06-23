@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"print(""headline";"subheadline";"author";"content"")";"trome";"2021-03-02";"2"
-"print(f""{extract_info(text)['headline']}";"{extract_info(text)['subheadline']}";"{extract_info(text)['author']}";"{extract_info(text)['content']}"")";"trome";"2021-03-02";"2"

@@ -561,7 +561,7 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
         del processed_image
         del image_data
         gc.collect()
-        
+
         return {
             'success': True,
             'log_entry': log_entry,
@@ -581,6 +581,7 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
             'image_name': image_file.name
         }
 
+
 class TestPreprocessingPipeline(unittest.TestCase):
     """Unit tests for individual preprocessing methods."""
 
@@ -588,7 +589,8 @@ class TestPreprocessingPipeline(unittest.TestCase):
         self.blank = np.full((100, 100), 255, dtype=np.uint8)  # white image
         self.noisy = self.blank.copy()
         np.random.seed(0)
-        self.noisy[np.random.randint(0, 100, 200), np.random.randint(0, 100, 200)] = 0
+        self.noisy[np.random.randint(0, 100, 200),
+                   np.random.randint(0, 100, 200)] = 0
 
     def test_to_grayscale(self):
         color_img = cv2.cvtColor(self.blank, cv2.COLOR_GRAY2BGR)
@@ -607,6 +609,7 @@ class TestPreprocessingPipeline(unittest.TestCase):
     def test_skew_correction_boxes(self):
         corrected = SkewCorrection.boxes(self.blank)
         self.assertEqual(corrected.dtype, self.blank.dtype)
+
 
 def process_single_image_all_configs(image_file: Path, configurations: List[Dict[str, Any]], processed_dir: str, max_workers: Optional[int] = None) -> List[Dict[str, Any]]:
     """
@@ -690,6 +693,7 @@ def print_help() -> None:
     """
     print(help_text)
 
+
 def crop_columns(binary_img, min_col_width=35, debug=False):
     """
     Crop columns from a preprocessed binary image.
@@ -712,7 +716,8 @@ def crop_columns(binary_img, min_col_width=35, debug=False):
     vertical_sum = np.sum(binary_img == 0, axis=0)
 
     # Normalize for visualization/debugging
-    norm_vertical_sum = (vertical_sum - vertical_sum.min()) / (vertical_sum.max() - vertical_sum.min())
+    norm_vertical_sum = (vertical_sum - vertical_sum.min()) / \
+        (vertical_sum.max() - vertical_sum.min())
 
     # Threshold to find gaps: columns with very low black pixel count represent whitespace between columns
     threshold = np.max(vertical_sum) * 0.05  # tweak this if needed
@@ -761,6 +766,7 @@ def crop_columns(binary_img, min_col_width=35, debug=False):
 
     return columns
 
+
 def main() -> None:
     """Main function to run preprocessing pipeline based on CLI arguments."""
     gc.enable()
@@ -774,7 +780,7 @@ def main() -> None:
         if any(arg in ['--help', '--h', '-h'] for arg in sys.argv):
             print_help()
             return
-        
+
         if "--test" in sys.argv:
             run_tests = True
 
