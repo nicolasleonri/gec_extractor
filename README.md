@@ -47,11 +47,11 @@ python3 src/postprocess/postprocess.py
 python3 src/evaluate/evaluate.py
 ```
 
-OR:
+                **OR:**
 
 1. **Run Pipeline in a single Bash-script**
 ```bash
-chmod +x ./run_ocr_pipeline.sh
+chmod +x run_ocr_pipeline.sh
 ./run_ocr_pipeline.sh
 ```
 
