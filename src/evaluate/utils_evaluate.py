@@ -1,21 +1,39 @@
-import json
-from fuzzywuzzy import fuzz
+"""
+utils_evaluate.py
+
+Evaluation utilities for comparing structured article data (CSV/JSON)
+against gold standard annotations.
+
+Includes:
+- CSV/JSON loaders
+- Fuzzy matching for headline alignment
+- Similarity-based metrics preparation
+- Scikit-learn metrics computation
+
+Author: @nicolasleonri (GitHub)
+License: GPL
+"""
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from fuzzywuzzy import fuzz
+from pathlib import Path
 import numpy as np
 import difflib
-from pathlib import Path
+import json
 import csv
 
-def load_csv_file(file_path):
+def load_csv_file(file_path: str) -> list:
+    """Loads a CSV file into a list of dictionaries."""
     with open(file_path, encoding='utf-8') as f:
         reader = csv.DictReader(f, delimiter=';', quotechar='"')
         return list(reader)
 
-def load_json_file(file_path):
+def load_json_file(file_path: str) -> dict:
+    """Loads a JSON file into a dictionary."""
     with open(file_path, 'r') as file:
         return json.load(file)
     
-def find_matching_key(target_key, dictionary, threshold=80):
+def find_matching_key(target_key: str, dictionary: dict, threshold: int = 80) -> str:
+    """Finds a key in a dictionary that matches a target key approximately."""
     for key in dictionary.keys():
         if fuzz.ratio(target_key.lower(), key.lower()) >= threshold:
             return key
@@ -86,7 +104,16 @@ def find_matching_key(target_key, dictionary, threshold=80):
 
 #     return results
 
-def preprocess_data(gold_data, eval_data):
+def preprocess_data(gold_data: list, eval_data: list) -> list:
+    """Aligns and compares articles using fuzzy headline matching.
+
+    Args:
+        gold_data (list): List of gold-standard articles.
+        eval_data (list): List of evaluated articles.
+
+    Returns:
+        list: Similarity data per article field.
+    """
     results = []
     used_eval_indices = set()
 
@@ -135,7 +162,8 @@ def preprocess_data(gold_data, eval_data):
 
     return results
 
-def prepare_for_sklearn_metrics(comparison_results, similarity_threshold=0.8):
+def prepare_for_sklearn_metrics(comparison_results: list, similarity_threshold: float = 0.8):
+    """Converts similarity results into binary labels for metric calculation."""
     y_true = []
     y_pred = []
 
@@ -149,7 +177,8 @@ def prepare_for_sklearn_metrics(comparison_results, similarity_threshold=0.8):
 
     return y_true, y_pred
 
-def calculate_metrics(y_true, y_pred):
+def calculate_metrics(y_true: list, y_pred: list):
+    """Computes accuracy, precision, recall, and F1."""
     accuracy = accuracy_score(y_true, y_pred)
     precision = precision_score(y_true, y_pred, zero_division=0)
     recall = recall_score(y_true, y_pred, zero_division=0)
@@ -157,7 +186,8 @@ def calculate_metrics(y_true, y_pred):
 
     return accuracy, precision, recall, f1
 
-def process_gold_standards(gold_standard_dir):
+def process_gold_standards(gold_standard_dir: str) -> dict:
+    """Loads all gold standard CSVs into a dictionary keyed by filename stem."""
     gold_standards = {}
     gold_standard_path = Path(gold_standard_dir)
     
