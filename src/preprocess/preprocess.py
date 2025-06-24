@@ -661,7 +661,6 @@ class ColumnExtraction:
 
         return rows
 
-
 def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]) -> Dict[str, Any]:
     """
     Process a single image with a given preprocessing configuration.
@@ -703,11 +702,11 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
 
         vertical_columns = ColumnExtraction.crop_vertical_columns(processed_image)
         for i, vert_col in enumerate(vertical_columns):
-            path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_#{i}.png")
+            path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_vert_#{i}.png")
             cv2.imwrite(path_file_columns, vert_col)
             horizontal_columns = ColumnExtraction.crop_horizontal_columns(vert_col)
             for j, hor_col in enumerate(horizontal_columns):
-                path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_#{i}{j}.png")
+                path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_hor_#{i}{j}.png")
                 cv2.imwrite(path_file_columns, hor_col)
 
         del processed_image
