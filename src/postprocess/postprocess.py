@@ -604,11 +604,11 @@ def main() -> None:
 
     models = {
         "phi4:latest": "phi4",
-        # "llama4:latest": "llama4",
-        # "gemma3:27b": "gemma3",
+        "llama4:latest": "llama4",
+        "gemma3:27b": "gemma3",
         # "qwen3:32b": "qwen3",
-        # "deepseek-r1:32b": "deepseek-r1",
-        # "magistral:24b": "magistral",
+        "deepseek-r1:32b": "deepseek-r1",
+        "magistral:24b": "magistral",
     }
     
     print("Starting multithreaded LLM postprocessing...")
