@@ -131,10 +131,64 @@ def main() -> None:
         else:
             print(f"Warning: No matching gold standard found for {eval_file.name}")
             return None
+        
+    # print(final_results)
+    ocr_log_dict = parse_ocr_log('./results/txt/extracted/ocr_results_log.txt')
+    pre_log_dict = parse_preprocessing_log('./logs/preprocess.out')
+    post_log_dict = parse_llm_logs_oneliner('./logs/postprocess.txt')
+
+    def strip_extension(filename):
+        return filename.replace('.tiff', '').replace('.png', '')
+
+    for result in final_results:
+        filename, config, ocr, llm = result[0], result[1], result[2], result[3]
+        filename_stripped = strip_extension(filename)
+
+        # Initialize extracted times
+        pre_time_log = 0.0
+        ocr_time_log = 0.0
+        post_time_log = 0.0
+
+        # Extract preprocessing time from logs
+        for entry in pre_log_dict:
+            if strip_extension(entry['filename']) == filename_stripped and str(entry['config']) == str(config):
+                pre_time_log = entry['time_needed']
+                break
+
+        # Extract OCR time from logs
+        for entry in ocr_log_dict:
+            if (strip_extension(entry['filename']) == filename_stripped and
+                str(entry['config']) == str(config) and
+                entry['ocr'] == ocr):
+                ocr_time_log = entry['time_needed']
+                break
+
+        # Extract postprocessing time from logs
+        for entry in post_log_dict:
+            if (strip_extension(entry['filename']) == filename_stripped and
+                str(entry['config']) == str(config) and
+                entry['ocr'] == ocr and
+                entry['llm'] == llm):
+                post_time_log = entry['time_needed']
+                break
+
+        # Replace None with "NA"
+        pre_time_log = pre_time_log if pre_time_log is not None else "NA"
+        ocr_time_log = ocr_time_log if ocr_time_log is not None else "NA"
+        post_time_log = post_time_log if post_time_log is not None else "NA"
+
+        # Calculate total time if all times are numbers, else "NA"
+        if all(isinstance(t, (int, float)) for t in [pre_time_log, ocr_time_log, post_time_log]):
+            total_time_log = pre_time_log + ocr_time_log + post_time_log
+        else:
+            total_time_log = "NA"
+
+        # Append the extracted times as NEW columns to the row
+        result.extend([pre_time_log, ocr_time_log, post_time_log, total_time_log])
 
     with open('./results/csv/evaluation.csv', 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
-        head = ['Filename', 'Config', 'OCR_module', 'LLM_model', "Accuracy", "Precision", "Recall", "F1_Score"]
+        head = ['Filename', 'Config', 'OCR_module', 'LLM_model', "Accuracy", "Precision", "Recall", "F1_Score", "PP_Time", "OCR_Time", "LLM_Time", "Time"]
         csvwriter.writerow(head)
 
         # Write each row from the list

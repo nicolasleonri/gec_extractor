@@ -20,6 +20,20 @@ import numpy as np
 import difflib
 import json
 import csv
+import re
+
+def parse_ocr_log(file_path):
+    """Parse OCR logs in one line"""
+    return [{'filename': m.group(1), 'config': m.group(2), 'ocr': m.group(3), 'time_needed': float(m.group(4))} for line in open(file_path, 'r', encoding='utf-8') if (m := re.search(r'File: (.*?) - Config: (.*?) - OCR: (.*?) - Time needed: (.*?) - \[(.*?)\]', line.strip()))]
+
+def parse_preprocessing_log(file_path):
+    """Parse preprocessing logs in one line"""
+    return [{'filename': m.group(1), 'config': int(m.group(2)), 'time_needed': float(m.group(4))} for line in open(file_path, 'r', encoding='utf-8') if (m := re.search(r'File: (.*?) - Config (\d+): (.*?) - Time needed: (.*?)s', line.strip()))]
+
+def parse_llm_logs_oneliner(file_path):
+    """Parse LLM processing logs in one line"""
+    return [{'filename': m.group(1), 'config': m.group(2), 'ocr': m.group(3), 'llm': m.group(4), 'time_needed': float(m.group(5))} for line in open(file_path, 'r', encoding='utf-8') if (m := re.search(r'File: (.*?) - Config: (.*?) - OCR: (.*?) - LLM: (.*?) - Time needed: (.*?)s', line.strip()))]
+
 
 def load_csv_file(file_path: str) -> list:
     """Loads a CSV file into a list of dictionaries."""
