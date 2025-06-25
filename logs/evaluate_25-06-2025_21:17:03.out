@@ -1,0 +1,12 @@
+[1/8] Processing: trome#2021-03-02#02_config1_PaddleOCR_phi4.csv
+[2/8] Processing: trome#2021-03-02#02_config2_TesseractOCR_phi4.csv
+Best F1 so far: 0.09091
+[3/8] Processing: trome#2021-03-02#02_config1_TesseractOCR_phi4.csv
+Best F1 so far: 0.25000
+[4/8] Processing: trome#2021-03-02#02_config3_PaddleOCR_phi4.csv
+[5/8] Processing: trome#2021-03-02#02_config2_PaddleOCR_phi4.csv
+[6/8] Processing: trome#2021-03-02#02_config0_TesseractOCR_phi4.csv
+[7/8] Processing: trome#2021-03-02#02_config3_TesseractOCR_phi4.csv
+Best F1 so far: 0.32000
+[8/8] Processing: trome#2021-03-02#02_config0_PaddleOCR_phi4.csv
+✅️ Evaluation done! File can be found under: './results/csv/evaluation.csv'
