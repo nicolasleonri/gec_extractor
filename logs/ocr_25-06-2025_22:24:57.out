@@ -1,0 +1,88 @@
+2025-06-25 22:26:17.224951: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-25 22:26:17.225045: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-25 22:26:17.226924: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-25 22:26:17.234854: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-25 22:26:20.590304: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Starting processing of 48 images with 5 methods
+Total tasks: 240
+Using 64 threads
+Starting sequential processing of 48 images with 5 methods
+Total tasks: 240
+
+📄 Processing image 1/48: results/images/preprocessed/trome#2021-03-02#02_config30.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 1/240 (0.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-25 22:26:35.959868: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.053011: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.054889: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.060700: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.062308: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.063849: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.221987: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.223186: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.224201: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-25 22:26:36.225134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79181 MB memory:  -> device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:05:00.0, compute capability: 8.0
+WARNING:tensorflow:From /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1260: resize_bilinear (from tensorflow.python.ops.image_ops_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.image.resize(...method=ResizeMethod.BILINEAR...)` instead.
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+2025-06-25 22:26:38.634661: W external/local_xla/xla/service/gpu/llvm_gpu_backend/gpu_backend_lib.cc:504] Can't find libdevice directory ${CUDA_DIR}/nvvm/libdevice. This may result in compilation or runtime failures, if the program we try to run uses routines from libdevice.
+Searched for CUDA in the following directories:
+  ./cuda_sdk_lib
+  /usr/local/cuda-12.2
+  /usr/local/cuda
+  /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/platform/../../../nvidia/cuda_nvcc
+  /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/platform/../../../../nvidia/cuda_nvcc
+  .
+You can choose the search directory by setting xla_gpu_cuda_data_dir in HloModule's DebugOptions.  For most apps, setting the environment variable XLA_FLAGS=--xla_gpu_cuda_data_dir=/path/to/cuda will work.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@24.772] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 5.7s
+    📊 Progress: 2/240 (0.8%)Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@29.769] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 5.5sError: NEW ERROR: 'NoneType' object has no attribute 'shape'
+
+    📊 Progress: 3/240 (1.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.3s
+    📊 Progress: 4/240 (1.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_1 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_1 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_1 will use cuDNN kernels when running on GPU.
+[ WARN:0@40.012] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 7.2s
+    📊 Progress: 5/240 (2.1%)Error: COMMON ERROR: unable to read file.
+
+    ⏱️  Elapsed: 21.4s, Est. remaining: 1005.8s
+
+📄 Processing image 2/48: results/images/preprocessed/trome#2021-03-02#02_config21.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.2s
+    📊 Progress: 6/240 (2.5%)
+  🔍 Running KerasOCR... (2/5)

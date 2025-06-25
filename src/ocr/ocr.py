@@ -474,10 +474,10 @@ def main() -> None:
 
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
-        # "KerasOCR": KerasOCR.process,
-        # "EasyOCR": EasyOCR.process,
+        "KerasOCR": KerasOCR.process,
+        "EasyOCR": EasyOCR.process,
         "PaddleOCR": PaddlePaddle.process,
-        # "docTR": docTR.process
+        "docTR": docTR.process
     }
 
     # Define the directory containing image files

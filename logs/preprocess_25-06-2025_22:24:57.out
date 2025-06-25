@@ -7,13 +7,7 @@ Progress: 10/48 configurations completed
 Progress: 15/48 configurations completed
 Progress: 20/48 configurations completed
 Progress: 25/48 configurations completed
-[ WARN:0@0.890] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
-[ WARN:0@0.891] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
-[ WARN:0@0.893] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
-[ WARN:0@0.902] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
-[ WARN:0@0.925] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
 Progress: 30/48 configurations completed
-[ WARN:0@1.083] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
 Progress: 35/48 configurations completed
 Progress: 40/48 configurations completed
 Progress: 45/48 configurations completed
@@ -24,9 +18,9 @@ Completed processing trome#2021-03-02#02.png
 ============================================================
 PROCESSING SUMMARY
 ============================================================
-Total time: 72.53 seconds
+Total time: 74.83 seconds
 Successful processes: 48
 Failed processes: 0
-Average time per successful process: 1.511 seconds
+Average time per successful process: 1.559 seconds
 Processing log saved to: ./logs/preprocess.out
 ============================================================
