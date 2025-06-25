@@ -412,9 +412,13 @@ def log_writer(log_queue: Queue, log_file_path: str, total_tasks: int) -> None:
             try:
                 result = log_queue.get(timeout=1)
 
-                log_file.write(f"File: {result['image_file']} - "
+                processed_filename = str(re.sub(r'_config\d+', '', result['image_file']))
+                config_number = int(re.search(r'_config(\d+)', result['image_file']).group(1)) if re.search(r'_config(\d+)', result['image_file']) else None
+
+                log_file.write(f"File: {processed_filename} - "
+                               f"Config: {config_number} - "
+                               f"OCR: {result['method_name']} - "
                                f"Time needed: {result['time_elapsed']} - "
-                               f"Config: {result['method_name']} - "
                                f"[{result['output']}]\n")
                 log_file.flush()
 
@@ -470,10 +474,10 @@ def main() -> None:
 
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
-        "KerasOCR": KerasOCR.process,
-        "EasyOCR": EasyOCR.process,
+        # "KerasOCR": KerasOCR.process,
+        # "EasyOCR": EasyOCR.process,
         "PaddleOCR": PaddlePaddle.process,
-        "docTR": docTR.process
+        # "docTR": docTR.process
     }
 
     # Define the directory containing image files

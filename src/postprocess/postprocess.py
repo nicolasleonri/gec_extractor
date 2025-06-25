@@ -11,7 +11,7 @@ Author: @nicolasleonri (GitHub)
 License: GPL
 """
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from utils_postprocessing import parse_ocr_results
+from utils_postprocessing import parse_ocr_results, extract_filename_and_config, log_processing_info
 from ollama import chat, ChatResponse
 import multiprocessing as mp
 from csv import DictReader
@@ -189,7 +189,7 @@ class ollama:
 
         return ocr_results
 
-def process_single_result(key: int, value: dict, model_name: str, model_display_name: str, progress_queue: Queue) -> dict:
+def process_single_result(key: int, value: dict, model_name: str, model_display_name: str, progress_queue: Queue, log_file_path = str) -> dict:
     """Processes one OCR result with a specified LLM model.
 
     Args:
@@ -211,6 +211,10 @@ def process_single_result(key: int, value: dict, model_name: str, model_display_
         structured_results = llm.extract_test_results_as_csv(value['text'])
         end = time.time()
         time_elapsed = end - start
+        ocr_name = str(value['ocr'])
+        config_no = str(value['config'])
+        processed_filename, config_number = extract_filename_and_config(value['filepath'])
+        log_processing_info(log_file_path, processed_filename, config_no, ocr_name, model_display_name, time_elapsed)
         
         # Prepare result
         result = {
@@ -325,8 +329,9 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
         try:
             value = result['value']
             filename = os.path.splitext(os.path.basename(value['filepath']))[0]
-            config_name = value["config"]
-            pathfile = f"{filename}_{config_name}_{model_display_name}"
+            ocr_name = value["ocr"]
+            config_no = value['config']
+            pathfile = f"{filename}_config{config_no}_{ocr_name}_{model_display_name}"
             file_name_csv = f"./results/csv/extracted/{pathfile}.csv"
 
             # Extract metadata from filename (e.g., newspaper#date#page_imgXX)
@@ -383,6 +388,28 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
         except Exception as e:
             print(f"✗ Error saving for {value['filepath']}: {e}")
             error_count += 1
+            
+            # Save empty CSV with the same filename and header
+            try:
+                # Use the same filename construction as above
+                filename = os.path.splitext(os.path.basename(value['filepath']))[0]
+                ocr_name = value["ocr"]
+                config_no = value['config']
+                pathfile = f"{filename}_config{config_no}_{ocr_name}_{model_display_name}"
+                file_name_csv = f"./results/csv/extracted/{pathfile}.csv"
+
+                with open(file_name_csv, 'w', encoding='utf-8', newline='') as f:
+                    writer = csv.writer(
+                        f,
+                        delimiter=';',
+                        quotechar='"',
+                        quoting=csv.QUOTE_ALL
+                    )
+                    header = ["headline", "subheadline", "author", "content", "newspaper_name", "publication_date", "page_number"]
+                    writer.writerow(header)
+                print(f"✓ Empty CSV saved due to error: {file_name_csv}")
+            except Exception as inner_e:
+                print(f"✗ Failed to save empty CSV on error: {inner_e}")
             continue
 
     return saved_count, error_count
@@ -457,7 +484,7 @@ def save_results_to_json(results_dict: dict, model_display_name: str) -> T.Tuple
     
     return saved_count, error_count
 
-def process_model_multithreaded(model_name: str, model_display_name: str, ocr_results: dict, max_workers: int = 3) -> dict:
+def process_model_multithreaded(model_name: str, model_display_name: str, ocr_results: dict, max_workers: int = 3, log_file_path: str = "None") -> dict:
     """Processes all OCR results using a specific LLM with multithreading.
 
     Args:
@@ -490,6 +517,7 @@ def process_model_multithreaded(model_name: str, model_display_name: str, ocr_re
     
     # Process all results in parallel
     start_time = time.time()
+
     
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = []
@@ -498,7 +526,7 @@ def process_model_multithreaded(model_name: str, model_display_name: str, ocr_re
         for key, value in ocr_results.items():
             future = executor.submit(
                 process_single_result,
-                key, value, model_name, model_display_name, progress_queue
+                key, value, model_name, model_display_name, progress_queue, log_file_path
             )
             futures.append(future)
         
@@ -602,13 +630,20 @@ def main() -> None:
     max_threads = mp.cpu_count()
     os.makedirs("./results/csv/extracted/", exist_ok=True)
 
+    log_dir = "./logs/"
+    os.makedirs(log_dir, exist_ok=True)
+    log_file_path = os.path.join(log_dir, "postprocess.txt")
+
+    if os.path.exists(log_file_path):
+        os.remove(log_file_path)
+
     models = {
         "phi4:latest": "phi4",
-        "llama4:latest": "llama4",
-        "gemma3:27b": "gemma3",
-        # "qwen3:32b": "qwen3",
-        "deepseek-r1:32b": "deepseek-r1",
-        "magistral:24b": "magistral",
+        # "llama4:latest": "llama4",
+        # "gemma3:27b": "gemma3",
+        # # "qwen3:32b": "qwen3",
+        # "deepseek-r1:32b": "deepseek-r1",
+        # "magistral:24b": "magistral",
     }
     
     print("Starting multithreaded LLM postprocessing...")
@@ -629,7 +664,8 @@ def main() -> None:
                 model_name, 
                 model_display_name, 
                 ocr_results, 
-                max_workers=max_threads  # Adjust based on your system capabilities
+                max_workers=max_threads,
+                log_file_path=log_file_path  # Adjust based on your system capabilities
             )
             all_results[model_display_name] = model_results
             

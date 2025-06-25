@@ -693,21 +693,22 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
         save_image(processed_image, filepath)
 
         # Create log entry
-        log_entry = f"{image_file.name} - Time needed: {time_elapsed:.4f}s - Config {idx}: {', '.join(techniques)}\n"
+        new_filename = image_file.name.replace('.png', '.tiff')
+        log_entry = f"File: {new_filename} - Config {idx}: {', '.join(techniques)} - Time needed: {time_elapsed}s\n"
 
         # TODO: If flag "crop_columns" was used, crop vertical and horizontal columns. Cropped images shall be saved in a subfolder named after the file under processed_dir
 
-        new_folder = os.path.join(processed_dir, f"{image_file.stem}_config{idx}")
-        os.makedirs(new_folder, exist_ok=True)
+        # new_folder = os.path.join(processed_dir, f"{image_file.stem}_config{idx}")
+        # os.makedirs(new_folder, exist_ok=True)
 
-        vertical_columns = ColumnExtraction.crop_vertical_columns(processed_image)
-        for i, vert_col in enumerate(vertical_columns):
-            path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_vert_#{i}.png")
-            cv2.imwrite(path_file_columns, vert_col)
-            horizontal_columns = ColumnExtraction.crop_horizontal_columns(vert_col)
-            for j, hor_col in enumerate(horizontal_columns):
-                path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_hor_#{i}{j}.png")
-                cv2.imwrite(path_file_columns, hor_col)
+        # vertical_columns = ColumnExtraction.crop_vertical_columns(processed_image)
+        # for i, vert_col in enumerate(vertical_columns):
+        #     path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_vert_#{i}.png")
+        #     cv2.imwrite(path_file_columns, vert_col)
+        #     horizontal_columns = ColumnExtraction.crop_horizontal_columns(vert_col)
+        #     for j, hor_col in enumerate(horizontal_columns):
+        #         path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_hor_#{i}{j}.png")
+        #         cv2.imwrite(path_file_columns, hor_col)
 
         del processed_image
         del image_data
@@ -954,12 +955,12 @@ def main() -> None:
     print(f"Using {max_threads} threads in {processing_mode} mode")
 
     # Define preprocessing methods
-    # binarization_methods = ["basic"]
-    # noise_removal_methods = ["mean_filter"]
+    binarization_methods = ["basic", "otsu"]
+    noise_removal_methods = ["mean_filter", "gaussian_filter"]
 
-    binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+    # binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
     # skew_correction_methods = ["boxes", "hough_transform", "topline", "scanline", "moments"]
-    noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
+    # noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
 
     # Generate all possible configurations
     configurations = [
