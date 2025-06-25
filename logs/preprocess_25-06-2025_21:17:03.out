@@ -1,0 +1,17 @@
+Using 64 threads in per-image mode
+Total configurations to test: 4
+Processing 1 images
+Processing: trome#2021-03-02#02.png
+Progress: 4/4 configurations completed
+Completed processing trome#2021-03-02#02.png
+--------------------------------------------------
+
+============================================================
+PROCESSING SUMMARY
+============================================================
+Total time: 1.96 seconds
+Successful processes: 4
+Failed processes: 0
+Average time per successful process: 0.491 seconds
+Processing log saved to: ./logs/preprocess.out
+============================================================

@@ -1,7 +1,13 @@
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 from qwen_vl_utils import process_vision_info
+from PIL import Image
 
 print("TEST")
+
+image_path = "./data/images/trome#2021-03-02#02.png"
+local_image = Image.open(image_path).convert("RGB")
+
+prompt = "Describe this image."
 
 # default: Load the model on the available device(s)
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
@@ -17,8 +23,9 @@ messages = [
             {
                 "type": "image",
                 "image": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg",
+                # local_image
             },
-            {"type": "text", "text": "Describe this image."},
+            {"type": "text", "text": prompt},
         ],
     }
 ]
