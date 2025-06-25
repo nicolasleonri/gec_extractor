@@ -1,0 +1,2466 @@
+2025-06-24 21:41:01.314420: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-24 21:41:01.314492: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-24 21:41:01.316056: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-24 21:41:01.323017: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-24 21:41:02.127216: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Starting processing of 48 images with 5 methods
+Total tasks: 240
+Using 64 threads
+Starting sequential processing of 48 images with 5 methods
+Total tasks: 240
+
+📄 Processing image 1/48: results/images/preprocessed/trome#2021-03-02#02_config30.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 1/240 (0.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-24 21:41:07.674854: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.677239: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.678273: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.682375: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.683380: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.684360: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.832216: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.833348: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.834369: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-24 21:41:07.835312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 67923 MB memory:  -> device: 0, name: NVIDIA A100 80GB PCIe, pci bus id: 0000:05:00.0, compute capability: 8.0
+WARNING:tensorflow:From /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1260: resize_bilinear (from tensorflow.python.ops.image_ops_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.image.resize(...method=ResizeMethod.BILINEAR...)` instead.
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+2025-06-24 21:41:09.958187: W external/local_xla/xla/service/gpu/llvm_gpu_backend/gpu_backend_lib.cc:504] Can't find libdevice directory ${CUDA_DIR}/nvvm/libdevice. This may result in compilation or runtime failures, if the program we try to run uses routines from libdevice.
+Searched for CUDA in the following directories:
+  ./cuda_sdk_lib
+  /usr/local/cuda-12.2
+  /usr/local/cuda
+  /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/platform/../../../nvidia/cuda_nvcc
+  /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/platform/../../../../nvidia/cuda_nvcc
+  .
+You can choose the search directory by setting xla_gpu_cuda_data_dir in HloModule's DebugOptions.  For most apps, setting the environment variable XLA_FLAGS=--xla_gpu_cuda_data_dir=/path/to/cuda will work.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@10.393] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 4.0s
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+    📊 Progress: 2/240 (0.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@13.234] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 3.2s
+    📊 Progress: 3/240 (1.2%)
+  🔍 Running PaddleOCR... (4/5)
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.9s
+    📊 Progress: 4/240 (1.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_1 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_1 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_1 will use cuDNN kernels when running on GPU.
+[ WARN:0@19.143] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.4s
+    📊 Progress: 5/240 (2.1%)
+    ⏱️  Elapsed: 13.1s, Est. remaining: 614.2s
+
+📄 Processing image 2/48: results/images/preprocessed/trome#2021-03-02#02_config21.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: COMMON ERROR: unable to read file.
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.9s
+    📊 Progress: 6/240 (2.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+2025-06-24 21:41:28.449065: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8902
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 13s 13s/step
+2025-06-24 21:41:47.844169: W external/local_xla/xla/service/gpu/llvm_gpu_backend/gpu_backend_lib.cc:542] libdevice is required by this HLO module but was not found at ./libdevice.10.bc
+error: libdevice not found at ./libdevice.10.bc
+2025-06-24 21:41:47.845337: E tensorflow/compiler/mlir/tools/kernel_gen/tf_framework_c_interface.cc:207] INTERNAL: Generating device code failed.
+2025-06-24 21:41:47.845875: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 22.3s
+    📊 Progress: 7/240 (2.9%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_5' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_5' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 4.4sError: NEW ERROR: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+
+    📊 Progress: 8/240 (3.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.1s
+    📊 Progress: 9/240 (3.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_2 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_2 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_2 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_3 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_3 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_3 will use cuDNN kernels when running on GPU.
+2025-06-24 21:42:01.786332: W external/local_xla/xla/service/gpu/llvm_gpu_backend/gpu_backend_lib.cc:542] libdevice is required by this HLO module but was not found at ./libdevice.10.bc
+error: libdevice not found at ./libdevice.10.bc
+2025-06-24 21:42:01.786581: E tensorflow/compiler/mlir/tools/kernel_gen/tf_framework_c_interface.cc:207] INTERNAL: Generating device code failed.
+2025-06-24 21:42:01.787189: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.4s
+    📊 Progress: 10/240 (4.2%)
+    ⏱️  Elapsed: 55.2s, Est. remaining: 1270.0sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+
+📄 Processing image 3/48: results/images/preprocessed/trome#2021-03-02#02_config17.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.9s
+    📊 Progress: 11/240 (4.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 108ms/step
+2025-06-24 21:42:12.633121: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 5.9s
+    📊 Progress: 12/240 (5.0%)Error: NEW ERROR: Exception encountered when calling layer 'lambda_9' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_9' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.5s
+Error: NEW ERROR: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+    📊 Progress: 13/240 (5.4%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.0s
+    📊 Progress: 14/240 (5.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_4 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_4 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_4 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_5 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_5 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_5 will use cuDNN kernels when running on GPU.
+2025-06-24 21:42:24.244086: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 15/240 (6.2%)
+    ⏱️  Elapsed: 77.7s, Est. remaining: 1165.1sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+
+📄 Processing image 4/48: results/images/preprocessed/trome#2021-03-02#02_config31.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 6.0s
+    📊 Progress: 16/240 (6.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 101ms/step
+2025-06-24 21:42:38.053348: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.8s
+    📊 Progress: 17/240 (7.1%)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_13' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_13' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False  🔍 Running EasyOCR... (3/5)
+
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 4.7s
+    📊 Progress: 18/240 (7.5%)Error: NEW ERROR: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+  🔍 Running PaddleOCR... (4/5)
+
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.8s
+    📊 Progress: 19/240 (7.9%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_6 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_6 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_6 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_7 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_7 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_7 will use cuDNN kernels when running on GPU.
+2025-06-24 21:42:52.950889: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.5s
+    📊 Progress: 20/240 (8.3%)Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    ⏱️  Elapsed: 106.4s, Est. remaining: 1170.2s
+
+📄 Processing image 5/48: results/images/preprocessed/trome#2021-03-02#02_config42.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.0s
+    📊 Progress: 21/240 (8.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 102ms/step
+2025-06-24 21:42:59.129653: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 5.1s
+    📊 Progress: 22/240 (9.2%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_17' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_17' (type Lambda):
+  • inputs=['tf.Tensor(shape=(30, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(30, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.8s
+    📊 Progress: 23/240 (9.6%)
+  🔍 Running PaddleOCR... (4/5)
+Error: NEW ERROR: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.2s
+    📊 Progress: 24/240 (10.0%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_8 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_8 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_8 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_9 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_9 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_9 will use cuDNN kernels when running on GPU.
+2025-06-24 21:43:07.392754: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 25/240 (10.4%)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     ⏱️  Elapsed: 120.8s, Est. remaining: 1039.1s
+
+📄 Processing image 6/48: results/images/preprocessed/trome#2021-03-02#02_config46.tiff
+  🔍 Running TesseractOCR... (1/5)
+
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 26/240 (10.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@130.011] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.4s
+    📊 Progress: 27/240 (11.2%)Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@132.624] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 3.3s
+    📊 Progress: 28/240 (11.7%)
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 4.2s
+    📊 Progress: 29/240 (12.1%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+[ WARN:0@140.727] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.2s
+    📊 Progress: 30/240 (12.5%)
+    ⏱️  Elapsed: 134.7s, Est. remaining: 942.6s
+Error: COMMON ERROR: unable to read file.
+
+📄 Processing image 7/48: results/images/preprocessed/trome#2021-03-02#02_config29.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.8s
+    📊 Progress: 31/240 (12.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 96ms/step
+2025-06-24 21:43:34.571509: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.6s
+    📊 Progress: 32/240 (13.3%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_25' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_25' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 4.1s
+    📊 Progress: 33/240 (13.8%)
+Error: NEW ERROR: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`  🔍 Running PaddleOCR... (4/5)
+
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 34/240 (14.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_12 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_12 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_12 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_13 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_13 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_13 will use cuDNN kernels when running on GPU.
+2025-06-24 21:43:47.636278: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    📊 Progress: 35/240 (14.6%)
+    ⏱️  Elapsed: 161.1s, Est. remaining: 943.4s
+
+
+📄 Processing image 8/48: results/images/preprocessed/trome#2021-03-02#02_config2.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 2.9s
+    📊 Progress: 36/240 (15.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 95ms/step
+2025-06-24 21:43:58.453464: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.9s
+    📊 Progress: 37/240 (15.4%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_29' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_29' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81154MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 9.0s
+    📊 Progress: 38/240 (15.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.3s
+    📊 Progress: 39/240 (16.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_14 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_14 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_14 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_15 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_15 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_15 will use cuDNN kernels when running on GPU.
+2025-06-24 21:44:17.016602: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3s
+    📊 Progress: 40/240 (16.7%)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    ⏱️  Elapsed: 190.4s, Est. remaining: 952.2s
+
+📄 Processing image 9/48: results/images/preprocessed/trome#2021-03-02#02_config6.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 41/240 (17.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@199.737] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+    ✅ KerasOCR completed in 2.5s
+    📊 Progress: 42/240 (17.5%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@202.394] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 43/240 (17.9%)
+  🔍 Running PaddleOCR... (4/5)
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.0s
+    📊 Progress: 44/240 (18.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_16 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_16 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_16 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_17 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_17 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_17 will use cuDNN kernels when running on GPU.
+[ WARN:0@207.876] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.3s
+Error: COMMON ERROR: unable to read file.    📊 Progress: 45/240 (18.8%)
+    ⏱️  Elapsed: 201.8s, Est. remaining: 874.5s
+
+
+📄 Processing image 10/48: results/images/preprocessed/trome#2021-03-02#02_config41.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.2s
+    📊 Progress: 46/240 (19.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 97ms/step
+2025-06-24 21:44:32.796557: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 3.3s
+    📊 Progress: 47/240 (19.6%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_37' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_37' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.0s
+    📊 Progress: 48/240 (20.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.9s
+    📊 Progress: 49/240 (20.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_18 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_18 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_18 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_19 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_19 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_19 will use cuDNN kernels when running on GPU.
+2025-06-24 21:44:40.959372: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 50/240 (20.8%)
+    ⏱️  Elapsed: 214.4s, Est. remaining: 814.7sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+
+📄 Processing image 11/48: results/images/preprocessed/trome#2021-03-02#02_config18.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.2s
+    📊 Progress: 51/240 (21.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 100ms/step
+2025-06-24 21:44:50.496046: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 4.3s
+    📊 Progress: 52/240 (21.7%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_41' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_41' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.8s
+    📊 Progress: 53/240 (22.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.5s
+    📊 Progress: 54/240 (22.5%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_20 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_20 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_20 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_21 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_21 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_21 will use cuDNN kernels when running on GPU.
+2025-06-24 21:44:59.979926: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 55/240 (22.9%)
+    ⏱️  Elapsed: 233.4s, Est. remaining: 785.1s
+
+📄 Processing image 12/48: results/images/preprocessed/trome#2021-03-02#02_config26.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.8s
+    📊 Progress: 56/240 (23.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 97ms/step
+2025-06-24 21:45:10.600457: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 5.8s
+    📊 Progress: 57/240 (23.8%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_45' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_45' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 9.3s
+    📊 Progress: 58/240 (24.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 4.6s
+    📊 Progress: 59/240 (24.6%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_22 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_22 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_22 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_23 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_23 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_23 will use cuDNN kernels when running on GPU.
+2025-06-24 21:45:27.566705: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    📊 Progress: 60/240 (25.0%)
+    ⏱️  Elapsed: 261.0s, Est. remaining: 783.0s
+
+📄 Processing image 13/48: results/images/preprocessed/trome#2021-03-02#02_config3.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.8s
+    📊 Progress: 61/240 (25.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+2025-06-24 21:45:39.806416: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.4s
+    📊 Progress: 62/240 (25.8%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_49' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_49' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.8s
+    📊 Progress: 63/240 (26.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.7s
+    📊 Progress: 64/240 (26.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_24 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_24 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_24 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_25 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_25 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_25 will use cuDNN kernels when running on GPU.
+2025-06-24 21:45:56.518451: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    📊 Progress: 65/240 (27.1%)
+
+    ⏱️  Elapsed: 289.9s, Est. remaining: 780.6s
+
+📄 Processing image 14/48: results/images/preprocessed/trome#2021-03-02#02_config7.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.4s
+    📊 Progress: 66/240 (27.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 94ms/step
+2025-06-24 21:46:07.998389: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.1s
+    📊 Progress: 67/240 (27.9%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_53' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_53' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.1s
+    📊 Progress: 68/240 (28.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.8s
+    📊 Progress: 69/240 (28.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_26 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_26 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_26 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_27 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_27 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_27 will use cuDNN kernels when running on GPU.
+2025-06-24 21:46:24.026688: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    📊 Progress: 70/240 (29.2%)
+    ⏱️  Elapsed: 317.5s, Est. remaining: 771.0s
+
+📄 Processing image 15/48: results/images/preprocessed/trome#2021-03-02#02_config14.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 71/240 (29.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@326.488] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+    ✅ KerasOCR completed in 2.3s
+    📊 Progress: 72/240 (30.0%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@328.985] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 73/240 (30.4%)
+  🔍 Running PaddleOCR... (4/5)Error: NEW ERROR: 'NoneType' object has no attribute 'shape'
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.3s
+    📊 Progress: 74/240 (30.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_28 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_28 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_28 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_29 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_29 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_29 will use cuDNN kernels when running on GPU.
+[ WARN:0@334.661] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+Error: COMMON ERROR: unable to read file.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 75/240 (31.2%)
+    ⏱️  Elapsed: 328.6s, Est. remaining: 722.9s
+
+📄 Processing image 16/48: results/images/preprocessed/trome#2021-03-02#02_config35.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 76/240 (31.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+    ✅ KerasOCR completed in 2.9s
+    📊 Progress: 77/240 (32.1%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.0s
+    📊 Progress: 78/240 (32.5%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Error: NEW ERROR: 'NoneType' object is not iterable
+    ✅ PaddleOCR completed in 1.9s
+    📊 Progress: 79/240 (32.9%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_30 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_30 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_30 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_31 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_31 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_31 will use cuDNN kernels when running on GPU.
+2025-06-24 21:46:46.712330: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.1s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     📊 Progress: 80/240 (33.3%)
+
+    ⏱️  Elapsed: 340.1s, Est. remaining: 680.3s
+
+📄 Processing image 17/48: results/images/preprocessed/trome#2021-03-02#02_config45.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.0s
+    📊 Progress: 81/240 (33.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 97ms/step
+2025-06-24 21:46:51.001864: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 3.3s
+    📊 Progress: 82/240 (34.2%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_65' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_65' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.2s
+    📊 Progress: 83/240 (34.6%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 3.4s
+    📊 Progress: 84/240 (35.0%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_32 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_32 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_32 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_33 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_33 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_33 will use cuDNN kernels when running on GPU.
+2025-06-24 21:47:00.731750: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.1s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    📊 Progress: 85/240 (35.4%)
+    ⏱️  Elapsed: 354.2s, Est. remaining: 645.8s
+
+📄 Processing image 18/48: results/images/preprocessed/trome#2021-03-02#02_config8.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 3.6s
+    📊 Progress: 86/240 (35.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 96ms/step
+2025-06-24 21:47:11.223544: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 6.9s
+    📊 Progress: 87/240 (36.2%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_69' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_69' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.3s
+    📊 Progress: 88/240 (36.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.1s
+    📊 Progress: 89/240 (37.1%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_34 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_34 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_34 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_35 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_35 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_35 will use cuDNN kernels when running on GPU.
+2025-06-24 21:47:26.904259: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    📊 Progress: 90/240 (37.5%)
+    ⏱️  Elapsed: 380.3s, Est. remaining: 633.9s
+
+📄 Processing image 19/48: results/images/preprocessed/trome#2021-03-02#02_config16.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.3s
+    📊 Progress: 91/240 (37.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+2025-06-24 21:47:35.580319: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 4.4s
+    📊 Progress: 92/240 (38.3%)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_73' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_73' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False  🔍 Running EasyOCR... (3/5)
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.9s
+    📊 Progress: 93/240 (38.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.7s
+    📊 Progress: 94/240 (39.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_36 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_36 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_36 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_37 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_37 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_37 will use cuDNN kernels when running on GPU.
+2025-06-24 21:47:45.321222: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 95/240 (39.6%)
+    ⏱️  Elapsed: 398.8s, Est. remaining: 608.6s
+
+📄 Processing image 20/48: results/images/preprocessed/trome#2021-03-02#02_config13.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.0s
+    📊 Progress: 96/240 (40.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 103ms/step
+2025-06-24 21:47:57.872986: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.6s
+    📊 Progress: 97/240 (40.4%)
+  🔍 Running EasyOCR... (3/5)Error: NEW ERROR: Exception encountered when calling layer 'lambda_77' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_77' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.7s
+    📊 Progress: 98/240 (40.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.6s
+    📊 Progress: 99/240 (41.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_38 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_38 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_38 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_39 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_39 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_39 will use cuDNN kernels when running on GPU.
+2025-06-24 21:48:15.336470: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 100/240 (41.7%)
+    ⏱️  Elapsed: 428.8s, Est. remaining: 600.3s
+
+📄 Processing image 21/48: results/images/preprocessed/trome#2021-03-02#02_config24.tiff
+  🔍 Running TesseractOCR... (1/5)Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.8s
+    📊 Progress: 101/240 (42.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 98ms/step
+2025-06-24 21:48:25.958299: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 5.8s
+    📊 Progress: 102/240 (42.5%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_81' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_81' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 6.1s
+    📊 Progress: 103/240 (42.9%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.8s
+    📊 Progress: 104/240 (43.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_40 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_40 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_40 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_41 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_41 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_41 will use cuDNN kernels when running on GPU.
+2025-06-24 21:48:42.046362: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 105/240 (43.8%)
+    ⏱️  Elapsed: 455.5s, Est. remaining: 585.6s
+
+📄 Processing image 22/48: results/images/preprocessed/trome#2021-03-02#02_config1.tiffError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.1s
+    📊 Progress: 106/240 (44.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 96ms/step
+2025-06-24 21:48:53.720561: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.6s
+    📊 Progress: 107/240 (44.6%)Error: NEW ERROR: Exception encountered when calling layer 'lambda_85' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_85' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.7s
+    📊 Progress: 108/240 (45.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.0s
+    📊 Progress: 109/240 (45.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_42 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_42 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_42 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_43 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_43 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_43 will use cuDNN kernels when running on GPU.
+2025-06-24 21:49:10.549406: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 110/240 (45.8%)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     ⏱️  Elapsed: 484.0s, Est. remaining: 572.0s
+
+
+📄 Processing image 23/48: results/images/preprocessed/trome#2021-03-02#02_config12.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.5s
+    📊 Progress: 111/240 (46.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 96ms/step
+2025-06-24 21:49:22.235864: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.2s
+    📊 Progress: 112/240 (46.7%)Error: NEW ERROR: Exception encountered when calling layer 'lambda_89' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_89' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.5s
+    📊 Progress: 113/240 (47.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.2s
+    📊 Progress: 114/240 (47.5%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_44 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_44 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_44 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_45 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_45 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_45 will use cuDNN kernels when running on GPU.
+2025-06-24 21:49:39.255168: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    📊 Progress: 115/240 (47.9%)
+    ⏱️  Elapsed: 512.7s, Est. remaining: 557.3s
+
+📄 Processing image 24/48: results/images/preprocessed/trome#2021-03-02#02_config15.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.5s
+    📊 Progress: 116/240 (48.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 103ms/step
+2025-06-24 21:49:51.223237: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.5s
+    📊 Progress: 117/240 (48.8%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_93' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_93' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.1s
+    📊 Progress: 118/240 (49.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.1s
+    📊 Progress: 119/240 (49.6%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_46 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_46 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_46 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_47 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_47 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_47 will use cuDNN kernels when running on GPU.
+2025-06-24 21:50:07.658202: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     📊 Progress: 120/240 (50.0%)
+    ⏱️  Elapsed: 541.1s, Est. remaining: 541.1s
+
+📄 Processing image 25/48: results/images/preprocessed/trome#2021-03-02#02_config28.tiff
+
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.6s
+    📊 Progress: 121/240 (50.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 92ms/step
+2025-06-24 21:50:19.210824: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 6.9s
+    📊 Progress: 122/240 (50.8%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_97' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_97' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 9.0s
+    📊 Progress: 123/240 (51.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.2s
+    📊 Progress: 124/240 (51.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_48 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_48 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_48 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_49 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_49 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_49 will use cuDNN kernels when running on GPU.
+2025-06-24 21:50:37.514567: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.1s
+    📊 Progress: 125/240 (52.1%)
+    ⏱️  Elapsed: 570.9s, Est. remaining: 525.3s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+📄 Processing image 26/48: results/images/preprocessed/trome#2021-03-02#02_config23.tiff
+  🔍 Running TesseractOCR... (1/5)
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.9s
+    📊 Progress: 126/240 (52.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+2025-06-24 21:50:48.712722: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 6.3s
+    📊 Progress: 127/240 (52.9%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_101' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_101' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.0s
+    📊 Progress: 128/240 (53.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 129/240 (53.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_50 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_50 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_50 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_51 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_51 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_51 will use cuDNN kernels when running on GPU.
+2025-06-24 21:51:05.533312: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 130/240 (54.2%)
+    ⏱️  Elapsed: 599.0s, Est. remaining: 506.8s
+
+📄 Processing image 27/48: results/images/preprocessed/trome#2021-03-02#02_config0.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.3s
+    📊 Progress: 131/240 (54.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 97ms/step
+2025-06-24 21:51:16.739184: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 6.9s
+    📊 Progress: 132/240 (55.0%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_105' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_105' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.5s
+    📊 Progress: 133/240 (55.4%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.4s
+    📊 Progress: 134/240 (55.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_52 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_52 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_52 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_53 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_53 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_53 will use cuDNN kernels when running on GPU.
+2025-06-24 21:51:32.782988: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 135/240 (56.2%)
+    ⏱️  Elapsed: 626.2s, Est. remaining: 487.1sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+
+📄 Processing image 28/48: results/images/preprocessed/trome#2021-03-02#02_config43.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.9s
+    📊 Progress: 136/240 (56.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 97ms/step
+2025-06-24 21:51:38.723041: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 5.0s
+    📊 Progress: 137/240 (57.1%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_109' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_109' (type Lambda):
+  • inputs=['tf.Tensor(shape=(31, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(31, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 138/240 (57.5%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.2s
+    📊 Progress: 139/240 (57.9%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_54 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_54 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_54 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_55 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_55 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_55 will use cuDNN kernels when running on GPU.
+2025-06-24 21:51:46.996904: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3s
+    📊 Progress: 140/240 (58.3%)
+    ⏱️  Elapsed: 640.4s, Est. remaining: 457.4s
+
+📄 Processing image 29/48: results/images/preprocessed/trome#2021-03-02#02_config36.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 141/240 (58.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+    ✅ KerasOCR completed in 2.9s
+    📊 Progress: 142/240 (59.2%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 143/240 (59.6%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.8s
+    📊 Progress: 144/240 (60.0%)Error: NEW ERROR: 'NoneType' object is not iterable
+
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_56 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_56 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_56 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_57 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_57 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_57 will use cuDNN kernels when running on GPU.
+2025-06-24 21:51:58.112357: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.1s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    📊 Progress: 145/240 (60.4%)
+    ⏱️  Elapsed: 651.5s, Est. remaining: 426.9s
+
+📄 Processing image 30/48: results/images/preprocessed/trome#2021-03-02#02_config34.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 146/240 (60.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 100ms/step
+    ✅ KerasOCR completed in 2.9s
+    📊 Progress: 147/240 (61.3%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 148/240 (61.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.4s
+    📊 Progress: 149/240 (62.1%)Error: NEW ERROR: 'NoneType' object is not iterable
+
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_58 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_58 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_58 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_59 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_59 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_59 will use cuDNN kernels when running on GPU.
+2025-06-24 21:52:08.854878: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 150/240 (62.5%)
+    ⏱️  Elapsed: 662.3s, Est. remaining: 397.4s
+
+📄 Processing image 31/48: results/images/preprocessed/trome#2021-03-02#02_config25.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.0s
+    📊 Progress: 151/240 (62.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 101ms/step
+2025-06-24 21:52:20.360248: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 6.5s
+    📊 Progress: 152/240 (63.3%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_121' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_121' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.5s
+    📊 Progress: 153/240 (63.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 154/240 (64.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_60 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_60 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_60 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_61 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_61 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_61 will use cuDNN kernels when running on GPU.
+2025-06-24 21:52:37.680744: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 155/240 (64.6%)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    ⏱️  Elapsed: 691.1s, Est. remaining: 379.0s
+
+📄 Processing image 32/48: results/images/preprocessed/trome#2021-03-02#02_config4.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.5s
+    📊 Progress: 156/240 (65.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 98ms/step
+2025-06-24 21:52:51.011492: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.8s
+    📊 Progress: 157/240 (65.4%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_125' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_125' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.4s
+    📊 Progress: 158/240 (65.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 159/240 (66.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_62 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_62 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_62 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_63 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_63 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_63 will use cuDNN kernels when running on GPU.
+2025-06-24 21:53:07.256792: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    📊 Progress: 160/240 (66.7%)
+    ⏱️  Elapsed: 720.7s, Est. remaining: 360.3s
+
+📄 Processing image 33/48: results/images/preprocessed/trome#2021-03-02#02_config9.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.1s
+    📊 Progress: 161/240 (67.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 93ms/step
+2025-06-24 21:53:18.269150: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.0s
+    📊 Progress: 162/240 (67.5%)
+  🔍 Running EasyOCR... (3/5)Error: NEW ERROR: Exception encountered when calling layer 'lambda_129' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_129' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.1s
+    📊 Progress: 163/240 (67.9%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.9s
+    📊 Progress: 164/240 (68.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_64 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_64 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_64 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_65 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_65 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_65 will use cuDNN kernels when running on GPU.
+2025-06-24 21:53:34.658837: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     📊 Progress: 165/240 (68.8%)
+
+    ⏱️  Elapsed: 748.1s, Est. remaining: 340.0s
+
+📄 Processing image 34/48: results/images/preprocessed/trome#2021-03-02#02_config27.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.5s
+    📊 Progress: 166/240 (69.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+2025-06-24 21:53:47.098285: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 6.9s
+    📊 Progress: 167/240 (69.6%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_133' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_133' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 9.5s
+    📊 Progress: 168/240 (70.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.3s
+    📊 Progress: 169/240 (70.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_66 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_66 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_66 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_67 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_67 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_67 will use cuDNN kernels when running on GPU.
+2025-06-24 21:54:06.196952: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3s
+    📊 Progress: 170/240 (70.8%)
+    ⏱️  Elapsed: 779.6s, Est. remaining: 321.0s
+
+📄 Processing image 35/48: results/images/preprocessed/trome#2021-03-02#02_config11.tiffError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.7s
+    📊 Progress: 171/240 (71.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 100ms/step
+2025-06-24 21:54:18.213235: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.4s
+    📊 Progress: 172/240 (71.7%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_137' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_137' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.2s
+    📊 Progress: 173/240 (72.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.8s
+    📊 Progress: 174/240 (72.5%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_68 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_68 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_68 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_69 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_69 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_69 will use cuDNN kernels when running on GPU.
+2025-06-24 21:54:35.410066: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    📊 Progress: 175/240 (72.9%)
+    ⏱️  Elapsed: 808.8s, Est. remaining: 300.4s
+
+📄 Processing image 36/48: results/images/preprocessed/trome#2021-03-02#02_config32.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 176/240 (73.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 96ms/step
+    ✅ KerasOCR completed in 2.9s
+    📊 Progress: 177/240 (73.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.1s
+    📊 Progress: 178/240 (74.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.7s
+    📊 Progress: 179/240 (74.6%)
+Error: NEW ERROR: 'NoneType' object is not iterable
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_70 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_70 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_70 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_71 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_71 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_71 will use cuDNN kernels when running on GPU.
+2025-06-24 21:54:47.009518: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 180/240 (75.0%)
+    ⏱️  Elapsed: 820.4s, Est. remaining: 273.5s
+
+📄 Processing image 37/48: results/images/preprocessed/trome#2021-03-02#02_config44.tiff
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:   🔍 Running TesseractOCR... (1/5)
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.0s
+    📊 Progress: 181/240 (75.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 91ms/step
+2025-06-24 21:54:52.974933: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 5.0s
+    📊 Progress: 182/240 (75.8%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_145' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_145' (type Lambda):
+  • inputs=['tf.Tensor(shape=(29, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(29, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 183/240 (76.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.6s
+    📊 Progress: 184/240 (76.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_72 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_72 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_72 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_73 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_73 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_73 will use cuDNN kernels when running on GPU.
+2025-06-24 21:55:01.756563: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     📊 Progress: 185/240 (77.1%)
+    ⏱️  Elapsed: 835.2s, Est. remaining: 248.3s
+
+
+📄 Processing image 38/48: results/images/preprocessed/trome#2021-03-02#02_config40.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.9s
+    📊 Progress: 186/240 (77.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 100ms/step
+2025-06-24 21:55:05.884490: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 3.2s
+    📊 Progress: 187/240 (77.9%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_149' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_149' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 188/240 (78.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.8s
+    📊 Progress: 189/240 (78.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_74 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_74 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_74 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_75 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_75 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_75 will use cuDNN kernels when running on GPU.
+2025-06-24 21:55:13.808248: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 190/240 (79.2%)
+    ⏱️  Elapsed: 847.2s, Est. remaining: 223.0s
+
+📄 Processing image 39/48: results/images/preprocessed/trome#2021-03-02#02_config20.tiff
+  🔍 Running TesseractOCR... (1/5)Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.4s
+    📊 Progress: 191/240 (79.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+2025-06-24 21:55:23.541793: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 5.4s
+    📊 Progress: 192/240 (80.0%)
+  🔍 Running EasyOCR... (3/5)Error: NEW ERROR: Exception encountered when calling layer 'lambda_153' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_153' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 5.2s
+    📊 Progress: 193/240 (80.4%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 4.7s
+    📊 Progress: 194/240 (80.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_76 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_76 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_76 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_77 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_77 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_77 will use cuDNN kernels when running on GPU.
+2025-06-24 21:55:36.687815: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    📊 Progress: 195/240 (81.2%)
+    ⏱️  Elapsed: 870.1s, Est. remaining: 200.8s
+
+📄 Processing image 40/48: results/images/preprocessed/trome#2021-03-02#02_config19.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.0s
+    📊 Progress: 196/240 (81.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 98ms/step
+2025-06-24 21:55:47.912105: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 6.2s
+    📊 Progress: 197/240 (82.1%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_157' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_157' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.3s
+    📊 Progress: 198/240 (82.5%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.2s
+    📊 Progress: 199/240 (82.9%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_78 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_78 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_78 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_79 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_79 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_79 will use cuDNN kernels when running on GPU.
+2025-06-24 21:56:04.635130: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 200/240 (83.3%)Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+    ⏱️  Elapsed: 898.1s, Est. remaining: 179.6s
+
+📄 Processing image 41/48: results/images/preprocessed/trome#2021-03-02#02_config38.tiff
+  🔍 Running TesseractOCR... (1/5)
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.8s
+    📊 Progress: 201/240 (83.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@907.266] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.4s
+    📊 Progress: 202/240 (84.2%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@909.766] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 203/240 (84.6%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.6s
+    📊 Progress: 204/240 (85.0%)
+Error: NEW ERROR: 'NoneType' object is not iterable  🔍 Running docTR... (5/5)
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_80 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_80 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_80 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_81 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_81 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_81 will use cuDNN kernels when running on GPU.
+[ WARN:0@914.681] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.2s
+    📊 Progress: 205/240 (85.4%)
+    ⏱️  Elapsed: 908.6s, Est. remaining: 155.1s
+
+📄 Processing image 42/48: results/images/preprocessed/trome#2021-03-02#02_config37.tiff
+  🔍 Running TesseractOCR... (1/5)Error: COMMON ERROR: unable to read file.
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.8s
+    📊 Progress: 206/240 (85.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 99ms/step
+    ✅ KerasOCR completed in 2.9s
+    📊 Progress: 207/240 (86.2%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 208/240 (86.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Error: NEW ERROR: 'NoneType' object is not iterable
+    ✅ PaddleOCR completed in 1.7s
+    📊 Progress: 209/240 (87.1%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_82 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_82 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_82 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_83 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_83 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_83 will use cuDNN kernels when running on GPU.
+2025-06-24 21:56:26.743708: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.6sError: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    📊 Progress: 210/240 (87.5%)
+    ⏱️  Elapsed: 920.2s, Est. remaining: 131.5s
+
+📄 Processing image 43/48: results/images/preprocessed/trome#2021-03-02#02_config47.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.0s
+    📊 Progress: 211/240 (87.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 98ms/step
+2025-06-24 21:56:30.990197: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 3.3s
+    📊 Progress: 212/240 (88.3%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_169' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_169' (type Lambda):
+  • inputs=['tf.Tensor(shape=(31, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(31, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 213/240 (88.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.1s
+    📊 Progress: 214/240 (89.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_84 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_84 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_84 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_85 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_85 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_85 will use cuDNN kernels when running on GPU.
+2025-06-24 21:56:39.194372: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 215/240 (89.6%)
+    ⏱️  Elapsed: 932.6s, Est. remaining: 108.4s
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+📄 Processing image 44/48: results/images/preprocessed/trome#2021-03-02#02_config22.tiff
+  🔍 Running TesseractOCR... (1/5)
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 216/240 (90.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@941.768] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.4s
+    📊 Progress: 217/240 (90.4%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@944.302] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 218/240 (90.8%)
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'  🔍 Running PaddleOCR... (4/5)
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.1s
+    📊 Progress: 219/240 (91.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_86 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_86 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_86 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_87 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_87 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_87 will use cuDNN kernels when running on GPU.
+[ WARN:0@949.828] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.2s
+    📊 Progress: 220/240 (91.7%)
+    ⏱️  Elapsed: 943.8s, Est. remaining: 85.8s
+
+📄 Processing image 45/48: results/images/preprocessed/trome#2021-03-02#02_config5.tiff
+  🔍 Running TesseractOCR... (1/5)Error: COMMON ERROR: unable to read file.
+
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.0s
+    📊 Progress: 221/240 (92.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 102ms/step
+2025-06-24 21:57:02.928171: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.6s
+    📊 Progress: 222/240 (92.5%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_177' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_177' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.5s
+    📊 Progress: 223/240 (92.9%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 224/240 (93.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_88 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_88 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_88 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_89 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_89 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_89 will use cuDNN kernels when running on GPU.
+2025-06-24 21:57:19.228293: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 225/240 (93.8%)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     ⏱️  Elapsed: 972.7s, Est. remaining: 64.8s
+
+📄 Processing image 46/48: results/images/preprocessed/trome#2021-03-02#02_config10.tiff
+
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.8s
+    📊 Progress: 226/240 (94.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 100ms/step
+2025-06-24 21:57:31.422512: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ KerasOCR completed in 7.4s
+    📊 Progress: 227/240 (94.6%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: Exception encountered when calling layer 'lambda_181' (type Lambda).
+
+{{function_node __wrapped__Floor_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Floor] name: 
+
+Call arguments received by layer 'lambda_181' (type Lambda):
+  • inputs=['tf.Tensor(shape=(32, 50, 7, 512), dtype=float32)', 'tf.Tensor(shape=(32, 6), dtype=float32)']
+  • mask=None
+  • training=False
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.8s
+    📊 Progress: 228/240 (95.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.8s
+    📊 Progress: 229/240 (95.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_90 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_90 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_90 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_91 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_91 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_91 will use cuDNN kernels when running on GPU.
+2025-06-24 21:57:48.260604: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3s
+    📊 Progress: 230/240 (95.8%)
+    ⏱️  Elapsed: 1001.7s, Est. remaining: 43.6s
+
+📄 Processing image 47/48: results/images/preprocessed/trome#2021-03-02#02_config33.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 231/240 (96.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 93ms/step
+    ✅ KerasOCR completed in 3.0s
+    📊 Progress: 232/240 (96.7%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 233/240 (97.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.1s
+    📊 Progress: 234/240 (97.5%)
+  🔍 Running docTR... (5/5)
+Error: NEW ERROR: 'NoneType' object is not iterable
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_92 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_92 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_92 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_93 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_93 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_93 will use cuDNN kernels when running on GPU.
+2025-06-24 21:57:59.964058: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.3s
+    📊 Progress: 235/240 (97.9%)
+Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name:     ⏱️  Elapsed: 1013.4s, Est. remaining: 21.6s
+
+
+📄 Processing image 48/48: results/images/preprocessed/trome#2021-03-02#02_config39.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 236/240 (98.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+DEBUG:tensorflow:Layer lstm_10 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_10_back will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_11_back will use cuDNN kernels when running on GPU.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 98ms/step
+    ✅ KerasOCR completed in 3.0s
+    📊 Progress: 237/240 (98.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 238/240 (99.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.5s
+    📊 Progress: 239/240 (99.6%)
+  🔍 Running docTR... (5/5)
+Error: NEW ERROR: 'NoneType' object is not iterable
+GPU Memory - Total: 79.3GB, Free: 81134MB, Required: 2048MB
+✓ Enough GPU memory available
+DEBUG:tensorflow:Layer lstm_94 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_94 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_94 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_95 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_95 will use cuDNN kernels when running on GPU.
+DEBUG:tensorflow:Layer lstm_95 will use cuDNN kernels when running on GPU.
+2025-06-24 21:58:11.044861: W tensorflow/core/framework/op_kernel.cc:1827] UNKNOWN: JIT compilation failed.
+    ✅ docTR completed in 3.2s
+    📊 Progress: 240/240 (100.0%)Error: NEW ERROR: {{function_node __wrapped__Round_device_/job:localhost/replica:0/task:0/device:GPU:0}} JIT compilation failed. [Op:Round] name: 
+
+    ⏱️  Elapsed: 1024.5s, Est. remaining: 0.0s
+
+🎉 All processing completed!
+Total time: 1024.5s
+Average time per task: 4.3s
+
+============================================================
+PROCESSING SUMMARY
+============================================================
+Total time: 1024.48 seconds
+Processing log saved to: ./results/txt/extracted/ocr_results_log.txt
+============================================================
