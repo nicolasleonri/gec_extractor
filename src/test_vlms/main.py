@@ -1,45 +1,27 @@
-# https://huggingface.co/ds4sd/SmolDocling-256M-preview
-# https://huggingface.co/nanonets/Nanonets-OCR-s
-# https://huggingface.co/allenai/olmOCR-7B-0225-preview
-import torch
-import base64
-import urllib.request
-import io
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoTokenizer, AutoProcessor
+from qwen_vl_utils import process_vision_info
 
-from io import BytesIO
-from PIL import Image
-from transformers import AutoProcessor, Qwen2VLForConditionalGeneration
+print("TEST")
 
-def image_to_base64png(img):
-    buffered = io.BytesIO()
-    img.save(buffered, format="PNG")
-    base64_bytes = base64.b64encode(buffered.getvalue())
-    base64_string = base64_bytes.decode("utf-8")
-    return base64_string
+# default: Load the model on the available device(s)
+model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+    "Qwen/Qwen2.5-VL-32B-Instruct", torch_dtype="auto", device_map="auto"
+)
 
-image = Image.open("./data/images/trome#2021-03-02#02.png")  # Replace with your image path
+processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-32B-Instruct")
 
-# Convert to RGB
-rgb_image = image.convert("RGB")
-
-base64_png = image_to_base64png(rgb_image)
-
-# Initialize the model
-model = Qwen2VLForConditionalGeneration.from_pretrained("allenai/olmOCR-7B-0225-preview", torch_dtype=torch.bfloat16).eval()
-processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct", use_fast=True)
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model.to(device)
-
-# Build the full prompt
 messages = [
+    {
+        "role": "user",
+        "content": [
             {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": "Extract the articles' headlines, subheadlines, authors and content as json"},
-                    {"type": "image", "image": rgb_image},
-                ],
-            }
-        ]
+                "type": "image",
+                "image": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg",
+            },
+            {"type": "text", "text": "Describe this image."},
+        ],
+    }
+]
 
 # Apply the chat template and processor
 text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)

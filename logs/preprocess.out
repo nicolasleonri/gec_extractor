@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 File: trome#2021-03-02#02.tiff - Config 0: Binarization.basic, NoiseRemoval.mean_filter - Time needed: 0.008495092391967773s
 File: trome#2021-03-02#02.tiff - Config 1: Binarization.basic, NoiseRemoval.gaussian_filter - Time needed: 0.008739471435546875s
 File: trome#2021-03-02#02.tiff - Config 2: Binarization.otsu, NoiseRemoval.mean_filter - Time needed: 0.009308099746704102s
 File: trome#2021-03-02#02.tiff - Config 3: Binarization.otsu, NoiseRemoval.gaussian_filter - Time needed: 0.010393381118774414s
+=======
+File: trome#2021-03-02#02.tiff - Config 1: Binarization.basic, NoiseRemoval.gaussian_filter - Time needed: 1.208665132522583s
+File: trome#2021-03-02#02.tiff - Config 0: Binarization.basic, NoiseRemoval.mean_filter - Time needed: 0.016192197799682617s
+File: trome#2021-03-02#02.tiff - Config 2: Binarization.otsu, NoiseRemoval.mean_filter - Time needed: 1.2097995281219482s
+File: trome#2021-03-02#02.tiff - Config 3: Binarization.otsu, NoiseRemoval.gaussian_filter - Time needed: 1.2033615112304688s
+>>>>>>> 957dcf7b01942962898cd0ebc5f62acdc62cda5e

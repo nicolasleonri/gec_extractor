@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 File: trome#2021-03-02#02.tiff - Config: 3 - OCR: KerasOCR - LLM: phi4 - Time needed: 117.96113061904907s
 File: trome#2021-03-02#02.tiff - Config: 1 - OCR: PaddleOCR - LLM: phi4 - Time needed: 122.18267679214478s
 File: trome#2021-03-02#02.tiff - Config: 3 - OCR: PaddleOCR - LLM: phi4 - Time needed: 123.92734217643738s
@@ -6,3 +7,13 @@ File: trome#2021-03-02#02.tiff - Config: 2 - OCR: PaddleOCR - LLM: phi4 - Time n
 File: trome#2021-03-02#02.tiff - Config: 0 - OCR: KerasOCR - LLM: phi4 - Time needed: 135.27705907821655s
 File: trome#2021-03-02#02.tiff - Config: 0 - OCR: PaddleOCR - LLM: phi4 - Time needed: 136.95534539222717s
 File: trome#2021-03-02#02.tiff - Config: 1 - OCR: KerasOCR - LLM: phi4 - Time needed: 138.41834902763367s
+=======
+File: trome#2021-03-02#02.tiff - Config: 2 - OCR: TesseractOCR - LLM: phi4 - Time needed: 29.55891442298889s
+File: trome#2021-03-02#02.tiff - Config: 1 - OCR: PaddleOCR - LLM: phi4 - Time needed: 34.43042182922363s
+File: trome#2021-03-02#02.tiff - Config: 0 - OCR: PaddleOCR - LLM: phi4 - Time needed: 38.37354922294617s
+File: trome#2021-03-02#02.tiff - Config: 3 - OCR: TesseractOCR - LLM: phi4 - Time needed: 40.250831604003906s
+File: trome#2021-03-02#02.tiff - Config: 2 - OCR: PaddleOCR - LLM: phi4 - Time needed: 50.573920249938965s
+File: trome#2021-03-02#02.tiff - Config: 0 - OCR: TesseractOCR - LLM: phi4 - Time needed: 55.35418248176575s
+File: trome#2021-03-02#02.tiff - Config: 3 - OCR: PaddleOCR - LLM: phi4 - Time needed: 60.95267844200134s
+File: trome#2021-03-02#02.tiff - Config: 1 - OCR: TesseractOCR - LLM: phi4 - Time needed: 77.65070867538452s
+>>>>>>> 957dcf7b01942962898cd0ebc5f62acdc62cda5e
