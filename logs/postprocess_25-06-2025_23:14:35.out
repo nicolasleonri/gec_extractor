@@ -1,0 +1,46 @@
+Starting multithreaded LLM postprocessing...
+Models to process: ['phi4']
+
+Loading OCR results...
+Loaded 8 OCR results
+
+============================================================
+Starting multithreaded processing for model: phi4
+Total OCR results to process: 8
+Using 64 worker threads
+============================================================
+✓ Progress: 1/8 (12.5%) - Processed trome#2021-03-02#02.tiff with phi4 in 117.96s
+✓ Progress: 2/8 (25.0%) - Processed trome#2021-03-02#02.tiff with phi4 in 122.18s
+✓ Progress: 3/8 (37.5%) - Processed trome#2021-03-02#02.tiff with phi4 in 123.93s
+✓ Progress: 4/8 (50.0%) - Processed trome#2021-03-02#02.tiff with phi4 in 130.37s
+✓ Progress: 5/8 (62.5%) - Processed trome#2021-03-02#02.tiff with phi4 in 132.65s
+✓ Progress: 6/8 (75.0%) - Processed trome#2021-03-02#02.tiff with phi4 in 135.28s
+✓ Progress: 7/8 (87.5%) - Processed trome#2021-03-02#02.tiff with phi4 in 136.96s
+✓ Progress: 8/8 (100.0%) - Processed trome#2021-03-02#02.tiff with phi4 in 138.42s
+
+============================================================
+Completed processing for phi4
+Total processing time: 138.44 seconds
+Average time per result: 17.3 seconds
+
+Saving results to CSV files...
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config3_KerasOCR_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config1_PaddleOCR_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config3_PaddleOCR_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config2_KerasOCR_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config2_PaddleOCR_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config0_KerasOCR_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config0_PaddleOCR_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2021-03-02#02_config1_KerasOCR_phi4.csv
+✓ Successfully saved: 8 files
+✗ Errors encountered: 0 files
+============================================================
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+Total execution time: 138.44 seconds
+Models processed: 1
+Total OCR results per model: 8
+Total processing tasks: 8
+================================================================================
