@@ -11,7 +11,7 @@ Author: @nicolasleonri (GitHub)
 License: GPL
 """
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from utils_postprocessing import parse_ocr_results, extract_filename_and_config, log_processing_info
+from utils_postprocessing import parse_ocr_results, extract_filename_and_config, log_processing_info, parse_image_results
 from ollama import chat, ChatResponse
 import multiprocessing as mp
 from csv import DictReader
@@ -25,7 +25,12 @@ import json
 import sys
 import csv
 import re
+from PIL import Image, ImageDraw
 import os
+import torch
+from threading import Lock
+from transformers import AutoProcessor, AutoModelForImageTextToText
+from transformers import AutoTokenizer, AutoProcessor, AutoModelForImageTextToText
 
 def extract_code_block(text: str, language_hint: str = "") -> str:
     """Extracts a code block (e.g., CSV) from a markdown-formatted LLM response.
@@ -49,6 +54,103 @@ def extract_code_block(text: str, language_hint: str = "") -> str:
         return match.group(1).strip()
 
     return text.strip()
+
+class VLMProcessor:
+    """Wrapper around VLM models for structured postprocessing of image content."""
+    
+    def __init__(self, model_name: str):
+        """
+        Args:
+            model_name (str): Name of the VLM model to use.
+            device (str): Device to run the model on ('auto', 'cuda', 'cpu', 'mps').
+        """
+        self.model_name = model_name
+        self.processor = None
+        self.tokenizer = None
+        self.model = None
+        self._model_lock = Lock()  # For thread safety
+        self._load_model()
+    
+    def _load_model(self):
+        """Load the VLM model and processor"""
+        try:
+            print(f"Loading {self.model_name}")
+            self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
+            self.model = AutoModelForImageTextToText.from_pretrained(
+                self.model_name,
+                torch_dtype="auto",
+                low_cpu_mem_usage=True,
+                attn_implementation="flash_attention_2"
+            )
+            self.model.tie_weights()
+            self.model = self.model.to("cuda")  # or .half() if using FP16
+
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, use_fast=True)
+            self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
+
+            print(f"Successfully loaded {self.model_name}")
+        except Exception as e:
+            print(f"Error loading {self.model_name}: {e}")
+            raise
+
+    def extract_test_results_as_csv(self, image_path: str) -> str:
+        """Uses a VLM to extract image content into CSV-formatted string.
+        Args:
+            image_path (str): Path to the image file.
+        Returns:
+            str: CSV string in the same format as the LLM version.
+        """
+        try:
+            # Load and preprocess image
+            image = Image.open(image_path).convert("RGB")
+            
+            # Create the prompt similar to the LLM version
+            prompt = """
+            GOAL: Given the image, extract and structure the following information:
+            - headline of the article: string or NA
+            - subheadline of the article: string or NA
+            - author of the article:: string or NA
+            - content of the article:: string
+
+            Focus on extracting articles (small or long) with actual information. Exclude any brief news items like: date, weather, public announcements, or other short notices that do not contain substantial content. Ask yourself if the content is relevant for media and discourse anaylisis. If any field is missing or unavailable, use "NA" for its value.
+
+            RETURN FORMAT: Format the output strictly as a CSV like the following example:
+            "headline";"subheadline";"author";"content"
+            "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
+            "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
+
+            WARNING: Only return the CSV exactly as specified. Do not add any explanation or commentary.
+            WARNING: Avoid CSV parsing errors like empty or malformed outputs. After the header, each row should contain the extracted information for one article, with fields separated by semicolons and declared in quotation marks.
+
+            CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text. If you fail in this task, you will lose your job and your family will be very disappointed in you.
+            """ 
+            
+            # Process the image with thread safety
+            with self._model_lock:
+                messages = [
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": [
+                        {"type": "image", "image": f"file://{image_path}"},
+                        {"type": "text", "text": prompt},
+                    ]},
+                ]
+
+                text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                inputs = self.processor(text=[text], images=[image], padding=True, return_tensors="pt")
+                inputs = inputs.to(self.model.device)
+                
+                output_ids = self.model.generate(**inputs, max_new_tokens=30000, do_sample=False, temperature=0.1)
+                generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
+
+                output_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+            return output_text[0] if output_text else ""
+        
+        except Exception as e:
+            print(f"Error processing image {image_path}: {e}")
+            return f"Error processing image: {str(e)}"
+        
+        finally:
+            image.close()
 
 class ollama:
     """Wrapper around Ollama-based LLMs for structured postprocessing of OCR content."""
@@ -189,7 +291,7 @@ class ollama:
 
         return ocr_results
 
-def process_single_result(key: int, value: dict, model_name: str, model_display_name: str, progress_queue: Queue, log_file_path = str) -> dict:
+def process_single_result(key: int, value: dict, model_name: str, model_display_name: str, progress_queue: Queue, log_file_path = str, model_input = any) -> dict:
     """Processes one OCR result with a specified LLM model.
 
     Args:
@@ -203,17 +305,27 @@ def process_single_result(key: int, value: dict, model_name: str, model_display_
         dict: Result including extracted data, runtime, and status.
     """
 
+    vlm_models = {
+        "nanonets/Nanonets-OCR-s": "nanonets",
+        "reducto/RolmOCR": "rolm"
+    }
+
     try:
-        llm = ollama(model_name=model_name) # Create LLM instance for this thread
-        
         start = time.time()
-        # structured_results = llm.extract_test_results_as_json(value['text'])
-        structured_results = llm.extract_test_results_as_csv(value['text'])
+
+        if model_name not in vlm_models:
+            ocr_name = str(value['ocr'])
+            config_no = str(value['config'])
+            processed_filename, _ = extract_filename_and_config(value['filepath'])
+            structured_results = model_input.extract_test_results_as_csv(value['text'])
+        elif model_name in vlm_models:
+            ocr_name = str(model_display_name)
+            processed_filename, config_no = extract_filename_and_config(value['filepath'])
+            structured_results = model_input.extract_test_results_as_csv(value['filepath'])
+
         end = time.time()
         time_elapsed = end - start
-        ocr_name = str(value['ocr'])
-        config_no = str(value['config'])
-        processed_filename, config_number = extract_filename_and_config(value['filepath'])
+        
         log_processing_info(log_file_path, processed_filename, config_no, ocr_name, model_display_name, time_elapsed)
         
         # Prepare result
@@ -329,6 +441,7 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
         try:
             value = result['value']
             filename = os.path.splitext(os.path.basename(value['filepath']))[0]
+            filename = re.sub(r'_config\d+$', '', filename)
             ocr_name = value["ocr"]
             config_no = value['config']
             pathfile = f"{filename}_config{config_no}_{ocr_name}_{model_display_name}"
@@ -352,7 +465,6 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
                 "publication_date": publication_date,
                 "page_number": page_number
             }
-
             # Extract CSV content from LLM response
             data = extract_code_block(result['output'], language_hint="csv")
             f = StringIO(data)
@@ -484,7 +596,7 @@ def save_results_to_json(results_dict: dict, model_display_name: str) -> T.Tuple
     
     return saved_count, error_count
 
-def process_model_multithreaded(model_name: str, model_display_name: str, ocr_results: dict, max_workers: int = 3, log_file_path: str = "None") -> dict:
+def process_model_multithreaded(model_name: str, model_display_name: str, ocr_results: dict, img_results: dict, max_workers: int = 3, log_file_path: str = "None") -> dict:
     """Processes all OCR results using a specific LLM with multithreading.
 
     Args:
@@ -496,39 +608,60 @@ def process_model_multithreaded(model_name: str, model_display_name: str, ocr_re
     Returns:
         dict: Result dictionary of processed entries.
     """
-    
+
     print(f"\n{'='*60}")
     print(f"Starting multithreaded processing for model: {model_display_name}")
     print(f"Total OCR results to process: {len(ocr_results)}")
+    print(f"Total Images to process: {len(img_results)}")
     print(f"Using {max_workers} worker threads")
     print(f"{'='*60}")
     
+    vlm_models = {
+        "nanonets/Nanonets-OCR-s": "nanonets",
+        "reducto/RolmOCR": "rolm"
+    }
+
+    # Determine actual input based on model type
+    if model_name not in vlm_models:
+        actual_input = ocr_results
+    else:
+        actual_input = img_results
+
     # Create progress tracking
     progress_queue = Queue()
     results_dict = {}
     lock = threading.Lock()
-    
-    # Start progress monitor thread
+
+    # Start progress monitor thread with the correct task count
     progress_thread = threading.Thread(
         target=progress_monitor,
-        args=(progress_queue, len(ocr_results), results_dict, lock)
+        args=(progress_queue, len(actual_input), results_dict, lock)
     )
     progress_thread.start()
     
     # Process all results in parallel
     start_time = time.time()
 
-    
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = []
         
-        # Submit all tasks
-        for key, value in ocr_results.items():
-            future = executor.submit(
-                process_single_result,
-                key, value, model_name, model_display_name, progress_queue, log_file_path
-            )
-            futures.append(future)
+        if model_name not in vlm_models:
+            llm = ollama(model_name) # Create LLM instance for this thread
+            # Submit all tasks
+            for key, value in ocr_results.items():
+                future = executor.submit(
+                    process_single_result,
+                    key, value, model_name, model_display_name, progress_queue, log_file_path, llm
+                )
+                futures.append(future)
+        elif model_name in vlm_models:
+            vlm = VLMProcessor(model_name)  # Load once here
+            for key, value in img_results.items():
+                future = executor.submit(
+                    process_single_result,
+                    key, value, model_name, model_display_name, progress_queue, log_file_path, vlm
+                )
+                futures.append(future)
         
         # Wait for all tasks to complete
         completed_tasks = 0
@@ -639,10 +772,11 @@ def main() -> None:
 
     models = {
         "phi4:latest": "phi4",
-        "llama4:latest": "llama4",
-        "gemma3:27b": "gemma3",
-        "deepseek-r1:32b": "deepseek-r1",
-        "magistral:24b": "magistral",
+        "nanonets/Nanonets-OCR-s": "nanonets",
+        # "llama4:latest": "llama4",
+        # "gemma3:27b": "gemma3",
+        # "deepseek-r1:32b": "deepseek-r1",
+        # "magistral:24b": "magistral",
     }
     
     print("Starting multithreaded LLM postprocessing...")
@@ -652,6 +786,10 @@ def main() -> None:
     print("\nLoading OCR results...")
     ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
     print(f"Loaded {len(ocr_results)} OCR results")
+
+    print("\nLoading Image list...")
+    images_directory = "./results/images/preprocessed"
+    img_results = parse_image_results(images_directory)
     
     # Process each model
     all_results = {}
@@ -663,6 +801,7 @@ def main() -> None:
                 model_name, 
                 model_display_name, 
                 ocr_results, 
+                img_results,
                 max_workers=max_threads,
                 log_file_path=log_file_path  # Adjust based on your system capabilities
             )

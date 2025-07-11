@@ -1,6 +1,8 @@
 import re
 import os
 from collections import defaultdict
+from typing import Dict, List, Any
+import glob
 
 def log_processing_info(log_file_path, processed_filename, config_number, ocr_name, model_display_name, time_elapsed):
     """Log processing information with immediate flush"""
@@ -38,3 +40,41 @@ def parse_ocr_results(file_path):
         idx += 1
     
     return results
+
+def parse_image_results(images_directory: str) -> Dict[int, Dict[str, Any]]:
+    """Parse image files from a directory and create a results dictionary
+    similar to parsed OCR format (without OCR content).
+
+    Args:
+        images_directory (str): Path to directory containing images.
+
+    Returns:
+        Dict[int, Dict[str, Any]]: Dictionary with image metadata.
+    """
+    image_results = defaultdict(dict)
+    
+    # Common image extensions
+    image_extensions = ['*.jpg', '*.jpeg', '*.png', '*.bmp', '*.tiff', '*.gif']
+    
+    # Get all image files
+    image_files = []
+    for ext in image_extensions:
+        image_files.extend(glob.glob(os.path.join(images_directory, ext)))
+        image_files.extend(glob.glob(os.path.join(images_directory, ext.upper())))
+    
+    # Create results dictionary
+    for idx, image_path in enumerate(image_files):
+        filename = os.path.basename(image_path)
+        # Extract 'configX' pattern from filename, e.g. 'config0'
+        match = re.search(r'config(\d+)', filename)
+        config_value = match.group(1) if match else 'default'
+
+        image_results[idx] = {
+            'filepath': str(image_path),
+            'config': config_value,
+            'ocr': 'vlm',
+            'text': ''  # Leave text empty for image-only entries
+        }
+
+    print(f"Found {len(image_files)} images in {images_directory}")
+    return image_results

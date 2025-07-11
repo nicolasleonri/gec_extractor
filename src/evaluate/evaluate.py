@@ -167,10 +167,17 @@ def main() -> None:
         for entry in post_log_dict:
             if (strip_extension(entry['filename']) == filename_stripped and
                 str(entry['config']) == str(config) and
-                entry['ocr'] == ocr and
                 entry['llm'] == llm):
-                post_time_log = entry['time_needed']
-                break
+                
+                # Special case for 'vlm' OCR
+                if ocr == "vlm":
+                    post_time_log = entry['time_needed']
+                    break
+                
+                # Normal case: OCR must match exactly
+                if entry['ocr'] == ocr:
+                    post_time_log = entry['time_needed']
+                    break
 
         # Replace None with "NA"
         pre_time_log = pre_time_log if pre_time_log is not None else "NA"
