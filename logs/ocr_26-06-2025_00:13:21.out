@@ -1,0 +1,1594 @@
+2025-06-26 00:14:44.143514: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-26 00:14:44.143615: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-26 00:14:44.145050: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-26 00:14:44.151635: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-26 00:14:44.948434: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Starting processing of 48 images with 5 methods
+Total tasks: 240
+Using 64 threads
+Starting sequential processing of 48 images with 5 methods
+Total tasks: 240
+
+📄 Processing image 1/48: results/images/preprocessed/trome#2021-03-02#02_config30.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 1/240 (0.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+2025-06-26 00:14:50.855904: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-06-26 00:14:50.861416: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+WARNING:tensorflow:From /data/gec_extractor/venv/ocr/lib/python3.10/site-packages/tensorflow/python/util/dispatch.py:1260: resize_bilinear (from tensorflow.python.ops.image_ops_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.image.resize(...method=ResizeMethod.BILINEAR...)` instead.
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@9.561] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.6s
+    📊 Progress: 2/240 (0.8%)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+  🔍 Running EasyOCR... (3/5)
+
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@12.403] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 3.1s
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'
+    📊 Progress: 3/240 (1.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.2s
+    📊 Progress: 4/240 (1.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@18.275] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.4sError: COMMON ERROR: unable to read file.
+
+    📊 Progress: 5/240 (2.1%)
+    ⏱️  Elapsed: 11.9s, Est. remaining: 560.6s
+
+📄 Processing image 2/48: results/images/preprocessed/trome#2021-03-02#02_config21.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.4s
+    📊 Progress: 6/240 (2.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 7s 7s/step
+ 1/29 [>.............................] - ETA: 29s 2/29 [=>............................] - ETA: 23s 3/29 [==>...........................] - ETA: 22s 4/29 [===>..........................] - ETA: 21s 5/29 [====>.........................] - ETA: 21s 6/29 [=====>........................] - ETA: 20s 7/29 [======>.......................] - ETA: 19s 8/29 [=======>......................] - ETA: 18s 9/29 [========>.....................] - ETA: 17s10/29 [=========>....................] - ETA: 16s11/29 [==========>...................] - ETA: 15s12/29 [===========>..................] - ETA: 14s13/29 [============>.................] - ETA: 14s14/29 [=============>................] - ETA: 13s15/29 [==============>...............] - ETA: 12s16/29 [===============>..............] - ETA: 11s17/29 [================>.............] - ETA: 10s18/29 [=================>............] - ETA: 9s 19/29 [==================>...........] - ETA: 8s20/29 [===================>..........] - ETA: 7s21/29 [====================>.........] - ETA: 7s22/29 [=====================>........] - ETA: 6s23/29 [======================>.......] - ETA: 5s24/29 [=======================>......] - ETA: 4s25/29 [========================>.....] - ETA: 3s26/29 [=========================>....] - ETA: 2s27/29 [==========================>...] - ETA: 1s28/29 [===========================>..] - ETA: 0s29/29 [==============================] - ETA: 0s29/29 [==============================] - 25s 857ms/step
+    ✅ KerasOCR completed in 38.9s
+    📊 Progress: 7/240 (2.9%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81153MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 12.0s
+    📊 Progress: 8/240 (3.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.7s
+    📊 Progress: 9/240 (3.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 19.2s
+    📊 Progress: 10/240 (4.2%)
+    ⏱️  Elapsed: 93.1s, Est. remaining: 2140.7s
+
+📄 Processing image 3/48: results/images/preprocessed/trome#2021-03-02#02_config17.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.6s
+    📊 Progress: 11/240 (4.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/19 [>.............................] - ETA: 17s 2/19 [==>...........................] - ETA: 14s 3/19 [===>..........................] - ETA: 14s 4/19 [=====>........................] - ETA: 13s 5/19 [======>.......................] - ETA: 12s 6/19 [========>.....................] - ETA: 11s 7/19 [==========>...................] - ETA: 10s 8/19 [===========>..................] - ETA: 9s  9/19 [=============>................] - ETA: 8s10/19 [==============>...............] - ETA: 8s11/19 [================>.............] - ETA: 7s12/19 [=================>............] - ETA: 6s13/19 [===================>..........] - ETA: 5s14/19 [=====================>........] - ETA: 4s15/19 [======================>.......] - ETA: 3s16/19 [========================>.....] - ETA: 2s17/19 [=========================>....] - ETA: 1s18/19 [===========================>..] - ETA: 0s19/19 [==============================] - ETA: 0s19/19 [==============================] - 17s 867ms/step
+    ✅ KerasOCR completed in 28.7s
+    📊 Progress: 12/240 (5.0%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 6.1s
+    📊 Progress: 13/240 (5.4%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 4.3s
+    📊 Progress: 14/240 (5.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 12.1s
+    📊 Progress: 15/240 (6.2%)
+    ⏱️  Elapsed: 149.9s, Est. remaining: 2248.7s
+
+📄 Processing image 4/48: results/images/preprocessed/trome#2021-03-02#02_config31.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 6.5s
+    📊 Progress: 16/240 (6.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/29 [>.............................] - ETA: 27s 2/29 [=>............................] - ETA: 25s 3/29 [==>...........................] - ETA: 23s 4/29 [===>..........................] - ETA: 22s 5/29 [====>.........................] - ETA: 21s 6/29 [=====>........................] - ETA: 20s 7/29 [======>.......................] - ETA: 19s 8/29 [=======>......................] - ETA: 19s 9/29 [========>.....................] - ETA: 18s10/29 [=========>....................] - ETA: 17s11/29 [==========>...................] - ETA: 16s12/29 [===========>..................] - ETA: 15s13/29 [============>.................] - ETA: 14s14/29 [=============>................] - ETA: 13s15/29 [==============>...............] - ETA: 12s16/29 [===============>..............] - ETA: 11s17/29 [================>.............] - ETA: 10s18/29 [=================>............] - ETA: 9s 19/29 [==================>...........] - ETA: 9s20/29 [===================>..........] - ETA: 8s21/29 [====================>.........] - ETA: 7s22/29 [=====================>........] - ETA: 6s23/29 [======================>.......] - ETA: 5s24/29 [=======================>......] - ETA: 4s25/29 [========================>.....] - ETA: 3s26/29 [=========================>....] - ETA: 2s27/29 [==========================>...] - ETA: 1s28/29 [===========================>..] - ETA: 0s29/29 [==============================] - ETA: 0s29/29 [==============================] - 26s 900ms/step
+    ✅ KerasOCR completed in 39.3s
+    📊 Progress: 17/240 (7.1%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 10.8s
+    📊 Progress: 18/240 (7.5%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.7s
+    📊 Progress: 19/240 (7.9%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 18.6s
+    📊 Progress: 20/240 (8.3%)
+    ⏱️  Elapsed: 230.8s, Est. remaining: 2538.6s
+
+📄 Processing image 5/48: results/images/preprocessed/trome#2021-03-02#02_config42.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.2s
+    📊 Progress: 21/240 (8.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 899ms/step
+    ✅ KerasOCR completed in 9.9s
+    📊 Progress: 22/240 (9.2%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.1s
+    📊 Progress: 23/240 (9.6%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.3s
+    📊 Progress: 24/240 (10.0%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 5.3s
+    📊 Progress: 25/240 (10.4%)
+    ⏱️  Elapsed: 252.6s, Est. remaining: 2172.7s
+
+📄 Processing image 6/48: results/images/preprocessed/trome#2021-03-02#02_config46.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.9s
+    📊 Progress: 26/240 (10.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@262.547] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.6s
+    📊 Progress: 27/240 (11.2%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@265.251] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 3.4s
+    📊 Progress: 28/240 (11.7%)Error: NEW ERROR: 'NoneType' object has no attribute 'shape'
+
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 3.2s
+    📊 Progress: 29/240 (12.1%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@272.743] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.6s
+Error: COMMON ERROR: unable to read file.    📊 Progress: 30/240 (12.5%)
+
+    ⏱️  Elapsed: 266.4s, Est. remaining: 1864.8s
+
+📄 Processing image 7/48: results/images/preprocessed/trome#2021-03-02#02_config29.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 6.7s
+    📊 Progress: 31/240 (12.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/31 [..............................] - ETA: 28s 2/31 [>.............................] - ETA: 26s 3/31 [=>............................] - ETA: 25s 4/31 [==>...........................] - ETA: 24s 5/31 [===>..........................] - ETA: 23s 6/31 [====>.........................] - ETA: 22s 7/31 [=====>........................] - ETA: 21s 8/31 [======>.......................] - ETA: 20s 9/31 [=======>......................] - ETA: 19s10/31 [========>.....................] - ETA: 18s11/31 [=========>....................] - ETA: 17s12/31 [==========>...................] - ETA: 16s13/31 [===========>..................] - ETA: 15s14/31 [============>.................] - ETA: 15s15/31 [=============>................] - ETA: 14s16/31 [==============>...............] - ETA: 13s17/31 [===============>..............] - ETA: 12s18/31 [================>.............] - ETA: 11s19/31 [=================>............] - ETA: 10s20/31 [==================>...........] - ETA: 9s 21/31 [===================>..........] - ETA: 8s22/31 [====================>.........] - ETA: 8s23/31 [=====================>........] - ETA: 7s24/31 [======================>.......] - ETA: 6s25/31 [=======================>......] - ETA: 5s26/31 [========================>.....] - ETA: 4s27/31 [=========================>....] - ETA: 3s28/31 [==========================>...] - ETA: 2s29/31 [===========================>..] - ETA: 1s30/31 [============================>.] - ETA: 0s31/31 [==============================] - ETA: 0s31/31 [==============================] - 28s 897ms/step
+    ✅ KerasOCR completed in 41.1s
+    📊 Progress: 32/240 (13.3%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 10.8s
+    📊 Progress: 33/240 (13.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 7.0s
+    📊 Progress: 34/240 (14.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.9s
+    📊 Progress: 35/240 (14.6%)
+    ⏱️  Elapsed: 349.0s, Est. remaining: 2044.0s
+
+📄 Processing image 8/48: results/images/preprocessed/trome#2021-03-02#02_config2.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 3.0s
+    📊 Progress: 36/240 (15.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/32 [..............................] - ETA: 28s 2/32 [>.............................] - ETA: 28s 3/32 [=>............................] - ETA: 26s 4/32 [==>...........................] - ETA: 25s 5/32 [===>..........................] - ETA: 24s 6/32 [====>.........................] - ETA: 23s 7/32 [=====>........................] - ETA: 22s 8/32 [======>.......................] - ETA: 21s 9/32 [=======>......................] - ETA: 20s10/32 [========>.....................] - ETA: 19s11/32 [=========>....................] - ETA: 18s12/32 [==========>...................] - ETA: 17s13/32 [===========>..................] - ETA: 16s14/32 [============>.................] - ETA: 16s15/32 [=============>................] - ETA: 15s16/32 [==============>...............] - ETA: 14s17/32 [==============>...............] - ETA: 13s18/32 [===============>..............] - ETA: 12s19/32 [================>.............] - ETA: 11s20/32 [=================>............] - ETA: 10s21/32 [==================>...........] - ETA: 9s 22/32 [===================>..........] - ETA: 8s23/32 [====================>.........] - ETA: 8s24/32 [=====================>........] - ETA: 7s25/32 [======================>.......] - ETA: 6s26/32 [=======================>......] - ETA: 5s27/32 [========================>.....] - ETA: 4s28/32 [=========================>....] - ETA: 3s29/32 [==========================>...] - ETA: 2s30/32 [===========================>..] - ETA: 1s31/32 [============================>.] - ETA: 0s32/32 [==============================] - ETA: 0s32/32 [==============================] - 28s 888ms/step
+    ✅ KerasOCR completed in 41.5s
+    📊 Progress: 37/240 (15.4%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 9.9s
+    📊 Progress: 38/240 (15.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 7.1s
+    📊 Progress: 39/240 (16.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.9s
+    📊 Progress: 40/240 (16.7%)
+    ⏱️  Elapsed: 426.3s, Est. remaining: 2131.7s
+
+📄 Processing image 9/48: results/images/preprocessed/trome#2021-03-02#02_config6.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.8s
+    📊 Progress: 41/240 (17.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@435.971] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.5s
+    📊 Progress: 42/240 (17.5%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@438.516] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 43/240 (17.9%)
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'  🔍 Running PaddleOCR... (4/5)
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.1s
+    📊 Progress: 44/240 (18.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@444.014] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.2s
+    📊 Progress: 45/240 (18.8%)Error: COMMON ERROR: unable to read file.
+
+    ⏱️  Elapsed: 437.7s, Est. remaining: 1896.6s
+
+📄 Processing image 10/48: results/images/preprocessed/trome#2021-03-02#02_config41.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.1s
+    📊 Progress: 46/240 (19.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+1/2 [==============>...............] - ETA: 0s2/2 [==============================] - ETA: 0s2/2 [==============================] - 1s 308ms/step
+    ✅ KerasOCR completed in 9.8s
+    📊 Progress: 47/240 (19.6%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.2s
+    📊 Progress: 48/240 (20.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.9s
+    📊 Progress: 49/240 (20.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.8s
+    📊 Progress: 50/240 (20.8%)
+    ⏱️  Elapsed: 458.5s, Est. remaining: 1742.1s
+
+📄 Processing image 11/48: results/images/preprocessed/trome#2021-03-02#02_config18.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.0s
+    📊 Progress: 51/240 (21.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+1/9 [==>...........................] - ETA: 7s2/9 [=====>........................] - ETA: 6s3/9 [=========>....................] - ETA: 5s4/9 [============>.................] - ETA: 4s5/9 [===============>..............] - ETA: 3s6/9 [===================>..........] - ETA: 2s7/9 [======================>.......] - ETA: 1s8/9 [=========================>....] - ETA: 0s9/9 [==============================] - ETA: 0s9/9 [==============================] - 8s 867ms/step
+    ✅ KerasOCR completed in 17.6s
+    📊 Progress: 52/240 (21.7%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.7s
+    📊 Progress: 53/240 (22.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.5s
+    📊 Progress: 54/240 (22.5%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 7.6s
+    📊 Progress: 55/240 (22.9%)
+    ⏱️  Elapsed: 494.7s, Est. remaining: 1664.1s
+
+📄 Processing image 12/48: results/images/preprocessed/trome#2021-03-02#02_config26.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.3s
+    📊 Progress: 56/240 (23.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/22 [>.............................] - ETA: 20s 2/22 [=>............................] - ETA: 18s 3/22 [===>..........................] - ETA: 17s 4/22 [====>.........................] - ETA: 16s 5/22 [=====>........................] - ETA: 15s 6/22 [=======>......................] - ETA: 14s 7/22 [========>.....................] - ETA: 13s 8/22 [=========>....................] - ETA: 12s 9/22 [===========>..................] - ETA: 11s10/22 [============>.................] - ETA: 10s11/22 [==============>...............] - ETA: 10s12/22 [===============>..............] - ETA: 9s 13/22 [================>.............] - ETA: 8s14/22 [==================>...........] - ETA: 7s15/22 [===================>..........] - ETA: 6s16/22 [====================>.........] - ETA: 5s17/22 [======================>.......] - ETA: 4s18/22 [=======================>......] - ETA: 3s19/22 [========================>.....] - ETA: 2s20/22 [==========================>...] - ETA: 1s21/22 [===========================>..] - ETA: 0s22/22 [==============================] - ETA: 0s22/22 [==============================] - 20s 920ms/step
+    ✅ KerasOCR completed in 31.8s
+    📊 Progress: 57/240 (23.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.5s
+    📊 Progress: 58/240 (24.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 4.2s
+    📊 Progress: 59/240 (24.6%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.8s
+    📊 Progress: 60/240 (25.0%)
+    ⏱️  Elapsed: 560.3s, Est. remaining: 1680.8s
+
+📄 Processing image 13/48: results/images/preprocessed/trome#2021-03-02#02_config3.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 3.8s
+    📊 Progress: 61/240 (25.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/32 [..............................] - ETA: 29s 2/32 [>.............................] - ETA: 28s 3/32 [=>............................] - ETA: 26s 4/32 [==>...........................] - ETA: 26s 5/32 [===>..........................] - ETA: 24s 6/32 [====>.........................] - ETA: 23s 7/32 [=====>........................] - ETA: 22s 8/32 [======>.......................] - ETA: 21s 9/32 [=======>......................] - ETA: 20s10/32 [========>.....................] - ETA: 19s11/32 [=========>....................] - ETA: 18s12/32 [==========>...................] - ETA: 17s13/32 [===========>..................] - ETA: 16s14/32 [============>.................] - ETA: 16s15/32 [=============>................] - ETA: 15s16/32 [==============>...............] - ETA: 14s17/32 [==============>...............] - ETA: 13s18/32 [===============>..............] - ETA: 12s19/32 [================>.............] - ETA: 11s20/32 [=================>............] - ETA: 10s21/32 [==================>...........] - ETA: 9s 22/32 [===================>..........] - ETA: 8s23/32 [====================>.........] - ETA: 8s24/32 [=====================>........] - ETA: 7s25/32 [======================>.......] - ETA: 6s26/32 [=======================>......] - ETA: 5s27/32 [========================>.....] - ETA: 4s28/32 [=========================>....] - ETA: 3s29/32 [==========================>...] - ETA: 2s30/32 [===========================>..] - ETA: 1s31/32 [============================>.] - ETA: 0s32/32 [==============================] - ETA: 0s32/32 [==============================] - 29s 892ms/step
+    ✅ KerasOCR completed in 41.5s
+    📊 Progress: 62/240 (25.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.8s
+    📊 Progress: 63/240 (26.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.8s
+    📊 Progress: 64/240 (26.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.7s
+    📊 Progress: 65/240 (27.1%)
+    ⏱️  Elapsed: 638.0s, Est. remaining: 1717.6s
+
+📄 Processing image 14/48: results/images/preprocessed/trome#2021-03-02#02_config7.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.2s
+    📊 Progress: 66/240 (27.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/32 [..............................] - ETA: 29s 2/32 [>.............................] - ETA: 27s 3/32 [=>............................] - ETA: 26s 4/32 [==>...........................] - ETA: 24s 5/32 [===>..........................] - ETA: 23s 6/32 [====>.........................] - ETA: 23s 7/32 [=====>........................] - ETA: 22s 8/32 [======>.......................] - ETA: 21s 9/32 [=======>......................] - ETA: 20s10/32 [========>.....................] - ETA: 19s11/32 [=========>....................] - ETA: 18s12/32 [==========>...................] - ETA: 17s13/32 [===========>..................] - ETA: 16s14/32 [============>.................] - ETA: 15s15/32 [=============>................] - ETA: 14s16/32 [==============>...............] - ETA: 13s17/32 [==============>...............] - ETA: 13s18/32 [===============>..............] - ETA: 12s19/32 [================>.............] - ETA: 11s20/32 [=================>............] - ETA: 10s21/32 [==================>...........] - ETA: 9s 22/32 [===================>..........] - ETA: 8s23/32 [====================>.........] - ETA: 7s24/32 [=====================>........] - ETA: 7s25/32 [======================>.......] - ETA: 6s26/32 [=======================>......] - ETA: 5s27/32 [========================>.....] - ETA: 4s28/32 [=========================>....] - ETA: 3s29/32 [==========================>...] - ETA: 2s30/32 [===========================>..] - ETA: 1s31/32 [============================>.] - ETA: 0s32/32 [==============================] - ETA: 0s32/32 [==============================] - 28s 870ms/step
+    ✅ KerasOCR completed in 41.0s
+    📊 Progress: 67/240 (27.9%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.9s
+    📊 Progress: 68/240 (28.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 7.1s
+    📊 Progress: 69/240 (28.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.2s
+    📊 Progress: 70/240 (29.2%)
+    ⏱️  Elapsed: 714.4s, Est. remaining: 1735.0s
+
+📄 Processing image 15/48: results/images/preprocessed/trome#2021-03-02#02_config14.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 71/240 (29.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@723.742] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.3s
+    📊 Progress: 72/240 (30.0%)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+  🔍 Running EasyOCR... (3/5)
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@726.234] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 73/240 (30.4%)
+  🔍 Running PaddleOCR... (4/5)
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.3s
+    📊 Progress: 74/240 (30.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@731.805] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.1s
+    📊 Progress: 75/240 (31.2%)Error: COMMON ERROR: unable to read file.
+
+    ⏱️  Elapsed: 725.5s, Est. remaining: 1596.0s
+
+📄 Processing image 16/48: results/images/preprocessed/trome#2021-03-02#02_config35.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 76/240 (31.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+    ✅ KerasOCR completed in 8.4s
+    📊 Progress: 77/240 (32.1%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 78/240 (32.5%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.3s
+    📊 Progress: 79/240 (32.9%)Error: NEW ERROR: 'NoneType' object is not iterable
+  🔍 Running docTR... (5/5)
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.1s
+    📊 Progress: 80/240 (33.3%)
+    ⏱️  Elapsed: 742.5s, Est. remaining: 1485.1s
+
+📄 Processing image 17/48: results/images/preprocessed/trome#2021-03-02#02_config45.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 1.1s
+    📊 Progress: 81/240 (33.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+1/3 [=========>....................] - ETA: 2s2/3 [===================>..........] - ETA: 1s3/3 [==============================] - ETA: 0s3/3 [==============================] - 3s 800ms/step
+    ✅ KerasOCR completed in 11.5s
+    📊 Progress: 82/240 (34.2%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 83/240 (34.6%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 3.4s
+    📊 Progress: 84/240 (35.0%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 8.4s
+    📊 Progress: 85/240 (35.4%)
+    ⏱️  Elapsed: 769.7s, Est. remaining: 1403.5s
+
+📄 Processing image 18/48: results/images/preprocessed/trome#2021-03-02#02_config8.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 3.5s
+    📊 Progress: 86/240 (35.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/28 [>.............................] - ETA: 27s 2/28 [=>............................] - ETA: 26s 3/28 [==>...........................] - ETA: 25s 4/28 [===>..........................] - ETA: 24s 5/28 [====>.........................] - ETA: 23s 6/28 [=====>........................] - ETA: 22s 7/28 [======>.......................] - ETA: 21s 8/28 [=======>......................] - ETA: 20s 9/28 [========>.....................] - ETA: 19s10/28 [=========>....................] - ETA: 17s11/28 [==========>...................] - ETA: 16s12/28 [===========>..................] - ETA: 15s13/28 [============>.................] - ETA: 14s14/28 [==============>...............] - ETA: 13s15/28 [===============>..............] - ETA: 12s16/28 [================>.............] - ETA: 11s17/28 [=================>............] - ETA: 10s18/28 [==================>...........] - ETA: 9s 19/28 [===================>..........] - ETA: 8s20/28 [====================>.........] - ETA: 8s21/28 [=====================>........] - ETA: 7s22/28 [======================>.......] - ETA: 6s23/28 [=======================>......] - ETA: 5s24/28 [========================>.....] - ETA: 4s25/28 [=========================>....] - ETA: 3s26/28 [==========================>...] - ETA: 2s27/28 [===========================>..] - ETA: 1s28/28 [==============================] - ETA: 0s28/28 [==============================] - 28s 1s/step
+    ✅ KerasOCR completed in 40.3s
+    📊 Progress: 87/240 (36.2%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.0s
+    📊 Progress: 88/240 (36.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.1s
+    📊 Progress: 89/240 (37.1%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.6s
+    📊 Progress: 90/240 (37.5%)
+    ⏱️  Elapsed: 841.2s, Est. remaining: 1401.9s
+
+📄 Processing image 19/48: results/images/preprocessed/trome#2021-03-02#02_config16.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.6s
+    📊 Progress: 91/240 (37.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/11 [=>............................] - ETA: 9s 2/11 [====>.........................] - ETA: 8s 3/11 [=======>......................] - ETA: 7s 4/11 [=========>....................] - ETA: 6s 5/11 [============>.................] - ETA: 5s 6/11 [===============>..............] - ETA: 4s 7/11 [==================>...........] - ETA: 3s 8/11 [====================>.........] - ETA: 2s 9/11 [=======================>......] - ETA: 1s10/11 [==========================>...] - ETA: 0s11/11 [==============================] - ETA: 0s11/11 [==============================] - 10s 893ms/step
+    ✅ KerasOCR completed in 24.5s
+    📊 Progress: 92/240 (38.3%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 4.1s
+    📊 Progress: 93/240 (38.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 3.1s
+    📊 Progress: 94/240 (39.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 6.3s
+    📊 Progress: 95/240 (39.6%)
+    ⏱️  Elapsed: 883.6s, Est. remaining: 1348.7s
+
+📄 Processing image 20/48: results/images/preprocessed/trome#2021-03-02#02_config13.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.9s
+    📊 Progress: 96/240 (40.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/32 [..............................] - ETA: 28s 2/32 [>.............................] - ETA: 27s 3/32 [=>............................] - ETA: 25s 4/32 [==>...........................] - ETA: 24s 5/32 [===>..........................] - ETA: 23s 6/32 [====>.........................] - ETA: 22s 7/32 [=====>........................] - ETA: 21s 8/32 [======>.......................] - ETA: 20s 9/32 [=======>......................] - ETA: 19s10/32 [========>.....................] - ETA: 18s11/32 [=========>....................] - ETA: 18s12/32 [==========>...................] - ETA: 17s13/32 [===========>..................] - ETA: 16s14/32 [============>.................] - ETA: 15s15/32 [=============>................] - ETA: 14s16/32 [==============>...............] - ETA: 13s17/32 [==============>...............] - ETA: 12s18/32 [===============>..............] - ETA: 12s19/32 [================>.............] - ETA: 11s20/32 [=================>............] - ETA: 10s21/32 [==================>...........] - ETA: 9s 22/32 [===================>..........] - ETA: 8s23/32 [====================>.........] - ETA: 7s24/32 [=====================>........] - ETA: 6s25/32 [======================>.......] - ETA: 6s26/32 [=======================>......] - ETA: 5s27/32 [========================>.....] - ETA: 4s28/32 [=========================>....] - ETA: 3s29/32 [==========================>...] - ETA: 2s30/32 [===========================>..] - ETA: 1s31/32 [============================>.] - ETA: 0s32/32 [==============================] - ETA: 0s32/32 [==============================] - 28s 864ms/step
+    ✅ KerasOCR completed in 40.2s
+    📊 Progress: 97/240 (40.4%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.6s
+    📊 Progress: 98/240 (40.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.2s
+    📊 Progress: 99/240 (41.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.2s
+    📊 Progress: 100/240 (41.7%)
+    ⏱️  Elapsed: 957.6s, Est. remaining: 1340.7s
+
+📄 Processing image 21/48: results/images/preprocessed/trome#2021-03-02#02_config24.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.9s
+    📊 Progress: 101/240 (42.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/20 [>.............................] - ETA: 18s 2/20 [==>...........................] - ETA: 17s 3/20 [===>..........................] - ETA: 16s 4/20 [=====>........................] - ETA: 15s 5/20 [======>.......................] - ETA: 14s 6/20 [========>.....................] - ETA: 13s 7/20 [=========>....................] - ETA: 11s 8/20 [===========>..................] - ETA: 10s 9/20 [============>.................] - ETA: 10s10/20 [==============>...............] - ETA: 9s 11/20 [===============>..............] - ETA: 8s12/20 [=================>............] - ETA: 7s13/20 [==================>...........] - ETA: 6s14/20 [====================>.........] - ETA: 5s15/20 [=====================>........] - ETA: 4s16/20 [=======================>......] - ETA: 3s17/20 [========================>.....] - ETA: 2s18/20 [==========================>...] - ETA: 1s19/20 [===========================>..] - ETA: 0s20/20 [==============================] - ETA: 0s20/20 [==============================] - 18s 889ms/step
+    ✅ KerasOCR completed in 28.9s
+    📊 Progress: 102/240 (42.5%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 6.9s
+    📊 Progress: 103/240 (42.9%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.1s
+    📊 Progress: 104/240 (43.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 14.3s
+    📊 Progress: 105/240 (43.8%)
+    ⏱️  Elapsed: 1018.7s, Est. remaining: 1309.8s
+
+📄 Processing image 22/48: results/images/preprocessed/trome#2021-03-02#02_config1.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.8s
+    📊 Progress: 106/240 (44.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/31 [..............................] - ETA: 30s 2/31 [>.............................] - ETA: 28s 3/31 [=>............................] - ETA: 25s 4/31 [==>...........................] - ETA: 24s 5/31 [===>..........................] - ETA: 23s 6/31 [====>.........................] - ETA: 22s 7/31 [=====>........................] - ETA: 21s 8/31 [======>.......................] - ETA: 20s 9/31 [=======>......................] - ETA: 19s10/31 [========>.....................] - ETA: 18s11/31 [=========>....................] - ETA: 17s12/31 [==========>...................] - ETA: 17s13/31 [===========>..................] - ETA: 16s14/31 [============>.................] - ETA: 15s15/31 [=============>................] - ETA: 14s16/31 [==============>...............] - ETA: 13s17/31 [===============>..............] - ETA: 12s18/31 [================>.............] - ETA: 11s19/31 [=================>............] - ETA: 10s20/31 [==================>...........] - ETA: 9s 21/31 [===================>..........] - ETA: 8s22/31 [====================>.........] - ETA: 7s23/31 [=====================>........] - ETA: 7s24/31 [======================>.......] - ETA: 6s25/31 [=======================>......] - ETA: 5s26/31 [========================>.....] - ETA: 4s27/31 [=========================>....] - ETA: 3s28/31 [==========================>...] - ETA: 2s29/31 [===========================>..] - ETA: 1s30/31 [============================>.] - ETA: 0s31/31 [==============================] - ETA: 0s31/31 [==============================] - 27s 860ms/step
+    ✅ KerasOCR completed in 39.3s
+    📊 Progress: 107/240 (44.6%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.3s
+    📊 Progress: 108/240 (45.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.6s
+    📊 Progress: 109/240 (45.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.0s
+    📊 Progress: 110/240 (45.8%)
+    ⏱️  Elapsed: 1093.8s, Est. remaining: 1292.7s
+
+📄 Processing image 23/48: results/images/preprocessed/trome#2021-03-02#02_config12.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.4s
+    📊 Progress: 111/240 (46.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/31 [..............................] - ETA: 29s 2/31 [>.............................] - ETA: 23s 3/31 [=>............................] - ETA: 23s 4/31 [==>...........................] - ETA: 23s 5/31 [===>..........................] - ETA: 22s 6/31 [====>.........................] - ETA: 22s 7/31 [=====>........................] - ETA: 21s 8/31 [======>.......................] - ETA: 20s 9/31 [=======>......................] - ETA: 19s10/31 [========>.....................] - ETA: 18s11/31 [=========>....................] - ETA: 17s12/31 [==========>...................] - ETA: 16s13/31 [===========>..................] - ETA: 15s14/31 [============>.................] - ETA: 15s15/31 [=============>................] - ETA: 14s16/31 [==============>...............] - ETA: 13s17/31 [===============>..............] - ETA: 12s18/31 [================>.............] - ETA: 11s19/31 [=================>............] - ETA: 10s20/31 [==================>...........] - ETA: 9s 21/31 [===================>..........] - ETA: 8s22/31 [====================>.........] - ETA: 7s23/31 [=====================>........] - ETA: 7s24/31 [======================>.......] - ETA: 6s25/31 [=======================>......] - ETA: 5s26/31 [========================>.....] - ETA: 4s27/31 [=========================>....] - ETA: 3s28/31 [==========================>...] - ETA: 2s29/31 [===========================>..] - ETA: 1s30/31 [============================>.] - ETA: 0s31/31 [==============================] - ETA: 0s31/31 [==============================] - 27s 872ms/step
+    ✅ KerasOCR completed in 39.8s
+    📊 Progress: 112/240 (46.7%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.6s
+    📊 Progress: 113/240 (47.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.4s
+    📊 Progress: 114/240 (47.5%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.2s
+    📊 Progress: 115/240 (47.9%)
+    ⏱️  Elapsed: 1168.2s, Est. remaining: 1269.7s
+
+📄 Processing image 24/48: results/images/preprocessed/trome#2021-03-02#02_config15.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.4s
+    📊 Progress: 116/240 (48.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/32 [..............................] - ETA: 28s 2/32 [>.............................] - ETA: 25s 3/32 [=>............................] - ETA: 24s 4/32 [==>...........................] - ETA: 23s 5/32 [===>..........................] - ETA: 22s 6/32 [====>.........................] - ETA: 22s 7/32 [=====>........................] - ETA: 21s 8/32 [======>.......................] - ETA: 20s 9/32 [=======>......................] - ETA: 19s10/32 [========>.....................] - ETA: 18s11/32 [=========>....................] - ETA: 18s12/32 [==========>...................] - ETA: 17s13/32 [===========>..................] - ETA: 16s14/32 [============>.................] - ETA: 15s15/32 [=============>................] - ETA: 14s16/32 [==============>...............] - ETA: 13s17/32 [==============>...............] - ETA: 12s18/32 [===============>..............] - ETA: 11s19/32 [================>.............] - ETA: 11s20/32 [=================>............] - ETA: 10s21/32 [==================>...........] - ETA: 9s 22/32 [===================>..........] - ETA: 8s23/32 [====================>.........] - ETA: 7s24/32 [=====================>........] - ETA: 6s25/32 [======================>.......] - ETA: 6s26/32 [=======================>......] - ETA: 5s27/32 [========================>.....] - ETA: 4s28/32 [=========================>....] - ETA: 3s29/32 [==========================>...] - ETA: 2s30/32 [===========================>..] - ETA: 1s31/32 [============================>.] - ETA: 0s32/32 [==============================] - ETA: 0s32/32 [==============================] - 27s 852ms/step
+    ✅ KerasOCR completed in 40.4s
+    📊 Progress: 117/240 (48.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.3s
+    📊 Progress: 118/240 (49.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 119/240 (49.6%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.1s
+    📊 Progress: 120/240 (50.0%)
+    ⏱️  Elapsed: 1242.0s, Est. remaining: 1242.0s
+
+📄 Processing image 25/48: results/images/preprocessed/trome#2021-03-02#02_config28.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.0s
+    📊 Progress: 121/240 (50.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/26 [>.............................] - ETA: 24s 2/26 [=>............................] - ETA: 20s 3/26 [==>...........................] - ETA: 20s 4/26 [===>..........................] - ETA: 19s 5/26 [====>.........................] - ETA: 18s 6/26 [=====>........................] - ETA: 17s 7/26 [=======>......................] - ETA: 17s 8/26 [========>.....................] - ETA: 16s 9/26 [=========>....................] - ETA: 15s10/26 [==========>...................] - ETA: 14s11/26 [===========>..................] - ETA: 13s12/26 [============>.................] - ETA: 12s13/26 [==============>...............] - ETA: 11s14/26 [===============>..............] - ETA: 10s15/26 [================>.............] - ETA: 9s 16/26 [=================>............] - ETA: 8s17/26 [==================>...........] - ETA: 8s18/26 [===================>..........] - ETA: 7s19/26 [====================>.........] - ETA: 6s20/26 [======================>.......] - ETA: 5s21/26 [=======================>......] - ETA: 4s22/26 [========================>.....] - ETA: 3s23/26 [=========================>....] - ETA: 2s24/26 [==========================>...] - ETA: 1s25/26 [===========================>..] - ETA: 0s26/26 [==============================] - ETA: 0s26/26 [==============================] - 23s 892ms/step
+    ✅ KerasOCR completed in 35.2s
+    📊 Progress: 122/240 (50.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 9.8s
+    📊 Progress: 123/240 (51.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.8s
+    📊 Progress: 124/240 (51.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.7s
+    📊 Progress: 125/240 (52.1%)
+    ⏱️  Elapsed: 1312.5s, Est. remaining: 1207.5s
+
+📄 Processing image 26/48: results/images/preprocessed/trome#2021-03-02#02_config23.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.3s
+    📊 Progress: 126/240 (52.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/24 [>.............................] - ETA: 21s 2/24 [=>............................] - ETA: 18s 3/24 [==>...........................] - ETA: 18s 4/24 [====>.........................] - ETA: 17s 5/24 [=====>........................] - ETA: 16s 6/24 [======>.......................] - ETA: 15s 7/24 [=======>......................] - ETA: 15s 8/24 [=========>....................] - ETA: 14s 9/24 [==========>...................] - ETA: 13s10/24 [===========>..................] - ETA: 12s11/24 [============>.................] - ETA: 11s12/24 [==============>...............] - ETA: 10s13/24 [===============>..............] - ETA: 9s 14/24 [================>.............] - ETA: 8s15/24 [=================>............] - ETA: 8s16/24 [===================>..........] - ETA: 7s17/24 [====================>.........] - ETA: 6s18/24 [=====================>........] - ETA: 5s19/24 [======================>.......] - ETA: 4s20/24 [========================>.....] - ETA: 3s21/24 [=========================>....] - ETA: 2s22/24 [==========================>...] - ETA: 1s23/24 [===========================>..] - ETA: 0s24/24 [==============================] - ETA: 0s24/24 [==============================] - 21s 868ms/step
+    ✅ KerasOCR completed in 32.4s
+    📊 Progress: 127/240 (52.9%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.1s
+    📊 Progress: 128/240 (53.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 129/240 (53.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.8s
+    📊 Progress: 130/240 (54.2%)
+    ⏱️  Elapsed: 1378.7s, Est. remaining: 1166.6s
+
+📄 Processing image 27/48: results/images/preprocessed/trome#2021-03-02#02_config0.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 3.9s
+    📊 Progress: 131/240 (54.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+ 1/31 [..............................] - ETA: 25s 2/31 [>.............................] - ETA: 23s 3/31 [=>............................] - ETA: 23s 4/31 [==>...........................] - ETA: 22s 5/31 [===>..........................] - ETA: 21s 6/31 [====>.........................] - ETA: 20s 7/31 [=====>........................] - ETA: 20s 8/31 [======>.......................] - ETA: 19s 9/31 [=======>......................] - ETA: 18s10/31 [========>.....................] - ETA: 17s11/31 [=========>....................] - ETA: 17s12/31 [==========>...................] - ETA: 16s13/31 [===========>..................] - ETA: 15s14/31 [============>.................] - ETA: 14s15/31 [=============>................] - ETA: 13s16/31 [==============>...............] - ETA: 12s17/31 [===============>..............] - ETA: 12s18/31 [================>.............] - ETA: 11s19/31 [=================>............] - ETA: 10s20/31 [==================>...........] - ETA: 9s 21/31 [===================>..........] - ETA: 8s22/31 [====================>.........] - ETA: 7s23/31 [=====================>........] - ETA: 6s24/31 [======================>.......] - ETA: 6s25/31 [=======================>......] - ETA: 5s26/31 [========================>.....] - ETA: 4s27/31 [=========================>....] - ETA: 3s28/31 [==========================>...] - ETA: 2s29/31 [===========================>..] - ETA: 1s30/31 [============================>.] - ETA: 0s31/31 [==============================] - ETA: 0s31/31 [==============================] - 26s 841ms/step
+    ✅ KerasOCR completed in 38.4s
+    📊 Progress: 132/240 (55.0%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.2s
+    📊 Progress: 133/240 (55.4%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.5s
+    📊 Progress: 134/240 (55.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.0s
+    📊 Progress: 135/240 (56.2%)
+    ⏱️  Elapsed: 1451.7s, Est. remaining: 1129.1s
+
+📄 Processing image 28/48: results/images/preprocessed/trome#2021-03-02#02_config43.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.9s
+    📊 Progress: 136/240 (56.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 933ms/step
+    ✅ KerasOCR completed in 9.4s
+    📊 Progress: 137/240 (57.1%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 138/240 (57.5%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.3s
+    📊 Progress: 139/240 (57.9%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 5.2s
+    📊 Progress: 140/240 (58.3%)
+    ⏱️  Elapsed: 1472.5s, Est. remaining: 1051.8s
+
+📄 Processing image 29/48: results/images/preprocessed/trome#2021-03-02#02_config36.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 141/240 (58.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+    ✅ KerasOCR completed in 8.4s
+    📊 Progress: 142/240 (59.2%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 143/240 (59.6%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.4s
+    📊 Progress: 144/240 (60.0%)
+  🔍 Running docTR... (5/5)Error: NEW ERROR: 'NoneType' object is not iterable
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.2s
+    📊 Progress: 145/240 (60.4%)
+    ⏱️  Elapsed: 1489.7s, Est. remaining: 976.0s
+
+📄 Processing image 30/48: results/images/preprocessed/trome#2021-03-02#02_config34.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 146/240 (60.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+    ✅ KerasOCR completed in 8.4s
+    📊 Progress: 147/240 (61.3%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 148/240 (61.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.4s
+    📊 Progress: 149/240 (62.1%)
+  🔍 Running docTR... (5/5)
+Error: NEW ERROR: 'NoneType' object is not iterable
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.2s
+    📊 Progress: 150/240 (62.5%)
+    ⏱️  Elapsed: 1507.0s, Est. remaining: 904.2s
+
+📄 Processing image 31/48: results/images/preprocessed/trome#2021-03-02#02_config25.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.5s
+    📊 Progress: 151/240 (62.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/26 [>.............................] - ETA: 21s 2/26 [=>............................] - ETA: 20s 3/26 [==>...........................] - ETA: 20s 4/26 [===>..........................] - ETA: 20s 5/26 [====>.........................] - ETA: 19s 6/26 [=====>........................] - ETA: 18s 7/26 [=======>......................] - ETA: 17s 8/26 [========>.....................] - ETA: 16s 9/26 [=========>....................] - ETA: 15s10/26 [==========>...................] - ETA: 14s11/26 [===========>..................] - ETA: 13s12/26 [============>.................] - ETA: 12s13/26 [==============>...............] - ETA: 11s14/26 [===============>..............] - ETA: 10s15/26 [================>.............] - ETA: 9s 16/26 [=================>............] - ETA: 8s17/26 [==================>...........] - ETA: 8s18/26 [===================>..........] - ETA: 7s19/26 [====================>.........] - ETA: 6s20/26 [======================>.......] - ETA: 5s21/26 [=======================>......] - ETA: 4s22/26 [========================>.....] - ETA: 3s23/26 [=========================>....] - ETA: 2s24/26 [==========================>...] - ETA: 1s25/26 [===========================>..] - ETA: 0s26/26 [==============================] - ETA: 0s26/26 [==============================] - 23s 890ms/step
+    ✅ KerasOCR completed in 34.9s
+    📊 Progress: 152/240 (63.3%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.5s
+    📊 Progress: 153/240 (63.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 4.6s
+    📊 Progress: 154/240 (64.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.8s
+    📊 Progress: 155/240 (64.6%)
+    ⏱️  Elapsed: 1575.4s, Est. remaining: 863.9s
+
+📄 Processing image 32/48: results/images/preprocessed/trome#2021-03-02#02_config4.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.5s
+    📊 Progress: 156/240 (65.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+ 1/34 [..............................] - ETA: 29s 2/34 [>.............................] - ETA: 28s 3/34 [=>............................] - ETA: 26s 4/34 [==>...........................] - ETA: 25s 5/34 [===>..........................] - ETA: 25s 6/34 [====>.........................] - ETA: 24s 7/34 [=====>........................] - ETA: 23s 8/34 [======>.......................] - ETA: 22s 9/34 [======>.......................] - ETA: 21s10/34 [=======>......................] - ETA: 21s11/34 [========>.....................] - ETA: 20s12/34 [=========>....................] - ETA: 19s13/34 [==========>...................] - ETA: 18s14/34 [===========>..................] - ETA: 17s15/34 [============>.................] - ETA: 16s16/34 [=============>................] - ETA: 15s17/34 [==============>...............] - ETA: 14s18/34 [==============>...............] - ETA: 14s19/34 [===============>..............] - ETA: 13s20/34 [================>.............] - ETA: 12s21/34 [=================>............] - ETA: 11s22/34 [==================>...........] - ETA: 10s23/34 [===================>..........] - ETA: 9s 24/34 [====================>.........] - ETA: 8s25/34 [=====================>........] - ETA: 7s26/34 [=====================>........] - ETA: 6s27/34 [======================>.......] - ETA: 6s28/34 [=======================>......] - ETA: 5s29/34 [========================>.....] - ETA: 4s30/34 [=========================>....] - ETA: 3s31/34 [==========================>...] - ETA: 2s32/34 [===========================>..] - ETA: 1s33/34 [============================>.] - ETA: 0s34/34 [==============================] - ETA: 0s34/34 [==============================] - 29s 866ms/step
+    ✅ KerasOCR completed in 42.9s
+    📊 Progress: 157/240 (65.4%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.7s
+    📊 Progress: 158/240 (65.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.8s
+    📊 Progress: 159/240 (66.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.9s
+    📊 Progress: 160/240 (66.7%)
+    ⏱️  Elapsed: 1653.2s, Est. remaining: 826.6s
+
+📄 Processing image 33/48: results/images/preprocessed/trome#2021-03-02#02_config9.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 3.4s
+    📊 Progress: 161/240 (67.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+ 1/30 [>.............................] - ETA: 27s 2/30 [=>............................] - ETA: 23s 3/30 [==>...........................] - ETA: 22s 4/30 [===>..........................] - ETA: 21s 5/30 [====>.........................] - ETA: 20s 6/30 [=====>........................] - ETA: 19s 7/30 [======>.......................] - ETA: 18s 8/30 [=======>......................] - ETA: 17s 9/30 [========>.....................] - ETA: 17s10/30 [=========>....................] - ETA: 16s11/30 [==========>...................] - ETA: 15s12/30 [===========>..................] - ETA: 15s13/30 [============>.................] - ETA: 14s14/30 [=============>................] - ETA: 13s15/30 [==============>...............] - ETA: 12s16/30 [===============>..............] - ETA: 11s17/30 [================>.............] - ETA: 11s18/30 [=================>............] - ETA: 10s19/30 [==================>...........] - ETA: 9s 20/30 [===================>..........] - ETA: 8s21/30 [====================>.........] - ETA: 7s22/30 [=====================>........] - ETA: 6s23/30 [======================>.......] - ETA: 5s24/30 [=======================>......] - ETA: 5s25/30 [========================>.....] - ETA: 4s26/30 [=========================>....] - ETA: 3s27/30 [==========================>...] - ETA: 2s28/30 [===========================>..] - ETA: 1s29/30 [============================>.] - ETA: 0s30/30 [==============================] - ETA: 0s30/30 [==============================] - 25s 840ms/step
+    ✅ KerasOCR completed in 37.7s
+    📊 Progress: 162/240 (67.5%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 6.9s
+    📊 Progress: 163/240 (67.9%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.0s
+    📊 Progress: 164/240 (68.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.5s
+    📊 Progress: 165/240 (68.8%)
+    ⏱️  Elapsed: 1722.8s, Est. remaining: 783.1s
+
+📄 Processing image 34/48: results/images/preprocessed/trome#2021-03-02#02_config27.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.4s
+    📊 Progress: 166/240 (69.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+ 1/29 [>.............................] - ETA: 25s 2/29 [=>............................] - ETA: 24s 3/29 [==>...........................] - ETA: 23s 4/29 [===>..........................] - ETA: 21s 5/29 [====>.........................] - ETA: 20s 6/29 [=====>........................] - ETA: 20s 7/29 [======>.......................] - ETA: 19s 8/29 [=======>......................] - ETA: 18s 9/29 [========>.....................] - ETA: 17s10/29 [=========>....................] - ETA: 16s11/29 [==========>...................] - ETA: 15s12/29 [===========>..................] - ETA: 14s13/29 [============>.................] - ETA: 13s14/29 [=============>................] - ETA: 12s15/29 [==============>...............] - ETA: 12s16/29 [===============>..............] - ETA: 11s17/29 [================>.............] - ETA: 10s18/29 [=================>............] - ETA: 9s 19/29 [==================>...........] - ETA: 8s20/29 [===================>..........] - ETA: 7s21/29 [====================>.........] - ETA: 6s22/29 [=====================>........] - ETA: 6s23/29 [======================>.......] - ETA: 5s24/29 [=======================>......] - ETA: 4s25/29 [========================>.....] - ETA: 3s26/29 [=========================>....] - ETA: 2s27/29 [==========================>...] - ETA: 1s28/29 [===========================>..] - ETA: 0s29/29 [==============================] - ETA: 0s29/29 [==============================] - 25s 852ms/step
+    ✅ KerasOCR completed in 37.2s
+    📊 Progress: 167/240 (69.6%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 10.1s
+    📊 Progress: 168/240 (70.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 6.4s
+    📊 Progress: 169/240 (70.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 17.3s
+    📊 Progress: 170/240 (70.8%)
+    ⏱️  Elapsed: 1799.1s, Est. remaining: 740.8s
+
+📄 Processing image 35/48: results/images/preprocessed/trome#2021-03-02#02_config11.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.4s
+    📊 Progress: 171/240 (71.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+ 1/32 [..............................] - ETA: 28s 2/32 [>.............................] - ETA: 25s 3/32 [=>............................] - ETA: 24s 4/32 [==>...........................] - ETA: 23s 5/32 [===>..........................] - ETA: 22s 6/32 [====>.........................] - ETA: 21s 7/32 [=====>........................] - ETA: 21s 8/32 [======>.......................] - ETA: 20s 9/32 [=======>......................] - ETA: 19s10/32 [========>.....................] - ETA: 18s11/32 [=========>....................] - ETA: 17s12/32 [==========>...................] - ETA: 17s13/32 [===========>..................] - ETA: 16s14/32 [============>.................] - ETA: 15s15/32 [=============>................] - ETA: 14s16/32 [==============>...............] - ETA: 13s17/32 [==============>...............] - ETA: 13s18/32 [===============>..............] - ETA: 12s19/32 [================>.............] - ETA: 11s20/32 [=================>............] - ETA: 10s21/32 [==================>...........] - ETA: 9s 22/32 [===================>..........] - ETA: 8s23/32 [====================>.........] - ETA: 7s24/32 [=====================>........] - ETA: 6s25/32 [======================>.......] - ETA: 6s26/32 [=======================>......] - ETA: 5s27/32 [========================>.....] - ETA: 4s28/32 [=========================>....] - ETA: 3s29/32 [==========================>...] - ETA: 2s30/32 [===========================>..] - ETA: 1s31/32 [============================>.] - ETA: 0s32/32 [==============================] - ETA: 0s32/32 [==============================] - 27s 856ms/step
+    ✅ KerasOCR completed in 40.0s
+    📊 Progress: 172/240 (71.7%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.1s
+    📊 Progress: 173/240 (72.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.6s
+    📊 Progress: 174/240 (72.5%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.4s
+    📊 Progress: 175/240 (72.9%)
+    ⏱️  Elapsed: 1872.6s, Est. remaining: 695.5s
+
+📄 Processing image 36/48: results/images/preprocessed/trome#2021-03-02#02_config32.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 176/240 (73.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+    ✅ KerasOCR completed in 8.4s
+    📊 Progress: 177/240 (73.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 178/240 (74.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.6s
+Error: NEW ERROR: 'NoneType' object is not iterable
+    📊 Progress: 179/240 (74.6%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.1s
+    📊 Progress: 180/240 (75.0%)
+    ⏱️  Elapsed: 1889.9s, Est. remaining: 630.0s
+
+📄 Processing image 37/48: results/images/preprocessed/trome#2021-03-02#02_config44.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.9s
+    📊 Progress: 181/240 (75.4%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 819ms/step
+    ✅ KerasOCR completed in 9.2s
+    📊 Progress: 182/240 (75.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.8s
+    📊 Progress: 183/240 (76.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.9s
+    📊 Progress: 184/240 (76.7%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 5.1s
+    📊 Progress: 185/240 (77.1%)
+    ⏱️  Elapsed: 1909.9s, Est. remaining: 567.8s
+
+📄 Processing image 38/48: results/images/preprocessed/trome#2021-03-02#02_config40.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.9s
+    📊 Progress: 186/240 (77.5%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+1/2 [==============>...............] - ETA: 0s2/2 [==============================] - ETA: 0s2/2 [==============================] - 1s 341ms/step
+    ✅ KerasOCR completed in 9.9s
+    📊 Progress: 187/240 (77.9%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 188/240 (78.3%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.7s
+    📊 Progress: 189/240 (78.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.8s
+    📊 Progress: 190/240 (79.2%)
+    ⏱️  Elapsed: 1930.1s, Est. remaining: 507.9s
+
+📄 Processing image 39/48: results/images/preprocessed/trome#2021-03-02#02_config20.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 3.9s
+    📊 Progress: 191/240 (79.6%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/17 [>.............................] - ETA: 13s 2/17 [==>...........................] - ETA: 13s 3/17 [====>.........................] - ETA: 12s 4/17 [======>.......................] - ETA: 11s 5/17 [=======>......................] - ETA: 10s 6/17 [=========>....................] - ETA: 9s  7/17 [===========>..................] - ETA: 8s 8/17 [=============>................] - ETA: 8s 9/17 [==============>...............] - ETA: 7s10/17 [================>.............] - ETA: 6s11/17 [==================>...........] - ETA: 5s12/17 [====================>.........] - ETA: 4s13/17 [=====================>........] - ETA: 3s14/17 [=======================>......] - ETA: 2s15/17 [=========================>....] - ETA: 1s16/17 [===========================>..] - ETA: 0s17/17 [==============================] - ETA: 0s17/17 [==============================] - 14s 850ms/step
+    ✅ KerasOCR completed in 31.1s
+    📊 Progress: 192/240 (80.0%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 4.6s
+    📊 Progress: 193/240 (80.4%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 3.4s
+    📊 Progress: 194/240 (80.8%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.1s
+    📊 Progress: 195/240 (81.2%)
+    ⏱️  Elapsed: 1988.2s, Est. remaining: 458.8s
+
+📄 Processing image 40/48: results/images/preprocessed/trome#2021-03-02#02_config19.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.3s
+    📊 Progress: 196/240 (81.7%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/24 [>.............................] - ETA: 20s 2/24 [=>............................] - ETA: 19s 3/24 [==>...........................] - ETA: 18s 4/24 [====>.........................] - ETA: 17s 5/24 [=====>........................] - ETA: 16s 6/24 [======>.......................] - ETA: 15s 7/24 [=======>......................] - ETA: 14s 8/24 [=========>....................] - ETA: 13s 9/24 [==========>...................] - ETA: 12s10/24 [===========>..................] - ETA: 12s11/24 [============>.................] - ETA: 11s12/24 [==============>...............] - ETA: 10s13/24 [===============>..............] - ETA: 9s 14/24 [================>.............] - ETA: 8s15/24 [=================>............] - ETA: 7s16/24 [===================>..........] - ETA: 6s17/24 [====================>.........] - ETA: 6s18/24 [=====================>........] - ETA: 5s19/24 [======================>.......] - ETA: 4s20/24 [========================>.....] - ETA: 3s21/24 [=========================>....] - ETA: 2s22/24 [==========================>...] - ETA: 1s23/24 [===========================>..] - ETA: 0s24/24 [==============================] - ETA: 0s24/24 [==============================] - 20s 838ms/step
+    ✅ KerasOCR completed in 31.5s
+    📊 Progress: 197/240 (82.1%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.3s
+    📊 Progress: 198/240 (82.5%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.2s
+    📊 Progress: 199/240 (82.9%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.5s
+    📊 Progress: 200/240 (83.3%)
+    ⏱️  Elapsed: 2055.1s, Est. remaining: 411.0s
+
+📄 Processing image 41/48: results/images/preprocessed/trome#2021-03-02#02_config38.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 201/240 (83.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@2064.467] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.4s
+    📊 Progress: 202/240 (84.2%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@2066.947] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.6s
+    📊 Progress: 203/240 (84.6%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Error: NEW ERROR: 'NoneType' object is not iterable
+    ✅ PaddleOCR completed in 1.6s
+    📊 Progress: 204/240 (85.0%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@2071.903] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.2s
+    📊 Progress: 205/240 (85.4%)Error: COMMON ERROR: unable to read file.
+
+    ⏱️  Elapsed: 2065.6s, Est. remaining: 352.7s
+
+📄 Processing image 42/48: results/images/preprocessed/trome#2021-03-02#02_config37.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 206/240 (85.8%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+    ✅ KerasOCR completed in 8.5s
+    📊 Progress: 207/240 (86.2%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.7s
+    📊 Progress: 208/240 (86.7%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.7s
+    📊 Progress: 209/240 (87.1%)
+  🔍 Running docTR... (5/5)
+Error: NEW ERROR: 'NoneType' object is not iterable
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.1s
+    📊 Progress: 210/240 (87.5%)
+    ⏱️  Elapsed: 2083.2s, Est. remaining: 297.6s
+
+📄 Processing image 43/48: results/images/preprocessed/trome#2021-03-02#02_config47.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.9s
+    📊 Progress: 211/240 (87.9%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 862ms/step
+    ✅ KerasOCR completed in 9.6s
+    📊 Progress: 212/240 (88.3%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 3.1s
+    📊 Progress: 213/240 (88.8%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 2.1s
+    📊 Progress: 214/240 (89.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.9s
+    📊 Progress: 215/240 (89.6%)
+    ⏱️  Elapsed: 2103.8s, Est. remaining: 244.6s
+
+📄 Processing image 44/48: results/images/preprocessed/trome#2021-03-02#02_config22.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.6s
+    📊 Progress: 216/240 (90.0%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+[ WARN:0@2113.068] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ KerasOCR completed in 2.3s
+    📊 Progress: 217/240 (90.4%)
+  🔍 Running EasyOCR... (3/5)
+Error: NEW ERROR: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@2115.535] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ EasyOCR completed in 2.6s
+Error: NEW ERROR: 'NoneType' object has no attribute 'shape'    📊 Progress: 218/240 (90.8%)
+  🔍 Running PaddleOCR... (4/5)
+
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.9s
+    📊 Progress: 219/240 (91.2%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+[ WARN:0@2120.664] global /io/opencv/modules/imgcodecs/src/grfmt_tiff.cpp (629) readData OpenCV TIFF: TIFFRGBAImageOK: Sorry, can not handle images with 32-bit samples
+    ✅ docTR completed in 3.1s
+    📊 Progress: 220/240 (91.7%)
+    ⏱️  Elapsed: 2114.3s, Est. remaining: 192.2s
+
+📄 Processing image 45/48: results/images/preprocessed/trome#2021-03-02#02_config5.tiff
+  🔍 Running TesseractOCR... (1/5)
+Error: COMMON ERROR: unable to read file.
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 4.3s
+    📊 Progress: 221/240 (92.1%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/33 [..............................] - ETA: 27s 2/33 [>.............................] - ETA: 26s 3/33 [=>............................] - ETA: 25s 4/33 [==>...........................] - ETA: 24s 5/33 [===>..........................] - ETA: 23s 6/33 [====>.........................] - ETA: 22s 7/33 [=====>........................] - ETA: 21s 8/33 [======>.......................] - ETA: 21s 9/33 [=======>......................] - ETA: 20s10/33 [========>.....................] - ETA: 19s11/33 [=========>....................] - ETA: 18s12/33 [=========>....................] - ETA: 17s13/33 [==========>...................] - ETA: 16s14/33 [===========>..................] - ETA: 16s15/33 [============>.................] - ETA: 15s16/33 [=============>................] - ETA: 14s17/33 [==============>...............] - ETA: 13s18/33 [===============>..............] - ETA: 12s19/33 [================>.............] - ETA: 11s20/33 [=================>............] - ETA: 11s21/33 [==================>...........] - ETA: 10s22/33 [===================>..........] - ETA: 9s 23/33 [===================>..........] - ETA: 8s24/33 [====================>.........] - ETA: 7s25/33 [=====================>........] - ETA: 6s26/33 [======================>.......] - ETA: 5s27/33 [=======================>......] - ETA: 5s28/33 [========================>.....] - ETA: 4s29/33 [=========================>....] - ETA: 3s30/33 [==========================>...] - ETA: 2s31/33 [===========================>..] - ETA: 1s32/33 [============================>.] - ETA: 0s33/33 [==============================] - ETA: 0s33/33 [==============================] - 28s 834ms/step
+    ✅ KerasOCR completed in 40.4s
+    📊 Progress: 222/240 (92.5%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 7.5s
+    📊 Progress: 223/240 (92.9%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 4.8s
+    📊 Progress: 224/240 (93.3%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 16.3s
+    📊 Progress: 225/240 (93.8%)
+    ⏱️  Elapsed: 2187.7s, Est. remaining: 145.8s
+
+📄 Processing image 46/48: results/images/preprocessed/trome#2021-03-02#02_config10.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 5.6s
+    📊 Progress: 226/240 (94.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+ 1/31 [..............................] - ETA: 27s 2/31 [>.............................] - ETA: 23s 3/31 [=>............................] - ETA: 23s 4/31 [==>...........................] - ETA: 23s 5/31 [===>..........................] - ETA: 22s 6/31 [====>.........................] - ETA: 21s 7/31 [=====>........................] - ETA: 21s 8/31 [======>.......................] - ETA: 20s 9/31 [=======>......................] - ETA: 19s10/31 [========>.....................] - ETA: 18s11/31 [=========>....................] - ETA: 17s12/31 [==========>...................] - ETA: 16s13/31 [===========>..................] - ETA: 15s14/31 [============>.................] - ETA: 14s15/31 [=============>................] - ETA: 13s16/31 [==============>...............] - ETA: 13s17/31 [===============>..............] - ETA: 12s18/31 [================>.............] - ETA: 11s19/31 [=================>............] - ETA: 10s20/31 [==================>...........] - ETA: 9s 21/31 [===================>..........] - ETA: 8s22/31 [====================>.........] - ETA: 7s23/31 [=====================>........] - ETA: 6s24/31 [======================>.......] - ETA: 6s25/31 [=======================>......] - ETA: 5s26/31 [========================>.....] - ETA: 4s27/31 [=========================>....] - ETA: 3s28/31 [==========================>...] - ETA: 2s29/31 [===========================>..] - ETA: 1s30/31 [============================>.] - ETA: 0s31/31 [==============================] - ETA: 0s31/31 [==============================] - 26s 844ms/step
+    ✅ KerasOCR completed in 53.6s
+    📊 Progress: 227/240 (94.6%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 8.3s
+    📊 Progress: 228/240 (95.0%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 5.3s
+    📊 Progress: 229/240 (95.4%)
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 15.5s
+    📊 Progress: 230/240 (95.8%)
+    ⏱️  Elapsed: 2276.0s, Est. remaining: 99.0s
+
+📄 Processing image 47/48: results/images/preprocessed/trome#2021-03-02#02_config33.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 231/240 (96.2%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+    ✅ KerasOCR completed in 8.4s
+    📊 Progress: 232/240 (96.7%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 233/240 (97.1%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.6s
+    📊 Progress: 234/240 (97.5%)
+  🔍 Running docTR... (5/5)
+Error: NEW ERROR: 'NoneType' object is not iterable
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.6s
+    📊 Progress: 235/240 (97.9%)
+    ⏱️  Elapsed: 2294.1s, Est. remaining: 48.8s
+
+📄 Processing image 48/48: results/images/preprocessed/trome#2021-03-02#02_config39.tiff
+  🔍 Running TesseractOCR... (1/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ TesseractOCR completed in 0.7s
+    📊 Progress: 236/240 (98.3%)
+  🔍 Running KerasOCR... (2/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+Looking for /home/azimuth/.keras-ocr/craft_mlt_25k.h5
+Looking for /home/azimuth/.keras-ocr/crnn_kurapan.h5
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 6s 6s/step
+    ✅ KerasOCR completed in 8.3s
+    📊 Progress: 237/240 (98.8%)
+  🔍 Running EasyOCR... (3/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ EasyOCR completed in 2.9s
+    📊 Progress: 238/240 (99.2%)
+  🔍 Running PaddleOCR... (4/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ PaddleOCR completed in 1.6sError: NEW ERROR: 'NoneType' object is not iterable
+    📊 Progress: 239/240 (99.6%)
+
+  🔍 Running docTR... (5/5)
+GPU Memory - Total: 79.3GB, Free: 81133MB, Required: 2048MB
+✓ Enough GPU memory available
+    ✅ docTR completed in 4.0s
+    📊 Progress: 240/240 (100.0%)
+    ⏱️  Elapsed: 2311.6s, Est. remaining: 0.0s
+
+🎉 All processing completed!
+Total time: 2311.6s
+Average time per task: 9.6s
+
+============================================================
+PROCESSING SUMMARY
+============================================================
+Total time: 2311.65 seconds
+Processing log saved to: ./results/txt/extracted/ocr_results_log.txt
+============================================================

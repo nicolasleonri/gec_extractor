@@ -173,7 +173,7 @@ class VLMProcessor:
                     ]
                     output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=True)
                     output_text = output_text[0] if output_text else ""
-                    print(output_text)
+                    # print(output_text)
                 else:
                     messages = [
                         {"role": "system", "content": "You are a helpful assistant."},
@@ -187,12 +187,12 @@ class VLMProcessor:
                     inputs = self.processor(text=[text], images=[image], padding=True, return_tensors="pt")
                     inputs = inputs.to(self.model.device)
                     
-                    output_ids = self.model.generate(**inputs, max_new_tokens=50000, do_sample=False, temperature=0.1)
+                    output_ids = self.model.generate(**inputs, max_new_tokens=30000, do_sample=False, temperature=0.1)
                     generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
 
                     output_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
                     output_text = output_text[0] if output_text else ""
-                    print(output_text)
+                    # print(output_text)
             return output_text
         
         except Exception as e:
@@ -870,12 +870,12 @@ def main() -> None:
 
     models = {
         "reducto/RolmOCR": "rolmocr",
-        # "phi4:latest": "phi4",
+        "phi4:latest": "phi4",
         "nanonets/Nanonets-OCR-s": "nanonets",
-        # "llama4:latest": "llama4",
-        # "gemma3:27b": "gemma3",
-        # "deepseek-r1:32b": "deepseek-r1",
-        # "magistral:24b": "magistral",
+        "llama4:latest": "llama4",
+        "gemma3:27b": "gemma3",
+        "deepseek-r1:32b": "deepseek-r1",
+        "magistral:24b": "magistral",
     }
     
     print("Starting multithreaded LLM postprocessing...")
