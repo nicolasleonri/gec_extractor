@@ -13,6 +13,7 @@ License: GPL
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from utils_postprocessing import parse_ocr_results, extract_filename_and_config, log_processing_info, parse_image_results
 from ollama import chat, ChatResponse
+from qwen_vl_utils import process_vision_info
 import multiprocessing as mp
 from csv import DictReader
 from io import StringIO
@@ -75,18 +76,28 @@ class VLMProcessor:
         """Load the VLM model and processor"""
         try:
             print(f"Loading {self.model_name}")
-            self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
-            self.model = AutoModelForImageTextToText.from_pretrained(
-                self.model_name,
-                torch_dtype="auto",
-                low_cpu_mem_usage=True,
-                attn_implementation="flash_attention_2"
-            )
-            self.model.tie_weights()
-            self.model = self.model.to("cuda")  # or .half() if using FP16
+            if self.model_name == "reducto/RolmOCR":
+                # Special loading for RolmOCR
+                self.device = torch.device("cuda")
+                self.model = AutoModelForImageTextToText.from_pretrained(
+                    "reducto/RolmOCR",
+                    torch_dtype="auto", 
+                    device_map="auto",
+                    trust_remote_code=True)
+                self.processor = AutoProcessor.from_pretrained("reducto/RolmOCR", trust_remote_code=True, use_fast=True, device_map="auto")
+            else:
+                self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
+                self.model = AutoModelForImageTextToText.from_pretrained(
+                    self.model_name,
+                    torch_dtype="auto",
+                    low_cpu_mem_usage=True,
+                    attn_implementation="flash_attention_2"
+                )
+                self.model.tie_weights()
+                self.model = self.model.to("cuda")  # or .half() if using FP16
 
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, use_fast=True)
-            self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
+                self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, use_fast=True)
+                self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
 
             print(f"Successfully loaded {self.model_name}")
         except Exception as e:
@@ -107,43 +118,82 @@ class VLMProcessor:
             # Create the prompt similar to the LLM version
             prompt = """
             GOAL: Given the image, extract and structure the following information:
-            - headline of the article: string or NA
-            - subheadline of the article: string or NA
-            - author of the article:: string or NA
-            - content of the article:: string
+            - headline of the article (string or "NA")
+            - subheadline of the article (string or "NA")
+            - author of the article (string or "NA")
+            - content of the article (string)
 
-            Focus on extracting articles (small or long) with actual information. Exclude any brief news items like: date, weather, public announcements, or other short notices that do not contain substantial content. Ask yourself if the content is relevant for media and discourse anaylisis. If any field is missing or unavailable, use "NA" for its value.
+            IMPORTANT:
+            - Focus only on articles that contain meaningful journalistic content.
+            - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
+            - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
+            - If any field is missing or unknown, write "NA".
 
-            RETURN FORMAT: Format the output strictly as a CSV like the following example:
+            RETURN FORMAT:
+            Strictly output a valid CSV in the following format:
             "headline";"subheadline";"author";"content"
-            "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
-            "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
-
-            WARNING: Only return the CSV exactly as specified. Do not add any explanation or commentary.
-            WARNING: Avoid CSV parsing errors like empty or malformed outputs. After the header, each row should contain the extracted information for one article, with fields separated by semicolons and declared in quotation marks.
-
-            CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text. If you fail in this task, you will lose your job and your family will be very disappointed in you.
-            """ 
+            "City Council Approves New Budget";"Property taxes to increase 3% next year";"By Jennifer Martinez";"The city council voted 7-2 last night to approve a $2.3 million budget that includes a 3% property tax increase.  The measure passed despite strong opposition from residents who packed the council chambers."
+            "Local Restaurant Wins State Award";"NA";"Food Staff";"Mario's Italian Kitchen received the prestigious Golden Plate award from the State Restaurant Association yesterday.  Owner Mario Rossi said he was honored by the recognition."
             
+            RULES:
+            - Do NOT include explanations, extra text, or commentary.
+            - Enclose each field in double quotes.
+            - Use semicolons (`;`) as field separators.
+            - Do NOT insert semicolons inside fields. If needed, replace them with commas.
+            - Each row represents one article. The first row must always be the CSV header.
+
+            CONTEXT:
+            You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
+            """
             # Process the image with thread safety
             with self._model_lock:
-                messages = [
-                    {"role": "system", "content": "You are a helpful assistant."},
-                    {"role": "user", "content": [
-                        {"type": "image", "image": f"file://{image_path}"},
-                        {"type": "text", "text": prompt},
-                    ]},
-                ]
+                if self.model_name == "reducto/RolmOCR":
+                    messages = [
+                    {
+                        "role": "system",
+                        "content": [
+                            {"type": "image", "image": f"file://{image_path}"},
+                            {"type": "text", "text": prompt},
+                        ],
+                    },
+                    ]
+                    text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                    image_inputs, video_inputs = process_vision_info(messages)
+                    inputs = self.processor(
+                        text=[text],
+                        images=image_inputs,
+                        videos=video_inputs,
+                        padding=True,
+                        return_tensors="pt",
+                    )
+                    inputs = inputs.to("cuda")
+                    generated_ids = self.model.generate(**inputs, max_new_tokens=50000, do_sample=False, temperature=0.1)
+                    generated_ids_trimmed = [
+                        out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+                    ]
+                    output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+                    output_text = output_text[0] if output_text else ""
+                    print(output_text)
+                else:
+                    messages = [
+                        {"role": "system", "content": "You are a helpful assistant."},
+                        {"role": "user", "content": [
+                            {"type": "image", "image": f"file://{image_path}"},
+                            {"type": "text", "text": prompt},
+                        ]},
+                    ]
 
-                text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-                inputs = self.processor(text=[text], images=[image], padding=True, return_tensors="pt")
-                inputs = inputs.to(self.model.device)
-                
-                output_ids = self.model.generate(**inputs, max_new_tokens=30000, do_sample=False, temperature=0.1)
-                generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
+                    text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                    inputs = self.processor(text=[text], images=[image], padding=True, return_tensors="pt")
+                    inputs = inputs.to(self.model.device)
+                    
+                    output_ids = self.model.generate(**inputs, max_new_tokens=50000, do_sample=False, temperature=0.1)
+                    generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
 
-                output_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
-            return output_text[0] if output_text else ""
+                    output_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
+                    output_text = output_text[0] if output_text else ""
+                    print(output_text)
+            return output_text
         
         except Exception as e:
             print(f"Error processing image {image_path}: {e}")
@@ -176,7 +226,7 @@ class ollama:
             model=self.model_name, 
             messages=[{"role": "system", "content": prompt},
                       {"role": "user", "content": question}],
-            options={"temperature": 0.1},
+            options={"temperature": 0.1, "num_ctx": 30000},
         )
         response = response['message']['content']
         return response
@@ -192,79 +242,127 @@ class ollama:
         """
 
         #TODO: Try different prompts in different languages
+        # prompt = """
+        # GOAL: Given the image, extract and structure the following information:
+        # - headline of the article (string or "NA")
+        # - subheadline of the article (string or "NA")
+        # - author of the article (string or "NA")
+        # - content of the article (string)
+
+        # IMPORTANT:
+        # - Focus only on articles that contain meaningful journalistic content.
+        # - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
+        # - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
+        # - If any field is missing or unknown, write "NA".
+
+        # RETURN FORMAT:
+        # Strictly output a valid CSV in the following format:
+        # "headline";"subheadline";"author";"content"
+        # "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
+        # "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
+
+        # RULES:
+        # - Do NOT include explanations, extra text, or commentary.
+        # - Enclose each field in double quotes.
+        # - Use semicolons (`;`) as field separators.
+        # - Do NOT insert semicolons inside fields. If needed, replace them with commas.
+        # - Each row represents one article. The first row must always be the CSV header.
+
+        # CONTEXT:
+        # You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
+        # """
+
         prompt = """
-        GOAL: Given the raw text output from an OCR-Engine, extract and structure the following information:
-        - headline of the article: string or NA
-        - subheadline of the article: string or NA
-        - author of the article:: string or NA
-        - content of the article:: string
+        OBJECTIVE: Extract structured information from newspaper images and output as semicolon-delimited CSV format.
+        
+        REQUIRED FIELDS:
+        Extract the following information for each article:
+            - headline: Main title of the article
+            - subheadline: Secondary title/subtitle (if present)
+            - author: Article author/byline
+            - content: Full article text content
+        
+        CONTENT FILTERING RULES:
+        INCLUDE only articles with substantial journalistic content:
+        - News articles, opinion pieces, feature stories
+        - Interviews, analysis, commentary
+        - Sports coverage, entertainment reviews
+        - Editorial content
+        EXCLUDE the following:
+        - Advertisements and promotional content
+        - Weather reports and brief announcements
+        - Date headers, page numbers, mastheads
+        - Photo captions standing alone
+        - Directory listings, TV schedules
+        - Content under 50 words (unless significant news)
+        
+        QUALITY TEST: Ask yourself: "Would this content be valuable for media analysis or research?" If no, exclude it.
 
-        Focus on extracting articles (small or long) with actual information. Exclude any brief news items like: date, weather, public announcements, or other short notices that do not contain substantial content. Ask yourself if the content is relevant for media and discourse anaylisis. If any field is missing or unavailable, use "NA" for its value.
+        LANGUAGE HANDLING:
+        - Extract all text in its original language (Spanish)
+        - Do NOT translate any content
+        - Preserve original spelling, accents, and punctuation exactly
 
-        RETURN FORMAT: Format the output strictly as a pythonic dictionary with keys and values like the following example:
+        DATA EXTRACTION GUIDELINES:
+        Headlines
+        - Extract the primary headline exactly as written
+        - Include punctuation and capitalization as shown
+        - If multiple headlines exist, prioritize the largest/most prominent
+        Subheadlines
+        - Include deck, kicker, or secondary headline text
+        - Exclude taglines that are clearly publication branding
+        Authors
+        - Include full byline as written (e.g., "By Sarah Johnson" or "Staff Reporter")
+        - For multiple authors, separate with commas: "John Smith, Jane Doe"
+        - Include titles if part of byline: "Dr. Maria Rodriguez, Chief Medical Correspondent"
+        Content
+        - Extract complete article text in reading order
+        - Preserve paragraph structure by using double spaces between paragraphs
+        - Remove hyphenation at line breaks (join "in-\ncredible" as "incredible")
+        - Exclude photo captions, pull quotes, and sidebar content
+        - If article continues elsewhere, note as: "[Article continues on page X]"
+
+        OUTPUT FORMAT:
+        CSV Structure
         "headline";"subheadline";"author";"content"
-        "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
-        "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
+        "Article Title Here";"Optional Subtitle";"Reporter Name";"Full article text goes here..."
+        
+        Formatting Rules
+        - Use semicolons (;) as field separators
+        - Enclose ALL fields in double quotes
+        - Replace any semicolons within content with commas
+        - Replace line breaks within fields with double spaces
+        - Use "NA" for missing information
+        - First row must be the header row exactly as shown above
+        
+        Data Validation
+        
+        Before outputting, verify:
+        - Each row has exactly 4 fields
+        - No unescaped quotes within fields
+        - No semicolons within field content
+        - Header row is properly formatted
 
-        WARNING: Only return the CSV exactly as specified. Do not add any explanation or commentary.
-        WARNING: Avoid CSV parsing errors like empty or malformed outputs. After the header, each row should contain the extracted information for one article, with fields separated by semicolons and declared in quotation marks.
+        EXAMPLE OUTPUT:
+        "headline";"subheadline";"author";"content"
+        "City Council Approves New Budget";"Property taxes to increase 3% next year";"By Jennifer Martinez";"The city council voted 7-2 last night to approve a $2.3 million budget that includes a 3% property tax increase.  The measure passed despite strong opposition from residents who packed the council chambers."
+        "Local Restaurant Wins State Award";"NA";"Food Staff";"Mario's Italian Kitchen received the prestigious Golden Plate award from the State Restaurant Association yesterday.  Owner Mario Rossi said he was honored by the recognition."
 
-        CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text. If you fail in this task, you will lose your job and your family will be very disappointed in you.
-        """ 
+        QUALITY STANDARDS:
+        - Accuracy: Extract text exactly as written, preserving original spelling and punctuation
+        - Completeness: Don't truncate content unless it's clearly continued elsewhere
+        - Consistency: Apply the same standards to all articles in the image
+        - Precision: When in doubt about inclusion, err on the side of excluding marginal content
 
-        response = self.chat_completion(prompt, ocr_text)
+        ERROR PREVENTION:
+        - Double-check quote escaping in CSV output
+        - Verify semicolon replacement within content
+        - Ensure header row format matches exactly
+        - Confirm each article meets inclusion criteria before processing
 
-        return response
-
-    def extract_test_results_as_json(self, ocr_text: str) -> str:
-        """Uses an LLM to extract OCR content into a structured JSON string.
-
-        Args:
-            ocr_text (str): Raw OCR text.
-
-        Returns:
-            str: JSON string with article metadata and content.
+        IMPORTANT: Output ONLY the CSV data with no additional text, explanations, or commentary. The CSV must be valid and ready for immediate import into analysis tools.
         """
-
-        prompt = """
-        CONTEXT: You are an expert in analyzing extracted newspaper content. Your task is to carefully extract articles and brief news items from the provided text.
-
-        TASK: Given the extracted content, please extract and structure the following information into a JSON object containing only:
-
-        - articles: a list of article objects, each with:
-            - headline (string)
-            - subheadline (string or null)
-            - byline (string or null)
-            - content (string)
-
-        Focus on extracting articles (small or long) with actual information. Exclude any brief news items like: date, weather, public announcements, or other short notices that do not contain substantial content.
-
-        If any field is missing or unavailable, use null for its value.
-
-        Format the output strictly as a JSON object like the example below.
-
-        EXAMPLE:
-        {
-        "articles": [
-            {
-            "headline": "El loco del martillo",
-            "subheadline": "La Seño María",
-            "byline": null,
-            "content": "Full article content here..."
-            },
-            {
-            "headline": "Contento por fin de cuarentena",
-            "subheadline": "Habla Trome",
-            "byline": "Ismael Lazo, Vecino de San Luis",
-            "content": "Brief news content here..."
-            }
-            // More articles and briefs...
-        ]
-        }
-
-        IMPORTANT: Only return the JSON object exactly as specified. Do not add any explanation or commentary.
-        IMPORTANT: Avoid JSON parsing errors like empty or malformed outputs.
-        """
+        
         response = self.chat_completion(prompt, ocr_text)
 
         return response
@@ -771,7 +869,8 @@ def main() -> None:
         os.remove(log_file_path)
 
     models = {
-        "phi4:latest": "phi4",
+        "reducto/RolmOCR": "rolmocr",
+        # "phi4:latest": "phi4",
         "nanonets/Nanonets-OCR-s": "nanonets",
         # "llama4:latest": "llama4",
         # "gemma3:27b": "gemma3",

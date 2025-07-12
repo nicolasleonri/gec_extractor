@@ -25,7 +25,10 @@ rgb_image = image.convert("RGB")
 base64_png = image_to_base64png(rgb_image)
 
 # Initialize the model
-model = Qwen2VLForConditionalGeneration.from_pretrained("allenai/olmOCR-7B-0225-preview", torch_dtype=torch.bfloat16).eval()
+model = Qwen2VLForConditionalGeneration.from_pretrained(
+    "allenai/olmOCR-7B-0225-preview", 
+    torch_dtype=torch.bfloat16,
+    attn_implementation="flash_attention_2").eval()
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct", use_fast=True)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
@@ -56,10 +59,10 @@ inputs = {key: value.to(device) for (key, value) in inputs.items()}
 # Generate the output
 output = model.generate(
             **inputs,
-            temperature=0.8,
-            max_new_tokens=100000,
+            temperature=0.1,
+            max_new_tokens=30000,
             num_return_sequences=1,
-            do_sample=True,
+            do_sample=False,
         )
 
 # Decode the output
