@@ -46,7 +46,20 @@ do
     BASE=$(basename "${arr[$index]}")
     LOG_FILE="$SCRIPT_DIR/logs/"$BASE"_$TODAY.out"
 
-    python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
+    if [[ "${arr2[$index]}" == *"postprocess.py" ]]; then
+        echo "Running postprocess.py (default)"
+        python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
+
+        echo "Running postprocess.py with --employ-vlms"
+        python3 -u "${arr2[$index]}" --employ-vlms >> "$LOG_FILE" 2>&1
+
+        echo "Running postprocess.py with --process-vlms-outputs"
+        python3 -u "${arr2[$index]}" --process-vlms-outputs >> "$LOG_FILE" 2>&1
+    else
+        python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
+    fi
+
+    # python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
 
     ((index++))
     deactivate 
