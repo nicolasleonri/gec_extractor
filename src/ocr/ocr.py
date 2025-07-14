@@ -18,6 +18,7 @@ from typing import Callable, Dict, List, Union
 from doctr.models import ocr_predictor
 from utils_ocr import get_image_files, wait_for_gpu_memory
 from doctr.io import DocumentFile
+from tempfile import NamedTemporaryFile
 from paddleocr import PaddleOCR
 import multiprocessing as mp
 from typing import Union
@@ -147,10 +148,33 @@ class PaddlePaddle:
         torch.cuda.empty_cache()
         wait_for_gpu_memory()
 
-        ocr = PaddleOCR(use_angle_cls=True, lang='es',
-                        use_gpu=True, show_log=False)
-        result = ocr.ocr(image, cls=True, det=True, rec=True)
+        ocr = PaddleOCR(
+            text_detection_model_name="PP-OCRv5_server_det",
+            text_recognition_model_name="latin_PP-OCRv5_mobile_rec",
+            use_doc_orientation_classify=False, 
+            use_doc_unwarping=False, 
+            use_textline_orientation=True, 
+            lang='es')
+        
+        # Handle TIFF conversion if image is a path
+        temp_path = None
+        if isinstance(image, str) and image.lower().endswith(".tiff"):
+            with Image.open(image) as img:
+                img = img.convert("RGB")
+                with NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+                    img.save(tmp.name)
+                    temp_path = tmp.name
+                    image = temp_path
+                    print(temp_path)
+
+
+        result = ocr.predict(image)
         output = [j[1][0] for i in result for j in i]
+
+        # Clean up temp image
+        if temp_path and os.path.exists(temp_path):
+            os.remove(temp_path)
+
         return " ".join(output)
 
 

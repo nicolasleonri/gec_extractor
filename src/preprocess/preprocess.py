@@ -33,6 +33,11 @@ import gc
 class Binarization:
     """Provides several binarization methods for thresholding grayscale images."""
     @staticmethod
+    def none(image: ndarray) -> ndarray:
+        gray = to_grayscale(image)
+        return gray
+    
+    @staticmethod
     def basic(image: ndarray) -> ndarray:
         """Applies basic binary thresholding.
 
@@ -351,6 +356,10 @@ class SkewCorrection:
 
 
 class NoiseRemoval:
+    @staticmethod
+    def none(image: ndarray) -> ndarray:
+        return image
+
     """Provides multiple filtering techniques to reduce noise in document images."""
     @staticmethod
     def mean_filter(image: ndarray, kernel_size: int = 3) -> ndarray:
@@ -958,9 +967,9 @@ def main() -> None:
     # binarization_methods = ["basic", "otsu"]
     # noise_removal_methods = ["mean_filter", "gaussian_filter"]
 
-    binarization_methods = ["basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+    binarization_methods = ["none", "basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
     # skew_correction_methods = ["boxes", "hough_transform", "topline", "scanline", "moments"]
-    noise_removal_methods = ["mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
+    noise_removal_methods = ["none", "mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
 
     # Generate all possible configurations
     configurations = [

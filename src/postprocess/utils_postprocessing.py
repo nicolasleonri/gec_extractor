@@ -3,10 +3,27 @@ import os
 from collections import defaultdict
 from typing import Dict, List, Any
 import glob
+import io
+import base64
+
+
+def image_to_base64png(img):
+    buffered = io.BytesIO()
+    img.save(buffered, format="PNG")
+    base64_bytes = base64.b64encode(buffered.getvalue())
+    base64_string = base64_bytes.decode("utf-8")
+    return base64_string
 
 def log_processing_info(log_file_path, processed_filename, config_number, ocr_name, model_display_name, time_elapsed):
     """Log processing information with immediate flush"""
     log_entry = f"File: {processed_filename} - Config: {config_number} - OCR: {ocr_name} - LLM: {model_display_name} - Time needed: {time_elapsed}s\n"
+    with open(log_file_path, 'a', encoding='utf-8') as f:
+        f.write(log_entry)
+        f.flush()  # Immediate flush to disk
+
+def log_processing_info_olmo(log_file_path, processed_filename, config_number, model_display_name, time_elapsed, natural_text):
+    """Log processing information with immediate flush"""
+    log_entry = f"File: {processed_filename} - Config: {config_number} - OCR: {model_display_name} - Time needed: {time_elapsed}s - [{natural_text}]\n"
     with open(log_file_path, 'a', encoding='utf-8') as f:
         f.write(log_entry)
         f.flush()  # Immediate flush to disk

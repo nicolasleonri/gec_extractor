@@ -11,7 +11,7 @@ Author: @nicolasleonri (GitHub)
 License: GPL
 """
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from utils_postprocessing import parse_ocr_results, extract_filename_and_config, log_processing_info, parse_image_results
+from utils_postprocessing import parse_ocr_results, extract_filename_and_config, log_processing_info, parse_image_results, image_to_base64png, log_processing_info_olmo
 from ollama import chat, ChatResponse
 from qwen_vl_utils import process_vision_info
 import multiprocessing as mp
@@ -32,6 +32,7 @@ import torch
 from threading import Lock
 from transformers import AutoProcessor, AutoModelForImageTextToText
 from transformers import AutoTokenizer, AutoProcessor, AutoModelForImageTextToText
+from transformers import AutoProcessor, Qwen2VLForConditionalGeneration
 
 def extract_code_block(text: str, language_hint: str = "") -> str:
     """Extracts a code block (e.g., CSV) from a markdown-formatted LLM response.
@@ -76,7 +77,15 @@ class VLMProcessor:
         """Load the VLM model and processor"""
         try:
             print(f"Loading {self.model_name}")
-            if self.model_name == "reducto/RolmOCR":
+            if self.model_name == "allenai/olmOCR-7B-0225-preview":
+                # Special loading for OLM OCR
+                self.model = Qwen2VLForConditionalGeneration.from_pretrained("allenai/olmOCR-7B-0225-preview", 
+                                                                        torch_dtype=torch.bfloat16,
+                                                                        attn_implementation="flash_attention_2").eval()
+                self.processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct", use_fast=True)
+                self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+                self.model.to(self.device)
+            elif self.model_name == "reducto/RolmOCR":
                 # Special loading for RolmOCR
                 self.device = torch.device("cuda")
                 self.model = AutoModelForImageTextToText.from_pretrained(
@@ -89,12 +98,12 @@ class VLMProcessor:
                 self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
                 self.model = AutoModelForImageTextToText.from_pretrained(
                     self.model_name,
-                    torch_dtype="auto",
-                    low_cpu_mem_usage=True,
-                    attn_implementation="flash_attention_2"
-                )
-                self.model.tie_weights()
-                self.model = self.model.to("cuda")  # or .half() if using FP16
+                    torch_dtype="auto", 
+                    device_map="auto", 
+                    attn_implementation="flash_attention_2")
+                self.model.eval()  # Set to evaluation mode
+                # self.model.tie_weights()
+                # self.model = self.model.to("cuda")  # or .half() if using FP16
 
                 self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, use_fast=True)
                 self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
@@ -116,38 +125,90 @@ class VLMProcessor:
             image = Image.open(image_path).convert("RGB")
             
             # Create the prompt similar to the LLM version
-            prompt = """
-            GOAL: Given the image, extract and structure the following information:
-            - headline of the article (string or "NA")
-            - subheadline of the article (string or "NA")
-            - author of the article (string or "NA")
-            - content of the article (string)
+            # prompt = """
+            # GOAL: Given the image, extract and structure the following information:
+            # - headline of the article (string or "NA")
+            # - subheadline of the article (string or "NA")
+            # - author of the article (string or "NA")
+            # - content of the article (string)
 
-            IMPORTANT:
-            - Focus only on articles that contain meaningful journalistic content.
-            - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
-            - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
-            - If any field is missing or unknown, write "NA".
+            # IMPORTANT:
+            # - Focus only on articles that contain meaningful journalistic content.
+            # - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
+            # - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
+            # - If any field is missing or unknown, write "NA".
 
-            RETURN FORMAT:
-            Strictly output a valid CSV in the following format:
-            "headline";"subheadline";"author";"content"
-            "City Council Approves New Budget";"Property taxes to increase 3% next year";"By Jennifer Martinez";"The city council voted 7-2 last night to approve a $2.3 million budget that includes a 3% property tax increase.  The measure passed despite strong opposition from residents who packed the council chambers."
-            "Local Restaurant Wins State Award";"NA";"Food Staff";"Mario's Italian Kitchen received the prestigious Golden Plate award from the State Restaurant Association yesterday.  Owner Mario Rossi said he was honored by the recognition."
+            # RETURN FORMAT:
+            # Strictly output a valid CSV in the following format:
+            # "headline";"subheadline";"author";"content"
+            # "City Council Approves New Budget";"Property taxes to increase 3% next year";"By Jennifer Martinez";"The city council voted 7-2 last night to approve a $2.3 million budget that includes a 3% property tax increase.  The measure passed despite strong opposition from residents who packed the council chambers."
+            # "Local Restaurant Wins State Award";"NA";"Food Staff";"Mario's Italian Kitchen received the prestigious Golden Plate award from the State Restaurant Association yesterday.  Owner Mario Rossi said he was honored by the recognition."
             
-            RULES:
-            - Do NOT include explanations, extra text, or commentary.
-            - Enclose each field in double quotes.
-            - Use semicolons (`;`) as field separators.
-            - Do NOT insert semicolons inside fields. If needed, replace them with commas.
-            - Each row represents one article. The first row must always be the CSV header.
+            # RULES:
+            # - Do NOT include explanations, extra text, or commentary.
+            # - Enclose each field in double quotes.
+            # - Use semicolons (`;`) as field separators.
+            # - Do NOT insert semicolons inside fields. If needed, replace them with commas.
+            # - Each row represents one article. The first row must always be the CSV header.
 
-            CONTEXT:
-            You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
+            # CONTEXT:
+            # You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
+            # """
+
+            prompt = """
+            Extract the text content from the newspaper image as a Markdown dividing the information into:
+            - Headline: The main title of the article
+            - Subheadline: The secondary title or subtitle (if present)
+            - Author: The name of the article's author or byline
+            - Content: The full text of the article
             """
             # Process the image with thread safety
             with self._model_lock:
-                if self.model_name == "reducto/RolmOCR":
+                if self.model_name == "allenai/olmOCR-7B-0225-preview":
+                    # base64_png = image_to_base64png(image)
+                    # Build the full prompt
+                    messages = [
+                                {
+                                    "role": "user",
+                                    "content": [
+                                        {"type": "text", "text": prompt},
+                                        {"type": "image", "image": image},
+                                    ],
+                                }
+                            ]
+
+                    # Apply the chat template and processor
+                    text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
+                    inputs = self.processor(
+                        text=[text],
+                        images=[image],
+                        padding=True,
+                        return_tensors="pt",
+                    )
+                    inputs = {key: value.to(self.device) for (key, value) in inputs.items()}
+
+                    # Generate the output
+                    output = self.model.generate(
+                                **inputs,
+                                temperature=0.1,
+                                max_new_tokens=30000,
+                                num_return_sequences=1,
+                                do_sample=False,
+                            )
+
+                    # Decode the output
+                    prompt_length = inputs["input_ids"].shape[1]
+                    new_tokens = output[:, prompt_length:]
+                    text_output = self.processor.tokenizer.batch_decode(
+                        new_tokens, skip_special_tokens=True, clean_up_tokenization_spaces=True
+                    )
+
+                    text = text_output[0]
+                    output_text = text if text else ""
+                    # print(output_text)
+
+                elif self.model_name == "reducto/RolmOCR":
                     messages = [
                     {
                         "role": "system",
@@ -187,7 +248,7 @@ class VLMProcessor:
                     inputs = self.processor(text=[text], images=[image], padding=True, return_tensors="pt")
                     inputs = inputs.to(self.model.device)
                     
-                    output_ids = self.model.generate(**inputs, max_new_tokens=30000, do_sample=False, temperature=0.1)
+                    output_ids = self.model.generate(**inputs, max_new_tokens=3500, do_sample=False, temperature=0.1)
                     generated_ids = [output_ids[len(input_ids):] for input_ids, output_ids in zip(inputs.input_ids, output_ids)]
 
                     output_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
@@ -405,7 +466,8 @@ def process_single_result(key: int, value: dict, model_name: str, model_display_
 
     vlm_models = {
         "nanonets/Nanonets-OCR-s": "nanonets",
-        "reducto/RolmOCR": "rolm"
+        "reducto/RolmOCR": "rolmocr",
+        "allenai/olmOCR-7B-0225-preview": "olmocr",
     }
 
     try:
@@ -423,8 +485,13 @@ def process_single_result(key: int, value: dict, model_name: str, model_display_
 
         end = time.time()
         time_elapsed = end - start
-        
-        log_processing_info(log_file_path, processed_filename, config_no, ocr_name, model_display_name, time_elapsed)
+
+        if model_name in vlm_models:
+            print("VLM detected, logging to OCR log.")
+            log_file_path = "./results/txt/extracted/vlm_results_log.txt"
+            log_processing_info_olmo(log_file_path, processed_filename, config_no, model_display_name, time_elapsed, structured_results)
+        else:
+            log_processing_info(log_file_path, processed_filename, config_no, ocr_name, model_display_name, time_elapsed)
         
         # Prepare result
         result = {
@@ -535,8 +602,18 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
     saved_count = 0
     error_count = 0
 
+    vlm_models = {
+        "nanonets/Nanonets-OCR-s": "nanonets",
+        "reducto/RolmOCR": "rolmocr",
+        "allenai/olmOCR-7B-0225-preview": "olmocr",
+    }
+
     for key, result in results_dict.items():
         try:
+            if model_display_name in vlm_models.values():
+                print("VLM model detected, skipping CSV.")
+                continue
+
             value = result['value']
             filename = os.path.splitext(os.path.basename(value['filepath']))[0]
             filename = re.sub(r'_config\d+$', '', filename)
@@ -597,6 +674,11 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
             saved_count += 1
         except Exception as e:
             print(f"✗ Error saving for {value['filepath']}: {e}")
+
+            if model_display_name == "allenai/olmOCR-7B-0225-preview":
+                print("OLM OCR model detected, skipping CSV.")
+                continue
+
             error_count += 1
             
             # Save empty CSV with the same filename and header
@@ -716,7 +798,8 @@ def process_model_multithreaded(model_name: str, model_display_name: str, ocr_re
     
     vlm_models = {
         "nanonets/Nanonets-OCR-s": "nanonets",
-        "reducto/RolmOCR": "rolm"
+        "reducto/RolmOCR": "rolmocr",
+        "allenai/olmOCR-7B-0225-preview": "olmocr",
     }
 
     # Determine actual input based on model type
@@ -858,6 +941,40 @@ def main() -> None:
         unittest.main(argv=['first-arg-is-ignored'], exit=False)
         return
     
+    if '--employ-vlms' in sys.argv:
+        models = {
+        "allenai/olmOCR-7B-0225-preview": "olmocr",
+        "reducto/RolmOCR": "rolmocr",
+        "nanonets/Nanonets-OCR-s": "nanonets",
+        }
+        print("\nLoading Image list...")
+        images_directory = "./results/images/preprocessed"
+        img_results = parse_image_results(images_directory)
+        ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
+
+    else:
+        models = {
+        "phi4:14b": "phi4",
+        "qwen3:32b": "qwen3",
+        "mistral-nemo:12b": "mistral-nemo",
+        "deepseek-r1:32b": "deepseek-r1",
+        "gemma3:27b": "gemma3",
+        # "llama3.3:70b": "llama3.3", # 43GB so not used!
+        }
+
+        if '--process-vlms-outputs' in sys.argv:
+            print("\nLoading OCR results...")
+            ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/vlm_results_log.txt"))
+            print(f"Loaded {len(ocr_results)} OCR results")
+        else:
+            print("\nLoading OCR results...")
+            ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
+            print(f"Loaded {len(ocr_results)} OCR results")
+    
+    
+    print("Starting multithreaded LLM postprocessing...")
+    print(f"Models to process: {list(models.values())}")
+    
     max_threads = mp.cpu_count()
     os.makedirs("./results/csv/extracted/", exist_ok=True)
 
@@ -868,28 +985,6 @@ def main() -> None:
     if os.path.exists(log_file_path):
         os.remove(log_file_path)
 
-    models = {
-        "reducto/RolmOCR": "rolmocr",
-        "phi4:latest": "phi4",
-        "nanonets/Nanonets-OCR-s": "nanonets",
-        "llama4:latest": "llama4",
-        "gemma3:27b": "gemma3",
-        "deepseek-r1:32b": "deepseek-r1",
-        "magistral:24b": "magistral",
-    }
-    
-    print("Starting multithreaded LLM postprocessing...")
-    print(f"Models to process: {list(models.values())}")
-    
-    # Load OCR results once
-    print("\nLoading OCR results...")
-    ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
-    print(f"Loaded {len(ocr_results)} OCR results")
-
-    print("\nLoading Image list...")
-    images_directory = "./results/images/preprocessed"
-    img_results = parse_image_results(images_directory)
-    
     # Process each model
     all_results = {}
     total_start_time = time.time()
