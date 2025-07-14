@@ -123,44 +123,11 @@ class VLMProcessor:
         try:
             # Load and preprocess image
             image = Image.open(image_path).convert("RGB")
-            
-            # Create the prompt similar to the LLM version
-            # prompt = """
-            # GOAL: Given the image, extract and structure the following information:
-            # - headline of the article (string or "NA")
-            # - subheadline of the article (string or "NA")
-            # - author of the article (string or "NA")
-            # - content of the article (string)
-
-            # IMPORTANT:
-            # - Focus only on articles that contain meaningful journalistic content.
-            # - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
-            # - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
-            # - If any field is missing or unknown, write "NA".
-
-            # RETURN FORMAT:
-            # Strictly output a valid CSV in the following format:
-            # "headline";"subheadline";"author";"content"
-            # "City Council Approves New Budget";"Property taxes to increase 3% next year";"By Jennifer Martinez";"The city council voted 7-2 last night to approve a $2.3 million budget that includes a 3% property tax increase.  The measure passed despite strong opposition from residents who packed the council chambers."
-            # "Local Restaurant Wins State Award";"NA";"Food Staff";"Mario's Italian Kitchen received the prestigious Golden Plate award from the State Restaurant Association yesterday.  Owner Mario Rossi said he was honored by the recognition."
-            
-            # RULES:
-            # - Do NOT include explanations, extra text, or commentary.
-            # - Enclose each field in double quotes.
-            # - Use semicolons (`;`) as field separators.
-            # - Do NOT insert semicolons inside fields. If needed, replace them with commas.
-            # - Each row represents one article. The first row must always be the CSV header.
-
-            # CONTEXT:
-            # You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
-            # """
 
             prompt = """
-            Extract the text content from the newspaper image as a Markdown dividing the information into:
-            - Headline: The main title of the article
-            - Subheadline: The secondary title or subtitle (if present)
-            - Author: The name of the article's author or byline
-            - Content: The full text of the article
+            Extract the text content from the newspaper image in an organized way. 
+            A LLM will process the text and extract structured information aferwards.
+            Do NOT add any Markdown formatting, just return the text content.
             """
             # Process the image with thread safety
             with self._model_lock:
@@ -205,8 +172,14 @@ class VLMProcessor:
                     )
 
                     text = text_output[0]
+
+                    try:
+                        data = json.loads(text)
+                        text = data["natural_text"]
+                    except Exception as e:
+                        pass
+
                     output_text = text if text else ""
-                    # print(output_text)
 
                 elif self.model_name == "reducto/RolmOCR":
                     messages = [
@@ -303,127 +276,36 @@ class ollama:
         """
 
         #TODO: Try different prompts in different languages
-        # prompt = """
-        # GOAL: Given the image, extract and structure the following information:
-        # - headline of the article (string or "NA")
-        # - subheadline of the article (string or "NA")
-        # - author of the article (string or "NA")
-        # - content of the article (string)
-
-        # IMPORTANT:
-        # - Focus only on articles that contain meaningful journalistic content.
-        # - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
-        # - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
-        # - If any field is missing or unknown, write "NA".
-
-        # RETURN FORMAT:
-        # Strictly output a valid CSV in the following format:
-        # "headline";"subheadline";"author";"content"
-        # "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
-        # "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
-
-        # RULES:
-        # - Do NOT include explanations, extra text, or commentary.
-        # - Enclose each field in double quotes.
-        # - Use semicolons (`;`) as field separators.
-        # - Do NOT insert semicolons inside fields. If needed, replace them with commas.
-        # - Each row represents one article. The first row must always be the CSV header.
-
-        # CONTEXT:
-        # You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
-        # """
-
         prompt = """
-        OBJECTIVE: Extract structured information from newspaper images and output as semicolon-delimited CSV format.
-        
-        REQUIRED FIELDS:
-        Extract the following information for each article:
-            - headline: Main title of the article
-            - subheadline: Secondary title/subtitle (if present)
-            - author: Article author/byline
-            - content: Full article text content
-        
-        CONTENT FILTERING RULES:
-        INCLUDE only articles with substantial journalistic content:
-        - News articles, opinion pieces, feature stories
-        - Interviews, analysis, commentary
-        - Sports coverage, entertainment reviews
-        - Editorial content
-        EXCLUDE the following:
-        - Advertisements and promotional content
-        - Weather reports and brief announcements
-        - Date headers, page numbers, mastheads
-        - Photo captions standing alone
-        - Directory listings, TV schedules
-        - Content under 50 words (unless significant news)
-        
-        QUALITY TEST: Ask yourself: "Would this content be valuable for media analysis or research?" If no, exclude it.
+        GOAL: Given the image, extract and structure the following information:
+        - headline of the article (string or "NA")
+        - subheadline of the article (string or "NA")
+        - author of the article (string or "NA")
+        - content of the article (string)
 
-        LANGUAGE HANDLING:
-        - Extract all text in its original language (Spanish)
-        - Do NOT translate any content
-        - Preserve original spelling, accents, and punctuation exactly
+        IMPORTANT:
+        - Focus only on articles that contain meaningful journalistic content.
+        - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
+        - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
+        - If any field is missing or unknown, write "NA".
 
-        DATA EXTRACTION GUIDELINES:
-        Headlines
-        - Extract the primary headline exactly as written
-        - Include punctuation and capitalization as shown
-        - If multiple headlines exist, prioritize the largest/most prominent
-        Subheadlines
-        - Include deck, kicker, or secondary headline text
-        - Exclude taglines that are clearly publication branding
-        Authors
-        - Include full byline as written (e.g., "By Sarah Johnson" or "Staff Reporter")
-        - For multiple authors, separate with commas: "John Smith, Jane Doe"
-        - Include titles if part of byline: "Dr. Maria Rodriguez, Chief Medical Correspondent"
-        Content
-        - Extract complete article text in reading order
-        - Preserve paragraph structure by using double spaces between paragraphs
-        - Remove hyphenation at line breaks (join "in-\ncredible" as "incredible")
-        - Exclude photo captions, pull quotes, and sidebar content
-        - If article continues elsewhere, note as: "[Article continues on page X]"
-
-        OUTPUT FORMAT:
-        CSV Structure
+        RETURN FORMAT:
+        Strictly output a valid CSV in the following format:
         "headline";"subheadline";"author";"content"
-        "Article Title Here";"Optional Subtitle";"Reporter Name";"Full article text goes here..."
-        
-        Formatting Rules
-        - Use semicolons (;) as field separators
-        - Enclose ALL fields in double quotes
-        - Replace any semicolons within content with commas
-        - Replace line breaks within fields with double spaces
-        - Use "NA" for missing information
-        - First row must be the header row exactly as shown above
-        
-        Data Validation
-        
-        Before outputting, verify:
-        - Each row has exactly 4 fields
-        - No unescaped quotes within fields
-        - No semicolons within field content
-        - Header row is properly formatted
+        "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
+        "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
 
-        EXAMPLE OUTPUT:
-        "headline";"subheadline";"author";"content"
-        "City Council Approves New Budget";"Property taxes to increase 3% next year";"By Jennifer Martinez";"The city council voted 7-2 last night to approve a $2.3 million budget that includes a 3% property tax increase.  The measure passed despite strong opposition from residents who packed the council chambers."
-        "Local Restaurant Wins State Award";"NA";"Food Staff";"Mario's Italian Kitchen received the prestigious Golden Plate award from the State Restaurant Association yesterday.  Owner Mario Rossi said he was honored by the recognition."
+        RULES:
+        - Do NOT include explanations, extra text, or commentary.
+        - Enclose each field in double quotes.
+        - Use semicolons (`;`) as field separators.
+        - Do NOT insert semicolons inside fields. If needed, replace them with commas.
+        - Each row represents one article. The first row must always be the CSV header.
 
-        QUALITY STANDARDS:
-        - Accuracy: Extract text exactly as written, preserving original spelling and punctuation
-        - Completeness: Don't truncate content unless it's clearly continued elsewhere
-        - Consistency: Apply the same standards to all articles in the image
-        - Precision: When in doubt about inclusion, err on the side of excluding marginal content
-
-        ERROR PREVENTION:
-        - Double-check quote escaping in CSV output
-        - Verify semicolon replacement within content
-        - Ensure header row format matches exactly
-        - Confirm each article meets inclusion criteria before processing
-
-        IMPORTANT: Output ONLY the CSV data with no additional text, explanations, or commentary. The CSV must be valid and ready for immediate import into analysis tools.
+        CONTEXT:
+        You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
         """
-        
+
         response = self.chat_completion(prompt, ocr_text)
 
         return response
@@ -884,21 +766,28 @@ def print_help() -> None:
     It extracts article headlines, subheadlines, authors, and content from `.txt` logs.
 
     Usage:
-        python postprocess.py                   Run full postprocessing for all models
-        python postprocess.py --test            Run a unit test with a mock LLM output
-        python postprocess.py --help | -h       Show this help message
+        python postprocess.py                            Run full postprocessing for all LLM models
+        python postprocess.py --employ-vlms              Use VLM models (OLM OCR, Rolm, Nanonets) to postprocess images
+        python postprocess.py --process-vlms-outputs     Postprocess output already generated by VLM models
+        python postprocess.py --test                     Run a unit test with a mock LLM output
+        python postprocess.py --help | -h                Show this help message
 
     Input:
-        ./results/txt/extracted/ocr_results_log.txt   ← from the OCR step
+        ./results/txt/extracted/ocr_results_log.txt      ← from traditional OCR
+        ./results/txt/extracted/vlm_results_log.txt      ← from vision-language model (VLM) outputs (if --process-vlms-outputs)
+        ./results/images/preprocessed/                   ← preprocessed images for VLM use
 
     Output:
-        ./results/csv/extracted/                    ← structured CSVs
-        ./results/txt/extracted/                    ← structured JSONs (optional)
+        ./results/csv/extracted/                         ← structured CSVs
+        ./results/txt/extracted/                         ← structured JSONs (optional)
 
     Dependencies:
-        - ollama (local models)
-        - LLMs must be available locally via Ollama
+        - Ollama (must be installed and running)
+        - Models must be available locally via Ollama
+        - VLMs supported: olmOCR, RolmOCR, Nanonets-OCR-s
+        - LLMs supported: phi4, qwen3, mistral-nemo, deepseek-r1, gemma3
     """)
+
 
 class TestPostprocessing(unittest.TestCase):
     def test_csv_mock(self):
@@ -951,7 +840,8 @@ def main() -> None:
         images_directory = "./results/images/preprocessed"
         img_results = parse_image_results(images_directory)
         ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
-
+        if os.path.exists("./results/txt/extracted/vlm_results_log.txt"):
+            os.remove("./results/txt/extracted/vlm_results_log.txt")
     else:
         models = {
         "phi4:14b": "phi4",
@@ -965,10 +855,14 @@ def main() -> None:
         if '--process-vlms-outputs' in sys.argv:
             print("\nLoading OCR results...")
             ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/vlm_results_log.txt"))
+            images_directory = "./results/images/preprocessed"
+            img_results = parse_image_results(images_directory)
             print(f"Loaded {len(ocr_results)} OCR results")
         else:
             print("\nLoading OCR results...")
             ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
+            images_directory = "./results/images/preprocessed"
+            img_results = parse_image_results(images_directory)
             print(f"Loaded {len(ocr_results)} OCR results")
     
     
