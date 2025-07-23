@@ -845,7 +845,7 @@ def main() -> None:
     else:
         models = {
         "phi4:14b": "phi4",
-        "qwen3:32b": "qwen3",
+        "qwen3:32b": "qwen3", # TODO: Get a faster version, this one is slow
         "mistral-nemo:12b": "mistral-nemo",
         "deepseek-r1:32b": "deepseek-r1",
         "gemma3:27b": "gemma3",
