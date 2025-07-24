@@ -1006,12 +1006,12 @@ def main() -> None:
     print(f"Using {max_threads} threads in {processing_mode} mode")
 
     # Define preprocessing methods
-    binarization_methods = ["basic", "otsu"]
-    noise_removal_methods = ["mean_filter", "gaussian_filter"]
+    # binarization_methods = ["basic", "otsu"]
+    # noise_removal_methods = ["mean_filter", "gaussian_filter"]
 
-    # binarization_methods = ["none", "basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+    binarization_methods = ["none", "basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
     # skew_correction_methods = ["boxes", "hough_transform", "topline", "scanline", "moments"]
-    # noise_removal_methods = ["none", "mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
+    noise_removal_methods = ["none", "mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
 
     # Generate all possible configurations
     configurations = [

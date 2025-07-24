@@ -1,0 +1,54 @@
+Using 64 threads in global mode
+Total configurations to test: 63
+Processing 1 images
+Processing all combinations globally in parallel...
+Total tasks: 63
+Progress: 5/63 tasks completed
+Progress: 10/63 tasks completed
+Progress: 15/63 tasks completed
+Progress: 20/63 tasks completed
+Progress: 25/63 tasks completed
+Progress: 30/63 tasks completed
+Progress: 35/63 tasks completed
+Progress: 40/63 tasks completed
+Progress: 45/63 tasks completed
+Progress: 50/63 tasks completed
+Progress: 55/63 tasks completed
+Progress: 60/63 tasks completed
+
+============================================================
+PROCESSING SUMMARY
+============================================================
+Total time: 72.72 seconds
+Successful processes: 63
+Failed processes: 0
+Average time per successful process: 1.154 seconds
+Processing log saved to: ./logs/preprocess.out
+============================================================
+Using 64 threads in global mode
+Total configurations to test: 63
+Processing 1 images
+Processing all combinations globally in parallel...
+Total tasks: 63
+Progress: 5/63 tasks completed
+Progress: 10/63 tasks completed
+Progress: 15/63 tasks completed
+Progress: 20/63 tasks completed
+Progress: 25/63 tasks completed
+Progress: 30/63 tasks completed
+Progress: 35/63 tasks completed
+Progress: 40/63 tasks completed
+Progress: 45/63 tasks completed
+Progress: 50/63 tasks completed
+Progress: 55/63 tasks completed
+Progress: 60/63 tasks completed
+
+============================================================
+PROCESSING SUMMARY
+============================================================
+Total time: 74.74 seconds
+Successful processes: 63
+Failed processes: 0
+Average time per successful process: 1.186 seconds
+Processing log saved to: ./logs/preprocess.out
+============================================================

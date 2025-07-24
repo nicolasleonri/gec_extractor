@@ -522,16 +522,16 @@ def main() -> None:
         unittest.main(argv=['first-arg-is-ignored'], exit=False)
         return
     
-    if '--cropped_folder' in sys.argv:
+    if '--cropped_folders' in sys.argv:
         use_cropped_folder = True
         print("Using cropped folder for OCR processing.")
 
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
-        # "KerasOCR": KerasOCR.process,
-        # "EasyOCR": EasyOCR.process,
-        # "PaddleOCR": PaddlePaddle.process,
-        # "docTR": docTR.process
+        "KerasOCR": KerasOCR.process,
+        "EasyOCR": EasyOCR.process,
+        "PaddleOCR": PaddlePaddle.process,
+        "docTR": docTR.process
     }
 
     # Define the directory containing image files
