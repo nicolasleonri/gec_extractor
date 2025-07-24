@@ -378,7 +378,7 @@ class TestOCRPipeline(unittest.TestCase):
         self.check_ocr_output(docTR.process, "docTR")
 
 
-def process_single_ocr(image_path: str, method_name: str, method: Callable[[Union[str, np.ndarray]], str], log_queue: Queue) -> Dict[str, Union[str, float]]:
+def process_single_ocr(image_path: str, method_name: str, method: Callable[[Union[str, np.ndarray]], str], log_queue: Queue, is_cropped_folder: bool) -> Dict[str, Union[str, float]]:
     """Processes a single image with a given OCR method.
 
     Args:
@@ -395,7 +395,32 @@ def process_single_ocr(image_path: str, method_name: str, method: Callable[[Unio
     error_msg = ""
 
     try:
-        output = method(image_path)
+        if is_cropped_folder:
+            folder_path = os.path.splitext(image_path)[0]
+
+            if not os.path.isdir(folder_path):
+                raise ValueError(f"Expected folder path, got: {folder_path}")
+            
+            # Get all image files and sort them
+            image_files = [f for f in os.listdir(folder_path) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp'))]
+            image_files.sort()  # Sort to maintain order
+            
+            combined_text = []
+            for img_file in image_files:
+                img_path = os.path.join(folder_path, img_file)
+                try:
+                    text = method(img_path)
+                    if text.strip():  # Only add non-empty text
+                        combined_text.append(text.strip())
+                except Exception as e:
+                    log_queue.put(f"Error processing {img_file} in {os.path.basename(img_file)}: {str(e)}")
+            
+            output = " ".join(combined_text)  # Simple concatenation with spaces
+
+            method_name = method_name + "_cropped"
+        else:
+            # Process single image (original behavior)
+            output = method(image_path)
     except ValueError as ve:
         error_msg = f'COMMON ERROR: {ve}' if "unable to read" in str(
             ve) else f'NEW ERROR: {ve}'
@@ -487,6 +512,7 @@ def print_help() -> None:
 def main() -> None:
     """Main entry point for OCR pipeline."""
     max_threads = mp.cpu_count()
+    use_cropped_folder = False
 
     if '--help' in sys.argv or '-h' in sys.argv:
         print_help()
@@ -495,19 +521,25 @@ def main() -> None:
     if '--test' in sys.argv:
         unittest.main(argv=['first-arg-is-ignored'], exit=False)
         return
+    
+    if '--cropped_folder' in sys.argv:
+        use_cropped_folder = True
+        print("Using cropped folder for OCR processing.")
 
     ocr_methods = {
         "TesseractOCR": TesseractOCR.process,
-        "KerasOCR": KerasOCR.process,
-        "EasyOCR": EasyOCR.process,
-        "PaddleOCR": PaddlePaddle.process,
-        "docTR": docTR.process
+        # "KerasOCR": KerasOCR.process,
+        # "EasyOCR": EasyOCR.process,
+        # "PaddleOCR": PaddlePaddle.process,
+        # "docTR": docTR.process
     }
 
     # Define the directory containing image files
     image_files = get_image_files("./results/images/preprocessed/")
     processed_dir = "./results/txt/extracted/"
     log_file_path = os.path.join(processed_dir, "ocr_results_log.txt")
+    if use_cropped_folder == True:
+        log_file_path = os.path.join(processed_dir, "ocr_cropped_results_log.txt")
     os.makedirs(processed_dir, exist_ok=True)
 
     # Create thread-safe queue for logging
@@ -554,7 +586,7 @@ def main() -> None:
 
                     task_start = time.time()
                     result = process_single_ocr(
-                        image_path, method_name, method, log_queue)
+                        image_path, method_name, method, log_queue, is_cropped_folder=use_cropped_folder)
                     task_duration = time.time() - task_start
 
                     completed += 1

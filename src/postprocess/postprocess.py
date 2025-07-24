@@ -858,6 +858,12 @@ def main() -> None:
             images_directory = "./results/images/preprocessed"
             img_results = parse_image_results(images_directory)
             print(f"Loaded {len(ocr_results)} OCR results")
+        elif '--cropped_folder' in sys.argv:
+            print("\nLoading OCR results...")
+            ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_cropped_results_log.txt"))
+            images_directory = "./results/images/preprocessed"
+            img_results = parse_image_results(images_directory)
+            print(f"Loaded {len(ocr_results)} OCR results")
         else:
             print("\nLoading OCR results...")
             ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
