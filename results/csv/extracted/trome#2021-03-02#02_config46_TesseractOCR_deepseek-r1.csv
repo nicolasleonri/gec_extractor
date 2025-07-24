@@ -1,0 +1,2 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"I should also ensure that each row represents one article and that the first row is the header: ""headline""";"subheadline";"author";"content. If any field isn't found, it's crucial to mark it as ""NA"" instead of leaving it blank to maintain consistency in the CSV structure.";"trome";"2021-03-02";"2"

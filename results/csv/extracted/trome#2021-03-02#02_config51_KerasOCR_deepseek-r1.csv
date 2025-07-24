@@ -1,0 +1,3 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"Another important point is that the first row must be the CSV header. So, my output will start with ""headline""";"subheadline";"author";"content. Then each subsequent line represents one article. I have to ensure that there's no extra text or explanations beyond this structure because the user wants a strict CSV format.";"trome";"2021-03-02";"2"
+"NA";"NA";"NA";"NA";"trome";"2021-03-02";"2"

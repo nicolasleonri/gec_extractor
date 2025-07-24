@@ -528,9 +528,10 @@ class NoiseRemoval:
 
 class ColumnExtraction:
     @staticmethod
-    def crop_vertical_columns(binary_img: ndarray, min_col_width: int = 35, debug: bool = False) -> List[ndarray]:
+    def crop_vertical_columns(binary_img: ndarray, min_col_width: int = 35) -> List[ndarray]:
         """
-        Crop vertical columns from a preprocessed binary image.
+        Crop vertical columns from a preprocessed binary image using histogram analysis.
+        Ensures complete coverage - no parts of the image are eliminated.
 
         Args:
             binary_img (ndarray): Binary image with text in black (0), background white (255).
@@ -538,7 +539,7 @@ class ColumnExtraction:
             debug (bool): If True, shows intermediate images and plots.
 
         Returns:
-            List[ndarray]: List of cropped column images as numpy arrays.
+            List[ndarray]: List of cropped column images as numpy arrays with complete coverage.
         """
 
         # Invert image if text is white and background black
@@ -553,47 +554,56 @@ class ColumnExtraction:
         threshold = np.max(vertical_sum) * 0.05  # tweak this if needed
         gaps = vertical_sum < threshold
 
-        # Find start/end indices of columns by detecting transitions in gaps
-        column_edges = []
+        # Find column boundaries (text regions)
+        text_regions = []
         in_column = False
         start = 0
         for i, is_gap in enumerate(gaps):
             if not is_gap and not in_column:
-                # start of column
                 start = i
                 in_column = True
             elif is_gap and in_column:
-                # end of column
                 end = i
                 in_column = False
                 if end - start >= min_col_width:
-                    column_edges.append((start, end))
+                    text_regions.append((start, end))
 
-        # Handle case where column goes till end of image
-        if in_column:
-            end = len(gaps) - 1
-            if end - start >= min_col_width:
-                column_edges.append((start, end))
+        # Create crop boundaries that ensure complete coverage
+        crop_boundaries = []
+        image_width = binary_img.shape[1]
+        
+        if not text_regions:
+            # No columns detected, return entire image
+            return [binary_img]
+        
+        # Start from beginning of image
+        current_pos = 0
 
-        if debug:
-            try:
-                plt.figure(figsize=(15, 5))
-                plt.subplot(1, 2, 1)
-                plt.imshow(binary_img, cmap='gray')
-                plt.title("Binary Image")
-                plt.subplot(1, 2, 2)
-                plt.plot(vertical_sum)
-                for (s, e) in column_edges:
-                    plt.axvline(s, color='r')
-                    plt.axvline(e, color='r')
-                plt.title("Vertical Projection with Detected Columns")
-                plt.show()
-            except ImportError:
-                print("matplotlib not available for debug visualization")
+        for i, (text_start, text_end) in enumerate(text_regions):
+            if i == 0:
+                # First column: include everything from start to middle of gap after this column
+                if i < len(text_regions) - 1:
+                    next_text_start = text_regions[i + 1][0]
+                    gap_middle = (text_end + next_text_start) // 2
+                    crop_boundaries.append((0, gap_middle))
+                    current_pos = gap_middle
+                else:
+                    # Only one column, take entire width
+                    crop_boundaries.append((0, image_width))
+                    current_pos = image_width
+            elif i == len(text_regions) - 1:
+                # Last column: from current position to end of image
+                crop_boundaries.append((current_pos, image_width))
+            else:
+                # Middle columns: from current position to middle of next gap
+                next_text_start = text_regions[i + 1][0]
+                gap_middle = (text_end + next_text_start) // 2
+                crop_boundaries.append((current_pos, gap_middle))
+                current_pos = gap_middle
 
-        # Crop columns from original image
+        # Crop columns ensuring complete coverage
         columns = []
-        for start, end in column_edges:
+        for start, end in crop_boundaries:
             col_img = binary_img[:, start:end]
             columns.append(col_img)
 
@@ -670,7 +680,7 @@ class ColumnExtraction:
 
         return rows
 
-def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]) -> Dict[str, Any]:
+def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str, bool]) -> Dict[str, Any]:
     """
     Process a single image with a given preprocessing configuration.
 
@@ -680,7 +690,7 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
     Returns:
         dict: Result dictionary with log and status.
     """
-    image_data, image_file, config, idx, processed_dir = args
+    image_data, image_file, config, idx, processed_dir, crop_columns = args
 
     try:
         processed_image = image_data.copy()  # Work on a copy
@@ -705,11 +715,6 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
         new_filename = image_file.name.replace('.png', '.tiff')
         log_entry = f"File: {new_filename} - Config {idx}: {', '.join(techniques)} - Time needed: {time_elapsed}s\n"
 
-        # TODO: If flag "crop_columns" was used, crop vertical and horizontal columns. Cropped images shall be saved in a subfolder named after the file under processed_dir
-
-        # new_folder = os.path.join(processed_dir, f"{image_file.stem}_config{idx}")
-        # os.makedirs(new_folder, exist_ok=True)
-
         # vertical_columns = ColumnExtraction.crop_vertical_columns(processed_image)
         # for i, vert_col in enumerate(vertical_columns):
         #     path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_vert_#{i}.png")
@@ -718,6 +723,16 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str]
         #     for j, hor_col in enumerate(horizontal_columns):
         #         path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_hor_#{i}{j}.png")
         #         cv2.imwrite(path_file_columns, hor_col)
+
+        if crop_columns:
+            new_folder = os.path.join(processed_dir, f"{image_file.stem}_config{idx}")
+            os.makedirs(new_folder, exist_ok=True)
+
+            vertical_columns = ColumnExtraction.crop_vertical_columns(processed_image)
+            for i, vert_col in enumerate(vertical_columns):
+                path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_vert_#{i}.tiff")
+                cv2.imwrite(path_file_columns, vert_col)
+
 
         del processed_image
         del image_data
@@ -772,7 +787,7 @@ class TestPreprocessingPipeline(unittest.TestCase):
         self.assertEqual(corrected.dtype, self.blank.dtype)
 
 
-def process_single_image_all_configs(image_file: Path, configurations: List[Dict[str, Any]], processed_dir: str, max_workers: Optional[int] = None) -> List[Dict[str, Any]]:
+def process_single_image_all_configs(image_file: Path, configurations: List[Dict[str, Any]], processed_dir: str, crop_columns: bool, max_workers: Optional[int] = None) -> List[Dict[str, Any]]:
     """
     Run all preprocessing configurations on a single image in parallel.
 
@@ -798,7 +813,7 @@ def process_single_image_all_configs(image_file: Path, configurations: List[Dict
 
     # Prepare arguments for all configurations for this image
     args_list = [
-        (image, image_file, config, idx, processed_dir)
+        (image, image_file, config, idx, processed_dir, crop_columns)
         for idx, config in enumerate(configurations)
     ]
 
@@ -934,6 +949,7 @@ def main() -> None:
     max_threads = mp.cpu_count()
     processing_mode = "per-image"
     run_tests = False
+    crop_columns = False
 
     # TODO: Add flag "--crop_columns" and run pipeline
 
@@ -955,7 +971,9 @@ def main() -> None:
                 processing_mode = "per-image"
             elif arg == '--global':
                 processing_mode = "global"
-
+            elif arg == '--crop_columns':
+                crop_columns = True
+            
     if run_tests:
         print("Running unit tests...")
         unittest.main(argv=['first-arg-is-ignored'], exit=False)
@@ -964,12 +982,12 @@ def main() -> None:
     print(f"Using {max_threads} threads in {processing_mode} mode")
 
     # Define preprocessing methods
-    # binarization_methods = ["basic", "otsu"]
-    # noise_removal_methods = ["mean_filter", "gaussian_filter"]
+    binarization_methods = ["basic"]
+    noise_removal_methods = ["mean_filter"]
 
-    binarization_methods = ["none", "basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
+    # binarization_methods = ["none", "basic", "otsu", "adaptive_mean", "adaptive_gaussian", "yannihorne", "niblack"]
     # skew_correction_methods = ["boxes", "hough_transform", "topline", "scanline", "moments"]
-    noise_removal_methods = ["none", "mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
+    # noise_removal_methods = ["none", "mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
 
     # Generate all possible configurations
     configurations = [
@@ -1008,7 +1026,7 @@ def main() -> None:
         # Process each image sequentially, but all configs for each image in parallel
         for image_file in image_files:
             results = process_single_image_all_configs(
-                image_file, configurations, processed_dir, max_threads
+                image_file, configurations, processed_dir, crop_columns, max_threads
             )
             all_results.extend(results)
 
@@ -1023,7 +1041,7 @@ def main() -> None:
                 image = read_image(image_file)
                 for idx, config in enumerate(configurations):
                     all_tasks.append(
-                        (image, image_file, config, idx, processed_dir))
+                        (image, image_file, config, idx, processed_dir, crop_columns))
             except Exception as e:
                 print(f"Error reading {image_file.name}: {e}")
 

@@ -1,0 +1,4 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"I also need to structure this into CSV format strictly. Each field must be in double quotes, and semicolons separate them. No semicolons inside fields—replace those with commas if necessary. The first row should always be the header: ""headline""";"subheadline";"author";"content.";"trome";"2021-03-02";"2"
+"Climate Change Impact";"Rising Temperatures Affect Agriculture";"Jane Doe";"Discussions about how rising temperatures are affecting crop yields...";"trome";"2021-03-02";"2"
+"Breaking News";"NA";"NA";"The latest updates on the ongoing situation...";"trome";"2021-03-02";"2"
