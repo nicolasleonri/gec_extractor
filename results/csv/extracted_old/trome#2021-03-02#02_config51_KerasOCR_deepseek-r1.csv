@@ -1,2 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"Now, thinking about how to structure this into CSV. The first row must be the header: ""headline""";"subheadline";"author";"content. Each subsequent row represents one article with its respective info enclosed in double quotes and separated by semicolons.";"trome";"2021-03-02";"2"

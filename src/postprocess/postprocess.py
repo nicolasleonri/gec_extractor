@@ -822,6 +822,8 @@ class TestPostprocessing(unittest.TestCase):
 
 
 def main() -> None:
+    log_file_path = None
+    
     if '--help' in sys.argv or '-h' in sys.argv:
         print_help()
         return
@@ -842,6 +844,7 @@ def main() -> None:
         ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
         if os.path.exists("./results/txt/extracted/vlm_results_log.txt"):
             os.remove("./results/txt/extracted/vlm_results_log.txt")
+
     else:
         models = {
         "phi4:14b": "phi4",
@@ -858,18 +861,21 @@ def main() -> None:
             images_directory = "./results/images/preprocessed"
             img_results = parse_image_results(images_directory)
             print(f"Loaded {len(ocr_results)} OCR results")
+            log_file_path = os.path.join(log_dir, "postprocess_vlms.txt")
         elif '--cropped_folder' in sys.argv:
             print("\nLoading OCR results...")
             ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_cropped_results_log.txt"))
             images_directory = "./results/images/preprocessed"
             img_results = parse_image_results(images_directory)
             print(f"Loaded {len(ocr_results)} OCR results")
+            log_file_path = os.path.join(log_dir, "postprocess_cropped.txt")
         else:
             print("\nLoading OCR results...")
             ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
             images_directory = "./results/images/preprocessed"
             img_results = parse_image_results(images_directory)
             print(f"Loaded {len(ocr_results)} OCR results")
+            log_file_path = os.path.join(log_dir, "postprocess.txt")
     
     
     print("Starting multithreaded LLM postprocessing...")
@@ -880,7 +886,6 @@ def main() -> None:
 
     log_dir = "./logs/"
     os.makedirs(log_dir, exist_ok=True)
-    log_file_path = os.path.join(log_dir, "postprocess.txt")
 
     if os.path.exists(log_file_path):
         os.remove(log_file_path)

@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"Now, about formatting. The CSV needs to start with headers: ""headline""";"subheadline";"author";"content. Each field should be in double quotes, and semicolons separate the fields. If there's a semicolon within any field, I should replace it with a comma to avoid breaking the format.";"trome";"2021-03-02";"2"
-"NA";"NA";"NA";"NA";"trome";"2021-03-02";"2"
