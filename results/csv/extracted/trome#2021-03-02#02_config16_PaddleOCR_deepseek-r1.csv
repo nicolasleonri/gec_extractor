@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"I should also make sure that each field doesn't have semicolons inside it. If there are any, replace them with commas to prevent breaking the CSV format. The first row must be the header: ""headline""";"subheadline";"author";"content.";"trome";"2021-03-02";"2"
-"   - Ensure each row represents one article, starting with the header: ""headline""";"subheadline";"author";"content.";"trome";"2021-03-02";"2"

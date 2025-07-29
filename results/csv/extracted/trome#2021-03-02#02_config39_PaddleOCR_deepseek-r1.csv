@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"Lastly, structuring the CSV correctly is important. The first row must be the header with ""headline""";"subheadline";"author";"content. Each subsequent row represents one article with its respective details.";"trome";"2021-03-02";"2"
-"   - Begin with the header row: `""headline""";"subheadline";"author";"content`.";"trome";"2021-03-02";"2"

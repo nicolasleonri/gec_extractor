@@ -1,0 +1,6 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"I need to ensure that each field is enclosed in double quotes and separated by semicolons. No semicolons inside the fields themselves—only commas if needed. The first row should always be the header: ""headline""";"subheadline";"author";"content.";"trome";"2021-03-02";"2"
+"Breaking News: Major Discovery";"NA";"Jane Doe";"Scientists have made a groundbreaking discovery...";"trome";"2021-03-02";"2"
+"If another article has all fields present, like ""New Policy Announced""";"Government Response";"John Smith";"The government today announced..., that's straightforward.";"trome";"2021-03-02";"2"
+"Breaking News: Major Discovery";"NA";"Jane Doe";"Scientists have made a groundbreaking discovery in renewable energy, potentially revolutionizing global power solutions.";"trome";"2021-03-02";"2"
+"New Policy Announced";"Government Response";"John Smith";"The government today announced new regulations aimed at reducing carbon emissions by 20% within the next decade.";"trome";"2021-03-02";"2"

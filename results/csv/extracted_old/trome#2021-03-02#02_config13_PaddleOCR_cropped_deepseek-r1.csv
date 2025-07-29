@@ -1,0 +1,3 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"Now, considering the CSV format. Each field needs to be in double quotes, separated by semicolons. No semicolons inside fields, so if any are present, replace them with commas. The first row should always be the header: ""headline""";"subheadline";"author";"content.";"trome";"2021-03-02";"2"
+"NA";"NA";"NA";"NA";"trome";"2021-03-02";"2"

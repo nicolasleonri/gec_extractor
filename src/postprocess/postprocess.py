@@ -848,7 +848,7 @@ def main() -> None:
         # "qwen3:32b": "qwen3", # TODO: Get a faster version, this one is slow
         # "mistral-nemo:12b": "mistral-nemo",
         "deepseek-r1:32b": "deepseek-r1",
-        "gemma3:27b": "gemma3",
+        # "gemma3:27b": "gemma3",
         # "llama3.3:70b": "llama3.3", # 43GB so not used!
         }
 

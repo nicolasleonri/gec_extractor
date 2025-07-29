@@ -1,2 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"Another thing to note is that the CSV must start with a header row: ""headline""";"subheadline";"author";"content. Each subsequent row represents one article. So if there are multiple articles in the image, I need to process each one separately and add corresponding rows.";"trome";"2021-03-02";"2"

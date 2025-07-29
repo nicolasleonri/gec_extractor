@@ -133,7 +133,7 @@ def main() -> None:
             return None
         
     # print(final_results)
-    ocr_log_dict = parse_ocr_log('./results/txt/extracted/ocr_results_log.txt')
+    ocr_log_dict = parse_ocr_log('./results/txt/extracted/ocr_cropped_results_log.txt')
     pre_log_dict = parse_preprocessing_log('./logs/preprocess.out')
     post_log_dict = parse_llm_logs_oneliner('./logs/postprocess.txt')
 
