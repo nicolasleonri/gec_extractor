@@ -1,0 +1,3 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"Now, about formatting. Each field needs to be enclosed in double quotes and separated by semicolons. No semicolons inside the fields themselves—commas are okay instead. The first row is the header with the column names: ""headline""";"subheadline";"author";"content.";"trome";"2021-03-02";"2"
+"   - The first row is the header: `""headline""";"subheadline";"author";"content`.";"trome";"2021-03-02";"2"

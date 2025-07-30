@@ -822,6 +822,8 @@ class TestPostprocessing(unittest.TestCase):
 
 
 def main() -> None:
+    log_dir = "./logs/"
+    os.makedirs(log_dir, exist_ok=True)
     log_file_path = None
     
     if '--help' in sys.argv or '-h' in sys.argv:
@@ -844,6 +846,8 @@ def main() -> None:
         ocr_results = parse_ocr_results(os.path.join(os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
         if os.path.exists("./results/txt/extracted/vlm_results_log.txt"):
             os.remove("./results/txt/extracted/vlm_results_log.txt")
+        log_file_path = os.path.join(log_dir, "postprocess_vlms.txt")
+
 
     else:
         models = {
@@ -883,9 +887,6 @@ def main() -> None:
     
     max_threads = mp.cpu_count()
     os.makedirs("./results/csv/extracted/", exist_ok=True)
-
-    log_dir = "./logs/"
-    os.makedirs(log_dir, exist_ok=True)
 
     if os.path.exists(log_file_path):
         os.remove(log_file_path)

@@ -1,0 +1,17 @@
+/data/gec_extractor/venv/preprocess/bin/activate: Succesfully activated.
+Running preprocess.py with --global
+Running preprocess.py with --crop_columns
+/data/gec_extractor/venv/preprocess: Successfully deactivated.
+/data/gec_extractor/venv/ocr/bin/activate: Succesfully activated.
+Running ocr.py (default)
+Running ocr.py with --cropped_folders
+/data/gec_extractor/venv/ocr: Successfully deactivated.
+/data/gec_extractor/venv/postprocess/bin/activate: Succesfully activated.
+Running postprocess.py (default)
+Running postprocess.py with --cropped_folder
+Running postprocess.py with --employ-vlms
+Running postprocess.py with --process-vlms-outputs
+/data/gec_extractor/venv/postprocess: Successfully deactivated.
+/data/gec_extractor/venv/evaluate/bin/activate: Succesfully activated.
+/data/gec_extractor/venv/evaluate: Successfully deactivated.
+Pipeline done!

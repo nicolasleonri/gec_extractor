@@ -1,0 +1,3 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"Next, I need to structure my response strictly as a CSV. The first row must be the header: ""headline""";"subheadline";"author";"content. Each subsequent row represents one article with each field enclosed in double quotes and separated by semicolons. If there's a semicolon within a field, it should be replaced with a comma.";"trome";"2021-03-02";"2"
+"NA";"NA";"NA";"NA";"trome";"2021-03-02";"2"

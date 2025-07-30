@@ -1,0 +1,3 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"Next, the return format requires a CSV starting with headers: ""headline""";"subheadline";"author";"content. Each subsequent row should represent one article with its respective details. I must ensure that semicolons are only used as field separators and not within the fields themselves. If a semicolon is needed inside a field, it should be replaced with a comma.";"trome";"2021-03-02";"2"
+"Historic Peace Agreement Signed";"NA";"Jane Doe";"In a landmark decision yesterday, world leaders gathered...";"trome";"2021-03-02";"2"

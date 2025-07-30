@@ -1,0 +1,3 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"Once I have all these pieces, I need to structure them into a CSV format. Each field must be enclosed in double quotes and separated by semicolons. No semicolons inside the fields themselves—commas are okay if needed. The first row is the header: ""headline""";"subheadline";"author";"content.";"trome";"2021-03-02";"2"
+"Breaking News: Major Discovery in Ancient Ruins";"Archaeologists Unveil New Findings";"Dr. Maria Gonzalez";"In a groundbreaking discovery, archaeologists have uncovered ancient artifacts that shed new light on the civilization's history. The findings include pottery and tools dating back thousands of years.";"trome";"2021-03-02";"2"

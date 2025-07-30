@@ -1,0 +1,3 @@
+"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
+"First, I need to understand the structure of the CSV output they want. It should have four fields separated by semicolons, each enclosed in double quotes. The first row is the header with ""headline""";"subheadline";"author";"content. Then each subsequent row represents an article with its respective details.";"trome";"2020-03-13";"4"
+"   - Format the extracted information into a CSV with headers: ""headline""";"subheadline";"author";"content.";"trome";"2020-03-13";"4"
