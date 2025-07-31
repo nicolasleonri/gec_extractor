@@ -14,13 +14,16 @@ Applies image enhancement techniques to prepare image files for OCR.
 ---
 
 ## ⚙️ Key Features
-- Runs multiple preprocessing configurations:
-  - Binarization (Otsu, Niblack, etc.)
-  - Skew correction (Hough, boxes, moments)
-  - Noise filters (median, conservative, unsharp, etc.)
+- Supports multiple preprocessing steps and configurations:
+  - Binarization methods (Otsu, Niblack, adaptive, etc.)
+  - Skew correction methods (Moments, Hough transform, Topline detection, Scanline)
+  - Noise reduction filters (median, conservative smoothing, unsharp mask, etc.)
 - Parallel processing (per-image or global mode)
-- `--test` flag runs unit tests
-- `--help` shows usage
+- Command-line flags:
+  -  `--threads` to control parallelism
+  -  `--per-image` to process images individually
+  -  `--test` to run unit tests for preprocessing modules
+  -  `--help` to display usage instructions
 
 ---
 

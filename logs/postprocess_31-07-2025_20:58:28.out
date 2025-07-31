@@ -82,3 +82,7 @@ The following generation flags are not valid and may be ignored: ['temperature',
 VLM detected, logging to OCR log.
 ✓ Progress: 22/45 (48.9%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config30.tiff with olmocr in 595.63s
 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (32768). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+VLM detected, logging to OCR log.
+✓ Progress: 23/45 (51.1%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config0.tiff with olmocr in 1574.09s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

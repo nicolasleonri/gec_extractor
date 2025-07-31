@@ -63,15 +63,8 @@ class Binarization:
             ndarray: Binarized image.
         """
         gray = to_grayscale(image)
-        _, output = cv2.threshold(
-            gray, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-
-        if with_gaussian == True:
-            blur = cv2.GaussianBlur(gray, (5, 5), 0)
-            _, output = cv2.threshold(
-                blur, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-            return output
-
+        src = cv2.GaussianBlur(gray, (5, 5), 0) if with_gaussian else gray
+        _, output = cv2.threshold(src, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
         return output
 
     @staticmethod
@@ -356,6 +349,7 @@ class SkewCorrection:
 
 
 class NoiseRemoval:
+    """Provides several noise removal methods for correcting binarized images."""
     @staticmethod
     def none(image: ndarray) -> ndarray:
         return image
@@ -442,8 +436,7 @@ class NoiseRemoval:
             ndarray: Edge-enhanced image.
         """
         laplacian = cv2.Laplacian(image, cv2.CV_8U)
-        # Invert to highlight dark edges on light background
-        inverted_laplacian = 255 - laplacian
+        inverted_laplacian = 255 - laplacian # Invert to highlight dark edges on light background
         return inverted_laplacian
 
     @staticmethod
@@ -543,19 +536,14 @@ class ColumnExtraction:
             List[ndarray]: List of cropped column images as numpy arrays with complete coverage.
         """
 
-        # Invert image if text is white and background black
-        # We want text as black (0), background white (255)
         if np.mean(binary_img) < 128:
             binary_img = 255 - binary_img
 
-        # Sum pixels vertically (along rows), black pixels count per column
         vertical_sum = np.sum(binary_img == 0, axis=0)
 
-        # Threshold to find gaps: columns with very low black pixel count represent whitespace between columns
         threshold = np.max(vertical_sum) * 0.05  # tweak this if needed
         gaps = vertical_sum < threshold
 
-        # Find column boundaries (text regions)
         text_regions = []
         in_column = False
         start = 0
@@ -569,15 +557,12 @@ class ColumnExtraction:
                 if end - start >= min_col_width:
                     text_regions.append((start, end))
 
-        # Create crop boundaries that ensure complete coverage
         crop_boundaries = []
         image_width = binary_img.shape[1]
 
         if not text_regions:
-            # No columns detected, return entire image
             return [binary_img]
 
-        # Start from beginning of image
         current_pos = 0
 
         for i, (text_start, text_end) in enumerate(text_regions):
@@ -624,18 +609,14 @@ class ColumnExtraction:
         Returns:
             List[ndarray]: List of cropped row images as numpy arrays with complete coverage.
         """
-        # Invert image if text is white and background black
         if np.mean(binary_img) < 128:
             binary_img = 255 - binary_img
 
-        # Sum pixels horizontally (along columns), black pixels count per row
         horizontal_sum = np.sum(binary_img == 0, axis=1)
 
-        # Threshold to find gaps
         threshold = np.max(horizontal_sum) * 0.05
         gaps = horizontal_sum < threshold
 
-        # Find text regions (row boundaries)
         text_regions = []
         in_row = False
         start = 0
@@ -655,15 +636,12 @@ class ColumnExtraction:
             if end - start >= min_row_height:
                 text_regions.append((start, end))
 
-        # Create crop boundaries that ensure complete coverage
         crop_boundaries = []
         image_height = binary_img.shape[0]
 
         if not text_regions:
-            # No rows detected, return entire image
             return [binary_img]
 
-        # Start from beginning of image
         current_pos = 0
 
         for i, (text_start, text_end) in enumerate(text_regions):
@@ -732,15 +710,6 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str,
         new_filename = image_file.name.replace('.png', '.tiff')
         log_entry = f"File: {new_filename} - Config {idx}: {', '.join(techniques)} - Time needed: {time_elapsed}s\n"
 
-        # vertical_columns = ColumnExtraction.crop_vertical_columns(processed_image)
-        # for i, vert_col in enumerate(vertical_columns):
-        #     path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_vert_#{i}.png")
-        #     cv2.imwrite(path_file_columns, vert_col)
-        #     horizontal_columns = ColumnExtraction.crop_horizontal_columns(vert_col)
-        #     for j, hor_col in enumerate(horizontal_columns):
-        #         path_file_columns = os.path.join(new_folder, f"{image_file.stem}_config{idx}_hor_#{i}{j}.png")
-        #         cv2.imwrite(path_file_columns, hor_col)
-
         if crop_columns:
             new_folder = os.path.join(
                 processed_dir, f"{image_file.stem}_config{idx}")
@@ -751,7 +720,6 @@ def process_image_configuration(args: Tuple[Any, Path, Dict[str, Any], int, str,
             for i, vert_col in enumerate(vertical_columns):
                 path_file_columns = os.path.join(
                     new_folder, f"{image_file.stem}_config{idx}_vert_#{i}.tiff")
-                # cv2.imwrite(path_file_columns, vert_col)
 
                 horizontal_columns = ColumnExtraction.crop_horizontal_columns(vert_col)
                 for j, hor_col in enumerate(horizontal_columns):
@@ -893,77 +861,6 @@ def print_help() -> None:
     """
     print(help_text)
 
-    """
-    Crop columns from a preprocessed binary image.
-
-    Args:
-        binary_img: numpy array, binary image with text in black (0), background white (255).
-        min_col_width: minimum width in pixels to consider a column (filter noise).
-        debug: if True, shows intermediate images and plots.
-
-    Returns:
-        List of cropped column images as numpy arrays.
-    """
-
-    # Invert image if text is white and background black
-    # We want text as black (0), background white (255)
-    if np.mean(binary_img) < 128:
-        binary_img = 255 - binary_img
-
-    # Sum pixels vertically (along rows), black pixels count per column
-    vertical_sum = np.sum(binary_img == 0, axis=0)
-
-    # Normalize for visualization/debugging
-    norm_vertical_sum = (vertical_sum - vertical_sum.min()) / \
-        (vertical_sum.max() - vertical_sum.min())
-
-    # Threshold to find gaps: columns with very low black pixel count represent whitespace between columns
-    threshold = np.max(vertical_sum) * 0.05  # tweak this if needed
-    gaps = vertical_sum < threshold
-
-    # Find start/end indices of columns by detecting transitions in gaps
-    column_edges = []
-    in_column = False
-    for i, is_gap in enumerate(gaps):
-        if not is_gap and not in_column:
-            # start of column
-            start = i
-            in_column = True
-        elif is_gap and in_column:
-            # end of column
-            end = i
-            in_column = False
-            if end - start >= min_col_width:
-                column_edges.append((start, end))
-
-    # Handle case where column goes till end of image
-    if in_column:
-        end = len(gaps) - 1
-        if end - start >= min_col_width:
-            column_edges.append((start, end))
-
-    if debug:
-        import matplotlib.pyplot as plt
-        plt.figure(figsize=(15, 5))
-        plt.subplot(1, 2, 1)
-        plt.imshow(binary_img, cmap='gray')
-        plt.title("Binary Image")
-        plt.subplot(1, 2, 2)
-        plt.plot(vertical_sum)
-        for (s, e) in column_edges:
-            plt.axvline(s, color='r')
-            plt.axvline(e, color='r')
-        plt.title("Vertical Projection with Detected Columns")
-        plt.show()
-
-    # Crop columns from original image
-    columns = []
-    for start, end in column_edges:
-        col_img = binary_img[:, start:end]
-        columns.append(col_img)
-
-    return columns
-
 
 def main() -> None:
     """Main function to run preprocessing pipeline based on CLI arguments."""
@@ -1007,7 +904,6 @@ def main() -> None:
 
     # Define preprocessing methods
     binarization_methods = ["none", "basic", "otsu", "adaptive_mean", "adaptive_gaussian", ] # "yannihorne", "niblack"
-    # skew_correction_methods = ["boxes", "hough_transform", "topline", "scanline", "moments"]
     noise_removal_methods = ["none", "mean_filter", "gaussian_filter", "median_filter", "conservative_filter", "crimmins_speckle_removal", "laplacian_filter", "frequency_filter", "unsharp_filter"]
 
     # Generate all possible configurations
@@ -1019,9 +915,6 @@ def main() -> None:
                 (NoiseRemoval, noise_method)
             ]
         }
-        # for bin_method, skew_method, noise_method in itertools.product(
-        #     binarization_methods, skew_correction_methods, noise_removal_methods
-        # )
         for bin_method, noise_method in itertools.product(
             binarization_methods, noise_removal_methods
         )
