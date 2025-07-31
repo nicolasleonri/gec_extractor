@@ -162,6 +162,8 @@ class VLMProcessor:
                                 max_new_tokens=30000,
                                 num_return_sequences=1,
                                 do_sample=False,
+                                num_beams=3,
+                                early_stopping=True,
                             )
 
                     # Decode the output
