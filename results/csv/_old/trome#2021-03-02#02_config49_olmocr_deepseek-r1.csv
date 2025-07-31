@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"I should also consider the structure of the CSV. The first row is the header: ""headline""";"subheadline";"author";"content. Then each subsequent row represents an article with its respective info. If there are multiple articles in the image, I need to process each one separately.";"trome";"2021-03-02";"2"
-"   - The first row is the header: `""headline""";"subheadline";"author";"content`.";"trome";"2021-03-02";"2"

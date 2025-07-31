@@ -1,2 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"I also have to ensure that the CSV doesn't break by avoiding semicolons within fields and replacing them with commas if necessary. Each row must strictly follow the format: headline";"subheadline";"author";"content, all in double quotes.";"trome";"2021-03-02";"2"

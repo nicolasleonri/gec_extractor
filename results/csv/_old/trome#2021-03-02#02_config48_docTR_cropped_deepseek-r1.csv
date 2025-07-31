@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"After extracting all the necessary parts, I need to structure them into a CSV format. The first row is the header with ""headline""";"subheadline";"author";"content. Each subsequent row represents one article, with each field enclosed in double quotes and separated by semicolons. If there are any semicolons within the fields themselves, they should be replaced with commas to maintain the CSV structure.";"trome";"2021-03-02";"2"
-"   - Begin with the header row: `""headline""";"subheadline";"author";"content`.";"trome";"2021-03-02";"2"

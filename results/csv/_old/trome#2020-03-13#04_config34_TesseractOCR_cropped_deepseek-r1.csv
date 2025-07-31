@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"Now, thinking about the CSV format. The first row needs to be the header: ""headline""";"subheadline";"author";"content. Each subsequent row represents one article with these four fields enclosed in double quotes and separated by semicolons. If any field is missing, I replace it with ""NA"".";"trome";"2020-03-13";"4"
-"New Technology Breakthrough in Renewable Energy";"Scientists Discover Efficient Solar Panel Material";"Dr. Emily Green";"In a groundbreaking development, researchers have unveiled a new material that significantly enhances solar panel efficiency...";"trome";"2020-03-13";"4"

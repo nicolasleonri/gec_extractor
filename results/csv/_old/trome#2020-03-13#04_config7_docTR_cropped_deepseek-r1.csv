@@ -1,3 +1,0 @@
-"headline";"subheadline";"author";"content";"newspaper_name";"publication_date";"page_number"
-"Formatting-wise, the output needs to be a CSV with specific headers: ""headline""";"subheadline";"author";"content. Each field must be enclosed in double quotes, and semicolons are used as separators. Importantly, if any field contains a semicolon, it should be replaced with a comma to maintain the integrity of the CSV structure.";"trome";"2020-03-13";"4"
-"NA";"NA";"NA";"NA";"trome";"2020-03-13";"4"
