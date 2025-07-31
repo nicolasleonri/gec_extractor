@@ -11,9 +11,9 @@ results/images/**
 *.tiff
 
 # Ignore CSV outputs and test data
-./results/csv/extracted/*csv
-./results/csv/test/*csv
-./results/csv/_old/*csv
+results/csv/extracted/*.csv
+results/csv/test/*.csv
+results/csv/_old/*.csv
 
 # Ignore saved BERTopic models or other large model files
 results/models/**
