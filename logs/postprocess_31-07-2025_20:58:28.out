@@ -86,3 +86,52 @@ This is a friendly reminder - the current text generation call will exceed the m
 VLM detected, logging to OCR log.
 ✓ Progress: 23/45 (51.1%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config0.tiff with olmocr in 1574.09s
 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 24/45 (53.3%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config14.tiff with olmocr in 2552.5s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 25/45 (55.6%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config39.tiff with olmocr in 2556.37s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 26/45 (57.8%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config35.tiff with olmocr in 2560.37s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 27/45 (60.0%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config6.tiff with olmocr in 2598.97s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 28/45 (62.2%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config20.tiff with olmocr in 2641.62s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+Loading OCR results...
+Loaded 2 OCR results
+Starting multithreaded LLM postprocessing...
+Models to process: ['phi4']
+
+============================================================
+Starting multithreaded processing for model: phi4
+Total OCR results to process: 2
+Using 64 worker threads
+============================================================
+✓ Progress: 1/2 (50.0%) - Processed trome#2020-03-13#04.tiff with phi4 in 0.36s
+✓ Progress: 2/2 (100.0%) - Processed trome#2020-03-13#04.tiff with phi4 in 1.11s
+
+============================================================
+Completed processing for phi4
+Total processing time: 1.12 seconds
+Average time per result: 0.56 seconds
+
+Saving results to CSV files...
+✓ Results saved: ./results/csv/extracted/trome#2020-03-13#04_config15_olmocr_phi4.csv
+✓ Results saved: ./results/csv/extracted/trome#2020-03-13#04_config39_olmocr_phi4.csv
+✓ Successfully saved: 2 files
+✗ Errors encountered: 0 files
+============================================================
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+Total execution time: 1.12 seconds
+Models processed: 1
+Total OCR results per model: 2
+Total processing tasks: 2
+================================================================================

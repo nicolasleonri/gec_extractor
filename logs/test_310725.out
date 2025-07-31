@@ -1,2 +1,8 @@
 /data/gec_extractor/venv/postprocess/bin/activate: Succesfully activated.
 Running postprocess.py with --employ-vlms
+./run_ocr_pipeline.sh: line 42: 910264 Killed                  python3 -u "${arr2[$index]}" --employ-vlms >> "$LOG_FILE" 2>&1
+Running postprocess.py with --process-vlms-outputs
+/data/gec_extractor/venv/postprocess: Successfully deactivated.
+/data/gec_extractor/venv/evaluate/bin/activate: Succesfully activated.
+/data/gec_extractor/venv/evaluate: Successfully deactivated.
+Pipeline done!

@@ -10,11 +10,14 @@ Supports multithreaded processing and multiple model runs.
 Author: @nicolasleonri (GitHub)
 License: GPL
 """
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from utils_postprocessing import parse_ocr_results, extract_filename_and_config, log_processing_info, parse_image_results, image_to_base64png, log_processing_info_olmo
-from ollama import chat, ChatResponse
+from transformers import AutoTokenizer, AutoProcessor, AutoModelForImageTextToText, Qwen2VLForConditionalGeneration
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from qwen_vl_utils import process_vision_info
+from ollama import chat, ChatResponse
+from PIL import Image, ImageDraw
 import multiprocessing as mp
+from threading import Lock
 from csv import DictReader
 from io import StringIO
 from queue import Queue
@@ -26,13 +29,8 @@ import json
 import sys
 import csv
 import re
-from PIL import Image, ImageDraw
 import os
 import torch
-from threading import Lock
-from transformers import AutoProcessor, AutoModelForImageTextToText
-from transformers import AutoTokenizer, AutoProcessor, AutoModelForImageTextToText
-from transformers import AutoProcessor, Qwen2VLForConditionalGeneration
 
 def extract_code_block(text: str, language_hint: str = "") -> str:
     """Extracts a code block (e.g., CSV) from a markdown-formatted LLM response.
@@ -102,8 +100,6 @@ class VLMProcessor:
                     device_map="auto", 
                     attn_implementation="flash_attention_2")
                 self.model.eval()  # Set to evaluation mode
-                # self.model.tie_weights()
-                # self.model = self.model.to("cuda")  # or .half() if using FP16
 
                 self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, use_fast=True)
                 self.processor = AutoProcessor.from_pretrained(self.model_name, use_fast=True)
@@ -148,8 +144,6 @@ class VLMProcessor:
             # Process the image with thread safety
             with self._model_lock:
                 if self.model_name == "allenai/olmOCR-7B-0225-preview":
-                    # base64_png = image_to_base64png(image)
-                    # Build the full prompt
                     messages = [
                                 {
                                     "role": "user",
@@ -171,7 +165,7 @@ class VLMProcessor:
                     )
                     inputs = {key: value.to(self.device) for (key, value) in inputs.items()}
 
-                    # Generate the output
+                    # TODO: Play with these parameters
                     output = self.model.generate(
                                 **inputs,
                                 temperature=0.1,
@@ -225,7 +219,6 @@ class VLMProcessor:
                     ]
                     output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=True)
                     output_text = output_text[0] if output_text else ""
-                    # print(output_text)
                 else:
                     messages = [
                         {"role": "system", "content": "You are a helpful assistant."},
@@ -244,7 +237,6 @@ class VLMProcessor:
 
                     output_text = self.processor.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True)
                     output_text = output_text[0] if output_text else ""
-                    # print(output_text)
             return output_text
         
         except Exception as e:
@@ -252,7 +244,8 @@ class VLMProcessor:
             return f"Error processing image: {str(e)}"
         
         finally:
-            image.close()
+            if image:
+                image.close()
 
 class ollama:
     """Wrapper around Ollama-based LLMs for structured postprocessing of OCR content."""
@@ -293,7 +286,6 @@ class ollama:
             str: CSV string in markdown code block format.
         """
 
-        #TODO: Try different prompts in different languages
         prompt = """
         GOAL: Given the image, extract and structure the following information:
         - headline of the article (string or "NA")
@@ -393,7 +385,6 @@ def process_single_result(key: int, value: dict, model_name: str, model_display_
         else:
             log_processing_info(log_file_path, processed_filename, config_no, ocr_name, model_display_name, time_elapsed)
         
-        # Prepare result
         result = {
             'key': key,
             'value': value,
@@ -439,7 +430,6 @@ def progress_monitor(progress_queue: Queue, total_tasks: int, results_dict: dict
             result = progress_queue.get(timeout=1)
             completed += 1
             
-            # Thread-safe update of results
             with lock:
                 results_dict[result['key']] = result
             
@@ -540,12 +530,10 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
                 "publication_date": publication_date,
                 "page_number": page_number
             }
-            # Extract CSV content from LLM response
             data = extract_code_block(result['output'], language_hint="csv")
             f = StringIO(data)
             reader = csv.reader(f, delimiter=';', quotechar='"')
 
-            # Write CSV with extended metadata columns
             with open(file_name_csv, 'w', encoding='utf-8', newline='') as f:
                 writer = csv.writer(
                     f,
@@ -581,7 +569,6 @@ def save_results_to_csv(results_dict: dict, model_display_name: str) -> T.Tuple[
 
             error_count += 1
             
-            # Save empty CSV with the same filename and header
             try:
                 # Use the same filename construction as above
                 filename = os.path.splitext(os.path.basename(value['filepath']))[0]
@@ -650,12 +637,10 @@ def save_results_to_json(results_dict: dict, model_display_name: str) -> T.Tuple
                 "page_number": page_number
             }
             
-            # Parse JSON output
             try:
                 json_object = json.loads(result['output'])
             except (ValueError, json.JSONDecodeError) as e:
                 print(f"JSON Parse ERROR for {value['filepath']}: {e}")
-                # print(f"Original answer: {result['output']}")
                 error_count += 1
                 continue
 
@@ -688,19 +673,22 @@ def process_model_multithreaded(model_name: str, model_display_name: str, ocr_re
     Returns:
         dict: Result dictionary of processed entries.
     """
-
-    print(f"\n{'='*60}")
-    print(f"Starting multithreaded processing for model: {model_display_name}")
-    print(f"Total OCR results to process: {len(ocr_results)}")
-    print(f"Total Images to process: {len(img_results)}")
-    print(f"Using {max_workers} worker threads")
-    print(f"{'='*60}")
-    
     vlm_models = {
         "nanonets/Nanonets-OCR-s": "nanonets",
         "reducto/RolmOCR": "rolmocr",
         "allenai/olmOCR-7B-0225-preview": "olmocr",
     }
+
+    print(f"\n{'='*60}")
+    print(f"Starting multithreaded processing for model: {model_display_name}")
+    if model_name in vlm_models:
+        print(f"Total Images to process: {len(img_results)}")
+    else:
+        print(f"Total OCR results to process: {len(ocr_results)}")
+    # print(f"Total Images to process: {len(img_results)}")
+    print(f"Using {max_workers} worker threads")
+    print(f"{'='*60}")
+    
 
     # Determine actual input based on model type
     if model_name not in vlm_models:
@@ -766,7 +754,6 @@ def process_model_multithreaded(model_name: str, model_display_name: str, ocr_re
     
     print(f"\nSaving results to CSV files...")
     saved_count, error_count = save_results_to_csv(results_dict, model_display_name)
-    # saved_count, error_count = save_results_to_json(results_dict, model_display_name)
     
     print(f"✓ Successfully saved: {saved_count} files")
     print(f"✗ Errors encountered: {error_count} files")
@@ -776,35 +763,47 @@ def process_model_multithreaded(model_name: str, model_display_name: str, ocr_re
 
 def print_help() -> None:
     """Display usage instructions for the LLM postprocessing script."""
-    print("""
-    LLM Postprocessing Script (Newspaper OCR Pipeline)
-    --------------------------------------------------
+    help_text = """
+    LLM Postprocessing Script — Newspaper OCR Pipeline
+    ==================================================
 
-    This script uses Ollama to postprocess raw OCR-extracted text into structured data (CSV or JSON).
-    It extracts article headlines, subheadlines, authors, and content from `.txt` logs.
+    This script postprocesses OCR-extracted text using LLMs or VLMs to generate structured outputs (CSV or JSON).
+    It extracts article metadata: headline, subheadline, author, and content.
 
-    Usage:
-        python postprocess.py                            Run full postprocessing for all LLM models
-        python postprocess.py --employ-vlms              Use VLM models (OLM OCR, Rolm, Nanonets) to postprocess images
-        python postprocess.py --process-vlms-outputs     Postprocess output already generated by VLM models
-        python postprocess.py --test                     Run a unit test with a mock LLM output
-        python postprocess.py --help | -h                Show this help message
+    USAGE:
+        python postprocess.py                          Run postprocessing for all available LLM models
+        python postprocess.py --employ-vlms            Use VLM models (OLM OCR, RolmOCR, Nanonets) to process images
+        python postprocess.py --process-vlms-outputs   Convert previously extracted VLM outputs into structured data
+        python postprocess.py --test                   Run unit tests for validation
+        python postprocess.py --help | -h              Show this help message
 
-    Input:
-        ./results/txt/extracted/ocr_results_log.txt      ← from traditional OCR
-        ./results/txt/extracted/vlm_results_log.txt      ← from vision-language model (VLM) outputs (if --process-vlms-outputs)
-        ./results/images/preprocessed/                   ← preprocessed images for VLM use
+    INPUT FILES:
+        ./results/txt/extracted/ocr_results_log.txt       ← OCR logs from traditional text-based OCR
+        ./results/txt/extracted/vlm_results_log.txt       ← Outputs from vision-language models (VLMs)
+        ./results/images/preprocessed/                    ← Preprocessed input images for VLM models
 
-    Output:
-        ./results/csv/extracted/                         ← structured CSVs
-        ./results/txt/extracted/                         ← structured JSONs (optional)
+    OUTPUT FILES:
+        ./results/csv/extracted/                          ← Structured article CSV files
+        ./results/txt/extracted/                          ← Optional JSON outputs with metadata
 
-    Dependencies:
-        - Ollama (must be installed and running)
-        - Models must be available locally via Ollama
-        - VLMs supported: olmOCR, RolmOCR, Nanonets-OCR-s
-        - LLMs supported: phi4, qwen3, mistral-nemo, deepseek-r1, gemma3
-    """)
+    REQUIREMENTS:
+        - Ollama (installed and running locally)
+        - Models must be pulled and available in Ollama or Hugging Face
+
+    SUPPORTED MODELS:
+        VLMs:
+            - allenai/olmOCR-7B-0225-preview
+            - reducto/RolmOCR
+            - nanonets/Nanonets-OCR-s
+
+        LLMs via Ollama:
+            - phi4
+            - qwen3
+            - mistral-nemo
+            - deepseek-r1
+            - gemma3
+        """
+    print(help_text.strip())
 
 
 class TestPostprocessing(unittest.TestCase):
@@ -870,7 +869,7 @@ def main() -> None:
     else:
         models = {
         "phi4:14b": "phi4",
-        # "qwen3:32b": "qwen3", # TODO: Get a faster version, this one is slow
+        # "qwen3:32b": "qwen3", 
         # "mistral-nemo:12b": "mistral-nemo",
         # "deepseek-r1:32b": "deepseek-r1",
         # "gemma3:27b": "gemma3",
@@ -921,7 +920,7 @@ def main() -> None:
                 ocr_results, 
                 img_results,
                 max_workers=max_threads,
-                log_file_path=log_file_path  # Adjust based on your system capabilities
+                log_file_path=log_file_path 
             )
             all_results[model_display_name] = model_results
             

@@ -93,5 +93,5 @@ def parse_image_results(images_directory: str) -> Dict[int, Dict[str, Any]]:
             'text': ''  # Leave text empty for image-only entries
         }
 
-    print(f"Found {len(image_files)} images in {images_directory}")
+    # print(f"Found {len(image_files)} images in {images_directory}")
     return image_results
