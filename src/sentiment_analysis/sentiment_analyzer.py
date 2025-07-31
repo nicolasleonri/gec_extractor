@@ -10,7 +10,7 @@ import concurrent.futures
 from datasets import Dataset
 
 def main():
-    input_folder = "./results/csv/extracted/"
+    input_folder = "./results/csv/test/"
     results_dir = "./results/csv/"
     output_csv = os.path.join(results_dir, "results_sentiment.csv")
 
@@ -77,40 +77,65 @@ def main():
         print(f"Loading model: {model_name}")
         classifier = pipeline("text-classification", model=model_path, batch_size=64)
 
+        # def classify_batch(batch):
+        #     results = {}
+        #     for col in ["headline", "subheadline", "content"]:
+        #         texts = batch.get(col, [])
+        #         texts = [text if text is not None and text != "NA" else "" for text in texts]
+
+        #         preds = classifier(texts, truncation=True)
+
+        #         labels = [label_maps.get(model_name, {}).get(p["label"], p["label"]) for p in preds]
+        #         scores = [p["score"] for p in preds]
+
+        #         results[f"{col}_label"] = labels
+        #         results[f"{col}_score"] = scores
+        #     return results
+
         def classify_batch(batch):
-            results = {}
-            for col in ["headline", "subheadline", "content"]:
-                texts = batch.get(col, [])
-                texts = [text if text is not None and text != "NA" else "" for text in texts]
+            texts = batch.get("headline", [])
+            texts = [text if text is not None and text != "NA" else "" for text in texts]
 
-                preds = classifier(texts, truncation=True)
+            preds = classifier(texts, truncation=True)
 
-                labels = [label_maps.get(model_name, {}).get(p["label"], p["label"]) for p in preds]
-                scores = [p["score"] for p in preds]
+            labels = [label_maps.get(model_name, {}).get(p["label"], p["label"]) for p in preds]
+            scores = [p["score"] for p in preds]
 
-                results[f"{col}_label"] = labels
-                results[f"{col}_score"] = scores
-            return results
+            return {
+                "headline_label": labels,
+                "headline_score": scores
+            }
         
         # Run batch inference on dataset
         dataset = dataset.map(classify_batch, batched=True, batch_size=64)
 
         # Store the model's results in dict to merge later
+        # all_model_results[model_name] = {
+        #     col: {
+        #         "label": dataset[f"{col}_label"],
+        #         "score": dataset[f"{col}_score"]
+        #     }
+        #     for col in ["headline", "subheadline", "content"]
+        # }
+
         all_model_results[model_name] = {
-            col: {
-                "label": dataset[f"{col}_label"],
-                "score": dataset[f"{col}_score"]
+            "headline": {
+                "label": dataset["headline_label"],
+                "score": dataset["headline_score"]
             }
-            for col in ["headline", "subheadline", "content"]
         }
 
         del classifier
 
     # Now, add those results into df as columns
+    # for model_name, res in all_model_results.items():
+    #     for col in ["headline", "subheadline", "content"]:
+    #         df[f"{model_name}_{col}_label"] = res[col]["label"]
+    #         df[f"{model_name}_{col}_score"] = res[col]["score"]
+
     for model_name, res in all_model_results.items():
-        for col in ["headline", "subheadline", "content"]:
-            df[f"{model_name}_{col}_label"] = res[col]["label"]
-            df[f"{model_name}_{col}_score"] = res[col]["score"]
+        df[f"{model_name}_headline_label"] = res["headline"]["label"]
+        df[f"{model_name}_headline_score"] = res["headline"]["score"]
 
     print("🗳️ Aggregating majority votes and mean scores across models...")
     num_rows = len(next(iter(all_model_results.values()))["headline"]["label"])
@@ -123,9 +148,13 @@ def main():
 
     aggregated_results = {i: results[i] for i in range(num_rows)}
     
-    for col in ["headline", "subheadline", "content"]:
-        df[f"agreed_{col}_label"] = [aggregated_results[i][col]["label"] for i in range(len(df))]
-        df[f"agreed_{col}_score"] = [aggregated_results[i][col]["score"] for i in range(len(df))]
+    # for col in ["headline", "subheadline", "content"]:
+    #     df[f"agreed_{col}_label"] = [aggregated_results[i][col]["label"] for i in range(len(df))]
+    #     df[f"agreed_{col}_score"] = [aggregated_results[i][col]["score"] for i in range(len(df))]
+
+    df["agreed_headline_label"] = [aggregated_results[i]["headline"]["label"] for i in range(len(df))]
+    df["agreed_headline_score"] = [aggregated_results[i]["headline"]["score"] for i in range(len(df))]
+
 
     print(f"✅ Results written to: {output_csv}")
 

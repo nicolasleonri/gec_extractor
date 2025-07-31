@@ -133,17 +133,21 @@ def main() -> None:
             return None
         
     # print(final_results)
-    ocr_log_dict = parse_ocr_log('./results/txt/extracted/ocr_cropped_results_log.txt')
-    print(ocr_log_dict)
+    ocr_log_dict = parse_ocr_log('./results/txt/extracted/vlm_results_log.txt')
+    # for i, idx in enumerate(ocr_log_dict):
+    #     print(f"Log entry {i}: {idx}")
+
     pre_log_dict = parse_preprocessing_log('./logs/preprocess.out')
-    post_log_dict = parse_llm_logs_oneliner('./logs/postprocess.txt')
+    post_log_dict = parse_llm_logs_oneliner('./logs/postprocess_vlms.txt')
+
 
     def strip_extension(filename):
-        return filename.replace('.tiff', '').replace('.png', '')
+        return filename.replace('.tiff', '').replace('.jpg', '')
 
     for result in final_results:
         filename, config, ocr, llm = result[0], result[1], result[2], result[3]
         filename_stripped = strip_extension(filename)
+
 
         # Initialize extracted times
         pre_time_log = 0.0
@@ -158,9 +162,11 @@ def main() -> None:
 
         # Extract OCR time from logs
         for entry in ocr_log_dict:
+            # print(filename_stripped, config, ocr, llm)
+
             if (strip_extension(entry['filename']) == filename_stripped and
                 str(entry['config']) == str(config) and
-                entry['ocr'] == ocr):
+                str(entry['ocr']) == str(ocr)):
                 ocr_time_log = entry['time_needed']
                 break
 

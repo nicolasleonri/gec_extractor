@@ -50,8 +50,8 @@ do
     if [[ "${arr2[$index]}" == *"preprocess.py" ]]; then
         echo "Running preprocess.py with --global"
         python3 -u "${arr2[$index]}" --global >> "$LOG_FILE" 2>&1
-        echo "Running preprocess.py with --crop_columns"
-        python3 -u "${arr2[$index]}" --global --crop_columns >> "$LOG_FILE" 2>&1
+        # echo "Running preprocess.py with --crop_columns"
+        # python3 -u "${arr2[$index]}" --global --crop_columns >> "$LOG_FILE" 2>&1
     elif [[ "${arr2[$index]}" == *"ocr.py" ]]; then
         echo "Running ocr.py (default)"
         python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1

@@ -125,9 +125,25 @@ class VLMProcessor:
             image = Image.open(image_path).convert("RGB")
 
             prompt = """
-            Extract the text content from the newspaper image in an organized way. 
-            A LLM will process the text and extract structured information aferwards.
-            Do NOT add any Markdown formatting, just return the text content.
+            You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
+
+            CRITICAL REQUIREMENTS:
+            - Read every single word, number, date, and punctuation mark visible in the image
+            - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
+            - Preserve the original text layout and structure (headlines, paragraphs, columns)
+            - Maintain proper spacing between words and sentences
+            - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
+            - Handle multiple columns by reading left-to-right, top-to-bottom within each column
+            - Preserve special characters, accents, and non-English text exactly as shown
+            - Do NOT skip any text, even if partially obscured or small
+            - Do NOT add explanations, interpretations, or markdown formatting
+            - Do NOT summarize or paraphrase - extract the exact text as written
+            
+            Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
+            
+            WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
+            the entire OCR pipeline will fail and all downstream processing will be corrupted. 
+            Your response must contain ONLY the extracted text - nothing else.
             """
             # Process the image with thread safety
             with self._model_lock:
@@ -162,8 +178,8 @@ class VLMProcessor:
                                 max_new_tokens=30000,
                                 num_return_sequences=1,
                                 do_sample=False,
-                                num_beams=3,
-                                early_stopping=True,
+                                # num_beams=3,
+                                # early_stopping=True,
                             )
 
                     # Decode the output
@@ -839,8 +855,8 @@ def main() -> None:
     if '--employ-vlms' in sys.argv:
         models = {
         "allenai/olmOCR-7B-0225-preview": "olmocr",
-        "reducto/RolmOCR": "rolmocr",
-        "nanonets/Nanonets-OCR-s": "nanonets",
+        # "reducto/RolmOCR": "rolmocr",
+        # "nanonets/Nanonets-OCR-s": "nanonets",
         }
         print("\nLoading Image list...")
         images_directory = "./results/images/preprocessed"
@@ -856,7 +872,7 @@ def main() -> None:
         "phi4:14b": "phi4",
         # "qwen3:32b": "qwen3", # TODO: Get a faster version, this one is slow
         # "mistral-nemo:12b": "mistral-nemo",
-        "deepseek-r1:32b": "deepseek-r1",
+        # "deepseek-r1:32b": "deepseek-r1",
         # "gemma3:27b": "gemma3",
         # "llama3.3:70b": "llama3.3", # 43GB so not used!
         }

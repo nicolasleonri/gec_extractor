@@ -3,8 +3,12 @@ from utils_bertopic import *
 import os
 import plotly.io as fig
 from sentence_transformers import SentenceTransformer
+from sklearn.feature_extraction.text import CountVectorizer
 from collections import Counter
 import multiprocessing as mp
+from bertopic.representation import KeyBERTInspired
+from umap import UMAP
+from hdbscan import HDBSCAN
 import gc
 import torch
 import time
@@ -19,11 +23,69 @@ from pathlib import Path
 def run_single_model(documents, embedding_model_name, chunk_size=1000):    
     # Create fresh embedding model and BERTopic instance
     embedding_model = SentenceTransformer(embedding_model_name)
+
+    spanish_stopwords = [
+    'de', 'la', 'que', 'el', 'en', 'y', 'a', 'los', 'del', 'se', 'las', 'por',
+    'un', 'para', 'con', 'no', 'una', 'su', 'al', 'lo', 'como', 'más', 'pero',
+    'sus', 'le', 'ya', 'o', 'este', 'sí', 'porque', 'esta', 'entre', 'cuando',
+    'muy', 'sin', 'sobre', 'también', 'me', 'hasta', 'hay', 'donde', 'quien',
+    'desde', 'todo', 'nos', 'durante', 'todos', 'uno', 'les', 'ni', 'contra',
+    'otros', 'ese', 'eso', 'ante', 'ellos', 'e', 'esto', 'mí', 'antes', 'algunos',
+    'qué', 'unos', 'yo', 'otro', 'otras', 'otra', 'él', 'tanto', 'esa', 'estos',
+    'mucho', 'quienes', 'nada', 'muchos', 'cual', 'poco', 'ella', 'estar', 'estas',
+    'algunas', 'algo', 'nosotros', 'mi', 'mis', 'tú', 'te', 'ti', 'tu', 'tus',
+    'ellas', 'nosotras', 'vosostros', 'vosostras', 'os', 'mío', 'mía', 'míos',
+    'mías', 'tuyo', 'tuya', 'tuyos', 'tuyas', 'suyo', 'suya', 'suyos', 'suyas',
+    'nuestro', 'nuestra', 'nuestros', 'nuestras', 'vuestro', 'vuestra', 'vuestros',
+    'vuestras', 'esos', 'esas', 'estoy', 'estás', 'está', 'estamos', 'estáis',
+    'están', 'esté', 'estés', 'estemos', 'estéis', 'estén']
+
+    # Lightweight vectorizer with basic bigrams
+    vectorizer_model = CountVectorizer(
+        stop_words=spanish_stopwords,    # Swap for "spanish" or None if not English-based
+        ngram_range=(1, 2),
+        max_features=5000        # Limit vocab size to speed up
+    )
+
+    # Speed-tuned UMAP
+    umap_model = UMAP(
+        n_neighbors=10,          # Fewer neighbors = faster + tighter clusters
+        n_components=5,          # Reduce dimensions more aggressively
+        min_dist=0.25,           # Looser clustering
+        metric='cosine',
+        random_state=42
+    )
+
+
+    # # Define topics and their seed words
+    # seeded_topics = {
+    #     "sports": ["fútbol", "gol", "liga", "deporte"],
+    #     "politics": ["elecciones", "gobierno", "presidente"],
+    #     "health": ["virus", "salud", "hospital"],
+    # }
+
+    # # Faster HDBSCAN with slightly larger clusters
+    # hdbscan_model = HDBSCAN(
+    #     min_cluster_size=20,     # Controls topic granularity (20 = decent detail)
+    #     metric='euclidean',
+    #     min_samples=5,
+    #     prediction_data=True
+    # )
+
     model = BERTopic(
         embedding_model=embedding_model, 
         language="multilingual", 
-        calculate_probabilities=True
-    )
+        min_topic_size=10,                  # Filters out tiny clusters
+        top_n_words=10,                     # Words per topic
+        # seed_topic_list=list(seeded_topics.values()),
+        # representation_model=KeyBERTInspired(),
+        calculate_probabilities=True,
+        vectorizer_model=vectorizer_model,
+        umap_model=umap_model,
+        # hdbscan_model=hdbscan_model,
+        verbose=True,
+        low_memory=True  
+        )
 
     model_suffix = re.sub(r'\W+', '_', embedding_model_name.split('/')[-1])
     model_path = f"./results/models/bertopic_model_{model_suffix}"
@@ -54,6 +116,9 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
                 'topic_keywords': topic_keywords
             }
 
+            topic_info = model.get_topic_info()
+            print(topic_info.head())
+
             with open(pickle_file, "wb") as f:
                 pickle.dump(results, f)
     finally:
@@ -66,7 +131,7 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
 
 
 def main():
-    input_folder = "./results/csv/extracted/"
+    input_folder = "./results/csv/test/"
     results_dir = "./results/csv/"
     output_csv = os.path.join(results_dir, "results_topics.csv")
 

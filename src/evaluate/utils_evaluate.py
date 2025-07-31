@@ -23,8 +23,29 @@ import csv
 import re
 
 def parse_ocr_log(file_path):
-    """Parse OCR logs in one line"""
-    return [{'filename': m.group(1), 'config': m.group(2), 'ocr': m.group(3), 'time_needed': float(m.group(4))} for line in open(file_path, 'r', encoding='utf-8') if (m := re.search(r'File: (.*?) - Config: (.*?) - OCR: (.*?) - Time needed: (.*?) - \[(.*?)\]', line.strip()))]
+    """Parse OCR logs using a for loop"""
+    print(file_path)
+    results = []
+    
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            match = re.search(r'File: (.*?) - Config: (.*?) - OCR: (.*?) - Time needed: (.*?) - \[', line.strip())
+            # match = re.search(r'File: (.*?) - Config: (.*?) - OCR: (.*?) - Time needed: (.*?) - \[(.*?)\]', line.strip())
+            if match:
+                # Clean time_needed value - remove trailing 's' if present
+                time_str = match.group(4)
+                if time_str.endswith('s'):
+                    time_str = time_str[:-1]
+
+                entry = {
+                    'filename': match.group(1),
+                    'config': match.group(2),
+                    'ocr': match.group(3),
+                    'time_needed': float(time_str)
+                }
+                results.append(entry)
+    
+    return results
 
 def parse_preprocessing_log(file_path):
     """Parse preprocessing logs in one line"""
@@ -176,7 +197,7 @@ def preprocess_data(gold_data: list, eval_data: list) -> list:
 
     return results
 
-def prepare_for_sklearn_metrics(comparison_results: list, similarity_threshold: float = 0.8):
+def prepare_for_sklearn_metrics(comparison_results: list, similarity_threshold: float = 0.75):
     """Converts similarity results into binary labels for metric calculation."""
     y_true = []
     y_pred = []

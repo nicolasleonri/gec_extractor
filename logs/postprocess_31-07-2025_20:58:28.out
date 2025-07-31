@@ -1,0 +1,78 @@
+
+Loading Image list...
+Found 45 images in ./results/images/preprocessed
+Starting multithreaded LLM postprocessing...
+Models to process: ['olmocr']
+
+============================================================
+Starting multithreaded processing for model: olmocr
+Total OCR results to process: 90
+Total Images to process: 45
+Using 64 worker threads
+============================================================
+Loading allenai/olmOCR-7B-0225-preview
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.55s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:05,  2.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.66s/it]
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+Successfully loaded allenai/olmOCR-7B-0225-preview
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 1/45 (2.2%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config2.tiff with olmocr in 43.34s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 2/45 (4.4%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config27.tiff with olmocr in 47.51s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 3/45 (6.7%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config18.tiff with olmocr in 91.02s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 4/45 (8.9%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config22.tiff with olmocr in 133.36s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 5/45 (11.1%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config21.tiff with olmocr in 181.33s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 6/45 (13.3%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config44.tiff with olmocr in 193.98s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 7/45 (15.6%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config17.tiff with olmocr in 240.93s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 8/45 (17.8%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config15.tiff with olmocr in 282.21s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 9/45 (20.0%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config3.tiff with olmocr in 326.76s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 10/45 (22.2%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config9.tiff with olmocr in 369.03s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 11/45 (24.4%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config19.tiff with olmocr in 411.88s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 12/45 (26.7%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config41.tiff with olmocr in 415.99s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 13/45 (28.9%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config28.tiff with olmocr in 419.61s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 14/45 (31.1%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config1.tiff with olmocr in 461.9s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 15/45 (33.3%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config12.tiff with olmocr in 492.75s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 16/45 (35.6%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config26.tiff with olmocr in 535.56s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 17/45 (37.8%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config36.tiff with olmocr in 547.49s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 18/45 (40.0%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config42.tiff with olmocr in 551.27s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 19/45 (42.2%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config31.tiff with olmocr in 555.24s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+VLM detected, logging to OCR log.
+✓ Progress: 20/45 (44.4%) - Processed ./results/images/preprocessed/trome#2020-03-13#04_config32.tiff with olmocr in 559.24s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
