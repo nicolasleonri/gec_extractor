@@ -95,3 +95,32 @@ def parse_image_results(images_directory: str) -> Dict[int, Dict[str, Any]]:
 
     # print(f"Found {len(image_files)} images in {images_directory}")
     return image_results
+
+def load_shared_inputs(ocr_log_path: str):
+    ocr_results = parse_ocr_results(os.path.join(os.getcwd(), ocr_log_path))
+    img_results = parse_image_results("./results/images/preprocessed")
+    print(f"Loaded {len(ocr_results)} OCR results")
+    return ocr_results, img_results
+
+def extract_code_block(text: str, language_hint: str = "") -> str:
+    """Extracts a code block (e.g., CSV) from a markdown-formatted LLM response.
+
+    Args:
+        text (str): Full response string from LLM.
+        language_hint (str, optional): Language label to look for (e.g., "csv").
+
+    Returns:
+        str: Cleaned code block string (e.g., CSV content).
+    """
+    if language_hint:
+        pattern_lang = rf"```{language_hint}\n(.*?)```"
+        match = re.search(pattern_lang, text, re.DOTALL)
+        if match:
+            return match.group(1).strip()
+
+    pattern_any = r"```(?:\w+\n)?(.*?)```"
+    match = re.search(pattern_any, text, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+
+    return text.strip()
