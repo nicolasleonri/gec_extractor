@@ -1,61 +1,69 @@
-# Newspaper OCR Pipeline
-This project extracts structured data from newspaper page images using a multi-stage pipeline:
-1. 🧼 **Preprocessing** — binarizes, deskews, and denoises images
-2. 🧠 **OCR Extraction** — applies multiple OCR models (Tesseract, etc.)
-3. 🤖 **Postprocessing with LLMs** — uses Ollama-based models to structure text into CSV
-4. 📊 **Evaluation** — automatically scores LLM output against ground truth using F1, precision, recall
----
+# cOCRomla: Framework for OCR and Computational Linguistic Analysis
+A complete pipeline for transforming (newspaper) images into structured linguistic data with built-in evaluation.
 
-## 🔁 Pipeline Overview
+## 🌟 Key Features
+- **Multi-stage processing**: Image → Text → Structured Data → Analysis
+- **Modular design**: Swap OCR engines, LLMs, or analyzers
+- **Computational linguistics**: Built-in topic modeling & sentiment analysis
+- **Evaluation suite**: Precision, recall, and F1 metrics
 
-| Stage         | Description                                        | Output                            |
-|---------------|----------------------------------------------------|-----------------------------------|
-| Preprocessing | Enhances image quality for OCR                    | Cleaned `.tiff` images            |
-| OCR           | Extracts raw text using multiple engines          | `.txt` files + log                |
-| Postprocessing| Converts OCR text to structured CSV via LLMs      | `.csv` (or `.json`) per article   |
-| Evaluation    | Measures similarity between predictions and gold labels (headline, content, etc.) | `.csv` with F1/precision/recall  |
----
+## 🔄 Pipeline Overview
 
-## 📦 Folder Structure
+| Stage | Description | Output |
+|-------|-------------|--------|
+| 🖼️ Preprocessing | Image enhancement (binarization, deskewing, noise removal) | Processed `.tiff` images |
+| 🔤 OCR Extraction | Multi-engine text recognition (Tesseract, EasyOCR, PaddleOCR) | Raw `.txt` files with OCR results |
+| 🧠 LLM Structuring | Text normalization & structuring using Ollama LLMs (phi4, llama4, etc.) | Structured `.csv`/`.json` per image (article) |
+| 📊 Quality Evaluation | Comparison against gold standard using fuzzy matching (accuracy, F1, precision, recall) | `evaluation.csv` with metrics |
+| 🌐 Semantic Analysis | Topic modeling via ensemble of Spanish BERT embeddings | `topics.csv` with topic clusters |
+| 😊 Sentiment Analysis | Majority voting across Spanish sentiment models (SaBERT, Robertuito, UMUTeam) | `sentiment.csv` with labels/scores |
 
-```
-/data/images/                     → Raw input images
-/results/images/preprocessed/     → Generated preprocessed image outputs
-/results/txt/extracted/           → Generated raw OCR `.txt` or `.json`
-/results/csv/extracted/           → Final structured CSV output
-/results/csv/evaluation.csv       → Evaluation results (F1, etc.)
-/logs/                            → Saved logs
-/scripts/                         → Core pipeline scripts
-/docs/                            → Script-specific documentation
-/requirements/*.txt               → Dependencies for each script
-```
+## 🛠️ Installation
 
----
-
-## 🚀 Quick Start
-
-0. **Install dependencies**
 ```bash
-pip3 install -r requirements/<script>_requirements.txt
+# 1) Clone repository
+# 2) Install CUDA, Ollama and tesseract
+./setup/install_cuda_toolkit+drivers.sh
+./setup/install_ollama.sh
+./setup/install_tesseract.sh
+# 3) # Install all dependencies for the complete pipeline:
+cat requirements/*_requirements.txt | sort -u > requirements/all.txt
+pip install -r requirements/all.txt
+# If not, check ./requirements/{}_requirements.txt
+# 4) Verify installations
+# 5) Read the → Script-specific documentation: ./docs/{}.md
 ```
 
-1. **Run scripts independently**
+## 🖼️ Preprocessing → 📊 Quality Evaluation: Images to structured text
+
+### Folder structure
+
+```
+/data/
+├── images/ # Raw input (newspapers) images (.png, .tiff)
+├── csv/ # Gold standards annotations for evaluation (.csv)
+/results/
+├── images/preprocessed/ # Enhanced images (.tiff)
+├── txt/extracted/ # Raw OCR outputs (.txt)
+├── csv/extracted/ # Structured output (articles) text (.csv)
+├── csv/evaluation.csv # Quality metrics (F1 and Accuracy)
+```
+
+### Quick Start
+
 ```bash
-python3 src/preprocess/preprocess.py
-python3 src/ocr/ocr.py
-python3 src/postprocess/postprocess.py
-python3 src/evaluate/evaluate.py
+# Run complete workflow:
+chmod +x ./run_ocr_pipeline.sh
+./run_ocr_pipeline.sh.sh 
+
+# Or run stages manually:
+python3 src/preprocess/preprocess.py --help
+python3 src/ocr/ocr.py --help
+python3 src/postprocess/postprocess.py --help
+python3 src/evaluate/evaluate.py --help
 ```
 
-**OR:**
-
-1. **Run Pipeline in a single Bash-script**
-```bash
-chmod +x run_ocr_pipeline.sh
-./run_ocr_pipeline.sh
-```
-
-## 📊 Evaluation Metrics
+### Evaluation Metrics (based on CGEC13-22)
 
 Each article’s `headline`, `subheadline`, and `content` fields are compared against gold labels using fuzzy string similarity (via `difflib`). Predictions are converted to binary matches and evaluated using:
 
@@ -66,25 +74,31 @@ Each article’s `headline`, `subheadline`, and `content` fields are compared ag
 
 Results are saved to: `./results/csv/evaluation.csv`
 
-## 📢 Get quick help
+### Requirements
 
-1. **Get help for each script**
-```bash
-python <script>.py --help
-```
-
-2. **Run unit tests**
-```bash
-python <script>.py --test
-```
----
-
-## 🧪 Requirements
-
-- Python 3.10+
+- Python 3.10+ and dependencies
 - Tesseract (installed locally)
 - Ollama (installed locally and initialized)
-- Dependencies (see `/requirements/*.txt`)
+
+## 🌐 Semantic Analysis: Structured text to topics
+
+### Sample Output
+
+```
+document_id,text,agreed_topic,agreed_topic_label,confidence
+1,"El Barcelona ganó...",12,"Deportes, fútbol, liga",0.92
+2,"El presidente anunció...",34,"Política, gobierno",0.87
+```
+
+## 😊 Sentiment Analysis: Structured text to label and score
+
+### Sample Output
+
+```
+article_id,text,agreed_label,agreed_score,sabert_label,robertuito_score
+1,"El mercado sube...","Positive",0.91,POS,0.94
+2,"Crisis económica...","Negative",0.87,NEG,0.82
+```
 
 ---
 
