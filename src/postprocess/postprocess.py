@@ -946,8 +946,8 @@ class TestPostprocessing(unittest.TestCase):
 def employ_vlms(args) -> None:
     models = {
         "allenai/olmOCR-7B-0225-preview": "olmocr",
-        # "reducto/RolmOCR": "rolmocr",
-        # "nanonets/Nanonets-OCR-s": "nanonets",
+        "reducto/RolmOCR": "rolmocr",
+        "nanonets/Nanonets-OCR-s": "nanonets",
     }
     print("\nLoading Image list...")
     images_directory = "./results/images/preprocessed"
