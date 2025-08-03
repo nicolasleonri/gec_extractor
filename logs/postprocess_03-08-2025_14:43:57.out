@@ -1,0 +1,38 @@
+
+Loading Image list...
+Starting multithreaded LLM postprocessing...
+Models to process: ['olmocr', 'rolmocr', 'nanonets']
+
+============================================================
+Starting **multiprocessing** for model: olmocr
+Total items to process: 180
+Using 4 worker processes
+============================================================
+olmocr Progress:   0%|          | 0/180 [00:00<?, ?it/s]You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+[olmocr] Initializing VLMProcessor
+Loading allenai/olmOCR-7B-0225-preview
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  9.65it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 26.23it/s]
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+[olmocr] Initializing VLMProcessor
+Loading allenai/olmOCR-7B-0225-preview
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  5.95it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 16.29it/s]
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+[olmocr] Initializing VLMProcessor
+Loading allenai/olmOCR-7B-0225-preview
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s][olmocr] Initializing VLMProcessor
+Loading allenai/olmOCR-7B-0225-preview
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  9.37it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  9.31it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 25.76it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 25.63it/s]
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+olmocr Progress:   1%|          | 1/180 [00:16<49:18, 16.53s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+olmocr Progress:   1%|          | 2/180 [01:51<3:06:47, 62.96s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+olmocr Progress:   2%|▏         | 3/180 [02:03<1:56:25, 39.47s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+olmocr Progress:   2%|▏         | 4/180 [02:06<1:13:43, 25.14s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
