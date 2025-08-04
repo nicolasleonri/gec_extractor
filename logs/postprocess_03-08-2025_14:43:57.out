@@ -1,77 +1,0 @@
-
-Loading Image list...
-Starting multithreaded LLM postprocessing...
-Models to process: ['olmocr', 'rolmocr', 'nanonets']
-
-============================================================
-Starting **multiprocessing** for model: olmocr
-Total items to process: 180
-Using 4 worker processes
-============================================================
-olmocr Progress:   0%|          | 0/180 [00:00<?, ?it/s]You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-[olmocr] Initializing VLMProcessor
-Loading allenai/olmOCR-7B-0225-preview
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  9.65it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 26.23it/s]
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-[olmocr] Initializing VLMProcessor
-Loading allenai/olmOCR-7B-0225-preview
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  5.95it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 16.29it/s]
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
-[olmocr] Initializing VLMProcessor
-Loading allenai/olmOCR-7B-0225-preview
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s][olmocr] Initializing VLMProcessor
-Loading allenai/olmOCR-7B-0225-preview
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  9.37it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  9.31it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 25.76it/s]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 25.63it/s]
-You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
-You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
-You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
-You have video processor config saved in `preprocessor.json` file which is deprecated. Video processor configs should be saved in their own `video_preprocessor.json` file. You can rename the file or load and save the processor back which renames it automatically. Loading from `preprocessor.json` will be removed in v5.0.
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   1%|          | 1/180 [00:16<49:18, 16.53s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   1%|          | 2/180 [01:51<3:06:47, 62.96s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   2%|▏         | 3/180 [02:03<1:56:25, 39.47s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   2%|▏         | 4/180 [02:06<1:13:43, 25.14s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (32768). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
-olmocr Progress:   3%|▎         | 5/180 [43:34<44:24:01, 913.38s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (32768). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
-This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (32768). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
-This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (32768). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
-olmocr Progress:   3%|▎         | 6/180 [45:39<31:10:51, 645.13s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   4%|▍         | 7/180 [45:48<21:00:49, 437.28s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   4%|▍         | 8/180 [45:54<14:19:40, 299.89s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   5%|▌         | 9/180 [45:58<9:51:01, 207.38s/it] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   6%|▌         | 10/180 [46:28<7:12:15, 152.56s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   6%|▌         | 11/180 [46:32<5:02:12, 107.29s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   7%|▋         | 12/180 [46:46<3:40:31, 78.76s/it] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   7%|▋         | 13/180 [47:18<2:59:52, 64.63s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   8%|▊         | 14/180 [47:54<2:34:39, 55.90s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   8%|▊         | 15/180 [48:12<2:02:17, 44.47s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   9%|▉         | 16/180 [48:15<1:27:51, 32.15s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:   9%|▉         | 17/180 [1:26:49<32:31:04, 718.19s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  10%|█         | 18/180 [1:29:11<24:32:00, 545.19s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  11%|█         | 19/180 [1:29:13<17:04:45, 381.89s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  11%|█         | 20/180 [1:29:16<11:55:13, 268.21s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  12%|█▏        | 21/180 [1:29:18<8:18:38, 188.17s/it] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  12%|█▏        | 22/180 [1:29:33<5:59:11, 136.40s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  13%|█▎        | 23/180 [1:29:35<4:11:00, 95.92s/it] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  13%|█▎        | 24/180 [1:29:52<3:07:48, 72.23s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  14%|█▍        | 25/180 [1:30:33<2:42:18, 62.83s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  14%|█▍        | 26/180 [1:30:37<1:56:26, 45.37s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  15%|█▌        | 27/180 [1:31:08<1:44:05, 40.82s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  16%|█▌        | 28/180 [1:32:17<2:05:29, 49.54s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  16%|█▌        | 29/180 [1:32:22<1:30:24, 35.92s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  17%|█▋        | 30/180 [1:33:05<1:35:30, 38.21s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  17%|█▋        | 31/180 [1:34:06<1:51:59, 45.10s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  18%|█▊        | 32/180 [1:35:01<1:58:02, 47.85s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  18%|█▊        | 33/180 [1:35:48<1:56:37, 47.60s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  19%|█▉        | 34/180 [1:37:44<2:46:14, 68.32s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  19%|█▉        | 35/180 [1:38:29<2:28:18, 61.37s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  20%|██        | 36/180 [1:38:38<1:49:37, 45.68s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  21%|██        | 37/180 [1:38:47<1:22:14, 34.51s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  21%|██        | 38/180 [2:12:09<24:38:26, 624.69s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-olmocr Progress:  22%|██▏       | 39/180 [2:13:02<17:45:27, 453.39s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.

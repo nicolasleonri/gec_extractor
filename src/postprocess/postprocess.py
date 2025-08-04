@@ -846,6 +846,12 @@ def process_model_multiprocessed(model_name: str, model_display_name: str,
             results.append(res)
 
     results_dict = {res['key']: res for res in results}
+
+    # TODO: Add saving results to CSV or JSON
+    # print(f"\nSaving results to CSV files...")
+    # saved_count, error_count = save_results_to_csv(
+    #     results_dict, model_display_name)
+        
     print(f"✓ Completed multiprocessing for {model_display_name}")
     return results_dict
 

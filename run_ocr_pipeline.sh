@@ -65,7 +65,7 @@ do
         echo "Running postprocess.py with --employ-vlms"
         python3 -u "${arr2[$index]}" --employ-vlms --multi >> "$LOG_FILE" 2>&1
         echo "Running postprocess.py with --process-vlms-outputs"
-        python3 -u "${arr2[$index]}" --employ-llms --process-vlms-outputs --multi >> "$LOG_FILE" 2>&1
+        python3 -u "${arr2[$index]}" --employ-llms --process-vlms-outputs >> "$LOG_FILE" 2>&1
     else
         python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
     fi
