@@ -379,7 +379,20 @@ def process_single_result(key: int, value: dict, model_name: str, model_display_
             ocr_name = str(model_display_name)
             processed_filename, config_no = extract_filename_and_config(
                 value['filepath'])
-            structured_results = model_input.extract_test_results_as_csv(
+            
+            if 'cropped_folder_flag' in value:
+                filepath_without_suffix = os.path.splitext(value['filepath'])[0]
+                image_paths = parse_image_results(filepath_without_suffix)
+                file_list = []
+                for idx, val in enumerate(image_paths.values()):
+                    file_list.append(val['filepath'])
+                all_results = []
+                for val in file_list:
+                    result = model_input.extract_test_results_as_csv(val)
+                    all_results.append(result)
+                structured_results = " ".join(all_results)
+            else:
+                structured_results = model_input.extract_test_results_as_csv(
                 value['filepath'])
 
         end = time.time()
@@ -818,7 +831,9 @@ def process_worker(args):
 def process_model_multiprocessed(model_name: str, model_display_name: str,
                                  ocr_results: dict, img_results: dict,
                                  num_processes: int = None,
-                                 log_file_path: str = "None") -> dict:
+                                 log_file_path: str = "None",
+                                 cropped_folder_flag: bool = False) -> dict:
+    
     vlm_models = {
         "nanonets/Nanonets-OCR-s": "nanonets",
         "reducto/RolmOCR": "rolmocr",
@@ -839,8 +854,12 @@ def process_model_multiprocessed(model_name: str, model_display_name: str,
     ) as pool:
         keys = list(actual_input.keys())
         values = list(actual_input.values())
-        jobs = zip(keys, values)
 
+        if cropped_folder_flag:
+            for value in values:
+                value['cropped_folder_flag'] = cropped_folder_flag
+
+        jobs = zip(keys, values)
         results = []
         for res in tqdm(pool.imap_unordered(process_worker, jobs), total=len(actual_input), desc=f"{model_display_name} Progress"):
             results.append(res)
@@ -950,6 +969,9 @@ class TestPostprocessing(unittest.TestCase):
 
 
 def employ_vlms(args) -> None:
+    global cropped_folder_flag 
+    cropped_folder_flag = False
+
     models = {
         "allenai/olmOCR-7B-0225-preview": "olmocr",
         "reducto/RolmOCR": "rolmocr",
@@ -958,6 +980,11 @@ def employ_vlms(args) -> None:
     print("\nLoading Image list...")
     images_directory = "./results/images/preprocessed"
     img_results = parse_image_results(images_directory)
+
+    # TODO: Read cropped OCR results if --cropped_folder is set
+    if args.cropped_folder:
+        cropped_folder_flag = True
+
     ocr_results = parse_ocr_results(os.path.join(
         os.getcwd(), "./results/txt/extracted/ocr_results_log.txt"))
     if os.path.exists("./results/txt/extracted/vlm_results_log.txt"):
@@ -969,9 +996,9 @@ def employ_vlms(args) -> None:
 
 def employ_llms(args) -> None:
     models = {
-        "phi4:14b": "phi4",
+        # "phi4:14b": "phi4",
         # "qwen3:32b": "qwen3",
-        # "mistral-nemo:12b": "mistral-nemo",
+        "mistral-nemo:12b": "mistral-nemo",
         # "deepseek-r1:32b": "deepseek-r1",
         # "gemma3:27b": "gemma3",
         # "llama3.3:70b": "llama3.3", # 43GB so not used!
@@ -1010,13 +1037,15 @@ def main(models, img_results, ocr_results, log_file_path, args) -> None:
     for model_name, model_display_name in models.items():
         try:
             if args.multi:
+                # print(cropped_folder_flag)
                 model_results = process_model_multiprocessed(
                     model_name,
                     model_display_name,
                     ocr_results,
                     img_results,
-                    num_processes=4,  # or None for auto
-                    log_file_path=log_file_path
+                    num_processes=3,  # or None for auto
+                    log_file_path=log_file_path,
+                    cropped_folder_flag=cropped_folder_flag
                 )
             else:
                 model_results = process_model_multithreaded(

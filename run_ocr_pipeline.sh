@@ -20,19 +20,19 @@ source_or_setup_venv() {
     }
 
 declare -a arr=(
-"$SCRIPT_DIR/venv/preprocess" 
+# "$SCRIPT_DIR/venv/preprocess" 
 # "$SCRIPT_DIR/venv/ocr"
 "$SCRIPT_DIR/venv/postprocess"
 "$SCRIPT_DIR/venv/evaluate")
 
 declare -a arr2=(
-"$SCRIPT_DIR/src/preprocess/preprocess.py" 
+# "$SCRIPT_DIR/src/preprocess/preprocess.py" 
 # "$SCRIPT_DIR/src/ocr/ocr.py"
 "$SCRIPT_DIR/src/postprocess/postprocess.py"
 "$SCRIPT_DIR/src/evaluate/evaluate.py")
 
 declare -a arr3=(
-"$SCRIPT_DIR/requirements/preprocess_requirements.txt" 
+# "$SCRIPT_DIR/requirements/preprocess_requirements.txt" 
 # "$SCRIPT_DIR/requirements/ocr_requirements.txt"
 "$SCRIPT_DIR/requirements/postprocess_requirements.txt"
 "$SCRIPT_DIR/requirements/evaluate_requirements.txt")
@@ -50,8 +50,8 @@ do
     if [[ "${arr2[$index]}" == *"preprocess.py" ]]; then
         echo "Running preprocess.py with --global"
         python3 -u "${arr2[$index]}" --global >> "$LOG_FILE" 2>&1
-        # echo "Running preprocess.py with --crop_columns"
-        # python3 -u "${arr2[$index]}" --global --crop_columns >> "$LOG_FILE" 2>&1
+        echo "Running preprocess.py with --crop_columns"
+        python3 -u "${arr2[$index]}" --global --crop_columns >> "$LOG_FILE" 2>&1
     elif [[ "${arr2[$index]}" == *"ocr.py" ]]; then
         echo "Running ocr.py (default)"
         python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
@@ -62,8 +62,10 @@ do
         # python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
         # echo "Running postprocess.py with --cropped_folder"
         # python3 -u "${arr2[$index]}" --cropped_folder >> "$LOG_FILE" 2>&1
-        echo "Running postprocess.py with --employ-vlms"
-        python3 -u "${arr2[$index]}" --employ-vlms --multi >> "$LOG_FILE" 2>&1
+        # echo "Running postprocess.py with --employ-vlms"
+        # python3 -u "${arr2[$index]}" --employ-vlms --multi >> "$LOG_FILE" 2>&1
+        # echo "Running postprocess.py with --employ-vlms and --crop_folders"
+        # python3 -u "${arr2[$index]}" --employ-vlms --multi --cropped_folder >> "$LOG_FILE" 2>&1
         echo "Running postprocess.py with --process-vlms-outputs"
         python3 -u "${arr2[$index]}" --employ-llms --process-vlms-outputs >> "$LOG_FILE" 2>&1
     else
