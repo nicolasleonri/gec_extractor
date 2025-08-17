@@ -1,0 +1,19 @@
+Loaded 288 OCR results
+Starting multithreaded LLM postprocessing...
+Models to process: ['mistral-nemo']
+
+============================================================
+Starting multithreaded processing for model: mistral-nemo
+Total OCR results to process: 288
+Using 64 worker threads
+============================================================
+✓ Progress: 1/288 (0.3%) - Processed gestion#2017-05-15#04.tiff with mistral-nemo in 19.75s
+✓ Progress: 2/288 (0.7%) - Processed gestion#2017-05-15#04.tiff with mistral-nemo in 34.41s
+✓ Progress: 3/288 (1.0%) - Processed gestion#2014-06-02#01.tiff with mistral-nemo in 35.75s
+✓ Progress: 4/288 (1.4%) - Processed gestion#2014-06-02#01.tiff with mistral-nemo in 31.1s
+✓ Progress: 5/288 (1.7%) - Processed gestion#2019-07-12#01.tiff with mistral-nemo in 32.68s
+✓ Progress: 6/288 (2.1%) - Processed gestion#2019-07-12#01.tiff with mistral-nemo in 38.89s
+✓ Progress: 7/288 (2.4%) - Processed gestion#2014-06-02#01.tiff with mistral-nemo in 42.32s
+✓ Progress: 8/288 (2.8%) - Processed gestion#2014-06-02#01.tiff with mistral-nemo in 46.73s
+✓ Progress: 9/288 (3.1%) - Processed gestion#2017-05-15#04.tiff with mistral-nemo in 55.67s
+✓ Progress: 10/288 (3.5%) - Processed gestion#2015-09-10#04.tiff with mistral-nemo in 64.31s

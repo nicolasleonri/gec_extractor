@@ -1,0 +1,13 @@
+Loaded 288 OCR results
+Starting multithreaded LLM postprocessing...
+Models to process: ['deepseek-r1']
+
+============================================================
+Starting multithreaded processing for model: deepseek-r1
+Total OCR results to process: 288
+Using 64 worker threads
+============================================================
+✓ Progress: 1/288 (0.3%) - Processed gestion#2017-05-15#04.tiff with deepseek-r1 in 55.93s
+✓ Progress: 2/288 (0.7%) - Processed gestion#2017-05-15#04.tiff with deepseek-r1 in 57.72s
+✓ Progress: 3/288 (1.0%) - Processed gestion#2014-06-02#01.tiff with deepseek-r1 in 100.63s
+✓ Progress: 4/288 (1.4%) - Processed gestion#2014-06-02#01.tiff with deepseek-r1 in 57.17s

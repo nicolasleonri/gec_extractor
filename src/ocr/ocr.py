@@ -15,11 +15,11 @@ License: GPL
 """
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Callable, Dict, List, Union
-from doctr.models import ocr_predictor
+# from doctr.models import ocr_predictor
 from utils_ocr import get_image_files, wait_for_gpu_memory
-from doctr.io import DocumentFile
+# from doctr.io import DocumentFile
 from tempfile import NamedTemporaryFile
-from paddleocr import PaddleOCR
+# from paddleocr import PaddleOCR
 import multiprocessing as mp
 from typing import Union
 from queue import Queue
@@ -27,9 +27,9 @@ from PIL import Image
 import numpy as np
 import pytesseract
 import threading
-import keras_ocr
+# import keras_ocr
 import unittest
-import easyocr
+# import easyocr
 import torch
 import time
 import sys
@@ -63,260 +63,260 @@ class TesseractOCR:
         return result
 
 
-class KerasOCR:
-    """Wrapper for Keras-OCR pipeline."""
+# class KerasOCR:
+#     """Wrapper for Keras-OCR pipeline."""
 
-    @staticmethod
-    def process(image: Union[str, np.ndarray]) -> str:
-        """Extracts text using Keras-OCR.
+#     @staticmethod
+#     def process(image: Union[str, np.ndarray]) -> str:
+#         """Extracts text using Keras-OCR.
 
-        Args:
-            image (str or ndarray): Path to image.
+#         Args:
+#             image (str or ndarray): Path to image.
 
-        Returns:
-            str: Extracted text.
-        """
+#         Returns:
+#             str: Extracted text.
+#         """
 
-        gc.collect()
-        torch.cuda.empty_cache()
+#         gc.collect()
+#         torch.cuda.empty_cache()
 
-        wait_for_gpu_memory()
+#         wait_for_gpu_memory()
 
-        detector = keras_ocr.detection.Detector(weights='clovaai_general')
-        recognizer = keras_ocr.recognition.Recognizer(
-            # alphabet=keras_ocr.recognition.DEFAULT_ALPHABET + 'ñáéíóúüÑÁÉÍÓÚÜ¿¡',
-            weights='kurapan'  # This recognizer performs better on Latin characters
-        )
+#         detector = keras_ocr.detection.Detector(weights='clovaai_general')
+#         recognizer = keras_ocr.recognition.Recognizer(
+#             # alphabet=keras_ocr.recognition.DEFAULT_ALPHABET + 'ñáéíóúüÑÁÉÍÓÚÜ¿¡',
+#             weights='kurapan'  # This recognizer performs better on Latin characters
+#         )
 
-        pipeline = keras_ocr.pipeline.Pipeline(
-            detector=detector, recognizer=recognizer)
-        read_image = keras_ocr.tools.read(image)
-        prediction_groups = pipeline.recognize([read_image])
-        # prediction_groups is a list of (word, box) tuples
-        output = [str(y[0]) for i in prediction_groups for y in i]
-        return " ".join(output)
+#         pipeline = keras_ocr.pipeline.Pipeline(
+#             detector=detector, recognizer=recognizer)
+#         read_image = keras_ocr.tools.read(image)
+#         prediction_groups = pipeline.recognize([read_image])
+#         # prediction_groups is a list of (word, box) tuples
+#         output = [str(y[0]) for i in prediction_groups for y in i]
+#         return " ".join(output)
 
-    # TODO: Find model for spanish-spoken newspaper
+#     # TODO: Find model for spanish-spoken newspaper
 
-    # def finetune_detector(data_dir):
-    #     # https://keras-ocr.readthedocs.io/en/latest/examples/fine_tuning_detector.html
-    #     # https://www.kaggle.com/discussions/general/243859
-    #     return None
+#     # def finetune_detector(data_dir):
+#     #     # https://keras-ocr.readthedocs.io/en/latest/examples/fine_tuning_detector.html
+#     #     # https://www.kaggle.com/discussions/general/243859
+#     #     return None
 
-    # def finetune_recognizer(data_dir):
-    #     # https://keras-ocr.readthedocs.io/en/latest/examples/fine_tuning_recognizer.html
-    #     return None
-
-
-class EasyOCR:
-    """Wrapper for EasyOCR pipeline."""
-
-    @staticmethod
-    def process(image: Union[str, np.ndarray]) -> str:
-        """Extracts text using EasyOCR.
-
-        Args:
-            image (str or ndarray): Path to image.
-
-        Returns:
-            str: Extracted text.
-        """
-        gc.collect()
-        torch.cuda.empty_cache()
-        wait_for_gpu_memory()
-
-        reader = easyocr.Reader(['es'], gpu=True)
-        result = reader.readtext(image)
-        output = [j for _, j, _ in result]
-        return " ".join(output)
+#     # def finetune_recognizer(data_dir):
+#     #     # https://keras-ocr.readthedocs.io/en/latest/examples/fine_tuning_recognizer.html
+#     #     return None
 
 
-class PaddlePaddle:
-    """Wrapper for PaddleOCR."""
+# class EasyOCR:
+#     """Wrapper for EasyOCR pipeline."""
 
-    @staticmethod
-    def process(image: Union[str, np.ndarray]) -> str:
-        """Extracts text using PaddleOCR.
+#     @staticmethod
+#     def process(image: Union[str, np.ndarray]) -> str:
+#         """Extracts text using EasyOCR.
 
-        Args:
-            image (str or ndarray): Path to image.
+#         Args:
+#             image (str or ndarray): Path to image.
 
-        Returns:
-            str: Extracted text.
-        """
-        gc.collect()
-        torch.cuda.empty_cache()
-        wait_for_gpu_memory()
+#         Returns:
+#             str: Extracted text.
+#         """
+#         gc.collect()
+#         torch.cuda.empty_cache()
+#         wait_for_gpu_memory()
 
-        ocr = PaddleOCR(
-            text_detection_model_name="PP-OCRv5_server_det",
-            text_recognition_model_name="latin_PP-OCRv5_mobile_rec",
-            use_doc_orientation_classify=False, 
-            use_doc_unwarping=False, 
-            use_textline_orientation=True, 
-            lang='es')
+#         reader = easyocr.Reader(['es'], gpu=True)
+#         result = reader.readtext(image)
+#         output = [j for _, j, _ in result]
+#         return " ".join(output)
+
+
+# class PaddlePaddle:
+#     """Wrapper for PaddleOCR."""
+
+#     @staticmethod
+#     def process(image: Union[str, np.ndarray]) -> str:
+#         """Extracts text using PaddleOCR.
+
+#         Args:
+#             image (str or ndarray): Path to image.
+
+#         Returns:
+#             str: Extracted text.
+#         """
+#         gc.collect()
+#         torch.cuda.empty_cache()
+#         wait_for_gpu_memory()
+
+#         ocr = PaddleOCR(
+#             text_detection_model_name="PP-OCRv5_server_det",
+#             text_recognition_model_name="latin_PP-OCRv5_mobile_rec",
+#             use_doc_orientation_classify=False, 
+#             use_doc_unwarping=False, 
+#             use_textline_orientation=True, 
+#             lang='es')
         
-        # Handle TIFF conversion if image is a path
-        temp_path = None
-        if isinstance(image, str) and image.lower().endswith(".tiff"):
-            with Image.open(image) as img:
-                img = img.convert("RGB")
-                with NamedTemporaryFile(suffix=".png", delete=False) as tmp:
-                    img.save(tmp.name)
-                    temp_path = tmp.name
-                    image = temp_path
-                    print(temp_path)
+#         # Handle TIFF conversion if image is a path
+#         temp_path = None
+#         if isinstance(image, str) and image.lower().endswith(".tiff"):
+#             with Image.open(image) as img:
+#                 img = img.convert("RGB")
+#                 with NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+#                     img.save(tmp.name)
+#                     temp_path = tmp.name
+#                     image = temp_path
+#                     print(temp_path)
 
 
-        result = ocr.predict(image)
-        output = [j[1][0] for i in result for j in i]
+#         result = ocr.predict(image)
+#         output = [j[1][0] for i in result for j in i]
 
-        # Clean up temp image
-        if temp_path and os.path.exists(temp_path):
-            os.remove(temp_path)
+#         # Clean up temp image
+#         if temp_path and os.path.exists(temp_path):
+#             os.remove(temp_path)
 
-        return " ".join(output)
+#         return " ".join(output)
 
 
-class docTR:
-    """Wrapper for the docTR OCR system."""
+# class docTR:
+#     """Wrapper for the docTR OCR system."""
 
-    @staticmethod
-    def clean_spanish_text(text: str) -> str:
-        """Clean and enhance Spanish text recognition results.
+#     @staticmethod
+#     def clean_spanish_text(text: str) -> str:
+#         """Clean and enhance Spanish text recognition results.
 
-        Args:
-            text (str): Raw OCR text output.
+#         Args:
+#             text (str): Raw OCR text output.
 
-        Returns:
-            str: Cleaned Spanish text.
-        """
-        if not text:
-            return ""
+#         Returns:
+#             str: Cleaned Spanish text.
+#         """
+#         if not text:
+#             return ""
 
-        # Common OCR corrections for Spanish
-        corrections = {
-            # Fix common character recognition errors
-            r'rn': 'm',  # Common OCR error
-            r'cl': 'd',  # Another common error
-            r'ii': 'ü',  # Umlaut recognition
-            r'n\s*~': 'ñ',  # Fix ñ recognition
-            r'N\s*~': 'Ñ',
-            r'n\s*-': 'ñ',
-            r'N\s*-': 'Ñ',
+#         # Common OCR corrections for Spanish
+#         corrections = {
+#             # Fix common character recognition errors
+#             r'rn': 'm',  # Common OCR error
+#             r'cl': 'd',  # Another common error
+#             r'ii': 'ü',  # Umlaut recognition
+#             r'n\s*~': 'ñ',  # Fix ñ recognition
+#             r'N\s*~': 'Ñ',
+#             r'n\s*-': 'ñ',
+#             r'N\s*-': 'Ñ',
 
-            # Fix inverted punctuation marks
-            r'^\s*\?': '¿',  # Question mark at start
-            r'^\s*!': '¡',   # Exclamation at start
-            r'\?\s*$': '?',  # Question mark at end
-            r'!\s*$': '!',   # Exclamation at end
+#             # Fix inverted punctuation marks
+#             r'^\s*\?': '¿',  # Question mark at start
+#             r'^\s*!': '¡',   # Exclamation at start
+#             r'\?\s*$': '?',  # Question mark at end
+#             r'!\s*$': '!',   # Exclamation at end
 
-            # Fix common Spanish words that are often misrecognized
-            r'\bque\b': 'que',
-            r'\bdel\b': 'del',
-            r'\bcon\b': 'con',
-            r'\bpor\b': 'por',
-            r'\bpara\b': 'para',
-            r'\besta\b': 'está',
-            r'\beson\b': 'son',
-            r'\btiene\b': 'tiene',
-            r'\bmás\b': 'más',
+#             # Fix common Spanish words that are often misrecognized
+#             r'\bque\b': 'que',
+#             r'\bdel\b': 'del',
+#             r'\bcon\b': 'con',
+#             r'\bpor\b': 'por',
+#             r'\bpara\b': 'para',
+#             r'\besta\b': 'está',
+#             r'\beson\b': 'son',
+#             r'\btiene\b': 'tiene',
+#             r'\bmás\b': 'más',
 
-            # Fix spacing issues
-            r'\s+': ' ',  # Multiple spaces to single space
-            r'\n\s*\n': '\n\n',  # Clean up multiple newlines
-        }
+#             # Fix spacing issues
+#             r'\s+': ' ',  # Multiple spaces to single space
+#             r'\n\s*\n': '\n\n',  # Clean up multiple newlines
+#         }
 
-        cleaned_text = text
-        for pattern, replacement in corrections.items():
-            cleaned_text = re.sub(pattern, replacement,
-                                  cleaned_text, flags=re.IGNORECASE)
+#         cleaned_text = text
+#         for pattern, replacement in corrections.items():
+#             cleaned_text = re.sub(pattern, replacement,
+#                                   cleaned_text, flags=re.IGNORECASE)
 
-        # Fix accented characters that might be misrecognized
-        accent_fixes = {
-            'a\'': 'á', 'e\'': 'é', 'i\'': 'í', 'o\'': 'ó', 'u\'': 'ú',
-            'A\'': 'Á', 'E\'': 'É', 'I\'': 'Í', 'O\'': 'Ó', 'U\'': 'Ú',
-            'u"': 'ü', 'U"': 'Ü'
-        }
+#         # Fix accented characters that might be misrecognized
+#         accent_fixes = {
+#             'a\'': 'á', 'e\'': 'é', 'i\'': 'í', 'o\'': 'ó', 'u\'': 'ú',
+#             'A\'': 'Á', 'E\'': 'É', 'I\'': 'Í', 'O\'': 'Ó', 'U\'': 'Ú',
+#             'u"': 'ü', 'U"': 'Ü'
+#         }
 
-        for error, correction in accent_fixes.items():
-            cleaned_text = cleaned_text.replace(error, correction)
+#         for error, correction in accent_fixes.items():
+#             cleaned_text = cleaned_text.replace(error, correction)
 
-        return cleaned_text.strip()
+#         return cleaned_text.strip()
 
-    @staticmethod
-    def extract_text_from_document(document: DocumentFile, preserve_structure: bool = True) -> str:
-        """Flattens a DocumentFile into a plain text string with Spanish text handling.
+#     @staticmethod
+#     def extract_text_from_document(document: DocumentFile, preserve_structure: bool = True) -> str:
+#         """Flattens a DocumentFile into a plain text string with Spanish text handling.
 
-        Args:
-            document (DocumentFile): Parsed document object.
-            preserve_structure (bool): Whether to preserve line breaks and structure.
+#         Args:
+#             document (DocumentFile): Parsed document object.
+#             preserve_structure (bool): Whether to preserve line breaks and structure.
 
-        Returns:
-            str: Combined text from all pages.
-        """
-        if preserve_structure:
-            # Preserve document structure with line breaks
-            text_parts = []
-            for page in document.pages:
-                page_text = []
-                for block in page.blocks:
-                    block_text = []
-                    for line in block.lines:
-                        line_text = " ".join(
-                            word.value for word in line.words if word.value.strip())
-                        if line_text.strip():
-                            block_text.append(line_text)
-                    if block_text:
-                        page_text.append("\n".join(block_text))
-                if page_text:
-                    text_parts.append("\n\n".join(page_text))
+#         Returns:
+#             str: Combined text from all pages.
+#         """
+#         if preserve_structure:
+#             # Preserve document structure with line breaks
+#             text_parts = []
+#             for page in document.pages:
+#                 page_text = []
+#                 for block in page.blocks:
+#                     block_text = []
+#                     for line in block.lines:
+#                         line_text = " ".join(
+#                             word.value for word in line.words if word.value.strip())
+#                         if line_text.strip():
+#                             block_text.append(line_text)
+#                     if block_text:
+#                         page_text.append("\n".join(block_text))
+#                 if page_text:
+#                     text_parts.append("\n\n".join(page_text))
 
-            return "\n\n".join(text_parts)
-        else:
-            # Simple flat text extraction
-            text = " ".join(
-                word.value
-                for page in document.pages
-                for block in page.blocks
-                for line in block.lines
-                for word in line.words
-                if word.value.strip()  # Filter out empty words
-            )
-            return text
+#             return "\n\n".join(text_parts)
+#         else:
+#             # Simple flat text extraction
+#             text = " ".join(
+#                 word.value
+#                 for page in document.pages
+#                 for block in page.blocks
+#                 for line in block.lines
+#                 for word in line.words
+#                 if word.value.strip()  # Filter out empty words
+#             )
+#             return text
 
-    @staticmethod
-    def process(image: Union[str, np.ndarray], preserve_structure: bool = True) -> str:
-        """Extracts text using docTR's predictor.
+#     @staticmethod
+#     def process(image: Union[str, np.ndarray], preserve_structure: bool = True) -> str:
+#         """Extracts text using docTR's predictor.
 
-        Args:
-            image (str or ndarray): Path to image.
+#         Args:
+#             image (str or ndarray): Path to image.
 
-        Returns:
-            str: Extracted text.
-        """
-        gc.collect()
-        torch.cuda.empty_cache()
-        wait_for_gpu_memory()
+#         Returns:
+#             str: Extracted text.
+#         """
+#         gc.collect()
+#         torch.cuda.empty_cache()
+#         wait_for_gpu_memory()
 
-        model = ocr_predictor(
-            det_arch='db_resnet50',
-            reco_arch='crnn_vgg16_bn',
-            pretrained=True,
-            assume_straight_pages=True,  # Assume text is horizontal
-            straighten_pages=False,       # Straighten rotated text
-            detect_orientation=True,     # Detect text orientation
-            detect_language=False        # We handle language-specific processing ourselves
-        )
-        single_img_doc = DocumentFile.from_images(image)
-        result = model(single_img_doc)
+#         model = ocr_predictor(
+#             det_arch='db_resnet50',
+#             reco_arch='crnn_vgg16_bn',
+#             pretrained=True,
+#             assume_straight_pages=True,  # Assume text is horizontal
+#             straighten_pages=False,       # Straighten rotated text
+#             detect_orientation=True,     # Detect text orientation
+#             detect_language=False        # We handle language-specific processing ourselves
+#         )
+#         single_img_doc = DocumentFile.from_images(image)
+#         result = model(single_img_doc)
 
-        output = docTR.extract_text_from_document(result, preserve_structure)
+#         output = docTR.extract_text_from_document(result, preserve_structure)
 
-        # Apply Spanish-specific text cleaning
-        cleaned_output = docTR.clean_spanish_text(output)
+#         # Apply Spanish-specific text cleaning
+#         cleaned_output = docTR.clean_spanish_text(output)
 
-        return cleaned_output
+#         return cleaned_output
 
 
 class TestOCRPipeline(unittest.TestCase):
@@ -407,6 +407,7 @@ def process_single_ocr(image_path: str, method_name: str, method: Callable[[Unio
             
             combined_text = []
             for img_file in image_files:
+                # print(f"Processing cropped image: {img_file}")
                 img_path = os.path.join(folder_path, img_file)
                 try:
                     text = method(img_path)
@@ -510,6 +511,7 @@ def print_help() -> None:
 
 
 def main() -> None:
+    
     """Main entry point for OCR pipeline."""
     max_threads = mp.cpu_count()
     use_cropped_folder = False
@@ -522,7 +524,7 @@ def main() -> None:
         unittest.main(argv=['first-arg-is-ignored'], exit=False)
         return
     
-    if '--cropped_folders' in sys.argv:
+    if '--cropped_folders' or '--cropped_folder' in sys.argv:
         use_cropped_folder = True
         print("Using cropped folder for OCR processing.")
 
@@ -531,7 +533,7 @@ def main() -> None:
         # "KerasOCR": KerasOCR.process,
         # "EasyOCR": EasyOCR.process,
         # "PaddleOCR": PaddlePaddle.process,
-        "docTR": docTR.process
+        # "docTR": docTR.process
     }
 
     # Define the directory containing image files

@@ -995,11 +995,14 @@ def employ_vlms(args) -> None:
 
 
 def employ_llms(args) -> None:
+    global cropped_folder_flag 
+    cropped_folder_flag = False
+
     models = {
         # "phi4:14b": "phi4",
         # "qwen3:32b": "qwen3",
-        "mistral-nemo:12b": "mistral-nemo",
-        # "deepseek-r1:32b": "deepseek-r1",
+        # "mistral-nemo:12b": "mistral-nemo",
+        "deepseek-r1:32b": "deepseek-r1",
         # "gemma3:27b": "gemma3",
         # "llama3.3:70b": "llama3.3", # 43GB so not used!
     }
@@ -1029,6 +1032,9 @@ def main(models, img_results, ocr_results, log_file_path, args) -> None:
 
     if os.path.exists(log_file_path):
         os.remove(log_file_path)
+
+    # if cropped_folder_flag is None:
+    #     cropped_folder_flag = False
 
     # Process each model
     all_results = {}

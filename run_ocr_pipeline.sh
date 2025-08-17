@@ -66,8 +66,8 @@ do
         # python3 -u "${arr2[$index]}" --employ-vlms --multi >> "$LOG_FILE" 2>&1
         # echo "Running postprocess.py with --employ-vlms and --crop_folders"
         # python3 -u "${arr2[$index]}" --employ-vlms --multi --cropped_folder >> "$LOG_FILE" 2>&1
-        echo "Running postprocess.py with --process-vlms-outputs"
-        python3 -u "${arr2[$index]}" --employ-llms --process-vlms-outputs >> "$LOG_FILE" 2>&1
+        # echo "Running postprocess.py with --process-vlms-outputs"
+        # python3 -u "${arr2[$index]}" --employ-llms --process-vlms-outputs >> "$LOG_FILE" 2>&1
     else
         python3 -u "${arr2[$index]}" >> "$LOG_FILE" 2>&1
     fi
