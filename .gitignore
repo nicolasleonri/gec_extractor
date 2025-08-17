@@ -17,3 +17,7 @@ results/csv/_old/*.csv
 
 # Ignore saved BERTopic models or other large model files
 results/models/**
+
+# Ignore quantized models
+data/quantizied_models/**
+data/quantizied_models/phi-4-Q4_K_M.gguf
