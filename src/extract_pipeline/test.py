@@ -1,9 +1,8 @@
+# Import necessary libraries
+import asyncio
+import openai
 import time
-import argparse
-from openai import OpenAI
-from concurrent.futures import ThreadPoolExecutor
-from utils_extract_pipeline import *
-import base64
+from openai import AsyncOpenAI, OpenAI   # 👈 async client
 
 prompt = """
     GOAL: From the image, extract and structure:
@@ -34,28 +33,6 @@ prompt = """
     CONTEXT:
     You are an expert in analyzing and structuring newspaper content. Accuracy is critical. CSV must be precise.
     """
-
-prompt_image = """
-            You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
-
-            CRITICAL REQUIREMENTS:
-            - Read every single word, number, date, and punctuation mark visible in the image
-            - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
-            - Preserve the original text layout and structure (headlines, paragraphs, columns)
-            - Maintain proper spacing between words and sentences
-            - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
-            - Handle multiple columns by reading left-to-right, top-to-bottom within each column
-            - Preserve special characters, accents, and non-English text exactly as shown
-            - Do NOT skip any text, even if partially obscured or small
-            - Do NOT add explanations, interpretations, or markdown formatting
-            - Do NOT summarize or paraphrase - extract the exact text as written
-            
-            Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
-            
-            WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
-            the entire OCR pipeline will fail and all downstream processing will be corrupted. 
-            Your response must contain ONLY the extracted text - nothing else.
-            """
 
 questions = [
     """E  ASCER OOO]  [ay     ¿CM ASER LA ACTIVIDAD TUWO UNA CAÍDA 0d TPL  Venta  de vehículds'e  yen espera repuntar en  junio apoyada por la reconstrucción  Retroceso. li res parado Pre od racha positiva de ho mueves cociremiros, Maya sde arrartrería el estero de 1 Mio contero. Lempaza de ca mictra y pue lapa parte he tercenest cia pres pena Por oa.  sn das A e Dente aporta bel 3518, Lo verca de mdao do trata Patatas de pri demo Bolitas da peores abel premoe Js em dato, las dencia Drs de ena podr ateo da pra tiran is de e Every, deta na Ca Mco YI% e ac), ve ja da tao aras A eri del Pe, _ Jaqrevidense, Eibar AS Pd medio has reas rg región, A fell 9 sets e pe Es ds pue a jefa O, Pret aa esti A me pac der pre,  "Verds de ir e e veras hon, 5er aire Lima, quee pdrusho ds de mps, 10 de legua or quer carta A ON                    Fat ta seo Tina, Aya + qua Vaya ro regenta us dd ate, edo dar desde qe aser, ib Lis d26 Mar. direis aomridado Led 9 e par dt, rod me        A tá Le el preso ies esa (en daran el ¡teporieeracos de lata, Cat Qee, eat ue abel tao Dades tubo tas corpo Joe zaz el anna Y al terco A Pia ventas eo Úlcdao e, Alcor e eepore de dela acción:  Cmucirione a=harop to           Cueas  12,654  rotos Uma y Pin Races oras A, pios arepa de dee     A A ida e 0 0 ta a A A AS - a ser Ventas de vebicutos principales marcas "era dernpamba 608 Seen Tarma rta e: A al Cemagace perrelzacor ade li A                              Pos citó ed a beta or 0d es  podre els iaa. mp eltacode Hymstad, a  A ha reco car dea mues Dr     OTROS OO" Cota pertos. Ea 0d ap -  anno de Uetiaa. 009,  1 Lam gue ct y Bertran "me terintoere y ly eno W entos hos ams aos ir Bar 00 da DRA Lenpts caretas y a. Jaelración. En el vegineo de prat, ben de RA, Desire es ql E yA de ade     Earle pe cier Pol mr merado, ore recado de Mess Bo que dira e dret A ja ue trends de ALO y quee Eeprom ra 20 a ee daa, meat sto 42 eo garito ya arpa de e pS Alerta, mbr ela dad a aa a pu ¿mece perio q. 1 aa Dis ro o, ag de nda de te on de nda era el jota        Guerra se precño Cuenca donde tempe qacida de bas vector, Era Deere ns ds porfis seta LE ps Eacseaa, Nocdaracca, eta, TES A eins cea to rpese a Daria amas electa pe        e rep Babris gore reparación, de qusrencrsa, prernes y unes     puede ingrid lares, Lada dem von y vet ie os pub pepa sore,     SA CTIERA QUE VIDA UTE LLLCUE HASTA EL 1071  Newmont desarrollará depósito de óxidos de oro Quecher Main  ss ac a dp Misa Pica rc ea 1 E ed nr ES E «e Enatca de rr eds Misco, bodies ha por de Tama Carat Treetuta eri ta0 dm o torbiscto paro le mejcca praia Be ds espai de     de Quiros Ml sea e el rado secre (Ceitaón A SS queria en dr el necios RAS  Ve val baza de Vaciar a ds "gros pe oe jet amd pres Dee repr mare,  de pera qe lev O  56 don barda de Queres Ile Mass ve eptrata aDOL, € 229 proderaiós Le Cispacacho     O Dry a se ratos,  Msrarietca da, dona de Mera es Tata, «cesan que el Sepa  Aur, Mire rg sroido ajenos entr? 5 eel rad Byrd, en Co ma a 7 gr haria pu     me de lea yc lego ee Var pitos, 1] Lego y ee See pos par Y ri de peas deca en el DA TEL de ha lererrracta da, Uagurera rtard serio need a reservas. Arieie e rgler aio, Capac pepe creta elo ás los ascii e Ya game ls Ln, gua e        de RO prat de oro po, jaca,  Pero a madero que Vamprocto Sil h ot er progecrd a marras! Lera dee Mess, mr icon a que precegía Dear a A AS  Laenpresa 2decea poo Lars AA 05 04 e pr eat, """,
@@ -105,33 +82,75 @@ questions = [
     Ya ofrecen viviendas de 36 metros cuadrados"""
     ]
 
-test_images = [
-    "./data/images/test.jpg",
-    "./data/images/test2.jpg",
-    "./data/images/test3.jpg"
-]
+# Define the coroutine for making API calls to GPT
+async def ask_question(client, model, element):
+    response = await client.chat.completions.create(
+        model=model,
+        messages=[
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": element}
+            ],
+        temperature=0.0,
+        top_p=0.70,                # Nucleus sampling
+        max_tokens=2000,           # Maximum tokens to generate
+        n=1,                      # Number of completions
+        stream=False,             # Whether to stream response
+        seed=42,                  # Random seed for reproducibility
+        extra_body={ 
+            # Aggressive sampling
+            "top_k": 5,             # Very small candidate pool
+            "min_p": 0.15,            # High threshold
 
-def main():
-    model, client = get_client_model()
+            # Disable all penalties and extras
+            "repetition_penalty": 1.0,
+            "length_penalty": 1.0,
+            "frequency_penalty": 0.0,
+            "presence_penalty": 0.0,
 
-    start_total = time.time()
-    # with ThreadPoolExecutor(max_workers=64) as executor:
-    #     results = list(executor.map(lambda q: ask_llm(client, model, prompt, q), questions))
-    with ThreadPoolExecutor(max_workers=64) as executor:
-        results = list(executor.map(lambda q: ask_vlm(client, model, prompt_image, encode_image(q)), test_images))
-    end_total = time.time()
+            # Speed optimizations
+            "use_beam_search": False,
+            "best_of": 1,
+            "skip_special_tokens": True,
+            "spaces_between_special_tokens": False,
+            "min_tokens": 20,        # Minimum for CSV header
 
-    average_time = (end_total-start_total) / len(results)
-    print(f"Total time for all questions: {end_total - start_total:.2f}s")
-    print(f"\nAverage time per question: {average_time:.2f}s")
+            # Disable overhead
+            "stop_token_ids": [],
+            "include_stop_str_in_output": False,
+            "ignore_eos": False,
+            "prompt_logprobs": None,
+            "allowed_token_ids": None,
+            "bad_words": [],
 
-    # for i, result in enumerate(results):
-    #     print(f"\nResult for question {i+1}:\n{result.strip()}\n")
+            "prompt_logprobs": None,         # Disable for speed
+            "allowed_token_ids": None,       # Don't restrict (faster)
+            "bad_words": [],                 # Empty list (no filtering overhead)
+        }
+    )
+    # print(response)
+    return response.choices[0].message.content
+
+async def main():
+    openai_api_key = "EMPTY"
+    openai_api_base = "http://localhost:8000/v1"
+
+    client = AsyncOpenAI(
+        api_key=openai_api_key,
+        base_url=openai_api_base,
+    )
+
+    models = [m async for m in client.models.list()]
+    model = models[0].id
+
+    time_start = time.time()
+
+    # # Run all queries concurrently
+    tasks = [ask_question(client, model, q) for q in questions]
+    results = await asyncio.gather(*tasks)
+
+    time_end = time.time()
+    print(f"Time taken: {time_end - time_start} seconds")
+    print(f"Average time: {(time_end - time_start)/len(questions)} seconds")
 
 if __name__ == "__main__":
-    main()
-
-# numactl --cpunodebind=0 --membind=0 python3 -m vllm.entrypoints.openai.api_server --model data/quantizied_models/phi-4-Q4_K_M.gguf --tokenizer microsoft/Phi-4 --quantization gguf --tensor-parallel-size 1 --max-num-seqs 2048 --gpu-memory-utilization 0.98 --enable-prefix-caching --enforce-eager --swap-space 0 --max-model-len 5000 --max-num-batched-tokens 8192 --block-size 128 --disable-log-requests --disable-log-stats --disable-sliding-window --api-server-count 8
-# numactl --cpunodebind=0 --membind=0 python3 -m vllm.entrypoints.openai.api_server --model nanonets/Nanonets-OCR-s --tensor-parallel-size 1 --max-num-seqs 4096 --gpu-memory-utilization 0.97 --enable-prefix-caching --enforce-eager --swap-space 0 --max-model-len 5000 --max-num-batched-tokens 16384 --block-size 128 --disable-log-requests --disable-log-stats
-# numactl --cpunodebind=0 --membind=0 python3 -m vllm.entrypoints.openai.api_server --model reducto/RolmOCR --tensor-parallel-size 1 --max-num-seqs 4096 --gpu-memory-utilization 0.97 --enable-prefix-caching --enforce-eager --swap-space 0 --max-model-len 5000 --max-num-batched-tokens 16384 --block-size 128 --disable-log-requests --disable-log-stats
-# numactl --cpunodebind=0 --membind=0 python3 -m vllm.entrypoints.openai.api_server --model allenai/olmOCR-7B-0725-FP8 --tensor-parallel-size 1 --max-num-seqs 4096 --gpu-memory-utilization 0.97 --enable-prefix-caching --enforce-eager --swap-space 0 --max-model-len 5000 --max-num-batched-tokens 16384 --block-size 128 --disable-log-requests --disable-log-stats
+    asyncio.run(main())
