@@ -1,4 +1,5 @@
 from vllm import LLM, SamplingParams
+import time
 
 # Sample prompts.
 prompts = [
@@ -13,7 +14,10 @@ sampling_params = SamplingParams(temperature=0.8, top_p=0.95)
 def main():
     llm = LLM(model="unsloth/phi-4-unsloth-bnb-4bit",
         )
+    time_start = time.time()
     outputs = llm.generate(prompts, sampling_params)
+    time_end = time.time()
+    print(f"Time taken: {time_end - time_start} seconds")
     print("\nGenerated Outputs:\n" + "-" * 60)
     for output in outputs:
         prompt = output.prompt

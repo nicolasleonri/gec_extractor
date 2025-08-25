@@ -1,0 +1,362 @@
+Loading modules...
+Setting folders...
+Activating virtual environment...
+Running llama...
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 1 CUDA devices:
+  Device 0: NVIDIA H100 NVL, compute capability 9.0, VMM: yes
+llama_model_load_from_file_impl: using device CUDA0 (NVIDIA H100 NVL) - 94811 MiB free
+llama_model_loader: loaded meta data with 37 key-value pairs and 434 tensors from /lustre/romanistik/leonnial/.cache/huggingface/hub/models--unsloth--Nanonets-OCR-s-GGUF/snapshots/e1970a8d538c03d5bfd7ca05bdb1a87864a0a4fc/./Nanonets-OCR-s-Q4_K_M.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2vl
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Nanonets-Ocr-S
+llama_model_loader: - kv   3:                           general.basename str              = Nanonets-Ocr-S
+llama_model_loader: - kv   4:                       general.quantized_by str              = Unsloth
+llama_model_loader: - kv   5:                         general.size_label str              = 3.1B
+llama_model_loader: - kv   6:                           general.repo_url str              = https://huggingface.co/unsloth
+llama_model_loader: - kv   7:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   8:                  general.base_model.0.name str              = Nanonets OCR S
+llama_model_loader: - kv   9:          general.base_model.0.organization str              = Nanonets
+llama_model_loader: - kv  10:              general.base_model.0.repo_url str              = https://huggingface.co/nanonets/Nanon...
+llama_model_loader: - kv  11:                               general.tags arr[str,4]       = ["OCR", "unsloth", "pdf2markdown", "i...
+llama_model_loader: - kv  12:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  13:                        qwen2vl.block_count u32              = 36
+llama_model_loader: - kv  14:                     qwen2vl.context_length u32              = 128000
+llama_model_loader: - kv  15:                   qwen2vl.embedding_length u32              = 2048
+llama_model_loader: - kv  16:                qwen2vl.feed_forward_length u32              = 11008
+llama_model_loader: - kv  17:               qwen2vl.attention.head_count u32              = 16
+llama_model_loader: - kv  18:            qwen2vl.attention.head_count_kv u32              = 2
+llama_model_loader: - kv  19:                     qwen2vl.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  20:   qwen2vl.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  21:            qwen2vl.rope.dimension_sections arr[i32,4]       = [16, 24, 24, 0]
+llama_model_loader: - kv  22:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  23:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  24:                      tokenizer.ggml.tokens arr[str,151936]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  25:                  tokenizer.ggml.token_type arr[i32,151936]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  26:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  27:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  28:            tokenizer.ggml.padding_token_id u32              = 151654
+llama_model_loader: - kv  29:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  30:                    tokenizer.chat_template str              = {#- Copyright 2025-present the Unslot...
+llama_model_loader: - kv  31:               general.quantization_version u32              = 2
+llama_model_loader: - kv  32:                          general.file_type u32              = 15
+llama_model_loader: - kv  33:                      quantize.imatrix.file str              = Nanonets-OCR-s-GGUF/imatrix_unsloth.dat
+llama_model_loader: - kv  34:                   quantize.imatrix.dataset str              = unsloth_calibration_Nanonets-OCR-s.txt
+llama_model_loader: - kv  35:             quantize.imatrix.entries_count u32              = 252
+llama_model_loader: - kv  36:              quantize.imatrix.chunks_count u32              = 691
+llama_model_loader: - type  f32:  181 tensors
+llama_model_loader: - type q4_K:  216 tensors
+llama_model_loader: - type q6_K:   37 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 1.79 GiB (4.99 BPW) 
+init_tokenizer: initializing tokenizer for type 2
+load: control token: 151660 '<|fim_middle|>' is not marked as EOG
+load: control token: 151659 '<|fim_prefix|>' is not marked as EOG
+load: control token: 151653 '<|vision_end|>' is not marked as EOG
+load: control token: 151648 '<|box_start|>' is not marked as EOG
+load: control token: 151646 '<|object_ref_start|>' is not marked as EOG
+load: control token: 151649 '<|box_end|>' is not marked as EOG
+load: control token: 151655 '<|image_pad|>' is not marked as EOG
+load: control token: 151651 '<|quad_end|>' is not marked as EOG
+load: control token: 151647 '<|object_ref_end|>' is not marked as EOG
+load: control token: 151652 '<|vision_start|>' is not marked as EOG
+load: control token: 151654 '<|vision_pad|>' is not marked as EOG
+load: control token: 151656 '<|video_pad|>' is not marked as EOG
+load: control token: 151644 '<|im_start|>' is not marked as EOG
+load: control token: 151661 '<|fim_suffix|>' is not marked as EOG
+load: control token: 151650 '<|quad_start|>' is not marked as EOG
+load: printing all EOG tokens:
+load:   - 151643 ('<|endoftext|>')
+load:   - 151645 ('<|im_end|>')
+load:   - 151662 ('<|fim_pad|>')
+load:   - 151663 ('<|repo_name|>')
+load:   - 151664 ('<|file_sep|>')
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2vl
+print_info: vocab_only       = 0
+print_info: n_ctx_train      = 128000
+print_info: n_embd           = 2048
+print_info: n_layer          = 36
+print_info: n_head           = 16
+print_info: n_head_kv        = 2
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: is_swa_any       = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 8
+print_info: n_embd_k_gqa     = 256
+print_info: n_embd_v_gqa     = 256
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: f_attn_scale     = 0.0e+00
+print_info: n_ff             = 11008
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: causal attn      = 1
+print_info: pooling type     = -1
+print_info: rope type        = 8
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 1000000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 128000
+print_info: rope_finetuned   = unknown
+print_info: model type       = 3B
+print_info: model params     = 3.09 B
+print_info: general.name     = Nanonets-Ocr-S
+print_info: vocab type       = BPE
+print_info: n_vocab          = 151936
+print_info: n_merges         = 151387
+print_info: BOS token        = 11 ','
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151654 '<|vision_pad|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = true)
+load_tensors: layer   0 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   1 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   2 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   3 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   4 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   5 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   6 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   7 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   8 assigned to device CUDA0, is_swa = 0
+load_tensors: layer   9 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  10 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  11 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  12 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  13 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  14 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  15 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  16 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  17 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  18 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  19 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  20 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  21 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  22 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  23 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  24 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  25 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  26 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  27 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  28 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  29 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  30 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  31 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  32 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  33 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  34 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  35 assigned to device CUDA0, is_swa = 0
+load_tensors: layer  36 assigned to device CUDA0, is_swa = 0
+load_tensors: tensor 'token_embd.weight' (q6_K) (and 0 others) cannot be used with preferred buffer type CUDA_Host, using CPU instead
+load_tensors: offloading 36 repeating layers to GPU
+load_tensors: offloading output layer to GPU
+load_tensors: offloaded 37/37 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =   243.43 MiB
+load_tensors:        CUDA0 model buffer size =  1834.83 MiB
+...............................................................................
+llama_context: constructing llama_context
+llama_context: n_seq_max     = 1
+llama_context: n_ctx         = 8192
+llama_context: n_ctx_per_seq = 8192
+llama_context: n_batch       = 512
+llama_context: n_ubatch      = 512
+llama_context: causal_attn   = 1
+llama_context: flash_attn    = 0
+llama_context: kv_unified    = false
+llama_context: freq_base     = 1000000.0
+llama_context: freq_scale    = 1
+llama_context: n_ctx_per_seq (8192) < n_ctx_train (128000) -- the full capacity of the model will not be utilized
+set_abort_callback: call
+llama_context:  CUDA_Host  output buffer size =     0.58 MiB
+create_memory: n_ctx = 8192 (padded)
+llama_kv_cache_unified: layer   0: dev = CUDA0
+llama_kv_cache_unified: layer   1: dev = CUDA0
+llama_kv_cache_unified: layer   2: dev = CUDA0
+llama_kv_cache_unified: layer   3: dev = CUDA0
+llama_kv_cache_unified: layer   4: dev = CUDA0
+llama_kv_cache_unified: layer   5: dev = CUDA0
+llama_kv_cache_unified: layer   6: dev = CUDA0
+llama_kv_cache_unified: layer   7: dev = CUDA0
+llama_kv_cache_unified: layer   8: dev = CUDA0
+llama_kv_cache_unified: layer   9: dev = CUDA0
+llama_kv_cache_unified: layer  10: dev = CUDA0
+llama_kv_cache_unified: layer  11: dev = CUDA0
+llama_kv_cache_unified: layer  12: dev = CUDA0
+llama_kv_cache_unified: layer  13: dev = CUDA0
+llama_kv_cache_unified: layer  14: dev = CUDA0
+llama_kv_cache_unified: layer  15: dev = CUDA0
+llama_kv_cache_unified: layer  16: dev = CUDA0
+llama_kv_cache_unified: layer  17: dev = CUDA0
+llama_kv_cache_unified: layer  18: dev = CUDA0
+llama_kv_cache_unified: layer  19: dev = CUDA0
+llama_kv_cache_unified: layer  20: dev = CUDA0
+llama_kv_cache_unified: layer  21: dev = CUDA0
+llama_kv_cache_unified: layer  22: dev = CUDA0
+llama_kv_cache_unified: layer  23: dev = CUDA0
+llama_kv_cache_unified: layer  24: dev = CUDA0
+llama_kv_cache_unified: layer  25: dev = CUDA0
+llama_kv_cache_unified: layer  26: dev = CUDA0
+llama_kv_cache_unified: layer  27: dev = CUDA0
+llama_kv_cache_unified: layer  28: dev = CUDA0
+llama_kv_cache_unified: layer  29: dev = CUDA0
+llama_kv_cache_unified: layer  30: dev = CUDA0
+llama_kv_cache_unified: layer  31: dev = CUDA0
+llama_kv_cache_unified: layer  32: dev = CUDA0
+llama_kv_cache_unified: layer  33: dev = CUDA0
+llama_kv_cache_unified: layer  34: dev = CUDA0
+llama_kv_cache_unified: layer  35: dev = CUDA0
+llama_kv_cache_unified:      CUDA0 KV buffer size =   288.00 MiB
+llama_kv_cache_unified: size =  288.00 MiB (  8192 cells,  36 layers,  1/1 seqs), K (f16):  144.00 MiB, V (f16):  144.00 MiB
+llama_context: enumerating backends
+llama_context: backend_ptrs.size() = 2
+llama_context: max_nodes = 3480
+llama_context: worst-case: n_tokens = 512, n_seqs = 1, n_outputs = 0
+graph_reserve: reserving a graph for ubatch with n_tokens =  512, n_seqs =  1, n_outputs =  512
+graph_reserve: reserving a graph for ubatch with n_tokens =    1, n_seqs =  1, n_outputs =    1
+graph_reserve: reserving a graph for ubatch with n_tokens =  512, n_seqs =  1, n_outputs =  512
+llama_context:      CUDA0 compute buffer size =   300.75 MiB
+llama_context:  CUDA_Host compute buffer size =    21.02 MiB
+llama_context: graph nodes  = 1374
+llama_context: graph splits = 2
+CUDA : ARCHS = 520 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+Model metadata: {'quantize.imatrix.chunks_count': '691', 'quantize.imatrix.entries_count': '252', 'general.repo_url': 'https://huggingface.co/unsloth', 'qwen2vl.context_length': '128000', 'qwen2vl.rope.freq_base': '1000000.000000', 'tokenizer.ggml.padding_token_id': '151654', 'qwen2vl.block_count': '36', 'general.base_model.0.repo_url': 'https://huggingface.co/nanonets/Nanonets-OCR-s', 'general.type': 'model', 'general.quantized_by': 'Unsloth', 'general.basename': 'Nanonets-Ocr-S', 'qwen2vl.attention.layer_norm_rms_epsilon': '0.000001', 'general.name': 'Nanonets-Ocr-S', 'tokenizer.ggml.pre': 'qwen2', 'general.base_model.count': '1', 'general.base_model.0.organization': 'Nanonets', 'qwen2vl.embedding_length': '2048', 'general.size_label': '3.1B', 'tokenizer.ggml.add_bos_token': 'false', 'general.architecture': 'qwen2vl', 'qwen2vl.feed_forward_length': '11008', 'quantize.imatrix.file': 'Nanonets-OCR-s-GGUF/imatrix_unsloth.dat', 'qwen2vl.attention.head_count': '16', 'qwen2vl.attention.head_count_kv': '2', 'tokenizer.ggml.model': 'gpt2', 'general.quantization_version': '2', 'tokenizer.ggml.eos_token_id': '151645', 'tokenizer.chat_template': '{#- Copyright 2025-present the Unsloth team. All rights reserved. #}\n{#- Licensed under the Apache License, Version 2.0 (the "License") #}\n{%- set image_count = namespace(value=0) -%}\n{%- set video_count = namespace(value=0) -%}\n{%- set text_count  = namespace(value=0) -%}\n{%- for message in messages -%}\n\t{%- if loop.first and message["role"] != "system" -%}\n\t\t{{- "<|im_start|>system\\nYou are a helpful assistant.<|im_end|>\\n" -}}\n\t{%- endif -%}\n\t{{- "<|im_start|>" -}}\n\t{{- message["role"] -}}\n\t{{- "\\n" -}}\n\t{%- if message["content"] is string -%}\n\t\t{{- message["content"] -}}\n\t\t{{- "<|im_end|>\\n" -}}\n\t{%- else -%}\n\t\t{#- Check if text field is present #}\n\t\t{%- set text_count.value = 0 -%}\n\t\t{%- for content in message["content"] -%}\n\t\t\t{%- if content["type"] == "image" or "image" in content or "image_url" in content -%}\n\t\t\t\t{%- set image_count.value = image_count.value + 1 -%}\n\t\t\t\t{%- if add_vision_id -%}\n\t\t\t\t\t{{- "Picture " -}}\n\t\t\t\t\t{{- image_count.value -}}\n\t\t\t\t\t{{- ": " -}}\n\t\t\t\t{%- endif -%}\n\t\t\t\t{{- "<|vision_start|><|image_pad|><|vision_end|>" -}}\n\t\t\t{%- elif content["type"] == "video" or "video" in content -%}\n\t\t\t\t{%- set video_count.value = video_count.value + 1 -%}\n\t\t\t\t{%- if add_vision_id -%}\n\t\t\t\t\t{{- "Video " -}}\n\t\t\t\t\t{{- video_count.value -}}\n\t\t\t\t\t{{- ": " -}}\n\t\t\t\t{%- endif -%}\n\t\t\t\t{{- "<|vision_start|><|video_pad|><|vision_end|>" -}}\n\t\t\t{%- elif "text" in content -%}\n\t\t\t\t{{- content["text"]|string -}}\n\t\t\t\t{%- if content["text"]|length != 0 -%}\n\t\t\t\t\t{%- set text_count.value = text_count.value + 1 -%}\n\t\t\t\t{%- endif -%}\n\t\t\t{%- endif -%}\n\t\t{%- endfor -%}\n\t\t{#- If text field seen, add a newline #}\n\t\t{%- if text_count.value != 0 -%}\n\t\t\t{{- "\\n" -}}\n\t\t{%- endif -%}\n\t\t{{- "Extract the text from the above document as if you were reading it naturally. Return the tables in html format. Return the equations in LaTeX representation. If there is an image in the document and image caption is not present, add a small description of the image inside the <img></img> tag; otherwise, add the image caption inside <img></img>. Watermarks should be wrapped in brackets. Ex: <watermark>OFFICIAL COPY</watermark>. Page numbers should be wrapped in brackets. Ex: <page_number>14</page_number> or <page_number>9/22</page_number>. Prefer using ☐ and ☑ for check boxes." -}}\n\t\t{{- "<|im_end|>\\n" -}}\n\t{%- endif -%}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n\t{{- "<|im_start|>assistant\\n" -}}\n{%- endif -%}\n{#- Copyright 2025-present the Unsloth team. All rights reserved. #}\n{#- Licensed under the Apache License, Version 2.0 (the "License") #}', 'general.file_type': '15', 'general.base_model.0.name': 'Nanonets OCR S', 'quantize.imatrix.dataset': 'unsloth_calibration_Nanonets-OCR-s.txt'}
+Available chat formats from metadata: chat_template.default
+Minimal - Cleared state, processing 1 images
+clip_model_loader: model name:   Nanonets-Ocr-S
+clip_model_loader: description:  
+clip_model_loader: GGUF version: 3
+clip_model_loader: alignment:    32
+clip_model_loader: n_tensors:    519
+clip_model_loader: n_kv:         29
+
+clip_model_loader: has vision encoder
+clip_ctx: CLIP using CUDA0 backend
+load_hparams: projector:          qwen2.5vl_merger
+load_hparams: n_embd:             1280
+load_hparams: n_head:             16
+load_hparams: n_ff:               3420
+load_hparams: n_layer:            32
+load_hparams: ffn_op:             silu
+load_hparams: projection_dim:     2048
+
+--- vision hparams ---
+load_hparams: image_size:         1024
+load_hparams: patch_size:         14
+load_hparams: has_llava_proj:     0
+load_hparams: minicpmv_version:   0
+load_hparams: proj_scale_factor:  0
+load_hparams: n_wa_pattern:       8
+
+load_hparams: model size:         1276.39 MiB
+load_hparams: metadata size:      0.18 MiB
+alloc_compute_meta:      CUDA0 compute buffer size =     3.60 MiB
+alloc_compute_meta:        CPU compute buffer size =     0.16 MiB
+<|im_start|>system
+You are an assistant who perfectly describes images.<|im_end|>
+<|im_start|>user
+<__media__>Describe this image in detail please.<|im_end|>
+<|im_start|>assistant
+encoding image slice...
+image slice encoded in 235 ms
+decoding image batch 1/1, n_tokens_batch = 323
+image decoded (batch 1/1) in 39 ms
+Llama.generate: 30 prefix-match hit, remaining 1 prompt tokens to eval
+llama_perf_context_print:        load time =    4375.39 ms
+llama_perf_context_print: prompt eval time =   15479.16 ms /   354 tokens (   43.73 ms per token,    22.87 tokens per second)
+llama_perf_context_print:        eval time =    1608.16 ms /   281 runs   (    5.72 ms per token,   174.73 tokens per second)
+llama_perf_context_print:       total time =    6301.46 ms /   635 tokens
+llama_perf_context_print:    graphs reused =          0
+Time taken: 24.013158321380615 seconds
+
+This image is a scanned page from a Spanish-language newspaper, "Gestión," dated June 2, 2014. The headline reads "Se vienen más cuentas congeladas en regiones" which translates to "More frozen accounts in regions."
+
+The page is filled with various articles and advertisements. The top right corner has a small advertisement for "EL BARRIO" and "DECONOCIDOS Y NEGLIGENTES" by "DEL PERI."
+
+The main article, titled "En norte del país se siente más que se frenó crecimiento" translates to "In the north of the country, it feels more than it has slowed down growth." This article discusses economic conditions in the northern part of the country.
+
+Below this article, there are two smaller advertisements. One is for "TOWER.pe" and "OFICINAS PREMIUM EN SAN ISIDRO," and the other is for "DirectTV," which is described as "crecerá 25% anualmente por Mundial."
+
+The page also includes a small image of a man in a suit, likely a business or political figure, and a small advertisement for "BRASIL 2014" featuring a Brazilian flag.
+
+The page is marked with various stamps and annotations, including "gestion.pe" and "2014."
+Running vllm...
+INFO 08-25 19:04:43 [__init__.py:241] Automatically detected platform cuda.
+INFO 08-25 19:04:45 [utils.py:326] non-default args: {'model': 'unsloth/phi-4-unsloth-bnb-4bit', 'disable_log_stats': True}
+INFO 08-25 19:04:55 [__init__.py:711] Resolved architecture: LlamaForCausalLM
+INFO 08-25 19:04:55 [__init__.py:1750] Using max model len 16384
+WARNING 08-25 19:04:56 [__init__.py:1171] bitsandbytes quantization is not fully optimized yet. The speed can be slower than non-quantized models.
+INFO 08-25 19:04:57 [scheduler.py:222] Chunked prefill is enabled with max_num_batched_tokens=16384.
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:04:58 [core.py:636] Waiting for init message from front-end.
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:04:58 [core.py:74] Initializing a V1 LLM engine (v0.10.1.1) with config: model='unsloth/phi-4-unsloth-bnb-4bit', speculative_config=None, tokenizer='unsloth/phi-4-unsloth-bnb-4bit', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=16384, download_dir=None, load_format=bitsandbytes, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=bitsandbytes, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, decoding_config=DecodingConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=0, served_model_name=unsloth/phi-4-unsloth-bnb-4bit, enable_prefix_caching=True, chunked_prefill_enabled=True, use_async_output_proc=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":1,"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[512,504,496,488,480,472,464,456,448,440,432,424,416,408,400,392,384,376,368,360,352,344,336,328,320,312,304,296,288,280,272,264,256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"pass_config":{},"max_capture_size":512,"local_cache_dir":null}
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:00 [parallel_state.py:1134] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:00 [topk_topp_sampler.py:50] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:00 [gpu_model_runner.py:1953] Starting to load model unsloth/phi-4-unsloth-bnb-4bit...
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:00 [gpu_model_runner.py:1985] Loading model from scratch...
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:01 [cuda.py:328] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:01 [bitsandbytes_loader.py:742] Loading weights with BitsAndBytes quantization. May take a while ...
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:02 [weight_utils.py:296] Using model weights format ['*.safetensors']
+[1;36m(EngineCore_0 pid=191395)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+[1;36m(EngineCore_0 pid=191395)[0;0m Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:00<00:00, 85.35it/s]
+[1;36m(EngineCore_0 pid=191395)[0;0m 
+[1;36m(EngineCore_0 pid=191395)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+[1;36m(EngineCore_0 pid=191395)[0;0m Loading safetensors checkpoint shards:  33% Completed | 1/3 [00:02<00:04,  2.03s/it]
+[1;36m(EngineCore_0 pid=191395)[0;0m Loading safetensors checkpoint shards:  67% Completed | 2/3 [00:04<00:02,  2.26s/it]
+[1;36m(EngineCore_0 pid=191395)[0;0m Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:05<00:00,  1.53s/it]
+[1;36m(EngineCore_0 pid=191395)[0;0m Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:05<00:00,  1.70s/it]
+[1;36m(EngineCore_0 pid=191395)[0;0m 
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:08 [gpu_model_runner.py:2007] Model loading took 10.2817 GiB and 7.004655 seconds
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:16 [backends.py:548] Using cache directory: /lustre/romanistik/leonnial/.cache/vllm/torch_compile_cache/befa5c7fb1/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:16 [backends.py:559] Dynamo bytecode transform time: 8.10 s
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:21 [backends.py:161] Directly load the compiled graph(s) for dynamic shape from the cache, took 5.222 s
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:26 [monitor.py:34] torch.compile takes 8.10 s in total
+[1;36m(EngineCore_0 pid=191395)[0;0m /lustre/romanistik/leonnial/gec_extractor/venv/extract_pipeline/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(EngineCore_0 pid=191395)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+[1;36m(EngineCore_0 pid=191395)[0;0m   warnings.warn(
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:27 [gpu_worker.py:276] Available KV cache memory: 70.99 GiB
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:27 [kv_cache_utils.py:849] GPU KV cache size: 372,176 tokens
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:27 [kv_cache_utils.py:853] Maximum concurrency for 16,384 tokens per request: 22.72x
+[1;36m(EngineCore_0 pid=191395)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   1%|▏         | 1/67 [00:00<00:08,  7.57it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   3%|▎         | 2/67 [00:00<00:08,  8.04it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   4%|▍         | 3/67 [00:00<00:07,  8.28it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   6%|▌         | 4/67 [00:00<00:07,  8.40it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   7%|▋         | 5/67 [00:00<00:07,  8.34it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   9%|▉         | 6/67 [00:00<00:07,  8.45it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  10%|█         | 7/67 [00:00<00:07,  8.56it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  12%|█▏        | 8/67 [00:00<00:07,  8.34it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  13%|█▎        | 9/67 [00:01<00:06,  8.32it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  15%|█▍        | 10/67 [00:01<00:06,  8.33it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  16%|█▋        | 11/67 [00:01<00:06,  8.33it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  18%|█▊        | 12/67 [00:01<00:06,  8.38it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  19%|█▉        | 13/67 [00:01<00:06,  7.80it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  21%|██        | 14/67 [00:01<00:07,  6.74it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  22%|██▏       | 15/67 [00:01<00:07,  7.23it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  24%|██▍       | 16/67 [00:02<00:06,  7.62it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  25%|██▌       | 17/67 [00:02<00:06,  7.81it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  27%|██▋       | 18/67 [00:02<00:06,  8.10it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  28%|██▊       | 19/67 [00:02<00:05,  8.30it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  30%|██▉       | 20/67 [00:02<00:05,  8.34it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  31%|███▏      | 21/67 [00:02<00:05,  8.46it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  33%|███▎      | 22/67 [00:02<00:05,  8.50it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  34%|███▍      | 23/67 [00:02<00:05,  8.49it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  36%|███▌      | 24/67 [00:02<00:04,  8.64it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  37%|███▋      | 25/67 [00:03<00:04,  8.52it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  39%|███▉      | 26/67 [00:03<00:04,  8.45it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  40%|████      | 27/67 [00:03<00:05,  7.08it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  42%|████▏     | 28/67 [00:03<00:06,  6.46it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  43%|████▎     | 29/67 [00:03<00:05,  6.91it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  45%|████▍     | 30/67 [00:03<00:05,  7.34it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  46%|████▋     | 31/67 [00:03<00:04,  7.71it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  48%|████▊     | 32/67 [00:04<00:04,  7.93it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  49%|████▉     | 33/67 [00:04<00:04,  7.70it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  51%|█████     | 34/67 [00:04<00:04,  6.91it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  52%|█████▏    | 35/67 [00:04<00:04,  7.29it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  54%|█████▎    | 36/67 [00:04<00:04,  7.66it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  55%|█████▌    | 37/67 [00:04<00:03,  7.98it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  57%|█████▋    | 38/67 [00:04<00:03,  8.08it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  58%|█████▊    | 39/67 [00:04<00:03,  8.28it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|█████▉    | 40/67 [00:05<00:03,  8.45it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  61%|██████    | 41/67 [00:05<00:03,  8.47it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  63%|██████▎   | 42/67 [00:05<00:02,  8.56it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  64%|██████▍   | 43/67 [00:05<00:02,  8.68it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  66%|██████▌   | 44/67 [00:05<00:02,  8.65it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  67%|██████▋   | 45/67 [00:05<00:02,  8.72it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  69%|██████▊   | 46/67 [00:05<00:02,  8.69it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  70%|███████   | 47/67 [00:05<00:02,  8.75it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  72%|███████▏  | 48/67 [00:05<00:02,  8.74it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  73%|███████▎  | 49/67 [00:06<00:02,  8.75it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  75%|███████▍  | 50/67 [00:06<00:01,  8.79it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  76%|███████▌  | 51/67 [00:06<00:01,  8.84it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  78%|███████▊  | 52/67 [00:06<00:01,  8.73it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  79%|███████▉  | 53/67 [00:06<00:01,  8.69it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  81%|████████  | 54/67 [00:06<00:01,  8.63it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 55/67 [00:06<00:01,  8.64it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  84%|████████▎ | 56/67 [00:06<00:01,  8.61it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  85%|████████▌ | 57/67 [00:06<00:01,  8.71it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  87%|████████▋ | 58/67 [00:07<00:01,  8.81it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  88%|████████▊ | 59/67 [00:07<00:00,  8.83it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  90%|████████▉ | 60/67 [00:07<00:00,  8.84it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  91%|█████████ | 61/67 [00:07<00:00,  8.94it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  93%|█████████▎| 62/67 [00:07<00:00,  8.90it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  94%|█████████▍| 63/67 [00:07<00:00,  8.92it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  96%|█████████▌| 64/67 [00:07<00:00,  8.88it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  97%|█████████▋| 65/67 [00:07<00:00,  9.05it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  99%|█████████▊| 66/67 [00:07<00:00,  9.17it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 67/67 [00:08<00:00,  8.33it/s]
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:35 [gpu_model_runner.py:2708] Graph capturing finished in 8 secs, took 1.47 GiB
+[1;36m(EngineCore_0 pid=191395)[0;0m INFO 08-25 19:05:35 [core.py:214] init engine (profile, create kv cache, warmup model) took 27.82 seconds
+INFO 08-25 19:05:36 [llm.py:298] Supported_tasks: ['generate']
+Adding requests:   0%|          | 0/4 [00:00<?, ?it/s]Adding requests: 100%|██████████| 4/4 [00:00<00:00, 192.85it/s]
+Processed prompts:   0%|          | 0/4 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:  25%|██▌       | 1/4 [00:00<00:02,  1.33it/s, est. speed input: 6.66 toks/s, output: 21.32 toks/s]Processed prompts: 100%|██████████| 4/4 [00:00<00:00,  1.33it/s, est. speed input: 27.60 toks/s, output: 80.30 toks/s]Processed prompts: 100%|██████████| 4/4 [00:00<00:00,  5.02it/s, est. speed input: 27.60 toks/s, output: 80.30 toks/s]
+Time taken: 0.8245220184326172 seconds
+
+Generated Outputs:
+------------------------------------------------------------
+Prompt:    'Hello, my name is'
+Output:    ' John. I am a data scientist and I use Python for my work. Python'
+------------------------------------------------------------
+Prompt:    'The president of the United States is'
+Output:    ' elected through a process known as the Electoral College system. Each state is allocated a'
+------------------------------------------------------------
+Prompt:    'The capital of France is'
+Output:    ' Paris." is written in the active voice. The subject of the sentence is "'
+------------------------------------------------------------
+Prompt:    'The future of AI is'
+Output:    ' bright, with ongoing research pushing the boundaries of what these systems can achieve. As'
+------------------------------------------------------------
+Script finished!
