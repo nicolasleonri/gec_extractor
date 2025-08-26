@@ -120,7 +120,7 @@ def process_image(file_path):
         ]}
       ],
       temperature=0.0,
-      max_tokens=2048,
+      max_tokens=16384,
       repeat_penalty=1.125,
       top_p=0.95,
       top_k=5,
@@ -176,7 +176,7 @@ def main():
   """
 
   log_timestamp = time.strftime("%Y%m%d_%H%M%S")
-  shared_log_file = f"./logs/ocr_log_{log_timestamp}.csv"
+  shared_log_file = f"./logs/ocr_results/ocr_log_{log_timestamp}.csv"
 
   img_list = get_image_files('./results/images/preprocessed')
 
