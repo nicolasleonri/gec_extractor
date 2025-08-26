@@ -1,9 +1,6 @@
 #!/bin/bash
-#SBATCH --ntasks=48
-#SBATCH --ntasks-per-node=24
-#SBATCH --nodes=2
+#SBATCH --ntasks=1
 #SBATCH --mem=96gb
-#SBATCH --cpus-per-task=12 
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu
 #SBATCH --account=leonnial
@@ -32,7 +29,7 @@ source ./venv/extract_pipeline/bin/activate
 echo "Second task: OCR. Running..."
 python -u ./src/extract_pipeline/llama.py
 
-# echo "Third task: LLM. Running..."
+echo "Third task: LLM. Running..."
 # python -u ./src/extract_pipeline/pipeline_vllm.py
 
 echo "Script finished!"

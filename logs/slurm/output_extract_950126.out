@@ -1,0 +1,203 @@
+First task: Preprocessing images. Loading modules...
+First task: Preprocessing images. Activating virtual environment...
+First task: Preprocessing images. Running...
+Processing 4 images using 384 threads...
+✓ Processed: data/images/2020/07/15/test_small.jpg
+✓ Processed: data/images/2020/07/15/test3.jpg
+✓ Processed: data/images/2013/08/01/test.jpg
+✓ Processed: data/images/2013/08/01/test2.jpg
+
+Summary: 4/4 images processed successfully
+Processed 4 images in 0.63 seconds
+Avg per image: 0.16 sec
+Second task: OCR. Loading modules...
+Second task: OCR. Setting folders...
+Second task: OCR. Activating virtual environment...
+Second task: OCR. Running...
+llama_context: n_ctx_per_seq (16384) < n_ctx_train (128000) -- the full capacity of the model will not be utilized
+Minimal - Cleared state, processing 1 images
+clip_model_loader: model name:   Nanonets-Ocr-S
+clip_model_loader: description:  
+clip_model_loader: GGUF version: 3
+clip_model_loader: alignment:    32
+clip_model_loader: n_tensors:    519
+clip_model_loader: n_kv:         29
+
+clip_model_loader: has vision encoder
+clip_ctx: CLIP using CUDA0 backend
+load_hparams: projector:          qwen2.5vl_merger
+load_hparams: n_embd:             1280
+load_hparams: n_head:             16
+load_hparams: n_ff:               3420
+load_hparams: n_layer:            32
+load_hparams: ffn_op:             silu
+load_hparams: projection_dim:     2048
+
+--- vision hparams ---
+load_hparams: image_size:         1024
+load_hparams: patch_size:         14
+load_hparams: has_llava_proj:     0
+load_hparams: minicpmv_version:   0
+load_hparams: proj_scale_factor:  0
+load_hparams: n_wa_pattern:       8
+
+load_hparams: model size:         1276.39 MiB
+load_hparams: metadata size:      0.18 MiB
+alloc_compute_meta:      CUDA0 compute buffer size =     3.60 MiB
+alloc_compute_meta:        CPU compute buffer size =     0.16 MiB
+<|im_start|>system
+
+  You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
+
+  CRITICAL REQUIREMENTS:
+  - Read every single word, number, date, and punctuation mark visible in the image
+  - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
+  - Preserve the original text layout and structure (headlines, paragraphs, columns)
+  - Maintain proper spacing between words and sentences
+  - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
+  - Handle multiple columns by reading left-to-right, top-to-bottom within each column
+  - Preserve special characters, accents, and non-English text exactly as shown
+  - Do NOT skip any text, even if partially obscured or small
+  - Do NOT add explanations, interpretations, or markdown formatting
+  - Do NOT summarize or paraphrase - extract the exact text as written
+  
+  Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
+  DO NOT REPEAT CONTENT. IF YOU REPEAT CONTENT MORE THAN TWICE, YOU WILL RECEIVE A NEGATIVE GRADE (REINFORCEMENT LEARNING, RL)
+
+  WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
+  the entire OCR pipeline will fail and all downstream processing will be corrupted. 
+  Your response must contain ONLY the extracted text - nothing else.
+
+  CONTEXT: This is a test. You are being compared to other VLMs. You have to be quick and good.
+
+  TIP: If something is being repeated more than twice, it is -for sure- an error.
+  <|im_end|>
+<|im_start|>user
+<__media__><|im_end|>
+<|im_start|>assistant
+encoding image slice...
+image slice encoded in 455 ms
+decoding image batch 1/1, n_tokens_batch = 1221
+image decoded (batch 1/1) in 48 ms
+GPU Memory: 17201, 63956
+Total time: 3.07 seconds
+✓ Extracted text from test.png
+Minimal - Cleared state, processing 1 images
+<|im_start|>system
+
+  You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
+
+  CRITICAL REQUIREMENTS:
+  - Read every single word, number, date, and punctuation mark visible in the image
+  - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
+  - Preserve the original text layout and structure (headlines, paragraphs, columns)
+  - Maintain proper spacing between words and sentences
+  - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
+  - Handle multiple columns by reading left-to-right, top-to-bottom within each column
+  - Preserve special characters, accents, and non-English text exactly as shown
+  - Do NOT skip any text, even if partially obscured or small
+  - Do NOT add explanations, interpretations, or markdown formatting
+  - Do NOT summarize or paraphrase - extract the exact text as written
+  
+  Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
+  DO NOT REPEAT CONTENT. IF YOU REPEAT CONTENT MORE THAN TWICE, YOU WILL RECEIVE A NEGATIVE GRADE (REINFORCEMENT LEARNING, RL)
+
+  WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
+  the entire OCR pipeline will fail and all downstream processing will be corrupted. 
+  Your response must contain ONLY the extracted text - nothing else.
+
+  CONTEXT: This is a test. You are being compared to other VLMs. You have to be quick and good.
+
+  TIP: If something is being repeated more than twice, it is -for sure- an error.
+  <|im_end|>
+<|im_start|>user
+<__media__><|im_end|>
+<|im_start|>assistant
+encoding image slice...
+image slice encoded in 392 ms
+decoding image batch 1/1, n_tokens_batch = 1258
+image decoded (batch 1/1) in 51 ms
+GPU Memory: 17305, 63852
+Total time: 0.85 seconds
+✓ Extracted text from test2.png
+Minimal - Cleared state, processing 1 images
+<|im_start|>system
+
+  You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
+
+  CRITICAL REQUIREMENTS:
+  - Read every single word, number, date, and punctuation mark visible in the image
+  - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
+  - Preserve the original text layout and structure (headlines, paragraphs, columns)
+  - Maintain proper spacing between words and sentences
+  - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
+  - Handle multiple columns by reading left-to-right, top-to-bottom within each column
+  - Preserve special characters, accents, and non-English text exactly as shown
+  - Do NOT skip any text, even if partially obscured or small
+  - Do NOT add explanations, interpretations, or markdown formatting
+  - Do NOT summarize or paraphrase - extract the exact text as written
+  
+  Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
+  DO NOT REPEAT CONTENT. IF YOU REPEAT CONTENT MORE THAN TWICE, YOU WILL RECEIVE A NEGATIVE GRADE (REINFORCEMENT LEARNING, RL)
+
+  WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
+  the entire OCR pipeline will fail and all downstream processing will be corrupted. 
+  Your response must contain ONLY the extracted text - nothing else.
+
+  CONTEXT: This is a test. You are being compared to other VLMs. You have to be quick and good.
+
+  TIP: If something is being repeated more than twice, it is -for sure- an error.
+  <|im_end|>
+<|im_start|>user
+<__media__><|im_end|>
+<|im_start|>assistant
+encoding image slice...
+image slice encoded in 340 ms
+decoding image batch 1/1, n_tokens_batch = 1221
+image decoded (batch 1/1) in 47 ms
+GPU Memory: 17305, 63852
+Total time: 1.01 seconds
+✓ Extracted text from test3.png
+Minimal - Cleared state, processing 1 images
+<|im_start|>system
+
+  You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
+
+  CRITICAL REQUIREMENTS:
+  - Read every single word, number, date, and punctuation mark visible in the image
+  - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
+  - Preserve the original text layout and structure (headlines, paragraphs, columns)
+  - Maintain proper spacing between words and sentences
+  - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
+  - Handle multiple columns by reading left-to-right, top-to-bottom within each column
+  - Preserve special characters, accents, and non-English text exactly as shown
+  - Do NOT skip any text, even if partially obscured or small
+  - Do NOT add explanations, interpretations, or markdown formatting
+  - Do NOT summarize or paraphrase - extract the exact text as written
+  
+  Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
+  DO NOT REPEAT CONTENT. IF YOU REPEAT CONTENT MORE THAN TWICE, YOU WILL RECEIVE A NEGATIVE GRADE (REINFORCEMENT LEARNING, RL)
+
+  WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
+  the entire OCR pipeline will fail and all downstream processing will be corrupted. 
+  Your response must contain ONLY the extracted text - nothing else.
+
+  CONTEXT: This is a test. You are being compared to other VLMs. You have to be quick and good.
+
+  TIP: If something is being repeated more than twice, it is -for sure- an error.
+  <|im_end|>
+<|im_start|>user
+<__media__><|im_end|>
+<|im_start|>assistant
+encoding image slice...
+image slice encoded in 81 ms
+decoding image batch 1/1, n_tokens_batch = 323
+image decoded (batch 1/1) in 15 ms
+GPU Memory: 17305, 63852
+Total time: 0.60 seconds
+✓ Extracted text from test_small.png
+Processed 4 images in 9.84 seconds
+Avg per image: 2.46 sec
+Log saved to ./logs/ocr_log_20250827_000903.csv
+Third task: LLM. Running...
+Script finished!
