@@ -10,6 +10,159 @@ import sys
 import re
 import os
 
+class ColumnExtraction:
+    @staticmethod
+    def crop_vertical_columns(binary_img: ndarray, min_col_width: int = 75) -> List[ndarray]:
+        """
+        Crop vertical columns from a preprocessed binary image using histogram analysis.
+        Ensures complete coverage - no parts of the image are eliminated.
+
+        Args:
+            binary_img (ndarray): Binary image with text in black (0), background white (255).
+            min_col_width (int): Minimum width in pixels to consider a column (filter noise).
+            debug (bool): If True, shows intermediate images and plots.
+
+        Returns:
+            List[ndarray]: List of cropped column images as numpy arrays with complete coverage.
+        """
+
+        if np.mean(binary_img) < 128:
+            binary_img = 255 - binary_img
+
+        vertical_sum = np.sum(binary_img == 0, axis=0)
+
+        threshold = np.max(vertical_sum) * 0.05  # tweak this if needed
+        gaps = vertical_sum < threshold
+
+        text_regions = []
+        in_column = False
+        start = 0
+        for i, is_gap in enumerate(gaps):
+            if not is_gap and not in_column:
+                start = i
+                in_column = True
+            elif is_gap and in_column:
+                end = i
+                in_column = False
+                if end - start >= min_col_width:
+                    text_regions.append((start, end))
+
+        crop_boundaries = []
+        image_width = binary_img.shape[1]
+
+        if not text_regions:
+            return [binary_img]
+
+        current_pos = 0
+
+        for i, (text_start, text_end) in enumerate(text_regions):
+            if i == 0:
+                # First column: include everything from start to middle of gap after this column
+                if i < len(text_regions) - 1:
+                    next_text_start = text_regions[i + 1][0]
+                    gap_middle = (text_end + next_text_start) // 2
+                    crop_boundaries.append((0, gap_middle))
+                    current_pos = gap_middle
+                else:
+                    # Only one column, take entire width
+                    crop_boundaries.append((0, image_width))
+                    current_pos = image_width
+            elif i == len(text_regions) - 1:
+                # Last column: from current position to end of image
+                crop_boundaries.append((current_pos, image_width))
+            else:
+                # Middle columns: from current position to middle of next gap
+                next_text_start = text_regions[i + 1][0]
+                gap_middle = (text_end + next_text_start) // 2
+                crop_boundaries.append((current_pos, gap_middle))
+                current_pos = gap_middle
+
+        # Crop columns ensuring complete coverage
+        columns = []
+        for start, end in crop_boundaries:
+            col_img = binary_img[:, start:end]
+            columns.append(col_img)
+
+        return columns
+
+    @staticmethod
+    def crop_horizontal_columns(binary_img: np.ndarray, min_row_height: int = 60) -> List[np.ndarray]:
+        """
+        Crop horizontal sections from a preprocessed binary image using histogram analysis.
+        Ensures complete coverage - no parts of the image are eliminated.
+
+        Args:
+            binary_img (ndarray): Binary image with text in black (0), background white (255).
+            min_row_height (int): Minimum height in pixels to consider a row (filter noise).
+            debug (bool): If True, shows intermediate images and plots.
+
+        Returns:
+            List[ndarray]: List of cropped row images as numpy arrays with complete coverage.
+        """
+        if np.mean(binary_img) < 128:
+            binary_img = 255 - binary_img
+
+        horizontal_sum = np.sum(binary_img == 0, axis=1)
+
+        threshold = np.max(horizontal_sum) * 0.05
+        gaps = horizontal_sum < threshold
+
+        text_regions = []
+        in_row = False
+        start = 0
+        for i, is_gap in enumerate(gaps):
+            if not is_gap and not in_row:
+                start = i
+                in_row = True
+            elif is_gap and in_row:
+                end = i
+                in_row = False
+                if end - start >= min_row_height:
+                    text_regions.append((start, end))
+
+        # Handle case where row goes till end of image
+        if in_row:
+            end = len(gaps) - 1
+            if end - start >= min_row_height:
+                text_regions.append((start, end))
+
+        crop_boundaries = []
+        image_height = binary_img.shape[0]
+
+        if not text_regions:
+            return [binary_img]
+
+        current_pos = 0
+
+        for i, (text_start, text_end) in enumerate(text_regions):
+            if i == 0:
+                # First row: include everything from start to middle of gap after this row
+                if i < len(text_regions) - 1:
+                    next_text_start = text_regions[i + 1][0]
+                    gap_middle = (text_end + next_text_start) // 2
+                    crop_boundaries.append((0, gap_middle))
+                    current_pos = gap_middle
+                else:
+                    # Only one row, take entire height
+                    crop_boundaries.append((0, image_height))
+                    current_pos = image_height
+            elif i == len(text_regions) - 1:
+                # Last row: from current position to end of image
+                crop_boundaries.append((current_pos, image_height))
+            else:
+                # Middle rows: from current position to middle of next gap
+                next_text_start = text_regions[i + 1][0]
+                gap_middle = (text_end + next_text_start) // 2
+                crop_boundaries.append((current_pos, gap_middle))
+                current_pos = gap_middle
+
+        # Crop rows ensuring complete coverage
+        rows = []
+        for start, end in crop_boundaries:
+            row_img = binary_img[start:end, :]
+            rows.append(row_img)
+
+        return rows
 
 class Binarization:
     """Provides several binarization methods for thresholding grayscale images."""
@@ -282,14 +435,23 @@ def preprocess_image(image_path, config_list, newspaper) -> Tuple[Path, bool, Op
         output_path = "results/images/preprocessed/" + str(newspaper) + "/" + date_path + "/"
         os.makedirs(output_path, exist_ok=True)
 
-        if image_path.suffix.lower() != '.png':
-            new_filename = image_path.stem + '.png'
+        if newspaper == "gestion":
+            new_folder = os.path.join(output_path, f"{image_path.stem}")
+            os.makedirs(new_folder, exist_ok=True)
+            vertical_columns = ColumnExtraction.crop_vertical_columns(final_image)
+            for i, vert_col in enumerate(vertical_columns):
+                path_file_columns = os.path.join(new_folder, f"{image_path.stem}_vert_#{i}.png")
+                horizontal_columns = ColumnExtraction.crop_horizontal_columns(vert_col)
+                for j, hor_col in enumerate(horizontal_columns):
+                    path_file_columns = os.path.join(new_folder, f"{image_path.stem}_hor_#{i}_{j}.png")
+                    success = cv2.imwrite(path_file_columns, hor_col)
         else:
-            new_filename = image_path.name
-
-        output_file = output_path + new_filename
-        
-        success = cv2.imwrite(str(output_file), final_image)
+            if image_path.suffix.lower() != '.png':
+                new_filename = image_path.stem + '.png'
+            else:
+                new_filename = image_path.name
+            output_file = output_path + new_filename
+            success = cv2.imwrite(str(output_file), final_image)
 
         if success:
             return (image_path, True, None)

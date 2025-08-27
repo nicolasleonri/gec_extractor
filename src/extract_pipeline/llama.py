@@ -4,6 +4,7 @@ from pathlib import Path
 from PIL import Image
 import base64
 import time
+import argparse
 import csv
 import os
 import subprocess
@@ -14,6 +15,72 @@ import io
 llm = None
 prompt = None
 log_file = None
+flag_gestion = False
+
+def match(choice: str) -> None:
+  dict = {
+    "gestion": {
+      "ch_repo_id": "unsloth/Nanonets-OCR-s-GGUF",
+      "ch_filename":"mmproj-BF16.gguf",
+      "llm_repo_id":"unsloth/Nanonets-OCR-s-GGUF",
+      "llm_filename":"Nanonets-OCR-s-Q5_K_M.gguf",
+    },
+    "trome": {
+      "ch_repo_id": "unsloth/Nanonets-OCR-s-GGUF",
+      "ch_filename":"mmproj-BF16.gguf",
+      "llm_repo_id":"unsloth/Nanonets-OCR-s-GGUF",
+      "llm_filename":"Nanonets-OCR-s-Q5_K_M.gguf",
+    },
+    "elcomercio": {
+      "ch_repo_id": "mradermacher/olmOCR-7B-0725-GGUF",
+      "ch_filename":"olmOCR-7B-0725.mmproj-Q8_0.gguf",
+      "llm_repo_id":"mradermacher/olmOCR-7B-0725-GGUF",
+      "llm_filename":"olmOCR-7B-0725.Q5_K_M.gguf",
+    },
+    "ojo": {
+      "ch_repo_id": "mradermacher/RolmOCR-GGUF",
+      "ch_filename":"RolmOCR.mmproj-Q8_0.gguf",
+      "llm_repo_id":"mradermacher/RolmOCR-GGUF",
+      "llm_filename":"RolmOCR.Q5_K_M.gguf",
+    },
+    "correo": {
+      "ch_repo_id": "mradermacher/RolmOCR-GGUF",
+      "ch_filename":"RolmOCR.mmproj-Q8_0.gguf",
+      "llm_repo_id":"mradermacher/RolmOCR-GGUF",
+      "llm_filename":"RolmOCR.Q5_K_M.gguf",
+    },
+    "publimetro": {
+      "ch_repo_id": "mradermacher/RolmOCR-GGUF",
+      "ch_filename":"RolmOCR.mmproj-Q8_0.gguf",
+      "llm_repo_id":"mradermacher/RolmOCR-GGUF",
+      "llm_filename":"RolmOCR.Q5_K_M.gguf",
+    },
+    "peru21": {
+      "ch_repo_id": "mradermacher/olmOCR-7B-0725-GGUF",
+      "ch_filename":"olmOCR-7B-0725.mmproj-Q8_0.gguf",
+      "llm_repo_id":"mradermacher/olmOCR-7B-0725-GGUF",
+      "llm_filename":"olmOCR-7B-0725.Q5_K_M.gguf",
+    },
+  }
+
+  match choice:
+    case "trome":
+      return dict["trome"]
+    case "ojo":
+      return dict["ojo"]
+    case "publimetro":
+      return dict["publimetro"]
+    case "peru21":
+      return dict["peru21"]
+    case "elcomercio":
+      return dict["elcomercio"]
+    case "correo":
+      return dict["correo"]
+    case "gestion":
+      return dict["gestion"]
+    case _:
+      print("Newspaper not recognized. Available options: trome, ojo, publimetro, peru21, elcomercio, correo, gestion.")
+      return None
 
 def shrink_image(image_path, max_dim=1024):
   """
@@ -35,19 +102,18 @@ def shrink_image(image_path, max_dim=1024):
 
   return img.resize((new_w, new_h), Image.BICUBIC)
 
-def init_worker(shared_prompt, shared_log_file):
+def init_worker(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename):
   """Initialize model once per process."""
-  global llm, prompt, log_file
+  global llm, prompt, log_file, flag_gestion
 
   chat_handler = Qwen25VLChatHandler.from_pretrained(
-    repo_id="unsloth/Nanonets-OCR-s-GGUF",
-    filename="mmproj-BF16.gguf",
+    repo_id=str(shared_ch_repo_id),
+    filename=str(shared_ch_filename),
   )
 
   llm = Llama.from_pretrained(
-    repo_id="unsloth/Nanonets-OCR-s-GGUF",
-    # filename="Nanonets-OCR-s-Q4_K_M.gguf",
-    filename="Nanonets-OCR-s-Q5_K_M.gguf",
+    repo_id=str(shared_llm_repo_id),
+    filename=str(shared_llm_filename),
     chat_handler=chat_handler,
     n_gpu_layers=-1,
     n_ctx=16384,
@@ -64,6 +130,7 @@ def init_worker(shared_prompt, shared_log_file):
 
   prompt = shared_prompt
   log_file = shared_log_file
+  flag_gestion = shared_flag_gestion
 
 def check_gpu():
     result = subprocess.run(
@@ -73,9 +140,33 @@ def check_gpu():
     print("GPU Memory:", result.stdout.strip())
 
 def encode_image(image_path):
-  with open(image_path, 'rb') as image_file:
-    encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
-  return encoded_string
+  img = shrink_image(image_path, max_dim=1024)
+  img_bytes = io.BytesIO()
+  img.save(img_bytes, format="PNG")
+  img_input = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
+  return img_input
+
+def chat_completion(llm, prompt, img_input):
+  response = llm.create_chat_completion(
+    messages=[
+      {"role": "system", "content": prompt},
+      {"role": "user", "content": [
+        {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_input}"}},
+      ]}
+    ],
+    temperature=0.0,
+    max_tokens=16384,
+    repeat_penalty=1.125,
+    top_p=0.95,
+    top_k=5,
+    min_p=0.1,
+    stream=False,
+    seed=42,
+    typical_p=0.95,
+    tfs_z=0.95,
+    )
+  extracted_text = response["choices"][0]["message"]["content"]
+  return extracted_text
 
 def get_image_files(directory):
   SUPPORTED_FORMATS = ['.png', '.jpg', '.jpeg', '.webp', '.tiff', '.bmp']
@@ -86,6 +177,16 @@ def get_image_files(directory):
       image_files.append(file)
 
   output = sorted(image_files)
+  return output
+
+def get_subdirectories(directory):
+  deepest_subdirectories = []
+  for path in Path(directory).rglob('*'):
+    if path.is_dir():
+      has_subdirs = any(child.is_dir() for child in path.iterdir())
+      if not has_subdirs:
+        deepest_subdirectories.append(path)
+  output = sorted(deepest_subdirectories)
   return output
 
 def save_to_csv_log(filename, extracted_text, log_file):
@@ -101,53 +202,49 @@ def save_to_csv_log(filename, extracted_text, log_file):
 
 def process_image(file_path):
   """Use preloaded model to process one image."""
-  global llm, prompt, log_file
+  global llm, prompt, log_file, flag_gestion
 
   start_time  = time.time()
 
   try:
-    img = shrink_image(file_path, max_dim=1024)
-    img_bytes = io.BytesIO()
-    img.save(img_bytes, format="PNG")
-    img_input = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
-    # img_input = encode_image(file_path)
+    if flag_gestion == True:
+      img_list = get_image_files(file_path)
 
-    response = llm.create_chat_completion(
-      messages=[
-        {"role": "system", "content": prompt},
-        {"role": "user", "content": [
-          {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_input}"}},
-        ]}
-      ],
-      temperature=0.0,
-      max_tokens=16384,
-      repeat_penalty=1.125,
-      top_p=0.95,
-      top_k=5,
-      min_p=0.1,
-      stream=False,
-      seed=42,
-      typical_p=0.95,
-      tfs_z=0.95,
-      )
+      all_results = []
+      for file_path in img_list:
+        img_input = encode_image(file_path)
+        extracted_text = chat_completion(llm, prompt, img_input)
+        all_results.append(extracted_text)
+        check_gpu()
+
+      extracted_text = " ".join(all_results)
+      new_path = str(Path(img_list[0]).parent) + ".png"
+      save_to_csv_log(str(new_path), extracted_text, log_file)
+    else:
+      img_input = encode_image(file_path)
+      extracted_text = chat_completion(llm, prompt, img_input)
+      save_to_csv_log(str(file_path), extracted_text, log_file)
+
+    total_time = time.time() - start_time
 
     check_gpu()
-    total_time = time.time() - start_time
-    print(f"Total time: {total_time:.2f} seconds")
-
-    extracted_text = response["choices"][0]["message"]["content"]
-    save_to_csv_log(str(file_path), extracted_text, log_file)
-
-    del img_input, response, extracted_text
+    del img_input, extracted_text
     gc.collect()
 
+    print(f"Total time: {total_time:.2f} seconds")
     return f"✓ Extracted text from {file_path.name}"
-
   except Exception as e:
-      gc.collect()
-      return f"✗ Failed to process {file_path.name}: {e}"
+    gc.collect()
+    return f"✗ Failed to process {file_path.name}: {e}" 
+
 
 def main():
+  parser = argparse.ArgumentParser(description='OCR for preprocessed images.')
+  parser.add_argument('-n', '--newspaper', required=True, help='Newspaper name (optional)')
+  parser.add_argument('-f', '--folder_file', required=True, help='Input folder path (required)')
+ 
+  args = parser.parse_args()
+  
   shared_prompt = """
   You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
 
@@ -178,11 +275,22 @@ def main():
   log_timestamp = time.strftime("%Y%m%d_%H%M%S")
   shared_log_file = f"./logs/ocr_results/ocr_log_{log_timestamp}.csv"
 
-  img_list = get_image_files('./results/images/preprocessed')
+  model_info = match(args.newspaper)
+  shared_ch_repo_id = model_info["ch_repo_id"]
+  shared_ch_filename = model_info["ch_filename"]
+  shared_llm_repo_id = model_info["llm_repo_id"]
+  shared_llm_filename = model_info["llm_filename"]
+
+  if args.newspaper == "gestion":
+    shared_flag_gestion = True
+    img_list = get_subdirectories(str(args.folder_file))
+  else:
+    shared_flag_gestion = False
+    img_list = get_image_files(str(args.folder_file))
 
   start_time = time.time()
 
-  with ProcessPoolExecutor(max_workers=1, initializer=init_worker, initargs=(shared_prompt, shared_log_file)) as executor:
+  with ProcessPoolExecutor(max_workers=1, initializer=init_worker, initargs=(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename)) as executor:
     futures = [executor.submit(process_image, f) for f in img_list]
     for future in as_completed(futures):
       print(future.result())

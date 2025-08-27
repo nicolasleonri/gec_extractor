@@ -12,7 +12,7 @@
 # echo "First task: Preprocessing images. Activating virtual environment..."
 # source ./venv/opencv/bin/activate
 # echo "First task: Preprocessing images. Running..."
-# python -u ./src/extract_pipeline/opencv.py -n gestion -f ./data/images
+# python -u ./src/extract_pipeline/opencv.py -n trome -f ./data/images/2020
 # deactivate
 
 echo "Second/Third task: OCR. Loading modules..."
@@ -30,10 +30,13 @@ export CUDA_HOME=/software/nvidia/hpc_sdk/nvhpc_2025_251_Linux_x86_64_cuda_12.6/
 
 echo "Second/Third task: OCR. Activating virtual environment..."
 source ./venv/extract_pipeline/bin/activate
-# echo "Second task: OCR. Running..."
-# # python -u ./src/extract_pipeline/llama.py
 
-echo "Third task: LLM. Running..."
-python -u ./src/extract_pipeline/pipeline_vllm.py -l ./logs/ocr_results
+echo "Second task: OCR. Running..."
+python -u ./src/extract_pipeline/llama.py -n trome -f ./results/images/preprocessed/trome
+
+# echo "Third task: LLM. Running..."
+# python -u ./src/extract_pipeline/pipeline_vllm.py -l ./logs/ocr_results
+
+deactivate
 
 echo "Script finished!"
