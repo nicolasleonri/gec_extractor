@@ -204,6 +204,7 @@ def process_image(file_path):
   """Use preloaded model to process one image."""
   global llm, prompt, log_file, flag_gestion
 
+  check_gpu()
   start_time  = time.time()
 
   try:
@@ -215,6 +216,7 @@ def process_image(file_path):
         img_input = encode_image(file_path)
         extracted_text = chat_completion(llm, prompt, img_input)
         all_results.append(extracted_text)
+        os.remove(file_path)
         check_gpu()
 
       extracted_text = " ".join(all_results)
@@ -224,10 +226,11 @@ def process_image(file_path):
       img_input = encode_image(file_path)
       extracted_text = chat_completion(llm, prompt, img_input)
       save_to_csv_log(str(file_path), extracted_text, log_file)
-
-    total_time = time.time() - start_time
+      os.remove(file_path)
 
     check_gpu()
+    total_time = time.time() - start_time
+    
     del img_input, extracted_text
     gc.collect()
 
@@ -235,7 +238,7 @@ def process_image(file_path):
     return f"✓ Extracted text from {file_path.name}"
   except Exception as e:
     gc.collect()
-    return f"✗ Failed to process {file_path.name}: {e}" 
+    return f"✗ Failed to process {file_path}: {e}" 
 
 
 def main():
@@ -290,7 +293,7 @@ def main():
 
   start_time = time.time()
 
-  with ProcessPoolExecutor(max_workers=1, initializer=init_worker, initargs=(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename)) as executor:
+  with ProcessPoolExecutor(max_workers=2, initializer=init_worker, initargs=(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename)) as executor:
     futures = [executor.submit(process_image, f) for f in img_list]
     for future in as_completed(futures):
       print(future.result())
