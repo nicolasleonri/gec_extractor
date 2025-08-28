@@ -245,7 +245,8 @@ def main():
   parser = argparse.ArgumentParser(description='OCR for preprocessed images.')
   parser.add_argument('-n', '--newspaper', required=True, help='Newspaper name (optional)')
   parser.add_argument('-f', '--folder_file', required=True, help='Input folder path (required)')
- 
+  parser.add_argument('-mw', '--max_workers', required=True, help='Newspaper name (optional)')
+
   args = parser.parse_args()
   
   shared_prompt = """
@@ -291,9 +292,11 @@ def main():
     shared_flag_gestion = False
     img_list = get_image_files(str(args.folder_file))
 
+  mw = int(args.max_workers)
+
   start_time = time.time()
 
-  with ProcessPoolExecutor(max_workers=2, initializer=init_worker, initargs=(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename)) as executor:
+  with ProcessPoolExecutor(max_workers=mw, initializer=init_worker, initargs=(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename)) as executor:
     futures = [executor.submit(process_image, f) for f in img_list]
     for future in as_completed(futures):
       print(future.result())

@@ -4,16 +4,17 @@
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu
 #SBATCH --account=leonnial
-#SBATCH -o ./logs/slurm/output_final_%j.out
+#SBATCH --time=14-00:00:00
+#SBATCH -o ./logs/slurm/output_final_slow_%j.out
 
-echo "First task: Preprocessing images. Loading modules..."
-module purge
-module load OpenCV/4.12.0-gcc-14.2.0-python-3.13.1
-echo "First task: Preprocessing images. Activating virtual environment..."
-source ./venv/opencv/bin/activate
-echo "First task: Preprocessing images. Running..."
-python -u ./src/extract_pipeline/opencv.py -n trome -f ./data/images
-deactivate
+# echo "First task: Preprocessing images. Loading modules..."
+# module purge
+# module load OpenCV/4.12.0-gcc-14.2.0-python-3.13.1
+# echo "First task: Preprocessing images. Activating virtual environment..."
+# source ./venv/opencv/bin/activate
+# echo "First task: Preprocessing images. Running..."
+# python -u ./src/extract_pipeline/opencv.py -n trome -f ./data/images/trome/2014
+# deactivate
 
 echo "Second/Third task: OCR. Loading modules..."
 module purge
@@ -32,7 +33,7 @@ echo "Second/Third task: OCR. Activating virtual environment..."
 source ./venv/extract_pipeline/bin/activate
 
 echo "Second task: OCR. Running..."
-python -u ./src/extract_pipeline/llama.py -n trome -f ./results/images/preprocessed/trome
+python -u ./src/extract_pipeline/llama.py -n trome -f ./results/images/preprocessed/trome -mw 1
 
 echo "Third task: LLM. Running..."
 python -u ./src/extract_pipeline/pipeline_vllm.py -n trome -l ./logs/ocr_results
