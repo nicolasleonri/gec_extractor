@@ -21,3 +21,7 @@ results/models/**
 # Ignore quantized models
 data/quantizied_models/**
 data/quantizied_models/phi-4-Q4_K_M.gguf
+
+# Ignore input data
+data/images/**
+./data/images/**
