@@ -14,41 +14,41 @@ sampling_params = SamplingParams(
     temperature=0.0,
     top_p=0.95,
     top_k=40,
-    min_p=0.1,
-    max_tokens=16384,
+    min_p=0.05,
+    max_tokens=4096,
     n=1,                     
     seed=42,
-    )
+)
 
 instructions = """
-    GOAL: Given the image, extract and structure the following information:
-    - headline of the article (string or "NA")
-    - subheadline of the article (string or "NA")
-    - author of the article (string or "NA")
-    - content of the article (string)
+GOAL: Given the image, extract and structure the following information:
+- headline of the article (string or "NA")
+- subheadline of the article (string or "NA")
+- author of the article (string or "NA")
+- content of the article (string or "NA")
 
-    IMPORTANT:
-    - Focus only on articles that contain meaningful journalistic content.
-    - Exclude very short notices such as: date blocks, weather updates, advertisements, or public announcements.
-    - Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
-    - If any field is missing or unknown, write "NA".
+IMPORTANT:
+- Focus only on articles that contain meaningful journalistic content.
+- Exclude very short notices such as: date blocks, weather updates, advertisements, public announcements.
+- Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
+- If any field is missing or unknown, write "NA".
 
-    RETURN FORMAT:
-    Strictly output a valid CSV in the following format:
-    "headline";"subheadline";"author";"content"
-    "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
-    "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
+RETURN FORMAT:
+Strictly output a valid CSV in the following format:
+"headline";"subheadline";"author";"content"
+"El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
+"Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
 
-    RULES:
-    - Do NOT include explanations, extra text, or commentary.
-    - Enclose each field in double quotes.
-    - Use semicolons (`;`) as field separators.
-    - Do NOT insert semicolons inside fields. If needed, replace them with commas.
-    - Each row represents one article. The first row must always be the CSV header.
+RULES:
+- Do NOT include explanations, extra text, or commentary.
+- Enclose each field in double quotes.
+- Use semicolons (`;`) as field separators.
+- Do NOT insert semicolons inside fields. If needed, replace them with commas.
+- Each row represents one article. The first row must always be the CSV header.
 
-    CONTEXT:
-    You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
-    """
+CONTEXT:
+You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
+"""
 
 def extract_code_block(text: str, language_hint: str = "csv") -> str:
     """Extracts a code block (e.g., CSV) from a markdown-formatted LLM response.
@@ -120,10 +120,12 @@ def main():
         enforce_eager=True,
         swap_space=0,
         max_num_batched_tokens=8192,
-        max_model_len=4096,
+        max_model_len=8192,
         disable_log_stats=True,
-        gpu_memory_utilization=0.95,
+        gpu_memory_utilization=0.85,
         block_size=256,
+        quantization="bitsandbytes",
+        enable_chunked_prefill=True
     )
 
     check_gpu()

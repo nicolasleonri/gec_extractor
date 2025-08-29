@@ -1,0 +1,90 @@
+First task: Preprocessing images. Loading modules...
+First task: Preprocessing images. Activating virtual environment...
+First task: Preprocessing images. Running...
+Processing 28 images using 384 threads...
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#05.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#07.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#06.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#02.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#01.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#03.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#04.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#11.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#08.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#09.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#13.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#10.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#15.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#12.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#14.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#17.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#19.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#18.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#20.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#16.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#21.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#24.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#22.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#27.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#26.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#23.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#28.jpg
+✓ Processed: data/images/trome/2019/01/03/trome_2019-01-03#25.jpg
+
+Summary: 28/28 images processed successfully
+Processed 28 images in 0.73 seconds
+Avg per image: 0.03 sec
+Second/Third task: OCR. Loading modules...
+Second/Third task: OCR. Setting folders...
+Second/Third task: OCR. Activating virtual environment...
+Second task: OCR. Running...
+Working with 1 memories.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Process failed with error: A process in the process pool was terminated abruptly while the future was running or pending.
+Processed 28 images in 2.21 seconds
+Avg per image: 0.08 sec
+Log saved to ./logs/test/ocr_log_20250829_143842.csv
+Third task: LLM. Running...
+INFO 08-29 14:39:45 [__init__.py:241] Automatically detected platform cuda.
+Traceback (most recent call last):
+  File "/lustre/romanistik/leonnial/gec_extractor/./src/extract_pipeline/pipeline_vllm.py", line 196, in <module>
+    main()
+  File "/lustre/romanistik/leonnial/gec_extractor/./src/extract_pipeline/pipeline_vllm.py", line 109, in main
+    combined_df = pd.concat(dfs, ignore_index=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/romanistik/leonnial/gec_extractor/venv/extract_pipeline/lib/python3.11/site-packages/pandas/core/reshape/concat.py", line 382, in concat
+    op = _Concatenator(
+         ^^^^^^^^^^^^^^
+  File "/lustre/romanistik/leonnial/gec_extractor/venv/extract_pipeline/lib/python3.11/site-packages/pandas/core/reshape/concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/romanistik/leonnial/gec_extractor/venv/extract_pipeline/lib/python3.11/site-packages/pandas/core/reshape/concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Script finished!

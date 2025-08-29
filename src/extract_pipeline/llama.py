@@ -102,7 +102,7 @@ def shrink_image(image_path, max_dim=1024):
 
   return img.resize((new_w, new_h), Image.BICUBIC)
 
-def init_worker(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename):
+def init_worker(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename, shared_mw):
   """Initialize model once per process."""
   global llm, prompt, log_file, flag_gestion
 
@@ -111,6 +111,11 @@ def init_worker(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_r
     filename=str(shared_ch_filename),
   )
 
+  if int(shared_mw) > 1:
+    smode = 1
+  else:
+    smode = 0
+
   llm = Llama.from_pretrained(
     repo_id=str(shared_llm_repo_id),
     filename=str(shared_llm_filename),
@@ -118,12 +123,12 @@ def init_worker(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_r
     n_gpu_layers=-1,
     n_ctx=16384,
     n_threads=int(os.cpu_count()),
-    n_batch=16384,
-    n_ubatch=16384,
+    n_batch=8192,
+    n_ubatch=4096,
     use_mmap=True,
     use_mlock=True,
     numa=True,
-    split_mode=1,
+    split_mode=int(smode),
     flash_attn=True,
     verbose=False
   )
@@ -155,15 +160,13 @@ def chat_completion(llm, prompt, img_input):
       ]}
     ],
     temperature=0.0,
-    max_tokens=16384,
+    max_tokens=4096,
     repeat_penalty=1.125,
     top_p=0.95,
-    top_k=5,
-    min_p=0.1,
+    top_k=40,
+    min_p=0.05,
     stream=False,
-    seed=42,
-    typical_p=0.95,
-    tfs_z=0.95,
+    seed=42
     )
   extracted_text = response["choices"][0]["message"]["content"]
   return extracted_text
@@ -249,35 +252,54 @@ def main():
 
   args = parser.parse_args()
   
+# shared_prompt = """
+# You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
+
+# CRITICAL REQUIREMENTS:
+# - Read every single word, number, date, and punctuation mark visible in the image
+# - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
+# - Preserve the original text layout and structure (headlines, paragraphs, columns)
+# - Maintain proper spacing between words and sentences
+# - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
+# - Handle multiple columns by reading left-to-right, top-to-bottom within each column
+# - Preserve special characters, accents, and non-English text exactly as shown
+# - Do NOT skip any text, even if partially obscured or small
+# - Do NOT add explanations, interpretations, or markdown formatting
+# - Do NOT summarize or paraphrase - extract the exact text as written
+
+# Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
+# DO NOT REPEAT CONTENT. IF YOU REPEAT CONTENT MORE THAN TWICE, YOU WILL RECEIVE A NEGATIVE GRADE (REINFORCEMENT LEARNING, RL)
+
+# WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
+# the entire OCR pipeline will fail and all downstream processing will be corrupted. 
+# Your response must contain ONLY the extracted text - nothing else.
+
+# CONTEXT: This is a test. You are being compared to other VLMs. You have to be quick and good.
+
+# TIP: If something is being repeated more than twice, it is -for sure- an error.
+# """
+
   shared_prompt = """
-  You are an expert OCR system. Extract ALL text content from this newspaper image with perfect accuracy.
+  CONTEXT: You are an expert OCR system. Extract ALL text from this Spanish newspaper image with perfect accuracy.
 
-  CRITICAL REQUIREMENTS:
-  - Read every single word, number, date, and punctuation mark visible in the image
-  - The text is in SPANISH - preserve all Spanish accents, tildes, and special characters (ñ, á, é, í, ó, ú, ü)
-  - Preserve the original text layout and structure (headlines, paragraphs, columns)
-  - Maintain proper spacing between words and sentences
-  - Include ALL content: headlines, subheadings, body text, captions, advertisements, page numbers, dates
-  - Handle multiple columns by reading left-to-right, top-to-bottom within each column
-  - Preserve special characters, accents, and non-English text exactly as shown
-  - Do NOT skip any text, even if partially obscured or small
-  - Do NOT add explanations, interpretations, or markdown formatting
+  REQUIREMENTS:
+  - Extract every word, number, date, punctuation mark visible
+  - Preserve Spanish accents and special characters (ñ, á, é, í, ó, ú, ü)
+  - Maintain the original text layout and structure (headlines, paragraphs, columns)
+  - Read left-to-right, top-to-bottom within each column
+  - Include ALL content: headlines, body text and captions. Do NOT focus on ads, page numbers or information that does not have content
+  - Return ONLY raw extracted text - no explanations or formatting
+  - Do NOT repeat content - if text appears twice, include it only once
   - Do NOT summarize or paraphrase - extract the exact text as written
+
+  TASK: Extract the complete text preserving natural newspaper reading flow.
   
-  Return ONLY the raw extracted text content, preserving the natural reading flow of the newspaper.
-  DO NOT REPEAT CONTENT. IF YOU REPEAT CONTENT MORE THAN TWICE, YOU WILL RECEIVE A NEGATIVE GRADE (REINFORCEMENT LEARNING, RL)
-
-  WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), 
-  the entire OCR pipeline will fail and all downstream processing will be corrupted. 
-  Your response must contain ONLY the extracted text - nothing else.
-
-  CONTEXT: This is a test. You are being compared to other VLMs. You have to be quick and good.
-
-  TIP: If something is being repeated more than twice, it is -for sure- an error.
+  WARNING: If you return anything other than raw text (explanations, apologies, formatting, etc.), the entire OCR pipeline will fail and all downstream processing will be corrupted. Your response must contain ONLY the extracted text - nothing else.
+  WARNING: This is a test. You are being compared to other VLMs. You have to be quick and good.
   """
 
   log_timestamp = time.strftime("%Y%m%d_%H%M%S")
-  shared_log_file = f"./logs/ocr_results/ocr_log_{log_timestamp}.csv"
+  shared_log_file = f"./logs/test/ocr_log_{log_timestamp}.csv"
 
   model_info = match(args.newspaper)
   shared_ch_repo_id = model_info["ch_repo_id"]
@@ -292,14 +314,19 @@ def main():
     shared_flag_gestion = False
     img_list = get_image_files(str(args.folder_file))
 
-  mw = int(args.max_workers)
+  shared_mw = int(args.max_workers)
+  print(f"Working with {shared_mw} memories.")
 
   start_time = time.time()
 
-  with ProcessPoolExecutor(max_workers=mw, initializer=init_worker, initargs=(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename)) as executor:
+  with ProcessPoolExecutor(max_workers=shared_mw, initializer=init_worker, initargs=(shared_prompt, shared_log_file, shared_flag_gestion, shared_ch_repo_id, shared_ch_filename, shared_llm_repo_id, shared_llm_filename, shared_mw)) as executor:
     futures = [executor.submit(process_image, f) for f in img_list]
     for future in as_completed(futures):
-      print(future.result())
+      try:
+        result = future.result()
+        print(result)
+      except Exception as e:
+        print(f"Process failed with error: {e}")
 
   total_time = time.time() - start_time
   print(f"Processed {len(img_list)} images in {total_time:.2f} seconds")
