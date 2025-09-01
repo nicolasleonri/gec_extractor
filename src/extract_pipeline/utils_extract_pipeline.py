@@ -2,6 +2,42 @@ import time
 from openai import OpenAI
 import base64
 
+def extract_prompt_length_from_error(error_message):
+    """Extract the actual prompt length from the error message"""
+    match = re.search(r'decoder prompt \(length (\d+)\)', str(error_message))
+    if match:
+        return int(match.group(1))
+    return None
+
+def chunk_text_by_tokens(text, max_input_tokens):
+    """Split text into chunks based on token limits"""
+    # Rough estimation: 1 token ≈ 4 characters for most models
+    chars_per_token = 4
+    max_chars = max_input_tokens * chars_per_token
+    
+    if len(text) <= max_chars:
+        return [text]
+    
+    words = text.split()
+    chunks = []
+    current_chunk = []
+    current_length = 0
+    
+    for word in words:
+        word_length = len(word) + 1  # +1 for space
+        if current_length + word_length > max_chars and current_chunk:
+            chunks.append(' '.join(current_chunk))
+            current_chunk = [word]
+            current_length = word_length
+        else:
+            current_chunk.append(word)
+            current_length += word_length
+    
+    if current_chunk:
+        chunks.append(' '.join(current_chunk))
+    
+    return chunks
+
 def get_client_model():
     openai_api_key = "EMPTY"
     openai_api_base = "http://localhost:8000/v1"

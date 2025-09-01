@@ -7,16 +7,16 @@
 #SBATCH --time=14-00:00:00
 #SBATCH -o ./logs/slurm/output_unique_%j.out
 
-echo "First task: Preprocessing images. Loading modules..."
-module purge
-module load OpenCV/4.12.0-gcc-14.2.0-python-3.13.1
-echo "First task: Preprocessing images. Activating virtual environment..."
-source ./venv/opencv/bin/activate
-echo "First task: Preprocessing images. Running..."
-python -u ./src/extract_pipeline/opencv.py -n trome -f ./data/images/trome/2019/01/04
-deactivate
+# echo "First task: Preprocessing images. Loading modules..."
+# module purge
+# module load OpenCV/4.12.0-gcc-14.2.0-python-3.13.1
+# echo "First task: Preprocessing images. Activating virtual environment..."
+# source ./venv/opencv/bin/activate
+# echo "First task: Preprocessing images. Running..."
+# python -u ./src/extract_pipeline/opencv.py -n trome -f ./data/images/trome/2019/01/04
+# deactivate
 
-sleep 5  # Waits 5 seconds for files to be saved
+# sleep 5  # Waits 5 seconds for files to be saved
 
 echo "Second/Third task: OCR. Loading modules..."
 module purge
@@ -34,13 +34,13 @@ export CUDA_HOME=/software/nvidia/hpc_sdk/nvhpc_2025_251_Linux_x86_64_cuda_12.6/
 echo "Second/Third task: OCR. Activating virtual environment..."
 source ./venv/extract_pipeline/bin/activate
 
-echo "Second task: OCR. Running..."
-python -u ./src/extract_pipeline/llama.py -n trome -f ./results/images/preprocessed/trome/2019/01/04 -mw 1
+# echo "Second task: OCR. Running..."
+# python -u ./src/extract_pipeline/llama.py -n trome -f ./results/images/preprocessed/trome/2019/01/04 -mw 1
 
-sleep 5  # Waits 5 seconds for file to be saved
+# sleep 5  # Waits 5 seconds for file to be saved
 
 echo "Third task: LLM. Running..."
-python -u ./src/extract_pipeline/pipeline_vllm.py -n trome -l ./logs/test
+python -u ./src/extract_pipeline/pipeline_vllm.py -n trome -i divided -f ./data/txt/trome/2014/01
 
 deactivate
 
