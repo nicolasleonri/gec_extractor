@@ -9,6 +9,7 @@ import cv2
 import sys
 import re
 import os
+import gc
 
 class ColumnExtraction:
     @staticmethod
@@ -488,13 +489,14 @@ def process_images_multithreaded(image_paths, config_list, newspaper, max_worker
         
         for future in as_completed(future_to_path):
             image_path, success, error = future.result()
-            
             if success:
                 results['success'].append(str(image_path))
                 print(f"✓ Processed: {image_path}")
+                gc.collect()
             else:
                 results['failed'].append((str(image_path), error))
                 print(f"✗ Failed: {image_path} - {error}")
+                gc.collect()
     
     results['summary'] = {
         'total': len(image_paths),
@@ -525,6 +527,8 @@ def main():
     total_time = time.time() - time_start
     print(f"Processed {len(img_list)} images in {total_time:.2f} seconds")
     print(f"Avg per image: {total_time / len(img_list):.2f} sec")
+
+    gc.collect()
 
 if __name__ == "__main__":
     main()
