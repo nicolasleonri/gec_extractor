@@ -6,6 +6,7 @@ import pandas as pd
 import time
 import csv
 from io import StringIO
+import random
 import os
 import gc
 import re
@@ -180,12 +181,44 @@ def main():
     if args.input_type == 'divided':
         print(f"Input folder: {str(args.input_folder)}")
         log_files = get_logs_files(str(args.input_folder), True)
+        
+        log_dir = './logs/already_processed'
+        os.makedirs(log_dir, exist_ok=True)
+
+        log_path = os.path.join(log_dir, f"{args.newspaper}.log")
+
+        if os.path.exists(log_path):
+            processed_files = set()
+
+            with open(log_path, 'r', encoding='utf-8') as f_log:
+                for line in f_log:
+                    processed_files.add(line.strip())
+
+            remaining_files = [f for f in log_files if str(f) not in processed_files]
+
+            sample_size = max(1, len(remaining_files)//4)
+            selected_files = random.sample(remaining_files, k=sample_size)
+
+            with open(log_path, 'a', encoding='utf-8') as log_f:
+                for fpath in selected_files:
+                    log_f.write(f"{fpath}\n")
+        else:
+            selected_files = random.sample(log_files, k=len(log_files)//4)
+
+            log_path = os.path.join(log_dir, f"{args.newspaper}.log")
+            
+            with open(log_path, 'w', encoding='utf-8') as log_f:
+                for fpath in selected_files:
+                    log_f.write(f"{fpath}\n")
+
         txt_files = []
         contents = []
-        for txt_file in log_files:
+
+        for txt_file in selected_files:
             txt_files.append(str(txt_file))
-            with open(txt_file, 'r', encoding='utf-8') as f:
+            with open(txt_file, 'r', encoding='utf-8', errors='replace') as f:
                 contents.append(f.read())
+                
         combined_df = pd.DataFrame({
         'filename': txt_files,
         'extracted_text': contents
@@ -207,7 +240,7 @@ def main():
     llm = LLM(
         model="unsloth/phi-4-unsloth-bnb-4bit",
         tensor_parallel_size=1,
-        max_num_seqs=4096,
+        max_num_seqs=8192,
         enable_prefix_caching=True,
         enforce_eager=False,
         swap_space=16,
@@ -216,7 +249,7 @@ def main():
         disable_log_stats=True,
         gpu_memory_utilization=0.875,
         cpu_offload_gb = 20,
-        block_size=224, 
+        block_size=256, 
         quantization="bitsandbytes",
         enable_chunked_prefill=True
     )
