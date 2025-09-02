@@ -13,41 +13,73 @@ import re
 sampling_params = SamplingParams(
     temperature=0.1,
     top_p=0.8,
-    top_k=10,
-    min_p=0.2,
+    top_k=40,
+    min_p=0.0,
     max_tokens=8192,
     n=1,
-    seed=42
+    seed=42,
+    repetition_penalty=1.25 # Slight repetition penalty
 )
 
-instructions = """
-GOAL: Given the image, extract and structure the following information:
-- headline of the article (string or "NA")
-- subheadline of the article (string or "NA")
-- author of the article (string or "NA")
-- content of the article (string or "NA")
+instructions="""
+ROLE: You are an expert newspaper content extractor and CSV formatter. You receive ONLY raw OCR text from a Spanish (Peruvian) newspaper page and must produce a clean, valid CSV.
 
-IMPORTANT:
-- Focus only on articles that contain meaningful journalistic content.
-- Exclude very short notices such as: date blocks, weather updates, advertisements, public announcements.
-- Ask yourself: is this content relevant for media or discourse analysis? If not, skip it.
-- If any field is missing or unknown, write "NA".
+INPUT: A single plain-text string (UTF-8) that is the OCR of one newspaper page.
+SCOPE & GOAL: Extract EVERY article with meaningful journalistic content and structure it into rows with these fields:
+- headline (string or "NA")
+- subheadline (string or "NA")
+- author (string or "NA")
+- content (string or "NA")
 
-RETURN FORMAT:
-Strictly output a valid CSV in the following format:
+INCLUDE vs EXCLUDE:
+- Include n ews articles, opinion columns, interviews, features with substantive text.
+- Exclude tiny notices, page dates, section labels (e.g., Política, Economía), weather, stock tables, TV grids, classifieds, obituaries lists, horoscopes, crosswords, pure photo captions, advertisements, public-service announcements, subscription boxes, page numbers, URLs, social handles, printer marks.
+
+DEFINITIONS & HEURISTICS:
+- Headline: Short, prominent line (often all caps). If multiple candidates, choose the one that best names the piece. Preserve original casing.
+- Subheadline (bajada/copete): Explanatory line under/after headline; shorter than content; not a caption.
+- Author (byline): Lines starting with or containing markers such as: "Por", "POR", "Por:", "Redacción", "La Seño", "La Seño María", "Crónica", "Corresponsal", "Columna", "Agencia", "AFP", "EFE", "Reuters". If multiple authors, keep as they appear. Do NOT infer from quoted speakers inside the content.
+- Content: The main article body. Merge broken lines into sentences/paragraphs. Exclude photo credits ("Foto:", "Crédito:"), image captions, graph labels, and sidebar blurbs unless they clearly belong to the same article body.
+
+TEXT CLEANUP:
+- Preserve Spanish accents and punctuation; do NOT paraphrase.
+- Fix only clear OCR artifacts:
+  - Join hyphenated line-break words (e.g., "demo-\ncracia" → "democracia").
+  - Remove page headers/footers and repeated section labels if detached from article text.
+  - Collapse multiple spaces/newlines to single spaces *inside* fields.
+- Replace any semicolons inside fields with commas to protect the CSV delimiter.
+- Escape any double quotes inside fields by doubling them (RFC 4180): `"` → `""`.
+
+MULTI-ARTICLE SEGMENTATION
+- Treat the page as possibly containing multiple articles.
+- Start a new article when a new headline-like line appears or when a byline follows a headline and then body text begins.
+- Maintain top-to-bottom reading order (as reflected in the OCR text order).
+- If an item is too short (e.g., < 200 characters of body text) and reads like a brief, notice, or caption, exclude it.
+
+MISSING DATA
+- If a field is absent/unclear, write "NA".
+- Never fabricate names or subheadlines.
+
+OUTPUT FORMAT (STRICT)
+- Output ONLY a valid CSV; no preface, no explanations.
+- Delimiter: semicolon `;`
+- Header row first and always:
+  "headline";"subheadline";"author";"content"
+- Each subsequent row = one article.
+- Enclose every field in double quotes.
+- Do not insert semicolons inside fields (replace them with commas).
+- Escape internal quotes by doubling them.
+- Newlines are not allowed inside fields; replace internal newlines with single spaces.
+
+VALIDATION BEFORE OUTPUT
+- At least the header must be present. If no eligible articles, output only the header.
+- Ensure the number of fields per row is exactly 4.
+- Ensure all rows are properly quoted and separated by newlines.
+
+EXAMPLE:
 "headline";"subheadline";"author";"content"
 "El loco del martillo";"NA";"La Seño María";"Hoy en día, uno pensaría que..."
 "Contento por fin de cuarentena";"Habla Trome";"Ismael Lazo, Vecino de San Luis";"Estoy feliz porque..."
-
-RULES:
-- Do NOT include explanations, extra text, or commentary.
-- Enclose each field in double quotes.
-- Use semicolons (`;`) as field separators.
-- Do NOT insert semicolons inside fields. If needed, replace them with commas.
-- Each row represents one article. The first row must always be the CSV header.
-
-CONTEXT:
-You are an expert in analyzing and structuring newspaper content. Extracting accurate information is your professional responsibility. Be precise and thorough. If you make a mistake, the CSV will break and your credibility will suffer.
 """
 
 def extract_prompt_length_from_error(error_message):
@@ -146,6 +178,7 @@ def main():
     args = parser.parse_args()
 
     if args.input_type == 'divided':
+        print(f"Input folder: {str(args.input_folder)}")
         log_files = get_logs_files(str(args.input_folder), True)
         txt_files = []
         contents = []
@@ -176,13 +209,14 @@ def main():
         tensor_parallel_size=1,
         max_num_seqs=4096,
         enable_prefix_caching=True,
-        enforce_eager=True,
+        enforce_eager=False,
         swap_space=16,
-        max_num_batched_tokens=8192,
+        max_num_batched_tokens=16384,
         max_model_len=16384,
         disable_log_stats=True,
-        gpu_memory_utilization=0.85,
-        block_size=160, #128
+        gpu_memory_utilization=0.875,
+        cpu_offload_gb = 20,
+        block_size=224, 
         quantization="bitsandbytes",
         enable_chunked_prefill=True
     )
@@ -244,6 +278,7 @@ def main():
             answer = outputs[0].outputs[0].text.strip()
 
             answer = extract_code_block(answer, language_hint="csv")
+            check_gpu()
 
             f = StringIO(answer)
             reader = csv.reader(f, delimiter=';', quotechar='"')
@@ -272,22 +307,23 @@ def main():
 
                     chunk_conversation = [
                         {"role": "system", "content": str(instructions)},
-                        {"role": "user", "content": f"{chunk}"},
+                        {"role": "user", "content": str(chunk)},
                     ]
                     
                     chunk_outputs = llm.chat(chunk_conversation, sampling_params)
                     chunk_result = chunk_outputs[0].outputs[0].text.strip()
                     chunk_result = extract_code_block(chunk_result, language_hint="csv")
-                    print(chunk_result)
-
+                    check_gpu()
+                    
                     try:
                         f = StringIO(chunk_result)
                         reader = csv.reader(f, delimiter=';', quotechar='"')
                         rows = list(reader)
                         df = pd.DataFrame(rows[1:], columns=rows[0])
-                        print(df)
                         df[["newspaper"]] = section
                         df[["date"]] = date_str
+
+                        print(df)
 
                         if output_file.exists():
                             existing_df = pd.read_csv(str(output_file))

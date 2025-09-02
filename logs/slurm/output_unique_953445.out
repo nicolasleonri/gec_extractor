@@ -1,0 +1,793 @@
+Second/Third task: OCR. Loading modules...
+Second/Third task: OCR. Setting folders...
+Second/Third task: OCR. Activating virtual environment...
+Third task: LLM. Running...
+INFO 09-02 10:58:13 [__init__.py:241] Automatically detected platform cuda.
+Input folder: ./data/txt/trome/2014/05
+Total files: 31
+GPU Memory: 14, 95337
+INFO 09-02 10:58:14 [utils.py:326] non-default args: {'model': 'unsloth/phi-4-unsloth-bnb-4bit', 'max_model_len': 16384, 'block_size': 224, 'enable_prefix_caching': True, 'swap_space': 16, 'cpu_offload_gb': 20, 'gpu_memory_utilization': 0.875, 'max_num_batched_tokens': 8192, 'max_num_seqs': 4096, 'disable_log_stats': True, 'quantization': 'bitsandbytes', 'enable_chunked_prefill': True}
+INFO 09-02 10:58:22 [__init__.py:711] Resolved architecture: LlamaForCausalLM
+INFO 09-02 10:58:22 [__init__.py:1750] Using max model len 16384
+WARNING 09-02 10:58:23 [__init__.py:1171] bitsandbytes quantization is not fully optimized yet. The speed can be slower than non-quantized models.
+INFO 09-02 10:58:24 [scheduler.py:222] Chunked prefill is enabled with max_num_batched_tokens=8192.
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:24 [core.py:636] Waiting for init message from front-end.
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:24 [core.py:74] Initializing a V1 LLM engine (v0.10.1.1) with config: model='unsloth/phi-4-unsloth-bnb-4bit', speculative_config=None, tokenizer='unsloth/phi-4-unsloth-bnb-4bit', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=16384, download_dir=None, load_format=bitsandbytes, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=bitsandbytes, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, decoding_config=DecodingConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=0, served_model_name=unsloth/phi-4-unsloth-bnb-4bit, enable_prefix_caching=True, chunked_prefill_enabled=True, use_async_output_proc=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":1,"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[512,504,496,488,480,472,464,456,448,440,432,424,416,408,400,392,384,376,368,360,352,344,336,328,320,312,304,296,288,280,272,264,256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"pass_config":{},"max_capture_size":512,"local_cache_dir":null}
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:26 [parallel_state.py:1134] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_0 pid=210039)[0;0m WARNING 09-02 10:58:26 [topk_topp_sampler.py:61] FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:26 [gpu_model_runner.py:1953] Starting to load model unsloth/phi-4-unsloth-bnb-4bit...
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:27 [gpu_model_runner.py:1985] Loading model from scratch...
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:31 [cuda.py:328] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:37 [bitsandbytes_loader.py:742] Loading weights with BitsAndBytes quantization. May take a while ...
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:37 [weight_utils.py:296] Using model weights format ['*.safetensors']
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards:  33% Completed | 1/3 [00:01<00:02,  1.33s/it]
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards:  67% Completed | 2/3 [00:02<00:01,  1.13s/it]
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:02<00:00,  1.29it/s]
+[1;36m(EngineCore_0 pid=210039)[0;0m 
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/3 [00:00<?, ?it/s]
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards:  33% Completed | 1/3 [00:05<00:11,  5.70s/it]
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards:  67% Completed | 2/3 [00:12<00:06,  6.11s/it]
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:13<00:00,  3.88s/it]
+[1;36m(EngineCore_0 pid=210039)[0;0m Loading safetensors checkpoint shards: 100% Completed | 3/3 [00:13<00:00,  4.44s/it]
+[1;36m(EngineCore_0 pid=210039)[0;0m 
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:58:53 [gpu_model_runner.py:2007] Model loading took 2.6780 GiB and 26.407443 seconds
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:08 [backends.py:548] Using cache directory: /lustre/romanistik/leonnial/.cache/vllm/torch_compile_cache/befa5c7fb1/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:08 [backends.py:559] Dynamo bytecode transform time: 14.73 s
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:15 [backends.py:161] Directly load the compiled graph(s) for dynamic shape from the cache, took 6.533 s
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:20 [monitor.py:34] torch.compile takes 14.73 s in total
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:21 [gpu_worker.py:276] Available KV cache memory: 63.97 GiB
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:21 [kv_cache_utils.py:849] GPU KV cache size: 335,328 tokens
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:21 [kv_cache_utils.py:853] Maximum concurrency for 16,384 tokens per request: 20.23x
+[1;36m(EngineCore_0 pid=210039)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/67 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   1%|▏         | 1/67 [00:00<00:25,  2.55it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   3%|▎         | 2/67 [00:00<00:25,  2.54it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   4%|▍         | 3/67 [00:01<00:22,  2.90it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   6%|▌         | 4/67 [00:01<00:22,  2.75it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   7%|▋         | 5/67 [00:01<00:21,  2.87it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   9%|▉         | 6/67 [00:02<00:20,  2.96it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  10%|█         | 7/67 [00:02<00:19,  3.02it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  12%|█▏        | 8/67 [00:02<00:18,  3.17it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  13%|█▎        | 9/67 [00:03<00:19,  2.92it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  15%|█▍        | 10/67 [00:03<00:19,  2.87it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  16%|█▋        | 11/67 [00:03<00:19,  2.94it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  18%|█▊        | 12/67 [00:04<00:17,  3.12it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  19%|█▉        | 13/67 [00:04<00:16,  3.19it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  21%|██        | 14/67 [00:04<00:16,  3.22it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  22%|██▏       | 15/67 [00:04<00:15,  3.27it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  24%|██▍       | 16/67 [00:05<00:15,  3.30it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  25%|██▌       | 17/67 [00:05<00:15,  3.29it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  27%|██▋       | 18/67 [00:05<00:14,  3.31it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  28%|██▊       | 19/67 [00:06<00:14,  3.34it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  30%|██▉       | 20/67 [00:06<00:14,  3.34it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  31%|███▏      | 21/67 [00:06<00:13,  3.36it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  33%|███▎      | 22/67 [00:07<00:13,  3.43it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  34%|███▍      | 23/67 [00:07<00:12,  3.48it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  36%|███▌      | 24/67 [00:07<00:12,  3.53it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  37%|███▋      | 25/67 [00:07<00:11,  3.61it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  39%|███▉      | 26/67 [00:08<00:11,  3.67it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  40%|████      | 27/67 [00:08<00:10,  3.73it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  42%|████▏     | 28/67 [00:08<00:10,  3.64it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  43%|████▎     | 29/67 [00:08<00:10,  3.66it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  45%|████▍     | 30/67 [00:09<00:09,  3.72it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  46%|████▋     | 31/67 [00:09<00:09,  3.75it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  48%|████▊     | 32/67 [00:09<00:09,  3.61it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  49%|████▉     | 33/67 [00:09<00:09,  3.69it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  51%|█████     | 34/67 [00:10<00:08,  3.77it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  52%|█████▏    | 35/67 [00:10<00:08,  3.80it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  54%|█████▎    | 36/67 [00:10<00:08,  3.84it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  55%|█████▌    | 37/67 [00:11<00:07,  3.88it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  57%|█████▋    | 38/67 [00:11<00:07,  3.87it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  58%|█████▊    | 39/67 [00:11<00:07,  3.88it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|█████▉    | 40/67 [00:11<00:06,  3.90it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  61%|██████    | 41/67 [00:12<00:06,  3.89it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  63%|██████▎   | 42/67 [00:12<00:06,  3.91it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  64%|██████▍   | 43/67 [00:12<00:06,  3.93it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  66%|██████▌   | 44/67 [00:12<00:05,  3.90it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  67%|██████▋   | 45/67 [00:13<00:05,  3.93it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  69%|██████▊   | 46/67 [00:13<00:06,  3.47it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  70%|███████   | 47/67 [00:13<00:05,  3.60it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  72%|███████▏  | 48/67 [00:13<00:05,  3.50it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  73%|███████▎  | 49/67 [00:14<00:04,  3.63it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  75%|███████▍  | 50/67 [00:14<00:04,  3.73it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  76%|███████▌  | 51/67 [00:14<00:04,  3.82it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  78%|███████▊  | 52/67 [00:14<00:03,  3.87it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  79%|███████▉  | 53/67 [00:15<00:03,  3.89it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  81%|████████  | 54/67 [00:15<00:03,  3.91it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  82%|████████▏ | 55/67 [00:15<00:03,  3.93it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  84%|████████▎ | 56/67 [00:15<00:02,  3.94it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  85%|████████▌ | 57/67 [00:16<00:02,  3.97it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  87%|████████▋ | 58/67 [00:16<00:02,  3.99it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  88%|████████▊ | 59/67 [00:16<00:01,  4.00it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  90%|████████▉ | 60/67 [00:16<00:01,  4.01it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  91%|█████████ | 61/67 [00:17<00:01,  4.04it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  93%|█████████▎| 62/67 [00:17<00:01,  4.04it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  94%|█████████▍| 63/67 [00:17<00:00,  4.04it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  96%|█████████▌| 64/67 [00:17<00:00,  4.04it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  97%|█████████▋| 65/67 [00:18<00:00,  4.06it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  99%|█████████▊| 66/67 [00:18<00:00,  4.08it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 67/67 [00:18<00:00,  4.34it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 67/67 [00:18<00:00,  3.59it/s]
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:40 [gpu_model_runner.py:2708] Graph capturing finished in 19 secs, took 1.47 GiB
+[1;36m(EngineCore_0 pid=210039)[0;0m INFO 09-02 10:59:41 [core.py:214] init engine (profile, create kv cache, warmup model) took 47.67 seconds
+INFO 09-02 10:59:42 [llm.py:298] Supported_tasks: ['generate']
+GPU Memory: 86503, 8848
+Output already exists.
+INFO 09-02 10:59:43 [chat_utils.py:470] Detected the chat template content format to be 'string'. You can set `--chat-template-content-format` to override this.
+Token indices sequence length is longer than the specified maximum sequence length for this model (35957 > 16384). Running this sequence through the model will result in indexing errors
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (35957 tokens), chunking: data/txt/trome/2014/05/trome_02.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1627.59it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.92s/it, est. speed input: 144.15 toks/s, output: 6.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.92s/it, est. speed input: 144.15 toks/s, output: 6.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.92s/it, est. speed input: 144.15 toks/s, output: 6.06 toks/s]
+GPU Memory: 86505, 8846
+Error getting csv from trome_2014_05_02.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2087.76it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.87s/it, est. speed input: 133.69 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.87s/it, est. speed input: 133.69 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.87s/it, est. speed input: 133.69 toks/s, output: 6.12 toks/s]
+GPU Memory: 86505, 8846
+                                            headline  ...        date
+0  Fuera de control, Landó Freddy Arana-Cordova a...  ...  2014/05/02
+1    Cancillería alerta riesgos en vuelos hacia Cuba  ...  2014/05/02
+2              Nuevo sistema de transporte integrado  ...  2014/05/02
+3               Investigan supuesto fraude electoral  ...  2014/05/02
+4                   Mega oferta en electrodomésticos  ...  2014/05/02
+5              Homenaje internacional a Ayrton Senna  ...  2014/05/02
+6                             Fonoavisos importantes  ...  2014/05/02
+
+[7 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_02.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2053.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.47s/it, est. speed input: 158.20 toks/s, output: 6.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.47s/it, est. speed input: 158.20 toks/s, output: 6.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.47s/it, est. speed input: 158.20 toks/s, output: 6.08 toks/s]
+GPU Memory: 86505, 8846
+Error getting csv from trome_2014_05_02.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3342.07it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:11<00:00, 11.95s/it, est. speed input: 90.66 toks/s, output: 6.28 toks/s]Processed prompts: 100%|██████████| 1/1 [00:11<00:00, 11.95s/it, est. speed input: 90.66 toks/s, output: 6.28 toks/s]Processed prompts: 100%|██████████| 1/1 [00:11<00:00, 11.95s/it, est. speed input: 90.66 toks/s, output: 6.28 toks/s]
+GPU Memory: 86505, 8846
+Empty DataFrame
+Columns: [headline, subheadline, author, content, newspaper, date]
+Index: []
+✓ Extracted chunk 4/4 from trome_2014_05_02.csv
+GPU Memory: 86505, 8846
+✓ Extracted text to trome_2014_05_02.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (37708 tokens), chunking: data/txt/trome/2014/05/trome_03.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2336.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.68s/it, est. speed input: 79.16 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.68s/it, est. speed input: 79.16 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.68s/it, est. speed input: 79.16 toks/s, output: 6.20 toks/s]
+GPU Memory: 86505, 8846
+Error getting csv from trome_2014_05_03.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2119.41it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:12<00:00, 132.99s/it, est. speed input: 85.72 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:12<00:00, 132.99s/it, est. speed input: 85.72 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:12<00:00, 132.99s/it, est. speed input: 85.72 toks/s, output: 6.19 toks/s]
+GPU Memory: 86505, 8846
+                                 headline  ...        date
+0            Benefician con 345 mil soles  ...  2014/05/03
+1              Fiscalía presenta denuncia  ...  2014/05/03
+2   Anciana peruana recibe reconocimiento  ...  2014/05/03
+3       Pregunta popular: Policía Chévere  ...  2014/05/03
+4           Evaluación educativa gratuita  ...  2014/05/03
+5             Homicidio en disco nocturno  ...  2014/05/03
+6       Celebra centenario de Misao Okawa  ...  2014/05/03
+7                   Informática accesible  ...  2014/05/03
+8                  Tecnologías emergentes  ...  2014/05/03
+9              Serie documental histórica  ...  2014/05/03
+10                    Noticia falsificada  ...  2014/05/03
+
+[11 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_03.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2032.12it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [12:18<00:00, 738.95s/it, est. speed input: 15.90 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [12:18<00:00, 738.95s/it, est. speed input: 15.90 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [12:18<00:00, 738.95s/it, est. speed input: 15.90 toks/s, output: 6.27 toks/s]
+GPU Memory: 86505, 8846
+Error getting csv from trome_2014_05_03.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2674.94it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:03<00:00, 183.71s/it, est. speed input: 16.95 toks/s, output: 6.31 toks/s]Processed prompts: 100%|██████████| 1/1 [03:03<00:00, 183.71s/it, est. speed input: 16.95 toks/s, output: 6.31 toks/s]Processed prompts: 100%|██████████| 1/1 [03:03<00:00, 183.72s/it, est. speed input: 16.95 toks/s, output: 6.31 toks/s]
+GPU Memory: 86505, 8846
+Error getting csv from trome_2014_05_03.csv in chunk 4/4
+GPU Memory: 86505, 8846
+✓ Extracted text to trome_2014_05_03.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (45575 tokens), chunking: data/txt/trome/2014/05/trome_04.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2413.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:46<00:00, 226.12s/it, est. speed input: 47.23 toks/s, output: 6.24 toks/s]Processed prompts: 100%|██████████| 1/1 [03:46<00:00, 226.12s/it, est. speed input: 47.23 toks/s, output: 6.24 toks/s]Processed prompts: 100%|██████████| 1/1 [03:46<00:00, 226.12s/it, est. speed input: 47.23 toks/s, output: 6.24 toks/s]
+GPU Memory: 86505, 8846
+Error getting csv from trome_2014_05_04.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2416.07it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:57<00:00, 117.94s/it, est. speed input: 91.44 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [01:57<00:00, 117.94s/it, est. speed input: 91.44 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [01:57<00:00, 117.94s/it, est. speed input: 91.44 toks/s, output: 6.17 toks/s]
+GPU Memory: 86507, 8844
+                                             headline  ...        date
+0     El Día de la Madre celebra la diversidad animal  ...  2014/05/04
+1                        Tigrecitos Blancos Engreídos  ...  2014/05/04
+2                                 Peligro en la calle  ...  2014/05/04
+3                        Infortunio en la Costa Verde  ...  2014/05/04
+4                     Sondeo viral llama a disturbios  ...  2014/05/04
+5           Novedades en documentos de identificación  ...  2014/05/04
+6              Fallecimiento por productos cosméticos  ...  2014/05/04
+7                    Audiencia judicial bajo sospecha  ...  2014/05/04
+8                Cuestionamientos ambientales emergen  ...  2014/05/04
+9   Drama personal expuso vulnerabilidades tecnoló...  ...  2014/05/04
+10  Hechos violentos afectan infraestructuras urbanas  ...  2014/05/04
+11   Homicidio fronterizo provoca tensión diplomática  ...  2014/05/04
+
+[12 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_04.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2153.13it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:25<00:00, 205.62s/it, est. speed input: 54.48 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [03:25<00:00, 205.62s/it, est. speed input: 54.48 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [03:25<00:00, 205.62s/it, est. speed input: 54.48 toks/s, output: 6.22 toks/s]
+GPU Memory: 86507, 8844
+                                             headline  ...        date
+0   Ganan. En esta recta final, lo importante es s...  ...  2014/05/04
+1                                          NACIONALES  ...  2014/05/04
+2                                                None  ...  2014/05/04
+3                                     SUBASTA PUBLICA  ...  2014/05/04
+4                                                None  ...  2014/05/04
+5                                         COPA ITALIA  ...  2014/05/04
+6                                                None  ...  2014/05/04
+7                             FIFA CLÁSICO ENTRENADOR  ...  2014/05/04
+8                                                None  ...  2014/05/04
+9                                 MUNDIAL BRASIL 2014  ...  2014/05/04
+10                                               None  ...  2014/05/04
+11                           BENEFICIOS EMPRESARIALES  ...  2014/05/04
+12                                               None  ...  2014/05/04
+13                         APOYO EDUCATIVO PARA NIÑOS  ...  2014/05/04
+14                                               None  ...  2014/05/04
+15                      PUESTOS LABORALES DISPONIBLES  ...  2014/05/04
+
+[16 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_04.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1875.81it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:57<00:00, 57.08s/it, est. speed input: 197.23 toks/s, output: 6.03 toks/s]Processed prompts: 100%|██████████| 1/1 [00:57<00:00, 57.08s/it, est. speed input: 197.23 toks/s, output: 6.03 toks/s]Processed prompts: 100%|██████████| 1/1 [00:57<00:00, 57.08s/it, est. speed input: 197.23 toks/s, output: 6.03 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Cantante Confeso Que Cometió Errores Tras Divu...  ...  2014/05/04
+1  'Mi hombre puede': Regreso televisivo de Gisel...  ...  2014/05/04
+2       Historia detrás de la relación de Jean-Paul:  ...  2014/05/04
+3  Sigue siendo tema de conversación el escándalo...  ...  2014/05/04
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_04.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_04.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39602 tokens), chunking: data/txt/trome/2014/05/trome_05.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2421.65it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:34<00:00, 94.84s/it, est. speed input: 108.53 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:34<00:00, 94.84s/it, est. speed input: 108.53 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:34<00:00, 94.84s/it, est. speed input: 108.53 toks/s, output: 6.16 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_05.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2384.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:29<00:00, 89.16s/it, est. speed input: 128.82 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:29<00:00, 89.16s/it, est. speed input: 128.82 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:29<00:00, 89.16s/it, est. speed input: 128.82 toks/s, output: 6.13 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Más del 10% de hogares de Lima ocupan ilegalmente  ...  2014/05/05
+1      Celebran canonización de San Martín de Porres  ...  2014/05/05
+2          Ataque armado deja saldo fatal en Ecuador  ...  2014/05/05
+3                    Atrapados en accidente circense  ...  2014/05/05
+4                  Festival global celebra Star Wars  ...  2014/05/05
+5                    Incidencias deportivas globales  ...  2014/05/05
+6  Torneo nacional peruano muestra dinámica compe...  ...  2014/05/05
+
+[7 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_05.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2299.51it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.26s/it, est. speed input: 101.32 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.26s/it, est. speed input: 101.32 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.26s/it, est. speed input: 101.32 toks/s, output: 6.17 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_05.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3241.35it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:48<00:00, 228.32s/it, est. speed input: 18.89 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [03:48<00:00, 228.32s/it, est. speed input: 18.89 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [03:48<00:00, 228.32s/it, est. speed input: 18.89 toks/s, output: 6.29 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  NOTAMUS 7 – Sorprende sorteo de cámaras digitales  ...  2014/05/05
+1                  LUNES 5 DE MAyO DEL 2014 – Cartas  ...  2014/05/05
+2                             PASTILLITAS DE EL BUHO  ...  2014/05/05
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_05.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_05.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36511 tokens), chunking: data/txt/trome/2014/05/trome_06.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2179.99it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:35<00:00, 95.72s/it, est. speed input: 108.27 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:35<00:00, 95.72s/it, est. speed input: 108.27 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:35<00:00, 95.72s/it, est. speed input: 108.27 toks/s, output: 6.16 toks/s]
+GPU Memory: 86507, 8844
+                        headline  ...        date
+0      Destruyen nuestras playas  ...  2014/05/06
+1               Marihuana debate  ...  2014/05/06
+2           Asalto a estudiantes  ...  2014/05/06
+3        Crimen en barrio limeño  ...  2014/05/06
+4                Ataque violento  ...  2014/05/06
+5    Autoridades demandan acción  ...  2014/05/06
+6        Inseguridad persistente  ...  2014/05/06
+7  Educación pública fortalecida  ...  2014/05/06
+8              Lluvia de premios  ...  2014/05/06
+9   Hospitales amplían servicios  ...  2014/05/06
+
+[10 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2014_05_06.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2430.07it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:21<00:00, 81.34s/it, est. speed input: 142.62 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:21<00:00, 81.34s/it, est. speed input: 142.62 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:21<00:00, 81.34s/it, est. speed input: 142.62 toks/s, output: 6.12 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0          Colombiano en crimen de ‘Negro Hugo’”;; "  ...  2014/05/06
+1             Médicos y obstetras se van a la huelga  ...  2014/05/06
+2                     Pescan a raro tiburón ’duende’  ...  2014/05/06
+3             Sigue escalada de violencia en Ucraina  ...  2014/05/06
+4  Emiratos Arabes Condenan Embarazada a Morir La...  ...  2014/05/06
+5                             DICE QUE DA PASSES-GOL  ...  2014/05/06
+6  Fotos: AllanQuintana Schatito, Pero No Es 'Che...  ...  2014/05/06
+7  Candidato A Estados Unidos – El Mas Bravo Del ...  ...  2014/05/06
+8  TÉCNICO DE HOLANDES NO QUISO PERDONAR A SUS JO...  ...  2014/05/06
+
+[9 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_06.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2511.56it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:02<00:00, 62.48s/it, est. speed input: 184.19 toks/s, output: 6.07 toks/s]Processed prompts: 100%|██████████| 1/1 [01:02<00:00, 62.48s/it, est. speed input: 184.19 toks/s, output: 6.07 toks/s]Processed prompts: 100%|██████████| 1/1 [01:02<00:00, 62.48s/it, est. speed input: 184.19 toks/s, output: 6.07 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0         Contenido sobre política económica peruana  ...  2014/05/06
+1  Novedades tecnológicas japonesas disponibles a...  ...  2014/05/06
+2         Información importante sobre salud pública  ...  2014/05/06
+3  Autor revela detalles privados en programa tel...  ...  2014/05/06
+4                Cine japonés presenta nuevos éxitos  ...  2014/05/06
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_06.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3264.05it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:49<00:00, 49.07s/it, est. speed input: 44.95 toks/s, output: 6.28 toks/s]Processed prompts: 100%|██████████| 1/1 [00:49<00:00, 49.07s/it, est. speed input: 44.95 toks/s, output: 6.28 toks/s]Processed prompts: 100%|██████████| 1/1 [00:49<00:00, 49.07s/it, est. speed input: 44.95 toks/s, output: 6.28 toks/s]
+GPU Memory: 86507, 8844
+                  headline subheadline  ... newspaper        date
+0  LA VECINDAD DEL ‘CHAVO’          NA  ...     trome  2014/05/06
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_06.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_06.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (40175 tokens), chunking: data/txt/trome/2014/05/trome_07.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2552.83it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:17<00:00, 137.51s/it, est. speed input: 75.57 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:17<00:00, 137.51s/it, est. speed input: 75.57 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:17<00:00, 137.51s/it, est. speed input: 75.57 toks/s, output: 6.20 toks/s]
+GPU Memory: 86507, 8844
+                                             headline  ...        date
+0   A 5 A, EL ACREDITADO EN LAMBORGHINI HABRÍA COM...  ...  2014/05/07
+1   HABLÓ TROMÉ”;“MATRIMETRONOMYO METROPOLITANO”; ...  ...  2014/05/07
+2     MATEMATICAMENTE CORRECTO”; NA; LA SENORA MARÍA"  ...  2014/05/07
+3      TODAVÍA BUSCAN AL NIÑO”; NA; Jacinto Gomez M."  ...  2014/05/07
+4   CREE QUE EL ACTUAL GOBIERNO HA REDUCIDO LA POB...  ...  2014/05/07
+5   LAMENTA DESPIDO DE REYNOLD MANCO”; NA; Jaime R...  ...  2014/05/07
+6   SIN DINERO, EXTORSIONISTAS ATAQUEN TAXISTAS”; ...  ...  2014/05/07
+7   PIDE DURO CASTIGO PARA EXTORSIONISTAS”; NA; MI...  ...  2014/05/07
+8   EXTORSIONADOR CAUSA MUERTE DE JOVEN”; NA; MARI...  ...  2014/05/07
+9      BEBIDA AL COOLER”; NA; Roberto Cuevas Sanchez"  ...  2014/05/07
+10  FALLECIDO ESCOLAR BAJO BALAZOS”; NA; Edison PE...  ...  2014/05/07
+11  NIEGA SER UN DELINCUIENTE”; NA; LUIS QUISP PAL...  ...  2014/05/07
+12  GOLPEAR Á PARIENTE POR CELULAR”; NA; MARIO ROC...  ...  2014/05/07
+13  DICE CARPINTERO QUE AMANTE LO AGREDIERA”; NA; ...  ...  2014/05/07
+
+[14 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2014_05_07.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2411.91it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.40s/it, est. speed input: 132.55 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.40s/it, est. speed input: 132.55 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.40s/it, est. speed input: 132.55 toks/s, output: 6.14 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0               Couple Proposes Marriage On Bus Ride  ...  2014/05/07
+1                           Pide matrimonio en Metro  ...  2014/05/07
+2             Especialista recomienda valor familiar  ...  2014/05/07
+3  Nacionales pueden viajar libremente a 22 paíse...  ...  2014/05/07
+4  Tribunal Constitucional declara ilegal cambio ...  ...  2014/05/07
+5                         Festival boxístico en mayo  ...  2014/05/07
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_07.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2273.34it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:01<00:00, 181.95s/it, est. speed input: 58.13 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [03:01<00:00, 181.95s/it, est. speed input: 58.13 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [03:01<00:00, 181.95s/it, est. speed input: 58.13 toks/s, output: 6.22 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0                                Orgullo y Prejuicio  ...  2014/05/07
+1                Llegada de un jóven rico hacenda-do  ...  2014/05/07
+2  Narra la historia de una madre obsesionada por...  ...  2014/05/07
+3                     Peyo crea personajes populares  ...  2014/05/07
+4               Aprende mar-cal la respuestacorrecta  ...  2014/05/07
+5         Sergio George presenta nueva música latina  ...  2014/05/07
+
+[6 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_07.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2403.61it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:42<00:00, 43.00s/it, est. speed input: 159.38 toks/s, output: 6.09 toks/s]Processed prompts: 100%|██████████| 1/1 [00:42<00:00, 43.00s/it, est. speed input: 159.38 toks/s, output: 6.09 toks/s]Processed prompts: 100%|██████████| 1/1 [00:42<00:00, 43.00s/it, est. speed input: 159.38 toks/s, output: 6.09 toks/s]
+GPU Memory: 86507, 8844
+                     headline subheadline  ... newspaper        date
+0       Gira electoral movida          NA  ...     trome  2014/05/07
+1  Miedo a perder popularidad          NA  ...     trome  2014/05/07
+2     Celebridades y política          NA  ...     trome  2014/05/07
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_07.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_07.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (38591 tokens), chunking: data/txt/trome/2014/05/trome_08.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2613.27it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.77s/it, est. speed input: 74.49 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.77s/it, est. speed input: 74.49 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.77s/it, est. speed input: 74.49 toks/s, output: 6.21 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_08.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2435.72it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:26<00:00, 86.81s/it, est. speed input: 124.98 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:26<00:00, 86.81s/it, est. speed input: 124.98 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:26<00:00, 86.81s/it, est. speed input: 124.98 toks/s, output: 6.14 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0       Criminal case against ‘Black Hugo’ escalates  ...  2014/05/08
+1  The murder of Negro Hugo could have been cause...  ...  2014/05/08
+2  Preliminary tests begin next week for electric...  ...  2014/05/08
+3  Economic updates show significant vehicle remo...  ...  2014/05/08
+4  Ambassador’s statement highlights Peru brandin...  ...  2014/05/08
+5  Honda launches its latest model featuring adva...  ...  2014/05/08
+6     Mother's Day sales surge ahead of celebrations  ...  2014/05/08
+7   Famous mothers worldwide inspire annual rankings  ...  2014/05/08
+
+[8 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_08.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2257.43it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:28<00:00, 88.08s/it, est. speed input: 133.79 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:28<00:00, 88.08s/it, est. speed input: 133.79 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:28<00:00, 88.08s/it, est. speed input: 133.79 toks/s, output: 6.11 toks/s]
+GPU Memory: 86507, 8844
+                                headline  ...        date
+0                            James Joyce  ...  2014/05/08
+1                                Marasmo  ...  2014/05/08
+2                        Tips Buenosdías  ...  2014/05/08
+3               Día de la Madre especial  ...  2014/05/08
+4        Familia y relaciones personales  ...  2014/05/08
+5           Cómo preparar dulce de leche  ...  2014/05/08
+6           Sistema de salud globalizada  ...  2014/05/08
+7  Lifestyle changes for health benefits  ...  2014/05/08
+8                   Novedades literarias  ...  2014/05/08
+9                   Investigación médica  ...  2014/05/08
+
+[10 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_08.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2985.27it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.44s/it, est. speed input: 31.54 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.44s/it, est. speed input: 31.54 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.45s/it, est. speed input: 31.54 toks/s, output: 6.29 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  SORTEA 2 CAMARAS DIGITALES PARA LIMA Y 1 PARA ...  ...  2014/05/08
+1                      Cómo saber qué es el Racismo?  ...  2014/05/08
+2               Mira cómo engañaba con otros hombres  ...  2014/05/08
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_08.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_08.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (38275 tokens), chunking: data/txt/trome/2014/05/trome_09.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2253.79it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:56<00:00, 176.35s/it, est. speed input: 60.32 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:56<00:00, 176.35s/it, est. speed input: 60.32 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:56<00:00, 176.36s/it, est. speed input: 60.32 toks/s, output: 6.22 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_09.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2255.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.08s/it, est. speed input: 81.47 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.08s/it, est. speed input: 81.47 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.09s/it, est. speed input: 81.47 toks/s, output: 6.19 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_09.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2351.07it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:05<00:00, 65.31s/it, est. speed input: 182.82 toks/s, output: 6.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:05<00:00, 65.31s/it, est. speed input: 182.82 toks/s, output: 6.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:05<00:00, 65.31s/it, est. speed input: 182.82 toks/s, output: 6.06 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Militantes históricos celebran el bicentenario...  ...  2014/05/09
+1  Diversas agrupaciones participaron en ceremoni...  ...  2014/05/09
+2              Fuerzas Armadas honran legado militar  ...  2014/05/09
+3  Celebraciones incluyen eventos culturales y ed...  ...  2014/05/09
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_09.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3313.04it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:23<00:00, 143.40s/it, est. speed input: 21.14 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [02:23<00:00, 143.40s/it, est. speed input: 21.14 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [02:23<00:00, 143.40s/it, est. speed input: 21.14 toks/s, output: 6.29 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_09.csv in chunk 4/4
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_09.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (37542 tokens), chunking: data/txt/trome/2014/05/trome_10.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1174.22it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:20<00:00, 80.06s/it, est. speed input: 131.02 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:20<00:00, 80.06s/it, est. speed input: 131.02 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:20<00:00, 80.06s/it, est. speed input: 131.02 toks/s, output: 6.13 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0                  Contaminación ambiental alarmante  ...  2014/05/10
+1      Loren recomienda precaución en redes sociales  ...  2014/05/10
+2  Sigue siendo recomendable formar amistades med...  ...  2014/05/10
+3  AÑO ESCONDIDO: "Sale el ‘reventón’ – próximame...  ...  2014/05/10
+4  Policía suicida en casino tras pérdida signifi...  ...  2014/05/10
+5                      Fiscal de la Nación designado  ...  2014/05/10
+6  Evaluación empresarial destaca reputación corp...  ...  2014/05/10
+7     Muestra de valor maternal en servicio policial  ...  2014/05/10
+
+[8 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2014_05_10.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2246.55it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.50s/it, est. speed input: 217.04 toks/s, output: 6.02 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.50s/it, est. speed input: 217.04 toks/s, output: 6.02 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.50s/it, est. speed input: 217.04 toks/s, output: 6.02 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Couple found having sex during wedding ceremon...  ...  2014/05/10
+1  Youth commits suicide over mother’s ban from F...  ...  2014/05/10
+2      Pets also release oxytocin according to study  ...  2014/05/10
+3  N Korea calls President Obama ‘black monkey’ a...  ...  2014/05/10
+4  Innovative dog breed increases oxygenation sig...  ...  2014/05/10
+5  Awareness campaign encourages responsible pare...  ...  2014/05/10
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_10.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2121.55it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:15<00:00, 135.92s/it, est. speed input: 88.67 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:15<00:00, 135.92s/it, est. speed input: 88.67 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:15<00:00, 135.93s/it, est. speed input: 88.67 toks/s, output: 6.19 toks/s]
+GPU Memory: 86507, 8844
+                                             headline  ...        date
+0   IASA Lu¡[i comríla]; NA; Redacción; «Uno pensa...  ...  2014/05/10
+1                 Habla Trome sobre fin de cuarentena  ...  2014/05/10
+2                           Acerca del azúcar y sales  ...  2014/05/10
+3                                    Sopa a la minuta  ...  2014/05/10
+4   Fue implica-do en la compra de un departamento...  ...  2014/05/10
+5                                   Nace una estrella  ...  2014/05/10
+6                               Música y cine peruano  ...  2014/05/10
+7                            No puedo dejar mi esposa  ...  2014/05/10
+8                 Celebra cumpleaños de Flavia Alfaro  ...  2014/05/10
+9         Puede volver a programa de Gisela Valcárcel  ...  2014/05/10
+10                   Modelo critica jugador deportivo  ...  2014/05/10
+11                   Duda sobre segundo filme peruano  ...  2014/05/10
+12                           Torneo Copa Mundo Ripley  ...  2014/05/10
+13           Gisela Alfaro revela detalles familiares  ...  2014/05/10
+14                          Llamativa operación nasal  ...  2014/05/10
+15  Evaluación de 'Esto es guerra'; NA; Susy Díaz;...  ...  2014/05/10
+16                             Campeon mundial Ripley  ...  2014/05/10
+17                     Inscripción a concursos Ripley  ...  2014/05/10
+18  Ernesto Jimenez desea felicidad a Yamila Pi-niero  ...  2014/05/10
+19                      Relación cómplice en pantalla  ...  2014/05/10
+20  Idilio secreto entre Adolfo Chuiman y Regina A...  ...  2014/05/10
+
+[21 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_10.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3778.65it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:48<00:00, 48.79s/it, est. speed input: 50.09 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [00:48<00:00, 48.79s/it, est. speed input: 50.09 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [00:48<00:00, 48.79s/it, est. speed input: 50.09 toks/s, output: 6.27 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Este Búho recuerda que este lunes se conmemora...  ...  2014/05/10
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_10.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_10.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (41909 tokens), chunking: data/txt/trome/2014/05/trome_11.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2706.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.72s/it, est. speed input: 148.00 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.72s/it, est. speed input: 148.00 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.72s/it, est. speed input: 148.00 toks/s, output: 6.11 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0              Militar se llevó a joven desaparecida  ...  2014/05/11
+1  Amygdala cerebral podría ayudar a detectar Alz...  ...  2014/05/11
+2       Pistoleros despluman a polleros en Salamanca  ...  2014/05/11
+3  Cómo combatir la inseguridad ciudadana según M...  ...  2014/05/11
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2014_05_11.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2293.22it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.83s/it, est. speed input: 149.26 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.83s/it, est. speed input: 149.26 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.83s/it, est. speed input: 149.26 toks/s, output: 6.11 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Internados en la misma clínica”;”Fují y Susana...  ...  2014/05/11
+1                         Asesinan a dos en balacera  ...  2014/05/11
+2                                    Nueva modalidad  ...  2014/05/11
+3                                Feria gastronómica   ...  2014/05/11
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_11.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2484.78it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.12s/it, est. speed input: 153.74 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.12s/it, est. speed input: 153.74 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:12<00:00, 72.12s/it, est. speed input: 153.74 toks/s, output: 6.11 toks/s]
+GPU Memory: 86507, 8844
+                                       headline  ...        date
+0                       A empieza hoy la Liga 1  ...  2014/05/11
+1              Cruzeiro triunfa en Huancavelica  ...  2014/05/11
+2             Festival futbolístico en Arequipa  ...  2014/05/11
+3                 Historias deportivas diversas  ...  2014/05/11
+4           Torneo del Inca avanza intensamente  ...  2014/05/11
+5              Partidos pendientes emocionantes  ...  2014/05/11
+6  Sporting Cristal enfrenta a Alianza Atlético  ...  2014/05/11
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_11.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2753.98it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:12<00:00, 192.50s/it, est. speed input: 42.71 toks/s, output: 6.25 toks/s]Processed prompts: 100%|██████████| 1/1 [03:12<00:00, 192.50s/it, est. speed input: 42.71 toks/s, output: 6.25 toks/s]Processed prompts: 100%|██████████| 1/1 [03:12<00:00, 192.50s/it, est. speed input: 42.71 toks/s, output: 6.25 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Milae dice hoy una amplia y divertida entrevis...  ...  2014/05/11
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_11.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_11.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (40984 tokens), chunking: data/txt/trome/2014/05/trome_12.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2605.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.92s/it, est. speed input: 135.37 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.92s/it, est. speed input: 135.37 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.92s/it, est. speed input: 135.37 toks/s, output: 6.12 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0                                     WAW TROMPE PE:  ...  2014/05/12
+1                         Lunes 12 DE Mayo DEL 2014:  ...  2014/05/12
+2                  Afirmación contra Felipe Butters:  ...  2014/05/12
+3           Crimen organizado en comercio minorista:  ...  2014/05/12
+4   Innovación tecnológica frente a libros impresos:  ...  2014/05/12
+5  Peligros de mantener mascotas salvajes en caut...  ...  2014/05/12
+6      Ataque violento en establecimiento educativo:  ...  2014/05/12
+7            Sistema judicial enfrenta nuevos retos:  ...  2014/05/12
+8      Distribución equitativa de recursos públicos:  ...  2014/05/12
+
+[9 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2014_05_12.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2431.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:06<00:00, 126.01s/it, est. speed input: 91.22 toks/s, output: 6.18 toks/s]Processed prompts: 100%|██████████| 1/1 [02:06<00:00, 126.01s/it, est. speed input: 91.22 toks/s, output: 6.18 toks/s]Processed prompts: 100%|██████████| 1/1 [02:06<00:00, 126.02s/it, est. speed input: 91.22 toks/s, output: 6.18 toks/s]
+GPU Memory: 86507, 8844
+                                             headline  ...        date
+0               Fiestas Patrias: Promoción exclusiva"  ...  2014/05/12
+1   Tributo maternal: Miles de familiares visitaro...  ...  2014/05/12
+2   Nacimiento singular: Gemelas idénticas nacen t...  ...  2014/05/12
+3   Paternidad extendida: Madres lactantes ayudan ...  ...  2014/05/12
+4   Inquietudes políticas: Más de 800 mil jóvenes ...  ...  2014/05/12
+5   Economía femenina: Control financiero en manos...  ...  2014/05/12
+6   Sacrificio animal: Emoción canina frente a pér...  ...  2014/05/12
+7   Atrocidades bélicas: Destrucción de infraestru...  ...  2014/05/12
+8   Drama escolar: Niñas secuestradas podrían habe...  ...  2014/05/12
+9   Autorización judicial rápida: Testimonio genét...  ...  2014/05/12
+10  Campaña maternal: Sorpresivo regalo para el Dí...  ...  2014/05/12
+11  Remate automovilístico: Autos semi-nuevos a pr...  ...  2014/05/12
+12  Lamentables eventos deportivos: Controversia a...  ...  2014/05/12
+
+[13 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_12.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2369.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:50<00:00, 170.49s/it, est. speed input: 64.70 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:50<00:00, 170.49s/it, est. speed input: 64.70 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:50<00:00, 170.49s/it, est. speed input: 64.70 toks/s, output: 6.22 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_12.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2900.63it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:35<00:00, 35.37s/it, est. speed input: 186.94 toks/s, output: 6.08 toks/s]Processed prompts: 100%|██████████| 1/1 [00:35<00:00, 35.37s/it, est. speed input: 186.94 toks/s, output: 6.08 toks/s]Processed prompts: 100%|██████████| 1/1 [00:35<00:00, 35.37s/it, est. speed input: 186.94 toks/s, output: 6.08 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  MOSiOA0RCRD empieze his house maintenance serv...  ...  2014/05/12
+1  SORTILEGIO: DOS HORNO MICRONICAS PARA LIMA Y O...  ...  2014/05/12
+
+[2 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_12.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_12.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (38433 tokens), chunking: data/txt/trome/2014/05/trome_13.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2477.44it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.03s/it, est. speed input: 106.87 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.03s/it, est. speed input: 106.87 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.03s/it, est. speed input: 106.87 toks/s, output: 6.14 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_13.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2380.42it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.91s/it, est. speed input: 114.08 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.91s/it, est. speed input: 114.08 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.91s/it, est. speed input: 114.08 toks/s, output: 6.13 toks/s]
+GPU Memory: 86507, 8844
+                                             headline  ...        date
+0   Del número de la calle la llamó el supuesto Jo...  ...  2014/05/13
+1   Abrir investigación a Heriberto Benítez por ‘L...  ...  2014/05/13
+2   Inundan casas cerca de Inca Manco Capac debido...  ...  2014/05/13
+3   Hay manipulación perversa en las encuestas, di...  ...  2014/05/13
+4      Médicos iniciaron huelga contra falta de pago.  ...  2014/05/13
+5   Fue un caos: conductores agreden a fiscales de...  ...  2014/05/13
+6   Expertos estadounidenses visitan Perú para ayu...  ...  2014/05/13
+7   Carmen Álvaro demanda justicia para su hija as...  ...  2014/05/13
+8   Nigeria libera videos mostrando condiciones de...  ...  2014/05/13
+9   Lucha juvenil por empleo enseña cómo elaborar ...  ...  2014/05/13
+10  Techo de iglesia causa accidente mortal en obr...  ...  2014/05/13
+11  Policía detiene vehículo ilegal usado como ter...  ...  2014/05/13
+12  Beyoncé’s sister confronts husband publicly du...  ...  2014/05/13
+13  Ghana presenta lista provisional de jugadores ...  ...  2014/05/13
+14  Willy van Hanegal opera exitosamente a jugador...  ...  2014/05/13
+
+[15 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_05_13.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2325.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.09s/it, est. speed input: 144.33 toks/s, output: 6.10 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.09s/it, est. speed input: 144.33 toks/s, output: 6.10 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.09s/it, est. speed input: 144.33 toks/s, output: 6.10 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0                                  MARTES 13 DE MAYO  ...  2014/05/13
+1  Candidatas a Miss Perú Universo 2014 participa...  ...  2014/05/13
+2  Ayer inició oficialmente la campaña electoral ...  ...  2014/05/13
+3  Luis Miguel Fernández Torres, alias ‘Luigi’, s...  ...  2014/05/13
+4  Nueva York.- Una mujer estadounidense ha sido ...  ...  2014/05/13
+5  Santiago de Chile.- Miles de personas marcharo...  ...  2014/05/13
+6  Historia.- Durante siglos, diversos grupos ind...  ...  2014/05/13
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_13.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3486.54it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:33<00:00, 153.03s/it, est. speed input: 19.85 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [02:33<00:00, 153.03s/it, est. speed input: 19.85 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [02:33<00:00, 153.03s/it, est. speed input: 19.85 toks/s, output: 6.27 toks/s]
+GPU Memory: 86507, 8844
+                    headline  ...        date
+0  ¿Qué significa tu nombre?  ...  2014/05/13
+1  Lunes 13 de Mayo del 2014  ...  2014/05/13
+
+[2 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_13.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_13.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (40084 tokens), chunking: data/txt/trome/2014/05/trome_14.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2153.13it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:41<00:00, 101.80s/it, est. speed input: 102.83 toks/s, output: 6.15 toks/s]Processed prompts: 100%|██████████| 1/1 [01:41<00:00, 101.80s/it, est. speed input: 102.83 toks/s, output: 6.15 toks/s]Processed prompts: 100%|██████████| 1/1 [01:41<00:00, 101.80s/it, est. speed input: 102.83 toks/s, output: 6.15 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Murió ‘Cigarrito’, figura emblemática de la po...  ...  2014/05/14
+1         Peligro de dar sueldo extra por cumpleaños  ...  2014/05/14
+2  Hermanos invitaban alcohol a sus hijos desde t...  ...  2014/05/14
+3       Agradecimientos personales a san Judas Tadeo  ...  2014/05/14
+4           Cae 'Javiche' por acribillar a dos niños  ...  2014/05/14
+5        Luz Jovita reaparece tras estar secuestrada  ...  2014/05/14
+6       Asalto fatal deja saldo de cuatro lesionados  ...  2014/05/14
+7  Investigación revela detalles macabros de homi...  ...  2014/05/14
+
+[8 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2014_05_14.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 650.58it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:15<00:00, 195.14s/it, est. speed input: 54.92 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:15<00:00, 195.14s/it, est. speed input: 54.92 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:15<00:00, 195.14s/it, est. speed input: 54.92 toks/s, output: 6.21 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_14.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2265.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:57<00:00, 57.71s/it, est. speed input: 199.02 toks/s, output: 6.03 toks/s]Processed prompts: 100%|██████████| 1/1 [00:57<00:00, 57.71s/it, est. speed input: 199.02 toks/s, output: 6.03 toks/s]Processed prompts: 100%|██████████| 1/1 [00:57<00:00, 57.71s/it, est. speed input: 199.02 toks/s, output: 6.03 toks/s]
+GPU Memory: 86507, 8844
+                                   headline  ...        date
+0    Encuentran autos semi-nuevos en remate  ...  2014/05/14
+1       Habló Leonor Marzano sobre embarazo  ...  2014/05/14
+2    Fiesta de Glamour con Gisela Valcárcel  ...  2014/05/14
+3  Cómo manejar tus inversiones financieras  ...  2014/05/14
+4      Aventuras culinarias internacionales  ...  2014/05/14
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_05_14.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2399.49it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:48<00:00, 228.70s/it, est. speed input: 27.66 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [03:48<00:00, 228.70s/it, est. speed input: 27.66 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [03:48<00:00, 228.70s/it, est. speed input: 27.66 toks/s, output: 6.27 toks/s]
+GPU Memory: 86507, 8844
+  headline subheadline  ... newspaper        date
+0       NA          NA  ...     trome  2014/05/14
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_05_14.csv
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_14.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36888 tokens), chunking: data/txt/trome/2014/05/trome_15.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2529.74it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 182.38s/it, est. speed input: 57.39 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 182.38s/it, est. speed input: 57.39 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 182.38s/it, est. speed input: 57.39 toks/s, output: 6.21 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_15.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2131.25it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:08<00:00, 128.43s/it, est. speed input: 88.11 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [02:08<00:00, 128.43s/it, est. speed input: 88.11 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [02:08<00:00, 128.43s/it, est. speed input: 88.11 toks/s, output: 6.17 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_15.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2384.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.55s/it, est. speed input: 118.51 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.55s/it, est. speed input: 118.51 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.55s/it, est. speed input: 118.51 toks/s, output: 6.13 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_15.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3656.76it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:28<00:00, 148.36s/it, est. speed input: 13.33 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [02:28<00:00, 148.36s/it, est. speed input: 13.33 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [02:28<00:00, 148.36s/it, est. speed input: 13.33 toks/s, output: 6.29 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_15.csv in chunk 4/4
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_15.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (33149 tokens), chunking: data/txt/trome/2014/05/trome_16.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2495.12it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.04s/it, est. speed input: 106.80 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.04s/it, est. speed input: 106.80 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.04s/it, est. speed input: 106.80 toks/s, output: 6.14 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_16.csv in chunk 1/3
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2337.96it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:33<00:00, 93.10s/it, est. speed input: 130.46 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:33<00:00, 93.10s/it, est. speed input: 130.46 toks/s, output: 6.12 toks/s]Processed prompts: 100%|██████████| 1/1 [01:33<00:00, 93.10s/it, est. speed input: 130.46 toks/s, output: 6.12 toks/s]
+GPU Memory: 86507, 8844
+                                            headline  ...        date
+0  Recibe hombre de 75 años propuestas matrimonia...  ...  2014/05/16
+1                     BODA COMUNITARIA EN MIRAFLORES  ...  2014/05/16
+2  GUSTAVO CERATTI Y ‘PINOCHO’”;NEGRO HUGO FUE AM...  ...  2014/05/16
+3                                        FIND: ROAD   ...  2014/05/16
+4  MÉGACOMISIÓN CASA SOBERANA APUESTA POR REVISIÓ...  ...  2014/05/16
+5                 SISMOS REPORTADOS EN NORTE PERUANO  ...  2014/05/16
+6  HUMBERTO MATHEWS ESTRENÓ DISCO TRIBUTARIO A PE...  ...  2014/05/16
+
+[7 rows x 6 columns]
+✓ Extracted chunk 2/3 from trome_2014_05_16.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2455.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:40<00:00, 220.67s/it, est. speed input: 41.22 toks/s, output: 6.24 toks/s]Processed prompts: 100%|██████████| 1/1 [03:40<00:00, 220.67s/it, est. speed input: 41.22 toks/s, output: 6.24 toks/s]Processed prompts: 100%|██████████| 1/1 [03:40<00:00, 220.67s/it, est. speed input: 41.22 toks/s, output: 6.24 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_16.csv in chunk 3/3
+GPU Memory: 86507, 8844
+✓ Extracted text to trome_2014_05_16.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39828 tokens), chunking: data/txt/trome/2014/05/trome_17.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2275.80it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:16<00:00, 76.12s/it, est. speed input: 139.51 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:16<00:00, 76.12s/it, est. speed input: 139.51 toks/s, output: 6.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:16<00:00, 76.12s/it, est. speed input: 139.51 toks/s, output: 6.11 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_17.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1400.90it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.31s/it, est. speed input: 145.64 toks/s, output: 6.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.31s/it, est. speed input: 145.64 toks/s, output: 6.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.31s/it, est. speed input: 145.64 toks/s, output: 6.08 toks/s]
+GPU Memory: 86507, 8844
+Error getting csv from trome_2014_05_17.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2128.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]

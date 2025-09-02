@@ -40,7 +40,7 @@ source ./venv/extract_pipeline/bin/activate
 # sleep 5  # Waits 5 seconds for file to be saved
 
 echo "Third task: LLM. Running..."
-python -u ./src/extract_pipeline/pipeline_vllm.py -n trome -i divided -f ./data/txt/trome/2014/01
+python -u ./src/extract_pipeline/pipeline_vllm.py -n trome -i divided -f ./data/txt/trome/2014/05
 
 deactivate
 
