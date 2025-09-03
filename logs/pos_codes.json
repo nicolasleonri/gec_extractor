@@ -1,0 +1,5 @@
+{
+  "0": "NOUN(ROOT)-ADP(case)-DET(det)-NOUN(nmod)-ADP(case)-DET(det)-NOUN(nmod)-ADJ(amod)-ADP(mark)-VERB(acl)-DET(det)-NOUN(obj)-CCONJ(cc)-VERB(conj)-DET(det)-NOUN(obj)-ADJ(amod)-ADP(case)-DET(det)-PROPN(nmod)",
+  "1": "DET(det)-NOUN(nsubj)-ADJ(amod)-VERB(ROOT)-VERB(xcomp)-ADP(case)-DET(det)-ADJ(amod)-NOUN(obl)-ADJ(amod)-ADP(case)-NOUN(nmod)-VERB(advcl)-SCONJ(mark)-DET(det)-NOUN(nsubj)-ADJ(amod)-ADP(case)-DET(det)-NOUN(nmod)-ADJ(amod)-VERB(ccomp)-DET(det)-SYM(obj)-VERB(advcl)-DET(det)-NOUN(obj)-ADJ(amod)-ADP(case)-SYM(nmod)-ADP(case)-DET(det)-NOUN(obl)-ADJ(amod)",
+  "2": "DET(det)-NOUN(nsubj)-AUX(cop)-DET(det)-NOUN(ROOT)-ADJ(amod)"
+}
