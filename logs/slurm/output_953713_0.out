@@ -7525,4 +7525,495 @@ GPU Memory: 87109, 8242
 Text too long (25904 tokens), chunking: data/txt/publimetro/2017/05/publimetro_10.txt
 Processing chunk: 1/3
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2697.30it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.77s/it, est. speed input: 75.10 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.77s/it, est. speed input: 75.10 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.77s/it, est. speed input: 75.10 toks/s, output: 6.20 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0     Conociendo a los Juventus, a raya Miraflorinos  ...  2017/05/10
+1  Proyecto de ley presentado por el congresista ...  ...  2017/05/10
+2                                               None  ...  2017/05/10
+3                        NUEVO SERVICIO EN LA CIUDAD  ...  2017/05/10
+4                                               None  ...  2017/05/10
+5         Aumentan multas por mal uso de mascarillas  ...  2017/05/10
+6                                               None  ...  2017/05/10
+7     Feria gastronómica celebra diversidad cultural  ...  2017/05/10
+8                                               None  ...  2017/05/10
+9  Celebridades solidarias donan arte para fines ...  ...  2017/05/10
+
+[10 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2017_05_10.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1453.83it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:07<00:00, 187.05s/it, est. speed input: 49.31 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:07<00:00, 187.05s/it, est. speed input: 49.31 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:07<00:00, 187.05s/it, est. speed input: 49.31 toks/s, output: 6.21 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  Difusión la política más significativa de Obam...  ...  2017/05/10
+1  A qué renuncia EU con el retiro del Acuerdo de...  ...  2017/05/10
+2  Historia de éxito empresarial: Nuevo precio pa...  ...  2017/05/10
+
+[3 rows x 6 columns]
+✓ Extracted chunk 2/3 from publimetro_2017_05_10.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1122.37it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:57<00:00, 117.80s/it, est. speed input: 55.22 toks/s, output: 6.25 toks/s]Processed prompts: 100%|██████████| 1/1 [01:57<00:00, 117.80s/it, est. speed input: 55.22 toks/s, output: 6.25 toks/s]Processed prompts: 100%|██████████| 1/1 [01:57<00:00, 117.81s/it, est. speed input: 55.22 toks/s, output: 6.25 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  "EL MUNDO DE ALIEN’ ES AÚN INIGUALABLE”;“Actor...  ...  2017/05/10
+1                                            Ninguno  ...  2017/05/10
+2                                            Ninguno  ...  2017/05/10
+3                                            Ninguno  ...  2017/05/10
+4                                            Ninguno  ...  2017/05/10
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2017_05_10.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2017_05_10.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (20611 tokens), chunking: data/txt/publimetro/2016/07/publimetro_01.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2912.71it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.27s/it, est. speed input: 58.53 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.27s/it, est. speed input: 58.53 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.27s/it, est. speed input: 58.53 toks/s, output: 6.22 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0                               EL LOCO DEL MARTILLO  ...  2016/07/01
+1  MICHELLE BACHELETEl presidente electo Pedro Pa...  ...  2016/07/01
+2                                  MICHILLE BACHÉLAT  ...  2016/07/01
+3                                      PABEL BACHTAT  ...  2016/07/01
+4  AUMENTA EL RETIRO DE DINERO CON LAS TARJETA DE...  ...  2016/07/01
+5  DÓLARE COMPRA – 5/S.3,286 VENTA S/.3,288 EUROP...  ...  2016/07/01
+6                            SOLIDARIDAD CON TURQUIA  ...  2016/07/01
+7                     CANDIDATO PARA SUCEDER CAMERÓN  ...  2016/07/01
+8  HACE SIGLOS SOLO LOS NOBLES PODRÍAN AUTORETRAT...  ...  2016/07/01
+
+[9 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2016_07_01.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 917.19it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:56<00:00, 116.51s/it, est. speed input: 79.46 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [01:56<00:00, 116.51s/it, est. speed input: 79.46 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [01:56<00:00, 116.51s/it, est. speed input: 79.46 toks/s, output: 6.17 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2016_07_01.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3851.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:16<00:00, 76.30s/it, est. speed input: 17.89 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [01:16<00:00, 76.30s/it, est. speed input: 17.89 toks/s, output: 6.29 toks/s]Processed prompts: 100%|██████████| 1/1 [01:16<00:00, 76.30s/it, est. speed input: 17.89 toks/s, output: 6.29 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  ¿QUIÉN ES EL PRESENTE DE MÁS BUENA IMAGEN INTE...  ...  2016/07/01
+1                                                     ...  2016/07/01
+2                                                     ...  2016/07/01
+3  +"Su trabajo en el Banco Mundial y en el gobie...  ...  2016/07/01
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2016_07_01.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2016_07_01.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (21725 tokens), chunking: data/txt/publimetro/2014/12/publimetro_09.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2702.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.45s/it, est. speed input: 70.37 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.45s/it, est. speed input: 70.37 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.45s/it, est. speed input: 70.37 toks/s, output: 6.19 toks/s]
+GPU Memory: 87109, 8242
+                                             headline  ...        date
+0     Examinan exclusivamente a alumnos de secundaria  ...  2014/12/09
+1                    Negoconciertos clave en la COP20  ...  2014/12/09
+2   Firmemente decidido, el nuevo panorama guberna...  ...  2014/12/09
+3   Waldo Ríos organiza teleton para cubrir multa ...  ...  2014/12/09
+4     Arequipa celebra juventud en liderazgo regional  ...  2014/12/09
+5   Celebración de la diversidad cultural en la COP20  ...  2014/12/09
+6   Diversos actores buscan influir en futuras reg...  ...  2014/12/09
+7   Sistema privado de pensiones evalúa probabilid...  ...  2014/12/09
+8   Gastronomía nacional sobresale en escenario gl...  ...  2014/12/09
+9          Banco de la Nación ampliará acceso digital  ...  2014/12/09
+10          Papa insta a espacios sagrados personales  ...  2014/12/09
+11       Innovación dulce homenajea pontifical figura  ...  2014/12/09
+12  Tensiones persisten en territorio oriental ucr...  ...  2014/12/09
+13  Migración masiva a redes digitales potencia co...  ...  2014/12/09
+
+[14 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2014_12_09.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2685.21it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.86s/it, est. speed input: 131.68 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.86s/it, est. speed input: 131.68 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.86s/it, est. speed input: 131.68 toks/s, output: 6.14 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0   A falta de presidente en cumbres iberoamericanas  ...  2014/12/09
+1  Suspenden cumbre debido a ausencias presidenci...  ...  2014/12/09
+2                   Inaugura próxima cumbre bi-anual  ...  2014/12/09
+3      Visita oficial del príncipe Guillermo a Obama  ...  2014/12/09
+4  Duke y Duquesa realizan compromisos separadamente  ...  2014/12/09
+5  Mills pide disculpas por distracciones en Parl...  ...  2014/12/09
+6  Nigel Mills admite uso indebido de dispositivo...  ...  2014/12/09
+7      Lucha contra la desnutrición infantil en Perú  ...  2014/12/09
+
+[8 rows x 6 columns]
+✓ Extracted chunk 2/3 from publimetro_2014_12_09.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2545.09it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:32<00:00, 92.53s/it, est. speed input: 26.55 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [01:32<00:00, 92.53s/it, est. speed input: 26.55 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [01:32<00:00, 92.54s/it, est. speed input: 26.55 toks/s, output: 6.27 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  ¿Son útiles antes para el país los resultados ...  ...  2014/12/09
+
+[1 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2014_12_09.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2014_12_09.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (21559 tokens), chunking: data/txt/publimetro/2018/06/publimetro_08.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 679.46it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.93s/it, est. speed input: 86.30 toks/s, output: 6.18 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.93s/it, est. speed input: 86.30 toks/s, output: 6.18 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.93s/it, est. speed input: 86.30 toks/s, output: 6.18 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  Congreso rectifica proceso, pero igual suspend...  ...  2018/06/08
+1                  Ley por el Día del Fútbol Peruano  ...  2018/06/08
+2  Pablo Chávarry nombrado nuevo fiscal de la Nación  ...  2018/06/08
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2018_06_08.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1180.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:41<00:00, 101.93s/it, est. speed input: 93.75 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:41<00:00, 101.93s/it, est. speed input: 93.75 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:41<00:00, 101.93s/it, est. speed input: 93.75 toks/s, output: 6.16 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2018_06_08.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3669.56it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:59<00:00, 59.32s/it, est. speed input: 31.76 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [00:59<00:00, 59.32s/it, est. speed input: 31.76 toks/s, output: 6.27 toks/s]Processed prompts: 100%|██████████| 1/1 [00:59<00:00, 59.32s/it, est. speed input: 31.76 toks/s, output: 6.27 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  ¿El Congreso resolvió bien ayer la votación de...  ...  2018/06/08
+
+[1 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2018_06_08.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2018_06_08.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (19479 tokens), chunking: data/txt/publimetro/2013/07/publimetro_30.txt
+Processing chunk: 1/2
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2976.79it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:37<00:00, 37.11s/it, est. speed input: 242.00 toks/s, output: 6.01 toks/s]Processed prompts: 100%|██████████| 1/1 [00:37<00:00, 37.11s/it, est. speed input: 242.00 toks/s, output: 6.01 toks/s]Processed prompts: 100%|██████████| 1/1 [00:37<00:00, 37.11s/it, est. speed input: 242.00 toks/s, output: 6.01 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  Migrantes retornan a Piura luego de seis meses...  ...  2013/07/30
+1  Aumenta número de pacientes hospitalizados por...  ...  2013/07/30
+
+[2 rows x 6 columns]
+✓ Extracted chunk 1/2 from publimetro_2013_07_30.csv
+Processing chunk: 2/2
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2957.90it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:11<00:00, 131.99s/it, est. speed input: 66.27 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:11<00:00, 131.99s/it, est. speed input: 66.27 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:11<00:00, 132.00s/it, est. speed input: 66.27 toks/s, output: 6.20 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2013_07_30.csv in chunk 2/2
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2013_07_30.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (24064 tokens), chunking: data/txt/publimetro/2016/01/publimetro_11.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2775.85it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.28s/it, est. speed input: 64.11 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.28s/it, est. speed input: 64.11 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.28s/it, est. speed input: 64.11 toks/s, output: 6.20 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2016_01_11.csv in chunk 1/3
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2680.07it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:27<00:00, 87.54s/it, est. speed input: 99.09 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [01:27<00:00, 87.54s/it, est. speed input: 99.09 toks/s, output: 6.17 toks/s]Processed prompts: 100%|██████████| 1/1 [01:27<00:00, 87.54s/it, est. speed input: 99.09 toks/s, output: 6.17 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2016_01_11.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1072.44it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.53s/it, est. speed input: 26.78 toks/s, output: 6.26 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.53s/it, est. speed input: 26.78 toks/s, output: 6.26 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.53s/it, est. speed input: 26.78 toks/s, output: 6.26 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  “EL LOCO DEL MARTILLO”; NA ; “LA SEOÑA MARIA”;...  ...  2016/01/11
+1                     CONTENTO POR FIN DE CUARENTENA  ...  2016/01/11
+2  'EL AMANTE JAPONÉS’ (PLAZA & JANES) ESTA NOVEL...  ...  2016/01/11
+3  LUNES 13 DE ENERO DEL 2036 ESPECTACULO MEJOR P...  ...  2016/01/11
+4  PUBLI METRO MEJOR PEFLICA DE COMEDIA MUSETICAL...  ...  2016/01/11
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2016_01_11.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2016_01_11.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (22625 tokens), chunking: data/txt/publimetro/2017/10/publimetro_20.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2590.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:14<00:00, 74.98s/it, est. speed input: 120.44 toks/s, output: 6.15 toks/s]Processed prompts: 100%|██████████| 1/1 [01:14<00:00, 74.98s/it, est. speed input: 120.44 toks/s, output: 6.15 toks/s]Processed prompts: 100%|██████████| 1/1 [01:14<00:00, 74.98s/it, est. speed input: 120.44 toks/s, output: 6.15 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  Deber civilico: participar del censo nacional ...  ...  2017/10/20
+1  Historico. El Pleno del Congreso aprobó anoche...  ...  2017/10/20
+2            Pablo Kuzcinski en cabintea binacional.  ...  2017/10/20
+3                  Catalunya suspencion de autonomia  ...  2017/10/20
+4                Autorizacion de drogas termina aqui  ...  2017/10/20
+5                          Sostenibilidad energetica  ...  2017/10/20
+6                                Desafios economicos  ...  2017/10/20
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2017_10_20.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2866.92it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:06<00:00, 187.00s/it, est. speed input: 49.48 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:06<00:00, 187.00s/it, est. speed input: 49.48 toks/s, output: 6.21 toks/s]Processed prompts: 100%|██████████| 1/1 [03:06<00:00, 187.00s/it, est. speed input: 49.48 toks/s, output: 6.21 toks/s]
+GPU Memory: 87109, 8242
+                                             headline  ...        date
+0   Otros líderes europeos, entre ellos Angela Mer...  ...  2017/10/20
+1                                                      ...  2017/10/20
+2   Autoridades discuten situación política en Esp...  ...  2017/10/20
+3                                                None  ...  2017/10/20
+4   Hace más de 40 años se prohibió el comercio de...  ...  2017/10/20
+5   Fotos premiadas revelan impactantes imágenes d...  ...  2017/10/20
+6                                                None  ...  2017/10/20
+7                        Messi envía saludos a Messi.  ...  2017/10/20
+8               Lokomotiv Moskva empareja en Moldova.  ...  2017/10/20
+9   Pizarro ve chance para Perú calificar al Mundial.  ...  2017/10/20
+10                                               None  ...  2017/10/20
+11  Garcilaso busca mantener liderato en el Torneo...  ...  2017/10/20
+12  Nuestro menú ofrece opciones equilibradas para...  ...  2017/10/20
+13                                               None  ...  2017/10/20
+14       Celebrity Chef comparte secretos culinarios.  ...  2017/10/20
+15                                               None  ...  2017/10/20
+16            Asics inaugura carrera popular en Lima.  ...  2017/10/20
+17                                               None  ...  2017/10/20
+18  Botica cumple seis años manteniendo el ambient...  ...  2017/10/20
+19                                               None  ...  2017/10/20
+20           Toño Jauregui presenta su debut musical.  ...  2017/10/20
+21                                               None  ...  2017/10/20
+22  Pierce Brosnan protagoniza nueva producción te...  ...  2017/10/20
+23                                               None  ...  2017/10/20
+24  Seminario literario en PUCP introduce nuevas n...  ...  2017/10/20
+25                                               None  ...  2017/10/20
+26        Joquin Sabina retorna al escenario peruano.  ...  2017/10/20
+27                                               None  ...  2017/10/20
+28              Microficcion contesta retos actuales.  ...  2017/10/20
+29                                               None  ...  2017/10/20
+30  Gian Marco transita de la música a la literatura.  ...  2017/10/20
+
+[31 rows x 6 columns]
+✓ Extracted chunk 2/3 from publimetro_2017_10_20.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3429.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:01<00:00, 61.47s/it, est. speed input: 51.87 toks/s, output: 6.25 toks/s]Processed prompts: 100%|██████████| 1/1 [01:01<00:00, 61.47s/it, est. speed input: 51.87 toks/s, output: 6.25 toks/s]Processed prompts: 100%|██████████| 1/1 [01:01<00:00, 61.47s/it, est. speed input: 51.87 toks/s, output: 6.25 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0                                         Editorial.  ...  2017/10/20
+1  Preguntando sobre la importancia de la autoide...  ...  2017/10/20
+
+[2 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2017_10_20.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2017_10_20.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (25047 tokens), chunking: data/txt/publimetro/2015/12/publimetro_14.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2978.91it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:33<00:00, 93.97s/it, est. speed input: 94.33 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:33<00:00, 93.97s/it, est. speed input: 94.33 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:33<00:00, 93.97s/it, est. speed input: 94.33 toks/s, output: 6.16 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0    Entrevista exclusiva con el Presidente Mexicano  ...  2015/12/14
+1      Novedades para unas fiestas felices y seguras  ...  2015/12/14
+2                Reacciona el ambiente tras la COP21  ...  2015/12/14
+3                 Cristal pierde terreno ante Melgar  ...  2015/12/14
+4                   Arsitektura ng takot sa Limahong  ...  2015/12/14
+5         Direksyon at administrasyon ng publikasyon  ...  2015/12/14
+6  Municipality of Lima sends four buses without ...  ...  2015/12/14
+7             Poder Judicial processes cases swiftly  ...  2015/12/14
+8     Election results favor Nationalism's candidate  ...  2015/12/14
+
+[9 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2015_12_14.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 998.17it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:27<00:00, 147.81s/it, est. speed input: 61.17 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:27<00:00, 147.81s/it, est. speed input: 61.17 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:27<00:00, 147.81s/it, est. speed input: 61.17 toks/s, output: 6.22 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2015_12_14.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3139.45it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 96.36s/it, est. speed input: 59.51 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 96.36s/it, est. speed input: 59.51 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 96.36s/it, est. speed input: 59.51 toks/s, output: 6.23 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2015_12_14.csv in chunk 3/3
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2015_12_14.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (25120 tokens), chunking: data/txt/publimetro/2015/09/publimetro_03.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 465.88it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.31s/it, est. speed input: 73.65 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.31s/it, est. speed input: 73.65 toks/s, output: 6.22 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.31s/it, est. speed input: 73.65 toks/s, output: 6.22 toks/s]
+GPU Memory: 87109, 8242
+                                             headline  ...        date
+0   Los Dos Besos Sin Prejuicios de Mayella Loccll...  ...  2015/09/03
+1   Autorizado Análisis Reformas Migrantes Lanzan ...  ...  2015/09/03
+2       Petroperú con Puertas Abiertas en el Lote 192  ...  2015/09/03
+3                   Iquitos Sigue en Paro de 48 Horas  ...  2015/09/03
+4              Cómo Llegar a Mistura en Metropolitano  ...  2015/09/03
+5            Movistar Amplía Cobertura en 15 Regiones  ...  2015/09/03
+6      Primera Dama Denuncia Penalmente a Pérez Tello  ...  2015/09/03
+7   Sigueme las Acciones de Control Contralor de l...  ...  2015/09/03
+8           Petroperú Cada Vez Más Cerca del Lote 192  ...  2015/09/03
+9     Economía Reporta Accidentes de Tráfico Infantil  ...  2015/09/03
+10         Dolar Experimenta Ligera Caída frente Euro  ...  2015/09/03
+11  Tecnologia Favorece Transacciones Financieras ...  ...  2015/09/03
+
+[12 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2015_09_03.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2736.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.30s/it, est. speed input: 66.33 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.30s/it, est. speed input: 66.33 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.30s/it, est. speed input: 66.33 toks/s, output: 6.23 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2015_09_03.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1668.38it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:38<00:00, 278.47s/it, est. speed input: 20.49 toks/s, output: 6.26 toks/s]Processed prompts: 100%|██████████| 1/1 [04:38<00:00, 278.47s/it, est. speed input: 20.49 toks/s, output: 6.26 toks/s]Processed prompts: 100%|██████████| 1/1 [04:38<00:00, 278.47s/it, est. speed input: 20.49 toks/s, output: 6.26 toks/s]
+GPU Memory: 87109, 8242
+                               headline subheadline  ...   newspaper        date
+0  SHAUN, EL CORDERO TRAILAS MAGALLANES          NA  ...  publimetro  2015/09/03
+
+[1 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2015_09_03.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2015_09_03.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (26669 tokens), chunking: data/txt/publimetro/2016/02/publimetro_25.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2291.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.36s/it, est. speed input: 59.54 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.36s/it, est. speed input: 59.54 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.36s/it, est. speed input: 59.54 toks/s, output: 6.23 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2016_02_25.csv in chunk 1/3
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 770.73it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.31s/it, est. speed input: 64.43 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.31s/it, est. speed input: 64.43 toks/s, output: 6.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.31s/it, est. speed input: 64.43 toks/s, output: 6.20 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0               Marco Rubio queda segundo en Florida  ...  2016/02/25
+1  'Trump', líder indiscutible entre latinos en N...  ...  2016/02/25
+2             CIA respaldó solicitud del FBI a Apple  ...  2016/02/25
+3               Egipto admite derribo del avión ruso  ...  2016/02/25
+4  Historia detrás de la polémica de la moda feme...  ...  2016/02/25
+5               Nuevas promociones Hyundai Ott Parts  ...  2016/02/25
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/3 from publimetro_2016_02_25.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2966.27it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:30<00:00, 30.89s/it, est. speed input: 238.97 toks/s, output: 6.02 toks/s]Processed prompts: 100%|██████████| 1/1 [00:30<00:00, 30.89s/it, est. speed input: 238.97 toks/s, output: 6.02 toks/s]Processed prompts: 100%|██████████| 1/1 [00:30<00:00, 30.90s/it, est. speed input: 238.97 toks/s, output: 6.02 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  Como Mejor Album de Música Alternativa, ayer s...  ...  2016/02/25
+
+[1 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2016_02_25.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2016_02_25.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (19455 tokens), chunking: data/txt/publimetro/2014/04/publimetro_29.txt
+Processing chunk: 1/2
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2974.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.02s/it, est. speed input: 169.82 toks/s, output: 6.09 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.02s/it, est. speed input: 169.82 toks/s, output: 6.09 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.02s/it, est. speed input: 169.82 toks/s, output: 6.09 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  Eurocopa 2016: Francia campeona tras golear a ...  ...  2014/04/29
+1  FIFA suspende a Ángela Merkel por irregularida...  ...  2014/04/29
+2         Crisis climática amenaza cosechas globales  ...  2014/04/29
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/2 from publimetro_2014_04_29.csv
+Processing chunk: 2/2
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2803.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:49<00:00, 109.10s/it, est. speed input: 79.90 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [01:49<00:00, 109.10s/it, est. speed input: 79.90 toks/s, output: 6.19 toks/s]Processed prompts: 100%|██████████| 1/1 [01:49<00:00, 109.10s/it, est. speed input: 79.90 toks/s, output: 6.19 toks/s]
+GPU Memory: 87109, 8242
+                                  headline  ...        date
+0                  Sobre el litoral limeño  ...  2014/04/29
+1                          Bikke Challenge  ...  2014/04/29
+2                                 A los 40  ...  2014/04/29
+3            One Direction en Machu Picchu  ...  2014/04/29
+4  Feria Internacional del Libro de Bogotá  ...  2014/04/29
+5                        Mujeres al ataque  ...  2014/04/29
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/2 from publimetro_2014_04_29.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2014_04_29.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (20924 tokens), chunking: data/txt/publimetro/2015/02/publimetro_25.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2870.84it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.09s/it, est. speed input: 109.34 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.09s/it, est. speed input: 109.34 toks/s, output: 6.16 toks/s]Processed prompts: 100%|██████████| 1/1 [01:23<00:00, 83.09s/it, est. speed input: 109.34 toks/s, output: 6.16 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2015_02_25.csv in chunk 1/3
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2707.75it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:06<00:00, 66.44s/it, est. speed input: 138.64 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:06<00:00, 66.44s/it, est. speed input: 138.64 toks/s, output: 6.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:06<00:00, 66.44s/it, est. speed input: 138.64 toks/s, output: 6.13 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2015_02_25.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1182.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.47s/it, est. speed input: 14.48 toks/s, output: 6.30 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.47s/it, est. speed input: 14.48 toks/s, output: 6.30 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.48s/it, est. speed input: 14.48 toks/s, output: 6.30 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0                                                 NA  ...  2015/02/25
+1  Creo que la posición peruana podría ir un poco...  ...  2015/02/25
+2  Ningún país de la región ha hecho algo así.;'J...  ...  2015/02/25
+3     No sé por qué tanto se interesan en ese país.   ...  2015/02/25
+4                       Es un problema de Venezuela.  ...  2015/02/25
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2015_02_25.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2015_02_25.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (22707 tokens), chunking: data/txt/publimetro/2016/05/publimetro_16.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2941.31it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.02s/it, est. speed input: 121.63 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.02s/it, est. speed input: 121.63 toks/s, output: 6.14 toks/s]Processed prompts: 100%|██████████| 1/1 [01:17<00:00, 77.02s/it, est. speed input: 121.63 toks/s, output: 6.14 toks/s]
+GPU Memory: 87109, 8242
+                                    headline  ...        date
+0  Soy una Persona con una Vasta Imaginación  ...  2016/05/16
+1                  Día Mundial del Reciclaje  ...  2016/05/16
+2                  Miles Visitantes Europeos  ...  2016/05/16
+3                   Celeste Debate Electoral  ...  2016/05/16
+4                Fujimori Reacciona Denuncia  ...  2016/05/16
+5                   Pensamientos Electorales  ...  2016/05/16
+
+[6 rows x 6 columns]
+✓ Extracted chunk 1/3 from publimetro_2016_05_16.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2605.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:49<00:00, 169.91s/it, est. speed input: 55.82 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [02:49<00:00, 169.91s/it, est. speed input: 55.82 toks/s, output: 6.23 toks/s]Processed prompts: 100%|██████████| 1/1 [02:49<00:00, 169.91s/it, est. speed input: 55.82 toks/s, output: 6.23 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  Que asumió el poder en lugar de la mandataria ...  ...  2016/05/16
+1  Acentua K P pra ea eie rid Gobierno de Maduro ...  ...  2016/05/16
+2  Nueva Renault STEPWAY Te regala KM/Sal para qu...  ...  2016/05/16
+
+[3 rows x 6 columns]
+✓ Extracted chunk 2/3 from publimetro_2016_05_16.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 944.88it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:05<00:00, 65.34s/it, est. speed input: 46.92 toks/s, output: 6.26 toks/s]Processed prompts: 100%|██████████| 1/1 [01:05<00:00, 65.34s/it, est. speed input: 46.92 toks/s, output: 6.26 toks/s]Processed prompts: 100%|██████████| 1/1 [01:05<00:00, 65.34s/it, est. speed input: 46.92 toks/s, output: 6.26 toks/s]
+GPU Memory: 87109, 8242
+                                            headline  ...        date
+0  WhatsApp introducirá próximamente sus funcione...  ...  2016/05/16
+1                     Cruce de palabras cruzwordHOW   ...  2016/05/16
+2                                         Sagitario   ...  2016/05/16
+3                                        Astrología   ...  2016/05/16
+4                                          Pensador   ...  2016/05/16
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/3 from publimetro_2016_05_16.csv
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2016_05_16.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (19712 tokens), chunking: data/txt/publimetro/2017/09/publimetro_29.txt
+Processing chunk: 1/2
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 865.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.11s/it, est. speed input: 89.95 toks/s, output: 6.18 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.11s/it, est. speed input: 89.95 toks/s, output: 6.18 toks/s]Processed prompts: 100%|██████████| 1/1 [01:40<00:00, 100.11s/it, est. speed input: 89.95 toks/s, output: 6.18 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2017_09_29.csv in chunk 1/2
+Processing chunk: 2/2
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2768.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.31s/it, est. speed input: 40.61 toks/s, output: 6.24 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.31s/it, est. speed input: 40.61 toks/s, output: 6.24 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.31s/it, est. speed input: 40.61 toks/s, output: 6.24 toks/s]
+GPU Memory: 87109, 8242
+Error getting csv from publimetro_2017_09_29.csv in chunk 2/2
+GPU Memory: 87109, 8242
+✓ Extracted text to publimetro_2017_09_29.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (20091 tokens), chunking: data/txt/publimetro/2019/03/publimetro_19.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 776.00it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]

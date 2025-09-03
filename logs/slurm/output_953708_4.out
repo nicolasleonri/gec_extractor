@@ -2325,4 +2325,146 @@ GPU Memory: 74441, 6715
 ✓ Extracted chunk 4/5 from peru21_2013_06_22.csv
 Processing chunk: 5/5
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2732.45it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.73s/it, est. speed input: 16.33 toks/s, output: 1.88 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.73s/it, est. speed input: 16.33 toks/s, output: 1.88 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.74s/it, est. speed input: 16.33 toks/s, output: 1.88 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0                                 Fuego Contra Fuego  ...  2013/06/22
+1  CristianCastro Será Rockero y Tendrá Nuevo Nombre  ...  2013/06/22
+2                             LADRONA DE IDENTIDADES  ...  2013/06/22
+
+[3 rows x 6 columns]
+✓ Extracted chunk 5/5 from peru21_2013_06_22.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to peru21_2013_06_22.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (40059 tokens), chunking: data/txt/peru21/2016/06/peru21_26.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1892.74it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:50<00:00, 230.14s/it, est. speed input: 38.83 toks/s, output: 1.87 toks/s]Processed prompts: 100%|██████████| 1/1 [03:50<00:00, 230.14s/it, est. speed input: 38.83 toks/s, output: 1.87 toks/s]Processed prompts: 100%|██████████| 1/1 [03:50<00:00, 230.15s/it, est. speed input: 38.83 toks/s, output: 1.87 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2016_06_26.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2045.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.28s/it, est. speed input: 36.84 toks/s, output: 1.92 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.28s/it, est. speed input: 36.84 toks/s, output: 1.92 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.28s/it, est. speed input: 36.84 toks/s, output: 1.92 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2016_06_26.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 169.02it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.54s/it, est. speed input: 32.28 toks/s, output: 1.87 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.54s/it, est. speed input: 32.28 toks/s, output: 1.87 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.54s/it, est. speed input: 32.28 toks/s, output: 1.87 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2016_06_26.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1741.82it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.77s/it, est. speed input: 48.18 toks/s, output: 1.88 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.77s/it, est. speed input: 48.18 toks/s, output: 1.88 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.78s/it, est. speed input: 48.18 toks/s, output: 1.88 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0               SALUD. Requisitos Para Donar Sangre.  ...  2016/06/26
+1          MÚSICA, MAESTROS. LA CLAVE DE LOS FALCÓN.  ...  2016/06/26
+2  A LAS TRES GENERACIONES: ABUELTO, HIJO Y NIETO...  ...  2016/06/26
+3  NICHOLS CAGE ANUNCIA QUE SE SEPARA DE SU ESPSO...  ...  2016/06/26
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/4 from peru21_2016_06_26.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to peru21_2016_06_26.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (34326 tokens), chunking: data/txt/peru21/2019/09/peru21_03.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1941.81it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:02<00:00, 302.89s/it, est. speed input: 30.76 toks/s, output: 1.89 toks/s]Processed prompts: 100%|██████████| 1/1 [05:02<00:00, 302.89s/it, est. speed input: 30.76 toks/s, output: 1.89 toks/s]Processed prompts: 100%|██████████| 1/1 [05:02<00:00, 302.89s/it, est. speed input: 30.76 toks/s, output: 1.89 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  MARTES 3 DE SETIEMBRE DEL 2019 | Perú21 | OPIN...  ...  2019/09/03
+1            NUEVO CAPÍTULO ENTRE VIZCARRA Y OLACHEA  ...  2019/09/03
+
+[2 rows x 6 columns]
+✓ Extracted chunk 1/4 from peru21_2019_09_03.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1833.98it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [07:00<00:00, 420.32s/it, est. speed input: 22.56 toks/s, output: 1.91 toks/s]Processed prompts: 100%|██████████| 1/1 [07:00<00:00, 420.32s/it, est. speed input: 22.56 toks/s, output: 1.91 toks/s]Processed prompts: 100%|██████████| 1/1 [07:00<00:00, 420.32s/it, est. speed input: 22.56 toks/s, output: 1.91 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Megaoperativos desarticularon 204 organizacion...  ...  2019/09/03
+1  Campaña Preventiva de Seguridad Advertencia In...  ...  2019/09/03
+2  Policía ha capturado a 2999 personas e incauta...  ...  2019/09/03
+3  Incrementar impuestos a la minería podría fren...  ...  2019/09/03
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/4 from peru21_2019_09_03.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1752.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:16<00:00, 196.18s/it, est. speed input: 49.60 toks/s, output: 1.89 toks/s]Processed prompts: 100%|██████████| 1/1 [03:16<00:00, 196.18s/it, est. speed input: 49.60 toks/s, output: 1.89 toks/s]Processed prompts: 100%|██████████| 1/1 [03:16<00:00, 196.18s/it, est. speed input: 49.60 toks/s, output: 1.89 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Inversión tan estúpida de US$6,000 millones en...  ...  2019/09/03
+1  Al Innovar no es fácil y lo sabe Azucena, a qu...  ...  2019/09/03
+
+[2 rows x 6 columns]
+✓ Extracted chunk 3/4 from peru21_2019_09_03.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1931.08it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [21:22<00:00, 1282.69s/it, est. speed input: 3.57 toks/s, output: 1.87 toks/s]Processed prompts: 100%|██████████| 1/1 [21:22<00:00, 1282.69s/it, est. speed input: 3.57 toks/s, output: 1.87 toks/s]Processed prompts: 100%|██████████| 1/1 [21:22<00:00, 1282.69s/it, est. speed input: 3.57 toks/s, output: 1.87 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0                     MARTES 3 DE SETIEMBRE DEL 2019  ...  2019/09/03
+1  NUEVA YORK.— Es de humanos equivocarse, pero d...  ...  2019/09/03
+2  Pero el mediapunta, además, quiso dirigirse a ...  ...  2019/09/03
+3                      YOSHIMAR YOTÚN NO SE CONFORMA  ...  2019/09/03
+4  El 'indio' deberá enfrentar las bajas de Corzo...  ...  2019/09/03
+5  In tanto, Brayan Velarde irá a la zaga por Ram...  ...  2019/09/03
+6              E ibastatà >>> DT busca alternativas.  ...  2019/09/03
+7  DIEGO REBAGLIATTI ©diego_rebagliatti / Instagr...  ...  2019/09/03
+8  BETO DA SILVAAJUGARAEN ESPAÑAE IVÁNBULOSSIRÀAC...  ...  2019/09/03
+
+[9 rows x 6 columns]
+✓ Extracted chunk 4/4 from peru21_2019_09_03.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to peru21_2019_09_03.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (31272 tokens), chunking: data/txt/peru21/2019/11/peru21_16.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 377.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:22<00:00, 262.28s/it, est. speed input: 34.87 toks/s, output: 1.81 toks/s]Processed prompts: 100%|██████████| 1/1 [04:22<00:00, 262.28s/it, est. speed input: 34.87 toks/s, output: 1.81 toks/s]Processed prompts: 100%|██████████| 1/1 [04:22<00:00, 262.28s/it, est. speed input: 34.87 toks/s, output: 1.81 toks/s]
+GPU Memory: 74441, 6715
+                                       headline  ...        date
+0     PEDRO CHÁVARRY DEBERÍA QUITARSE DE ENCIMA  ...  2019/11/16
+1    PIDE SUSPENDICION FUNCIONES PEDRO CHAVARRY  ...  2019/11/16
+2  TOMÁS GALVEZ SE ALLANA A MEDIDAS PREVENTIVAS  ...  2019/11/16
+3   DUDAS SOBRE REFORMA ELECTORAL ACTUALIZACIÓN  ...  2019/11/16
+4                SITUACIÓN LEGAL KEIKO FUJIMORI  ...  2019/11/16
+5                 CAPTURA ARBITRO COBRABA COIME  ...  2019/11/16
+6      HUMILLANTE DERROTAPARA PRESIDENTE TOLEDO  ...  2019/11/16
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/4 from peru21_2019_11_16.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1898.73it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:08<00:00, 308.56s/it, est. speed input: 31.35 toks/s, output: 1.79 toks/s]Processed prompts: 100%|██████████| 1/1 [05:08<00:00, 308.56s/it, est. speed input: 31.35 toks/s, output: 1.79 toks/s]Processed prompts: 100%|██████████| 1/1 [05:08<00:00, 308.56s/it, est. speed input: 31.35 toks/s, output: 1.79 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0         Declaraciones a la prensa, ¿Interferencia?  ...  2019/11/16
+1  Nueva administración expulsa a diplomáticos ve...  ...  2019/11/16
+2  Mundo Nuevo Administración Expulsa Diplomático...  ...  2019/11/16
+
+[3 rows x 6 columns]
+✓ Extracted chunk 2/4 from peru21_2019_11_16.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1779.51it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.19s/it, est. speed input: 33.65 toks/s, output: 1.81 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.19s/it, est. speed input: 33.65 toks/s, output: 1.81 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.19s/it, est. speed input: 33.65 toks/s, output: 1.81 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0          Cambio Climático Global: Desafíos Futuros  ...  2019/11/16
+1  Papá Francisco advierte sobre comportamientos ...  ...  2019/11/16
+2       Inundaciones provocan Alerta Roja en Venecia  ...  2019/11/16
+3  Detenidos cinco ciudadanos malasios implicados...  ...  2019/11/16
+4  Tensiones en Bolivia: Crisis Institucional y S...  ...  2019/11/16
+5  Biomasa de Anchoveta alcanza máxima capacidad ...  ...  2019/11/16
+6  Hermanos condenados por ataques terroristas en...  ...  2019/11/16
+7  Auditores hallan problemas sanitarios en Hospi...  ...  2019/11/16
+8      Sistema Judicial Sentencia Hermandad Criminal  ...  2019/11/16
+
+[9 rows x 6 columns]
+✓ Extracted chunk 3/4 from peru21_2019_11_16.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2900.63it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]

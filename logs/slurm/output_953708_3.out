@@ -3781,4 +3781,233 @@ GPU Memory: 74441, 6715
 ✓ Extracted chunk 3/6 from gestion_2019_02_07.csv
 Processing chunk: 4/6
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1807.89it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:04<00:00, 184.69s/it, est. speed input: 54.73 toks/s, output: 2.56 toks/s]Processed prompts: 100%|██████████| 1/1 [03:04<00:00, 184.69s/it, est. speed input: 54.73 toks/s, output: 2.56 toks/s]Processed prompts: 100%|██████████| 1/1 [03:04<00:00, 184.69s/it, est. speed input: 54.73 toks/s, output: 2.56 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0   Administrar el Oleoducto – Incumplen Compromisos  ...  2019/02/07
+1              Crisis en el Sistema de Salud de Lima  ...  2019/02/07
+2  Economías Regionales Post-Fenómeno El Niño Cos...  ...  2019/02/07
+3         Inversiones en la Bolsa de Valores de Lima  ...  2019/02/07
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/6 from gestion_2019_02_07.csv
+Processing chunk: 5/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2191.38it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [10:04<00:00, 604.44s/it, est. speed input: 15.51 toks/s, output: 2.62 toks/s]Processed prompts: 100%|██████████| 1/1 [10:04<00:00, 604.44s/it, est. speed input: 15.51 toks/s, output: 2.62 toks/s]Processed prompts: 100%|██████████| 1/1 [10:04<00:00, 604.44s/it, est. speed input: 15.51 toks/s, output: 2.62 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from gestion_2019_02_07.csv in chunk 5/6
+Processing chunk: 6/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2764.87it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:31<00:00, 91.47s/it, est. speed input: 11.50 toks/s, output: 2.60 toks/s]Processed prompts: 100%|██████████| 1/1 [01:31<00:00, 91.47s/it, est. speed input: 11.50 toks/s, output: 2.60 toks/s]Processed prompts: 100%|██████████| 1/1 [01:31<00:00, 91.47s/it, est. speed input: 11.50 toks/s, output: 2.60 toks/s]
+GPU Memory: 74441, 6715
+  headline subheadline  ... newspaper        date
+0       NA          NA  ...   gestion  2019/02/07
+
+[1 rows x 6 columns]
+✓ Extracted chunk 6/6 from gestion_2019_02_07.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to gestion_2019_02_07.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (59058 tokens), chunking: data/txt/gestion/2017/10/gestion_16.txt
+Processing chunk: 1/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1850.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.92s/it, est. speed input: 30.07 toks/s, output: 2.60 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.92s/it, est. speed input: 30.07 toks/s, output: 2.60 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.92s/it, est. speed input: 30.07 toks/s, output: 2.60 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  INDUSTRIA NO PRIMARIA REVIRTIÓ EN AGOSTO CUATR...  ...  2017/10/16
+1  AUMENTAN LAS SOLICITUDES PARA CRÉDITOS HIPOTEC...  ...  2017/10/16
+2  Diferenciación de tasas de crecimiento en dist...  ...  2017/10/16
+3  PERSPECTIVAS INTERNACIONALES SOBRE EL CRECIMIE...  ...  2017/10/16
+4                   MERCADO REANI MANADO POST-CENSOS  ...  2017/10/16
+5          BONOS EMPRESARIOS PLANEADOS POR INTERBANK  ...  2017/10/16
+6  HIDROCARBONO Y MINERALES COMO PILASTRES ECONÓM...  ...  2017/10/16
+7            FUTURA EXPANSIÓN DE STEVIA ONE EN PIURA  ...  2017/10/16
+
+[8 rows x 6 columns]
+✓ Extracted chunk 1/6 from gestion_2017_10_16.csv
+Processing chunk: 2/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1822.03it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:03<00:00, 243.96s/it, est. speed input: 40.76 toks/s, output: 2.57 toks/s]Processed prompts: 100%|██████████| 1/1 [04:03<00:00, 243.96s/it, est. speed input: 40.76 toks/s, output: 2.57 toks/s]Processed prompts: 100%|██████████| 1/1 [04:03<00:00, 243.96s/it, est. speed input: 40.76 toks/s, output: 2.57 toks/s]
+GPU Memory: 74441, 6715
+                                             headline  ...        date
+0   Emprendimiento administración gestiona experie...  ...  2017/10/16
+1   Aprovechar habilidades graduados para satisfac...  ...  2017/10/16
+2   Especialistas facilitan conexión trabajo final...  ...  2017/10/16
+3   Inversiones garantizan alta empleabilidad egre...  ...  2017/10/16
+4       Fomento innovación vincula academia industria  ...  2017/10/16
+5                                                None  ...  2017/10/16
+6   Direcciones futuras Universidad Peruana Cayeta...  ...  2017/10/16
+7           Crecimiento profesional egresados negocio  ...  2017/10/16
+8             Sostenibilidad éxito programa educativo  ...  2017/10/16
+9                                                None  ...  2017/10/16
+10                Gestión entrevista presidenta CMPC   ...  2017/10/16
+11                Novedades plantas productivas CMPC   ...  2017/10/16
+
+[12 rows x 6 columns]
+✓ Extracted chunk 2/6 from gestion_2017_10_16.csv
+Processing chunk: 3/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 805.82it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.27s/it, est. speed input: 73.63 toks/s, output: 2.52 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.27s/it, est. speed input: 73.63 toks/s, output: 2.52 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.27s/it, est. speed input: 73.63 toks/s, output: 2.52 toks/s]
+GPU Memory: 74441, 6715
+                             headline  ...        date
+0                    Segundo artículo  ...  2017/10/16
+1          Inventario de Existencias.  ...  2017/10/16
+2                Novedades económicas  ...  2017/10/16
+3         Diversificación empresarial  ...  2017/10/16
+4   BASA Proyecciones Internacionales  ...  2017/10/16
+5  Gestión Negocios Radar Empresarial  ...  2017/10/16
+6     Economía Local Expansión Retail  ...  2017/10/16
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/6 from gestion_2017_10_16.csv
+Processing chunk: 4/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2125.85it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:33<00:00, 273.68s/it, est. speed input: 37.16 toks/s, output: 2.58 toks/s]Processed prompts: 100%|██████████| 1/1 [04:33<00:00, 273.68s/it, est. speed input: 37.16 toks/s, output: 2.58 toks/s]Processed prompts: 100%|██████████| 1/1 [04:33<00:00, 273.68s/it, est. speed input: 37.16 toks/s, output: 2.58 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0                                 Presión Tributaria  ...  2017/10/16
+1   Claudia Cooper Habla Acerca de Incremento Fiscal  ...  2017/10/16
+2                    Inversión en Exploración Minera  ...  2017/10/16
+3  Autoridades Colombianas Buscan Seguros Antiter...  ...  2017/10/16
+4              Economía Crece Gracias a Manufacturas  ...  2017/10/16
+5   Banco Central de EU Espera Más Inflación en 2018  ...  2017/10/16
+
+[6 rows x 6 columns]
+✓ Extracted chunk 4/6 from gestion_2017_10_16.csv
+Processing chunk: 5/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2029.17it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:52<00:00, 232.98s/it, est. speed input: 42.68 toks/s, output: 2.61 toks/s]Processed prompts: 100%|██████████| 1/1 [03:52<00:00, 232.98s/it, est. speed input: 42.68 toks/s, output: 2.61 toks/s]Processed prompts: 100%|██████████| 1/1 [03:52<00:00, 232.98s/it, est. speed input: 42.68 toks/s, output: 2.61 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0                Discusiones sobre descentralización  ...  2017/10/16
+1  Cómo reducir la volatilidad contributiva del s...  ...  2017/10/16
+2         Innovaciones en medicina urológica peruana  ...  2017/10/16
+3                                 Pregunta editorial  ...  2017/10/16
+4  Aumento de empleo mediante certificados de exp...  ...  2017/10/16
+5        Evolución crediticia para pequeñas empresas  ...  2017/10/16
+6                Tasa de interés referencial del BCR  ...  2017/10/16
+7  Impacto de recortes tributarios en Estados Unidos  ...  2017/10/16
+8                         Bolsa de Valores Operativa  ...  2017/10/16
+9               Situación de conflicto sociopolítico  ...  2017/10/16
+
+[10 rows x 6 columns]
+✓ Extracted chunk 5/6 from gestion_2017_10_16.csv
+Processing chunk: 6/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2225.09it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [10:45<00:00, 645.20s/it, est. speed input: 11.10 toks/s, output: 2.59 toks/s]Processed prompts: 100%|██████████| 1/1 [10:45<00:00, 645.20s/it, est. speed input: 11.10 toks/s, output: 2.59 toks/s]Processed prompts: 100%|██████████| 1/1 [10:45<00:00, 645.20s/it, est. speed input: 11.10 toks/s, output: 2.59 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from gestion_2017_10_16.csv in chunk 6/6
+GPU Memory: 74441, 6715
+✓ Extracted text to gestion_2017_10_16.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (55981 tokens), chunking: data/txt/gestion/2013/06/gestion_26.txt
+Processing chunk: 1/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 724.91it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.46s/it, est. speed input: 76.96 toks/s, output: 2.43 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.46s/it, est. speed input: 76.96 toks/s, output: 2.43 toks/s]Processed prompts: 100%|██████████| 1/1 [02:02<00:00, 122.46s/it, est. speed input: 76.96 toks/s, output: 2.43 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  MERCADO FINANCIERO Cambios en ranking de prést...  ...  2013/06/26
+1  GASTRONOMÍA Proyecciones Positivas Agroexporta...  ...  2013/06/26
+2  AUDITORIO INTERIOR Sería el Primer Megaproject...  ...  2013/06/26
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/6 from gestion_2013_06_26.csv
+Processing chunk: 2/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1965.47it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:05<00:00, 185.03s/it, est. speed input: 53.03 toks/s, output: 2.51 toks/s]Processed prompts: 100%|██████████| 1/1 [03:05<00:00, 185.03s/it, est. speed input: 53.03 toks/s, output: 2.51 toks/s]Processed prompts: 100%|██████████| 1/1 [03:05<00:00, 185.04s/it, est. speed input: 53.03 toks/s, output: 2.51 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from gestion_2013_06_26.csv in chunk 2/6
+Processing chunk: 3/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1955.39it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.57s/it, est. speed input: 38.28 toks/s, output: 2.51 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.57s/it, est. speed input: 38.28 toks/s, output: 2.51 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.57s/it, est. speed input: 38.28 toks/s, output: 2.51 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Decir, el gasto público debe estar orientado a...  ...  2013/06/26
+1                                                     ...  2013/06/26
+2  Gobierno busca articulación de políticas agrarias  ...  2013/06/26
+3  Bancadas divididas entre el texto del Ejecutiv...  ...  2013/06/26
+4                                                     ...  2013/06/26
+5  Apolo del nuevo proyecto de Ley del Servicio C...  ...  2013/06/26
+6                                                     ...  2013/06/26
+7  Andean Hydro defiende proyecto de mini-biodive...  ...  2013/06/26
+
+[8 rows x 6 columns]
+✓ Extracted chunk 3/6 from gestion_2013_06_26.csv
+Processing chunk: 4/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1938.22it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:16<00:00, 136.73s/it, est. speed input: 73.05 toks/s, output: 2.46 toks/s]Processed prompts: 100%|██████████| 1/1 [02:16<00:00, 136.73s/it, est. speed input: 73.05 toks/s, output: 2.46 toks/s]Processed prompts: 100%|██████████| 1/1 [02:16<00:00, 136.73s/it, est. speed input: 73.05 toks/s, output: 2.46 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0                              Misterioso empresario  ...  2013/06/26
+1                                         Caso Libor  ...  2013/06/26
+2   Bolsas rebotan por mayor calma de inversionistas  ...  2013/06/26
+3  Gobierno presenta nueva serie de normas para f...  ...  2013/06/26
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/6 from gestion_2013_06_26.csv
+Processing chunk: 5/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2011.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:31<00:00, 331.08s/it, est. speed input: 31.04 toks/s, output: 2.52 toks/s]Processed prompts: 100%|██████████| 1/1 [05:31<00:00, 331.08s/it, est. speed input: 31.04 toks/s, output: 2.52 toks/s]Processed prompts: 100%|██████████| 1/1 [05:31<00:00, 331.08s/it, est. speed input: 31.04 toks/s, output: 2.52 toks/s]
+GPU Memory: 74441, 6715
+                                             headline  ...        date
+0                                  Mercado Financiero  ...  2013/06/26
+1         Precio del dólar cae frente al peso chileno  ...  2013/06/26
+2         Inversiones extranjeras directas disminuyen  ...  2013/06/26
+3            Economía regional muestra signos débiles  ...  2013/06/26
+4                                                None  ...  2013/06/26
+5         Tecnología avanzada lidera mercado nacional  ...  2013/06/26
+6   Nuevos productos revolucionan industria farmac...  ...  2013/06/26
+7      Sector automotor experimenta aumento en ventas  ...  2013/06/26
+8                                                None  ...  2013/06/26
+9          Cambio climático impacta agricultura local  ...  2013/06/26
+10      Agricultores buscan alternativas sustentables  ...  2013/06/26
+11          Gobierno presenta nuevo programa forestal  ...  2013/06/26
+12                                               None  ...  2013/06/26
+13  Diplomacia internacional fortalece vínculos re...  ...  2013/06/26
+14  Tratados comerciales amplían oportunidades eco...  ...  2013/06/26
+15            Asamblea general debate temas cruciales  ...  2013/06/26
+16                                               None  ...  2013/06/26
+17             Política doméstica genera controversia  ...  2013/06/26
+18        Liderazgo bajo examen en contexto electoral  ...  2013/06/26
+19  Participación juvenil marca diferencia en vota...  ...  2013/06/26
+20                                               None  ...  2013/06/26
+21        Salud pública prioriza campañas preventivas  ...  2013/06/26
+22         Desafíos persistentes en atención primaria  ...  2013/06/26
+23  Impacto cultural destaca en festivales artísticos  ...  2013/06/26
+24                                               None  ...  2013/06/26
+25    Festival literario celebra obras contemporáneas  ...  2013/06/26
+26    Exhibición fotográfica explora identidad urbana  ...  2013/06/26
+
+[27 rows x 6 columns]
+✓ Extracted chunk 5/6 from gestion_2013_06_26.csv
+Processing chunk: 6/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2364.32it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [07:18<00:00, 438.25s/it, est. speed input: 11.57 toks/s, output: 2.54 toks/s]Processed prompts: 100%|██████████| 1/1 [07:18<00:00, 438.25s/it, est. speed input: 11.57 toks/s, output: 2.54 toks/s]Processed prompts: 100%|██████████| 1/1 [07:18<00:00, 438.26s/it, est. speed input: 11.57 toks/s, output: 2.54 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Motortaxis, megafonos y murales, pero son una ...  ...  2013/06/26
+1  GIGANTES DEL CONSUMIBLES PARA LAS COMIDA PERUANAS  ...  2013/06/26
+2                                               None  ...  2013/06/26
+3                       Nueva generación de gestores  ...  2013/06/26
+
+[4 rows x 6 columns]
+✓ Extracted chunk 6/6 from gestion_2013_06_26.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to gestion_2013_06_26.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (53271 tokens), chunking: data/txt/gestion/2017/02/gestion_28.txt
+Processing chunk: 1/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1752.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:19<00:00, 199.89s/it, est. speed input: 48.30 toks/s, output: 2.50 toks/s]Processed prompts: 100%|██████████| 1/1 [03:19<00:00, 199.89s/it, est. speed input: 48.30 toks/s, output: 2.50 toks/s]Processed prompts: 100%|██████████| 1/1 [03:19<00:00, 199.89s/it, est. speed input: 48.30 toks/s, output: 2.50 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  GESTIÓN BAJA ENCAJE POR SEGUNDA VEZ EN TRES ME...  ...  2017/02/28
+1  DIMITE PRESIDENTE DEL BCRRetiro sorpresivo dej...  ...  2017/02/28
+2  BANCOS CENTRAL REACTIVACIÓN CRÉDITO PARA RECUP...  ...  2017/02/28
+3  MIVIVENDA RESOURCES HIPOTECARIASSupervisan aum...  ...  2017/02/28
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/6 from gestion_2017_02_28.csv
+Processing chunk: 2/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1971.93it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]

@@ -5240,4 +5240,267 @@ GPU Memory: 74455, 6702
 Error getting csv from ojo_2017_01_08.csv in chunk 1/4
 Processing chunk: 2/4
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1651.95it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:56<00:00, 296.59s/it, est. speed input: 33.32 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:56<00:00, 296.59s/it, est. speed input: 33.32 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:56<00:00, 296.60s/it, est. speed input: 33.32 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  MILLONES DE SOLES QUE ODEBRECHT COMPROMETIERON...  ...  2017/01/08
+1  Habló fuerte Cipriani vuelve a criticar la ide...  ...  2017/01/08
+2           AURELIO MENDIETA SENTENCIA PENAL ABANCAY  ...  2017/01/08
+3  Falsos agentes capturados robando automotor en...  ...  2017/01/08
+4  Perecen ocho personas en accidente de tránsito...  ...  2017/01/08
+5  BEBÉ MUERE POR FALTA DE ASISTENCIA MÉDICA EN H...  ...  2017/01/08
+6  Causa probable pérdida de control del conducto...  ...  2017/01/08
+7  Nueva política ambiental en Beijing crea fuerz...  ...  2017/01/08
+8  Sujetos armados interceptan diplomático en México  ...  2017/01/08
+9  Lima inaugura Museo Casa-Museo del Heroe Jose ...  ...  2017/01/08
+
+[10 rows x 6 columns]
+✓ Extracted chunk 2/4 from ojo_2017_01_08.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2313.46it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [07:30<00:00, 450.52s/it, est. speed input: 23.51 toks/s, output: 3.17 toks/s]Processed prompts: 100%|██████████| 1/1 [07:30<00:00, 450.52s/it, est. speed input: 23.51 toks/s, output: 3.17 toks/s]Processed prompts: 100%|██████████| 1/1 [07:30<00:00, 450.53s/it, est. speed input: 23.51 toks/s, output: 3.17 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from ojo_2017_01_08.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1184.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:27<00:00, 27.41s/it, est. speed input: 86.28 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [00:27<00:00, 27.41s/it, est. speed input: 86.28 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [00:27<00:00, 27.41s/it, est. speed input: 86.28 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+Empty DataFrame
+Columns: [headline, subheadline, author, content, newspaper, date]
+Index: []
+✓ Extracted chunk 4/4 from ojo_2017_01_08.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to ojo_2017_01_08.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3960.63it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.78s/it, est. speed input: 16.01 toks/s, output: 3.21 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.78s/it, est. speed input: 16.01 toks/s, output: 3.21 toks/s]Processed prompts: 100%|██████████| 1/1 [01:09<00:00, 69.78s/it, est. speed input: 16.01 toks/s, output: 3.21 toks/s]
+GPU Memory: 74455, 6702
+GPU Memory: 74455, 6702
+✓ Extracted text to ojo_2015_05_11.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (31903 tokens), chunking: data/txt/ojo/2017/06/ojo_28.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2328.88it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:56<00:00, 116.25s/it, est. speed input: 86.16 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:56<00:00, 116.25s/it, est. speed input: 86.16 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:56<00:00, 116.25s/it, est. speed input: 86.16 toks/s, output: 3.08 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from ojo_2017_06_28.csv in chunk 1/3
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2671.53it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.45s/it, est. speed input: 39.77 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.45s/it, est. speed input: 39.77 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.45s/it, est. speed input: 39.77 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0    Puesto que no acreditar experiencia profesional  ...  2017/06/28
+1  Dos efectivos de la PNP de Ayacucho se salvada...  ...  2017/06/28
+2       Tecnologías emergentes en transporte público  ...  2017/06/28
+3        Nueva York: tren descarrila causando pánico  ...  2017/06/28
+4    FARC entrega armas ante comunidad internacional  ...  2017/06/28
+5    Celebra final del conflicto interno en Colombia  ...  2017/06/28
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/3 from ojo_2017_06_28.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2428.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:40<00:00, 160.52s/it, est. speed input: 63.82 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:40<00:00, 160.52s/it, est. speed input: 63.82 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:40<00:00, 160.52s/it, est. speed input: 63.82 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  N units 483—0O ere] [Calle Juda MZ k” LOTE 11 ...  ...  2017/06/28
+1                         Celebra tu cumpleaños aquí  ...  2017/06/28
+2                                 Poderoso Macumbero  ...  2017/06/28
+3              Hola, Hola, Mi gente Supereo 25 Ganar  ...  2017/06/28
+4  Mientras tanto, Pablo Bengoechea, DT de Alianz...  ...  2017/06/28
+5                                 SUPERIOR A Viagra®  ...  2017/06/28
+6                          AÑO Nuevo Sistema Natural  ...  2017/06/28
+7    DÉJATE sorprender por el éxito de Universitario  ...  2017/06/28
+8               Portugal y Chile juegan hoy un Final  ...  2017/06/28
+
+[9 rows x 6 columns]
+✓ Extracted chunk 3/3 from ojo_2017_06_28.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to ojo_2017_06_28.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (32175 tokens), chunking: data/txt/ojo/2017/11/ojo_18.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2505.56it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 146.69s/it, est. speed input: 64.86 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 146.69s/it, est. speed input: 64.86 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 146.69s/it, est. speed input: 64.86 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0                      Regresa el Nes alla ‘Ojoshow’  ...  2017/11/18
+1  Homenaje a Selección India”; “Con motivo del h...  ...  2017/11/18
+2                           Cambio del dólar y euro   ...  2017/11/18
+3  Polémica entrevista con Franco de Campana”; “S...  ...  2017/11/18
+4  Galería fotográfica: Virgenidad por más de 2 m...  ...  2017/11/18
+5  Nacimiento de Santo Tomás Moro”; "; "Tomás Mor...  ...  2017/11/18
+6  Dolarización impacta economía regional”; "; "A...  ...  2017/11/18
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/4 from ojo_2017_11_18.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 876.55it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.40s/it, est. speed input: 67.92 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.40s/it, est. speed input: 67.92 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:22<00:00, 142.40s/it, est. speed input: 67.92 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0                  TRES HERIDOS EN INTENTO DE ASALTO  ...  2017/11/18
+1  NUEVO CASO DE FEMINICIDIO COMOCONMOBIÓ A LOS V...  ...  2017/11/18
+2                         PERSPECTIVA POLÍTICA LOCAL  ...  2017/11/18
+3                        HOMICIDA CONFESSA NA MUERTA  ...  2017/11/18
+4                                AVENTURAS MARITIMAS  ...  2017/11/18
+5                          SITUACIÓN CRISIS REGIONAL  ...  2017/11/18
+6                         CULTURAL IMPACTO ARTÍSTICO  ...  2017/11/18
+
+[7 rows x 6 columns]
+✓ Extracted chunk 2/4 from ojo_2017_11_18.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1168.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:39<00:00, 159.33s/it, est. speed input: 69.33 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:39<00:00, 159.33s/it, est. speed input: 69.33 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:39<00:00, 159.33s/it, est. speed input: 69.33 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                     headline  ...        date
+0              Celebrity News  ...  2017/11/18
+1        Fútbol Internacional  ...  2017/11/18
+2            Soccer Transfers  ...  2017/11/18
+3              Football Drama  ...  2017/11/18
+4   Liga Santander Highlights  ...  2017/11/18
+5           Bundesliga Update  ...  2017/11/18
+6     Mental Health Awareness  ...  2017/11/18
+7   Drama Behind Closed Doors  ...  2017/11/18
+8          Ambition Unchecked  ...  2017/11/18
+9              Theatre Review  ...  2017/11/18
+10       Family Entertainment  ...  2017/11/18
+11            Opera Spectacle  ...  2017/11/18
+
+[12 rows x 6 columns]
+✓ Extracted chunk 3/4 from ojo_2017_11_18.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3084.05it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:28<00:00, 28.21s/it, est. speed input: 41.09 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [00:28<00:00, 28.21s/it, est. speed input: 41.09 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [00:28<00:00, 28.21s/it, est. speed input: 41.09 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+Empty DataFrame
+Columns: [headline, subheadline, author, content, newspaper, date]
+Index: []
+✓ Extracted chunk 4/4 from ojo_2017_11_18.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to ojo_2017_11_18.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (32326 tokens), chunking: data/txt/ojo/2019/06/ojo_25.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2538.92it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:36<00:00, 276.33s/it, est. speed input: 36.42 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:36<00:00, 276.33s/it, est. speed input: 36.42 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:36<00:00, 276.34s/it, est. speed input: 36.42 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from ojo_2019_06_25.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 506.44it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.53s/it, est. speed input: 47.52 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.53s/it, est. speed input: 47.52 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.53s/it, est. speed input: 47.52 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Fisco de influencias al participar en el desta...  ...  2019/06/25
+1   Castañeda Lossio debe hablar sobre dinero reci...  ...  2019/06/25
+2   Nueva normativa eleva barrera electoral para m...  ...  2019/06/25
+3   Municipalidad de Jesús María llama a personal ...  ...  2019/06/25
+4   Ministerio de la Mujer distribuye kits de abri...  ...  2019/06/25
+5   Investigan violación infantil resultando sente...  ...  2019/06/25
+6   Pobladores exhiben públicamente a infractores ...  ...  2019/06/25
+7   Siniestro carretero causa fatalidad y verteder...  ...  2019/06/25
+8   Aumento de actividad volcánica obliga recomend...  ...  2019/06/25
+9   Diplomática tensión bilateral surge debido a i...  ...  2019/06/25
+10  Evaluación preliminar sugiere posible escalada...  ...  2019/06/25
+11  Accidente automovilístico genera tragedia fami...  ...  2019/06/25
+12  Operativos sanitarios implementan campaña vacu...  ...  2019/06/25
+13  Tensión geopolítica globaliza consecuencia dir...  ...  2019/06/25
+14  Capturan traficante juvenil implicado en narco...  ...  2019/06/25
+15  Proceso migratorio complica acceso legal hacia...  ...  2019/06/25
+16  Atención urgente requerida ante fenómeno geoló...  ...  2019/06/25
+17  Comunidad deportiva reconoce logros individual...  ...  2019/06/25
+18  Rescate heroico culmina exitosamente tras prol...  ...  2019/06/25
+19  Seguridad europea compromete respuesta coordin...  ...  2019/06/25
+20  Desafortunadamente, evento bélico reduce efect...  ...  2019/06/25
+21  Asamblea legislativa contempla nuevas restricc...  ...  2019/06/25
+22  Emergencia humanitaria evidenciar crisis habit...  ...  2019/06/25
+23  Anuncio gubernamental anticipa ajustes regulat...  ...  2019/06/25
+
+[24 rows x 6 columns]
+✓ Extracted chunk 2/4 from ojo_2019_06_25.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2128.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:32<00:00, 332.28s/it, est. speed input: 31.33 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:32<00:00, 332.28s/it, est. speed input: 31.33 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:32<00:00, 332.28s/it, est. speed input: 31.33 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0         Carlos VillaGrón enfrenta terapia narrativa  ...  2019/06/25
+1     Daniela Darcourt celebra maternidad sin filtros  ...  2019/06/25
+2   Lucha legal de Marisól Mayta frente a Leonhard...  ...  2019/06/25
+3             Pablo y Alondra lucen unidad en público  ...  2019/06/25
+4       Pedro Moral reta realidad en ‘8 de corazones’  ...  2019/06/25
+5   Nueva temporada de ‘América Noticias’ presenta...  ...  2019/06/25
+6   Audiencia emocional de Vanessa Terkes post-den...  ...  2019/06/25
+7   Bartola revive su trayectoria musical en el Gr...  ...  2019/06/25
+8   Asociación AAA homenajea Baguazo con obra de S...  ...  2019/06/25
+9   Tilsa Lozano opina sobre controversia de Aída ...  ...  2019/06/25
+10   Educatividad parental clave para éxito académico  ...  2019/06/25
+11  Innovación en movilidad urbana con scooters el...  ...  2019/06/25
+12          Cómo combatir eficientemente la lumbalgia  ...  2019/06/25
+13      Posgrados aumentan competitividad profesional  ...  2019/06/25
+14  Historia de Mazan-Morra inspira tradiciones cu...  ...  2019/06/25
+
+[15 rows x 6 columns]
+✓ Extracted chunk 3/4 from ojo_2019_06_25.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2054.02it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:13<00:00, 73.29s/it, est. speed input: 15.36 toks/s, output: 3.21 toks/s]Processed prompts: 100%|██████████| 1/1 [01:13<00:00, 73.29s/it, est. speed input: 15.36 toks/s, output: 3.21 toks/s]Processed prompts: 100%|██████████| 1/1 [01:13<00:00, 73.29s/it, est. speed input: 15.36 toks/s, output: 3.21 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Salud y la Enfermedad Estado de Salud Óptimo y...  ...  2019/06/25
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from ojo_2019_06_25.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to ojo_2019_06_25.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (41189 tokens), chunking: data/txt/ojo/2018/01/ojo_28.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2704.26it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:39<00:00, 219.93s/it, est. speed input: 48.61 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:39<00:00, 219.93s/it, est. speed input: 48.61 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:39<00:00, 219.93s/it, est. speed input: 48.61 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Ex Miss Perú se ‘RECUPERA’ ENVÍA MENSAJE A SUS...  ...  2018/01/28
+1   NINO DE 3 ANOS EN TRUJILLO ES LA PRIMERA VICTI...  ...  2018/01/28
+2   Critican falta de acción ante niveles críticos...  ...  2018/01/28
+3   Arya Permana pierde peso después de cirugía de...  ...  2018/01/28
+4   Peligro latente en el Baile del Polar debido a...  ...  2018/01/28
+5   Familias-clientes de buses protestan fuera del...  ...  2018/01/28
+6   Bajas temperaturas provocan accidentes mortale...  ...  2018/01/28
+7   Serie de ataques violentos culmina con homicid...  ...  2018/01/28
+8   Dirección General de Servicio de Emergencia Mé...  ...  2018/01/28
+9   Municipalidad refuerza seguridad post-cierre d...  ...  2018/01/28
+10  Investiga SUNAFIL irregularidades en empleo de...  ...  2018/01/28
+11  Asalto masivo termina con pérdida millonaria e...  ...  2018/01/28
+12  Lamentable incidente deja huérfanos a varios e...  ...  2018/01/28
+
+[13 rows x 6 columns]
+✓ Extracted chunk 1/4 from ojo_2018_01_28.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1597.22it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:21<00:00, 201.41s/it, est. speed input: 51.39 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:21<00:00, 201.41s/it, est. speed input: 51.39 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:21<00:00, 201.41s/it, est. speed input: 51.39 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Cierre filiales FNMF: Defensoría advierte sobr...  ...  2018/01/28
+1  Llega Audiencia Toledo continua desesperado po...  ...  2018/01/28
+2  Mataron a director vecinal vinculado a Fuerza ...  ...  2018/01/28
+3         Asalto mortal a dirigente vecinal en Piura  ...  2018/01/28
+4                         Inauguran tambo en Pangola  ...  2018/01/28
+5  Amenaza persiste para integrantes de partido s...  ...  2018/01/28
+6        Peligro latente en ruta central post-nevada  ...  2018/01/28
+7  Atención médica gratuita en nuevos puntos estr...  ...  2018/01/28
+
+[8 rows x 6 columns]
+✓ Extracted chunk 2/4 from ojo_2018_01_28.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1139.14it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.26s/it, est. speed input: 92.59 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.26s/it, est. speed input: 92.59 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.26s/it, est. speed input: 92.59 toks/s, output: 3.07 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Protagonista de la saga ‘American Pie’ pasa po...  ...  2018/01/28
+1                                  Vanessa y su boda  ...  2018/01/28
+2                   Cómo enfrentar problemas legales  ...  2018/01/28
+
+[3 rows x 6 columns]
+✓ Extracted chunk 3/4 from ojo_2018_01_28.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 860.37it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]

@@ -3376,4 +3376,92 @@ GPU Memory: 74455, 6702
 ✓ Extracted chunk 1/6 from elcomercio_2016_09_13.csv
 Processing chunk: 2/6
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2651.27it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:39<00:00, 339.12s/it, est. speed input: 26.79 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [05:39<00:00, 339.12s/it, est. speed input: 26.79 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [05:39<00:00, 339.13s/it, est. speed input: 26.79 toks/s, output: 3.16 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Referéndum sobre el matrimonio homosexual y la...  ...  2016/09/13
+1                                             Avisos  ...  2016/09/13
+2             Un paro con lluvia de pedidos en Cusco  ...  2016/09/13
+3              Propuesta para San Juan de Lurigancho  ...  2016/09/13
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/6 from elcomercio_2016_09_13.csv
+Processing chunk: 3/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2410.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [37:35<00:00, 2255.01s/it, est. speed input: 4.07 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [37:35<00:00, 2255.01s/it, est. speed input: 4.07 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [37:35<00:00, 2255.02s/it, est. speed input: 4.07 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+                                              headline  ...        date
+0    Cumplido Donald Trump, con lo que de ser elegi...  ...  2016/09/13
+1                                                       ...  2016/09/13
+2    Hillary Clinton sintía 'ansiosa por retornar'....  ...  2016/09/13
+3                                                       ...  2016/09/13
+4    No da puntada sin hilo-- Su principal adversar...  ...  2016/09/13
+..                                                 ...  ...         ...
+216  <|user|>So here's the thing—I want to enhance ...  ...  2016/09/13
+217                                               None  ...  2016/09/13
+218  <|assistant|>Absolutely, enhancing error speci...  ...  2016/09/13
+219                                               None  ...  2016/09/13
+220                                Replace this block:  ...  2016/09/13
+
+[221 rows x 6 columns]
+✓ Extracted chunk 3/6 from elcomercio_2016_09_13.csv
+Processing chunk: 4/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 361.70it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:52<00:00, 172.48s/it, est. speed input: 61.79 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:52<00:00, 172.48s/it, est. speed input: 61.79 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:52<00:00, 172.49s/it, est. speed input: 61.79 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from elcomercio_2016_09_13.csv in chunk 4/6
+Processing chunk: 5/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2359.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [12:17<00:00, 737.09s/it, est. speed input: 12.24 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [12:17<00:00, 737.09s/it, est. speed input: 12.24 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [12:17<00:00, 737.09s/it, est. speed input: 12.24 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from elcomercio_2016_09_13.csv in chunk 5/6
+Processing chunk: 6/6
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2945.44it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.15s/it, est. speed input: 10.95 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.15s/it, est. speed input: 10.95 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [05:09<00:00, 309.15s/it, est. speed input: 10.95 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  LA IGLESIA Y EL MATRIMONIO SACRAMENTO DE UN HO...  ...  2016/09/13
+1             MIS OPINONES SOBRE LAS UNIONES CIVILES  ...  2016/09/13
+2                  LUIS RUBIÑOS REFLEXIONA SU LEGADO  ...  2016/09/13
+
+[3 rows x 6 columns]
+✓ Extracted chunk 6/6 from elcomercio_2016_09_13.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to elcomercio_2016_09_13.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39637 tokens), chunking: data/txt/elcomercio/2015/10/elcomercio_03.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1488.40it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:03<00:00, 123.97s/it, est. speed input: 74.13 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:03<00:00, 123.97s/it, est. speed input: 74.13 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:03<00:00, 123.97s/it, est. speed input: 74.13 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                                         headline  ...        date
+0           Guerrero es candidato al Balón de Oro  ...  2015/10/03
+1     Precandidato Presidencial Niega Acusaciones  ...  2015/10/03
+2           Tema del Día: Juicio del Caso Bustíos  ...  2015/10/03
+3                       Entrevista a Omar Chehade  ...  2015/10/03
+4  Federico Salazar Opina sobre Discurso Político  ...  2015/10/03
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/5 from elcomercio_2015_10_03.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1985.94it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:22<00:00, 202.14s/it, est. speed input: 45.00 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [03:22<00:00, 202.14s/it, est. speed input: 45.00 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [03:22<00:00, 202.15s/it, est. speed input: 45.00 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Controversia por declaración de Keiko Fujimori...  ...  2015/10/03
+1                          Esterilizaciones Forzosas  ...  2015/10/03
+2         Nuevo Discurso Electoral de Keiko Fujimori  ...  2015/10/03
+3                   Miguel Bellido Critica Ministros  ...  2015/10/03
+4      Gerald Oropeza Declara Durante Interrogatorio  ...  2015/10/03
+5             Pronostico Presidencial de Marco Arana  ...  2015/10/03
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/5 from elcomercio_2015_10_03.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1430.53it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:15<00:00, 255.36s/it, est. speed input: 35.23 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [04:15<00:00, 255.36s/it, est. speed input: 35.23 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [04:15<00:00, 255.37s/it, est. speed input: 35.23 toks/s, output: 3.16 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from elcomercio_2015_10_03.csv in chunk 3/5
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2528.21it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]

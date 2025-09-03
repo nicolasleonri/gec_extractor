@@ -3319,4 +3319,159 @@ GPU Memory: 43175, 2314
 Error getting csv from correo_2018_11_12.csv in chunk 3/4
 Processing chunk: 4/4
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2090.88it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.13s/it, est. speed input: 6.87 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.13s/it, est. speed input: 6.87 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.14s/it, est. speed input: 6.87 toks/s, output: 3.04 toks/s]
+GPU Memory: 43175, 2314
+  headline subheadline  ... newspaper        date
+0       NA          NA  ...    correo  2018/11/12
+1       NA          NA  ...    correo  2018/11/12
+2       NA          NA  ...    correo  2018/11/12
+3       NA          NA  ...    correo  2018/11/12
+4       NA          NA  ...    correo  2018/11/12
+5       NA          NA  ...    correo  2018/11/12
+6       NA          NA  ...    correo  2018/11/12
+
+[7 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2018_11_12.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_11_12.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36049 tokens), chunking: data/txt/correo/2014/12/correo_25.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2289.47it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:04<00:00, 124.20s/it, est. speed input: 81.20 toks/s, output: 2.84 toks/s]Processed prompts: 100%|██████████| 1/1 [02:04<00:00, 124.20s/it, est. speed input: 81.20 toks/s, output: 2.84 toks/s]Processed prompts: 100%|██████████| 1/1 [02:04<00:00, 124.20s/it, est. speed input: 81.20 toks/s, output: 2.84 toks/s]
+GPU Memory: 43175, 2314
+             headline  ...        date
+0  Sendero en vitrina  ...  2014/12/25
+1     Así es la vida.  ...  2014/12/25
+2       Noche sin Paz  ...  2014/12/25
+3        Sincericidio  ...  2014/12/25
+4      Días de cárcel  ...  2014/12/25
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2014_12_25.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 693.50it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:25<00:00, 145.01s/it, est. speed input: 66.04 toks/s, output: 2.88 toks/s]Processed prompts: 100%|██████████| 1/1 [02:25<00:00, 145.01s/it, est. speed input: 66.04 toks/s, output: 2.88 toks/s]Processed prompts: 100%|██████████| 1/1 [02:25<00:00, 145.01s/it, est. speed input: 66.04 toks/s, output: 2.88 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Cumpleaños del Cabecilla de Sendero Luminoso (...  ...  2014/12/25
+1  Huelga de trabajadores de EMAPE contra la gest...  ...  2014/12/25
+2  Amplían contrato a servidores de Lima según de...  ...  2014/12/25
+3  Festival gastronómico ofrece degustación gratu...  ...  2014/12/25
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2014_12_25.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2089.84it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.46s/it, est. speed input: 41.14 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.46s/it, est. speed input: 41.14 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.47s/it, est. speed input: 41.14 toks/s, output: 2.96 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Ley General del Sistema Financiero y del Siste...  ...  2014/12/25
+1                    Producción de Oro Creció 2.51%   ...  2014/12/25
+2  SBS Propone Tiempo Más Corto para Levantar Sec...  ...  2014/12/25
+3  Gobierno Iniciaría Estudios para Licitar Gasod...  ...  2014/12/25
+4   Casi 10% de Personal CTM Niegan Despidos Masivos  ...  2014/12/25
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2014_12_25.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2608.40it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [45:15<00:00, 2715.82s/it, est. speed input: 1.90 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [45:15<00:00, 2715.82s/it, est. speed input: 1.90 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [45:15<00:00, 2715.82s/it, est. speed input: 1.90 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Gonzalo Gerardo Tercera Entrega: Primera Tempo...  ...  2014/12/25
+1  Distribuciones Agencias entrenador Portugués d...  ...  2014/12/25
+2  Mourinho Criticó a Bale. Por Otra Parte, el Es...  ...  2014/12/25
+3  Sporting Cristal Contrató al Argentino Cesar P...  ...  2014/12/25
+4  'José Mourinho Deseó una Feliz Navidad a los H...  ...  2014/12/25
+5  Luis Suárez Anota Verdadero Golazoo Tras Dar 5...  ...  2014/12/25
+6  IPD Premia a Mejores Deportistas del 2014 Lo J...  ...  2014/12/25
+7  Fernando Torres Podrá Retornar al Atlético Ret...  ...  2014/12/25
+8  Manuel Neuer Promesa. Arquero del Bayern Munic...  ...  2014/12/25
+9  Alejandro Domínguez Va a Ecuador. El Volante A...  ...  2014/12/25
+
+[10 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2014_12_25.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2014_12_25.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36011 tokens), chunking: data/txt/correo/2015/02/correo_19.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 418.34it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:31<00:00, 91.70s/it, est. speed input: 108.26 toks/s, output: 2.79 toks/s]Processed prompts: 100%|██████████| 1/1 [01:31<00:00, 91.70s/it, est. speed input: 108.26 toks/s, output: 2.79 toks/s]Processed prompts: 100%|██████████| 1/1 [01:31<00:00, 91.70s/it, est. speed input: 108.26 toks/s, output: 2.79 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                Edición especial Diálogos políticos  ...  2015/02/19
+1                          Economía local en ascenso  ...  2015/02/19
+2    Cultura peruana celebra tradiciones ancestrales  ...  2015/02/19
+3  Innovación tecnológica transforma industria ma...  ...  2015/02/19
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2015_02_19.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2226.28it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:50<00:00, 230.87s/it, est. speed input: 41.62 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:50<00:00, 230.87s/it, est. speed input: 41.62 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:50<00:00, 230.87s/it, est. speed input: 41.62 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0            Finalización de proyectos en cano Devida  ...  2015/02/19
+1                       Duras sanciones a infractores  ...  2015/02/19
+2           Panic Balacera en parque deja dos heridos  ...  2015/02/19
+3      Familia asegura que ataque era dirigido a otro  ...  2015/02/19
+4           Mujer fallece en mall plaza de Bellavista  ...  2015/02/19
+5                              Gatopardismo humalista  ...  2015/02/19
+6            Catalina Morey analiza planes económicos  ...  2015/02/19
+7                      Liderazgo policíaco debilitado  ...  2015/02/19
+8              Inversiones agrícolas llegarían a Lima  ...  2015/02/19
+9          Agricultores venden productos directamente  ...  2015/02/19
+10    Privado invertirá en limpieza del lago Titicaca  ...  2015/02/19
+11            Tecnología farmacéutica amplía opciones  ...  2015/02/19
+12  Energéticos aún atractivos a pesar de bajón pe...  ...  2015/02/19
+
+[13 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2015_02_19.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2150.93it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.33s/it, est. speed input: 52.29 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.33s/it, est. speed input: 52.29 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.34s/it, est. speed input: 52.29 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Pobladores exigen que Pluspetrol se retire de ...  ...  2015/02/19
+1       Agricultores son afectados por lluvias.;;NA"  ...  2015/02/19
+2  Novedades penitenciarias.;Alejandro Mejía Figu...  ...  2015/02/19
+3  Dramáticos eventos políticos en Argentina.;Mar...  ...  2015/02/19
+4  Historia política argentina continúa desarroll...  ...  2015/02/19
+5  Clima adverso causa estragos regionales.;Inund...  ...  2015/02/19
+6  Atentado fallido contra funcionario regional.;...  ...  2015/02/19
+7  Gobierno declara emergencia nacional.;Desastre...  ...  2015/02/19
+
+[8 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2015_02_19.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2618.17it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:29<00:00, 149.14s/it, est. speed input: 33.55 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [02:29<00:00, 149.14s/it, est. speed input: 33.55 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [02:29<00:00, 149.14s/it, est. speed input: 33.55 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Clasificaron a los panamericanos de Toronto qu...  ...  2015/02/19
+1             FEPAP castiga a 38 pilotos nacionales.  ...  2015/02/19
+2           Paco Vargas será titular ante Tottenham.  ...  2015/02/19
+3                    Manny Pacquiao ante Mayweather.  ...  2015/02/19
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2015_02_19.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2015_02_19.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39508 tokens), chunking: data/txt/correo/2015/07/correo_15.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2628.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:19<00:00, 259.25s/it, est. speed input: 38.34 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [04:19<00:00, 259.25s/it, est. speed input: 38.34 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [04:19<00:00, 259.25s/it, est. speed input: 38.34 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Dice que Pérez Tello en el morbo y la chismogr...  ...  2015/07/15
+1                Lima: Miércoles 15 de Julio de 2015  ...  2015/07/15
+2         Tema del Día Miércoles 15 de Julio de 2015  ...  2015/07/15
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2015_07_15.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 422.30it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]
