@@ -7050,4 +7050,1276 @@ GPU Memory: 43175, 2314
 Text too long (48666 tokens), chunking: data/txt/correo/2015/08/correo_02.txt
 Processing chunk: 1/5
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2163.13it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [37:09<00:00, 2229.61s/it, est. speed input: 4.35 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [37:09<00:00, 2229.61s/it, est. speed input: 4.35 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [37:09<00:00, 2229.61s/it, est. speed input: 4.35 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_08_02.csv in chunk 1/5
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 491.19it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.17s/it, est. speed input: 31.65 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.17s/it, est. speed input: 31.65 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.17s/it, est. speed input: 31.65 toks/s, output: 2.95 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_08_02.csv in chunk 2/5
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 628.83it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.03s/it, est. speed input: 52.17 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.03s/it, est. speed input: 52.17 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.03s/it, est. speed input: 52.17 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Domingo 2 de Agosto de 2015 LIMA dei pe Tarapo...  ...  2015/08/02
+1  FOTOS: ARCHIVO Los precios en la ciudad de las...  ...  2015/08/02
+2                                               None  ...  2015/08/02
+3  LIMA domingo 2 de Agosto de 2015 EL REPORTAJE ...  ...  2015/08/02
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/5 from correo_2015_08_02.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2361.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.27s/it, est. speed input: 69.00 toks/s, output: 2.86 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.27s/it, est. speed input: 69.00 toks/s, output: 2.86 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.27s/it, est. speed input: 69.00 toks/s, output: 2.86 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Decisión controversial después de citación par...  ...  2015/08/02
+1  Campaña defensora de derechos civiles en Venez...  ...  2015/08/02
+2  Saqueo violento deja víctimas mortales en Vene...  ...  2015/08/02
+3     Dificultades económicas postmaternidad en Irán  ...  2015/08/02
+4               Reflexiones sobre diplomacia mundial  ...  2015/08/02
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/5 from correo_2015_08_02.csv
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2511.56it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [45:17<00:00, 2717.30s/it, est. speed input: 2.77 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [45:17<00:00, 2717.30s/it, est. speed input: 2.77 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [45:17<00:00, 2717.30s/it, est. speed input: 2.77 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Sporting Cristal sigue firme en búsqueda del t...  ...  2015/08/02
+1  Nacional presenta a Carlos Zambrano como nuevo...  ...  2015/08/02
+2    Luis Advíncula será el abanderado del Team Perú  ...  2015/08/02
+3  Malmö consigue valioso empate gracias a Yoshim...  ...  2015/08/02
+
+[4 rows x 6 columns]
+✓ Extracted chunk 5/5 from correo_2015_08_02.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2015_08_02.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (31341 tokens), chunking: data/txt/correo/2016/02/correo_18.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2238.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.27s/it, est. speed input: 42.38 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.27s/it, est. speed input: 42.38 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.27s/it, est. speed input: 42.38 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0   Candidato presidencial de Alianza Para el Prog...  ...  2016/02/18
+1      Habló Trome”;;Ismael Lazo, vecino de San Luis"  ...  2016/02/18
+2                            Echan a jefe escandaloso  ...  2016/02/18
+3                             Fernando Armas, cómico   ...  2016/02/18
+4            Daniela Urresti, candidata presidencial   ...  2016/02/18
+5                       Louise Alcorta, parlamentaria  ...  2016/02/18
+6   Martin Vizcarra se estrena como jefe de campañ...  ...  2016/02/18
+7                                    Nueva voz en PPK  ...  2016/02/18
+8                 Ambición de Boxeo ‘Pantera’ Zegarra  ...  2016/02/18
+9                        Bienes Raíces Universitarias  ...  2016/02/18
+10                  Suspensiones de eventos políticos  ...  2016/02/18
+11          Investigación sobre contratos millonarios  ...  2016/02/18
+12                  Planes futuros de Martin Vizcarra  ...  2016/02/18
+
+[13 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2016_02_18.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2075.36it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:31<00:00, 211.54s/it, est. speed input: 44.44 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [03:31<00:00, 211.54s/it, est. speed input: 44.44 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [03:31<00:00, 211.54s/it, est. speed input: 44.44 toks/s, output: 2.95 toks/s]
+GPU Memory: 43175, 2314
+                                     headline  ...        date
+0     Convocatoria de Participación Ciudadana  ...  2016/02/18
+1                   Celebra audiencia pública  ...  2016/02/18
+2  Ley de Flagrancia modificación prioritaria  ...  2016/02/18
+3                           Informe Económico  ...  2016/02/18
+4                         Apreciación Crítica  ...  2016/02/18
+5          Energía Eléctrica Desafíos Futuros  ...  2016/02/18
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2016_02_18.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2077.42it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:28<00:00, 328.40s/it, est. speed input: 28.74 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [05:28<00:00, 328.40s/it, est. speed input: 28.74 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [05:28<00:00, 328.41s/it, est. speed input: 28.74 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Tiempo de hacerlo ya que Guzmán estará ocupado...  ...  2016/02/18
+1              Cobertura: Lima Ciudad. Stock Imagen.  ...  2016/02/18
+2            TURBA INCENDIA MUNICIPALIDAD DE EL ALTO  ...  2016/02/18
+3  DÍARIO CORREO.PE NACIONAL/JUEVES 18 DE FEBRERO...  ...  2016/02/18
+4  Presentan: CORREO Violencia Castiga a la Capit...  ...  2016/02/18
+5                    AÑUARIO PUNTOS DE QUIEbre”;;NA"  ...  2016/02/18
+6                             Colombia Conmociónada   ...  2016/02/18
+7  MÉXICO. Papá Francisco Ofició Controlar el Flu...  ...  2016/02/18
+8  Brazil. Profesor Peruano Hallado Muerto en Rio...  ...  2016/02/18
+9                 Nacional/Jueves 18 de Febrero/2016  ...  2016/02/18
+
+[10 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2016_02_18.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 906.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:07<00:00, 187.04s/it, est. speed input: 11.94 toks/s, output: 3.05 toks/s]Processed prompts: 100%|██████████| 1/1 [03:07<00:00, 187.04s/it, est. speed input: 11.94 toks/s, output: 3.05 toks/s]Processed prompts: 100%|██████████| 1/1 [03:07<00:00, 187.04s/it, est. speed input: 11.94 toks/s, output: 3.05 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Elizabeth Galdo tomó el cargo de directora eje...  ...  2016/02/18
+1                                                     ...  2016/02/18
+2                                                     ...  2016/02/18
+3                                                     ...  2016/02/18
+4                                                     ...  2016/02/18
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2016_02_18.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2016_02_18.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (28488 tokens), chunking: data/txt/correo/2015/04/correo_16.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2528.21it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:51<00:00, 111.45s/it, est. speed input: 89.04 toks/s, output: 2.84 toks/s]Processed prompts: 100%|██████████| 1/1 [01:51<00:00, 111.45s/it, est. speed input: 89.04 toks/s, output: 2.84 toks/s]Processed prompts: 100%|██████████| 1/1 [01:51<00:00, 111.45s/it, est. speed input: 89.04 toks/s, output: 2.84 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                                    Edición impresa  ...  2015/04/16
+1                                 *Descúbralo aquí!*  ...  2015/04/16
+2  A A A 5) 17509 7 TE e > Je 2 > cdi co ión a Na...  ...  2015/04/16
+3                                           Nacional  ...  2015/04/16
+4                                   Página Editorial  ...  2015/04/16
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/3 from correo_2015_04_16.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2160.90it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.96s/it, est. speed input: 46.58 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.96s/it, est. speed input: 46.58 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.96s/it, est. speed input: 46.58 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_04_16.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2471.60it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:57<00:00, 297.05s/it, est. speed input: 25.09 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:57<00:00, 297.05s/it, est. speed input: 25.09 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:57<00:00, 297.05s/it, est. speed input: 25.09 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_04_16.csv in chunk 3/3
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2015_04_16.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39634 tokens), chunking: data/txt/correo/2015/10/correo_02.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2413.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:11<00:00, 131.27s/it, est. speed input: 74.62 toks/s, output: 2.86 toks/s]Processed prompts: 100%|██████████| 1/1 [02:11<00:00, 131.27s/it, est. speed input: 74.62 toks/s, output: 2.86 toks/s]Processed prompts: 100%|██████████| 1/1 [02:11<00:00, 131.27s/it, est. speed input: 74.62 toks/s, output: 2.86 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Congreso aprueba formar comisión investigadora...  ...  2015/10/02
+1      Aprobarán investigación por el caso Lava Jato  ...  2015/10/02
+2  Nacional/políticamente relevante: Julián Rosa ...  ...  2015/10/02
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2015_10_02.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1762.31it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:35<00:00, 215.47s/it, est. speed input: 45.51 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:35<00:00, 215.47s/it, est. speed input: 45.51 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:35<00:00, 215.47s/it, est. speed input: 45.51 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Trasludio. Alejamiento de Rosas se Produce en ...  ...  2015/10/02
+1  Puesto al Costado. Julio Rosas Afirma Que Mant...  ...  2015/10/02
+2  Divergencia Familiar. Hermano de Keiko Fujimor...  ...  2015/10/02
+3  Felicidad Post-Cuarentena. Ismael Lazo Habla d...  ...  2015/10/02
+4                  Liberación de Silvia Martín Otard  ...  2015/10/02
+5  Investigación Urgente. Denuncia de Presunta To...  ...  2015/10/02
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2015_10_02.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2212.19it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:21<00:00, 201.29s/it, est. speed input: 48.27 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [03:21<00:00, 201.29s/it, est. speed input: 48.27 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [03:21<00:00, 201.29s/it, est. speed input: 48.27 toks/s, output: 2.95 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Niveles más bajos de inflación en 2015 – Miner...  ...  2015/10/02
+1            Inflación mínima en septiembre del 2015  ...  2015/10/02
+2              Dolarización afecta índices mensuales  ...  2015/10/02
+3   Aumento esperado en envío de productos acuícolas  ...  2015/10/02
+4     Feria Gastronómica en honor a la biodiversidad  ...  2015/10/02
+5         Ganador del título de Sumilleres Mundiales  ...  2015/10/02
+6             Celebración Oktoberfest en Swiss Hotel  ...  2015/10/02
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2015_10_02.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2449.94it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:51<00:00, 291.98s/it, est. speed input: 29.77 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [04:51<00:00, 291.98s/it, est. speed input: 29.77 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [04:51<00:00, 291.98s/it, est. speed input: 29.77 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_10_02.csv in chunk 4/4
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2015_10_02.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36648 tokens), chunking: data/txt/correo/2017/09/correo_05.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2012.62it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:46<00:00, 106.74s/it, est. speed input: 85.96 toks/s, output: 2.86 toks/s]Processed prompts: 100%|██████████| 1/1 [01:46<00:00, 106.74s/it, est. speed input: 85.96 toks/s, output: 2.86 toks/s]Processed prompts: 100%|██████████| 1/1 [01:46<00:00, 106.74s/it, est. speed input: 85.96 toks/s, output: 2.86 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  MARTINEZ Y CASTILLO EMPLAZAN AL GOBIERNO PARA ...  ...  2017/09/05
+1  Congresista de FP Emplaza a Su Bancada a Acata...  ...  2017/09/05
+2                     Profesores Reclaman Descuentos  ...  2017/09/05
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2017_09_05.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1728.90it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:03<00:00, 183.53s/it, est. speed input: 49.54 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [03:03<00:00, 183.53s/it, est. speed input: 49.54 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [03:03<00:00, 183.53s/it, est. speed input: 49.54 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_09_05.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2474.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:10<00:00, 190.69s/it, est. speed input: 46.83 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [03:10<00:00, 190.69s/it, est. speed input: 46.83 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [03:10<00:00, 190.69s/it, est. speed input: 46.83 toks/s, output: 2.95 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0      Convocatoria para Preparar Negocios Empleados  ...  2017/09/05
+1      Duelo en el VRAEM busca Soldados Desparecidos  ...  2017/09/05
+2         Sanciones Impuestas a ‘Los Ángeles Negros’  ...  2017/09/05
+3  Innovación Educativa en Apurímac”;REGISTRARÁN ...  ...  2017/09/05
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2017_09_05.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2490.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:18<00:00, 258.10s/it, est. speed input: 30.74 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [04:18<00:00, 258.10s/it, est. speed input: 30.74 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [04:18<00:00, 258.10s/it, est. speed input: 30.74 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0   Valcárcel, con el inicio de la nueva temporada...  ...  2017/09/05
+1   Mientras que su heredera, en la tercera edició...  ...  2017/09/05
+2   FOTOS DEL EVENTO PRESENTACIÓN DE ’THRILLER’ EN 3D  ...  2017/09/05
+3   Niego coqueteos con Gisela. Cristiano Zuárez: ...  ...  2017/09/05
+4   Ayer, Argentina enfrentó a Venezuela buscando ...  ...  2017/09/05
+5   Colombia busca interrumpir la serie positiva d...  ...  2017/09/05
+6   Ecuador jugará contra Venezuela en condicionam...  ...  2017/09/05
+7   Paraguay intentará superar a Uruguay en búsque...  ...  2017/09/05
+8   Bolivia enfrentará a Chile bajo circunstancias...  ...  2017/09/05
+9   Pologne reacciona favorablemente tras derrotar...  ...  2017/09/05
+10  México continúa firmando su ruta hacia el Mund...  ...  2017/09/05
+11  Luego de un extenso procedimiento competitivo,...  ...  2017/09/05
+12  Gamer peruano Jorge Cori sobrepasa expectativa...  ...  2017/09/05
+
+[13 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2017_09_05.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_09_05.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (31865 tokens), chunking: data/txt/correo/2019/07/correo_08.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1775.74it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [08:52<00:00, 532.42s/it, est. speed input: 18.27 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [08:52<00:00, 532.42s/it, est. speed input: 18.27 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [08:52<00:00, 532.42s/it, est. speed input: 18.27 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2019_07_08.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1504.41it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.02s/it, est. speed input: 43.67 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.02s/it, est. speed input: 43.67 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.02s/it, est. speed input: 43.67 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Inmobiliarias en el Penal Dan On no tenía por ...  ...  2019/07/08
+1                 Editorial (); INACEPTABLE TOMA DE   ...  2019/07/08
+2              Poder Judicial Actúa Contundentemente  ...  2019/07/08
+3              Copa América 2019 terminó en polémica  ...  2019/07/08
+4     Ninguna Justificación para Brutalidad Chavista  ...  2019/07/08
+5                     Elogio a la Selección Nacional  ...  2019/07/08
+6                      Autoridades Reaccionan Fuerte  ...  2019/07/08
+7         Mitos y Realidades de la Formación Docente  ...  2019/07/08
+8  Asaltos Violentos Sacuden Distintos Sectores d...  ...  2019/07/08
+9       Proyecto Habitacional Prosigue en Cantagallo  ...  2019/07/08
+
+[10 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2019_07_08.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2525.17it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:01<00:00, 301.83s/it, est. speed input: 34.09 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [05:01<00:00, 301.83s/it, est. speed input: 34.09 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [05:01<00:00, 301.83s/it, est. speed input: 34.09 toks/s, output: 2.96 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0   Toma decision importante sobre suspension de c...  ...  2019/07/08
+1               Suspension de clases genera confusión  ...  2019/07/08
+2              Multa severa a transportistas ilícitos  ...  2019/07/08
+3                   Agricultura muestra signos mixtos  ...  2019/07/08
+4             Innovación triplica producción de cacao  ...  2019/07/08
+5       Crisis judicial golpea a antiguos mandatarios  ...  2019/07/08
+6       Atención médica urgente para cardenal Barreto  ...  2019/07/08
+7   Lucha legal intensifica contra mafia”;‘Los Fin...  ...  2019/07/08
+8         Deterioro económico revela crisis sanitaria  ...  2019/07/08
+9       Poder legislativo podría intervenir Venezuela  ...  2019/07/08
+10    Fiestas populares fortalecen identidad cultural  ...  2019/07/08
+11  Evolución cinematográfica marca hitos financieros  ...  2019/07/08
+12             Homenajes post-participación deportiva  ...  2019/07/08
+
+[13 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2019_07_08.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 221.76it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:46<00:00, 106.10s/it, est. speed input: 13.14 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [01:46<00:00, 106.10s/it, est. speed input: 13.14 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [01:46<00:00, 106.10s/it, est. speed input: 13.14 toks/s, output: 3.04 toks/s]
+GPU Memory: 43175, 2314
+                          headline  ...        date
+0  Una entrevista de Marisol Mayta  ...  2019/07/08
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2019_07_08.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2019_07_08.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (38107 tokens), chunking: data/txt/correo/2017/04/correo_31.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2032.12it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.38s/it, est. speed input: 56.11 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.38s/it, est. speed input: 56.11 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.38s/it, est. speed input: 56.11 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Presidenta del subgrupo de V reforma electoral...  ...  2017/04/31
+1  Entrevista – Patricia Donayre, congresista de ...  ...  2017/04/31
+2  Proceso La presencia de Heredia se da en el ma...  ...  2017/04/31
+3             Duberli dispuesto a dar explicaciones.  ...  2017/04/31
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2017_04_31.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2302.03it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:09<00:00, 249.49s/it, est. speed input: 37.49 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [04:09<00:00, 249.49s/it, est. speed input: 37.49 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [04:09<00:00, 249.49s/it, est. speed input: 37.49 toks/s, output: 2.96 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_04_31.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 654.44it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:10<00:00, 250.16s/it, est. speed input: 37.11 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [04:10<00:00, 250.16s/it, est. speed input: 37.11 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [04:10<00:00, 250.16s/it, est. speed input: 37.11 toks/s, output: 2.96 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                                          Creditos.  ...  2017/04/31
+1                            Dato relevante.; NA;NA"  ...  2017/04/31
+2                   Información demográfica.; NA;NA"  ...  2017/04/31
+3                Evaluación socio-económica.; NA;NA"  ...  2017/04/31
+4                    Sismicidad en Arequipa.; NA;Na"  ...  2017/04/31
+5  Implicancias legales en proyectos hidráulicos....  ...  2017/04/31
+6                     Discapacidad y empleo.; NA;NA"  ...  2017/04/31
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2017_04_31.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2409.13it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.39s/it, est. speed input: 36.57 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.39s/it, est. speed input: 36.57 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.39s/it, est. speed input: 36.57 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Mauricio Mulder se equivoca”; “Felicitación le...  ...  2017/04/31
+1  Presentaran Libro sobre Carceles en America La...  ...  2017/04/31
+2         Bande Regreso a Lima luego de siete años.   ...  2017/04/31
+3                         “Edad de Milett Figueroa.”  ...  2017/04/31
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2017_04_31.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_04_31.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (37353 tokens), chunking: data/txt/correo/2015/09/correo_07.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2057.04it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:33<00:00, 153.12s/it, est. speed input: 66.30 toks/s, output: 2.90 toks/s]Processed prompts: 100%|██████████| 1/1 [02:33<00:00, 153.12s/it, est. speed input: 66.30 toks/s, output: 2.90 toks/s]Processed prompts: 100%|██████████| 1/1 [02:33<00:00, 153.12s/it, est. speed input: 66.30 toks/s, output: 2.90 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                                   Planean prohibir  ...  2015/09/07
+1            Gustavo Eslava, excongresista humalista  ...  2015/09/07
+2            Nadine Heredia y las sospechas fiscales  ...  2015/09/07
+3  Suspensión del abasto de agua en San Juan de M...  ...  2015/09/07
+4     Pronunciamento sindical de docentes de la UNFV  ...  2015/09/07
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2015_09_07.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2357.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:00<00:00, 120.04s/it, est. speed input: 81.91 toks/s, output: 2.87 toks/s]Processed prompts: 100%|██████████| 1/1 [02:00<00:00, 120.04s/it, est. speed input: 81.91 toks/s, output: 2.87 toks/s]Processed prompts: 100%|██████████| 1/1 [02:00<00:00, 120.04s/it, est. speed input: 81.91 toks/s, output: 2.87 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Pronunciamiento Resolutivo sobre los recursos ...  ...  2015/09/07
+1  Proyecto 'Antidesintegración' podría erosionar...  ...  2015/09/07
+2  Choferes de transporte público muestran síntom...  ...  2015/09/07
+3  Critique legal señala problemas sistémicos det...  ...  2015/09/07
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2015_09_07.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2317.30it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.04s/it, est. speed input: 39.62 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.04s/it, est. speed input: 39.62 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.04s/it, est. speed input: 39.62 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_09_07.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1576.21it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:37<00:00, 217.65s/it, est. speed input: 30.19 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:37<00:00, 217.65s/it, est. speed input: 30.19 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:37<00:00, 217.65s/it, est. speed input: 30.19 toks/s, output: 2.99 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_09_07.csv in chunk 4/4
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2015_09_07.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (34211 tokens), chunking: data/txt/correo/2017/10/correo_06.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2144.33it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:24<00:00, 144.55s/it, est. speed input: 67.22 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:24<00:00, 144.55s/it, est. speed input: 67.22 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:24<00:00, 144.55s/it, est. speed input: 67.22 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                        Foto: Gonzalo Córdova Lima.  ...  2017/10/06
+1             Damián Retamozo”; NA; Damián Retamozo"  ...  2017/10/06
+2  Mauricio Macri muestra solidaridad.”; NA; DIAR...  ...  2017/10/06
+3                  Homenaje a la Selección Nacional.  ...  2017/10/06
+4  Luis Galarreta invita al apoyo moral.”; NA; Pr...  ...  2017/10/06
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2017_10_06.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1780.26it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:30<00:00, 330.20s/it, est. speed input: 27.86 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [05:30<00:00, 330.20s/it, est. speed input: 27.86 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [05:30<00:00, 330.20s/it, est. speed input: 27.86 toks/s, output: 2.99 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_10_06.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2312.19it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:43<00:00, 163.11s/it, est. speed input: 58.12 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [02:43<00:00, 163.11s/it, est. speed input: 58.12 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [02:43<00:00, 163.11s/it, est. speed input: 58.12 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                           headline  ...        date
+0                    Tumán dignidad  ...  2017/10/06
+1                        BASOMBRÍO.  ...  2017/10/06
+2         Luis Fonzi rinde homenaje  ...  2017/10/06
+3      Nikolas Maduro mendiga ayuda  ...  2017/10/06
+4  Coco incorpora a Claudio Pizarro  ...  2017/10/06
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2017_10_06.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2424.45it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:11<00:00, 251.23s/it, est. speed input: 19.37 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [04:11<00:00, 251.23s/it, est. speed input: 19.37 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [04:11<00:00, 251.23s/it, est. speed input: 19.37 toks/s, output: 3.03 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Sampaío (Brasil) asegura cupo en la Copa del M...  ...  2017/10/06
+1                                                     ...  2017/10/06
+2                                                     ...  2017/10/06
+3                                                     ...  2017/10/06
+4                                                     ...  2017/10/06
+5                                                     ...  2017/10/06
+
+[6 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2017_10_06.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_10_06.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36375 tokens), chunking: data/txt/correo/2017/05/correo_20.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2326.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:14<00:00, 254.83s/it, est. speed input: 36.33 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [04:14<00:00, 254.83s/it, est. speed input: 36.33 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [04:14<00:00, 254.84s/it, est. speed input: 36.33 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_05_20.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1783.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.19s/it, est. speed input: 66.07 toks/s, output: 2.92 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.19s/it, est. speed input: 66.07 toks/s, output: 2.92 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.19s/it, est. speed input: 66.07 toks/s, output: 2.92 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_05_20.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1791.67it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:32<00:00, 152.07s/it, est. speed input: 62.07 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:32<00:00, 152.07s/it, est. speed input: 62.07 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:32<00:00, 152.07s/it, est. speed input: 62.07 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0    Aseguran abastecimiento eléctrico para Pucalpa.  ...  2017/05/20
+1               Cómo enfrentar el cáncer en el Perú.  ...  2017/05/20
+2  Daniil Medvedev conquistó Roland Garros.;;Diar...  ...  2017/05/20
+
+[3 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2017_05_20.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2473.06it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:54<00:00, 114.04s/it, est. speed input: 62.61 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [01:54<00:00, 114.04s/it, est. speed input: 62.61 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [01:54<00:00, 114.04s/it, est. speed input: 62.61 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  LA PAUSA BIÉN, PASTEL SOLONTASTICO”; NA;CORREO...  ...  2017/05/20
+1                     FORTALECE RELACIONES INTERNAS   ...  2017/05/20
+2                       HOMENAJE AL ARTISTAS MUERTO   ...  2017/05/20
+3                  PREFERENCIA ENTRE BRENDAS BRANDS   ...  2017/05/20
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2017_05_20.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_05_20.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (37127 tokens), chunking: data/txt/correo/2018/09/correo_03.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2623.08it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.38s/it, est. speed input: 75.41 toks/s, output: 2.91 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.38s/it, est. speed input: 75.41 toks/s, output: 2.91 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.38s/it, est. speed input: 75.41 toks/s, output: 2.91 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_09_03.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2811.20it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:19<00:00, 259.12s/it, est. speed input: 35.69 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [04:19<00:00, 259.12s/it, est. speed input: 35.69 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [04:19<00:00, 259.12s/it, est. speed input: 35.69 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0   SANCIONARÁN A ‘BARRAS BRAVAS’ EN CARCELAN A DO...  ...  2018/09/03
+1            Incremento de Casos de Malaria en Tumbes  ...  2018/09/03
+2   Cómo Mejorar el Sistema de Transporte en Lima”...  ...  2018/09/03
+3             Lideres en Laser Médicos Conexperiencia  ...  2018/09/03
+4   Autoridades Investigan Secuestro de Chef en Sa...  ...  2018/09/03
+5      Asalto a Empresarios deja Pérdidas Millonarias  ...  2018/09/03
+6   Convocatoria a Junta Extraordinaria de Accioni...  ...  2018/09/03
+7    Peligros Judiciales Más Allá de Altas Instancias  ...  2018/09/03
+8                Homenaje Global a Santa Rosa de Lima  ...  2018/09/03
+9     No Habrá Impunidad por Muerte de Comandante PNP  ...  2018/09/03
+10  Distribución de Stock de Arroz Evalúa Situació...  ...  2018/09/03
+
+[11 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2018_09_03.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1567.96it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:07<00:00, 307.10s/it, est. speed input: 30.63 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:07<00:00, 307.10s/it, est. speed input: 30.63 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:07<00:00, 307.10s/it, est. speed input: 30.63 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_09_03.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 624.06it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:50<00:00, 170.43s/it, est. speed input: 46.37 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:50<00:00, 170.43s/it, est. speed input: 46.37 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:50<00:00, 170.43s/it, est. speed input: 46.37 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_09_03.csv in chunk 4/4
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_09_03.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (32224 tokens), chunking: data/txt/correo/2018/12/correo_11.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 410.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.22s/it, est. speed input: 91.97 toks/s, output: 2.89 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.22s/it, est. speed input: 91.97 toks/s, output: 2.89 toks/s]Processed prompts: 100%|██████████| 1/1 [01:42<00:00, 102.22s/it, est. speed input: 91.97 toks/s, output: 2.89 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0          Distinto panorama en el transporte urbano  ...  2018/12/11
+1  Cómo afecta el cambio climático a nuestras cos...  ...  2018/12/11
+2  Sobre la importancia de mantener vivo el idiom...  ...  2018/12/11
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2018_12_11.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2291.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:42<00:00, 282.69s/it, est. speed input: 33.08 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:42<00:00, 282.69s/it, est. speed input: 33.08 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:42<00:00, 282.69s/it, est. speed input: 33.08 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Muñoz Wells presenta estrategias de seguridad ...  ...  2018/12/11
+1                           Sanciona chantaje sexual  ...  2018/12/11
+2                          Lanza aplicación Taxi MML  ...  2018/12/11
+3                    Destruyen explosivos peligrosos  ...  2018/12/11
+4                   Alistan nuevos juegos infantiles  ...  2018/12/11
+5                                Mausoléo Terrorista  ...  2018/12/11
+6                             Educatividad Ciudadana  ...  2018/12/11
+7          Crisis de confianza en telecomunicaciones  ...  2018/12/11
+8                          Petroperú compra petroleo  ...  2018/12/11
+
+[9 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2018_12_11.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 803.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.46s/it, est. speed input: 39.05 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.46s/it, est. speed input: 39.05 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [04:05<00:00, 245.47s/it, est. speed input: 39.05 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0          Del Ministerio Público? ¿División interna?  ...  2018/12/11
+1   Celebración del Pacto Global de Migración de l...  ...  2018/12/11
+2         Médico Peruano Recibe Premio Internacional.  ...  2018/12/11
+3   Prensa Francesa Reactúa Tras Protestas Chaleco...  ...  2018/12/11
+4   Aparición Militar Rusa en Venezuela Provoca Pr...  ...  2018/12/11
+5   Dudas Legales Acerca de Familiares Presidente ...  ...  2018/12/11
+6   Brexit Postergado: Primera Ministra Británica ...  ...  2018/12/11
+7    Historia Humana Reforzada por DDHH Desde la ONU.  ...  2018/12/11
+8   Nueva Etapa Romántica Confirmada Entre Cantant...  ...  2018/12/11
+9   Festival Cultural Arguediano Presenta Tradicio...  ...  2018/12/11
+10                 Bella Éxito Continua en Hollywood.  ...  2018/12/11
+11  Sobrevaloración Social Impacta Juventudes Glob...  ...  2018/12/11
+
+[12 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2018_12_11.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3066.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 97.00s/it, est. speed input: 33.00 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 97.00s/it, est. speed input: 33.00 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 97.00s/it, est. speed input: 33.00 toks/s, output: 3.06 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  DIARIO CORREO.Lima/Martes 11 De diciembre/2018...  ...  2018/12/11
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2018_12_11.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_12_11.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (37773 tokens), chunking: data/txt/correo/2014/12/correo_10.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2573.19it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:15<00:00, 135.67s/it, est. speed input: 72.20 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [02:15<00:00, 135.67s/it, est. speed input: 72.20 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [02:15<00:00, 135.68s/it, est. speed input: 72.20 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Municipalidad de Lima anula licitación para co...  ...  2014/12/10
+1  DESTAPE. EXPROCUREADA DICHO SOBRE CASO BELAUDE...  ...  2014/12/10
+2  PRESIDENTE HUMALA COMENTA SOBRE IMPORTANCIA DE...  ...  2014/12/10
+3  FORTALECE FUERZA POPULAR SU PODER REGIONAL TRA...  ...  2014/12/10
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2014_12_10.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2391.28it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:10<00:00, 130.73s/it, est. speed input: 74.30 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [02:10<00:00, 130.73s/it, est. speed input: 74.30 toks/s, output: 2.94 toks/s]Processed prompts: 100%|██████████| 1/1 [02:10<00:00, 130.73s/it, est. speed input: 74.30 toks/s, output: 2.94 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Cambio en normas aduaneras simplifica ingreso ...  ...  2014/12/10
+1                 Amenazan con cerrar importante vía  ...  2014/12/10
+2  Dilación en gestión de túneles Santa Rosa será...  ...  2014/12/10
+3                     Fusión empresarial formalizada  ...  2014/12/10
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2014_12_10.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2280.75it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:05<00:00, 185.72s/it, est. speed input: 52.24 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [03:05<00:00, 185.72s/it, est. speed input: 52.24 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [03:05<00:00, 185.72s/it, est. speed input: 52.24 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2014_12_10.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2584.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:32<00:00, 332.13s/it, est. speed input: 20.71 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [05:32<00:00, 332.13s/it, est. speed input: 20.71 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [05:32<00:00, 332.13s/it, est. speed input: 20.71 toks/s, output: 3.06 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Tensa espera, al caer la noche recibieron la v...  ...  2014/12/10
+1                                                     ...  2014/12/10
+2                                                     ...  2014/12/10
+3                                                     ...  2014/12/10
+4                                  Nacional Deportes  ...  2014/12/10
+5                    Araujo renueva con Alianza Lima  ...  2014/12/10
+6                                               None  ...  2014/12/10
+7         FIFA's Image Very Bad According To Platini  ...  2014/12/10
+
+[8 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2014_12_10.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2014_12_10.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (32371 tokens), chunking: data/txt/correo/2016/01/correo_23.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2750.36it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:22<00:00, 262.17s/it, est. speed input: 35.09 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:22<00:00, 262.17s/it, est. speed input: 35.09 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:22<00:00, 262.17s/it, est. speed input: 35.09 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0   GUERRA RACIAL_; Y ¿Qué pasa EN LOS PREMIOS”;“P...  ...  2016/01/23
+1   LUIS THAISS © LuishthaiSL”:“Ex dirigente de PP...  ...  2016/01/23
+2   MILAGROS LEIVA © MilagrosLeivaG”:“Periodista ‘...  ...  2016/01/23
+3   PEDRO SUAREZ VERDUGO © PedSuarezVerdugoz”:“Can...  ...  2016/01/23
+4                                                None  ...  2016/01/23
+5   MARIO HART APÓYARA LA CAMPAÑA DE ALAN GARCIAPo...  ...  2016/01/23
+6                                                None  ...  2016/01/23
+7                   CRISE INICIALISTA ELECTORES 2016   ...  2016/01/23
+8                                                None  ...  2016/01/23
+9                             PULLAS ENTRE CANDIDATOS  ...  2016/01/23
+10                                               None  ...  2016/01/23
+11      Fujimori Dice Que Su Esposo Mantienen Familia  ...  2016/01/23
+
+[12 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2016_01_23.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2741.38it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.41s/it, est. speed input: 42.62 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.41s/it, est. speed input: 42.62 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.41s/it, est. speed input: 42.62 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2016_01_23.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2746.76it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:43<00:00, 283.11s/it, est. speed input: 33.13 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:43<00:00, 283.11s/it, est. speed input: 33.13 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:43<00:00, 283.11s/it, est. speed input: 33.13 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2016_01_23.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3155.98it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:13<00:00, 133.08s/it, est. speed input: 25.43 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:13<00:00, 133.08s/it, est. speed input: 25.43 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:13<00:00, 133.08s/it, est. speed input: 25.43 toks/s, output: 3.07 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Advíncula sorprende en prácticas de Newell’s O...  ...  2016/01/23
+1     Lewandowski está cada vez más cerca del Madrid  ...  2016/01/23
+
+[2 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2016_01_23.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2016_01_23.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36692 tokens), chunking: data/txt/correo/2017/10/correo_26.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2752.17it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:43<00:00, 223.49s/it, est. speed input: 41.55 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:43<00:00, 223.49s/it, est. speed input: 41.55 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:43<00:00, 223.49s/it, est. speed input: 41.55 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Año XXXIV _ No13152 N www.diariocorrèd j Corre...  ...  2017/10/26
+1     PÉRDIDA DE SALUD PARA EVALUACIÓN INTERNACIONAL  ...  2017/10/26
+2                                       Tema del Dia  ...  2017/10/26
+3                                    LAVA JATO Y PPk  ...  2017/10/26
+4                                   SITUACIÓN ACTUAL  ...  2017/10/26
+5                       CUESTIONARIOS PARLAMENTARIOS  ...  2017/10/26
+6                             MEDICAL REVIEW REQUEST  ...  2017/10/26
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2017_10_26.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2545.09it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:25<00:00, 325.22s/it, est. speed input: 27.88 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [05:25<00:00, 325.22s/it, est. speed input: 27.88 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [05:25<00:00, 325.22s/it, est. speed input: 27.88 toks/s, output: 3.03 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_10_26.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2560.63it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:24<00:00, 384.29s/it, est. speed input: 23.47 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [06:24<00:00, 384.29s/it, est. speed input: 23.47 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [06:24<00:00, 384.29s/it, est. speed input: 23.47 toks/s, output: 3.04 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                         Interpersonales”; Explica.  ...  2017/10/26
+1  Inversión Priorizará Desarrollo Canales Digita...  ...  2017/10/26
+2          Promoverán Obra en Transportes y Energía.  ...  2017/10/26
+3  Sala de Apelaciones Declara Impresentable Caso...  ...  2017/10/26
+4  Ancash. Bebe Victima Violación Transladada a Lima  ...  2017/10/26
+5  Predios Formaban Parte Red Lavado Activos de E...  ...  2017/10/26
+6          Bebé Victima Violación Es Traslada a Lima  ...  2017/10/26
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2017_10_26.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2451.38it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:46<00:00, 226.66s/it, est. speed input: 34.84 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [03:46<00:00, 226.66s/it, est. speed input: 34.84 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [03:46<00:00, 226.66s/it, est. speed input: 34.84 toks/s, output: 3.03 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_10_26.csv in chunk 4/4
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_10_26.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36604 tokens), chunking: data/txt/correo/2018/04/correo_18.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2718.28it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:49<00:00, 169.94s/it, est. speed input: 55.17 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [02:49<00:00, 169.94s/it, est. speed input: 55.17 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [02:49<00:00, 169.94s/it, est. speed input: 55.17 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_04_18.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 709.10it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:34<00:00, 154.86s/it, est. speed input: 59.25 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:34<00:00, 154.86s/it, est. speed input: 59.25 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:34<00:00, 154.86s/it, est. speed input: 59.25 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Presidente realza importancia de Ley Marco del...  ...  2018/04/18
+1  Peligro latente: Retiran panel colocado sin au...  ...  2018/04/18
+2  Investigación intensifica búsqueda de evidenci...  ...  2018/04/18
+3  Evaluación preliminar sugiere prohibiciones te...  ...  2018/04/18
+4  Celebra editorial opinión respecto a sentencia...  ...  2018/04/18
+
+[5 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2018_04_18.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2351.07it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:22<00:00, 202.83s/it, est. speed input: 45.91 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:22<00:00, 202.83s/it, est. speed input: 45.91 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:22<00:00, 202.83s/it, est. speed input: 45.91 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_04_18.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 805.67it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.03s/it, est. speed input: 38.04 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.03s/it, est. speed input: 38.04 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.03s/it, est. speed input: 38.04 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Que dirige logró 2.2 puntos de rating en su de...  ...  2018/04/18
+1  Salsetero Josimar Cantante la agrupación Jossi...  ...  2018/04/18
+2  Mariah Carey por Acoso Sexual.; La cantante ne...  ...  2018/04/18
+3  Demandan a Mariah Carey por Acoso Sexual.; La ...  ...  2018/04/18
+4  Paciente. Karen Schwarz”; “Demanda a Mariahs C...  ...  2018/04/18
+5  López-García destaca importancia de la educaci...  ...  2018/04/18
+
+[6 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2018_04_18.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_04_18.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (23609 tokens), chunking: data/txt/correo/2015/09/correo_06.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 773.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:27<00:00, 207.23s/it, est. speed input: 48.98 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:27<00:00, 207.23s/it, est. speed input: 48.98 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:27<00:00, 207.23s/it, est. speed input: 48.98 toks/s, output: 2.99 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0      Breves CHOQUE ENTRE POLÍCIA Y EXTORSIONADORES  ...  2015/09/06
+1  MEDIA MILLÓN DE PERSONAS PARTICIPA EN CAMPAÑA ...  ...  2015/09/06
+2  COPESCO RETIRA COASTER DEL SERVICIO POR COMPET...  ...  2015/09/06
+3  Gobierno asigna más fondos para mitigación de ...  ...  2015/09/06
+4  Asalto a Embajada de Corea del Sur deja pérdid...  ...  2015/09/06
+5  Inauguración del curso de Neuromarketimg dirig...  ...  2015/09/06
+6  Aumento notable en exportaciones de mango mejo...  ...  2015/09/06
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/3 from correo_2015_09_06.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2700.78it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.35s/it, est. speed input: 43.60 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.35s/it, est. speed input: 43.60 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.35s/it, est. speed input: 43.60 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2015_09_06.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3206.65it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:37<00:00, 337.95s/it, est. speed input: 8.08 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [05:37<00:00, 337.95s/it, est. speed input: 8.08 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [05:37<00:00, 337.95s/it, est. speed input: 8.08 toks/s, output: 3.10 toks/s]
+GPU Memory: 43175, 2314
+                         headline  ...        date
+0  Este es tu código de la suerte  ...  2015/09/06
+1      Mundo Cervecero en Mistura  ...  2015/09/06
+2  Cuestionamientos sobre Mistura  ...  2015/09/06
+3     Puntos Positivos en Mistura  ...  2015/09/06
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/3 from correo_2015_09_06.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2015_09_06.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (34914 tokens), chunking: data/txt/correo/2017/04/correo_15.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2870.84it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.08s/it, est. speed input: 59.07 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.08s/it, est. speed input: 59.07 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:30<00:00, 150.08s/it, est. speed input: 59.07 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Titular de Justicia critica la posición del fu...  ...  2017/04/15
+1  Emergencia Pérez Tello espera que en 45 días m...  ...  2017/04/15
+2  Caso Toledo: “Estos procesos”;Comunidad LGBTI ...  ...  2017/04/15
+3  Fiscalía animada ahora a intervenir oficinas d...  ...  2017/04/15
+4  Luis Galarreta, vocero del fujimorismo, critic...  ...  2017/04/15
+5  Pérdidas económicas estimadas por el huracán M...  ...  2017/04/15
+
+[6 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2017_04_15.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2610.02it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:09<00:00, 189.87s/it, est. speed input: 49.09 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:09<00:00, 189.87s/it, est. speed input: 49.09 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:09<00:00, 189.88s/it, est. speed input: 49.09 toks/s, output: 2.99 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Desfalco a la Caja de Pensiones Militar Polici...  ...  2017/04/15
+1  Fallo en el Juicio de Alberto Venero,"Fallo en...  ...  2017/04/15
+2      Audiencia Postergada en Denuncia de Tolediano  ...  2017/04/15
+3                           Caso Crudo Asalto Sexual  ...  2017/04/15
+4  Investigan Alteraciones en Proyecto Infraestru...  ...  2017/04/15
+
+[5 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2017_04_15.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2402.24it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:20<00:00, 380.81s/it, est. speed input: 24.11 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [06:20<00:00, 380.81s/it, est. speed input: 24.11 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [06:20<00:00, 380.81s/it, est. speed input: 24.11 toks/s, output: 3.04 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_04_15.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2035.08it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:21<00:00, 81.33s/it, est. speed input: 76.40 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [01:21<00:00, 81.33s/it, est. speed input: 76.40 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [01:21<00:00, 81.33s/it, est. speed input: 76.40 toks/s, output: 2.95 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Patricia Tragodara llama a apoyo para Alejandr...  ...  2017/04/15
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2017_04_15.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_04_15.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (23748 tokens), chunking: data/txt/correo/2017/01/correo_18.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2818.75it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.88s/it, est. speed input: 40.02 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.88s/it, est. speed input: 40.02 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:47<00:00, 227.88s/it, est. speed input: 40.02 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0   DiarioCorreo.Pe 2 > — ma MienShE a pe enero/2017  ...  2017/01/18
+1                       Tema del Día Karina Valencia  ...  2017/01/18
+2  Suspensión de Remate del Hotel Bolívar es Temp...  ...  2017/01/18
+3  Fiscal del Caso Sodalicio no Tomó en Considera...  ...  2017/01/18
+4  Autoridades Multan Fantasma”; “Criticado por C...  ...  2017/01/18
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/3 from correo_2017_01_18.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2295.73it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.22s/it, est. speed input: 41.77 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.22s/it, est. speed input: 41.77 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.22s/it, est. speed input: 41.77 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_01_18.csv in chunk 2/3
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3305.20it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 96.76s/it, est. speed input: 47.80 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 96.76s/it, est. speed input: 47.80 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [01:36<00:00, 96.76s/it, est. speed input: 47.80 toks/s, output: 3.03 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Brasil busca fichar jugador peruano para jugar...  ...  2017/01/18
+1                                                     ...  2017/01/18
+2                             ,"Contenido deportivo"  ...  2017/01/18
+
+[3 rows x 6 columns]
+✓ Extracted chunk 3/3 from correo_2017_01_18.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_01_18.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (37277 tokens), chunking: data/txt/correo/2018/02/correo_08.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2770.35it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.49s/it, est. speed input: 68.14 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.49s/it, est. speed input: 68.14 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.50s/it, est. speed input: 68.14 toks/s, output: 2.95 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Ministra de Economía, Claudia Cooper, plantea ...  ...  2018/02/08
+1  Tiembla respaldo del Congreso al pedido de vac...  ...  2018/02/08
+2  Fiscalía aclara avance de solicitud de extradi...  ...  2018/02/08
+3  Pablo Sánchez refuta obstáculos en declaración...  ...  2018/02/08
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2018_02_08.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2772.18it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:44<00:00, 164.49s/it, est. speed input: 57.47 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:44<00:00, 164.49s/it, est. speed input: 57.47 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:44<00:00, 164.49s/it, est. speed input: 57.47 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0             Fue ratificada el 12 de julio de 1978.  ...  2018/02/08
+1  Canciller sobre visita de Maduro: ‘’No ha resp...  ...  2018/02/08
+2  Pobladores organizan protesta ante visita de M...  ...  2018/02/08
+3  Investigación judicial sigue avanzando después...  ...  2018/02/08
+4  Autoridades evalúan cambios estructurales post...  ...  2018/02/08
+
+[5 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2018_02_08.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2555.94it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:17<00:00, 137.52s/it, est. speed input: 67.79 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [02:17<00:00, 137.52s/it, est. speed input: 67.79 toks/s, output: 2.95 toks/s]Processed prompts: 100%|██████████| 1/1 [02:17<00:00, 137.52s/it, est. speed input: 67.79 toks/s, output: 2.95 toks/s]
+GPU Memory: 43175, 2314
+                                  headline  ...        date
+0                          Cloro Dinámico:  ...  2018/02/08
+1                  Nueva ley anti-soborno:  ...  2018/02/08
+2          Asalto a policía en Lambayeque:  ...  2018/02/08
+3  Saneamiento de bienes inmuebles en Ate:  ...  2018/02/08
+4  Papa emérito reflexiona sobre su salud:  ...  2018/02/08
+5               Tillerson visita Colombia:  ...  2018/02/08
+6        Biden critica reforma tributaria:  ...  2018/02/08
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2018_02_08.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2974.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:42<00:00, 162.87s/it, est. speed input: 49.02 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:42<00:00, 162.87s/it, est. speed input: 49.02 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:42<00:00, 162.87s/it, est. speed input: 49.02 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                    José José en condición delicada  ...  2018/02/08
+1           Cantantes de rock y pop en Lima en Abril  ...  2018/02/08
+2                  Futuro de Edison Flores en Europa  ...  2018/02/08
+3  Sigue vigente la esperanza de Pizarro en Rusia...  ...  2018/02/08
+4  AUDITORÍA SOBRE FINANCIAMIENTO DEL PARÍS SAINT...  ...  2018/02/08
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2018_02_08.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_02_08.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (46269 tokens), chunking: data/txt/correo/2015/02/correo_14.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2371.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 182.79s/it, est. speed input: 53.19 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 182.79s/it, est. speed input: 53.19 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 182.79s/it, est. speed input: 53.19 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Oposición coincide en que el Gobierno claudicó...  ...  2015/02/14
+1        Pelelea política por incidente en Pichanaki  ...  2015/02/14
+2       Mauricio Mulder critica acción gubernamental  ...  2015/02/14
+3              Critican falta de firmeza ministerial  ...  2015/02/14
+4           Nueva investigación abre debate político  ...  2015/02/14
+5       Luis Guerra y otros implicados bajo revisión  ...  2015/02/14
+6       Solicitudes legislativas emergen tras crisis  ...  2015/02/14
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/5 from correo_2015_02_14.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2020.38it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:43<00:00, 223.80s/it, est. speed input: 44.23 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:43<00:00, 223.80s/it, est. speed input: 44.23 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:43<00:00, 223.80s/it, est. speed input: 44.23 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Daniel Figallo, el exasesor presidencial Eduar...  ...  2015/02/14
+1  Municipio de Lima convoca a simulacro con apoy...  ...  2015/02/14
+2          Gladys Espinoza geespinoza@grupoepensa.pe  ...  2015/02/14
+3  Susana Villarán y su hermano Álvaro están bajo...  ...  2015/02/14
+4          Huanuco y Baltasar Puente amenaza colapso  ...  2015/02/14
+5     Atracos violentos culminan con fatal incidente  ...  2015/02/14
+6  Eugenio D´Medina Lora opina sobre situación po...  ...  2015/02/14
+
+[7 rows x 6 columns]
+✓ Extracted chunk 2/5 from correo_2015_02_14.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2406.37it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:27<00:00, 147.44s/it, est. speed input: 64.85 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [02:27<00:00, 147.44s/it, est. speed input: 64.85 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [02:27<00:00, 147.44s/it, est. speed input: 64.85 toks/s, output: 2.96 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0           Misa celebró funeral de monseñor Barrios  ...  2015/02/14
+1  Aseguran que vacunas sí causan daños neurológi...  ...  2015/02/14
+2  Suspenden audiencia preliminar de procesamient...  ...  2015/02/14
+3                                 Celebra tus sueños  ...  2015/02/14
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/5 from correo_2015_02_14.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2507.06it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:32<00:00, 212.95s/it, est. speed input: 53.95 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [03:32<00:00, 212.95s/it, est. speed input: 53.95 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [03:32<00:00, 212.95s/it, est. speed input: 53.95 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Triunfo frente a Sport Loreto en Pucallpa, en ...  ...  2015/02/14
+1  Cristal busca un triunfo de altura en la Ciuda...  ...  2015/02/14
+2  Líder del grupo A visita hoy a Cristal.;Sporti...  ...  2015/02/14
+3  Alineación de equipos en juego.;Alianzas y tác...  ...  2015/02/14
+4  Serie de eventos destacables en el baloncesto ...  ...  2015/02/14
+5  Torneo internacional de fútbol presenta nuevos...  ...  2015/02/14
+6  Real Madrid bajo escrutinio después de derrota...  ...  2015/02/14
+7  Homenajes culturales y especiales astronómicos...  ...  2015/02/14
+
+[8 rows x 6 columns]
+✓ Extracted chunk 4/5 from correo_2015_02_14.csv
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3305.20it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:56<00:00, 56.97s/it, est. speed input: 68.94 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:56<00:00, 56.97s/it, est. speed input: 68.94 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:56<00:00, 56.97s/it, est. speed input: 68.94 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+                      headline subheadline  ... newspaper        date
+0            MITOLOGÍA ETÚRLCA          NA  ...    correo  2015/02/14
+1  PISCIS (1 FEBRERO-20 MARZO)          NA  ...    correo  2015/02/14
+
+[2 rows x 6 columns]
+✓ Extracted chunk 5/5 from correo_2015_02_14.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2015_02_14.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39417 tokens), chunking: data/txt/correo/2018/03/correo_07.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2467.24it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:06<00:00, 126.19s/it, est. speed input: 76.16 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:06<00:00, 126.19s/it, est. speed input: 76.16 toks/s, output: 2.93 toks/s]Processed prompts: 100%|██████████| 1/1 [02:06<00:00, 126.19s/it, est. speed input: 76.16 toks/s, output: 2.93 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  FISCALÍA ALLANA INMUEBLE DE FIJAMORISTAS POR C...  ...  2018/03/07
+1  Diligencia fiscal busca evidencia de transacci...  ...  2018/03/07
+2  CUESTIONAN ACCIÓN DE MINISTERIO PUBLICO ANTE P...  ...  2018/03/07
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/5 from correo_2018_03_07.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2394.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.66s/it, est. speed input: 46.75 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.66s/it, est. speed input: 46.75 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.66s/it, est. speed input: 46.75 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_03_07.csv in chunk 2/5
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2746.76it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.84s/it, est. speed input: 45.35 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.84s/it, est. speed input: 45.35 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:20<00:00, 200.84s/it, est. speed input: 45.35 toks/s, output: 3.00 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Contenido Turístico Local Predomina en Visitas...  ...  2018/03/07
+1  Gobierno Detalla Reglas para Usar Fondos Socia...  ...  2018/03/07
+2           Inquilinos Morosos: Alternativas Legales  ...  2018/03/07
+3        Dramáticos Incidentes Domésticos Reportados  ...  2018/03/07
+4    Caso Jurídico Destaca Caso de Lavado de Activos  ...  2018/03/07
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/5 from correo_2018_03_07.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 392.95it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:08<00:00, 248.56s/it, est. speed input: 39.15 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [04:08<00:00, 248.56s/it, est. speed input: 39.15 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [04:08<00:00, 248.56s/it, est. speed input: 39.15 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_03_07.csv in chunk 4/5
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3840.94it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:38<00:00, 98.69s/it, est. speed input: 11.25 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:38<00:00, 98.69s/it, est. speed input: 11.25 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [01:38<00:00, 98.69s/it, est. speed input: 11.25 toks/s, output: 3.11 toks/s]
+GPU Memory: 43175, 2314
+                          headline  ...        date
+0                               NA  ...  2018/03/07
+1  ¿Qué proyectos tienes este año?  ...  2018/03/07
+2                Cantante peruana.  ...  2018/03/07
+
+[3 rows x 6 columns]
+✓ Extracted chunk 5/5 from correo_2018_03_07.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_03_07.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36826 tokens), chunking: data/txt/correo/2018/08/correo_22.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2711.25it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:45<00:00, 225.45s/it, est. speed input: 41.14 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:45<00:00, 225.45s/it, est. speed input: 41.14 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:45<00:00, 225.45s/it, est. speed input: 41.14 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_08_22.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2394.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:21<00:00, 321.36s/it, est. speed input: 28.53 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [05:21<00:00, 321.36s/it, est. speed input: 28.53 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [05:21<00:00, 321.36s/it, est. speed input: 28.53 toks/s, output: 3.03 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Organización delictiva ‘’Los Intocables Ediles...  ...  2018/08/22
+1  Darían de baja a generales implicados en ’Into...  ...  2018/08/22
+2                                  Culpable a otros.  ...  2018/08/22
+3  Taxis por aplicativo brindan servicio sin regu...  ...  2018/08/22
+4  Ley de bicicleta estaría lista en septiembre.”...  ...  2018/08/22
+5  Mujeres en bandas criminales fingían ser teleo...  ...  2018/08/22
+6  Deshumanizada respuesta judicial hacia mujeres...  ...  2018/08/22
+7  Injusticias judiciales permiten libertad bajo ...  ...  2018/08/22
+
+[8 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2018_08_22.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1963.63it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:04<00:00, 184.03s/it, est. speed input: 50.09 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:04<00:00, 184.03s/it, est. speed input: 50.09 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:04<00:00, 184.03s/it, est. speed input: 50.09 toks/s, output: 2.99 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Especialista de oftalmológica advierte sobre d...  ...  2018/08/22
+1                                  Sobre comida sana  ...  2018/08/22
+2                         Celebra economía doméstica  ...  2018/08/22
+3  Investigación periodística revela práctica cor...  ...  2018/08/22
+4  Audiencias legales determinan destino de exfun...  ...  2018/08/22
+5              Policía actúa contra redes criminales  ...  2018/08/22
+6                      Historia personal y reflexión  ...  2018/08/22
+7  Movimientos sociales destacan injusticias locales  ...  2018/08/22
+
+[8 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2018_08_22.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2947.51it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:42<00:00, 402.69s/it, est. speed input: 19.00 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [06:42<00:00, 402.69s/it, est. speed input: 19.00 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [06:42<00:00, 402.69s/it, est. speed input: 19.00 toks/s, output: 3.06 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                              Manifestó la artista.  ...  2018/08/22
+1  Cambio de dirección en cine de acción.;Renunci...  ...  2018/08/22
+2  Asia Argento niega haber abusado de actor, per...  ...  2018/08/22
+3  FUTBOL|Sporting Cristal Elecciones Torneo Aper...  ...  2018/08/22
+4  DUTHURBURU EXPRESA QUE NO HA SIDO INFORMADO DE...  ...  2018/08/22
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2018_08_22.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_08_22.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39030 tokens), chunking: data/txt/correo/2017/07/correo_28.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2841.67it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.67s/it, est. speed input: 53.03 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.67s/it, est. speed input: 53.03 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.67s/it, est. speed input: 53.03 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+                                 headline  ...        date
+0           Lemix renoveacion ministerial  ...  2017/07/28
+1              Tema del dia Gladmir Anaya  ...  2017/07/28
+2         Gobierno enfrenta cuestiomantos  ...  2017/07/28
+3  Molinaeli anuncia acciones en el Midis  ...  2017/07/28
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2017_07_28.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2813.08it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:33<00:00, 273.58s/it, est. speed input: 33.69 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:33<00:00, 273.58s/it, est. speed input: 33.69 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:33<00:00, 273.58s/it, est. speed input: 33.69 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Alberto Fujimori enfrenta nuevos problemas leg...  ...  2017/07/28
+1          Fidelidad política dentro del fujimorismo  ...  2017/07/28
+2           Pide prioridad para By-pass en La Molina  ...  2017/07/28
+3           Aumento de oleaje causa alerta en Costas  ...  2017/07/28
+4              Impacto de congestionamientos en Lima  ...  2017/07/28
+5                        Asalto deja huella dolorosa  ...  2017/07/28
+6                     Serie de homicidios alarmantes  ...  2017/07/28
+7           Nuevas regulaciones para infraestructura  ...  2017/07/28
+8     Celebración de independencia con restricciones  ...  2017/07/28
+9                   Economía necesita revitalización  ...  2017/07/28
+
+[10 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2017_07_28.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2847.46it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:58<00:00, 298.75s/it, est. speed input: 30.68 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [04:58<00:00, 298.75s/it, est. speed input: 30.68 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [04:58<00:00, 298.75s/it, est. speed input: 30.68 toks/s, output: 3.03 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_07_28.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2445.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:57<00:00, 357.72s/it, est. speed input: 26.64 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [05:57<00:00, 357.72s/it, est. speed input: 26.64 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [05:57<00:00, 357.72s/it, est. speed input: 26.64 toks/s, output: 3.04 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Necesitan saber que todo va a ir bien inducido...  ...  2017/07/28
+1             FALLECE MADRE DEL SALSERO MARC ANTHONY  ...  2017/07/28
+2  Premio Alfaguara de Novela 2017 nos visita por...  ...  2017/07/28
+3  ALEGRÍA TOTAL EN LA FIESTA DEL CENTENARIO DEL ...  ...  2017/07/28
+4    Municipal celebra 82° Aniversario Institucional  ...  2017/07/28
+5     Alianza Lima vence 2–0 a Juan Aurich en Matute  ...  2017/07/28
+6                  Técnicos analizan próximos juegos  ...  2017/07/28
+7           Gonzalo Montiel podría dejar River Plate  ...  2017/07/28
+8  Hinchas solicitan cambios antes del partido de...  ...  2017/07/28
+
+[9 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2017_07_28.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_07_28.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (35192 tokens), chunking: data/txt/correo/2017/03/correo_23.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2697.30it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 183.00s/it, est. speed input: 52.46 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 183.00s/it, est. speed input: 52.46 toks/s, output: 2.98 toks/s]Processed prompts: 100%|██████████| 1/1 [03:02<00:00, 183.00s/it, est. speed input: 52.46 toks/s, output: 2.98 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2017_03_23.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2736.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:40<00:00, 280.25s/it, est. speed input: 33.76 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:40<00:00, 280.25s/it, est. speed input: 33.76 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [04:40<00:00, 280.25s/it, est. speed input: 33.76 toks/s, output: 3.02 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0  Existe desabasto de frutas y legumbres en los ...  ...  2017/03/23
+1  Ayer, por ejemplo, ingresaron 6,500 toneladas ...  ...  2017/03/23
+2  Pedir a la población no incluir ropa en sus do...  ...  2017/03/23
+3  Cerca de 43 zonas de Lima y Callao carecen de ...  ...  2017/03/23
+4  Familias duermen en carpas cerca de las zonas ...  ...  2017/03/23
+5  Saqueos atribuidos a menores provocan indignación  ...  2017/03/23
+6       Ejecutan plan de expansión del Metropolitano  ...  2017/03/23
+7  Investigación judicial involucra a expresident...  ...  2017/03/23
+
+[8 rows x 6 columns]
+✓ Extracted chunk 2/4 from correo_2017_03_23.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2659.67it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:51<00:00, 231.52s/it, est. speed input: 41.28 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:51<00:00, 231.52s/it, est. speed input: 41.28 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [03:51<00:00, 231.52s/it, est. speed input: 41.28 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0   Las luces inteligentes transforman el ambiente...  ...  2017/03/23
+1   Banco central interviniendo en mercados financ...  ...  2017/03/23
+2   Agricultores reciben ayuda frente a catástrofe...  ...  2017/03/23
+3     Cambio significativo en precios de combustibles  ...  2017/03/23
+4   Dona agua potable y productos básicos para eme...  ...  2017/03/23
+5   Polemica por deudas personales involucran figu...  ...  2017/03/23
+6   Huida espectacular de paciente mental en hospi...  ...  2017/03/23
+7   Investigan corrupción administrativa en gobier...  ...  2017/03/23
+8   Atentado violento en el corazón legislativo in...  ...  2017/03/23
+9    Lucha cultural y territorial continúa en Bolivia  ...  2017/03/23
+10  Regreso esperanzador de iconos musicales globales  ...  2017/03/23
+11       Asamblea General Ordinaria llama a asociados  ...  2017/03/23
+
+[12 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2017_03_23.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2781.37it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:37<00:00, 217.68s/it, est. speed input: 25.94 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [03:37<00:00, 217.68s/it, est. speed input: 25.94 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [03:37<00:00, 217.68s/it, est. speed input: 25.94 toks/s, output: 3.06 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0                Pizarro marca en goleada del Bremen  ...  2017/03/23
+1            Alemania vence a Inglaterra en amistoso  ...  2017/03/23
+2                              Goles internacionales  ...  2017/03/23
+3         Nueva dirección en Universidad de Deportes  ...  2017/03/23
+4  Hinchas respaldan a Ramirez para presidente de...  ...  2017/03/23
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/4 from correo_2017_03_23.csv
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2017_03_23.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (34710 tokens), chunking: data/txt/correo/2018/12/correo_21.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2688.66it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:48<00:00, 168.87s/it, est. speed input: 57.00 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:48<00:00, 168.87s/it, est. speed input: 57.00 toks/s, output: 2.97 toks/s]Processed prompts: 100%|██████████| 1/1 [02:48<00:00, 168.87s/it, est. speed input: 57.00 toks/s, output: 2.97 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_12_21.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2077.42it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [09:11<00:00, 551.11s/it, est. speed input: 16.68 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [09:11<00:00, 551.11s/it, est. speed input: 16.68 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [09:11<00:00, 551.11s/it, est. speed input: 16.68 toks/s, output: 3.06 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_12_21.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 550.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.31s/it, est. speed input: 38.08 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.31s/it, est. speed input: 38.08 toks/s, output: 3.01 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.31s/it, est. speed input: 38.08 toks/s, output: 3.01 toks/s]
+GPU Memory: 43175, 2314
+                                            headline  ...        date
+0     Pisacoma y Hua— — vezen las en esta actividad.  ...  2018/12/21
+1  Critican rol gubernamental ante Derechos Funda...  ...  2018/12/21
+2  Waltter Aduviri Calisaya, nuevo gobernador de ...  ...  2018/12/21
+3  Capturan a líderes de ‘Los Malditos del Transp...  ...  2018/12/21
+4  Mandatario defiende decisión de retirar tropas...  ...  2018/12/21
+5  Justicia argentina llevará a juicio oral a Fer...  ...  2018/12/21
+6         Narrador de cuentos presenta nueva edición  ...  2018/12/21
+7                  Homenaje a Harvey Weinstein en NY  ...  2018/12/21
+8     Germán Denis desea éxito a la hinchada cremosa  ...  2018/12/21
+
+[9 rows x 6 columns]
+✓ Extracted chunk 3/4 from correo_2018_12_21.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 843.75it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:43<00:00, 343.27s/it, est. speed input: 16.30 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [05:43<00:00, 343.27s/it, est. speed input: 16.30 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [05:43<00:00, 343.27s/it, est. speed input: 16.30 toks/s, output: 3.08 toks/s]
+GPU Memory: 43175, 2314
+Error getting csv from correo_2018_12_21.csv in chunk 4/4
+GPU Memory: 43175, 2314
+✓ Extracted text to correo_2018_12_21.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (35595 tokens), chunking: data/txt/correo/2015/04/correo_04.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2673.23it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:18<00:00, 198.24s/it, est. speed input: 50.17 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:18<00:00, 198.24s/it, est. speed input: 50.17 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [03:18<00:00, 198.24s/it, est. speed input: 50.17 toks/s, output: 2.99 toks/s]
+GPU Memory: 43175, 2314
+                                             headline  ...        date
+0   Designación de Pedro Cateriano genera controve...  ...  2015/04/04
+1         Dudas sobre el futuro político de Cateriano  ...  2015/04/04
+2   Critican torpeza política en la selección de C...  ...  2015/04/04
+3            Más comentarios adversos hacia Cateriano  ...  2015/04/04
+4     Evaluación pesimista sobre el impacto económico  ...  2015/04/04
+5            Apreciación positiva de César Villanueva  ...  2015/04/04
+6         Novedades sobre nuevos cargos ministeriales  ...  2015/04/04
+7                                                None  ...  2015/04/04
+8      Rodriguez Mackay opina sobre Canciller Sánchez  ...  2015/04/04
+9          Sugiere revisar antecedentes de candidatos  ...  2015/04/04
+10     Preguntas persistentes sobre el nuevo gabinete  ...  2015/04/04
+
+[11 rows x 6 columns]
+✓ Extracted chunk 1/4 from correo_2015_04_04.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2613.27it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]

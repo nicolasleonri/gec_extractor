@@ -7743,4 +7743,1368 @@ GPU Memory: 74455, 6702
 ✓ Extracted chunk 3/4 from trome_2016_02_25.csv
 Processing chunk: 4/4
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2344.50it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [42:48<00:00, 2568.04s/it, est. speed input: 2.60 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [42:48<00:00, 2568.04s/it, est. speed input: 2.60 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [42:48<00:00, 2568.05s/it, est. speed input: 2.60 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_02_25.csv in chunk 4/4
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2016_02_25.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (50146 tokens), chunking: data/txt/trome/2019/11/trome_08.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1862.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.66s/it, est. speed input: 77.84 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.66s/it, est. speed input: 77.84 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.66s/it, est. speed input: 77.84 toks/s, output: 3.08 toks/s]
+GPU Memory: 74455, 6702
+                                    headline  ...        date
+0  Cuidado con las drogas entre adolescentes  ...  2019/11/08
+1            Nepotismo en el gobierno actual  ...  2019/11/08
+2    Evaluación política previa a elecciones  ...  2019/11/08
+3        Informalidad en transportes urbanos  ...  2019/11/08
+4                  Pancakes dulces navideños  ...  2019/11/08
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/5 from trome_2019_11_08.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2048.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.13s/it, est. speed input: 98.37 toks/s, output: 3.05 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.13s/it, est. speed input: 98.37 toks/s, output: 3.05 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.14s/it, est. speed input: 98.37 toks/s, output: 3.05 toks/s]
+GPU Memory: 74455, 6702
+                                           headline  ...        date
+0    Revelan detalles escandalosos de caso judicial  ...  2019/11/08
+1  Papa y sus dos hijos caen por secuestro y drogas  ...  2019/11/08
+2                             Huacho está de fiesta  ...  2019/11/08
+
+[3 rows x 6 columns]
+✓ Extracted chunk 2/5 from trome_2019_11_08.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2044.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.55s/it, est. speed input: 61.49 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.55s/it, est. speed input: 61.49 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:13<00:00, 193.55s/it, est. speed input: 61.49 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0       Militancia política en elecciones municipales  ...  2019/11/08
+1                    Firmas contra violencia familiar  ...  2019/11/08
+2                Celebra tu cumpleaños en Plaza Norte  ...  2019/11/08
+3       Aprovecha promociones especiales en Inkafarma  ...  2019/11/08
+4               Torneo Interligas de Segunda División  ...  2019/11/08
+5                Sigue la campaña electoral municipal  ...  2019/11/08
+6                   Inauguran exposiciones culturales  ...  2019/11/08
+7                    Novedades en eventos espectáculo  ...  2019/11/08
+8   Pablo Lavandeira habla sobre el futuro de Spor...  ...  2019/11/08
+9   Aspiraciones de Melgar en competencias interna...  ...  2019/11/08
+10  Duda sobre presencia de Rodrguez en próximo juego  ...  2019/11/08
+11           Bernardo Cuesta deja Melgar rumbo a Asia  ...  2019/11/08
+
+[12 rows x 6 columns]
+✓ Extracted chunk 3/5 from trome_2019_11_08.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 806.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:10<00:00, 190.25s/it, est. speed input: 56.55 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:10<00:00, 190.25s/it, est. speed input: 56.55 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:10<00:00, 190.25s/it, est. speed input: 56.55 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                 headline  ...        date
+0          Malo llamada fractura del pene  ...  2019/11/08
+1                          Hilos dentales  ...  2019/11/08
+2                    Sigue estos consejos  ...  2019/11/08
+3               Lucha contra el sobrepeso  ...  2019/11/08
+4                      Peligros digitales  ...  2019/11/08
+5                       Celebra Halloween  ...  2019/11/08
+6  Investiga el uso de huellas dactilares  ...  2019/11/08
+7                    Aventuras literarias  ...  2019/11/08
+
+[8 rows x 6 columns]
+✓ Extracted chunk 4/5 from trome_2019_11_08.csv
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2498.10it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:01<00:00, 62.00s/it, est. speed input: 85.28 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [01:01<00:00, 62.00s/it, est. speed input: 85.28 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [01:01<00:00, 62.00s/it, est. speed input: 85.28 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2019_11_08.csv in chunk 5/5
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2019_11_08.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (31949 tokens), chunking: data/txt/trome/2015/05/trome_29.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1947.22it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.44s/it, est. speed input: 97.38 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.44s/it, est. speed input: 97.38 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:47<00:00, 107.45s/it, est. speed input: 97.38 toks/s, output: 3.06 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0   WAW TRUÉ ANUNCIA CAMPAÑA NAVIDEÑA PARA EMPRENDES  ...  2015/05/29
+1     BRAZO DE MUJER DESAPARECE EN ACCIDENTE LABORAL  ...  2015/05/29
+2  CULTURA POPULAR SE REFLECTA EN ARQUITECTURA MO...  ...  2015/05/29
+3  HUMALA OFRECERÁ DINERO PERSONAL PARA CAPTURA D...  ...  2015/05/29
+4              MARCHA MASIVA DEMANDA JUSTICIA SOCIAL  ...  2015/05/29
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/3 from trome_2015_05_29.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1987.82it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:23<00:00, 143.60s/it, est. speed input: 76.03 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:23<00:00, 143.60s/it, est. speed input: 76.03 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:23<00:00, 143.60s/it, est. speed input: 76.03 toks/s, output: 3.08 toks/s]
+GPU Memory: 74455, 6702
+                                  headline  ...        date
+0      Cebichería: Manual para empresarios  ...  2015/05/29
+1                Aumento de precio del GLP  ...  2015/05/29
+2   Pareja de director ejecutivo asesinado  ...  2015/05/29
+3  Mundo: Innovación en seguridad femenina  ...  2015/05/29
+4            Colombia crea moda protectora  ...  2015/05/29
+5    Ingresa nueva generación futbolística  ...  2015/05/29
+6           Sobre salud mental y nutrición  ...  2015/05/29
+
+[7 rows x 6 columns]
+✓ Extracted chunk 2/3 from trome_2015_05_29.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1980.31it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.70s/it, est. speed input: 45.26 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.70s/it, est. speed input: 45.26 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.71s/it, est. speed input: 45.26 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0           Para seguir disfrutando de su intimidad.  ...  2015/05/29
+1               Escribe aquí tu contenido principal.  ...  2015/05/29
+2  Cómo afecta la divulgación indebida de videos ...  ...  2015/05/29
+3  Sobre la importancia de recordar conceptos bás...  ...  2015/05/29
+4  Acerca de la privacidad y derechos digitales f...  ...  2015/05/29
+5  Revelaciones judiciales y repercusiones emocio...  ...  2015/05/29
+6  Iniciativas culturales y eventos especiales pr...  ...  2015/05/29
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/3 from trome_2015_05_29.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2015_05_29.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (40437 tokens), chunking: data/txt/trome/2018/02/trome_21.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 748.85it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.92s/it, est. speed input: 48.63 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.92s/it, est. speed input: 48.63 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.92s/it, est. speed input: 48.63 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2018_02_21.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 951.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:47<00:00, 347.04s/it, est. speed input: 29.31 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:47<00:00, 347.04s/it, est. speed input: 29.31 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:47<00:00, 347.04s/it, est. speed input: 29.31 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0                  Cómo estructurar negocios exitosos  ...  2018/02/21
+1                             Competencia empresarial  ...  2018/02/21
+2                            Fidelización de clientes  ...  2018/02/21
+3                  Asesoría para nuevos emprendedores  ...  2018/02/21
+4                                                None  ...  2018/02/21
+5    Herramientas básicas para construcciones sólidas  ...  2018/02/21
+6                                                None  ...  2018/02/21
+7   Investigación criminal: caso de secuestro y ho...  ...  2018/02/21
+8                                                None  ...  2018/02/21
+9   Línea Amarilla: conexión vital entre SJL y Callao  ...  2018/02/21
+10                                               None  ...  2018/02/21
+11        Peligros ocasionados por emociones extremas  ...  2018/02/21
+12                                               None  ...  2018/02/21
+13                    Aventuras infantiles en el cine  ...  2018/02/21
+14                                               None  ...  2018/02/21
+15  Evoluciones físicas radicales para imitar icon...  ...  2018/02/21
+16                                               None  ...  2018/02/21
+17  Sistema educativo prepara nuevas medidas preve...  ...  2018/02/21
+18                                               None  ...  2018/02/21
+19      Talentos emergentes destacan en universidades  ...  2018/02/21
+20                                               None  ...  2018/02/21
+21           Encuentro insólito en el espacio natural  ...  2018/02/21
+22                                               None  ...  2018/02/21
+23                Mitos urbanos versus realidad legal  ...  2018/02/21
+24                                               None  ...  2018/02/21
+25                 Preocupaciones sanitarias globales  ...  2018/02/21
+26                                               None  ...  2018/02/21
+27  Diversificación comercial anticipa temporada e...  ...  2018/02/21
+
+[28 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2018_02_21.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1874.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:13<00:00, 133.55s/it, est. speed input: 84.53 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:13<00:00, 133.55s/it, est. speed input: 84.53 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:13<00:00, 133.55s/it, est. speed input: 84.53 toks/s, output: 3.07 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0   Cómo proteger a tus hijos de los peligros online  ...  2018/02/21
+1  Agricultura orgánica: clave para un futuro sos...  ...  2018/02/21
+2   Historia desconocida de la independencia peruana  ...  2018/02/21
+
+[3 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2018_02_21.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 623.41it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:30<00:00, 90.60s/it, est. speed input: 83.45 toks/s, output: 3.09 toks/s]Processed prompts: 100%|██████████| 1/1 [01:30<00:00, 90.60s/it, est. speed input: 83.45 toks/s, output: 3.09 toks/s]Processed prompts: 100%|██████████| 1/1 [01:30<00:00, 90.60s/it, est. speed input: 83.45 toks/s, output: 3.09 toks/s]
+GPU Memory: 74455, 6702
+                          headline  subheadline  ... newspaper        date
+0                  Locos de Amor 2           NA  ...     trome  2018/02/21
+1  Contenido por Fin de Cuarentena  Habla Trome  ...     trome  2018/02/21
+2                              N/A           NA  ...     trome  2018/02/21
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2018_02_21.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2018_02_21.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (34380 tokens), chunking: data/txt/trome/2018/12/trome_25.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1630.76it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:16<00:00, 256.07s/it, est. speed input: 39.71 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:16<00:00, 256.07s/it, est. speed input: 39.71 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:16<00:00, 256.07s/it, est. speed input: 39.71 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  MOTOTAXISTA FUÉ Y LEVO A HOSPITAL POR AGREDIR ...  ...  2018/12/25
+1  Hija muere aplastada por mototaxi”; “De pronto...  ...  2018/12/25
+2                     Aparece empresario secuestrado  ...  2018/12/25
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2018_12_25.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 530.92it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:59<00:00, 119.56s/it, est. speed input: 85.58 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:59<00:00, 119.56s/it, est. speed input: 85.58 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:59<00:00, 119.56s/it, est. speed input: 85.58 toks/s, output: 3.08 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Municipalidad de Lima restauro el Teatro Manue...  ...  2018/12/25
+1  Tiempos difíciles para el Presidente de la Fed...  ...  2018/12/25
+2  Policías en estado de vigilancia durante festi...  ...  2018/12/25
+3  Avisos importantes relacionados con viajes y e...  ...  2018/12/25
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2018_12_25.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1850.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:22<00:00, 82.86s/it, est. speed input: 141.87 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [01:22<00:00, 82.86s/it, est. speed input: 141.87 toks/s, output: 2.99 toks/s]Processed prompts: 100%|██████████| 1/1 [01:22<00:00, 82.86s/it, est. speed input: 141.87 toks/s, output: 2.99 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0    Marta Manzanál confiesa cambios post maternidad  ...  2018/12/25
+1  Hijo de Nicolás Porcela inspira nuevas metas p...  ...  2018/12/25
+2          Nueva era musical con visita a Disneyland  ...  2018/12/25
+3  Familia y unidad destacan en Navidades especiales  ...  2018/12/25
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2018_12_25.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3628.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 146.82s/it, est. speed input: 10.72 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 146.82s/it, est. speed input: 10.72 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 146.82s/it, est. speed input: 10.72 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+                      headline subheadline  ... newspaper        date
+0                           NA          NA  ...     trome  2018/12/25
+1  Jazmin Pide Paz y Felicidad          NA  ...     trome  2018/12/25
+
+[2 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2018_12_25.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2018_12_25.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (37722 tokens), chunking: data/txt/trome/2017/07/trome_01.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 551.45it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:50<00:00, 110.27s/it, est. speed input: 91.89 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [01:50<00:00, 110.27s/it, est. speed input: 91.89 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [01:50<00:00, 110.27s/it, est. speed input: 91.89 toks/s, output: 3.07 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0    Metro de Lima realiza cambios en ruta por obra|  ...  2017/07/01
+1  Aumentan casos de COVID-19 en regiones limítro...  ...  2017/07/01
+2  Crisis climática afecta producción agrícola re...  ...  2017/07/01
+3  Investigación revela nuevas evidencias sobre c...  ...  2017/07/01
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2017_07_01.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1480.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.65s/it, est. speed input: 61.18 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.65s/it, est. speed input: 61.18 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:54<00:00, 174.65s/it, est. speed input: 61.18 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                 headline  ...        date
+0       Informe Económico  ...  2017/07/01
+1      Tremors Shake Lima  ...  2017/07/01
+2          Fallo Judicial  ...  2017/07/01
+3         Asalto Violento  ...  2017/07/01
+4  Cuestionamiento Médico  ...  2017/07/01
+5         Sismo Reportado  ...  2017/07/01
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2017_07_01.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 667.03it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:27<00:00, 267.84s/it, est. speed input: 38.59 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:27<00:00, 267.84s/it, est. speed input: 38.59 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:27<00:00, 267.84s/it, est. speed input: 38.59 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Pablo Bengoechea conversó con Lionard Pajoy, l...  ...  2017/07/01
+1           Historia del Club Social y Cultural Boys  ...  2017/07/01
+2  Erick Delgado cumplió 35 años y volvería a Cri...  ...  2017/07/01
+3  Lazo y Garcilaso volteó a Ramúa meti 3–2 a Can...  ...  2017/07/01
+4  Maju Mantilla sobre perfumes, comida, mascotas...  ...  2017/07/01
+5               Aviso comercial – Ofertas especiales  ...  2017/07/01
+6  Cassinelli ofrece grandes descuentos en mueble...  ...  2017/07/01
+7   Diseño personalizado para mujeres – Tips de moda  ...  2017/07/01
+8             Entrevista exclusiva con Denisse Dibós  ...  2017/07/01
+
+[9 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2017_07_01.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2454.24it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.88s/it, est. speed input: 41.85 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.88s/it, est. speed input: 41.85 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [02:09<00:00, 129.88s/it, est. speed input: 41.85 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+                          headline  ...        date
+0  EL BUHO Y SU VIAJE DE PROMOCIÓN  ...  2017/07/01
+1       SÁBADO 1 DE JULIO DEL 2017  ...  2017/07/01
+2           CARTAS: Doctora Carmen  ...  2017/07/01
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2017_07_01.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2017_07_01.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (36612 tokens), chunking: data/txt/trome/2018/01/trome_02.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 664.71it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.03s/it, est. speed input: 74.05 toks/s, output: 3.09 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.03s/it, est. speed input: 74.05 toks/s, output: 3.09 toks/s]Processed prompts: 100%|██████████| 1/1 [02:18<00:00, 138.03s/it, est. speed input: 74.05 toks/s, output: 3.09 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0                        EN FIESTA ASTA EL AMANECER   ...  2018/01/02
+1  HAY QUE VERLO COMO UNA OPORTUNIDAD DE CONCRETA...  ...  2018/01/02
+2                             META PARA EL AÑO NUEVO  ...  2018/01/02
+3              AÑO NUEVO ES EMPIEZAR CON POSITIVISMO  ...  2018/01/02
+4                       SALIDA TRAGADA POR ACCIDENTE  ...  2018/01/02
+5  CUMPLE SU DESTINO ROBAR CAMÉS PARA CENA DE AÑO...  ...  2018/01/02
+6      FAMILIAS RECARGAN ENERGIAS PRIMER DÍA DEL AÑO  ...  2018/01/02
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2018_01_02.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1529.09it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:51<00:00, 231.29s/it, est. speed input: 44.56 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:51<00:00, 231.29s/it, est. speed input: 44.56 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:51<00:00, 231.29s/it, est. speed input: 44.56 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  En otras partes del distrito, jóvenes durmiend...  ...  2018/01/02
+1  Averigua cómo evitar accidentes durante viajes...  ...  2018/01/02
+2               Cambio cultural visible en Venezuela  ...  2018/01/02
+3  Fiesta gastronómica muestra moda china inspira...  ...  2018/01/02
+4     Peligro en cielo costarricense revela tragedia  ...  2018/01/02
+5  Historia peculiar de un regalo guardado por dé...  ...  2018/01/02
+6  Investigación paleontológica halla ovnis de ép...  ...  2018/01/02
+7                Meditación antes de comenzar el año  ...  2018/01/02
+8                  Sorpresa culinaria espera abierta  ...  2018/01/02
+9      Asombro mundial por descubrimiento científico  ...  2018/01/02
+
+[10 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2018_01_02.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2033.11it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:30<00:00, 330.28s/it, est. speed input: 35.72 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [05:30<00:00, 330.28s/it, est. speed input: 35.72 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [05:30<00:00, 330.28s/it, est. speed input: 35.72 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2018_01_02.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 931.65it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:58<00:00, 58.57s/it, est. speed input: 60.62 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [00:58<00:00, 58.57s/it, est. speed input: 60.62 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [00:58<00:00, 58.57s/it, est. speed input: 60.62 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+               headline subheadline  ... newspaper        date
+0  Radiofrafía Politica          NA  ...     trome  2018/01/02
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2018_01_02.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2018_01_02.csv
+Output already exists.
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39131 tokens), chunking: data/txt/trome/2016/02/trome_09.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1878.33it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:58<00:00, 118.20s/it, est. speed input: 90.10 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:58<00:00, 118.20s/it, est. speed input: 90.10 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:58<00:00, 118.20s/it, est. speed input: 90.10 toks/s, output: 3.06 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0     Fueron ampayados en Barranco viendo 'depósito'  ...  2016/02/09
+1  Parrillaron a mujer que tiene siete meses de g...  ...  2016/02/09
+2  Cómo hablar mejor, el debate entre el Puma Cor...  ...  2016/02/09
+3  Leyendas de torturas en el régimen de Alberto ...  ...  2016/02/09
+4  Nadine Heredia espera decisión del jurado elec...  ...  2016/02/09
+5  Gonzalo Monteverde presenta nueva estrategia a...  ...  2016/02/09
+6             Aprovecha nuestras ofertas exclusivas!  ...  2016/02/09
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2016_02_09.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2116.20it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.80s/it, est. speed input: 63.21 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.80s/it, est. speed input: 63.21 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.80s/it, est. speed input: 63.21 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Amplían horario de acceso a túneles ‘Santa Ros...  ...  2016/02/09
+1      Humberto Guzmán, de EMAPE, destaca beneficios  ...  2016/02/09
+2   Fiestas multiculturales llenan el Centro de Lima  ...  2016/02/09
+3       Suspenden empresario por insultar a policías  ...  2016/02/09
+4          Rescate masivo en playas de Lima y Callao  ...  2016/02/09
+5  Pelea callejera provoca disturbios en barrios ...  ...  2016/02/09
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2016_02_09.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1512.01it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [29:57<00:00, 1797.89s/it, est. speed input: 5.93 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [29:57<00:00, 1797.89s/it, est. speed input: 5.93 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [29:57<00:00, 1797.89s/it, est. speed input: 5.93 toks/s, output: 3.18 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_02_09.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2029.17it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:32<00:00, 92.86s/it, est. speed input: 73.33 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [01:32<00:00, 92.86s/it, est. speed input: 73.33 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [01:32<00:00, 92.86s/it, est. speed input: 73.33 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0                              Subtitulo desconocido  ...  2016/02/09
+1               Satisfactorio final de la cuarentena  ...  2016/02/09
+2  NUEVO LEÓN: Detienen a tres personas relaciona...  ...  2016/02/09
+3  Aumento significativo en precios de productos ...  ...  2016/02/09
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2016_02_09.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2016_02_09.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (45871 tokens), chunking: data/txt/trome/2017/10/trome_03.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 547.13it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:58<00:00, 118.53s/it, est. speed input: 84.98 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:58<00:00, 118.53s/it, est. speed input: 84.98 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [01:58<00:00, 118.53s/it, est. speed input: 84.98 toks/s, output: 3.08 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  MARTINEZ CONDENADO A PRISION PERPETUA POR MATA...  ...  2017/10/03
+1                            HOMICIDIO EN LOS OLIVOS  ...  2017/10/03
+2  SUSPENDEN ACTIVIDADES ESCOLARES POR PROTESTAS ...  ...  2017/10/03
+3              CUMPLE CUARENTENA PRESIDENTE CASTILLA  ...  2017/10/03
+4               PROMOCIONES DIARIAS EN SUPERMERCADOS  ...  2017/10/03
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/5 from trome_2017_10_03.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 459.20it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:39<00:00, 399.75s/it, est. speed input: 26.29 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [06:39<00:00, 399.75s/it, est. speed input: 26.29 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [06:39<00:00, 399.75s/it, est. speed input: 26.29 toks/s, output: 3.16 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2017_10_03.csv in chunk 2/5
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2086.72it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:34<00:00, 334.09s/it, est. speed input: 30.15 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:34<00:00, 334.09s/it, est. speed input: 30.15 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:34<00:00, 334.09s/it, est. speed input: 30.15 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0                                El loco del martillo  ...  2017/10/03
+1                     Contenido por fin de cuarentena  ...  2017/10/03
+2   Afiló sus garras”;“’Estamos listos para jugar ...  ...  2017/10/03
+3                     Luis Advíncula, lateral de Perú  ...  2017/10/03
+4                          Florencia completa SBBCI¿£  ...  2017/10/03
+5   Jefferson Farfán fue el jugador más fotografia...  ...  2017/10/03
+6   Rebecca y yo marcho por Ti Jaime Chiquilllo Du...  ...  2017/10/03
+7                                 Eusebio Chevo Acaso  ...  2017/10/03
+8   Sergio Romero será titular en el arco contra P...  ...  2017/10/03
+9   GAGO COINCIDIÓ EN TODO CON MESES|,SU CAPITÁN, ...  ...  2017/10/03
+10  Buenos Aires.- Toda comparación no es odiosa. ...  ...  2017/10/03
+11                   Colombiano llega con poco fútbol  ...  2017/10/03
+12  Pablo Bengoechea asegura que Alianza Lima tend...  ...  2017/10/03
+
+[13 rows x 6 columns]
+✓ Extracted chunk 3/5 from trome_2017_10_03.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1710.56it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:10<00:00, 250.52s/it, est. speed input: 49.91 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [04:10<00:00, 250.52s/it, est. speed input: 49.91 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [04:10<00:00, 250.52s/it, est. speed input: 49.91 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2017_10_03.csv in chunk 4/5
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1633.30it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:39<00:00, 279.46s/it, est. speed input: 6.39 toks/s, output: 3.20 toks/s]Processed prompts: 100%|██████████| 1/1 [04:39<00:00, 279.46s/it, est. speed input: 6.39 toks/s, output: 3.20 toks/s]Processed prompts: 100%|██████████| 1/1 [04:39<00:00, 279.46s/it, est. speed input: 6.39 toks/s, output: 3.20 toks/s]
+GPU Memory: 74455, 6702
+                          headline  ...        date
+0                               NA  ...  2017/10/03
+1  Oen Los chicharrones, Hermanos!  ...  2017/10/03
+2  A muerte y dolor en las vegas:   ...  2017/10/03
+
+[3 rows x 6 columns]
+✓ Extracted chunk 5/5 from trome_2017_10_03.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2017_10_03.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (49654 tokens), chunking: data/txt/trome/2019/05/trome_13.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1788.62it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.06s/it, est. speed input: 74.98 toks/s, output: 3.09 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.06s/it, est. speed input: 74.98 toks/s, output: 3.09 toks/s]Processed prompts: 100%|██████████| 1/1 [02:19<00:00, 139.06s/it, est. speed input: 74.98 toks/s, output: 3.09 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0            Tragedia deja saldo fatal en Los Olivos  ...  2019/05/13
+1  Homicidios relacionados con guerra interna sin...  ...  2019/05/13
+2        Campaña navideña ofrece importantes rebajas  ...  2019/05/13
+3  Nacimiento celebrado en instituciones médicas ...  ...  2019/05/13
+4  Audiencia clave determinará futuro judicial de...  ...  2019/05/13
+
+[5 rows x 6 columns]
+✓ Extracted chunk 1/5 from trome_2019_05_13.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2152.03it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.92s/it, est. speed input: 49.32 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.92s/it, est. speed input: 49.32 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.93s/it, est. speed input: 49.32 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Centro de Andahuaylas, en Apurimac, se convier...  ...  2019/05/13
+1    Homicida fue detenido y reconocido sus crímenes  ...  2019/05/13
+2                    Ancianita cuidadora galardonada  ...  2019/05/13
+3                       Celebración de éxito en Lima  ...  2019/05/13
+4                Pueblo lambayequeño rendirá tributo  ...  2019/05/13
+5      Lamentables eventos en San Juan de Lurigancho  ...  2019/05/13
+6       Municipalidad inspecciona negocios nocturnos  ...  2019/05/13
+7               Novedades en modos de robo automotor  ...  2019/05/13
+8             Asamblea cultural en memoria religiosa  ...  2019/05/13
+9     Información relevante sobre transporte público  ...  2019/05/13
+
+[10 rows x 6 columns]
+✓ Extracted chunk 2/5 from trome_2019_05_13.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 542.67it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:11<00:00, 311.91s/it, est. speed input: 39.01 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [05:11<00:00, 311.91s/it, est. speed input: 39.01 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [05:11<00:00, 311.91s/it, est. speed input: 39.01 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2019_05_13.csv in chunk 3/5
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1664.41it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:01<00:00, 241.59s/it, est. speed input: 46.10 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:01<00:00, 241.59s/it, est. speed input: 46.10 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:01<00:00, 241.59s/it, est. speed input: 46.10 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2019_05_13.csv in chunk 4/5
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2646.25it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:50<00:00, 290.39s/it, est. speed input: 15.79 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [04:50<00:00, 290.39s/it, est. speed input: 15.79 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [04:50<00:00, 290.39s/it, est. speed input: 15.79 toks/s, output: 3.18 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2019_05_13.csv in chunk 5/5
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2019_05_13.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (34512 tokens), chunking: data/txt/trome/2014/05/trome_29.txt
+Processing chunk: 1/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1893.59it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.25s/it, est. speed input: 79.22 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.25s/it, est. speed input: 79.22 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:14<00:00, 134.25s/it, est. speed input: 79.22 toks/s, output: 3.08 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0     Critican falta de acción ante crisis económica  ...  2014/05/29
+1             Historia personal de un padre dedicado  ...  2014/05/29
+2           Informe sobre accidente fatal de bombero  ...  2014/05/29
+3  Solicitud pública para participar en simulacro...  ...  2014/05/29
+4  Audiencia judicial relacionada con casos polít...  ...  2014/05/29
+5   Drama familiar provocado por violencia callejera  ...  2014/05/29
+
+[6 rows x 6 columns]
+✓ Extracted chunk 1/3 from trome_2014_05_29.csv
+Processing chunk: 2/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 560.74it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:11<00:00, 191.96s/it, est. speed input: 65.32 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [03:11<00:00, 191.96s/it, est. speed input: 65.32 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [03:11<00:00, 191.97s/it, est. speed input: 65.32 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                                          headline  ...        date
+0   Nacional Concentra el 18.2%; Jockey Plaza 9.5%  ...  2014/05/29
+1          Contenido Felicitaciones Fin Cuarentena  ...  2014/05/29
+2                       Médicos No Levantan Huelga  ...  2014/05/29
+3                              Frustrados Intentos  ...  2014/05/29
+4                         Copa del Mundo Incidente  ...  2014/05/29
+5                            Alemania Más Poderosa  ...  2014/05/29
+6                 Investigan Secuestros Familiares  ...  2014/05/29
+7                       Historia Imperio Americano  ...  2014/05/29
+8             Evaluación Selecciones Futbolísticas  ...  2014/05/29
+9                     Peligro Extrema Temperaturas  ...  2014/05/29
+10                Sabella Entrega Lista Definitiva  ...  2014/05/29
+11              Torneo Internacional Planificación  ...  2014/05/29
+12           Gobierno Propone Pensiones Vitalicias  ...  2014/05/29
+13                       Bomba Mundialistas México  ...  2014/05/29
+14                        Lluvia Entrena Selección  ...  2014/05/29
+15                 Análisis Económico Proyecciones  ...  2014/05/29
+
+[16 rows x 6 columns]
+✓ Extracted chunk 2/3 from trome_2014_05_29.csv
+Processing chunk: 3/3
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1669.04it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:38<00:00, 278.75s/it, est. speed input: 35.07 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:38<00:00, 278.75s/it, est. speed input: 35.07 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:38<00:00, 278.75s/it, est. speed input: 35.07 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Al debilitamiento del vínculo de amor lleva a ...  ...  2014/05/29
+1   Aprovecha estos momentos juntos para fortalece...  ...  2014/05/29
+2        Ingredientes para preparar pescado pan-frito  ...  2014/05/29
+3                                                None  ...  2014/05/29
+4   Cómo enfrentar problemas vasculares en los gen...  ...  2014/05/29
+5                                                None  ...  2014/05/29
+6   Melissa revela detalles sobre su separación de...  ...  2014/05/29
+7                                                None  ...  2014/05/29
+8   Técnicas culinarias simples para deleites gast...  ...  2014/05/29
+9                                                None  ...  2014/05/29
+10            Complicidad matrimonial post-cuarentena  ...  2014/05/29
+11                                               None  ...  2014/05/29
+12      Tratamiento quirúrgico mínimo para varicocele  ...  2014/05/29
+13                                               None  ...  2014/05/29
+14  Experiencias maternales y paternales en situac...  ...  2014/05/29
+15                                               None  ...  2014/05/29
+16          Saborizando recetas con técnicas modernas  ...  2014/05/29
+
+[17 rows x 6 columns]
+✓ Extracted chunk 3/3 from trome_2014_05_29.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2014_05_29.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (38626 tokens), chunking: data/txt/trome/2016/12/trome_28.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1934.64it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:54<00:00, 114.48s/it, est. speed input: 92.64 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:54<00:00, 114.48s/it, est. speed input: 92.64 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:54<00:00, 114.48s/it, est. speed input: 92.64 toks/s, output: 3.06 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_12_28.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 927.12it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:30<00:00, 90.74s/it, est. speed input: 112.97 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [01:30<00:00, 90.74s/it, est. speed input: 112.97 toks/s, output: 3.03 toks/s]Processed prompts: 100%|██████████| 1/1 [01:30<00:00, 90.74s/it, est. speed input: 112.97 toks/s, output: 3.03 toks/s]
+GPU Memory: 74455, 6702
+                                headline subheadline  ... newspaper        date
+0           Conteo Registros Electorales          NA  ...     trome  2016/12/28
+1        Torneo Internacional de Ajedrez          NA  ...     trome  2016/12/28
+2                     Aumento de Precios          NA  ...     trome  2016/12/28
+3           Celebridades Internacionales          NA  ...     trome  2016/12/28
+4                 Innovación Tecnológica          NA  ...     trome  2016/12/28
+5  Serie Documental sobre Historia Local          NA  ...     trome  2016/12/28
+
+[6 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2016_12_28.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1950.84it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:59<00:00, 239.64s/it, est. speed input: 46.58 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:59<00:00, 239.64s/it, est. speed input: 46.58 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:59<00:00, 239.64s/it, est. speed input: 46.58 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                       headline  ...        date
+0   Haz realidade tus objetivos  ...  2016/12/28
+1   Novedosos cursos y talleres  ...  2016/12/28
+2          Seducida por el arte  ...  2016/12/28
+3               Dime quién eres  ...  2016/12/28
+4      Atrapada entre emociones  ...  2016/12/28
+5      Fiesta de reconciliación  ...  2016/12/28
+6              Pelea de titanes  ...  2016/12/28
+7                Cambio radical  ...  2016/12/28
+8                Debut esperado  ...  2016/12/28
+9              Romance renovado  ...  2016/12/28
+10               Viaje cultural  ...  2016/12/28
+11          Lluvia de proyectos  ...  2016/12/28
+
+[12 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2016_12_28.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 659.38it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:35<00:00, 95.82s/it, est. speed input: 58.56 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:35<00:00, 95.82s/it, est. speed input: 58.56 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [01:35<00:00, 95.82s/it, est. speed input: 58.56 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                   headline  ...        date
+0  DESCUBREN POR QUÉ LOS OCÉANOS SON AZULES  ...  2016/12/28
+1              PREGUNTANDOLE AL DR. CARMELO  ...  2016/12/28
+2        AÑO NUEVO, MEJOR SUERTE PARA TODOS  ...  2016/12/28
+3        SIENTE LO BUENO ESTE FIN DE SEMANA  ...  2016/12/28
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2016_12_28.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2016_12_28.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (42625 tokens), chunking: data/txt/trome/2015/02/trome_23.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1954.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:49<00:00, 289.86s/it, est. speed input: 36.73 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:49<00:00, 289.86s/it, est. speed input: 36.73 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:49<00:00, 289.86s/it, est. speed input: 36.73 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Cómo emprendedores inspiradores logran éxitos ...  ...  2015/02/23
+1   Habilidades clave compartidas por líderes mund...  ...  2015/02/23
+2   Pregunta pública: Opiniones sobre políticas gu...  ...  2015/02/23
+3          Tuit del día: Críticas políticas satíricas  ...  2015/02/23
+4   Asamblea general extraordinaria de vivienda Br...  ...  2015/02/23
+5        Ahorro significativo en supermercados Tottus  ...  2015/02/23
+6    Luto tras violencia nocturna en cantinas locales  ...  2015/02/23
+7   Información relevante sobre universidades públ...  ...  2015/02/23
+8     Nueva oportunidad laboral en construcción civil  ...  2015/02/23
+9   Sorpresa mortal en Surco causada por celos amo...  ...  2015/02/23
+10  Atención médica urgente requerida tras acciden...  ...  2015/02/23
+11  Suceso dramático en prisión termina en tragedi...  ...  2015/02/23
+12  Diversión asegurada en festividad canina multi...  ...  2015/02/23
+13  Evaluación sociológica sobre discriminación co...  ...  2015/02/23
+
+[14 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2015_02_23.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1903.04it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:44<00:00, 224.69s/it, est. speed input: 49.13 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:44<00:00, 224.69s/it, est. speed input: 49.13 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:44<00:00, 224.69s/it, est. speed input: 49.13 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0                          Aplicaron 16 mil papeletas  ...  2015/02/23
+1                      Piden donantes de leche humana  ...  2015/02/23
+2                        Llama atención meteorológica  ...  2015/02/23
+3              Denucan marihuaneros en Campo de Marte  ...  2015/02/23
+4                     Nueva política contra espionaje  ...  2015/02/23
+5   Waldo Ríos declara millonaria inversión electoral  ...  2015/02/23
+6         Incremento de operativos policiales en Lima  ...  2015/02/23
+7                   Celebra cumpleaños Divadel Bronxs  ...  2015/02/23
+8   Economistas advierten riesgos de endeudamiento...  ...  2015/02/23
+9    Festival de cine critica película estadounidense  ...  2015/02/23
+10    Gobierno fortalece medidas internas post-crisis  ...  2015/02/23
+
+[11 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2015_02_23.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 15.78it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:14<00:00, 194.29s/it, est. speed input: 62.88 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [03:14<00:00, 194.29s/it, est. speed input: 62.88 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [03:14<00:00, 194.30s/it, est. speed input: 62.88 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2015_02_23.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2334.06it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.24s/it, est. speed input: 59.72 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.24s/it, est. speed input: 59.72 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [02:01<00:00, 121.24s/it, est. speed input: 59.72 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Comediante dice sentirse motivado para estar f...  ...  2015/02/23
+1  Cómico confirma cambio físico tras operación”;...  ...  2015/02/23
+2    Fama revela recibir muchas propuestas indebidas  ...  2015/02/23
+3  Diferenciación de programa familiar según cond...  ...  2015/02/23
+4  Afirmación sobre contenido genuino del show fa...  ...  2015/02/23
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2015_02_23.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2015_02_23.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (40391 tokens), chunking: data/txt/trome/2018/07/trome_22.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 699.05it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:32<00:00, 272.48s/it, est. speed input: 38.59 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:32<00:00, 272.48s/it, est. speed input: 38.59 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:32<00:00, 272.48s/it, est. speed input: 38.59 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0              Miles Celebran Estrella en la Bandera  ...  2018/07/22
+1            Gente Celebra Cumpleaños de Walter Ríos  ...  2018/07/22
+2  Sistema Educativo Promueve Créditos para Profe...  ...  2018/07/22
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2018_07_22.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1338.75it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:36<00:00, 276.05s/it, est. speed input: 39.33 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:36<00:00, 276.05s/it, est. speed input: 39.33 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:36<00:00, 276.06s/it, est. speed input: 39.33 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Justicia. Reemplaza en el cargo al oficialista...  ...  2018/07/22
+1   Sobre la designación de Zeballos, el Premier C...  ...  2018/07/22
+2   En el caso de la mafia”;“Etártasa de diferente...  ...  2018/07/22
+3   Autoridades Municipales de la zona tomar carta...  ...  2018/07/22
+4   Causa preocupación la mafia conocida como ‘Mar...  ...  2018/07/22
+5   Efectivos policiales arrestaron a integrantes ...  ...  2018/07/22
+6   Gobierno captura a líder de red criminal”;“Det...  ...  2018/07/22
+7   Familia encuentra cuerpo sin vida”;“Cadáver en...  ...  2018/07/22
+8   Historia detrás de Jennifer López’s look inspi...  ...  2018/07/22
+9   Lideresa libanesa implementa política controve...  ...  2018/07/22
+10  Ingeniero peruano celebra siglo de vida saluda...  ...  2018/07/22
+11  Dirección General de Inteligencia Militar capt...  ...  2018/07/22
+12  Messi y Ronaldo concluyen participación en Cop...  ...  2018/07/22
+13  Neymar cierra ciclo internacional con eliminac...  ...  2018/07/22
+14  Selección Peruana busca renovar compromisos po...  ...  2018/07/22
+
+[15 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2018_07_22.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1068.34it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:05<00:00, 125.08s/it, est. speed input: 88.80 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:05<00:00, 125.08s/it, est. speed input: 88.80 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [02:05<00:00, 125.08s/it, est. speed input: 88.80 toks/s, output: 3.07 toks/s]
+GPU Memory: 74455, 6702
+                                  headline  ...        date
+0  Publican de ‘La Gratitud’ en Trome”;NA"  ...  2018/07/22
+1                       Apreciación Canina  ...  2018/07/22
+2                 Cómo Engreír a Tu Pareja  ...  2018/07/22
+3             Sigue Conquistando Corazones  ...  2018/07/22
+4                     No Más Infidelidades  ...  2018/07/22
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2018_07_22.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2452.81it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:47<00:00, 47.41s/it, est. speed input: 150.89 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:47<00:00, 47.41s/it, est. speed input: 150.89 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:47<00:00, 47.41s/it, est. speed input: 150.89 toks/s, output: 3.00 toks/s]
+GPU Memory: 74455, 6702
+  headline subheadline  ... newspaper        date
+0      N/A         N/A  ...     trome  2018/07/22
+
+[1 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2018_07_22.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2018_07_22.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (45389 tokens), chunking: data/txt/trome/2017/10/trome_27.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 122.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [10:26<00:00, 626.29s/it, est. speed input: 17.00 toks/s, output: 3.17 toks/s]Processed prompts: 100%|██████████| 1/1 [10:26<00:00, 626.29s/it, est. speed input: 17.00 toks/s, output: 3.17 toks/s]Processed prompts: 100%|██████████| 1/1 [10:26<00:00, 626.29s/it, est. speed input: 17.00 toks/s, output: 3.17 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0                Contenido estructuralmente complejo  ...  2017/10/27
+1                   Sobreprecio en alimentos básicos  ...  2017/10/27
+2                    Informe sobre violencia juvenil  ...  2017/10/27
+3         Historia personal de negligencia sanitaria  ...  2017/10/27
+4               Critica hacia dependientes digitales  ...  2017/10/27
+5   Derechos laborales y acceso a servicios públicos  ...  2017/10/27
+6            Pregunta pública sobre prisión política  ...  2017/10/27
+7  Evaluación de liderazgos políticos contemporáneos  ...  2017/10/27
+
+[8 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2017_10_27.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 678.03it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.29s/it, est. speed input: 49.65 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.29s/it, est. speed input: 49.65 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:42<00:00, 222.30s/it, est. speed input: 49.65 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   President visits Grand Market after quarantine...  ...  2017/10/27
+1   Celebrity followers continue siege over electi...  ...  2017/10/27
+2     Lunchtime attractions draw crowds amid heatwave  ...  2017/10/27
+3   Pisciculture thrives amidst rising mercury levels  ...  2017/10/27
+4                   Innovative drinks offered at bars  ...  2017/10/27
+5                  Festival celebrates food diversity  ...  2017/10/27
+6            Young census workers demand unpaid wages  ...  2017/10/27
+7    Saturdays special offers across various products  ...  2017/10/27
+8            Homicidal spree shocks San Juan district  ...  2017/10/27
+9   Gang member confesses cold-bloodedly killing f...  ...  2017/10/27
+10   Arsenal found hidden within suspect’s belongings  ...  2017/10/27
+11            Metrocenter unveils massive sales event  ...  2017/10/27
+
+[12 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2017_10_27.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2125.85it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:39<00:00, 99.37s/it, est. speed input: 119.13 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [01:39<00:00, 99.37s/it, est. speed input: 119.13 toks/s, output: 3.02 toks/s]Processed prompts: 100%|██████████| 1/1 [01:39<00:00, 99.37s/it, est. speed input: 119.13 toks/s, output: 3.02 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Casi toda Sudamérica, México y Europa apoya a ...  ...  2017/10/27
+1  Tengo muchas expectativas respecto al futuro d...  ...  2017/10/27
+2  Hay preocupaciones sobre la lesión de Paolo Gu...  ...  2017/10/27
+3  Nuestra táctica frente a Nueva Zelanda incluye...  ...  2017/10/27
+
+[4 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2017_10_27.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1897.88it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:59<00:00, 239.39s/it, est. speed input: 42.29 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:59<00:00, 239.39s/it, est. speed input: 42.29 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:59<00:00, 239.39s/it, est. speed input: 42.29 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2017_10_27.csv in chunk 4/4
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2017_10_27.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (39411 tokens), chunking: data/txt/trome/2016/11/trome_05.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1653.25it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:47<00:00, 287.76s/it, est. speed input: 36.58 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:47<00:00, 287.76s/it, est. speed input: 36.58 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:47<00:00, 287.76s/it, est. speed input: 36.58 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_11_05.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2010.69it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.22s/it, est. speed input: 60.51 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.22s/it, est. speed input: 60.51 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.22s/it, est. speed input: 60.51 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                          headline  ...        date
+0           Moto XS 125 disponible  ...  2016/11/05
+1      Tecnologia en refrigeracion  ...  2016/11/05
+2        Fotos virales causan risa  ...  2016/11/05
+3          Bailando peligrosamente  ...  2016/11/05
+4  Celebridades comparten momentos  ...  2016/11/05
+5         Historia romántica única  ...  2016/11/05
+6               Sorpresa deportiva  ...  2016/11/05
+7           Innovación tecnológica  ...  2016/11/05
+8              Premiere automotriz  ...  2016/11/05
+
+[9 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2016_11_05.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2234.58it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:04<00:00, 124.32s/it, est. speed input: 93.71 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [02:04<00:00, 124.32s/it, est. speed input: 93.71 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [02:04<00:00, 124.32s/it, est. speed input: 93.71 toks/s, output: 3.06 toks/s]
+GPU Memory: 74455, 6702
+                                  headline  ...        date
+0                   Condenados al infierno  ...  2016/11/05
+1                   Hidratate! Nutrientes.  ...  2016/11/05
+2               Llévala a cabo ahora mismo  ...  2016/11/05
+3                            Sabor peruano  ...  2016/11/05
+4                 Abrimos nuestras puertas  ...  2016/11/05
+5            Torneo de boxeo entre famosos  ...  2016/11/05
+6  Cambio radical en relaciones personales  ...  2016/11/05
+7              Ponte creativo en la cocina  ...  2016/11/05
+8                  Novedoso evento musical  ...  2016/11/05
+
+[9 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2016_11_05.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2933.08it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:00<00:00, 180.07s/it, est. speed input: 28.13 toks/s, output: 3.17 toks/s]Processed prompts: 100%|██████████| 1/1 [03:00<00:00, 180.07s/it, est. speed input: 28.13 toks/s, output: 3.17 toks/s]Processed prompts: 100%|██████████| 1/1 [03:00<00:00, 180.07s/it, est. speed input: 28.13 toks/s, output: 3.17 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Cula ‘Calichín’ cuyo estreno será hoy junto a ...  ...  2016/11/05
+1                     Trome presenta sorteo especial  ...  2016/11/05
+2                   Alexis solicita guía sentimental  ...  2016/11/05
+3                            Saber más sobre nombres  ...  2016/11/05
+4                      Historial electoral relevante  ...  2016/11/05
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2016_11_05.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2016_11_05.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (46025 tokens), chunking: data/txt/trome/2016/04/trome_31.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2477.44it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [11:33<00:00, 693.36s/it, est. speed input: 14.39 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [11:33<00:00, 693.36s/it, est. speed input: 14.39 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [11:33<00:00, 693.36s/it, est. speed input: 14.39 toks/s, output: 3.18 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_04_31.csv in chunk 1/5
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1308.68it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:41<00:00, 161.09s/it, est. speed input: 67.53 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:41<00:00, 161.09s/it, est. speed input: 67.53 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:41<00:00, 161.09s/it, est. speed input: 67.53 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0                  Nacen seis pingüinos en zoológico  ...  2016/04/31
+1  Hoy, 1 de mayo, se festeja el ‘Día del Trabaja...  ...  2016/04/31
+2       Cipriani pide crear Ministerio de la Familia  ...  2016/04/31
+3  Asaltan botica de cantante folklórico”; “Viole...  ...  2016/04/31
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/5 from trome_2016_04_31.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2496.61it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:03<00:00, 123.88s/it, est. speed input: 85.20 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:03<00:00, 123.88s/it, est. speed input: 85.20 toks/s, output: 3.08 toks/s]Processed prompts: 100%|██████████| 1/1 [02:03<00:00, 123.88s/it, est. speed input: 85.20 toks/s, output: 3.08 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Manchester.- En el Teatro de los Sueños, Leice...  ...  2016/04/31
+1  Alemán Antonio Griezmann contribuyó al triunfo...  ...  2016/04/31
+2      Torneo Apertura – Resultados destacados.;;NA"  ...  2016/04/31
+3  Liverpool enfrenta dificultades financieras.;;NA"  ...  2016/04/31
+4  Inversiones industriales aumentan en el sector...  ...  2016/04/31
+5  Pronóstico meteorológico para la próxima seman...  ...  2016/04/31
+6              Copa América – Análisis táctico.;;NA"  ...  2016/04/31
+
+[7 rows x 6 columns]
+✓ Extracted chunk 3/5 from trome_2016_04_31.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1377.89it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.57s/it, est. speed input: 53.38 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.57s/it, est. speed input: 53.38 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:56<00:00, 236.57s/it, est. speed input: 53.38 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_04_31.csv in chunk 4/5
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1954.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:29<00:00, 149.17s/it, est. speed input: 12.56 toks/s, output: 3.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:29<00:00, 149.17s/it, est. speed input: 12.56 toks/s, output: 3.20 toks/s]Processed prompts: 100%|██████████| 1/1 [02:29<00:00, 149.17s/it, est. speed input: 12.56 toks/s, output: 3.20 toks/s]
+GPU Memory: 74455, 6702
+                   headline subheadline  ... newspaper        date
+0  Confiesa escritor famoso          NA  ...     trome  2016/04/31
+1                                        ...     trome  2016/04/31
+2                                        ...     trome  2016/04/31
+
+[3 rows x 6 columns]
+✓ Extracted chunk 5/5 from trome_2016_04_31.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2016_04_31.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (52234 tokens), chunking: data/txt/trome/2019/10/trome_04.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2209.85it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:59<00:00, 299.23s/it, est. speed input: 35.53 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:59<00:00, 299.23s/it, est. speed input: 35.53 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:59<00:00, 299.23s/it, est. speed input: 35.53 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Fujimoristas insisten en decirle ‘mentiroso’ a...  ...  2019/10/04
+1                   Balean y ahorcan a hombre en SJL  ...  2019/10/04
+2       Opinion Column: Educating for Future Leaders  ...  2019/10/04
+3                          Youth Pathways to Success  ...  2019/10/04
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/5 from trome_2019_10_04.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2166.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.93s/it, est. speed input: 50.24 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.93s/it, est. speed input: 50.24 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.93s/it, est. speed input: 50.24 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0       PERFILES Vicente Zeballos (Premier]; Abogado:  ...  2019/10/04
+1   GUSTAVO MEZA CUADRA (RELACIONES EXTERIORES); E...  ...  2019/10/04
+2                    MARIÁ NATONIETA ALVA (ECONOMÍA):  ...  2019/10/04
+3                           WALTER MARTOS (DEFENSA) "  ...  2019/10/04
+4                             ANA REVILLA (JUSTICIA):  ...  2019/10/04
+5      FLORENZO ROSENDO FRANCISCO PETROZZI (CULTURA):  ...  2019/10/04
+6     EDMER TRUIJILLO (TRANSPORTES Y COMUNICACIONES):  ...  2019/10/04
+7      JORGE MELÉNDEZ (DESARROLLO E INCISIÓN SOCIAL):  ...  2019/10/04
+8                            CARLOS MORÁN (INTERIOR):  ...  2019/10/04
+9                 FLORA PILAR FLOR PABLO (EDUCACIÓN):  ...  2019/10/04
+10                        GLORIA MONTE NEGRO (MUJER):  ...  2019/10/04
+11                  SUVIANA CAROLINA CAÑEZ (TRABAJO):  ...  2019/10/04
+12                        ROCÍO BARRIOS (PRODUCCION):  ...  2019/10/04
+
+[13 rows x 6 columns]
+✓ Extracted chunk 2/5 from trome_2019_10_04.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 699.40it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:01<00:00, 241.96s/it, est. speed input: 47.15 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:01<00:00, 241.96s/it, est. speed input: 47.15 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [04:01<00:00, 241.96s/it, est. speed input: 47.15 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Federico Valverde, Rodrigo Bentancur, Nahitan ...  ...  2019/10/04
+1  E VIERNES 4 DE OCTUBRE DEL 2019 POR: FERNANDO ...  ...  2019/10/04
+2  Mundo del Futbol Saludó a Pizarro por Sus 41 Anos  ...  2019/10/04
+3      Guererro Listo para Reaparecer para la Bronca  ...  2019/10/04
+4  Cortocircuito. El Que Existe Entre Lionel Mess...  ...  2019/10/04
+5  Lionel Messi y Antoine Griezmann No Se Hablan ...  ...  2019/10/04
+
+[6 rows x 6 columns]
+✓ Extracted chunk 3/5 from trome_2019_10_04.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2227.46it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:19<00:00, 199.62s/it, est. speed input: 55.34 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:19<00:00, 199.62s/it, est. speed input: 55.34 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:19<00:00, 199.62s/it, est. speed input: 55.34 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+                                    headline  ...        date
+0                      Presidente bajo fuego  ...  2019/10/04
+1                         Terror a 47 metros  ...  2019/10/04
+2                  Historia de Hemán Astorga  ...  2019/10/04
+3           Celebrities responden a críticas  ...  2019/10/04
+4  Pensamientos sobre educación escolarizada  ...  2019/10/04
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/5 from trome_2019_10_04.csv
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 519.80it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [42:44<00:00, 2564.04s/it, est. speed input: 2.89 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [42:44<00:00, 2564.04s/it, est. speed input: 2.89 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [42:44<00:00, 2564.05s/it, est. speed input: 2.89 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2019_10_04.csv in chunk 5/5
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2019_10_04.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (41348 tokens), chunking: data/txt/trome/2017/04/trome_27.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2211.02it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.70s/it, est. speed input: 65.59 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.70s/it, est. speed input: 65.59 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:38<00:00, 158.70s/it, est. speed input: 65.59 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Mundo: Tensiones mundiales ardiente en Estados...  ...  2017/04/27
+1                  Audios Hundén a Ollanta”;(AL DÍA)  ...  2017/04/27
+2  Monstruosidad sin nombre: Abuso Infantil en Hu...  ...  2017/04/27
+3                    Cómo Proteger Mejor a Tus Hijos  ...  2017/04/27
+4               Sicarios Acribillan en Puente Piedra  ...  2017/04/27
+5                             Falso Taxista Detenido  ...  2017/04/27
+6                         Desmantelan Red Robacarros  ...  2017/04/27
+7                Peligro Latente: Monitoreo Continúa  ...  2017/04/27
+
+[8 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2017_04_27.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2265.97it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:44<00:00, 284.66s/it, est. speed input: 36.71 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:44<00:00, 284.66s/it, est. speed input: 36.71 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [04:44<00:00, 284.66s/it, est. speed input: 36.71 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2017_04_27.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1323.12it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:32<00:00, 212.27s/it, est. speed input: 48.96 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:32<00:00, 212.27s/it, est. speed input: 48.96 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:32<00:00, 212.27s/it, est. speed input: 48.96 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Diviertirse es una buena opción mientras más c...  ...  2017/04/27
+1   Aprovecha cada detalle para acelerar las etapa...  ...  2017/04/27
+2                       Sobrepeso y enfermedad renal   ...  2017/04/27
+3                      Receta de hoy: Pastel de pollo  ...  2017/04/27
+4   Preguntas culturales: ¿Quién es la autora de ‘...  ...  2017/04/27
+5   Cómo responder correctamente ante situaciones ...  ...  2017/04/27
+6                          Ley Seca Cumple Para Todos  ...  2017/04/27
+7   Historia de amor peruana: Karolina Barzotti y ...  ...  2017/04/27
+8                                  Fiestas y eventos:  ...  2017/04/27
+9   Novedades musicales: Versión de 'Despacito' po...  ...  2017/04/27
+10       Entretenga a su familia con nuevas películas  ...  2017/04/27
+11                     Boda Civil de Vanessa Valencia  ...  2017/04/27
+12          Inauguración de la Alameda Johnnie Orosco  ...  2017/04/27
+
+[13 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2017_04_27.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2264.74it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.36s/it, est. speed input: 173.60 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.36s/it, est. speed input: 173.60 toks/s, output: 2.96 toks/s]Processed prompts: 100%|██████████| 1/1 [00:54<00:00, 54.36s/it, est. speed input: 173.60 toks/s, output: 2.96 toks/s]
+GPU Memory: 74455, 6702
+                headline subheadline  ... newspaper        date
+0  Reportajes especiales          NA  ...     trome  2017/04/27
+1         Celebrity News          NA  ...     trome  2017/04/27
+2       Serie Documental          NA  ...     trome  2017/04/27
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2017_04_27.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2017_04_27.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (38425 tokens), chunking: data/txt/trome/2014/03/trome_24.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2526.69it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.61s/it, est. speed input: 42.86 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.61s/it, est. speed input: 42.86 toks/s, output: 3.14 toks/s]Processed prompts: 100%|██████████| 1/1 [04:06<00:00, 246.61s/it, est. speed input: 42.86 toks/s, output: 3.14 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2014_03_24.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2216.86it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:22<00:00, 82.10s/it, est. speed input: 142.10 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:22<00:00, 82.10s/it, est. speed input: 142.10 toks/s, output: 3.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:22<00:00, 82.10s/it, est. speed input: 142.10 toks/s, output: 3.00 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0     Congoleses denunciaron violencia sexual masiva  ...  2014/03/24
+1     Autoridades investigan incidente en aeropuerto  ...  2014/03/24
+2  Inauguran nuevo centro cultural en distrito fi...  ...  2014/03/24
+3  Economía peruana muestra signos positivos segú...  ...  2014/03/24
+4     Sindicatos discuten nuevas políticas laborales  ...  2014/03/24
+
+[5 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2014_03_24.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1786.33it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:06<00:00, 186.04s/it, est. speed input: 65.13 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:06<00:00, 186.04s/it, est. speed input: 65.13 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [03:06<00:00, 186.04s/it, est. speed input: 65.13 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                           headline  ...        date
+0  Tuberculosis causa preocupación – Heliocéntrica.  ...  2014/03/24
+1                  Historia sobre Nicola Copérnico.  ...  2014/03/24
+2               Nueva campaña sanitaria detecta TB.  ...  2014/03/24
+3                  Familia enfrenta drama personal.  ...  2014/03/24
+4           Sistema educativo ofrece oportunidades.  ...  2014/03/24
+5                            Celebrity news update.  ...  2014/03/24
+6                      Información legal relevante.  ...  2014/03/24
+7                     Noticias locales importantes.  ...  2014/03/24
+
+[8 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2014_03_24.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 3264.05it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:36<00:00, 216.86s/it, est. speed input: 15.18 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [03:36<00:00, 216.86s/it, est. speed input: 15.18 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [03:36<00:00, 216.86s/it, est. speed input: 15.18 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Este período, lashojas verdes delos arboles se...  ...  2014/03/24
+1  Cuento soy un muchacho provinciano, ingenieroe...  ...  2014/03/24
+2  Fiestas 31 Otoño (21 marzo – 21junio)| Aries: ...  ...  2014/03/24
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2014_03_24.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2014_03_24.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (44010 tokens), chunking: data/txt/trome/2019/03/trome_21.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 687.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:26<00:00, 206.72s/it, est. speed input: 51.71 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:26<00:00, 206.72s/it, est. speed input: 51.71 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:26<00:00, 206.73s/it, est. speed input: 51.71 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2019_03_21.csv in chunk 1/4
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1862.48it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:45<00:00, 225.34s/it, est. speed input: 46.46 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:45<00:00, 225.34s/it, est. speed input: 46.46 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:45<00:00, 225.35s/it, est. speed input: 46.46 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Maravillada con Machu Picchu queda la reina de...  ...  2019/03/21
+1         Huincayo: Venenosan perros, gatos y palomas  ...  2019/03/21
+2   Inicia operación ‘mochila’ en colegio Alfonso ...  ...  2019/03/21
+3   Ciudadanos adoptan roles activos en programas ...  ...  2019/03/21
+4                Festival de la Felicidad en Huancayo  ...  2019/03/21
+5          Asalto a comerciantes en Villa El Salvador  ...  2019/03/21
+6   Pensionistas transforman hobbies en negocios r...  ...  2019/03/21
+7   Meteorología anticipa cambios climáticos próximos  ...  2019/03/21
+8   Aumenta número de usuarios en línea de servici...  ...  2019/03/21
+9   Diferencias generacionales impactan dinámicas ...  ...  2019/03/21
+10  Luis Alberto Castro lidera protesta pacífica f...  ...  2019/03/21
+
+[11 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2019_03_21.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2098.20it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:48<00:00, 108.61s/it, est. speed input: 110.31 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [01:48<00:00, 108.61s/it, est. speed input: 110.31 toks/s, output: 3.04 toks/s]Processed prompts: 100%|██████████| 1/1 [01:48<00:00, 108.61s/it, est. speed input: 110.31 toks/s, output: 3.04 toks/s]
+GPU Memory: 74455, 6702
+                                           headline  ...        date
+0  Municipal enfrenta revancha en Copa Sudamericana  ...  2019/03/21
+1     Búsqueda intensificada por destituido masismo  ...  2019/03/21
+2            Serie especial de servicios personales  ...  2019/03/21
+3                     Fiestas especiales para niños  ...  2019/03/21
+4      Diversión asegurada en programación familiar  ...  2019/03/21
+5    Copa Libertadores sigue generando expectativas  ...  2019/03/21
+
+[6 rows x 6 columns]
+✓ Extracted chunk 3/4 from trome_2019_03_21.csv
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1253.15it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.59s/it, est. speed input: 51.53 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.59s/it, est. speed input: 51.53 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:08<00:00, 188.59s/it, est. speed input: 51.53 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2019_03_21.csv in chunk 4/4
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2019_03_21.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (38192 tokens), chunking: data/txt/trome/2016/10/trome_31.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2272.10it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:55<00:00, 115.42s/it, est. speed input: 91.46 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [01:55<00:00, 115.42s/it, est. speed input: 91.46 toks/s, output: 3.07 toks/s]Processed prompts: 100%|██████████| 1/1 [01:55<00:00, 115.42s/it, est. speed input: 91.46 toks/s, output: 3.07 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Dice ‘Me han golpeado, pero aquí estoy’”;Acusa...  ...  2016/10/31
+1                       LUNES 31 DE OCTUBRE DEL 2016  ...  2016/10/31
+2                                      HABLARA TROMÉ  ...  2016/10/31
+3                Sobre el aumento del salario mínimo  ...  2016/10/31
+4                             Terroríficamente cerca  ...  2016/10/31
+5                               Peligro en Halloween  ...  2016/10/31
+6                      Audiencia judicial impactante  ...  2016/10/31
+7               Crimen organizado bajo investigación  ...  2016/10/31
+
+[8 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2016_10_31.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2244.14it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:41<00:00, 341.61s/it, est. speed input: 32.19 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [05:41<00:00, 341.61s/it, est. speed input: 32.19 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [05:41<00:00, 341.61s/it, est. speed input: 32.19 toks/s, output: 3.16 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_10_31.csv in chunk 2/4
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1173.56it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [27:17<00:00, 1637.91s/it, est. speed input: 6.82 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [27:17<00:00, 1637.91s/it, est. speed input: 6.82 toks/s, output: 3.19 toks/s]Processed prompts: 100%|██████████| 1/1 [27:17<00:00, 1637.92s/it, est. speed input: 6.82 toks/s, output: 3.19 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2016_10_31.csv in chunk 3/4
+Processing chunk: 4/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2154.24it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 147.00s/it, est. speed input: 30.09 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 147.00s/it, est. speed input: 30.09 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [02:26<00:00, 147.00s/it, est. speed input: 30.09 toks/s, output: 3.16 toks/s]
+GPU Memory: 74455, 6702
+                                  headline  ...        date
+0                ¿Qué significa tu nombre?  ...  2016/10/31
+1                Día de la Canción Criolla  ...  2016/10/31
+2  Homenaje al Maestro Augusto Polo Campos  ...  2016/10/31
+
+[3 rows x 6 columns]
+✓ Extracted chunk 4/4 from trome_2016_10_31.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2016_10_31.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (45803 tokens), chunking: data/txt/trome/2018/03/trome_19.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 689.29it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:21<00:00, 381.38s/it, est. speed input: 27.82 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [06:21<00:00, 381.38s/it, est. speed input: 27.82 toks/s, output: 3.16 toks/s]Processed prompts: 100%|██████████| 1/1 [06:21<00:00, 381.38s/it, est. speed input: 27.82 toks/s, output: 3.16 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2018_03_19.csv in chunk 1/5
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2103.46it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:43<00:00, 163.58s/it, est. speed input: 65.73 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:43<00:00, 163.58s/it, est. speed input: 65.73 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:43<00:00, 163.58s/it, est. speed input: 65.73 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Capturan a sospechosos involucrados en crimen ...  ...  2018/03/19
+1                Policía realiza persecución intensa  ...  2018/03/19
+2  Atrapan banda juvenil conocida como ‘Lechu­cer...  ...  2018/03/19
+3  Banda criminal organizada ejecuta ataque planeado  ...  2018/03/19
+
+[4 rows x 6 columns]
+✓ Extracted chunk 2/5 from trome_2018_03_19.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1321.87it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:39<00:00, 219.30s/it, est. speed input: 54.49 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:39<00:00, 219.30s/it, est. speed input: 54.49 toks/s, output: 3.12 toks/s]Processed prompts: 100%|██████████| 1/1 [03:39<00:00, 219.30s/it, est. speed input: 54.49 toks/s, output: 3.12 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  TROMPETISTA LEOPOLDINA REVELA SU VERDADERO SEC...  ...  2018/03/19
+1  LUCERO ESPINOZA TRAE SU SHOW ‘LUCHA LIBRE’ A A...  ...  2018/03/19
+2  SANTIAGO CAVALLOTTI DESTACA PORQUE TIENE MUCHO...  ...  2018/03/19
+3  MIRA QUÉ PASÓ ENTRE CAROLA SOBRATT Y ANDREA PO...  ...  2018/03/19
+4  AQUÍ TENEMOS TODOS LOS DETALLES DE LA PELEA EN...  ...  2018/03/19
+5  CARMENCITA CASTELLANOS CONFIESA TODO ACERCA DE...  ...  2018/03/19
+6  FUTBOLEROS COINCIDEN EN CRITERIO CONTRA ARBITR...  ...  2018/03/19
+7  HASTA AHORA YA SON DOS MUERTOS EN ACCIDENTE AU...  ...  2018/03/19
+8  PRESIDENTE MARTINEZ VISITARA PROVINCIAS COSTEÑ...  ...  2018/03/19
+9  DIPUTADO ROBERTO CAMACHO DENUNCIA CORRUPTelas ...  ...  2018/03/19
+
+[10 rows x 6 columns]
+✓ Extracted chunk 3/5 from trome_2018_03_19.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 987.82it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:39<00:00, 159.89s/it, est. speed input: 68.39 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:39<00:00, 159.89s/it, est. speed input: 68.39 toks/s, output: 3.10 toks/s]Processed prompts: 100%|██████████| 1/1 [02:39<00:00, 159.89s/it, est. speed input: 68.39 toks/s, output: 3.10 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2018_03_19.csv in chunk 4/5
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2119.41it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:10<00:00, 70.08s/it, est. speed input: 14.28 toks/s, output: 3.21 toks/s]Processed prompts: 100%|██████████| 1/1 [01:10<00:00, 70.08s/it, est. speed input: 14.28 toks/s, output: 3.21 toks/s]Processed prompts: 100%|██████████| 1/1 [01:10<00:00, 70.08s/it, est. speed input: 14.28 toks/s, output: 3.21 toks/s]
+GPU Memory: 74455, 6702
+  headline subheadline  ... newspaper        date
+0       NA          NA  ...     trome  2018/03/19
+
+[1 rows x 6 columns]
+✓ Extracted chunk 5/5 from trome_2018_03_19.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2018_03_19.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (47635 tokens), chunking: data/txt/trome/2018/12/trome_02.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2438.55it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [01:44<00:00, 104.75s/it, est. speed input: 95.84 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:44<00:00, 104.75s/it, est. speed input: 95.84 toks/s, output: 3.06 toks/s]Processed prompts: 100%|██████████| 1/1 [01:44<00:00, 104.75s/it, est. speed input: 95.84 toks/s, output: 3.06 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Actor Peruano de Arequipa podría perder la vis...  ...  2018/12/02
+1                     Contesto por fin de cuarentena  ...  2018/12/02
+2  Puede dejar ciego a conductor de una agencia d...  ...  2018/12/02
+3                                   Misión Imposible  ...  2018/12/02
+
+[4 rows x 6 columns]
+✓ Extracted chunk 1/5 from trome_2018_12_02.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1204.22it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:06<00:00, 306.97s/it, est. speed input: 34.18 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:06<00:00, 306.97s/it, est. speed input: 34.18 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 1/1 [05:06<00:00, 306.97s/it, est. speed input: 34.18 toks/s, output: 3.15 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2018_12_02.csv in chunk 2/5
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2192.53it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.76s/it, est. speed input: 49.06 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.76s/it, est. speed input: 49.06 toks/s, output: 3.13 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.77s/it, est. speed input: 49.06 toks/s, output: 3.13 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Margarita Barrientos contó cómo logró transfor...  ...  2018/12/02
+1   Hombres lucran contándote historias sobre viol...  ...  2018/12/02
+2                                                None  ...  2018/12/02
+3   Alianza Lima y Universitario protagonizarán un...  ...  2018/12/02
+4                                                None  ...  2018/12/02
+5   Copa Perú define al próximo ascendido en el Mo...  ...  2018/12/02
+6                                                None  ...  2018/12/02
+7    Festival de Marinera celebra talentos emergentes  ...  2018/12/02
+8                                                None  ...  2018/12/02
+9             Sigue la acción deportiva internacional  ...  2018/12/02
+10                                               None  ...  2018/12/02
+11              Evaluación médica avanzada disponible  ...  2018/12/02
+
+[12 rows x 6 columns]
+✓ Extracted chunk 3/5 from trome_2018_12_02.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2175.47it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:05<00:00, 125.40s/it, est. speed input: 99.76 toks/s, output: 3.05 toks/s]Processed prompts: 100%|██████████| 1/1 [02:05<00:00, 125.40s/it, est. speed input: 99.76 toks/s, output: 3.05 toks/s]Processed prompts: 100%|██████████| 1/1 [02:05<00:00, 125.40s/it, est. speed input: 99.76 toks/s, output: 3.05 toks/s]
+GPU Memory: 74455, 6702
+Error getting csv from trome_2018_12_02.csv in chunk 4/5
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 836.19it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:01<00:00, 181.18s/it, est. speed input: 19.46 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [03:01<00:00, 181.18s/it, est. speed input: 19.46 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [03:01<00:00, 181.18s/it, est. speed input: 19.46 toks/s, output: 3.18 toks/s]
+GPU Memory: 74455, 6702
+                                 headline  ...        date
+0  PERIODISTA CUENTA SUS SECRETOS A TROME  ...  2018/12/02
+
+[1 rows x 6 columns]
+✓ Extracted chunk 5/5 from trome_2018_12_02.csv
+GPU Memory: 74455, 6702
+✓ Extracted text to trome_2018_12_02.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (41931 tokens), chunking: data/txt/trome/2018/10/trome_21.txt
+Processing chunk: 1/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2448.51it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [02:32<00:00, 152.72s/it, est. speed input: 64.67 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:32<00:00, 152.72s/it, est. speed input: 64.67 toks/s, output: 3.11 toks/s]Processed prompts: 100%|██████████| 1/1 [02:32<00:00, 152.72s/it, est. speed input: 64.67 toks/s, output: 3.11 toks/s]
+GPU Memory: 74455, 6702
+                                            headline  ...        date
+0  Rankeadu delincuente escapó a toda velocidad p...  ...  2018/10/21
+1                        A duro estár en prisión...   ...  2018/10/21
+2                     Nunca deja el morado! Parte II  ...  2018/10/21
+3  Fiscal José Domingo Pérez es del pueblo y no d...  ...  2018/10/21
+4  Policía capturan a delincuentes con antecedent...  ...  2018/10/21
+5  Luis Crevoisier, abatido durante confrontación...  ...  2018/10/21
+6  Celebrity gossip: Dinámicas detrás de famosos ...  ...  2018/10/21
+
+[7 rows x 6 columns]
+✓ Extracted chunk 1/4 from trome_2018_10_21.csv
+Processing chunk: 2/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1376.08it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [11:26<00:00, 686.10s/it, est. speed input: 15.25 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [11:26<00:00, 686.10s/it, est. speed input: 15.25 toks/s, output: 3.18 toks/s]Processed prompts: 100%|██████████| 1/1 [11:26<00:00, 686.11s/it, est. speed input: 15.25 toks/s, output: 3.18 toks/s]
+GPU Memory: 74455, 6702
+                                             headline  ...        date
+0   Mientras ex procurador Luis Vargas Valdivia in...  ...  2018/10/21
+1   Luis Vargas Valdivia indica que el procedimien...  ...  2018/10/21
+2                                                None  ...  2018/10/21
+3   Hinostroza no calificaría para obtener asilo p...  ...  2018/10/21
+4                                                None  ...  2018/10/21
+5   Diversas medidas drásticas propuestas por fisc...  ...  2018/10/21
+6                                                None  ...  2018/10/21
+7   Fiscal de la Nación niega interferencia person...  ...  2018/10/21
+8                                                None  ...  2018/10/21
+9   Mototaxista transforma rutina laboral en espec...  ...  2018/10/21
+10                                               None  ...  2018/10/21
+11  Búsqueda intensificada culmina con éxito en at...  ...  2018/10/21
+12                                               None  ...  2018/10/21
+13  Innovadora estrategia de marketing posiciona a...  ...  2018/10/21
+14                                               None  ...  2018/10/21
+15  Candidatas aspiran a título de Miss Belleza mi...  ...  2018/10/21
+16                                               None  ...  2018/10/21
+17  Autoridades implementan nuevas tácticas para i...  ...  2018/10/21
+18                                               None  ...  2018/10/21
+19  Marcha programada demanda atención gubernament...  ...  2018/10/21
+20                                               None  ...  2018/10/21
+21  Nueva edición literaria presenta análisis prof...  ...  2018/10/21
+22                                               None  ...  2018/10/21
+23  Reforestación extensiva anticipa mejora notabl...  ...  2018/10/21
+24                                               None  ...  2018/10/21
+25  Experiencia única permite exploración virtual ...  ...  2018/10/21
+26                                               None  ...  2018/10/21
+27  Operación exitosa rescata fauna marina acciden...  ...  2018/10/21
+28                                               None  ...  2018/10/21
+29  Comité eclesiástico honra trayectoria vital de...  ...  2018/10/21
+30                                               None  ...  2018/10/21
+31  Serie televisiva retrata historias cotidianas ...  ...  2018/10/21
+32                                               None  ...  2018/10/21
+33  Expansión turística invita a admirar patrimoni...  ...  2018/10/21
+34                                               None  ...  2018/10/21
+35  Entrevista exclusiva devela intimidades de vid...  ...  2018/10/21
+36                                               None  ...  2018/10/21
+37  Colaboración empresarial impulsa proyecto soli...  ...  2018/10/21
+38                                               None  ...  2018/10/21
+39  Análisis retrospectivo evalúa evolución compet...  ...  2018/10/21
+40                                               None  ...  2018/10/21
+41  Narrativa cinematográfica capta esencia vibran...  ...  2018/10/21
+42                                               None  ...  2018/10/21
+43  Compromisos filantrópicos redoblan esfuerzos p...  ...  2018/10/21
+44                                               None  ...  2018/10/21
+45  Retorno glorioso de leyendas deportivas revive...  ...  2018/10/21
+46                                               None  ...  2018/10/21
+47  Avances científicos inauguran fase experimenta...  ...  2018/10/21
+48                                               None  ...  2018/10/21
+49  Evaluación integral sugiere reformas sistémica...  ...  2018/10/21
+
+[50 rows x 6 columns]
+✓ Extracted chunk 2/4 from trome_2018_10_21.csv
+Processing chunk: 3/4
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2283.24it/s]
 Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]
