@@ -1,0 +1,24 @@
+Loading modules...
+Activating virtual environment...
+[Mi 3. Sep 19:39:56 CEST 2025] Processing folder: ./data/csv/ on GPU 
+Third task: LLM. Running...
+Downloaded pre-trained UDPipe model for 'es' language
+Loaded 2 lexems from data/lexems.txt
+Loaded 3 existing POS codes from logs/pos_codes.json
+Found 1 CSV files to process 
+
+Processing data/csv/gestion_2013_07_25.csv...
+Found 2 rows with lexems
+Added 0 new POS structures
+Total POS codes: 3
+
+Saved annotated data to data/csv/gestion_2013_07_25_pos.csv
+Saved 3 POS codes to logs/pos_codes.json
+
+=== Processing Complete ===
+Files processed: 1/1
+Total POS patterns discovered: 3
+Results saved to: ./data/csv/
+Time needed: 0.6904795169830322 seconds
+Average time per csv: 0.6904795169830322
+Script finished!

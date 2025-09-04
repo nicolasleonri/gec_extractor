@@ -1,5 +1,4 @@
 from typing import Dict, List, Optional, Tuple
-import ufal.udpipe as udpipe
 from pathlib import Path
 import pandas as pd
 import argparse
@@ -13,7 +12,7 @@ import re
 
 class POSTaggerAnalyzer:
     def __init__(self):
-        # spacy_udpipe.download("es")
+        spacy_udpipe.download("es")
         self.udpipe_model = spacy_udpipe.load("es")
         self.nlp = spacy.load("es_core_news_sm")
         return None
