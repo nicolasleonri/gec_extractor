@@ -14856,4 +14856,260 @@ GPU Memory: 74441, 6715
 ✓ Extracted chunk 1/5 from peru21_2015_06_28.csv
 Processing chunk: 2/5
 Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1737.49it/s]
-Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [37:23<00:00, 2243.94s/it, est. speed input: 5.48 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [37:23<00:00, 2243.94s/it, est. speed input: 5.48 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [37:23<00:00, 2243.94s/it, est. speed input: 5.48 toks/s, output: 1.82 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2015_06_28.csv in chunk 2/5
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1703.62it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:16<00:00, 256.16s/it, est. speed input: 38.44 toks/s, output: 1.79 toks/s]Processed prompts: 100%|██████████| 1/1 [04:16<00:00, 256.16s/it, est. speed input: 38.44 toks/s, output: 1.79 toks/s]Processed prompts: 100%|██████████| 1/1 [04:16<00:00, 256.17s/it, est. speed input: 38.44 toks/s, output: 1.79 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Comisión Que Investiga a Belaunde Lossio Solic...  ...  2015/06/28
+1  Diploma Ambiental Preliminar (DAP) Mitsui Auto...  ...  2015/06/28
+2       Historia de ‘O’ (Error Mais Grande do Mundo)  ...  2015/06/28
+3  No Quiero Imaginarme Impotencia Equipo Asesore...  ...  2015/06/28
+4  Nacionalistas Propuestas Parlamentarias Comune...  ...  2015/06/28
+5  Captura Operación Anti-Terrorismo Región San M...  ...  2015/06/28
+
+[6 rows x 6 columns]
+✓ Extracted chunk 3/5 from peru21_2015_06_28.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 562.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:31<00:00, 331.92s/it, est. speed input: 30.76 toks/s, output: 1.78 toks/s]Processed prompts: 100%|██████████| 1/1 [05:31<00:00, 331.92s/it, est. speed input: 30.76 toks/s, output: 1.78 toks/s]Processed prompts: 100%|██████████| 1/1 [05:31<00:00, 331.93s/it, est. speed input: 30.76 toks/s, output: 1.78 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0                 MARCHA DEL ORGULLO GAY RECORA LIMA  ...  2015/06/28
+1  DIFERENTES COLECTIVOS PARTICIPAN EN MARCHA DEL...  ...  2015/06/28
+2  CUESTIONABLE LEGALIZACIÓN DEL MATRIMONIO SEXUA...  ...  2015/06/28
+3           SICARIOS MATAN A TRES PERSONAS EN CALLAO  ...  2015/06/28
+4  TORMENTA POLÍTICA SOBRE MANEJO FINANCIERO EN C...  ...  2015/06/28
+
+[5 rows x 6 columns]
+✓ Extracted chunk 4/5 from peru21_2015_06_28.csv
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2681.78it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [09:36<00:00, 576.99s/it, est. speed input: 9.28 toks/s, output: 1.80 toks/s]Processed prompts: 100%|██████████| 1/1 [09:36<00:00, 576.99s/it, est. speed input: 9.28 toks/s, output: 1.80 toks/s]Processed prompts: 100%|██████████| 1/1 [09:36<00:00, 576.99s/it, est. speed input: 9.28 toks/s, output: 1.80 toks/s]
+GPU Memory: 74441, 6715
+                                  headline  ...        date
+0   Caché musical y diferencias económicas  ...  2015/06/28
+1         Diferentes precios de conciertos  ...  2015/06/28
+2                  Preguntas sin respuesta  ...  2015/06/28
+3                Sobre la gestión cultural  ...  2015/06/28
+4               Economía y acceso cultural  ...  2015/06/28
+5                  Investigación necesaria  ...  2015/06/28
+6            Autoridad regulatoria ausente  ...  2015/06/28
+7                  Llamado a transparencia  ...  2015/06/28
+8                                     None  ...  2015/06/28
+9         Música y actuación internacional  ...  2015/06/28
+10      Nueva participación de Edgar Vivar  ...  2015/06/28
+11               Protagonistas adicionales  ...  2015/06/28
+12              Expectativas de la secuela  ...  2015/06/28
+13                       Historia continua  ...  2015/06/28
+14                                    None  ...  2015/06/28
+15                        Denuncia digital  ...  2015/06/28
+16                      Atención mediática  ...  2015/06/28
+17                 No temer a las críticas  ...  2015/06/28
+
+[18 rows x 6 columns]
+✓ Extracted chunk 5/5 from peru21_2015_06_28.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to peru21_2015_06_28.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (43216 tokens), chunking: data/txt/peru21/2014/01/peru21_18.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 958.26it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:30<00:00, 210.78s/it, est. speed input: 43.79 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [03:30<00:00, 210.78s/it, est. speed input: 43.79 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [03:30<00:00, 210.78s/it, est. speed input: 43.79 toks/s, output: 1.82 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Nueva camiseta de la ‘U’ tiene ADN del Puma”;“...  ...  2014/01/18
+1  “UN DELITO QUE CRECE. Ataques son dirigidos de...  ...  2014/01/18
+
+[2 rows x 6 columns]
+✓ Extracted chunk 1/5 from peru21_2014_01_18.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2234.58it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [12:15<00:00, 735.08s/it, est. speed input: 12.42 toks/s, output: 1.88 toks/s]Processed prompts: 100%|██████████| 1/1 [12:15<00:00, 735.08s/it, est. speed input: 12.42 toks/s, output: 1.88 toks/s]Processed prompts: 100%|██████████| 1/1 [12:15<00:00, 735.08s/it, est. speed input: 12.42 toks/s, output: 1.88 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2014_01_18.csv in chunk 2/5
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2149.82it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.69s/it, est. speed input: 46.65 toks/s, output: 1.85 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.69s/it, est. speed input: 46.65 toks/s, output: 1.85 toks/s]Processed prompts: 100%|██████████| 1/1 [03:33<00:00, 213.69s/it, est. speed input: 46.65 toks/s, output: 1.85 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Tan inconforme Jorge Ruíz de Somocurcio y Arqu...  ...  2014/01/18
+1       Hace 479 años, Francisco Pizarro fundó Lima.  ...  2014/01/18
+2       Lima se ha convertido en una tierra de nadie  ...  2014/01/18
+3  Investiga Fiscal caso de peces muertos en Sechura  ...  2014/01/18
+4  Cómo sobrellevar conflictos tecnológicos en pa...  ...  2014/01/18
+
+[5 rows x 6 columns]
+✓ Extracted chunk 3/5 from peru21_2014_01_18.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1303.39it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:04<00:00, 364.97s/it, est. speed input: 28.64 toks/s, output: 1.78 toks/s]Processed prompts: 100%|██████████| 1/1 [06:04<00:00, 364.97s/it, est. speed input: 28.64 toks/s, output: 1.78 toks/s]Processed prompts: 100%|██████████| 1/1 [06:04<00:00, 364.97s/it, est. speed input: 28.64 toks/s, output: 1.78 toks/s]
+GPU Memory: 74441, 6715
+                                             headline  ...        date
+0                      Cómo cocinar pebre tradicional  ...  2014/01/18
+1                                                None  ...  2014/01/18
+2                                  Sábados especiales  ...  2014/01/18
+3                                                None  ...  2014/01/18
+4                    Hipoteca popular aumenta en 2013  ...  2014/01/18
+5                                                None  ...  2014/01/18
+6     Buen puntaje crediticio necesario para hipoteca  ...  2014/01/18
+7                                                None  ...  2014/01/18
+8           Ajuste económico afecta economía familiar  ...  2014/01/18
+9                                                None  ...  2014/01/18
+10  Inversiones seguras frente a incertidumbre eco...  ...  2014/01/18
+11                                               None  ...  2014/01/18
+12           Nueva campaña de marketing universitario  ...  2014/01/18
+13                                               None  ...  2014/01/18
+14           Ficha deportiva: Futuro de Cris Martínez  ...  2014/01/18
+15                                               None  ...  2014/01/18
+16             Evaluación de rendimientos financieros  ...  2014/01/18
+17                                               None  ...  2014/01/18
+18            Tecnología moderna transforma educación  ...  2014/01/18
+
+[19 rows x 6 columns]
+✓ Extracted chunk 4/5 from peru21_2014_01_18.csv
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2646.25it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:45<00:00, 285.95s/it, est. speed input: 11.27 toks/s, output: 1.83 toks/s]Processed prompts: 100%|██████████| 1/1 [04:45<00:00, 285.95s/it, est. speed input: 11.27 toks/s, output: 1.83 toks/s]Processed prompts: 100%|██████████| 1/1 [04:45<00:00, 285.95s/it, est. speed input: 11.27 toks/s, output: 1.83 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0                               ELEXORCISMO DE SALLY  ...  2014/01/18
+1                                        EL AGUSTINO  ...  2014/01/18
+2                                              Diana  ...  2014/01/18
+3  SANDRA VERGARA Conductora habla sobre Enemigos...  ...  2014/01/18
+
+[4 rows x 6 columns]
+✓ Extracted chunk 5/5 from peru21_2014_01_18.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to peru21_2014_01_18.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (46568 tokens), chunking: data/txt/peru21/2016/03/peru21_13.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1860.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:50<00:00, 290.67s/it, est. speed input: 31.92 toks/s, output: 1.79 toks/s]Processed prompts: 100%|██████████| 1/1 [04:50<00:00, 290.67s/it, est. speed input: 31.92 toks/s, output: 1.79 toks/s]Processed prompts: 100%|██████████| 1/1 [04:50<00:00, 290.68s/it, est. speed input: 31.92 toks/s, output: 1.79 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2016_03_13.csv in chunk 1/5
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2048.00it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [04:47<00:00, 287.19s/it, est. speed input: 31.82 toks/s, output: 1.83 toks/s]Processed prompts: 100%|██████████| 1/1 [04:47<00:00, 287.19s/it, est. speed input: 31.82 toks/s, output: 1.83 toks/s]Processed prompts: 100%|██████████| 1/1 [04:47<00:00, 287.22s/it, est. speed input: 31.82 toks/s, output: 1.83 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Defensor del Lector Carlos Basombriego Iglesia...  ...  2016/03/13
+1  Economista Ricardo Vago // Economista y asesor...  ...  2016/03/13
+2                                                N/A  ...  2016/03/13
+
+[3 rows x 6 columns]
+✓ Extracted chunk 2/5 from peru21_2016_03_13.csv
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1969.16it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [15:32<00:00, 932.54s/it, est. speed input: 10.25 toks/s, output: 1.89 toks/s]Processed prompts: 100%|██████████| 1/1 [15:32<00:00, 932.54s/it, est. speed input: 10.25 toks/s, output: 1.89 toks/s]Processed prompts: 100%|██████████| 1/1 [15:32<00:00, 932.57s/it, est. speed input: 10.25 toks/s, output: 1.89 toks/s]
+GPU Memory: 74441, 6715
+                                             headline  ...        date
+0                  Monetaria será prudente y flexible  ...  2016/03/13
+1                                             MEDIDAS  ...  2016/03/13
+2                    —E INSTITUCIONES— Que merecemos?  ...  2016/03/13
+3   Aumentan Exportaciones Podrían Llegar a Us$45 ...  ...  2016/03/13
+4                            Distribución Empresarial  ...  2016/03/13
+5                                      Economía Local  ...  2016/03/13
+6                                   Terrorismo Global  ...  2016/03/13
+7                                         Iran y Cuba  ...  2016/03/13
+8                              Poder Judicial Peruano  ...  2016/03/13
+9                     Crisis Politico-Economic Brazil  ...  2016/03/13
+10                                    Liderazgo Moral  ...  2016/03/13
+
+[11 rows x 6 columns]
+✓ Extracted chunk 3/5 from peru21_2016_03_13.csv
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 532.34it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:29<00:00, 389.04s/it, est. speed input: 26.32 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [06:29<00:00, 389.04s/it, est. speed input: 26.32 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [06:29<00:00, 389.05s/it, est. speed input: 26.32 toks/s, output: 1.82 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0       Tiene 50 elementos de un periodo de 90 dias.  ...  2016/03/13
+1  ELECCIONES PAELIGIRMIEMBROSDELAJUNTADIRECTIVA,...  ...  2016/03/13
+2          Domingo 13 de Marzo del 2016 Ciudad”;;NA"  ...  2016/03/13
+3  Misterio envuelve su muerte, transmite y traba...  ...  2016/03/13
+
+[4 rows x 6 columns]
+✓ Extracted chunk 4/5 from peru21_2016_03_13.csv
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2216.86it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [12:09<00:00, 729.60s/it, est. speed input: 8.73 toks/s, output: 1.84 toks/s]Processed prompts: 100%|██████████| 1/1 [12:09<00:00, 729.60s/it, est. speed input: 8.73 toks/s, output: 1.84 toks/s]Processed prompts: 100%|██████████| 1/1 [12:09<00:00, 729.60s/it, est. speed input: 8.73 toks/s, output: 1.84 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0             Avión de Iron Maiden sufre desperfecto  ...  2016/03/13
+1  —¿Cómo te sientes con tu regreso—a la señal ab...  ...  2016/03/13
+2  -¿De qué trata tu nuevo programa ‘El Show de V...  ...  2016/03/13
+3                                 --Christian Meier   ...  2016/03/13
+4                                              Cita.  ...  2016/03/13
+5  Hoy en Cuarto poder: ¿Quién le bajó el dedo a ...  ...  2016/03/13
+6  Neymar marcó gol y Turan de chalaca. Culés est...  ...  2016/03/13
+7  Dzeko debe pedir permiso para vestirse otra ve...  ...  2016/03/13
+
+[8 rows x 6 columns]
+✓ Extracted chunk 5/5 from peru21_2016_03_13.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to peru21_2016_03_13.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (41439 tokens), chunking: data/txt/peru21/2014/01/peru21_07.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 951.74it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.03s/it, est. speed input: 30.02 toks/s, output: 1.85 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.03s/it, est. speed input: 30.02 toks/s, output: 1.85 toks/s]Processed prompts: 100%|██████████| 1/1 [05:04<00:00, 304.04s/it, est. speed input: 30.02 toks/s, output: 1.85 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2014_01_07.csv in chunk 1/5
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1465.52it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [07:18<00:00, 438.18s/it, est. speed input: 20.74 toks/s, output: 1.81 toks/s]Processed prompts: 100%|██████████| 1/1 [07:18<00:00, 438.18s/it, est. speed input: 20.74 toks/s, output: 1.81 toks/s]Processed prompts: 100%|██████████| 1/1 [07:18<00:00, 438.18s/it, est. speed input: 20.74 toks/s, output: 1.81 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2014_01_07.csv in chunk 2/5
+Processing chunk: 3/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 1891.88it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [06:43<00:00, 403.66s/it, est. speed input: 24.86 toks/s, output: 1.85 toks/s]Processed prompts: 100%|██████████| 1/1 [06:43<00:00, 403.66s/it, est. speed input: 24.86 toks/s, output: 1.85 toks/s]Processed prompts: 100%|██████████| 1/1 [06:43<00:00, 403.66s/it, est. speed input: 24.86 toks/s, output: 1.85 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2014_01_07.csv in chunk 3/5
+Processing chunk: 4/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2007.80it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [10:21<00:00, 621.89s/it, est. speed input: 14.95 toks/s, output: 1.84 toks/s]Processed prompts: 100%|██████████| 1/1 [10:21<00:00, 621.89s/it, est. speed input: 14.95 toks/s, output: 1.84 toks/s]Processed prompts: 100%|██████████| 1/1 [10:21<00:00, 621.90s/it, est. speed input: 14.95 toks/s, output: 1.84 toks/s]
+GPU Memory: 74441, 6715
+Error getting csv from peru21_2014_01_07.csv in chunk 4/5
+Processing chunk: 5/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2837.82it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.86s/it, est. speed input: 12.48 toks/s, output: 1.84 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.86s/it, est. speed input: 12.48 toks/s, output: 1.84 toks/s]Processed prompts: 100%|██████████| 1/1 [03:24<00:00, 204.86s/it, est. speed input: 12.48 toks/s, output: 1.84 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Anunció su retorno a la TV con un programa de ...  ...  2014/01/07
+
+[1 rows x 6 columns]
+✓ Extracted chunk 5/5 from peru21_2014_01_07.csv
+GPU Memory: 74441, 6715
+✓ Extracted text to peru21_2014_01_07.csv
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]
+Text too long (42570 tokens), chunking: data/txt/peru21/2014/08/peru21_07.txt
+Processing chunk: 1/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2008.77it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 1/1 [03:57<00:00, 237.77s/it, est. speed input: 40.09 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [03:57<00:00, 237.77s/it, est. speed input: 40.09 toks/s, output: 1.82 toks/s]Processed prompts: 100%|██████████| 1/1 [03:57<00:00, 237.77s/it, est. speed input: 40.09 toks/s, output: 1.82 toks/s]
+GPU Memory: 74441, 6715
+                                            headline  ...        date
+0  Primera ministra tiende puentes de diálogo con...  ...  2014/08/07
+1  PRESIDENTE HUMALA NO COLABORA CON PEQUISAS SOB...  ...  2014/08/07
+2          Nueva aparición pública de Luis Castañeda  ...  2014/08/07
+
+[3 rows x 6 columns]
+✓ Extracted chunk 1/5 from peru21_2014_08_07.csv
+Processing chunk: 2/5
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]Adding requests: 100%|██████████| 1/1 [00:00<00:00, 2142.14it/s]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][1;36m(EngineCore_0 pid=6914)[0;0m Exception in thread Thread-1 (_report_usage_worker):
+[1;36m(EngineCore_0 pid=6914)[0;0m Traceback (most recent call last):
+[1;36m(EngineCore_0 pid=6914)[0;0m   File "/software/eb/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+[1;36m(EngineCore_0 pid=6914)[0;0m     self.run()
+[1;36m(EngineCore_0 pid=6914)[0;0m   File "/software/eb/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/threading.py", line 975, in run
+[1;36m(EngineCore_0 pid=6914)[0;0m     self._target(*self._args, **self._kwargs)
+[1;36m(EngineCore_0 pid=6914)[0;0m   File "/lustre/romanistik/leonnial/gec_extractor/venv/extract_pipeline/lib/python3.11/site-packages/vllm/usage/usage_lib.py", line 168, in _report_usage_worker
+[1;36m(EngineCore_0 pid=6914)[0;0m     self._report_continuous_usage()
+[1;36m(EngineCore_0 pid=6914)[0;0m   File "/lustre/romanistik/leonnial/gec_extractor/venv/extract_pipeline/lib/python3.11/site-packages/vllm/usage/usage_lib.py", line 240, in _report_continuous_usage
+[1;36m(EngineCore_0 pid=6914)[0;0m     self._write_to_file(data)
+[1;36m(EngineCore_0 pid=6914)[0;0m   File "/lustre/romanistik/leonnial/gec_extractor/venv/extract_pipeline/lib/python3.11/site-packages/vllm/usage/usage_lib.py", line 254, in _write_to_file
+[1;36m(EngineCore_0 pid=6914)[0;0m     with open(_USAGE_STATS_JSON_PATH, "a") as f:
+[1;36m(EngineCore_0 pid=6914)[0;0m OSError: [Errno 122] Disk quota exceeded

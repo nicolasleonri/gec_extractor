@@ -1,0 +1,102 @@
+Loading modules...
+Setting folders...
+Activating virtual environment...
+First task: BerTopic. Running...
+Processing 9 CSV files from ./results/csv/correo/2014/12
+🧵 Using ProcessPoolExecutor with 384 workers
+📄 Total valid documents: 171
+
+==================================================
+Processing with model: hiiamsid/sentence_similarity_spanish_es
+==================================================
+GPU Memory: 14, 81142
+⏱️ Initializing time: 4.28 seconds
+GPU Memory: 911, 80246
+🧠 Training BERTopic model with hiiamsid/sentence_similarity_spanish_es
+2025-09-08 19:43:44,638 - BERTopic - Embedding - Transforming documents to embeddings.
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:00<00:01,  2.65it/s]Batches:  67%|██████▋   | 4/6 [00:00<00:00,  9.64it/s]Batches: 100%|██████████| 6/6 [00:00<00:00, 11.43it/s]
+2025-09-08 19:43:45,171 - BERTopic - Embedding - Completed ✓
+2025-09-08 19:43:45,171 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
+2025-09-08 19:43:53,392 - BERTopic - Dimensionality - Completed ✓
+2025-09-08 19:43:53,395 - BERTopic - Cluster - Start clustering the reduced embeddings
+2025-09-08 19:43:53,409 - BERTopic - Cluster - Completed ✓
+2025-09-08 19:43:53,411 - BERTopic - Representation - Fine-tuning topics using representation models.
+2025-09-08 19:43:53,440 - BERTopic - Representation - Completed ✓
+2025-09-08 19:43:53,452 - BERTopic - WARNING: When you use `pickle` to save/load a BERTopic model,please make sure that the environments in which you saveand load the model are **exactly** the same. The version of BERTopic,its dependencies, and python need to remain the same.
+📊 Topic info (head):
+   Topic  ...                                Representative_Docs
+0      0  ...  [PIDE JUGAR AL FINAL DELA COP20 El Mininter ha...
+1      1  ...       [. ., . ., Falta de información completa. .]
+
+[2 rows x 5 columns]
+⏱️ Training time: 9.49 seconds
+GPU Memory: 1865, 79292
+✅ Completed hiiamsid/sentence_similarity_spanish_es
+
+==================================================
+Processing with model: Qwen/Qwen3-Embedding-8B
+==================================================
+GPU Memory: 571, 80586
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.10s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.23s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.73s/it]
+⏱️ Initializing time: 10.90 seconds
+GPU Memory: 29407, 51750
+🧠 Training BERTopic model with Qwen/Qwen3-Embedding-8B
+2025-09-08 19:44:12,558 - BERTopic - Embedding - Transforming documents to embeddings.
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:17<01:25, 17.02s/it]Batches:  33%|███▎      | 2/6 [00:20<00:35,  8.80s/it]Batches:  50%|█████     | 3/6 [00:22<00:17,  5.85s/it]Batches:  67%|██████▋   | 4/6 [00:24<00:08,  4.30s/it]Batches:  83%|████████▎ | 5/6 [00:25<00:03,  3.25s/it]Batches: 100%|██████████| 6/6 [00:25<00:00,  2.19s/it]Batches: 100%|██████████| 6/6 [00:25<00:00,  4.31s/it]
+2025-09-08 19:44:38,402 - BERTopic - Embedding - Completed ✓
+2025-09-08 19:44:38,402 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
+2025-09-08 19:44:40,266 - BERTopic - Dimensionality - Completed ✓
+2025-09-08 19:44:40,266 - BERTopic - Cluster - Start clustering the reduced embeddings
+2025-09-08 19:44:40,276 - BERTopic - Cluster - Completed ✓
+2025-09-08 19:44:40,278 - BERTopic - Representation - Fine-tuning topics using representation models.
+2025-09-08 19:44:40,308 - BERTopic - Representation - Completed ✓
+2025-09-08 19:44:40,324 - BERTopic - WARNING: When you use `pickle` to save/load a BERTopic model,please make sure that the environments in which you saveand load the model are **exactly** the same. The version of BERTopic,its dependencies, and python need to remain the same.
+📊 Topic info (head):
+   Topic  ...                                Representative_Docs
+0     -1  ...  [FIFA suspende temporalmente a Franz Beckenbau...
+1      0  ...  [PIDE JUGAR AL FINAL DELA COP20 El Mininter ha...
+2      1  ...  [Nueva línea metropolitana mejora acceso a zon...
+3      2  ...  [SBS Propone Tiempo Más Corto para Levantar Se...
+4      3  ...  [Primera Dama deberá testificar ante la CNJ se...
+
+[5 rows x 5 columns]
+⏱️ Training time: 63.65 seconds
+GPU Memory: 41143, 40014
+✅ Completed Qwen/Qwen3-Embedding-8B
+
+==================================================
+Processing with model: Linq-AI-Research/Linq-Embed-Mistral
+==================================================
+GPU Memory: 571, 80586
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.20s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:58<00:34, 34.05s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:00<00:00, 19.35s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:00<00:00, 20.14s/it]
+⏱️ Initializing time: 63.44 seconds
+GPU Memory: 27665, 53492
+🧠 Training BERTopic model with Linq-AI-Research/Linq-Embed-Mistral
+2025-09-08 19:46:27,288 - BERTopic - Embedding - Transforming documents to embeddings.
+Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:19<01:39, 19.81s/it]Batches:  33%|███▎      | 2/6 [00:23<00:40, 10.17s/it]Batches:  50%|█████     | 3/6 [00:26<00:20,  6.88s/it]Batches:  67%|██████▋   | 4/6 [00:28<00:10,  5.08s/it]Batches:  83%|████████▎ | 5/6 [00:30<00:03,  3.80s/it]Batches: 100%|██████████| 6/6 [00:30<00:00,  2.56s/it]Batches: 100%|██████████| 6/6 [00:30<00:00,  5.03s/it]
+2025-09-08 19:46:57,493 - BERTopic - Embedding - Completed ✓
+2025-09-08 19:46:57,493 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
+2025-09-08 19:46:59,474 - BERTopic - Dimensionality - Completed ✓
+2025-09-08 19:46:59,474 - BERTopic - Cluster - Start clustering the reduced embeddings
+2025-09-08 19:46:59,483 - BERTopic - Cluster - Completed ✓
+2025-09-08 19:46:59,484 - BERTopic - Representation - Fine-tuning topics using representation models.
+2025-09-08 19:46:59,512 - BERTopic - Representation - Completed ✓
+2025-09-08 19:46:59,523 - BERTopic - WARNING: When you use `pickle` to save/load a BERTopic model,please make sure that the environments in which you saveand load the model are **exactly** the same. The version of BERTopic,its dependencies, and python need to remain the same.
+📊 Topic info (head):
+   Topic  ...                                Representative_Docs
+0      0  ...  [PIDE JUGAR AL FINAL DELA COP20 El Mininter ha...
+1      1  ...  [. ., . ., Información relevante sobre proceso...
+
+[2 rows x 5 columns]
+⏱️ Training time: 64.13 seconds
+GPU Memory: 35017, 46140
+✅ Completed Linq-AI-Research/Linq-Embed-Mistral
+
+📊 Processing majority vote from 3 models
+Processing agreement: 1/171
+Processing agreement: 101/171
+{0: 'lima, es, equipo, trujillo, ha', 1: 'lima, gestión, municipalidad, costa verde, verde', 2: 'general, accionistas, ley, líneas, ley general', 3: 'reunión, fiscal, caso, huamán, investigación', 4: 'productos, peruana, millones, quinoa, economía'}
+
+💾 Writing 169 agreed topics to CSV...
+✅ Results written to: ./results/csv/bertopic/results_topics_correo.csv
+Script finished!

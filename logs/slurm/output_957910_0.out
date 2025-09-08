@@ -1,0 +1,44 @@
+Loading modules...
+Setting folders...
+Activating virtual environment...
+First task: BerTopic. Running...
+Processing 9 CSV files from ./results/csv/correo/2014/12
+🧵 Using ProcessPoolExecutor with 384 workers
+📄 Total valid documents: 171
+
+==================================================
+Processing with model: hiiamsid/sentence_similarity_spanish_es
+==================================================
+GPU Memory: 14, 81142
+⏱️ Initializing time: 3.87 seconds
+GPU Memory: 911, 80246
+📦 Loading existing BERTopic model from ./results/models/bertopic/bertopic_model_sentence_similarity_spanish_es_correo
+✅ Completed hiiamsid/sentence_similarity_spanish_es
+
+==================================================
+Processing with model: Qwen/Qwen3-Embedding-8B
+==================================================
+GPU Memory: 437, 80720
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.04s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.73s/it]
+⏱️ Initializing time: 11.10 seconds
+GPU Memory: 29305, 51852
+📦 Loading existing BERTopic model from ./results/models/bertopic/bertopic_model_Qwen3_Embedding_8B_correo
+✅ Completed Qwen/Qwen3-Embedding-8B
+
+==================================================
+Processing with model: Linq-AI-Research/Linq-Embed-Mistral
+==================================================
+GPU Memory: 437, 80720
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.13s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.29s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:06<00:00,  2.10s/it]
+⏱️ Initializing time: 9.21 seconds
+GPU Memory: 27563, 53594
+📦 Loading existing BERTopic model from ./results/models/bertopic/bertopic_model_Linq_Embed_Mistral_correo
+✅ Completed Linq-AI-Research/Linq-Embed-Mistral
+
+📊 Processing majority vote from 3 models
+Processing agreement: 1/171
+Processing agreement: 101/171
+
+💾 Writing 116 agreed topics to CSV...
+✅ Results written to: ./results/csv/bertopic/results_topics_correo.csv
+Script finished!

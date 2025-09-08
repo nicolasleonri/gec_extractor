@@ -41,9 +41,11 @@ def process_all_rows(csv_files, max_workers=64):
     futures = []
 
     with ProcessPoolExecutor(max_workers=max_workers) as executor:
-        for stem, csv_data in csv_files.items():
-            for idx, row in enumerate(csv_data):
-                futures.append(executor.submit(process_row, row))
+        for csv_file in csv_files: 
+            with open(csv_file, newline="", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for idx, row in enumerate(reader):
+                    futures.append(executor.submit(process_row, row))
 
         for i, future in enumerate(as_completed(futures), 1):
             result = future.result()

@@ -9,6 +9,7 @@ import multiprocessing as mp
 from bertopic.representation import KeyBERTInspired
 from umap import UMAP
 from hdbscan import HDBSCAN
+from pathlib import Path
 import gc
 import torch
 import time
@@ -19,8 +20,30 @@ import numpy as np
 import pickle
 from pathlib import Path
 
+def get_csv_files(directory):
+    SUPPORTED_FORMATS = ['.csv']
 
-def run_single_model(documents, embedding_model_name, chunk_size=1000):    
+    logs_files = []
+    
+    for file in Path(directory).rglob('*'):
+        if file.is_file() and file.suffix.lower() in SUPPORTED_FORMATS:
+            logs_files.append(file)
+            
+    output = sorted(logs_files)
+
+    return output
+
+def check_gpu():
+    result = subprocess.run(
+        ["nvidia-smi", "--query-gpu=memory.used,memory.free", "--format=csv,nounits,noheader"],
+        stdout=subprocess.PIPE, text=True
+    )
+    print("GPU Memory:", result.stdout.strip())
+
+def run_single_model(documents, embedding_model_name, newspaper, chunk_size=1000):
+    check_gpu()
+
+    start_time = time.time()
     # Create fresh embedding model and BERTopic instance
     embedding_model = SentenceTransformer(embedding_model_name)
 
@@ -40,22 +63,28 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
     'vuestras', 'esos', 'esas', 'estoy', 'estás', 'está', 'estamos', 'estáis',
     'están', 'esté', 'estés', 'estemos', 'estéis', 'estén']
 
-    # Lightweight vectorizer with basic bigrams
     vectorizer_model = CountVectorizer(
-        stop_words=spanish_stopwords,    # Swap for "spanish" or None if not English-based
-        ngram_range=(1, 2),
-        max_features=5000        # Limit vocab size to speed up
+        stop_words=spanish_stopwords,
+        decode_error="replace",
+        ngram_range=(1, 5),
+        max_features=None,
+        strip_accents="unicode",
+        min_df=2,  # Remove very rare terms
+        max_df=0.95,  # Remove very common terms
+        token_pattern=r'\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]{2,}\b'  # Spanish-aware tokenization
     )
 
     # Speed-tuned UMAP
     umap_model = UMAP(
-        n_neighbors=10,          # Fewer neighbors = faster + tighter clusters
-        n_components=5,          # Reduce dimensions more aggressively
-        min_dist=0.25,           # Looser clustering
+        n_neighbors=200,
+        n_components=100, 
+        min_dist=0.01,
         metric='cosine',
-        random_state=42
+        random_state=42,
+        low_memory=False,
+        n_jobs=-1,
+        verbose=True
     )
-
 
     # # Define topics and their seed words
     # seeded_topics = {
@@ -64,44 +93,52 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
     #     "health": ["virus", "salud", "hospital"],
     # }
 
-    # # Faster HDBSCAN with slightly larger clusters
-    # hdbscan_model = HDBSCAN(
-    #     min_cluster_size=20,     # Controls topic granularity (20 = decent detail)
-    #     metric='euclidean',
-    #     min_samples=5,
-    #     prediction_data=True
-    # )
+    hdbscan_model = HDBSCAN(
+        min_cluster_size=10,
+        min_samples=5,
+        metric='euclidean',
+        cluster_selection_method='eom',
+        prediction_data=True,
+        core_dist_n_jobs=-1,  # Use all CPU cores
+        algorithm='boruvka_kdtree'
+    )
 
     model = BERTopic(
         embedding_model=embedding_model, 
         language="multilingual", 
-        min_topic_size=10,                  # Filters out tiny clusters
-        top_n_words=10,                     # Words per topic
+        min_topic_size=3,
+        top_n_words=50, # Words per topic
         # seed_topic_list=list(seeded_topics.values()),
         # representation_model=KeyBERTInspired(),
         calculate_probabilities=True,
         vectorizer_model=vectorizer_model,
         umap_model=umap_model,
-        # hdbscan_model=hdbscan_model,
+        hdbscan_model=hdbscan_model,
         verbose=True,
-        low_memory=True  
+        low_memory=True,
+        nr_topics=None,
         )
 
     model_suffix = re.sub(r'\W+', '_', embedding_model_name.split('/')[-1])
-    model_path = f"./results/models/bertopic_model_{model_suffix}"
+    model_path = f"./results/models/bertopic/bertopic_model_{model_suffix}_{newspaper}"
     os.makedirs(os.path.dirname(model_path), exist_ok=True)
     
+    print(f"⏱️ Initializing time: {time.time() - start_time:.2f} seconds")
+    check_gpu()
+
     try:
         pickle_file = model_path + ".pkl"
 
         if os.path.exists(model_path) and os.path.exists(pickle_file):
             print(f"📦 Loading existing BERTopic model from {model_path}")
-            # model = BERTopic.load(model_path)
+            model = BERTopic.load(model_path)
 
             with open(pickle_file, "rb") as f:
                 results = pickle.load(f)
         else:
             print(f"🧠 Training BERTopic model with {embedding_model_name}")
+            start_time = time.time()
+
             model.verbose = True
             topics, probs = model.fit_transform(documents)
             topic_keywords = get_topics_keywords(model)
@@ -116,8 +153,12 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
                 'topic_keywords': topic_keywords
             }
 
+            print("📊 Topic info (head):")
             topic_info = model.get_topic_info()
             print(topic_info.head())
+
+            print(f"⏱️ Training time: {time.time() - start_time:.2f} seconds")
+            check_gpu()
 
             with open(pickle_file, "wb") as f:
                 pickle.dump(results, f)
@@ -130,20 +171,19 @@ def run_single_model(documents, embedding_model_name, chunk_size=1000):
     return results
 
 
-def main():
-    input_folder = "./results/csv/test/"
-    results_dir = "./results/csv/"
-    output_csv = os.path.join(results_dir, "results_topics.csv")
-
-    csv_files = process_csvs(input_folder)
+def bertopic(input_files, newspaper, input_folder):
+    results_dir = "./results/csv/bertopic/"
+    csv_filename = f"results_topics_{newspaper}.csv"
+    output_csv = os.path.join(results_dir, csv_filename)
+    os.makedirs(os.path.dirname(results_dir), exist_ok=True)
 
     all_documents = []
     row_mappings = []
 
-    print(f"Processing {len(csv_files)} CSV files from {input_folder}")
+    print(f"Processing {len(input_files)} CSV files from {str(input_folder)}")
 
     max_threads = mp.cpu_count()
-    all_documents, row_mappings = process_all_rows(csv_files, max_workers=max_threads)
+    all_documents, row_mappings = process_all_rows(input_files, max_workers=max_threads)
 
     print(f"📄 Total valid documents: {len(all_documents)}")
 
@@ -165,7 +205,7 @@ def main():
         print(f"{'='*50}")
         
         try:
-            results = run_single_model(all_documents, model_name, chunk_size=1000)
+            results = run_single_model(all_documents, model_name, newspaper, chunk_size=1000)
             if results is None:
                 print(f"⚠️ No results from model {model_name}, skipping...")
                 continue
@@ -223,7 +263,9 @@ def main():
             mean_agreed_prob = sum(agreeing_probs) / len(agreeing_probs) if agreeing_probs else 0.5
             majority_agreed_topics.append((i, agreed_topic, mean_agreed_prob))
 
-    topic_labels = valid_results[0]['topic_keywords']
+    topic_labels = valid_results[1]['topic_keywords']
+    print(topic_labels)
+
     agreed_rows = []
     for i, agreed_topic, mean_agreed_prob in majority_agreed_topics:
         row = row_mappings[i].copy()
@@ -262,35 +304,46 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="BERTopic Voting & Model Saving")
     parser.add_argument("--visualize-model", type=str, default=None,
                         help="Path to a saved BERTopic model to load instead of training")
-    
+    parser.add_argument('-f', '--input_folder', required=True, help='Folder with OCR results')
+    parser.add_argument('-n', '--newspaper', required=True, help='Newspaper name (required)')
+
     args = parser.parse_args()
-    if args.visualize_model:
-        print(f"📦 Loading BERTopic model from {args.visualize_model}")
-        model = BERTopic.load(args.visualize_model)
 
-        # Clean model name for filenames (e.g., strip paths, spaces, slashes)
-        model_id = Path(args.visualize_model).stem
-        model_id = re.sub(r'\W+', '_', model_id)  # Replace non-alphanumeric with underscores
+    csv_files = get_csv_files(str(args.input_folder))
+
+    start_time = time.time()
+
+    bertopic(csv_files, args.newspaper, args.input_folder)
+
+    print(f"⏱️ Total time: {time.time() - start_time:.2f} seconds")
+
+    # if args.visualize_model:
+    #     print(f"📦 Loading BERTopic model from {args.visualize_model}")
+    #     model = BERTopic.load(args.visualize_model)
+
+    #     # Clean model name for filenames (e.g., strip paths, spaces, slashes)
+    #     model_id = Path(args.visualize_model).stem
+    #     model_id = re.sub(r'\W+', '_', model_id)  # Replace non-alphanumeric with underscores
             
-        topic_info = model.get_topic_info()
-        print(topic_info.head())
+    #     topic_info = model.get_topic_info()
+    #     print(topic_info.head())
 
-        # Define output directory for visualizations
-        viz_output_dir = "./results/visualizations/"
-        os.makedirs(viz_output_dir, exist_ok=True)
+    #     # Define output directory for visualizations
+    #     viz_output_dir = "./results/visualizations/"
+    #     os.makedirs(viz_output_dir, exist_ok=True)
 
-        # Save visualizations as interactive HTML
-        print("📊 Saving visualizations...")
+    #     # Save visualizations as interactive HTML
+    #     print("📊 Saving visualizations...")
 
-        #TODO: Fix visualizations
-        # model.visualize_documents().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
-        # model.visualize_hierarchy().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))            
-        # model.visualize_topics_per_class().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
-        model.visualize_topics().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
-        model.visualize_barchart(top_n_topics=20).write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
-        model.visualize_heatmap().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_heatmap.html"))
-        model.visualize_term_rank().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_termrank.html"))
+    #     #TODO: Fix visualizations
+    #     # model.visualize_documents().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
+    #     # model.visualize_hierarchy().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))            
+    #     # model.visualize_topics_per_class().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
+    #     model.visualize_topics().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
+    #     model.visualize_barchart(top_n_topics=20).write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
+    #     model.visualize_heatmap().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_heatmap.html"))
+    #     model.visualize_term_rank().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_termrank.html"))
         
-        print(f"✅ Visualizations saved to {viz_output_dir}")
-    else:
-        main()
+    #     print(f"✅ Visualizations saved to {viz_output_dir}")
+    # else:
+    #     return None

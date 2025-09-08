@@ -27,13 +27,13 @@ export CUDA_HOME=/software/nvidia/hpc_sdk/nvhpc_2025_251_Linux_x86_64_cuda_12.6/
 echo "Activating virtual environment..."
 source ./venv/extract_pipeline/bin/activate
 
-FOLDERS=("./data/txt/correo"
-"./data/txt/trome"
-"./data/txt/elcomercio")
+FOLDERS=("./data/txt/ojo"
+"./data/txt/ojo"
+"./data/txt/ojo")
 
-NEWSPAPER=("correo"
-"trome"
-"elcomercio")
+NEWSPAPER=("ojo"
+"ojo"
+"ojo")
 
 FOLDER=${FOLDERS[$SLURM_ARRAY_TASK_ID]}
 NEWSPAPER=${NEWSPAPER[$SLURM_ARRAY_TASK_ID]}
