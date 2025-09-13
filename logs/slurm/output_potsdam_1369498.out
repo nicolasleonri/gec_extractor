@@ -1,0 +1,142 @@
+Loading modules...
+Setting folders...
+Activating virtual environment...
+Running python script...
+INFO 09-13 22:51:29 [__init__.py:241] Automatically detected platform cuda.
+INFO 09-13 22:51:31 [utils.py:326] non-default args: {'model': 'mistralai/Mistral-Nemo-Instruct-2407', 'task': 'generate', 'tokenizer_mode': 'mistral', 'load_format': 'mistral', 'config_format': 'mistral', 'dtype': 'float16', 'seed': 42, 'max_model_len': 512, 'tensor_parallel_size': 2, 'block_size': 32, 'enable_prefix_caching': True, 'swap_space': 64, 'cpu_offload_gb': 100, 'gpu_memory_utilization': 0.875, 'disable_log_stats': True}
+INFO 09-13 22:51:45 [__init__.py:711] Resolved architecture: MistralForCausalLM
+`torch_dtype` is deprecated! Use `dtype` instead!
+ERROR 09-13 22:51:45 [config.py:130] Error retrieving safetensors: Cannot reach https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407/resolve/main/model.safetensors: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable., retrying 1 of 2
+ERROR 09-13 22:51:47 [config.py:128] Error retrieving safetensors: Cannot reach https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407/resolve/main/model.safetensors: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.
+INFO 09-13 22:51:47 [__init__.py:2816] Downcasting torch.float32 to torch.float16.
+INFO 09-13 22:51:47 [__init__.py:1750] Using max model len 512
+WARNING 09-13 22:51:47 [arg_utils.py:1770] Compute Capability < 8.0 is not supported by the V1 Engine. Falling back to V0. 
+INFO 09-13 22:51:47 [llm_engine.py:222] Initializing a V0 LLM engine (v0.10.1.1) with config: model='mistralai/Mistral-Nemo-Instruct-2407', speculative_config=None, tokenizer='mistralai/Mistral-Nemo-Instruct-2407', skip_tokenizer_init=False, tokenizer_mode=mistral, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.float16, max_seq_len=512, download_dir=None, load_format=mistral, tensor_parallel_size=2, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, decoding_config=DecodingConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=mistralai/Mistral-Nemo-Instruct-2407, enable_prefix_caching=True, chunked_prefill_enabled=False, use_async_output_proc=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":null,"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":0,"use_cudagraph":true,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"pass_config":{"enable_fusion":false,"enable_noop":false},"max_capture_size":256,"local_cache_dir":null}, use_cached_outputs=False, 
+/work/leonrios/gec_extractor/venv/mistral_nemo/lib/python3.11/site-packages/mistral_common/tokens/tokenizers/tekken.py:337: FutureWarning: The attributed `special_token_policy` is deprecated and will be removed in 1.10.0. Please pass a special token policy explicitly to the relevant methods.
+  warnings.warn(
+WARNING 09-13 22:51:48 [multiproc_worker_utils.py:273] Reducing Torch parallelism from 16 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:48 [multiproc_worker_utils.py:219] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:50 [cuda.py:384] Cannot use FlashAttention-2 backend for Volta and Turing GPUs.
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:50 [cuda.py:433] Using XFormers backend.
+INFO 09-13 22:51:50 [cuda.py:384] Cannot use FlashAttention-2 backend for Volta and Turing GPUs.
+INFO 09-13 22:51:50 [cuda.py:433] Using XFormers backend.
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:51 [__init__.py:1418] Found nccl from library libnccl.so.2
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:51 [pynccl.py:70] vLLM is using nccl==2.26.2
+INFO 09-13 22:51:51 [__init__.py:1418] Found nccl from library libnccl.so.2
+INFO 09-13 22:51:51 [pynccl.py:70] vLLM is using nccl==2.26.2
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:52 [custom_all_reduce.py:35] Skipping P2P check and trusting the driver's P2P report.
+INFO 09-13 22:51:52 [custom_all_reduce.py:35] Skipping P2P check and trusting the driver's P2P report.
+INFO 09-13 22:51:52 [shm_broadcast.py:289] vLLM message queue communication handle: Handle(local_reader_ranks=[1], buffer_handle=(1, 4194304, 6, 'psm_a29a7b07'), local_subscribe_addr='ipc:///tmp/f35aba16-73c5-463a-8a98-2b035bb82562', remote_subscribe_addr=None, remote_addr_ipv6=False)
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:52 [parallel_state.py:1134] rank 1 in world size 2 is assigned as DP rank 0, PP rank 0, TP rank 1, EP rank 1
+INFO 09-13 22:51:52 [parallel_state.py:1134] rank 0 in world size 2 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+INFO 09-13 22:51:52 [model_runner.py:1080] Starting to load model mistralai/Mistral-Nemo-Instruct-2407...
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:51:52 [model_runner.py:1080] Starting to load model mistralai/Mistral-Nemo-Instruct-2407...
+INFO 09-13 22:52:07 [weight_utils.py:296] Using model weights format ['consolidated*.safetensors', '*.pt']
+INFO 09-13 22:52:07 [weight_utils.py:347] No consolidated.safetensors.index.json found in local cache.
+Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:52:07 [weight_utils.py:296] Using model weights format ['consolidated*.safetensors', '*.pt']
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:52:07 [weight_utils.py:347] No consolidated.safetensors.index.json found in local cache.
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:06<00:00,  6.09s/it]
+Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:06<00:00,  6.09s/it]
+
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:52:13 [default_loader.py:262] Loading weights took 6.72 seconds
+INFO 09-13 22:52:14 [default_loader.py:262] Loading weights took 6.95 seconds
+INFO 09-13 22:52:16 [model_runner.py:1112] Model loading took 1.2814 GiB and 23.333277 seconds
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:52:16 [model_runner.py:1112] Model loading took 1.2814 GiB and 23.357514 seconds
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:52:20 [worker.py:295] Memory profiling takes 4.48 seconds
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:52:20 [worker.py:295] the current vLLM instance can use total_gpu_memory (15.77GiB) x gpu_memory_utilization (0.88) = 13.80GiB
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:52:20 [worker.py:295] model weights take 1.28GiB; non_torch_memory takes 0.27GiB; PyTorch activation peak memory takes 0.42GiB; the rest of the memory reserved for KV Cache is 11.83GiB.
+INFO 09-13 22:52:21 [worker.py:295] Memory profiling takes 4.55 seconds
+INFO 09-13 22:52:21 [worker.py:295] the current vLLM instance can use total_gpu_memory (15.77GiB) x gpu_memory_utilization (0.88) = 13.80GiB
+INFO 09-13 22:52:21 [worker.py:295] model weights take 1.28GiB; non_torch_memory takes 0.28GiB; PyTorch activation peak memory takes 1.25GiB; the rest of the memory reserved for KV Cache is 10.98GiB.
+INFO 09-13 22:52:21 [executor_base.py:114] # cuda blocks: 4499, # CPU blocks: 26214
+INFO 09-13 22:52:21 [executor_base.py:119] Maximum concurrency for 512 tokens per request: 281.19x
+INFO 09-13 22:53:30 [model_runner.py:1383] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m Capturing CUDA graph shapes:   0%|          | 0/35 [00:00<?, ?it/s]INFO 09-13 22:53:30 [model_runner.py:1383] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI. If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+Capturing CUDA graph shapes:   3%|▎         | 1/35 [00:02<01:20,  2.38s/it]Capturing CUDA graph shapes:   6%|▌         | 2/35 [00:04<01:17,  2.35s/it]Capturing CUDA graph shapes:   9%|▊         | 3/35 [00:07<01:14,  2.34s/it]Capturing CUDA graph shapes:  11%|█▏        | 4/35 [00:09<01:12,  2.33s/it]Capturing CUDA graph shapes:  14%|█▍        | 5/35 [00:11<01:09,  2.32s/it]Capturing CUDA graph shapes:  17%|█▋        | 6/35 [00:13<01:07,  2.32s/it]Capturing CUDA graph shapes:  20%|██        | 7/35 [00:16<01:04,  2.32s/it]Capturing CUDA graph shapes:  23%|██▎       | 8/35 [00:18<01:02,  2.31s/it]Capturing CUDA graph shapes:  26%|██▌       | 9/35 [00:20<01:00,  2.32s/it]Capturing CUDA graph shapes:  29%|██▊       | 10/35 [00:23<00:57,  2.31s/it]Capturing CUDA graph shapes:  31%|███▏      | 11/35 [00:25<00:55,  2.32s/it]Capturing CUDA graph shapes:  34%|███▍      | 12/35 [00:27<00:53,  2.31s/it]Capturing CUDA graph shapes:  37%|███▋      | 13/35 [00:30<00:51,  2.32s/it]Capturing CUDA graph shapes:  40%|████      | 14/35 [00:32<00:48,  2.32s/it]Capturing CUDA graph shapes:  43%|████▎     | 15/35 [00:34<00:46,  2.31s/it]Capturing CUDA graph shapes:  46%|████▌     | 16/35 [00:37<00:44,  2.32s/it]Capturing CUDA graph shapes:  49%|████▊     | 17/35 [00:39<00:41,  2.32s/it]Capturing CUDA graph shapes:  51%|█████▏    | 18/35 [00:41<00:39,  2.31s/it]Capturing CUDA graph shapes:  54%|█████▍    | 19/35 [00:44<00:36,  2.29s/it]Capturing CUDA graph shapes:  57%|█████▋    | 20/35 [00:46<00:34,  2.30s/it]Capturing CUDA graph shapes:  60%|██████    | 21/35 [00:48<00:32,  2.29s/it]Capturing CUDA graph shapes:  63%|██████▎   | 22/35 [00:50<00:29,  2.29s/it]Capturing CUDA graph shapes:  66%|██████▌   | 23/35 [00:53<00:27,  2.29s/it]Capturing CUDA graph shapes:  69%|██████▊   | 24/35 [00:55<00:25,  2.29s/it]Capturing CUDA graph shapes:  71%|███████▏  | 25/35 [00:57<00:22,  2.29s/it]Capturing CUDA graph shapes:  74%|███████▍  | 26/35 [01:00<00:20,  2.29s/it]Capturing CUDA graph shapes:  77%|███████▋  | 27/35 [01:02<00:18,  2.29s/it]Capturing CUDA graph shapes:  80%|████████  | 28/35 [01:04<00:16,  2.29s/it]Capturing CUDA graph shapes:  83%|████████▎ | 29/35 [01:06<00:13,  2.27s/it]Capturing CUDA graph shapes:  86%|████████▌ | 30/35 [01:09<00:11,  2.26s/it]Capturing CUDA graph shapes:  89%|████████▊ | 31/35 [01:11<00:08,  2.25s/it]Capturing CUDA graph shapes:  91%|█████████▏| 32/35 [01:13<00:06,  2.25s/it]Capturing CUDA graph shapes:  94%|█████████▍| 33/35 [01:15<00:04,  2.25s/it]Capturing CUDA graph shapes:  97%|█████████▋| 34/35 [01:18<00:02,  2.26s/it]Capturing CUDA graph shapes: 100%|██████████| 35/35 [01:20<00:00,  2.28s/it]Capturing CUDA graph shapes: 100%|██████████| 35/35 [01:20<00:00,  2.30s/it]
+INFO 09-13 22:54:50 [custom_all_reduce.py:196] Registering 2835 cuda graph addresses
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:54:50 [custom_all_reduce.py:196] Registering 2835 cuda graph addresses
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:54:51 [model_runner.py:1535] Graph capturing finished in 80 secs, took 1.50 GiB
+INFO 09-13 22:54:51 [model_runner.py:1535] Graph capturing finished in 80 secs, took 1.50 GiB
+INFO 09-13 22:54:51 [llm_engine.py:417] init engine (profile, create kv cache, warmup model) took 154.76 seconds
+INFO 09-13 22:54:51 [llm.py:298] Supported_tasks: ['generate']
+GPU Memory: 14934, 1217
+14918, 1233
+RAM:  213465  (used) 281056  (free)
+Adding requests:   0%|          | 0/16 [00:00<?, ?it/s]Adding requests: 100%|██████████| 16/16 [00:00<00:00, 4157.66it/s]
+Processed prompts:   0%|          | 0/16 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   6%|▋         | 1/16 [00:02<00:43,  2.92s/it, est. speed input: 8.58 toks/s, output: 0.69 toks/s]Processed prompts:  19%|█▉        | 3/16 [00:14<01:07,  5.21s/it, est. speed input: 4.15 toks/s, output: 1.27 toks/s]Processed prompts:  31%|███▏      | 5/16 [00:15<00:30,  2.77s/it, est. speed input: 5.36 toks/s, output: 3.15 toks/s]Processed prompts: 100%|██████████| 16/16 [00:15<00:00,  2.77s/it, est. speed input: 15.51 toks/s, output: 14.25 toks/s]Processed prompts: 100%|██████████| 16/16 [00:15<00:00,  1.01it/s, est. speed input: 15.51 toks/s, output: 14.25 toks/s]
+GPU Memory: 15278, 873
+15262, 889
+RAM:  213443  (used) 281078  (free)
+Prompt: Fix this grammar: I are going to the store.
+Generated:  I am going to the store.
+
+I am going to the store.
+--------------------------------------------------
+Prompt: Correct this sentence: She don't like apples.
+Generated:  She like bananas.
+
+She doesn't like apples. She likes bananas.
+
+
+--------------------------------------------------
+Prompt: Sing me a song.
+Generated:  I'll sing you a song. I'll sing you a song of a lad
+--------------------------------------------------
+Prompt: Translate this to Spanish: How are you today?
+Generated:  How are you feeling?
+
+I'm not sure if you're asking for a translation
+--------------------------------------------------
+Prompt: Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.
+Generated:  These tasks include learning, reasoning, problem-solving, perception, and language understanding.
+--------------------------------------------------
+Prompt: Explain this like I'm five: Why is the sky blue?
+Generated:  The sky appears blue because of a particular type of scattering called Rayleigh scattering.
+--------------------------------------------------
+Prompt: Make this sentence more formal: Gimme that report ASAP.
+Generated:  I need it to finish my work.
+
+Please provide the report at your earliest convenience
+--------------------------------------------------
+Prompt: Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.
+Generated:  /
+--------------------------------------------------
+Prompt: Fix this grammar: I are going to the store.
+Generated:  I am going to the store.
+
+I am going to the store.
+--------------------------------------------------
+Prompt: Correct this sentence: She don't like apples.
+Generated:  She like bananas.
+
+She doesn't like apples. She likes bananas.
+
+
+--------------------------------------------------
+Prompt: Sing me a song.
+Generated:  I'll sing you a song. I'll sing you a song of a lad
+--------------------------------------------------
+Prompt: Translate this to Spanish: How are you today?
+Generated:  How are you feeling?
+
+I'm not sure if you're asking for a translation
+--------------------------------------------------
+Prompt: Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.
+Generated:  These tasks include learning, reasoning, problem-solving, perception, and language understanding.
+--------------------------------------------------
+Prompt: Explain this like I'm five: Why is the sky blue?
+Generated:  The sky appears blue because of a particular type of scattering called Rayleigh scattering.
+--------------------------------------------------
+Prompt: Make this sentence more formal: Gimme that report ASAP.
+Generated:  I need it to finish my work.
+
+Please provide the report at your earliest convenience
+--------------------------------------------------
+Prompt: Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.
+Generated:  /
+--------------------------------------------------
+INFO 09-13 22:55:08 [multiproc_worker_utils.py:133] Terminating local vLLM worker processes
+[1;36m(VllmWorkerProcess pid=1644701)[0;0m INFO 09-13 22:55:08 [multiproc_worker_utils.py:253] Worker exiting
+[rank0]:[W913 22:55:48.048054345 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+Script finished!
