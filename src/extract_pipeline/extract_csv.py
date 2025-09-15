@@ -7,6 +7,7 @@ import argparse
 import os
 import sys
 import subprocess
+import gc
 from pathlib import Path
 from typing import Dict, Any
 from vllm import LLM, SamplingParams
@@ -102,6 +103,54 @@ def main():
         "Explain this like I'm five: Why is the sky blue?",
         "Make this sentence more formal: Gimme that report ASAP.",
         "Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.",
+        "Fix this grammar: I are going to the store.",
+        "Correct this sentence: She don't like apples.",
+        "Sing me a song.",
+        "Translate this to Spanish: How are you today?",
+        "Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.",
+        "Explain this like I'm five: Why is the sky blue?",
+        "Make this sentence more formal: Gimme that report ASAP.",
+        "Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.",
+        "Fix this grammar: I are going to the store.",
+        "Correct this sentence: She don't like apples.",
+        "Sing me a song.",
+        "Translate this to Spanish: How are you today?",
+        "Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.",
+        "Explain this like I'm five: Why is the sky blue?",
+        "Make this sentence more formal: Gimme that report ASAP.",
+        "Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.",
+        "Fix this grammar: I are going to the store.",
+        "Correct this sentence: She don't like apples.",
+        "Sing me a song.",
+        "Translate this to Spanish: How are you today?",
+        "Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.",
+        "Explain this like I'm five: Why is the sky blue?",
+        "Make this sentence more formal: Gimme that report ASAP.",
+        "Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.",
+        "Fix this grammar: I are going to the store.",
+        "Correct this sentence: She don't like apples.",
+        "Sing me a song.",
+        "Translate this to Spanish: How are you today?",
+        "Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.",
+        "Explain this like I'm five: Why is the sky blue?",
+        "Make this sentence more formal: Gimme that report ASAP.",
+        "Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.",
+        "Fix this grammar: I are going to the store.",
+        "Correct this sentence: She don't like apples.",
+        "Sing me a song.",
+        "Translate this to Spanish: How are you today?",
+        "Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.",
+        "Explain this like I'm five: Why is the sky blue?",
+        "Make this sentence more formal: Gimme that report ASAP.",
+        "Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.",
+        "Fix this grammar: I are going to the store.",
+        "Correct this sentence: She don't like apples.",
+        "Sing me a song.",
+        "Translate this to Spanish: How are you today?",
+        "Summarize this: Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.",
+        "Explain this like I'm five: Why is the sky blue?",
+        "Make this sentence more formal: Gimme that report ASAP.",
+        "Turn this into a haiku: The sun sets slowly / Painting the clouds with bright fire / Night embraces all.",
     ]
 
     sampling_params = SamplingParams(
@@ -114,14 +163,12 @@ def main():
         repetition_penalty=1.0
     )
 
-    #model="GameScribes/Mistral-Nemo-AWQ",
-
     llm = LLM(
         model="GameScribes/Mistral-Nemo-AWQ", # TODO: Try with AWQ model
         tokenizer_mode="mistral",
         # load_format="safetensors",
         # config_format="mistral",
-        max_model_len=8192, # TODO: Increase to 76512
+        max_model_len=65536, # Works with 8192
         gpu_memory_utilization=0.9,
         seed=42,
         quantization="awq_marlin",
@@ -151,8 +198,7 @@ def main():
         print("-" * 50)
 
     destroy_model_parallel()
-    del llm.llm_engine.model_executor.driver_worker
-    del llm # Isn't necessary for releasing memory, but why not
+    del llm 
     gc.collect()
     torch.cuda.empty_cache()
 
