@@ -1,127 +1,0 @@
-Loading modules...
-Setting folders...
-Activating virtual environment...
-First task: BerTopic. Running...
-Processing 9 CSV files from ./results/csv/correo/2014/12
-🧵 Using ProcessPoolExecutor with 384 workers
-📄 Total valid documents: 171
-
-==================================================
-Processing with model: hiiamsid/sentence_similarity_spanish_es
-==================================================
-GPU Memory: 14, 81142
-⏱️ Initializing time: 3.92 seconds
-GPU Memory: 911, 80246
-🧠 Training BERTopic model with hiiamsid/sentence_similarity_spanish_es
-2025-09-08 20:30:23,244 - BERTopic - Embedding - Transforming documents to embeddings.
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:03<00:16,  3.30s/it]Batches:  33%|███▎      | 2/6 [00:03<00:05,  1.45s/it]Batches: 100%|██████████| 6/6 [00:03<00:00,  2.82it/s]Batches: 100%|██████████| 6/6 [00:03<00:00,  1.68it/s]
-2025-09-08 20:30:26,899 - BERTopic - Embedding - Completed ✓
-2025-09-08 20:30:26,899 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
-UMAP(angular_rp_forest=True, low_memory=False, metric='cosine', min_dist=0.01, n_components=100, n_jobs=1, n_neighbors=200, random_state=42, verbose=True)
-Mon Sep  8 20:30:27 2025 Construct fuzzy simplicial set
-Mon Sep  8 20:30:27 2025 Finding Nearest Neighbors
-Mon Sep  8 20:30:31 2025 Finished Nearest Neighbor Search
-Mon Sep  8 20:30:33 2025 Construct embedding
-Epochs completed:   0%|            0/500 [00:00]	completed  0  /  500 epochs
-Epochs completed:   0%|            1/500 [00:00]	completed  50  /  500 epochs
-Epochs completed:  17%| █▋         86/500 [00:00]	completed  100  /  500 epochs
-	completed  150  /  500 epochs
-Epochs completed:  33%| ███▎       164/500 [00:00]	completed  200  /  500 epochs
-Epochs completed:  48%| ████▊      242/500 [00:00]	completed  250  /  500 epochs
-	completed  300  /  500 epochs
-Epochs completed:  64%| ██████▍    320/500 [00:00]	completed  350  /  500 epochs
-Epochs completed:  80%| ███████▉   398/500 [00:00]	completed  400  /  500 epochs
-	completed  450  /  500 epochs
-Epochs completed:  95%| █████████▌ 476/500 [00:01]Epochs completed: 100%| ██████████ 500/500 [00:01]
-Mon Sep  8 20:30:39 2025 Finished embedding
-2025-09-08 20:30:39,616 - BERTopic - Dimensionality - Completed ✓
-2025-09-08 20:30:39,616 - BERTopic - Cluster - Start clustering the reduced embeddings
-2025-09-08 20:30:39,739 - BERTopic - Cluster - Completed ✓
-2025-09-08 20:30:39,749 - BERTopic - Representation - Fine-tuning topics using representation models.
-❌ Error with hiiamsid/sentence_similarity_spanish_es: max_df corresponds to < documents than min_df
-
-==================================================
-Processing with model: Qwen/Qwen3-Embedding-8B
-==================================================
-GPU Memory: 1045, 80112
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:09<00:28,  9.42s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:02<01:10, 35.31s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:47<00:39, 39.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:50<00:00, 25.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:50<00:00, 27.64s/it]
-⏱️ Initializing time: 114.76 seconds
-GPU Memory: 29863, 51294
-🧠 Training BERTopic model with Qwen/Qwen3-Embedding-8B
-2025-09-08 20:32:42,078 - BERTopic - Embedding - Transforming documents to embeddings.
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:18<01:31, 18.31s/it]Batches:  33%|███▎      | 2/6 [00:21<00:37,  9.32s/it]Batches:  50%|█████     | 3/6 [00:23<00:18,  6.13s/it]Batches:  67%|██████▋   | 4/6 [00:25<00:08,  4.46s/it]Batches:  83%|████████▎ | 5/6 [00:26<00:03,  3.36s/it]Batches: 100%|██████████| 6/6 [00:27<00:00,  2.25s/it]Batches: 100%|██████████| 6/6 [00:27<00:00,  4.51s/it]
-2025-09-08 20:33:09,170 - BERTopic - Embedding - Completed ✓
-2025-09-08 20:33:09,170 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
-UMAP(angular_rp_forest=True, low_memory=False, metric='cosine', min_dist=0.01, n_components=100, n_jobs=1, n_neighbors=200, random_state=42, verbose=True)
-Mon Sep  8 20:33:09 2025 Construct fuzzy simplicial set
-Mon Sep  8 20:33:09 2025 Finding Nearest Neighbors
-Mon Sep  8 20:33:09 2025 Finished Nearest Neighbor Search
-Mon Sep  8 20:33:09 2025 Construct embedding
-Epochs completed:   0%|            0/500 [00:00]	completed  0  /  500 epochs
-	completed  50  /  500 epochs
-Epochs completed:  13%| █▎         67/500 [00:00]	completed  100  /  500 epochs
-Epochs completed:  29%| ██▉        144/500 [00:00]	completed  150  /  500 epochs
-	completed  200  /  500 epochs
-Epochs completed:  44%| ████▍      221/500 [00:00]	completed  250  /  500 epochs
-Epochs completed:  60%| █████▉     298/500 [00:00]	completed  300  /  500 epochs
-	completed  350  /  500 epochs
-Epochs completed:  75%| ███████▌   375/500 [00:00]	completed  400  /  500 epochs
-	completed  450  /  500 epochs
-Epochs completed:  90%| █████████  452/500 [00:00]Epochs completed: 100%| ██████████ 500/500 [00:00]
-Mon Sep  8 20:33:13 2025 Finished embedding
-2025-09-08 20:33:13,310 - BERTopic - Dimensionality - Completed ✓
-2025-09-08 20:33:13,310 - BERTopic - Cluster - Start clustering the reduced embeddings
-2025-09-08 20:33:13,323 - BERTopic - Cluster - Completed ✓
-2025-09-08 20:33:13,326 - BERTopic - Representation - Fine-tuning topics using representation models.
-2025-09-08 20:33:13,378 - BERTopic - Representation - Completed ✓
-2025-09-08 20:33:13,430 - BERTopic - WARNING: When you use `pickle` to save/load a BERTopic model,please make sure that the environments in which you saveand load the model are **exactly** the same. The version of BERTopic,its dependencies, and python need to remain the same.
-📊 Topic info (head):
-   Topic  ...                                Representative_Docs
-0     -1  ...  [Fiscalización y política pública. . Informe s...
-1      0  ...  [Domingo 28 de Diciembre de 2014 CHOQUE.. 'Onc...
-2      1  ...  [Peligros en la Costa Verde exigen atención ur...
-3      2  ...  [Búsqueda Exitosa de Smartphone ZTE Kiss. Prom...
-4      3  ...  [Critican reunión secreta entre fiscal y minis...
-
-[5 rows x 5 columns]
-⏱️ Training time: 67.11 seconds
-GPU Memory: 41601, 39556
-✅ Completed Qwen/Qwen3-Embedding-8B
-
-==================================================
-Processing with model: Linq-AI-Research/Linq-Embed-Mistral
-==================================================
-GPU Memory: 571, 80586
-Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:42<01:25, 42.59s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:38<00:50, 50.59s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:15<00:00, 44.33s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:15<00:00, 45.22s/it]
-⏱️ Initializing time: 139.03 seconds
-GPU Memory: 27665, 53492
-🧠 Training BERTopic model with Linq-AI-Research/Linq-Embed-Mistral
-2025-09-08 20:36:15,842 - BERTopic - Embedding - Transforming documents to embeddings.
-Batches:   0%|          | 0/6 [00:00<?, ?it/s]Batches:  17%|█▋        | 1/6 [00:19<01:39, 19.95s/it]Batches:  33%|███▎      | 2/6 [00:23<00:40, 10.22s/it]Batches:  50%|█████     | 3/6 [00:26<00:20,  6.90s/it]Batches:  67%|██████▋   | 4/6 [00:28<00:10,  5.09s/it]Batches:  83%|████████▎ | 5/6 [00:30<00:03,  3.81s/it]Batches: 100%|██████████| 6/6 [00:30<00:00,  2.56s/it]Batches: 100%|██████████| 6/6 [00:30<00:00,  5.05s/it]
-2025-09-08 20:36:46,149 - BERTopic - Embedding - Completed ✓
-2025-09-08 20:36:46,149 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
-UMAP(angular_rp_forest=True, low_memory=False, metric='cosine', min_dist=0.01, n_components=100, n_jobs=1, n_neighbors=200, random_state=42, verbose=True)
-Mon Sep  8 20:36:46 2025 Construct fuzzy simplicial set
-Mon Sep  8 20:36:46 2025 Finding Nearest Neighbors
-Mon Sep  8 20:36:46 2025 Finished Nearest Neighbor Search
-Mon Sep  8 20:36:46 2025 Construct embedding
-Epochs completed:   0%|            0/500 [00:00]	completed  0  /  500 epochs
-Epochs completed:  10%| ▉          49/500 [00:00]	completed  50  /  500 epochs
-	completed  100  /  500 epochs
-Epochs completed:  25%| ██▌        126/500 [00:00]	completed  150  /  500 epochs
-	completed  200  /  500 epochs
-Epochs completed:  40%| ████       202/500 [00:00]	completed  250  /  500 epochs
-Epochs completed:  56%| █████▌     278/500 [00:00]	completed  300  /  500 epochs
-	completed  350  /  500 epochs
-Epochs completed:  71%| ███████    354/500 [00:00]	completed  400  /  500 epochs
-Epochs completed:  86%| ████████▌  430/500 [00:00]	completed  450  /  500 epochs
-Epochs completed: 100%| ██████████ 500/500 [00:00]
-Mon Sep  8 20:36:50 2025 Finished embedding
-2025-09-08 20:36:50,856 - BERTopic - Dimensionality - Completed ✓
-2025-09-08 20:36:50,856 - BERTopic - Cluster - Start clustering the reduced embeddings
-2025-09-08 20:36:50,869 - BERTopic - Cluster - Completed ✓
-2025-09-08 20:36:50,871 - BERTopic - Representation - Fine-tuning topics using representation models.
-❌ Error with Linq-AI-Research/Linq-Embed-Mistral: max_df corresponds to < documents than min_df
-❌ Not enough valid model results for majority voting
-⏱️ Total time: 403.78 seconds
-Script finished!

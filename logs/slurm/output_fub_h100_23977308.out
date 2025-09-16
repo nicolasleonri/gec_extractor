@@ -1,0 +1,36 @@
+Loading modules...
+Setting folders...
+Activating virtual environment...
+Running python script...
+INFO 09-16 17:27:39 [__init__.py:216] Automatically detected platform cuda.
+Processing files:   0%|          | 0/6 [00:00<?, ?it/s]Processing files:  17%|█▋        | 1/6 [00:01<00:06,  1.39s/it]Processing files: 100%|██████████| 6/6 [00:01<00:00,  4.23it/s]
+Successfully processed: 6 files
+Chunking analysis:   0%|          | 0/6 [00:00<?, ?it/s]Chunking analysis: 100%|██████████| 6/6 [00:00<00:00, 208.49it/s]
+INFO 09-16 17:27:42 [utils.py:328] non-default args: {'seed': 42, 'max_model_len': 16000, 'enable_prefix_caching': True, 'swap_space': 17, 'disable_log_stats': True, 'max_seq_len_to_capture': 16384, 'enable_chunked_prefill': True, 'model': '/home/nicolasal97/.cache/huggingface/hub/models--MaziyarPanahi--phi-4-GGUF/snapshots/7b3c692e11c2028dd77bd2c22ecc651fb1a32261/phi-4.Q4_K_M.gguf'}
+INFO 09-16 17:28:05 [__init__.py:742] Resolved architecture: Phi3ForCausalLM
+`torch_dtype` is deprecated! Use `dtype` instead!
+ERROR 09-16 17:28:05 [config.py:278] Error retrieving safetensors: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/nicolasal97/.cache/huggingface/hub/models--MaziyarPanahi--phi-4-GGUF/snapshots/7b3c692e11c2028dd77bd2c22ecc651fb1a32261/phi-4.Q4_K_M.gguf'. Use `repo_type` argument if needed., retrying 1 of 2
+ERROR 09-16 17:28:07 [config.py:276] Error retrieving safetensors: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/home/nicolasal97/.cache/huggingface/hub/models--MaziyarPanahi--phi-4-GGUF/snapshots/7b3c692e11c2028dd77bd2c22ecc651fb1a32261/phi-4.Q4_K_M.gguf'. Use `repo_type` argument if needed.
+INFO 09-16 17:28:07 [__init__.py:2764] Downcasting torch.float32 to torch.bfloat16.
+INFO 09-16 17:28:07 [__init__.py:1815] Using max model len 16000
+WARNING 09-16 17:28:07 [__init__.py:1217] gguf quantization is not fully optimized yet. The speed can be slower than non-quantized models.
+INFO 09-16 17:28:16 [scheduler.py:222] Chunked prefill is enabled with max_num_batched_tokens=16384.
+WARNING 09-16 17:28:17 [_ipex_ops.py:16] Import error msg: No module named 'intel_extension_for_pytorch'
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization. 
+The tokenizer class you load from this checkpoint is 'MistralCommonTokenizer'. 
+The class this function is called from is 'LlamaTokenizerFast'.
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama_fast.LlamaTokenizerFast'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565 - if you loaded a llama tokenizer from a GGUF file you can ignore this message.
+[1;36m(EngineCore_DP0 pid=64738)[0;0m INFO 09-16 17:28:36 [core.py:654] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=64738)[0;0m INFO 09-16 17:28:36 [core.py:76] Initializing a V1 LLM engine (v0.10.2) with config: model='/home/nicolasal97/.cache/huggingface/hub/models--MaziyarPanahi--phi-4-GGUF/snapshots/7b3c692e11c2028dd77bd2c22ecc651fb1a32261/phi-4.Q4_K_M.gguf', speculative_config=None, tokenizer='/home/nicolasal97/.cache/huggingface/hub/models--MaziyarPanahi--phi-4-GGUF/snapshots/7b3c692e11c2028dd77bd2c22ecc651fb1a32261/phi-4.Q4_K_M.gguf', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=16000, download_dir=None, load_format=gguf, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=gguf, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, decoding_config=DecodingConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=42, served_model_name=/home/nicolasal97/.cache/huggingface/hub/models--MaziyarPanahi--phi-4-GGUF/snapshots/7b3c692e11c2028dd77bd2c22ecc651fb1a32261/phi-4.Q4_K_M.gguf, enable_prefix_caching=True, chunked_prefill_enabled=True, use_async_output_proc=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":1,"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[512,504,496,488,480,472,464,456,448,440,432,424,416,408,400,392,384,376,368,360,352,344,336,328,320,312,304,296,288,280,272,264,256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"pass_config":{},"max_capture_size":512,"local_cache_dir":null}
+[W916 17:28:37.380780238 ProcessGroupNCCL.cpp:981] Warning: TORCH_NCCL_AVOID_RECORD_STREAMS is the default now, this environment variable is thus deprecated. (function operator())
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=64738)[0;0m INFO 09-16 17:28:37 [parallel_state.py:1165] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=64738)[0;0m WARNING 09-16 17:28:37 [topk_topp_sampler.py:69] FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+[1;36m(EngineCore_DP0 pid=64738)[0;0m INFO 09-16 17:28:37 [gpu_model_runner.py:2338] Starting to load model /home/nicolasal97/.cache/huggingface/hub/models--MaziyarPanahi--phi-4-GGUF/snapshots/7b3c692e11c2028dd77bd2c22ecc651fb1a32261/phi-4.Q4_K_M.gguf...
+[1;36m(EngineCore_DP0 pid=64738)[0;0m INFO 09-16 17:28:37 [gpu_model_runner.py:2370] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=64738)[0;0m INFO 09-16 17:28:45 [cuda.py:362] Using Flash Attention backend on V1 engine.

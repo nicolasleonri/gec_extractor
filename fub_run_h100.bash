@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=fub_run_h100
-#SBATCH --output=./logs/slurm/output_fub_%j.out
+#SBATCH --job-name=run_h100
+#SBATCH --output=./logs/slurm/output_fub_h100_%j.out
 
 #SBATCH --partition=scavenger
 #SBATCH --account=agfritz
@@ -9,9 +9,9 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 
-#SBATCH --cpus-per-task=16
+#SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:h100:1
-#SBATCH --mem=384G
+#SBATCH --mem=90G
 
 #SBATCH --time=01:00:00
 
@@ -28,8 +28,8 @@ export VLLM_CACHE_ROOT=/home/nicolasal97/.cache/vllm
 echo "Activating virtual environment..."
 source ./venv/extract_csv/bin/activate
 
-echoq "Running python script..."
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/test -tn h100 -gbn 80 -aram 384 -ngpus 1
+echo "Running python script..."
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/test -tn H100 -aram 80 -ngpus 1
 
 deactivate
 module purge

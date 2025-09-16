@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=run_a5000
-#SBATCH --output=./logs/slurm/output_fub_a5000_%j.out
+#SBATCH --job-name=run_rtx2080
+#SBATCH --output=./logs/slurm/output_fub_rtx2080_%j.out
 
 #SBATCH --partition=scavenger
 #SBATCH --account=agfritz
@@ -10,8 +10,8 @@
 #SBATCH --ntasks=1
 
 #SBATCH --cpus-per-task=16
-#SBATCH --gres=gpu:a5000:1
-#SBATCH --mem=90G
+#SBATCH --gres=gpu:rtx2080ti:1
+#SBATCH --mem=45G
 
 #SBATCH --time=01:00:00
 
@@ -29,7 +29,7 @@ echo "Activating virtual environment..."
 source ./venv/extract_csv/bin/activate
 
 echo "Running python script..."
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/test -tn A5000 -aram 90 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/test -tn RTX2080 -aram 90 -ngpus 1
 
 deactivate
 module purge
