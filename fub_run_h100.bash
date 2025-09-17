@@ -26,11 +26,15 @@ export HF_HOME=/home/nicolasal97/.cache/huggingface
 export VLLM_CACHE_ROOT=/home/nicolasal97/.cache/vllm
 
 echo "Activating virtual environment..."
-source ./venv/bertopic/bin/activate
+# source ./venv/bertopic/bin/activate
+source ./venv/extract_csv/bin/activate
 
 echo "Running python script..."
 
-python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 3 --load_model False
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2018 -tn H100 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2018 -tn H100 -aram 9 -ngpus 1
+
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 3 --load_model False
 # python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/correo/ -n correo -c 3 --load_model False
 # python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/peru21/ -n peru21 -c 3 --load_model False
 # python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/trome/ -n trome -c 3 --load_model False
@@ -49,8 +53,6 @@ module purge
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2018 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2018 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2018 -tn H100 -aram 9 -ngpus 1
-# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2018 -tn H100 -aram 9 -ngpus 1
-# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2018 -tn H100 -aram 9 -ngpus 1
 
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2014/ -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2013 -tn H100 -aram 9 -ngpus 1

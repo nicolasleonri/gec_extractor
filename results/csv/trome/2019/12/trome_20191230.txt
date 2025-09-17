@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: trome_30.txt ---
+
+```json
+[
+    {
+        "headline": "SOFA MULANOVICH VOLVIÓ CORONARSE CAMPEONA MUNDIAL SURF",
+        "content": "La ‘Gringa’ es la única reina de la tabla."
+    },
+    {
+        "headline": "EL PARTIDO: PERÚ VS. CHILE EN COPA AMÉRICA 2019",
+        "content": "Nos dejamos fuera del mundial de Rusia 2018 por goles y los eliminamos en semifinales de la Copa América. Nos seguimos carcajeando de ese cartelito que colgaron en el Estadio Nacional."
+    },
+    {
+        "headline": "EL EQUIPO: DEPORIVO BINACIONAL TRIUNFO APERTURA",
+        "content": "Ganó el Apertura, fue segundo en el acumulado y titular nacional."
+    },
+    {
+        "headline": "EL ARQUITECTO: PEDRO GALLES DESTACA EN ALLIANZA",
+        "content": "Destaca con Allianza en el último tramo del campeonato, sacó todo en la Copa América y está tituar indiscutible en Wimbledon.”
+    },
+    {
+        "headline": "EL PROYECTO DEPARTAMENTAL: VOLANTE BRASILERÍO INTERESA UNIVERSITARIO",
+        "content": "Universitario quiere que el 2020 sea su año y nada mejore que una ayuda divina. Está cerca de cerrar un amistoso ante Gimnasia y Esgrima de La Plata, dirigida por Diego Armando Maradona."
+    },
+    {
+        "headline": "RONALDO RECIBE PREMIO GLBE SOCCER AWARDS",
+        "content": "Premiado en Dubai después de seis años recibiendo Globe Soccer Awards. Ronaldo comparte momentos especiales durante la ceremonia."
+    },
+    {
+        "headline": "MESSI SE QUEDA FUERA DE LOS PRIMEROS ESPORTS",
+        "content": "Messi quedó afuera de los mejores espots de esta década según France Football, siendo superado por figuras como CR7 y Van Dijk."
+    },
+    {
+        "headline": "MANCHESTER CITY SIGUE ACERCÁNDOSE AL LEADERSHIP",
+        "content": "Manchester City sigue persiguiendo al líder Liverpool, gracias a victoria sobre Sheffield y récord personal de Aguero alcanzando cifras históricas."
+    },
+    {
+        "headline": "BORUSSIA DOCKERS CONTRATA ERLING HALAND",
+        "content": "Se presenta Erling Haaland, joven talento noruego contratado por Borussia Dortmund, marcando un hito importante en su carrera futbolística."
+    },
+    {
+        "headline": "GUERRERO VISITA RESTAURANTE GUIZASOLA",
+        "content": "Jefferson Farfán y Paolo Guerrero visitan el nuevo local gastronómico de Roberto Guizasola, celebrando viejas camaraderías."
+    }
+]
+```
+This extraction focuses solely on significant sports-related headlines and their corresponding contents while excluding non-journalistic elements like ads, schedules, etc. Adjustments were made for clarity where necessary within constraints provided.

@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: trome_07.txt ---
+
+```json
+[
+    {
+        "headline": "EL STRESS DE FINAL DE AO",
+        "content": "Mi amigo, el fotgrafa Gary, lleg al restaurante por\nun arroz con mariscos con conchitas de abanico,\ncalameres, pulpo, camarones y, para la sed, una chicha\mfrezeca\u0301ita.\n\"Mara, estamos a menos de tres semanas de la Navidad y ya se siente otro ambiente\nen los hogares, en las calles, en el transporte, La \nga\u0327nda anda como más apurada, estresada, preocupada. Es\nque diciembre es el mes de la Navidad y Año Nuevo, lo que para la inmensa mayoría significa más gastos, ya\nsea para regalos o la cena de Nochebuena. Como muchas personas llegan a fin de año con poco dinero, están decididas a endeudarse. No importa que los dolores de cabeza comiencen a partir de enero. Además, el tránsito vehicular se pone peor y eso ya acaba con la paciencia de cualquiera. Por eso, algunos consejos de los expertos para sobrevivir a estos días llenos de ansias:\nPlanifica las actividades del día. Debes tener en cuenta las demoras para moverte por el tráfico vehicular, que se pone peor. Establece tiempos para la ejecución de tareas y respétalos. Sale de casa al menos con media hora de anticipación.\nDuérmete ocho horas. El tiempo de descanso en cada persona varía, pero ocho horas es el promedio. Dormir bien significará que te levantarás con más energías y buen humor, podrás concentrarte mejor en tus actividades y te equivarás menos.\nTomate las cosas con calma. En esta época muchos están más irritables, así que ante cualquier situación modérate, respira profundo y cuenta hasta diez antes de reaccionar. No ceses a las provocaciones de otros,\nSi manejas, tomate de paciencia. Los ‘embotellamientos’ sacan de sus casillas a cualquiera, pero piensa que nada cambiarán renegando. Así que tomátelo deportivamente y escucha la música que te guste o piensa en cosas agradables mientras esperas en medio del tráfico.\nUna cosa a la vez. No te cargues con responsabilidades extras que después no puedas cumplir. Haz bien lo que te toca y si luego quieres hacer algo más, adelante.\nPrioriza. Distingue lo urgente de lo que no lo es, aquellos que está en tus manos resolver y lo que escapa de tu control, No dejes para después las tareas urgentes.\nHaz un presupuesto para los regalos. Determina la cantidad de dinero que usarás para tal fin y respeta ese límite. No hace falta dar obsequios costosos. Lo mismo pasa con el número de invitados, si planeas hacer una reunión en casa.\nDecide dónde pasarás Navidad y Año Nuevo. Es mejor verse estos temas con antelación porque luego podrían ser causas de conflicto con la pareja y otros seres queridos.” Gary tiene razón. Me voy, cuidensen."
+    },
+    {
+        "headline": "MISTER, UNA MONEDITA POR PASAR MIS FIESTAS, PER'",
+        "content": "\"Hola, Trome\nEspera una buena final\nYo soy un viejo hincha de Deportivo Municipal y estoy contento de que mi equipo :\nhaya salvado la categoría. Pero no quiero hablar del cuadro de la franja, sino de la final del futbol peruano entre Binacional y Alianza Lima, Espero que sea buena y veamos partidos de poder a poder. Además, confío en que la rompan en la Copa Libertadores.\" Guillermo Corral-B. Vecino de Breña:"
+    },
+    {
+        "headline": "CORRAL-B.: SALUDOS PARA FELE INTEGRANTE",
+        "content": "\"¿Saludos para fémina integrante?\nEl pasado martes 3 de diciembre fue cumpleaños de mi madre Julia Julca de Salazar, Cumplió 90 años y es una fiel lectora del diario Trome, Se lo compramos todos los días y lo lee de principio a fin, Le encanta resolver el Puzzle’ y participa en todas sus promociones, ¿Podrían enviarle un saludo en la sección Habla Trome?’?” Luis Salazar]"
+    },
+    {
+        "headline": "JEFE EDITORIAL RESPONDE:",
+        "content": "\"De parte de la redacción del ‘Diario Pap’, le enviaremos un cordial y afectuoso saludo a Doña Julia Julca por ser una fiel lectora. Deseamos que el Todo-Poderoso la colme de salud y que siempre se encuentre acompañada de sus seres queridos.\" CARLOS CASTILLO (Arzobispo de Lima)"
+    },
+    {
+        "headline": "CRÍTICO DE CINE OPINA SOBRE TWITTER",
+        "[EdmerTrujillo]: \"Con las horas contadas? Cada vez que el premier Vicente Zeballos dice que el Ministro debe explicar, es porque se tienen que ir...\nAlfonso Baella A: [...] Creo que sí hay infiltrados en el Equipo Lava Jato. Cree que será mejor el próximo Congreso?"
+    },
+    {
+        "headline": "EDITORIAL CRISIS POLÍTICA",
+        "content": "\"No hubo golpe de Estado. Ni velado ni evidente. Carlos Castillo opina que la Iglesia católica defiende el sistema democrático porque es el menos malo y peligroso.\" Desde la Redacción del Diario Pap.”
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their structure within the provided OCR text while adhering strictly to the specified format requirements. Articles were segmented according to changes in topic indicated by headings or shifts in narrative focus. Unrelated sections such as ads have been excluded.

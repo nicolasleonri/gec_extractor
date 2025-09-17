@@ -328,6 +328,7 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
 def prepare_prompts(processed_txt_files: Dict[str, Dict[str, Any]],  prompt_prefix: str = "") -> Tuple[List[Tuple[str, str, int]], List[str]]:
     all_chunks: List[Tuple[str, str, int]] = []
 
+    print(len(processed_txt_files))
     for filename, data in processed_txt_files.items():
         chunks: List[str] = data.get("chunks", [])
         token_counts: List[int] = data.get("chunk_token_counts", [])
@@ -576,7 +577,11 @@ def main() -> None:
 
     model_config = get_model_configuration(config)
 
+    # TODO: Check if its here ? IT IS!!!
     processed_txt_files = process_chunking_decision(processed_txt_files, model_config)
+
+    print(len(processed_txt_files))
+    pirnt(processed_txt_files)
 
     all_chunks, prompts = prepare_prompts(processed_txt_files)
 
