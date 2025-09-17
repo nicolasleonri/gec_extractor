@@ -1,0 +1,42 @@
+
+
+--- ERROR ENTRY: correo_07.txt ---
+
+```json
+[
+    {
+        "headline": "Correa/Vizcarra critica decisión del Gobierno anterior",
+        "content": "\"Final\" del gobierno de Humala.\xA0\nA su juicio, este equipo registró llamadas telemáticas.\n\u201CeSo de que estaba fuera para protegerme, no me protega así, señor Ministro, no se burle del Perú. Cuando corrimos el falso rumor de que iba a otorgar asilo a Costa Rica, enviaron ese mensaje a interceptar llamadas del embajador, lo mismo paso en la Embajada de Uruguay\", dijo García. \nPidió a Vizcarra que limpie el estado de todo eso. \"¿A qué referendum vamos si no tenemos la certeza de que va a haber un Estado de Derecho si subsisten instituciones oscuros?\", sostuvo."
+    },
+    {
+        "headline": "Siete oficialistas apoyaron propuesta impulsada por Fuerza Popular y APRA",
+        "content": "Aunque la ley de financiamiento ilegal fue dictaminada en el Congreso bajo circunstancias controvertibles, contando con el aval de fuerzas políticas significativas como Fuerza Popular y el respaldo apresta, estas no fueron las únicas bancadas que lo respaldaron, dado que varios parlamentarios afiliados también votaron favorablemente. Entre ellos figuran el propio portavoz de Peruanos por el Cambio (PPK) Jorge López, junto a otros compañeros tales como Carlos Bruce, Gilbert Violeta, Sergio Tejada, Alberto Oliva, Moises Guía y Janet Sánchez. Bruce justificó dicha posición argumentando discrepancia interna respecto a la visión gubernamental."
+    },
+    {
+        "headline": "Zeballos califica votación como ‘torpeza’",
+        "content": "Durante el Seminario Referéndum y Reforma Constitucional en Debate celebrado en la Universidad de San Marcos, el ministro de Justicia, Vicente Zeballos, criticó duramente la acción legislativa del Congreso relacionada con la ley de financiamiento ilegal, describiéndola como una torpeza especialmente relevante dado que coincide temporalmente con otras controversiales acciones legales. Así mismo, el Premier César Villanueva comentó que el Congreso parece operar ignorando los mejores intereses del país."
+    },
+    {
+        "headline": "Vizcarra adelanta que observará la ley del financiamiento ilícito",
+        "content": "Sin dilación alguna, el mandatario peruano Martin Vizcarra indicó que el ejecutivo planteará objeciones formales a la ley de financiamiento ilícito de organizaciones políticas, aprobada recientemente en el Congreso. Esta medida generó preocupación pública puesto que podría resultar ventajosa para individuos sujetos a investigación penal por cargos conexos, incluyendo personalidades notables dentro de grupos políticos relevantes."
+    },
+    {
+        "headline": "Jos Luis LeCaros gana elecciones para presidencia del Poder Judicial",
+        "content": "Tras intensa competición política, José Luis LeCaros emergió victorioso en la carrera por dirigir el Poder Judicial en el período 2019–2020, superando a su rival principal, Elvia Barrios, mediante un margen determinante de votos. Este evento marcó otro capítulo crítico en la administración judicial nacional, reflejando dinámicas complejas dentro de la estructura de poder superior."
+    },
+    {
+        "headline": "Carlos Bruce rompe filas y favorece la bicameralidad",
+        "content": "Contrastando fuerte con la línea general adoptada por su partido, el congresista Carlos Bruce optó públicamente por apoyar la idea de implementar una estructura bicameral en el sistema legislativo peruano, anticipándose incluso a potencial discordia interna. Argumentó que tal disposición permitirá mitigar decisiones precipitadas tomadas unilateralmente, sugiriendo además cambios adicionales en aspectos regulatorios clave."
+    },
+    {
+        "headline": "Edwin Oviedo declara ante Fiscalía especializada",
+        "content": "Recién regresado de España después de recibir tratamiento médico, el empresario Edwin Oviedo compareció ante el fiscal del Equipo Especial José Domingo Pérez, en relación con sospechas de vínculos indebidos con conocidos personajes corruptos. Las investigaciones giran principalmente en torno a irregularidades detectadas durante licitaciones importantes gestionadas bajo su influencia directa."
+    },
+    {
+        "headline": "EDITORIAL: Un País Colmado de Escándalos",
+        "content": "Actualmente, el panorama sociopolítico peruano muestra signos alarmantes de deterioro ético y funcional, exacerbado por múltiples incidentes de corrupción y maladministración. Desde vigilancias policiales clandestinas hasta falacias legislativas diseñadas para salvaguardar intereses particulares, el tejido democrático evidencia fracturas profundas que demandan atención urgente y medidas correctivas integrales."
+    }
+]
+```
+
+This JSON structure captures each significant article within your provided input while adhering strictly to the defined format requirements for headlines and contents. Any missing data has been filled using `"NA"` where applicable, though none was necessary here due to sufficient information being available across most sections.

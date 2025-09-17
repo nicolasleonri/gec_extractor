@@ -1,0 +1,42 @@
+
+
+--- ERROR ENTRY: correo_15.txt ---
+
+```json
+[
+    {
+        "headline": "Ex rectors admitió admisión indebida de alumnos",
+        "content": "Ante importantes señalamientos recibidos de cobros irregulares a alumnos de la PUCP, algunos de ellos admitidos indebidamente según declaró su exrector Marcial Rubio, se solicitará a la Fiscalía de Lavado de Activos determinar si corresponde abrir investigación contra los responsables.\n\nUn grupo de estudiantes denunció estas prácticas ante el Indecopi, resultando en la decisión universitaria de reintegrar miles de soles a los afectados. Protestas acompañaron la situación, culminando con la dimisión de Rubio."
+    },
+    {
+        "headline": "Muere ciclista en choque en Lima",
+        "content": "El motociclista Johann Said Canari, de 22 años, falleció luego de chocar contra un automóvil en Pueblo Libre. Detalles preliminares sugieren que intentaba girar hacia otra calle cuando colisionó contra el vehículo. El conductor del carro será procesado conforme a ley."
+    },
+    {
+        "headline": \"Pequeños Actos Cotidianos\"",
+        "content": "\"Como en el amor, en la educación son esos pequeños gestos cotidianos los que construyen vínculos significativos entre profesor y alumno. Reconocer a cada estudiante personalmente puede mejorar notablemente su rendimiento académico.\" Explica Annemieke Cuculis, quien destaca cómo acciones simples pueden influir positivamente en el ambiente escolar."
+    },
+    {
+        "headline": "Producción económica aumenta en octubre",
+        "content": "Reportes muestran un incremento del 4.2% en producción nacional durante octubre, impulsado especialmente por sectores no primarios vinculados a la demanda interna. Este repunte podría llevar al Producto Bruto Interno (PBII) a alcanzar cercanas cifras del 4%. Así lo comentó el Ministro de Economía y Finanzas, Carlos Oliva."
+    },
+    {
+        "headline": "Senalar especialistas sobre formalización laboral",
+        "content": "Reducir la informalidad laboral enfrenta obstáculos legales derivados de decisiones judiciales que complican la terminación contractual. Expertos coinciden en que tales regulaciones disuaden a los empleadores de ofrecer contratos permanentes, favoreciendo así relaciones laborales precarias."
+    },
+    {
+        "headline": "Detención de candidato regional por problemas laborales",
+        "content": "Una controversia rodea al nuevo gobernador Anselmo Lozano respecto a casos pendientes relacionados con derechos laborales. Su gobierno enfoca prioritariamente resolver situaciones críticas en áreas clave como salud y saneamiento básico."
+    },
+    {
+        "headline": "Alerta meteorológica anticipa fenómeno 'Niño'",
+        "content": "El ENFEN pronostica un alto nivel de probabilidad para la aparición de un evento Niña débil en el próximo año, junto con alertas de precipitaciones moderadamente altas en algunas regiones costeras. Autoridades recomendarán precaución y preparación adecuada."
+    },
+    {
+        "headline": "Capturan traficantes de bebés en Arequipa",
+        "content": "Operativo policial logró arrestar miembros de una red criminal denominada ‘Los Desalmados’, responsable del tráfico ilícito de infantes. Entre los detenidos figura un coronel retirado de la Policía Nacional Peruana, ahora sometido a proceso judicial."
+    }
+]
+```
+
+This JSON structure captures key headlines along with their corresponding contents extracted from your provided OCR data while adhering strictly to the defined format requirements. Articles were identified based on distinct topics within the input text, ensuring clarity and relevance according to typical journalism standards.

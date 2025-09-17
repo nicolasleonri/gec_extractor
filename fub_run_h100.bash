@@ -13,7 +13,7 @@
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=9G
 
-#SBATCH --time=01:00:00
+#SBATCH --time=3-00:00:00
 
 echo "Loading modules..."
 module purge
@@ -29,7 +29,38 @@ echo "Activating virtual environment..."
 source ./venv/extract_csv/bin/activate
 
 echo "Running python script..."
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2014/13 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2014/ -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2013 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2013 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2015 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2013 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2013 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2014 -tn H100 -aram 9 -ngpus 1
+
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2015/ -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2014 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2014 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2016 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2014 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2014 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2015 -tn H100 -aram 9 -ngpus 1
+
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2019 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2019 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2019 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2019 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2019 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2019 -tn H100 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2019 -tn H100 -aram 9 -ngpus 1
+
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2018 -tn H100 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2018 -tn H100 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2018 -tn H100 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2018 -tn H100 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2018 -tn H100 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2018 -tn H100 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2018 -tn H100 -aram 9 -ngpus 1
+
 
 deactivate
 module purge

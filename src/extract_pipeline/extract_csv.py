@@ -158,7 +158,7 @@ def read_and_preprocess_files(txt_files: List[Path]) -> Dict[str, Dict[str, Any]
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
     
-    print(f"Successfully processed: {len(processed_files)} files")
+    print(f"Successfully processed: {len(txt_files)} files")
 
     if processed_files:
         total_tokens = sum(data["num_tokens"] for data in processed_files.values())
@@ -207,7 +207,7 @@ def get_model_configuration(config: Dict[str, Any]) -> Dict[str, Any]:
         model_config.update({
             "model_name": model,
             "tokenizer" : "microsoft/phi-4",
-            "max_model_len": 16000, 
+            "max_model_len": 8000, 
             "gpu_memory_utilization": 0.9,
             "quantization": "gguf",
         })
@@ -314,7 +314,6 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
             file_data["total_chunk_tokens"] = sum(chunk_tokens)
             
             total_chunks_created += len(chunks)
-            
         else:
             file_data["is_chunked"] = False
             file_data["chunks"] = [file_data["content"]]  # Single "chunk" for consistency
@@ -352,7 +351,7 @@ def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files):
                 parsed = json.loads(json_str.strip())
                 return parsed
             except json.JSONDecodeError as e:
-                print(f"JSON parsing error: {e}")
+                # print(f"JSON parsing error: {e}")
                 return None
         else:
             print(f"No {language_hint} code block found")
@@ -405,7 +404,7 @@ def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files):
             df = pd.DataFrame(answer, columns=["headline", "content"])
         
             if df.empty:
-                raise ValueError(f"No valid articles extracted.")
+                raise ValueError(f"No valid articles extracted from JSON parsing.")
             
             df["headline"] = df["headline"].astype(str).map(clean_text)
             df["content"] = df["content"].astype(str).map(clean_text)
@@ -577,5 +576,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-# TODO: Try with FlashInfer

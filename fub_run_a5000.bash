@@ -4,16 +4,16 @@
 
 #SBATCH --partition=scavenger
 #SBATCH --account=agfritz
-#SBATCH --qos=hiprio
+#SBATCH --qos=standard
 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 
-#SBATCH --cpus-per-task=16
+#SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:a5000:1
-#SBATCH --mem=90G
+#SBATCH --mem=9G
 
-#SBATCH --time=01:00:00
+#SBATCH --time=3-00:00:00
 
 echo "Loading modules..."
 module purge
@@ -29,7 +29,26 @@ echo "Activating virtual environment..."
 source ./venv/extract_csv/bin/activate
 
 echo "Running python script..."
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/test -tn A5000 -aram 90 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2016 -tn A5000 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2015 -tn A5000 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2015 -tn A5000 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2017 -tn A5000 -aram 9 -ngpus 1
+
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2015 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2015 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2016 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2017 -tn A5000 -aram 9 -ngpus 1
+
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2016 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2016 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2016 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2016 -tn A5000 -aram 9 -ngpus 1
+
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2017 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2017 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2017 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2017 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2017 -tn A5000 -aram 9 -ngpus 1
 
 deactivate
 module purge
