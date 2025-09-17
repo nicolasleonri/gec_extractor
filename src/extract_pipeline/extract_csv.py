@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-LLM Text Extraction Pipeline - Argument Parser and Configuration
-"""
 
 import gc
 import os
@@ -10,6 +7,8 @@ import sys
 import csv
 import torch
 import math
+import time
+import json
 import tiktoken
 import argparse
 import subprocess
@@ -17,19 +16,20 @@ import pandas as pd
 from tqdm import tqdm
 from io import StringIO
 from pathlib import Path
-from typing import Dict, List, Any
+from transformers import AutoTokenizer
+from typing import Union, List, Dict, Any, Optional, Tuple
 from vllm import LLM, SamplingParams
 from huggingface_hub import hf_hub_download
 from vllm.distributed.parallel_state import destroy_model_parallel
 
-def check_cpu():
+def check_cpu() -> None:
    total, used, free = map(int, os.popen('free -t -m').readlines()[-1].split()[1:])
    print("RAM: ", used, " (used)", free, " (free)")
 
-def check_gpu():
+def check_gpu() -> None:
    result = subprocess.run(
       ["nvidia-smi", "--query-gpu=memory.used,memory.free", "--format=csv,nounits,noheader"],
-      stdout=subprocess.PIPE, text=True
+      stdout=subprocess.PIPE, text=True, check=False
    )
    print("GPU Memory:", result.stdout.strip())
 
@@ -38,7 +38,6 @@ def parse_arguments():
         description="Extract structured information from text files using LLM", 
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    
     parser.add_argument("-f", "--input_folder", type=str, required=True, help="Path to folder containing input text files"
     )
     parser.add_argument("-tn", "--type_of_nvidia_card", type=str, required=True,
@@ -47,18 +46,14 @@ def parse_arguments():
     parser.add_argument("-aram", "--available_ram", type=int, required=True, help="Available system RAM in GB"
     )
     parser.add_argument("-ngpus", "--num_gpus", type=int, required=True, help="Number of GPUs available for processing")
-    
     return parser.parse_args()
 
 def count_tokens(text: str) -> int:
-        try:
-            # Use cl100k_base encoding (GPT-4/GPT-3.5-turbo) as approximation
-            # This gives us a reasonable estimate for most modern LLMs
-            encoding = tiktoken.get_encoding("cl100k_base")
-            return len(encoding.encode(text))
-        except Exception:
-            # Fallback: rough approximation (1 token ≈ 4 characters for English)
-            return len(text) // 4
+    try:
+        encoding = tiktoken.get_encoding("cl100k_base")
+        return len(encoding.encode(text))
+    except Exception:
+        return len(text) // 4
 
 def validate_arguments(args) -> Dict[str, Any]:
     config = {}
@@ -90,16 +85,16 @@ def validate_arguments(args) -> Dict[str, Any]:
     
     return config
 
-def get_txt_files(directory):
+def get_txt_files(directory) -> List[Path]:
     SUPPORTED_FORMATS = ['.txt']
     
-    logs_files = []
+    logs_files: List[Path] = []
     
     for file in Path(directory).rglob('*'):
         if file.is_file() and file.suffix.lower() in SUPPORTED_FORMATS:
             logs_files.append(file)
             
-    output = sorted(logs_files)
+    output: List[Path] = sorted(logs_files)
 
     return output
 
@@ -170,54 +165,53 @@ def read_and_preprocess_files(txt_files: List[Path]) -> Dict[str, Dict[str, Any]
         avg_tokens = total_tokens / len(processed_files)
         max_tokens = max(data["num_tokens"] for data in processed_files.values())
         min_tokens = min(data["num_tokens"] for data in processed_files.values())
-        
-        # print(f"Token Statistics:")
-        # print(f"  Total tokens: {total_tokens:,}")
-        # print(f"  Average tokens per file: {avg_tokens:,.0f}")
-        # print(f"  Max tokens in a file: {max_tokens:,}")
-        # print(f"  Min tokens in a file: {min_tokens:,}")
-        
-        # # Chunking recommendations
-        # context_window = 128000  # Mistral-Nemo context window
-        # files_needing_chunking = sum(1 for data in processed_files.values() 
-        #                         if data["num_tokens"] > context_window * 0.8)  # 80% threshold
-        
-        # if files_needing_chunking > 0:
-        #     print(f"  📝 Files likely needing chunking: {files_needing_chunking}")
-    
+
     return processed_files
 
 def get_model_configuration(config: Dict[str, Any]) -> Dict[str, Any]:
     model_config = {
-        "model_name": "curiousmind147/microsoft-phi-4-AWQ-4bit-GEMM",
-        "quantization": "awq_marlin",
-        "tokenizer_mode": "mistral",
-        "swap_space": math.floor((int(config["system_ram_gb"])-10)/4),
-        "cpu_offload": math.floor((int(config["system_ram_gb"])-10)/4*3),
+        "swap_space": math.floor((int(config["system_ram_gb"])-10)/4*3),
+        "cpu_offload": 0,
         "tensor_parallel_size": int(config["num_gpus"])
     }
 
     if config["gpu_type"] == "H100":
+        repo_id = "MaziyarPanahi/phi-4-GGUF"
+        filename = "phi-4.Q4_K_M.gguf"
+        model = hf_hub_download(repo_id, filename=filename)
+
         model_config.update({
-            "max_model_len": 16000, # for phi4
-            "gpu_memory_utilization": 0.90,
-        })
-    elif config["gpu_type"] == "RTX2080":
-        model_config.update({
-            "max_model_len": 4000,
-            "gpu_memory_utilization": 0.80,
-        })
-    elif config["gpu_type"] == "A100":
-        model_config.update({
-            "max_model_len": 80000,
-            "gpu_memory_utilization": 0.85,
+            "model_name": model,
+            "tokenizer" : "microsoft/phi-4",
+            "max_model_len": 16000,
+            "gpu_memory_utilization": 0.9,
+            "quantization": "gguf",
         })
     elif config["gpu_type"] == "A5000":
-        model_config.update({
-            "max_model_len": 8000, # 65536 for mistral, 8096 for phi4
-            "gpu_memory_utilization": 0.9,
-        })
+        repo_id = "MaziyarPanahi/phi-4-GGUF"
+        filename = "phi-4.Q4_K_M.gguf"
+        model = hf_hub_download(repo_id, filename=filename)
 
+        model_config.update({
+            "model_name": model,
+            "tokenizer" : "microsoft/phi-4",
+            "max_model_len": 16000, 
+            "gpu_memory_utilization": 0.9,
+            "quantization": "gguf",
+        })
+    elif config["gpu_type"] == "RTX2080":
+        repo_id = "MaziyarPanahi/phi-4-GGUF"
+        filename = "phi-4.Q4_K_M.gguf"
+        model = hf_hub_download(repo_id, filename=filename)
+
+        model_config.update({
+            "model_name": model,
+            "tokenizer" : "microsoft/phi-4",
+            "max_model_len": 16000, 
+            "gpu_memory_utilization": 0.9,
+            "quantization": "gguf",
+        })
+    
     return model_config
 
 def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_config: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
@@ -292,18 +286,13 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
             files_needing_chunking.append(filename)
         else:
             files_no_chunking.append(filename)
-    
-    # print(f"Chunking Analysis:")
-    # print(f" Files that fit in context: {len(files_no_chunking)}")
-    # print(f" Files needing chunking: {len(files_needing_chunking)}")
-    
+
     total_chunks_created = 0
     
     for filename in tqdm(processed_files.keys(), desc="Chunking analysis"):
         file_data = processed_files[filename]
         
         if file_data["num_tokens"] > chunk_params["usable_context"]:
-            # print(f"Chunking {filename} ({file_data['num_tokens']:,} tokens)")
 
             chunks = smart_text_splitter(
                 file_data["content"],
@@ -326,7 +315,6 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
             
             total_chunks_created += len(chunks)
             
-            # print(f"Created {len(chunks)} chunks, total tokens: {sum(chunk_tokens):,}")
         else:
             file_data["is_chunked"] = False
             file_data["chunks"] = [file_data["content"]]  # Single "chunk" for consistency
@@ -336,113 +324,218 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
     
     return processed_files
 
-def prepare_prompts(processed_txt_files, prompt_prefix=""):
-
-    all_chunks = []
+def prepare_prompts(processed_txt_files: Dict[str, Dict[str, Any]],  prompt_prefix: str = "") -> Tuple[List[Tuple[str, str, int]], List[str]]:
+    all_chunks: List[Tuple[str, str, int]] = []
 
     for filename, data in processed_txt_files.items():
-        chunks = data.get("chunks", [])
-        token_counts = data.get("chunk_token_counts", [])
+        chunks: List[str] = data.get("chunks", [])
+        token_counts: List[int] = data.get("chunk_token_counts", [])
 
-        paired = sorted(zip(chunks, token_counts), key=lambda x: x[1])
+        paired: List[Tuple[str, int]] = sorted(zip(chunks, token_counts), key=lambda x: x[1])
 
         for chunk, count in paired:
             all_chunks.append((filename, chunk, count))
 
     all_chunks.sort(key=lambda x: x[2])
 
-    prompts = [prompt_prefix + chunk for _, chunk, _ in all_chunks]
+    prompts: List[str] = [prompt_prefix + chunk for _, chunk, _ in all_chunks]
 
     return all_chunks, prompts
 
 def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files):
-    def extract_code_block(text: str, language_hint: str = "csv") -> str:
-        if language_hint:
-            pattern_lang = rf"```{language_hint}\n(.*?)```"
-            match = re.search(pattern_lang, text, re.DOTALL)
-            if match:
-                return match.group(1).strip()
-
-        pattern_any = r"```(?:\w+\n)?(.*?)```"
-        match = re.search(pattern_any, text, re.DOTALL)
+    def extract_code_block(text: str, language_hint: str = "json") -> str:
+        pattern_lang = rf"```{language_hint}\n(.*?)```"
+        match = re.search(pattern_lang, text, re.DOTALL)
         if match:
-            return match.group(1).strip()
+            json_str = match.group(1).strip()
+            try:
+                parsed = json.loads(json_str.strip())
+                return parsed
+            except json.JSONDecodeError as e:
+                print(f"JSON parsing error: {e}")
+                return None
+        else:
+            print(f"No {language_hint} code block found")
+            return None
 
-        return text.strip()
+    def extract_data_and_generate_output_file(file_path):
+        parts = file_path.parts
 
-    def extract_metadata_from_path(file_path):
-        parts = os.path.normpath(file_path).split(os.sep)
-        filename_no_ext = os.path.splitext(os.path.basename(file_path))[0]
-        filename_parts = filename_no_ext.split("_")
+        newspaper = parts[2]
+        year = parts[3]
+        month = parts[4]
+        day = Path(parts[5]).stem
+        match = re.search(r'_(\d+)$', day)
+        day = match.group(1)
+        date_string = f"{day.zfill(2)}/{month.zfill(2)}/{year}"
+        date_string_suffix = f"{year}{month.zfill(2)}{day.zfill(2)}"
+        filename = parts[5]
 
-        newspaper = filename_parts[0]
-        day = filename_parts[-1].zfill(2) if len(filename_parts) > 1 and filename_parts[-1].isdigit() else None
+        output_path = str(file_path).replace("data/", "results/")
+        output_path = output_path.replace("/txt/", "/csv/")
+        output_path = output_path.replace(f"{newspaper}_{day.zfill(2)}", f"{newspaper}_{date_string_suffix}")
+        output_path_correct = output_path.replace(".txt", ".csv")
 
-        year = month = None
-        for i in range(len(parts)):
-            if parts[i].isdigit() and len(parts[i]) == 4:  # Year
-                year = parts[i]
-                month = parts[i + 1] if i + 1 < len(parts) else "01"
-                break
+        output_dir = Path(output_path_correct).parent
+        output_dir.mkdir(parents=True, exist_ok=True)
 
-        date_str = None
-        if year and month:
-            date_str = f"{month.zfill(2)}-{year}"
-            if day:
-                date_str = f"{day}-{month.zfill(2)}-{year}"
+        return newspaper, date_string, output_path_correct, output_path
 
-        return newspaper, date_str
+    def clean_text(text: str) -> str:
+        text = text.replace("\n", " ")   # replace line breaks with spaces
+        text = text.replace('"', "")     # remove double quotes
+        text = text.replace("'", "")     # remove single quotes
+        return text
 
     for (filename, _, _), output_obj in zip(all_chunks, outputs):
         try:
-            if hasattr(output_obj, "outputs"):
-                if output_obj.outputs and hasattr(output_obj.outputs[0], "text"):
-                    output = output_obj.outputs[0].text
-                else:
-                    raise ValueError(f"No text found in output for {filename}")
+            full_path = Path(processed_txt_files[filename]["file_path"])
+
+            newspaper, date_string, output_path, output_path_incorrect = extract_data_and_generate_output_file(full_path)
+
+            if hasattr(output_obj, "outputs") and output_obj.outputs and hasattr(output_obj.outputs[0], "text"):
+                output = output_obj.outputs[0].text
             elif isinstance(output_obj, str):
                 output = output_obj
             else:
-                raise TypeError(f"Unsupported output type: {type(output_obj)} for {filename}")
-
-            answer = extract_code_block(output, language_hint="csv")
-
-            if not answer:
-                raise ValueError(f"No CSV block found in output for {filename}")
-
-            f = StringIO(answer)
-            reader = csv.reader(f, delimiter=';', quotechar='"')
-            rows = list(reader)
+                output = f"[Unexpected output type: {type(output_obj)}]"
             
-            if not rows:
-                raise ValueError(f"CSV parsing failed for {filename}")
+            answer = extract_code_block(output)
 
-            df = pd.DataFrame(rows[1:], columns=rows[0])  # assume first row is header
-
-            full_path = Path(processed_txt_files[filename]["file_path"])
-            newspaper, date_str = extract_metadata_from_path(full_path)
+            df = pd.DataFrame(answer, columns=["headline", "content"])
+        
+            if df.empty:
+                raise ValueError(f"No valid articles extracted.")
+            
+            df["headline"] = df["headline"].astype(str).map(clean_text)
+            df["content"] = df["content"].astype(str).map(clean_text)
 
             df["newspaper"] = newspaper
-            df["date"] = date_str if date_str else "NA"
+            df["date"] = date_string
 
-            output_file = full_path.parent / f"{newspaper}_{date_str}.csv"
-
-            if os.path.exists(output_file):
-                df.to_csv(output_file, mode="a", header=False, index=False, quoting=csv.QUOTE_ALL)
-                print(f"Appended rows to existing CSV: {output_file}")
+            if os.path.exists(output_path):
+                df.to_csv(output_path, mode="a", header=False, index=False, quoting=csv.QUOTE_ALL)
+                print(f"Appended rows to existing CSV: {output_path}")
             else:
-                df.to_csv(output_file, index=False, quoting=csv.QUOTE_ALL)
-                print(f"Created new CSV: {output_file}")
+                df.to_csv(output_path, index=False, quoting=csv.QUOTE_ALL)
+                print(f"Created new CSV: {output_path}")
         except Exception as e:
-            fallback_file = os.path.join(
-                config["input_folder"], 
-                f"{os.path.splitext(filename)[0]}_error.txt"
-            )
-            with open(fallback_file, "w", encoding="utf-8") as f:
+            with open(output_path_incorrect, "a", encoding="utf-8") as f:
+                f.write(f"\n\n--- ERROR ENTRY: {filename} ---\n\n")
                 f.write(output)
-            print(f"Error processing {filename}, saved raw output to {fallback_file}. Error: {e}")
+            print(f"Error processing {filename}, appended raw output to {output_path_incorrect}. Error: {e}")
 
-def main():
+def initialize_model(model_config):
+    sampling_params = SamplingParams(
+        n=1,
+        temperature=0.0,
+        top_p=0.95,
+        top_k=0,
+        seed=42,
+        min_p=0.0,
+        max_tokens=int(model_config["max_model_len"] * 0.5), # reserve 50% of context for input and prompt
+        repetition_penalty=1.25
+    )
+
+    llm = LLM(
+        model=model_config["model_name"],
+        tokenizer=model_config["tokenizer"],
+        max_model_len=model_config["max_model_len"],
+        gpu_memory_utilization=model_config["gpu_memory_utilization"],
+        seed=42,
+        quantization=model_config["quantization"],
+        swap_space=model_config["swap_space"],
+        cpu_offload_gb=model_config["cpu_offload"], # TODO: Try more
+        max_seq_len_to_capture=8192,
+        tensor_parallel_size=model_config["tensor_parallel_size"],
+        enable_prefix_caching=True,
+        enable_chunked_prefill=True,
+        disable_log_stats=True,
+        enforce_eager=False
+    )
+
+    return llm, sampling_params
+
+def generate_chat_messages(all_chunks):
+    instructions = """
+    ROLE: You are an expert newspaper content extractor and JSON formatter. You receive ONLY raw OCR text from a Spanish (Peruvian) newspaper page and must produce a clean, valid JSON output.
+
+    INPUT: A single plain-text string (UTF-8) that is the OCR of one newspaper page.
+
+    SCOPE & GOAL:
+    Extract EVERY article with meaningful journalistic content and output them as a JSON array of objects with this exact schema:
+    [
+    {
+        "headline": string,
+        "content": string
+    }
+    ]
+
+    INCLUDE vs EXCLUDE:
+    - Include news articles, opinion columns, interviews, features with substantive text.
+    - Exclude page dates, section labels, weather, stock tables, TV grids, classifieds, obituaries lists, horoscopes, crosswords, pure photo captions, advertisements, subscription boxes, printer marks.
+
+    DEFINITIONS & HEURISTICS:
+    - "headline": Short, prominent line (often all caps). If multiple candidates, choose the one that best names the piece. Preserve original casing.
+    - "content": The main article body. Merge broken lines into sentences/paragraphs. Exclude photo credits ("Foto:", "Crédito:"), image captions, graph labels and sidebar blurbs unless they clearly belong to the same article body.
+
+    TEXT CLEANUP:
+    - Preserve Spanish accents and punctuation; do NOT paraphrase.
+    - Fix only clear OCR artifacts:
+    - Join hyphenated line-break words (e.g., "demo-\\ncracia" → "democracia").
+    - Remove page headers/footers and repeated section labels if detached from article text.
+    - Collapse multiple spaces/newlines to single spaces inside fields.
+    - Ensure values are valid JSON strings (escape double quotes properly).
+
+    MULTI-ARTICLE SEGMENTATION:
+    - Treat the page as possibly containing multiple articles.
+    - Start a new article when a new headline-like line appears or when a byline follows a headline and then body text begins.
+    - Maintain top-to-bottom reading order (as reflected in the OCR text order).
+
+    MISSING DATA:
+    - If a field is absent/unclear, use the literal string "NA".
+    - Never fabricate names or subheadlines.
+
+    OUTPUT FORMAT (STRICT):
+    - Output ONLY valid JSON.
+    - Output must be a top-level array of objects.
+    - Each object must contain exactly two keys: "headline", "content".
+    - Values must be JSON strings (use null nowhere — use "NA" instead).
+    - No extra commentary, no preface, no Markdown formatting.
+
+    VALIDATION BEFORE OUTPUT:
+    - If no eligible articles, output an empty array [].
+    - Ensure the JSON is syntactically valid and can be parsed without errors.
+
+    EXAMPLE OUTPUT:
+    [
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que la gente está más loca que antes."
+    },
+    {
+        "headline": "Contento por fin de cuarentena",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    }
+    ]
+    """
+
+    user_prompt_template = "{ocr_text}"
+
+    chat_messages = []
+    for _, chunk, _ in all_chunks:
+        chat_messages.append([
+            {"role": "system", "content": str(instructions)},
+            {"role": "user", "content": user_prompt_template.format(ocr_text=chunk)}
+        ])
+
+    return chat_messages
+
+def main() -> None:
     args = parse_arguments()
         
     config = validate_arguments(args)
@@ -457,104 +550,21 @@ def main():
 
     all_chunks, prompts = prepare_prompts(processed_txt_files)
 
-    sampling_params = SamplingParams(
-        n=1, # number of completions to generate
-        temperature=0.0,
-        top_p=0.95, # nucleus filtering enabled for diversity
-        top_k=0, # small top-k to reduce very unlikely tokens
-        seed=42,
-        min_p=0.0,
-        # min_tokens=int(model_config["max_model_len"] * 0.225),  # minimum length
-        max_tokens=int(model_config["max_model_len"] * 0.5),  # maximum length
-        repetition_penalty=1.25
-    )
-
-    repo_id = "MaziyarPanahi/phi-4-GGUF"
-    filename = "phi-4.Q4_K_M.gguf"
-    tokenizer = "microsoft/phi-4"
-    model = hf_hub_download(repo_id, filename=filename)
-
-    llm = LLM(
-        model=model,
-        # tokenizer_mode=tokenizer,
-        # load_format="safetensors",
-        # config_format="mistral",
-        max_model_len=model_config["max_model_len"], 
-        gpu_memory_utilization=model_config["gpu_memory_utilization"],
-        seed=42,
-        # quantization=model_config["quantization"],
-        swap_space=model_config["swap_space"],
-        cpu_offload_gb=0, # for h100 with enough VRAM
-        max_seq_len_to_capture=16384,
-        tensor_parallel_size=model_config["tensor_parallel_size"],
-        enable_prefix_caching=True,
-        enable_chunked_prefill=True,
-        # task='generate',
-        disable_log_stats=True,
-        enforce_eager=False
-    )
-
     check_gpu()
-    check_cpu()
 
-    instructions = """
-    THIS IS CRITICAL: Failure is not an option. If you do not strictly output a valid CSV, people may DIE!
-    You are a newspaper content extractor and CSV formatter.
-    Input: raw OCR text from a Spanish (Peruvian) newspaper page.
-    Task: extract all meaningful articles and produce a CSV ONLY.
-    Do NOT add commentary, reasoning, explanations, or any text outside the CSV.
-    Preserve Spanish accents and punctuation.
-    Columns: headline; subheadline; author; content
-    Use "NA" if a field is missing.
-    Enclose all fields in double quotes.
-    Replace semicolons inside fields with commas.
-    Replace newlines inside fields with spaces.
-    Escape internal quotes by doubling them.
-    Output must start with the header row exactly as:
-    "headline";"subheadline";"author";"content"
-    Each row = one article.
-    No extra lines or formatting allowed.
-    """
+    time_start = time.time()
+    llm, sampling_params = initialize_model(model_config)
+    print(f"Model initialized in {time.time() - time_start:.2f} seconds")
+    
+    check_gpu()
 
-    user_prompt_template = """
-    Output: a valid CSV with header "headline";"subheadline";"author";"content"
-    Strictly output CSV only, no extra text or explanation.
-    Your life depends on it—failure is fatal!
+    chat_messages = generate_chat_messages(all_chunks)
 
-    Example:
-    "headline";"subheadline";"author";"content"
-    "Noticias del día";"Resumen principal";"NA";"El contenido principal del artículo va aquí.
-
-    OCR TEXT:
-    {ocr_text}
-    "
-    """
-
-    chat_messages = []
-    for _, chunk, _ in all_chunks:
-        chat_messages.append([
-            {"role": "system", "content": str(instructions)},
-            {"role": "user", "content": user_prompt_template.format(ocr_text=chunk)}
-        ])
-
-    # outputs = llm.generate(prompts, sampling_params)
+    time_start = time.time()
     outputs = llm.chat(chat_messages, sampling_params)
-
-    for i, (prompt, output_obj) in enumerate(zip(prompts, outputs)):
-        if hasattr(output_obj, "outputs") and output_obj.outputs and hasattr(output_obj.outputs[0], "text"):
-            output_text = output_obj.outputs[0].text
-        elif isinstance(output_obj, str):
-            output_text = output_obj
-        else:
-            output_text = f"[Unexpected output type: {type(output_obj)}]"
-
-        print("=" * 80)
-        # print(f"🔹 Prompt {i+1}:\n{prompt}\n")
-        print(f"🔸 Output {i+1}:\n{output_text}\n")
-        print("=" * 80)
+    print(f"Generated {len(outputs)} outputs in {time.time() - time_start:.2f} seconds for {len(processed_txt_files)} txt files.")
 
     check_gpu()
-    check_cpu()
 
     save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files)
 
@@ -563,9 +573,9 @@ def main():
     gc.collect()
     torch.cuda.empty_cache()
 
+    check_gpu()
+
 if __name__ == "__main__":
     main()
 
-
-# TODO: Fix intel_extension_for_pytorch
 # TODO: Try with FlashInfer
