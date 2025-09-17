@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: ojo_04.txt ---
+
+```json
+[
+    {
+        "headline": "OTORGÓ EL ASILO ... ",
+        "content": "AL EXPRESIDENT Pedro Paúl Kuczynski\n\"Pedro» no «podía pedir\presión preventiva\"\n«POR QUÉ CHILE NO PUEDO PEDIR PRESIÓN PREVENTIVA», DIJO.\nAlan García y otros funcionarios fueron citados a comparecer. \"Ya está retirándose de Chile\", informó Reyna."
+    },
+    {
+        "headline": "Malas lengüas reaparecen cargaditas de chismes...",
+        "content": "\"Esas malas lenguas abundan en Hollywood...\nArrancamos con Tomás Angulo, el jugador de familia, denunciado por su exesposa porque solo le dio 400 soles a su hijo. Mayra Gonzáles podría reconciliarse con Pablo Herrera según rumores. Coto Hernández llama ‘fantasma’ a Richard Swing y califica de ‘estupidez’ todo lo que él diga. Monica Sabja celebra en redes que Uruguay no le concedió asilo político a Alberto Fujimori. Nachito Isponiza criticó ver al actor Carlos Carlón en eventos públicos. Chris Christian Miño tendría nuevo romance con Juliana Galvis, compartiendo proyectos laborales.\""
+    },
+    {
+        "headline": "Emmanuel Regresa al Perú después de 18 años...",
+        "content": "\"Después de 18 años de ausencia presenta un concierto en Lima como parte de su gira ‘The Hits Tour’. Expreso gratitud hacia el país donde vivió cinco años y reflexiona sobre la violencia contra mujeres. Comenta también sobre cómo evolucionan los valores culturales y musicales.\""
+    },
+    {
+        "headline": "‘Una cosa es hablar bonito y otra diferente es comportarte correctamente’, señalan comediantes...",
+        "content": "\"Melcochita y Miguel Barriga critican a Alan García por no enfrentar a la justicia. Ambos ofrecerán un show titulado ‘La Pelea Del Año’ en Teatro Municipal.”
+    },
+    {
+        "headline": "Redacción Grupo Epensa PE...",
+        "content": "\"Anette Acosta insiste en defenderse de comentarios racistas atribuidos a Antonio Pavón. Revelación pública genera controversia mediática. Discusiones abiertas respecto a diferencias socio-culturales emergentes.”"
+    },
+    {
+        "headline": "Martha Figueroa muestra fotografías sugiriendo vida post-mortem de Juan Gabriel...",
+        "content": "\"Presenta imágenes que podrían sugerir actividad paranormal relacionada con el famoso músico luego de su partida física. Genera debate público sobre fenómenos inexplicables.”
+    },
+    {
+        "headline": "Bad Bunny amenaza con continuar produciendo música exitosa...",
+        "content": "\"Explica que su motivación proviene más de mantenerse creativamente activo y conectado con su audiencia que buscar reconocimientos externos. Subraya la influencia positiva de su equipo familiar y profesional en su carrera musical actual.”
+    },
+    {
+        "headline": "Universitario confirma fichaje de José Carvallo...",
+        "content": "\"José Carvallo firma por dos temporadas con Universidad de Deportes buscando repetir éxitos pasados. Competirá por posición titular frente a Patrick Zubczuk. Administración planea incorporar talentos adicionales para fortalecimiento del plantel.”
+    }
+]
+```
+This JSON contains extracted headlines and contents based on significant topics identified within the provided OCR text while adhering strictly to the defined scope and guidelines for extraction. Note any missing data has been filled with `"NA"` where applicable according to instruction requirements.

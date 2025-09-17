@@ -1,0 +1,123 @@
+
+
+--- ERROR ENTRY: ojo_08.txt ---
+
+```json
+[
+    {
+        "headline": "MATRIMONIO DE ‘OREJAS’ FLORES Y ANA SILVERO SE VE EN VIVO Y EN DIRECTO POR TELEVISIÓN",
+        "content": ""
+    },
+    {
+        "headline": "OPORTUNIDADES PRÁCTICAS – BEBESTÉ ELIXIRS ESPECIALISTA",
+        "content": "$eu | VIVA SANO CON LAS RECOMENDACIONES DEL DR. PEREZ–ALBELA\n\nII POLITICA \nEXCEPCIONALES\nEDICIÓN)\nVAR O NO VAR,\nSIN DILEMAS\nLa inclusión del sistema\nde video arbitraje (VAR)\nen el futbol peruano es\nuna muestra del nivel\nde profesionalismo que\nqueremos dar a los\ntorneos nacionales.\nHabría quienes piensen\nque la implementación\nde esta herramienta\nle quita emoción al juego;\nsí así lo vivimos en\nel mundial cuando no\nsabíamos si gritar gol\no no hasta que el VAR\naprobara la jugada.\nPero más allá de\nanalizar jugadas, el VAR\npermite a los árbitros\ntomar decisiones justas en el campo de\njuego; y eso está bien,\nespecialmente cuando\nen más de una ocasión\nse han cuestionado las\npolémicas actuaciones\nde quién es la\nautoridad en el verde.\nDisfrutémonos de los partidos de ida y vuelta\nde esta final del torneo nacional, que seguro\nque con el uso del VAR\ntendrá un carácter peculiar."
+    },
+    {
+        "headline": "",
+        "content": "La situación de la\nexcarcelada Keiko Fuji-mori podría complicarse\nnuevamente.\nEs que el empresario Antonio\nCamayo no sólo confirmó\nante el fiscal José Domingo Pérez que ella es la ’Señora K’, sino que añadi detalles de una reunión entre la líder de Fuerza Popular\ny el expresidente del Tribunal Constitucional, Óscar Urviola Henríquez. ’El Dr. Oscar Urviola me comentó que sí había conseguido tener la reunión con la señora Keiko Fujimori, que él había sido recibido y conducido al distrito de Surco frente a la Universidad de Lima, que le habían hecho varias vueltas y llegaron a la casa partidaria’, mencionó. Indicó también que en esa cita estuvieron Hernán Melgar y Wilfredo Pedraglio. Explicó que conversaron de políticas públicas, los cambios que deben llevarse a cabo en el Poder Judicial, y que Urviola había logrado captar la atención de Keiko Fujimori. Este testimonio, aseguró, surgió a petición de varios miembros del partido."
+    },
+    {
+        "headline": "‘TESTIMONIO DE CAMAYO SIRVE PARA DENUNCIAR A KEIKO'",
+        "content": "ANTONIO CAMAYO DETALLÓ REUNIÓN CON “HERMANITO"\nSe complica aún más la situación de Keiko\nUrbiola, conocido popularmente como ’Hermanito’, le relató a Camayo que la causa judicial de Keiko Fujimori ’iban a caer en sus manos y con esto él iba a obtener influencia política y aspirar a ser Presidente del Consejo de Ministros’. Posteriormente, Camayo contactó a Melgar. "
+    },
+    {
+        "headline": "NO SALIDA DEL PAÍS PARA MINISTRO DE HUMANIZACIÓN",
+        "content": "El Poder Judicial determinó impedimento de salida del país por un periodo de 6 meses, contra el exministro de Economía y Finanzas, Luis Miguel Castro. La Fiscalía solicitaron 18 meses y apelará la decisión. Castillo enfrenta investigación por la adjudicación irregular del proyecto gasístico Sur Peruano a favor de Odebrecht, mientras ejerció funciones gubernamentales bajo el mandato de Ollanta Humala."
+    },
+    {
+        "headline": "CRISTHIÁN ZAMUDIO REPORTAJE",
+        "content": "En un solo día, un grupo criminal cometió múltiples asaltos en distintas zonas residenciales. Durante estas acciones criminales, un individuo armado intentó secuestrar a un ciudadano utilizando un automotor privado. Sin embargo, agentes policiales persiguieron al malhechor, culminando en un altercado donde éste sufrió graves heridas. Las fuerzas del orden confiscaron diversos dispositivos móviles sofisticados y vestimenta táctica perteneciente a la Policía Nacional dentro de posesión del arrestado."
+    },
+    {
+        "headline": "TRAGIC ACCIDENT CAUSES LOSS OF LIFE AND INJURY",
+        "content": "Durante un incidente vehicular, un motorista trató de evadir a unos ocupantes de otro coche que pretendían hurtarle objetos personales. Desafortunadamente, el impacto provocó que el vehículo volcase causándoles severas fracturas a ambas partes involucradas. Testimonios locales describen cómo el afectado resistió valientemente el asalto, aunque lamentablemente pagó con su integridad física."
+    },
+    {
+        "headline": "FEROCIDAD DESATA TRAGEDIAS",
+        "content": "Conocido como ’Choca’, Jerry Falcon García fue identificado como responsable directo de un homicidio relacionado con actividades ilegales previas. Detenido después de intensificar operativos policiales, poseía antecedentes judiciales significativos incluidos cargos pendientes vinculados a actos de extorsión bancaria. Sus últimas apariciones implicaron confrontaciones mortales con funcionarios de seguridad pública."
+    },
+    {
+        "headline": "JUSTICE FOR THE DEFENDER",
+        "content": "Un patriota defendió heroicamente a su anciano padre de un grupo de asaltantes, sacrificando su propia existencia en el proceso. Vecinos reportaron el evento dramático donde los intrusos forzaron la entrega de fondos monetarios destinados a cubrir pensiones básicas. Una intervención rápida condujo a un fatal resultado tanto para el victimario como para el protector familiar."
+    },
+    {
+        "headline": "FINANCIAL EXPENSE ON IMPRISONMENTS",
+        "content": "Actualmente, mantener a un individuo recluido impone costos considerables al erario público, ascendiendo aproximadamente a S/5,000 mensuales según cifras proporcionadas por el Instituto Nacional Penitenciario. Esto engloba aspectos tales como manutención, infraestructura correccional, suministros alimenticios y demás requerimientos administrativos asociados a la gestión carcelaria."
+    }
+]
+```
+This JSON structure captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the outlined extraction rules. Articles lacking explicit headings have been assigned `"NA"` where applicable. All extracted data has undergone necessary cleanup processes such as joining split words across lines and removing extraneous characters introduced through OCR processing. This ensures clarity and readability consistent with standard journalism practices.
+
+--- ERROR ENTRY: ojo_08.txt ---
+
+```json
+[
+    {
+        "headline": "Ministerio de la Mujer registra aumento significativo en casos de femincidio",
+        "content": "Del enero a noviembre de este año se han registrado al menos 152 femincidios, dos más que todo el año pasado. Esta cifra representa la más alta en la última década."
+    },
+    {
+        "headline": "Niño pierde la vida después de consumir explosivos conocidos como ‘Rascapie’",
+        "content": "Un niño de 8 años falleció ayer debido a la ingestión de un explosivo llamado “rascapié". El incidente ocurrió el sábado 30 de noviembre y desde entonces estaba internado alternadamente en el Hospital de Apoyo de Sullana. La madre del menor presentó una denuncia por negligencia."
+    },
+    {
+        "headline": "Anguila prende luces navideñas mediante electricidad estática",
+        "content": "Dueños de un acuario usan a una anguila, nombrada Miguel, para activar las decorativas luces navideñas de su establecimiento. Esto causa admiración entre los visitantes quienes ven cómo la descarga eléctrica del animal ilumina las luces."
+    },
+    {
+        "headline": "Descubriendo infidelidad con ayuda de una inteligentísima pulsera",
+        "content": "Una mujer detectó la infidelidad de su expareja usando una pulsera inteligente que él mismo había comprado para ella. Después de verificar el dispositivo, encontró signos de actividad física intensa durante momentos sospechosos."
+    },
+    
+    {
+        "headline": "Abuelito transforma su mototaxi en un bello trineo navideño",
+        "content": "Un abuelito invirtió parte de sus ahorros para modificar su mototaxi en un trineo festivo. Decorándolo con adornos navideños y simulando llevar un gorrito, el anciano llama la atención ofreciendo viajes gratuitos a niños y familias."
+    },
+
+    {
+        "headline": "Padre localiza arma autntica entre juguetes de su hijo",
+        "content": "Durante una búsqueda rutinaria entre los juguetes de su bebé, un padre encontró un rifle semiautomático junto con munición cargada. Parece que la madre cometió un error al realizar la compra."
+    },
+
+    {
+        "headline": "Adopción pública: amigos escolares testigos emocionales",
+        "content": "Michael Clark Jr. organizó una audiencia especial para compartir su proceso de adopción legal con todos sus compañeros de kindergarten. Sus nuevos padres Andrea Melvin y Dave Eaton recibieron felicitaciones públicas por crear un ambiente inclusivo y cariñoso."
+    },
+
+    {
+        "headline": "Empresa supera expectativas vendiendo millones de lapices",
+        "content": "Una empresa alcanzó ventas récord al comercializar más de 100 millones de lápices. Ofrece precios competitivos y variedades amplias disponibles a nivel nacional."
+    },
+
+    {
+        "headline": "Ex-presidente boliviano Evo Morales visita Cuba bajo circunstancias médicas",
+        "content": "Tras dejar Bolivia el 11 de noviembre, Evo Morales reside temporalmente en México y actualmente se dirigió a Cuba para recibir tratamiento médico. Durante su estadía en México, vivió principalmente en una base militar gubernamental."
+    },
+
+    {
+        "headline": "Grupo Feminista protesta frente a América FC por conducta irrespetuosa",
+        "content": "Activistas feministas congregadas en la Glorieta de los Insurgentes criticaron duramente a jugadores juveniles del equipo americano por imitar canciones emblemáticas del movimiento de género. Como muestra de disconformidad, quemaron banderas del club."
+    },
+
+    {
+        "headline": "Trump insta a Irán a dialogar post liberación mutua de prisioneros",
+        "content": "Después de un intercambio diplomático de prisioneros, Donald Trump sugirió a través de Twitter la oportunidad de construir relaciones positivas con Irán. Funcionarios de la administración mencionaron conversaciones pendientes respecto al programa nuclear iraní."
+    },
+
+    {
+        "headline": "Manifestaciones multitudinarias en Chile demandan cambios políticos",
+        "content": "Este viernes, miles tomaron las calles de Chile en respuesta a tensiones socio-políticas persistentes. Según reportes policiales, fueron arrestadas aproximadamente 136 personas durante disturbios severos incluyendo saqueos e incendios provocados."
+    },
+
+    {
+        "headline": "Corea del Norte declara fuera de agenda cualquier diálogo sobre desnuclearización",
+        "content": "Representantes norcoreanos anunciaron que temas relacionados con la eliminación de capacidades nucleares están excluidos de las negociaciones con Estados Unidos. Critican estas acciones como tácticas dilatorias sin comprometer verdaderos objetivos pacíficos."
+    },
+
+    {
+        "headline": "Mayoría de población brasileña desconfía de Presidente Bolsonaro",
+        "content": "Encuestas muestran que el 80% de los brasileños carecen de fe en las declaraciones hechas por el mandatario Jair Bolsonaro. Solo un minoritario segmento considera completamente cierto lo que comunica el líder conservador."
+    }
+
+]
+```

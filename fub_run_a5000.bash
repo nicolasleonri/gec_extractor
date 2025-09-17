@@ -26,13 +26,22 @@ export HF_HOME=/home/nicolasal97/.cache/huggingface
 export VLLM_CACHE_ROOT=/home/nicolasal97/.cache/vllm
 
 echo "Activating virtual environment..."
-source ./venv/extract_csv/bin/activate
+source ./venv/bertopic/bin/activate
+
+python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 1 --load_model False
 
 echo "Running python script..."
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2016 -tn A5000 -aram 9 -ngpus 1
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2015 -tn A5000 -aram 9 -ngpus 1
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2015 -tn A5000 -aram 9 -ngpus 1
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2017 -tn A5000 -aram 9 -ngpus 1
+
+deactivate
+module purge
+
+###################### 01: Extraction task ###########################
+# source ./venv/extract_csv/bin/activate
+
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2016 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2015 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2015 -tn A5000 -aram 9 -ngpus 1
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2017 -tn A5000 -aram 9 -ngpus 1
 
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2015 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2015 -tn A5000 -aram 9 -ngpus 1
@@ -49,6 +58,3 @@ python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2017 -tn A500
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2017 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2017 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2017 -tn A5000 -aram 9 -ngpus 1
-
-deactivate
-module purge

@@ -1,0 +1,84 @@
+
+
+--- ERROR ENTRY: peru21_20.txt ---
+
+```json
+[
+    {
+        "headline": "Graban en enero Serie de Luca de la Cruz en América TV",
+        "content": "La cantante criolla Luca de la Cruz anunció que el próximo año se estrenará una miniserie sobre su vida. \"Estoy muy contenta porque desde el 6 de enero se grabará una miniserie sobre mi vida, y se llamará 'Yo Perdí el Corazón'. La podrán ver por América TV\", señala.\nThe series continues investigations."
+    },
+    {
+        "headline": "Casopaulwalker\nSu muerte no fue por fallo mecánico",
+        "content": "\"A 20 días de la muerte de Paul Walker aún seguimos investigando la causa del accidente automovilístico que provocó el fatídico accidente.\" Se manejaba la opción de una falla mecánica del Porsche en el que viajaba a bordo el actor, pero una investigación destapó esa hipótesis y ahora se evalúa la excesiva velocidad."
+    },
+    {
+        "headline": "Kimbasinger\nA los 60 años volver al modelaje",
+        "content": "La actriz Kim Basinger, símbolo sexual de los ochenta, sigue sin perder su encanto a pesar de sus sesenta años, y, por eso, acabó de firmar contrato como modelo con la agencia IMG Models, la misma que maneja la carrera de su hija Ireland, de dieciocho años. \"Mi mamá parece tener mi edad. Su cuerpo es increíble\" declaró hace poco su hija Ireland en la revista Elle."
+    },
+    {
+        "headline": "Viernes 20 de diciembre de 2013 | Escenarios| Peru21 127 Gravedad Esteefín Thor: Un Mundo Oscuro El abogado del crimen Para ver los estrenos y la programación completa ingresa a nuestra web www.peru21.pe",
+        "content": "THE HOBBIT: LA DESOLACIÓN DESMAUG \nGénero: Aventura THE HOBBIT: LA DESOLACIÓN DESMAUG Dirige: Peter Jackson Actor: Ian McKellen Sinopsis: Bilbo y la compañía de los enanos se enfrentarán al temible dragón Smaug,\nCinemark Jockey Plaza 1:20, 2:20, 3:10, 4:10, 4:40, 5:40, 6:30, 7:30, 8,9, 10,10:50, 13:20. Mall Aventura Plaza Bellavista 1, 2, 3, 4:15, 5:20, 6:30, 7:30, 8:40, 9:45, 10:45. Plaza Lima Sur 2, 33,43, 5:10, 6:30,7:30, 8:30, 9:50, 10:50, San Miguel 1:20, 2, 4.30,52,6,7:15,7:45,...\n(The rest of the movie schedule)"
+    },
+    {
+        "headline": "LOS JUEGOS DEL HAMBRE: EN LAS LLAMAS",
+        "content": "Dirige: Francis Lawrence Actor: Jennifer Lawrence Sinopsis: Katniss y Peeta son perseguidos por el Capitolio tras su extraordinaria victoria en los juegos del hambre.\n(Cinema listings follow similar format for various locations.)"
+    },
+    {
+        "headline": "Salvando a Santa\nGénero: Comedia Animada",
+        "content": "SAVING ST.NICKLEBY\nDirige: Len Jonson Actor: Martin Freeman Sinopsis: Bernardo, un divertido duendecillo navideño, intenta rescatar a Papá Noel de las garras de un multimillonario, salvándole así la Navidad.\n(Cinema listings continue similarly across different venues.)"
+    },
+    {
+        "headline": "Captain Phillips",
+        "content": "Dirige: Paul Greengrass Actor: Tom Hanks Sinopsis: El Capitán de un barco mercantil americano es secuestrado por un grupo de piratas somalís mientras navegaban cerca del Golfo de Adén.\n(Various cinema schedules listed here too.)"
+    },
+    {
+        "headline": "La Religiosa",
+        "content": "Dirige: Guillermo Nicotux Actor: Pauline Étienne Sinopsis: Una joven monja vive distintos castigos y vejaciones dentro de un convento durante el Siglo XVII.\n(UKV Larcomar listing included along with other cinemas.)"
+    },
+    {
+        "headline": "Causes and Consequences",
+        "content": "Dirige: Robert Redford Actor: Shia LeBoeuf Sinopsis: Un abogado defensor es denunciado públicamente por un reportero y pasa a ser buscado por la justicia.\n(More detailed film screening times provided.)"
+    },
+    {
+        "headline": "Jennifer Lopez y Marc Antony Demandados Millones",
+        "content": "Ahora los populares intérpretes deben hacer frente a una millonaria demanda debido a presuntos plagios realizados contra otro programa televisivo. Según John Jacobss, creador de ‘’Q’ Vive!’’, ambos habían aceptado inicialmente participar en dicho formato antes de retirarse abruptamente de él. Ahora deberán responder legalmente por haber utilizado ideas originales propias."
+    },
+    {
+        "headline": "Emilia Drago",
+        "content": "“Me da miedo competir con Carolina y con Ginoperfecto en el Gran Show.” Mañana será la final de este certamen musical ¿Cómo recibiste el saber que tendrás que medir tus fuerzas junto a personas tan conocidas?\n“También he tenido que batirme en combates artísticos con otras grandes figuras femeninas, como Carola Cano. Realmente me genera cierta ansiedad verse cara a cara con estos personajes icónicos… Trabajo mucho para superarlo.”
+    }
+]
+```
+This JSON captures each distinct article found within the input text based on headlines and associated contents while adhering strictly to the given guidelines. Note how some sections were merged due to their continuity under specific headings like event announcements or ongoing stories. Movie screenings have been summarized where necessary to maintain focus on primary narrative elements rather than exhaustive details.
+
+--- ERROR ENTRY: peru21_20.txt ---
+
+```json
+[
+    {
+        "headline": "El caso Toledo está en cuenta regresiva en el Congreso",
+        "content": "La investigación que realiza la Comisión de Fiscalización sobre el caso de las adquisiciones inmobiliarias de Eva Fernenbug, suegra del expresidente Alejandro Toledo, se encuentra en la etapa final.\xA0\n\nAyer ese grupo de trabajo terminó de recolectar las versiones de testigos e investigados respecto a ese tema que, además, se encuentra bajo indagación en dos fiscalías de Lima, así como en San José (Costa Rica).\xA0\n\nEn la sesión de ayer se sentó el abogado Julio Mazuelos, representante legal de Josef Maimán, empresario peruano-israelí que se atribuye ser el dueño de los más de US$S millones utilizados en las compras de propiedades que efectuó Fernenbug, durante el año 2012, en zonas exclusivas de Lima."
+    },
+    {
+        "headline": "Origen desconocido",
+        "content": "De otro lado, ayer trascendió que el gresal había elaborado los lineamientos de un informe preliminar sobre el caso de Alejandro Toledo.\xA0\n\n\"No nos pronunciaremos sobre un documento formalidad que corresponde\", señaló Julio Mazuelos, Abogado de Josef Maimán.\xA0\n\nAlgunas partes del texto de ese documento de trabajo –divulgadas ayer por el portal web de El Comercio– señalan que hasta la fecha Josef Maimán no ha acreditado, de forma documental, el origen de los fondos transferidos por la compañía costarricense Ecoteva a la suegra de Toledo para la adquisición de predios en la capital peruana."
+    },
+    {
+        "headline": "Plaza de Armas",
+        "content": "\"Jubilemos la jubilación temprana\"\nUna vez más, el populismo se adueña de los escaños congresales. Con 58 votos a favor y 30 abstenciones (ni un solo voto en contra), ayer se amplió por dos años más (hasta el 2015) el régimen especial del sistema privado de pensiones a través del cual tanto hombres (la partida de los 55 años) como mujeres (a partir de los 50 años) puedan acceder a la jubilación temprana cuando se encuentren desempleados.\n\nNadie discute que cuando una persona se encuentra desempleada y simultáneamente cuenta con depósitos en una AFP pueda acceder a los mismos. Es lógico y, además, debería ser su derecho. Al fin y al cabo, para eso es propietaria de dichos fondos.\n\nEl problema radica en la terminología usada para dicho acceso. Cuando se publicita un sistema de jubilación a los 55 años, lo que estamos creando es una fantasía. Mañana, en alguna confusa decisión, no faltar quién proponga ampliar el régimen: de jubilación temprana a otros casos, inclusive respecto al sistema público."
+    },
+    {
+        "headline": "",
+        "content": "Del director\nJubilemos la jubilación temprana\nNa vez más, el populismo se adueña de los escaños congresales. Con 58 votos a favor y 30 abstenciones (ni un solo voto en contra), ayer se amplió por dos años más (hasta el 2015) el régimen especial del sistema privado de pensiones a través del cual tanto hombres (la partida de los 55 años) como mujeres (a partir de los 50 años) puedan acceder a la jubilación temprana cuando se encuentran desempleados.\n\nNadie discute que cuando una persona se encuentra desempleada y simultaneamente cuenta con depositos en una AFP pueda acceder a los mismos. Es logic y, ademas, deberia ser su derecho. Al fin y al cabo, para eso es propietaria de dichos fondos.\n\nEl problema radica en la terminologia usada para dicho acceso. Cuando se publicita un sistema de jubilacion a los 55 anos, lo que estamos creando es una fantastica. Manana, en alguna confusa decision, no faltar quien proponga ampliar el regimen: de jubilacion temprana a otros casos, incluso respecto al sistema publico."
+    },
+    {
+        "headline": "Martha Chvez Anticipa Que No Blindarn a Exmandatario Pero Tambin No Lo Acusarn Sin Razn",
+        "content": "Bloques no fijan aun postura sobre acusacin a Alan Garcia\nLas bancadas analizarn en las proximas semanas dictamen de ‘megacomision’ sobre MarcoIndultos’. \"Nosotros no vamos a blindar a Alan Garcia, pero menos vamos a acusarlo sin ninguna razon. No nos vamos a llevar por clculo politico ni a trafagar con la honor de alguien. Nuestros congresistas (Carlos Tubino y Hector Becerril) en la ‘megacomision’ nos explicarian las razones de su abstencion y recien despues tomariamos una decicion en bloque\", manifest la legisladora Martha Chavez."
+    },
+    {
+        "headline": "Martín Chvez Anticipa Que No Blindarn a Exmandatario Pero También No Lo Acusarn Sin Razón",
+        "content": "Bloques no fijan aún posición sobre acusación a Alan García\nLas bancadas analizarán en las próximas semanas dictamen de “megacomisión” sobre Marcos Indultos". Nosotros no vamos a blindar a Alan García, pero menos vamos a acusarlo sin ninguna razón. No nos vamos a llevar por cálculo político ni a traicionar con la honestidad de alguien. Nuestros congresistas (Carlos Tubino y Héctor Becerril) en la “megacomisión” nos explicarían las razones de su abstención y sólo después tomaremos una decisión en bloque.", manifestó la legisladora Marta Chvez.
+    }
+]
+```

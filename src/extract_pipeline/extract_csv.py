@@ -134,6 +134,8 @@ def read_and_preprocess_files(txt_files: List[Path]) -> Dict[str, Dict[str, Any]
         
         return text
 
+    print(len(txt_files))
+
     processed_files = {}
     failed_files = []
 
@@ -341,7 +343,7 @@ def prepare_prompts(processed_txt_files: Dict[str, Dict[str, Any]],  prompt_pref
 
     return all_chunks, prompts
 
-def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files):
+def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files) -> int:
     def extract_code_block(text: str, language_hint: str = "json") -> str:
         pattern_lang = rf"```{language_hint}\n(.*?)```"
         match = re.search(pattern_lang, text, re.DOTALL)
@@ -386,6 +388,8 @@ def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files):
         text = text.replace("'", "")     # remove single quotes
         return text
 
+    no_outputs = 0
+
     for (filename, _, _), output_obj in zip(all_chunks, outputs):
         try:
             full_path = Path(processed_txt_files[filename]["file_path"])
@@ -416,6 +420,7 @@ def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files):
                 df.to_csv(output_path, mode="a", header=False, index=False, quoting=csv.QUOTE_ALL)
                 print(f"Appended rows to existing CSV: {output_path}")
             else:
+                no_outputs += 1
                 df.to_csv(output_path, index=False, quoting=csv.QUOTE_ALL)
                 print(f"Created new CSV: {output_path}")
         except Exception as e:
@@ -423,6 +428,8 @@ def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files):
                 f.write(f"\n\n--- ERROR ENTRY: {filename} ---\n\n")
                 f.write(output)
             print(f"Error processing {filename}, appended raw output to {output_path_incorrect}. Error: {e}")
+    
+    return no_outputs
 
 def initialize_model(model_config):
     sampling_params = SamplingParams(
@@ -464,10 +471,10 @@ def generate_chat_messages(all_chunks):
     SCOPE & GOAL:
     Extract EVERY article with meaningful journalistic content and output them as a JSON array of objects with this exact schema:
     [
-    {
-        "headline": string,
-        "content": string
-    }
+        {
+            "headline": string (spanish-language) or "NA",
+            "content": string (spanish-language) or "NA"
+        }
     ]
 
     INCLUDE vs EXCLUDE:
@@ -507,20 +514,30 @@ def generate_chat_messages(all_chunks):
     - Ensure the JSON is syntactically valid and can be parsed without errors.
 
     EXAMPLE OUTPUT:
+    ```json
     [
-    {
-        "headline": "El loco del martillo",
-        "content": "Hoy en día, uno pensaría que la gente está más loca que antes."
-    },
-    {
-        "headline": "Contento por fin de cuarentena",
-        "content": "Estoy feliz porque..."
-    },
-    {
-        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
-        "content": "NA"
-    }
+        {
+            "headline": "El loco del martillo",
+            "content": "Hoy en día, uno pensaría que..."
+        },
+        {
+            "headline": "Contento por fin de cuarentena!",
+            "content": "Estoy feliz porque..."
+        },
+        {
+            "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+            "content": "NA"
+        },
+        {
+            "headline": "NA",
+            "content": "El juez Huamani ordenó..."
+        }
     ]
+    ```
+
+    WARNING:
+    If you fail, the output will be unusable. Follow instructions EXACTLY.
+    Always extract all articles. Focus on your role as a content extractor and JSON formatter.
     """
 
     user_prompt_template = "{ocr_text}"
@@ -543,6 +560,20 @@ def main() -> None:
 
     processed_txt_files = read_and_preprocess_files(txt_files)
 
+    filtered_txt_files = []
+    for txt_file in txt_files:
+        # csv_file = txt_file.replace('.txt', '.csv')
+        csv_file = Path(str(txt_file).replace('.txt', '.csv'))
+        if not csv_file.exists():
+            filtered_txt_files.append(txt_file)
+        else:
+            print(f"Skipping {txt_file} - corresponding CSV file exists: {csv_file}")
+    
+    print(filtered_txt_files)
+    print(len(filtered_txt_files))
+
+    processed_txt_files = read_and_preprocess_files(filtered_txt_files)
+
     model_config = get_model_configuration(config)
 
     processed_txt_files = process_chunking_decision(processed_txt_files, model_config)
@@ -555,17 +586,23 @@ def main() -> None:
     llm, sampling_params = initialize_model(model_config)
     print(f"Model initialized in {time.time() - time_start:.2f} seconds")
     
-    check_gpu()
-
     chat_messages = generate_chat_messages(all_chunks)
 
     time_start = time.time()
-    outputs = llm.chat(chat_messages, sampling_params)
-    print(f"Generated {len(outputs)} outputs in {time.time() - time_start:.2f} seconds for {len(processed_txt_files)} txt files.")
-
     check_gpu()
+    outputs = llm.chat(chat_messages, sampling_params)
+    no_outputs = save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files)
+    check_gpu()
+    total_time = time.time() - time_start
 
-    save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files)
+    print(f"Generated {no_outputs} files in {total_time:.2f} seconds.")
+    average_time_per_file = total_time / no_outputs if no_outputs > 0 else 1
+    print(f"Average time per file (secs): {average_time_per_file:.2f} seconds")
+    print(f"Average time per file (mins): {(average_time_per_file/60):.2f} minutes")
+    average_time_year = int(average_time_per_file/60) * 365
+    print(f"Estimated time per year (hours): {average_time_year:.2f} minutes (ca. {average_time_year/60:.2f}) hours")
+    min_estimated_total = int(average_time_year)*6*7
+    print(f"Estimated total processing walk-time (minimum): {min_estimated_total:.2f} hours. ")
 
     destroy_model_parallel()
     del llm 
@@ -573,6 +610,7 @@ def main() -> None:
     torch.cuda.empty_cache()
 
     check_gpu()
+    print(config)
 
 if __name__ == "__main__":
     main()

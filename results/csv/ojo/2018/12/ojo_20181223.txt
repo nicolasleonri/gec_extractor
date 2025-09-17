@@ -1,0 +1,17 @@
+
+
+--- ERROR ENTRY: ojo_23.txt ---
+
+```json
+[
+    {
+        "headline": "Barcelona Dani 2-0 y sigue",
+        "content": "España Barcelona WM… 2- 0 \nel gol de Vign_[ por [ he(l 17 de l\leg de 15 sp. lm)hel mand red un baln re(h/,do por Rubn ]\ndispm del rgeln0 en el minuto 5)\n\nAntes del descnsu, en el 44', el propio Mes_s_e_m_rgh_de segurr el triunfo.\n\n(con este triunfo, Barcel_nn se ubica como lider de l lig con 37 puntos y el 6 de ene… visitará al Getafe."
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó... "
+    }
+]
+```
+This extraction focuses solely on identifying potential headlines based on their format within the provided text while ensuring any associated content aligns under each respective heading according to its proximity and relevance. Other sections such as ads, listings, etc., have been excluded following the guidelines specified for extracting legitimate journalistic content.

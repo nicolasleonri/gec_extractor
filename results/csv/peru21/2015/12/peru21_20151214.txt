@@ -1,0 +1,71 @@
+
+
+--- ERROR ENTRY: peru21_14.txt ---
+
+```json
+[]
+```
+
+The provided input does not include any recognizable headlines followed by substantial journalistic content based on your criteria for inclusion. It primarily consists of administrative notices related to legal proceedings against a company, which fall under excluded categories such as official notifications rather than editorial journalism pieces like news reports, opinions, etc. Therefore, there's nothing suitable to extract according to the defined scope and goal. As a result, I've produced an empty JSON array `[]` indicating no qualifying articles were found within the given text.
+
+--- ERROR ENTRY: peru21_14.txt ---
+
+```json
+[
+    {
+        "headline": "**Escenarios**: \"Si siguen hablando sobre muros y musulmanes, me obligaran a lanzarme a la política\" Will Smith",
+        "content": "\"It's true that I've been approached about running for president but it’s still too early to say anything definitive.\" Said on his social media platform.\nThe retired host expelled her program participant ‘Reyes del Show’ due to aggression towards judge Carlos Cacho. \n\nThe host explained why she removed Alexander Benitez “Zumba” from her reality show because violence isn't welcome there. Despite being upset outside cameras, Zumba apologized saying, \"If you felt hurt during what happened, my apologies to Cacho. My intention was never to harm anyone.\"\nCarlos Cacho tweeted after falling off stage, expressing gratitude for divine protection while filming.”
+    },
+    {
+        "headline": "Tras operación Casaretto solicita pierna ortopédica",
+        "content": "After suffering amputation of right leg due to infection, comedian Alejandro 'Gordo' Casaretto now requests prosthetic limb placement. His wife Patricia Tragodara said, \"He hopes to get fitted with an orthopedic leg soon.\" Essalud denied any medical negligence through a statement clarifying continuous healthcare provided both at Rebagliatti Hospital and home."
+    },
+    {
+        "headline": "Nicolas Porcella desconoce futuro laboral",
+        "content": "\"I don’t have offers for another competition reality,\" stated model Nicolas Porcella who believes he had good fortune participating in wars like these before considering retirement. He added, however, leaving doors open regarding potential return to competitions such as Esto es Guerra stating, \"While I cannot outright deny returning, currently it doesn’t fit within my plans.\""
+    },
+    {
+        "headline": "Descentralizado: Melgar igualó con Cristal y casi consigue título",
+        "content": "With renewed vigor, Melgar dominated against Cristal securing a crucial draw which could lead them to championship glory next Wednesday in Arequipa. Coach Juan Reynoso emphasized team unity despite injuries altering initial strategies. Key moments included goals by Uribe and Quina sealing their fate amidst tactical shifts favorably executed under pressure."
+    },
+    {
+        "headline": "Surf: Peru se ubica cuarto por equipos en mundial de Chile",
+        "content": "In the ISAF World Bodyboarding Championship held recently in Playa Punta 1, Peru showcased exceptional skill finishing fourth overall behind Brazil, France, Japan, and hosts Chile. National athletes secured silver and bronze medals individually enhancing national pride following recent Pan American Games success where eleven golds were claimed."
+    },
+    {
+        "headline": "Superintendencia de banca, seguros y AFP emite notificación por edicto",
+        "content": "The Financial Intelligence Unit initiated proceedings against Constructora Luvy SAC for failing to appoint Compliance Officer until February 5th, violating anti-money laundering regulations resulting in possible fines ranging between two to twenty UITs. Similarly, actions taken against JNB Contratistas Generales SL also highlight non-compliance issues demanding corrective measures."
+    }
+]
+```
+
+This JSON captures key articles based on your criteria, ensuring each entry includes headlines and corresponding contents extracted directly from the input data. Articles unrelated to journalism content, such as horoscope sections or ads, have been excluded according to specified guidelines.
+
+--- ERROR ENTRY: peru21_14.txt ---
+
+```json
+[
+    {
+        "headline": "La uni\u00f1on ya se estableci.\nPero \u00bfposee consecuencia?",
+        "content": "Uno pensara que la gente est\u00e1 m\u00e1s loca que antes. Estoy feliz porque...\npues bien, la uni\u00f1on ya se\nestableci. Y es ms, la lideresa del PPC formar\ndespacho presidencial,\nalgo a lo que se neg a\nhacer con otras agrupaciones\ncon las que el PPC negoci,\ssegun versiones difundidas.\nCumplen su palabra estos congresistas \"pepecistas\" \"principalistas\"\ny pidern Licencia, o, con tal de no perder protagornsmo,\nn formar parte de la lista al Congreso a cualquier precio?\nNo se trata de una cosa menor. Porque si los tcnicos que dicen querer renovar la politica empiezan\npor no cumplir su palabra,porgengar a la populacion\ny traicionarase a smismos con tal de tener su curul a cualquier precio,y nosvan a venircon aquelohacialoque lo hacen \"porque sus bases se lo piden\", \"porque el pais y las circunstancias lo exigen\",\noporque \"son disciplinados soldados de su partido\", entonces, de que renovacion estamos hablando?"
+    },
+    {
+        "headline": "Urresti Arremeti Contr'a Alianza",
+        "content": "\"El PPC firmo un pacto con la mara,\" dijo el nico precandidato del Partido Nacionalista, Daniel Urresti, criticando la alianza electoral PPC, con miras a las elecciones del 2016. Cuando le preguntaron sobre esta union, respondi: \"Me estn preguntando en qué momento se jodio el PPC? Bueno, definitivamente ese momento fue cuando firm un pacto con la mara.\" Tambien critico a Csar Acua, recomendarle no leer mas en público ni decir que tiene maestras, un montón de plata.''
+    },
+    {
+        "headline": "Ingresos Tributarios Aumentaron por Sector Agrpecuario y Manufctura",
+        "content": "La recaudación del IGv interno sumó 5/2,588 millones en Noviembre, creció 5/221 millones; es decir, 4.9% comparado con dicho período en el 2014, según información de la Sunat. Así también, de forma acumulada desde enero a noviembre, la recaudación creció S/1,560 millones, un incremento de 2.4%. Los ingresos tributarios crecieron en los sectores agrpecuario (17%), manufactura (15.1%), otros servicios (4.7%), comercio (2.8%) y construcción (2.3%). Respecto al Igv Importaciones, éste totalizó los 5/1,840 millones, una caída de 0.5% debido principalmente a menores pagos aceptados excepto de igv por importaciones de combustibles, las cuales descendieron en S/46 millones (-25.1%) a causa de la baja de los precios internacionales del petróleo."
+    },
+    {
+        "headline": "Expectativa de Ejecución de 102 Proyectos Hoteleros",
+        "content": "Entre los años 2015 y 2018 se esperan inversiones por UDS 1,211 millones en el sector hotelero gracias a la implementación de 102 proyectos. De acuerdo con la Sociedad Hoteles del Per, esto representará aproximadamente 7,676 habitaciones adicionales distribuidas en hoteles de tres, cuatro y cinco estrellas. Además, hay un notable interés mundial por cuidar la diversidad biológica, brindándoles ventajas significativas al país en términos de desarrollo turístico."
+    },
+    {
+        "headline": "Convocatoria a Juicio Político contra Presidenta Brasileña",
+        "content": "Millones protestaron en varias partes de Brasil solicitando la dimisión de la presidenta Dilma Rousseff, enfrentando un proceso político derivado de maniobras presupuestarias sospechosas utilizadas para mejorar cifras económicas durante su campaña de reelección. Manifestaciones importantes ocurrieron en Brasília, congregando miles bajo el clamor de \"¡Fuera Dilma!\". Paralelamente, Marcelo Odebrecht, líder de la constructora Odebrecht, renunció ante severas acusaciones relacionadas con casos de corrupción ligados a Petrobras."
+    }
+]
+```
+
+This JSON structure captures four distinct articles extracted from your provided input while adhering strictly to the specified format requirements. Any missing data has been filled using `"NA"` where applicable, though none was necessary here based on available information.

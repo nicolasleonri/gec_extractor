@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "El exjefe de Humala será denunciado por violaciones a DD.HH.",
+        "content": "\"Jos Cueto deberá responder ante la comisión investigadora por el Caso López Meneses\".\n\n**Entrevista**: \"¿Qué piensas de la situación política actual?\n\nRespondió: ‘Creo que...’\"\n\nEl general EP Leonel Cabrera asume la dirección del Comando Conjunto de las FF.AA. tras controversiales antecedentes relacionados con violaciones a Derechos Humanos documentadas tanto en el Informe Final de la Comisión de la Verdad y Reconciliación (CVR) como en videos incriminatorios vinculándole a operativos militares controvertidos."
+    },
+    {
+        "headline": "Surge preocupación por congestión urbana en Lima",
+        "content": "**Editorial Director:**\n\n‘El imposible paso por la jungla’: Tráfico insufrible afecta diversas áreas urbanas más allá de las horas punta. Crisis multifactorial incluyendo infraestructuras deficientes, aumento del parque automotor, deficiente regulación y comportamiento cultural problemático de conductores y peatones. Soluciones requerirán estrategias innovadoras.”
+    },
+    {
+        "headline": "Programas sociales destacan progreso en inclusión educativa",
+        "content": "**Columnista Carolina Triveño – Economista:\n\nResumen del año refiriéndose a Qali Warma: Logró distribución de alimentos diversificados a miles de niños en regiones remotas. Publicación de manuales de compras mejora transparencia y evita incidentes futuros. Discusiones continúan respecto a la Estrategia Nacional de Desarrollo e Inclusión Social (ENDIS) y el programa Haku Wifiay enfocado en productividad familiar integrada con políticas proteccionistas existentes.’”
+    },
+    {
+        "headline": "Renuncia masiva dentro de la policía nacional",
+        "content": "Generales solicitan retirarse anticipadamente debido a renovación interna post-crisis de custodiar casa de ex-operador montesinista. Revelaciones hackeadas indican posibles implicancias mayores detrás de estas decisiones administrativas."
+    },
+    {
+        "headline": "Apoyo bipartidista frente a fallo internacional",
+        "content": "Representantes de diversos partidos políticos muestran solidaridad hacia posición gubernamental relativa al veredicto de La Haya sobre disputa territorial marítima con Chile. Compromisos comunicacionales pendientes después del dictamen judicial programado para principios de 2014."
+    },
+    {
+        "headline": "Abogados enfrentan investigación por vínculos terroristas",
+        "content": "Investigación formal iniciada contra abogados involucrados legalmente con líderes sentenciados de organización extremista. Testimonios sugieren financiamientos ilícitos destinados a facilitar liberaciones carcelarias y potencial reinicio de actividades insurgentes."
+    },
+    {
+        "headline": "Critican fallas en seguridad ciudadana y economías domésticas",
+        "content": "Figura prominente critica incapacidad del Presidente para mantener control sobre índices criminales y precios inflacionarios de productos básicos. Exhorta evaluación pública basada en resultados tangibles versus expectativas planteadas durante campaña electoral anterior."
+    },
+    {
+        "headline": "Nuevo personal policial fortalecerá vigilancia metropolitana",
+        "content": "Graduados de prestigiadas academias especializadas ingresan a fuerzas policiales metropolitanas incrementando capacidades operativas locales. Proceso formativo culmina exitosamente preparando nuevos agentes para roles activos en mantenimiento del orden público."
+    },
+    {
+        "headline": "Controversia jurídica define composición municipal limeña",
+        "content": "Decisión definitiva del Jurado Nacional de Elecciones sostiene nombramiento inicial de funcionario municipal, ignorando reclamo competidor. Implicaciones legales clarifican procedimientos subsiguientes en eventualidades de destitución del titular principal."
+    }
+]
+```
+This structured extraction captures key elements while adhering strictly to provided guidelines for extracting significant journalistic content within defined parameters.

@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: ojo_05.txt ---
+
+```json
+[
+    {
+        "headline": "Nuevo proyecto de armas no mortales",
+        "content": ".El ponente ley\nconsider: como arms no\ntienen aquellos con mecánicos eléctricos,\nmagnéticos comprimir.\ngases o \ntipo aerosol."
+    },
+    {
+        "headline": "Defensa. Lin tanto, Erasmo Reyna, abogado de Alan García, informó...",
+        "content": "Intenta convencer a las autoridades Con_Consisión de Ética citar Salaverry. Mamani. Anterior recomendación de la Comisión de Ética del Congreso de suspenderlo por 120 días sin goce de haber, el congresista Moisés Mamani dijo que no había recibido ningún informe y \"lo quieren callar la cabeza\"."
+    },
+    {
+        "headline": "Redacción OJO",
+        "content": "\"Presidente Carlos Alvarado confirmó pedido\"\nCosta Rica niega... que esta vez sí colaborará con las investigaciones. […] ‘‘[…]’’, respondió el mandatario en una entrevista a CNN."
+    },
+    {
+        "headline": "Agredece. De otro lado, el presidente Martín Vizcarra agradece a su par uruguayo Tabaré Vázquez y a su homólogo por rechazar el aleatorio público de errático Aprista.\"",
+        "content": "'\'Ha quedado claro. Esto también fortalece no solo la democracia, la independencia de poderes, sino también la lucha anticorrupción ('(...)'), señaló desde Puno.''"
+    },
+    {
+        "headline": "Captura a interventores de la electa alcaldesa del Lambayeque provincial de Chiclayo, María Elena Quispe Ruiz, y más nueve funcionarios municipales fueron detenidos ayer por presumiblemente integrar la organización criminal 'Los Hijillos de la Corrupción',' dedicada a dirigir favores a empresas fantasmas.",
+        "content": "Según la Fiscalía, Quispe Ruiz, quien actualmente es la jefa de Adquisición de la Municipalidad de Chiclayo, habría hecho su cargo para intervenir en las contrataciones y adquisiciones de bienes, obras y servicios, valorizando en $4 millones de dólares. Se cree que al menos 14 obras habrían sido direccionadas desde el 2015. Por ello, el Ministerio Público investiga a 105 detenidos por los presuntos delitos de colusión agravada y negociación incompatible en agravio del Estado."
+    },
+    {
+        "headline": "Política Internacional",
+        "content": "El presidente de México, Andrés Manuel López Obrador (AMLO), envío al Senado una iniciativa para reformar la Constitución y suprimir el fuero (inmunidad) de los presidentes. De esta forma podrán ser juzgados por cualquier delito."
+    },
+    {
+        "headline": "Avióneta cae sobre casa y deja cuatro fallecidos",
+        "content": "Sinaloa. Cuatro personas murieron y dos más resultaron heridas al caer una avioneta sobre una casa en la ciudad mexicana de Culiacán, en el estado de Sinaloa. La nave, de la aerolínea AeroCalafia, causó severos daños estructurales en la vivienda. Se investigan las causas del suceso."
+    },
+    {
+        "headline": "TECNLOGÍA PERMITIRÁ SALVAR VIDAS TRAS MENSAJE DE TEXTO O VIDEOCONFERENCE",
+        "content": "Resolver los misterios existentes detrás de una enfermedad puede ser la tarea más compleja que deba enfrentar un médico, especialmente si apenas egresó de la universidad. La solución a esto está en la tecnología, específicamente en el desarrollo de herramientas digitales que permiten conectar especialistas urbanos con profesionales rurales mediante mensajes de texto o videollamadas."
+    },
+    {
+        "headline": "Hallazgo macabro",
+        "content": "Decenas de moradores alarmados por lo ocurrido y por el olor emanado del cilindro rodearon la excavación. Cuando lograron remover el cilindro, encontraron un cuerpo en posición fetal, evidenciando signos claros de homicidio. Las autoridades creen que la víctima pudo haber sido sometida a sustancias nocivas antes de ser colocada en el recipiente."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Any unclear data was marked appropriately according to instruction requirements.

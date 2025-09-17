@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: ojo_14.txt ---
+
+```json
+[
+    {
+        "headline": "CRÍTICAS GENERA ENTREGA COSTOSAS CANASTAS NAVIDEÑAS",
+        "content": "Criticas genera la entrega de costosas canastas navideñas —con whisky de 12 años incluido— a congresistas y los bien pagados trabajadores del Parlamento. Aunque ello figure en un acuerdo con el sindicato, otorgar las canastas cuyo costo bordea los mil soles es una acción que indigna a los miles de servidores públicos que ganan menos que esos trabajadores parlamentarios y no reciben \"regalos\" de ese tipo. También se ve mal que, recién ante el escándalo, los congresistas rechazaran recibir las canastas y que algunos incluso anuncien que irán en persona —con cámaras de TV?— a obsequiarlas a niños huérfanos."
+    },
+    {
+        "headline": "MEDICO REVISA RECORDATORIOS PATERNOS Y DESCUBRE OBRA LEONARDIANA",
+        "content": "Lo más insólito. Un médico francés ya jubilado se detuvo a revisar lo que su padre le había dejado tras su muerte, 14 dibujos y bocetos de artistas desconocidos. El hombre consultó con un experto y con una casa de subasta generando sospechas sobre su herencia. Consultaron a una tercera conocedora, quien le confirmó que se trataba de nada más y nada menos que de una obra de arte de Leonardo Da Vinci, el boceto de El martirio de san Sebastián, valorizada en 15.3 millones de dólares."
+    },
+    {
+        "headline": "SENTENCIA PARA CABEZILLA DE RED ILÍCTICA INTERNACIONAL",
+        "content": "El poder judicial dictó ayer 35 años de prisión efectiva contra Gerson Adair Glvez ‘Caracol’, por el delito de tráfico ilegal de drogas en la modalidad agravada. No obstante, los magistrados decidieron absolverse a Glvez como cabecilla de una red internacional del narctráfico con conexiones en el Medio Oriente, al no encontrar indicios suficientes. Otro juicio pendiente involucra a Glvez respecto a su vínculo con la agrupación Barrio Xin.”
+    },
+    {
+        "headline": "METROPOLITANO IMPLEMENTA MEDIDAS POR FIN DE SEMANA MOVIMIENTOS MASIVOS",
+        "content": "Debido a que durante este mes recibe más usuarios de lo habitual, por las festividades de fin de año, la línea 1 del metro de Lima implementará varias estrategias para optimizar el servicio. Entre ellas está el incremento del número de serenos y policías en áreas clave, así como restricciones temporales en algunas entradas principales para facilitar el flujo de viajeros."
+    },
+    {
+        "headline": "PLAN CONTRA ANEMIA BUSCA DISMINUIRLA EN NIÑOS Y MADRES GESTANTES",
+        "content": "Reducir el elevado índice de anemia en niños menores de 3 años y en madres gestantes es prioritario según el plan lanzado por el Ministerio de Salud. Esto implicará intervenciones directas mediante visitas a hogares y modificaciones dietéticas, además de proporcionar micronutrientes necesarios para combatir esta carencia nutricional prevalente especialmente en sectores vulnerables de Lima metropolitana."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected according to relevance and completeness within the given input data. Other sections like ads, sports scores, etc., have been excluded following the defined scope.

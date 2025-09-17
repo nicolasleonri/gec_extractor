@@ -1,0 +1,17 @@
+
+
+--- ERROR ENTRY: peru21_02.txt ---
+
+```json
+[
+    {
+        "headline": "INTERVIEW.21 PATRICIA BALBUENA. Ex Ministra de Cultura",
+        "content": "ASEGURA QUE SU RESPONSABILIDAD POLITICA FUE HAR PARTE EN IDENTIFICAR AL PERSONERO ANTES DE QUE SEA FIRMEADO EL CONTRATTO.\nPregunta:\n\n\"¿Cómo se enteró de que la compañía Arqueo Andes, perteneciente al ex Ministro Luis Villacorta, había obtenido una licitación por aproximadamente $200,000?\n\nRespuesta:\n\n\"Em Patricia Balbuena fue nombrada Ministra de Cultura el 2 de Abril del año pasado y renunció el 30 de Noviembre. Ella posee más de veinte años de experiencia profesional previa siendo Directora General de Ciudadania Intercultural. Además, ella es Licenciada en Derecho por la Pontifica Universidade Católica del Perú. También obtuvo Maestría en Politicas Sociales con énfasis en Género, Poblacion y Desarollo. Posee Doctorado en Ciencias Sociales con especialización en Antropología de la Universidad Nacional Mayor de San Marcos.\" \n\nContinúa explicando cómo supo de la adjudicación mediante información proporcionada internamente y detalla el proceso administrativo relacionado."
+    },
+    {
+        "headline": "OPINI\u00d3N",
+        "content": "\"UNA INCIERTA DE CASI DOS METROS ACE QUINCENA NUESTRA CANCILLERA NO SOLO NOS HA SURPRENDIDO GRATA CON ESTE ESCUETO MENSAJE. \"EL MINISTERIO DE RELACIONES EXTERIORES HACE DE CONOCIMIENTO PUBLICO QUE EL EMBAJADOR DE LA REPUBLICA ORIENTAL DEL URUGUAY LE COMUNICÓ HOY MAÑANA QUE EL EXPRESIDENTE DEL PERÚ ALAN GARCÍA PREZ INGRESÓ EN HORAS DE LA NOCHE PASADAS A SU RESIDENCIA\" SIN VALORAR EL DAÑO QUE PODRIA GENERARSE PARA EL PAIS, EL DUPLAMENTE ELECTO MANDATARIO APRISTA SOLICITO ASILE POLITICO. A UNA SEMANA DE LAS INDAGATORIAS REALIZADAS POR LA FISCALA LO INVOLUCRARÁN ÉL Y LOS POLÍTICOS MAS PODEROSOS DE LOS ULTIMOS DIECISEIS A\`OS REFERENTE A DIVISIONES Y OBRA REALIZADOS POR ODBRECHET EN EL PERÚ EN DICHO PERIODO.\""
+    }
+]
+```
+This JSON contains extracted information about significant articles found within the provided OCR text input based on defined criteria for inclusion. It includes headlines where available and merges relevant paragraphs under each respective heading while maintaining their integrity according to specified rules. Any missing data has been marked appropriately using `"NA"` as instructed.

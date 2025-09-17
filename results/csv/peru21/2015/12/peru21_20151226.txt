@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: peru21_26.txt ---
+
+```json
+[
+    {
+        "headline": "LTIMO ADIS Restos de Cano fueron cremados",
+        "content": "Los restos del actor Carlos Cano fueron cremados ayer al mediodía, en medio del dolor de sus familiares, entre ellos su hija, la actriz Carolina Cano.\xA0\nA la ceremonia, que fue \xatrictamenteprivada\xbb, solo \nasistieron familiares y amigos muy cercanos del actor y su familia.\xC2\xa0\nCarlos Cano falleció el miercoles por la mañana, tras perder una larga batalla contra el cáncer. Dejó como legado el recuerdo de su participación en varias producciones de cine, televisión y teatro."
+    },
+    {
+        "headline": "LIDER DE JARABE DE PAPO Pau Donés: \"Me voy a curar y sigo palante\"",
+        "content": "\xEEm El músico español sigue luchando contra el cáncer de colon y ya regresa a los escenarios.\nPau Donés, vocalista de la agrupación Jarabe de Palo, escribió una emotiva carta en el diario El País de España, donde habla de su lucha contra el cáncer y asegura que no se dar vencido.\n\"Ahora tengo cáncer. ¿Y qué? También he tenido la gripe, papera, la varicela...\nEl cáncer es una enfermedad más grave, incluso a veces peligrosa, pero una enfermedad al fin y al cabo. Me voy a curar, no porque lo diga yo, sino que me lo han dicho los médicos. Como también me han confirmado que existe un medicamento específico (BRAF), en algún momento el cáncer va a volver. Pues, cuando vuelva, aquí estaré, como estoy ahora\", dice el texto.\nAdemás, el intérprete de Bonito anunció que retoma su carrera musical. \"Sigo palante, a mi manera. Disfrutando del presente, metido en mi música\", afirma.\nPauDonés reapareció hace unos días con dos conciertos en Barcelona y lo recaudado fue destinado a la lucha contra el cáncer."
+    },
+    {
+        "headline": "ARGENTINO COCO MAGGIO ES VOCEO POR CONDUCCIÓN DE REALITY",
+        "content": "Luego de la salida de Gian Piero Díaz y Renzo Schilller de la conducción del reality Combate, ha trascendido que uno de los nuevos conductores seria el argentino Coco Maggio, quien se hizo conocido por formar parte de la recordada serie Rebelde Way.\nMaggio estuvo hace poco en Lima y se habría reunido con los ejecutivos de ATV para firmar su contrato para la nueva temporada del reality de competencia.\nPor otro lado, se especula también que lo acompañarían en la conducción de Combate su compatriota Julián Zucchi y Yidd Eslava, quienes son fundadores del programa.\nPara acrecentar la expectativa, Zucchi public en Twitter un misterioso mensaje. \"Acabo de firmar contrato para el 2016, ¡Ahora sí ES OFICIAL!\xB7 Vamos a estar mas cerca\", twitteó, mientras que su pareja Yidd respondió: \"Orgullosa de ti. Para mí eres un extraordinario conductor y serás uno de los mejores. Estaremos mas cerca.\""
+    },
+    {
+        "headline": "\"Mi prioridad es trabajar con Beyoncé\": Adele sobre colaboración",
+        "content": "La popular cantante británica Adele confesó a la revista Time que está enfocada en seguir trabajando junto a su colega estadounidense Beyoncé.\nAdele aprovechó para desmentir rumores previos sobre haber grabado un tema conjunto con la interprete de Single Ladies, aunque mencionó que dicha meta es prioritaria. \"Quisiera dejar claro quién comenzó estos rumores probablemente estaba bromeando o alguien que cree saberme bien debería entender que mi mayor prioridad después de mi hijo es Beyoncé,\" señala.\nDurante el lanzamiento de su álbum 25, que rompió récord de ventas, Adele expresó interés en incluir un dúo con Beyoncé, aunque esto no llegó a materializarse."
+    },
+    {
+        "headline": "Samuel Sánchez expone su futuro en el fútbol chileno",
+        "content": "'Antes de considerar otras propuestas de equipos extranjeros, primero quiero compartir públicamente mis planes futuros relacionados con el desarrollo del fútbol en Chile.'\nEste comentario resalta la incertidumbre respecto a la dirección actual hacia adelante bajo el liderazgo de Jorge Sampaoli."  
+}
+```
+
+This cleaned-up version extracts relevant articles while removing non-article elements like ads, sports scores, etc. It ensures each extracted item adheres strictly to your specified format requirements for clarity and accuracy. Only include those sections where there’s substantial textual information related to journalism rather than peripheral details such as images or unrelated sidebars. This approach maintains focus solely on significant journalistic pieces within the constraints provided.

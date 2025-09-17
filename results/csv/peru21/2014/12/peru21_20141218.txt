@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: peru21_18.txt ---
+
+```json
+[
+    {
+        "headline": "Manuel Burga no va a la reelección de la Federación Peruana de Fútbol!",
+        "content": "El más odiado amenaza con escribir un libro donde lo cuenta TODO. Todo? Su autodenominado cáncer cerebral, Daniel Urresti, motos eléctricas para las grandes ligas: las presidenciales. Cuidado con que se le pase la mano y genere celos enfermizos en quienes lo contratado para jugar.\n\nSus creadores han apostado a que sirva de distracción, pero de ninguna manera de sustitución de Nadine."
+    },
+    {
+        "headline": "Keiko es la primera de la foto, pero cualquiera le ganará en una segunda vuelta.",
+        "content": "PPK es el amigo elegido, pero sus seguidores solo están en Lima. El 40% de la población dice que no reeligería a ningún parlamentario. Lo real es que los congresistas de los partidos políticos tradicionales (aunque frágiles) son los que mejor han trabajado y los que en realidad escándalo tienen razón popular. El poder legislativo no sirve para nada, aseguran efímeros los compatriotas, y el presidente les \"¡Mañana!\n\n\"Todo\", Keiko es la primera de la foto, pero cualquiera le ganaría en una segunda vuelta. PPK es el amigo elegido, pero sus seguidores solo están en Lima. El 40% de la población dice que no reeligaría a ningún parlamentario. Lo real es que los congresistas de los partidos políticos tradicionales (aunque frágiles) son los que mejor han trabajado y los que realmente escándalo tienen razón popular. El poder Legislativo no sirve para nada, aseguran efímeros los compatriotas, y el presidente les \"¡Mañana!\"\n\nQue viva la jarana, que vengan las celebraciones!"
+    },
+    {
+        "headline": "\"LAS ACTAS DE DEFUNCIÓN INCLUÍRN INFORMACIÓN FINANCIERA\"",
+        "content": "Supermercado Nacional de Bancos, Seguros y AFP\n\nLEGISLADORES PRESENTAN PROYECTOS PARA DEROGAR LA NORMATIVA DEL EMPLEO PARA JOVENES\n\nCongreso da espaldas al régimen juvenil. Una semana atrás, el Congreso aprueba el régimen laboral para jóvenes, que después fue promulgado por el Ejecutivo. Ayer diversas bancadas presentaron propuestas para que se derive esta ley, además tendrían que enfrentar una demanda de inconstitucionalidad. Entre estas iniciativas se encuentran las de Concertación Parlamentaria y Dignidad y Democracia que solicitan que la ley sea derogada. El grupo parlamentario Fuerza Popular también envió una propuesta para suspender la ley y convoca a sesión extraordinaria del Pleno para que se analice el tema."
+    },
+    {
+        "headline": "CONFIANZA",
+        "content": "Por su parte, el Ministro de Economía y Finanzas, Alfredo Thorne, afirmó que la demanda de inconstitucionalidad contra el nuevo régimen laboral no tendría éxito. Manifestó que el desempleo entre las personas de 18 a 24 años es cuatro veces mayor que el registrado entre aquellos mayores de 30 años. Además, señaló que no se apartará al empleado de una empresa con la intención de contratar bajo la nueva norma."
+    },
+    {
+        "headline": "GRÜNE PEACE: EL DAÑO ESTÁ HECHO",
+        "content": "Tan revuelo ha generado el ingreso no autorizado de los activistas de Greenpeace a la zona arqueológica protegida e intangible de las Líneas de Nasca, Greenpeace quería aprovechar la COP20 para darse publicidad con nuestras cortinas, sin respetar el monumento cultural ni a las autoridades. Causaron daños irreversibles, según el ministerio de cultura, y los argumentos del líder de la expedición eran ridículos: ‘‘No hemos hecho daño’’. Eso no los exonera de la responsabilidad por no haber obtenido autorización y violar la ley."
+    },
+    {
+        "headline": "COBERTURA ESPECIAL",
+        "content": "Desde hoy a las seis de la tarde se ha convocado a una marcha en contra de la fecha definida, aunque sí manifiesta que la idea es revisarlo antes de marzo. Yo creo que los congresistas estarán de acuerdo con realizar la reunión porque hay muchos interesados en acabar con esta norma.”
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while filtering out irrelevant sections like ads and non-journalistic information according to the provided guidelines.

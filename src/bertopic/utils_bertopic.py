@@ -35,7 +35,7 @@ def process_row(row):
     return None
 
 def process_all_rows(csv_files, max_workers=64):
-    print(f"🧵 Using ProcessPoolExecutor with {max_workers} workers")
+    print(f"Processing all dataframes with {max_workers} workers")
     all_documents = []
     row_mappings = []
     futures = []
@@ -55,7 +55,7 @@ def process_all_rows(csv_files, max_workers=64):
                 row_mappings.append(row)
 
             if i % 1000 == 0:
-                print(f"✅ Processed {i} rows...")
+                print(f"Processed {i} rows...")
 
     return all_documents, row_mappings
 

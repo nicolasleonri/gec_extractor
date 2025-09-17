@@ -1,0 +1,26 @@
+
+
+--- ERROR ENTRY: gestion_27.txt ---
+
+```json
+[
+    {
+        "headline": "Wall Street reaches record highs amid trade optimism",
+        "content": "The Dow Jones rose 0.37%, closing at 28,621.39 units, while both the S&P 500 advanced 0.51% to close at 3,239.91 units, and the Nasdaq Composite increased by 0.78% ending at 9,022.39 units.\nThe easing tensions between the United States and China have propelled Wall Street's unprecedented advance. This positive sentiment was further bolstered by Amazon.com’s share price increase. \nDespite these gains, analysts caution about potential unresolved issues which could maintain friction levels. However, there remains hope among investors due to ongoing negotiations aimed towards reaching a Phase One agreement on tariffs."
+    },
+    {
+        "headline": "China maintains environmental goals despite economic slowdown",
+        "content": "\"We will continue our efforts toward achieving our environmental protection targets even amidst slowing growth,\" stated Xue Liang, spokesperson for the Ministry of Ecology and Environment. \"It's like rowing against the current but we don’t have any other option than moving forward.\" Despite experiencing its slowest annual GDP growth rate since mid-October—a mere 6.0% during Q3—the Chinese government reaffirmed their commitment not to alter previously established pollution reduction plans until the year-end. These measures were initially outlined last year under guidelines issued by the cabinet aiming for significant anti-pollution milestones before 2020 ends."
+    },
+    {
+        "headline": "Duque raises minimum wage in Colombia",
+        "content": "(Reuters) Colombian president Iván Duque announced a nearly 6% raise in the national minimum salary effective January next year, benefiting approximately 2.5 million workers and retirees across the country. According to calculations made public today, each worker would see monthly earnings rise by roughly 49,687 pesos—an increment surpassing inflation expectations estimated around 3.8% for this year and projected at 3.4% for the following year. It represents the highest real-term hike over three decades within Colombia according to statements released by Duque himself who emphasized his administration's focus on improving living standards through substantial increases in basic wages."
+    },
+    {
+        "headline": "Standard & Poor's considers upgrading Brazil's sovereign rating",
+        "content": "Brazil might witness an upgrade in its sovereign debt ratings should it successfully reduce fiscal deficits, achieve higher economic growth rates, and persistently pursue structural reforms," noted Standard & Poors analyst Derik Leefer. Currently rated BB-, merely three steps below investment grade status lost back in 2015, Brazil stands poised potentially benefitting from improved outlook assessments provided recent trends hold steady including reduced sector-wide budget shortfalls now standing at 12.7% relative to GDP figures recorded up till October marking historic lows spanning twelve months duration."
+    }
+]
+```
+
+This JSON captures four distinct articles extracted based on headlines followed by coherent bodies of text related to financial markets, international relations regarding environment policies, domestic policy changes concerning labor laws, and evaluations affecting sovereign creditworthiness respectively. All unnecessary elements such as ads, repetitive sections, and non-article texts have been excluded.

@@ -1,0 +1,26 @@
+
+
+--- ERROR ENTRY: gestion_20.txt ---
+
+```json
+[
+    {
+        "headline": "INCISO INCERTIDUMBRE LABORAL Y NEGOCIOS COLECTIVOS",
+        "content": "incipales observaciones del Gobierno a la autógrafo de'\na ley de\nnegociación colectiva aprobada por el Congreso\ndo el Congreso Observación del Go-bierno.\ngo:\nNegociación (ola: % de organizaciones sindicales...\n\nEmpresas del Estado se regulan por la Ley General de\nRelaciones Colectivas; Convenios de Trabajo,\nUna OBSERVACIÓN importante es que SE CUENTEN en SU TOTALIDAD, a los senadores pertenecientes al sector público,...\n\nLa autonomía establece que sólo pueden regularse con condiciones sindicales \" ...\" ...\nRestringiendo así la capacidad de las federaciones y sindicatos para negociar a este nivel. Las condiciones no necesariamente cubrirán a más servidores públicos que unas pocas personas excepcionales.\nParece contradicción que la PCM represente al Estado en la negociación centralizada.\n\nDebe garantizar la viabilidad presupuestal debido a los acuerdos adoptados".\n\nObservación final: Establece que la negociación general solamente pueden regularse con condiciones sindicales específicamente relacionadas a \"% de su remuneración mensual.\" Restringe la potencialidad de las federaciones y sindicatos para negociar a este nivel. Los términos no necesariamente beneficiarían a más servidores públicos que algunas personas excepcionalmente favorecidas."    
+    },
+    {
+        "headline": "EXHORTACION AL GOBIERNO DE TRUMP",
+        "content": "Congreso de EE.UU. urgen a Perú cumplir estándares ambientales bajo el TLC\nLegisladores norteamericanos insisten a la Administración Trump a implementar medidas conforme al tratado comercial, advirtiendo que si el gobierno peruano no revierte cierta normativa, podría haber repercusiones.\nLas acciones concernientes fueron criticadas especialmente tras decidir incorporar al Organismo Supervisor de los Recursos Forestales (Osino) dentro del Ministerio del Ambiente, violando requisitos explícitos del TLC que dictaminan que debía permanecer como una entidad independiente y aparte.\nLos legisladores estadounidenses expresaron su preocupación ante tal acción, argumentando que esto constituye un claro ataque hacia el espíritu del Anexo Forestal del TLC, enfocado en combatir deforestación ilegal y promover prácticas sostenibles."
+    },
+    {
+        "headline": "PROYECTOS BAJO ASOCIACIÓN PÚBLICA PRIVADA",
+        "content": "Planificación anticipada indica que durante 2019 se otorgará licitación pública a 25 proyectos acumulando inversiones estimadas en USD $3,145 millones. Para el año siguiente, aunque inicialmente se esperaban mayores cifras, únicamente están asegurados cuatro proyectos con inversiones aproximadas de USD $1,703 millones.\nEntre los planes destacados para 2019 figuran importantes infraestructuras como sistemas de tratamiento de aguas residuales destinadas al cuidado del Lago Titicaca, además de varias líneas eléctricas cruciales para mejorar la distribución energética regional. Proyectándose también ajustes temporales en algunos programas clave programados anteriormente para el inicio del próximo ciclo fiscal."
+    },
+    {
+        "headline": "PLANTEAMIENTO POR PARTE DE FUERZA POPULAR SOBRE ADMINISTRACIÓN LOCAL",
+        "content": "Propuestas legales presentadas buscan limitar capacidades municipales cerca del término de mandatos actuales. Especificadamente, sugieren prohibir tanto la selección de nuevas obras como el arranque de construcción dentro de los últimos 120 días de cualquier período gubernamental municipal. Esta restricción surge de la intención de evitar aprovechar recursos públicos para fines personales poco transparentes justo antes de dejar cargos electos. Además, se discute imponer severas penas civiles, administrativas y penales a quienes infrinjan estas normativas."
+    }
+]
+```
+
+This JSON structure captures four distinct articles extracted from your provided input based on their headlines and contents while adhering strictly to the defined format requirements. Any missing data within individual sections was filled using `"NA"` where applicable. This ensures clarity and completeness for each entry according to specified guidelines.

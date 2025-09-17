@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: peru21_22.txt ---
+
+```json
+[
+    {
+        "headline": "El Gran Ao\nDE PESCA 2018",
+        "content": "En los anteriores seis aos: aquellos comprendidos entre 2012 y 2017, los desembarcos oficiales de anchoveta en nuestros puertos alcanzaron un promedio algo superior a los 3.3 millones de toneladas mtricas por ao. Cifra particularmente baja si se compara con los 5.6 millones de promedio si se suman los seis aos inmediatamente previos.\nEsta disminucin ha tenido bastante que ver con el clima debido a la te presencia de Ni\u00f1os \nteros en nuestro litoral entre 2014 y 2017 inclusive.\nAl trmino de El Ni\u00f1o costero de 2017 pasamos rpido aLa \netra; que termin en el primero trimestre de este ao."
+    },
+    {
+        "headline": "PUENTE AMAybAMAba Arraso",
+        "content": "Debido a las fuertes lluvias, un huai-co destruy ayer el puente Amay-bamba, en el distrito Huay-topata, provincia de La Convencion, Cusco. Debido a ello qued bloqueado el paso a Qui-llabamba. Adems, el alud afect algunas vivi-das. Las autoridades iniciaron las coordina-ciones para las labores de ayuda."
+    },
+    {
+        "headline": "RIESGO POR REBOLETE DEL DENGUE",
+        "content": "El director de Inteligencia Sa-nitaria de la Direccin Regional de Salud (Di-resa) de Piura, Edward Pozo, reve-la que la falta de presupuesto podr-ha hacer que rebrote el dengue, ahora que se ini-ca el verano.\nExplic que debido a que el Ministerio de Salud no fri una partida de emergencia que solicitron, casi el 90%\nde inspectores del control del denga-tuvieron que dejar de ser contratados. \"Ha-mos utilizado algunos saldos presupues-tales para contratar personas para el control de larvas\", dijo."
+    },
+    {
+        "headline": "COMPLEJO CASCANUECES",
+        "content": "El ballet clsico El Cas-canueces se presenta hoy (11\nda.) y mañana (11:30\nda. y 6:30\dp.), en el Teatro Mu-nicipal. Entradas: desde 5/20."
+    },
+    {
+        "headline": "CASUALIDAD EN LOS CAMPEONES DEFENSORES",
+        "content": "\"Seria excepcional ganar la tercera Copadel Mundo seguido y seria un granbro-che para estos jugadores. Podria sercomplicado de repetir y es una grande responsabi-lidad.\" Sergio Ramos Capitan del Real Ma-dridd evit hablar del posibles retorno de'Mou'.\" Tenemos la chance de ganar untitulo y estamos hablando de Mou-rinhossigue Ramos."
+    },
+    {
+        "headline": "ADMINISTRACION BLANQUIAZUL",
+        "content": "Administracin apunta a refuerzos depeso para 2019 Volante chileno Cris-tian Jorquera y el uruguaya Fabrin Esta-yannoff se acerca al cuarto grone. En Ali-anza Lima estn realizando un buen trabajo afines de ar-mar una escuadra competiti-vapor recuperar el titulo nacional,sino tam-bin para cumplir un papel dig-no en la copa libertadores.En ese sen-tido, dos nombres de jerarquia estn cada vez mas cerca de ponersela blanqui-a-zul,\nSe trata del volante chi-len Christian Jor-quera y del volante uruguayoa Fabbin Estoya-noff.El mapa-chho vi-ne de una inactividad de seis me-ses producto de una lesion en lastrs-pa,donde jue-ga actualmen-te,en el club italiano Genova,y Bur-sasporn deTurqua, su ultimo equi-po.Con treinta anos, el mediocampista esta lista para reaparecer y Alianza pod-ra ser su catapultae."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents following the provided guidelines for cleaning and structuring data. Articles were identified through distinct sections within the input text, focusing primarily on those providing substantial journalistic information while excluding non-relevant segments like ads or repetitive elements.

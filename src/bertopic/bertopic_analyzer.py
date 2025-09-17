@@ -8,6 +8,7 @@ from collections import Counter
 import multiprocessing as mp
 from bertopic.representation import KeyBERTInspired
 from umap import UMAP
+from datetime import date
 from hdbscan import HDBSCAN
 from pathlib import Path
 import gc
@@ -20,19 +21,6 @@ import numpy as np
 import pickle
 from pathlib import Path
 
-def get_csv_files(directory):
-    SUPPORTED_FORMATS = ['.csv']
-
-    logs_files = []
-    
-    for file in Path(directory).rglob('*'):
-        if file.is_file() and file.suffix.lower() in SUPPORTED_FORMATS:
-            logs_files.append(file)
-            
-    output = sorted(logs_files)
-
-    return output
-
 def check_gpu():
     result = subprocess.run(
         ["nvidia-smi", "--query-gpu=memory.used,memory.free", "--format=csv,nounits,noheader"],
@@ -40,43 +28,87 @@ def check_gpu():
     )
     print("GPU Memory:", result.stdout.strip())
 
-def run_single_model(documents, embedding_model_name, newspaper, chunk_size=1000):
-    check_gpu()
-
-    start_time = time.time()
-    # Create fresh embedding model and BERTopic instance
-    embedding_model = SentenceTransformer(embedding_model_name)
-
+def run_single_model(documents, embedding_model_name, newspaper, load_model=False, chunk_size=1000):
     spanish_stopwords = [
-    'de', 'la', 'que', 'el', 'en', 'y', 'a', 'los', 'del', 'se', 'las', 'por',
-    'un', 'para', 'con', 'no', 'una', 'su', 'al', 'lo', 'como', 'más', 'pero',
-    'sus', 'le', 'ya', 'o', 'este', 'sí', 'porque', 'esta', 'entre', 'cuando',
-    'muy', 'sin', 'sobre', 'también', 'me', 'hasta', 'hay', 'donde', 'quien',
-    'desde', 'todo', 'nos', 'durante', 'todos', 'uno', 'les', 'ni', 'contra',
-    'otros', 'ese', 'eso', 'ante', 'ellos', 'e', 'esto', 'mí', 'antes', 'algunos',
-    'qué', 'unos', 'yo', 'otro', 'otras', 'otra', 'él', 'tanto', 'esa', 'estos',
-    'mucho', 'quienes', 'nada', 'muchos', 'cual', 'poco', 'ella', 'estar', 'estas',
-    'algunas', 'algo', 'nosotros', 'mi', 'mis', 'tú', 'te', 'ti', 'tu', 'tus',
-    'ellas', 'nosotras', 'vosostros', 'vosostras', 'os', 'mío', 'mía', 'míos',
-    'mías', 'tuyo', 'tuya', 'tuyos', 'tuyas', 'suyo', 'suya', 'suyos', 'suyas',
-    'nuestro', 'nuestra', 'nuestros', 'nuestras', 'vuestro', 'vuestra', 'vuestros',
-    'vuestras', 'esos', 'esas', 'estoy', 'estás', 'está', 'estamos', 'estáis',
-    'están', 'esté', 'estés', 'estemos', 'estéis', 'estén']
+        'de', 'la', 'que', 'el', 'en', 'y', 'a', 'los', 'del', 'se', 'las', 'por',
+        'un', 'para', 'con', 'no', 'una', 'su', 'al', 'lo', 'como', 'más', 'pero',
+        'sus', 'le', 'ya', 'o', 'este', 'sí', 'porque', 'esta', 'entre', 'cuando',
+        'muy', 'sin', 'sobre', 'también', 'me', 'hasta', 'hay', 'donde', 'quien',
+        'desde', 'todo', 'nos', 'durante', 'todos', 'uno', 'les', 'ni', 'contra',
+        'otros', 'ese', 'eso', 'ante', 'ellos', 'e', 'esto', 'mí', 'antes', 'algunos',
+        'qué', 'unos', 'yo', 'otro', 'otras', 'otra', 'él', 'tanto', 'esa', 'estos',
+        'mucho', 'quienes', 'nada', 'muchos', 'cual', 'poco', 'ella', 'estar', 'estas',
+        'algunas', 'algo', 'nosotros', 'mi', 'mis', 'tú', 'te', 'ti', 'tu', 'tus',
+        'ellas', 'nosotras', 'vosostros', 'vosostras', 'os', 'mío', 'mía', 'míos',
+        'mías', 'tuyo', 'tuya', 'tuyos', 'tuyas', 'suyo', 'suya', 'suyos', 'suyas',
+        'nuestro', 'nuestra', 'nuestros', 'nuestras', 'vuestro', 'vuestra', 'vuestros',
+        'vuestras', 'esos', 'esas', 'estoy', 'estás', 'está', 'estamos', 'estáis',
+        'están', 'esté', 'estés', 'estemos', 'estéis', 'estén'
+    ]
 
+    # Define topics and their seed words
+    seeded_topics = {
+        "economia_informal": [
+            "economia informal", "sector informal", "empleo informal", "trabajo informal",
+            "informalidad", "trabajadores informales", "mercado informal", "actividad informal",
+            "subempleo", "precariedad laboral", "evasión", "no registrado", "sin contrato",
+            "sin beneficios", "sin protección", "economía sumergida", "economía subterránea",
+            "trabajo no regulado", "empleo no declarado", "informal", "informales", "trabajo diario",
+            "cachuelo", "Gamarra", "La Parada", "comercio ambulatorio", "mototaxis", "combis",
+            "trabajo doméstico", "economía popular", "autoempleo", "trabajadores por cuenta propia", 
+            "familiares no remunerados", "políticas de formalización", "economía en la sombra",
+            "informalidad persistente", "informalidad", "informal", "mujeres informales"
+            "evadir impuestos"
+        ],
+        "perspectiva_modernizante": [
+            "sector dual", "Arthur Lewis", "premoderno", "subsistencia", "industrialización",
+            "desarrollo económico", "absorción", "sector capitalista", "etapas de desarrollo",
+            "transición", "formalización", "progreso", "modernización", "residuo", "atraso"
+        ],
+        "perspectiva_estructuralista": [
+            "marxismo", "capitalismo", "exclusión", "salarios bajos", "competencia laboral",
+            "explotación", "plusvalía", "reserva de mano de obra", "desigualdad estructural",
+            "sistema económico", "clase trabajadora", "precariado", "explotados", "informalidad estructural",
+            "dependencia", "periferia", "centro", "migración rural-urbana"
+        ],
+        "perspectiva_neoliberal": [
+            "Hernando de Soto", "burocracia", "regulaciones", "impuestos", "intervención estatal",
+            "flexibilidad", "autonomía", "libre mercado", "costos de formalización", "trámites",
+            "emprendimiento", "libertad económica", "deregulación", "mercado libre", "competitividad",
+            "barreras", "racionalidad", "elección individual", "evitar impuestos", "informalidad voluntaria"
+        ],
+        "perspectiva_posmoderna": [
+            "redes de solidaridad", "antropología", "cultura", "reciprocidad", "comunidad",
+            "capital social", "trueque", "mercados populares", "identidad", "tradición",
+            "resistencia cultural", "economía alternativa", "redistribución", "cooperación",
+            "valores comunitarios", "informalidad cultural", "prácticas locales", "solidaridad"
+        ],
+        "perspectiva_voluntarista": [
+            "evasión", "competencia desleal", "regulaciones ineficientes", "beneficios",
+            "maximización", "estrategia", "ventaja", "mercado libre", "abuso de controles",
+            "ineficiencia estatal", "opción racional", "beneficio individual", "eludir normas",
+            "informalidad estratégica", "rentabilidad"
+        ]
+    }
+    
+    check_gpu()
+    start_time = time.time()
+
+    embedding_model = SentenceTransformer(embedding_model_name) # Create fresh embedding model and BERTopic instance
+    
     vectorizer_model = CountVectorizer(
         stop_words=spanish_stopwords,
         decode_error="replace",
-        ngram_range=(1, 5),
-        max_features=None,
+        ngram_range=(1, 3),
+        max_features=None, # alternative: 100000
         strip_accents="unicode",
         min_df=2,  # Remove very rare terms
         max_df=0.95,  # Remove very common terms
         token_pattern=r'\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]{2,}\b'  # Spanish-aware tokenization
     )
 
-    # Speed-tuned UMAP
     umap_model = UMAP(
-        n_neighbors=200,
+        n_neighbors=175,
         n_components=100, 
         min_dist=0.01,
         metric='cosine',
@@ -86,17 +118,10 @@ def run_single_model(documents, embedding_model_name, newspaper, chunk_size=1000
         verbose=True
     )
 
-    # # Define topics and their seed words
-    # seeded_topics = {
-    #     "sports": ["fútbol", "gol", "liga", "deporte"],
-    #     "politics": ["elecciones", "gobierno", "presidente"],
-    #     "health": ["virus", "salud", "hospital"],
-    # }
-
     hdbscan_model = HDBSCAN(
-        min_cluster_size=10,
-        min_samples=5,
-        metric='euclidean',
+        min_cluster_size=25,
+        min_samples=7,
+        metric='cosine',
         cluster_selection_method='eom',
         prediction_data=True,
         core_dist_n_jobs=-1,  # Use all CPU cores
@@ -106,45 +131,46 @@ def run_single_model(documents, embedding_model_name, newspaper, chunk_size=1000
     model = BERTopic(
         embedding_model=embedding_model, 
         language="multilingual", 
-        min_topic_size=3,
-        top_n_words=50, # Words per topic
-        # seed_topic_list=list(seeded_topics.values()),
-        # representation_model=KeyBERTInspired(),
+        min_topic_size=5,
+        top_n_words=35, # Words per topic
+        seed_topic_list=list(seeded_topics.values()),
+        representation_model=KeyBERTInspired(),
         calculate_probabilities=True,
         vectorizer_model=vectorizer_model,
         umap_model=umap_model,
         hdbscan_model=hdbscan_model,
         verbose=True,
-        low_memory=True,
+        low_memory=False,
         nr_topics=None,
-        )
-
-    model_suffix = re.sub(r'\W+', '_', embedding_model_name.split('/')[-1])
-    model_path = f"./results/models/bertopic/bertopic_model_{model_suffix}_{newspaper}"
-    os.makedirs(os.path.dirname(model_path), exist_ok=True)
+    )
     
-    print(f"⏱️ Initializing time: {time.time() - start_time:.2f} seconds")
+    print(f"Initializing time: {time.time() - start_time:.2f} seconds")
     check_gpu()
 
+    model_suffix = re.sub(r'\W+', '_', embedding_model_name.split('/')[-1])
+    model_path = f"./results/models/bertopic/bertopic_model_{model_suffix}_{newspaper}_{date.today()}"
+    os.makedirs(os.path.dirname(model_path), exist_ok=True)
+    pickle_file = model_path + ".pkl"
+    loaded_saved_model = str(model_path)
+
     try:
-        pickle_file = model_path + ".pkl"
-
-        if os.path.exists(model_path) and os.path.exists(pickle_file):
-            print(f"📦 Loading existing BERTopic model from {model_path}")
-            model = BERTopic.load(model_path)
-
-            with open(pickle_file, "rb") as f:
-                results = pickle.load(f)
+        if load_model == True:
+            if os.path.exists(model_path) and os.path.exists(pickle_file):
+                print(f"Loading existing BERTopic model from {model_path}")
+                start_time = time.time()
+                model = BERTopic.load(model_path)
+                with open(pickle_file, "rb") as f:
+                    results = pickle.load(f)
+                print(f"Loading time: {time.time() - start_time:.2f} seconds")
         else:
-            print(f"🧠 Training BERTopic model with {embedding_model_name}")
-            start_time = time.time()
-
+            print(f"Training BERTopic model with {embedding_model_name}")
             model.verbose = True
+
+            start_time = time.time()
             topics, probs = model.fit_transform(documents)
+            print(f"Training time: {time.time() - start_time:.2f} seconds")
             topic_keywords = get_topics_keywords(model)
-
             model.save(model_path, save_embedding_model=True)
-
             topic_info = model.get_topic_info().to_dict('records') if hasattr(model, 'get_topic_info') else None
             results = {
                 'topics': topics,
@@ -152,40 +178,32 @@ def run_single_model(documents, embedding_model_name, newspaper, chunk_size=1000
                 'topic_info': topic_info,
                 'topic_keywords': topic_keywords
             }
-
-            print("📊 Topic info (head):")
+            print("Topic info (head):")
             topic_info = model.get_topic_info()
             print(topic_info.head())
 
-            print(f"⏱️ Training time: {time.time() - start_time:.2f} seconds")
-            check_gpu()
-
             with open(pickle_file, "wb") as f:
                 pickle.dump(results, f)
-    finally:
-        del model
-        del embedding_model
-        clear_gpu_memory()
-        time.sleep(2)  # Brief pause for cleanup
+    except Exception as e:
+        print(f"Error with {model_suffix}: {e}")
     
-    return results
+    del model
+    del embedding_model
+    clear_gpu_memory()
+
+    time.sleep(2)
+    
+    return results, loaded_saved_model
 
 
-def bertopic(input_files, newspaper, input_folder):
+def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, load_model=False):
     results_dir = "./results/csv/bertopic/"
-    csv_filename = f"results_topics_{newspaper}.csv"
-    output_csv = os.path.join(results_dir, csv_filename)
     os.makedirs(os.path.dirname(results_dir), exist_ok=True)
 
-    all_documents = []
-    row_mappings = []
+    csv_filename = f"results_topics_{newspaper}_{date.today()}_.csv"
+    output_csv = os.path.join(results_dir, csv_filename)
 
-    print(f"Processing {len(input_files)} CSV files from {str(input_folder)}")
-
-    max_threads = mp.cpu_count()
-    all_documents, row_mappings = process_all_rows(input_files, max_workers=max_threads)
-
-    print(f"📄 Total valid documents: {len(all_documents)}")
+    print(f"Processing {len(input_files)} CSV files from {str(input_folder)}.")
 
     if not all_documents:
         print("No valid documents found to process.")
@@ -199,19 +217,19 @@ def bertopic(input_files, newspaper, input_folder):
     
     all_model_results = []
     
+    saved_models = []
+
     for model_name in embedding_model_names:
         print(f"\n{'='*50}")
         print(f"Processing with model: {model_name}")
         print(f"{'='*50}")
         
         try:
-            results = run_single_model(all_documents, model_name, newspaper, chunk_size=1000)
-            if results is None:
-                print(f"⚠️ No results from model {model_name}, skipping...")
-                continue
-            
+            results, loaded_saved_model = run_single_model(all_documents, model_name, newspaper, load_model)
             all_model_results.append(results)
-            print(f"✅ Completed {model_name}")
+            saved_models.append(str(loaded_saved_model))
+            print(f"Completed: {model_name}")
+            print(f"Models saved or loaded (so far): {saved_models}")
         except Exception as e:
             print(f"❌ Error with {model_name}: {str(e)}")
             clear_gpu_memory()
@@ -219,7 +237,11 @@ def bertopic(input_files, newspaper, input_folder):
             continue
         
         clear_gpu_memory()
-        time.sleep(5)  # Longer pause between models
+        time.sleep(5)
+    
+    print(f"Saved models: {saved_models}")
+
+    gc.collect()
 
     valid_results = [r for r in all_model_results if r is not None]
     
@@ -227,7 +249,7 @@ def bertopic(input_files, newspaper, input_folder):
         print("❌ Not enough valid model results for majority voting")
         return None
     
-    print(f"\n📊 Processing majority vote from {len(valid_results)} models")
+    print(f"\nProcessing majority vote from {len(valid_results)} models")
     
     topics_by_model = [result['topics'] for result in valid_results]
     probs_by_model = [result['probs'] for result in valid_results]
@@ -264,7 +286,6 @@ def bertopic(input_files, newspaper, input_folder):
             majority_agreed_topics.append((i, agreed_topic, mean_agreed_prob))
 
     topic_labels = valid_results[1]['topic_keywords']
-    print(topic_labels)
 
     agreed_rows = []
     for i, agreed_topic, mean_agreed_prob in majority_agreed_topics:
@@ -279,7 +300,7 @@ def bertopic(input_files, newspaper, input_folder):
 
     # Write results to CSV
     if agreed_rows:
-        print(f"\n💾 Writing {len(agreed_rows)} agreed topics to CSV...")
+        print(f"\nWriting {len(agreed_rows)} agreed topics to CSV...")
         fieldnames = list(agreed_rows[0].keys())
         
         with open(output_csv, mode="w", newline='', encoding="utf-8") as f:
@@ -299,51 +320,111 @@ def bertopic(input_files, newspaper, input_folder):
 
     return None
 
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="BERTopic Voting & Model Saving")
-    parser.add_argument("--visualize-model", type=str, default=None,
-                        help="Path to a saved BERTopic model to load instead of training")
-    parser.add_argument('-f', '--input_folder', required=True, help='Folder with OCR results')
-    parser.add_argument('-n', '--newspaper', required=True, help='Newspaper name (required)')
-
-    args = parser.parse_args()
-
-    csv_files = get_csv_files(str(args.input_folder))
-
-    start_time = time.time()
-
-    bertopic(csv_files, args.newspaper, args.input_folder)
-
-    print(f"⏱️ Total time: {time.time() - start_time:.2f} seconds")
-
-    # if args.visualize_model:
-    #     print(f"📦 Loading BERTopic model from {args.visualize_model}")
-    #     model = BERTopic.load(args.visualize_model)
-
-    #     # Clean model name for filenames (e.g., strip paths, spaces, slashes)
-    #     model_id = Path(args.visualize_model).stem
-    #     model_id = re.sub(r'\W+', '_', model_id)  # Replace non-alphanumeric with underscores
+def gec_csv_files(directory) -> List[Path]:
+    SUPPORTED_FORMATS = ['.csv']
+    
+    logs_files: List[Path] = []
+    
+    for file in Path(directory).rglob('*'):
+        if file.is_file() and file.suffix.lower() in SUPPORTED_FORMATS:
+            logs_files.append(file)
             
-    #     topic_info = model.get_topic_info()
-    #     print(topic_info.head())
+    output: List[Path] = sorted(logs_files)
 
-    #     # Define output directory for visualizations
-    #     viz_output_dir = "./results/visualizations/"
-    #     os.makedirs(viz_output_dir, exist_ok=True)
+    return output
 
-    #     # Save visualizations as interactive HTML
-    #     print("📊 Saving visualizations...")
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Do semantic clustering (of newspaper articles) using BERTopic with majority voting of three spanish embedding models.", 
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument("-f", "--input_folder", type=str, required=True, help="Path to folder containing input csv files")
+    parser.add_argument("-tn", "--type_of_nvidia_card", type=str, required=False, default="H100", choices=["H100", "A5000", "RTX2080", "A100", "V100"], help="Type of NVIDIA GPU card")
+    parser.add_argument("-aram", "--available_ram", type=int, required=False, default=9, help="Available system RAM in GB")
+    parser.add_argument("-ngpus", "--num_gpus", type=int, required=False, default=1, help="Number of GPUs available for processing")
+    parser.add_argument("-vzm", "--visualize_model", type=bool, required=False, default=False, help="Path to a saved BERTopic model to load instead of training")
+    parser.add_argument('-n', '--newspaper', type=str, required=True, help='Newspaper name (required)')
+    parser.add_argument('-c', '--cpu_num', type=int, required=True, help='Number of available CPUs')
+    parser.add_argument('-lm', '--load_model', type=int, required=False, default=False, help='Number of available CPUs')
 
-    #     #TODO: Fix visualizations
-    #     # model.visualize_documents().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
-    #     # model.visualize_hierarchy().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))            
-    #     # model.visualize_topics_per_class().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
-    #     model.visualize_topics().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
-    #     model.visualize_barchart(top_n_topics=20).write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
-    #     model.visualize_heatmap().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_heatmap.html"))
-    #     model.visualize_term_rank().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_termrank.html"))
+    return parser.parse_args()
+
+def validate_arguments(args) -> Dict[str, Any]:
+    config = {}
+    errors = []
+    
+    if not os.path.exists(args.input_folder):
+        errors.append(f"Input folder does not exist: {args.input_folder}")
+    else:
+        csv_files = list(Path(args.input_folder).rglob("*.csv"))
+        if len(csv_files) == 0:
+            errors.append(f"No .csv files found in input folder: {args.input_folder}")
+        config["csv_files_count"] = len(csv_files)
+        config["input_folder"] = args.input_folder
+    
+    if not args.newspaper:
+        errors.append("Newspaper name is required")
+    config["newspaper"] = str(args.newspaper)
+    
+    if args.available_ram <= 0:
+        errors.append("Available RAM must be positive")
+    if args.num_gpus <= 0:
+        errors.append("Number of GPUs must be positive")
+    if args.cpu_num <= 0:
+        errors.append("Number of CPUs must be positive")
+    
+    config["gpu_type"] = args.type_of_nvidia_card
+    config["available_ram"] = args.available_ram
+    config["num_gpus"] = args.num_gpus
+    config["cpu_num"] = args.cpu_num
+    config["load_model"] = args.load_model
+    config["visualize_model"] = args.visualize_model
+
+    if errors:
+        print("❌ Validation errors:")
+        for error in errors:
+            print(f"  - {error}")
+        sys.exit(1)
+    
+    return config
+
+def main() -> None:
+    args = parse_arguments()
+
+    config = validate_arguments(args)
+    csv_files = gec_csv_files(config["input_folder"])
+    all_documents, row_mappings = process_all_rows(csv_files, max_workers=config["cpu_num"]):
+    print(f"Total valid documents: {len(all_documents)}")
+
+    if config["visualize_model"] == True:
+        model = BERTopic.load(config["input_folder"])
+
+        model_id = Path(config["input_folder"]).stem
+        model_id = re.sub(r'\W+', '_', model_id)
         
-    #     print(f"✅ Visualizations saved to {viz_output_dir}")
-    # else:
-    #     return None
+        topic_info = model.get_topic_info()
+        print(topic_info.head())
+
+        viz_output_dir = "./results/visualizations/"
+        os.makedirs(viz_output_dir, exist_ok=True)
+
+        print("Saving visualizations...")
+
+        #TODO: Fix visualizations
+        # model.visualize_documents().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
+        # model.visualize_hierarchy().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))            
+        # model.visualize_topics_per_class().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
+        model.visualize_topics().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_overview.html"))
+        model.visualize_barchart(top_n_topics=20).write_html(os.path.join(viz_output_dir, f"{model_id}_topics_barchart.html"))
+        model.visualize_heatmap().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_heatmap.html"))
+        model.visualize_term_rank().write_html(os.path.join(viz_output_dir, f"{model_id}_topics_termrank.html"))
+        
+        print(f"✅ Visualizations saved to {viz_output_dir}")
+    else:
+        start_time = time.time()
+        bertopic(csv_files, config["newspaper"], config["input_folder"], all_documents, row_mappings, config["load_model"])
+        print(f"⏱️ Total time: {time.time() - start_time:.2f} seconds")
+    
+    return None
+        
+if __name__ == "__main__":
+    main()

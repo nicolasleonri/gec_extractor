@@ -1,0 +1,77 @@
+
+
+--- ERROR ENTRY: publimetro_20.txt ---
+
+```json
+[
+    {
+        "headline": "Urge encontrar a joven extraviado",
+        "content": "Un adolescente de 17 años está desaparecido hace más de diez días."
+    },
+    {
+        "headline": NA,
+        "content": "Las fuerzas armadas están realizando patrullajes intensificados en zonas montañosas buscándolo."
+    },
+    {
+        "headline": "Nuevo motor show presenta modelos exclusivos",
+        "content": "Automóviles cotizados entre los 5 mil y 200 mil dólares serán mostrados en el próximo Motor Show. A pesar de una caída del 9% en ventas, se espera revitalización del interés en el sector.\n\n\"Calculamos que en el Motorshow se colocará el equivalente a un tercio de las ventas mensuales de autos,\" menciona Iván Besich, director vocero de ARAPER."
+    },
+    {
+        "headline": "Venta anticipada del iPhone 6 en Lima",
+        "content": "\"iPhone 6 sale a la venta esta noche en Lima con varios operadores.\" Presentación y venta privada comenzarán a partir de las 9 p.m. en distintas ubicaciones de Miraflores y otras áreas comerciales importantes."
+    },
+    {
+        "headline": "Redución de impuestos propone Consejo de Ministros",
+        "content": "El Consejo de Ministros aprueba proyectar una reducción gradual del Impuesto a la Renta corporativo, anunciando cambios significativos para incentivar la economía. \"Es el conjunto de medidas más ambicioso...\", declara Alonso Segura, Ministro de Economía."
+    },
+    {
+        "headline": "Demanda legal contra Artur Mas por referendum",
+        "content": "El Fiscal General español solicitará acciones judiciales contra el Presidente de Catalunya, Artur Mas, debido al referéndum ilegal realizado el 9 de noviembre."
+    },
+    {
+        "headline": "Desastre en Ayotzinapa causa impacto global",
+        "content": "La desaparición forzosa de estudiantes en México genera indignación internacional, evidenciada por tendencias globales en plataformas digitales discutiendo el caso bajo hashtags relevantes."
+    },
+    {
+        "headline": "Muere Miss Honduras Mundo en circunstancias violentas",
+        "content": "Mara José Alvarado, representante de Honduras en Miss Mundo, encontrado sin vida junto a su hermana Sofia Trinidad. Detienen al sospechoso principal relacionado con el hecho."
+    },
+    {
+        "headline": "General Alzate aún cautivo según líderes FARC",
+        "content": "Negociadores de las FARC confían en resolver pronto la situación del general Rubén Darío Alzate, secuestrado por integrantes insurgentes."
+    },
+    {
+        "headline": "Premier boliviana critica influencia de telenovelas",
+        "content": "Evo Morales señala cómo las producciones dramáticas afectan valores familiares y contribuyen a problemas sociales como embarazos tempranos y violencia intrafamiliar."
+    },
+    {
+        "headline": "Acusan a Ucrania de preparar nuevas tensiones militares",
+        "content": "Funcionario ruso alerta sobre decisiones económicas de Ucrania vistas como precursoras de conflictos adicionales en Donbas."
+    },
+    {
+        "headline": "Final adelantada en el Torneo Nacional",
+        "content": "Alianza Lima y Sporting Cristal protagonizan crucial encuentro en el Estadio Nacional, determinante para aspiraciones titulares en el Clausura."
+    },
+    {
+        "headline": "Clásico Boca-River define paso a la final sudamericana",
+        "content": "Ambos gigantes del fútbol argentino miden fuerzas en búsqueda de avanzar a la última instancia del prestigioso torneo continental."
+    },
+    {
+        "headline": "Expulsiones preocupan a Paolo Guerrero antes de duelos internacionales",
+        "content": "Delantero del Corinthians reflexiona sobre errores disciplinarios mientras enfoca recuperación física post lesión."
+    },
+    {
+        "headline": "Padre de Messi aclara rumores sobre partida del Barça",
+        "content": "Jorge Messi minimiza interpretaciones erróneas sobre comentarios de su hijo Lionel, confirmado compromiso continuo con el FC Barcelona."
+    },
+    {
+        "headline": "Renombre del Santiago Bernabéu podría cambiar próximamente",
+        "content": "Florentino Pérez sugiere posibles nuevos nombres para el emblemático estadio madrileño vinculado a inversiones externas."
+    },
+    {
+        "headline": "Resolución pacífica planeada después del altercado en el Mundial",
+        "content": "Agente mediador organiza reconciliación pública entre Luis Suárez y Giorgio Chiellini tras controversia del mordisco en Brasil 2014."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines. Articles were identified through context clues such as topic shifts and significant information blocks within the input data. Non-article sections like ads and irrelevant details have been excluded according to specified criteria.

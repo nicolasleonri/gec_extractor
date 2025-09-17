@@ -1,0 +1,56 @@
+
+
+--- ERROR ENTRY: peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "Para qué aprendió el ABC’ del balompié",
+        "content": "El destino lo trajera al Perú nuevamente y tras bar suerte en la ‘U’ y San Martín, fue Sporting Cristal el que ’amarró‘ a la joven promesa con un contrato de cuatro años que estaba por vencer.\n\nEn mayo Da Silva pidi permiso para pasar una prueba en el PSV de Holanda, donde impresionó a los ojeadores’. A su vuelta intentaron revisar su contrato pero su empresario ya tenía ofertas en carpeta.\n\n\"Estoy preparado para salir \na \nga\u0301nerai extranjero. Me siento listo para emprender este reto. Pero si me preguntas hoy, mi cabeza está metida en la final y logré sacarme bicampeonato con Cristal\", declar.\n\nEl \'Beto\' toma con tranquilidad su internacionalización. \"Sé que tengo mucho por aprender y escucho los consejos de todos. Ahora solo pienso en esos dos partidos con Melgar, en los que realmente no hay favoritos\", finalizó el delantero, que es la gran carta de gol de los cerveceros en la final.\n\nmSporting Cristal solo cobrará del PSV derechos de formación y promoción por LuizDaSilva, quien se irá a Europa como jugador libre.\n\nmEl pap de \'Beto\' es sinho, exdelantero de Melgar y Atlético Torino en los ochenta. Como DT dirigió a Walter Ormeño en la Segunda División."
+    },
+    {
+        "headline": "MELGAR. GOLEADOR DEL CUADRILÁTERO ROJINEGRE DICE QUE »HA VOLVED EL GOL«\nCUESTA ADVERTE A CELESTES",
+        "content": "\"El argentino Bernardo Cuesta, delantero de Melgar y que viene de anotar tres tantos en la goleada sobre Real Garcilaso, lanza una advertencia a Sporting Cristal cara a la final del Descentralizado. «Volvé al gol, semediérón tres goles, es buena señal de continuar anotando. Estoy feliz porque estoy aquí para ayudar a mis compañeros».\n\nExplicó: «Me alegra haber encontrado el camino hacia el éxito». Además agregó: Tengo muchas ganas de demostrar que soy importante dentro del equipo roji-negro. Mi objetivo principal ahora mismo es conseguir el título de campeón con Melgar», cerró el atleta peruano.\""
+    ],
+    {
+      "headline": "Contenido NA"
+    ]
+}
+```
+
+Here's how you would format your input data:
+
+### Example Input Text Sample:
+```
+UNIVERSIDAD PERÚ
+SECCIÓN PRINCIPALES EVENTOS SOCIEDADES INFORMACIÓN GENERAL
+...
+**LOCO DEL MARTILLO**
+HOY EN UNA ENTREGA ESPECIAL CON LOS DETALLE SOBRE LO OCURRENTES EN LAS CALLES DE MADRID POR PARTE DE ESTUDIANTE UNIVERSITARIO...
+
+---
+
+## Your task: Process the following information about each event mentioned within the context provided below:
+
+[Input]
+The goal here is not just to extract but also ensure proper cleanup where necessary such as joining split-up phrases like “democracy”—which should become “democracy.” Also note any other potential issues related to character encoding problems due to OCR artifact corrections.
+
+INPUT:
+"Aqui tenemos información relevante sobre diversos temas..."
+
+SCOPE AND GOALS OF THIS TASK ARE TO BE STRICTLY FOLLOWING THE RULES ABOVE FOR PROCESSING RAW OCRECTIONS FROM NEWSPAPER PAGE INTO STRUCTURED JSON FORMATS."
+
+OUTPUT:
+Ensure every extracted article has its own entry formatted correctly according to these rules. Here’s what we expect based on our example above:
+
+{
+   "articles":[
+       {"headline":"Headline One","content":"Article Content Goes Here"},
+       ...
+   ]
+}
+
+Please follow through carefully ensuring accuracy while maintaining structure integrity throughout processing steps!
+```
+
+This sample demonstrates handling structured extraction tasks using specific guidelines outlined earlier. Adjustments may include fixing common OCR mistakes, merging fragmented texts appropriately, and adhering strictly to defined heuristics for identifying headlines versus regular content. This ensures clarity and consistency across processed outputs.

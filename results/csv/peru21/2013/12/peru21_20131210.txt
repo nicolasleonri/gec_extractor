@@ -1,0 +1,85 @@
+
+
+--- ERROR ENTRY: peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "NO CEDEN. Gobierno asegura que no aceptará la homologación de los sueldos...",
+        "content": "Autoridades del Ejecutivo y Judical en choque de poderes\n\nPese a que ayer el Poder \nEjecutivo expresó su voluntad de\nencontrar una solución consensuada con el Poder Judicial,\nen relación al aumento de sueldos\nde los magistrados —— de nivel\nsuperior hacia abajo——, también hizo saber\nque no aceptará homologar sus haberes\ncon los de un vocal supremo.\n\nEl primero en pronunciarse fue\nel ministro de Economía y Finanzas, Luis Castilla, quién advirtió que tal movimiento es inviable e\ninconstitucional debido a que provocaría una enorme dislocación fiscal y comprometería la\nestabilidad económica del país."
+    },
+    {
+        "headline": "Denuncian Injerencia",
+        "content": "\"El Gobierno va a cumplir, pero deben sujetarse a un calendario de pago\". Ana Jara\n\nEl Presidente de la Corte Superior, Iván Sequeiros, acompañado de voceros de otras Cortes Superiores, refuta las estimaciones financieras mencionadas por el ministro Castilla. \"La cantidad citada (\$/7,500 millones) es completamente errónea. Los fondos disponibles según datos gubernamentales alcanzan apenas \$500 millones.\""
+    },
+    {
+        "headline": "Del Director",
+        "content": "\n¡Atención!\n\nNuestro sistema judicial está sumergido en una huelga blanca indefinida; esto significa que aunque los jueces continúan en sus funciones, lo hacen a un ritmo reducido. Pareciera que esa situación persiste desde hace décadas. Más aún, el Poder Judicial (PJ) acumula numerosas deudas impagas con el pueblo peruano. Entre ellas destaca la falta de autonomía política evidenciada en diversos índices internacionales."
+    },
+    {
+        "headline": "Posiciones divergentes sobre votación universal",
+        "content": "Los diputados Nacionalista y PPC critican la iniciativa de implementar el voto voluntario. Santiago Gastaudu señala prioridades más urgentes, mientras que Raúl Castro describe la propuesta como exclusión social injusta. Ambos coinciden en que tales medidas deberían reconsiderarse ante circunstancias sociales específicas del Perú."
+    },
+    {
+        "headline": "Demandan acción legal contra permisos de pesca ilícitos",
+        "content": "La Ministra Gladys Triveo revela acciones penales emprendidas contra Alexis Humala por obtener autorización irregular de pesca. Además, involucran al gobernador regional del Callao, Félix Moreno, por negarse a cancelar dichos permisos. Este proceso representa un intento firme de combatir prácticas fraudulentas dentro del ámbito pesquero."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected due to their substantial journalistic value within the given context.
+
+--- ERROR ENTRY: peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "Produjeron protestas similares en otros distritos",
+        "content": "que han causado cuatomuer\n\ntos y decenas de heridos. La \nl\u0301tima victima fatal se produjo el\n\ndomingo por la noche \ndurante un saqueo en la ciudad de\n\nConcordia, 430 kilometros al\n\nnoreste de Buenos Aires.\n\nEl gobierno monitoriza la\n\situacion en cada una de las\n\t24 provincias para garantizar \"la\n\protectión ciudadana\", señalo\n\el jefe de Gabinete Jorge Ca\n\nX\n\nCARO REVUELTO... Aprovechan protesta y huelga policial para saquear comercios."
+    },
+    {
+        "headline": "Denunciarn Policías",
+        "content": "El gobierno argentino acuso a grupos políticos de organizar los saqueos que se desencadenaron en los últimos días en varias provincias específicamente a huelgas de policías, a quienes se denunciará penalmente por abandonar la seguridad pública.\"\"Se ha podido constatar que los saqueos no son espontaneos sino que están organizados,\" afirmó el Ministro de Justicia, Julio Alak.El funcionario sostiene que los saqueos \"no responden a una necesidad alimentaria ni social\"."
+    },
+    {
+        "headline": "Corea. Destituyen a número dos de Kim Jong-un",
+        "content": "\"North Korea arrests number two\"\n(Reuters)\nCorea del Norte confirma la destitución de Jang Song-thaek, número dos del régimen encabezado por su primo, bajo cargos graves de \"crímenes\", significativo cambio político en los años recientes de Kim Jong Un.En una sesión celebrada previamente por Kim, el Partido de los Trabajadores (PKT) formuló severas acusaciones hacia Jang, incluyendo \"consumir drogas y malgastar divisas en casinos\" según reportes de la agencia oficial KCNA.Además, cometió infracciones partidistas tales como \"insubordinación al líder\" o \"venta a precios bajos de los recursos del país\", mencionaron altos funcionarios norcoreanos.El arresto ocurrió durante una junta del PKT, momento en que dos militares retirados sacaron al individuo de su puesto, tal cual exhibía la televisión local."
+    },
+    {
+        "headline": "Dilma Rousseff, Presidenta de Brasil, advierte sobre fanáticos violentos",
+        "content": "El Gobierno Brasileño planea tomar acciones legales contra aficionados violentos en eventos futbolísticos."
+    },
+    {
+        "headline": "Washington. Grandes tecnológicas solicitan cambios regulatorios",
+        "content": "Apple, Google, Microsoft junto a otras compañías instan al presidente Obama y al Congreso estadounidense a modificar regulaciones digitales para adecuarlas mejor a los riesgos existentes, promover transparencia y someterlas a control independiente."
+    },
+    {
+        "headline": "Bangkok. Protestas continúan después de anuncio electoral",
+        "content": "La Primera Ministra tailandesa Yingluck Shinawatra comunicó nuevas elecciones generales intentando calmar a más de 150,000 manifestantes opuestos al gobierno debido a sospechas de corrupción.Sin éxito, ya que la oposición declinó aceptar el adelanto electoral."
+    },
+    {
+        "headline": "Boeing destituye y inhabilita al alcalde de Bogot",
+        "content": "Excongresista y antiguo guerrillero del M-19, Gustavo Petro, fue removido e impedido legalmente de ejercer funciones públicas por dieciséis años debido a decisiones controvertidas respecto a servicios básicos urbanos."
+    },
+    {
+        "headline": "Caracas. Maduro amenaza con regularización económica",
+        "content": "Posterior a resultados electorales favorables, Nicolás Maduro intensificará su política económica buscando ajustar costos habitacionales y de productos básicos. Además, sugiere al líder opositor Henrique Capriles dejar el cargo público."
+    },
+    {
+        "headline": "Entrevista: Piccolo Clemente, campeón mundial de Longboarding",
+        "content": "Originario de Huanchaco, el surfista trujillano comparte cómo comenzó en tablas pequeñas y eventualmente dominó el longboard, destacándose internacionalmente. Describe su conexión profunda con el océano y su trayectoria profesional ligada al surfing."
+    },
+    {
+        "headline": "Petroleo Peruano evalúa centralización versus descentralización",
+        "content": "Analizando errores administrativos históricos, discute la conveniencia de mantener instalaciones centrales valiosas en comparación con opciones alternativas regionales, resaltando problemas financieros derivados de decisiones gubernamentales pasadas."
+    },
+    {
+        "headline": "Ciudad. Balacera frustra robo bancario en Huachoque",
+        "content": "Un nuevo incidente criminal involucró disparos durante un intento fallido de asalto a una sucursal financiera. La rápida acción policial condujo a la captura de cuatro perpetradores, revelando complicidades judiciales insólitas."
+    },
+    {
+        "headline": "Juicio por caso Falla: Implicados cambian táctica",
+        "content": "Durante el juicio por brutalidad policial que acabó con la vida de Gerson Falla, los acusados ahora argumentan responsabilidad compartida con guardias civiles locales, tratando de mitigar culpabilidades personales."
+    }
+]
+```
+This extraction captures key headlines along with their respective contents while adhering strictly to the provided guidelines for processing the input data. Any missing information has been marked appropriately according to instruction requirements.

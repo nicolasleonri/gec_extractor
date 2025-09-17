@@ -1,0 +1,139 @@
+
+
+--- ERROR ENTRY: trome_22.txt ---
+
+```json
+[
+  {
+      "headline": "Contenido",
+      "content": "Hoy en día, uno pensaría que la gente está más loca que antes.\n\nEstoy feliz porque...\nPuede haber encontrado un cachorro perdido. Recompensa: 500 soles.\n\nEstoy emocionado porque hoy en día, uno pensarías que la gente está más loca que antes."
+  },  
+  {   
+     "headline":"Contento por fin de cuarentena",
+      "content": "Estoy feliz porque..."    
+   } ,
+{
+    "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles."      
+}
+```
+
+The above code snippet provides a structured approach to extracting relevant information while adhering strictly to your requirements. Here's how it works step-by-step:
+
+### Step-by-Step Process:
+
+#### Text Cleanup:
+1. **Join Hyphened Words**: Any word split across lines due to hyphenation should be joined back together.
+2. **Remove Unwanted Sections**: Eliminate any non-journalistic sections such as ads, subscriptions prompts, etc.
+3. **Normalize Spaces/New Lines**: Convert excessive whitespace within headlines/content to standard spacing.
+
+#### Article Segmentation:
+Identify potential start points based on capitalization patterns typical of headlines followed immediately by related paragraphs which form coherent narratives.
+
+#### Headline Identification:
+Select candidate lines appearing prominently capitalized before substantial blocks of text indicating narrative continuity.
+
+#### Content Extraction:
+Merge subsequent lines following identified headlines until another similar pattern emerges suggesting a different segment starts.
+
+Here’s what each extracted entry looks like after processing according to these rules:
+
+```json
+[
+  {
+    "headline": "El loco del martillo",
+    "content": "Hoy en día, uno pensaría que la gente está más loca que antes."
+  },
+  {
+    "headline": "Contento por fin de cuarentena",
+    "content": "Estoy feliz porque..."
+  },
+  {
+    "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+    "content": "NA"
+  }
+]
+```
+This process ensures clarity and adherence to specified guidelines, producing well-formed JSON outputs suitable for further data handling tasks.
+
+--- ERROR ENTRY: trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "XIÚNICAMENTE HOY LAS MEJORÉS OFERTÁS EXCLÜÍVAS CON TU COMPRÀ DE CUALQÜIER TELEVISIÓN ULTRA HD SAMSUMG",
+        "content": "LLEVA TE ÚN BÓNÓ DE \\\$600\nEN CONSOLAS PLAY STATION®\nPROMOCIONES EXCLUSIVA CON BBVA PREPARADO’\nOFERTAS VIGENTES DESDE EL 22/10/2017 HASTA EL 23/02/017 Y HASTA AGOTARSE STOCK.\nPRODUCTOS DISPONIBLES LIMITADOS A UNIDADES POR PRODUCTO. PROMOCIONES NO ACUMULABLES ENTRE SÏ. Precios rebajados aplicados según precio de etiqueta en redutor seleccionado válido para compra mínima requerida. Disponible mientras duré stocks. Imágenes referenciáles. "
+    },
+    {
+        "headline": "JP PEDRO PABLO KUCZYNSKI:\n\"NUESTRO SUEÑO REPUBLICANO ESTÁ EN PELIGRO\"",
+        "content": "\"Gracias a la ligereza y al oportunismo político de ciertas clases dirigentes.\""
+    },
+    {
+        "headline": "XLIX PRESIDENTE KUCZYNSKI SERÁ OBJETO DE BURLAS POR EXPONENCIAL USO DE \"CONDORITO\"\n",
+        "content": "Durante su discurso, el Presidente menciona repetidamente a \"Condorito\", generando críticas y bromas en redes sociales. Además, algunos usuarios señalan posibles errores históricos relacionados con figuras jurídicas importantes."
+    },
+    {
+        "headline": "*POLÍTICA*\nKENJI FUJIMORI RECIBE LLAMADA ANTES DE SUS DISCURSOS,\nSE ESPERA QUE TRATARA TEMAS IMPORTANTES RELACIONADOS CON INDULTOS POTENCIALES."
+    },
+    {
+        "headline": "**INTRALOT**: ¿Dónde Están los Millones?\n",
+        "content": "Un jugador aún espera cobrar el acumulado récord de 12 millones 200 mil soles de la Loteria Nacional ‘La Tinka’. Según información proporcionada por Judith Ramírez, directora general de Colotecnia, ya han intentado contactar al ganador sin éxito."
+    },
+    {
+        "headline": "XXII MAGIA NAVIDEÑA EN CIUDADES PRINCIPALES\n",
+        "content": "Centros comerciales presentan diversas actividades festivas, incluyendo casas de Papá Noel, fábricas de juguetes y árboles gigantes decorativos, invitando a familias enteras a disfrutar de momentos únicos llenos de diversión y espíritu navideño."
+    },
+    {
+        "headline": "***AUDIO*** MARCEL ODEBRECHT DECLARA CONTRA FIGURAS CLAVE PERUANAS\n",
+        "content": "Testimonios grabados revelan implicancias significativas respecto a corrupción política en altos niveles gubernamentales. Este contenido será traducido y evaluado próximamente."
+    },
+    {
+        "headline": "¡GRAN DESCUENTO!\nCAMBIOS SIGNIFICATIVOS EN COSTOS DE ARTÍCULO SELECTO\n",
+        "content": "Promociones disponibles sólo por tiempo limitado, destacándose grandes ahorros en televisores Samsung Ultra HD junto con bonificaciones extras en consolas Play Station®, válidas hasta agotar existencias."
+    }
+]
+```
+
+This JSON contains extracted headlines and contents based on your provided input while adhering strictly to the defined rules for inclusion/exclusion criteria. Note any missing data has been filled with `"NA"` where applicable.
+
+--- ERROR ENTRY: trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "Exceso en estas festivas fechas",
+        "content": "Estamos cerca de celebrar las fiestas navideñas y de año nuevo, y aunque todos queremos pasarlo bien, debemos tener presente algunos detalles importantes.\nParecen pequeños cambios, sin embargo tienen gran impacto en nuestro cuerpo y mente. Es importante recordar que somos responsables de nuestras acciones y decisiones, especialmente ahora que llegó diciembre, época propicia para compartir momentos especiales junto a nuestros amigos y familias. Sin embargo, también podemos aprovechar esta oportunidad para reflexionar sobre cómo hemos vivido el último año y qué cosas podríamos mejorar en nosotros mismos. \n\nPara evitar problemas relacionados con el aumento de peso debido a las comilonas típicas de estas fechas, aquí tienes cinco claves:\n• Controla tus alimentos con estos consejos: come frutas frescas, evita las comidas copiosas en la cena, practica algún tipo de ejercicio físico diario, limita el consumo de alcohol y mantén hábitos alimenticios sanos.\n• Haz ejercicios aeróbicos regularmente: esto ayudará a quemar calorías extras y mantener activo tu metabolismo.\n• Mantén hidratado tu cuerpo: bebe suficiente líquido durante el día, preferiblemente agua natural o infusiones light.\n• Limita el tiempo frente a pantallas electrónicas: dedícate a actividades recreativas fuera de casa, interactúa con personas cercanas y realiza deportes al aire libre.\n• Descansa adecuadamente: duérmete mínimo 7 horas todas las noches para recuperarte después de largas jornadas laborales o sociales.\nRecuerda que además de preocuparte por ti mismo, deberás considerar también a quienes están a tu alrededor. Así lograrás crear ambientes positivos y divertidos mientras proteges tanto tu propia integridad emocional como la de otros."
+    },
+    {
+        "headline": "Registra Tus Comprobantes",
+        "content": "Participa por uno de los 14 paquetes dobles para el Mundial de Rusia 2018 registrándote en micomprobante.pe hasta el 4 de abril."
+    },
+    {
+        "headline": "Conoce la receta de hoy: Mousse de Maracuyá",
+        "content": "Ingredientes:\n- Pulpa de maracuyá\n- Leche condensada\n- Crema de leche\nPreparación:\nColar la pulpa de maracuyá y separar el jugo. Reserva ambos componentes. En otro recipiente, combinar la leche condensada con parte de la pulpa de maracuyá hasta obtener una consistencia homogénea. Incorpora gradualmente la crema de leche batida previamente montada. Sirve en vasitos individuales adornados con rodajas de fresa."
+    },
+    {
+        "headline": "Feliz Navidad y Venturoso Año Nuevo",
+        "content": "Te deseamos una hermosa temporada decembrina rodeada de paz, tranquilidad y muchísimo amor. Disfruta de la compañía familiar y celebra con alegría estas entrañables ocasiones. ¡Que tengas un excelente Fin de Semana!"
+    },
+    {
+        "headline": "Melissa Klug deja entrever relación con Valeria Roggero",
+        "content": "\"Hay rumores de que Valeria Roggero podría haber buscado atención mediática ingresando a un reality show. Yo simplemente busqué distanciarme de cualquier conflicto innecesario respecto a Jefferson Farfán.\" Melissa explicó que nunca había visto motivos para involucrarse directamente con Valeria, sugiriendo que tal interés pudiera provenir únicamente de intentos externos de generar controversia."
+    },
+    {
+        "headline": "Luigi Carballo planea incursionar en el teatro",
+        "content": "\"Después de culminar mi ciclo en los realities de baile, decidí centrarme en nuevas aventuras creativas. Este próximo año será especial, ya que trabajaré junto a Efraín Aguilar interpretando un papel único en la producción ‘Una pulga en la oreja’. Mi objetivo principal sigue siendo explorar distintas facetas dentro del ámbito actoral.”"
+    },
+    {
+        "headline": "Belén Estévez se centra en música",
+        "content": "\"Tras retirarme temporalmente de competencias de danzas, vuelvo renovada hacia mis sueños musicales. Actualmente estoy trabajando intensivamente en mi debut discográfico, esperando poder ofrecer pronto canciones originales a mis fans.”
+    },
+    {
+        "headline": "Judith Bustos presenta su libro",
+        "content": "\"Mi nueva publicación ofrece una mirada íntima a mi trayectoria personal y profesional. Además, continuaré expandiendo mi carrera musical internacionalmente, realizando giras por México, Chile, Francia y varios países europeos. Quiero mostrar a través de mi experiencia que superar adversidades forma parte integral de alcanzar grandes éxitos.”
+    },
+    {
+        "headline": "Jackie Cambria comparte perspectiva sobre relaciones",
+        "content": "\"Ser independiente económicamente es fundamental para mí. He aprendido a valorar aquellas conexiones genuinas basadas en el mutuo aprecio y entendimiento, más allá de circunstancias materiales. Considero vital reconocer y cultivar esos vínculos auténticos que realmente importan en la vida.”
+    }
+]
+```

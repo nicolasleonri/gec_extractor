@@ -1,0 +1,66 @@
+
+
+--- ERROR ENTRY: peru21_18.txt ---
+
+```json
+[
+    {
+        "headline": "Evalúan abrir cine. La Municipalidad de Chosica cerrará plantas",
+        "content": "Análisis de la situación actual donde la municipalidad planea acciones legales debido a irregularidades."
+    },
+    {
+        "headline": "Universidades de ‘Medio Pelón’ en el Perú",
+        "content": "\"El titular de la Asamblea Nacional de Rectores, Orlando Velásquez, instó al Presidente Ollanta Humala a identificar instituciones educativas fraudulentas.\" Ayuda a entender cómo ciertas universidades afectan negativamente a estudiantes mediante prácticas engañosas."
+    },
+    {
+        "headline": "Justicia quiere que Fiscal de la Nación explique selección de perito",
+        "content": "Detalles sobre la solicitud del Vicepresidente Heriberto Benítez para que el Fiscal José Pérez aclare el procedimiento utilizado para nombrar a un perito en investigaciones relacionadas con Alan García."
+    },
+    {
+        "headline": "Compra inteligente: Cuotas sin interés de Diners Club",
+        "content": "Promoción destacada permitiendo compras financieras flexibles gracias a planes de cuota sin intereses proporcionados por Diners Club."
+    },
+    {
+        "headline": "Candidaturas serán votadas conforme logré consenso",
+        "content": "Información sobre el proceso electoral dentro del Parlamento peruano, incluidas decisiones clave sobre nominaciones para cargos importantes basándose en consensos políticos."
+    },
+    {
+        "headline": "Sin Distinción: Elecciones para Tribunal Constitucional y Defensoría del Pueblo",
+        "content": "Descripción del proceso legislativo destinado a llenar varias vacancias judiciales significativas, enfocado en evitar demoras innecesarias."
+    },
+    {
+        "headline": “Turismo global: Cambios históricos y modernización”
+        ,
+        "content": "Exploración académica sobre transformaciones globales en comportamientos migratorios y turísticos, analizando factores socio-económicos y tecnológicos influyentes."
+    },
+    {
+        "headline": "Innovadoras opciones de créditos en soles",
+        "content": "Discusiones centradas en alternativas económicas accesibles para consumidores locales, particularmente en contextos de fluctuaciones monetarias internacionales."
+    },
+    {
+        "headline": "Colocación récord de vehículos nuevos en el año",
+        "content": "Informe sobre el aumento notable en ventas de automóviles durante el periodo mencionado, atribuido principalmente a cambios macroeconómicos positivos."
+    },
+    {
+        "headline": "Preocupación regional por niveles de desempleo",
+        "content": "Datos relevantes compartidos por la OIT indican bajos índices de desempleo contrastados con alta informalidad laboral, sugiriendo necesidades urgentes de reforma estructural."
+    },
+    {
+        "headline": "Normativa controvertida sobre pesquerías industriales",
+        "content": "Controversia política derivada de regulaciones gubernamentales recién implementadas que limitan actividades pesqueras específicas, provocando debates sectoriales intensificados."
+    },
+    {
+        "headline": "Humala respalda decreto ambiental tras protestas",
+        "content": "Presidente asegura priorizar protección ambiental frente a demandas corporativas, marcando un hito importante en políticas energéticas nacionales."
+    },
+    {
+        "headline": "Alerta internacional: Estrategia de Seguridad de Japón cambia",
+        "content": "Cambios tácticos impulsados por tensiones geopolíticas emergentes, especialmente aquellas asociadas con reclamaciones territoriales conflictivas con China."
+    },
+    {
+        "headline": "Investigación brasilera sobre espionaje de EE.UU.",
+        "content": "Oferta de Edward Snowden para colaborar en investigación de espionaje realizado por servicios de inteligencia estadounidenses en Brasil, potencialmente buscando asilo."
+    }
+]
+```
+This structured extraction captures key headlines along with their corresponding contents based on significant topics identified within the provided document excerpt. It adheres strictly to the guidelines for extracting substantial journalistic material while excluding non-relevant sections like ads or repetitive elements.

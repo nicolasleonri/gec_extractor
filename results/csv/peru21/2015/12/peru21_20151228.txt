@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "RIESGO DE TOMAR WHISKY EN NAVIDAD",
+        "content": "Jaime Bayly\nRiesgos de\ntomar whisky\nen Navidad\nPG. 13"
+    },
+    {
+        "headline": "EVÓ MORALESA QUIERE QUEDARSE HASTA EL 2025",
+        "content": "\"POR EL BIEN DE\nBOLOGÍA\", DICE\nEVO MORELAS\nQUIERE\nQUEDARSE\nHASTA EL 2025\nPG. 12"
+    },
+    {
+        "headline": "DIRECTOR EDITORIAL CRITICA INTERVENCIÓN MILITAR",
+        "content": "Del Director\nJuan José Garrido\ndirector@peru21.com\nTambié\n\"Irresponsable\"\?\nGeneral del Ejército,\nLuis Ramos Huerta, no \npasan desapercibidas.\n\"El Ejército del Perú tiene\nun papel fundamental en la lucha contra la\nigualdad\", sostuvo, ante la mirada perdida de unos, y la mueca de otros. Y para que no quedaran dudas del instinto populista (y la intervención gubernamental), a renglón siguiente sostuvo que apoyarían \"la política de inclusión social\", mezclando temas como Becas 18 y el Fenómeno de El Niño. Todo esto, para mayores pautas, aplaudido por el Presidente Humala y el Ministro de Defensa. Esta súbita intervención del Ejército en las líneas populistas del Gobierno no es un cabo suelto, como tampoco es casualidad que el hermano del Comandante General sea el Presidente del Comité Electoral del Partido Nacionalista. Y también no es un cabo suelto que, de repente, el Gobierno se despabilé y empiece un festival de gasto público y pauta publicitaria. ¿Qué dice a esto el Mandatario?"
+    },
+    {
+        "headline": "VICENTE ZEBALLOS DENUNCIA PRENSIÓN POLÍTICA EN ECOTEVA",
+        "content": "Ex Titular de Comisión de Fiscalización Alerta de Posible Presión Política\nCritican Dilación en el Caso Ecoteva\nVicente Zeballos\nConsidere que demora en el proceso se tratara de un favor político al Candidato. Critican la lentitud en el avance del caso de corrupción relacionado con el ex-presidente Alejandro Toledo, sugiriendo influencias externas. "
+    },
+    {
+        "headline": "PODER JUDICIAL RESUELVE SU DESTINO LEGAL",
+        "content": "PODER JUDICIAL DE LA LIBERTAD DECIDE ESTE 6 DE ENERO SI VA A JUICIO ORAL POR INDUCCIÓN AL VOTO\nVideo de ‘plata como cancha’ podría hundir a César Acuña. El poder judicial evalúa si procede llevar a juicio al candidato presidencial César Acuña por supuesta manipulación electoral evidenciada en grabaciones comprometedoras."
+    },
+    {
+        "headline": "DENUNCIA CONTRA CESAR ACAÑA POR SUPUESTA CORRUPTIBILIDAD",
+        "content": "HILO DE LA MADEJA. Compras inmobiliarias de la madre de Eliane Karp destapan el caso en 2013. Denuncia. H: Malafide Interviniendo en la Campaña Electoral. Mauricio Mulder critica la participación indebida en actividades electorales."
+    },
+    {
+        "headline": "MINISTRA CHILENO AFIRMA DOMINIO SOBERANO SOBRE LA YARADA",
+        "content": "EN LA MIRA. El Ministerio Público ha solicitado tres años de cárcel para el candidato presidencial. MINISTERIO DE RELACIONES INTERNACIONALES RESPONDE A DECLARACIÓN CHILENA SOBRE DISPUTADO TERITORIO. Reacción fronteriza coincidental después de declaración del ministro chileno José Antonio Méndez."
+    },
+    {
+        "headline": "OFRECEN REGULACIÓN MEJORADA PARA OBRA SOCIAL MEDIANTE IMPUESTOS",
+        "content": "Regulan Obra Social Mediante Impuestos\nLas nuevas directrices permiten mejorar la eficiencia administrativa y facilitar la implementación de infraestructura pública mediante colaboración empresarial."
+    },
+    {
+        "headline": "INVIERTE MILLONES EN INFRAESTRUCTURA EDUCATIVA",
+        "content": "ERRADICACIÓN MASIVA DE COCALERA PROMUEVE DESARROLLO REGIONAL\nAlberto Otálora señala logros significativos en sustitución agrícola alternativa, destacándose entrega masiva de tierras tituladas a antiguos cultivadores de hojas de coca."
+    }
+]
+```
+
+This JSON contains extracted headlines and contents based on your provided input while adhering strictly to the defined rules for inclusion/exclusion criteria. Note any missing data has been filled with `"NA"` where applicable.

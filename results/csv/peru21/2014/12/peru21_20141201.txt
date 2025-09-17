@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: peru21_01.txt ---
+
+```json
+[
+    {
+        "headline": "Dimensi\u00f3n ms humana",
+        "content": "de escritor y subo al taxi blanco y el conductor\nes amable y me lleva al hotel. No regreso al hotel\ndonde viv dos aos, me voy a otro cerca-no,\nen el mismo barrio. Al llegar, me advierten de que en\nlas noches la \ntemperatura baja bast-an-ta mente, a tres\no cuatro gra-dos, y llueve og-ra-niza, que me-abrigue\nbien. Son ami-gables, \nqueen fran-cs, lo que \nficultami-com-pren-sin.\nLos camare-rosmedic-en \nmonsie-u-rBayly.s."
+    },
+    {
+        "headline": "Ur-rest-i... ",
+        "content": "\n-- Segn el ltimo son-do de GFK, lo\nde Urr-es-ti ya es un feno-meno po-liti-co a tener en cuenta. No solo supera\nam-pli-a-men-te (48%) en apro-bacio-n\na sus \"jefes\" (Ol-la-nta 24%, Na-di-ne\n28%\ny la pri-me-r Je-ra 35%), sino que el 6 1 % cree que \"s est lu-chando por la segu-ri-da-ci dadiana.",  
+    },
+    {
+        "headline": "Ciudad",
+        "content": "Pron-sti-co\nen Li-ma Metropol-itana TEMP-E-RATA-TU RA(M-inima/Maxima)\nRADI-A-CION UV Hoy Ma-na na 18/ 23o 17o% 23o 3UV(moderada)"
+    },
+    {
+        "headline": "Caniel Ur-resti no se referi al Grupo Ter-na",
+        "content": "\"Dis-tritus y re-gio-nes care-ce-de-policias\"\nLos dis-tritus de Lima y ne-s del pa-s cuen-tan con \npuo-os efec-tivi-vos po-li-ciales para\nrese-gruar la se-gun-ra-dad en sus secto-res, afirm min-is-tra-del Intei-or, Ca-nil Ur-resti."
+    },
+    {
+        "headline": "Sig ue grave",
+        "content": "Na-die se\npre-o-cu-pa-po-r es-col-ar Ni la Mu-nicipa-li-dad de Lim-a ni la de Co-mas han mos-trado el me-ner inte-rs por la sa-lud del meno-r CC.C., de 11 aos,"
+    },
+    {
+        "headline": "Sicai-ios en mo-to asesi-nan a jo-ven a ba-lazo-s",
+        "content": "BARRA-NCA Dos ba-lazos en el pecho y\nun en-el-crne-o a-ca-bar-on con la vi-da deJe-ferr-so Val-le-joo Cu-bii-il-as (20), qui-e-n fu-e asi-e-si-na-do cu-ando beb li-cor en el barrio de At-us-par.a. Los dis-paros fueron realiza-dos por dos sujetos que lle-garon al lu-gar en una mo-to, a la 2:00 a.m. de ayer. La \%li-ci-acincre-e-q.u.trata de un ajuste de uen-tas."   
+    }    
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies. Non-article sections such as ads, schedules, etc., have been excluded according to specified criteria.
