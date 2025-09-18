@@ -1,0 +1,24 @@
+
+
+--- ERROR ENTRY: gestion_20.txt ---
+
+```json
+[
+    {
+        "headline": "Alcalde y gobernadores vinculados con compra de tierras para blanqueo de capitales",
+        "content": "\"Investigación de Rosa María recomienda que Contraloría siga el patrimonio de candidatos y autoridades electas.\nPolicías identifican motivos detrás de intervención del narcotráfico en política local."
+    },
+    {
+        "headline": "Premier: Inseguridad no es extremadamente grave comparada con Centro América",
+        "content": "\"Pedro Cateriano señala avances en políticas policíacas durante gestión anterior. Afirma que aún queda mucho camino por recorrer.\""
+    },
+    {
+        "headline": "Propuesta electoral incluye uso de rondas campesinas en seguridad ciudadana",
+        "content": "\"Carlos Acuña destaca experiencia rural de grupos civiles para integrar sistemas urbanos de vigilancia. Descarta armamento directo para dichas organizaciones.\""
+    },
+    {
+        "headline": "Macri anticipa eliminación gradual de controles cambiarios tras victoria electoral",
+        "content": "\"Presidente de Cambiemos insiste en reformas económicas graduales. Evita nombramientos específicos hasta confirmación oficial.\""
+}
+```
+This JSON captures four distinct articles extracted from the provided input, adhering strictly to the specified format requirements for headlines and contents while excluding non-journalistic elements like ads and metadata.

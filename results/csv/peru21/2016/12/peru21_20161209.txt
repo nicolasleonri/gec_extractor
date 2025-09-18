@@ -1,0 +1,35 @@
+
+
+--- ERROR ENTRY: peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "OBRA TEATRAL\nALMACENADOS,\na ciudad comedia\ndel dramaturgo español\nDavid Desolla, dirigida\npor Marco Müller,\nvá hasta este lunes.\nCCPUCP (Av. Camino Real\n1075, San Isidro). 8 p.m.",
+        "content": "Los últimos días de almacenados."
+    },
+    {
+        "headline": "RELÍQUIAS CHINAS\nAL MUSEO NACIONAL\nHasta este domingo va\nla interesante \nexposición de reliquias chinas\nen el Museo Nacional de\nArqueología, Antropología e Historia del Perú\n(Plaza Bolívar s/n, Pueblo Libre).\nNo falté."
+    },
+    {
+        "headline": "SABOR Y CONTROL\nEN LA VICTORIA\nLa Orquesta de salsa dura Sabor y Control presenta su octavo disco en concierto gratuito y al aire libre, entre las cuadras 2 y 3 de la Av. Parínacojas, La Victoria, este domingo. 3 p.m."
+    },
+    {
+        "headline": "\"YO TENGO CLARO QUE SIEMPRE ACABA POR DIRIGIR LAS PELELCULAS QUE NADIE QUIERE HACER\".\nMel Gibson",
+        "content": ""
+    },
+    {
+        "headline": "EL HIJO DE MIKE JAGGER Y MELENIE HAMRICK HA NACIDO EN NUEVA YORK Y AMBOS SE ENCONTRAN MUY FELICES CON LA NOVEDAD (...)",
+        "content": "Mike estaba en el hospital cuando ocurrió el nacimiento y ambos solicitan que los medios respeten su privacidad.",  
+    },
+    {
+        "headline": "BERNARD SUMNER, VOZ DE NEW ORDER, CON SUS FANS EN LIMA.",
+        "content": "A LOS 73 AÑOS EL JEFE DE LOS ROLLING STONES ES PADRE DE UN NIÑO FRUTO DE SU RELACIÓN CON UNA BAILARINA DE 29 AÑOS."   
+    },    
+    {        
+        "headline": "SOFA VERGARA RECIBE DEMANDA DE GALDÁS POR EMBRIONES.",
+        "content": "Bernard Sumner, voz de New Order, está acompañado por sus seguidores mientras enfrenta críticas sobre su papel paterno."
+    }     
+]
+```
+This extraction includes headlines where available along with their corresponding contents based on the provided input data while adhering strictly to the defined rules for inclusion/exclusion and cleanup processes. Note any missing information has been marked appropriately according to guidelines.

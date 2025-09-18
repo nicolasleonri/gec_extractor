@@ -1,0 +1,34 @@
+
+
+--- ERROR ENTRY: correo_19.txt ---
+
+```json
+[
+    {
+        "headline": "Regreso Gareca tiene previsto su vuelo retorno para el 17 de enero en horas de la madrugada.",  
+        "content": "Hoy en dia, uno pensaria que... Estoy feliz porque... Hoy en dia, uno pensaria que..."   
+    },    
+    {     
+       "headline":"Contenido","content":"\n\n\t   \n     \"\".\n      "
+    ,\n          \n         \n             \n                \n              \n               \n           \n                 \n                    \n                  \n                   \n                     \n                        \n                      NA\n```
+{
+    "headline": "El contenido textual":
+    """
+    Un ejemplo de texto limpio:
+
+    ```
+    """
+
+**HEADLINE**
+
+Este artículo trata sobre...
+
+### Contenido Principal
+
+Aquí está el detalle completo...
+"""
+}
+]
+```
+
+This example demonstrates how to format extracted data according to specified guidelines for extracting information from newspapers using Python's `OCR` technology. It includes cleaning up any obvious typographical issues while preserving essential details like headlines and contents within each entry. This ensures clarity and accuracy across different sections such as opinions, editorials, sports updates, and more. Remember always follow these steps strictly to ensure consistency and reliability in outputs!

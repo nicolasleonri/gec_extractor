@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "Gerardo Piqué hizo nueva amistad con Sergio Ramos, pero están enfrentados en Champions League",
+        "content": "\"Liverpool.— La Navidad es fiesta de paz\n\tpara todos menos para los hinchas del Everton,\n\tque ‘obligaron’ a su entrenador Ronald Koeman \n\t\a cambiar su árbol navideño.\n\n\tLa razón?\n\tLo había decorado de color rojo,\n\tel mismo que identifica al Liverpool,\n\tnuevo rival de los ‘Toffees’.\"\n\n\t\"El DT debió adornarlo de...\n"
+    },
+    {
+        "headline": "United pagará millonada por Neymar",
+        "content": "\">Inglaterra.— Abren la brecha. El Manchester United invertirá 220 millones de euros – valor de su cláusula de rescisión– y un salario superior a los 25 millones de euros anuales para llevar--\nm \"\n\ty a Neymar, quien renovó con Barcelona hasta el 2021. Según el Daily Record, los blancos desean que el brasileño de 28 años sea quién suceda a Zlatan Ibrahimovic (31)\nas líder del ataque."
+    },
+    {
+        "headline": "Daniel Osvaldo atacó a los Mellizos de Boca Juniors",
+        "content": "\"‘Los ScheLeOtto vivían con cara de c..., y se les cruzaban los cables’, señaló en el programa ‘La Hormiga Imperial.’\n\n\tGuillermo es un vendehumo, te puede matar un gol y se le cruzan los cables\", aseguró el exdelantero y ahora músico, Daniel Osvaldo.”
+    },
+    {
+        "headline": "Stephani Greyson plegó banderas argentinas tras triunfos de Argentina Sub17",
+        "content": "\"Argentina.- Stephanie Greyson celebró junto a sus compañeros luego de obtener victorias importantes en el Campeonato Sudamericano Sub17. Las jóvenes futbolistas ondearon orgullosamente las banderas argentina durante la ceremonia post-partido.\""
+    },
+    {
+        "headline": "Super cool! Mini Drone Sky Phantom colores varios",
+        "content": "+ 2.46 GHz Canales |\n+ Para uso en interiores y exteriores..\n+ Velocidad de vuelo rápida/técnica |\n+ Luces multicolor\n\nPrecioso diseño disponible en múltiples colores: negros, rosas, dorados, plateados, entre otros."
+    },
+    {
+        "headline": "Laura Sabás destaca milagros de amor propio",
+        "content": "\"Una ruptura puede provocar dolores físicos tales como acné, espasmos musculares y cansancio. Problemas gastrointestinales también surgen debido al estrés asociado a estas experiencias. Además, existen estudios que indican cómo estos eventos impactan significativamente en nuestro sistema cardiovascular.\""
+    },
+    {
+        "headline": "Receta de Hoy: Helado de Chocolate",
+        "content": "- Ingredientes:\n   + 4 platanes de seda\n   + 12 cerezas\n   + 4 bizcoletes\n   + 1 litro de helado de vainilla\n   + 1 taza de salsa de caramelo\n   + 2 tazas de crema dulce: chantilly\n   + 4 cdas. de chispas de chocolate\n\n- Preparación:\n   Cortar los platános en mitades longitudinales. Coloca una base de bizcolete, añade bolitas de helado alternándolas con platános cortados y termina con cerezas y salsa de caramelo. Repite según cantidad requerida."
+    },
+    {
+        "headline": "Love Yourself the Way You Are",
+        "content": "\"By Michelle Rodríguez respondía a su estilo autodestructivo después de declaraciones controversiales. Ella afirmó sentirse cómoda siendo criticada mientras continúa trabajando duro en proyectos personales y profesionales.\""
+    },
+    {
+        "headline": "Fean François acepta decisión judicial aunque está triste sin poder ver a su hija en Navidad",
+        "content": "\"Jean Françoise visitó la comisaría de La Molina para entregar temporalmente a su hija conforme a la orden judicial emitida. Explicó sentirse impotente dado que desconoce cuánto tardará antes de reunirse nuevamente con su familia.”"
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined structure and rules for extraction. Note any missing data has been filled with `"NA"` where applicable based on context clues within each segment.

@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista: Contento por final de cuarentena! ",
+        "content": "Estoy feliz porque ..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "El juez Huamani ordenó...",
+        "content": "NA"
+    },
+        {
+            "headline": "",
+            "content": ""
+        }
+    ],
+    {
+        "headline": "El juez Huamani ordenó...",
+        "content": "NA"
+    }    
+]
+```
+This JSON structure captures each distinct article's essential elements while adhering strictly to the provided guidelines for extraction and cleanup. Articles lacking headlines have been assigned `"NA"` where appropriate, ensuring compliance with specified requirements.
+
+--- ERROR ENTRY: peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "En la cabeza en el Callao del Metropolitano",
+        "content": "Habi\u00f1 otro\nFIERRO ASTM 615 GRADO 60_\u2022 CEMENTO servicio\nEE es ef poco \u2013 S/\u00a01as0 os\nZ ;\ng zj ;;:\nTIPOHS \" Si.2190 Un menor de 13 aos mur Alcides Carrin.\nexpreso\nSnasss\nS\nS. 15.00\nS/. a1.04 \ni ir ea\n\u2013 hvrong | S. s68.60 S. 432.00\nS/. 2347\nS/. 30.07\nS/.24.41\nPrecios inclgen IGVA\n(Puesto en fabr\nica)\nT. 012716500 \u2013 C. 998181660 \u2013 998187752\nE: s.suarezgupodmat.com\nCuando estaba reunido con un grupo de amigos en su da ubicada en el Callao, La madre denunci que su hijo fue asesinado y cont que hace dos das unos sujetos,\nnominados como Los Morris, lo haban amenazado de muerte.\nEl hecho ocurri a las 10:30 p.m. del viernes en la cuadra 5 de la avenida Garc\u00eda Calder\u00f3n,en el barrio conocido como Atahualpa. El adolescente, de iniciales YH.M., muri cuando era llevado al hospital Daniel\nSu madre, Isabel Montero, dijo: \"A mi hijo lo mataron. Hace dos das lo amenazaron.El estaba con sus amigos. Ellos lo saben\".\nNo obstante, agentes de la Divincri del Callao señalaron que, de acuerdo a la versin de los testigos, el disparo se bra producido cuando el menor manipulaba una pistola.La Polic\u00eda aguardar los resultados de las pericias practicadas a la victimapor determinar si se trat de un asesinato."
+    },
+    {
+        "headline": "A partir de mañana se pondrá en funcionamiento el nuevo servicio Expreso 9...",
+        "content": "A partir de maana se pondr en funcionamiento el nuevo servicio Expreso 9, que circular desde la estacin UNI, en San Martin de Porres,hasta la estacin Benavides, en Miraflores. El recorrido sera de unos 23 minutos,inform la Municipalidad de Lima.\nSon buses modernos que operarn solamente por las maanas, de 5:30 a.m.a 9:00 a.m.Beneficiar principalmente a estudiantes."
+    },
+    {
+        "headline": "GUERRA CONTRA LOS CRIMINALES",
+        "content": "\neMinisterio del Interior inform que se desarticularon 98 organizaciones delincuenciales.La extorsi\u00f3n y el sicariato son dos de los delitos que \u2013en los ltimos cinco aos\u2013 se extendieron deforma alarmante en nuestro pas, El Ministerio del Interior (Mininter) declara la guerraa los autores de estos crimes y, as, tras 105 megaoperativos realitzadosanel nacional se desarticulan 98 de estas organizaciones delincuenciales.Fueron trabajos de inteligencia en los que se unieron la Polica y la Fiscal,a quienes se les atribuye poner al descubierto a personalidades regionales ypalestinas que actualmente se encuentran en prisi\u00f3n.Uno de estos golpes se dio el 6 de abril con la captura del alcalde de Chilca,Richard Ramos, quien \u2013seg\u00fan el Ministro del Interior, Carlos formaba partede una red dedicada al trafico de tierras y al sicariato en el sur chicode la capital,Sorprendi ver los lujo

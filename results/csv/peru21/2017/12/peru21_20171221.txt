@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: peru21_21.txt ---
+
+```json
+[
+    {
+        "headline": "FIFA LE REBAJA SANCIÓN A...",
+        "content": "Dio a entender que\nsus vicepresidentes\nrenunciarían si el\ncongreso lo vaca hoy."
+    },
+    {
+        "headline": "Universidad ALAS PERUANAS n° 1 Dirección Universitaria de Educación a Distancia",
+        "content": "‘’Quienes están tratando de sembrar dudas se equivocan.\n Mañana (hoy) la Bancada de FP votará unida.’’, José Chlimper Secretario gen. 11 de Fuerza Popular."
+    },
+    {
+        "headline": "El presidente Pedro Pablo Kuczynski se jugó su última carta antes de comparecer hoy ante el Pleno del Congreso para rebatir los argumentos que sustentan el pedido de vacancia por presunta ‘’permanente incapacidad moral’’. ",
+        "content": "A través de un mensaje a la Nación, acompañado por sus vicepresidentes, Martín Vizcarra y Mercedes Aroz, el mandatario calificó el proceso de vacancia como un ’’golpe bajo el disfraz de interpretaciones legales supuestamente legitimas". “La Constitución y la democracia están bajo ataque, pero las intenciones de nuestros opositores quedan desenmascaradas por su comportamiento apresurado y abusivo,” añadió. "
+    },
+    {
+        "headline": "Acción de Amparo",
+        "content": "Por otro lado, en simultáneo a esta defensa ante el foro legislativo, PPK ha desplegado una serie de acciones judiciales mediante más de una decena de acciones de amparo para intentar frenar el pedido de vacancia. Entre otras cosas, en una acción interpuesta ante el Juzgado Especializado en Derecho Constitucional de Lima, el Presidente pide dejar sin efecto la admisión a debate de la moción y denuncia la afectación a su derecho constitucional al debido proceso parlamentario."
+    },
+    {
+        "headline": "OPINIÓNEl Tema de Hoy",
+        "content": "“Después de la tormenta… En 2016, los peruanos eligieron a Pedro Pablo Kuczynski como presidente de la República para que gobernara el país por un periodo de cinco años. Este, sin embargo, podría reducirse drásticamente si hoy el Congreso decide removerlo por ‘’incapacidad moral permanente’'. ¿Justifica algo así tan severa medida?"
+    },
+    {
+        "headline": "Encuesta",
+        "content": "¿Creé que el presidente Kuczynski saldr airosos después de su presentación oral mañana frente al Congreso?"
+    },
+    {
+        "headline": "Política",
+        "content": "Comisionada Lava Jato pidió información adicional a Odebrecht respecto a Kuczynski. García Belaúnde menciona que la información proporcionada será útil para profundizar en las investigaciones. Una comitiva de Odebrecht accedió a entregar la documentación solicitada por la comisión Lava Jato según reportes internos."
+    },
+    {
+        "headline": "Emprendedor Investigado por Caso Odebrecht",
+        "content": "Gustavo Salazar presenta excepción legal para archivar investigación por lavado de activos asociada al caso Odebrechet. Su abogado afirma que los hechos atribuidos no configuran delito alguno."
+    },
+    {
+        "headline": "Telemundo Noticias",
+        "content": "Keiko Fujimori solicita acceso a expediente sobre diligencias previas dado cambio de defensoría jurídica. Fiscalía asegura que está siendo transparente con la entrega de evidencias recolectadas."
+    }
+]
+```
+This JSON structure captures each identified article's headlines and contents based on their significance within the provided OCR text while adhering strictly to the specified format requirements. Articles were segmented according to changes in topics and context cues such as headings and thematic shifts. Unrelated sections like ads have been excluded.

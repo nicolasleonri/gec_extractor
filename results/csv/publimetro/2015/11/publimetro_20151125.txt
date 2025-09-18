@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: publimetro_25.txt ---
+
+```json
+[
+    {
+        "headline": "Obama y Hollande: \"El EI debe ser destruido\"",
+        "content": "El presidente de Estados Unidos, Barack Obama, y el presidente francés, François Hollande, se comprometieron ayer en Washington a intensificar su cooperación con el objetivo de destruir al Estado Islámico (EI), once días después de los atentados terroristas en París, en los que murieron 129 personas.\n\n\"El Estado Islámico y su ideología –asesina– suponen una seria amenaza para todos nosotros. No pueden ser tolerados. Debemos enfrentarlo. Y debemos hacerlo juntos\", dijo Obama."
+    },
+    {
+        "headline": "ONU espera que el VIH esté bajo control para el 2030",
+        "content": "Cifra de contagios se ha reducido un 35%. Actualmente, 15,8 millones de personas reciben un tratamiento antirretroviral.\n\nLa batalla contra la epidemia del virus de la inmunodeficiencia humana (VIH) se lleva a cabo desde hace más de 30 años. Y si bien no se ha encontrado una cura, los datos más recientes de la ONU aumentan la esperanza de poder llegar a tener al virus bajo control en el 2030.\n\nSegún el organismo, nunca antes los infectados con VIH tuvieron tantas herramientas para acceder a una terapia que puede prolongar su vida y reducir los riesgos de transmisión. Unos dos millones de personas se infectaron el 2014, con lo que la cifra de nuevos contagios se redujo un 35% desde 2000."
+    },
+    {
+        "headline": "Podrían ir a la cárcel. Se inicia juicio por filtraciones",
+        "content": "El Vaticano comenz ayer un juicio contra cinco personas acusadas de tramar documentos financieros sobre la malversación de fondos y despilfarro de la Iglesia Católica.\n\nLos periodistas italianos Gianluigi Nuzzi y Emiliano Fittipaldi están acusados de publicar los documentos filtrados por el sacerdote Lucio Vallejo Balda, la integrante de la comisión investigadora de los organismos administrativos de la Santa Sede, Francesca Chaouqui, y su ayudante italiano Nicola Maio. Podrían enfrentar hasta 8 años de prisión."
+    },
+    {
+        "headline": "COMITÉ DE ÉTICA PEDIRÁ QUE PLATINI SEA EXPULSADO DE POR VIDA",
+        "content": "La máxima instancia del Comité Ejecutivo del FIFA determinará mañana tras analizar el informe elaborado por Michael Garcia respecto a presuntas irregularidades cometidas durante el proceso electoral que dio origen a Joseph Blatter como Presidente de la entidad mundial."
+    },
+    {
+        "headline": "BARCELONA CASTIGO Y AVANZÓ A LOS OCTAVOS DE FINAL",
+        "content": "El argentino Lionel Messi anot dos goles al actual campeón Atlético Madrid, completaron la goleada Piqué y Adriano. Barcelona logró clasificarse a octavos de la UEFA Champions League."
+    },
+    {
+        "headline": "\"ME SENTÍ MUY CONTENTO DE HABER PODIDO JUGAR SOLO MINUTOS\"",
+        "content": "“Disfrute viendo al equipo en los últimos partidos, pero siempre es mejor estar dentro.”
+    },
+    {
+        "headline": "CORINTHIANS NO EXTRAÑA A GUERRERO",
+        "content": "El presidente del Corinthians, Roberto de Andrada, comentó que no renovar a Paolo Guerrero fue crucial económicamente. “Seríamos también líderes, pero estaríamos quebrados.”"
+    },
+    {
+        "headline": "SPRINGFIELD REVELA SUS PLANES PARA EL PRIMER SEMESTRE DEL CURSO ESCOLAR",
+        "content": "Springfield anunció nuevas iniciativas académicas enfocándose en mejorar la infraestructura escolar y programas extracurriculares destinados a fortalecer habilidades blandas en estudiantes."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected where there was substantial journalistic value evident within the given input data. Other sections like ads, sports scores not forming complete narratives, etc., have been excluded according to specified criteria.

@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "Revelación financiera impacta a expresidente peruano",
+        "content": "\"Es imposible que lo haya obtenido de manera legal\", expresó el vocero del bloque Acción Popular.\n\nRecientemente, este diario informó que según fuentes del Ministerio Público, el desbalance de la ex primera dama ascendía a $5’077,543.00, mientras que el del ex presidente Ollanta Humala totalizaba los $5’264,814.50.\n\nAl respecto, García Belaunde expresó que con esta información se complica la situación de la ex pareja presidencial, que actualmente cumple una orden de prisión preventiva.\n\n\"Imposible que hubieran logrado a esos montos ahorrando, teniendo en cuenta que él tenía un sueldo como militar y luego como agregado. Podría ser de Venezuela o de las empresas brasileras, pero eso se revisará\", sostuvo."
+    },
+    {
+        "headline": "Renuncia a la Comisión Ética genera debate político",
+        "content": "Tras la renuncia de Yonhy Lescano a la Comisión de Ética del Congreso, el vocero de Acción Popular, Víctor García Belaunde, manifestó que su bancada respalda la decisión de su legislador. Esta acción sigue después de que en dicho grupo no se aprobase iniciar un procedimiento de investigación contra los legisladores de Fuerza Popular implicados en el allanamiento realizado por la Fiscalía."
+    },
+    {
+        "headline": "Apoyo bipartidista ante intento de amedrantar instituciones",
+        "content": "Los bloques legislativos de Alianza Por el Progreso (APP), Frente Amplio (FA) y Nacionalista Peruano (NP) denuncian acciones del fujimorismo destinadas a intimidar a diversas instituciones. Legisladores critican decisiones arbitrarías adoptadas por la Subcomisión de Acusaciones Constitucionales relacionadas con jueces del Tribunal Constitucional."
+    },
+    {
+        "headline": \"Opinión: Izquierda y Kuczyski\",
+        "content": "\"Al escuchar el breve pero firme mensaje de PPK, reconozco que su decisión de confrontar ciertos comportamientos cuestionables representa un gesto digno de liderazgo. Sin embargo, algunas tácticas parecen insuficientes para consolidar confianza.\" \n\n\"Durante la última contienda política, muchos recordaremos cómo la estrategia inicial favoreció evitar cualquier asociación directa con candidaturas percibidas negativamente. Ahora bien, ¿qué significa realmente avanzar más allá de simples posturas retóricas?"
+    },
+    {
+        "headline": "Perspectivas económicas en medio de tensiones políticas",
+        "content": "El presidente del Banco Central de Reserva del Perú alertó sobre potenciales repercusiones económicas derivadas de conflictos políticos. Destaca que convocatorias prematuras a elecciones podrían generar incertidumbre significativa entre inversionistas, contrastándolo con un posible manejo temporal de crisis mediante transiciones constitucionales adecuadamente gestionadas."
+    },
+    {
+        "headline": "Protestas continúan en Medio Oriente",
+        "content": "Movimientos islámicos demandan retractación oficial de Estados Unidos respecto a cambios diplomáticos vinculados a Jerusalén. Los disturbios persisten, exacerbados por declaraciones gubernamentales externas, resultando en múltiples víctimas mortales y heridos en zonas de alta tensión."
+    }
+]
+```
+This JSON captures key articles extracted based on their relevance and completeness according to specified criteria. It includes headlines where available and merges fragmented texts for coherent narratives while excluding non-journalistic elements like ads and unrelated sections.

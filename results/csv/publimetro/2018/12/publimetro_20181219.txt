@@ -73,3 +73,31 @@
     }
 ]
 ```
+
+--- ERROR ENTRY: publimetro_19.txt ---
+
+```json
+[
+    {
+        "headline": "EL AO EN QUE ARGENTINA SE TI\nDE VERDE CON LA MAAREA FEMINISTA",
+        "content": "El 2018 marc un \nan tes y un despus\nen la lucha contra la\ntolerancia a la mujer,\nel abuso machista y\nla bsqueda del\naborto libre.\nEl movimiento feminista\nargentino tuvo un nuevo\nimpulso el 2018 con la \ndiscusin de la legalizacin\ndel aborto libre en el \nCongreso y el Senado en junio\ny agosto, respectivamente.\nA ello, tambin, sum\nla campaa #YoTambi,n,a ra z de la denuncia de la\nactor de la telesserie infantil\nPatito Feo (2007), Thelma\nFard,in, que acus al actor\njuan Darth,s de haberla\nviolado cuando ella era\n menor de edad.\nFRANCISCA HERRE RA\nPublimetro Chile\nActualmente, – vivimos\nla denominada cuarta ola\nfeminista, un movimiento\nmundial que tiene comoo\nfoco central la \npuesta de la llamada \nviolencia contra la mujer.”\nUn episodio que se une a\nsiglos de lucha social por\nla igualdad de gnero.\n\"En Latinoamrica, las\nargentinas son las que armaron el movimiento Ni\nUna Menos el 2015. Eso\nprendi la chispa del \nmovimiento feminista en la regin\", \nexpla na MARA GU TERRIEZ,\nacadmica de la Facultad\nde Gobierno de la \nUniversidad Central de Chile.\nDesde ah, la mare femini sta en ese pas ha\n evolu,cionado. Si bien la\nsociedad argentina está dividida,\"el apoyo ha ido\nen aument,o.\"Ademas,”ya\nno es slo una mujer blanca dentro de esta lgica de\n construccin – feminista,\nsino que son mujeres diversas:\nmigrantes,pobres,\ncon o sin estudios.”
+    },
+    {
+        "headline": "TRUMP ACEPTA CERRAR SU\nQUESTIONADA FUNDA CIÓN",
+        "content": "Acusada por la Fiscal General de Nueva York de seguir un \"patrn de ilegalidad persistente\", Donald Trump anunció ayer el cierre de su Fundación de caridad, la Trump Foundation, acusada -- de -- \"persistent conduct behavior\" con el fin de obtener \"political benefits\". Así lo señaló ayer la fiscal general de Nueva York, Barbara Underwood. La fiscal mencionó que la entidad será \"disuelta\" y sus activos serán destinados a causas benéficas."
+    },
+    {
+        "headline": "MANNUCCI Y UNIVERSIDAD GAN AR ON EN ÚLTIMA FECHA DEL CUADRANGULAR",
+        "content": "Carlos A. Mannucci de Trujillo y Alianza Universidade de Huánuco se convirtieron ayer en los últimos participantes de la próxima temporada de la Primera División, luego de competencias exitosas en el cuadrangular de ascenso. Ayer, en el estadio Miguel Grau del Callao, se llevó a cabo la última fecha del torneo, buscando determinar quién ocupará los lugares disponibles en la máxima categoría futbolística del país."
+    },
+    {
+        "headline": "SONIDOS EXPERIMENTALES EN FESTIVAL RU DIM OS'",
+        "content": "\"Experimentacion electrónica, performance sonora y música independiente convergen en el Festival Ru Dim Os', evento musical experimental que comenzará hoy en San Isidro. Destaca la actuación de la banda estrella Mueran Humanos, junto a otros proyectos innovadores como Parasound Ambulantes y Tet Leuga. Además, Atropa Cerebral hará una aparición especial, recordándose como precursora del género Noise en los años ochenta."
+    },
+    {
+        "headline": "MA SERATI INAUGURA PRIM ERA TIENDA EN LIMA",
+        "content": "El prestigioso sello automotor italiano Maserati abre oficialmente su showroom en el Perú, situado estratégicamente en la Av. Republica de Panama 3358, San Isidro. All, además de exhibir sus icónicos vehículos, ofrecer servicios de personalización interna y externa diseñados conjuntamente por arquitectos italianos y peruanos."
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided newspaper excerpt while adhering strictly to the specified format requirements. Note how each entry includes both headlines where available and detailed contents for clarity and completeness.

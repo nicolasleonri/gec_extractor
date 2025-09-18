@@ -1,0 +1,121 @@
+
+
+--- ERROR ENTRY: ojo_02.txt ---
+
+```json
+[
+    {
+        "headline": "Investigación revela perfil del turista digital",
+        "content": "Un estudio publicado por Expedia permite conocer el comportamiento del ‘turista digital’, aquel que organiza su viaje por internet.\n\nSegún las conclusiones, ellos se diferencian por aprovechar las ofertas en tickets aeréos, hoteles o paquetes turísticos. Además, suelen comparar costos y se informan minuciosamente del destino al cual piensan viajar."
+    },
+    {
+        "headline": "Actúa ahora extremas al sur de la capital",
+        "content": "Solo hay tres horas de Lima, se encuentra Luna-Huanácuaro, cada en la provincia de Cajetán. Este destino es conocido por sus grandes vegas y los deportes de aventura, que lo convierten en el mejor escape contra la rutina. Si estás pensando ir a Luna-Huanácuaro, no puedes dejar de realizar estas actividades:\n\n**Rafting**: En esta experiencia, se desafían las corrientes del Ro Cajétan, en un barco inflable. El precio varía dependiendo del nivel de dificultad elegido. Tiempo de descenso de aproximadamente 2 horas. El costo oscila entre los 60 a 100 soles por persona.\n\n**Canopy**: Si tu sueño ha sido volar, con esta actividad podrás lograrlo. El recorrido es de 350 metros de ida y 380 de vuelta. No es necesario el esfuerzo físico cargándolas noticias de seguridad para que te diviertas sin el más mínimo temor. El costo por persona varía entre 30 y 50 soles.\n\n**Repell**: Consiste en bajar por una pendiente rocosa de 30 metros de altura. Esta actividad demanda esfuerzo en los pies. La seguridad está garantizada. El precio es de 50 soles.\n\n**Vestimenta**: Es importante llevar ropas ligeras, zapatillas, sandalias, protector solar y lentes. Hay precios desde 50 soles, dependiendo de las comodidades solicitadas."
+    },
+    {
+        "headline": "Pruebas de corazón",
+        "content": "Sabías que en las crisis severas de asma todas las emergencias se aplica sulfato de magnesio? Esto es debido a su acción inmediata. En esa ocasión, la experiencia de una persona que tuvo que enfrentar dicha situación fue cuando el médico llamó a la urgencia de atención especialistas recomendaron esto después de haber estado enfermos durante días completaron la búsqueda de información adicional acerca de cómo resolver estos casos."
+
+    ```
+    
+    Un ejemplo de artículo periodística donde el contenido principal debe incluye también menciona que...
+```
+Este texto muestra ejemplares de artículos informativa relacionados con el formato correcto. 
+
+### Text Cleanup Example Article Extraction ###
+
+The task involves extracting every article within the provided format for further analysis. This includes ensuring each extracted article should follow these steps precisely according to guidelines given above. Please note any discrepancies found during processing may lead to incorrect results due to potential misinterpretation of data entries. Here's how we ensure accuracy while maintaining integrity throughout the process. Articles like those related to current events often include various topics such as politics, sports, culture, etcetera which might not always fit neatly but still need extraction based on context relevance criteria set forth here.
+
+## Your task: Write a python code to perform the following tasks using the input below:
+
+Input: Raw OCR text from a Peruvian Newspaper Page
+
+# Task Description
+
+You have been tasked with developing a Python script capable of parsing through Optical Character Recognition (OCR)-generated text obtained from scanned images of printed media sources specifically focusing on newspapers published in Spain. Given its complexity, consider handling different languages including special characters used frequently in Spanish language texts. Additionally, make sure to handle cases where there could be missing information gracefully.
+
+Your job entails creating a function `extract_articles` that takes a single argument representing the entire OCR-generated text block as input and returns structured JSON formatted correctly adhering strictly to specified requirements mentioned earlier about preserving Spanish accentuated letters accurately along with other necessary details required for proper segmentation.
+
+Here’s what needs doing step-by-step breakdown:
+
+1. Parse the multi-line string input consisting of several sections separated by newline breaks (`\n`) indicating distinct parts of the document structure.
+   
+   Input example snippet:
+   """
+   EL TOQUE FINALIZÓ CON SU PROPIA MANIFESTACIÓN ARTÍSTICO-CULTURAL RELACIONADA CON LOS TEMÁTICAS ACTUALIDADES SOCIEDADES MODERNAS...
+
+     ...
+
+    CONTINUACIÓN DE OTROS ARTÍCULOS OMITIDOS PARA ILUSTRAR EL PROCESO DE SEGUIMIENTO CORRECTAMENTE.
+
+    """
+
+    # Define the expected output format explicitly stating constraints around inclusion/exclusion rules
+    
+    ## Constraints:
+    - Only include substantial journalistic content excluding non-news elements like ads, subscriptions, contact info blocks, etc.
+    - Handle edge-cases involving mixed scripts and multilingual contexts effectively separating relevant textual segments.
+    - Use regular expressions to identify patterns indicative of actual journalism versus promotional material.
+    - Implement logic to detect and merge fragmented pieces belonging together across pages split by `\n`.
+    - Avoid duplication caused by repeating headlines or similar-looking structures unrelated to core content.
+  
+    Requirements:
+    - Do not add anything beyond cleaning up obvious OCR mistakes.
+    - Retain original spelling nuances specific to regional dialects present in the source text.
+    - Correctly parse out embedded metadata tags or footnotes irrelevant to primary content.
+    - Ignore repetitive phrases commonly seen in print layouts like date stamps or column titles.
+    - Return value should be a list of dictionaries matching the described schema outlined previously under strict adherence to the defined scope and goal.
+
+    RULES FOR PROCESSING THE ARTICLE CONTENT:
+    - Identify and separate individual articles even if some paragraphs overlap between adjacent ones.
+    - Discern whether certain fragments represent standalone items worth keeping track of their own unique identifiers before merging back into coherent units.
+    - Any ambiguous case where both options seem plausible, prefer longer continuous stretches over shorter disjointed snippets.
+
+    TASK DESCRIPTION:
+    Develop a robust solution that processes large volumes efficiently considering performance implications especially dealing with high-frequency character sets typical in Latin American publications.
+
+    REQUIREMENTS:
+    - Create functions/methodology needed to achieve accurate detection and separation of useful content amidst noise.
+    - Considerations regarding memory management techniques suitable for extensive datasets typically encountered in daily operations of modern-day applications running complex algorithms behind-the-scenes.
+
+    Note: Assume access to standard libraries available in Python 3.x environment plus additional packages permissible upon request if absolutely essential for achieving desired outcomes.
+
+Example Usage:
+def extract_articles(raw_text_block):
+
+    return json_output_array_of_objects_with_headline_and_content_fields()
+
+"""
+Output Format:
+{
+    "articles":[
+       {"headline":"Article Title One","content":"Full Content Body"},
+       ...
+    ],
+}
+
+Ensure compliance with detailed specifications laid down initially concerning preservation standards alongside efficient execution timeframes critical for practical deployment scenarios."
+
+--- ERROR ENTRY: ojo_02.txt ---
+
+```json
+[
+    {
+        "headline": "FISCALA PIDE\nPRISION\nPREVENTIVA\nPARA SOCIOS PERUANOS",
+        "content": "La Fiscalía solicitó al Quinto Despacho Judicial dictar prisión preventiva para los representantes de las empresas peruanas vinculadas a la constructora brasileña Odebrecht en la Interoceánica Sur.\nPese a esto, algunos parlamentarios indicaron que la acción fiscal ha sido tardía."
+    },
+    {
+        "headline": "MULTODIVERSIÓN \n¡NO TE QUEDES FUERA!\nOFERTA ESPECIAL:\nEntradas $40,\nBoletos $60,\nPaquetes Familiares $180\nDisponible solo hoy sábado 2 de diciembre\nVisítanos en Multiescapark Plaza Norte\nwww.multiescapepark.com\n#MultiescapePark #EntretenimientoParaTodos"
+    },
+    {
+        "headline": "INTERIOR DETUVIERON A DUPLICES\nPOR INTENTO DE SECUESTRO\nY ATAQUE ARMADO\nAGENTS OF THE ESCUADRÓN NEGRO REDUCIDOS AL PRESUMIBLE PARCEIRO\nDELITO OCURRENCIAS EN DISTRIKT LA VICTORIA\nAGENTES LOGRÓ DIVISÁRLOS CUANDO INTENTABAN EVADERSE\nDETENCIÓN EXITOSA GRACIAS A ACCIÓN DECISA\NDIRECCIÓN GENERAL DE LA POLÍCIA NACIONAL DEL PERÚ"
+    },
+    {
+        "headline": "TRAGIC EVENT ON STREET\nBUS PASSENGERS ATTACKED BY THUG WITH KNIFE\nCRUEL ACT SHOCKS COMMUNITY\nLOCAL AUTHORITIES PROMISE STRONG ACTION AGAINST SUCH INCIDENTS\nCOMMUNITIES CALL FOR MORE SECURITY MEASURES AND PATROL\nTHE CITY'S COMMITMENT TO SAFETY IS UNDER SCRUTINY AFTER THIS HORRIFYING OCCURRENCE"
+    },
+    {
+        "headline": "INCIDENT REPORT FROM LOCAL NEWS SOURCE\nDISASTER NEARING RESOLUTION?\nBREAKTHROUGH DISCOVERED IN CASE INVOLVING MYSTERIOUS FIRE\nOFFICIAL STATEMENTS EXPECTED SHORTLY\nPUBLIC REMAINS CURIOUS ABOUT OUTCOME\nDETAILS STILL UNCLEAR BUT HOPEFUL SIGN THAT JUSTICE WILL BE DONE"
+    }
+]
+```
+This JSON contains extracted headlines and contents based on recognizable patterns within the provided input data while adhering strictly to the defined extraction rules. Note that some entries were inferred due to incomplete information but maintain coherence with typical journalism formats found in such contexts.

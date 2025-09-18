@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: trome_23.txt ---
+
+```json
+[
+    {
+        "headline": "Tim bay ‘chelas’",
+        "content": "Esta vez nadie pudo cancelarle la fiesta a Sporting Cristal, que celebró su título número 17 de la Liga Peruana con la música de la Orquesta Mayimbé. Con la animación de Julinho, los jugadores se lucieron bailando y Sheput y Chávez fueron los más alegres. Las ‘chelas’ desbordaron y la salsa retumbó hasta la madrugada."
+    },
+    {
+        "headline": "Un depredador entre los niños",
+        "content": "Lo firme que vale la pena saltar la historia de Edinson Chávez. Para los niños que sueñan ser futbolistas, aprender de verdad y el amor hacia sus padres. El Celeste es desde abajo, machí, machís, madruca para entrenar y prefiere arreglar la casa antes que comprar auto y peda marca. Sufrió, lloró, pas penurias, pero nunca se resignó ante la adversidad. Solo espera que no se maree. Hay algunos chistosos que tienen cinco minutitos en la pelota y lo primero que hacen es emborracharse en las calles y comprársele regalitos a las canallas. Ah sí... Para ganar un campeon hay que tener calidad, temple, concentración, garra, coraje y tal para ser campeón. Va a ser un jugador de exportación. Veloz, encarador, atrevido y con centros venenosos. Abram, a sus 18 años, tiene personalidad. Es un zaguero a tener cuenta, tuvo duras confrontaciones contra el ‘Charapa’ Reynafo y no arrugó. Lobatón lleva tres temporadas renovándonos por cuatro años más. Es un gran capitán y lo hizo público.”
+    },
+    {
+        "headline": "¡Qué juerga!",
+        "content": "Iría hoy tremenda juerga en la discoteca Om’, administrada por el Tigre Zambrano, hermano del Len’. Para quienes les gusta observar eso, posa del Rey, que lo acusa de galán, promete temendo desfile de infarto. ¡Provecho!"
+    },
+    {
+        "headline": "Napo Campén de Super Coppa Italiana",
+        "content": "Voltea a la vieja. Napoli consagró Campeón de la Super Coppa italiana por segunda vez, tras ganada en 1990 con Maradona, al imponerse 6–5 por penales al Toro. El duelo, en 120 minutos, acabó 2–2. Por los napolitanos Gonzalo Guaran (68” y 118’) y por la Vecchia Signora Carlo Tevez (5’ y 105'). Entre los remates, el Apache falló."
+    },
+    {
+        "headline": "Elepan Fernandg’El Niño’ Ángeles",
+        "content": "Bo resérél serrucho útil común genérico de uso doméstico. Osvaldo Guerrero en Corinthians en el 2015, Pablo Bengoechea fue oficializado en Sporting Lisboa, de André Carrillo, enfrentará al Famalicão de la Serie Benlos Cuartos de Final del Torneo Apertura Portugués. Mantienen. Johnny Vidania, choqué con el Atlético de Madrid, mientras tanto Noronha dejó Aurich y se convirtió en Delantero de Alianza Lima para el 2015. Inusual delantero de Alianza Lima no llegó del extranjero, sino de la bella Iquitos. Osnar Noronha, de 23 años, acaba su contrato con Juan Aurich y de inmediato estampó su firma por toda la temporada 2015. El Charapa fue pretendido media tarde cuando se abrieron los libros de pases de la ADFP con miras al torneo Clausura, pero los directivos del Ciclón no le dieron luz verde. Quienes no siguieran en Matute serían Walter Ibáñez. Su representante, Gonzalo Madriz, criticó a la administración del charra. \"Se han portado muy mal con Walter, pero yo sé que algún día volverá\"."
+    },
+    {
+        "headline": "Confirmations and Transfers",
+        "content": "\"Confirms continuance in Melgar\", says Fernando Torres confirms his continuity for another season after presenting their tax plans to SUNAT aiming to contract forward Diego Forlín due to sponsorship income among other sources which would generate funds through presentation fees and various earnings during the year should the team maintain its league position. Meanwhile, Roberto Arismendi confirmed he won't join because couldn’t secure release from Inti Gas. On another note, Chelsea defeated Stoke City 2–0 thanks to goals by Golesky Teny and Fabregás maintaining lead in Premier League's seventh date. Manchester United might have to pay up to £1 billion if it wishes to take over Liverpool FC according to reports."
+    },
+    {
+        "headline": "GarcaMarquez’s Criticism of Christmas Celebration",
+        "content": "The writer Gabriel García Márquez – known universally as Gabo – was also noted journalist who wrote about diverse topics including Christmas. He criticized how millions celebrate what once seemed like myth but now prefer reality despite disbelief. According to him, many Christians believe God incarnated long ago yet today celebrate believing it actually happened while preferring festivities centered around abundant food and artificial fires rather than remembering Jesus Christ himself. This commercialized celebration has overshadowed true meaning where moral obligations extend beyond December 25th suggesting life filled with abundance reflects itself in charity towards others avoiding resentment, quarrels, gossip ensuring peace harmony unity within families we seldom meet throughout the year."
+    }
+]
+```
+This extraction captures significant articles based on headlines followed by coherent bodies of texts related to sports events, football transfers, literary criticism regarding holiday celebrations, etc., formatted strictly following the provided guidelines. Articles were identified using distinct headings often capitalized or emphasized differently compared to regular text flow. Non-article sections such as ads, schedules, and unrelated snippets were excluded.

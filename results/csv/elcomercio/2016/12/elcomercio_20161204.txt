@@ -1,0 +1,116 @@
+
+
+--- ERROR ENTRY: elcomercio_04.txt ---
+
+```json
+[
+{
+    "headline": "Contenido del artículo 'Opinion'"
+}
+```
+
+### Article Extraction:
+
+**Article Title:** Contento por fin de cuarentena  
+**Headline**: Urgente: Se busca perro perdido. Recompensa: 500 soles.  
+
+The following sections were extracted based on their relevance to journalism standards while excluding non-journalistic elements such as ads, subscriptions, etc.
+
+---
+
+## Articles Identified:
+
+1. **Title:** Contenido Principal
+   ```markdown
+   ```
+   
+   ### Headline: *El loco del martillo*
+   
+   #### Main Body Text
+   
+   > Hoy en día, uno pensaría que la gente está más loca que antes.
+   
+   ```
+
+2. **Title:** Opiniónde Desarrollopárrafode Extrema Derecha
+  
+   ## Headline: *EL DESARROLLO DE PARTIDOS DE EXTREMA DERECHA EN EL VIEJO CONTINENTE*
+
+   ### Main Body Text
+   
+   > L a victoria de Donald Trump en las elecciones...
+   >
+   > ...como aade Freedland, estos partidos populistas... amenazan...
+
+3. **Title:** Política Ambiental de Donald Trump
+
+   ## Headline: LA POLÍTICA DE DONALD TRUMP SOBRE EL MEDIO AMBIENTE
+
+   ### Main Body Text
+    
+   > L a elección de Donald Trump no solo afecta muy poco al aumento de la temperatura,...
+
+4. **Title:** Conclusiones de CADE 2016
+
+   ## Headline: LAS CONCLUSIONES DE CADE 2016
+
+   ### Main Body Text
+
+   > ALGÚN DÍA ES HOY
+   >
+   > …Carlos Rodriguez Pastor, Sebastian Piñera y Felipe Calderón…
+
+5. **Title:** Noticias del Frente Informalidad Laboral
+
+   ## Headline: Noticias del frente
+
+   ### Main Body Text
+
+   > En la guerra contra la informalidad, las cosas se mueven lentamente,...
+    
+6. **Title:** NUEVO PER Con Ideas Viejas
+
+   ## Headline: SIN LICENCIAPOLITICADE MODERNIZACIÓN DE LA IZQUIERDA
+
+   ### Main Body Text
+
+   > LO NOVEDADNO SE HACE CON LO VIEJOO SALUDAMOSTODAVIALA INTENTODE UN MOVIMIENTONUEVOPERUANO…
+   >
+
+---
+
+
+This extraction process involves identifying headlines followed by substantial textual bodies related to each identified topic within the provided document. Non-content items like promotions, repetitive phrases, and unrelated metadata have been excluded according to your guidelines. This ensures clarity and focus solely on relevant journalistic pieces.
+
+--- ERROR ENTRY: elcomercio_04.txt ---
+
+```json
+[
+    {
+        "headline": "EL PRESIDENTE BARACK OBAMA ANUNCIA UNA NUEVA VENTA DE ARMAS A TAIWÁN",
+        "content": "El presidente electo de Estados Unidos, Donald Trump, ha causado su primer conflicto diplomático con China antes de tomar posesión del cargo con una simple llamada: la que recibió de la presidenta taiwanesa, Tsai Ing-wen, el pasado viernes.\n\nTsai telephoned a Trump para felicitarlo por su éxito en las elecciones y ambos mantuvieron una conversación de diez minutos que generó ayer una protesta formal del Gobierno Chino. La llamada fue el primer contacto formal de alto nivel entre EE.UU. y Taiwan en casi cuarenta años y no ha dejado indiferente a Beijing, que considera a la isla un 'territorio rebelde' con aspiraciones independentistas.\n\nEn un primer momento, el ministro chino de Asuntos Exteriores, Wang Yi, trat de minimizar el asunto al asegurar ante periodistas que la llamada era un 'pequeño truco' de Taiwan, si bien posteriormente el Gobierno Chino elevó el tono y \n\"La presidenta de Taiwan me llam para felicitarme por ganar la presidencia. Gracias!\".\nDonald Trump Presidente Electo de EE.UU. \npresentó una protesta formal ante Estados Unidos.\n'Hemos transmitido una protesta solemne a la parte estadounidense correspondiente. Hay que insistir en el hecho de que solo existe una China y que Taiwan es parte inalienable del territorio chino', zanj en un comunicado el Ministerio chino de Relaciones Exteriores.'\n'Todo el contenido anterior'"
+    },
+    {
+        "headline": "LAS FARCS PIDEN PERDON A LAS FAMILIAS DE SUS VICTIMAS",
+        "content": "\"Pablo Catatumbo (centro), de las Farcs, saludó a familiares de los diputados muertos.\" Jefes del grupo insurgente colombiano se reunieron en Cali con los deudos de once diputados secuestrados en el año 2002 y asesinados durante su cautiverio. Reconocieron su responsabilidad.\nRedacción Mundo\n'Miembros de las Farcs se reunieron ayer en la Iglesia de San Francisco, en la Ciudad de Cali, con cerca de 50 familiares de los Diputados Secuestrados por el Grupo Subversivo en el 2002 para Ofrecerles Disculpas por \"El Profundo Dolor Que Les Causaron\"'. Hace 14 años, integrantes de las Farcs entraron a la Asamblea Departamental del Valle del Cauca disfrazados de Militares Colombianos. Tras Simular Una Evacuación Por Amenaza de Bomba, Secuestrarían a 12 Diputados.\nEn el 2007, Las Farcs Informed That Once Eleven of Those Kidnaped Had Died During An Exchange of Fire With Some Unidentified Group. Only One Survived This Ordeal, Legislator Siegfried Lopez.\nThe Act of Forgiveness Was Headed By Pablo Catatumbo, One of the Leaders of the Farcs. 'We Want To Express Our Recognition of Responsibility and Ask For Forgiveness From Victims and Family Members of the Valledupar's Congresspeople,' He Said.\nOn behalf of those mourning, John Jay Hoys, Son of One of the Assassinated Legislators Participated. '\nOur Relatives Are Alive Within Love Which Has Transformed our Hearts Over Fourteen Years of Hate Into Enough Love for Us to Forgive Their Killers. May God Remember their Tears Every Time They Wash Their Bodies,' said Hoys. The Event was held privately after three days of fasting and prayer. It also served to clarify any connection between the Farcs and Siegfried López, who survived captivity. 'He has never been a Member, Sympathizer, Nor Collaborator of ours and what happened regarding some legal proceedings against him were nothing but absurd and Indignified Revictimization Against His Person,' stated Catatumbo referring to accusations made at the time which implicated López as being Complicit in his fellow hostages deaths.'\nAn Encampment Measuring 144 Square Metres Set Up Opposite Saint Francis Church Welcomed Hundreds of Residents Who Wanted Details About the Meeting.'\n'It Is Good We Feel Like Speaking and Negotiating Can Lead us Towards Important Agreements and Understanding,' Assured Juan Carlos Moreno on News Channel RCN. AFP\nCastro Arrives At Final Destination\nThe Funeral Procession Carrying Ashes of Former Cuban Leader Fidel Castro Reached Yesterday Its Native City of Santiago After Travelling Through Havana On Thursday Night. Thousands Gathered Around Plaza Where Ceremony Took Place. Throughout its Journey Across Cuba, Soldiers Pushed Vehicle When Mechanical Failure Occurred. Later Tonight, Current President Raúl Castro Will Attend Memorial Service Attended By Left-Wingers Worldwide. Tomorrow will Be Burial Day."
+    },
+    {
+        "headline": "COMERCIO SUMA CERCA O COMPRENSIÓN?",
+        "content": "Wilbur Ross es el nominado por Donald Trump para ocupar el cargo de Secretario de Comercio de Estados Unidos. En agosto pasado, Ross declar lo siguiente sobre los acuerdos comerciales: 'El Libre Comercio es Como un Almuerzo Gratis: No Existe un Almuerzo Gratis. Algún Gana y Otro Pierde. Y Desafortunadamente Nosotros Estábamos Perdiendo con estos Estúpidos Acuerdos que Firmamos'. Que los Acuerdos de Liberalización Comercial puedan Generar Ganadores y Perdedores es una Verdad de Perogrullo. Pero no es Evidente que los Actores de Mayor Relevancia para Evaluar esos Efectos Distributivos Debieran Ser los Países. De Ser así, no se Entendería por qué en los países que Negociaron esos Acuerdos con Estados Unidos (Sus Presuntos Beneficiarios según Ross) Existiesen Quienes también los Consideraran Contraproducente y Estúpidos. Los Ganadores y Perdedores Sueñan Ser Actores Especificos Dentro de Cada país, no Necesariamente el País en sí.'
+        
+        'Además, Resulta difícil Argumentar que a la Economía Americana como Conjunto Le Ha Ido Mal con los Acuerdos de Liberalización Comercial. Por Ejemplo, Según un Reporte de la Revista 'The Economist', en Cinco Años Posteriores a la Firme de un Acuerdo las Exportaciones Americanas Hacia el País con el Cuál se Suscribe Crece Tres Veces Más Rápido que el Promedio. Además, estas Incrementan Tan Velozmente como las Importaciones Procedentes de ese País (Si Particularmente se Cree que Mantener Déficits Comerciales con algún País Es Necesariamente Algo Negativo).\nLo que Sucede Concurrentemente, Según ese Reporte, es que Estados Unidos Perdió Empleos Bajos en Sectores Específicos, y Entre 1999 y el 2011 al Menos la Quinta Parte de esos Empleos se Pérdieron debido a Competencia de Importaciones Originadas Desde China.'
+
+        'Ahora Bien, Frente a lo Generalmente Pensado, el Denominado Estado de Bienestar (Relacionado a una Significativa Intervención del Estado en la Economía) no ha sido entre los Países Integrantes de la OCDE un Adversario de la Liberalización Comercial (Generalmente Asociada a una Reducción de la Intervención del Estado en la Economía). Por eso los Países Escandinavos Poseen Economías Más Abruptas y Dependientes del Comercio Internacional que la de Estados Unidos, a pesar de que Su Presión Tributaria y Regulatoria Sea Superior. Ya a fines de los Años 70 un Estudio Realizado por James Camerson Revelaba que Existía entre los Países de la OCDE una Correlación Positiva entre el Grado de Apertura de la Economía a la Competición Exterior y los Niveles de Gastos Públicos.'
+
+        'Después de Constatar la Persistencia a Principios del Nuevo Milenio de dicha correlación Positiva, Daniel Rodrick añadió que ésta se Explicaba Parcialmente gracias a Protección Brindada a los Grupos Sociales Más Vulnerables Ante los Efectos de la Competencia Exterior. Así Políticas tales como Ayuda Temporal, Capacitación para Lograr Reinserción Laboral y Orientación en Buscar Empleo (Denominadas 'Políticas Activas de Mercado Laboral') Contribuyen a Facilitar Política la Apertura Económica.'
+
+        'Un Problema en Estados Unidos es que Invirtiera Bastante Poco en ese Tipo de Políticas. Así, Mientras los Países de la OCDE Destinan a Ellas en Promedio un 0,6% de su Producto Interno Bruto, Estados Unidos Solamente Dedica para tal Propósito el 0,1% de su PIB.'"
+
+    },
+    {
+        "headline": "INCENDIO EN FIESTA ELECTRONICA HA MATADO A MAS DE 20 PERSONAS EN CALIFORNIA",
+        "content": "'Los Países Escandinavos Tienden a poseer Economías Mas Abiertas'\nPelo Menos Diecisiete Personas Murieron el Viernes en la Noche en la Ciudad Californiana de Oakland luego de Declinar un Incendio en un Local donde Tenía lugar un Festival Musical Electronico, aunque Temen que el Numero Total de Fatalidades Ascenda hasta Treintaytantos, Informaron Autoridades Locales.\nEl Fuego se Desató Antes de Medianoche del Viernes en el Barrio de Fruitvale en un Gran Edificio que Aloja Estudios Artísticos, Donde se encontraban Cerca de Setentaycuatro Asistentes y cuya Cubierta Colapsó, dificultando Labores de Rescate.\n'Según estamos Listos para enfrentarnos a Hasta trentaytantos Defunciones', Manifestó a Periodistas el Sargento Ray Kelly del Condado de Alameda, Remarcando que solamente Podrá Confirmar la Mortalidad de Diecisiete Personas.\nSegún la Jefa de Bomberos, Teresa Deloach Reed, la Mayoría de los Fallecidos se Ubican en el Segundo Piso del Local, Acceso Mediante una Escalerilla Provisional. La Construcción Servía de Refugio a un Colectivo de Artistas. Cuando Entraron para Combatir el Humaredo, Fueron Detenido por Montón de Mobiliaria y Artefactos Creativos. Era Como un Laberinto', Narró Deloach Reed."
+
+    }
+]
+```

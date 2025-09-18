@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: peru21_05.txt ---
+
+```json
+[
+    {
+        "headline": "Real Madrid está dispuesto a cambiar",
+        "content": "Liverpool se deja llevar – amenaza principal\nAnte la poca continuidad de la que goza James Rodríguez desde la llegada de Zinedine Zidane al banquillo del Real Madrid, el diario inglés The Sun informa que el guardia merengue estará dispuesto a negociar con el Manchester United y realizar un intercambio."
+    },
+    {
+        "headline": "BORNEMOUTHE.- Liverpool pierde oportunidad",
+        "content": "(3° con 30) tenía todo listo a los pocos segundos después de ir 3–1 arriba; sin embargo, la visita despertó y terminó volteándolo 4–3 en el final del partido, por la fecha 14 de la Premier League.\nFraser y Cook aparecieron para empatarlo y a los 90’, Ake le dio del senegalés Mane la alegría al cuadro local. Los locales descontaron con Wilson (56’), pero los de Anfield se adelantarían nuevamente con Can (64), lo que hacía pensar en un duelo sentenciado. Sin embargo, a los 76 y 79, Baines (89’) igualó."
+    },
+    {
+        "headline": "MANCHESTER UNITED SIGUE DE MALAS",
+        "content": "Manchester United (6° con 21) igual 1–1 con el Everton de visitante. Ibrahimović (42") adelantaba gol en la Liga Inglesa. Advertió su ocaso cuando Bentancur (50' y 74) descontó."
+    },
+    {
+        "headline": "CELTA IGUALÓ CON BETIS",
+        "content": "Celte (9° con 21) igual 3–3 con el Betis (14” con 15)"
+    },
+    {
+        "headline": "EL PLACER DE COCINAR",
+        "content": "Revista EL placer de cocinar\nHallazgos: Sánguches provacativos y saludables de Germinando\nLista en minutos: Descubre dos alternativas instantáneas y La fórmula: Aprende los tips esenciales para preparar esponjosos panqueques de avena con miel.\nPoder nutritivo: Palillos, ajos y otros alimentos para hacer un detox natural, con recetas riquísimas."
+    }
+]
+```
+This extraction includes four distinct pieces identified within the provided OCR text based on their structure resembling typical journalism formats such as headlines followed by relevant content paragraphs. Any non-article elements like date stamps were excluded according to guidelines.
+
+--- ERROR ENTRY: peru21_05.txt ---
+
+```json
+[
+    {
+        "headline": "Del Director",
+        "content": "Cuidado con\nlos autocos.\nContinúan los gritones exigiéndole al \npresidente Kuczynski hacer \"cuestión de confianza\"\nan-te la eventual censura del ministro de Educación,\nJaime Saavedra. Las premisas?\nEl gobierno se encuentra ante una oposición matonesca,\ntendrá el respaldo popular si cierra el Congreso\ny, ante dicha posibilidad, el fujimorismo bajará la cabeza.\nQué simple, ¿verdad?\nParece mentira, pero algunos en el Ejecutivo --con los que he conversado-- se han comprado el cuento."
+    },
+    {
+        "headline": "\"Comisión de Defensa ya adelant opinión sobre compra del satélite. Mejor que pase a Fiscalía\".",
+        "content": "Pedro Cástor, Ex Presidente y Ministro de Defensa\nPALACIO DE GOBIERNO CONVOCA A CEREMONIA PARA HOY MEDIDÍA\nHoy jura al cargo nuevo ministro de Defensa\nmPPK se habría reunido anoche con el Premier para evaluar hojas de vida de algunos candidatos.\nCarlos Castillo ccastillo@peru21.com\nRecién se despeja la incertidumbre. El presidente Pedro Pablo Kuzcysnki tomar, este mediodía, el juramento al nuevo ministro de Defensa, cuyo nombre aún no ha sido revelado."
+    },
+    {
+        "headline": "Teﬁlo Gamarra critica que Comisión de Fiscalización Postergará Citación a Ex Primera Dama",
+        "content": "Aseguran que Congreso \"maltrata\" a Heredia\nmBeccerril cuestion que \"subyugados\" y \"sobones\" salgan en defensa de esposa de Humala.\nEl cambio de fecha para que Nadine Heredia acuda a la Comisión de Fiscalización del Congreso no ha caído bien en el Partido Nacionalista (PN).\nEl ex legislador Teﬂo Gamarra calific ayer esta decisión como \"una clara prueba de querer perjudicar\" a la ex primera dama,"
+    },
+    {
+        "headline": "Juán Sheput dio que Congreso \"fue razonable\" al aprobar presupuesto",
+        "content": "\"No es obstruccionista\"\nEl legislador oficialista Juán Sheput minimiz ayer las críticas de la congresista de Fuerza Popular Cecilia Chaín hacia el gobierno, al señalar que se le aprobó el presupuesto fiscal para el 2017 pese a que \"no genera la confianza esperada\", e indicó que esos comentarios forman parte del discurso político de la oposición."
+    },
+    {
+        "headline": "Alberto Quintanilla afirma que lograrán inscribir Nuevo Per",
+        "content": "Recolección de firmas culminará en un año\nm Legislador del FA señala que en Cusco y Puno, por cada región, espera recoger 200 mil firmas.\nEl congresista Alberto Quintanilla estimó ayer que la fracción dentro del Frente Amplio (FA) que busca inscribir el partido Nuevo Per, que liderará Verónica Mendoza, culminará en un año la recolección de 740 mil firmas necesarias para cumplir su cometido."
+    },
+    {
+        "headline": "Alfredo Bellolea: Militante del PPC",
+        "content": "Hace 20 años Castro dirige el PPC sin resultados –¿Cuántos más?",
+        "ricardo monzenkomont rmonzon@peru21.com\n1 17 de diciembre próximo debe realizar-se la elección presidencial en el Partido Popular Cristiano (PPC). Uno de sus militantes más activos, Alfredo Bengolea, cree que es tiempo de la renovación y está valorando postular en la contienda."
+    }
+]
+```

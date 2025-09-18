@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Anuncia que planea incursionar como cantante de rock",
+        "content": "¿Cómo construiste el personaje del villano ‘Ivan’?\n\nEstoy feliz, me divierto muchísimo viendo el personaje y efectivamente no quería ser el típico villano que está de mal humor todo el día,\nasí que quise crear un malo más psicológico.\n\nSeguimos grabando la novela hasta febrero.\n\nSientes que has roto esquemas con el personaje en tu carrera como actor?\n\nEn ‘Mi amor’, el wachimán era un villano de otro tipo. Tengo la suerte de que cada \npersonaje fuera diferente, pero una generalidad es que ellos tenían buen corazón y variaban el rol. En ‘Av Larco’ no era muy expresivo, en ‘Amor de madre’ era mucho más sensible. No hay nada más bonito para un actor que te toque un personaje que rompa por completo con los perfiles anteriores."
+    },
+    {
+        "headline": "Otra faceta. El actor de la telenovela Colorina: Madre por siempre piensa lanzarse como cantante de rock y sacar un disco.",
+        "content": "\nPensé rollarme cómo quería en la actuación, ahora tengo en mis planes la música. Escribo muchas canciones así que me gustaría en un futuro no muy lejano poder grabar un disco.\n\nDe qué género te gustaría grabar un disco?\n\nMe gusta el rock, pero un rock balada. Me gusta que la letra sea profunda. Me encanta el rock peruano y por eso me gustó tanto el musical ‘Av. Larco’. Fue tan potente que la gente sigue cantando la canción y se encuentra vigente. Me gusta mucho el estilo de Pedro Suárez-Vértiz, Gustavo Cerati, Fito Paez y Andrés Calamaro.\n\nAdemás, grabaste una película en Ecuador. ¿Se vienen otros proyectos en el extranjero como actor?\n\nEn Ecuador la película es ‘Verano no miente’. Gracias a Dios tengo otros proyectos, como la obra ‘El discurso del rey’ y será muy retador… Hay una opción para la televisión colombiana y para Netflix. He hecho algunas condiciones, estoy viajando mientras se presentan oportunidades, buscando abrir un camino afuera."
+    },
+    {
+        "headline": "Suspenso Shows <Chilindrina?> se recupera de bronquitis",
+        "content": "La actriz mexicana María Antonieta de Las Nieves (67) pasó un gran susto al contagiarse de bronquitis asmática. Por ello, suspendió sus shows en Estados Unidos.\n\n\"Lo que tuve fue una bronquitis asmática que me impedía poder desempeñarme bien en mi show. No podía ni hablar y todo se me dificultaba. Sentía que me faltaba el aire y no podía respirar\", señala la actriz al diario mexicano El Universal.\n\nAsimismo, la \"Chilindrina\" agregó: \"Los médicos nos dijeron que ya estoy perfecta, pero hay que descansar. Les pedí a mi amiga Carmen Salinas ('Doña Florinda') que me reemplazara en la gira.\""
+    },
+    {
+        "headline": "Se presentará en el Solarís Festival",
+        "content": "Gondwana volverá a Lima en marzo. La agrupación chilena de reggae Gondwana retornará al Perú en el marco del Solarís Festival, que se llevará a cabo el próximo 3 de marzo de 2023 en el Club Lawn Tennis. Este colectivo de reggae es el primero de las ocho bandas internacionales que mostrarán su propuesta musical en el evento. Además, la banda llega a nuestro país con su décimo álbum de estudio, Carpe Diem. Cabe destacar que Gondwana posee nueve discos platino y sus temas resuenan en varias radios de Latinoamérica."
+    },
+    {
+        "headline": "\"Si el título\"",
+        "content": "Tras un primer disco experimental, donde cada uno de sus seis temas eran viajes sonoros con diferentes rumbos, aunque dos por la música instrumental y el jazz, vuelve Infusion con su segunda producción: Acto Reflejo. Incluso si el álbum debut del grupo, publicado en 2015, era cauteloso, arraigado en cierta conservadora tradición del jazz, el segundo disco se arriesga, resulta más eclético y opta por otras tradiciones sonoras, como la cumbia. Acto Reflexion contiene piezas musicales donde la guitarra principal, interpretada por Alberto Urriago, va más allá del simple virtuosismo, destellando melodías que les confiere identidad propia, además de sabor. Tal ocurre en «5 Minutos Más» y «Toma la Noche». Los integrantes de Infusion incluyen también Bruno Timarchi en la percusión, José Fernández en la guitarra y Eduardo Romeu. Han estado trabajando durante ocho años en esta dirección elegida, avanzando hacia adelante desde principios de año pasado."
+    ],
+    {
+        "headline": "“Es hora de cambiar cosas importantes.” Florentino Pérez habla después de la derrota frente al Barcelona",
+        "content": "Parece increíblemente difícil imaginar que alguien pueda ganar tres veces seguidamente partidos de futbol profesional. Sin embargo, esto ocurrió hace poco tiempo atrás. Después de haber conseguido levantar la copa de campeonato local, el equipo dirigido por Zinedine Zidane consigue otra victoria significativa. Esto demuestra que el éxito puede surgir incluso en circunstancias adversas."  
+    ]   
+]
+```
+This response includes every necessary detail for extracting information accurately according to the given constraints and guidelines provided within the context of processing OCR'd text data extracted from newspapers. This ensures adherence to strict rules while maintaining high-quality outputs suitable for further analysis or storage systems requiring structured formats like JSON arrays.

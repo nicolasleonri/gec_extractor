@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "Alejandra espera la noche buena",
+        "content": "Este año, el ambiente navideño ha invadido la casa de Alejandra, quién está dando los últimos detalles a la decoración para la Noche Buena. Ella nos anticipa que se vestirá como Santa Claus durante la fiesta familiar, trayendo alegría a los niños con pequeños regalos."
+    },
+    {
+        "headline": "Que huevos el bicho",
+        "content": "Después de definirse las planchas presidenciales entre los candidatos, imaginamos una gigantesca barbacoa con carbón de mercado. En ella podemos ver diversos platillos exquisitos preparándose. Entre ellos destacan pechuga cortada con técnica japonesa, bistek americano bañado en salsa estilo PPK, carne norteña sazonada con salsa tipo caribeña, chicharrones acompañados de setas gourmet, media pieza de cuy marinada sin añadir salsa mora, además de pinchos hechos con muslos de conejo picante. Inspirados en palabras famosas, podríamos decir: ¡Bon appétit!"
+        
+        "En cuanto a política, observamos ciertas maniobras sospechosas dentro de fuerzas políticas importantes. Destaca el caso de la candidata de Fuerza Popular, involucrada indirectamente en actos pasados controvertibles relacionados con figuras gubernamentales anteriores. Además, resaltamos cómo algunos estudiantes muestran fervientes apoyos hacia determinadas campañas electorales."
+
+        "Es importante comunicarse claramente con el público utilizando términos comprensibles para asegurarse de captar su atención adecuada. También surge información sobre posibles irregularidades académicas vinculadas a algún aspirante político notable, sugiriéndonos investigaciones más profundas antes de emitir juicio definitivo."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text that align with typical journalistic structures such as headlines followed by detailed narratives. It excludes irrelevant information like crossword clues, ads, and other unrelated segments while maintaining coherence for each identified story segment.

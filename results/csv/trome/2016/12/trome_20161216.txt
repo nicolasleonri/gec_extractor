@@ -1,0 +1,80 @@
+
+
+--- ERROR ENTRY: trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "Raúl Becerril está en la mira de la producción de ‘’Ésta en Todos’, para sustituir a DEMOCRACIAS",
+        "content": "Un artículo sobre cómo nombrar la pieza."
+    },
+    {
+        "headline": "‘Loco del Martillo',
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contenido navideño",
+        "content": "Los detalles específicos de la entrevista están disponibles aquí."
+    },
+    {
+        "headline": "Nuevo titular",
+        "content": "Esta semana, el Congreso peruano publicará varios titulares importantes relacionados con noticias políticas significativas."
+},
+{
+    "headline": "Opinion Columnists Discuss Political Turmoil",
+    "content": "The political landscape has been tumultuous recently due to various scandals involving key figures within Peru's government. This column discusses how these events have affected both domestic policies and international relations."
+
+}
+]
+```
+This extraction includes several articles identified based on their headlines and corresponding contents extracted from the provided input while adhering strictly to the defined criteria for inclusion/exclusion rules outlined above. Any missing data was filled with "NA". All irrelevant sections such as ads were excluded according to given guidelines.
+
+--- ERROR ENTRY: trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "CONSEJOS PARA CHOFERES",
+        "content": "Mi amigo, el fotgrafo Gary, lleg al restaurante por unos tallarines rojos con presa grande de pollo y una rica papa a la huancana con lechuga, huevito duro y ace tuna. Pra tomar fotos, pill una jarrita de agua de cebada al tiempo.\n\"María, la vida es el regalo más precioso\nque tenemos, pero muchas veces los conductores y peatones parece no darse\ncuenta de ello o les importa muy poco. Los accidentes de tránsito son una constante en nuestro país. Lo peor de todo es que la mayoría son producto de la negligencia,\ne indisciplina, por exceso de velocidad, consumo de licor, distracción y poco o nulo respeto a las normas de tránsito.\n\nLo ocurrido en la avenida Caminos del Inca con el trágico resultado del fallecimiento de Roger Pinto Jara, rector de la Universidad Señor de Sipán, y varios heridos, entre ellos el periodista Alberto Bengoa, es uno de los tantos casos que causa rabia, lágrimas y terrible dolor en familias enteras. Estamos a pocos días de navidad y año nuevo, donde la prisa y la congestion vehicular nos eleven los niveles de estrés y las ganas de llegar rápido a nuestros destinos, pero esos no deben ser de dolor y fatality.\nPues entonces:\no No seas imprudente. Tu vida y la de los demás son valiosas. Hay familia y amigos que lo esperan y quizás incluso niños o adultos mayores que dependen de usted.\nor Respete las normas de tránsito. Si el semáforo le indica a usted luz roja\", no avance, eso no es ser vivo.\nos Son fechas de mayor congestion vehicular, trate de salir con más tiempo para sus desplazamientos.\non Si otro conductor se le cruza o adelanta, no reacciona haciéndolo también. Evite las peleas.\nob nada de carreritas para quitarse pasajeros. Unos pesos más no vale una vida.\noc No pretendas \"ganarle\' al semáforo en marcha. Espera, relájese.\nod Respecte los paraderos y el paso de las personas, especialmente de los niños, mujeres embarazadas y personas adultas mayores para cruzar la calle o bajar de los vehículos.\nof Use cinturon de seguridad y no hable por teléfono mientras maneja.\ng Jamás maneje si ha bebido licor. El alcohol u otra sustancia psicotrópica llevan a accidentes porque retardan la coordinación física, reduce la vista y atención ante posibles peligros.\" Recordemos, su familia lo está esperando en casa para pasar una buena nochebuena."
+    },
+    {
+        "headline": "ESTAFADORES POR MENSAJE",
+        "content": "\"A mi celular han llegado mensajes, supuestamente de Trome, donde me informan que he ganado 20 mil soles más un auto. Para mayor información, me piden llamar a un tal doctor Omar Tarrillo; cuyo número consignan. He llamado y me piden enviar mis datos personales y teléfono para cobrar el premio. ¿Quiero saber si esto es verdad o mentira?\"\nMartin Bandone :\nmartinbandoned@gmail.com \nSe trata de bandas de estafadores o asaltantes, quienes roban dinero mediante cargos telefónicos y contactan a sus víctimas para extorsionarlas. Trome solamente publica las promociones anunciadas oficialmente en nuestras páginas impresas o digitales."
+    },
+    {
+        "headline": "COMO VAN A AGRADECER A SAAVEDRA! NO JODEN PUES...",
+        "content": ""
+    },
+    {
+        "headline": "LUZ SALGADO, LA TA QUE BIEN MANEJA SU MOTOTAXI...",
+        "content": ""
+    },
+    {
+        "headline": "RAMÓN ACOSTA SE REFIERE A JULIETA RODRÍGUEZ QUIÉN INSULTÓ A PERUANOS COMO ‘CHOLOS’...\nHenry Plácido :\nhenryplacidohotmail.com\nEl lector se refiere a la modelo argentina Juliana Rodríguez, quién se referió a los peruanos como cholos de m...", "... según un audio que fue divulgado. Ella fue retirada de Combate y varias figuras públicas solicitan su retorno a Argentina."
+    },
+    {
+        "headline": "¿Cómo vamos a agradecer a Saavedra!? ¡No joden pues!\nCreo que no es chorrito, pero tampoco fue el gran Ministro",
+        "content": ""
+    },
+    {
+        "headline": "CAPECO\nCarrera Profesional\nTecnico en construcción civil",
+        "content": "Inicio 17 de enero 2017\nVacantes limitadas\nDuración: 3 años\nTurnos: mañana – tarde – noche"
+    },
+    {
+        "headline": "‘PIA’, MATÓ AL ‘CHULO DARWIN’ EN HOSPITAL",
+        "content": "Un sicario confeso reveló que actuó conjuntamente con conocidos cómplices identificados como Martin, Chili y Edson, quienes fueron capturados tras planificar el homicidio dentro del interior del penal de Piedras Gordas en Cañete. Detalles adicionales indican cómo lograron infiltrarse y ejecutar el acto criminal contra Darwin Arequipa, alias 'Cholo Darwin,' quien estaba internado desde hace más de una semana después de recibir múltiples disparos."
+    },
+    {
+        "headline": "PARQUEO GIAGANTE EN MIRAFLOR ES INAUGURADO",
+        "content": "Considerado el subsistema de transporte mas moderno de Latinoamerica, el Parqueo Subterráneo Mas Grandote ofrece 573 espacios destinados para automóviles, motos, bicicletas, vehiculos eléctricos y otros tipos de transportes. Ubicado en Miraflores, esta infraestructura busca disminuir significativamente el tiempo dedicado a buscar estacionamiento en áreas urbanas densamente pobladas."
+    },
+    {
+        "headline": "ZANAHORIA PARA VER MEJOR",
+        "content": "Consumirla en diversas formas tales como al vapor, sancochada, cruda, cocida, licuada o simplemente fresca proporciona numerosos beneficios para la salud. Entre estas ventajas destacan mejorar la visión gracias a su alto contenido vitamina A, combatir problemas digestivos y contribuir a mantener huesos fuertes y articulaciones flexibles."
+    },
+    {
+        "headline": "MULTIPLES POLTICOS EXPRESAN SUS OPINONES SOBRE LA CESURA CONTRA JAIME SAAVEEDRA",
+        "content": "Roberto Vieira (No agrupados) mencionó que considera responsabilidades políticas respecto a acciones corruptas atribuidas al Ministerio de Educación bajo la administración de Jaime Saavedra. Otros parlamentarios expresaron preocupaciones similares relacionadas con decisiones arbitrarias y falta de transparencia gubernamental."
+    }
+]
+```

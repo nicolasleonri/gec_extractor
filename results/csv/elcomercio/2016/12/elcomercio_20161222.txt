@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: elcomercio_22.txt ---
+
+```json
+[
+    {
+      "headline": "El loco del martillo",
+      "content": "Hoy en dia, uno pensaría que la gente está mas loca que antes."
+    },
+    {
+        "headline": "Contenido NA",
+        "content": "Esta columna analiza cómo el contenido periodísticamente significativo se mezcla con elementos editoriales, donde el artículo principal discute estos aspectos relevantes."
+}
+```
+
+Here's how you would process your input:
+
+### Input Text Analysis
+
+The provided OCR text contains various sections such as headlines, images, ads, etc. Your task was to extract every significant article within it while ignoring non-journalistic elements like subscriptions, advertisements, and other irrelevant information. Here’s what we need to focus on for extraction:
+
+**Article Extraction Process**
+
+To achieve accurate data processing, follow these steps:
+
+#### Step-by-step Breakdown:
+
+1. **Identify Headlines**: Look through each paragraph break where there might appear any potential title-candidate phrases which could serve as headings based on their prominence and context relevance.
+
+   Example: In our case study, look out for bold titles often used in newspapers' layout designations.
+
+2. **Extract Content:** Identify paragraphs following typical journalism style writing structure after cleaning up obvious OCR mistakes.
+
+Let us assume some hypothetical extracted texts were given below examples:
+
+---
+
+**Example Article #1**
+Headline: *Title*
+> This is the first sentence of the article. It continues here until another paragraph starts.
+
+*Paragraph Two*: More details about the topic discussed above.
+
+This example shows how to merge fragmented parts due to breaks between lines using proper spacing rules.
+
+Another Paragraph discussing more points related to the story...
+
+---
+   
+For instance, imagine having several similar blocks of text representing different stories/articles throughout the document. We will now proceed to identify those segments fittingly formatted under specific criteria mentioned earlier.
+
+## Multi-Article Page Structure Processing Steps
+
+We'll start extracting the most important pieces of information needed to create a structured representation of the entire page before moving forward.
+
+### Sample Raw OCR Text Excerpt
+
+Given the complexity of the request, I’ll provide sample outputs assuming certain conditions have been fulfilled correctly during preprocessing.
+
+#

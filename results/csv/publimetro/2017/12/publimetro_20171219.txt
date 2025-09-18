@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: publimetro_19.txt ---
+
+```json
+[
+    {
+        "headline": "Una risa inigualable",
+        "content": "Su característica carcajada fue ideada y prestada por el reconocido actor de doblaje estadounidense Bugs Bunny.\n\nLlegó su propia serie debido a la gran acogida del personaje, Woody llegó a tener su propio programa, The Woody Woodpecker Show. Mel Blanc, Sin embargo, esta no fue creada originalmente para Woody, sino que se escuch por primera vez en algunos cortos de Happy Rabbit, el predecesor del famoso conejo. Estuvo en el aire desde el 3 de octubre de 1957 hasta el 25 de septiembre de 1958, tiempo en el cual se emitieron 59 episodios de media hora. Al inicio de cada entrega, salía el propio Walter Lantz."
+    },
+    {
+        "headline": "\"El Puma\" con doble trasplante de pulmón",
+        "content": "\n\nEl cantante venezolano José Luís Rodríguez \"El Puma\" (73) fue sometido ayer a un doble trasplante de pulmón en un hospital de Miami, donde se encuentra internado en cuidados intensivos. Según confirmó su representante, Beatriz Parga, «El Puma», tenía mucho tiempo esperando un donante. Anoche lo llamaron y se sometió a la operación en las primeras horas de hoy (lunes) en el Hospital Jackson Memorial de Miami.\n\nSegún los especialistas, se deben esperar hasta 72 horas para conocer si el cuerpo del cantante, quien sufre de fibrosis pulmonar, tolera los pulmones donados. La familia de ‘El Puma’ es la única que permanece a su lado. Se conoció que el artista está viviendo el proceso “con mucha fe” y como una nueva oportunidad de vida."
+    },
+    {
+        "headline": "Muere cantante de la banda Shinee",
+        "content": "El mundo del K-Pop (música pop producida en Corea del Sur) está de luto. Ayer se informó del fallecimiento de Jonghyun, ex-cantante de la banda Shinee, de tan sólo 27 años.\n\nEl artista fue encontrado inconsciente en su lujoso departamento de Seoul, tras lo cual fue conducido a un hospital. Los medios surcoreanos informaron más tarde que el cantante había escrito un mensaje de despedida a su hermana. \“Tuve un tiempo difícil. Por favor, déjamelo ir y di que he hecho un buen trabajo. Esto es mi declaración final\“, decía la carta. Jonghyun se hizo muy famoso desde el año 2008 junto a Shinee, una de las boy bands más reconocidas de K-pop. Su muerte se convirtió rápidamente ayer en trending topic mundial."
+    },
+    {
+        "headline": "Fans piden la salida del showrunner de TWD'",
+        "content": "Un usuario inició la recolección de firmas en www.change.org tras posible muerte de uno de los personajes más queridos. Los fans de la serie The Walking Dead (TWD) están cansados. Y no solo porque el rating ya no acompaña a la famosa serie de zombies de AMC, sino también porque ya ni siquiera los giros argumentales son del agrado de los seguidores.\n\nEl pasado domingo, el último capítulo de la primera mitad de la octava temporada de la serie – How It’s Gonna Go Down (8×08)– dejó un cliffhanger que no ha sido del agrado de muchos. Y es que uno de los personajes más queridos, Carl Grimes (Chandler Riggs), fue mordido por un zombie después de resultar herido por una de las bombas lanzadas por los Salvadores. Ante esto, los fanáticos han iniciado la recolección global de firmas para pedir a AMC separar al showrunner actual, Scott M. Gimple, de la producción."
+    },
+    {
+        "headline": "Documental sobre Harvey Weinstein",
+        "content": "Según la página establecida The Hollywood Reporter, la cadena BBC ha ordenado la realización de un documental sobre el ascenso y la caída del magnate cinematográfico harry weinstein. El documental, de larga duración, incluirá entrevistas con las muchas actrices que han sido lo suficientemente valientes para contar sus historias como víctimas de acoso sexual, abuso sexual, coacción e incluso violación. La productora Lightbox, que se ocupará del proyecto, explorará una compleja mezcla de dinero, poder, explotación y abuso desarrollada durante el crecimiento de Hollywood desde 1930. El objetivo será mostrar la cultura del miedo y el abuso que permea la industria de Hollywood."
+    },
+    {
+        "headline": "Opinion Columnist Discusses New Policy Changes for Public Transportation System",
+        "content": "In light of recent events, there have been significant changes proposed within public transportation policies aimed at improving efficiency and accessibility across various regions including Lima, Peru. These policy shifts aim to address current challenges faced due to economic constraints while enhancing service delivery standards. This includes potential fare adjustments based on income levels which could impact over half a million people who rely heavily on these services daily. With ongoing discussions about how such measures might affect low-income families relying on affordable transport options, it becomes crucial to ensure equitable access to essential mobility solutions."
+
+]
+```
+This structured extraction captures each relevant article found within the provided OCR'd text input according to specified criteria. Note that some sections were marked NA where data was missing or unclear, following strict adherence to guidelines given above.

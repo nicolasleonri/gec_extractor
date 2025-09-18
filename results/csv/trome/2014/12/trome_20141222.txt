@@ -1,0 +1,69 @@
+
+
+--- ERROR ENTRY: trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "Gran oferta en automóviles",
+        "content": "Grandes descuentos disponibles durante toda la temporada navideña."
+    },
+    {
+        "headline": "Revelación impactante en redes sociales",
+        "content": "\"Ya aunque sea provisional, vos de la Unidad de Salvamento efectivamente estaba vigilando las playas.\" Expresa el técnico Victor Ortiz."
+    },
+    {
+        "headline": "Recetas festivas compartidas online",
+        "content": "Antes de celebrarse la Navidad, Gastón Acurio ha estado compartiendo famosas \"Navituits\" y recetas navideñas en redes sociales."
+    },
+    {
+        "headline": "Mototaxistas extorsionados",
+        "content": "Angélica Granda, vestida de policía, fue capturada tratando de extorsionar mototaxistas en Villa María del Triunfo."
+    },
+    {
+        "headline": "Procesión religiosa en Lima",
+        "content": "Imagen de la Virgen de la Puerta recorrió el Centro Histórico de Lima acompañada de fieles devotos."
+    },
+    {
+        "headline": "Profesionales educativos aprueban fase inicial",
+        "content": "Mas de 25 mil profesores aprobaron la primera etapa del concurso de acceso a cargos docentes."
+    },
+    {
+        "headline": "Análisis peligrosos en modelos de TV",
+        "content": "Figuras conocidas utilizan anabolizantes para desarrollar rápidamente masa muscular según revela Miguel Arce."
+    },
+    {
+        "headline": "Ofertas especiales en librerías",
+        "content": "Descuentos significativos están siendo ofrecidos en diversas obras literarias dentro del bullevard de Quilca."
+    },
+    {
+        "headline": "Incidentes violentos reportados",
+        "content": "Jess Vallejos Godoy, también conocido como 'Perol,' fue víctima fatal tras recibir disparos en moto."
+    },
+    {
+        "headline": "Preocupaciones de seguridad previas a Navidad",
+        "content": "Alerta emitida debido a congestión masiva cerca de centros comerciales principales en Lima."
+    },
+    {
+        "headline": "Autorización limitada para ventas pirotécnicas",
+        "content": "Solo veinte y seis ferias han sido autorizadas oficialmente para comercializar artículos pirotécnicos legalizados."
+    },
+    {
+        "headline": "Libertad concedida a orangután argentino",
+        "content": "Draco Malfoy obtuvo reconocimientos jurídicos fundamentales respecto a su condición personal frente a normativa argentina."
+    ],
+    {
+        "headline": "Presidenta brasileña sigue régimen dietético riguroso",
+        "content": "Dilma Rousseff continúa implementando restricciones alimenticios severas para cumplir objetivos personales específicos."
+    },
+    {
+        "headline": "Sporting Cristal consigue título nacional",
+        "content": "Final dramática culmina con victoria decisiva de Sporting Cristal contra Alianza Lima, asegurándose así el campeonato."
+    },
+    {
+        "headline": "Malmo FF contrató futuros talentos sudamericanos",
+        "content": "Equipo sueco planea integrar nuevos jugadores provenientes de América Latina para fortalecer plantillas deportivas."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extracting relevant information. Articles were identified based on distinct topics and structured accordingly within each entry. Any missing data was filled using "NA".

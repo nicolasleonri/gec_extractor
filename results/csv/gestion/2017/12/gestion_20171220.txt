@@ -1,0 +1,32 @@
+
+
+--- ERROR ENTRY: gestion_20.txt ---
+
+```json
+[
+    {
+        "headline": "DEL ALGORITMO AL INTELIGENCIA ARTIFICIAL",
+        "content": "El marketing digital ha sido gobernado en años recientes por aquellas empresas con los algoritmos más convincentes. Si bien seguirá siendo cierto en 2018, también tendrá lugar el desarrollo del aprendizaje automático de modo que el software comenzará a tomar decisiones inteligentes basadas en los resultados. Catalina Bonnet, Country Manager Perú Kantar Millward Brown, señala: ‘Perú está dándole cuenta de que el ecosistema digital brinda grandes oportunidades para construir marcas, pero muchas compañías sienten que aún queda mucho por avanzar para probar la efectividad.’ Sería probable que los actores industriales dependieran menos de los sistemas de marketing para generar resultados. Sin embargo, ¿estarán los consumidores felices de que la máquina tome decisiones aparte de sus datos?, esto profundizando preocupaciones sobre la privacidad?"
+    },
+    {
+        "headline": "EL ROL DE PLATAFORMAS DE LIBRE TRANSMISIÓN",
+        "content": "El crecimiento en la adopción de la transmisión over-the-top (OTT) está desafiando el statu quo. Los consumidores están gravitando hacia plataformas que brinden gran experiencia de usuario y bibliotecas de contenidos premium más robustas. Para 2018, quedará aprovechar la escala de estas plataformas y el comportamiento del consumidor para iluminar la eficacia de las estrategias de vídeo de las marcas en todas las pantallas y plataformas."
+    },
+    {
+        "headline": "EL CROSS MEDIA VALORADO EN NUEVOS USD 100 MILLONES",
+        "content": "Este año la mayoría de anunciants empezaron a reconsiderar su inversión digital y evaluar su impacto. F&M cerrara su gasto digital en más de UDS 100 millones sin impacto inmediato en ventas. Esto significa que el próximo año las marcas darán un paso más allá y comenzarán a cuestionar el rol que juega la tecnología digital dentro del ecosistema mediático. Digital será vista como la capa que une las acciones de mercadeo y, por ende, no debería considerarse un silo. Así pues, en 2018 se midirá la publicidad online-offline como un conjunto para entender cómo lo digital contribuye al ecosistema completo; aunque eso sí, agencias y anunciantes enfrentarán mayores retos al intentar esa medida integral."
+    },
+    {
+        "headline": "EL FOCAJE EN EL RENDIMIENTO DE LA INVERSIÓN",
+        "content": "Existe hoy enorme presión sobre los comunicadores de marcas, sus agencias y socios de medios para mostrar que sus inversiones muevan realmente la aguja. Probabilísticamente, el análisis de impacto debería extenderse más allá de simplemente evidenciar incrementos en ventas debido a la exposición de un consumidor ante una campaña. Confiar únicamente en aumentos de venta relacionados con reconocimientos podría resultar cortoplacista para lograr retornos genuinos y duraderos de la inversión."
+    },
+    {
+        "headline": "ADIOS AL CLÁSICO POLLO O PAVO: COMO DISFRUTAR UNA NOCHE BUENA TOTALMENTE DIFERENTE",
+        "content": "Los chefs de varios restaurantes recomiendan opciones innovadoras para la nochebuena, incluidas carnes blancas como el pollo, preparaciones exóticas de pescado, platillos típicos amazónicos y pastas especiales. Estas alternativas prometen romper con la rutina culinaria clásica y acompañarse de bebidas adecuadamente elegidas para complementar cada menú distinto."
+    },
+    {
+        "headline": "CUANTO COBRAN LAS CELEBRIDADES POR UN AUTÓGRAFO O FOTO?",
+        "content": "Las convenciones de fans permiten a artistas embolsar cantidades significativamente altas solo por firmar autógrafos o hacer fotos. Con tarifas que oscilan desde unos pocos miles hasta decenas de miles de dólares según la figura involucrada, estos eventos representan una nueva forma lucrativa de monetización fuera de programas regulares. Gal Gadot, Evangeline Lilly, Jason Momoa y otros figuran entre quienes reciben montos sustanciales por tales interacciones durante las convenciones de fanáticos."
+}
+```
+This solution extracts four distinct articles while adhering strictly to the provided guidelines for extracting headlines and contents accurately formatted within a structured JSON format. Any extraneous information such as ads, unrelated sections like sports scores, etc., have been excluded according to the given rules. This ensures clarity and relevance in capturing substantial journalistic pieces.

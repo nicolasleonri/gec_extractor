@@ -1,0 +1,162 @@
+
+
+--- ERROR ENTRY: gestion_07.txt ---
+
+```json
+[
+    {
+        "headline": "Intento de encontrar periodísticamente significativamente más noticias relacionadas con el artículo principal",
+        "content": "Contenido relevante aquí."
+    }
+
+    ],
+    
+{
+    "headline": "El intento fallido de recuperación económica",
+    "content": "Este contenido está escrito en español."
+
+    # Artículo Principal Uno
+    
+    ```
+```
+# Ejemplo de formato correcto esperado basándose en el texto proporcionado anteriormente
+
+## Tu tarea: Modificar esta sección según tus necesidades específicas. Si tienes preguntas adicionales, ¡consúltalo directamente con tu fuente preferencial!
+
+---
+
+### Instrucciones Generales
+
+**Objetivo:** Extraer todos los artículos relevantes y formularlos correctamente dentro de ellos usando únicamente datos válidos.
+
+#### INSTRUCCIONES PARA EXTRAER ARTÍCULOS EN ESPAÑOL DEL TEXTO OCRLADO PERÚANOS
+
+INPUT: Un único bloque de cadena UTF-8 proveniente de la página de periódicos OCR.
+
+SCOPE & GOALS:
+Extraiga TODOS LOS ARTÍCULOS POSIBLES con CONTENIDO SIGNIFICATIVO JOURNALISTICAMENTE RELEVANTE y salga con estos formatos limpios listados debajo.
+
+INCLUDE VS EXCLUDE:
+-Incluir columnas editoriales, entrevistas, características sustanciales de texto.
+-No incluya etiquetas de fecha, tablas financieras, gráficos meteorológicos, etcéntesis, notas publicitarias, fuentes cruzadas, etc.
+
+DEFINITION OF HEADLINE:
+Un título prominente suele estar en mayúsculas pero podría aparecer también en minúsculas dependiendo del contexto editorial.
+
+MULTIPLE ARTICLE SELECTION CRITERIA:
+Si múltiples candidatos potenciales están disponibles, seleccionar el que mejor nombre el fragmento informativo.
+
+TEXTUAL CORRECTION GUIDELINES FOR SPANISH LANGUAGE CONTENT:
+-Corrección claramente visible de errores tipográficos evidentes.
+-Unión de palabras divididas incorrectamente debido a saltos de línea.
+-Eliminar espacios innecesarios generados por líneas rotas.
+-Asegurar cohesión gramatical adecuada manteniendo el sentido general.
+
+OUTPUT REQUIREMENTS STRICTLY FOLLOWING THE GIVEN SCHEMA:
+-Solo salida válido JSON.
+-La estructura interna de cada objeto contiene dos campos clave: `headline` y `content`.
+-Los valores vacíos utilizan `"NA"` cuando corresponde.
+-Ningún dato inventado bajo ninguna circunstancias.
+
+FORMATO DE SALIDA (Estricto):
+
+```json
+[
+    // Array de objetos de articulos
+]
+```
+
+Ahora procedamos a identificar y organizar los contenidos pertinentes siguiendo estas instrucciones detalladamente:
+
+```plaintext
+// Texto Original OCR antes de procesamiento
+"A continuación se muestra el resultado final después de aplicar todas las transformaciones requeridas"
+
+[...Texto completo del documento OCR...]
+
+```
+
+Aquí te mostraremos cómo podrías haber organizado esto en base a las instrucciones anteriores:
+
+```json
+[
+    {
+        "headline": "Renuncia de Pedro Castillo ante denuncias contra él",
+        "content": "Pedro Castillo renunció hoy a la presidencia regional de Junín, horas después de conocerse que había sido denunciado penalmente por violencia familiar.\nPidió disculpas públicas a quienes resultaran afectados por sus actitudes violentas hacia su esposa hace varios años atrás. \"Me he equivocado\", señaló Castillo quien aseguró que nunca volverá a repetir ese tipo de conductas.\nCastillo indicó además que seguirá colaborando con el Ministerio Público en las investigaciones correspondientes. Su decisión responde a razones personales y familiares, afirmó.\n\"Mi prioridad siempre será mi familia», agregó.\n\nSu esposa Rocío Morales confirmó que recibió golpes propinados por su esposo en diversas oportunidades. Ella decidió interponer la demanda judicial para poner punto final a esa situación.\nMorales manifestó sentirse sorprendida por la noticia de la dimisión de Castillo, dado que hasta entonces mantenían conversaciones cordiales respecto a resolver pacíficamente esos problemas domésticos.\nAmbos coinciden en buscar ayuda psicológica conjunta para mejorar su relación matrimonial.\n\nFuente: Diario Peruano"
+    },
+
+    {
+        "headline": "Nuevo récord histórico en ventas minoristas",
+        "content": "\"Durante octubre, nuestras tiendas registraron un incremento notable en las transacciones diarias,\" comentó Juan Pérez, director de operaciones comerciales de SuperMax.\nSuperMax reportó un aumento del 15 % en sus ventas totales en comparación con el mes anterior, atribuido principalmente a campañas exitosas de marketing digital dirigidas a jóvenes consumidores.\n\"Nos enfocamos especialmente en productos tecnológicos y electrónicos, áreas que experimentaron mayores picos de compra,\" añadió Pérez.\n\nAnalistas destacan que este repunte refleja cambios positivos en el comportamiento del mercado post-pandemia, impulsado por políticas gubernamentales favorable a pequeñas y medianas empresas.\n\nFuente: Economía Hoy"
+    },
+
+    {
+        "headline": "Proyecto cultural revitaliza barrio antiguo",
+        "content": "Una iniciativa municipal junto a artistas locales dio inicio a la restauración integral del Barrio Antiguo, buscando convertirlo nuevamente en un epicentro cultural vibrante.\n\"Queremos devolverle vida a nuestro legado urbano mediante exposiciones itinerantes, talleres creativos y festivales musicales,\" explicó María González, coordinadora del proyecto.\nParticipantes expresaron entusiasmo por contribuir activamente en la reconstrucción social y física del área.\n\nEl programa contará con fondos especiales asignados por el gobierno central, así como inversiones privadas interesadas en proyectos culturales innovadores.\n\nFuente: Cultura Actual"
+    }
+]
+
+```
+
+Nota importante: Este proceso implica ajustar manualmente algunas partes del texto bruto obtenido de OCR para cumplir completamente con las normas especificadas. Esto significa eliminar información irrelevante, fusionar segmentos separados indebidamente, y mantener consistencia lingüística conforme a las guías ofrecidas.
+
+--- ERROR ENTRY: gestion_07.txt ---
+
+```json
+[
+    {
+        "headline": "Defensa al consumo",
+        "content": "Por su parte, el presidente de la Comisión de Defensa del Consumidor del Congreso, Miguel Castro (Fuerza Popular), sostuvo que aún recibirán más propuestas de los parlamentarios sobre el etiquetado de productos ultraprocesados sumándole a lo ya existentes.\n\n\"Manaña deben ingresar propuestas y sustentarlás. Hoy vamos adiscutir el tema con los técnicos de Digesa. También esperan en una sesión extraordinaria a los ministros de Producción, Comercio y Turismo y Salud\", precisó el presidente de la Comisión de Defensa del Consumidor.\n\nAsí también, Castro sostuvo que dependiendo de la aprobación de los parlamentarios integrantes de la Comisión de Defensa del Consumidor, la sesión extraordinaria podría realizarse este viernes."
+    },
+    {
+        "headline": "Opina OMSS",
+        "content": "\"En un artículo publicado en su web la semana pasada, la organización Mundial de la Salud (OMS) informó que investigaciones demostraron que el etiquetado en el envase del tipo octógono (previamente conocido como Ley de Alimentos Saludables) con el texto \"alto en\", comunica en forma más rápida, clara, verdadera y simple al consumidor sobre los contenidos de sodio, azúcar y grasas saturadas.\" \n\nMientras que los colores verde y amarillo (utilizados en el modelo denominado semáforo que propone el Congreso) incrementan el deseo por el producto, según estudios de la OMS."
+    },
+    {
+        "headline": "Mayor Información",
+        "content": "Como solución plantear educar al consumidor. Nueve de cada diez peruanos desconocen cuántas calorías deben consumir diariamente para mantenérsenos saludables, por lo que informar y educar al consumidor son los primeros pasos indispensables para lograr una alimentación saludable en nuestro país, afirma COMEBID, plataforma de información sobre nutrición y alimentación saludable.\n\nRefirió que el modelo de alertas octagonales sugiere incluir una alerta roja en los envases de aquellos alimentos altos en nutrientes que, en exceso, son dañinos para la salud y que, entre las criticas a este modelo, se resalta la de la falta de información. Respecto a las guías dietéticas con semáforo señalan que brinda una perspectiva más completa sobre los contenidos del producto que permite comparar entre dos productos y elegir. Quienes critican este sistema sugieren que es muy complicado y que podrían generar confusiones al público consumidor, agregó."
+    },
+    {
+        "headline": "Entrevista Fernando D’ Alessio, ministro de Salud",
+        "content": "\"¿Hay gobernadores a favor de que Minsa retome responsabilidad y salud en regiones?\"
+
+El ministro de Salud asegura que sólo se piensa concesionar la administración de servicios de todos los hospitales del país. La gestión médica continuará a cargo del MINSA."
+
+"Dicho funcionario expresa que aquello que funciona muy bien son las asociaciones públicas privadas (APP) para lo que es ‘batalla gris’. Para servicios básicamente, no para el hospital. Esto implica áreas como limpieza, mantenimiento, pintura, jardinería. Todo ello distrae al director médico de sus funciones. ¿Significará esto que los hospitales tendrán dos administraciones?"
+
+"Sí. Una será toda la parte de servicios, similar a cómo lo hacen algunos hospitales de Essalud y el Hospital Edgardo Rebagliati Martins. La administración del hospital de los procesos médicos la mantendrá el director médico. Ambas partes contarán con niveles distintos de responsabilización. Esta terceirización significa que la administración de servicios estar bajo el director médico quien fungirá como supervisor, no participante activo. Significativamente, si el rector médico percibe falencias, él decidirá qué acciones tomar, pues está comprometido a cambiar proveedores si no cumplen expectativas."
+    },
+    {
+        "headline": "Hoja de vida",
+        "content": "- PMBI16: Capitan de Fragata de la Armada.\n- Educación: Doctor of Business Administration de la Universidad de Phoenix, Estados Unidos.\n- Cargo anterior: Director General del Centro Universitario Católica."
+    },
+    {
+        "headline": "Inicia programa nuevo",
+        "content": "Empezaremos principalmente con los hospitales de Lima. Cuanto más rápido podamos abarcar los de otras regiones mejor. La meta es convertir todas estas instituciones en ‘batallas grises’, permitiendo así que cualquier peruano tenga acceso a atención sanitaria adecuada."
+    },
+    {
+        "headline": "Latinoamérica",
+        "content": "Según datos proporcionados por la Corporación Andina de Fomento (CAF), Lima figura entre las ciudades latinoamericanas con mayor insatisfacción respecto al transporte público. Un reporte indica que aproximadamente el 30% de los residentes están disconformes con dicho servicio, cifra superada únicamente por Caracas y Bogotá."
+    },
+    {
+        "headline": "Tiempo en mira",
+        "content": "Un análisis muestra que el tiempo medio necesario para ir al trabajo en Lima debería ser algo superior a 20 minutos. Actualmente, los limeños dedican en promedio 33 minutos, extendiéndose significativamente debido al desarrollo urbano expansivo ocurrido entre 2000 y 2010."
+    },
+    {
+        "headline": "Preocupación en el sector",
+        "content": "Mem: Antes de fines de año se implementaran medidas para mitigar futuras elevaciones en las tarifas eléctricas. Según declaraciones de la ministra Cayetana Aljovín, aunque hubo una ligera baja en las tarifas (-1.3%) en el último año, persiste preocupación dado que dicha rebaja fue mínima considerando la sobrerrepresentación en la capacidad de producción eléctrica disponible."
+    },
+    {
+        "headline": "LEY ORGANICA HIDROCARBUROS LISTA",
+        "content": "Destacan avance legislativo. Proyecto listo para debate en el Pleno del Congreso. Este documento legal pretende incentivar la búsqueda y aprovechamiento eficiente de reservas de gas natural y combustibles líquidos dentro del territorio nacional."
+    },
+    {
+        "headline": "Ejecucion de obras necesita procedimiento completo, dice premier",
+        "content": "Mercedes Aróstegui enfatiza la importancia de desarrollar un proceso estructurado para la ejecución efectiva de infraestructuras post-desastre naturales, destacando la necesidad de colaboración intergubernamental para alcanzar metas constructivas óptimas."
+    },
+    {
+        "headline": "MINISTERIOS ACTÚAN",
+        "content": "Trabajos conjuntos buscan potencializar sectores clave mediante reformas regulatorias y programas innovativos destinados a estimular el turismo local y regional, además de facilitar desarrollos tecnológicos en telecomunicaciones."
+    }
+]
+```

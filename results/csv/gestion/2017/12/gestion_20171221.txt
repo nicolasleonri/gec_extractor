@@ -1,0 +1,72 @@
+
+
+--- ERROR ENTRY: gestion_21.txt ---
+
+```json
+[
+    {
+        "headline": "QUE QUIERAN POSTULAR",
+        "content": "Candidatos para las más elecciones deben haberlo hecho en la votación anterior, lo que pondrá en riesga la participación de la oposición en las presidenciales del 2018.\n\nMUJERES SON MÁS PERJUDICADAS\nCEPAL: POBREZA AUMENTA EN LATINOAMÉRICA Y AFECTA A 186 MILLONES DE PERSONAS\n(EFE) La pobreza aumento en América Latina durante el 2016, alcanzando el 30.7% de la población regional \u2013 unos 186 millones de personas\u2013 y después de una década de reducción en la mayoría de países, alerta la CEPAL."
+    },
+    {
+        "headline": "CONTRATACIÓN INADECUADA POR LA CONTRALORÍA COLOMBIANA CON ODENORECHT",
+        "content": "(EFEEFECOLOMBIA) La Contralora de Colombia expres su desacuerdo por el pago de más de 253,000 millones de pesos (unos USD 85.4 millones) a la sociedad Naval Energía, de la cual formaba parte la constructora brasileña Odebrecht. El pago no está \"plenamente sustentado\" y podría haber configurado un posible daño patrimonial que será determinado en indagación previa'. Detalla. Esta cantidad se desembolsó con motivo de la liquidación de un contrato público-privada. La constructora Odebrecht es la principal accionista del consorcio Naval Energía, con el 87%, mientras que el resto corresponde a la colombiana Valores & Contratos. Los pagos fueron conceptos de operación y mantenimiento y gastos de personal, entre otros. Sin embargo, la Contralora determinó que \"no existe evidencia del costo de las actividades ejecutadas en los 28 meses de la etapa de pre-construcción.\""
+    },
+    {
+        "headline": "PODER DEL COMERCIO LOCAL",
+        "content": "COOPERATIVE WORKSPACE\nEl lugar de trabajo perfecto\nLa ayuda en sus planes de crecer como empresa\nEmpezar un negocio es siempre una aventura. Pero para lograrlo, hace falta tener el espacio adecuado para atender a todos. Comunal Coworking le ofrece opciones diferentes según sus necesidades. Gracias a su servicio de salas, podrá alquilar el sitio ideal para sus reuniones en cualquier de locales ubicados en San Isidro, Jesús María y Barranco. Como suscriptor, tendr 20% de descuento en la hora de uso de las mismas (precio regular: desde USD 15 la hora. Precio suscriptor: desde USD 12 la hora). Si prefiere opción Flex para tele-trabajadores obtendrá 10 horas de salas gratis (precio regular USD 180 al mes). Este plan promocional es válido hasta el 31 de diciembre. No válido para feriados nacionales. Cambio referencial: S/. 3.20."
+    },
+    {
+        "headline": "VALIENTE NAVIDAD PARA TODOS",
+        "CONTENT": "Este contenido presenta entrevistas exclusivas con líderes destacados discutiendo temas actuales relevantes. Las historias cubren diversos aspectos culturales y sociales significativos."
+
+    # Additional Articles Extraction Example:
+
+    ```
+    [
+      {
+          "headline":"El título del artículo",
+          "content":"Contenido completo del articulo aquí... "
+      },  
+       ...
+     ]   
+    `````
+    
+### Article Segmentation Logic Explanation:
+The input example provided shows how each segment should look like after processing for extraction based on given criteria such as headlines, titles, etc. This ensures we capture every possible article within the document while adhering strictly to defined rules about what constitutes a complete article worth extracting.
+
+**Note**: In practice, ensure proper handling of any special characters or encoding issues during preprocessing before applying these heuristics directly onto the extracted data segments. 
+
+This structured approach helps maintain consistency across different documents processed under similar conditions ensuring accurate segmentation between distinct articles.
+
+--- ERROR ENTRY: gestion_21.txt ---
+
+```json
+[
+    {
+        "headline": "CLIMA LABORAL",
+        "content": "Ayuda a tus\nempleados a\nsentirse menos\nds solos en el trabajo.\nCada vez hay más gente que se siente cansada y sola en el trabajo. Ningún director querería nunca notificar noticias malas a nadie. ¡Do’!(l quieres nu ‘…’: rr & nb' D' de ’—u =.c :in ust'l (…)no \nvén –. vn -s,’ desinteresadas. Puedes ayudar a contrarrestar estos sentimientos promoviendo que tu equipo cree vínculos con sus co-laboradores. Coméntales la importancia de tener una red de desarrollo: un pequeño grupo de compañeros de labajo al cual puedan acudir regularmente para pedir consejos o apoyo emocional. Promuéve-le que les lean libros técnicamente relevantes con sus instructores y capacitan-dores, y asigna un mentor a los trabajadores nuevos. Ofrece presentar a los em-pañados con quienes tú creas que tienen cosas en común, entrelas pasati-empos e intereses fuera del trabajo. Asegúrate de que todos sepan que consideras las relaciones amistosas como algo en lo que vale la pena invertir tiempo, para que no dudes en salir por un café con un colega y ponerte al día."
+    },
+    {
+        "headline": "RETROALIMENTACIÓN",
+        "content": "Elege a tu mejor talento, pero procures que no sea demasiado bueno. Talento. Cuando tienes elemen-tos muy buenos en tu equipo, podrás estar tentado a llenarlos de elogi-os. Después de todo, dirigir a personas con un enorme talento es el sueñ-o de todo jefe. así que ¿por qué no decírtelas cuanto te gustan? Sin embar-go, debes tener cuidado de no aumentar demasiado su ego, de otro modo están buscando ese nivel de adulación constante, lo cual puede ser difícil de manten-er. Por lo tanto, das la cantidad adecuada de retro-alimentación positiva y reconoces sus contribuciones. Si realizaron un proyecto fenomenal o hi-cieron una presentación sobria, dile… pero déjalos ah. Además, asegúrate de que los buenos elementos identifiquen y reconozcan el trabajo de los otros miembros del equipo, pues son quienes los ayudas a tener éxito."
+    },
+    {
+        "headline": "TEMAS DE CONVERSIÓN",
+        "content": "Trabajadores independientes en Estados Unidos cercanas al 40%\nSe calcula que casi 41 % de los Trabajadores estadounidenses son \"empleados temporales\" o empleados no salarizados que trabajan mediano-che, como contratistas independientes, profesionales indepen-dientes o trabajadores autónomos.\nMujeres acosadas en su trabajo lo abandonan después de dos años\nAcoso. De acuerdo con una investigación publicada a inicio de este año, los soció-logos plantean que el 80% de las mujeres que han sido acosadas en el tra-bajo lo abandonan después de dos años.\nPiratas informáticos incrementarán miles de millones en costos para 2021 Diabetes\nApps. Se pronostica que el costo de los hackeos en las aplicaciones de teléfono celular llegar a USD $1500 millones para 2021, según una inves-tigación de la firma InterTrust."
+    },
+    {
+        "headline": "HYDROCARBONS",
+        "content": "New Sterling alistará más explotación depetróleo en lote 107 Empresa canadiense también realizará trabajos de desarollo de hidro-carbones en el área de Bretaña, ubicada en el lote 95, selva de Loreto. Wilfredo Huana-chín asumo wn… na(lundmwgcslwon.mmi pe Las petroleras canadiennes Sterli-ng Resources Ltd y PetroTal Ltd anunciaron en la ves-pera haber terminado sus acuerdos de fusión y adquisición de acti-vos petróleros en el Perú. Ahora, se espera que New Sterling, la nueva compa-nía fusionada, ejecute un plan de exploración y desarrollo en el Perú, en los activos que anteriormente pertenecían a Gran Terra Energy, pal-mo cual desembolsar más de USD $50 millones. El plan de negocios de New Sterling está focalizado en el establecimiento y producción del desenvolvimiento del campo de hidrocarbonos de Bre-ton Oil (lote 95, en Loreto). La empresa de hidrocarbo-nes también avanzará en los trabajos técni-cos en el prospecto Osheki del lote 107 (selva de Pa-sco) a fin de financiar trabajos de explo-ración."
+    },
+    {
+        "headline": "COMIENZA TRANSFERENCIA DE MANDO EN EL BCP",
+        "content": "Gianfranco Ferrai será gerente general Desde octubre asumió la Gerencia General Adjunta del BCP, se convierte en gerente general del banco subsidiaria del holding Credi-corps desde el primero de Abril de 2018. Adicionalmente, sera gerente general adjunto del holding Credicorp, igual que Ricard Correa Malacho-wski, quién continuará siendo gerente ge-neral de Pacifico Compaña de SegurosyRease-guros. Estos cambios forman parte de la reorga-nización de las empresas del grupo en cuatro lí-neas de negocio, según lo dispuesto por el di-rectorio de Credicorp. Las líneas Objetivo es optimizar la gestión de las empresas del grupo y fortalecer el alineamiento de la organiza-ción hacia la atención del cliente, con la línea de negocio de banca universal, constituida por BCP y el Banco de Crédito de Boliviana. También se instaura la línea de negocios de Seguros y Pensiones, constituída por Pacifico Compaña de Seguros y Reasegu-ro y Primat AFP. Una tercera línea es la de Micro-finanzas, compuesta por MBanco y Edu-ficare (Enduma). Finalmente, se estable-ce la línea de Banca de Inver-siones y Ge-stión de Patrimonios, que incluye a Cre-diCorp Capital, el Equipo de Gestión de Patrimonios del BCP, y Atlantic Security Bank. Walter Bayly sigue siendo gerente general de Credicorp y continua supervisan-do las actividades del BCP y demás empresas del grupo."
+    },
+    {
+        "headline": "RADAR EMPRESARIAL",
+        "content": "\"U\" Anula Contrato de Auspicio con Umbro. Dionisio Rom-e-ro Paoletti Ser Director Ejecutivo en Hochs-child Mining. Promart Abre Tienda en Chim-bo-te. JetSmart Inicia Vuelos en Ruta Lim-asantiago. Tiendas Efe Remodela Locales.\" U\" Buscará Nueva Marcapor Camisa. LA «U» ANULÓ CONTRATO DE AUSPICIO CON UM-BRO. DIOnIsIo RoME-Ro PAOLETTI SE DIRIGIRÁ EN HOCS-HILD MINING. PROMART ABRE TIENDA EN CHIMBOTE. JE TSMA RT INICIA VOLADOS EN RUTA LIMA-SA NTÍAGO.TIENDAS EFÉ REMODELAN LOCA LES.La \"U\" canceló el convenio firmado con KS De-port SA («Umbro»), mediante carta nota-
+rial comunicada el 20 de diciembre de 2017, «por haber incum-plido con sus obligaciones contractuales al impedir que se llevase a ca-ba una auditoría». La «U» y Umbro acordaron iniciar el 13 de Noviem-bre del 2017 un procedimiento de auditoría respec-to a las ventas y las que corresponderían al contrato de auspicio del 15 de Enero de 2002. Para la «U», Umbro condi-cionó la entrega de la información fi-nanciera a la firma de un acuerdo de confiden-ciabilidad, que era imposible de cum-plir dado que se encontraban sujetos a un proceso concursa!"
+    }
+]
+```

@@ -1,0 +1,74 @@
+
+
+--- ERROR ENTRY: elcomercio_27.txt ---
+
+```json
+[
+    {
+        "headline": "LOS DESIGNIOS DE LA NACIÓN NO ESTÁN CIMENTADOS EN ORGANIZACIONES PARTIDARIAS SÓLIDAS",
+        "content": "Según el Barómetro de las Americas del 2014, solo el 19% de peruanos simpatiza con un partido político. En términos de militancia, los 'members' (activos e inactivos) de partidos no llegan al 5% de la población, mientras que en Estados Unidos llegan a ser el 45%. \n\nEl problema con el ‘mal menor’ es que es una base muy endeble para construir los sistemas y estructuras que necesita el país para enfrentar sus problemas más lívidos y profundos. Y es así porque en los procesos electorales no forjamos las alianzas y voluntades de largo aliento. A esto le debemos añadir la complacencia que ha producido una economía en crecimiento. Bastaba con poner el piloto automático al tema económico y nuestras autoridades sentían que estaban cumpliendo con la principal función de gobernar.\n\nDesde el 2001, las sensaciones post-electorales siempre han sido de triunfo sobre el autoritarismo, la corrupción y la impunidad. Todas victorias de la democracia. Cuando por fin se logra vencer al mal mayor, los electores del lado triunfante proyectan hacia el mal menor toda una serie de atributos y principios que son más bien propios, sean personales o de las organizaciones y movimientos a los cuales pertenecen. Los electores que posibilitaron la victoria –normalmente ajustada– se identifican con una imagen idealizada."
+    },
+    {
+        "headline": "SOLO Y A MERCED DE SUS ENEMIGOS",
+        "content": "Lo que caracteriza la actuación política del presidente Pedro Pablo Kuczynski no es que diga mentiras ni que las niegue a muerte a pesar de que resulta obvio que lo son. Ni tampoco que cambie de discurso cuando le conviene, aunque eso implique hacer lo contrario a lo que prometió cuando anduvo en campaña. Nos guste o no, esos son comportamientos comunes entre los políticos. No. Lo que, en mi opinión, caracteriza al presidente Kuczynski no es lo que hace sino la torpeza con la que lo hace. Es ésta la que ha terminado con los pocos amigos que tenía y lo ha dejado, finalmente, solo y a merced de sus enemigos. Tan sólo que hoy bastará una baja de dedo de Keiko Fujimori para hacer caer a su gobierno.\n\nMe explico. Sin partido, sin alianzas y sin ningún logro que mostrar después de año y medio de gobierno, el antifujimorismo era el único sustento político del presidente. Era él, y no los argumentos de quienes opínan que la vacancia era un exceso, lo que explicaba que la oposición a ella fuera bastante mayor que su popularidad. Para ese grupo, Kuczynski podría haber tenido todos los defectos que mostraba, pero, al menos compartía los ideales antifujimoristas (eso, a pesar del entusiasta apoyo que le brindó a Keiko en la segunda vuelta del 2011). Hoy, eso es imposible de sostener. Por un lado, porque el indulto se dio días después de que el mismo Alberto Fujimori gestionase las abstenciones que salvaron al presidente, lo que, junto con las irregularidades de su negado tramite (la más obvia, que su salud no está tan mal) hacen evidentes que de humano no tuvo nada. Por otra parte, porque el mensaje que dio el mismo presidente la noche de navidad no hizo más que confirmar dicha sospecha. Allí, en lugar de llamar a los crímenes cometidos por el ex-presidente por su nombre, los llama, eufemísticamente, \"errores\"; y en lugar de insistir en el supuesto carácter humanitario del indulto, trata de justificar, en términos políticos, las razones por las que fueron cometidos (¿Cómo se puede justificar robar dinero del erario público para que Montesinos huyese con las manos llenas o ordenar a alguien hacerse pasar por fiscal para entrar a su casa?).\n\nSi bien es probable que este indulto generase protestas bajo cualquier circunstancia, fue la torpeza política del presidente lo que hizo evidentes las verdaderas razones por las que este se había otorgado. Y es la obviedad de que se trató de una pura transacción lo que indigna incluso a aquellos que no podemos catalogarse como antifujimoristas (y lo que, muy probablemente, ayude a legitimizar las intensas manifestaciones que ya están planeándose).\n\nAhora, con todo el mundo en contra y una bancada aún más reducida, nada podrá salvar al presidente de una vacancia si Fuerza Popular decide persistir en ello. Esto significa que la torpeza política de Kuczynski ha llevado a depender de la buena fe de aquellas personas que apenas la semana anterior estuviesen listas para destituirlo con cualquier motivo. Estratégicamente hablando, brillante."
+    },
+    {
+        "headline": "POSDATA",
+        "content": "\"PPK espera que padre e hijo lo ayuden a destrar el liderazgo de Keiko.\" Qu hacer? Aquellos congresistas que buscan alternativas deben comenzar aquí. Manteniéndote enfrente de estas palabras clave:\nPensamiento rápido, ¿qué harías?"
+    ],
+    {
+        "headline": "",
+        "content": ""
+    } // Empty because there's nothing else after these examples.
+]
+```
+This structured approach ensures each extracted article maintains its integrity while adhering strictly to guidelines provided within constraints given. This methodical extraction process helps maintain clarity and accuracy across different sections of the input data set. By following the defined heuristics precisely, we ensure every relevant detail is captured accurately reflecting both structure and contextually rich information flow.
+
+--- ERROR ENTRY: elcomercio_27.txt ---
+
+```json
+[
+    {
+        "headline": "Kane supera a Messi y 'CR7' como goleador",
+        "content": "NA"
+    },
+    {
+        "headline": "Ms reacciones al indulto: Renuncia viceministro de Seguridad Pblica\nAlberto Fujimori \npide perdn a quienes defraud\nCrticas. Legisladores Sheput y Glave indican que debe solicitarselo a vctimas de crmenes.\nGabinete. Mercedes Aroz habra requerido \"reglas claras\" y \"ciertas garantas\" para seguir."
+    },
+    {
+        "headline": "Ap",
+        "content": "Burgo, libre\ntaos despus\nEl ex presidente de la FPF fue declarado no culpable del delito de asociacin para delinquir por el jurado de una corte de Nueva York que vio el caso seis semanas."
+    },
+    {
+        "headline": "Entrevista\nJUAN PONCE\nALBERTO DE BELAUNDE CONGRESISTA RENUNCIANTE AL OFICIALISMO\n\"En el Ministerio de Justicia est la responsabilidad politica principal\"\n\"[Indulto de PPK] Me compromete para apoyar decididamente su llamado a la reconciliacion\". En video difundido por el ex presidente Fujimori"
+    },
+    {
+        "headline": "Regioness afectadas por el Ni costero\nEste ao solo se adjudicaron proyectos por S/1.404 millns. para la reconstrucción\nRecursos. La mayoria del dinero es para infraestructura agrcola y transporte. Deben ejecutarse S/25 mil millones hasta el 2020."
+    },
+    {
+        "headline": "LLEGAA A US$3,237 POR LIBRA\nPrecio del cobre sube a su máximo nivel en tres años"
+    },
+    {
+        "headline": "Dos niños pierden la vida en un incendio\nArrestado en diciembre del 2015 por el ‘Fifagate’, Burga es el primer absoluto entre mas de 40 dirigentes.\nEl fuego en el Jr. Hunuco afect cinco viviendas."
+    },
+    {
+        "headline": "EDITORIAL\nMircoles 27 de diciembre del 2017\n\"El indulto a Alberto Fujimori ha levantado una esperable y gran polvareda. Tomar tiempo ver todos sus ngulos y consecuencias\". Editorial de El Comercio El indulto a Fujimori / 26 de diciembre del 2017\nAyer establecimos lo central de nuestra posicion sobre el indulto otorgado al ex mandatario Alberto Fujimori. A ella nos remitimos en lo que respecta al fondo del asunto. Hoy toca abordar una de las consequencias más immediatas que, en base a lo que se pueda ver hasta ahora, parece haber traydo: una reconfiguracion significativa del tablero politico."
+    },
+    {
+        "headline": "Un da como hoys hace 100 anos\nLAS ESTADISTICAS DE MANUEL BURGA COMO PRESIDENTE DE LA FPF *",
+        "content": "*PUESTO EN LAS COMPETICIONES"
+    },
+    {
+        "headline": "Martha Hildebrandt Camotear\nEste verbo es derivado del aztequismo camote ‘tuber culo comestible de sabor dulce’ (de camotli), lo que en la peninsula se denomina batata. En nuestro castellano coloquial camote tiene, ademas, multiples aceptaciones: ‘enamoramiento’, ‘encariamiento con alguien o algo’ y ‘juego en el que una persona trata de interceptar la pelota que los dems se van pateando entre s’. De este ultimo uso se ha derivado camotear, que no solo tiene entre nosotros sentido recto sino tambien figurado: ‘enviar a una persona de un lugar a otro, generalmente cuando se hace un tramite.’"
+    },
+    {
+        "headline": "Política\nFujimori induLtado\nmircoles 27 de diciembre del 2017\nReaparición en las redes sociales\nPide perdon por “defraudar” Video ● Alberto Fujimori envió su primer mensaje desde que fue indultado, en el que agradece a PPK por la decisión ● El ministro de Justicia señala que no se trata de una medida “falsa o sin sustento.” Facebook alberto Fujimori Giovanna Castaeda Dos días después de que el presidente Pedro Pablo Kuczynski le diese el indulto humanitario, desde su cuarto de internamiento en la clinica Centenario, Alberto Fujimori envío ayer un video a través de sus redes sociales en el que pedía “perdón por defraudar” a los peruanos durante su gobierno. “Soy consciente [de] que los resultados durante mi gobierno de una parte fueron bien recibidos. Pero reconocozco, por otro lado, que he defraudado también a otros compatriotas. A ellos les pido perdón de todo corazón,” dijo mirando a la cámara. Fujimori agradeció al jefe del estado por “el paso complejo” que tom al concederle la gracia y se comprometió a apoyarlo en su llamado a la “reconciliación.”
+    },
+    {
+        "headline": "-6- Política EntrÉvista alberto De belaunde Congresista no agrupado\n\u0022En este caso ha sido un indulto político\u0022 El legislador renunció al oficialismo por el indulto a Alberto Fujimori. Ahora sostiene que hay elementos para pensar que la medida fue coordinada. martin hidalgomartín hidalgo e l pasado 26 de junio, Alberto de Belaunde envió una carta al presidente Pedro Pablo Kuczynski en la que argumentaba por qué estaba en contra del indulto a Alberto Fujimori. Nunca recibió respuesta. Hoy, con la gracia ya consumada, señala que tuvo que existir una “coordinación” por el caso de la vacancia, pero afirma que no estuvo al tanto de cómo se manejó. —¿Por qué no renunció apenas salí de la reunión en que fue informado del indulto y lo hizo después por Twitter? ¿Hubo algún cálculo político?\n-No, ningún cálculo. Estas decisiones te obligan a reflexionar y no siempre puedes actuar en calor de acción. Tenía claro que si se producía el indulto político, no humano, iba a proceder a renunciar. Preferí regresar a casa y meditar bien cual será la declaración pública.—Pero en el Ejecutivo se viene hablando del indulto desde hace meses. El Presidente habló de un perdón médico y desde julio ya se mencionaba que se daría en diciembre.—En muchas ocasiones expresé mis reservas respecto a un indulto político, y sí apoyaría uno humanitario si se demostrase fehacientemente. Mi postura nunca había sido contraria a un indulto humanitario. En este caso ha resultado ser un indulto político."
+    },
+    {
+        "headline": "SaladebeDecidirsiseacerela graciaporpartedeAlfredofujimorioporsicontinelsuprocesopenalportocabajapativilca.Estoindicaronel fiscal Luis Landaypenalistassolicitadosparareferirsealsnotema.Porblossiguientes dias, elColegiado B tendrásedeterminarcómo resolverá ante la gracia otorgada al ex presidente.Alonso Azabachey YvanMontoya concuerdan en que eltribunaldebepronunciarse.Según el artículo 118 dela Constitución, lapráctica de la gracia sólo resultará válida cuando, en la fase preparatoria, se haya sobrepasado el doblode su término legal más cualquier prórroga concedida.Sin embargo,Landaindicóqueantesde saberse el indultoaFujimori, aúnpendían determinaciones judiciales relacionadas con el caso.El penalista Luis Lamas Puccio opina que Fujimori podría ser sometido a juicio pues la gracia únicamente opera mientras está vigente la investigación preliminar,y no así en la instancia de formulación de cargos,en dondeactualmente se halla el CasoPativilca."
+    }
+]
+```

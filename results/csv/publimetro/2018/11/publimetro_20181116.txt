@@ -101,3 +101,48 @@
     }
 ]
 ```
+
+--- ERROR ENTRY: publimetro_16.txt ---
+
+```json
+[
+    {
+        "headline": "\"El Chapo\" implicado en sobornos",
+        "content": "No\nEl extierder del Cartel de Sinaloa \"\n‘’El Chapo\'Guzmán.\nsegún explicó Jess ‘’El Rey’’ Zambada García ayer que pagó sobornos a autoridades mexicanas en nombre del Cartel de Sinaloa y, personalmente, de Joaquín ‘’El Chapo’’ Guzmán. Zambada reveló que hizo pagos a diversas autoridades, entre ellas a un general, al que le entregó 100 mil dólares el 2004."
+    },
+    {
+        "headline": "Theresa May defiende el acuerdo del Brexit'",
+        "content": "Ante las criticas,\npresidente britnica afirmó que su país podría retomar el control de sus finanzas y leyes. La Primera Ministra Británica Theresa May dijo ayer ante el Parlamento de Londres el acuerdo preliminar del ’Brexit’, alcanzado el pasado martes con la Unión Europea (UE), pese a las criticas y renuncias de dos ministros de su gobierno. “Voy a dirigir este proceso, no pienso dimitir\", afirmó. Además, señaló que el borrador difundido, el cual determina la salida del Reino Unido de la UE y su futura relación comercial, es “el mejor pacto posible.” "
+    },
+    {
+        "headline": "Hubo más de 2.700 femenicidios en América Latina y el Caribe el año 2017",
+        "content": "Al menos 2.795 mujeres fueron víctimas de feminicidio en 23 países de América Latina y el Caribe el 2017, según cifras oficiales de la Comisión Económica para América Latina y el Caribe (CEPAL). Según el informe, México lidera la lista de feminicidios con 1.133 victimas confirmadas. Sin embargo, al analizar los feminicidios por cada 100 mil mujeres, El Salvador aparece como el país más violento, con una tasa de 10,2 casos. Le siguen Honduras, con una tasa de 5,8; Brasil con 2,6 y República Dominicana con 2,2."
+    },
+    {
+        "headline": "Andy Warhol en el Metro de Nueva York",
+        "content": "Las paredes de algunas estaciones del metro de Nueva York fueron decoradas recientemente con carteles publicitarios anunciando una nueva retrospectiva, la mayor en 30 años, del artista estadounidense Andy Warhol en el Museo Whitney de Arte Americano. La exhibición Andy Warhol–From A to B and Back Again se inaugurará el próximo mes y permanecerá abierta hasta el 31 de marzo del siguiente año. Las obras del llamado padre del Pop Art forman parte de esta exposición."
+    },
+    {
+        "headline": "Alemania golea 3–0 a Rusia en partido amistoso",
+        "content": "Alemania goleó 3–0 a Rusia en partido amistoso jugado en Leipzig, con goles de Leroy Sané (8'), Niklas Süle (28') y Serge Gnabry (40'). Por otro lado, Inglaterra también obtuvo victorias significativas durante estas fechas internacionales."
+    },
+    {
+        "headline": "Ecuador derrota a una enredada selección peruana",
+        "content": "Ecuador derrotó a una enredada selección peruana, que no fue capaz de generar situaciones de gol. Desde el pitazo inicial, el equipo visitante mostró un planteo defensivo, dominándose el encuentro mientras Peru buscaba sin éxito penetrar la sólida línea defensiva ecuatoriana. Finalmente, Ecuador selló su victoria gracias a goles de Ángelo Preciado y Enner Valencia."
+    },
+    {
+        "headline": "Cómo superar una adicción a los alimentos",
+        "content": "Superar una adicción a los alimentos puede convertirse en un gran desafío. Muchas veces somos influenciados por factores externos tales como el marketing alimenticio, que afecta tanto nuestros hábitos diarios como nuestra salud física y emocional. Esta situación requiere comprender cómo actúan elementos como el azúcar, los carbohidratos refinados y las grasas trans dentro de nuestro cuerpo, provocando respuestas similares a las de cualquier droga debido a la activación de neurotransmisores como la dopamina."
+    },
+    {
+        "headline": "Colaboración musical en nuevo show de Cecilia Barraza",
+        "content": "La intrprete criollo-celebra Cecilia Barraza presenta Compartiendo, un nuevo espectáculo en el que tendrá como invitadas a jóvenes talentosas como Maritza Rodríguez, María Padilla y Larissa Sánchez. Los eventos están programados para realizarse próximamente en el Teatro Mario Vargas Llosa de la Biblioteca Nacional."
+    },
+    {
+        "headline": "Celebrando 90 años de Mickey Mouse",
+        "content": "Este domingo 18 de noviembre se cumple 90 años de la primera aparición pública de Mickey Mouse. Celebraremos su trayectoria explorando su evolución histórica, así como actividades especiales organizadas localmente para rendir homenaje a este emblemático personaje de Disney."
+    }
+]
+``` 
+
+This JSON structure captures each identified article based on its headlines and contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were segmented according to their distinct topics and relevant details within the given input data.

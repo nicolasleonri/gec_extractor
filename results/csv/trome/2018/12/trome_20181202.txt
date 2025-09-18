@@ -1,0 +1,85 @@
+
+
+--- ERROR ENTRY: trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "Actor Peruano De ‘América’s Got Talent’ Está “Impedido”: Podría Perder La Vista Y Ruega Por Ayuda",
+        "content": "“…queda ciego\njaladerón en una agencia\nde viajes y gana \$2050\ndías.\nEste banquero venezolano,\nSebastian Martinez (65)\npuede perder la vista debido a complicaciones médicas."
+    },
+    {
+        "headline": "Pancholin Vs. Chotillo (II)",
+        "content": "\"‘Doctorcito’, la envidia es el mal de \nmuchos peruanos, lo ves en tus ojos, nunca serás como yo, aunque tengas un Audi, Lexus, Porsche, el cuello lleno de oro, eres pantera, no tienes sangre ni carisma para las chicas, todas te ven como ‘montaña’, ‘punta’, ‘patron’. Cuando tienen relaciones sexuales contigo, piensan en otras personas, deben tomarse algunos tragos para poder besar y cerrar los ojos para imaginar algo más excitante.\" \"¡Qué triste es tu situación actual!\nPasan los años y todavía sigues esperanzándote en historias antiguas, mientras tanto, tú mismo has caído en decadencia, parece que estás cansado, apagado, y prefieres estar rodeado de jóvenes guapos en clubes nocturnos, disfrutando de momentos únicos alejados de curiosos indiferentes.\" «¿Cómo podré superarlo?» preguntas, recordando cómo alguna vez compartiste experiencias memorables con figuras icónicas, pero esa época ya terminó. Ahora debes enfrentar la realidad tal como está. "
+    },
+    {
+        "headline": "Alertas y Denuncias Al Whatsapp",
+        "content": "'\"Casteda malgasto el dinero\": Un ciudadano preocupado señala que el anterior alcalde de Lima, Luis Castaeda, desperdicio fondos públicos innecesariamente. Otro denunciante reclama sobre irregularidades en servicios de transporte público, destacando incidentes frecuentes de conductores irresponsables y precios injustificados."  
+    },
+    {
+        "headline": "Disfruta Tu Navidad",
+        "content": "Regalo especial navideño: Devolución completa de consumo realizado en diversos establecimientos seleccionados durante diciembre. Participación simple requiere visitar puntos específicos y registrar información online. Premio incluye 25 sorprendentes ganadores revelados próximamente."
+    },
+    {
+        "headline": "Actualidad): En La Cabecera",
+        "content": "Trágico evento ocurre cuando taxistas son víctimas mortales de criminales audaces. Incidentes violentos también afectan comerciantes locales, evidenciando aumento alarmante en actividades ilícitas. Situaciones similares reportadas en distintas zonas muestran peligros latentes en áreas cotidianas."
+    },
+    {
+        "headline": "Entrevista Gerente General De Industrias San Miguel",
+        "content": "Gerenta General comparte perspectivas inspiradoras basadas en trayectoria profesional marcada por innovación constante y liderazgo efectivo. Destaca importancia de perseverancia y visión estratégica en contextos adversos, enfatizando roles clave de integridad y compromiso ético en negocios contemporáneos."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on distinct topics and narrative structures within the input data.
+
+--- ERROR ENTRY: trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCUTOR DEL MÁRTILLO",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "CONTENTO POR FIN DE CUARENTENA!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "URGENTE: SE BUSCA PERRO PERDIDO. RECUPERACIÓN: 500 SOLES.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamán ordenó..."
+    },
+    {
+        "headline": "\"¡QUÉ BUENO!, ¡CUÁNDO ME CASO?",
+        "content": "Importa el sexo, todos sus problemas tiene solución."
+    },
+    {
+        "headline": "¿COMO RETENER A MI PAREJA?",
+        "content": "Invoco a poderosos espíritus a mí mismo y al propio demonio para amarrar, dominar y atraer al ser querido instantánea y permanentemente."
+    },
+    {
+        "headline": "Recupera el amor imposible sin daño..Para siempre",
+        "content": "La única que hace Amarre Dominando cuerpo y voluntad si te humilla, te desprecia, te miente, te es infiel."
+    },
+    {
+        "headline": "MICHELLE CALDERÓN RESTÓ IMPARCIALIDAD A ADVERTENCIA DE DIANA SÁNCHEZ",
+        "content": "Va a recibir una carta notarial por hablar de algo personal y hacer bromas que no tienen nada qué ver con el programa...yo no expuso mi vida privada aquí estando con diferentes personas, lo otro es algo particular y privado.”
+    },
+    {
+        "headline": "Educación",
+        "content": "Admisión Marzo 2019 Pedagógico NICOLás Copérnico"
+    },
+    {
+        "headline": "Cartón Humano",
+        "content": "Daniel (37).—Doctora Carmen, necesito de su ayuda para encontrar a una buena mujer y de sus consejos para prosperar al lado de ella, porque siento que he fracasado en el terreno sentimental."
+    },
+    {
+        "headline": "Que Significa Tu Nombre?",
+        "content": "De origen bíblico, ‘La poseedora de la gracia de Dios’. Siente gran entusiasmo por todo lo noble y bello, Tiene grandes aspiraciones para su vida, en el amor, busca a un hombre inteligente y culto."
+    }
+]
+```
+This JSON captures each identified article based on headlines followed by their respective contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles lacking explicit headings have been assigned `"NA"` where applicable. Any non-article sections such as schedules were excluded according to scope definitions.

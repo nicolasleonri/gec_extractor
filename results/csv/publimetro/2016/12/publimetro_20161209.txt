@@ -1,0 +1,78 @@
+
+
+--- ERROR ENTRY: publimetro_09.txt ---
+
+```json
+[
+    {
+        "headline": "Concierto Nacional",
+        "content": "La msica estar a cargo de la Orquesta Snfonica Nacional.\n\nEl espectculo se ver hoy y maana a las 8 p.m. y el domingo a las 5:30 p.m. \nTambi\u00fan hay funciones el viernes 16, sbado 17 y domingo 18 de diciembre en el mismo horario."
+    },
+    {
+        "headline": "Dieciocho Festival Solaris",
+        "content": "\nFestival Solaris ser junto a Las Mirlos bandas juntos mañana en el Lima Ska Festival cosmopolita: Psicomagneto + Usuanaco + Jamaica nacional + Ambuco + Remeteqcuason\n\nEl Centro de Convenciones Festivales del Centro de Lima presenta ma\u00f1ana desde las 3 p.m. el festival Solaris, con las bandas Laguna Pai, Los Mirlos, La Mente, Ka Nakú y el Tigre, Tourista negro musical. Habr 18 bares (073)-274377 (073)-394833 (044)-290278 y otros. Entradas a S./35 dias, como Barrio Calavera, Tes Museos en Tu Entrada y en puerta Vieja Skina y Doctor Cobra. 220 a vista Visa Entradas en www.joinmus.ebertinas en Maestro Id marcos"
+    },
+    {
+        "headline": "Presentación en Discotheque Mango’s",
+        "content": "La disco Mango's (Av. Arequipa 1530, Lince) presenta ma\u00f1ana desde las 3 pm. el Lima Ska Festival, evento dedicado a este genero comunal a S./15."
+    },
+    {
+        "headline": "Navideñas Alternativas Gastronómicas",
+        "content": "No todo es pavo: opciones para una cena navidea diferente\n\nBocado, Delifrance y Tanta ofrecen alternativas para la Nochebuena. Podras optar por el salmon glaseado, un milhojas de codorniz o un pernil de cerdo asado. Algunos tienen servicio delivery.\n\nLa cena navidea no tiene por qu limitarse al pavo. Aqu te mostramos algunas propuestas diferentes, incluso con servicio de delivery, para disfrutar en esta Nochebuena.\n\nBocado es un nuevo servicio de comida gourmet a domicilio, con un staff de chefs integrado por James Berckemeyer, Coque Ossio y Rodrigo Balbonet. Para esta Navidad, su carta presenta tres opciones. Una de las mas atractivas es el jamón glaseado en rodajas de plums caramelizados, ideal para cuatro personas (el jamón tiene un kilo de peso). Su costo: S./269.\n\nPara quienes quieran algo más liviano está la opción del salmón glaseado, horneado con rodajas de mandarina, pisco y cilantro. El costo es de S./290.\n\nSi se desea algo tradicional, Bocado también tiene el infalible pavo, que viene acompañado de frutas horneadas en hierbas aromaticas, vino y zumo de naranja. Precio: S./262.\n\nCualquiera de estas opciones se puede acompanar con guarniciones de estilo fusión, como ensalada de arroz integral, quinoa y gobernador con zapallito rostituto o un puré de camote, arracacha y zanahorias.\n\nSi deseas una cena al estilo francés, Delifrance nos presenta varias propuestas, entre ellas el jamón glaseado Virginia, hecho con miel de abeja y clavo de olor ($.104 por kilo); el milhojas de codorniz, hecho con champignons y crema de leche (S./199) o el rollo de cordero en salsa grand veneur (S./139 por kilo).\n\nAdemás hay varios platillos con carne de cerdo, pato o lomo de res. Entre sus postres destaca el buche de Noel y el pionono de crema de café o chocolate.\n\nFinalmente, el restaurante Tanta ofrece un delicioso pernil de cerdo asado, con jugo de adobo y hierbabuena (S./340 para cuatro a cinco personas)\n\nY si decides mantener el pavo, cuentan con uno perdida de Tacna: \"Revisar\". Posteriormente, podrás encontrar información detallada acerca de cómo proceder ante cualquier situación adversa relacionada con el tema principal tratado aquí."
+    ],
+    {
+        "headline": NA,
+        "content": "El juez Huamani ordenó medidas cautelares contra dos periodistas investigadores de casos penales vinculado a denuncia presentada por presunta violaciòn de derechos humanos."
+    }
+]
+```
+This JSON structure captures each distinct article found within the provided OCR text input while adhering strictly to the defined scope and goal outlined above. It ensures clarity for any potential users who might need these extracted contents programmatically processed data about journalism-related topics covered in the source material. 
+
+The extraction process involves identifying headlines followed by their respective bodies based on context clues such as changes in font size indicating headings, which may include some visual cues like boldness but does not rely solely upon it due to possible inconsistencies introduced during scanning. This approach helps ensure accurate segmentation between different pieces of information presented across various sections of the paper. Additionally, irrelevant details have been filtered out according to guidelines given.
+
+--- ERROR ENTRY: publimetro_09.txt ---
+
+```json
+[
+    {
+        "headline": "UNA NOCHE PARA VOLVER A\nBAÑIL CON NEW ORDER",
+        "content": "BANDA BRITÁNICA SE PRESENTA MAÑANA EN EL PARQUE DE LA EXPANSIÓN.\nm.e.l.a.i.m.a.—Viernes 9 de diciembre del 2016."
+    },
+    {
+        "headline": "Tiempo de NAVIDAD",
+        "content": ". Compartir, regalar y vivir unas felices fiestas.\nLos niños son quienes más disfrutan en estas fechas con los regalos y las familias reunidas. Piensen en ellos para celebrar unas fiestas con generosidad y unidad."
+    },
+    {
+        "headline": "Fujimorismo firma censura a Saavedra",
+        "content": "Fuerza Popular necesita solo el voto de 33 de sus 72 congresistas para presentar hoy misma moción contra ministro de Educación. Descuentos en el Impuesto a la Renta. Ejecutivo publica decreto legislativo para deducir hasta S/.11.850 al año con pagos comprobados en diversos rubros."
+    },
+    {
+        "headline": "Los primeros 90 minutos en Arequipa...",
+        "content": "Este domingo 11 a las 03:30 pm, Melgar y Cristal empiezan a definir el título nacional del 2016."
+    },
+    {
+        "headline": "La seguridad, un factor importante en Navidad",
+        "content": "Tomá nota a estos consejos para resguardar tu casa o tu integridad durante estas fiestas. Formálize la vigilancia en tu vecindario y verifica el estado de tus puertas y videocámaras. Además, realice un protocolo de seguridad en la cuadra. Diciembre es un mes complejo para la seguridad. Entre las fiestas, el cobro de la gratificación y los viajes de fin de año, debemos estar muy alertas ante los posible robos. Aquí te damos algunos consejos para pasar unas fiestas más seguras:\n1. Seguridad en el hogar. Revisa la integridad estructural de puertas, ventanas y luces, especialmente si planeas salir de Lima para Navidad y Año Nuevo. También evite hacer público su viaje en redes sociales. \n2. Organiza tus compras. Evita mostrar grandes cantidades de artículos cuando vas haciendo compras por la ciudad."
+    },
+    {
+        "headline": "Actualldad",
+        "content": "Fuerza Popular presentará hoy la censura a Saavedra. Tras interpelación en el Congreso. Banco fujimorista necesita recolectar 33 firmas entre sus 72 congresistas, por lo cual se estima cumplirá con el tramite. La moción será debatida a partir del martes 13 en el Pleno. Se requieren 66 votos para forzar al Ministro a renunciar."
+    },
+    {
+        "headline": "Postpago LG KiO’",
+        "*¡Date del 01/12/2016 al 31/12/2016!* Precioso precio postpago sin cuota aplica con acuerdo de equipos a 12 meses. Precio prepago S/ 649 y llévatelo en cuotas en el plan Claro MAX9."
+    },
+    {
+        "headline": "Un paso hacia otra dimensión",
+        "content": "Después de 180 días, a partir de S/1,000 tenemos una tasa desde 6.5% para depósitos a plazo. Abre tu depósito a plazo ahora!"
+    },
+    {
+        "headline": "Nuevo SUV",
+        "content": "|— Megane EQ Power| Este modelo ofrece diseño innovador y tecnología avanzada. Equipamientos disponibles según versión y país."
+    },
+    {
+        "headline": "Mundo",
+        "content": "Italia va en búsqueda de un nuevo Gobierno. Presidente Sergio Mattarella inici ronda de consultas con ese fin. El lunes podría tener a un candidato para reemplazar a Matteo Renzi. Venezuala. Ramos Allup afirmó que el diálogo está completamente muerto. Director de línea aérea Lamia compareció ante un juez en Bolivia después del accidente aereo en Colombia."
+    }
+]
+```

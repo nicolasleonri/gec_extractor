@@ -1,0 +1,30 @@
+
+
+--- ERROR ENTRY: publimetro_25.txt ---
+
+```json
+[
+    {
+        "headline": "Ambas actrices coinciden en que la serie ha marcado un hito en sus carreras profesionales",
+        "content": "\"Cuando leí el guión por primera vez, me dije: ‘Esto es todo lo que quiero encontrar en un papel’. Eso es difícil de conseguir. Es como encontrar el amor verdadero. Por eso volverse a sumergirse en esta serie resultó muy satisfactorio\", afirma Graham.\n\"Son personajes muy bien desarrollados. Son parecidos a personas reales con quienes compartimos momentos cotidianos. Me echaban mucho de menos esos detalles naturales\", añade Bledel.\n\nAsí, las intérpretes están encantadas de saber que tras pasar tanto tiempo, la producción sigue captando la atención del público, manteniéndose fresca y significativa.\n\n‘Trataba una relación cercana entre madre e hija única en aquel entonces y así continúa siendo’, asegura Bledel.\n\nVer en televisión a una niña aspirando a destacarse académicamente o a una madre divorciada que no está exhausta o victimizada era bastante excepcional», señala Graham.\n\nEl destino de esta serie aún permanece indefinido. Aunque estos cuatro capítulos especiales en Netflix resolverán algunas interrogantes, sus protagonistas advierten que \"todo queda abierto\"."
+    },
+    {
+        "headline": "Alexandra Ortiz presenta los días más esperados de lanzamientos musicales",
+        "content": "Este último trimestre del año será testigo de numerosos lanzamientos musicales. Entre ellos destaca:\n\nUn álbum doble compilatorio con 40 pistas del legendario artista Prince, disponible globalmente bajo etiqueta digital y física en Amazon por $13.99 USD.\n\nUna colección contemporánea firmada por Rafael Amargo, compuesta por jóvenes creadores españoles como Enrique Bunbury y Dani Martin, accesible desde hoy en formato digital y también en Amazon por $16.99 USD.\n\nThe Weeknd, nominado al Óscar y galardonado con un premio Grammy, presenta su tercera obra maestra inspirada en el icónico músico David Bowie, colaboración especial junto a figuras como Daft Punk, Kendrick Lamar y Lana Del Rey.\n\nRolling Stones celebra su trigésimo segundo proyecto ofreciendo versiones clásicas de blues interpretadas inicialmente en locales londinenses durante principios de los años sesenta, programado para salir a la venta el próximo viernes 2 de diciembre.\n\nThe Last Shadow Puppets compartirá seis piezas únicas grabadas en directo, mezclando dos originales de su última creación con reinterpretaciones de íconos como Leonard Cohen, disponibles a partir del 2 de diciembre.\n\nPara coleccionistas entusiastas, el vinilo acompañado de diez CDs documentará la actuación histórica de The Doors datada en mayo de 1966, limitado a 18 mil unidades globales vendibles por $49.98 USD."
+    },
+    {
+        "headline": "Alien retorna con fuerza",
+        "content": "Fox Corporation anunció ayer mediante su plataforma social que el nuevo adelanto visual de 'Alien: Covenant', precursor dentro de una saga derivada de 'Alien: el Octavo Pasajero' (1979), dirigida nuevamente por Ridley Scott, tendrá su debut cinematográfico pospuesto hasta mayo de 2017, contrariamente a lo planeado originalmente para octubre."
+    },
+    {
+        "headline": "Rock y fusiones resuenan en el Circuito Magico del Agua",
+        "content": "Esta noche, el Circuito Magico del Agua de Santa Beatriz abrirá sus puertas para recibir a diversas bandas emergentes de rock nacional. Destacándose primero R.E.D., liderada por Stephanie RED, quien participó en el programa radial 'La Barra'. Le seguirá La Mente, conocida por integrar ritmos latinos y electrónicos, culminando finalmente con La Sarita, guiada por Julio Pérez y Martín Choy. Este encuentro cultural comenzará a las cinco de la tarde y ofrece acceso completamente gratis."
+    },
+    {
+        "headline": "Primer Encuentro Internacional de YouTube Creators",
+        "content": "Mañana sábado, el Auditorio del Instituto Peruano Británico reunirá a diversos influencers de contenido audiovisual en el Primer Congreso Nacional de Periodismo Digital, donde se debatirán estrategias clave para mejorar la presencia mediática peruana en redes sociales. Participarán reconocidos nombres como Victor Villarroel, Luis Carlos Burneo, Gabriel Montoya, entre otros invitados internacionales. Más información aquí."
+    ],
+      "description": "Evento enfocado en periodismo digital y análisis político-social."
+}
+```
+This example demonstrates how each extracted article should appear within the specified format constraints provided above. Adjustments for any additional data cleanup needed due to potential OCR inaccuracies have been made where necessary before including it in the structured JSON response. This ensures compliance with the given task requirements while maintaining clarity and accuracy throughout the extraction process.

@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: gestion_21.txt ---
+
+```json
+[
+    {
+        "headline": "Ya es hora de autonomía en Procuraduría",
+        "content": "Odnomos decir: lo que no pudo Rodolfo Orella, lo pudo Nadine Heredia\nLociertoes quedetrás del cesé de Julia Príncipe está la mano de Heredia que no quiere que la investiguen, está el miedo del gobierno a una procuradora correcta que está coadyuvando a esta investigación en la Fiscalía.\nEsta es una razón más para que pensemos seriamente en crear una procuraduria mo un órgano nacionalmente autónomo, pendiente de ningún ministerio. Una institución donde el máximo responsable sea electo por cinco o siete años independientemente del gobierno de turno."
+    },
+    {
+        "headline": "Ronnga... ¿Expreso?",
+        "content": "(Tomado de WEBEPADAWO)\nDel mismo modo, los inst a nominar como sucesor de Adrián Zúñiga un connotado jurista. Sin embargo, no se pronunció sobre la interpelación contra Cateriano.\nThe líderesa de Fuerza Popular evit pronunciarse sobre la versión de que Príncipe habría estado armándose expedientes para denunciar por supuesto enriquecimiento ilegal a Mark Vito Villanella."
+    },
+    {
+        "headline": "Precandidato Milton von Hesse",
+        "content": "Entre hoy y mañana se lanza\nVon Hesse\nPese a que todo indicaba que el exministro de vivienda, Milton von Hesse, iba a lanzar ayeresuya precandidatura presidencial por el partido Nacionalista, esto no fue así.\nLa razón? Un clima político complejo: la destitución de la procuradora Julia Príncipe, la renuncia del ministro Gustavo Zevallos y el anuncio del Tribunal Constitucional que permite a la Fiscalía seguir investigando por el presunto delito de lavado de activos.\nPese a ello, según información proporcionada por el oficialista Teófilo Gamarra a Gestión, el exministro lanzará su precandidatura pero entre hoy y mañana."
+    },
+    {
+        "headline": "Proyecta de Ley para fiscalizar los aportes privados a los partidos políticos",
+        "content": "El presidente de dicho grupo de trabajo menciona que varios miembros fueron citados...\n‘Nos reunimos hace poco’ dice el entrevistado mientras señala algunos componentes presentes en la sesión incluyendo a Mauricio Mulder (APRA), Rosa María (APP-FREPAP), Vicente Zeballos (Somos Perú) y otros.\n‘Notaremos nuevamente’, ‘nos estamos convocando a una sesión extraordinaria para este jueves’. Según espera, ese mismo día, con previa autorización de la junta de portavoces, se podría debatir en el pleno.”
+    },
+    {
+        "headline": "CELULAR SHOPPING CENTER",
+        "content": "\"¿Cómo escogen un producto?”\nConoce qué motiva más al consumidor para realizar una compra.\nCLAVES:\nMirada al Shoper en Latinoamérica – LATAM.\nClaudio Hazaro - Profesor Adjunto Universidad de Chile.\nAna Rocío Económico y el Impacto en el Retail.\nCarlos Fuentes - Profesor Principal. ESAN.\nAdalberto Müller - Director de Marketing en Celular Shopping Center.\nLuís Seminario - Gerente General. Grupo Recoletos.\nEdmundo Yepez - Gerente Regional Centro Sur. Falabella.\nEvolution and Trend of Modern Channel in PE and Latin America.\nMaximiliano Steffen - Director. OCRTech."
+    },
+    {
+        "headline": "Celular Shopper Lima: cómo elegir tus productos",
+        "content": "Jos Luis Wakabayashi - Director de la Maestría en Marketing. ESAN.\nJos Ortega - Gerente de Estudios Especializados. CCS.\n\"Ingresa ahora\"\nEvento Hotel Country Club 08:00hrs a 13:30hrs.\nJueves Flor Daáz fdiaz@esan.edu.pe 317-7226 anexo 4596 www.esan.edu.pe"
+    },
+    {
+        "headline": "Nadine Pierde Ante TC: Sigue Investigación por Lavado de Activos",
+        "content": "- Decisión se tomó por seis votos a favor y cero en contra. Tribunal, incluso, pide que se investigue a fiscales que archivaron el caso.\nKarina Abarra kba¡ca@gestiÓn.com.pe\nPor seis votos a favor y cero en contra, el pleno del Tribunal Constitucional decidió mantener abierto el habeas corpus presentado por la Primera Dama, Nadine Heredia, permitiendo continuar la investigación respecto a sospechas de desbalances patrimoniales y lavado de activos desde 2006 hasta 2015."
+    },
+    {
+        "headline": "Critican Creación de Distrito en Tacna",
+        "content": "Cancillera rechaza la Nota Diplomática enviada por Chile\nLa Ministra de Relaciones Exteriores, Ana María Sánchez, señaló que el proyecto aprobado en el Congreso creando el distrito La Yarada-Los Palos en Tacna es un ejercicio soberano del país.\nHoras antes, el Canciller de Chile, Heraldo Muñoz envió una nota diplomática al Perú argumentando que el distrito estaría ubicado en la frontera común. \"El Perú responderá oportunamente dicha nota también por vías diplomáticas, reservando sus derechos y la integridad territorial con Chile\", sostuvo."
+    },
+    {
+        "headline": "Breve Análisis Político Argentino",
+        "content": "Según Analistas de Opinión\nCrecen dudas por Resultados de Comicios Argentinos\n– Los sondeos de opinión ubican al oficialista Scioli cerca de la victoria, pero aumentan las incertidumbres sobre si llegará a un balotaje o no.\n(RTT Reuters) La definición de los comicios generales dominicales en Argentina podría verse complicada debido a discrepancias en los números obtenidos por los sondeos, sugieren analistas de opinión pública argentina."
+    }
+]
+``` 
+
+This JSON captures each identified article based on its structure within the provided input while adhering strictly to the defined format requirements for headlines and contents. Articles were extracted where there was significant narrative continuity indicative of journalism rather than listings such as ads or schedules.

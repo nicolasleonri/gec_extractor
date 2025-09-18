@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: trome_24.txt ---
+
+```json
+[]
+```
+The provided input does not include any recognizable headlines followed by substantial journalistic content based on the defined criteria for extraction. Therefore, there's nothing suitable to format according to the specified requirements.
+
+--- ERROR ENTRY: trome_24.txt ---
+
+```json
+[
+    {
+        "headline": "Brinda algunos tips para disfrutar la comida sin problemas:",
+        "content": "Antes del lanzarte a ello, tomándote unos vasos con agua 30 segundos previos a empezar. Desintoxícate tú mismo y déjate un poco tiempo después de cenar. Empieza por una ensalada de verduras que, por la cantidad de fibra, ayuda a mejorar el transito intestinal y la digestión. Acompaña ésta con una medida adecuada de carne (del tamaño de un puño). Y para beber, prefiriendo un infuso de anís y menta, en lugar de chocolate.\n\n-Ante de sentarte a la mesa, toma dos vasos con más agua, luego empieza con una ensalada y sirvete con moderación. Los cereales integrales se diferencian de los refinados porque aportan mayor cantidad de fibra, vitaminas y minerales, Sin embargo, tienen la misma cantidad de calorías que cualquier otro. Debes consumirlas porque son más sanosas y proporcionan más saciedad, pero no porque nos alimenten menos.\n\nEl aceite de oliva, al igual que otros aceites, aporta el mismo valor energético; así que deberíamos moderarlo, aunque sí proporcione otros beneficios para el organismo."
+    },
+    {
+        "headline": "Bizcocho de Rey",
+        "content": "+50 g de pasas con más azúcar glas. Incorpora fácilmente,\nSin embargo, sigue batiéndolas. Agrega los arándanos, pasas y nueces en varias tandas al día [excepto cuatro], para evitar llegar a la siguiente con demasiada ansiedad.\nSecos:\n+Bizcocho de Rey\n\nPara el bizcocho de rey, necesitarás:\n+300 g de mantequilla\ndo a la masa anterior y continúa batiendo. Agregue los huevos de gallina y haría\nAparte, bátelas a punto de nieve y mézclamelas.\nSeguidamente, incorpora todo el azúcar glas restante. Endulzarlas en un molde y llenelo con la masa. Hornear a 165°C o durante 35 minutos."
+    },
+    {
+        "headline": "Pure de Camote",
+        "content": "Ingredientes\n3 camotes amarillos pelados y cortados en cuatro, agua, 1 cucharadita de kion, 1 clavo de olor, media taza de jugo de naranja, 2 cucharadas de crema de leche, ½ cucharadita de cárcamo en polvo, ½ cucharada de mantequilla, 1 ramita de tomillo fresco y picado, 1 pizca de pimentón.\nPurificación\nCocinar los camotes con agua, clavo de olor y kion. Retira, pela y con una batidora de inmersión o tenedor realiza el puré. Agrégale el jugo de naranja, crema de leche, cárcamo, mantequilla, tomillo y salpimiéntalo. Remuévelo y cocínalo un par de minutos más."
+    },
+    {
+        "headline": "Arroz con Frutos Secos al Curry y Aliño Balsámico",
+        "content": "Ingredientes\n3 cucharadas de aceite, 1 cebolla blanca finamente picada, 1 cucharada de ajo picado, 1 cucharadita de curry, 1 pimiento rojo y verde cortados en cubitos, 100 gramos de pasas, ¾ de taza de albaricoques secos picados, 3 tazas de arroz previamente lavado, 3 tazas de agua, sal, ¼ de taza de almendras picadas, 3 tazas de espinaca en juliana.\nAliño: \n⅓ de taza de vinagre balsámico, ⅓ de taza de azúcar blanca.\nProcedimiento\nCalentar el aceite en una olla arrocera, freír la cebolla y el ajo. Añadir el curry, pimientos, pasas, albaricoques, arroz y agua con sal disuelta. Cocinar hasta terminar. Servir añadiendo las espinacas encima. Prepara el aliño reduciendo los componentes en otra olla."
+    },
+    {
+        "headline": "Melcochita enfrentará investigación bajo comparecencia restrictiva",
+        "content": "\"Estoy destrozado. Me siento deprimido, tengo mucha tristeza, nunca hubiera querido pasar por una situación como esta, todo es doloroso... Dormir en una celda, todo es horrible, es algo que nadie podría describir\", declaró el cómico respecto a lo ocurrido en los últimos días. Ayer, el Juzgado Mixto de Payán dictaminó que el artista debe enfrentar las indagatorias del caso con restricciones legales, evitando prisión preventiva solicitada inicialmente por fiscales debido a demostrar disposición cooperativa hacia la justicia y aceptar responsabilidad ante la víctima involucrada."
+    },
+    {
+        "headline": "Salsero Antonio Cartagena criticado por sugerencias controvertidas",
+        "content": "\"¿Qué quieres?, ¿tener el hijo? Yo quiero que no lo tengas. Podemos realizar un aborto médicamente seguro, eso o aquello... No existe ningún tipo de afectividad aquí. Ponle el nombre que quieras, ponle incluso mi apellido, no importa,\" mencionó el músico en un vídeo controversial emitido dentro de un programa televisivo. La conductora Andrea Llosa utilizó plataformas digitales para manifestar su reproche contra el comportamiento considerado insensible y negligente mostrado por el cantautor."
+    },
+    {
+        "headline": "'Naomi Watts afirma que dejando atrás su papel',
+        "content": '"Coqueteo"' apoya grupos vulnerables\n\"Los secretos de Hollywood... Ya está claro.\" Comenzó Eduardo Pastrana explicando cómo cambió radicalmente su vida profesional desde hace años, abandonando roles superficiales para contribuir activamente junto a niños y adultos con capacidades diferentes. \"Comunicarme con ellos les ofrece alegría y motivación,\" aseguró refiriéndose a su labor altruista fuera de los focos mediáticos."
+    }
+]
+``` 
+
+This JSON captures several distinct articles extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on their headlines followed by relevant content sections, ensuring clarity between different topics covered within the document. Any extraneous information such as ads or unrelated listings was excluded according to guidelines.

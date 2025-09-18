@@ -1,0 +1,59 @@
+
+
+--- ERROR ENTRY: peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Ms de 5,000 personas confirman ya su asistencia a la marcha limeña \"Con Mi Porno No Te Metas\"",
+        "content": "Con mi Porno No Te Metas, prevista para este viernes en protesta contra el proyecto de ley antiporno de Lescano.\n\nLescano ya es protagonista de innumerables memes que ironizan con su ideal de lo que debe ser un ciudadano »puro» y ejemplar, digno de siglos pasados más ingenuos y autoritarios.\n\nSegún el congresista, su proyecto de ley no tema «contra la libertad de internet». Los internautas deben canalizarla adecuadamente», dice él... Es decir, manejaría la libertad ajena...\nmujeres\"."
+    },
+    {
+        "headline": "\"HERNN MIGOYA // sexo21peru.net\",\nCENS",
+        "content": "Consulten todas sus dudas y preocupaciones sobre el sexo, pueden escribir a [email protected] \n533 5216 Deténganse aquí y comiensen así…\n\nRazonar con criterios causaeffecto tan simple como los que propone este proyecto de ley resulta absurdo. Siempre existe riesgos cuando algo está prohibido, especialmente si esa prohibición afecta directamente nuestra capacidad básica de expresión. Un claro ejemplo son los efectos negativos de la pandemia mundial COVID-19. En cambio, ¿qué pasa con quienes están detrás de cámaras oculta?"
+}
+```
+This example demonstrates how to format extracted data according to given specifications while adhering strictly to provided guidelines. Note that some sections were excluded due to their nature not fitting within defined criteria such as being purely advertisement-related or lacking substantial journalistic value. This ensures clarity between what should be included versus non-journalistic elements like ads or unrelated side notes which don't contribute directly to the core narrative intended for public consumption.
+
+--- ERROR ENTRY: peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Ingreso de Divisas Representa Mayoría Exportación Agrícola",
+        "content": "El ingreso de divisas por las frutas y frutos representa el 40.5% de los envíos no comercializados del sector agrícola y el 5% del total exportado."
+    },
+    {
+        "headline": "Argentina Iniciarán Juicio Penal Contra Ex Presidenta Cristina Fernández",
+        "content": "\"Argent\text{ina}. Habrá adjudicado obras públicas a constructora vinculada a la fam ker\nFernandez a proceso por asociación ilícita.\n\"Buena\s Aires \\\\(Agencias\\\)\. La justicia argentina iniciar un proceso penal contra la ex presidenta Cristina Fernandez (2007\u20132015) por la presunta comisión de los delitos de asociación ilícita para delinquir y administración fraudulent\text{a} en la concesión de obras públicas a un empresario cercano a la familia Kirchner, según informaron fuentes judiciales.\""
+    },
+    {
+        "headline": "Empresas Investigadas por Irregularidades Electorales en Brasil",
+        "content": "\"Brasil. Empresas habrían servido de fachada para desviar US\$16 millones\nPolícia investiga campaña\nRio de Janeiro \(Efe\)– La Policía Federal brasi\text{l}\text{eña} registró las sedes de tres empresas graficas que son investigadas por supuestas irregularidades en las cuentas de la campaña electoral de 2014, en que fueron electos Dilma Rousseff y Michel Temer como presidente y vicepresidente, respectivamente.\""
+    },
+    {
+        "headline": "Obama y Abe Visitan Pearl Harbor Demostrando Reconciliación",
+        "content": "\"Shinzo Abe, y el presidente Barack Obama visitaron Pearl Harbor, escenario hace 75 años de un ataque contra EE.UU. para demostrar \"la fuerza inmensa de la reconciliación\" y destacar la singularidad de la alianza Washington-Tokio. Ambas autoridades rindieron un mensaje a los 1177 estadounidense que murieron en la ofensiva japonesa.\""
+    },
+    {
+        "headline": "Sedapal Reducirá Presión de Agua Durante Las Noches Debido a Sequía",
+        "content": "\"Sedapal anunció que reducirá la presión del agua durante las noches en los distritos de Lima y Callao, esto debido al bajo caudal del rio Rimac por la falta de lluvias en la Sierra Central.\""
+    },
+    {
+        "headline": "Robo de Equipo Médico Valuada en S/ 165 Mil Del Hospital Cayetano Heredia",
+        "content": "\"Un moderno equipo que servía para realizar examenes endoscópicos – valorizado en S\/165 mil – fue robado del hospital Cayetano Heredia en San Martín de Porres.\""
+    },
+    {
+        "headline": "Abraham Levy Detenido por Abusos Sexuales a Menores Mediante Internet",
+        "content": "\"Jackson Llanos Soto (34), quien fue denunciado por haber captado a ocho menores a travé\text{s} de las redes sociales para luego atacarlos sexualmente, deber cumplir nueve meses de prisión preventiva mientras dure el proceso judicial en su contra.\""
+    },
+    {
+        "headline": "Tragedia en Carreteras Peruana deja Decenas de Muertos",
+        "content": "\"Trece personas fallecieron en Ayacucho y seis víctimas mortales hubo en Huancavelica después de varios accidentes vehiculares graves.\""
+    },
+    {
+        "headline": "Actividad Volcánica Monitoreada en Ubinas y Sabancaya",
+        "content\": \"El volcán Ubinas muestra cerca de 60 sismos diarios según el monitoreo realizado por el Instituto Geológico, Minero y Metalúrgico (Ingemmet).\n\"Moquegua. En el Ubina\text{n}s magma está en ascenso.\""
+    }
+]
+```

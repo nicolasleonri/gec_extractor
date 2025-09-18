@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Preciar la voluntad del Gobierno",
+        "content": "Del gobierno de avanzar sostenidamente en el desarrollo del país, invitando al sector privado a actuar ya; también tuvo su dicho con interesante exposición de Carlo Rus González Pastor, “algunos utilizan sectores donde el Perú tiene condiciones innatas y casi ilimitadas como minería y la propuesta de adelanto social; también las fallas de infraestructuras, salud y educación con un ministro discutido por el Congreso.\n\nSectores como Producción se referían a la innovación, digitalización y tecnología; Cultura (cambio de ministro, parece interesante el nombramiento de Salvador del Solar) tratando de poner en valor los recursos arqueológicos; en Lima tenemos 750 huacas que podríamos dar en uso a cambio de renta al sector privado para la explotación turística y comercial; además, deberíamos convertirnos en un centro de producción para televisión y cine."
+    },
+    {
+        "headline": "Alza tendrá impacto en tipo de cambio",
+        "content": "La Fed eleva tasa de referencia. Inteligencia sabía que, de darse más alzas, el sol se depreciará frente al dólar y el tipo de cambio se elevará. Anthony Gardner, Embajador de EU en la UE advierte al próximo gobierno de Donald Trump. Brasil. Expresidente de Odebrecht confirma que mandatario solicitar elevada cifra ‘para salvar’ a América Latina. Venezuela. Conflicto armado lleva a emergencia económica – suma de renuncias consecutivas en cargos relevantes.”
+    },
+    {
+        "headline": "Expectativas post-crisis política",
+        "content": "Cómo esperábamos algunos, el Presidente Kuzynski decidi no hacer cosa de confianza por la moción de censura presentada por la bancada fujimorista contra el ministro de Educación, Jaime Saavedra. Saludar el gesto del presidente es positiva si al mismo tiempo no señalan que aquellos que están enfrente no muestran intención alguna de calmarse ni priorizar al país. Ricardo Monzan entrevistó a José Carlos Requena, quién opina que negociar toma que ambas partes muestren voluntad de comprometerse mutuamente."
+    },
+    {
+        "headline": "Reforma de la Policía Nacional",
+        "content": "Hoy se publicará en el Diario Oficial El Peruano una ley que reformará la Policía Nacional. Esto incluye nuevas divisiones estratégicas, modernización de comisarias, y cambios jerárquicos para combatir mejor el crimen organizado y la inseguridad ciudadana. Además, según el IDL, aumenta la preocupación pública por robos residenciales y casos de extorsión."
+    },
+    {
+        "headline": "Propuesta legal para identidad de género",
+        "content": "Las congresistas Indira Huilca y Marisa Glave introducen proyecto de Ley de Identidad de Género buscando proteger derechos de personas trans, eliminando requisitos burocráticos para cambiar nombre y sexo registralmente."
+    },
+    {
+        "headline": "Accidente fatal involucra a personalidades locales",
+        "content": "Muere Roberto Pinglo Jara, rector de la Universidad Señor de Sipán, después de que el automóvil en el que viajaba fuera embestido por un autobús público en Surco. También resultó lesionado el exparlamentario Alberto Beingolea."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by substantial textual information related to current events or opinions within the context given. Other sections like ads, subscriptions, etc., have been excluded according to specified criteria.

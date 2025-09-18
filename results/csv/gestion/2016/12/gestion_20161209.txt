@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: gestion_09.txt ---
+
+```json
+[
+    {
+        "headline": "¿Qué sigue sin poder?",
+        "content": "calentar agua con gas de Camisea\nen sus casas.\nTe imaginas cómo van a\ner sentírselo pobladores del Cuzco cuando el\nGobierno anuncie que el gas o la \neléctriciad —para mí lo mismo— se va a\nChile cuando ellos no acceden a ‘’su’’gas?\nSe les va a levantar todo el Sur a PPK!\nParece que no nos entendemos."
+    },
+    {
+        "headline": "Indicadores",
+        "content": "Importaciones chinas repuntan\nen noviembre por demanda global\n-Los datos se suman a las señales de una leve\nrecuperación del sector fabril de\nuna de las mayores economías del mundo.\n(Rewards) Las importaciones chinas aumentaron a su\nritmo más acelerado en más de dos años en noviembre,\npulsadas por la fuerte demanda por materias primas\ncomo carbón y mineral de hierro, mientras que las\nimportaciones también subieron inesperadamente, en un\nreflejo del repunte del consumo mundial y doméstico.\nLas importaciones de nan en noviembre se\nexpandidieron 6.7% interanual, superando con\nmayoría las expectativas de ROS Mao\nAnalistas entrevistados por\nRewards esperaban una caída algo menor de\nlas exportaciones durante noviembre después de la\ncontraacción de 7.3% vista en octubre, mientras que\nse veía que las importaciones bajasen aún más rápido.\n‘’La media semanal de Reuters muestra que los\nprecios mundiales de alimentos cayeron 0.4%\ny frenaron la tendencia alcista.’’\n(London Bridge)\n-Avance. Importaciones crecieron a su ritmo más\nrápido desde septiembre del 2014."
+    },
+    {
+        "headline": "Avanzan reformas en Brasil mientras corta falla a favor de Renán Calheiros",
+        "content": "-La decisión de la corte evita un cambio de\nliderazgo en el senado de Brasil de cara a votaciones\nimportantes para esta semana.\n(Bloombergs) El Presidente del Senado de Brasil continuará\nen su cargo debido a que la Corte Suprema dejó sin efecto\nuna medida cautelar dictada por uno de sus miembros,\nel Juez Marco Aurelio Mello, para remover a Renán\nCalheiros de su puesto de presidente del Senado después de\nhaber sido acusado de malversación de fondos. La decisión\nde la Corte evitó un cambio de liderazgo en el Senado de cara\na la votación de la próxima semana del crucial proyecto de\nley propuesto por el Gobierno para limitar el gasto público.\nEsta disposición constitucional que regulará el gasto público\nen términos ajustados por inflación requerirá una votación\nfinal en el Senado antes de convertirse en ley."
+    },
+    {
+        "headline": "Diálogo en EU",
+        "content": "Empresarios cubanos piden a Trump mantener acuerdos\n-Eldialogo con los empresarios cubanos estuvo a cargo demiembros del partido Democrático y republicanos del Congreso de\nEU.\n(Reuters) Legislativos estadounidenses se unieron a más de\n100 pequeños empresarios cubanos que instaron a Donald\nTrump a que mantenga la política de acercamiento a La\nHabana que ha impulsado Barack Obama, y que el presidente\nElecto de Estados Unidos amenaza suspender.\nPreparándose para lo que podría ser una larga batalla,\nMiembros democráticos y republicanos del Congreso llevaron\nadelante una conferencia de prensa en Washington con\nempresarios cubanos cuyos negocios han florecido desde que\nambos países restauraran relaciones en julio del 2015.\nMás de 100 pequeños empresarios cubanos enviaron una carta\na Trump el miércoles, exhortándolo a no retroceder con las\nmedidas de Obama para suavizar restricciones a viajes,\ncómputo y la inversión, y avanzar hacia relaciones diplomáticas\nnormales.”
+    },
+    {
+        "headline": "Incertidumbre",
+        "content": "Presidente de Italia busca formar nuevo Gobierno\n-(Agencias) El presidente de Italia comenz el jueves sus\nreuniones con líderes políticos para buscar una solución a\nla crisis generada por la dimisión del Primer Ministro,\nMatteo Renzi. Hará bien el Gobierno pensar no sólo en el\nreemplazo de Saavedra, sino también en un reajuste del\nGabinete antes de terminar el próximo verano."
+    },
+    {
+        "headline": "Opini\u00f3n Editorial",
+        "content": "Tiempo de Estrategia\n-Censura. Después de más de cuatro meses de criticas tantas,\nel Congreso – específicamente las bancadas de Fuerza Popular y\nel Apra– logró encontrar las razones suficientes para la\ninterpelación al ministro de Educación, Jaime Saavedra. Sin\nembargo, la censura es un paso que nunca se debió tomar.\nSi bien cuenta con los votos, censurar al ministro será una\nvictoria fácil del fujimorismo, pues la opinión pública puede\npercibir que está basada en intereses particulares de los\ncongresistas y no en un afán genuino de fiscalización, aunque\nno necesariamente sea así. Ahora que se abre el proceso de\nla censura haría bien el Gobierno tener en cuenta que la\nestabilidad del país es más importante que la de un ministro,"
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through changes in context indicative of separate stories within the given input text. Non-article sections such as ads, images descriptions, etc., have been excluded according to the scope defined.

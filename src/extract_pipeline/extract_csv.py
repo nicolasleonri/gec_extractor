@@ -134,8 +134,6 @@ def read_and_preprocess_files(txt_files: List[Path]) -> Dict[str, Dict[str, Any]
         
         return text
 
-    print(len(txt_files))
-
     processed_files = {}
     failed_files = []
 
@@ -152,7 +150,7 @@ def read_and_preprocess_files(txt_files: List[Path]) -> Dict[str, Dict[str, Any]
             
             token_count = count_tokens(clean_content)
                         
-            processed_files[file_path.name] = {
+            processed_files[file_path] = {
                 "content": clean_content,
                 "num_tokens": token_count,
                 "file_path": str(file_path)
@@ -160,19 +158,13 @@ def read_and_preprocess_files(txt_files: List[Path]) -> Dict[str, Dict[str, Any]
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
     
-    print(f"Successfully processed: {len(txt_files)} files")
-
-    if processed_files:
-        total_tokens = sum(data["num_tokens"] for data in processed_files.values())
-        avg_tokens = total_tokens / len(processed_files)
-        max_tokens = max(data["num_tokens"] for data in processed_files.values())
-        min_tokens = min(data["num_tokens"] for data in processed_files.values())
+    print(f"Successfully processed: {len(processed_files)} files")
 
     return processed_files
 
 def get_model_configuration(config: Dict[str, Any]) -> Dict[str, Any]:
     model_config = {
-        "swap_space": math.floor((int(config["system_ram_gb"])-10)/4*3),
+        "swap_space": math.floor((int(config["system_ram_gb"]))/4*3),
         "cpu_offload": 0,
         "tensor_parallel_size": int(config["num_gpus"])
     }
@@ -216,7 +208,7 @@ def get_model_configuration(config: Dict[str, Any]) -> Dict[str, Any]:
     
     return model_config
 
-def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_config: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
+def process_chunking_decision(processed_files, model_config: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
     def calculate_chunk_parameters(model_config: Dict[str, Any]) -> Dict[str, int]:
         max_model_len = model_config["max_model_len"]
         
@@ -252,28 +244,31 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
             
             if end_pos < len(text):
                 paragraph_break = text.rfind('\n\n', start_pos, end_pos)
-                if paragraph_break > start_pos + chunk_chars * 0.7:  # At least 70% of chunk size
-                    end_pos = paragraph_break + 2  # Include the newlines
+                if paragraph_break > start_pos + chunk_chars * 0.7: 
+                    end_pos = paragraph_break + 2
                 else:
-                    # Look for sentence breaks
                     sentence_break = text.rfind('. ', start_pos, end_pos)
                     if sentence_break > start_pos + chunk_chars * 0.7:
-                        end_pos = sentence_break + 2  # Include the period and space
+                        end_pos = sentence_break + 2 
                     else:
-                        # Look for line breaks
                         line_break = text.rfind('\n', start_pos, end_pos)
                         if line_break > start_pos + chunk_chars * 0.7:
-                            end_pos = line_break + 1  # Include the newline
-                        # Otherwise, use hard cutoff (fallback)
+                            end_pos = line_break + 1
             
             chunk = text[start_pos:end_pos].strip()
-            if chunk:  # Only add non-empty chunks
+
+            if chunk:
                 chunks.append(chunk)
             
             if end_pos >= len(text):
                 break  # We've reached the end
                 
-            next_start = max(end_pos - overlap_chars, start_pos + chunk_chars // 2)
+            # next_start = max(end_pos - overlap_chars, start_pos + chunk_chars // 2)
+            next_start = max(end_pos - overlap_chars, start_pos + 1)
+
+            if next_start <= start_pos:
+                next_start = start_pos + max(1, chunk_chars // 4)
+
             start_pos = next_start
         
         return chunks
@@ -282,19 +277,27 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
 
     files_needing_chunking = []
     files_no_chunking = []
+
+    # Create a copy to avoid modifying the original during iteration
+    result_files = processed_files.copy()
     
-    for filename, file_data in processed_files.items():
+    for filename, file_data in result_files.items():
         if file_data["num_tokens"] > chunk_params["usable_context"]:
             files_needing_chunking.append(filename)
         else:
             files_no_chunking.append(filename)
 
     total_chunks_created = 0
+
+    print(f"Processing {len(result_files)} files...")
+    print(f"Files needing chunking: {len(files_needing_chunking)}")
+    print(f"Files not needing chunking: {len(files_no_chunking)}")
     
-    for filename in tqdm(processed_files.keys(), desc="Chunking analysis"):
-        file_data = processed_files[filename]
+    for filename in tqdm(result_files.keys(), desc="Chunking analysis"):
+        file_data = result_files[filename]
         
         if file_data["num_tokens"] > chunk_params["usable_context"]:
+            # print(f"Chunking file: {filename} ({file_data['num_tokens']} tokens)")
 
             chunks = smart_text_splitter(
                 file_data["content"],
@@ -322,27 +325,107 @@ def process_chunking_decision(processed_files: Dict[str, Dict[str, Any]], model_
             file_data["num_chunks"] = 1
             file_data["chunk_token_counts"] = [file_data["num_tokens"]]
             file_data["total_chunk_tokens"] = file_data["num_tokens"]
+            file_data["chunk_params"] = chunk_params.copy()
     
-    return processed_files
+    print(f"Total chunks created: {total_chunks_created}")
+    print(f"Final number of files: {len(result_files)}")
+    
+    return result_files
 
 def prepare_prompts(processed_txt_files: Dict[str, Dict[str, Any]],  prompt_prefix: str = "") -> Tuple[List[Tuple[str, str, int]], List[str]]:
     all_chunks: List[Tuple[str, str, int]] = []
 
-    print(len(processed_txt_files))
+    # print(f"Starting with {len(processed_txt_files)} files")
+
+    files_with_chunks = 0
+    files_without_chunks = 0
+    total_chunks_found = 0
+
     for filename, data in processed_txt_files.items():
         chunks: List[str] = data.get("chunks", [])
         token_counts: List[int] = data.get("chunk_token_counts", [])
 
-        paired: List[Tuple[str, int]] = sorted(zip(chunks, token_counts), key=lambda x: x[1])
+
+        # Debug missing data
+        if not chunks:
+            print(f"WARNING: No chunks found for file: {filename}")
+            print(f"  Available keys: {list(data.keys())}")
+            files_without_chunks += 1
+            continue
+            
+        if not token_counts:
+            print(f"WARNING: No token counts found for file: {filename}")
+            print(f"  Available keys: {list(data.keys())}")
+            files_without_chunks += 1
+            continue
+
+        # Check for length mismatch
+        if len(chunks) != len(token_counts):
+            print(f"WARNING: Length mismatch for file {filename}")
+            print(f"  Chunks: {len(chunks)}, Token counts: {len(token_counts)}")
+            # Take the minimum to avoid index errors
+            min_length = min(len(chunks), len(token_counts))
+            chunks = chunks[:min_length]
+            token_counts = token_counts[:min_length]
+            print(f"  Truncated both to length: {min_length}")
+        
+        file_chunk_count = 0
+        # paired: List[Tuple[str, int]] = sorted(zip(chunks, token_counts), key=lambda x: x[1])
+        paired: List[Tuple[str, int]] = list(zip(chunks, token_counts))
 
         for chunk, count in paired:
-            all_chunks.append((filename, chunk, count))
+            # Skip empty chunks
+            if not chunk.strip():
+                print(f"WARNING: Empty chunk found in {filename}, skipping")
+                continue
+                
+            # Skip zero token chunks
+            if count <= 0:
+                print(f"WARNING: Zero token chunk found in {filename}, skipping")
+                continue
 
+            all_chunks.append((filename, chunk, count))
+            file_chunk_count += 1
+
+        if file_chunk_count > 0:
+            files_with_chunks += 1
+            total_chunks_found += file_chunk_count
+            # print(f"File {filename}: {file_chunk_count} chunks processed")
+        else:
+            files_without_chunks += 1
+            print(f"WARNING: No valid chunks processed for file: {filename}")
+    
     all_chunks.sort(key=lambda x: x[2])
 
-    prompts: List[str] = [prompt_prefix + chunk for _, chunk, _ in all_chunks]
+    # prompts: List[str] = [prompt_prefix + chunk for _, chunk, _ in all_chunks]
+    prompts: List[str] = [prompt_prefix + chunk for filename, chunk, count in all_chunks]
+
+    print(f"Generated {len(prompts)} prompts for analyzing.")
 
     return all_chunks, prompts
+
+def extract_data_and_generate_output_file(file_path):
+    parts = file_path.parts
+
+    newspaper = parts[2]
+    year = parts[3]
+    month = parts[4]
+    day = Path(parts[5]).stem
+    match = re.search(r'_(\d+)$', day)
+    day = match.group(1)
+    date_string = f"{day.zfill(2)}/{month.zfill(2)}/{year}"
+    date_string_suffix = f"{year}{month.zfill(2)}{day.zfill(2)}"
+    filename = parts[5]
+
+    output_path = str(file_path).replace("data/", "results/")
+    output_path = output_path.replace("/txt/", "/csv/")
+    output_path = output_path.replace(f"{newspaper}_{day.zfill(2)}", f"{newspaper}_{date_string_suffix}")
+    output_path_correct = output_path.replace(".txt", ".csv")
+
+    output_dir = Path(output_path_correct).parent
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    return newspaper, date_string, output_path_correct, output_path
 
 def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files) -> int:
     def extract_code_block(text: str, language_hint: str = "json") -> str:
@@ -359,29 +442,6 @@ def save_outputs_to_csv(outputs, all_chunks, config, processed_txt_files) -> int
         else:
             print(f"No {language_hint} code block found")
             return None
-
-    def extract_data_and_generate_output_file(file_path):
-        parts = file_path.parts
-
-        newspaper = parts[2]
-        year = parts[3]
-        month = parts[4]
-        day = Path(parts[5]).stem
-        match = re.search(r'_(\d+)$', day)
-        day = match.group(1)
-        date_string = f"{day.zfill(2)}/{month.zfill(2)}/{year}"
-        date_string_suffix = f"{year}{month.zfill(2)}{day.zfill(2)}"
-        filename = parts[5]
-
-        output_path = str(file_path).replace("data/", "results/")
-        output_path = output_path.replace("/txt/", "/csv/")
-        output_path = output_path.replace(f"{newspaper}_{day.zfill(2)}", f"{newspaper}_{date_string_suffix}")
-        output_path_correct = output_path.replace(".txt", ".csv")
-
-        output_dir = Path(output_path_correct).parent
-        output_dir.mkdir(parents=True, exist_ok=True)
-
-        return newspaper, date_string, output_path_correct, output_path
 
     def clean_text(text: str) -> str:
         text = text.replace("\n", " ")   # replace line breaks with spaces
@@ -556,34 +616,23 @@ def main() -> None:
     args = parse_arguments()
         
     config = validate_arguments(args)
+    model_config = get_model_configuration(config)
 
     txt_files = get_txt_files(config["input_folder"])
 
-    processed_txt_files = read_and_preprocess_files(txt_files)
-
+    # Skips files that have already been processed
     filtered_txt_files = []
     for txt_file in txt_files:
-        # csv_file = txt_file.replace('.txt', '.csv')
-        csv_file = Path(str(txt_file).replace('.txt', '.csv'))
+        _, _, output_path, _ = extract_data_and_generate_output_file(txt_file)
+        csv_file = Path(output_path)
         if not csv_file.exists():
             filtered_txt_files.append(txt_file)
         else:
             print(f"Skipping {txt_file} - corresponding CSV file exists: {csv_file}")
-    
-    print(filtered_txt_files)
-    print(len(filtered_txt_files))
 
     processed_txt_files = read_and_preprocess_files(filtered_txt_files)
-
-    model_config = get_model_configuration(config)
-
-    # TODO: Check if its here ? IT IS!!!
-    processed_txt_files = process_chunking_decision(processed_txt_files, model_config)
-
-    print(len(processed_txt_files))
-    pirnt(processed_txt_files)
-
-    all_chunks, prompts = prepare_prompts(processed_txt_files)
+    chunked_txt_files = process_chunking_decision(processed_txt_files, model_config)
+    all_chunks, prompts = prepare_prompts(chunked_txt_files)
 
     check_gpu()
 
@@ -604,10 +653,10 @@ def main() -> None:
     average_time_per_file = total_time / no_outputs if no_outputs > 0 else 1
     print(f"Average time per file (secs): {average_time_per_file:.2f} seconds")
     print(f"Average time per file (mins): {(average_time_per_file/60):.2f} minutes")
-    average_time_year = int(average_time_per_file/60) * 365
+    average_time_year = (average_time_per_file/60)*365
     print(f"Estimated time per year (hours): {average_time_year:.2f} minutes (ca. {average_time_year/60:.2f}) hours")
-    min_estimated_total = int(average_time_year)*6*7
-    print(f"Estimated total processing walk-time (minimum): {min_estimated_total:.2f} hours. ")
+    min_estimated_total = (average_time_year/60)*6*7
+    print(f"Estimated total processing walk-time (min. hour): {min_estimated_total:.2f} hours. ")
 
     destroy_model_parallel()
     del llm 
@@ -615,7 +664,6 @@ def main() -> None:
     torch.cuda.empty_cache()
 
     check_gpu()
-    print(config)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "JOSE DE SUCRE EN LA BATALLA DE AYACUCHO",
+        "content": "NA"
+    },
+    {
+        "headline": "Miriam Full Gimnasio",
+        "content": "La escultural Miriam tiene el cuerpo durito y apretadito gracias a las duras rutinas en el gimnasio. A nuestro paparazzi le contó que complementa sus ejercicios con una dieta a base de frutas y verduras, pero que más allá de su aspecto físico, ella le da mucho valor a su talento y por eso no descuida sus estudios."
+    },
+    {
+        "headline": "\"Saltaditos\" de El Buho",
+        "content": "Este Búho ve la coyuntura política como la mesa de un inmenso buffet marino: Deslenguado con un ‘tecito’ de chimichurri. Pez de Saavedra a la parrilla y adobado con salsa japonesa. Corvina a la Nadine con salsa de Ginebra y verduras FAQ. Erizos de Spin a la vinagreta Mulder. Choritos de la playa chiclayana ’El mudo’ con un bypass de conchas gigantes. A nuestros lectores les presento estos ‘saltaditos’, que tanto los reclaman. Como diría el Doctor Hannibal Lecter: Bon appétit.\n\nAl borde de un ataque de nervios: Como personajes de una célebre película de Pedro Almodovar se han puesto algunos congresistas oficialistas, realizando veladas amenazas a la mayoría fujimorista, advirtiendo que se podría forzar a cerrar el Congreso’. Francamente estas cosas no se dicen ni en broma. Ni siquiera tienen medio año y ya están tratando de emular al tristemente célebre comunicado televisivo de Alberto Fujimori: disolver, disolver! Horrorosa palabra.\n\nSolo contra el Mundo: Jaime Saavedra enfrentará ahora una difícil prueba. Pero son cosas de la democracia representativa. No es el único bueno ministro en ser interpelado. Sus defensores aseguran que hay intereses en algunos congresistas belicosos, pues tendrían vínculos con universidades, las llamadas “truchas”, y que por eso quieren tumbarse la ley Universitaria. Veremos cómo enfrenta a los ‘Leones’. También no se acabará el mundo si es cesurado. Las políticas de estado valen más que las personas.\n\nCacería de Brujas: Nadine Heredia denuncia que el fujimorismo quiere ‘borrarla de la carrera política’. La esposa de Ollanta, quien tuvo que retornar obligadamente desde Europa requiriéndose por la Justicia, denuncia que el poder judicial no mide con la misma vara a Alan García y a Keiko Fujimori. ‘Ell@s se pasean tranquila/mente por el mundo’, se queja. Pero esta jugada de pedir empleo en los lujosos ambientes Suizos está a punto de corona/rla.\n\nPrisión Para Vandales: Los familiares de los treinta y cuatro vándalos, a quienes el poder judicial decreta nueve meses de prisión preventiva por los desmanes frente a la Comisaría de Huachipa lloran y ruegan que sean liberados. Lo injusto es que fueron ellos quienes rompieron y destrozaron vehículos de personas privadas. Ya también están detrás de los pasos de la señora que filmó los denominados audios del Terror, que generaron histeria colectiva. Esta fue la misma voz que en Abril difundió un mensaje afirmativo diciendo que el Presidente Ollanta Humala iba a realizar un Golpe de Estado."
+    },
+    {
+        "headline": "El hombre de PPK",
+        "content": "Fue él mismo, el entonces presidente Pedro Pablo Kuczynski, quién solicitó a Jorge Nieto Montesinos aceptar la cartera de Defensa. El sociólogo había mostrado cierta renuencia dado que durante los últimos cinco años había conseguido firmar varios convenios culturales e incluso formado un importante grupo de colaboradores. Nieto, antiguo líder partidario junto al actual Aprista Agustín Haya de la Torre, en los Setentas/Ochentas, pesa dentro del gabinete ministerial, aunque esto sea debido a que es pariente cercano de Vladimiro Montesinos."
+    },
+    {
+        "headline": "Ministro \"Pantalón\"",
+        "content": "Gran sorpresa ocasionó la designación del actor y director Salvador del Solar como Ministro de Cultura. Popularmente conocido por interpretar a Don Pantaleon en la película Pantaleón y las Visitadoras, este nuevo funcionario público recibió críticas principalmente provenientes del Partido Nacionalista Peruano, siendo mencionado por Becerra cuando expresó que ‘Un Actor deber estar en el Teatro’. Sin embargo, la realidad indica que Del Solar posee título profesional en Derecho obtenido en la Universidad Católica San Antonio Abad del Cusco, cuenta además con Maestría en Administración Cultural otorgada por una prestigiosa institución estadounidense y recientemente dictó clases magistrales en dicha disciplina académica. \n Apagar el periódico digitalizado antes de continuar...\n\nEn resumen:\n\n•	Señoras y niños pequeños deben tener cuidado con el uso excesivo de productos cosméticos. Siempre consulte a un médico especialista antes de usar cualquier producto cosmético sin consultar previamente con un dermatólogo certificado.\n\n¡Felicitamos a todos aquellos que trabajan incansablemente para mejorar nuestra sociedad!\n\nPor último, queríamos compartir algunas noticias breves:"
+    }
+]
+```
+This JSON structure captures each identified article's headline and its corresponding content based on the provided heuristics and guidelines. It ensures proper cleanup while preserving essential details like headlines and merges where necessary. Articles have been extracted according to their context within the given constraints and scope. Any missing data has been marked appropriately with `"NA"` placeholders. This structured format allows easy parsing and further processing downstream applications.

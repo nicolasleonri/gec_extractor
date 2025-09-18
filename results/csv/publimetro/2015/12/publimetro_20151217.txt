@@ -1,0 +1,30 @@
+
+
+--- ERROR ENTRY: publimetro_17.txt ---
+
+```json
+[
+    {
+        "headline": "¿Qué es más saludable: el plátano o la manzana?",
+        "content": "< 2015 Disponible por Universal Uclick\nFacebook.com/llealthCapsules 11:30\n\nUN PLÁTANO TIENE CUATRO VEZES MAS PROTEÍNAS QUE \nUNA MANZANA, EL DOBLE DE CARBOHIDRATOS, EL TRIPLE DE FÓSFORO,\n5 VECES MAS DE VITAMINA A, 5 VECES MAS HIERR\nYO MUCHO MAYORES QUANTIDADES DE OTROS VITAMINAS Y MINERAL.\nA LOS PLÁTANOS TAMBIÉN SE LES CONOCEN COMO FUENTES DE POTASIO.\n\nLAS CAPSULAS MEDICALES NO SON DIAGNOSTICOS."
+    },
+    {
+        "headline": "Cómo jugar a...",
+        "content": "\nINTRODUCCIÓN DE NUMERO PARA QUE CADA FILA,COLUMNA Y CAJA CONTENGAN DIGITOS 1–9 SIN USAR MATEMATICAS SOLO REASONING LOGICA SOLUCION ANTERIOR ' a a 6 25 13 91 :\ns e 9 8 3 1la 27 o\na 2 3 9 a 71 86 5 Y.\nl'a 16 57 32 /28184 e,\n|3 4 2 1 85ir 59 *,\n8 5. 7 a 92 63 14 ,o\ne 9 sl31 41 572.o\n4 7 12 s 81 93 5.e\n2 3 5_ 76.991.48.n"
+    },
+    {
+        "headline": "Horóscopo semanal",
+        "content": "EUGENIA LAST ASTROLGA CANADIENSE\n'AriS | 21 de marzo – 20 de abril.\nUn viaje corto será esclarecedor. Las gentes que encuentras y la información que recibas te ayudará a decidir sobre tu futuro.\nTauro 12 de abril – 21 de mayo.\nAprenderás de los errores del pasado. Cuando sea cosa de dinero estarás mejor solo.\nGemini 22 de mayo – 20 de junio. Tu impulso natural está sometida a rumores. Para evitar convertirse en foco de atención sé más reservado. Podrían surgir dificultades económicas.\nCáncer 21 de junio – 2 de julio. Convierte tu manera particular de trabajar en beneficio propio hacia posiciones laborales donde tengas más independencia. Confía en tus capacidades.\nLeo 23 de julio – 22 de agosto. Te podrías encontrar ante problemas de salud si no prestas más atención a tí mismo y a tu entorno familiar. Algunas sorpresa harán olvidar todo eso. Será buena ocasión para reactivar relaciones sentimentales.\nVirgen 23 de agosto – 22 de septiembre. Necesitas dedicación especial a tu relación sentimental. Promete hacer alguna acción que fortalezca ese vínculo y obtén así mejores perspectivas futuras.\nLibra 23 de septiembre – 22 de octubre. Problemas domésticos aparecerán si desatiendas tus obligaciones. Cambiar de actitud dará lugar a nuevas ilusiones. Hay esperanza de conocer alguien interesante siempre que seas observador.\nEscorpio 23 de octubre – 1 de noviembre. Evita pensar que tienes necesidad de invertir grandes cantidades de dinero como compensación de momentos difíciles recientes. Mejor dedícate a compartir risas.\nSagitario 22 de noviembre – 21 de diciembre. Invita a los amigos cercanos...\nPISCIS NAVIDADES AMIGOS... "
+}
+```
+This extraction process involves identifying relevant sections based on context clues such as headlines and bodies of texts while filtering out non-journalistic elements like ads or unrelated data points. This ensures we capture complete stories where possible within given constraints. 
+
+The resulting JSON should strictly follow these rules for each entry:
+
+- Headlines typically appear before their respective contents.
+- Articles start after any identified headings.
+- Use heuristics to separate different pieces of information accurately.
+  
+If there's anything unclear about how specific parts were handled, please let me know!
+
+Here’s what was extracted according to our criteria above input example provided. Note that some entries might have been excluded due to lack of clarity or insufficient detail available in the OCR'd text. Adjustments made include fixing obvious typographical issues caused by OCR inaccuracies but not altering meaningfully significant details beyond those necessary corrections mentioned earlier.

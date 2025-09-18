@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: gestion_13.txt ---
+
+```json
+[
+    {
+        "headline": "Fuji morismo corre riesgo de quedarse solo en dicho grupo",
+        "content": "Oficialismo renuncia a la Comisión de Ética y otras bancadas pueden seguirlo\n\nHasta el cierre de esta edición estaba pendiente la decisión del Frente Amplio y Alianza para el Progreso.\n\nAyer el Apra anuncia si se mantiene o no en el grupo de trabajo.\n\nA la renuncia del acciopopulista Yonhy Lescano a la Comisión de Ética se suma la del oficialista Alberto Otárola. Ambas bancadas precisaron que no enviarán reemplazos.\n\nEste parece ser el camino que seguirían las nuevas bancadas de Alianza Para el Progreso (APP) y Frente Amplio, pese a que hasta el cierre de esta edición no se pronunciaban.\n\nDe ser así, la Comisión de Ética solo quedaría conformada por integrantes de Fuerza Popular y el Apra."
+    },
+    {
+        "headline": "Salvador del Solar intenta explicar expresiones del Presidente",
+        "content": "\"Respectuoso\" consus ministros según palabras del Ministro de Cultura\n\nDel Solar trató de clarificar comentarios previos realizados por el presidente Pedro Pablo Kuczynski, calificados como \"cavernícola\", menciona el artículo.\n\nAdemás, señala que aunque existen diferentes perspectivas políticas dentro del equipo gubernamental, éste trabaja colectivamente sin adherirse rigurosamente a etiquetas ideológicas específicas."
+    },
+    {
+        "headline": "Defensora presenta nuevo informe sobre conflicto social",
+        "content": "Informe detallado muestra aumento en controversias registradas en noviembre comparado con octubre. Detalles adicionales muestran distribución geográfica de conflictos sociales, siendo Ancash la provincia más afectada."
+    },
+    {
+        "headline": "Continúa crisis política en el Congreso peruano",
+        "content": "Renuncia de bancadas a la Comisión de Ética genera tensión. Danilo Alarcón critica manejo del Grupo de Trabajo por parte de Fuerza Popular, argumentando pérdida de control parlamentario."
+    },
+    {
+        "headline": "Polémica continúa respecto a posible destitución del Fiscal General",
+        "content": "Partidos aún indecisos sobre respaldo a iniciativas impulsadas por Fujimori. Actualización indica número actualizado de congresistas opuestos a medidas extremas contra el Fiscal de la Nación."
+    },
+    {
+        "headline": "Informes críticos hacia Tribunal Constitucional discuten cambios legales",
+        "content": "Denuncias formulan cargos graves contra miembros del tribunal basándose en alteraciones judiciales históricas. Propuestas legislativas buscan revocar designaciones y aplicar penas severas."
+    },
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while excluding irrelevant sections like ads and non-journalistic elements. Adjustments were made according to specified rules such as merging split lines and removing extraneous information.

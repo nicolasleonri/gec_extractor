@@ -1,0 +1,78 @@
+
+
+--- ERROR ENTRY: peru21_31.txt ---
+
+```json
+[
+    {
+        "headline": "Jennifer López y el rapero Drake tendrán una relación amorosa",
+        "content": "Salen a la luz imágenes que los comprometen.\nos rumores de mance entre Jennifer López y el rapero Drake aumentaron\nluego de que se difundieron en las redes sociales unos videos de los artistas\ndándose besos y abrazos en una fiesta privada.Según trascendi en la\nprensa internacional los artístas habrían surgido durante el cumpleaños, Je le padre de\nThe Chadwick Boseman , Joseph Robert \nsiempre tuvieron mucho afecto mutuo frente a los\nasistentes.Por ello, el programa El gordoy la Flaca, de la \ncadena Univesión, colgó en\nsu cuenta de Instagram la prueba del posible \nnoviazgo de los cantantes.Peronoes la única imagen que los músicos,sino que también hay fotos en las cuales Jenniffer.Lopez está junto a Drake, quién la tiene abrazada.Hasta el momento,\ninguno de los dos cantantes ha confirmado ni negado la posible \nrelación amorosa.Recordemos que en agoto,JLo terminó su\nnoviazgo con el bailarin Casper Smart,mientra que el rapero nunca \noficializo su romance con Rihanna."
+    },
+    {
+        "headline": "Reggaetónero JVÁREZ PLANEAN GRAVAR TEMAS CON CHICO REALIDAD",
+        "content": "\"Mario Hart es muy talentoso*\nEl Reggaetónero Puertorriqneño Javier Álvarez, más conocido como J Álvarez, se presenta\nesta noche en el festival Believe Lima,en el Green Arena de\nLimá.Además, anunció que planea grabar un tema con el\nchico realidad Mario Hart.\"¿Qué queremos? Grabar un\nNuevo Tema Y Estamos Pensandolo.El (Hart) es muy \ntalentoso y está subiendo mas,hay ido mejorando,Tiene hambre\nde éxito,el pueblo lo quiere y le va a ir bien\", dijo.De otro lado,J Álvarez se\nrefirió a las constantes críticas que reciben el reggae ton por las letras sexistas.\"Todos los géneros musicales de alguna manera hacen lo mismo,no sea que lo disfracen\nen las canciones y no tienen las letras tan explicites\" señalo.Inclusive,el reggaetonero defendió a su colega maluma,quiénlí timamente ha sido muy criticado.\"És comoo todo,porque la música comercial a veces es critiqueda por la gente,Yo grabé un duo con él y me pareció un artista muy bueno\", concluyo.Más tarde,cantar esta noche en lima.En enero sale el primer sencillo \"somos anomales'\ntocado por grandes músicos de Siberia\"."
+    },
+    {
+        "headline": "HALLE BERRY HACE OFICIAL SU DIVORCIIO",
+        "content": "Después de varios meses de un proceso legal, la actriz estadounidense Halle Berry se divorció oficialmente del actor francés Olivier Martinezz.Desde el anuncio de su separación,ambos actores han mantenido una relación muy cordial.Ahora,Berry y Martínez,por un mandato judicial compartiran la custodia de su menor hijo de 3 años,Maceo Robert,según informó la página TMZ.Los expósitos se conocieron en 2010,en sudáfrika,cuando filma ban la película de acción Marcaletal.Posteriorem entes,lso artistas se casaron el 13 de Julio del 2013.Con la repentina muerte de las actrices Carrey Fisherr y Debby Reynold,la cadena HBO estrenará el próximo 07 de enero Bright lights starring Carrey fisher and debbie reynolds,un documental sobrea la relacion entre madrer e hija.Es una historía de amor,\" expresó la Presidenta de producción de HBO,Sheila Nevins,a la Revista Varieta.Estade producción,ques mostró en el Festival de cine,rescatógrabacioness familiares de antigüedad y fue describa como un retrato excéntrico dela realeza Hollywoodense'."
+    },
+    {
+        "headline": "Inglaterra. El líder Chelsea recibe al Stoke city en la jornada 19 de la premier",
+        "content": "Siguiendo la AccionLiverpool y chester City sostendrán el duelo más atractivo de la fecha encasa del primero.Londres.-Mientras el MundoSe prepara par recebir el Nuevo año,Las acciones continúan Hoy en lapremier league,en Deber del Chelsea Buscaremos mantenerse al frende de laclasificación.En tanto,Liverpool y manchester city se midrán en un partido quesepromete sacar muchachispas.Por la jornada 19,la última del 20 16,'red's (20 con 40) y citizeans (30 con 39)servern las caras enAnfield road-la casa de los primerosen-el partido más atra ctivodela jornada,Ambos lleganfortificados después de haber ganado sus últimos tres dueloss ligueros.Paraelcompromiso,el dt del liverpool,jorgenclop, no contará con elmide apunt phillipe coutinhoy joel matip.el Zaguero.Josep guardiolatiécnicodellcitypodrá tener a su disposición alasergio kun aguero ensu ataque des pues de cumplir las cuatro fechas demarción quelieseron impuestas por una fuerte entradacontra el brasileno david luiz,delpoches ciudadanos.a principio decidiembree.l.chelsesa no perder enlapremierleague desde el 24 de septiembre,cuando cae 3-o endesusitaa al arsenal porelfecha 6.Liverpoolno pierde enfrecuentamiento del citydesde hacemas de 13 anos.Los'reds ganaron los ultimos tres partidos ligaingleses.'Reds'ordenado por el periódico. Manteniendo la lectura dentro del artículo principal." />
+```
+This example demonstrates how to process each segment according to the given rules for extracting relevant information while ignoring non-article elements like ads, images, etc. Here’s what we have extracted:
+
+### Article Extraction Process
+
+Let's break down the input provided step-by-step based on our defined criteria:
+
+**Article Identification**
+
+We need to identify potential headlines within the OCR text looking for patterns such as bold titles, followed by blocks of continuous prose which form coherent stories about current events. We'll ignore sections related to advertising, subscriptions, sports schedules, and other irrelevant data points mentioned earlier.
+
+Here's how I would approach it using the sample input format described above:
+
+#### Example Input Text Snippet Analysis
+
+Given the complexity of real-world scenarios where texts may overlap across different types of content, here's how segmentation might look after cleaning up some hypothetical OCR results:
+
+---
+
+Assuming the following snippet was found during processing:
+
+```
+LA LOCURA POR UN CAMPO DE PIEDRA NATURAL
+EL LOCO DEL MARTELO QUEBRANTÓ LAS REDES SOCIALES PARA DAR PASO A LOS DEMOCRACIAS LIBERTARIAS...
+```
+
+After performing necessary cleanup operations including joining split phrases, removing unnecessary characters, correcting obvious typos caused by OCR misinterpretations, ensuring proper sentence structures, preserving any special symbols used correctly, and maintaining grammatical integrity, the result should yield something similar to below:
+
+```json
+[
+    {
+      "headline":"EL LOCO DEL MARTILLOS",
+      "content":"Hoy en dia, uno pensaria que... "
+    },  
+    ...
+]
+```
+
+For clarity, ensure every significant block of text has been processed through these steps before being included in the final list. 
+
+Now applying those principles strictly adhering to guidelines ensures accuracy and completeness of extraction.
+
+## Steps Applied To Sample Data
+
+1. **Identify Headlines**: Look for capitalized sequences indicating prominence over regular paragraphs.
+   
+   For instance, `“Jennifer López y el Rapero Drake tendran Una Relaciòn Amorosa”` stands out distinctly among surrounding text fragments.
+
+2. **Extract Content Blocks**: Following identified headings, capture subsequent textual segments until another heading interrupts continuity or ends naturally.
+
+3. **Clean Up Artifacts**: Correct common OCR mistakes such as splitting words (`martello -> martillos`) and remove redundant spacing or unrelated metadata tags.
+
+4. **Format Properly**: Convert cleaned-up text snippets into structured JSON entries under `"headline"` and `"content"` keys respectively.
+
+By systematically filtering and structuring the recognized components, we achieve accurate representation aligned with specified requirements.
+
+Finally, validate against syntax correctness via parsing tools available in programming environments supporting JSON validation checks prior to concluding outputs ready for further application usage. This methodical breakdown helps maintain consistency throughout complex multi-source inputs typical in large-scale digitization projects involving historical archives or dynamic web scraping tasks.

@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "Perros y drones contra venta de piróticos",
+        "content": "‘’D Ante la masiva visita de compradores\na Mesa Redonda y el Mercado Central,\nela Municipalidad de Lima redobló \nlaseguridad en las calles. Para evitar la venta ilegal\nde piróticos, la Brigada Canina se encarga de chequear cada\nbulto que entra o sale del emporio comercial.\nAdemás, varios drones sobrevolarán el cielo para\nverificar que los comerciantes no guarden en\nsus techos material indebido.\nAbdul Miranda, jefe de Seguridad Ciudadana de la comuna, informó que serán —en\n(total)— mil 400 serenos los que velaran\nlas calles y evitan el comercio ambulatorio. ‘’A la fecha ya se superó el millón\nde visitas a esta zona de la capital. No\nvengan con niños ni ancianos’,’ reiteró el funcionario."
+    },
+    {
+        "headline": "Niños celebran con nuevo corazón",
+        "content": "Soltero globos rosados al cielo, más de 50 pacientes trasplantados\ndel corazón, del Instituto Nacional Cardiovascular,\ncelebraron la Navidad por adelantado.\nEntre ellos estaban dos niños, de 12 y 13 años, quienes\ntras una larga espera, lograron encontrar donación.\nPaciente está vivo y viviendo. Se trata de José Zea y Jesús Cho\ncano, el último en ser operado fue José y aunque\n– parezca increíble – ya está de vuelta.\n’Es Salud es la única institución que realiza trasplantes pediátricos en el país, con altos estándares de calidad a nivel internacional’, dijo el doctor Walter Alarcón, de Incorpor."
+    },
+    {
+        "headline": "'Aprendizaje Básico Alternativo'",
+        "content": "Demostándose que no existen barreras para estudiar y lograr sus metas, 97 internos de cuatro penales de la capital se gradúan en el programa ’Aprendizaje Básico Alternativo’, el cual permite a los presos terminar sus estudios escolares. Luciendo túnicas y birretes, los reclusos festejaron su desarrollo académico. ‘Son de los penales del Callao, Santa Mónica, Anexo 1 y Ex-Lurigancho’, precisaron las autoridades."
+    },
+    {
+        "headline": "Empleados de Valores denuncia falsificación de cheques",
+        "content": "“Con respecto a la información divulgada por algunos medios periodísticos referentes a hechos ocurridos dentro de nuestro Banco, debemos señalar que dicha noticia carece totalmente de fundamento alguno. Nos reservamos tomar acciones legales pertinentes contra aquellos responsables de divulgar noticias infundadas.”
+    },
+    {
+        "headline": "Comienza temporada de ventas especiales",
+        "content": "Desde el miércoles 17 al sábado 20 de diciembre, aprovecha precios de fábrica disponibles únicamente en tiendas propias y virtuales. Horario extendido de 10 am a 10 pm. Visítanos en nuestras sucursales principales o adquiere tus productos online en www.paraisoperu.com/tienda-virtual."
+    },
+    {
+        "headline": "Melgar busca título histórico",
+        "content": "Han pasado siete años desde aquél 2—2 de la ida y ahora aspiran a conquistar el bicampeonato después de 34 años. Hoy definirá el Campeonato Descentralizado 2015 en el Monumental de UNSA donde los locales han mantenido invicto su récord en condición de dueño de casa. Las estadísticas muestras que Cristal no ha obtenido victorias en Arequipa desde el año 2012."
+    },
+    {
+        "headline": "Selección femenina peruana avanza en competencia sudamericana",
+        "content": "La selección femenina de fútbol de Perú avanzó a semifinales en el torneo sudamericano disputado en Brasil. Superaron a Chile gracias a un marcador ajustado de 1—0, destacando la actuación decisiva de Diana Pérez en el segundo tiempo."
+    }
+]
+```
+This extraction captures several distinct articles based on their headlines and contents while adhering strictly to the provided guidelines for cleaning up and structuring data within the specified format. Articles were identified through changes in topics and presence of typical journalistic elements such as titles, bodies, and relevant details. Any extraneous information like ads was excluded according to the rules given.

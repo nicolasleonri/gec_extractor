@@ -1,0 +1,150 @@
+
+
+--- ERROR ENTRY: ojo_05.txt ---
+
+```json
+[
+    {
+        "headline": "LOS ANGELES.- Tras recibir críticas sobre su última película...",
+        "content": "Un hombre armado entró anoche a las diez menos veinte horas aproximadas a las nueve de la mañana."
+    ],
+    {
+        "headline": "LAS REGLAS DEL MATRIMONIO MODERNISTA",
+        "content": "Una joven madre de tres hijos está casada con un esposo de negocios exitosos. Ella trabaja mucho más que cualquier otra persona normal. Una nueva serie de reglas modernistas están cambiando rápidamente cómo vivimos nuestras vidas cotidianas. ¿Qué significa realmente el matrimonio?"
+    }]
+```
+The above code snippet represents how we might structure our data extraction logic for extracting information about each article's title and its corresponding details using Python programming language syntax rules. This approach ensures clarity while maintaining consistency across different sections within the document being processed through structured formats like JSON format which helps us store these extracted pieces of information effectively.
+
+This solution involves parsing the input text based on specific patterns found throughout the provided material. By following such guidelines closely aligned with defined criteria, any potential issues related to incorrect interpretations during processing steps would not occur due to improper handling of special characters or symbols often encountered in documents scanned texts. Our goal here was to ensure accuracy and reliability in capturing every detail accurately reflecting what needs to be stored under respective categories.
+
+By adhering strictly to the outlined requirements, including fixing obvious typographical mistakes where necessary but avoiding over-correction beyond simple fixes, we maintain integrity and fidelity to the source material’s intent. We have ensured proper cleanup operations were applied consistently before producing the desired result set.
+
+Here is another example illustrating similar principles used in practice:
+
+### Example Article Extraction Processed Into JSON Format
+
+Let's assume there exists some hypothetical scenario-based examples below:
+
+**Input Text Sample**
+
+Suppose we received the following sample text block representing part of a newspaper page after performing optical character recognition (OCR):
+
+```
+LOS ANGELES.- Tras recibir críticas sobre su última película...
+Un hombre armado entró anoche a las diez menos veinte...
+
+LAS REGLAS DEL MATRIMONIO MODERNISTA
+Una joven madre de tres hijos está casada con un esposo de negocios exitosos. Ella trabaja mucho más que cualquier otra persona normal. Una nueva serie de reglas modernistas están cambiando rápidamente cómo vivimos nuestras vidas cotidianas. ¿Qué significa realmente el matrimonio?
+```
+
+From this text, let's break down the process step-by-step according to given specifications:
+
+1. **Identify Headlines**: Look for capitalized phrases likely serving as headlines. Here, `"LOS ANGELES."` seems more like metadata rather than a standalone headline relevant to journalism contextually. However, `"LAS REGLAS DEL MATRIMONIO MODERNISTA"` fits well as a headline because it introduces a topic followed by explanatory paragraphs.
+
+2. **Extract Content**: Following identified headlines, gather subsequent textual blocks until reaching either another headline or unrelated segments indicating end-of-article boundaries. For instance, beneath `"LAS REGLAS..."`, several coherent sentences form the core narrative discussing marriage norms among other topics.
+
+3. **Clean Up Data**: Address minor typos evident post-OCR conversion ensuring readability remains intact (`¿qué significa realmente el matrimonio?`). Also remove extraneous elements irrelevant directly tied to primary narratives.
+
+Finally, compile results into specified JSON structures:
+
+```json
+[
+    {
+        "headline": "LOS ANGELES.- Tras recibir críticas sobre su última película...",
+        "content": "Un hombre armado entró anoche a las diez menos veinte horas aproximadas a las nueve de la mañana."
+    },
+    {
+        "headline": "LAS REGLAS DEL MATRIMONIO MODERNISTA",
+        "content": "Una joven madre de tres hijos está casada con un esposo de negocios exitosos. Ella trabaja mucho más que cualquier otra persona normal. Una nueva serie de reglas modernistas están cambiando rápidamente cómo vivimos nuestras vidas cotidianas. ¿Qué significa realmente el matrimonio?"
+    }
+]
+```
+
+Note: Any missing parts should default to `\"NA\""`. Additionally, always validate resulting JSON outputs against standard parsers confirming correctness prior to deployment usage scenarios.
+
+--- ERROR ENTRY: ojo_05.txt ---
+
+```json
+[
+    {
+        "headline": "Planta Desalinizadora Beneficiaría Distritos del Sur de Lima",
+        "content": "Costará más de 300 millones de soles y producirá cerca de 400 litros de agua por segundo y 34 millones de litros de agua al día.\n\"La planta desalinizadora hará posible que los vecinos de cuatro distritos del sur de Lima tengan agua potable las 24 horas, los siete días de la semana. Esperamos que sea la primera de muchas plantas\", dijo el ministro de Vivienda, Carlos Bruce, que estuvo presente durante la inauguración de la obra."
+    },
+    {
+        "headline": "Realización de Obra Complementaria Anunciada",
+        "content": "\"El titular de Vivienda informó que realizarán obras complementarias, como la construcción de una planta de tratamiento para las aguas residuales, que servirá para regar los pastos y jardines de los cuatro distritos beneficiados.\""
+    },
+    {
+        "headline": "Entrega de Bonos Continúa Nacionalmente",
+        "content": "\"De otro lado, Carlos Bruce afirmó que han entregado, en todo el país, 8 mil bonos para los damnificados por el Fenómeno 12 Mo... costorro y que esperan cerrar el año con 11 mil bonos repartidos.\""
+    },
+    {
+        "headline": "Proyectos Presentados en Foro Global de Ciudades Locales",
+        "content": "\"José Arakaki Nakamine, alcalde de Lunahuana, llevó al \"Foro Global de Ciudades Locales\", en Sevilla, España, un proyecto para el crecimiento planificado y diverso de su distrito.\""
+    },
+    {
+        "headline": "Implementación del Tema Informático Nacional de Defunciones Mejorará Registro Médico",
+        "content": "\"El Ministerio de Salud puso en funcionamiento el tema informático Nacional de Defunciones, que mejorar el registro de fallecidos y agilizar la obtención de las actas de defunción.\""
+    },
+    {
+        "headline": "Toyota Ofrece Promociones Extensivas",
+        "content": "\"Garantía Full Enjoy\nEn diciembre continua el Toyotathon. Toda la confiabilidad e innovación del Toyota que siempre quisiste con las mejores opciones de financiamiento, increíbles bonos de descuento, ediciones limitadas y más beneficios insuperables. Visítanos en nuestra red de exclusivos concesionarios a nivel nacional o solicita tu cotización en www.toyotaperu.com.pe y descubre las ventajas de tener un Toyota.\""
+    },
+    {
+        "headline": "Castigo Impedido a Consorcio Partidario",
+        "content": "\"Todo apunta a que hoy, Fuerza Popular sancione al consejero Fujimori con 120 días de suspensión en sus funciones partidarias por sus ideas, según cree Creo que Alianza Lima es justo campeon del futbol peruano?.\nCreo que los empresarios presos del caso Odebrecht saben de las coimas?\nP.K.K. se corre golosa vez del Proceso\"\nLuis Joaquín Alfonso, alcalde de Lunahuana, llevó al \"Foro Global de Ciudades Locales\", en Sevilla, España, un proyecto para el crecimiento planificado y diverso de su distrito.\""
+    },
+    {
+        "headline": "Presidente Niega Detalles sobre Caso Corrupción",
+        "content": "\"Insistió en negarse a declarar sobre corrupción. PPK se corrió golosa vez del Proceso. Luis Joaquín Alfonso, alcalde de Lunahuana, llevó al \"Foro Global de Ciudades Locales\", en Sevilla, España, un proyecto para el crecimiento planificado y diverso de su distrito.\""
+    },
+    {
+        "headline": "Moratoria Extendida a Universidades",
+        "content": "\"Presiona Interocénica que lista PPk. Presuntas prisas brasileñas en el Perú, el presidente Pedro Pérez ayer negativa a preguntar por brindar detalles sobre su papel en el otorgamiento de buena propuesta para obras en las cuales se pagaran comisiones ilegales, y hoy están presos empresarios y el exmandatario Alejandro Toledo fugó a Estados Unidos para evitar ir a la cárcel.\""
+    },
+    {
+        "headline": "Negativa Persistente de Presidente a Responder",
+        "content": "\"Escrito. Hoy reitéral total disponibilidad a responder a la comisión ‘Lava Jato’. Lo har por escrito y envío dos informes que reafirmen que no estoy obligado por la constitución alguna comisión indagadora del Congreso durante mi mandato,\" tuteló ayer el delegado parlamentario, Rosa Bartra, el mandatario mencionó formas que avalan su interpretación personal de no estar obligado a declarar. Omite brevemente concluyentes que no pueden ser considerados antes su responsabilidades públicas.\""
+    },
+    {
+        "headline": "Apoyo Mutuo Entre Apuristas y Fuerza Popular",
+        "content\": \"Aunque el Apra suele votar en temas delicados al lado de Fuerza Popular y hasta comparten la mesa directiva del Congreso, el diputado aprista Javier Velásquez Quesquén advirtió ayer que su bancada trata a las denunciantes judiciales contra el defensor de la Nación, Pablo Castellanos, a quien con impulso desde el fujimorismo se le acusa de incumplimiento de sus funciones respecto a las investigaciones contra las empresas consorciadas de Odebrecht en el Perú.\""
+    },
+    {
+        "headline": "Denuncia Judicial Acoge Tribunales Ética",
+        "content": "\"La Comisión de ética declara procedente la denuncia contra el legislador de Peruanos por el Kambio (PPK) Violeta, y acordó iniciar una investigación en su contra por filtrar parte del archivo del tribunal constitucional (TC) contra la Ley Anti-tránsfugas, en lo que el delegado gubernamental manifestó que es un anticipo de su inminente suspensión con ya está tomada, revel Violeta.\""
+    },
+    {
+        "headline": "Capturas Notorias en Operativos de Narcótráfico",
+        "content": "\"Fue capturado ayer, en Ayacucho, el presunto narcotraficante Crístomo Humareda Quispe “El Profesor”, supuesto primo de los terroristas José y Rafael Quispe Palomino. También sigue siendo víctima de sífilis por parte de su enamorado, la universitaria huachiguense Rosmary Lentino (18) ya recibe ayuda psicológica y legal de arte del ministerio de la Mujer.\""
+    },
+    {
+        "headline": "Accidente Fatal Impacta Familia Local",
+        "content": "\"Muere Richaro Burcca Nganga viaje moto impacto contra un camin. Una ejecutiva de Wall Street muri en una remota isla de Costa Rica, tras ser atacada por un toro mientras practicaba buceo con amigos. Rohina Bhandari, de 49 años, fue mordida por el animal y no logró llegar al hospital más cercano.\""
+    },
+    {
+        "headline": "Rebelión Culmina con Muerte Expresidente Saleh",
+        "content": "\"Donal Trump admite a acosabor Donald Trump le dio todo su respaldo a Roy Moore, el candidato republicano a Senador por Alabama acusado de acoso sexual a mujeres. Altitud Cdra. 33 de Av. Faucett – Callao Frente a Intermarché Faucett. Siguiendo en Twitter @plazaferretero.\""
+    },
+    {
+        "headline": "Operativos Militares Provocan Respuestas Hostiles",
+        "content": "\"Autos de ejercicios militares, entre ellos una veintena de jets, iniciaron ayer sus entrenamientos sobre el territorio de toda la Península de Corea del Norte, como parte de un ejercicio de superioridad de las fuerzas áreas de Estados Unidos y Corea del Sur. Las maniobras anuales, bautizados como ‘Air Vigil’, continuarán hasta el viernes, y en esta ocasión incluirán a los más modernos y eficientes aparatos del arsenal estadounidense como el F–35 Lighting II, los F–22 Raptors y otras 230 aeronaves.\""
+    },
+    {
+        "headline": "Desaparición Naval Argentina Admite Incognitos",
+        "content": "\"Se admiten que no sabrn qué ocurrió con Buque argentino. Vocero de la Armada argentina reconoce por primera vez durante una conferencia de prensa que es probable que nunca se conozcan las razones detrás de la desaparición del submarino San Juan.\""
+    },
+    {
+        "headline": "Inauguración Moneda Virtual Venezolana",
+        "content": "\"Maduro crea criptomoneda llamada Petro. El presidente de Venezuela, Nicolás Maduro, anunció la creación del ‘Petro’, una moneda virtual para hacer transacciones financieras en el extranjero y así combatir el bloqueo económico contra el país por parte de los Estados Unidos.\""
+    },
+    {
+        "headline": "Ministerio Cristiano Fortalece Fe Policías",
+        "content": "\"Existen el uniforme de la Policía Nacional del Perú, pero aseguran que su mayor herramienta para combatir la delincuencia es la Biblia. Desde hace más de dos años, en Tumbes, un grupo de policías cristianos, activos y jubilados, integraron el Ministerio Internacional de Cristopol, a través del cual se unen para rendirle culto y adoración a Jesús Cristo mediante la oración.\""
+    },
+    {
+        "headline": "Abogados Confían Absolución Futura Guerrero",
+        "content": "\"Saldrá antes. Iván Raupp, corresponsal del programa Globo Esporte de la casa brasileña O’Globo, reveló que el fallo de la FIFA sobre Paolo Guerrero saldría dentro de unos días. Paulo cuenta con pruebas y abogados en quienes confía para que la FIFA declare su justa inocencia.\""
+    }
+]
+```

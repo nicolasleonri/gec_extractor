@@ -34,3 +34,30 @@
     }
 ]
 ```
+
+--- ERROR ENTRY: publimetro_09.txt ---
+
+```json
+[
+    {
+        "headline": "Alcalde electo alerta que el presupuesto de la MML se reducir el próximo año y critica situación del Metropolitano.",
+        "content": "El alcalde electo de Lima, Jorge Muñoz, advirtió ayer que el presupuesto con el que comenzará el 1 de enero su administración en la Municipalidad Metropolitana de Lima (MML) será inferior al actual, complicando así el financiamiento de proyectos.\n\nDetalló que el presupuesto estimado inicial del municipio para el 2018 ascendía a S/1.755 millones, destinándose el 60% para gastos corrientes y el 35% para inversiones en infraestructuras. Sin embargo, para costear las construcciones relacionadas con los Panamericanos de Lima 2019, el presupuesto aumentó a S/3.300 millones, elevando significativamente el porcentaje dedicado a inversiones del 35% al 60%. \"Para el 2019, el presupuesto no bajará a los S/1.755 millones originales, sino que disminuirá a S/1.442 millones\", explicó Muñoz en conferencia de prensa.\n\n\"Existen más de $300 millones menos en recursos financieros, y aún más alarmante resulta que el gasto en inversiones caiga dramáticamente del 60% al 21%\"," añadió. Además, señaló pérdidas superiores a S/457 millones derivadas de fallos judiciales respecto a disputas contractuales con operadores del sistema Metro de Lima."
+    },
+    {
+        "headline": "MUÑOZ VS CASTAEDA POR MANEJO DE LIMA",
+        "content": "\"No tendrá problemas de presupuesto\", garantiza Presidente Vizcarra tras discrepancia pública entre el futuro y presente alcalde metropolitano. \n\nAnte las controversias surgidas entre ambos funcionarios públicos, el presidente Martín Vizcarra intervino afirmando que el financiamiento necesario estaría asegurado. Contrariamente, la administración vigente liderada por Luis Castañeda calificó las proclamas de Muñoz como imprecisiones notorias. Argumentaron que demandas legales interpusieron los consorcios involucrados años atrás bajo diferentes circunstancias políticas, sin reconocimientos monetarios sustanciales posteriormente. "
+    },
+    {
+        "headline": "MERCEDES ARÓSTEGUI LLAMA AL PRESIDENTE MARTÍN VICCARIA ‘POLITICO’ TRAS ACUSA CIÓN CONTRA SU PERSONA",
+        "content": "Tras la denuncia penal formulada por el Fiscal de la Nación, Pedro Chávarry, dirigida hacia figuras destacadas dentro del ámbito gubernamental, incluida ella misma, la Vicepresidente Mercedes Aróstegui manifestó sentirse injustamente atacada. Calificó tales acciones como maniobras politiqueras diseñadas para intimidar su posición legislativa futura. Durante una declaración pública, enfatizó su determinación política y jurídica, expresando confianza plena en la transparencia de sus procedimientos económicos previos."
+    },
+    {
+        "headline": "PLENO SESIÓN INFORME LAVALAJATO SE SUSPENDIO POR INCIDENTE CON MANUEL DAMMERT QUE ACUSÓ AL APRISTA DE CUENTAS OCULTAS EN ANDORRA",
+        "content": "La sesión parlamentaria destinada a debatir el Informe Lavajaato experimentó suspensiones múltiples motivadas por altercados verbales protagonizados principalmente por Manuel Dammert, representante de Nuevo Perú. Acusó a integrantes del partido Aprista Peruano de poseer activos ocultos en territorio andorrés vinculados presuntamente a prácticas corruptas. Ante tal acusación, Jorge del Castillo solicitó formalmente retirarlo, aunque Dammert persistió en su postura provocadora. Esto culminó en tensiones palpables entre distintas fracciones partidarias, llevando eventualmente a la decisión de aplazar temporalmente la continuación del análisis del documento oficial."
+    },
+    {
+        "headline": "VISITA OFICIAL DE MARIO VAR GAS LO SA A AREQUIPA DONARÁ LIBROS A BIBLIOTECA RICARDO PALMA",
+        "content": "Con motivo de celebrar tanto su visita a su ciudad natal como el festival literario denominado Hay Festival, Mario Vargas Llosa anunció su disposición a contribuir generosamente entregando cerca de 2800 ejemplares de su colección personal a la biblioteca municipal nombrada en honor a Ricardo Palma. Tal acción solidaria resalta su compromiso perpetuo con la difusión de la cultura escrita y educativa en Arequipa, fortaleciendo además el vínculo afectivo con su origen geográfico."
+    }
+]
+```

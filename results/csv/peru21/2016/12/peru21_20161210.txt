@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "FCIL EN SU AFÁN POR METERSE EN LA FASE DE GRUPOS",
+        "content": "El que finalice tercer puesto disputará una etapa previa y el que termine cuarto deberá jugar una ronda adicional.\n\nLos cremas cayeron en semifinales ante Melgar, con el que perdieron en Lima 2–1 y empataron en Arequipa 2–2. La ‘Academia’ sucumbió ante Sporting Cristal, al que derrotaron en Villa El Salvador y contra el cual perdieron 3–2 en la tanda de penaltis en el duelo de vuelta."
+    },
+    {
+        "headline": "Esta partida significa la despedida del lateral izquierdo Gatiquo García Contiarás I Fenicias Azela MTowov Vasquez Albin Amigome Apolo González Vagabundo Eugeniza Reggilo Disobertochule M Velasco",
+        "content": "El estratega Roberto Chale desea que su conjunto sea netamente ofensivo, por eso mandará a Herminio Rengifo y Adrián Ugarriza juntos en ataque. Diego Manicero será el organizador debido a la ausencia de Diego Guastavino.\n\nJohn Galliquio actuar como lateral derecho, mientras que Horacio Benínsaca formará pareja defensivamente con Brayner García."
+    },
+    {
+        "headline": "Alianza Lima. Germán Pacheco es una de las opciones para el ataque",
+        "*Pachecol* es una opción –\nPacheco podría incorporarse a Alianza Lima el próximo año. Este futbolista argentino ha estado vinculado durante tres años con Juan Aurich y actualmente está disponible ya que terminó contrato. Además, también posee habilidades para ocupar posición de mediocampista creativo ('diez'). Durante su paso por Ciclón marcó 39 goles en 107 enfrentamientos.\n\nUna alternativa más segura para fortificar la retaguardia es el uruguayo Guillermo Rodríguez, aunque lleva tiempo fuera de competición. Para Pablo Bengoechea, nuevo técnico de Alianza a partir de enero, representa garantía de confianza."
+    },
+    {
+        "headline": "Villchez llegará a Sporting Cristal",
+        "content": "Sporting Cristal aspira a conformar un plantel capaz de competir eficientemente en la Copa Libertadores. Priorizando nombres clave como Oscar Villchez, Sergio Peña y el portero Mauricio Viana procedentes de Chile. Con este propósito, buscan contar con un grupo extenso que les facilite triunfar simultáneamente en torneo continental y campeonato doméstico."
+    },
+    {
+        "headline": "Melgar. Estrategia Mexicana",
+        "content": "Arequipa.- Melgar descarta participación del mexicano Rogelio Chvez en el juego inicial frente a Cristal correspondiente a la definición del título nacional. Esto ocurre dado que el extremo derecha aún carece de registro oficial en el sistema central deportivo. Esta medida preventiva evita reclamos posteriores sobre resultados si decide intervenir en el campo."
+    },
+    {
+        "headline": "El Chapecoense intenta recuperarse después de la catástrofe aérea",
+        "content": "Tras el accidente ocurrido el 29 de noviembre, el club brasileño designó a Wagner Mancini como director técnico interino, remplazando así a Caio Junior, víctima fatal del incidente. Posteriormente, Mancini tomó posesión formalmente el mes siguiente."
+    },
+    {
+        "headline": "CIDH inhabilita al Presidente del CO Perú",
+        "content": "Jos Quiones, líder del Comité Olímpico Peruano, recibió prohibiciones administrativas extendidas hasta cinco años impuestas por irregularidades financieras detectadas relacionadas con gastos públicos excesivos sin rendición adecuada de cuentas."
+    },
+    {
+        "headline": "Te quieren atrapar al Chelsea",
+        "content": "Stoke City planea sorprender al lider indiscutible Chelsea en el marco de la fecha 15 de la Liga Inglesa. Por otra parte, Manchester City tendrá dificultades adicionales al medirse con el vigente monarca Leicester, ambos equipos afectados por suspensiones múltiples de jugadores claves."
+    },
+    {
+        "headline": "Werder Bremen persigue revancha",
+        "content": "El veterano Claudio Pizzaro contribuye activamente dentro del Werder Bremen, buscando revertir situaciones adversas en su estadía alemana. Su presencia sigue siendo vital para el desarrollo táctico del equipo en Bundesliga."
+    }
+]
+```
+This extraction captures various sports-related stories while adhering strictly to the provided guidelines for identifying headlines and contents within the given OCR text input. It excludes non-journalistic elements such as schedules and promotional material not directly related to any specific story narrative.

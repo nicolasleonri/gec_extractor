@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: ojo_07.txt ---
+
+```json
+[
+    {
+        "headline": "LABANDA’\"Los topos de Lima\nsur\", líderada por Fortunato...",
+        "content": "La bandada \"Los topos de Lima\ sur\", liderada por Fortunato, tenía un \"tarifario especial\" para cobrar a distintos negocios del distrito.\nSegún la investigación, las discotecas debían pagar al mes unos S/5 mil, los restaurantes pequeños pagaban entre S/500 y S/1,500. Un restaurante grande podía pagar hasta S/5 mil al mes. Así mismo, en el caso de los nichos se cobraba hasta S/2,500. Además, trabajadores del cementerio tenían que abonar un cupo para poder laborar en el camposanto."
+    },
+    {
+        "headline": "VECINDARIOS DENUNCIAN COBROS DE COPOS POR SUS NEGOCIOS",
+        "content": "\"OJO\": Que inclusive hasta para recoger la basura de sus casas les exigían dinero.\" Nos pidieron dos soles adicionales adaptándolo a él bis mos porque ya pagábamos nuestros impuestos y eso no es justo\", contó una vecina."
+    },
+    {
+        "headline": "CRISTIAN DOMÍNGUEZ SE DISCULPA CON KARLA TARAZONA",
+        "content": "Christain Domnguez criticó a Yazmín Pinargote por decirlé \"Muera en tu ley\", dejando claro que sí le había sido infiel a Karla Tarazona. Durante el programa \"Espectáculos\" de Latina, Domnguez expresó: \"Cuando estábamos contigo, pensé que seria para toda la vida. No fui el mejor de las personas o de las parejas, pero si me equivoqué, discúlpame,\" señaló Domnguez frente a cámaras. Reconciliación. Entre lágrimas, la ex-modelo le increpó al también actor diciendo que la forma en cómo concluyeron su relación no fue la adecuada."
+    },
+    {
+        "headline": "MONIQUE PARDO ADELANTA POSIBLE CAMPAÑA PRESIDENCIAL",
+        "content": "Monique Pardo anunció que pronto revelará detalles sobre su potencial campaña presidencial. Hablando desde el evento interno de \"Masha y el Oso\" en el Centro de Convenciones Carlos Barraza, mencionó: \"Ya estoy listo para dar este paso importante hacia adelante,\" indicó Pardo."
+    },
+    {
+        "headline": "RAFAEL CARDOSO RESPONDE AFÁBIO AGOSTINI",
+        "content": "Aunque inicialmente declaró que sería su última aparición en un reality, Rafael Cardozo manifestó su deseo de competir en la final de \"Esto es Guerra\", condicionado a que Fabio Agostini no participe. Respondió así a comentarios previos hechos por Áfabio Agostini después de haber sido eliminado del programa."
+    },
+    {
+        "headline": "ALIANZA LIMA RENOVA CONTRATO A BENGOECHEA",
+        "content": "El técnico Pablo Bengoechea firmará hoy su renovación contractual con Alianza Lima hasta 2018. Posteriormente viajará a Uruguay para celebrar Navidad con su familia. Dentro del plantel valoran mucho su contribución, especialmente considerando que podría cesar debido a su excelente rendimiento."
+    },
+    {
+        "headline": "MATITE FINAL EN LA COPA PERÚ",
+        "content": "Durante la fecha final de la Copa Perú, disputadas partidas emocionantes resultaron en victorias significativas. CN í triunfó 1-0 sobre José Carlos Mariateguí, mientras Atlético Grau logró un empate sin goles contra Nacional. Todo queda pendiente para la próxima jornada cuando estos equipos enfrenten nuevamente a sus rivales respectivamente."
+    }
+]
+```
+This JSON captures each significant article found within the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on their headlines and substantial textual content related to journalism standards outlined in the task description. Any extraneous information such as ads was excluded according to guidelines.

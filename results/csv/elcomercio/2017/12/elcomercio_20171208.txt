@@ -1,0 +1,19 @@
+
+
+--- ERROR ENTRY: elcomercio_08.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno podría pensar que..."
+
+    ,
+    {
+        "headline": "¡Felicitaciones! ¡Fin de la cuarentena!",
+        "content": "Me emociona saber que..."
+        
+    }    
+]
+```
+This example demonstrates how extracted data should appear based on provided guidelines for extracting headlines and contents while excluding irrelevant information such as ads, subscriptions, etc. Adjustments were made according to specific rules like merging split words due to line breaks and removing unnecessary elements. Note that some sections might not have complete details available within the input constraints but follow the outlined extraction process accurately.

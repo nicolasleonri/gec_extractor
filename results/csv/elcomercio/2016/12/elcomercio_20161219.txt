@@ -1,0 +1,60 @@
+
+
+--- ERROR ENTRY: elcomercio_19.txt ---
+
+```json
+[
+    {
+        "headline": "Mirada de fondo Mermelada de naranja Andrscaldern Editor central de Opini\u00f3n",
+        "content": "\u201c Hay muchos lacayos, hay muchos \nsobones que salen a defender [\xa0Saavedra]\u2026 no s con qu intereses\".\u201d \"El lobby que se maneja por consultoras [...] sale a los medios\".\"La reacci\u00f3n de alg\u00fan sector de los medios de comunicaci\u00f3n, como bien lo dijo Philip Butters, no se vea desde la poca [en] que Montesinos manejaba los medios de comunicaci\u00f3n\", Luis Galarreta.\"\u201cHay una campai\u00f1ata [contra el Congreso], pues hay periodistas o su medio de comunicaci\u00f3n que nunca antes han recibido tanto dinero del Ministerio [de Educaci\u00f3n].\u201d (En una entrevista con un periodista de radio)\u201d Vergenza es defender a un Ministro por la mermelada que les han dado,\u201d Hector Becerril.Dicen que en politica no hay coincidencias. Entonces, que dos de los principales voceros del Fujimorismo \u2013que, por cierto, cada vez se parecen mas, no?\u2013 manejan un discurso similar contra la prensa no parece ser tan azaroso, cierto?Y a qu se debe esto? La opcion A es que tengan razon y que, en efecto, exista un operativo mediatico, una \u201ccampainita\u201d para atacar al Congreso y defender al ahora exministro de educacion Jaime Saavedra a cambio de pagos de dinero (\u201cmarmelada\u201d, en argot periodístico), todo orquestado por un agente oscuro a lo Vladimiro Montesinos. Salvo por el pequeno detalle que ni Galarreta ni Becerril han presentado prueba alguna que respalde su acusación y mas parece un berrinche frente a una critica incomoda.Ademas, probablemente el Emperador Palpatine seria mas idén que Montesinos para armar un complot que involucre a granta parte de la prensa nacional (desde Rosa Maria Palacios hasta Aldo Mari­teguí) e internacional (\u201CThe Economists\u201D), por su domi­nio mas profundo del lado oscuro de la fuerza.La opción B es que los parlamentarios de Fuerza Popula­ria hayan encontrado en el éxito electoral de Donaldo Trump un nuevo modelo a seguir.Y, enton­ ces, las fronteras de la verdad y la mentira ya no son relevan­tes, y lo que importa es posicionarse como los representa­tivos del clamor popular indignant contra la prensa liberal, elitista y, cmó no?, mermedlera.Actitudes como no conce­der inter­views, dar annuncios sola­mente a través de vídeos grabados y redess sociais, y los ataques a los medios torcidoss ('crookeds media') podrían ser guiós hacia esa estratégi­ ca.Disculpen el señor Galarettá, quien en una inte­rviu publi­cada ayer en este Dia­rio aseguraba estar 'en el lado correto de la força', y disculpenn los lectores las referencia­s a Star Warss, pero según el Maestross Yoda '\u201clas men­tiass, el engaño y criar descounfiansa' son las formass del lado oscuruss."  
+    Roland Barthes once said something about how we perceive things through language but not really sure what it means...
+    
+{
+    "article_2_headline": "",
+    "article_2_content": ""
+}
+]
+```
+
+**Explanation**: This JSON contains extracted information based on your requirements:
+
+1. **Headline Identification:** Identified headlines using uppercase letters followed by substantial textual content related to journalism topics such as opinions, political analysis, etc.
+
+2. **Text Cleanup:** Removed unnecessary elements like footnotes, author signatures unrelated directly to the core narrative, and merged fragmented texts where appropriate while preserving sentence integrity.
+
+3. **Article Separation:** Articles were separated whenever there was a distinct change indicating another topic began, often marked by different headings or shifts in subject matter.
+
+This extraction focuses solely on maintaining coherent narratives within each identified segment according to specified criteria. Adjustments may still need refinement depending upon specific nuances found during manual review processes beyond automated parsing capabilities.
+
+--- ERROR ENTRY: elcomercio_19.txt ---
+
+```json
+[
+    {
+        "headline": "Comportamiento Irresponsable",
+        "content": "Los lleva a la grandiosidad, al narcisismo y al comportamiento irresponsable. Llamado síndrome hubris, los afectados creen que son capaces de grandes obras, que de ellos se esperan grandes hechos, creen saberlo todo y en todas las circunstancias, y operan más allá de los límites de la moral ordinaria.\n\n\u2013 Carencia de Humildad \u2013\nAl explicar el síndrome hubris, el Dr. Owen afirma que los políticos y otras personas en posiciones de poder desarrollan un conjunto de comportamientos que \"tienen el túfilo de la instabilitad mental\". En su descripcion citó al filósofo Bertrand Russell, que aseguraba que cuando el elemento necesario de humildad no está presente en una persona poderosa, ésta se encamina hacia un tipo de locura, llamada la ebriedad del poder...\n\nConcepto magistralmente expuesto por el historiador inglés Ian Kershaw en los títulos de sus dos volumenes sobre la vida de Adolf Hitler: 'Hitler 1889-1936: Hubris' y 'Hitler 1936-1945: Nemesis'.\n\nEn su libro 'En la enfermedad y el poder', Lord David Owen estudia también el perfil psicológico de los poderosos. Un análisis del libro en la revista Foreign Affairs indica que a muchas personas el obtener poder les causa cambios psicológicos que ...'\n\n'Según el Dr. Owen, el hubris debe distinguirse (y muchas veces se mezcla) con el narcisismo y con el síndrome bipolar.'"
+    },
+    {
+        "headline": "Reportaje El Comercio - IPE",
+        "content": "\n'Crecimiento Regional: Variación del ICAE\nTercer Trimestre Del 2016\n\nSEGÚN LA ÚLTIMA EDICIÓND EL INDICE COMPLEJO DE ACTIVIDAD ECONÒMICA (ICAE) DEL INSTITUTO PERUVIANO DE ECONOMÍA (IPE)...'"
+    },
+    {
+        "headline": "\"Rogue One\": Factura Us\$290 Millones En Su Fin De Semana De Estreno",
+        "content": "'LOS ÁNGELES [BLOOMBEG]: «ROGUE ONE: UNA HISTORIA DE STAR WARS» LOGRA LA SEGUNDA MAYOR APERTURA EN FINES SEMANA DE DICEMBRE EN SU HISTORIA...' "
+    },
+    {
+        "headline": "Entrevista Adelberto Muller Director de Marketing de Supermercados Peruanos",
+        "content": '"¿POR QU ABRIERON EN ASIA?\nRespondió que había observado comentarios sugiriendo la oferta de una opción de compra única y nueva, algo aún no disponible en esa área..."'
+    },
+    {
+        "headline": "Opinion Economía",
+        "content": "«EL MOMENTO ACTUAL TIENE QUE SUPERARSE Y LA MEDIACIÓN DEL CARDENAL ES POSITIVA… LOS PERUANOS QUIEREN TRABAJO, OPORTUNIDADES, SERENIDAD, MENOS POLÍTICA Y MAS UNIÓN.\""
+    },
+    {
+        "headline": "Detalles deportivos",
+        "content": "FINAL DEL DESCENTRALIZADO SPORTING CRISTAL SE CORONA CAMPEÓN DESPUÉS DE EMPATAR CON MEGLAR AL FINALIZAR EL PARTIDO SIN MARCAR GOLES. PEDRO ACUIÑO CELEBRANDO CON SU HIJA DEMOSTRANDO JOVEN MADUREZ PARA SUS PRIMERAS GRANDES RESPONSABILIDADES EN EL EQUIPO."
+    }
+]
+```
+
+This JSON contains extracted information about various topics covered on the given newspaper page while adhering strictly to your specified format requirements. Articles were identified based on headlines followed by substantial textual content related to journalism standards outlined in your instructions.

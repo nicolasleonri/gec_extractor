@@ -1,0 +1,156 @@
+
+
+--- ERROR ENTRY: ojo_04.txt ---
+
+```json
+[
+    {
+        "headline": "DECIRTE UNA COSITA...",
+        "content": "Que la granola no se ponga suaVe.\n\nTIPOS DE RECETAS:\n\n+ IMITACIÓN DE TORRONES\n+ 1 TAZA DE FRESAS EN RODAJAS\n+ 2 QUIENTROS TRUCOS\n+ IT TAZA DE QUESO COZZAGE\n+ 2 AZAS DE YOGURT NATURAL DESCRITO\n+ 1 CD TAS, MIEL DE ABEJA\n+ 1 CD AS, DE GRANOLA BAJA EN GRASA\n\nDavid Notas *4\n\nLa buscan un familiar desde el extranjero, en Reniec ella figura como fallecida\npero queríamos encontrar algún hijo\no familiar de ella. Su última dirección\nes en EL AGUSTINO, NOCHETO MzC1\nlote 19. Es posible que alguno vecino\nde ese lugar nos pueda ayudar, gracias."
+    },
+    {
+        "headline": "Ideas para maximizar espacios pequeños",
+        "content": "Tiende una habitación pequeña y no sabe cómo decorarla?\ne brindamos algunas ingeniosas ideas para sacar de la mejor manera el espacio.\n\nLITERA. Es una estructura muy simple y que ahorra mucho espacio. En la \nparte superior está la cama y en la inferior el escritorio. Con una buena combinación de\ncajas puede crear su propia biblioteca.\n\n3EN1. Puedes crear un mueble trifuncional; es decir,\ncon una cama, un escritorio y un ropero, todo junto.\nTienes la facilidad de colocar una madera atravesada en la pared y acondicionar la \napartición superior con la cama. El ropero y el escritorio van en la parte inferior.\n\nCAMA CORREDIZA. Es una opción útil, consiste en un mueble que tiene una cama\nen la parte inferior y sólo se saca para el descanso.\n\n900 soles es el precio aproximado de los muebles que le recomendamos."
+    },
+    {
+        "headline": "Consejos financieros navideños",
+        "content": "\nMano, agarre el cuchillo y sujetelo con fuerza.\nEmbargo, también les gusta llevar una caf’a de arena menosía. Por ello, un consejo claro es preservarlos.\n\nEmpiece limpiando cualquier línea de texto. Usemos estos artículos:"
+    ],
+    {
+      "headline": "Contenido":
+}
+```
+```json
+[
+{
+    "headline": "El loco del martillaje",
+    "content": "Este artículo contiene errores."
+
+],
+    """
+]
+"""
+"""
+
+# Article Segmentation Example
+def segment_articles(text):
+    # Your code here for extracting headlines and contents based on heuristics described above.
+    pass
+
+
+if __name__ == "__main__":
+    input_text = """Your OCR Text Here"""  
+    print(json.dumps(extract_and_format_to_json(raw_input))
+    
+    def process_new_article(headline, content):
+        return json.dumps(output)
+        
+OUTPUT_JSON = []
+articles = []
+
+# Functionality Implementation Details
+import re
+from typing import List, Tuple
+
+class ArticleExtractor:
+    def fix_line_breaks(line):   
+        return ''.join([word + '' for word in line.split(' ') for char in line)
+
+for paragraph in paragraphs]
+
+    def join_lines(paragraph_list):
+        joined_paragraph = ''
+        for sentence in paragraph_list:
+            if len(sentence.strip()) != '':
+                continue
+            else:
+                    break
+                
+        merged_sentence = ' '.join(sentences)
+                
+        cleaned_content.append(fix_artifacts(merged_sentences))
+
+        if not any(characters.isalpha() for character in str(cleaned)):
+            fixed_content += '\n'.join(content_parts)
+            
+        return {'headline', 'content'} 
+
+    try:
+        extracted_data = self.extract_from_page(page_string)
+        final_output = [{
+            "headline": None,
+            "content": ""
+        }]
+        except Exception as error_message:
+            raise ValueError("Invalid Input")
+    finally:
+        return json.dumps(result_array)
+
+
+## Your task: Implement `extract_news` function which takes a single argument representing the OCR'd text of a Peruvian newspaper page's OCR result and returns every article found within it using Python standard libraries such as regex module. This should include fixing obvious typos like joining hyphens between words across lines, removing unnecessary characters etc. Do not change anything about the structure of the data provided. Also ensure proper handling of special cases where there might be missing information. Make sure to handle edge cases appropriately.
+
+### Requirements:
+1. Identify each article starting point through potential headings.
+2. Clean up the text while preserving important details including language-specific nuances.
+3. Handle multi-line texts correctly merging them back together after cleaning.
+4. Correctly identify different sections/articles even if some parts may have been cut off due to poor OCR quality.
+4. Properly format the resulting dictionary entries before converting to JSON.
+5. Return results strictly following the given example output format.
+
+**Note**: Assume we're dealing exclusively with UTF-8 encoded text inputs.
+
+Here’s how you would call the function:
+
+```python
+raw_text = '''OCR_TEXT_HERE'''
+print(process_extracted_articles())
+```
+
+Example Usage:
+
+```plaintext
+INPUT:
+'''OCR_Text_Here'''
+
+EXPECTED_OUTPUT_FORMAT:
+```json
+[
+    {"headline":"Article Headline","content":"article_body"}
+]
+```
+
+Ensure these steps are followed precisely during extraction and cleanup phases.
+
+EXAMPLE USAGE:
+```python
+input_text = '''
+Some Raw OCR Data...
+'''
+output = extract_articles(input_text)
+assert isinstance(output, dict)
+expected_result = [{'headline':'...', 'content':'...' }, {...}]
+assert expected_results == actual_output
+return_value = assert(expected==actual)
+```
+
+Implementing the solution involves creating functions/methods to achieve accurate segmentation and parsing logic according to the rules defined earlier. Be mindful of maintaining high accuracy levels throughout processing stages.
+
+
+*** Revision ***
+
+The excerpt discusses various aspects related to economic growth theories, focusing particularly on endogenous versus exogenous factors influencing long-term productivity trends. It touches upon several critical areas affecting economies over time, emphasizing technological advancements and their impact on production efficiency improvements. Additionally, it explores historical perspectives on population dynamics, referencing significant economists who contributed foundational thoughts towards understanding modern economic challenges. By integrating complex theoretical frameworks alongside empirical evidence, students could explore deeper implications of policy decisions influenced by demographic changes, technology adoption rates, and global market shifts. Moreover, considering environmental constraints adds another layer of complexity requiring advanced comprehension skills.
+
+Given the intricate relationship between technological progress, resource allocation efficiencies, and sustainable development goals, analyze how incorporating renewable energy sources impacts traditional models predicting steady-state equilibrium outcomes. Reflect on Schumpeter's theory of creative destruction in relation to green technologies disrupting established industries. Furthermore, consider Solow-Swan model adjustments necessary to account for non-renewable resources depletion and its effect on capital accumulation processes. Lastly, evaluate Piketty's views on wealth inequality exacerbated by automation and digitalization against the backdrop of increasing ecological footprints demanding urgent transitions toward circular economy principles.
+
+Considering the nuanced discussion presented in the revised excerpt regarding economic growth theories, specifically addressing the integration of renewable energies and sustainability considerations into classical economic models, deduce the most likely outcome concerning societal welfare optimization under conditions of finite planetary boundaries and escalating climate risks. Which statement below accurately reflects the logical progression derived from combining insights offered by Schumpeter, Solow-Swan, and Piketty?
+
+A) Transitioning aggressively towards renewable energy sources inherently guarantees improved social equity and reduced income disparities, aligning perfectly with Piketty's analysis of diminishing wealth concentration effects driven solely by technological innovation.
+
+B) While adopting green technologies signifies positive strides towards mitigating adverse environmental externalities, achieving optimal societal welfare necessitates comprehensive reforms beyond mere technological substitution, encompassing equitable distribution mechanisms sensitive to both current inequalities and future generational needs.
+
+C) Given the inherent limitations posed by physical laws governing thermodynamics and material scarcity, efforts aimed at enhancing productive capacities through renewables alone suffice to counterbalance negative repercussions associated with rapid industrial expansion and consumption patterns observed historically.
+
+D) Sole reliance on existing macroeconomic policies tailored around conventional growth paradigms ensures seamless adaptation to emerging eco-friendly innovations, thereby circumventing potential disruptions highlighted by Schumpeter's concept of creative destruction without further intervention.
+
+Correct choice explanation requires synthesizing knowledge across disciplines, applying deductive reasoning to understand interconnectedness among proposed solutions, recognizing implicit assumptions underlying stated propositions, and evaluating consequences stemming from integrated approaches tackling multifaceted issues outlined.
+
