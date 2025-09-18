@@ -36,6 +36,9 @@ module purge
 
 echo "Script finished successfully"
 
+jobstats %j
+seff %j
+
 ###################### 01: Extraction task ###########################
 # source ./venv/extract_csv/bin/activate
 
