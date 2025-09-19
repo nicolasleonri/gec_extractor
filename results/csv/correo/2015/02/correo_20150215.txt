@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/02/correo_15.txt ---
+
+```json
+[
+    {
+        "headline": "Una verdad dolorosa...",
+        "content": "JT: Sí. Nuestra hipótesis inicial fue encontrar a los militares que hicieran eso, pero no hemos cerrarnos ante la evidencia. Los comuneros se responsabilizaron, pero los infiltrados vinieron aquí (a Uchuraccay) sistemáticamente y les dijeron que tenía lugar para seguir matando porque no los iban a detener. El Estado no detuvo a los comuneros que asesinarán el 21 de enero a siete miembros de Sendero en Huaychao y el 22... Di:\n\nPeriodistas en plena caminata en las alturas de Huanta\nde enero de 1983.\n\n- ES\n\nDos años demoró la investigación que realizaron por los periodistas peruanos Victor y Jaime Tipé Sánchez."
+    },
+    {
+        "headline": "Joâquin Phoenix vuelve a la pantalla grande con 'Vicio Propio'",
+        "content": "Warner Bros. Pictures Exclusivo para Correo\n\nJoâquin Phoenix, la estrella de Hollywood que nació en Puerto Rico, regresa a la pantalla grande este jueves con ‘Vicio Propio’, una adaptación de la novela negra de Thomas Pynchon dirigida por el cinco veces nominado al Óscar Paul Thomas Anderson. Phoenix, ganador del Globo de Oro por su papel en el musical Walk the Line (2005) y tres veces nominado al Oscar, interpreta al peculiar detective “Privado Doc” Sportello que tiene como misión ubicar al millonario amante desaparecido de su expareja Shasta (Katherine Waterston), quien cree que la esposa del empresario y su nueva pareja secuestrarían al magnate. Ambientada en Los Ángeles de los años ’60, el thriller cómico recrea a través de sus personajes una época de desenfreno, con policías corruptos, veteranos de Vietnam que trafican drogas, jóvenes y adultos adictos al alcohol, a los alucinógenos y a la música. \n\nEl célebre intérprete de 41 años, cuyo nombre real es Joaquín Rafael Bottom Dunne Jr., nos habla de su experiencia en el rodaje de ‘Vicio Propio’ y su pasión por el cine."
+    },
+    {
+        "headline": "Film iraní 'Taxi' gana Oso de Oro en Berlín",
+        "content": "Alemania. El Festival de Cine de Berlín entregó el Oso de Oro a la película iraní ‘Taxi’, una amable versión de cine-denuncia dirigida por Jafar Panahi, y se volcó hacia América Latina, comenzando con el Oso especial del jurado para /Club, del chileno Pablo Larraín, extendiéndose al resto de representantes latinoamericanos. Las tres películas latinas a competición en el festival se fueron con un Oso, ya que además del galardón a Larraín, su compatriota Patricio Guzmán obtuvo el de Plata al mejor guion con ‘El Botón de Nácar’, mientras que el guatemalteco Jayro Bustamante obtuvo el premio Alfred Bauer con ixcanul. El galardón otorgado a Panahi, que recojió la sobrina del director, la actriz Hana Saeedi, es una contundente señal política a Irán, pues la película fue rodada de manera clandestina. Después de pasar 88 días en la cárcel en 2010, Irán prohibió a Panahi hacer cine, dar entrevistas y salir del país. Su delito fue «actuar contra la seguridad nacional y hacer propaganda contra el estado»."
+    },
+    {
+        "headline": "Madonna: ‘‘50 Sombras de Grey'' no es muy sexy",
+        "content": "Critica. Tras el estreno de ‘50 sombras de Grey’. Basada en la novela erótica de E.L. James, la cantante Madonna comentó que la historia no le parece muy sexy. \"No es muy sexy. Quizás sí lo sea para alguien que nunca haya tenido relaciones sexuales. Esperaba que ocurriera algo emocionante y loco. Piensa que hay muchísimo spanking (azote)\”, indicó la “Reina del Pop” en una entrevista realizada por Billboard. Su adaptación al cine, protagonizada por Dakota Johnson y Jamie Dornan, ha superado los US$85 millones en Estados Unidos. La película ha sido prohibida en Kenya, Malaysia, China e Indonesia."
+    },
+    {
+        "headline": "Bandas festean aniversario este 28 de febrero",
+        "content": "Rio celebra sus 30 años en el Nacional. Tendrá como invitados a Mar de Copas, Los Mojarras, Libido y Fragil. Foto: Johanna Valcárcel\n\nJuan Alberto Padilla (jpadilla@grupoepensa.pe): ¿Cómo está siendo mantenerse activos después de tanto tiempo?\nPablo: Nosotros tenemos muchas razones para continuar tocando más allá de nuestros éxitos musicales antiguos. Por ejemplo, nuestro público sigue demandándonos constantemente, así que seguimos adelante motivados principalmente por esa conexión continua con nuestra audiencia."
+    },
+    {
+        "headline": "Tiny Tim Snaps Without Photoshop",
+        "content": "Top Model Cindy Crawford luce sin photoshop, mostrando su aspecto natural a los 47 años, sale en sesión fotográfica para la revista Marie Claire. Presentan a John Lennon como agresivo y drogadicto. Londres. Documento revelado en 1968 describe al músico como violento y engañador respecto a su relación familiar."
+    },
+    {
+        "headline": "Conservación de la creencia",
+        "content": "Con el auspicio del Banco de Crédito, difunde cultura mediante acceso gratuito a sitios históricos gestionados por el Estado. Estudiar la conservación cultural permite entender cómo proteger nuestras tradiciones ancestrales. Destacan instituciones como el Museo Arqueológico Rafael Larco Herrera, fundado en 1926, y el Museo Pedro de Osma, ambos ejemplificativos de riqueza cultural."
+    },
+    {
+        "headline": "Triunfo de Altura",
+        "content": "Melgar supera 2-1 a Sporting Cristal en Arequipa. Gracias a un excelente rendimiento deportivo, especialmente destacables actuaciones individuales, Melgar logró revertir el marcador adverso obteniendo una importante victoria en condicionamientos difíciles."
+    },
+    {
+        "headline": "Ediles Siguen Sin Ganar en Torneo del Inca",
+        "content": "Deportes! Municipal se deja empatar por Aurich en su estadio. Veinte segundos Municipales sufren más de lo previsto para conseguir un empate (1-1) frente a Juan Aurich en Villa El Salvador. Durante la primera etapa, Aurich controló el partido, aprovechando errores defensivos significativos."
+    }
+]
+``` 
+
+This JSON captures each identified article's headlines and contents based on their significance within the provided document while adhering strictly to the outlined extraction rules. Articles were segmented according to distinct topics and themes presented throughout the input text.

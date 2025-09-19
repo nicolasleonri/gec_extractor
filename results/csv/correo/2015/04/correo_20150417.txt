@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/04/correo_17.txt ---
+
+```json
+[
+    {
+        "headline": "Denuncia contra Jara en Comisión de Ética",
+        "content": "Parlamentarios de distintas bancadas consideran que al solicitar licencia, nacionalista incurrió en una falta, pues abandonó su función para conducir un espacio televisivo.\n\nMagistrado Frank Almanza dice que Pérez Guadalupe ‘no sabe de derecho’ y refuta sus cifras sobre criminalidad."
+    },
+    {
+        "headline": "Prioridad de Jara no debe ser apartarse de cargos",
+        "content": "Otros miembros del grupo ético critican que la prioridad de Jara no sea cumplir con sus electores mediante su desempeño parlamentario. \n\n‘No me parece del todo ético...’, comentó un legislador.”
+    },
+    {
+        "headline": "Casos de Concejales Comparados",
+        "content": "Ana Jara compara su situación con otras figuras políticas que también trabajan en medios. Según ella, hay precedentes de congresistas que manejan espacios radiales y columnas en periódicos."
+    },
+    {
+        "headline": "Defensa de Licencias Parlamentarias",
+        "content": "Jara argumenta que su participación en el programa de TV es gratuita mientras está bajo licencia sin goce de haber. Critica la percepción pública diciendo que buscan crear una novela política innecesaria."
+    },
+    {
+        "headline": "Investigación en Órganos Electorales",
+        "content": "Alianza Para el Progreso liderada por César Acuña confronta a la ONPE debido a una multa relacionada con donaciones superiores al límite legal durante elecciones municipales pasadas. Acuña califica estas acciones como intentos de usar a APP como ‘caja chica’. "
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text which represent separate articles based on their headlines and associated contents while adhering strictly to the guidelines for inclusion/exclusion specified. Any non-article related information such as ads, repetitive elements, etc., has been omitted according to the task requirements.

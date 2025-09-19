@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/11/correo_13.txt ---
+
+```json
+[
+    {
+        "headline": "LOS CANDIDATOS\nY LA MINERÍA",
+        "content": "Desde ahora que faltan cinco meses para las Decor: Sería bueno que los candidatos y precandidatos que vemos aparecer nos vayan diciendo qué será su política ante las inversiones mineras y qué actitud tomarán si grupos de revoltosos... Ya tuvimos la experiencia de Ollanta Humala, quien como candidato ofreció una cosa y, ya en el Gobierno, al darse cuenta de la importancia de esa inversión minera, hizo otra."
+    },
+    {
+        "headline": "Mitad 4",
+        "content": "Correspondiente a información económica relacionada con las agroexportaciones generándolas ventas valorizadas en \$10 mil millones según el Ministro de Agricultura y Riego, Juan Manuel Benites. Anteriormente menciona datos específicos sobre precios del dólar frente al Sol y cómo afectará esto a la economía peruana."
+    },
+    {
+        "headline": "Si el Congreso Aprueba el Proyecto...",
+        "content": "Hasta el 30 de septiembre, el 41.9% estaba en Profuturo y el 32.7% en Prima AFP. Clorinda Flores señala que el proyecto podría beneficiar inicialmente a 87,636 personas. Germán Lora critica que rompa el Sistema Privado de Pensiones (SPP) del país."
+    },
+    {
+        "headline": "Una Tradición Gastronómica en Medio de un Escenario Excepcional",
+        "content": "Descripción de 'La Trastienda', un gastro-bar ubicado en Barranco, resalta su cocina innovadora utilizando ingredientes frescos y técnicas modernas. Destaca diversos cócteles moleculares y recomendaciones gastronómicas."
+    },
+    {
+        "headline": "Decomisan Armamento de Guerra",
+        "content": "Detención de integrantes de la banda ‘Los guías’ implicados en sicariato y extorsión en Chimbote. Entre ellos está la exgobernadora de Santa, Flor María Vera Campos, vinculada a figuras notorias dentro de dicha agrupación criminal."
+    },
+    {
+        "headline": "Opini\u00f3n Renato Sandoval",
+        "content": "Análisis sobre la situación actual de seguridad pública en diversas ciudades del Norte Grande de Perú, incluida Talara y Piura, enfocado en la eficacia judicial y administrativa frente a la proliferación del crimen organizado."
+    },
+    {
+        "headline": "Ayuntamiento de Lima decide prórroga de prisión",
+        "content": "Información sobre decisión judicial referente a solicitud de prolongación de arresto domiciliar para el expresidente regional de Áncash, César Alvarez, involucrado en el Caso “La Centralita”."
+    },
+    {
+        "headline": "Mensaje Sangriento del EI",
+        "content": "Video propagandístico emitido por ISIS anunciando ataques futuros en territorio ruso, acompañado de imágenes violentas dirigidas a intimidar mediante acciones extremadamente brutales."
+    },
+    {
+        "headline": "EEUU impone máxima sentencia a familiares de Maduro",
+        "content": "Consecuencias legales para Efraín Antonio Campo Flores y Francisco Flores De Freitas, acusados de narcotráfico internacional, siendo potencialmente sujetos a cadena perpetua conforme legislación penal estadounidense."
+    },
+    {
+        "headline": "Macri Promete Protección Monetaria",
+        "content": "Promesa realizada por el equipo cercano a Mauricio Macri garantizando políticas financieras orientadas a salvaguardar la estabilidad del peso argentino en contextos electorales adversos."
+    },
+    {
+        "headline": "Legalización Marihuana Colombia",
+        "content": "Avances gubernamentales en regulación de usos médicos y terapéuticos de la marihuana, buscando estructurar procedimientos adecuados para producción y distribución controlada."
+    },
+    {
+        "headline": "Morales Solicita Propuesta Formal a Chile",
+        "content": "Reiteración formal por Bolivia solicitando negociaciones escritas concernientes a acceso soberano al pacífico, manteniendo firme posición diplomática en litigio territorial vigente."
+    }
+]
+```
+This JSON structure captures each identified article's headlines and contents based on their respective topics extracted from the provided OCR input. Adjustments were made for clarity while preserving essential information within constraints specified.

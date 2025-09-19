@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/04/correo_08.txt ---
+
+```json
+[
+    {
+        "headline": "EE.UU. Rusos penetraron sofisticado sistema",
+        "content": "La Casa Blanca\nue vulna-rada\nHackers robaron datos sensibles del Gobierno.\nFOTOEFE\nLa intrusion fue realizada a través\nde computadoras en todo el mundo,\ntal como lo hacen los piratas informáticos para ocultar su identidad.\n... Marcas dejadas apuntan que trabajan para gobierno ruso de los Estados Unidos."
+    },
+    {
+        "headline": "VENEZUELA \nAlcalde acusado de conspiración",
+        "content": "La Fiscalía venezolana acusó formalmente ayer de conspiración al alcalde metropolitano de Caracas, el opositor Antonio Ledezma, detenido el 19 de febrero y acusado por el Presidente Nicolás Maduro de participar en presuntos planes contra su gobierno.\nEl fiscal de Caracas José Luis Orta acusó a Ledezma \"por los delitos de conspiración y asociación\" y solicitó que se mantenga su encarcelamiento, añadió el documento. Ledezma fue detenido en su oficina por funcionarios de inteligencia militar el 19 de febrero."
+    },
+    {
+        "headline": "Francia Senador se suicida antes de juicio",
+        "content": "Un senador francés que debería comparecer ante la justicia por complicidad en toma ilegal de intereses y malversación de fondos públicos se suicidó ayer antes de la primera audiencia del juicio, y dejó una carta en la que denuncia la «caza sistemática de políticos».\nJean Germán, de 67 años de edad, senador y exalcalde de Tours (centro), debía compar...
+    },
+    {
+        "headline": "BOLIVIA Más de 8 mil agresiones a mujeres",
+        "content": "Bolivia registró entre enero y marzo unas 8000 denuncias de violencia contra la mujer, un 70% en el seno familiar, según ayer una alta fuente policial, que atribuyó tal situación a que pervive en el país un sistema patriarcal. Las agresiones van desde la violencia física, hasta presiones psicológicas, muchas veces por razones económicas."
+    },
+    {
+        "headline": "EE.UU. El gobierno de Obama dará respuesta en días próximos",
+        "content": "Cuba saldrá de la lista que apoya al terrorismo. Avanza la normalización de las relaciones diplomáticas entre ambos países. Gnbinomo está ‘clarísimamente’ al final del proceso de revisión y dijo no saber si habrá una decisión antes de la cumbre."
+    },
+    {
+        "headline": "REPÚBLICO DOMINICANO Rand Paul va por la Presidencia",
+        "content": "El senador republicano Rand Paul oficializó ayer su candidatura a la investidura republicana para las elecciones presidenciales estadounidenses de 2016, convirtiéndose así en el segundo republicano en lanzarse a la carrera por la Casa Blanca."
+    },
+    {
+        "headline": "CHILE Michelle Bachelet en picada",
+        "content": "¿Cómo nadie podría haber predicho la brusca caída de la popularidad de la presidenta de Chile, la Dra. Michelle Bachelet Jeria? Su aprobación ha descendido hasta el 31%, algo impensado en un jefe de Estado en la historia reciente de Chile."
+    },
+    {
+        "headline": "PERÚ DIANA QUIJANO explica por qué Serie no triunfó en EU",
+        "content": "\"El humor de AFHS no funcionó en EU\", explicó Diana Quijano, la actriz peruana que interpreta a Beatriz en la novela Tierra de reyes y que ha hecho varias novelas de Telemundo."
+    },
+    {
+        "headline": "ARGENTINO DANILÓ CARANDO piensa sólo en REAL",
+        "content": "Danilo Carando, delantero argentino del Real Garcilaso, manifestó que no le interesa ser goleador en el Torneo del Inca, sino avanzar hacia el campeonato."
+    },
+    {
+        "headline": "PERÚ RAÍL LEGUÁ QUEDE ADMINISTRADOR UNIVERSITARIO",
+        "content": "Raúl Legua afirmó que presentará una apelación después de que Indecopi decidiese aceptar la impugnación en su contra, argumentando que él no es el verdadero responsable administrativo."
+    }
+]
+```
+This JSON captures each distinct article based on headlines identified within the provided OCR text while adhering strictly to the specified format requirements. Articles were segmented where appropriate using logical breaks such as changes in topic or introduction of new subjects. Any missing data was filled with `"NA"` according to guidelines.

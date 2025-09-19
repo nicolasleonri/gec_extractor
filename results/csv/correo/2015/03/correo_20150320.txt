@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/03/correo_20.txt ---
+
+```json
+[
+    {
+        "headline": "Que la OEA fue perdiendo en\n\los últimos años...",
+        "content": "Uno pensaría que la Organización de los Estados Americanos (OEA) había mantenido su relevancia regional gracias a su largo historial y desarrollo institucional. Sin embargo, según analistas, organizaciones regionales emergentes como CELAC, Unasur, Mercosur y la Alianza del Pacifico están erosionando esa posición.\n\nLa ventaja histórica de la OEA podría explotarse bajo nuevas lideranzas, como sugiere Almagro, enfocándose en resolver divisiones continentales críticas, incluido el grave caso de Venezuela y reintegración de Cuba."
+    },
+    {
+        "headline": "Promoción del vino",
+        "content": "Esta tarde, el Instituto del Vino y del Pisco (IVIP) de la Universidad San Marcos entregará los galardones 'Manuel Pablo Olachea', reconociendo a individuos y entidades destacadas en la divulgación vitivinicola. Este evento celebra contribuciones significativas al sector vinícola nacional."
+    },
+    {
+        "headline": "UNA VOLTA A LAS TAVERNAS TRADICIONALES CON COMIDA PERUANA CASERA DE LUJO",
+        "content": "Isolina revivió conceptos culinarios ancestrales ofreciendo platillos típicos peruanos reinterpretados con sofisticación moderna. Con ingredientes auténticos y técnicas refinadas, crea experiencias gastronómicas memorables inspiradas en la nostalgia familiar. Ideal tanto para compartir entre amigos como familias, garantizando satisfacción completa con sus generosas porciones."
+    },
+    {
+        "headline": "Chileno hará nueva versión de Caracortada",
+        "content": "El aclamado cineasta chileno Pablo Larraín será responsable de reiniciar Scarface, transformando la narrativa icónica hacia contextos contemporáneos latinoamericanos. Esta revisión situará al protagonista en ambientes migratorios urbanos estadounidenses, explorando temas sociales relevantes actualizados."
+    },
+    {
+        "headline": "LANZAN LIBRO CON REFLEXIONES SOBRE OBRA DE JOSÉ MARÍA ARGUEDAS",
+        "content": "Durante un emotivo lanzamiento realizado en Biblioteca Nacional del Perú, se discutió profundamente la persistente resonancia de ‘Todos los Sangres’ de José María Arguedas. Figuras notorias como Mario Vargas Llosa compartieron perspectivas sobre cómo la obra continua influyendo en comprensiones culturales y políticas peruanas."
+    },
+    {
+        "headline": "LAS MIL Y UNA NOCHES SUPERA EN RATINGS A AFHS",
+        "content": "‘Mil y Una Noches’, emitida por Latina Televisión, capturó audiencias masivamente, sobrepasando ratings prevalecientes establecidos por series locales populares. Protagonizado por renombres internacionales, el drama romántico-turco encendió interés público consolidando posiciones líderes en índices nocturnos."
+    },
+    {
+        "headline": "SUPERÓ EXPECTATIVAS",
+        "content": "Juan Aurich demostró resistencia táctica contra River Plate, obteniendo un empate crucial en momentos decisivos del juego. Estratégicamente sólido, el conjunto peruano frustró repetidas incursiones rivales, sellando así resultados positivos en territorio adverso."
+    },
+    {
+        "headline": "LUCHA CONTRA RESTRICCIONES FINANCIERAS",
+        "content": "Trabajadores afectados por ajustes económicos reciben compensaciones pendientes conforme planes corporativos estructurados. Empresas comunican procedimientos específicos para liquidaciones financieras programadas, evidenciando transparencia operativa y responsabilidad administrativa."
+    },
+    {
+        "headline": "PALOMA NOCEDA RECIBE DISTINCIÓN INTERNACIONAL",
+        "content": "Paloma Noceda, distinguida motonauta internacional, honrada por méritos excepcionales en circuitos competitivos globales. Continúa activa en disciplinas extremas, motivando aspiraciones juveniles en ámbitos deportivos especializados."
+    },
+    {
+        "headline": "FIESTA PARA TODOS LOS SENTIDOS",
+        "content": "Registros emocionales intensificados marcan eventos futuros en ligas deportivas femeninas, proyectando expectativas altas para Universitario y otras potencias contendientes. Competición vibrante define calendarios próximos, augurando duelos apasionantes en arenas emblemáticas."
+    },
+    {
+        "headline": "KARATECAS CLASIFICALLEN PANAMERICANOS",
+        "content": "Destacadas representantes peruanas Alexandra Grande y Alessandra Vindrola aseguran lugares en Panamericanos de Toronto 2015, fortaleciendo legado nacional en Karate. Triunfo colectivo destaca perseverancia y habilidad técnica superior exhibida en certámenes preliminares."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to defined criteria such as excluding irrelevant sections like ads and maintaining proper format standards.

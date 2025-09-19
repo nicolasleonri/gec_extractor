@@ -1,0 +1,69 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/06/correo_02.txt ---
+
+```json
+[
+    {
+        "headline": "El chavismo da plata a un partido peruano",
+        "content": "Ecibi\u00f1o dinero que sus voceros dicen que es de origen l\u00edcito, fue para sacar adelante un proyecto, y no para irse de shopping y reventar la tarjeta de cr\u00e9dito.\n\nEs por eso que me pregunto cómo se sentirán hoy aquellos que inocentemente estuvieron cerca de Humala y Heredia hace casi una década, cuando aparentaban ser lo opuesto a esos políticos tradicionales que tanto criticaban, para al final terminar con ellos: graduados en demagogia sobre la pureza de sus ideales y su afición de trabajar por los más pobres, \"\u00faborrachitos\" de poder e investigados en el Ministerio Público por sus sospechosas finanzas partidarias y familiares.\n\nEl Ministerio Público tiene en sus manos el caso y habrá que ver si el asunto legal de alcance penal llega a algún final. No obstante, lo que sí queda claro es que éticamente la señora Heredia ha quedado por los suelos al salir a la luz el destino que tuvo parte del dinero que, como ha admitido ayer el propio Presidente, recibieron de Venezuela."
+    },
+    {
+        "headline": "Usuarios esperan mejor servicio en telecomunicaciones",
+        "content": "\"Mayor velocidad de conexión a Internet y una mejora en los servicios son dos aspectos que los usuarios demandan actualmente,\" informó el presidente del Organismo Supervisor de Inversiones Privadas en Telecomunicaciones (OsipTEL), Gonzalo Ruíz Dáaz, tras la presentación 'Satisfacción de usuarios y su impacto en la rentabilidad de la industria', ofrecida por el director de American Customer Satisfaction Index, Forrest Morgeson.\n\n'Esta mayor expectativa está registrándose momentáneamente en los servicios de Internet,' afirmó Ruíz Dáz.'Para fines de año el país podría contar con hasta seis operadoras móviles virtuales (OMVs) que favorecerían al desarrollo del mercado peruano.'"
+    },
+    {
+        "headline": "Regionales del norte se muestran atractivas para inversiones hoteleras",
+        "content": "'Con un impulso aportado por los hoteles de tres estrellas o menos categoría, la inversión hotelera en el Perú movió cerca de \$2500 millones entre los años 2015 y 2021,' estimó el titular del Buró de Convenciones y Visitantes de Lima, Carlos Canales. 'En el caso de la capital, el monto previsto es de \$1500 millones.' \n\n'Según explica, el aporte por el lado de los nuevos hoteles será significativo debido a que éstos reunirán el 65% de la inversión de los próximos seis años.'"
+    },
+    {
+        "headline": "Nuevo Terminal Aeropuerto de Cuzco ya cuenta con estudios",
+        "content": '"Los avances para realizar las obras del Nuevo Aeropuerto Internacional de Chinchero de Cusco están listos," anunció la Sociedad Aeroportuaria Kuntur Wasi, consorcio ganador de la buena pro para la construcción y operación del terminal."'
+    },
+    {
+        "headline": "Organo comenzará estudio sobre desarrollo territorial",
+        "content": "La OCDE se reunirá con autoridades peruanas. Los detalles incluyen encuentros programados entre el 15 y el 24 de junio, según información proporcionada por el Centro Nacional de Planeamiento Estratégico."
+    },
+    {
+        "headline": "Rayo fulmina a un agricultor en Ayacuchо",
+        "content": "Wilber Tacas Jorge fue víctima fatal de un potente rayo mientras trabajaba en labores agrícolas a campo abierto, acompañado de varios compañeros que también sufrieron quemaduras."
+    },
+    {
+        "headline": "Triple crimen remece Trujillo",
+        "content": "Una guerra de bandas entre ‘Los Ochenta’ y ‘Los Pulas’, consideradas algunas de las grupos criminales más violentos de la ciudad, deja múltiples victimas mortales en florencio de mora."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected due to having substantial journalistic value within the given constraints. Other sections like ads, subscriptions, etc., have been excluded according to the rules specified.
+
+--- ERROR ENTRY: data/txt/correo/2015/06/correo_02.txt ---
+
+```json
+[
+    {
+        "headline": "MANDATARIO CALIFICA DE 'IRREGULAR' INVESTIGACIÓN A LA PRIMERA DAMA",
+        "content": "Un fuerte abrazo mío... Nadine les manda un fuerte abrazo a todos ustedes\". Es la primera frase que ensayó el presidente Ollanta Humala al iniciar su discurso ante un grupo de pobladores de una barriada de Villa María del Triunfo.\n\n\u201cQué aún con todo este ruido político siguen trabajando la Primera Dama.\n\nES UN ASUNTO DE \"DOS SEÑORAS\"\n\nMás allá de todo este \u201crmurmurar politico\u201d, remarcó el jefe del estado, colocando en primer plano el tema de las investigaciones a su esposa por presunto lavado de activos, al inicio de una inauguración de obras de agua potable.\n\nFinalizado el acto, el presidente Humala habló largamente para defender a su esposa sin ocultar su mortificación.\n\nSegún su apreciación, todo se reduce a la «mala leche» contra la Primera Dama, lo cual ha dado lugar a una riña de acusaciones todas, «exageradas», indebidamente irregulares, tras la reapertura de un caso investigado y archivado en el año 2009.\n\n«No sólo como presidente sino también como esposo –dijo-, yo siento indignación (por) cómo se hace de esto una persecución. Es una cosa jalada de los cabellos, exagerada». El presidente reiteró los argumentos de Roy Gates, abogado de la señora Nadine Heredia."
+    },
+    {
+        "headline": "Derroche. ¿Qué tiene de malo que la señora Nadine Heredia se tome un chocolate Gold Night en Nueva York?",
+        "content": "\"¿Quién está diciendo qué pasa aquí?, respondió enfurecido, cuando se le hicieran notar los gastos de su esposa considerados excesivos. \\\\\"Es muchísimo más que un chocolate, Presidente\\\\\", le hizo notar un reportero. Humala estimó que los gastos de su esposa es un tema en el que no debía meterse por respeto y por ser asunto de dos señoras.\""
+    },
+    {
+        "headline": "Polémica. La oposición no fue ajena al caso de Nadine Heredia...",
+        "content": "\\\\“Por favor, la señora Calderón ha integrado el Organismo de Supervisión “comisión Heredia” para investigar el origen de sus fondos.\\\\\n\nEl letrado se pronunció además sobre los diversos depósitos que redia realizó en sus cuentas bancarias...\n\nRoy Gates indicó que hasta el momento la Fiscalía no había especificado porqué se presumía que el dinero que llegó a las cuentas de la esposa del presidente Ollanta Humala fuera ilícito y podría contener un caso de lavado de activos.\nThe lawyer assured us that in 2005 the National Party did not yet exist as such and presented itself for elections in alliance with Union for Peru (UPP), which was ‘a rented womb’.”
+    },
+    {
+        "headline": "Proyecto de ley Facultades al Ejecutivo",
+        "content": "El Gobierno finalmente enviará el proyecto de ley que otorga facultades delegadas al Ejecutivo en materia administrativa económica y financieras. Fernando Armas y CGALANGARCIAPERÚ expresaron puntos clave respecto a la necesidad de destilarizar el panorama económico peruano."
+    },
+    {
+        "headline": "Precios crecieron 0,56% en Mayo según cifras del INEI",
+        "content": "El Índice de Precios al Consumidor IPC en Lima Metropolitana incrementó en 0.56 por ciento en mayo. Alan García destacó la importancia de continuar desarrollando proyectos significativos en minería, hidroelectricidad e infraestructuras."
+    },
+    {
+        "headline": "Fiscalía realiza Embargo de bienes en Entidad Bancaria de Miraflores",
+        "content": "Durante una operación prolongada, el Ministerio Público procedió al secuestro de una caja fuerte perteneciente a Rocío Calderón Vinatea y su madre, vinculándolas directamente con actividades sospechosas asociadas a la Primera Dama, Nadine Heredia. Dentro de la caja fuerte se localizaron sumas importantes en dólares estadounidenses así como varias piezas valiosas de joyería antigua."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Any missing data has been marked appropriately according to guidelines given.

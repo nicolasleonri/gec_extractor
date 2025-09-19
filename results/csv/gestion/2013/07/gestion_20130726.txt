@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_26.txt ---
+
+```json
+[
+    {
+        "headline": "STRATEGIA SUBREGIONAL PARA LOS PRÓXIMOS DOS AÑOS",
+        "content": "SKF del Perú ampliará sus servicios en Bolivia y Paraguay.\n\n— Mercado de rodamientos en Perú mueve unos US\$ 140 millones. Empresas de minería, cemento, textiles y bebidas tienen alta mano en servicios y mantenimiento de rodajes.\n\nWILFREDO HUANA CHINO NORÍSCO quien gestiona como Director General de Operaciones Estratégicas para expandir su cobertura para el sector industrial en países de la región, señaló que en los próximos dos años están planeando ampliar actividades de servicio y capacitación en Bolivia y Paraguay, mercados en donde SKF del Perú ejerce funciones."
+    },
+    {
+        "headline": "BusPortal.pe destaca incremento en búsqueda de viajes interregionales",
+        "content": "La búsqueda y compra online de pasajes en autobús está ganando popularidad en el país debido a la facilidad y medios de pago seguro ofrecidos por plataformas como BusPortal.pe. Para BusPortal.pe, página que recoge información sobre itinerarios y precios de varias principales agencias de buses del país, Cuzco es el destino más buscado en su sitio web, representando el 30% de visitas y capturando el 60% de sus ventas directas."
+    },
+    {
+        "headline": "FERREYCOP SA.A.A reporta récord de ventas durante el primer semestre",
+        "content": "Durante el primer semestre del año, la Corporación Peruana Ferreyrocopa alcanzó un nuevo record de ventas ascendentes a US\$1,049 millones, reflejando un incremento del 33% comparado con el período similar del año pasado. Este éxito se atribuye principalmente a las fuertes ventas de equipos Cat® en el segundo trimestre, contribuyendo significativamente a estos números históricos."
+    },
+    {
+        "headline": "MINERAS PERUA NAS SE INTERESA POR MINERALES EN HONDURAS",
+        "content": "Empresas peruanas se interesan en explorar y participar en futuras adjudicaciones de minas en Honduras. Esto surge luego de conversaciones preliminares llevadas a cabo con autoridades locales, según indicó Wilfredo Carrasco, secretario de Finanzas de Honduras. Firmas peruanas expresaron interés particular en el sector minero y desarrollo hidroeléctrico."
+    },
+    {
+        "headline": "INDUSTRIA MANUFACTURA NO PRIORIA DEMOSTRARÁ MEJOR DESEMPEÑO",
+        "content": "Según datos proporcionados por la Encuesta de Expectativas Macroeconómicas del Banco Central de Reserva, las empresas manufactureras no primarias han utilizado un 76.1% de su capacidad instalada en junio, marcando un leve repunte después de registrar solo un 1.6% de crecimiento en los primeros cinco meses del año. La expectativa es que estas cifras continúen mejorando conforme avanza el año económico."
+    },
+    {
+        "headline": "EXPORTACIONES CAEN ALGO MENOS DE LO ESPERADO",
+        "content": "Las exportaciones peruanas experimentaron otra caída consecutiva llegando aproximadamente al 16% en junio, acumulándose así seis meses continuos de descenso. Factores tales como limitaciones en producción agrícola y restricciones en la extracción petrolera marcaron notable impacto en dicha disminución."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on distinct topics within the document's structure. Any missing data was filled using "NA," though none occurred here due to sufficient information being available for each selected segment.

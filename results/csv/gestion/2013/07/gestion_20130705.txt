@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_05.txt ---
+
+```json
+[
+    {
+        "headline": "La cotización del metal rojo caerá entre 9.41% y 23%",
+        "content": "Entre este año y el 2015, según proyecta el ScotiaBank. Indican que esto afectará los ingresos petroleros del país este año.\nPablo Garcés\nDesde la cartera de proyectos mineros por más de US\$50,000 millones que se prevén en nuestro país para los próximos cinco años, aquellos relacionados a nuevas iniciativas para la explotación de cobre enfrentarán una demora significativa. Guillermo Arévalo, gerente de estudios económicos del ScotiaBank, explica que estos problemas surgen debido a la continua caída esperada de los precios del cobre durante los próximos dos años."
+    },
+    {
+        "headline": "¿Qué pasaría con la inversión aurífera?",
+        "content": "\"El precio del oro podría continuar descendiendo\" Patricia Mohr, vicepresidente y especialista en mercado de commodities del ScotiaBank, señala que aunque el precio medio será de US\$1,400 este año, podrían descender hasta US\$1,200-US\$1,300 hacia 2014. Esto está influenciado por decisiones monetarias globales, incluida la política de compra de bonos de la Reserva Federal de EE.UU.\""
+    },
+    {
+        "headline": "Gastos del estado en remuneraciones crecen en 15.4%",
+        "content": "Durante el primer semestre del 2013, hubo un notable incremento en los salarios otorgados especialmente al personal militar, reflejándose así en un aumento global de 15.4% en términos de cantidad frente al período similar del 2012, según datos proporcionados por el Ministerio de Economía y Finanzas (MEF). Alfredo Prado García destaca cómo este ajuste influye directamente en el presupuesto gubernamental actual."
+    },
+    {
+        "headline": "Advierten economía en peligro por distracciones políticas",
+        "content": "Carlos Chiappori, líder de Comexper, critica duramente al Congreso y al Ejecutivo por distraerse en disputas políticas irrelevantes, argumentando que tales acciones están colocando en riesgo el desarrollo económico del país. Insiste en priorizar legislar sobre temas clave que realmente impulsarían el crecimiento económico, criticando también la falta de acción eficiente en áreas cruciales como comercio exterior y regulaciones empresariales."
+    },
+    {
+        "headline": "Revisión integral de TUAP en entidades públicas",
+        "content": "El MEF planea realizar una evaluación exhaustiva de los Textos Únicos Administrativos Procedimentales (TUAP) aplicados en instituciones estatales, enfocado en optimizar procedimientos administrativos y garantizar una aplicación coherente de reglamentos. Esta estrategia pretende simplificar y racionalizar los procesos internos para potenciar la gestión pública."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on headlines followed by relevant content while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. Note how each entry maintains its structure according to the required format.

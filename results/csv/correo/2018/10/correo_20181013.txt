@@ -1,0 +1,43 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2018/10/correo_13.txt ---
+
+```json
+[
+    {
+        "headline": "\"Vamos a cerrar el\n CUANDO SE HAYAN AGOTADO\ntodas las POSIBILIDADES\"",
+        "content": "Premier César Villanueva advierte que todo es posible en el marco de la Constitución y que \"no puede haber una dictadura de un Parlamento, ni una dictadura de un Ejecutivo, ni una dictadura de nadie\".\n\nTras desmentir que el Ejecutivo contemple el cierre del Congreso de la República, tal como señalan diversos sectores políticos, el presidente del Consejo de Ministros, César Villanueva, admite que dicha medida es una opción contemplada dentro de las posibles acciones futuras."
+    },
+    {
+        "headline": "GOLPISMO",
+        "content": "Oracio Pacori (Nuevo Perú) sostuvo que este Congreso no da más y que si el presidente Vizcarra no lo cierra, la población tomará cartas en el asunto."
+    },
+    {
+        "headline": "Retiros legislativos y retroceso",
+        "content": "La tarde de ayer, por otro lado, la bancada Aprista retiró su versión final para revocar del Referéndum la bicameralidad y la no reelección de congresistas. \n\n\"Anunciamos el retiro del proyecto de ley 3544/2018, en coherencia con nuestra posición institucional de apoyo al Referéndum y a la no reelección\", tuiteó Velásquez Quisqueñán. Su compañero Jorge del Castillo agregó que tal iniciativa había sido presentada erróneamente."
+    },
+    {
+        "headline": "Opinión pública y política actual",
+        "content": "[...] Katherine Ampuero [...] afirma que la permanencia de fiscales Rafael Vela, Domínguez y demás fiscales que forman parte del Equipo Especial ‘Lava Jato’ garantiza una Fiscalía autónoma e independiente, libre de influencias políticas o externas."
+
+"[...]\n\nAlberto Beingolea menciona cómo mientras muchas autoridades están centradas en conflictos personales, surgen grupos ciudadanos comprometidos con mejorar el país."
+    },
+    {
+        "headline": "Detención preliminar de Keiko Fujimori",
+        "content": "El Poder Judicial aceptó ayer la apelación a la detención preliminar de Keiko Fujimori. Esta situación genera nuevas tensiones políticas dado el contexto electoral próximo."
+    },
+    {
+        "headline": "Intervenciones judiciales y decisiones controvertidas",
+        "content": "El Ministro Público cesó a Erika Delgado Torres como fiscal adjunta provisional de Lima, afectándola directamente en el trabajo relacionado con el Caso Metro de Lima. Esto generó controversia, especialmente después de comentarios públicos hechos por el fiscal de la Nación, Pedro Chavarria, quienes fueron rápidamente refutados por altos funcionarios gubernamentales."
+    },
+    {
+        "headline": "Allanamientos vinculados al caso Odebrecht",
+        "content": "Las intervenciones policiales alcanzan también a personal cercano a importantes figuras políticas, buscando evidencias adicionales en relación con el financiamiento ilegal provenientes de empresas extranjeras durante elecciones anteriores."
+    },
+    {
+        "headline": "Observaciones de organismos internacionales",
+        "content": "La Comisión Interamericana de Derechos Humanos (CIDH) mostró su preocupación ante la aprobación de una ley peruana que podría favorecer injustamente a individuos procesados por infracciones severas, argumentando falta de balance adecuado entre justicia restaurativa y reparación hacia víctimas de violaciones significativas de derechos humanos."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the guidelines provided for extracting significant journalistic pieces. Non-article elements such as ads, financial data, etc., have been excluded according to specified criteria.

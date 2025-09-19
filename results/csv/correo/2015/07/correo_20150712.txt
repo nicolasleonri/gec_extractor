@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/07/correo_12.txt ---
+
+```json
+[
+    {
+        "headline": "Analista confirma dificultades técnicas en fichas entregadas por gobiernos regionales",
+        "content": "García Pisco, analista de la Oficina de Gestión de Riesgos de Desastres del MEF, confirmó esa situación al hablar sobre la habilidad de los gobiernos regionales para entregar las fichas técnicas requeridas. Actualmente existen aproximadamente 100 fichas de dicho tipo. Muchas de ellas tienen problemas técnicos."
+    },
+    {
+        "headline": "Proyecto de inversión presenta obstáculos económicos",
+        "content": "\"El Maestro\" señala que aunque hubo transferencias gubernamentales destinadas a obras preventivas frente a amenazas naturales, esos fondos eran insuficientes. Esto llevó incluso al Ministro de Agricultura a comprometer más presupuesto interno."
+    },
+    {
+        "headline": "Quebradas de Chosica enfrentan riesgos severos",
+        "content": "El Gerente Municipal de Chosica indicó proyectos pendientes de inversión para mitigación de riesgos asociados a quebradas locales. Destacó preocupaciones específicas relacionadas con infraestructuras críticamente deterioradas."
+    },
+    {
+        "headline": "Informe detalla discrepancia en gestión financiera",
+        "content": "Un reporte destaca cómo ciertas áreas administrativas están siendo criticadas por manejar mal asignaciones presupuestarias, especialmente después de catástrofes naturales como El Niño."
+    },
+    {
+        "headline": "Acusan a gobernador de corrupción en adjudicación de servicios públicos",
+        "content": "Ante ausencia oficial, fiscales solicitaron prisión preventiva para el gobernador Oscorima, implicándolo en irregularidades contractuales vinculadas a la construcción de un hospital regional."
+    },
+    {
+        "headline": "Producción agrícola local atrapada en crisis comercial",
+        "content": "Los agricultores de quinoa en Ayacucho sufren pérdidas potencialmente catastróficas dado que no consiguen ventas adecuadas ni reconocimiento legal necesario, mientras competidores extranjeros explotan erróneamente productos similares."
+    },
+    {
+        "headline": \"Planeta enfrenta sexta extinción\",
+        "content": "Declaraciones enfatizando la urgencia de combatir cambios climáticos mediante políticas globales hacia energías limpias destacan la importancia de reducir dependencia de combustibles fósiles."
+    },
+    {
+        "headline": "Paraguay bajo observación papal",
+        "content": "El Papa Francisco advierte sobre consecuencias históricas negativas derivadas de adherirse rigurosamente a determinadas ideologías, instando a priorizar valores humanísticos dentro de estructuras sociales y económicas."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while following specified guidelines for inclusion/exclusion criteria. Note any missing information has been marked appropriately according to instruction requirements.

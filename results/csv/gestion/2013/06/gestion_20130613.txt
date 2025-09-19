@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/06/gestion_13.txt ---
+
+```json
+[
+    {
+        "headline": "Serpars%“...",
+        "content": "Subasta Publica No 01-2012 ! Serpar – Lima\nVenta de lotes de terreno urbanos en nuevos soles.\nVentas relacionadas con diversos sectores."
+    },
+    {
+        "headline": "Escándalo Futbolístico",
+        "content": "\"España investiga 3 Lionel Messi por evasión fiscal\"\n\u2013 El jugador argentino habría cometido fraude fiscal por más de US\$ 5.3 millones. \nPeligra enfrentar hasta cuatro años de cárcel junto a su padre según Reuters. Investigación revela sospechas de simulación de cesiones de derechos de imagen mediante sociedades offshore."
+    },
+    {
+        "headline": "Gourmet",
+        "content": "Peña tu pedido hecho a mano en un ambiente exclusivo. Oferta gastronómica variada disponible durante ciertos días y horarios específicos."
+    },
+    {
+        "headline": "Negocio Internacional",
+        "content": "Inmobiliaria Villarrón ingresa a Paraguay tras analizar oportunidades de negocio. Estrategia enfocada en desarrollos residenciales, comerciales e industriales."
+    },
+    {
+        "headline": "Banca de Inversión",
+        "content": "J.P.Morgan lidera banca de inversión en primer trimestre, superando rivales gracias a ingresos récord. Detalles financieros proporcionados por Coalition."
+    },
+    {
+        "headline": "Exportación de Productos Locales",
+        "content": "Empresa peruana Otto Kunz explora mercados internacionales para exportar embutidos después de obtener certificación OIE. Planifica aumentar ventas en un 15%."
+    },
+    {
+        "headline": "Marketing Moderno",
+        "content": "Entrevista con José Ignacio Gafo sobre transformaciones en el campo del marketing debido a cambios tecnológicos y económicos globales. Discusión sobre adaptación empresarial hacia el foco en el consumidor."
+    },
+    {
+        "headline": "Recorte de Suministro de Agua",
+        "content": "Se espera un corte del servicio de agua potable en varios distritos de Lima y Callao debido a mantenimiento urgente de válvulas principales. Impactará principalmente a hogares y pequeñas empresas sin grandes reservas de agua."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while excluding irrelevant sections like ads and non-journalistic information. Adjustments were made for clarity where necessary within constraints provided.

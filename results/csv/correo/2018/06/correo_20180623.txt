@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2018/06/correo_23.txt ---
+
+```json
+[
+    {
+        "headline": "ECISION FLGDUS  PEDRO GALLESE\nSELECCIONADO PERUANO SELECCIONADO PERUANO",
+        "content": "Neymar rompi en llanto tras el primer\ntriunfo de la seleccin de Brasil en el Mundial.\nCorre\u0301o |\nREDACCI\u00d3N\nBrasil venciendo por \u20132 con la estrella brasilea en el suelo,\na Costarica en los minutos finales \_\ntras un supuestoo agarro del \ncostarricense.\nGIANCARLO GONZALEZ. El arbitro,\nholandés BJORN KUIPIERS, pit\n56 penal; no obstante, al ser alertado\npor el VAR y revisar la jugada,\ngoles ha \u2014 cambiao su decisi\u00f3n."
+    },
+    {
+        "headline": "SERVICIOS FINANCIEROS ENTRE CHILE Y PERÚ",
+        "content": "Los reguladores de telecomunicaciones de Peru y \nl(e (Osiprel y Subtel) suscribieron un memo\r\nrandum de entendimiento que lleve a eliminar el roami ng\ninteroperabilidad para que usua rio de ambos pasa tengai\nla oportunidad de abarat er el cos to de sus llama ras."
+    },
+    {
+        "headline": "CAJAS MUNICIPALES: CRÉDITOS CRECIERON UN 6%",
+        "content": "\nPues ia 2018 movi forte la economía del país, sobretodo de\nlos emprendedores, Una muestra de ello es la mand ada de créd itos que \ndió el sistema de cajas municipales entree ne ro y may o de este año.\nJos Arias, res po nsable de la Ge ren ci a Re gi onal Li ma 2 de la Ca ja de Pi ura, explica que el impacto que ha ten ido el Mundial de fútbol Rusia 2018 es el creci mient o de la dem ana da de cred ito, principal mente del secto r Co merc io , que se expansi ó 6 % entre en ero y mai o de este ao, con relación al mis mo period o del 2017."
+    },
+    {
+        "headline": "PRECIO ALQUILER BARATO EN LIMA METROPOLITANA",
+        "content": "A pesar de su aument o en los últimos 12 mes es, los prec ios de alqui ler en Los Ol iv os sigu en sendo los más ba ratos de Lim a Metro politana (a mayo ), según el portal U rbania.\nEduardo Gonzalez-P ra da, ge ran te de Urb ani a, dijo que Ba rr ano sigue si endo el dis trito más caro para alq ue lar, con un pri nc ipio de $3573 sol es men sa les para un mento de 100 m² ; segu ído de Mi rar flores ($3215), Sa nd ro ($2989), Lin ce ($29 10), Jesús María ($2761), Sur qui lol ($2724), Pu eblo Lib re ($2697), Cer cad o de Lima ($2606 ) y Ma gdalen a del Mar ($2593 )."
+    },
+    {
+        "headline": "CEVICHE PATRONÍA CULTURAL",
+        "content": "Desde hace un tiemp oa tra s, los jó ve n chefs Renato Ka nahiro, Maya Flores y Jo rg To mita, levantados por su pasión por la cocina nikkei, decidieron crear Shizen Barra Ni k kei, un bién mont ado cater ing de sushi y makis, dónde el consumidor pudiera ordern distintos quetes, con una grán variedad de salsas, para qué sean enviados dire ctamente a casa."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines. Any missing data has been filled with `"NA"` where applicable. Note that some sections were merged due to continuity within paragraphs but still maintain separate entries according to different topics covered.

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_09.txt ---
+
+```json
+[
+    {
+        "headline": "Respecto del año pasado. Estamos a una velocidad de crucero...",
+        "content": "Prevé reducción disminuyendo las tasas de interes para los productos de Agrobanc... Cul es la morosidad de sus préstamos? ... Sin embargo, Scotiabank considera que las sólidas expectativas de crecimiento económico peruano permitirán que la corrección a la baja en las tasas de interés de los bonos locales no sea tan pronunciada como en otros países de la región."
+    },
+    {
+        "headline": "Se podrán hacer pagos hasta por S/. 1,000 con el celular",
+        "content": "-Con dinero electrónico, que opera con teléfonos móviles, los usuarios podrán pagar a otras personas, empresas y al Gobierno. Solo podrán usarlo los mayores de 16 años. Omar Mannrigué señala... El dinero electrónico será almacenado en un celular o tarjeta prepago, y aceptado de manera general como medio de pago. Ser emitido por un valor igual a los fondos recibidos, y puede ser convertido nuevamente a efectivo."
+    },
+    {
+        "headline": "'Ante debilidad del dólar Oro sube por ‘compras de oportunidad’",
+        "content": "(Reuters)oro subió 1% ayer debido a que la debilidad del dólar alimentaba compras de oportunidad después de la caída de precios en las divisas previas, causada por temores de que la Reserva Federal (Fed) comience pronto a reducir sus estímulos monetarios. Los mercaderes también están asimilando las noticias de que el fondo de oro de John Paulson ha perdido 65% en lo que va del año, luego de que su cartera cayó 23% el mes anterior."
+    },
+    {
+        "headline": "‘Pero Preocupa China Precios del cobre al alza',
+        "content": "(Reuters) El precio del cobre subió ayer tras una fuerte caída registrada el viernes gracias a un retroceso del dólar desde máximos de tres años, pero las preocupaciones brevemente sobre las perspectivas de demanda en China mantuvo las ganancias controladas. El cobre referencia en la Bolsa de Metales de Londres cerró en US$ 6,831 la tonelada."
+    },
+    {
+        "headline": "Afirma Juan Jimenez Habrá cambios en el Gabinete, pero Castillo se queda en el MEF",
+        "content": "-- Primer Ministro señala que Presidente no es muy predecible sobre renovación ministerial. Ana Jara dice que hay colegas que se merecen seguir con su agenda privada. \"La información que tengo es que el ministro de Economía, Luis Castillo, sigue\", expres Jiménez según Reuters. Costo político. El primer ministro, Juan Jiménez, señaló que la caída de popularidad del presidente Humala responde a una campaña lanzada por la oposición."
+    },
+    {
+        "headline": "Encuentra Lo Que Quieres en Kotear",
+        "content": "Kotear ofrece miles de productos y experiencias únicas listas para ti. Podrás encontrar todo tipo de artículos y disfrutar de promociones exclusivas. ¡Visita nuestro sitio web!"
+    },
+    {
+        "headline": "Acuerdo Buscan que investigación sea permanente",
+        "content": "Inicialmente Ante lo ocurrido con el caso Toledo, la Comisión de Fiscalización estudia modificar el reglamento del Congreso para obtener facultades fiscalizadoras permanentemente, eliminando así la necesidad de pedirlas constantemente."
+    },
+    {
+        "headline": "Convocatoria a nuevas Elecciones en Egipto",
+        "content": "\"Los violentos enfrentamientos que causaron al menos 50 muertos cerca de un complejo de la Guardia Republicana en El Cairo no harán caer nuestros esfuerzos por formar un gobierno interino,\" indicó Ahmed Al-Morsi, vocero presidencial. Manifestantes islamistas molestos por el arresto militar del expresidente Mohamed Mursi reportaron estar siendo disparados por fuerzas del ejército."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on the provided input data while adhering strictly to the defined scope and goal for extracting relevant information. Articles unrelated to journalism were excluded according to guidelines.

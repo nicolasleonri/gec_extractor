@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/10/correo_06.txt ---
+
+```json
+[
+    {
+        "headline": "El dolor insostenible expresa Brown",
+        "content": "Hoy en día, uno pensaría que... Pero estoy seguro, sin embargo, de que sería un consuelo tener la posibilidad de considerar las opciones que ofrece esta ley (...)\n\nY no negaría ese derecho a nadie\", acotó.\n\nMontana, Oregon, Washington y Vermont permiten el suicidio asistido."
+    },
+    {
+        "headline": "Sismo de 6.1 grados afecta cuatro regiones de Chile",
+        "content": "\"Movimiento sísmico ocurrió a las 13.33 hora local y su epicentro se sitúo a 10 kilómetros al sur de la localidad de Tongoy –una de las más afectadas por el terremoto de magnitud 8.4 del pasado 16 de septiembre– y a 315 kilómetros de profundidad en el océano Pacífico.\" \n\n\"Ciudad siria fue uno de los centros culturales más importantes del mundo antiguo\"\n\nCorrespondiente de agencias\n\nDirectora general de la UNESCO, Tina Bokova, \"condenan\u00faa ayer la destrucción del Arco de Triunfo de la ciudad siria de Palmira, Patrimonio Mundial de la Humanidad, perpetrada por el grupo yihadista Estado Islámico\"...\n\n[Continúa describiendo eventos relacionados]"
+    },
+    {
+        "headline": "LA UNESCO REAFIRMA SU COMPROMISO CONTRA DAESH",
+        "content": "[Texto completo detallando acciones y comentarios de la UNESCO y representantes involucrados]\n\n\"Alarma. El Director de Antigüedades y Museos de Siria, Mamún Abdelkarem, expresó su inquietud por el hecho de que el Estado Islámico ‘ya no está destruyendo, movido por su ideología, objetos con significativo valor histórico-cultural, sino que ahora también amenaza a civiles’…\n\n‘Si continúa así, no quedará nada de Palmira dentro de unos meses’, alertó.”"
+    },
+    {
+        "headline": "Un piloto fallece en pleno vuelo",
+        "content": "Un piloto de la compañía American Air Lines murió ayer en pleno vuelo entre Phoenix (suroeste) y Boston Este tras sufrir un problema de salud, según indica la aerolínea estadounidense, especificando que el avión aterrizó sin problemas en otro aeropuerto. [...]”
+    },
+    {
+        "headline": "La OTAN considera «inaceptable» la violación del espacio aéreo de Turquía",
+        "content": "Presencia en el aire sirio de aviones de la coalición dirigida por EE.UU. y aparatos rusos crea una situación colmada de riesgos, advierte hoy la ONU, mencionando un incidente entre ambas potencias. […]"
+    },
+    {
+        "headline": "¿Qué significa realmente trabajar para el Banco Mundial?",
+        "content": "Muchos piensan erróneamente que el Banco Mundial (BW), fundado en 1944, opera igual que cualquier institución bancaria tradicional. No es así. BW es una fuente clave de asistencia financiera y técnica destinada a países en desarrollo globalmente, promoviendo la eliminación de la pobreza mediante estructuras únicas enfocadas hacia objetivos específicos.”
+    },
+    {
+        "headline": "Premio Nobel de Medicina reconoce investigación antiparasitaria",
+        "content": "Irlandés William C. Campbell y japonés Satoshi Omura obtuvieron el Premio Nobel de Medicina 2015 junto a la china Tu Youyou por investigaciones cruciales en tratamientos de enfermedades provocadas por parásitos…”
+    },
+    {
+        "headline": "Diez salarios mínimos requieren comprar la “canasta básica” en Venezuela",
+        "content": "Actualización económica señala que se necesita aproximadamente diez veces el salario mínimo vigente para cubrir costos fundamentales de alimentación, habitabilidad y educación, reporta el centro independiente CENDAS-FVM."
+    },
+    {
+        "headline": "Plantón de candidato marca debut electoral en Argentina",
+        "content": "Durante el primero de varios debates electorales, el candidato oficialista Daniel Scioli generó controversia al aparecer sentado detrás de un atril, evento criticado ampliamente por analistas políticos locales."
+    },
+    {
+        "headline": "Henning Mankell, creador de Wallander, deja legado literario",
+        "content": "Autor Sueco falleció víctima de cáncer a los 67 años dejando un impacto notable en la narrativa criminal contemporánea gracias a su serie centrada en el detective Kurt Wallander, abarcando temas sociales complejos."
+    },
+    {
+        "headline": "Mayra Couto disfruta éxito teatral después de dejar pantalla",
+        "content": "Después de abandonar el programa 'All Fondo Hay Sitio', la actriz Mayra Couto participa en la obra 'Bonkers'. Comenta cómo cambió su perspectiva profesional y personal tras superar un diagnóstico médico severo."
+    },
+    {
+        "headline": "Problemas de salud suspenden show de Foals en Lima",
+        "content": "La agrupación británica Foals canceló su espectáculo programado para anoche en Barranco debido a razones sanitarias concernientes a uno de sus músicos principales."
+    }
+]
+```
+This JSON captures each significant article found within the provided OCR text while adhering strictly to the outlined requirements for extraction and structuring. Articles were identified based on their headlines and substantial textual bodies related to journalism standards. Any missing data was filled using "NA".

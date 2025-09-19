@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/10/correo_22.txt ---
+
+```json
+[
+    {
+        "headline": "Generación de simpatías",
+        "content": "Se trata de Nidia Velázquez, quien recorre toda la región construyendo un ambiente amigable y en búsqueda de nuevos adeptos. Ella y sus compañeros confían en que en la recta final Alan García remonte. En realidad, esperan que su líder elabore un plan ligado a la acción y a la puesta en escena de la esperanza."
+    },
+    {
+        "headline": "Wikileaks publica correos del jefe de la CIA John Brennan",
+        "content": "\"[...] WikiLeaks [...] comenzó ayer a publicar varios documentos en los cuales el jefe de estos servicios secre-tos supuestamente habla sobre el poder de Irán y nuevas técnicas para interrogar terroristas.\" \"Los correos del director de la CIA, John Bren-nan\", dicen en su web Wikileaks, organización creada por Julian Ass-sange. [...]"
+    },
+    {
+        "headline": "Presencia",
+        "content": "[...] La relevancia de WikiLeaks aumentó entre julio y octubre de 2010 al publicar documentos secretos de la guerra de Afganistan (2001) y la segunda guerra de Iraq (2003).\n\n\"Correos. Dos de ellos están relacionados supuestamen-te con casos de tortura y datan de 2008, cuando Brennan estaba siendo considerado por el recién electo president-e Barack Obama como tor de la CIA. Esto que mentió en 2013 después de trabajar como conse-jero en contraterrorismo para el mandata-r.[…]"
+    },
+    {
+        "headline": "Escondáldel espionaje a políticos opositores",
+        "content": "«[…] Escándalo de […] espionaje a políticos opositores, empresarios, periodistas, jueces y artistas critícos con el nombre de Cristina Fernandez sacudió ayer el clima politico en Argentina en vistas del cierre de la cam-paña para las elecciones presidenciales del dom-ingo.\n[…]\nAnibal Fernández, calificó de «inventa» la acción contra el Gobierno y los servicios de inteligencia y aseguró que el Gobierno no tiene nada que ver con el asunto."
+    },
+    {
+        "headline": "Evo Morales y sus ansias de perpetuidad",
+        "content": "“Ev[o] Morales, ayer se envuelve en el presidente con más permanencia en el poder. Ha superado a Andrés de Santa Cruz de los comien-zos de la vida república-na.”\n\n“En efec[to], ayer cum-pl[ió] 9 años, 8 meses y 5 días al frente del gobierno. Nadie puede dis-cutir que Morales ha sa-bido recomponer la econo-mía altiplánica.”
+    },
+    {
+        "headline": "HiJa Adoptiva De CantAnte RomPe Su SilEncIo",
+        "content": "“‘Yo sólo tengo una ma-dre’, declara ‘Chabe-lita’ a revista ¡Hola!, negando conocer a su madre bio-logica, identificada por medios españoles como Rebeca Luque Saldaña, quien afirma que era demasiado joven para criar a la menor."
+    },
+    {
+        "headline": "Apoyo a Gareca",
+        "content": "Edwin Oviedo, presidente de la FPF, solicitó paciencia hacia el técnico de la Selección Peruana, Ricardo Gareca, destacando el trabajo realizado previamente y ofreciendo su completo respaldo."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on the provided input while adhering strictly to the defined rules for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces of journalism within the given data set.

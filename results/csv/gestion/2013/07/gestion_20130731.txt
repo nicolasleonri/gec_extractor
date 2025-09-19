@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_31.txt ---
+
+```json
+[
+    {
+        "headline": "PAÍSES CON MENOS CUENTA POR PERSONA QUE LOS PAISES ADYACENTES",
+        "content": "Países con menos cuenta por persona\nque los países adyacentes.\nPais\tEmpleados\tpor 100,000 habitantes\nAo 2012\nColombia \t170 \t565 \t13221\nCosta Rica \t170 \t390 \t3640\nPanamá \t6.0 \t35.0 \t180.0\nVenezuela \t122 \t471 \t2714\nEcuador \t183 \t479 \t379.4\nBrasil \t115 \t83 \t3265\nArgentina \t13 \t7 \t48338\nMexico’ \t113 \	334 \t1803\n... Marcoes 31 de JULIO de 2013 GESTIÓN\n23\nBANCO DE DATOS\nPESE A DESACELERACIÓN DE LA ECONOMA\nYa hay más de 2100\nmillonarios en todo el\nsistema financiero local\nCuentas millonarias aumentan porque el crecimiento del Perú aún está elevado frente a los precios\nde bienes raíces y venta de empresas familiares."
+    },
+    {
+        "headline": "YA HAY MS DE 2,100 MILLONARIOS EN TODO EL SISTEMA FINANCIERO LOCAL",
+        "content": "Cuentas millonarias aumentan porque el crecimiento del Perú aún está elevado frente a los precios de bienes raíces y venta de empresas familiares.- Ritmo de apertura de cuentas de depósito personales mayores al millón de soles se acelera este año, pues la apreciación de bienes raíces y venta de empresas familiares eleva la riqueza.\nCARLOS ROMÁNCOLA\ncolumnagestion@gestión.com.pe\nEl número de millonarios en el sistema financiero local ya supone los 2,100, a despecho de señales cada vez más notorias de enfriamiento en la economía. Hasta junio del 2013, 2,104 personas tenían depósitos superiores al millón de soles en el sistema financiero, unas 370 más que hace un año (1,734), según la Superintendencia de Banca, Seguros y Administradoras Privadas de Fondos de Pensiones (SBS).\nIncluso, la apertura de estos depósitos se viene acelerando pues en los primeros seis meses del año se registraron 285 nuevas cuentas de más de S/. 1.3 millones en bancos, financieras y cajas, casi el doble que las verificadas en similar lapso del 2012 (157). \"A pesar de la desaceleración económica, destaca que el número de depositantes con más de S/. 1.3 millones en el Perú continúa incrementándose porque nuestra economía sigue creciendo a tasas muy por encima de nuestros pares en la región\", dijo Gustavo Barboza, director de Alpha Investments y profesor de carrera de postgrado de la Universidad del Pacifico."
+    },
+    {
+        "headline": "MICROFINANZAS SON MOTOR DEL CRECIMIENTO SOCIAL Y ECONÓMICO",
+        "content": "\"Las Microfinanzas\" se han convertido en uno de los principales motores del desarrollo social y económico del país, contribuyendo a la reducción de la pobreza y la formalización empresarial a través de la bancaización de la población tradicionalmente excluida del sector financiero. Entre los factores que han impulsado el rápido avance de las microfinanzas se encuentran el desarrollo de las Instituciones Microfinancieras (IMFs), a través de la creación de productos complementarios, el crecimiento de sus redes de cobertura y la implementación de nuevas tecnologías. Bancos como Citibank están apoyando a las IMFS del sistema financiero local, facilitando el acceso a nuevas fuentes de financiamiento a través del mercado de capitales y préstamos estructurados con entidades del exterior."
+    },
+    {
+        "headline": "NEGOCIOS LOCALES CAUTELARES ANTE POSIBLE CAMBIO DE POLITICA MONETARIA ESTADOS UNIDOS",
+        "content": "Los inversionistas locales se mantienen cautelosos en la plaza bursátil ante los anuncios que entre hoy y mañana hará la Reserva Federal de Estados Unidos (Fed) sobre su política monetaria. Asimismo, la baja del precio de los metales ocasionó que el Índice General de la Bolsa Limeña cerrará ayer en 15,122.77 puntos, con un retroceso de 1.23%. Con ello, pierde 26.7% este año."
+    },
+    {
+        "headline": "MINISTERIO DE SANIDAD AFIRMAR NO NECESITA DINERO EXTRA PARA EVITAR PROTESTAS MEDICAS",
+        "content": "No necesito que Castilla suelte dinero para evitar protestas de médicos.\"Medina de Habich dice que limitar la reforma sanitaria únicamente a fondos proporcionados por el MF sería insostenible. Una nueva táctica empleada por enfermeras involucró marchas simbolizando banderas limpias mientras advertían potencialmente abandonar hospitales. Médicos también prometieron radicalizar sus protestas. Medina de Habich asegura que la reforma debe considerar integrar más profesiones dentro de los hospitales sin dependencia exclusiva de asignaciones adicionales del ministerio de Economía."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were selected where there was substantial journalistic content available within the given input data. Other sections such as financial statistics, brief mentions, and non-journalistic elements have been excluded according to specified criteria.

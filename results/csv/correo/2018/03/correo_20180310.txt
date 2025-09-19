@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2018/03/correo_10.txt ---
+
+```json
+[
+    {
+        "headline": "Malhechores Dispararon a Agente en Unidad de Trujillo",
+        "content": "Arrestan a dos de los asaltantes\nque hirieron a polica en bus.\nLos criminates »u un capturados en La Libertad y\lamboa ve 32. inter ofreca recompensa por ellos."
+    },
+    {
+        "headline": "Organización Criminal 'Los Sapos Blancos'",
+        "content": "Caen 16 miembros de los ’Sapos blancos’\nCasma: Comercializaban cocaine, pasta básica de cocaína y marihuana en casahola re_de el 2014.\nPolicía y fiscalía lograron detención mediante operación conjunta."
+    },
+    {
+        "headline": "Estado Islámico Asume Autoría Ataque Suicide",
+        "content": "Ataque suicide perpetrado en el oeste de Kabul (Afghanistan).\nAsesinatos ocasionados por ‘hermano mártir Uzman al Jarasani’. \nObjetivos principales eran miembros de comunidad musulmana chí."
+    },
+    {
+        "headline": "Reunión Entre Trump y Kim Jong-un Solo Diálogo Sin Concesiones",
+        "content": "Encuentro planeado entre líderes de EE.UU. y Norcorea podría significar inicio dilogos sin compromisos previos. \nSecretario Tillerson enfatiza falta de condiciones adecuadas para negociaciones formales."
+    },
+    {
+        "headline": "Jennifer Lawrence Obliga Novios Realizarse Pruebas de ITS",
+        "content": "Actriz demanda certificados médicos negativos de ITS antes de establecer relación íntima. Explicación dada en entrevista refiere preocupación personal frente a riesgos sanitarios."
+    },
+    {
+        "headline": "Secuela de Los Soprano Preparándose",
+        "content": "Producirá historia ambientada en años 1960. Guion adaptará elementos clásicos serie original creada por David Chase."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extracting relevant journalistic information. Any non-relevant sections such as ads, subscriptions, etc., have been excluded according to guidelines.

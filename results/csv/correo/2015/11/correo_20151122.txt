@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/11/correo_22.txt ---
+
+```json
+[
+    {
+        "headline": "Resolución que favorece a García provoca tensiones políticas",
+        "content": "La decisión judicial favorable hacia García generó controversia entre sus detractores. La presidenta del Partido Nacionalista, Nadine Heredia, destacó en primera línea. Los ataques señalan una supuesta proximidad del magistrado Jesús Manuel Solier, clave en la sentencia, con ideologías apristas. Exfuncionario Gio Tejada afirmó que esposa e hijos del juez son militantes del APR. Promete impugnar recurso legal frente al Tribunal Constitucional."
+    },
+    {
+        "headline": "Heredia cumple requisitos fiscales bajo vigilancia intensa",
+        "content": "Tras admitir propiedad de documentos controvertidos, la esposa del mandatario peruano pasó por análisis grafotécnico solicitado por la Fiscalía de Lavado de Activos. Protección gubernamental acompañó a Heredia, quien evadió contactos periodísticos después de manifestación pública visible. Previamente, el presidente Humala celebró reducciones tensión bilateral con Chile, según declaraciones públicas."
+    },
+    {
+        "headline": "Accidente fatal deja víctimas conocidas",
+        "content": "El accidente automovilístico cobró vida de Américo Mercado, figura política anterior de región Junín, junto a técnico eléctrico Anthony López Valera. Motivado por trabajo supervisorio en proyecto energético, incidente condujo a caída mortal en río Monzón. Familiares solicitan búsqueda exhaustiva de restos. Anteriormente, Mercado lideró administrativamente region Junín, respaldo público recibió incluso tras dimisión prematura."
+    },
+    {
+        "headline": "Operativo antidelictivo impacta 'Los Sanguinarios'",
+        "content": "Después de prolongada sesión judicial, Magistrado María Zulueta Cabrera determinó prisión preventiva para líderes de célula criminal ‘Los Sanguinarios’. Detención incluye a exgobernannta de Coishco, implicándose también en cargos graves como sicariato y narcotráfico. Proceso revela complejas estructuras criminales operativas en áreas específicas."
+    },
+    {
+        "headline": "Deforestación amenaza biodiversidad amazónica",
+        "content": "Actividades agrícolas ilegítimas propician pérdida significativa de hábitats naturales en selvas peruanas. Agricultura itinerante emerge como factor primordial, alterando equilibrio ambiental y social. Expertos sugieren medidas correctivas enfocadas en prácticas sostenibles y aplicación rigurosa de legislación vigente. Consecuencia potencial incluyen severas repercusiones socioambientales."
+    },
+    {
+        "headline": "Ataque terrorista causa múltiples victimas en África",
+        "content": "Grupo extremista Boko Haram responsable de explosión letal en territorio camerunés. Incidente suma cifra alarmante de afectados mortales y lesionados. Secuela recurrente evidencia patrones preocupantes de violencia sectaria en la región africana occidental."
+    },
+    {
+        "headline": \"Prisioneros frustran fuga mediante túneles clandestinos\",
+        "content": "Detenidos en cárcel de máxima seguridad elaboraron infraestructura subterranea destinada a escapatoria. Alerta tempestivamente interceptada gracias a reporte confidencial permitiendo intervención previa conclusión obra. Autoridades guatemaltecas coordinan investigación integral respecto complicidad externa en evento carcelario."
+    },
+    {
+        "headline": "Elecciones Argentinas definirán futuro político",
+        "content": "Ciudadanos argentinos decidirán mañana entre opciones polarizadoras: Macri simboliza renovación proponiendo reformas económicas radicales, contraponiéndose a Scioli, defensor del status quo kichnerista. Resultado inciso influirá dirección país sudamericano emergente."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on contextually significant information related to political events, societal issues, and international incidents. Non-article elements such as ads and unrelated sections have been excluded according to guidelines.

@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/05/correo_14.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que... "
+    },
+    {
+        "headline": "Contenido principal",
+        "content": "Continúa descripción aquí."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "O el viejo reino\nLentejas progressistas",
+        "content": "Martín Santivañez V.\nUno...\nPúblico Co Premsmar!"
+    },
+    {
+        "headline": "\"CIENCIA POLITICA\"\nThe price of truth",
+        "content": "Luís Alfonsso Morey\nPublicación con PRENSMAR!\npaga por ella puede ser muy alto,\nToque en la prensa escrita y televisión..."
+    },
+    {
+        "headline": "Del Director Buena decisión, Presidente",
+        "content": "ha sido acertada la decisión del presidente Ollanta Humala de no ir a la convulsionada zona donde pobladores, junto a delincuentes y asesinos de políticas, rechazan el proyecto cuprifero Tía María,..."
+    },
+    {
+        "headline": "Un dólar vigencia de 3 años",
+        "content": "El BID otorgará al Perú un préstamo contingente por \$300 millones para enfrentar catástrofes naturales o crisis económicas o financieras. Una norma publicada en el Diario Oficial indica que el gobierno obtendrá dicho préstamo llamado Programa de Gestión de Resultados para la Reducción del Riesgo de Desastres Naturales II°, bajo modalidad de préstamo de apoyo a reformas legales bajo opción de retiro diferido."
+    },
+    {
+        "headline": "Clorinda Flores F. poespensa.pe",
+        "content": "Desde el 2013, los teléfonos móviles con el sistema posterior pago han ganado terreno, pasando de aproximadamente 20% del mercado a casi 50%. Explicó además que esto también está relacionado con mayores capacidades de pago de más número de peruanos."
+    },
+    {
+        "headline": "TERMINALES DE CARGA MANTIENE SOBRECOSTOS",
+        "content": "De acuerdo con la Asociación de Exportadores (ADEX), cerca de 80 mil exportadores e importadores están pagando 40% más del valor del flete debido a servicios innecesarios, resultando en pérdidas significativas."
+    },
+    {
+        "headline": "Paro de Trabajadores de Tuman cumple 37 días mientras producto escasea",
+        "content": "Trabajadores de la Agroindustrial Tuman atacaron a un agente de la Polícia Nacional durante una protesta laboral. Más de 1500 empleados aún no pueden realizar sus funciones normalmente, causando escasez de azúcar en el mercado."
+    },
+    {
+        "headline": "Violencia en Islay aumenta cifra a 15 policías heridos tras enfrentamientos",
+        "content": "Las tensiones continuaron incrementándose en la provincia de Islay después de múltiples enfrentamientos violentos entre residentes locales y fuerzas gubernamentales."
+    },
+    {
+        "headline": "Alan García critica al gobierno por protestas",
+        "content": "Ex-presidente Alan García señaló que el actual manejo de conflictos sociales podría estar distrayendo atención hacia problemas climáticos urgentes como El Niño."
+    },
+    {
+        "headline": "Columna Opinión El narcotráfico y los políticos",
+        "content": "Investigaciones parlamentarias buscan determinar vínculos potenciales entre figuras públicas y actividades ilícitas vinculadas al tráfico de drogas."
+    }
+]
+```
+This JSON structure captures each identified article's headlines and contents based on the provided guidelines for extraction and cleanup. Articles were segmented according to their distinct topics while ensuring clarity and adherence to specified rules regarding inclusion/exclusion criteria.

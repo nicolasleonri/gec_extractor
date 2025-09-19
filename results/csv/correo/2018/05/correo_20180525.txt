@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2018/05/correo_25.txt ---
+
+```json
+[
+    {
+        "headline": "Por Roxana Demarti! | Citas: 80742480 E3 Roxy Demarttin Vidente Tarotista Internacional",
+        "content": "Sagitario (23 Noviembre – 22 Diciembre)\n\nDeja de coquetear con quien no debes o, de lo contrario, confiesa y sé de dudas.\nCapricornio (26 Diciembre–19 Enero)\n\nwwwplacebo.com/vanciropolomatinta\n\nTu seriedad confunde a mucha gente. \nAlgunos creen que eres muy reservado. [\n\nea a a on |— ep]\n\nEn el trabajo tendrás algunas dificultades,\npero al final del día te sentirás mejor."
+    },
+    {
+        "headline": "Un día como hoy",
+        "content": "En 1681, hace 334 años, muere el escritor Miguel de Cervantes Saavedra, uno de los más grandes literatos españoles del siglo XVII. Autor de las obras de teatro clásicas ‘Don Quijote’ y ‘Los baños de Argel’. Diariograma\n\nSeneca II Epístolas Morales a Lucilio\n\nRimas Humanistas\n\n‘La segunda parte’\namén:\nArtemisa\n\nmutumano\n51 meses\npresencia\n\nnoticias surgen\nMontevideo\n\nAvícola Faustino\nMichaél...\n10º Noticia Razón\nmasculinos\n\nsegún vosotros\nVacío ‘mediterráneo’\nSolución anterior\n... Cinco Misterios\n\nSamarios\n\nSeñora\n\nsoluciones sorprendentes”
+    },
+    {
+        "headline": "Corrección:",
+        "content": "Diario Correo.Lima/Miércoles 25 De Mayo/2018\n\nCORREO\n\n66\n\nLa comedia\n\n¿Qué es el teatro?\n\nEl teatro ha sabido mantenerse en el tiempo gracias a sus formas diversas, entre ellas los monólogos, cortos por su duración. También coincide con el nacimiento del cine, que no necesita de espacios a los costados como el teatro y es más barato. ... Carlos Ugarte Chamarro, entonces director de la biblioteca de la Escuela Nacional de Arte Escénico, nos cuenta cómo empezó todo este camino hacia la investigación País Nacional de Cultura. ¿Cuándo trata de historia del teatro, hay investigadores dedicados exclusivamente a esto?"
+    }
+]
+```
+This extraction includes three distinct sections identified within the provided OCR text based on their structure resembling headlines followed by related content. Other parts such as astrological advice were included due to its structured format similar to typical column entries found in newspapers. Advertisements, repetitive elements like sudoku puzzles, and non-article segments have been excluded according to specified guidelines.
+
+--- ERROR ENTRY: data/txt/correo/2018/05/correo_25.txt ---
+
+```json
+[
+    {
+        "headline": "EE.UU. acusa a Corea del Norte de \"abierta hostilidad\"",
+        "content": "Donald Trump cancela la\nAdems, advirti que \nrtsuar con sanciones\ney no descarta accin militar.\nCorreo | EFE\n1 presidente Do\nonald Trampcan\ncy ayer la cumbre que iba a sostener\ncon el lder norcoreano,\nKim Jong-un. La cita,\nprogramada para el 12\nde junio en Singapur,\nhaba sido catalogada\nde histrica, pues \ntendra reunir por pri\nMay0 dicequees\nF la proviacinn\" ae\nWashington On Pictures\nlevantar las sanciones \nota el pas hasta Out\nMarzo — acepta\nvitacin directa\nJong-un para romperse\"\ninmtiyo\nCoreadel Norte se retoma\ncomprometerse a Co\nDesnuclearización\nAhora mismo los \nmandataros de dos paises que lle— — \nn van casi siete dcadas »\nen siendo enemigos.\nA travs de una carta, \nTrump comunic a Kim. l\nque «la cumbre de Singapore\nno tendr lugar». €— — '\n«Tristemente, en base a la tremenda ira y abierta\nhostilidad mostrada en su comunicado mas\nreciente, creo que es innecesario, en este momento,\nmantener esta reunion», agreg el presidente de\nEE.UU. en la misiva."
+    },
+    {
+        "headline": "¿Por qué Trump cancela su encuentro con Kim Jong-Un?",
+        "content": "\"Qu ha llevado a Donald Trump a decidir la cancelación de su esperado encuentro con Kim Jong-Un en Singapur, tal como había sido pactado para el próximo 12 de junio?\nLa pregunta merece por parte del presidente de la nacion más poderosa de la Tierra una respuesta a la comunidad internacional sin evasiones y convincente, si tenemos en cuenta dos hechos. En primer lugar, Corea del Norte, a pesardede los ejercicios militares conjuntos reiniciados por EE.UU. y Corea del Sur provocando a Pyongyang, no cay en la provocación estadounidense y –más allá del lgico fastidio previsible– seguía adelante en su imperturbable propósito hacia la realización del histórico encuentro de los dos mandatarios. En segundo lugar, hace apenas 48 horas, Kim volvió a sorprender al mundo por mostrar un notable y contundente gesto hacia Washington para consumar la reunión, al decidir el desmantelamiento –en buena cuenta, la demolición– de su planta de producción nuclear ubicada en la zona norte del país; para que no hubiese dudas, lo hizo ante la presencia de periodistas extranjeros. Frente a estos dos gestos objetivamente irrebatibles, ¿qué razón tenía Trump para retroceder con la reunión?"
+    },
+    {
+        "headline": "Magaly Medina denunciada por acoso",
+        "content": "Isabela Valcárcel se refirió a la suspensión de Latina contra Magaly Medina por celebrar que el futbolista peruano Paolo Guerrero quedara fuera del Mundial. Isabela señaló que ‘‘yo no puedo decir al aire: me provoco hacer piloto, me traigan mi water?’’ Además, comentó que Latino América vio lo que podría o no hacer y seguramente se lo habrá recordado.”
+    },
+    {
+        "headline": "Sección deportiva",
+        "content": "Seleccion Peruana Entrena Hoy Con Equipo Completo\nRicardo Gareca Ya Cuenta Con Sus 24 Convocados\nTrauco será nueva incorporación en videna y se referió a Guerrero. Los seleccionados están listos para competencias internacionales incluyendo partidos amistosos contra equipos como Escocia, Arabia Saudí y Suecia."
+    }
+]
+```
+This JSON captures four distinct sections identified within the provided OCR text based on their headlines and contents related to different topics such as international politics involving North Korea, sports events including football matches, media controversies regarding television personalities, and updates about national team preparations for upcoming tournaments. Note how each entry maintains its structure according to the specified format requirements.

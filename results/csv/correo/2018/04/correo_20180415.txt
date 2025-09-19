@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2018/04/correo_15.txt ---
+
+```json
+[
+    {
+        "headline": "Comparecencia de A. Fujimori en Sala Penal",
+        "content": "Ante el Colegiado B de la Sala Penal Nacional, la Fiscalía sustentará el próximo viernes el pedido de comparecencia restringida para el expresidente Alberto Fujimori por el caso Pativilca."
+    },
+    {
+        "headline": "Dirigente aimara Raúl Quispe entrega rendición voluntaria",
+        "content": "El líder del ‘Aimarazo’ aún no ha sido incluido en la lista de los más buscados del Ministerio del Interior. Desde la clandestinidad, Quispe también respondió a Correo: “Si el Poder Judicial me muestra una sola prueba de que he cometido los delitos de los que me acusan, inmediatamente me pondré a derecho, pero no es así. En mi proceso hubo mucho tinte político,” sostuvo convencido."
+    },
+    {
+        "headline": "Emergenia por machu picchu Feminicida en Arequipa",
+        "content": "Se registraron arengas con el lema: \"Quispe, Libertad!” Durante el simposio –donde habría compartido mesa con el exgobernador de Cajamarca Gregorio Santos– se registraron arengas con el lema: \"¡Quispe, libertad!"
+    },
+    {
+        "headline": "Para Revista, resto Inca da ’una Perspectiva Inspiradora Del Mundo'",
+        "content": "La prestigiosa revista National Geographic eligió a Machu Picchu (Cuzco) como uno de los 15 destinos íconos que valdrá la pena conocer. Consideró que visitar el recinto es “una experiencia única en la vida.”
+    },
+    {
+        "headline": "Fueros Destruídos Tres Objetivos en D'Hama y Homss",
+        "content": "Washington considera exitoso el baile planeado ejecutado en conjunto con París y Londres contra posiciones del régimen de Bashar al-Assad. "
+    },
+    {
+        "headline": "Avances Internacionales Miguel Ángel Rodríguez Mackay",
+        "content": "La organización de la megaramisión continental, en cuanto al trabajo de protocolo y logística, fue casi perfecto. Las referidas ausencias significativas hicieron que el texto de la Cumbre careciese del peso político esperado."
+    },
+    {
+        "headline": "Guerra Civil Siria Compleja Escenarios",
+        "content": "Desde 2011, cuando comenzó el levantamiento popular contra el régimen de Bashar al-Assad, la situación bélica evolucionó hacia múltiples frentes de confrontación, exacerbándose después de la intervención militar extranjera."
+    },
+    {
+        "headline": "Función Mejora Calidad de Vida Pacientes Graves",
+        "content": "Definen los cuidados paliativos como aquellos destinados a mejorar la calidad de vida de quienes padecen enfermedades severas mediante atención integral física, emocional y psicológica."
+    }
+]
+```
+This JSON structure captures each identified article's headline and its corresponding content based on the provided input while adhering strictly to the specified format requirements. Articles were extracted using defined criteria for headlines and substantial textual bodies, ensuring clarity and relevance within their respective contexts.

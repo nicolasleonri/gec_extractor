@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2018/04/correo_11.txt ---
+
+```json
+[
+    {
+        "headline": "Han de los gobiernos de turno y sus prácticas corruptas para atentar contra el fisco.",
+        "content": "Ni las bravuconadas del presidente de Venezuela, Nicolás Maduro, deben distraer el tono de esta cumbre internacional. Esperemos que nuestro país, uno de los más golpeados por la corrupción, con expresidentes presos, prófugos y renunciantes, esté a la altura y proponga alternativas preventivas contra este robo al ciudadano."
+    },
+    {
+        "headline": "QUINTA COLUMNADA\nOjito, ojito con el TC",
+        "content": "[...] Ayer, por tercera vez, pospondió su decisión sobre el habeas corpus mediante el cual Ollanta Humala y Nadine Heredia buscan revocar la prisión preventiva que —con estrictos criterios judiciales— han resuelto diversas instancias del Poder Judicial. [...] El tribunal constitucional ha tomado una posición controversial.\nCONTENIDOS elaborados por GRUPO CPLEMASA SAC [...]"
+    },
+    {
+        "headline": "DEL CONGRESO NO SALDRÁ LA SOLUCIÓN PARA LOS ESCÁNDALOS LEGISLATIVOS",
+        "content": "Cuando parecía que en el Congreso ya había pasado el tiempo en que algunos legisladores recortaban el salario que sus empleados cobraban al Estado, emerge el caso de la legisladora ‘avenger’ Lizbeth Robles, lo que no hace sino confirmar que para los escándalos que dañan cada vez más al Poder Legislativo, no existe distinción alguna. Recordemos que este caso guarda similitudes con el protagonizado años atrás por el excongresista Moche Urtecho. […] Pero más allá de esta denuncia específica, preocupación genera también la cantidad de escándalos surgidos desde distintas bancadas parlamentarias.[...]"
+    },
+    {
+        "headline": "EXPORTACIÓN DE ORO CRECE UN 10%",
+        "content": "Durante el primer bimestre, las exportaciones de oro alcanzaron \$1,283 millones, mostrando un aumento del 10% comparado con el período equivalente del año 2017 (\$512 mil millones), según información proporcionada por la Sociedad Nacional de Minería, Petróleo y Energía (SNMPE). En febrero, dichas exportaciones ascendieron a \$582 millones, siendo los mayores mercados receptores Suiza, Canadá, Estados Unidos, India y Reino Unido."
+    },
+    {
+        "headline": "CRECIENTE DEMANDA POR TARJETAS DURANTE RUSIA 2018",
+        "content": "Conforme se aproximan eventos globales como el Mundial de Futbol Rusia 2018, aumenta notablemente el consumo asociado a tales festividades. José Antonio Muño, Gerente del Área de Medios de Pago y Finanzamiento al Consumo del Banco Continental, señala que entre mayo y fines de julio podría experimentarse un incremento del consumo hasta en un 8%. Esto incluye adquisiciones realizadas en supermercados y restaurantes, así como un aumento en el uso de tarjetas de crédito y débito."
+    },
+    {
+        "headline": "METODOS ANTICONCEPTIVOS DE LARGA DURACION",
+        "content": "\"Entre los métodos anticonceptivos naturales o de barrera, es fundamental conocer aquellos de larga duración,\" afirma Enrique Flinte, especialista en salud femenina. Estos pueden clasificarse en reversible, como dispositivos intrauterinos y implantes subdérmicos, y definitivos, como la ligadura de trompas y vasectomías. \"Su elección depende siempre de una consulta médica adecuada\" añade el doctor."
+    },
+    {
+        "headline": "POLICÍA Y SUS HIJOS MUERTES TRAGEDIA ACCIDENTE VEHCULAR",
+        "content": "Una lamentable pérdida ocurrió cuando un oficial de Policía, acompañado de sus hijos pequeños, sufrí un fatal choque contra otro vehículo en la Región Junín. Este incidente deja huellas profundas en la comunidad local, recordándonos la fragilidad de nuestras rutinas cotidianas."
+    },
+    {
+        "headline": "EXCESO DE VELOCIDAD CAUSA VOLCADURA BUS INTERPROVINCIAL",
+        "content": "Un autobús de la ruta Cavassa partió de Piura hacia Lima, terminando abruptamente volcado cerca de Guadalupito, frontera entre Ancash y La Libertad. Debido a imprudentes maniobras nocturnas, 38 ocupantes fueron hospitalizados. Esta situación recalca la importancia de adherirse rigurosamente a normas de seguridad vial."
+    }
+]
+```
+This JSON captures key articles extracted from the provided OCR text while maintaining their structure according to specified guidelines. Articles were identified based on headlines followed by relevant content sections. Non-article elements like ads and repetitive information have been excluded for clarity.
+
+--- ERROR ENTRY: data/txt/correo/2018/04/correo_11.txt ---
+
+```json
+[
+    {
+        "headline": "Trump cancela visita a Cumbre de las Américas",
+        "content": "Durante su participación en la VII Cumbre de las Américas, o incluso podría encontrarse en Lima con su homologo cubano Raúl Castro, el mandatario norteamericano canceló abruptamente su participación en esa importante reunión, según información proporcionada por la Casa Blanca. De esta forma, el líder estadounidense aplazará hasta nueva orden su primer viaje oficial a América Latina, debido a que su gobierno está evaluando una respuesta militar contra Siria."
+    },
+    {
+        "headline": "Ni Maduro llegará a la Cumbre",
+        "content": "Horas después de saberse la decisión de Trump, Nicolás Maduro también anunció que no asistirá a la Cumbre de las Américas, aunque anteriormente había prometido que bajo ninguna circunstancia dejaría pasar la oportunidad de visitar Lima para la reunión de presidentes."
+    },
+    {
+        "headline": "Correa destaca interés limitado de Trump hacia América Latina",
+        "content": "\"La Cumbre no era una prioridad para Trump\", señaló Scar Vidarte, analizando cómo la situación global afectaba más directamente los planes del presidente estadounidense. \"Si Trump hubiese querido dar importancia a la Cumbre, probablemente habríamos visto diferentes movimientos diplomáticos\"."
+    },
+    {
+        "headline": "Investigan a asesor de Kenji Fujimori",
+        "content": "La fiscal del quinto despacho de la Segunda Fiscalía Anticorrupción, Karla Zevallos, comenzó las investigaciones contra Alexei Toledo, implicado en los denominados kenjivideos. Este último enfrenta cargos relacionados con tráfico de influencias en detrimento del Estado."
+    },
+    {
+        "headline": "Defensa de Keiko Fujimori niega vínculos corruptos",
+        "content": "Tras revelaciones comprometedora

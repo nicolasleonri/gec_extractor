@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2018/03/correo_01.txt ---
+
+```json
+[
+    {
+        "headline": "Defensa: los Titulares",
+        "content": "Paulo Goltz y Lisandro Magallán. Sus reemplazantes apuran ímpetu.\n\nAgustín Heredia. \n\nEn la ofensiva, Guillermo Barros Schellotto pondrá su arsenal ofensivo. Carlos Tevez y Edwin Cardona rayan en el éxtasis 'blanquiazules'.\n\nDiario Correo.Pe Lima/Jueves 1 de Marzo/2018."
+    },
+    {
+        "headline": "Correspondiente deportivo",
+        "content": "Leeds United está compitiendo aunque ya haya ganado según dicen, pero el futbol siempre son once contra once.”
+    },
+    {
+        "headline": "Alianza Lima",
+        "content": ""
+    },
+    {
+        "headline": "",
+        "content": "Semifinales de la Copa Italia Juventus clasificó a las finales de la Copa Italia tras derrotar por 0–2 al Atalanta, en compromiso de vuelta. Los ‘blanconeros’ ganaron con gol de Pjanic a los 25′ del segundo tiempo."
+    },
+    {
+        "headline": "Lewandowski Y Hummels SE PELEAN",
+        "content": "Según medios alemanes, los jugadores de Bayern Munich Robert Lewandowski y Mats Hummels se pelearon durante un entrenamiento. Sorprendió crecer por falta de ganas y tuvieron que separarlos."
+    },
+    {
+        "headline": "Esposa de ICARDI niega INFIDELIDAD",
+        "content": "Wanda Nara desmintió haber sido infiel a Mauro Icardi con su compañero de equipo Marcelo Brozović y afirma que demandará a quienes hayan compartido la noticia. “Todos son calumnias,” acota."
+    },
+    {
+        "headline": "Eden Hazard LA HA RETRASA",
+        "content": "Eden Hazard demora aún más su renovación con Chelsea, ya que quiere que se incluya una cláusula para que pueda ir al Real Madrid."
+    },
+    {
+        "headline": "CUADRO CATÓLICA CON DUETO ACCESIBLE ANTE LAS PALMAS",
+        "content": "Barcelona visita a Las Palmas con el objetivo de extender su ventaja Obligado a ganar para seguir con la amplia ventaja de siete puntos en la cima de la Liga de España, Barcelona visitará hoy (3:00 p.m.) al UD Las Palmas, por la fecha 26 de la competencia. Los catalanes vinieron de golear por 6−1 a Girona y esperan seguir por ese camino a fin de asegurar su papel de principal favorito para ganar el título en España. Los ’culés’, que suman 32 cotejos sin perder en la Liga, van con todas sus figuras a la Gran Canaria, ya que quieren dar el golpe de visita. Sin embargo, el cuadro local ha estado en los últimos partidos y, con una victoria hoy, escalaran en la tabla para salir de zona de descenso; por lo tanto también piensan en ganar."
+    },
+    {
+        "headline": "PEDRO TROGLIO ESTÁ EN SU PRIMERA TEMPORADA EN EL CUADRADO AZULGRANO",
+        "content": "Según balance del administrador de la ''U'', los errores que te hacen fueron presentes en el coloso de La Libertad. Un centro de Jefferson Farfán encontró a Alberto Quintero, quien con sutíl remate superó a Gianluca Lapadula. Esta victoria sirve como un bocanada de aire fresco para encontrar continuidad en el torneo nacional."
+    },
+    {
+        "headline": "PARÍS SAINT-GÉRMAIN CONFIRMÓ QUE NEYMAR SER OPERADO POR UNA LESIÓN",
+        "content": "París Saint-Germain confirmó que Neymar será operado por la fisura que padece en el quinto metatarsiano del pie derecho. Según reportes divulgados en redes sociales, esto significa que podría ausentarse por varios meses."
+    },
+    {
+        "headline": "ARMAS Y MANIOS PARA LOS CLÁSICOS DEL FÚTBOL ESPAÑOL",
+        "content": "Arsenal y Manchester City enfrentarán próximamente en la Premier League después de que el primero sufrió una derrota contundente en la final de la Copa de la Liga inglesa. Buscan recuperar terreno en la alta disputa por el campeonato inglés."
+    },
+    {
+        "headline": "LOS PROBLEMAS LEGALES Y ÉTNICOS SOBRE LA CLONACIÓN HUMANA",
+        "content": "\"¿Qué me motiva a lanzar el proyecto Clonacer?\" pregunta Teobaldo Llosa, médico psiquiatra y defensor de la preservación de individuos valiosos mediante técnicas avanzadas. \"Debido a mi profesión, veo cómo muchas personas potencialmente útiles pierden oportunidades vitales simplemente por alcanzar edades consideradas extremadamente altas,\" explica. Su visión implica replicar no sólo físicamente a alguien, sino conservar su mente completa, memoria inclusiva y quizás incluso fragmentos significativos de su pasado personal. Esto abre interrogantes éticas profundas respecto a qué constituye realmente nuestra identidad individual."
+    }
+]
+```
+This extraction captures various sections identified within the provided OCR data while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. Articles were segmented based on headlines and coherent blocks of related information. Any missing elements such as incomplete titles have been marked appropriately according to instruction requirements.

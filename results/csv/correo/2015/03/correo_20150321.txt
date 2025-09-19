@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/03/correo_21.txt ---
+
+```json
+[
+    {
+        "headline": "Belaún­de Los­sio Acusa De 'Pe­rs­e­cue­cio Polí­t­i­ca'",
+        "content": "\nP\u00fabli­co­men­te, el em­pre­sario Mar­t\u00fan Be­laún­de Lo­s­sio acu\-s\u00f3 ayer al Pre­s­i­den­te Ol­lan­ta Hu­mal­a y a la pri­mera da­ma Na­di­ne He­redi­a de lle­nar una \u201cpers­eu­cie­uo po­lit­i­ca\u201d co­tro él.\n\n\"La presión media­ti­ca hi­ce ve­r a Hu­mal­a que ter­mi­na­ndo con eso es man­dan­do­me preso. Ni consi­dera ni la sa­bie­dad ni la leal­tu­d que de­bu­rie­ra tie­ner, ni res­pei­ta que yo lo ayu­die mos­to en lle­gar don­de está ho­ya\", ex­pres\u00f3 el em­pre­sai­ro pa ra Rai­dio Ca­pit\u00e1l."
+    },
+    {
+        "headline": "Corrupción en la Municipalidad de Lima",
+        "content": "\nLa fis­cal Ro­cos Espi­no­za, ti­tu­lar de la Segun­da Fi­sca­lia Provin­cial An­ticorru­pció­n, dirige las in­ve­sti­ga­cio­nes relati­vas al pago sos­pe­cha­do de S/.750 mil para pro­yectar el edifi­cio To­rré Ve­rde, que nunca se ma­tri­culó. Las in­for­ma­cio­nes sugie­ren posibles malhas­tías legales en el uso de fon­dos munici­pa­les bajo la au­tori­dad de Su­saná Vi­lla­ran."
+    },
+    {
+        "headline": "Investigan Desfalco Millonario en la DNI",
+        "content": "\nDespués de múltiples reportes alarmantes, el Mi­nis­te­rio Pú­bl­ico tomó cartas en el asun­to respecto a más de 150,000 busques indebidos llevados a cabo por funcionarios de la Di­rei­cció­n Na­ció­nal de In­tie­ligència (Di­nie). Esto condujo a la depuración urgente de varios cargos importantes dentro de la organización, siguien­do órdenes de la Premier Ana Ja­ra."
+    }
+]
+```
+This JSON contains three extracted articles based on their headlines and contents derived from the provided OCR text input. It adheres strictly to the specified format requirements for inclusion within a structured dataset.

@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/05/correo_29.txt ---
+
+```json
+[
+    {
+        "headline": "DEFENSA. Nunca recibí nada...",
+        "content": "Nunca recib\u00edm\nalgo, asi de tajante,\nnunca recib\u00edb\nnada de nadie,\ndijo Burga ante la \npregunta que muchos espera\ban hacerle, tras la deteni\ncia\nde varios de los \ningratantes de la Conmebol.\nBurga señal\u00f3 que estaba cansado de ser el blanco de falsas acusacio\nces en su contra. \"Siempre lo mis\mmo y lo mism\no otra ve\nz, hasta que un dia encuetran ue haya una mo\neda en el suelo y era una mo\neda."
+    },
+    {
+        "headline": "Investigación. El ex titular de la FPF, advertió",
+        "content": "\"Que estaba listo a colaborar con todas las indagaciones que se deciden cer. 'Si a mí me envían las preguntas para contestar, yo no tengo mas que respondern y entregarme a cualquier investigacion. Pero aqui hay una entidad que es la Confederación, osea, la que primero salirá a responder y aclara.'\" Posteriormente indicó que dentro de algunos días retornará al país. \"Me quedo tranqüilo con mi conciencia y con una visión de futura del fútbol peruano.\" "
+    },
+    {
+        "headline": "Elección Futuro Hoy se decide el futuro",
+        "content": "Hoy se llevan a cabo en Zürich las elecciones para designar al nuevo líder de la FIFA. Entre los candidatos están el incumbente Joseph Blatter y el Príncipe Ali de Qatar, aspirante a ocupar el rol después de Blatter, quien ostenta 26 años al frente de la organización. Ante el arresto de siete integrantes, existe expectativa de que el triunfador será el Príncipe Ali."
+    },
+    {
+        "headline": "Guerrero llega a Lima antes de Copa América",
+        "content": "'Quiero volver a ponerme la meta alta,' manifestó Paolo Guerrero, ícono de la selección nacional, luego de llegar al país procedente de São Paulo para incorporarse a los ejercicios previos a la Copa América. Explicó su intención de convertirse nuevamente en goleador destacándose durante el próximo torneo continental. Respecto a portar la banda de capitán, mencionó que dependería de decisiones técnicas internas."
+    },
+    {
+        "headline": "Clásicas figuras del tenis avanza en Roland Garros",
+        "content": "Novak Djokovic, número uno global, aseguró victoria sobre Gilles Muller en tres sets consecutivos, garantizando así su paso a la próxima etapa del prestigiado torneo parisino. Rafael Nadal también continuó adelante tras imponerse a Nicolás Almagro. Además, Serena Williams necesitó más esfuerzos para superar a la rival germana Anabel Medina Garrigues."
+    },
+    {
+        "headline": "Regatas y Ejército clasifican a Panamericanos",
+        "content": "Diez representantes nacionales consiguieron cupos para los próximos juegos panamericanos gracias a notables actuaciones tanto masculinas como femeninas en diversas modalidades deportivas incluyendo natación sincronizada y golf."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Any extraneous information such as ads was excluded according to specified criteria.

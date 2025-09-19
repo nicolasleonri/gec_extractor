@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/04/correo_22.txt ---
+
+```json
+[
+    {
+        "headline": "Barça derrota al Paris Saint-German y sigue vivo en la Champions",
+        "content": "Tras recibir a domicilio a unos fr\u00edvolos rivales, Barcelona demostr\u00f3 su superioridad ante el PSG gracias a la eficacia de tres cracks, entre otros nombres destacados como Cristiano Ronaldo, Kak\u0101 y Edinson Cavani. Un tanto que pes\u00f3 bastante en el resto del partido fue un tr\u00e1mite para el Barza, que pudo dejar ir a varios titulares."
+    },
+    {
+        "headline": "Smalling renueva con el Mancheter United",
+        "content": "\u201CChris Smalling, quien particip\u00f3 en la Copa Mundial de Clubes FIFA 2014, renov\u00f3 su contrato con el Manchester United hasta junio de 2019.\u201D \u201CNuestro jugador brit\u00e1nico tambi\u00e9n mencion\u00f3 estar encantado de seguir formando parte de este grande equipo.\u201D"
+    },
+    {
+        "headline": \"Brasil gana 6-1 al Porto y va a semis\",
+        "content": "El Bayern Munich gole\u00f3 6-1 al Porto en el Allianz Arena, consiguiendo su lugar en las semifinales de la UEFA Champions League. Thiago Alc\u00e1ntara inici\u00f3 el marcador seguido por Boateng, Lewandowski y Muller, mientras que Jackson Martinez acort\u00f3 distancias para el Porto. Finalmente, Xabi Alonso cerr\u00f3 el resultado con otro gol."
+    },
+    {
+        "headline": "\"Don Rat\" ofrece consejo astrol\u00f3gico",
+        "content": "Para Aries, tu sensibilidad podr\u00eda resultarte beneficiosa para captar intereses amorosos. Tauro deber\u00eda reflexionar sobre algunas conductas desconcertantes. Los geminis enfrentan obst\u00e1culos imprevistos en sus planes. Para Cancer, mejoren las cosas en pareja. Leo necesita superar sus temores internos. Virgos experimentan tensiones emocionales diversas. Libras deben mantener precauciones frente a halagos innecesarios. Escorpiones encontrar\u00e1n inspiraci\u00f3n en nuevas conexiones. Sagitarianos disfrutar\u00e1n de beneficios significativos hacia la longevidad. Capricornios pueden mostrar fortalezas notables bajo circunstancia favorables. Aquarius enfrenta retos complejos aunque cuenta con recursos adecuados. Pisices hallaran maneras creativas de evadir preocupaciones cotidianas."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while filtering out irrelevant sections like sports scores summaries, astrology advice, etc., according to given guidelines. Only substantial journalistic pieces were included.

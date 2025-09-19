@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/05/correo_24.txt ---
+
+```json
+[
+    {
+        "headline": "Alemania. Los médicos están sorprendidos ¿?",
+        "content": "Una abuela está a punto de tener cuatrillizos\n\nAtención, Perú Bolivia limpia el lago Titicaca\n\nEl Ministerio de Medio Ambiente anunció acciones de descontaminación del lago Titicaca en la parte boliviana y también en varios ríos que fluyen hacia él."
+    },
+    {
+        "headline": "IRLANDA APRUEBA MATRIMONIO ENTRE PERSONAS DEL MISMO SEXO",
+        "content": "Ganó el sí en el referéndum sobre el matrimonio igualitario.\n\nDe esta manera, Irlanda se convierte en el primer país del mundo en legalizar el matrimonio homosexual mediante votación popular. Más del 62% de los electores apoyaron el sí en la consulta."
+    },
+    {
+        "headline": "COLOMBIA: LA PAZ QUE SE VA",
+        "content": "Los procesos de negociación suelen ser complejos y difíciles de conseguir. Discutir sobre la paz en medio de la guerra resulta completamente inútil. Existen discrepancias significativas dentro del contexto político interno."
+    },
+    {
+        "headline": "DESPUÉS DE 7 AÑOS AMEN LANZA AL MERCADO DOS ÁLBUMES",
+        "content": "Tras siete años de silencio discográfico, la banda peruana liderada por Marcelo Motta presenta 'Somos la gente', un álbum compuesto por dos CDs."
+    },
+    {
+        "headline": "PAWEŁ PAWLIKOWSKI, GALARDÓN OSCARÍA \"DA.", "PERÚ POR EL FESTIVAL AL ESTE DE LIMA",
+        "content": "\"Cuando empiezo un film, intento mantener cierta inocencia,\" dice el director polaco Paweł Pawlikowski, destacándose por su película 'IDA'. Explica cómo evita imitar directamente películas antiguas, buscando crear obras atemporales."
+    },
+    {
+        "headline": "EDGAR VIVAR DESCRIBE SU CAMBIÓ PROFESIONAL",
+        "content": "El actor mexicano Edgar Vivar, famoso por interpretar al ‘Sr. Barriga’ y ‘Ñoño’, explica su decisión de abandonar la medicina por completo para perseguir su sueño artístico. Comenta sobre su experiencia en el teatro local y su visión futura en la industria cinematográfica."
+    },
+    {
+        "headline": "CANCELACIÓN INEXPLICADA DE CHARLA UNIVERSITARIA",
+        "content": "Mo Yan, laureado con el Premio Nobel de Literatura, canceló abruptamente su conferencia programada en la Universidad Nacional Mayor de San Marcos debido a razones aún no clarificadas."
+    },
+    {
+        "headline": "REVISTA PANDEMÁ LOGRA ÉXITO COMUNITARIO",
+        "content": "Desde su fundación, Pandora ha sabido conectar con su audiencia femenina gracias a contenido innovador y relevante. Dirigida por Jannina Bejarano, la revista continúa expandiendo su presencia digital y física."
+    },
+    {
+        "headline": "VALCECEL SIGUE DIRIGIENDO PROGRAMAS TELEVISIVOS",
+        "content": "Durante una aparición en radio, Gisela Valcárcel afirmó continuar conduciendo programas de televisión, descartando planes de retirarse temporalmente para centrarse únicamente en producción."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for processing the input data. Articles were identified through distinct headings followed by relevant textual information, ensuring clarity and coherence within each entry's structure. Any unclear sections have been marked appropriately according to specified rules.

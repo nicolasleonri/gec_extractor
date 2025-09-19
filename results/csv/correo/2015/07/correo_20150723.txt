@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/07/correo_23.txt ---
+
+```json
+[
+    {
+        "headline": "Reflexión sobre el Canon Minero",
+        "content": "Más adelante, Cateriano sostuvo que se debería reflexionar sobre las razones por las cuales ‘ha caído el canon minero’ en algunas regiones.\n\n‘Disminuye el canon porque hay regiones que se oponen a la inversión minera y nuestro país es miner…'
+    },
+    {
+        "headline": "Identificación del Delincuente Detrás del Atentado Contra Circo",
+        "content": "'El delincuente que lanzó una granada en plena función del circo de la 'Paisana Jacinta', el martes en la noche, en San Juan de Miraflores, ya fue identificado por la Policía.'\n\n'Todo indica que el ataque al circo, que habría estado a cargo de la banda 'Los Malditos de Bayávar’, dejó 11 trabajadores heridos, incluidos varios artistas destacados."
+    },
+    {
+        "headline": "Creación de Base de Datos Notarial",
+        "content": "Desde principios del próximo año, los 150 notarios de Lima registrarán todas sus operaciones en la Base Centralizada de Documentos Notariales, plataforma actual que está siendo implementada por el Colegio de Notarios de Lima a fin de detectar defectos tales como el lavado de activos, la corrupción y la defraudación fiscal."
+    },
+    {
+        "headline": "Importancia de la Participación Política",
+        "content": "\"Ya política es la forma más excelsa de practicar la caridad después de la religión.\" Al celebrarse un nuevo aniversario de nuestra patria, se insta a involucrarse en la vida política peruana, resaltándose la importancia de la participación ciudadana en la construcción de una democracia sólida."
+    },
+    {
+        "headline": "Análisis del Conflicto Territorial entre Distritos",
+        "content": "José Arispe Chávez analiza cómo el conflicto de límites entre San Isidro y Magdalena refleja intereses económicos ocultos detrás de disputas territoriales, criticando la gestión municipal y sugiriendo colaboración técnica profesional para resolver diferencias."
+    },
+    {
+        "headline": "Preparativos contra Fenómeno El Niño",
+        "content": "Se asignará S/.200 millones para preparativos relacionados con el fenómeno El Niño, asegurando intervención rápida mediante fuerzas militares equipadas adecuadamente para gestionar emergencias derivadas de condiciones climáticas extremas."
+    },
+    {
+        "headline": "Detalles del Incidente Explosivo en Circuito Infantil",
+        "content": "Una bomba casera detonada durante un espectáculo afectó gravemente a niños presentes, resultando en múltiples lesionados. Una nota amenazatoria vincula el ataque a demandas financieras dirigidas a figuras públicas locales."
+    },
+    {
+        "headline": "Revelaciones sobre Peligros Ocultos en Meseta Roja",
+        "content": "Inspecciones realizadas en Mesa Redonda muestran negligencia eléctrica crónica, incrementando significativamente el riesgo de accidentes graves similares a antiguos eventos destructivos registrados en la región."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on distinct topics within the text block, ensuring each entry contains both a `headline` and its associated `content`. Any missing data was filled using `"NA"` where applicable.

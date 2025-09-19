@@ -1,0 +1,81 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_10.txt ---
+
+```json
+[
+    {
+        "headline": "PERCEPCION DE LA CORRUPTICIÓN Y LOS MEDIOS",
+        "content": "Tl,en elPer\napercepcion de que la corrupción\ndaumentado en los últimos\ndos años es de 46%. Solo un\n12%considera que lacorrupción.\nLos medios no obtuvieron\tanmala nota, apareciendo\ntenel noveno puesto de doce\ncon una puntación de 3.1,\npues fueron considerados los\nmás corruptos en Australia\ny Reino Unido. \nAproximadamente un 69% en Reino Unido>\ndo dijo que es la institución\nmás corrupta, según sondeo."
+    },
+    {
+        "headline": "CORRUPCIÓN, UN PROBLEMA SERIO",
+        "content": "Corrupción, un problemapersonal.\n11fl=*ix ne(u).\nEL DATO Comercio. Las importaciones\nde cobre y petróleo de China\nhabrán aumentado aún más\nen junio, señalan analistas. Hoy\nse conocen datos oficiales.\ncoronavirus disminuy bastante en\neso período. Para el 67%de la\npoblación, la corrupción es un\nproblema muy serio en tro país, con un 14%\nconsiderando que las medidas que ha\ntomado el gobierno no son eficaces. En cuanto a las\ninstituciones, para el 81% de los\nencuestados los partidos políticos están afectados por la\ncorrupción y un 80% piensa lo mismo sobre el Congreso.\n\"Barometro Global sobre Corrupción\"\nel mayor realizado nunca por la\norganización no gubernamental,"
+    },
+    {
+        "headline": "PRECIO DE LOS ALIMENTOS SUBEN",
+        "content": "Los precios de los alimentos saltaron 4.9% en junio\nrespecto al año anterior, después de la subida del\n3,2% en mayo."
+    },
+    {
+        "headline": "PROBLEMÁTICA INFLACIÓN BRASILEÑA",
+        "content": "\"BRASIL LE TOCA BALEAR CON LA PEOR FECHA\", dice artículo sobre cómo Brasil muestra debilidad económica durante el primer semestre, anticipándose a cerrar el año con un crecimiento potencialmente bajo. \"...la academia de predos delos commoditis le ha causado a Brasil déficit de US\$ 3,000 millones en su balanza de pagos en el primer semestre.\" Además, menciona dificultades industriales persistentes y preocupaciones fiscales exacerbadas tras protestas sociales."
+    },
+    {
+        "headline": "RIESGO PARA LAS INVESIONES MINERAS",
+        "content": "OPINÍON Mon Peña Tello discute el impacto negativo internacional en el sector minero, destacando expectativas de baja en precios metálicos influenciadas principalmente por cambios en la economía china, Estados Unidos y la UE. También advierte sobre ajustes significativos en inversiones mineras a medio y largo plazo."
+    },
+    {
+        "headline": "SERVICIO CIVIL, PASO IMPORTANTE",
+        "content": "OPINIÓN Mariano Lafuente argumenta que la Ley del Servicio Civil constituye un avance crucial hacia una función pública basada en méritos y capacidad, estableciendo criterios claros para selección y progreso dentro de la administración pública."
+    },
+    {
+        "headline": "EMPRESARIALIDAD INCLUSIVA NECESITADA",
+        "content": "Opinión editorial sugiere transformar prácticas empresariales tradicionales para beneficiar a segmentos marginados de la población, impulsando así modelos de negocio inclusivos y sostenibles."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were identified through distinct headings followed by relevant textual bodies discussing various topics such as corruption perception, economic challenges in Brazil, mining investment risks, public service reforms, inclusive entrepreneurship, etc.
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_10.txt ---
+
+```json
+[
+    {
+        "headline": "Condiciones dentro del Plan Nacional de Desarrollo Industrial sobre zonas francas",
+        "content": "Una comisión altisonivel está evaluando los beneficios otorgados actualmente en las zonas francas para determinar si deben incrementarse algunos más o expandirse aquellos ya existentes.\n\nSe discute la posibilidad de trabajar hacia un régimen único para optimizar el sistema de zonas francas según modelos exitosos internacionalmente."
+    },
+    {
+        "headline": "¿Qué buscan realmente las zonas económicas especiales?",
+        "content": "\"Buscamos atraer tanto a inversionistas nacionales como extranjeros para desarrollar proyectos a largo plazo. Nuestra meta es crear espacios óptimos donde puedan recuperar rápidamente su inversión.\" Así lo afirmaron representantes involucrados en el estudio de las condiciones de las zonas francas."
+    },
+    {
+        "headline": "Propuestas para mejorar infraestructura en lugar de simplemente añadir más zonas francas",
+        "content": "\"Invertir sustancialmente en infraestructura clave podría ayudar a reducir costos para las empresas,\" sugirió Eduardo Amorrortu, Presidente de ADEX. \"El foco debe estar en lograr que las empresas ganen eficiencia no sólo mediante límites fiscales, sino también tecnológicamente y en términos de energía\"."
+    },
+    {
+        "headline": "Alerta del congresista Victor Garcia Belaunde respecto a la posible reversión de políticas sanitarias",
+        "content": "Victor García Belaunde alertó que el Ejecutivo planea aprovechar la delegación legislativa en materia de salud para revertir la política de gratificación sin descuentos, beneficiándose así fiscalmente mientras evitan impactar negativamente el presupuesto de Essalud."
+    },
+    {
+        "headline": "Opinión sobre la administración gubernamental bajo Humala",
+        "content": "Durante el segundo año de mandato de Humala, los resultados mixtos incluyen avances notables como Pensión 65 y mantenimiento de ciertas políticas económicas positivas, contrastando con percepciones públicas persistentes de corrupción y manejo deficiente de conflictos sociales."
+    },
+    {
+        "headline": "Prórroga de exención de pagos de derecho de autor",
+        "content": "La Comisión de Cultura aprueba extender hasta 2020 la exoneración del pago del Impuesto a la Rentas por concepto de derechos de autor, incentivando así la producción literaria local y fortaleciendo la industria editorial."
+    },
+    {
+        "headline": "EMPRESAS FAMILIARES enfrentan desafíos importantes",
+        "content": "Las empresas familiares están llamadas a diversificar sus intereses para prolongar su vida útil y sobrellevar un alto índice de fracaso. Esto implicará cambios estructurales fundamentales en cuanto a gobernanza corporativa y capacitación continua."
+    },
+    {
+        "headline": "Impacto del Oleaje Fuerte en Puertos Costeros",
+        "content": "Gracias a las adversas condiciones climáticas, numerosos puertos a lo largo del litoral continúan cerrados, especialmente afectando áreas dedicadas a la pesca y deportes marítimos. Estiman que esto persistirá hasta mediados de semana próxima."
+    },
+    {
+        "headline": "Descarte de Incremento Tarifario Energético",
+        "content": "Contrario a preocupaciones anteriores, el viceministro Edwin Quintanilla asegura que cualquier déficit generado por demoras en el abastecimiento de gas será mitigado gracias a la entrada en operación de plantas adicionales de generación eléctrica."
+    },
+    {
+        "headline": "Incremento Moderado en Precios de Combustible Derivado Petróleo",
+        "content": "Siguiendo fluctuaciones en el mercado estadounidense, Osi

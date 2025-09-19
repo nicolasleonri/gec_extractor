@@ -1,0 +1,58 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/05/correo_23.txt ---
+
+```json
+[
+    {
+        "headline": "Que Catalina, La Victoria, Lima 13, Perú",
+        "content": "Asqueado con Pepe Julio Gutiérrez, el\nexdirigente de Tierra y Libertad que exigía\ñas ‘lentejas’ (medio millón de dólares)\na cambio de cesar la violencia en Arequipá?\nlamento decirle que no ha visto nada si\ncompara esta noticia con lo que podría ocurrir en\nel país de cara a las elecciones del próximo año.\nSí, porque pese a que elegiremos un nuevo Congreso\ny un nuevo jefe de Estado, el Parlamento no aprueba\nlas normas que permitirían fiscalizar en serio el\nfinanciamiento de las campañas políticas. Como sabe,\nela Ley de Partidos establece sanciones de pacotilla\npara quienes falsean esta información: multas que nadie está\nobligado a pagar y pérdida de un ‘financiamiento público’\nque hoy inexiste!\nTodo esto sirve para que otros \n‘Pepe Julios’, sean cuales fueresen sus |\ncandidatos, pidan dinero –¡millones!– a\nchange de devolver favores una vez en\nel poder, ¿Y ya se podrá imaginar?: el origen Financiero (UIF), en\nel Perú se han lavado más de 11 mil millones de dólares entre\nenero de 2007 y marzo de este año, la mayoría proveniente del\nnarcotráfico. ¡¿Y sabe algo más?! El Congreso se resiste a\naprobar una ley que facilitaría el levantamiento de la reserva\nbancaria y tributaria, por parte de la UIF, en su afán por detectar\nfortunas e imperios mal habidos.\nAsimismo, no se aprueban los ‘candados’ que evitarían el\ningreso de dinero sucio en la política, pese a los esfuerzos del JNE\ny Transparencia.\nPadezcamos una remontada del narco-trafficking, el contrabando\ny la minería ilegal, pero el Legislativo está en otra. Quizás todos\nten sus ‘Pepe Julios’ listos ya a pasar el sombrero, no para su bolsillo\npero sí para el partido. Y si vemos que según Ipsos Perú, el 70%\nde peruanos cree que vamos camino a un ‘narco estado’, estamos\nfritos."
+    },
+    {
+        "headline": "Indice Económico",
+        "content": "Correspondiendo a la página anterior:\n\"... Indic AS\n0 DÓLAR\n3.140\"\nSin contenido específico identificable aparte de números económicos."
+    },
+    {
+        "headline": "Exportación de Palta Hass",
+        "content": "\"El Ministro de Agricultura y Riego, Juan Manuel Benites,\nanunció que desde julio comenzará la exportación de palta Hass\nal mercado chino, que en una primera etapa será de mil toneladas.\n...\nRepública Popular de China, en reunión de trabajo con la delegación\ndel AQSIQ (Administración General de Supervisión de Calidad,\nInspección y Cuarentena), encabezada por el ministro y director\ngeneral, Zhi Shuping. ... \""
+    },
+    {
+        "headline": "Importación de GLP",
+        "content": "\"Confirmó la importación de 11 mil toneladas (135 mil barriles)\nde gas licuado de petróleo (GLP)... Importación de 11 mil toneladas\n(135 mil barriles) de gas licuado de petróleo (GLP).\n...\nPor problemas climátológicos.\""
+    },
+    {
+        "headline": "Proyecciones del BCR",
+        "content": "\"El Banco Central de Reserva (BCR) bajó su proyección\nde crecimiento de la economía peruana para este año, bajando de\n4.8% en enero a 3.9% en mayo, informó su presidente, Julio Velarde.\n...\nSerá por una mayor producción de cobre, principal mente.\""
+    },
+    {
+        "headline": "Paro en Cochacra",
+        "content": "\"Una nueva víctima mortal y cuatro heridos dejó un enfrentamiento\nentre manifestantes y policías en el distrito de Cochacra (Islay).\n...\nLas acciones violentas ocurridas después de 62 días de paro indefinido.\""
+    },
+    {
+        "headline": "Detención Preventiva en Arequipa",
+        "content": "\"Formalización del último jueves 21, a las 21.00 horas, la investigación\npreliminar contra Pepe Julio Gutiérrez por los delitos de extorsión y asociación\nilícita para delinquir. Detenido por nueve meses en Arequipa.\""
+    },
+    {
+        "headline": "Denuncias de Corrupción",
+        "content": "\"Subgerente Municipal Provincial de Islay, Juan Arenas Almirón,\nestá siendo investigado por el delito de peculado... Facilitó\nirregularmente el desembolso de S/.17,538 de la comuna...\""
+    },
+    {
+        "headline": "Sentencia Anticorrupción",
+        "content": "\"Primera Sentencia de Enriquecimiento Ilícito en Chimbote.\nVictoria Espinoza García y su conviviente fueron sentenciados a siete años\nde prisión preventiva por el delito de enriquecimiento ilícito.\""
+    },
+    {
+        "headline": "Retomada Acción Terrorista de FARC",
+        "content": "\"Las Fuerzas Revolucionarias de Colombia (FARC) anunciaron\na través de un comunicado que retoman las acciones terroristas... Bombardeo\nejecutado en la madrugada del jueves.\""
+    },
+    {
+        "headline": "Inseguridad en la Torre Eiffel",
+        "content": "\"Torre Eiffel cierra temporalmente debido a actividades de carteristas.\nPersonal demanda medidas contra aumento de inseguridad.\""
+    },
+    {
+        "headline": "Juicio en España contra ETA",
+        "content": "\"Abogado lidera acción legal contra ETA, argumentando que sus crímenes\nconstituyen genocidio y crímenes de lesa humanidad.\""
+    }
+]
+``` 
+
+This JSON captures each identified article's headlines and contents based on their context within the provided document while adhering strictly to the specified format requirements. Articles lacking distinct headings were assigned `"NA"` where appropriate.

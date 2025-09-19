@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/05/gestion_21.txt ---
+
+```json
+[
+    {
+        "headline": "Nuevo ataque",
+        "content": "Presiden teacus ado nal as edi tor ia les\n_ydice que hay cmp resai ios \nos que creen que los\nos son un merc ade pa ra sa cerprove cho.\n\nEl president eHuama la\ndefendi nuevame ntela ley contrala comida ch ata ra y de paso\nabriraquel as q ue \"porha cerplata\nve nden culqui er cosa\"y ]a \"en daoalaeconomía.mbi n di jo que los nu evos col eg io seserno ta ns ost entoso sos,p ara noaf ectarla ca ja scalf."
+    },
+    {
+        "headline": "Datos",
+        "content": "Pe r:exportaci ón mini era\n(En mill ons de us $. pri mer tri men str)e)\nm um .'"
+    },
+    {
+        "headline": "Destacado",
+        "content": "\" Hay im presas\nque meten\nal mercado\ntexto s bausraf\"\nP residente esper aesancione s fuer tes paras editorial es que ven dan \"textos\nbas ura\". Agrega que\nnuevo s cole gi os ya no sen tantos \"ost entoso sos\", a En de\nno afectar la caja sca l.\n\nKarina Ab arc a\nk abarcadan oticias non.com.pe\nUn nuevo jal n de orejas li zi el presidente O ll anta\nHu ama la a las empresa s, en esta ocasión,a las del sec toreducati vo. Af irm que \"hay malas empresas queengañan a nues tro st udient es con tex[tos ba sura'\n\nAl margen de una mej ora en la inf rast rc tur a de loscolegi os,Huma lad jo que urge ve lar po ros buenos tex tos esc olar es.\n\"En edu cat ion no sol o se trata de mejorar la\ninfra estructura,sino que(a mbi n se haya uncontrol,\nun seguimi ento a los tex tos escolar es,\npues he mos vi sto tex tos rar que llegan inclusive a\nni os parti ciula res. No nosmo sis tar imeje ran\t ma os ere dad de editoria lesque por\nha cer pla ta,meten al mercadoeduca tvoco cualquier cos[a', expres.\n\nEl Pres ide nte ano tat que estas malas prac tas deben ser\nsan ciona das con tod o el peso dela ley.\n\"No perm itamos que malas empresasenga ñan a\nnues tro s estudiant es con tex[to sb aus ra. Debe mos sancio narlas con tot o el peso dela ley porque se trata de un\ndlito gra ve'', seal Huama la.\n\nRemarc que su Go bi ero n ya est cas nada de las malas pract icasempresa lies como las que sede ri en el Pron aa.\n\"El Pro na a ofrece alimentos envasados quelue go lo s encontr aba mos a la venda.I Tenemos que acabar con todoesto,''alert.\n\nEn las últimas sem ana s hubo denuncio s de\nmas editoriale s de tex tos escolar es cometieron fal tas\nquevan des de erro res en los lib ro s de mate mticas hast arg ucias para que lospadres opten por sus produ ctos.\nP Residente Ol lan ta Huama la sea la quesuGo bi ern o nopermitirá que algunasempresas causen \"ung rave da oa la edu cat íón''.\nP Res ident ecuestiona a empresario s que critican ley contra \"comidachatarrá.''
+    },
+    {
+        "headline": "Opinin",
+        "content": "\n Liliana Mi nav ay\n\n Nosotros tam bin tie ne mos el deber detrabar conedit ores seri os.La respuesta sta en una adecuada postura estatal, pues ell estado debeestar vigila ntese cumplen los planes escolares. Lafuncin delestado es regulatoria en eso sentido. Tiene una responsabilidadeber mantenerse supervigi lante.El estado hace un concursyo postulan varias editorialesprivadas.Entonces hay unrol del estado coma regulator, que deve mantenersupervigilante.En la intenci n de que los libros cumplan con el plan escolary también se proponganmejoras e innovacio nes de contenidos.Sin embar go,no es que el estado se desarrolle fuera de la funciónregulatoria quemere ce eltema educativ o."
+    },
+    {
+        "headline": "Negocios",
+        "content": " Un alto ejer cutiv od e du ea un sueldo promediode S/. 230 porhora\n\n Según el informe \" Remuneración de Ejecutivos\",\nel 42% de los ge rentes ga nan de S/. 200003 S/. 350001mes.Segúndevelaocha ga,director ejecuti vo de laconsultora,\"lasrazone son un elevado costo devida, al menos ens los dosprimeros países, y la facturación que regist ren conrespecto al Per también sonmayores''.Sin embarga,lactual mente ennuestro paísentr ee 12% y3%delpoblación de ejecutivos reporta anualmente salarios porS/. 3 millones."
+    },
+    {
+        "headline": "DefensasPad Escuela de Negocios",
+        "content": " La compra deAFP Horizontepor partedeProfuturo el integra no afecta elfondo de los afiliados.Las AFPSon \"administradoras\"ny no\" due as\" de los fondos que admin istran.\"Los\"dueos\" son cadain dividual de los afiliados, y lo que está sucediendo conestaoperación es simplemente uncambio deadm inistrador.Noembargo,debemos evaluar elm problema de lac om petencia.Quedan menos administradores enelmércado.Queda rn tres y uno pen entrar.Más competitividad significamesprecios(comisiones)y beneficiosparaelafiliado.Cómoevitar la disminución de la competencia?"
+    }
+]
+```
+This JSON captures each identified article based on headlines and their respective contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were segmented according to distinct topics within the given input text. Any missing data was filled using `"NA"` where applicable.

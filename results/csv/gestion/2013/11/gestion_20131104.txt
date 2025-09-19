@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/11/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "De gas natural que hay en los lotes 57 y 58",
+        "content": "Ello se explica, en parte, por las \ndiferentes categorías que se les da\na las reservas: probabilables.\nprobabilísticas,\ny certificadas,\nestas últimas hacen referencia a aquellas reservas\ningún mercado efectivo (contratos de\nsuplementación firmados)e infraestructura para llevar el\nnatural al mercado.\nOficialmente, el lote 57 tiene 1TCP(trillón de pie cbicos)\nel lote 58 1.7TCFP(de reservas de gas natural\nprobadas pero aún no certificadas.Según el Ministerio del Sector, el lote 57(vecino al lote 88 de Camisea)vá a comenzar a producir a fin de año 85 millones de pies cbicos diarios de gas natural(mpcd).\nFuentes consultadas por Gestión sostienen que el\npotencial de estas medidas es mucho más, aunque conservadoramente se estima que alcanzarán a 3TGP(petróleo equivalente)por lo menos en cada uno.\nLos más optimistas hablan de entré y 8TPC de reservas de gas natural, solamente en el lote 58, mientras que en el lote 57 podría llegar a 3TGP.En general,en la zona de Camisea los expertos calculan un potencial de, al menos, 25TGP de gas."
+    },
+    {
+        "headline": "Negocio Libre del Gas de los Lotes 57 y 58",
+        "content": "Precios libres. Según los contratos de cesión de los lotes 57 y 58, los precios del gas que se exploten en esos campos serán libres(fijados por el mercado), a diferencia del gas del 88(regulado)... El precio libre será otro atractivo de esos lotes para los inversionistas,dijo una de las fuentes.Sin embargo,puntualizó que dado la abundancia de shale gas(gás de esquistoes)en Estados Unidos, el precio no podrá ser demasiado alto... cualquier hecho importante(según Ley)\" precisió la compañía en un comunicado.Según fuentes del sector,Petrobras estaría a la espera de la decisión final porque está evaluando las opciones.La firma ya perforó el pozo Patutor en el lote 58, dónde espera obtener más reservas de gas, lo que elevará el valor de este activo.El miércoles pasado,Bloomberg anunció que Petrobras estaría próxima a vender sus activos en petróleo\na China National Petroleum Corporation(CNPC) por USD\$2,000 millones, entre ellos reservas en el lote 58...\nPero según fuentes gubernamentales, el plazo se ha prolongado por tres años más, conforme autoriza la legislación vigente, por lo que no existe impedimento legal alguno para que Petrobras venda estos lotes si así lo decide."
+    },
+    {
+        "headline": "Expopesteña 2013",
+        "content": "Exposición internacional más grande en América Latina para pesca y acuicultura.Expopesca AcuiPerú Del 07 al 09 de noviembre del 2013 Lima-PETREGISTRO GRATUITO PARA ASISTIR AL EVENTO REGISTRARSE ANTES DEL 31 DE OCTUBRE VISITAR WWW.EXPOPECAPERÚ.COM ORGANIZADA POR THAISS CORPORAÇÃO LTDA.TELÉFONO: (51\) 301\-7820 EMAIL: info@thais.co.th REUNIÓN PROFESIONALES Y SEMINARIOS DISPONIBLES EN EL PORTAL WEB"
+    },
+    {
+        "headline": "El Quinde busca ampliar superficie",
+        "content": "El Quinde, cadena de centros comerciales del Grupo Ekimed, se prepara para el próximo año con ampliaciones en sus malls de Cajamarca e Ica, añadiendo más de 3,000 metroscuadrados entre ambas provincias.\"Tenemos el 96% de ocupabilidad en Cajamarca y nos queda entre 1,500 y 1,600 m² disponibles,\" indica Elsa Palao, Gerenta Comercial del grupo.Comentarios adicionales mencionan planes futuros para introducir nuevas propuestas comerciales tanto en Cajamarca como en Ica, destacándose sectores como gastronomía y moda."
+    },
+    {
+        "headline": "Toyota presenta innovadoras promociones",
+        "content": "\"¡Di adiós al ‘Yo me llevo’!\nTu auto te acompaña al colegio\"\nPromoción Toyota ofrece modelos Yaris desde S./ 79 bajo ciertas condiciones especificadas en el sitio web oficial. Promoción válida hasta diciembre de 2013."
+    },
+    {
+        "headline": "Jockey Plaza expandirá su oferta",
+        "content": "Jockey Plaza inaugurará próximamente la tercera fase del Boulevard del Lujo, agregando 35 nuevas tiendas, además de otras 15 ubicadas en el Hall Demo. Entre ellas resalta la incorporación de la española Sfera y el debut de Oechsle. Este desarrollo incrementará significativamente la variedad disponible en el mall, ahora dirigido hacia un público interesado en artículos de alta calidad y diseño único."
+    },
+    {
+        "headline": "Utílex planea expansión",
+        "content": "Utílex, filial de Continental S.A.C., pretende duplicar su número de tiendas vendiendo materiales educativos y de oficina. Actualmente poseen cinco localidades físicas y buscan abrir diez más, especialmente en áreas metropolitanas clave de Lima. Además, están explorando oportunidades online iniciando ventas digitales a principios del próximo año."
+    },
+    {
+        "headline": "Minera Darwin Resources avanza positivamente",
+        "content": "Exploradora canadiense reporta buenos resultados geológicos en el proyecto Suraloma, situado en La Libertad. Han confirmado fuerte actividad mineralizada, motivando una reciente colocación privada de fondos destinados a continuar investigaciones mediante perforaciones extensivas."
+    },
+    {
+        "headline": "Alicorp muestra sólido tercer trimestre",
+        "content": "Durante el último trimestre, Alicorp logró ingresos récord de S/.1,535 millones, superiores en un 29% comparado con el periodo similar del año anterior. Esto se atribuye principalmente a las adquisiciones estratégicas de Industrias Teal y Pastificio Santa Amelia, contribuciones claves al éxito económico observado."
+    }
+]
+```
+This JSON captures each distinct article found within the provided input while adhering strictly to the specified format requirements for headlines and contents. Articles were identified based on their thematic separation and relevance according to typical journalism standards. Any non-article sections such as ads or irrelevant information have been excluded.

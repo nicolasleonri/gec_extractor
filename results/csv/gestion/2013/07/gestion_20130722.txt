@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_22.txt ---
+
+```json
+[
+    {
+        "headline": "Maraca-Laudm-de-la-Barra",
+        "content": "Tras la reciente apertura de\nsu cuarto local en la esquina\nde la Av. Larco con 28 de Julio\n(Miraflores), el distribuidor\ndel gigante de la manzana ya\nse encuentra en la etapa de\nconstrucción de su \nquinto local este año (Gesti\u00f3n\n24.01.2013), el cual estar\nubicado en Lima Norte,\nrevel el gerente general de la\nempresa en el pa\u00eds, Javier\nDiaz Teves.\nAunque prefiri mantener\nen reserva el nombre del \nsegundo comercio al que \naterrar (con una inversión de\n...\nDiaz asegur que la inauguración de este\nlocal será antes de Navidad."
+    },
+    {
+        "headline": "Negocios 15",
+        "content": "Mercado Hotelero\nWestin alcanzará\n70% de ocupación\nEl Hotel Westin Lima,...\nel segmento corporativo...destacan los\nmercados de minería, ...\ny fondos mutuos...."
+    },
+    {
+        "headline": "Empresas Citadas",
+        "content": "CREDICORP CHEVI-GNON GV PRODUCTOS\nSCOTTISH BANK GAS NATURAL PAN ANDIAN APPLE INC\nLAN PERÚ WESTIN LIMA 11"
+    },
+    {
+        "headline": "Consumo",
+        "content": "Caida de Precios de Smartphones\nLlegará a su fin el ciclo\nde la gran demanda de smartphones más caros\n-Precios promedio de celulares inteligentes\nvinieron cayendo, afectando las\n...
+App-le-den, el vegadoren Internet de\nCelulares, aumento su popularidad\nen los últimos cinco años\ny ha generado U.S.$ 293,900 millones\nen [el ano pasado.] Actualmente es usado\npor más de mil millones de personas\nen todo el mundo."
+    },
+    {
+        "headline": "Advíerta Apoyo Consultora",
+        "content": "Se avecinan tiempos difíciles\npara atraer inversión privada\n-Este pasa por un difícil momento\nal competer contra países vecinos\npero también preocupa que siga otorgando\ntrato desigual a los inversionistas,"
+    },
+    {
+        "headline": "Estiman Que Descenso Ser De 30%",
+        "content": "Caída Exportación de Banana Orgánica\n-Causada por la plaga Mancha Roja\n-Minerio de Agricultura trabaja con provincias\ny autoridades locales y regionales\nen preparación de medidas inmediatas\ny de largo plazo."
+    },
+    {
+        "headline": "Presidente Humala",
+        "content": "Cuestiona la explotación de materias primas\n-Hasta ahora el Perú ha apostado por\nexplorar las materias primas, la\nminería, el petróleo, los recursos naturales,\npero ¿qué hemos conseguido?"
+    },
+    {
+        "headline": "SNIEC Admitió Que Ha Frente La Inversión Industrial",
+        "content": "-Poca confianza empresarial y crisis mundial\nhan impactado en los créditos directos\nal sector industrial. Esperanzas están depositadas\nen que las medidas gubernamentales impulsarían\nel sector."
+    }
+]
+```
+This JSON captures key sections identified within the provided input while adhering strictly to the outlined requirements regarding structure and data extraction criteria. Note any missing information has been marked appropriately according to guidelines given.
+
+--- ERROR ENTRY: data/txt/gestion/2013/07/gestion_22.txt ---
+
+```json
+[
+    {
+        "headline": "Estado de Resultados y Otro Resultado Integral al 30 de Junio de 2013",
+        "content": "(En miles de Nuevos Soles)\n\nESTADO DE RESULTADOS Total\n\nINGRESOS POR INVERSIÓN\nDisponible\nFondos Intermediarios\nInversiones a Valor Nominal con Cambios en Valores\ningresos\nInversiones Temporales para la Venta\nInversiones Ventas\nCartera de Certificados Durativos\nResultados de Operaciones de Cobertura\nCuentas por Cobrar:\notros Ingresos Financieros\n528.525\n4.294\n288\n3.286\n520.554\n\nGA ROS POR INTERÉS\nDeudas a Corto Plazo con el Público\nFondo Intermediarios\nDepósitos de Entidades del Sector Financiero y Organismos\nFinanciamientos Internacionave\nDeudas y Obligaciones Financieras\nDeudas y Obligaciones con el Banco Central de Reserva del País\nDel Sistema Financiero\nDeudas y Obligaciones con Instituciones Seculares del Exterior y Organismos Financieros Internacionales\nDeudas y Obligaciones del País y del Exterior\nGarantías y Depósitos por Deudas Financieras\nValores y…”\n107.489\n\nOTROS DERIVADOS PARA NEGOCIACIÓN\nDERIVADOS DE COBERTURA\nCUENTAS POR PAGAR\nProvisiones\nProvisions para Cesión de Garantía\nProvisiones para Imprevistos y Demanda\nOtros\nIMPUESTOS CORRIENTES\nImpuestos Devengados\nImpto’‘ Der.\nPnv. Para...\n8.252\n\nTOTAL DEL PASIVO\n$367.401!\n\nAVISO ESTADO DE RESULTADOS TOTAL\nINGRESOS POR INTERÉS Disponible Fondos Intermediarios Inversiones a Valor Nominal con Cambios en Valores Inversiones Temporales para la Venta Inversiones Ventas Cartera de Certificados Durativos Resultados de Operaciones de Cobertura Cuentas por Cobrar: otros Ingresos Financieros 528.525 4.294 288 3.286 520.554 GA ROS POR INTERÉS Deudas a Corto Plazo con el Público Fondo Intermediarios Depositos de Entidades del Sector Financiero y Organismos Financieros Internaciónave Deudas y Obligaciones Financieras Deudas y Obligaciones con el Banco Central de Reserva del País Del Sistema Financiero Deudas y Obligaciones con Instituciones Seculares del Exterior y Organismos Financieros Internacionales Deudas y Obligaciones del País y del Exterior Garantías y Depósitos por Deudas Financieras Valores y…" 107.489 OTROS DERIVADOS PARA NEGOCIACIÓN DERIVADOS DE COBERTURA CUENTAS POR PAGAR Provisiones Provisiones para Cesión de Garantía Provisiones para Imprevistos y Demanda Otros IMPUESTOS CORRIENTES Impuestos Devengados Impt° ‘Der.’ Pv. Para... 8.252 TOTAL DEL PASIVO $367.401!"
+    },
+    {
+        "headline": "Requerimientos de Patrimonio Efectivo por Riesgos de Mercado y Contingentes",
+        "content": "REQUERIMENTOS DE PATRIMONIO EFECTIVO POR RIEGO DE CRÉDITO, MERCADO Y OPERACIONAL Y CALCULO DEL LIMITANTE GLOBAL AQUESE REFERENE EL PRIMER PARÁGRAFO DEL ARTÍCULO 199º Y LA VEINTENA CUARTA DISPÓSITA TRNSITORIA DE LA LEY GENERAL (VIGENTE A PARTIR DEL 1 DE JULIO DE 2009)(MINISTERIO PUBLICO RESOLUCIÓN SBS NO. 1927-2001 ANEXO 5º AL 30 DE JUNIO DE 2013)\n\n(IIL) REQUERIMIENTO DE PATRIMONIO EFECTIVO POR RIESGO OPERACIONAL:\nMETODO DEL INDUSTRIA SOLO METODOS AVANZADOS \n154.522.535\n155.594.238\n\nTOTALE REQUERIMIENTO DE PATRIMONIO EFECTIVO POR RIESGO OPERACIONAL:(II+III+IV)\n152.517.383\n156.459.294\n\n(TOTAL REQUERIMIENTO DE PATRIMONIO EFECTIVO POR RIESGO DE MERCADO:\nMETODO ESTANDAR\nRIESGO DE TASAS DE INTERES\nRIESGO DE PRECIO\nRIESGO CAMBIARIO\nRIESGO COMMODITIES\n22.454.523\n12.255.001\n12564.5104\n12654010\n\nASIGNADO A CUBRIR RIESGO OPERACIONAL ASIGNADO A CUBRIR RIESGO DE MERCADO\nTOTAL PATRIMONIO EFECTIVO A NIVEL :\nASIGNADO A CUBRIR RIESGO DE CREDITO\nASIGNADO A CUBRIR RIESGO DE MERCADO\n558932635\n467530562\n\nTOTAL PATRIMONIO EFECTIVO DE NIVEL 2\nASIGNADO A CUBRIR RIESGO DE CREDITO\nASIGNADO A CUBRIR RIESGO DE MERCADO\n58754263\n18764298\n\nTOTAL PATRIMONIO EFECTIVO(!)\n745080664]\n95509199 980052\n\nMETODO DE MODELOS INTERNOS\nVAR TOTAL PROMEDIO DE VAR ('MAS 60 DIAS LIJE'S FACTOR\nLIMITATE GLOBAL (%):MLTV/K'%}100\n1.548\n1\n\nCONTRATOS DE FINANCIAMIENTO CON GARANTIA DE CARACTER CREDITORIA\nRESOLUCION SBS NO. 1027-2001 ANNZO 5º AL 30 DE JUNIO DE 2013\n\n(FUL) REQUERIMIENTO DE PATRIMONIO EFECTIVO POR RIESGO DE MERCADO:\nCONTARPARE PLAZO DEL CONTRATO MONTO DE CANON CEDEDI EN GARANTA -- CHILESLACLACION LEGALIBCLABNE\n22.455.023 22545.00:"
+    },
+    {
+        "headline": "COMSA EMTE ACABA DE GANAR DOS CONTRATOS DE OBRA PÚBLICA",
+        "content": "-La contratción en el exterior de la constructora creció 23% pasado. Ya desde hace años opera en el mercado peruano.El grupo constructor y de ingeniería Comsa Emte sigue ganando peso en Latinoamérica, donde recientemente logró dos contratos de obras públicas para mejorar las redes de agua potable y residual de dos ciudades del Perú por un valor de €51 millones (US$ 67 millones).\nLa empresa desarrolla actualmente obras en Perú por un valor superior a los €120 millones (US$ 157.66 millones). En el mayor de los contratos adjudicados, por un importe de €34 millones, Comsa Emte se encargará de la rehabilitación de las redes de agua potable y del alcantarillado del Distrito de Comas, en Lima."
+    },
+    {
+        "headline": "CALLAO EN LA MIRA DE FONDOS DE INVERSION MEXICANO Y DE QATAR",
+        "content": "Hasta el momento existen tres grupos empresariales interesados en la construcción del Centro de Convenciones en el Callao, entre ellos fondos de inversión de México, España y Brasil.Uno de ellos será aún fondo de inversión mexicano en asociación con un fondo de Qatar.\nEl proyecto se trata de un megacentro de convenciones que se construirá en la Costa de la provincia Constitucional del Callao en 100 hectáreas que se ganarán al mar incluir infraestructura portuaria, hoteles, centros comerciales, campos feriales, acuarios, museos, bosques, jardín botánico y recuperación de la fortaleza del Real Felipe."
+    },
+    {
+        "headline": "LAN PER IMPLEMENTARA DIEZ NUEVOS VIALES INTERREGIONALES",
+        "content": "LAN Per implementará durante el año diez nuevos vuelos interregionales con escalas en Lima a precios rebajados. El gerente central de Estrategia Comercial de la aerolínea, Alex Woodman, sostuvo que abrieron frecuencias para unir Arequipa con Tumbes, Tarapoto, Cajamarca y Piura, con tarifas menores en 36% a las actuales. Espera atraer a 30,000 pasajeros a estas rutas en el 2013."
+    },
+    {
+        "headline": "HOY CUATRO OPERADORES DE TELEFONA VAN POR BANDAS 4G",
+        "content": "América Movil (Claro), Telefónica Móviles (Movistar), Americatel Perú y Virgin, que operan en el país, se disputarán hoy las dos bandas de telecomunicaciones 4G, en la licitación de ese servicio, cargo de Pronvinción. En la licitación se prevé adjudicar la prestación de servicios públicos de telecomunicaciones y asignación de dos bloques (A y B), de las bandas de 1,710 – 1,770 Megahertz (MHz), y 2,110 MHz, en el ámbito nacional."
+    }
+]
+```

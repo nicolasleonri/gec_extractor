@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2015/10/correo_11.txt ---
+
+```json
+[
+    {
+        "headline": "Justicia. Los constitucionalistas Enrique Bernales y Aníbal Quiroga han brindado apoyo...",
+        "content": "Grammercy, de origen estadounidense, exigi\u00f3 ayer que\nel Perú le pague \$5100 \nmillones por los bonos agrarios\nque compró a quienes el gobierno\nde Juan Velasco Alvarado les expropió\nsus tierras en 1969, en aquel\npenoso proceso que se denominó la Reforma Agraria.\nEn medio de esta amenaza de\ndemanda, la Fiscalía ha detectado una falsificación\nen una de las resoluciones del Tribunal\nConstitucional (TC)\nsobre los bonos agrarios.\n\"Estuvimos buscando\nuna resolución consensual con las autoridades\nperuanas, pero nos dijeron a quemarropa:\n‘Nos importa’\", afirmó el vocero de Grammercy,\nJames Taylor, a AFP desde Estados Unidos\npara explicar la razón de la demanda."
+    },
+    {
+        "headline": "Correspondiente a la investigación de la Fiscalía Provincial Penal de Lima...",
+        "content": "\"Ni indigestiones\"\nSegún fuentes de la chakana, Toledo y Acurio estaban muy ocupados y por eso no lograron hacer un espacio en sus agendas. Aunque la verdad parece tener otro matiz. \"¿No será que Acurio no quiere ver al ‘Sano y Sagrado’ después de semejante desmentido?\nPoblación pide más acciones...\nAlgo similar ocurre con Alan García comentando que la Corte Suprema de EE.UU. y Obama liberaron 30 mil presos en California por hacinamiento. \"Nadie acusa al Presidente o a los jueces por eso\", dijo en alusión a los narcoindultos."
+    },
+    {
+        "headline": "Norah Cárdenas, fiscal superior provincial, revela obstáculos en investigación...",
+        "content": "«El Mininter y SURCO han puesto «piedras» en su investigación», señaló la fiscal Norah Cárdenas. Ella menciona que ni el Ministerio del Interior ni la municipalidad de Surco han proporcionado toda la información necesaria para avanzar en la investigación relacionada con el resguardo policial irregural dado a la vivienda del ex operador montesinista Óscar López Meneses. Además, indica que aún falta completar cerca del 20% de la documentación requerida."
+    },
+    {
+        "headline": "Columna de opinión Gonzalo Alemparte critica déficits institucionales...",
+        "content": "En el recién publicado ranking de competitividad global Forbes del Foro Económico Mundial, Perú presenta buen rendimiento en aspectos macroeconómicos, destacándose incluso durante la reunión anual de gobernadores del BM y el FMI. Sin embargo, existen preocupantes carencias en áreas clave como instituciones, innovación y infraestructura pública. Las evaluaciones muestran que Perú está significativamente rezagado en prácticas contractuales, seguridad judicial y eficiencia regulatoria, factores críticos para mejorar el clima de negocio nacional."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Any missing data has been filled with `"NA"` where applicable, though none was necessary here given sufficient information within each segment.
