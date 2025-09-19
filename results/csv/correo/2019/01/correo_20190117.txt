@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2019/01/correo_17.txt ---
+
+```json
+[
+    {
+        "headline": "Investigar empresa de Vizcarra no es algo malo",
+        "content": "\"No es un delito conspirar, pero es de vital importancia que el Presidente explique sus presuntos vínculos con Odebrecht\", destac."
+    },
+    {
+        "headline": "Oficialista dice que mandatario no podía precisar contrato",
+        "content": "\"Si bien el Mandatario no pudo ser preciso respecto al contrato que tuvo su empresa con Constructora, ese no era motivo para abrir una investigación,\" destac. \"Desde el Congreso debemos bajar el nivel de confrontación política\"."
+    },
+    {
+        "headline": "Preocupante que se investigue a Vizcarra según parlamentario",
+        "content": "\"Considero preocupante que se investigue a Vizcarra cuando la Constitución lo impide.\" \"No podemos pasar por encima de la ley. El presidente Vizcarra no pueda ser acusado ni investigado durante su mandato\", indic."
+    },
+    {
+        "headline": "Defensores públicos buscan sesión conjunta en el Congreso",
+        "content": "\"A través de un comunicado, la Defensora del Pueblo, el Ministerio Público, el Poder Judicial y la Contralora General solicitaron al Congreso que las comisiones de Justicia y Constitución lleven a cabo una sesión conjunta sobre la Ley Orgánica de la Junta Nacional de Justicia (JNJ). Permitirá mostrar posiciones sobre necesidad de reformas judiciales efectivas.\""
+    },
+    {
+        "headline": "Propuestas políticas enfrentan obstáculos legislativos",
+        "content": "\"La Comisión de Justicia y Derechos Humanos no pudo sesionar ayer por falta de quorum... Albert Olivera señaló que la ausencia de varios de sus colegas demuestra ‘falta de compromiso’ para la aprobación de ‘un proyecto de ley muy importante para el país’. Solicitaron reunión especial para evitar más dilaciones.”
+    },
+    {
+        "headline": "Forensic team evaluates health condition of former president Fujimori",
+        "content": "\"Un equipo forense de Medicina Legal intervino a petición del Poder Judicial. Doctores sugieren realizar un cateterismo debido a problemas cardíacos detectados.”"
+    },
+    {
+        "headline": "Acusan a Humala y Heredia por recibir fondos ilegales",
+        "content": "\"El fiscal Gerardo Juarez Moche determinó que 14 personas, entre ellas Ollanta Humala y Nadine Heredia, deben ser acusadas por lavado de activos relacionado con donaciones extranjeras sospechosas.”"
+    },
+    {
+        "headline": "Anuncio de reparación de tuberías en SJL genera expectativas",
+        "content": "\"Ministros reconocen dificultades técnicas en estimación temporal para completar reparaciones después del colapso de tuberías en San Juan de Lurigancho. Vecinos demandan soluciones rápidas ante riesgos sanitarios persistentes.”"
+    },
+    {
+        "headline": "Emergencia en San Juan de Lurigancho tras nuevo desborde",
+        "content": "\"Nuevo incidente de desborde de aguas residuales provoca alerta en San Juan de Lurigancho. Ejecutivo declara emergencia y coordina limpiezas intensivas junto a autoridades locales.”"
+    },
+    {
+        "headline": "Marinos capturados intentando exportar droga hacia España",
+        "content": "\"Tres militares arrestados por posesión de narcóticos en el Aeropuerto Internacional Jorge Chavez. Uno de los implicados colaborará con las fuerzas policiales proporcionando información clave.”"
+    },
+    {
+        "headline": "Plan municipal beneficia comerciantes de Gamarra",
+        "content": "\"La Municipalidad de La Victoria ofrece espacios gratuitos temporales a comerciantes de Gamarra bajo condiciones específicas, buscando regularización comercial progresiva en la región.”"
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on distinct topics within the input data. Non-article sections such as ads, notices, etc., have been excluded according to guidelines.

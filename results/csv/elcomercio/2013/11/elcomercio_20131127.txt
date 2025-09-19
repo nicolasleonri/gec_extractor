@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2013/11/elcomercio_27.txt ---
+
+```json
+[
+    {
+        "headline": "Casos López Meneses. Primera Dama refuerza afán de enrarecer investigación parlamentaria",
+        "content": "Intromisión de\nNadine Heredia en \nel Congreso.\nLa cónyuge del mandatario sorprendió con declaraciones\nque interfieren con el fuero legislativo que debe investigar\lla penetración montesinista en el actual gobierno.\nNadine Heredia, esposa del Presidente,\npidió que la investigación del escándalo López Meneses se\nremezcle a los años 90. Afirmó que la única manera de llegar a la verdad es investigar desde que Vladimiro Montesinos comenzó a tejear su red de contactos."
+    },
+    {
+        "headline": "Posdata/Pág. A24",
+        "content": "Premios Lucés de las Artes 2013\nLa selección de candidatos\nVote por lo mejor de las artes visuales y la literatura"
+    },
+    {
+        "headline": "Puno demanda Planta de Tratamiento de Aguas Residuales para Evitar Contaminación",
+        "content": "Réquiem por el lago Titicaca.\nLa construcción de una planta de tratamiento de las aguas residuales que contaminan el lago Titicaca demandaron los puneños en la audiencia organizada por El Comercio. En el lago sagrado van a parar los desechos de una población de 150 mil habitantes, debido a que la laguna de oxidación ubicada al pie del Cerro Espinar ha colapsado. La planta costará S/.160 millones."
+    },
+    {
+        "headline": "Primer Derrota en 21 Partidos",
+        "content": "El Rayo le quita el invicto al Barcelona en la Era Martino"
+    },
+    {
+        "headline": "Editorial",
+        "content": "Somos Libres, Somos Solo para Votar.\nEl voto obligatorio es un peligro para las sociedades a las que se lo impone."
+    },
+    {
+        "headline": "Temática Principal",
+        "content": "Nuevo Intento de Regresar a la Bicameralidad.\nComisión aprueba creación de un Senado en el cual participen los expresidentes.\nChehade niega que se quiera blindar a expresidentes con inmunidad parlamentaria. A pesar del voto aprista, Alan García critica dictamen.\nSe destaca también la figura de senadores vitalicios para exmandatarios, aunque estos tendrían derechos limitados dentro del Senado."
+    },
+    {
+        "headline": "Opinión Alfredo Torres",
+        "content": "\"El Nuevo Consenso Empresarial\"\n— Este CADE 2013 procurará atender compromisos del sector privado para desarrollo del país."
+    },
+    {
+        "headline": "Finanzas Personales",
+        "content": "Aumento del Pago Mnimo Afeta Usuarios Tarjeta Crédito\nNuevo método para calcular mínimo abono en tarjetas de crédito genera reclamo."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extraction. Articles were selected according to criteria such as having substantial textual information relevant to journalism standards outlined in the task description. Other sections like ads, subscriptions, etc., have been excluded following guidelines.

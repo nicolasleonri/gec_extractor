@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2019/07/correo_26.txt ---
+
+```json
+[
+    {
+        "headline": "Pedro Sánchez y el nefasto Pablo Iglesias",
+        "content": "Ipresidente del Gobiemie de España en funcciones, Pedro\nSánchez, líder del Partido Socialista Obrero Español (PSOE), no ha podido \nalanzar los votos para su investidura al\nsufrir en las urnas el No (155 votos)\nsí 124).\nSánchez, totalmente frustrado,\nse ha quedado con las ganas por\ngeneración media tiempo y el ausente directo de la\n crisis política al impedirle consigue \"la\n conducción política de la nueva\nEspaña.\nPablo Iglesias, de Podemos, que condicionado\na Sánchez para que ceda algunos \nministerios clave."
+    },
+    {
+        "headline": "Producci\u00f3n formal de pisco tendr\u00e1 un r\u00e9cord",
+        "content": "Se estima que la producción formal de pisco será de más de 700 mil litros este año, 65% más que al 2018 y será \nda récord, según el Ministerio de la Producción (PRODUCE). El viceministro de Microempresa e Industria, Scarlett Montoya, dijo que ese resultado sería por una mayor demanda interna y las distintas campañas de promoción, que desarrolla la Comisión Nacional del Pisco (GONAPISCO), como el Congreso Nacional del Pisco y el Día Nacional del Pisco Sour."
+    },
+    {
+        "headline": "Plan nacional prevé 52 proyectos por \$51,000 milllones",
+        "content": "El Plan Nacional de Infraestructura contempla desarrollar 52 proyectos por \$510,000 millones en los próximos cinco años, según el viceministro de Economía, Milko Cruz Filho, durante su participación en la conferencia \"Alianzas Estratégicas Entre el Reino Unido y América Latina para el Desarrollo de Infraestructura\" organizada por la Embajada Británica y la Cámara de Comercio de Londres."
+    },
+    {
+        "headline": "\"Invasión\" de tierras del estado revela deficiencias administrativas",
+        "content": "Un estudio realizado muestra que solamente el 37% de los terrenos del Estado están registradas en la Superintendencia Nacional de Registros Públicos (Sunarp). Según Armando Subauste, existe una problemática debido a la diversidad geográfica del país que complica el registro adecuado de estas propiedades."
+    },
+    {
+        "headline": "Felicitaciones post mortem",
+        "content": "« Feliz», hace un año cruzaste el puente del arcoiris y te convertiste en un hermoso ángel que nos cuida desde el cielo. Llegaste a nuestras vidas un día para darnos alegría, cariño, mucho amor y nos acompañaste 17 años maravillosos. Siempre te recordaremos chinito... Con amor Pepe y Rosaria."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, notices, and unrelated listings have been excluded according to specified criteria.

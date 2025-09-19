@@ -1,0 +1,38 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2013/10/elcomercio_06.txt ---
+
+```json
+[
+    {
+        "headline": "Lucas de Lucía",
+        "content": "El guitarrista flamenco reivindica el sonido del cajón peruano."
+    },
+    {
+        "headline": "LAS TENDENCIAS QUE VIENEN EN MODA MASCULINA\nMODERNIDAD Y DIVERSIDAD PARA PRIMAVERA Y VERANO",
+        "content": "NA"
+    },
+    {
+        "headline": "FLORES VA SEGUNDO EN QUADRIATLETAS",
+        "content": "NA"
+    },
+    {
+        "headline": "\"EL CRECIMIENTO DEL PERÚ SEGUIR SIENDO ROBUSTO\"",
+        "content": "Christine Lagarde, directora gerente del Fondo Monetario Internacional, elogia las políticas macroeconómicas del país. [Portafolio Económico]"
+    },
+    {
+        "headline": "DECÍA HABER SUPERADO EL CANCER.\n\"MEGA COMISIÓN\"\nPARECE QUE LOS MINISTROS APRA DISTORSIONARON LA INVESTIGACIÓN PARLAMENTARIA SOBRE GARCÉS Y SU ADMINISTRACIÓN.",
+        "content": "Según algunos reportajes, cuatro congresistas apristas distorsionaron la investigación parlamentaria destinada a evaluar acciones gubernamentales anteriores. Esto sugiere motivación política detrás de tales movimientos legislativos."
+    },
+    {
+        "headline": "INTERVIEW WITH ALÁN GARCÉS",
+        "content": "- \"¿Cómo percibe Usted la situación actual respecto a la Megacomisión?\n   Alán García expresa preocupación por objetivos políticos ocultos tras la Megacomisión, enfocándose más en afectar reputaciones individuales que en justicia transparente.\n   
+     \n- ¿Qué piensas sobre tu relación pública con el Presidente Humala?\n   Critica duramente la actitud del presidente hacia procedimientos formales y derechos fundamentales, comparando situaciones previas donde él también benefició de medidas judiciales favorables.\n  
+     
+     \n- ¿Consideras que existe algún tipo de conspiración política dirigida específicamente hacia ti?\n   Sugiere que existen intereses políticos significativos detrás de las indagatorias, relacionados principalmente con impedimentos electorales futuros.\n    
+      
+      \n- Finalmente, ¿qué mensaje enviarías a tus simpatizantes y al público en general?\n   Insta a mantener principios éticos elevados y recalca la importancia de centrarse en resultados tangibles y positivos para el desarrollo nacional.\""
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined scope and goals for extracting meaningful journalistic content. Articles lacking substantial textual information have been marked appropriately with `"NA"` where necessary.

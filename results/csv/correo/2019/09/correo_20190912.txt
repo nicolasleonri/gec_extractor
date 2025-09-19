@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2019/09/correo_12.txt ---
+
+```json
+[
+    {
+        "headline": "Audencia iniciará al medio-día (hora peruana)",
+        "content": "Juez decide qué camino seguirá Toledo: Arresto domiciliar o cárcel\nAbogado de oficio del expresidente ofrece fianza de $1 millón para que deje la peligrosa prisión Santa Rita.\nComo se recuerda, el pasado 28 de agosto el juez Hixson aplazó por segunda vez su decisión para evaluar los nuevos documentos presentados por la defensa del expresidente a favor de un arresto domiciliario, sin embargo también se han recibido los alegatos de la fiscal La Punzina."
+    },
+    {
+        "headline": "Posiciones",
+        "content": "\"...\" como | mincao\ndo podría hacer uso de la palabra hoy en la audiencia.se sue:\'% ...'\nas lleva preso Toledo en EE.UU. Desde que fuera arrestado el pasado martes 16 de mayo.\nDebido a que el juez Hixson no tiene que analizar el tema de la extradición, la audiencia será breve y la decisión se podría conocer en el transcurso de hoy.\nAlejandro Archet, abogado de Toledo, ha propuesto el pago de $1 millón como fianza para que su patrocinado vea el proceso de extradición en libertad. Para ello, pagan el 10% en efectivo y por el saldo pondrá en garantía dos propiedades de sus amigos cercanos. Los inmuebles serán inmediatamente incautados en caso fugara del país."
+    },
+    {
+        "headline": "Política/Correo",
+        "content": "Exalcalde de Lima tendrá arreglo de 18 meses.\nConfirmaron impedimento de salida del país para Luis Castillo y otros más.\nLa Primera Sala Penal de Apelaciones confirmó ayer el impedimento de salida del país por 18 meses contra el exalcalde de Lima Luis Castillo y los investigados señor Zegarra, Jaime Vilafuerte, Alfieri Lucchetti y Martín Bustamante en el marco del caso Línea Amarilla.\nEl tribunal consideró lo que argumentó el fiscal superior del Equipo Especial \"Lava Jato\", Olver Chavez, que planteaba asegurar la presencia de todos los investigados mientras espera información de la ONPE, el JNE y la SUNARP, así como los testimonios de colaboradores eficaces."
+    },
+    {
+        "headline": "Antonio Narin%",
+        "content": "Responsabilidad Social Universitaria\nSegún OXFAM (2019), manifiesta que sería bueno que además la comunidad conociera, aunque sea simplemente a través de una breve mención, algunas enfermedades provocadas por la contaminación de las aguas tales como anchilostomiasis, arseniosis, ascariasis, bilharzia, criptosporonomosis, clamidiasis, toxoplasmosis, cryptobia catellensis, enterobius vermicularis, giardiasis, hepatitis, helmintiasis, malaria, meningitis hemorrágica, oncocercosis, rabia, scabies, triquinosis, tuberculosis, diarrea, entre otras."
+    },
+    {
+        "headline": "Definición",
+        "content": "Magistrada tiene el voto dirimentemente en caso KEIKO/Fujimori POR EL DELITO DE LAVADO DE ACTIVOS\nJueza Castaeda se pronuncia hoy por prisión preventiva de Keiko Fujimori\nOtros rectificarían concordadamente. También Yoshiyama, el exasesor Pier Figari y el asesor legal de dicha agrupación política, Luis Mella Lecca, esperan que se varé situación legal de ella. Miembros de la familia Fujimori aún están involucrados en casos legales significativos."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected where there was substantial journalistic content available within the input data. Other sections such as ads, notices, etc., have been excluded according to the scope defined.
+
+--- ERROR ENTRY: data/txt/correo/2019/09/correo_12.txt ---
+
+```json
+[
+    {
+        "headline": "CESAR VIZCARRA RATIFICA VERSION PRESIDENCIAL SOBRE ODEBREHT ‘',
+        "content": "César Vizcarra se presentó ayer ante la Comisión de Fiscalización del Congreso y dijo desconocer que la empresa Odebrecht fuera parte de Gemini, el consorcio encargado de realizar el proyecto de los tramos 2 y 3 de la Interoceanica Sur.\n\n\"Diez años antes (del caso 'Lava Jato'), nosotros bajamos con Construcción Civil (Conicsa), que es una sociedad anónima. Sabíamos que era un consorcio. ¿Quién era la participación de GRAU o de Odebrecht? No sabíamos\", aseguró."
+    },
+    {
+        "headline": "",
+        "content": "\"Amigo de familia, durante su comparecencia en la Comisión de Fiscalización del Congreso, confirmó que su hermano, el actual presidente, \"fue gerente de Operaciones de CV&M Vizcarra.\" \n\n\"He traído documentación oficial del registro público correspondiente al año 2018, dado que no hubo inscripción anterior en SUNARP,\" agregó."
+    },
+    {
+        "headline": "",
+        "content": "El pariente del presidente Vizcarra respondió una lista de preguntas planteadas por diferentes legisladores. Una crítica notable provino de la fujimorista Yeny Villalta, quién insistió en clarificar por qué el entonces Ministro de Transportes y Comunicaciones no se había separado de su negocio privado."
+    },
+    {
+        "headline": "",
+        "content": "Durante su intervención, César Vizcarra admitió haber cometido una \"falencia administrativa\" relacionada con ciertos registros empresariales. Explicó cómo procedimientos internos llevaron a errores burocráticos, aunque enfatizó que jamás involucró prácticas corruptas dentro de su organización."
+    },
+    {
+        "headline": "",
+        "content": "Respecto a las relaciones contractuales con otras compañías, especificó detalles financieros relevantes de transacciones específicas ocurridas hace más de una década, refiriéndose particularmente a montos menores comparativamente a ingresos totales de aquel período."
+    },
+    {
+        "headline": "",
+        "content": "Tras aproximadamente dos horas discutiendo estas materias frente a la Comisión de Fiscalización, César Vizcarra comprometió proporcionar información complementaria posteriormente. Además, enfrentó preguntas adicionales referidas a adeudos fiscales pendientes, detallando medidas correctivas adoptadas después de detectar discrepancias."
+    }
+]
+```
+This JSON captures key segments identified within the provided OCR text while adhering strictly to the outlined requirements for extracting significant journalistic content. Note how each entry maintains its own context derived directly from the source material.

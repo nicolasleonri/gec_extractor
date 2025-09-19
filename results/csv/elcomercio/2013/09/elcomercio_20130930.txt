@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2013/09/elcomercio_30.txt ---
+
+```json
+[
+    {
+        "headline": "ZEBALLOS ADICIONÓ SOBRE LA CITACIÓN PARA OCTUBRE",
+        "content": "Al respecto, Zeballos añadió: 'No es que lo vamos a citar porque el señor Toledo está por esos días en Lima, sino que coincide con nuestro plan de trabajo. Se ha programado citarlo para las últimas semanas de octubre'.\n\nEl congresista fujimorista Alejandro Aguinaga, secretario de la Comisión de Fiscalización, mencionó que espera que el abogado David Eskenazi acuda a la sesión sin programada para el viernes. 'Ya se le ha explicado los apremiamientos bajo los cuales se lo está citando', afirmó."
+    },
+    {
+        "headline": "AUDIO IMPLICA AL CONGRESISTA WILDER RUIZ POR UN CASO RELACIONADO CON ANDAHUASSI",
+        "content": "'En dialogo, legislador nacionalista habla de \"cumplir compromiso\" con autoridades por Caso Andahuassi.\n\nUn nuevo capítulo en el Caso Andahuasi surge después de que el programa \"Sin Medias Tintas\" emitiera un audio en el cual el congresista Wilder Ruiz (Gana Perú), anterior representante de los trabajadores de la azucarera, discute pagos hechos a un policía y a un fiscal referente a temas vinculados al caso.'"
+    },
+    {
+        "headline": "LA CORTE INTERNACIONAL NO HA INDICADO CUÁNDO SE DIFUNDIRÁ SU SENTENCIA ENTRE PERÚ Y CHILE",
+        "content": "\"La Corte Internacional de Justicia de La Haya aún no ha comunicado al Gobierno Peruano cuándo será anunciada la decisión del conflicto marítimo con Chile.\" \n\n'Así lo expresó la presidenta del grupo parlamentario encargado del seguimiento del caso, la nacionalista Natalia Condori, afirmando que mientras no haya una notificación oficial, deberán continuar esperando tranquilamente, evitando generar especulaciones,' agregó José Antonio García-Belaunde, también involucrado en el proceso."
+    },
+    {
+        "headline": "VULNERABILIDADES IDENTIFICADAS TRAS LOS DAÑOS OCASIONADOS POR TERREMOTEO SIMULAR EN SUR DE ICA",
+        "content": '"Repasando los estragos causados por el evento sísmico simulacro en el sur de Ica, persiste mucha confusión pública, dado que numerosos individuos erradamente consideran que afectó directamente a la urbe de Arequipa, siendo realmente zonas más cercanas a Nasca dentro de dicho departamento."'
+    },
+    {
+        "headline": "OPERATIVA CONTRA MINERÍA ILÉGITIMA REVELADA DESDE MADREDIOS",
+        "content": "Durante una intervención efectuada frente al Ministro del Interior, Wilfredo Pedraza, se hizo público un operativo destinado a combatir actividades mineras clandestinas desarrolladas en Madre de Dios."
+    },
+    {
+        "headline": "EVOLUCIÓN LEGISLATIVA POST-CASE OF EVOLUTION BRACAMONTE",
+        "content": "Reportajes enfocados en la libertad condicional otorgada a Eva Bracamonte reflejan la insatisfacción generalizada derivada de la incertidumbre jurídica presente en el caso. Durante entrevistas televisivas, ella compartió experiencias personales viviendo en prisión y anticipación hacia futuros litigios legales."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided document while adhering strictly to the specified format requirements. Note how each entry maintains its integrity through careful extraction based on context clues within the input data.

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2019/04/correo_02.txt ---
+
+```json
+[
+    {
+        "headline": "Netanyahu rompí con una larga tradici\u00f3n diplom\u00e1tica",
+        "content": "\xBFQue visitar el Muro de las Lamentaciones acompañado de un Primer Ministro?\nPocos sabían que Benjamin Netanyahu había roto con una larga tradición diplomática. Durante décadas, ningún gobierno palestino había estado presente en ese sitio sagrado."
+    },
+    {
+        "headline": "El Perú en la conferencia mundial de Ministros de Defensa",
+        "content": "Durante muchos años, el Ministerio de Defensa permanece desconocido para algunos ciudadanos peruanos. Esta situación cambió gracias a eventos históricos internacionales.\n\nJosé Huerta Torres, ministro de Defensa, marcó hitos importantes al hablar en nombre del país en la Organización de las Naciones Unidas (ONU). Esto refleja el compromiso del Perú con operaciones globales de mantenimiento de la paz."
+    },
+    {
+        "headline": "Simon Rattle dirige a la London Symphony Orchestra en Lima",
+        "content": "Para celebrar su debut sudamericano, la prestigiosa London Symphony Orchestra ofrecerá conciertos en Lima bajo la dirección de Simon Rattle. Interpretará obras de renombre como Gustav Mahler y Benjamin Britten, consolidándose así como referente musical global."
+    },
+    {
+        "headline": "‘Yerma’, un gríto contra los prejuicios",
+        "content": "Dirigida por Nishme Smár, ‘Yerma’ retoma temas universales relacionados con la libertad femenina y los roles sociales. Protagonizada por Urpi Gibbons, la producción invita a reflexionar sobre cómo estos problemas siguen siendo relevantes incluso después de ochenta y cinco años de su concepción."
+    },
+    {
+        "headline": "Ex modelo Edith Tapia víctima de intento de secuestro",
+        "content": "Después de retirar efectivo en una agencia bancaria, Edith Tapía sufrió un violento incidente perpetrado por individuos de origen venezolano. Tras reportarlo a las autoridades locales, ahora advierte sobre la importancia de mantener precaución personal constante frente a posibles ataques similares."
+    },
+    {
+        "headline": "Sub-17 de Perú busca revancha en hexagonal",
+        "content": "Ante la necesidad urgente de obtener resultados positivos, la Selección Peruana Sub-17 prepara estratégicamente su próximo encuentro contra Argentina. Los técnicos buscan maximizar el potencial colectivo más allá de individualismos, buscando asegurar un cupo vital hacia el Mundial de Brasil."
+    },
+    {
+        "headline": "Farfan nominado a Mejor Futbolista de Marzo",
+        "content": "Jefferson Farfán continúa demostrando su calidad en el campo, recibiendo una nueva nominación por su excelente actuación en el club Lokomotiv Moskva. Sus aspiraciones incluyen alcanzar grandes ligas europeas, inspirado especialmente por figuras icónicas como Neymar Jr."
+    },
+    {
+        "headline": "Alianza Lima buscará crucial victoria en Santiago",
+        "content": "Contra Palestino, Alianza Lima persigue una victoria fundamental para avanzar en la competición continental. Las ausencias de jugadores clave debido a lesiones ponen a prueba la capacidad táctica del técnico Miguel Ángel Russo, aunque recuperaciones esperanzadoras podrían cambiar el rumbo del partido."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on context clues such as topic shifts and distinct headings within the input data.
