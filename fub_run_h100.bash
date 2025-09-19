@@ -53,7 +53,7 @@ seff %j
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2014/ -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2013 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2013 -tn H100 -aram 9 -ngpus 1
-# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2015 -tn H100 -aram 9 -ngpus 1
+# TODO: Volver a correr!!!!  python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2015 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2013 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2013 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2014 -tn H100 -aram 9 -ngpus 1
