@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/06/elcomercio_12.txt ---
+
+```json
+[
+    {
+        "headline": "Essalud dispone la restricción del uso del ibuprofeno",
+        "content": "Ante este panorama, Essalud dispuso la restricción del \nu\seo del ibuprofeno, pero sólo en aquellos pacientes con\nrisgo de una infección invasiva, como varicela, infecciones graves de piel o enfermedades con riesgo de neumonia.\nAsí también, recomienda utilizar dicho medicamento por períodos cortos y a dosis mínimas requeridas,\nor prioritariamente el uso del paracetamol para combatir la fiebre y el dolor."
+    },
+    {
+        "headline": "Con control",
+        "content": "Como se puede observar, no se ha prohibido el ibuprofeno. Ni tampoco hay que temerle, siempre y cuando no se emplee de forma continuada o sin supervisión médica adecuada."
+    },
+    {
+        "headline": "Hallan por qué inmunoterapia no funciona en algunos tumores",
+        "content": "Investigadoras del hospital Mount Sinai (Nueva York) identificaron el primer mecanismo por el cual algunos tumores hepáticos resisten a la inmunoterapia, facilitando así avances significativos en la batalla contra el cáncer y desarrollando nuevas terapias más eficientes para estos tumores particularmente difíciles de tratar."
+    },
+    {
+        "headline": "Reglas para un buen consumo",
+        "content": "- El ibuprofeno es un analgésico accesible sin receta médica.\n-Se utiliza principalmente para:\n-Aliviar dolores leves y moderados, como el dental, migraña y menstrual;\n-Controlar altas temperaturas febriles;\n-Tratar inflamación relacionada con condiciones articular, ósea y muscular;"
+    },
+    {
+        "headline": "Congreso busca limitar plazo para el pago a proveedores",
+        "content": "Distintas bancadas presentaron diversas iniciativas legales destinadas a resolver problemas derivados de largos periodos de moratoria en el pago a proveedores, sugiriendo límites máximos de treinta días para dichos pagos."
+    },
+    {
+        "headline": "Alejandro Falía opina sobre regulaciones locales",
+        "content": "\"Las municipalidades son fuente de numerosas regulaciones ilegítimas o poco prácticas.\" Alejandro Falía critica cómo algunas políticas locales complican innecesariamente el ambiente empresarial, especialmente para pequeñas y medianas compañías."
+    },
+    {
+        "headline": "Trabajadores extranjeros formales suman 79 mil",
+        "content": "Información proporcionada por Sunafil revela que aproximadamente 79 mil personas provenientes de otras naciones están registradas oficialmente dentro del ámbito laboral peruano, reflejando un incremento notable en la participación económica de comunidades migratorias."
+    },
+    {
+        "headline": "Ilustracin: Josémir Ballón retorna a selección tras años ausente",
+        "content": "Josémir Ballón, jugador voluntario en la brigada bomberil 'Garibaldi' de La Perla, se reintegra al equipo nacional después de tres años alejado, listo para competir en la próxima edición de la Copa América programada en Brasil."
+    }
+]
+```
+This JSON structure captures each identified article's headline and corresponding content based on the provided input while adhering strictly to the specified format requirements. Articles were extracted using defined criteria such as presence of headlines followed by substantial textual bodies, excluding irrelevant sections like ads or non-journalistic elements.

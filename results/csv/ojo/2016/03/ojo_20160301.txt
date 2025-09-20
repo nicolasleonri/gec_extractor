@@ -1,0 +1,85 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2016/03/ojo_01.txt ---
+
+```json
+[
+    {
+        "headline": "Respaldan y garantiza",
+        "content": "NA"
+    },
+    {
+        "headline": "Edgar García Expresidente Del Castillo pide que lo investiguen",
+        "content": "Después de revelarse que Julio Guzmán firmó un documento para la compra de equipos de recepción telefónica, el expresidente del Congreso Jorge del Castillo solicitó que sea incluido en las investigaciones fiscales por el Caso \"Dinileaks\"."
+    },
+    {
+        "headline": "Penetración electoral actúa manipulado?",
+        "content": "\"Nunca se hizo tanto, aunque a algunos no les gusta eso\", recalca el Presidente Ollanta Humala."
+    },
+    {
+        "headline": "Inversión",
+        "content": "Nunca en la historia de la República se ha invertido tanto en lo que es el aspecto social."
+    },
+    {
+        "headline": "Opinan los lectores",
+        "content": "Imputas a Guzmán en el \"chuponeo\"",
+    },
+    {
+        "headline": "Rechazan al JEE Nano Guerra",
+        "content": "Se encadena Hernando \"Nano\" Guerra Garc\u00eda frente a la sede del Consejo Ejecutivo del PJ debido a la admisión de la lista de postulantes al Parlamento Andino propuesta por Julio Guzmán."
+    },
+    {
+        "headline": "Acusa Ana Jara:",
+        "content": "Comparó la decisión del Jurado Electoral Especial Lima Norte de validar la primera tanda de postulantes al parlamento limeño con lo que hacía el personaje Cantinflas."
+    },
+    {
+        "headline": "Violan, matan y arrojan a Rocío",
+        "content": "El cadáver de Dora Estela Yarihuaman Rupay fue encontrado en la ribera del río Yauli, provincia de Jauja, region Junín, después de haber sido violentada sexualmente y estrangularla."
+    },
+    {
+        "headline": "Capturan ladrones",
+        "content": "Un oficial policial arrestó a dos integrantes de la banda criminal \"Los Temerarios del Huarango\" intentando atraco en Ica."
+    },
+    {
+        "headline": "Viajes",
+        "content": "Ofertas turísticas disponibles hacia diferentes destinos."
+    },
+    {
+        "headline": "Huasco destruye piscigranja edil",
+        "content": "Un huaso arruinó aproximadamente 40 mil truchas en la piscigranja municipal de Cabana, provincia de Pallasca."
+    },
+    {
+        "headline": "Peña Nieto llama a México a defender derechos civiles",
+        "content": "Durante su discurso ante legisladores estadounidense, Enrique Peña Nieto enfatizó la importancia de fortalecer los derechos civiles en ambos países."
+    },
+    {
+        "headline": "Donald Trump repudia apoyo del KKK",
+        "content": "Expresa que está en contra del apoyo recibido por parte del líder del Ku Klux Klan, David Duke."
+    },
+    {
+        "headline": "Secretario General de la ONU asegura que cese el fuego en Siria se cumple",
+        "content": "Ban Ki-moon menciona que hay incidentes, pero en general, el alto al fuego permite ayudar a los civiles."
+    },
+    {
+        "headline": "Escándalo internacional",
+        "content": "Video muestra a sacerdote consumiendo droga genera controversia en Irlanda del Norte."
+    },
+    {
+        "headline": "Exige Evo Morales saber más sobre su supuesto hijo",
+        "content": "Demandó información respecto a su posible descendencia con Gabriela Zapata, implicada en un escándalo político."
+    },
+    {
+        "headline": "Leo DiCaprio levanta la voz",
+        "content": "Actriz celebra premio y critica vertimientos petroleros en la Amazonía Peruana."
+    },
+    {
+        "headline": "'Filmar \'El Renacido\' fue una experiencia difícil'",
+        "content": "Leónadro DiCaprio reflexiona sobre su participación en la película aclamada críticamente."
+    },
+    {
+        "headline": "Eficiente es conflictivo",
+        "content": "Denuncia familiar indica conflicto interno dentro de la Policía Nacional involucrándose en tragedia juvenil."
+    }
+]
+```
+This JSON captures each significant story extracted from the provided OCR text while adhering strictly to the defined structure for headlines and contents. Articles were identified based on their thematic separation within the document. Any missing information was marked appropriately according to guidelines.

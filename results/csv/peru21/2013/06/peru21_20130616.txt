@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/06/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "MS JOVENES CONSUMEN MARIHUANA CON BROWNIES",
+        "content": "> Menores adictos\n\tprefieren ingerir\n\t\testa droga mezclada\n\t\tcon queques AA.\n|\n> Alertan que la\n\sustancia es más\n.potente y causa...\ne… . E cuadros psícticos."
+    },
+    {
+        "headline": "\"La marihuana es la droga más consumida por los estudiantes\"",
+        "content": "Milton Rojas Cedro\nque los chicos están cada vez \nmás convencidos de que la\nmarihuana no ocasione ningún daño. La tendencia, a nivel mundial, es ver esta droga con fines recreativos\", detalló el psicólogo.\nAgregó que el hecho de que algunos países haya legalizado este estupefaciente es un aliciente para su sumo. As, se sabe que en Argentina y en Chile ha crecido la venta de ese producto ilegal."
+    },
+    {
+        "headline": "\"Es indudable que, ahora, las drogas son más potentes y riesgosas.\" Milton Rojas",
+        "content": "Efectos de los \"neways'\nSyndrome de Falta de –– Consumo en menores Mezclas en uso\nautocontrol debido a alta concentración (% de 12 a 17 años) de estupefacientes\nmotivación Reactión psiquiáctica,\ntención psiquiáctica, alucinaciones 6%\nSolo marihuana\nen combinación con tabaco y bebidas energéticas\nMariguana Alcohol mariguana+\nanxiety %6 alcohol +tabaco\nParanoia y ansiedad %6 alcohol+drogas 6%\nAlcohol+drogas 6%\nMarihuana+alcohol\n+tabaco +'bebidas\nenergetizantes\nExceso de sueño y hambre 2%\nCocaina\nAumento de la frecuencia cardíaca, Boca seca y tiempo\nde respuesta lento Intermittently\nDiario\nInterdiario\nPsicológico\nPuede causar palpitaciones\ny arritmias cardiacas 3 veces a la semana\nDos veces a la semana Una vez a la semana\nEventualmente\nUna vez al mes Dos veces al mes\nCuatro veces al año Un evento al año"
+    },
+    {
+        "headline": "Del Director Fritz Du Bois",
+        "content": "En el nombre del padre\nGobierno debe de estar celebrando entusiásticamente el día de hoy ya que tiene el sentimiento paternal muy desarrollado. Pero lo tiene enfocado hacia el lado equivocado ya que es evidente que Humala y la primera dama creen fervorosamente en ‘Padre Estado’. As tenemos que el mandatario es de los que considera que cualquier activo estatal que se venda siempre será malbaratado. Esto es porque no entiende al mercado y se le escapa la sutileza de que, en manos del sector privado, estos siempre son mejor aprovechados. Por ejemplo, los enormes cuarteles en los cuales él jugaba futbol cuando se convierten en hoteles o centros de convenciones son mucho mejor utilizados, lo cual se refleja, sin duda alguna, en un valor más alto."
+    },
+    {
+        "headline": "POLÍTICA",
+        "content": "\"MERECEMOS UNA ACLARACIÓN\", SENTENCIÓ EL VOCERO PARLAMENTARIO DE LA CHAKANA AZUL, MARIANO PORTUGAL\nHasta Perú Posible exige que Toledo retorne al país\nExpresa primera dama Eliane Karp asegura que expresidente es una víctima del antisemitismo.\nPese a las nuevas declaraciones en el caso Ecotelégrafía, el silencio del expresidente Alejandro Toledo, en los últimos días, ya no satisface ni a los miembros de su propia bancada. El vocero de Perú Posible (PP), Mariano Portugal, demandó a su líder que retorne al país para que dé las respectivas explicaciones. El más grave: las admisiones del abogado costarricense Melvin Rudelman, quién admitió que el ex gobernante lo contrató para que fuera la empresa Ecotecón, consultoria group que después presidió su suegra, Eva Fernenbug, y a través de la cual se transfirieron más de USD 3 millones para la compra de propiedades en zonas exclusivas de Lima. “Es una recomendación en mi calidad de vocero: que (Toledo) venga y dé las aclaramientos. Merecemos una clarificación del expresidente”, manifestó a Per21."
+    },
+    {
+        "headline": "",
+        "content": "(Continuation of previous political segment)\nPortugal señaló también que su invocación al exmandatario cuenta con el respaldo de los demás miembros de su agrupación política, y recordó que el propio Daniel Mora había planteado un llamado similar. Reveló además que esta petición se la hizo saber directamente al gobierno mediante conversación telefónica en la que participaron varios integrantes de su colectividad. “El expresidente nos ha contestado que está meditándolo”, añadió. Por otro lado, fuentes internas del grupo político comentaron a este medio que los compañeros de filas —excepto Carmen Omonte— no aceptaron la invitación de Toledo para que asistiesen mañana a una reunión que mantendrá junto a otros antiguos presidentes en la sede del Banco Mundial (WB) en Washington D.C., donde se plantearán temas referentes a la colaboración económica entre EE.UU. y América Latina. Respecto a esto último, Portugal precisó tal abstención argumentando que en el Parlamento peruano existía una disposición oficial instando a los representantes populares a no alejarse de las sesiones ordinarias. “El presidente [Victor] Isla sugirió a nuestros colegas, a través de los portavoces, que eviten realizar viajes la próxima semana dado que la sesión legislativa se extendió. Este es el fundamento detrás de nuestra decisión”, concluyó."
+    },
+    {
+        "headline": "EDITORIAL",
+        "content": "Editora Claudia Izaguirre\nJefa de Informacion: Manuel Tumi\nEditores Política: Dan Arce\nEconomía: Gina Sandoval Ciudad: Voice Paquirri Penic Mariella Saussa Deportes: Francisco Cairo Escenarios: Sybil Prieto Central: Gonzalo Pajares Mundo: Franco Boggiano Web: Alejandro Castro Grafico: Uris Hidalgo Fotografia: Fidel Carillo."
+    }
+]
+``` 
+
+This JSON captures several distinct segments identified within the provided text based on their headlines and contents while adhering strictly to the guidelines for extraction and cleanup specified in the task description. Note how each entry maintains its structure according to the defined schema.
+
+--- ERROR ENTRY: data/txt/peru21/2013/06/peru21_16.txt ---
+
+```json
+[]
+```
+The provided input does not include any recognizable headlines followed by substantial journalistic content according to the defined criteria for extraction. Therefore, there are no complete articles available within the given text snippet to format into JSON. Consequently, the resulting JSON array is empty.

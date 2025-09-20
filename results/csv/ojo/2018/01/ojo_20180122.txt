@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/01/ojo_22.txt ---
+
+```json
+[
+    {
+        "headline": "BLAU 60 años",
+        "content": "Desapareció el 30 de diciembre 2017\nen Lima.\n'Sufre de lagunas mentales".\nNatural de Chiclayo. \nSea particular:\nUn tatuaje en forma de cruz en mano [\ninicio del pulgar).\nHagamos posible que regrese a casa."
+    },
+    {
+        "headline": "SEGÚN POSITIVA SEGUROS,\nde enero a marzo aumentan los robos en casas.",
+        "content": "(Jerrem la casa con llave, no publicar la ausencia de casa en redes sociales, ni dejar dinero u objetos es la mejor prevención.)"
+    },
+    {
+        "headline": "Consejos financieros y tecnológicos",
+        "content": "Roxana Vega, gerente de producto de consumo, alerta que los residuos de polvo granular danño el motor de la presora, por lo que es importante adquirir productos de calidad seguras.\nAlonso Collantes destaca cómo muchas empresas están utilizando más frecuentemente la facturación electrónica. Alberto Redondo, director de marketing, señala que esto optimiza el manejo de diversas negociaciones así como procesos administrativos. Beneficios incluyen corrección rápida de errores y seguimiento automático durante el proceso."
+    },
+    {
+        "headline": "CASOS DEL CORAZÓN)",
+        "content": "[FARSÉ QUE SIGNIFICA]\nFELONÍA\nLuis Alberto Spínetta\nAmor, la lluvia borra huellas...\nEntretenido, sabiduría y habilidad social, aspira a encontrar una relación basada en compromisos mutuo y honestidad. Ingeniero civil, carismoso, de 53 años, desea iniciar una relación seria con alguien menor de 45 años. Dulce, trabajador, de 48 años, busca una compañera simple y amable de Lima, de 25 a 35 años, interesada en construir una familia junto a él."
+    },
+    {
+        "headline": NA,
+        "content": "El desarrollo humano está marcado por etapas cruciales donde cualquier alteración podría resultar en comportamientos atípicos. Desde la primera infancia hasta la adolescencia, estas transiciones definen nuestra capacidad adulta para interactuar adecuadamente dentro de nuestras comunidades. Estudiar ayuda estructurar nuestro pensamiento y comprender obras significativas realizadas en diversos ámbitos del saber."
+    },
+    {
+        "headline": "Casos de corazón:",
+        "content": "Romántico, cariñoso, de 43 años, originario de Cusco, busca establecer una conexión genuina con una damisela soltera dispuesta a compartir sueños futuros. Romántico, ingenioso, de 49 años, ansío conectar con una joven entusiasta capaz de apreciar momentos únicos compartiendo experiencias culturales y personales."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on headlines and associated contents while filtering out irrelevant information such as ads and non-article elements. Adjustments were made for clarity where necessary due to potential OCR inaccuracies.

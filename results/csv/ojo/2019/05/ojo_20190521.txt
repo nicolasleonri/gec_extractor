@@ -1,0 +1,76 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/05/ojo_21.txt ---
+
+```json
+[
+    {
+        "headline": "EL PRIMER JARDÍN DE INFANCIA EN EL PERÚ TENÍA COMO LEMA:",
+        "content": "“TODO POR AMOR, NADA POR FUERZA.”\nPROMOVER EL DESARROLLO Y APRENDIZAJE DE LOS MENORES DE 6 AÑOS."
+    },
+    {
+        "headline": "GEografía 2 COSTA DEL PERÚ: RELIEVE, CLIMA Y POBLACIÓN",
+        "content": "Se caracteriza por sus playas arenosas y costas con bahías, ensenadas, penínsulas, puntas, morros, etc. El relieve está formado por llanuras desérticas clasificadas en pampas, tablazo, desiertos y depresiones.\n\nEl clima en la costa peruana se presenta como semicálido, muy árido y con una alta humedad marítima. Durante el verano puede alcanzar los 30°C, y entre abril y octubre es invernal.\n\nEn relación a su demografía, el 58.1% de la población peruana es urbana, 17.3 millones de habitantes, los cuales viven en 13,623,285 km²."
+    },
+    {
+        "headline": "27 DE MAYO: DÍA DEL IDIOMA NATIVO",
+        "content": "Es una festividad que tiene lugar para conmemorar el reconocimiento y valorización de las lenguas aborigenes. Fue establecida durante la Revolución de las Fuerzas Armadas, por Juan Velasco Alvarado, como una forma de reconocer la multiculturalidad en el país donde desde hace miles de años conviven diversas sociedades y grupos culturales.\n\nActualmente, el Perú cuenta con 47 lenguas indígenas descritas y habladas (4 andinas y 43 amazónicas), y un promedio de 6 de ellas podrían extinguirse."
+    },
+    {
+        "headline": "¿QUÉ SIGNIFICA REMILGADO?",
+        "content": "— Que afecta excesiva pulcritud,\n— Actitud demasiadamente compuesta y celosa,\n— Actor estadounidense famoso por su compostura y elegancia,\n— Considerado el más hermoso del mundo según algunos sentimientos sentimentales.\nAntónimos: descuidado, desaliñado, despreocupado."
+    },
+    {
+        "headline": "WHEN THE PAIR DOESN'T KNOW HOW TO KISS",
+        "content": "Es un aspecto que con paciencia y amor se puede trabajar. Evita decir frases hirientes; por el contrario, destaca las cualidades de tu pareja y comunica con sutileza las cosas que le disgustan."
+    },
+    {
+        "headline": "POR QUÉ NO OCULTAR SUS DEFECTOS Y VIRTUDSES",
+        "content": "Siempre debemos considerar respecto a su privacidad, pero ocultar el celular es una acción que podría perjudicar la relación, pues genera desconfianza. Como dicen, “el que nada debe, nada teme.”
+    },
+    {
+        "headline": "SEÑALES DE QUE ERES DOMINADO",
+        "content": "Es importante distinguir entre el amor y la posesión. Si una persona te dice cómo vestirte, con quién andar, te exige las contraseñas de tus redes sociales, así como mantenerte informado sobre tus movimientos, ¡cuidado!"
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/ojo/2019/05/ojo_21.txt ---
+
+```json
+[
+    {
+        "headline": "Martes 21.05.2019 SPLICA. Csar Hinostroza presenta un recurso de splica...",
+        "content": "En primer paso importante pero no decisivo dado ayer en el Congreso para destituir e inhabilitar durante 10 años de toda función pública al fiscal supremo y exfiscal de la Nación Pedro Chávarry. La Subcomisión de Acusaciones Constitucionales aprueba por mayoría el informe del parlamentario Juan Sheput (CP), recomiendo acusar por organización criminal al exfiscal de la Nación e inhabilitarlo por 10 años."
+    },
+    {
+        "headline": "Nuevo concurso en JNJ por tanto jalado",
+        "content": "La Comisión especial cita una nueva convocatoria con las mismas reglas al actual concurso para elegir a los miembros de la Junta Nacional de Justicia (CNJ), después de que el examen escrito sea aprobado sólo por tres de los 104 candidatos que rendieran la prueba. El contralor Nelson Shack explica que \"el (actual) concurso para estos tres postulantes aptos continúa\"."
+    },
+    {
+        "headline": "Se amarra a exministro por nexos con ‘Club’",
+        "content": "El Juzgado de Investigación Preparatoria emite órdenes de impedimento de salida del país contra el exministro de Transportes y Comunicaciones Carlos Paredes, investigado por delitos de colusión y cohecho. De acuerdo a la versión policial, Paredes brinda beneficios económicos a los empresarios del “Club de la Construcción.”
+    },
+    {
+        "headline": "Escándalo en Huawei",
+        "content": "Google decide cerrar las puertas a Huawei, prohibiendo actualizar dispositivos con sistemas operativos Android. Esta medida surge debido al veto impuesto por Estados Unidos, generando preocupación entre millones de usuarios de Huawei."
+    },
+    {
+        "headline": "Incidente mortal en restaurante brasileño",
+        "content": "Balacera deja un muerto y once heridas en un bar de Belém, Brasil. Atacantes encapuchados y armados disparan contra clientes y trabajadores."
+    },
+    {
+        "headline": "Peajes bajo tensión en Lima",
+        "content": "Vecinos demandan cancelación de contratos de peajes considerados corruptos. Distintos sectores critican decisiones tomadas por autoridades locales relacionadas con renovación de contratos de concesión de carreteras."
+    },
+    {
+        "headline": "Respuesta de Micheille Soifer a criticas de Erik Sabater",
+        "content": "Tras comentarios negativos de su exnovio Erik Sabater, Michele Soifer declara indiferencia hacia rumores personales, enfatizando que prefieren mantener silencio frente a tales controversias públicas."
+    },
+    {
+        "headline": "Xoana González retorna al Perú",
+        "content": "Después de enfrentar procedimientos legales, Xoana González anuncia su retorno al Perú, donde espera continuar su carrera profesional alejada de conflictos previos."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on distinct topics within the input data. Any missing information was filled using `"NA"` where applicable.

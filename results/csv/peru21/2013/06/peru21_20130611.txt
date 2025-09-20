@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/06/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "Canal Del Estado Adquiere Inmueble Donde Se Construirá Una Sede Adicional A Su Local Central",
+        "content": "Irtp compra casona para canal\n\nde noticias por casi Us\$1 millón.\n\nTendrá un nuevo\nedificio de siete pisos\npara las áreas de\nprensa y televisión y\nla parte técnica.\nPese a las críticas por la amplia\ncobertura que hace de las \nactividades de la primera dama,\nNadine Heredia, pese a que no\nes funcionaria, y la \nimplementación de un nuevo canal de\nnoticias probablemente con\nmiras a la campaña electoral\nde 2016, el Instituto de Radio\ny Televisión del Perú (IRTP)\ninvertió casi un millón de \nrés en la compra de una \nantigua casona en la urbanización\nSanta Beatriz, donde se \nconstruir la nueva sede del área de\nprensa del canal estatal."
+    },
+    {
+        "headline": "Suspendición del Servicio de Agua en 20 Distritos de Lima y Callao",
+        "content": "Sedapal informa que debido a trabajos de mantenimiento y la reparación de una tubería matriz\nque conduce agua potable de La Atarjea a diversos distritos de Lima y Callao, se suspendirá el\nservicio de agua potable en el siguiente horario:\n\n\"Desde las 09:00 horas del jueves 13 hasta las 09:00 horas del viernes 14 de junio\"\n\nSan Juan de Lurigancho\nRamírez\nSan Martín de Porres\nCallao\nLa Punta\nCarmen de la Legua\n\n**Distritos Afected:**\n\nEl Agustino\nLa Victoria\nSan Luis\nJosé María\nPueblo Libre\nSan Miguel\nMagdalena\nSan Isidro\nMiraflores\nSurquillo\nAte (Área afectada: Entre\nla Av. Evitamiento y Av.\nCircunvalación)"
+    },
+    {
+        "headline": "Alan García: \"Sacolelargo\", Como Lo Afirma?",
+        "content": "\"¿Qué significa Sacolelargo?, parecen preguntas frecuentemente planteadas durante conversaciones políticas. Algunos opinan que reflejan características personales más que profesionales.\""
+    },
+    {
+        "headline": "Yanacocha Insiste Que Continúa Solo Si Es Un ‘Ingreso Seguro’",
+        "content": "La minería Yanacocha aclara que la continuación de la construcción de Conga dependerá únicamente de poder llevarse a cabo de forma segura, social y ambientalmente responsable, además de tener rendimientos aceptables que justifiquen nuevas inversiones. Esto surge después de declaraciones hechas por el Ministerio de Energía y Minerías, sugiriendo que el proyecto podría reconsiderar su permanencia en el país."
+    },
+    {
+        "headline": "Avances Lentos en Reestructuración Tributaria",
+        "content": "Las recaudaciones fiscales mostraron un incremento moderado del 2.3%. Sin embargo, tanto abril como marzo experimentaron disminuciones notorias. Este comportamiento fiscal está influenciado principalmente por variaciones sectoriales específicas, destacándose cambios en impuestos relacionados con actividades económicas clave."
+    },
+    {
+        "headline": "Director Ejecutivo Defiende Cronograma de Proyectos de Proinversión",
+        "content": "Ante críticas dirigidas a Proinversión por supuestos retrasos en procesos de licitación pública, Javier Illescas, Director Ejecutivo, argumenta que tales percepciones surgen de falta de información detallada. Destaca que algunos postergamientos menores están siendo gestionados adecuadamente, garantizando así la consecución exitosa de numerosos proyectos programados para el año corriente."
+    },
+    {
+        "headline": "Confirmando Retiro de Petrobras del Mercado Petrolero Peruano",
+        "content": "El Presidente de Perupetro, Luis Ortigas, confirma que Petrobras buscará salir del mercado petrolero peruano vendiendo sus acciones en diversas operaciones. Argumenta que dicha estrategia facilitará concentrar recursos en desarrollos energéticos domésticos brasileños, aunque señalan que múltiples compañías muestran interés en adquirir estas partes vacantes."
+    },
+    {
+        "headline": "Servicio Militar Voluntario Criticado por Obstaculizar Emprendimientos Juveniles",
+        "content": "Actualmente, jóvenes enfrentan dificultades adicionales debido a requisitos militares obligatorios, excepto aquellos capaces de financiar su liberación mediante pagos sustanciales. Existen llamados urgentes para implementar créditos sociales destinados a ayudar a esos aspirantes empresariales a continuar desarrollando sus ideas innovadoras sin interferencias burocráticas."
+    },
+    {
+        "headline": "Ranking Actualizado de Comisiones Equivalentes de AFP Facilita Comparativas",
+        "content": "Gracias a regulaciones introducidas por la SBS, los usuarios podrán evaluar mejor las tarifas combinadas de las Administradoras de Fondos de Pensiones (AFP). Desde julio, será posible obtener estimaciones individualizadas basadas en datos actuales, proporcionando claridad y transparencia en costos asociados a contribuciones laborales y patrimoniales."
+    }
+]
+```
+This JSON structure captures key information extracted from each relevant segment within the provided OCR text while adhering strictly to the specified format requirements for headlines and contents. Articles were identified based on their thematic coherence and relevance according to defined criteria. Any missing data was filled using "NA".

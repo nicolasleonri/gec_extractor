@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/10/elcomercio_20.txt ---
+
+```json
+[
+    {
+        "headline": "Cumple 10 años La Casa de la Literatura Peruana",
+        "content": "Un emblemático palacio para los libros y la investigación literaria."
+    },
+    {
+        "headline": "#EstoyAlerta Campaña Periodística",
+        "content": "Presenta #EstoyAlerta, una campaña periodística de prevención y denuncia sobre la inseguridad en Lima."
+    },
+    {
+        "headline": "\"Yo creo que el Perú se está desajudiando\"",
+        "content": "MARIO\nVARGAS LLONA\nESCRITOR PERUANO,\nPREMIO NOBEL DE \nLITERATURA 2010.\n\nOptimismo. \"Mi esperanza es que de todo esto resulte un movimiento sólido en favor de la democracia, de reformas profundas hechas con legalidad y libertad\".\n\nCriticón. "[Elegir al régimen de Maduro como miembro del Consejo de DDHH de la ONU] se debe a una ignorancia crasa de lo que ocurre en América Latina".\n\nHipotético. Equipo especial Lava Jato apunta a que existirá simulación y conversión de activos en terrenos de Las Casuarinas y casa de Asia. Bienes podrían ser incautados."
+    },
+    {
+        "headline": "Compras inmobiliarias del expresidente Alan García",
+        "content": "Según Luis Nava, García adquirió esta casa en Asia. Hábil hipótesis sugiere que podría haber simulación y conversión de activos."
+    },
+    {
+        "headline": "Sección Editorial Domingo 20 de Octubre del 2019",
+        "content": "\"La incapacidad para ejecutar los presupuestos de inversión pública tiene consecuencias directas sobre la economía.\" Editoriales destacan la necesidad de mejorar la eficiencia gubernamental más allá de aumentar simplemente el gasto público."
+    },
+    {
+        "headline": "Entrevista a Mario Vargas Llosa",
+        "content": "De su última novela 'Tiempo Recios', reflexionando sobre la situación política actual y comparándola con eventos históricos latinoamericanos. Discute cómo las fake news impactaron políticamente durante el periodo de Jacobo Árbenz en Guatemala."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while adhering strictly to the defined scope and goals for extraction. Articles were selected according to criteria such as having substantial textual information relevant to journalism standards outlined in the task description. Other sections like ads, notices, and non-article texts have been excluded following these guidelines.

@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/04/ojo_08.txt ---
+
+```json
+[
+    {
+        "headline": "SUHOGAR",
+        "content": "Juan Len vive en Pachactec, en un sector creado en las partes más altas de los cerros del distrito de Ventanilla, Una zona que sabe de sus idas y venidas tratando de ser un atleta de nivel – internacional, mientras sigue ganándose la vida vendiendo pulseras y subiendo y bajando por escaleras que en realidad son llantas recicladas.\n\nAquí vive con Lindsay, una nadadora que conoci en las terapias de hospital del Callao. Su prometida perdi una pierna a los 14 años por una herida mal curada luego de pisar un clavo oxidado. Ella también es nadadora y está postulando por un cupo para los Parapanamericanos.\n\nEl hogar de Juan hierve de calor porque...\n\nJuan Len perdió las piernas a los 27 años. Hoy tiene 31:\n\naños y luce muy bien gracias a la [...]\n\neColombia,\nantandores que\neran el doble de\naltos que él.\n\nHa ganado 4 medallas en su breve carrera deportiva: en el Open Loterías Caixa, medalla de bronce; en la competencia Abiertos Nacionales Barranquilla 2018, medalla de oro en la prueba de 200 metros libres; una de plata en 100 metros libres;\n(...)\n\nPara mis movilidades\"\n\nJuan Len Deportista\n\nEste hecho está hecho de bloques prefabricados de madera y cemento arenales. Pero aún así de tener una casa compuesta con su trabajo."
+    },
+    {
+        "headline": "ACTRIZ ESTUVO EN ESTADIO BRASILEÑO Y CELEBRÓ GOLAZO DE PAOLO GUERRERO",
+        "content": "Alondra García Miranda, el amuleto\n\nReconciliación cantada\n\n(...) \n\nEsa era a que ninguno de los dos ha querido confirmar que retomaran su relación, Alondra García Miranda fue captada en Brasil, precisamente en uno de los palcos del estadio donde se jugaba el partido del club de Paolo Guerrero, el Internacional de Porto Alegre de Brasil, con el que retornaba a las canchas.\n\nLa modelo pensó que iría a pasar desapercibida, pero no. Las cámaras de Globo Esporte captaron a la amiga de doña Petrita, madre del futbolista, muy sonriente en uno de los palcos, luciendo la misma mezeta oficial del equipo brasileño y avivando los rumores de su reconciliación.\n\n(...)
+    },
+    {
+        "headline": "FRANKLIN CASTELLANOS ANUNCIA DEMANDA A MISS TRUJILLO",
+        "content": "(...) \n\nFrancisco Guzmán Negripassi, negó totalmente su comentario en Twitter que había insinuado un nuevo romance después de ser captado junto a un misterioso hombre en una discoteca en Punta Hermosa. Esto sucedió cuando una usuaria le escribió lo siguiente: \"Susana Joaquín\".\n\nHermandad\n\nLos hermanos Yaipén chilenos bailan mix de (...)"
+    },
+    {
+        "headline": "DESCUBRIENDO EL PODCASTING COMO INSTRUMENTO EDUCATIVO",
+        "content": "\"Podcasting\", término derivado de iPod y broadcasting, representa una forma innovadora de educación digital. Este método permite crear contenido audiovisual accesible para estudiantes y profesores, ofreciendo flexibilidad temporal y espacial. Además, proporciona herramientas interactivas que pueden mejorar la experiencia de aprendizaje mediante recursos multimedia integrables directamente dentro de aplicaciones móviles dedicadas.\""
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Any non-article sections such as ads or unrelated information have been excluded according to specified criteria.

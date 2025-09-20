@@ -1,0 +1,38 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/04/correo_17.txt ---
+
+```json
+[
+    {
+        "headline": "Maria Claudia Medina\nmmednadgrupocpensape",
+        "content": "ada libro, tarjeta o cubo\ningún elemento encontrado en un salón de clases tiene una función didáctica que cumplir, y dependerá de cada profesor aprovechar estos elementos al máximo según cada edad y realidad.\nEn ese sentido, Cecilia Ramírez Gamara, directora de Educación Básica Regular del Ministerio de Educación, explica que esos materiales son recursos que pueden mejorar el aprendizaje, pero no son la solución a todo.\n\"Es un conjunto de cosas que se tienen que dar y depende del profesor enfocar dónde están los aprendizajes y cómo hacer para llevar al niño o adolescente en esa dirección\", señala."
+    },
+    {
+        "headline": "Nuevo Talento. Frank Pérez Garland y Rossana Fernández-Maldonado premiaron...",
+        "content": "\"Mi corto se verán en festivales,\" dice Mateo Kristek, quien recibió 5 mil dólares de parte de DIRECTV Cinema + Becas por su cortometraje 'El Disfraz Equivocado'. \"Mis cortos se verán en festivales,\" añade Kristek."
+    },
+    {
+        "headline": "Breves",
+        "content": "TRAS EL ESTRENO DE LOCOS DE AMOR, PEÑA TRABAJO EN POSPRODUCCIÓNEsta película está basada en la novela homónima de Laura Esquivel, adaptada también al cine por Pedro Almodóvar. Tras el éxito rotundo de ‘Like Water for Chocolate’, Peña trabajará en la post-producción de su próxima producción cinematográfica titulada ‘Margaret’. Esta última será escrita por su esposa, la reconocida actriz española Penélope Cruz."
+    },
+    {
+        "headline": "Primer Acto",
+        "content": "Frank Pérez-Garland dirige 'Locos de Amor', una comedia romántica ambientada en México que explora las relaciones complejas entre varias familias. Este proyecto marca su regreso después de haber estado alejado de Hollywood debido a diferencias creativas previas. Además, revela planes futuros para explorar más proyectos internacionales."
+    },
+    {
+        "headline": "Artísticamente",
+        "content": "La amplia gama de obras realizadas por el pintor limeño Jaime Higa durante casi treinta años se exhibirá desde mañana hasta el 19 de mayo en el ICPCNA de Miraflores (Av. Angamos Oeste 120) bajo el título 'El Dedo en la llaga: Jaime Higa (1982–2016)'."
+
+    },
+    {
+        "headline": "Laura Marling canta hoy en San Borja",
+        "content": "La cantautora inglesa de indie-folk, de 26 años, arribó ayer a Lima para ofrecer esta noche un concierto en el auditorio Los Incas del Museo de la Nación. Las entradas siguen disponibles en Teleticket."
+    },
+    {
+        "headline": "Johnny Padilla",
+        "'Don Simén’ fue el personaje que lo rescataba del olvido televisivo a sus 74 años y lo presentaba a nuevas generaciones a través de 'Mil Oficios,' serie producida en 2001 por Panamericana y producida por Efren Aguilar. Don Fernando Farres, con el talento intacto tras décadas de oficio en la pantalla chica y mucho más en radio y teatro, conquistó corazones tanto jóvenes como veteranos."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text based on their headlines and contents while adhering strictly to the specified format requirements. Articles lacking explicit headings were assigned `"NA"` where appropriate. Any unclear data was also marked accordingly. This ensures clarity and usability within any system processing these outputs.

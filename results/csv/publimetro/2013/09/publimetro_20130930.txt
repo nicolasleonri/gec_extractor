@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2013/09/publimetro_30.txt ---
+
+```json
+[
+    {
+        "headline": "LA FECHA 36 DEL TORNEO DESCENTRALIZADO SE JUGARA MITAD DE SEMANA",
+        "content": "Esta es la lista de los mximos anotadores del torneo.\n\nEduwin Gomez (Universitario)\nPuede reirse. La ‘Hiena’ anot cuatro goles y el español Soriano, dos. \nCompletaron Benisha y Man.\n\nEl equipo de la ‘Magia’ marcha primero con 22 puntos."
+    },
+    {
+        "headline": "EL PERUANO ROSSIEL RETUVOL EL TTULO MUNDIAL DE LA ASOCIACION MUNDIAL DE BOXEO AMB",
+        "content": "Rossiel retuvo por tercera vez consecutiva el título mundial de la Asociación Mundial de Boxeo (AMB), categoría minimosca,\ntras vencer al mexicano José Diablito’ Zúñiga.\n\n‘Dios me dió mucha fortaleza. Algo que nadie supo es que estuve lesionado pero me recuperé. Hice toda la pelea’, señaló el boxeador.”
+    },
+    {
+        "headline": "KENIATA ESTABLECE RECORD MUNDIAL EN MARATON",
+        "content": "Wilson Kipsang (31) logró la proeza al terminar la Maraton de Berlín (42k) en 2 horas, 3 minutos y 23 segundos superando el récord (2:03:38) del 2012 de su compatriota Patrick Makau."
+    },
+    {
+        "headline": "GRANDA REPRESENTARA AL PERÚ EN LOS JUEGOS BOIVARIANOS",
+        "content": "\"Ir al Perú por una medalla\". Julio Granda, ajedrecista peruano, expresó su intención de llevarse una medalla en los próximos Juegos Bolivarianos después de llegar a los octavos de final de la Copa del Mundo de Noruega."
+    },
+    {
+        "headline": "PER SUMA DOS OROS EN EL CIERRE DE LOS JUEGOS SOUDAMERICANOS DE LA JUVENTUD LIMA 2013",
+        "content": "Alexa Morey (16 años) qued primera en salto largo con 5,95 metros. Además, Luis Vera consiguió el bronce en 2 mil metros obstáculos."
+    },
+    {
+        "headline": "MEDRANO TRIUNFA EN TRITRIATHLÓN DE LOS ÁNGELES",
+        "content": "Rodrigo Medrano, joven triatleta peruano, dejó en alto el nombre del país al adjudicarse el primer puesto de la Triatlón de Los Ángeles, considerada una de las pruebas más competitivas de este tipo en Estados Unidos."
+    },
+    {
+        "headline": "DOBLE REENCUENTRO TEATRAL ENTRE BRERO E ISOLA",
+        "content": "Gianfranco Brero y Alberto Isola regresarán a compartir escenarios en la obra \"Do\", bajo dirección de Giovanni Ciccia, marcando así un emotivo retorno tras 20 años."
+    },
+    {
+        "headline": "CUENTA REGRESIVA PARA CUARTOS DE FINAL DE LUCHA LIBRO",
+        "content": "Este viernes arranca la fase eliminatoria de Lucha Libre, el popular reality show de lectura rápida, buscando determinar quién avanzará hacia la siguiente instancia."
+    },
+    {
+        "headline": "NIKO CHIESE PROPONE TOMARSE PROBLEMÁTICA SENTIMENTAL CON HUMOR",
+        "content": "Su monólogo \"Adanes y Evás\" presenta situaciones cotidianas relacionadas con relaciones sentimentales, explorándolas mediante el uso del humor."
+    },
+    {
+        "headline": "PRECANDIDATURA PERUANA A OSCARS ANUNCIA SUS PARTICIPANTES",
+        "content": "Entre las películas nominadas figuran producciones destacables como \"Whisky,\" protagonizada por Natalia Oreiro, y \"El Sonido al Rededor,\" reflejando diversas facetas culturales y sociales del Perú."
+    },
+    {
+        "headline": "CONGRESO INTERNACIONAL DE EMPODERAMIENTO FEMININO CELEBRADO EN SAN ISIDRO",
+        "content": "Organizado por WomenTheFrontier, reconocido jóvenes emprendedoras peruanas y discutiendo cómo utilizar tecnología para enfrentar desafíos sociopolíticos locales."
+    },
+    {
+        "headline": "¿ESTÁS ABUSANDO TU TIEMPO DE TRABAJO?",
+        "content": "Si notas signos tales como despertares anticipados incluso domingos, aumento de peso debido a largas horas sedentario, dolores musculares frecuentes, consumo elevado de cafeína y conoces a los turneros nocturnos, podría estar sobrecargando tus capacidades laborales."
+    },
+    {
+        "headline": "EMPRESA CONTRUCTORA BUSCA PERSONAL TÉCNICO",
+        "content": "Buscan incorporar profesionales técnicos en estructuras civiles, ingeniería de seguridad industrial y prevencionista de riesgos, ofreciendo condiciones flexibles incluida disponibilidad para trabajar fuera de Lima."
+    }
+]
+```
+This JSON captures key headlines along with corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on context clues such as topic shifts and structural elements like headings followed by detailed paragraphs. Any ambiguous sections have been interpreted conservatively according to typical journalism standards for clarity and relevance.

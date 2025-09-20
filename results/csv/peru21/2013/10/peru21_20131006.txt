@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/10/peru21_06.txt ---
+
+```json
+[
+    {
+        "headline": "Alza de peajes en Evitamiento causa caos vehicular y malestar",
+        "content": "Como si no fuese suficiente molestia verse obligados a pagar hasta S/.4 por un sorpresivo incremento de los peajes, miles de conductores tuvieron que soportar ayer una infernal congestion vehicular \u2014que se extendió por varias horas\u2014 en la Va de Evitamiento.\n\nAnte el inicio del feriado largo, cientos de familias aprovecharon ayer para salir de la capital. Sin embargo, lo que se suponia iba a ser un día de esparcimiento familiar terminó siendo una pesadilla por el caos que se registró en ambos sentidos de la referida va.\n\nLa concesionaria Va Que Limac comenzó justo ayer \u2014en que se esperaba una mayor carga vehicular\u2014 a aplicar el alza de los peajes: S/.4 para los vehículos livianos y S/.5 para el transporte público."
+    },
+    {
+        "headline": "\"Cómo van a cobrar más si es que no hay ninguna obra\"",
+        "content": "\u201CCómo van a cobrar más si es que no hay ninguna obra en Evitamiento que justifique esta medida\", expresó Carlos Peña, un conductor particular perjudicado.\n\nCon el transcurso de los minutos, el caos vehicular se volvió inmanejable para la empresa brasileña Va Parque Rímac, que está a cargo de la construcción del túnel que pasará por debajo del río.\n\nAs, a las 10:00 de la mañana, cientos de vehículos formaban filas de hasta un kilómetro en Evitamiento, a la altura de la garita ubicada en Monterrico. Frente a ello, la mencionada empresa se vio forzada a dejar de cobrar el peaje \u2014por momentos\u2014 a fin de aligerar el tránsito. Esta medida se replicó en horas de la tarde y de la noche, en las casetas de Monterrico, Santa Anita y Ramiro Prial."
+    },
+    {
+        "headline": "Próximos Incrementos",
+        "content": "Quién sí defendió la posición del municipio es Domingo Arzubiáldez, gerente General de Procuración de Justicia del distrito limeño, quién señaló que estaba estipulado en el contrato de 2009 (de la anterior gestión edil).\n\n\"Este incremento también podría generar nuevos aumentos de los peajes, pues usualmente coincide con el ajuste económico basado en la aplicación de la inflación y el IGV (impuesto que no se cobraba cuando Emapé administraba los peajes)\".\n\nRecordó que con el dinero recaudado se construye el túnel por debajo del río. \"Además, en octubre próximo estamos iniciando la construcción de un cuarto carril en ambos sentidos de la Va de Evitamiento\", manifestó."
+    },
+    {
+        "headline": "Exgin’ F 2 M P3 Armando Molina afirma que alza ‘es un abuso'",
+        "'No hay ninguna obra'\nThe increase in toll fees on the Viaduct Avoidance route constitutes exploitation against citizens since there hasn’t been any construction work initiated along said highway yet.\nThis was expressed by Armando Molina, former manager of the Company Administrator of Toll Fees of Lima (Emape), who pointed out that the Municipality of Lima uses “false arguments” to justify such measure.\n“Mr. Arzubiáldez tries to deceive us saying that, with money collected through these charges, we’re going to build roads and offer services like emergency mechanical assistance which already exists –since March– with units providing service.”
+    }
+]
+```
+Note: This extraction focuses on extracting distinct sections based on headlines within the provided text while maintaining their respective contents accurately according to the given task requirements. Some parts were merged due to continuity between related topics under similar themes. Adjustments might have occurred where necessary to ensure clarity and coherence.

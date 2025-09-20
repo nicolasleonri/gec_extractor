@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/06/gestion_18.txt ---
+
+```json
+[
+    {
+        "headline": "Creación de alfombras nacionales",
+        "content": "Fabricamos alfombras en fibra de lana y durán sobre medida de pared a pared, sin uniones ni costuras. Disponible en 60 colores."
+    },
+    {
+        "headline": "Argentina asegura imposible réplica cortocircuito eléctrico",
+        "content": "\"El secretario de Energía argentino Gustavo Lopetegui confirmó que son nulas las probabilidades de que se repita el masivo apagón que dejó sin luz a Argentina, salvo Tierra del Fuego.\""
+    },
+    {
+        "headline": "Muerte del expresidente egipcio Mohammed Morsi",
+        "content": "\"Mohammed Morsi, derrocado exprimer presidente islámico de Egipto, falleció a los 67 años después de sufrir un desmayo en un tribunal donde comparecía ante juicios.\""
+    },
+    {
+        "headline": "Irán amenaza límite pacto nuclear",
+        "content": "\"Iraníes declararon estar cerca de sobrepasar el límite establecido globalmente respecto a reservas de uranio de bajo enriquecimiento, intensificando conflictos nucleares con EUA.\""
+    },
+    {
+        "headline": "Previsiones demográficas mundiales",
+        "content": "\"Proyecciones señalan que India podría convertirse en el país más poblado antes de 2027, rebasando a China debido a cambios demográficos significativos.\""
+    },
+    {
+        "headline": "Editorial económico-peruano",
+        "content": "\"El modesto aumento del PBI en abril resalta preocupaciones públicas sobre gestión económica centrada principalmente en combatir la corrupción política, ignorando problemáticas económicas fundamentales como el empleo insuficiente y bajos ingresos.""
+    },
+    {
+        "headline": "Ciencias Sociales versus Ciencias Naturales",
+        "content": "\"Durante el XX siglo observamos importantes desarrollos tecnológicos y científicos, contrastándose con la menor atención otorgada a las Ciencias Sociales, aún cuando éstas juegan roles cruciales en políticas públicas exitosas.\""
+    },
+    {
+        "headline": "Empresarios anticorrupción",
+        "content": "\"Es crucial que los sectores empresariales adopten prácticas transparentes y éticas para contrarrestar fenómenos corruptos dentro de sus operaciones, destacando ejemplos positivos como GRA y Montero.”"
+    },
+    {
+        "headline": "Finanzas: Las AFP peruanas muestran mayores niveles de riesgos",
+        "content": "\"Las Administradoras Privadas de Fondos de Pensiones (AFP) peruanas presentan la mayor inversión regional en acciones internacionales, buscando diversificar riesgos y maximizar retornos futuros.”
+    },
+    {
+        "headline": "Entidades gubernamentales deben pagar deudas a AFP",
+        "content": "\"Existen numerosas entidades estatales que adeudan pagos a los afiliados de las AFP, sumando miles de millones de soles, demandando intervención urgente del gobierno central para solventar dichas obligaciones financieras."
+    },
+    {
+        "headline": "Investidores cautelosos en BVL",
+        "content": "\"Con la situación socio-política volátil y la desaceleración económica, los inversionistas están mostrando precaución en la Bolsa de Valores de Lima, evaluando cada acción cuidadosamente para mitigar pérdidas potenciales."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on contextually significant information related to current events, economic analysis, political developments, etc. Non-article sections such as ads, subscriptions, and unrelated data have been excluded according to guidelines.

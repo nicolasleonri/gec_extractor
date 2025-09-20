@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/11/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "RAÚL SE CONVIERTIÓ EN PRIMER PERUANO QUE GANA CAMPEONATO ESTADOUNIDENSE",
+        "content": "Raúl se convirtió en el primer peruano en ganar el campeonato nacional de Estados Unidos. El año pasado, Andy Polo se qued a un pase de conseguirlo: su equipo Portland Timbers perdió 2-0 en la final contra Atlanta.\n\nAdemás, Raúl se sumó a la larga lista de futbolistas nacionales que han conseguido ganar torneos nacionales en el extranjero: Jefferson Farfán (posee cuatro Eredivises con el PSV, una Liga árabe del Golfo con el Al-Jazira y una Premier League rusa con el Lokomotiv); Claudio Pizarro (seis Bundesliga con el Bayern Munich); Renato Tapia (una Eredivise con el Feyenoord); Yordy Reyna (dos títulos ligueros con el RB Leipzig de Austria), entre otros."
+    },
+    {
+        "headline": "CON EL SAINT ÉTIENNE \nMIGUEL TRAUCO ANOT EN FRANCIA",
+        "content": "Miguel Trauco vivió ayer su mejor momento desde que llegó a Francia. El lateral izquierdo anot y jug los noventa minutos en la victoria 3-2 del Stéphane contre Nantes, que contó con Christian Benavente por 70 minutos en el campo. Ambos se unirán ahora a la Selección Peruana para los amistosos ante Colombia y Chile.\n\nCon estos tres puntos, el Stéphane maintenant se sitúa en el cuarto puesto de la Ligue française, lo cual podría determinar una clasificación para competiciones internacionales en el 2020."
+    },
+    {
+        "headline": "-30- DT",
+        "content": "\"La actuación de Antony fue muy buena. Había perdido la confianza debido a haber sido criticado severamente. Gracias a Dios respondió\".\nAngél Comizzo\nEntrenador de Universitario de Deporte."
+    },
+    {
+        "headline": "LA HORA MÁS DECISIVA ALIANZA LIMA ESTUVIERON A LA ALTURA",
+        "content": "Intimos empataron 0-0 con Binacional y mantuvieron su posición líder del Clausura. Los dirigidos por Bengoechea fallaron dos penaltis.\nPedro Canal\nClásico Clausura\nTabla Posicional:\n(Equipos)\n(Pts)"
+    },
+    {
+        "headline": "LIVERPOOL PAINT THE PREMIER LEAGUE ENTIRE RED",
+        'content': "'Reds' defeated 3-1 against City and now lead by eight points after twelve rounds.\nThe red becomes more intense in the Premier League. It's the team led by Jurgen Klopp who crushes anyone standing in their way, most recently defeating Manchester City. With these victories, Liverpool has accumulated thirty-four points over twelve matches played, boasting eleven wins and one draw while remaining undefeated.'\nIn past seasons like 2017-18, City also ended round 12 leading by eight points but eventually won the title. However, currently, it seems Liverpool might clinch the league trophy not seen since 1989-1990 due to its impeccable performance.'
+    },
+    {
+        "headline": "CIENCIOANO VOLVERÍA A LA PRIMERA DIVISIÓN DESPUÉS DE CUATRO AÑOS",
+        "content": "The fans quickly filled up Estadio Garcilaso de la Vega upon learning about Cienciano’s victory. They beat Santos FC 4-2 securing promotion to First Division for the first time in four years. Despite goals scored towards the end by Ahmed and Alfani, Cienciano maintained control throughout the match."
+    },
+    {
+        "headline": "THIEM DERROTÓ A FEDERER EN INICIACIÓN COPA MAESTROS",
+        "content": "Dominic Thiem achieved his tenth win against Swiss legend Roger Federer during the opening day of London's Tennis Finals. This year again saw Thiem overcoming challenges posed by Federer across various surfaces including clay, grass, and indoor courts."
+    },
+    {
+        "headline": "TOROS BUENO SALVARON TARDE ACHERO",
+        "content": "Despite initial confusion regarding bull replacements, performances by Joaquín Galés, Miguel Ángel Pérez, and Paco Ureta saved the event. Bulls were crucial elements determining satisfaction among attendees paying high ticket prices worldwide."
+    }
+]
+```
+This JSON captures each identified article based on headlines and associated contents extracted from the provided OCR text input. Adjustments have been made where necessary to ensure clarity and coherence within the constraints given.

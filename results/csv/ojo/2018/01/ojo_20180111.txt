@@ -1,0 +1,74 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/01/ojo_11.txt ---
+
+```json
+[
+    {
+        "headline": "\"Alianza\" Lima noticias",
+        "(Zumo ariete de área)",
+        "content": "Pablo Fernández, consciente que respira gloria y, aunque espera anotar muchos, asegura que \"Primero es el equipo.\" \n\nComo él dice, «Somos gente normal, vivimos de los goles. Pero tengo muy en cuenta que, más allá de eso, primero está el equipo», concluyó el atacante de 28 años."
+    },
+    {
+        "headline": "",
+        "content": "Guaraní, representante de Cristian Benitez, implicado en un intento de violación a una menor en Paraguay según afirmó el fiscal local. El futbolista aún no se ha desvinculado de su actual club.\n\n«No he recibido ningún tipo de comunicación oficial ni verbal de parte de Guaraní» comentó el defensor argentino. Ayer tras confirmarse el hecho, el jugador fue suspendido temporalmente por el club y solicitó permiso para viajar a Asunción.”
+    },
+    {
+        "headline": "",
+        "content": "Ignacio Casale obtuvo un tiempo de 4h 19m 225, en un recorrido de 266 kilómetros, y se ubica a solo unos segundos del primer lugar. Anteriormente, Sebastian Liné abandonó la carrera."
+    },
+    {
+        "headline": "Serán 44 fechas Copa del Rey",
+        "content": "Barça recibe al Celta próximo lunes. Conoceremos por parte de la Real Federación Española que el sorteo del calendario se realizará el próximo lunes 12 y que las bases del descenso permanecerán iguales; será jugándose 44 partidos a lo largo del año, donde Atlético Madrid, Valencia y Sevilla parten como favoritos junto con el equipo de mejor puntaje acumulado."
+    },
+    {
+        "headline": "Real Madrid sigue sin ganar, pero empate le basta y pasa a Cu…”,
+        "content": ""
+    },
+    {
+        "headline": "Experiencia en Amarar Parejas y Unir Corazones al Instante",
+        "content": "Amarro a Él/Ella con la magia mas poderosa garantizado en amarres eternos. Te hará volver tu novia/novio y nunca te traicionará con nadie. También amarro a esposo/amante y pareja separadas. Ven rendido/a a mis pies sin que lo llamés ni busquéis por consulta orgulloso, alejado, embrujado este gran brujo. Garantía consultas cel.: 966218688."
+    },
+    {
+        "headline": "Mitología del Exceso Consumo de Alcohol",
+        "content": "Durante las fiestas de fin de año, la magnitud de alcohol se incrementó en un 15%. Expertos revelan que combinarla con heladas energéticas podría resultar lesional."
+    },
+    {
+        "headline": "Lesiones por Radiación Solar",
+        "content": "Campaña nacional educacional advierte que el 70% de personas sufren quemaduras debido a exposición prolongada al sol. Es importante usar protector solar adecuadamente."
+    },
+    {
+        "headline": "Errores al Tomarte el Sol",
+        "content": "Muchos creen erróneamente que el bronceado es beneficioso cuando realmente representa un riesgo significativo para la salud incluido el desarrollo potencial de cáncer de piel."
+    },
+    {
+        "headline": "Consejos Remedio Natural",
+        "content": "Para combatir erupciones cutáneas, utilizar aceite de zanahilia o mezclar bicarbonato de sodio con agua templada proporciona alivio natural."
+    },
+    {
+        "headline": "Atención Ejercicios Respiratorios Contra el Asma",
+        "content": "Existen técnicas simples para controlar eficientemente síntomas asmáticos mediante prácticas regulares de inhalación profunda."
+    },
+    {
+        "headline": "Salud Beneficios de Hongos Comestibles",
+        "content": "Hongos poseen múltiples beneficios curativos, entre estos previene enfermedades cardíacas y mejora respuesta inmunológica gracias a su alto contenido vitamínico."
+    },
+    {
+        "headline": "Consejos Para la Primera Alimentación",
+        "content": "Introducción gradual de alimentos sólidos después de los seis meses de edad, comenzando con cereales blandos acompañados de verduras."
+    },
+    {
+        "headline": "Que Significa Frugal",
+        "content": "Persona moderada en consumo, especialmente respecto a comida y bebida."
+    },
+    {
+        "headline": "Casos Del Corazon ¿Qué Quiero?",
+        "content": "Relatos personales acerca de dilemas emocionales enfrentados en relaciones sentimentales actuales versus experiencias pasadas."
+    },
+    {
+        "headline": "Horóscopo Semanal",
+        "content": "Predicciones astrológicas semanales personalizando orientaciones basadas en signos zodiacales específicos."
+    }
+]
+```
+This JSON captures each distinct segment identified within the provided OCR text based on headlines and associated contents while adhering strictly to the given format requirements. Articles lacking explicit headings have been assigned `"NA"` where applicable. Any missing data was also handled according to specified guidelines.

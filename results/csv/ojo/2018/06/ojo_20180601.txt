@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/06/ojo_01.txt ---
+
+```json
+[
+    {
+        "headline": "HERMANOS JELEN...",
+        "content": "Hermandad digital tras decisión judicial\n\nUtilizando su perfil público en Instagram, compartió detalles de la conversación previa con Paolo Guerrero antes de conocerse la decisión del Tribunal Federal Suizo.\n\n\"JeH’ry\", expresó su felicidad y gratitud tanto personal como pública respecto al regreso de \"Paúl\" a la Selección Nacional."
+    },
+    {
+        "headline": "España\nZINEDINE ZIDANE...\nLE DICHO ADIÓS AL REAL MADRID",
+        "content": "\"Fin de la Era Blanc\"", así tituló Zinedine Zidane durante una conferencia de prensa, revelando su salida del Real Madrid después de triunfar con tres Champions League consecutivamente, además de dos Supercopas de Europa y una Liga Española.\n\nExplicó que sentía necesario cambiar de aire dentro del club debido a nuevos retos futuros, mencionando también su intención de retirarse bajo circunstancias óptimas."
+    },
+    {
+        "headline": "Messi y ‘Sele’ Gibhan LANZAN UN MENSAJE DESPUÉS DE LLEGADA A BARCELONA",
+        "content": "Tras llegar a Barcelona, Lionel Messi junto a otros integrantes de la selección argentina comenzaron sesiones preparatorias enfocándose en el próximo encuentro contra Islandia en el mundial. Ambos equipos hicieron públicos momentos de camaradería mediante fotografías publicadas en plataformas digitales."
+    },
+    {
+        "headline": "Prevenir la Diabetes Tipo 2",
+        "content": "Con base en estudios recientes, Verena Haro sugiere consumir más frutas frescas para combatir riesgos asociados a la diabetes tipo 2, especialmente relevante dado el aumento de casos relacionados con obesidad. Además, destaca el éxito continuo del programa nacional de salud dedicado a estas enfermedades preventibles."
+    },
+    {
+        "headline": "Supersticiones mundanas",
+        "content": "Desde barrer de noche hasta romperse cristalería, diversas culturas mantienen prácticas basadas en antiguas tradiciones destinadas a protegerse de males mayores o simplemente asegurar buena suerte. Estas costumbres varían ampliamente dependiendo de regiones geográficas específicas."
+    },
+    {
+        "headline": "Medicina Incaica",
+        "content": "Los incas combinaban medicina natural y cirugía avanzada utilizando recursos naturales disponibles en su entorno. Practicaban técnicas innovadoras tales como trepanación craniana usando herramientas básicas hechas de piedra, evidenciando un nivel notable de comprensión médica para su época."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while excluding irrelevant sections such as ads, subscriptions prompts, etc. It maintains the structure required for each entry within the specified format constraints.

@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/06/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "‘Un matrimonio sólido’",
+        "content": "Marcelo Milesi señala que ‘hay que escuchar lo que dicen afuera, lo dice la calle’. Para él, ‘un comercial con modelos que parecen traídos de Suecia...no es el Perú.’ Lograr que esta idea se plasma en el discurso de una marca fue una tarea posible solo por la voluntad de agencia y clientev."
+    },
+    {
+        "headline": "Las claves",
+        "content": "Facturación. Circus factura anualmente $13 millones. Estrategia también incluyó políticas de contratación. En cuanto a clientes nuevos, existe la necesidad de decir que no cuando buscan resultados rápidos sin comprender el trabajo detrás.”
+    },
+    {
+        "headline": "Johnny Walker lanza “From The Future” en Lima",
+        "content": "Johnnie Walker estrena en Perú la campaña global “From The Future,” celebrando el progreso personal de los consumidores. Esculturas reflejan interpretaciones personales del progreso. La marca relaciona historias locales con temas globales."
+    },
+    {
+        "headline": "Er… Que?",
+        "content": "Se discute cómo el FC Barcelona cometió fraude fiscal según la Agencia Tributaria española después del fichaje de Neymar. Los técnicos resaltaron pagos ocultos durante el traspaso. Además, figuran implicaciones legales contra exdirectivos."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable, though none was necessary here due to sufficient information being present within each segment identified.

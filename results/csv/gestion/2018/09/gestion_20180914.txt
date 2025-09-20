@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/09/gestion_14.txt ---
+
+```json
+[
+    {
+        "headline": "Nuevo Reglamento Aplicable Norma General Antielusiva",
+        "content": "El gobierno estableció la responsabilidad automática de los representantes legales (gerentes generales y otros) de las empresas que participe en una transacción que la SUNAT califique como elusiva de impuestos. Mediante el Decreto Legislativo No 1422, que modifica la Ley del Impuesto a la Renta, se dispone que los gerentes responderán con su patrimonio propio si colaboren en el diseño o en la aprobación o ejecución de actos, situaciones u otras que tuvieran como única finalidad reducir el impacto fiscal."
+    },
+    {
+        "headline": "Cambios Tributarios Generan Incertidumbre Entre Empresas",
+        "content": "Las modificaciones tributarias hacen más difícil el pago del Impuesto a la Renta y el IGV para las empresas, pues, por regla general, los criterios de determinación de cada impuesto no coinciden. Según Miguel Alonso Juape Pinto, el Gobierno, mediante Decreto Legislativo No 1425, modificó la Ley del Impuesto a la Renta y estableció una definición para el concepto de \"devengado\" respecto de los ingresos y gastos de los contribuyentes, para así poder determinar la oportunidad de la obligación del pago de los impuestos."
+    },
+    {
+        "headline": "Perspectivas Negativas Para Terrenos Industriales Mantienen Precios Estacionarios",
+        "content": "\"La falta de demanda lleva a que estos espacios, principal mente los standalone, tengan caídas de precio de 10% a 15%\"," señala Sandro Vidal, gerente de Investigación de Colliers International. La situación económica adversa junto con la percepción de riesgos políticos están influyendo significativamente en el mercado industrial, especialmente en áreas fuera de los principales centros urbanos."
+    },
+    {
+        "headline": "Crece Mercado de Cosméticos Menos Que Esperado Durante el Año",
+        "content": "Angel Acevedo, presidente del Comité Peruano de Cosmetología e Higiene (Copemcoh), indica que el mercado logró crecer sólo un 2.3% en el primer semestre del año, mientras que inicialmente se había pronosticado un aumento superior al 8%. Factores externos como problemas de corrupción también han influenciado el rendimiento del sector cosmético."
+    },
+    {
+        "headline": "Expectativas Apuntan a Repunte de Pick-Ups Después de Caída en Ventas",
+        "content": "Edwin Derteano, presidente de la Asociación Automotriz del Perú (AAP), menciona que después de registrar una disminución considerable en las ventas de pick-up en agosto, existe una anticipación de recuperación gracias a las próximas innovaciones en modelos disponibles. Esta mejora podría ayudar a mitigar algunos de los efectos causados por cambios impositivos y tensiones políticas."
+    }
+]
+```
+This JSON contains extracted information about significant topics covered within the provided newspaper text while adhering strictly to the given format requirements. It includes headlines where applicable and merges relevant details under each topic's `content` key for clarity and coherence.

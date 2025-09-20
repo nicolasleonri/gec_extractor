@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2018/01/elcomercio_28.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista\nCayetana Aljovín",
+        "content": "\"La crisis ya \nn\u00f3 es solo de \nVenezuela, sino \nd[e] la regin\"\nP\u00fablicamente, la Ministra de Relaciones Exteriores Cayetana Aljovín expres\u00f3 que el Per\u00fa no reconoce el resultado de las elecciones venezolanas bajo las condiciones actuales. Ella enfatiz\u00f3 la importancia de cumplir con todas las normas necesarias para considerar leg\u00edtimas dichas elecciones.\nDurante una entrevista, destac\u00f3 que aunque el Per\u00fa debe invitar a todos los estados durante eventos multilaterales como la Cumbre de las Américas, esto no significa aceptaci\u00f3n autom\u00e1tica de decisiones controvertidas tomadas por algunos gobiernos invitados."
+    },
+    {
+        "headline": "Editorial",
+        "content": "\n\"...exhortamos [...]\nal Ministro Público investigue el financiamiento de los candidatos favoritos en los últimos procesos electorales.\" Este comentario refleja preocupación sobre cómo figuras políticas podrían beneficiarse ilegalmente de fondos externos, basándose en afirmaciones previas de Marcelo Odebrecht relacionadas con prácticas corruptas. Sin embargo, existe resistencia política significativa hacia estos reclamos, evidenciada por repetidas denegaciones públicas de involucramientos indebidos por parte de líderes afectados."
+    },
+    {
+        "headline": "Política",
+        "content": "- Tras la cita del Grupo de Lima,\nENTREVISTA\nCayetana Aljovín\nMinistra de Relaciones Exteriores\n\"La crisis ya \nono es solo de \nVenezuela, sino \nda la región\"\nSegún la Ministra, el Perú no reconocerá resultados electorales en Venezuela hasta que cumpla con estándares democráticos claros. Además, señaló que mientras el país organiza conferencias multinacionales, sigue siendo crucial mantener principios éticos y legales en tales encuentros."
+    },
+    {
+        "headline": "POLÍTICA",
+        "content": "Tras la cita del Grupo de Lima\nENTREVISTA\NCayetana Aljovín\nMinistra de Relaciones Exteriores\n\"La crisis ya \nosolo es de \nVenezuela, sino \nde la región\"\nDiscutiendo más sobre la situación en Venezuela, la Ministra indicó que el Perú mantendrá una postura firme frente a violaciones potenciales de derechos civiles y falta de integridad electoral. También tocó puntos críticos sobre la gestión regional de migraciones derivadas de conflictos sociopolíticos."
+    }
+]
+```
+This JSON captures four distinct sections identified within the provided input based on their headlines and contents related to political discussions around Venezuelan elections and internal policy stances. It excludes non-article elements like ads, editorials unrelated directly to specific events, and other irrelevant information according to given guidelines.

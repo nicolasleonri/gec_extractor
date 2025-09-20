@@ -1,0 +1,88 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/09/ojo_30.txt ---
+
+```json
+[
+]
+```
+The provided input does not include any substantial journalistic content such as full-length articles, headlines followed by corresponding bodies of text, which would qualify for extraction based on the given criteria. Therefore, the resulting JSON array is empty.
+
+--- ERROR ENTRY: data/txt/ojo/2018/09/ojo_30.txt ---
+
+```json
+[
+    {
+        "headline": "Oligarios no respeten derechos laborales",
+        "content": "Al menos 300 trabajadores\nres de tres colegios particulares de Lima Sur\namejan sus labores sin contar con los derechos\nlaborales de ley, detectó Su representación\núnica de la Fiscalización Laboral (Sunafil).\nLos centros educativos,\n ubicados en San Juan de Miraflores y Chorrillos,\n contratan 100 docentes\nmensuales remuneradas, (CTS y)\nde prestación de salud\nen el seguro social.\nas ‘colaboradores’ cuando, por las condiciones\ny la actividad que realizan, deberían estar\nen planilla para gozar,\npor ejemplo, de remuneraciones justas por ocho\n horas de trabajo, vacaciones pagadas, etc."
+    },
+    {
+        "headline": "Opinan los Lectores",
+        "content": "Creéis que el fujimorismo blinda al juez Carlos Hinostroza?\nPregunta respondida en OJO.LIMA\n¿Crees que las encuestadoras mienten para orientar el voto?"
+    },
+    {
+        "headline": "Luis XVI",
+        "content": "lideresa de Fuerza Popular (FP), Keiko Fujimori,\nnegó un pacto por la impunidad con el suspendido juez supremo Carlos Hinostroza y el fiscal de la Nación, Pedro Chávarry, quienes según él trataban con guantes blancos. Por Facebook, Fujimori anunció un ‘comunicado oficial’ en su web… y ‘una persecución política que amenaza el honor de las personas’. ‘Eso no es periodismo. A los periodistas les corresponde el compromiso de honrar su profesión, invitarlos a informar la realidad completa y con equilibrio, pues no puedes ser cómplice de rumores con menciones sutiles y perversas’, recalca."
+    },
+    {
+        "headline": "ASESORÍA LEGAL",
+        "content": "‘Pedimos el control del Congreso, señores de Fuerza Popular.’ Irresponsables que sean denunciados como cabezas de organización criminal, opina Yesenia Atienza (Acción Popular)"
+    },
+    {
+        "headline": "Assumen costo político del ‘blindaje’ a Vocal",
+        "content": "'Decíamos dispuestos a cumplir los costos políticos que demanden nuestras decisiones,’ exclamó la vicepresidenta de Fuerza Popular, Rocío Silva Santiesteban, al juez supremo Carlos Hinostroza y Walter Delgado exmiembros del Consejo Consultivo de la Magistratura (CMCN). Reiteró que los fujimoristas no tienen ninguna vinculación con esos llamados Blancos del Puerto.”
+    },
+    {
+        "headline": "POLICIAL HERIDO POR ASALTANTES",
+        "content": "Un agente de la Policía Nacional resultó herido más tarde después de ser atacado por unos pistoleros cuando custodiaba el local de la Oficina Descentralizada de Control Interno (ODCi), en el distrito de Independencia. Una balacera comenzó cuando el suboficial de tercera Darwin Mogollón Iparraguire estaba vigilando junto a otro compañero el mencionado local. Cuando quedó solo, cuatro hombres a bordo de motocicletas llegaron hasta el local, para luego disparar contra el agente. Tras reducirlos, los ladrones se apropiaron de la arma de fuego del suboficial y de su teléfono móvil."
+    },
+    {
+        "headline": "PODEMOS DENUNCIA ATAQUES",
+        "content": "Ante la prensa, la ONPE desmintió las acusaciones sensacionalistas que buscan perjudicar a nuestro partido. Doctor Enrique Wong Secretario General Podemos Per afirma que están primeros en las encuestas en Lima con su candidato, el general Daniel Urresti."
+    },
+    {
+        "headline": "AGENTES RECUPERAN ARTIFICIOS ROBADOS",
+        "content": "Lograron recuperar una largaleta llena de explosivos, que había sido robada por tres pistoleros. Agentes de la División Antidelincuencia Urbana frustraron el asalto de camiones de artefactos en Huaral."
+    },
+    {
+        "headline": "EL PRESIDENTE EVÓ MORÁLES CONFÍA EN SENTENCIA DE CORTE IDHA",
+        "content": "Expresa que nunca dejarán de buscar sus territorios marítimos y asegura que su reencuentro con Chile es inevitable."
+    },
+    {
+        "headline": "FRANCISCO INVITA REZO MES OCTUBRE",
+        "content": "Para liberar a la Iglesia de los ataques demoniales. Además, insta a practicar mayor consciencia de errores históricos dentro de la iglesia."
+    },
+    {
+        "headline": "JEFE PROTESTA TRABAJO REGULARIZACIÓN DOCUMENTOS PERSONALES",
+        "content": "Recurso interpuesto por expresidnete peruano Kenji Fujimori argumenta falta de legalidad en documentos requeridos por fiscales."
+    },
+    {
+        "headline": "AGRESIÓN POLICIACA RESULTA EN BALACERA",
+        "content": "Dos policías murieron en Mississippi debido a un tiroteo involucrado con múltiples incidentes similares en Estados Unidos."
+    },
+    {
+        "headline": "BOLETINES ELECTORALES CAMPAÑA URRESTI",
+        "content": "Promete bajar tarifas del transporte público y mejorar seguridad mediante nuevas estrategias urbanísticas."
+    },
+    {
+        "headline": "CRISIS INTERIOR CHILE POSTURA DEMOCRÁTICA",
+        "content": "Presidente Morales critica posturas internacionales respecto a conflictos diplomáticos latentes."
+    },
+    {
+        "headline": "CARDINAL CRITICA PUBLICIDAD ELECTORAL",
+        "content": "Cardenal Juan Mis Cipriani advierte sobre mensajes publicitarios electorales comparándolos con una enfermedad cultural."
+    },
+    {
+        "headline": "RESULTADOS ENCUESTA IPSOS MOVILIZAN STRATEGIAS",
+        "content": "Simulacro muestra cambios significativos en preferencias electorales afectando tácticas campañas principales."
+    },
+    {
+        "headline": "BELMONDT MINIMIZA CAÍDA POSICIONAMIENTO",
+        "content": "Defensor de mantener integridad moral enfocado en combatir problemas sociales persistentes en Lima."
+    },
+    {
+        "headline": "PROGRAMA TEATRAL INAUGURAL",
+        "content": "Teatro presenta obra protagonizada por reconocidos artistas locales destacando talento regional."
+    }
+]
+```

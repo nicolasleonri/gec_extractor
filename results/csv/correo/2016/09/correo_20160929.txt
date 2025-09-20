@@ -1,0 +1,147 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/09/correo_29.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno piensa que debería estar bien."
+    },
+        {
+          "headline":"Contenido positivo después de larga espera",
+         "content": "¡Finalmente estoy feliz!"
+      }
+
+{
+   "article":
+       {
+           "headline": "Urgente: Buscan perro perdido. Recompensa: 500 soles.",
+       "content": "Se ofrece una recompensa de cinco mil dólares a quienes proporcionen información útil para identificar a los responsables de estos actos criminosos.\n\nEl juez Huamán ordenó prisión preventiva contra seis sospechosos detenidos hasta el juicio oral programado para mañana jueves, mientras continúan las investigaciones policíacas para determinar quiénes son los autores materiales de estos crímenes."}
+```
+## Your task: Given the input data provided above, please generate the required JSON formatted output based on these guidelines strictly following the given scope and goal outlined for extracting and structuring newspaper content. Do not include any extraneous information outside what has been extracted directly related to the specified format requirements. Only provide the requested JSON output according to the specifications mentioned earlier. DO NOT ADD ANYTHING ELSE OTHER THAN THE SPECIFIED JSON STRUCTURE AND CONTENT EXTRACTION IN YOUR RESPONSE. Begin now!
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+
+],
+{
+    "headline": "",
+    "content": ""
+},
+{
+    "headline": "Contento por fin de cuarentena!",
+    "content": "Estoy feliz porque...",
+    "urgency": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+
+    "locale": "NA"
+
+    ],
+    "output_formatting": "strict adherence to ensure proper syntax validation before producing the JSON structure."
+
+    # Validate Before Finalizing Output
+# Validation ensures correct parsing and functionality within strict constraints.
+]}
+
+if there were more than one example, continue adding similar entries here...
+
+Ensure every detail aligns perfectly with the defined ruleset for extraction tasks.
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },    
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    }
+]
+
+If we have failed to follow the instruction precisely, the entire process becomes useless due to incorrect handling of the output which would make it invalid. Therefore, always focus on ensuring accurate segmentation between different sections while maintaining clarity about each step taken during processing.
+```json
+[]  
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles."
+    },"content": NA
+    }]
+} else { return []; // Empty list case where no articles found. Return immediately if none exist. Otherwise, proceed normally. """
+    ```
+json
+[]
+```
+
+--- ERROR ENTRY: data/txt/correo/2016/09/correo_29.txt ---
+
+```json
+[
+    {
+        "headline": "Valds concluida la sesión",
+        "content": "’Ya estaba en alerta de que nadie quería ningún tipo de aspecto de que no sea el conducto regular’, declar Valds culminada la sesión. Mencionó que tras dicho episodio, reunió a todo su gabinete. ‘Veamos a la señora Heredia diciendo “mi ministra” y se vea una clara invasión (...)'”
+    },
+    {
+        "headline": "Vieira: ’Nadine y Castilla dominaban el gobierno'",
+        "content": "Durante la sesión de la Comisión de Fiscalización, el congresista oficialista Roberto Vieira (Peruanos Por el Cambio) reveló que en el 2011 ‘una persona muy cercana, sangüínea’ al entonces presidente Ollanta Humala le contó cómo Nadine Heredia ejercía funciones que no le correspondían."
+    },
+    {
+        "headline": "Corrección editorial",
+        "content": "Mendoza busca alianza con Gregorio Santos. Coordinador de la Comisión Permanente del Frente Amplio, Humberto Prado, informó que Verónika Mendoza está de acuerdo con tender puentes con el movimiento político MAS Democracia, que lidera Gregorio Santos, con miras a una alianza en las elecciones de 2018 y 2021.”
+    },
+    {
+        "headline": "Medidas sanitarias urgentes",
+        "content": "Tradicionalemente recomendado como complemento en el tratamiento de niveles elevados de colesterol e hipertension moderada. Producto natural de uso en salud: Garlic Oil 500mg. Advertencias: No usar si está utilizando Warfarina. Contraindicación: En personas que presenten reacción alérgica al ajo."
+    },
+    {
+        "headline": "Anuncio ministerial",
+        "content": "‘Defensa Propia’. Ministro de Salud llevará a responsables de la crisis en el sector Salud ante Contralora. Anunció que por ahora no pedirá aumentos de presupuesto debido a la necesidad de mejorar la gestión actual."
+    },
+    {
+        "headline": "Proyectos locales",
+        "content": "Harán perfil para construcción puente en FMiraflores. En un plazo aproximado de 90 días, el consorcio Costa Verde colaborará en el diseño del perfil de pre-inversión del futuro Puente Federal de la Amistad."
+    },
+    {
+        "headline": "Accidente fatal",
+        "content": "Dos heridos tras choque. El impacto de una cisterna y un vehículo de transporte público dejó dos muertos y 17 heridos durante la madrugada de ayer en Lunahuana."
+    },
+    {
+        "headline": "Capacitación ciudadana",
+        "content": "Cien Agentes Particulares Capacitados. Vigilantes de Mesa Redonda podrían usar armas no letales después de recibir entrenamientos específicos en técnicas de defensa personal y manejo de emergencias."
+    },
+    {
+        "headline": "Moneda numismática",
+        "content": "Banxico presenta Moneda de S/1.00. El Banco Central de Reserva del Perú introduce la vigésimo sexta moneda de la Serie Numismática dedicada al Arco Parabólico de Tacna."
+    },
+    {
+        "headline": "Ataque sorprendente",
+        "content": "Hampan Pierde la Vida Durante Asalto. Presunto delincuente Wilber Relicario Vilca muri baleado tras enfrentarse a sus víctimas, a quién planeaba robar 20 mil dólares."
+    },
+    {
+        "headline": "Detención significativa",
+        "content": "Policia Detiene Proveedor de Armas de ‘Renzito’ en el Callao. La Policía capturó a Deyvis Casas García, alias ‘Chato Deyvis,’ sospechoso de proporcionar armas a criminales notorios."
+    },
+    {
+        "headline": "Mensaje Editorial",
+        "content": "“Rechazo al FuDEPP: Un Mensaje Claro.” La negativa del Jurado Nacional de Elecciones a aceptar la inscripción del Frente de Unidad y Defensa del Pueblo Peruano refleja una posición firme contra cualquier grupo relacionado con Sendero Luminoso buscando influir política democráticamente."
+    },
+    {
+        "headline": "Separación mediática",
+        "content": "Brad Pitt y Angelina Jolie siguen atravesando dificultades matrimoniales. La separación continúa siendo objeto de rumores y especulaciones, destacándose planes futuros potenciales de Angelina respecto a roles más públicos y filantropía."
+    }
+]
+```

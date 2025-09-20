@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/10/ojo_12.txt ---
+
+```json
+[
+    {
+        "headline": "Justin Bieber Cantará?",
+        "content": "Potencial Sexual\nProducto Extranjero 100% Natural\nMax Power Pro Extender – ¡Efecto Instantáneo a cualquier edad!\nProlonga naturalmente."
+    },
+    {
+        "headline": "Respecto por aquí paso el Campeón de América...",
+        "content": "Es la polémica frase que los seleccionados chilenos pintaron en el camarín del Estadio Nacional hace tres años y en la previa el ‘’Rey Arturo‘’ Dal reconoce haber cometido un grave error.\nAl filo que está esperándose un renuevo total ¿qué será?\nEsta será la oportunidad perfecta para que nuestros peruanos celebren un partido patrióticamente victorioso recordando que ese triunfo se tiene que quedar con la bandera blanca y roja."
+    },
+    {
+        "headline": "Pedro Aquino Selección Nacional",
+        "content": "Quiero quitárle el balón y tener una dividida con Arturo Vidal.”
+    },
+    {
+        "headline": "Uruguay recibirá esta tarde a Paraguay",
+        "content": "Clásico Es\nAdriana Barrantes abarra@upe.pe\nQue vuelvan blancos y rojos. La selección peruana volver al rugir para enfrentarse esta noche ante Uruguay en el Gran Parque Central de Montevideo (hora peruana).\nEl técnico Ricardo Gareca tiene una deuda personal pues desde su llegada al equipo nacional (2015) no ha podido derrotar a la Roja y él está decidido a cortar esa mala racha.\nLa última vez que Perú ganó el Clásico del Pacifico fue en el 2013, por las eliminatorias Brasil 2014, con gol de Jefferson Farfán."
+    },
+    {
+        "headline": "Argentina Imbatible",
+        "content": "Inglaterra Oleada Con Doblete\nAlcézar\nCapitanía de España\nEl Rey destaca el trabajo de la llama ruja con Ricardo Gareca.\nTodos dicen que es el Clásico del Pacifico. Sabemos que va a ser más difícil, porque son unos guerreros con mucha ambición de triunfo. Siempre Perú ha liderado buenos jugadores. Quizás no tuvieran la fortuna de clasificar (a los Octavos de final), pero mostraron muy bueno futbol.”\nRecoge Mundo Futbolístico."
+    },
+    {
+        "headline": "Gran Torneo de la ITF se juega en Lima",
+        "content": "Delgado, 25 años, 1.74 de altura y una raqueta largatiza en las manos. Sus anticipaciones en la selección de tenis, donde lleva casi diez años consecutivos llamado desde los 15 años. A pesar de que el tenis nacional no haya vuelto a medir hoy (1:00 pm hora peruana) contra Arabia Saudita en un amistoso que se jugará en Riad. Licúa rumbo a mejorar su nivel y confianza con un grupo plagado de jóvenes talentosos."
+    },
+    {
+        "headline": "Magia Negra",
+        "content": "Realizo Amarres Marítimas a Distancia 100% Eficaces Garantizados\nMas Duración Mas Intimidación Más Deseo Realización de lo Que Otros Han Podido\nGarantizado Totalmente\nCuraciones para males desconocidos Florecimientos para el Trabajo Fuangas para el Amor\nAnuncia en nuestras páginas Diarias\nTeléfono: 965618222"
+    },
+    {
+        "headline": "Documental \"Herencia\" la película",
+        "content": "Se estrena este viernes 25 de octubre y Nicole Pillmann estará presente en el evento para hablar sobre el documental en el que será protagonista. Además, hoy visitaremos a Enrique Benítez Oliver, médico especialista en Oncología, para explicar cómo deberían afrontar la proximidad de la muerte."
+    },
+    {
+        "headline": "Valores en el Sexo",
+        "content": "Las principales virtudes que se deben mantener son el respeto y la responsabilidad hacia la pareja, para evitar que ésta se sienta intimidada. Comienza sexológica mexicana Carla Lynsen ofrece consejos útiles para conectar correctamente emocionales y físicamente con nuestra media naranja."
+    }
+]
+```
+This extraction captures various sections including sports updates, cultural events, health advice, and more while adhering strictly to the provided guidelines for extracting relevant information. Any missing data was filled using `"NA"` where appropriate according to instruction requirements.

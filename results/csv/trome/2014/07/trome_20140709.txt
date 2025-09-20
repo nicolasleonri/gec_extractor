@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/07/trome_09.txt ---
+
+```json
+[
+    {
+        "headline": "Conectados al mundo",
+        "content": "Gary llegó al restaurante por unos espectaculares rocotos rellenos, adobo de chancho y una ración de ansalsa calientito para bajar la grasita. \"¡Mara!, ¡estoy orgulloso de trabajar en Trome! Somos el diario más grande del país con más de 700 mil ejemplares en todo el Perú... Tal para el trabajo, el entretenimiento y para que nuestro hijos hagan las tareas."
+    },
+    {
+        "headline": "EXAMEN ESPECIAL A LA UNIDAD LOGÍSTICA SAN JUDAS TADEO",
+        "content": "Gracias por el milagro del hospital San Juan de Lurigancho. Publicaciones concedidas JOSE LUIS L. publica en: Tiene mucho que decir Era quédate alerta (por: Encuesta)"
+    },
+    {
+        "headline": "¿CREES QUE ALEMANIA CAMPEONARA EN BRASIL 2014?",
+        "content": "Conteste en: www.trome.pe\nEl Tuí\" Del día Hoy:\nEduardo heduardo50\nPor eso Odebretchter cometiendo jugándoselo solos en la cancha, y con un árbitro que los favoreció.\nTome precauciones."
+    },
+    {
+        "headline": "DEFIENDA AL ZAQERO QUE LESIÓNÓ A NEYMAR",
+        "content": "\"Paramás, no hubo mala intención en la lesión de Casemiro Zigão a Neymar. En los vídeos se ve claro que él sólo mira la pelota y cuando trata de rechazarla, se encuentra al brasileño. Por eso salta y extiende las piernas para no darle de lleno con las rodillas en la espalda. No logra, pero evita un choque más aparatoso.\" Robésto Huapaya T. – rob_i_tohyual@yahoo.es\nSin embargo, la FIFA decidió sancionarlo después de analizar los vídeos del lamentable incidente, que deja a Neymar fuera del mundial. Sin embargo, el brasileño Thiago Silva, quién estaba cerca, dice que no fue un juego ‘normal’.”
+    },
+    {
+        "headline": "MASACRARON Y ESTRANGULARON A ABOGADA",
+        "content": "Después de 38 días de minuciosas pesquisas, los peritos forenses del ministerio público determinaron que la abogada Susan Claudia Vasquéz Perea (39) fue golpeada y estrangulara, descartando así la versión del esposo, quien dijo que ella se había suicidado, en Carabayllo. Los hermanos de la víctima afirmaron que recibieron el informe del protocolo necropsía donde se indica que la mujer tenía treinta señales en todo el cuerpo y un doble surco en el cuello."
+    },
+    {
+        "headline": "EXPOLICE DISPARA A HIJO DROGADICTO POR DINERO",
+        "content": "Un expolicía fue arrestado y acusado de dispararle a su hijo drogado, porque lo atacó por dinero, en el Rmac. Juan Miranda-Salinas (65) hirió en ambas piernas a su hijo Patrick Miranda Ramírez (32), quien emborracho y drogado le exigió dinero y lo amenazó con golpearlo con un palanchador de ropas."
+    },
+    {
+        "headline": "MATAN A NEGOCIANTE EN MC DONALDS'",
+        "content": "Mafia Colombiana Habrá Matado a Negociante Nicolai Braga por Deuda. Fuente Extranjera. Detuvieron a narcotraficante y su esposa, a los cuales culpan de cobrar 5 mil dólares semanales para hacer ingresar a la Universidad San Marcos sin dar examen."
+    },
+    {
+        "headline": "CORTE CUÉLLO A MOTOTAXISTA",
+        "content": "Al borde de la muerte qued el mototaxista Hector López-Figueroa (33) luego de pelear con su vecino, el pintor Ovidio Cabrera-Rojas (33), quien le cortó el cuello con el pico de una botella, tras descubrir que tenía una relación con su hijastro, en Independencia."
+    },
+    {
+        "headline": "REGRESA EL CAMIONAZO CON LAS MEJOR OFERTAS",
+        "content": "No te pierdas estas increibles promociones desde el 7 hasta el 10 de Julio de 2014!"
+    },
+    {
+        "headline": "GRATIFICACIÓN PARA MUCHOS TRABAJADORES SERÁ MAYOR ESTE MES",
+        "content": "Este año, muchas familias podrán celebrar unas fiestas patrias algo diferentes debido a que la gratificación será un 22% mayor a la remuneración mensual neta aproximadamente."
+    },
+    {
+        "headline": "TERREMOTO SIMULACRO HOY",
+        "content": "Realiza el tercer simulacro escolar de sismo y tsunami, participación estimada de 8 millones de alumnos y 350 mil profesores. El MinEduc instaura que el ejercicio simule un temblor de magnitud Richter 8."
+    },
+    {
+        "headline": "PROCESO CONTRA ANTONIO PEDRAZA",
+        "content": "Pleno del Consejo Nacional de la Magistratura abre proceso contra el ex Fiscal de la Nación, Antonio Pedraza, por remover fiscales involucrados en investigación contra Carlos Alberto Rivera Ávalos."
+    },
+    {
+        "headline": "LEY UNIVERSITARIA PROMULGA PRESIDENTE",
+        "content": "Durante una ceremonia realizada en Palacio de Gobierno, el Presidente Ollanta Humala promulgó la nueva ley Universitaria destacando la necesidad de liderar también en educación superior."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined rules for inclusion/exclusion criteria. Note any missing data has been filled with `"NA"` where applicable.

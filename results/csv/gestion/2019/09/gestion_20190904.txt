@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/09/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "Refuerzo legal y políticas públicas mínimas deben aumentar la productividad económica",
+        "content": "Además de reforzar la predicción del marco legal, este conjunto mínimo de políticas públicas debe ser complementado\ncon una serie de medidas \navailar la productividad de la \neeónoma peruana y evitar toda una\uproximada década de frustrante \nbajo crecimiento económico.\n\nMircoles 4 de septiembre del 2019 GESTIÓN\n\nECONOMÍA 17\n\nPOR CONSTANTES DETRIMENTALES DE LAS CONDICIONES EXTERIORES Y LOCALES\n\nCoIISJo FISCAl: CRECIEMIENTO DOBLE MIEMBROSDEL COlNESIo FISCAl (CF)\n3% proyectado por el MEF para\nesto año tiene sesgo a la baja\n\nRespecto a las \nproyecciones de mediano plazo, el\nCF reitera que no están\nplenamente sustentadas y contrastan con el ritmo de\ncrecimiento potencial de\nnuestra economía."
+    },
+    {
+        "headline": "Proyecto de ley requerido para pasar deuda de Petroperú al tesoro público",
+        "content": "MINISTERIO DE ECONOMIA EVALÚAR PASO DE DEUDA DE PETROPÉRU AL TESORO PUBLICO\n\nEl ministro de \nEconomía y Finanzas, Carlos Oliva, informó que el Gobierno está evaluando la propuesta de Petroperú de transferir directamente unos US$ 1000 millones de la deuda de la compañía al Tesoro público.\n\n\"Lo que ha planteado (el presidente del directorio de Petroperú) es simplemente que, demás del Estado, en vez que sea la empresa pública (que asuma parte de la deuda) que sea el Tesoro\", indicó Oliva.\n\nSin embargo, el ministro de Economía menciona que para que la deuda de Petroperú llegue al Tesoro público se requiere una norma con rango de ley, esto es algo que todavía necesita debate."
+    },
+    {
+        "headline": "\"Guerra comercial\": Trump amenaza más duro a China si prolongan negociaciones",
+        "content": "\nPRESIDENTE AMERICANO ADVIERTE QUE SERÁ \"MUCHO MAS DURO\"\nSi ambos países no resuelven su disputa antes de su próxima elección, según declaraciones hechas ante periodistas.\n\nTRUMP IGNORA LOS DATOS NEGATIVOS RECIENTEMENTE ANUNCIADOS SOBRE EL SECTOR MANUFACTURIERO DE SU PAÍS, DESTACANDO INFLACIÓN SIGNIFICANTES CAUSADA A BEIJING POR ARANCELES ESTADOUNIDENSES.\n\nLAS DOS GRANDES POTENCIAS ECONÓMICAS INTENSIFICALAMENTE SUS DISPUTAS TRIBUTARIAS, PREOCUPACIONES FINANCIERAS INTERNACIONALES SURGEN ACERCA DE UN ESCENARIO GLOBAL DE RECEPCIÓN."
+    },
+    {
+        "headline": "Editorial: Reforma en Peligro",
+        "content": "Desde su instauración, la Ley Universitaria enfrenta ataques constantes, especialmente hacia la SUNEDU creada para mejorar la calidad académica. Intereses económicos podrían beneficiarse de revertirla, buscando mantener instituciones deficientes operativas. Avances importantes en regulación y reconocimiento de programas aún continúan siendo obstaculizados."
+    },
+    {
+        "headline": "Opinion: Energética en Cambio",
+        "content": "Una revisión histórica muestra cómo cada aproximadamente 14 años surge una reforma eléctrica importante en Perú. Actualmente, se discute una nueva reforma enfocándose en liberalización del mercado, descentralización de redes y transformación energética aprovechando innovaciones tecnológicas. Está claro que estos ajustes apuntan a incrementar la competitividad y accesibilidad del sistema eléctrico."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been marked appropriately according to the rules specified.
+
+--- ERROR ENTRY: data/txt/gestion/2019/09/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "Opinion",
+        "content": "Diego Calmet Mujica\nGarcía Sayán - Abogados\nde los avances fundamentales \nda la Constitución \nde 1993 fue establecer explícitamente que la \nactividad empresarial corresponde al sector privado,\ny que el Estado solo participa subsidiariamente, por mandato de ley expresa, cuando es indispensable parala interés público (artículo 60).\nEl Estado a lo suyo; responsabilidades tales como salud pública, educación básica, infraestructura, regulación, etcétera. No puede gestionar adecuadamente lo que es su responsabilidad, y mucho menos es un buen empresario.\nVeamos el caso de Repsol, que construye la Refinería de Talara a costa de US\$ 6,000,000,000.00 (¡seis mil millones de dólares!). ¿Cuántos hospitales y colegios se pudieron construir con ese dinero?\n¿Qué importancia tiene más refinación de petróleo que proporcionar salud y educación a los peruanos?"
+    },
+    {
+        "headline": "Finanzas ANTE AUMENTO DE ATROPOS EN PAGO DE CRÉDIOS",
+        "content": "Banca otorga más facilidades para refinanciar y fraccionar deudas. Las empresas de cobranza también ofrecen alternativas para que deudores se pongan al día en sus obligaciones. Prevén que índice de morosidad continuará incrementándose en próximos meses."
+    },
+    {
+        "headline": "Entrevista Rocío Pérez-Egaña, Gerente de Productos Transaccionales, Ahorros e Inversión del BCP",
+        "content": "\"Nuevas cuentas de ahorro del BCP para nada serán más costosas que las antiguas\". Reconoce portafolio completo de sus productos de ahorro, según el perfil de sus clientes. Expone características de las nuevas cuentas y asegura que serán más atractivas para los usuarios."
+    },
+    {
+        "headline": "Indicadores económicos",
+        "content": "TESORERÍA PROMEDIO DE MONEDA AL 29.09.19. Tasas internacionales comparadas. Variación diaria y mensual de tasas de referencia internacional. Datos financieros relevantes presentados."
+    }
+]
+```
+This JSON captures four distinct sections identified within the provided input based on their headlines and contents related to journalism topics such as opinions, financial updates, interview summaries, and economic indicators. Other non-journalistic elements like ads were excluded according to the guidelines given.

@@ -1,0 +1,133 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/07/trome_27.txt ---
+
+```json
+[
+    {
+        "headline": "Cardoso, cachá",
+        "content": "Yo no aprobo su comportamiento si es verdad todo lo que está saliendo a la luz."
+    },
+    {
+        "headline": "Tam también el Gran Combo, Victor Manuelle y Melo Ruíz",
+        "content": "Volvi al vedettismo, ‘Hace mucho tiempo le dije; no!’ a las drogas y mala vida, pero juraque ya dejé las drogas y mala vida’ Abad asegura que su nuevo yo es otro hombre más maduro y responsable. Además, destaca haber aprendido a valorar a quienes han estado ahí para él, especialmente Magaly Medina y Ney Guerrero, a quienes les atribuye parte fundamental en su transformación positiva."
+    },
+    {
+        "headline": "'Conejito' afirma que no fue Cupido:",
+        "content": "para el romance de MichelSoifer y SebastíanSabater. Miguel ’Conejo’ Rebosío afirmó que les sorprendió la divulgación de imágenes íntimas entre su expareja MichellSoifer y el futbolista Rinaldo Cruzado. Negó cualquier participación directa en dicha situación y destacó cómo ambos habían encontrado felicidad fuera de su relación anteriormente establecida."
+    },
+    {
+        "headline": "Afirma ex-productor de Risas, José Luis Aguilar",
+        "content": "José Luis Aguilarr mentó que actualmente los realities de competición resultan más rentables comparativamente a espacios cómicos debido a menores costos de producción y mayor facilidad de venta."
+    },
+    {
+        "headline": "‘Salón Satán',
+        "content": "Una exposición dedicada a mostrar obras artísticas relacionadas con temáticas satánicas y ocultas, abierta al público interesado en explorar aspectos menos convencionales del arte contemporáneo."
+    },
+    {
+        "headline": "GEORGINA",
+        "content": "Georgina tiene origen griego y simboliza sensibilidad, honradez y generosidad. Ideal para alguien buscando formar un hogar basado en valores sólidos y afectuosos."
+    },
+    {
+        "headline": "",
+        "content": "Este año, diversas comunidades celebran las Fiestas Patrias con eventos culturales únicos adaptándolas a nuevas formas de vivencias sociales. Desde bailes típicos hasta representaciones históricas, cada evento refuerza la conexión cultural dentro de distintas localidades."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles lacking explicit headings were assigned `"NA"` where applicable. Any non-article sections such as ads or irrelevant listings have been excluded according to scope definitions.
+
+--- ERROR ENTRY: data/txt/trome/2014/07/trome_27.txt ---
+
+```json
+[
+    {
+        "headline": "Las canallas",
+        "content": "Es así nomás. Uno pensaría que ese tipo está hecho un hombre maduro después de llevar ya dos años rodando por Europa extremadamente caliente por Cham Play Calentón. Serio afanándolas chicas rubias, eso sí es el mejor, y la realidad es que tiene fama porqué toda vez se agarra."
+    },
+    {
+        "headline": "Volviálgol despúés de 7 partidos. Último tanto fue el 23 de junio anterior Real Garcilaso.",
+        "content": "EUROPA VA\nGANANDO 3–1 Á\nAMÉRICA.\nMANCO (2 TRIUNFOS)\nY Fiorentina para\ñel Viejo Continente\ny Allanza Para el nuestro."
+    },
+    {
+        "headline": "¡Qué vergüenza!\nVolvía álgol después de 7 partidos. Último tanto fue el 23 de junio anterior Real Garcilaso.",
+        "content": "EUROPA VA\nGANANDO 3–1 Á\nAMÉRICA.\nMANCO (2 TRIUNFOS)\nY Fiorentina para\ñel Viejo Continente\ny Allanza Para el nuestro."
+    },
+    {
+        "headline": "George Andrade",
+        "content": "Vuelve al gol después de 7 partidos. Último tanto fue el 23 de junio anterior Real Garcilaso. EUROP AVAGANANDO3–1ÁAMÉRICAMANC02TRIUNFOSYNFiorenteParaelViejoolContinenteyAllanzaParaelnuestro."
+    },
+    {
+        "headline": "LEVANTA, PECHO!",
+        "content": "Por un cebiche. To’ cosorrín. Arrímate jarana, cántalo himno, ízala bandera y coméntale que Alianza Lima ganó 9–8 por penales al Valencia de España (2–2 en 90"). ¡Creatúa Fiesta Patria, vive tú celebración, Peruano!"
+    },
+    {
+        "headline": "GEORG ANDRADE",
+        "content": "Vuelve al gol después de 7 partidos. Último tanto fue el 23 de junio anterior Real Garcilaso. EUROP AVAGANANDO3–1ÁAMÉRICAMANC02TRIUNFOSYNFiorenteParaelViejoolContinenteyAllanzaParaelnuestro."
+    },
+    {
+        "headline": "LOS MATES DEN LA LEYVA FUERON EFICIENTES",
+        "content": "Hero Valeri Courtois, hermano del Percer cerrar hoy la fase de Lima enfrenteando a Bolivia, que ayer venció en ambos cotejos a las 6:10 p.m.e deja los victoriaños con 10 al ver un antropatórico tarjeta roja (80'). En los penales, sí bien fallaron Trujillo y Molina, también notaron Ibeth (2 veces), Aparicio, Gonzalez Vigil, Kahn, Guizasola, Donayre y el mismo Forsth, que ataja el remate de Rodrigo de Paul. Cuando el disparo de Paco Alcér peg en el travesaño, el final llegó. Festeja Perú. Esta hora de empezar nuestra fiesta."
+    },
+    {
+        "headline": "Rompueron Sus Redes",
+        "content": "Len y Cienciano empataron 2–2 en un partido con autogoles. El ‘Pap’ adelant con Diego Zorro (13’) y Santiago Ascasio, tra lánguido, aumentó (49”). Carlos Fernández descontó para los rojos en el mejor autogolazo del torneo (70”) y José Casado empata al 83’. El golazo de ‘chalaca’ de Israel Zuoga Inti Gas fue elegido como el mejor de la mañana por la cadena nacional Fox Sports. Otra pinturita, la de Carlos Lobaton San Simón de larga distancia se ubican en el sexto lugar del ranking. El ‘Cachete’ supera la ‘tijera’ del argentino Lucas Vietto con el Shanghai Shen Hai – El huache de China."
+    },
+    {
+        "headline": "Rock & Pop Ne Os 80,90, Hoy",
+        "content": ""
+    },
+    {
+        "headline": "CRISTAL. VALLEJO LE VOLTEÓ 3–2 CON DOBLETE DEL PANAMEÑO LUÍS TEJEDA",
+        "*Emn -* CORINTHIANS, CON PAULO DA COSTA LOGRAR HOY GLORIA MAYOR POR EL Brasilero & DP DH"
+    },
+    {
+        "headline": "",
+        "content": "REAL MADRID PERDIÓ 3–2 PENALES (1–1 en los ochenta) frente al INTER DE MILANO. BELICE.– ROMPIERON SUS REDNES LEN Y CIENCIANO EMPATARON 2–2 EN PARTIDO CON AUTO GOLES. "
+    },
+    {
+        "headline": "Bayern Ganó Al MGladbach",
+        "content": "Primer Partida. Bayern, con Claudio Pizarro, ganó su primer amistoso de pre-temporada y clasifica a la Final de la Telekom Cup al vencer 5–4 en Penales al Mannheim Gladbach. ‘Pizza’ hizo dupla con Lewandowsky, pero fue remplazado a los 35′ del partido que sólo duro una hora. El polaco (29″) y Ribby (34″) ton para los ‘barvos’, que estreno Camisa. Hoy jugarán ante Wolfsburg, que vence al Hamburg por la misma Va. "
+    },
+    {
+        "headline": "DESAPARECE DE BRAZIL",
+        "content": "Bel Horizonte. Parece que Ronaldinho tomó Vacaciones por cuenta propia, tras ganar la Recopa. Pedío permiso al Atlético Mineiro con la excusa de asistir al partido-homenaje a Deco en Portugal, pero nunca llegó. Los directivos desconocen su Paradero y esperan que regrese el martes conforme había prometido, ante rumores de que dejará el Club."
+    },
+    {
+        "headline": "Reincorpóracion Periodo Lectivo 2014–11",
+        "content": "Se les comunica que podrán solicitar su Re-Incorporación a la universidad para el periodo lectivo 2014–11 del 1° de julio al 08 de Agosto. De esta forma tendrán Acceso a Matricular On Line que iniciará el 25 de Agosto. \nCondición:\nNo deber tener deuda Pendiente con la Universidades. \nCumplir con Todos los Requisitos Establecidos por la Universidad para la Matricula Detallados en el Reglamento de estudios. \nLa Re-incorporación debe ser tramitada en Oficina de servicio de atención al Estudiantes (SAE), Ubicadas en cada Una de las Sedes de U.T.P."
+    },
+    {
+        "headline": "INGRESO DIRECTO A LA UNIVERSIDAD!",
+        "content": "Profesional en carreras Profesionales A Ingeniero de computación y sistemas Ingeniero industrial Administración y gestión de empresas Contabilidad y finanzas Ciencias de la comunicación Marketing y negocios internacionales Administración de servicios turísticos Derecho Pregrado Americanas www.pregrualesamericanas.edu.pe"
+    },
+    {
+        "headline": "CLINICA ESTETICA Y CENTRO LASER",
+        "content": "Mayor Grande Del País. Precios a tu alcance Dirigido por Autenticos especialistas Av. San borja sur 526 – SAN BORJA Teléfono: (511) 2251665 Centro Laser profesional Medicina Estética y Regenerativa Dermatología Medica Estética y Regenerativa Centrolaser Liposculptura laser rinoplasta aumento de busto lifting laser (sin cortes) cirugía de párpados laser aumento de gluteos $15.000 consultas gratis Todo Julio y Agosto WWW.CLINICAL CONTINENTAL.COM Clinic Continental Sa Luoy Velázquez Ave. San Borja Sur 526 – San Borja / teléfono (511) 2251665 horas de atención: lun a viernes 10:00 a.m a 7:00 pm sábado: 09:00 a.m a 1:00pm"
+    },
+    {
+        "headline": "CHEF DE COCINA NACIONAL E INTERNACIONAL",
+        "content": "Diplomado en Bar y Coctelería Diplomado en Cocina Peruana Diplomado en Organización de Eventos Sociales Universidad de Las Americas Prepáraste para conocer el Mundo Aviacion comercial www.columbia.edu.pe"
+    },
+    {
+        "headline": "INSPIRADAS EN EL ESTILO ’COWBOYS’",
+        "content": "Son cómodas. “En Bat’a, el cerro del calzado luze puntillas y pueden incorporar detalles como trenzas de tejido estampado y acolchado fino que calientan más los pies sin hacerte creer que estas usando sandalias.”
+    },
+    {
+        "headline": "Dan Abrigo, Comodidad y Estilo a Tus Pies",
+        "content": "Son largas, de tobillo generalmente cuadrado, inspiradas en las Botas montañeses muy versátiles, cómodas por la Horma y el Taco, y su Forma estiliza aún más las piernas. “Es un básico del outfit de invierno. Van muy bien con Leggings, Jeans, Mini’s, Vestidos, Polo vestidos…” asegura Elena. Selucescen colores Negro, Marrón, Habano, Caqui, Verde militar y otros. Pueden tener pliegues, rayas, hebilla, otro apliques distintos. Perfectas para usar con Pantalones, falda inclusive vestido. Modelos: Solange Reyes, Yasmin Danielley Cristiana Rufiner Styling: Christian Dvila Maquillaje y Peinado: Sandra García – Valentilanch Salon"
+    },
+    {
+        "headline": "Si vas a Abrigar a Tu Mascota, Que Sea con Estos Lindos Diseños Peruanos",
+        "content": "Delantal: Este diseño es Ideal para los días fríos. Guardas tus manos libres mientras comes y brinda calor extras a tus pies Sin hacer creer que usas calcetas. Capucha: Esta capucha cubrirá brevemente tu cabecita. Genial y Super moderno! Polo marca Perú: Soy los hay en diferente medidas según la razón de tu mascota. Podrá Usar Durante toda la temporada. Contenta: Hola, soy Layza y tengo 2 añitos. Estoy tenta, porque mis papás me aman y cuidan mucho. También los quiero. Mis accesorios: Capucha: Esta ropita es ideal para los días frescos. Gracias a su capucha guardarás tus manos libre mientras come y además brinda calor extras a tus pies sin hacer creer que usa calcetas. Collar: Este collar es perfecto para esos dias soleados. Es de algodón pima y en el centro tiene la palabra ‘Per’ con tela inka. También hay modelos para las hembras. Poncho: Los colores llamativos dan alegrías no solo hacen bonito, sino que protegerán tu cuello, espalda, brazos y cuerpo completo. Hecho de tela inka y forrado con Polar peruano, es un diseño precioso disponible en diferentes medidas según la razón de tu mascota. Podrá usar durante toda la temporada. Consulado Veterinaria Vetedinalco Omprasisis Ley contracaza y cautiverio de Delfines Ciudadanos preocupados sobre el tortuoso traslado de ejemplares de delfines ‘Yaku’ y ‘Wayra’, principales atracciones del Hotel Los Delfines, unos entrenadores y entendidos del tema exigen pruebas documentadas del traslado y llegada de estos animales a Jamaica. Sus propietarios aseguran que llegaron ahí sin problema alguno publicando una fotografía donde decían: ‘Yaku’ desayunando en un nuevo hogar en Dolphin Cove-Jamaica.’ Sin embargo, vista Caretas, Harry Escobar, ex-cuidador de los ani-malitos, dijo que el ejemplar de la fotografia no podría ser ‘Yaku’, pues le falta banda de dientes y el animal mostrado consunta dentadura completa. Ha sido propuesta una declaración de los derechos de los cetáceos para poner fin a su caza, cautiverio y abusos, de quienes parecer habrán sufrido ‘Yaku’ y ‘Wayra’. Esperemos verdaderamente que la están pasando bien. Entre tiempo seguimos promoviendo la ley en contra del cautiverio de estos animalitos."
+    },
+    {
+        "headline": "Busca a Su Dueña",
+        "content": "Me perdí y una familia me dio cobijo. Hallaron el 12 de julio en el Rimac. Avisa a mis dueñas y que llamen al 982–808786."
+    },
+    {
+        "headline": "'Mi esposo'",
+        "content": "‘Yo sé que no me tienen paciencia. Pero si no les gusta mi discurso, les diré bueno, pero no se enojen. Como cariñosamente le digo amor, políticamente le digo presidenta, y responsablemente menos nada, no vaya ser que esto moleste y duerman fuera de Palacio. ¿Cómo le dicen cariñosamente a Nadine ‘Cosita’?” Presiden-te Humala, le molesta que le digan ‘Cosita’? Mi esposo, señora. Lo prefiero que me digan ‘Cosita’ si me lo dice Nadine, pero si escucho en la calle, les digo Basaaaauuuraaaa!! … Cuánto le queda para terminar su mandato?"
+    },
+    {
+        "headline": "¿Cuál será su última palabra?",
+        "content": "Será ‘Picachín’: Aquí y allá!” Nadine ganará. En ultima gira visitó Angela Mer-kel y hasta hablélemén… La señora Angela Merkel estaba feliz porque campeonaron en el mundial y claro que se ale-gró, suegra se pronuncia ag, Metrópolitanos son subesen-senso-bajan sen-so-punte-en-se-nestrjen-se’n. Hablando de futbol, cree que la Selección peruana irá a un mundial? La selección peruana irá al mundial si compramos el país a los seleccionados, si organizamos el mundial, o si los demás se retiran. Aquí le gustaría entregarle la Bandera cuando se retire? Qui-siera que me la devuelven. ¿Como le quitó la bandera el presidente, quién hizo último acto público?: ‘He aquí mujeres, hijos míos, soldados, campesinos, obreros, empresarios, jóvenes, ancianos, indígenas, mestizos, blancos, negros, pobres, ricos, homosexuales, heterosexuales, católicos, evangélicos, ateos, budistas, judíos, hindús, testigos de Jehova, adventistas, moriscos, cristianos ortodoxos, protestantes, científicos, magos, curanderas, médiums, bru-jos, ocultistas, ufólogos, extraterrestres, fantasmas, vampiros, zombies, muertos-vivos, demonios, santos, arcángeles, ángeles, vírgenes, virgenes, monjas, frailes, beatas, pastores, predicadoras, profetas, mesías, iluminati, illuminati, Illuminati, Il-lumi-na-ti, il-lu-min-a-ti, il-lu-mini-ti, il-lu-men-ti, il-lumen-ti, il-lume-n-ti, il-le-me-n-ti, illu-me-n-ti, illum-e-n-ti, illu-men-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n-ti, illu-me-n

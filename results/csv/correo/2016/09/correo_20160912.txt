@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/09/correo_12.txt ---
+
+```json
+[
+    {
+        "headline": "EL MALESTAR",
+        "content": "El ta y vocero de la bancada oficialista, Carlos Bruce, tuvo una posicin distinta. Consultado sobre el tema, dijo que el pedido de facultades \"puede pasar por comisiones esta semana, tomando en cuenta que es un pedido del Ejecutivo. La pr\u00f3xima se puede ver en el pleno en la medida que se vea con prioridad\", calcul en dilogo con Correo.\n\n\"Sobre las declaraciones de Sheput, señal que \\\\\"sera lo ideal (exonerarlo de comisiones), pero el Congreso quiere por comisiones y est en su derecho\\\".\nPero por su parte, la legisladora Aa Mara Choquehuanca, tambin de las filas de PPK, indic que el oficialismo de \\\\\"ninguna manera observar\\\\"\nlo que determine el Congreso con respecto al pedido de facultades.\n\n\\\\\"Vamos a respetar lo que termine, pero s pedimos celeridad en las comisiones (...) Nosotros no podemos hacer nada, vamos a tener que esperar. Todos los congresistas estamos para respetar las decisiones del Congreso\\\», declar."
+    },
+    {
+        "headline": "Posiciones divergentes en el oficialismo",
+        "content": "\"El mandatario, antes de partir, hizo votos para que ingrese de su gira por el oriente, el Congreso haya dado el pedido de facultades legislativas planteado por el primer ministro Zavala.\" La parlamentaria Karla Schafer critic que el je fe de Gobierno haya tardado en adoptar medidas para resolver los problemas del país desde \\\"el dia cero\\\" (28 de julio), cuando asumió la Presidencia de la República. \\\"A mmeme hubiera gustado que el senor Pedro Pablo Kuczynski, desde el dia cero, tomara acciones sobre los problemas del pais, o que nos haya presentado las facultades desde ese dia, porque l ha tenido dos meses de transferencia de los diferentes sectores y, por lotanto, sab?a la situacion en la que se encontraba el pais y sab?a cmo se visualizaba su gobierno\\\", manifest. Su colega de bancada, Gloria Usaha, vicepresidenta de la Comisi\u00f3n de Vivienda --grupo en el que se analizarn los temas sobre agua y saneamiento que estn incluidos en el paquete de facultades--, calific las declaraciones del Presidente de un intento de ejercer cierta presin sobre el Legislativo. \\\"Nosotros consideramos que ninguna persona puede presionar al Congreso, porque es un poder del Estado autonomo\\\", dijo."
+    },
+    {
+        "headline": "Diagnóstico crítico de antiguos políticos",
+        "content": "\"NINGUNO DE LOS MINISTROS DE OLLANTA HUMALA TUVO LA VERDADERA INTENCIN DE APOYAR LA EDUCACIN FSICA NI EL DEPORTE ESCOLAR\", afirm Daniel Abuhatts, excongresista. AUGUSTO REY, regidor de Lima, opina que es una noticia excelente que se está logrando consenso para crear la Autoridad Única de Transporte de Lima y Callao. GUIDO LOMBARDI, congresista, menciona un proverbio italiano: \\\"Solo llegamos más rápido, juntos llegamos más lejos\\. DANIEL URRESTI, también congresista, reflexiona diciendo que aunque Abimael Guzmán perdió la guerra, sus seguidores han conseguido liberar terroristas mientras mantienen a soldados detenidos. Hector Becerril critica duramente a Marisa Glave afirmando falsedad en su declaración sobre el estado del Frente Ampla (FA): \\\"...est en una crisis por el liderazgo y por las ‘entenas’ (diezmos a V.M.)\\\"."
+    },
+    {
+        "headline": "Presunta irregularidad en el IPD",
+        "content": "La Fiscalía pidi prisión para el expresidente del Instituto Peruano del Deporte (IPD), Francisco Boza, y otras figuras implicadas en supuestos casos de peculado. Según el Ministerio Público, existió un faltante significativo de fondos destinados al Comité Olímpico Peruano. Andrs Montoya Mendoza, fiscal adjunto especializado en delitos de corrupción, solicit penas severas basándose en evidencias financieras incriminatorias. Entre los procesados están José Carlos Quiñones Gonzáles, representante legal del COP, y Sal Barrera Ayala, actual presidente del IPD, ambos vinculados a transacciones sospechosas. Esta situación genera gran tensión política y social, afectando negativamente la imagen pública del sector deportivo nacional."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable.

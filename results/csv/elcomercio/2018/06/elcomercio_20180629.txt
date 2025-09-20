@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2018/06/elcomercio_29.txt ---
+
+```json
+[
+    {
+        "headline": "Defensoría advierte sobre contenido sexista en libros escolares",
+        "content": "Según la entidad, está comisión deberá estar \"integrada por 'expertos independientes', quienes \\\\- junto con el Ministerio de Educación (Minedu) y el Consejo Nacional de Educación (CNE)\\" verificarán que el material educativo no afecte «el sentido de una formación moderna, respetuosa e igualitaria». La defensora cuestiona que los textos aprobados y distribuidos por el sector «responsabilizan únicamente a las mujeres respecto del cuidado de la salud sexual y reproductiva», pues están «basados en prejuicios»."
+    },
+    {
+        "headline": "Sentencian a responsables de muertes en incendio de Las Malvinas",
+        "content": "\"Condenados por trata y esclavitud. Este es el delito por el cual Jonny Coico Sirlopu y su esposa, Vilma Zea Santa María, fueron condenados ayer a 35 y 32 años de prisión, respectivamente. Ellos dejaron encerrados en un contenedor a los jóvenes que murieron en el incendio del edificio de la galería Nicolini, en Las Malvinas.\""
+    },
+    {
+        "headline": "Hay 25 curvas en Pasamayo que no cuentan con protección",
+        "content": "«Este documento detalla que se exigirá la instalación de barreras de seguridad (guardavas, muros de concreto u otros normados) cuando la distancia a una zona de peligro esté a menos de 10 metros...» David Fairlie, ingeniero de tráfico de la Asociación Cruzada Vial, señala que no es anti-técnico instalar barreras de seguridad a lo largo de toda una vía que lo requiere."
+    },
+    {
+        "headline": "Se viene otra cumbre histórica",
+        "content": "«Ambos líderes más poderosos del mundo se proponen discutir ‘el estado actual y las perspectivas de desarrollo de las relaciones bilaterales’, según un comunicado del Kremlin. [...] Durante la campaña electoral que lo llevó a la Presidencia en el 2016, Trump se deshizo en elogios hacia Putin.»"
+    },
+    {
+        "headline": "Ex presidente Lula aún es favorito en sondeos pese a permanecer preso",
+        "content": "«La encuesta, realizada por IBOPE, le atribuye a Lula un 33% de los votos, siendo seguido por el ultra-derechista Jair Bolsonaro, con 15%. […] Si el Partido de los Trabajadores (PT) lo inscriben oficialmente, las autoridades podrían vetarlo.»"
+    },
+    {
+        "headline": "Nuevo tiroteo en periódico de Maryland deja saldo mortal",
+        "content": "«Un nuevo tiroteo volvió a ensombrecer a Estados Unidos. Una persona armada irrumpió en la sede del periódico 'The Capital Gazette' en Annapolis, Maryland, causando múltiples víctimas mortales. Phil Davis, un reportero local, mencionó que el atacante había sido previamente involucrado legalmente con el medio tras haber interpuesto una denuncia en su contra.»"
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected according to relevance and completeness within the given input data.

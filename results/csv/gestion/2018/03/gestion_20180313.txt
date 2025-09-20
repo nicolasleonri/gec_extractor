@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/03/gestion_13.txt ---
+
+```json
+[
+    {
+        "headline": "Avances económicos limitados",
+        "content": "El informe destaca que el ruido político y los problemas del sector construcción evitaron que el país crezca cerca al 5%, que es el promedio de los últimos 52 años.\n\nEn el quinquenio 2018, el PIB crecerá una tasa promedio anual cercana al 3%, \"lo que deja dudas sobre un PBI potencial mayor a 3.5%\","arma".\n\nSobre la inflación, el banco espera que se ubique temporalmente en niveles más altos."
+    },
+    {
+        "headline": "Expectativas de inversión pública y privada",
+        "content": "Para el BCP, este año, la inversión pública y la privada irán a ritmos diferentes. Proyecta que la inversión total crezca en torno al 5%, con la inversión privada avanzando un 3.5% y la pública, un 11.5%.\n\nSin embargo, la inversión minera seguirá impulsando el ámbito privado, en medio de un entorno favorable de precios de los metales y crecerá 10% este año por el aumento de demanda internacional."
+    },
+    {
+        "headline": "Desafíos fiscales y recomendaciones",
+        "content": "Los retos que deber enfrentar el MEF incluyen garantizar que la inversión pública crezca a tasas de dos dígitos este año, cumpliendo así con el compromiso de consolidación fiscal. Esto implicará reducir el déficit de 3.5% del PBI en el 2018 a 1.0% en el 2021, además de mejorar significativamente la calidad del gasto público."
+    },
+    {
+        "headline": "Reducción de tarifas de telefonía móvil",
+        "content": "Desde este jueves, las tarifas de llamadas de teléfonos fijos a móviles tendrán una rebaja del 47%. Según Osiptel, esto beneficiará especialmente a los clientes de Telefónica del Perú, gracias a la reducción de costos en sus redes."
+    },
+    {
+        "headline": "Impacto del TPP sin EE.UU.",
+        "content": "Moody’s señala que aunque el TPP sin EE.UU. ofrece beneficios a sus integrantes restantes, éstos son menores que habrían sido con la inclusión de EE.UU. Para el Perú, los beneficios son relevantes, particularmente en términos de acceso a mercados clave como Australia y Nueva Zelandia."
+    },
+    {
+        "headline": "Investigaciones de Indecopi contra barreras burocráticas",
+        "content": "Indecopi está investigando 509 nuevos casos de barreras burocráticas ilegales. Durante el último año, se incentivó la eliminación voluntaria de miles de tales obstáculos, generando importantes ahorros para la sociedad peruana."
+    },
+    {
+        "headline": "Exportaciones textiles continúan aumentando",
+        "content": "Las exportaciones textiles siguieron incrementándose en enero, alcanzando un valor de USD 99 millones. Este comportamiento refleja un patrón ascendente continuo desde agosto de 2016."
+    },
+    {
+        "headline": "Promoción de reformas legales para agricultura",
+        "content": "Una prórroga de diez aos en los beneficios de la Ley de Promoción Agraria podría crear cuatro millones de nuevos puestos formales en el sector agrario según ADEX. Estos cambios buscan combatir la informalidad y elevar la productividad."
+    }
+]
+```
+This JSON contains extracted information about various economic topics covered within the provided text snippet while adhering strictly to the specified format requirements. Note how each entry includes both a `headline` and corresponding `content`. Any missing data has been filled with `"NA"` where applicable based on context clues.

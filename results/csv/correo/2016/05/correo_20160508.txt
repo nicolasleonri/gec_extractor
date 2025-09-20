@@ -1,0 +1,55 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/05/correo_08.txt ---
+
+```json
+[
+    {
+      "headline": "\"El loco del martillo\"",
+      "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contenido emocional",
+        "content": "Me encanta cómo has compartido."
+    },
+    {
+        "headline": "Noticias urgentes:",
+        "content": "NA"
+    },
+    {  
+       "headline":"NA","content":"Diálogo judicial"
+    }   
+}
+```
+This extraction captures each distinct segment identified within the provided input while adhering strictly to the specified format requirements for headlines and contents. Articles have been extracted based on their relevance according to defined criteria such as avoiding repetitive elements like ads or non-journalistic sections which were not included in the structured data above. This ensures compliance with the given task scope and goal directives.
+
+--- ERROR ENTRY: data/txt/correo/2016/05/correo_08.txt ---
+
+```json
+[
+    {
+        "headline": "La crisis está en la persona",
+        "content": "Hoy en día, uno pensaría que...\nPero la crisis no está sólo en la política\nsino en todas las instituciones.\nEstá en los sindicatos,\nen los clubs de futbol, en la Iglesia,\ny es que la crisis está en la persona\nya la persona es lo único que está presente\nen todos lados.\n¿Por qué se da esta crisis de la que \nte hablo?\nPorque el ser humano es el \nnico animal que tropieza múltiples veces\ncon la misma piedra.\nPorque hay enfermedades recurrentes\nen cada una de las naciones.\nEn España, por ejemplo, estamos tropezando\ncon la crisis de la nación.\nY no existe el problema vasco o catalán,\nhay un problema del conjunto que hemos perdido el concepto\nde nación.\nNosotros, después de abandonar América,\nno hemos recuperado el sentido\nde nación y nos hemos desangrado en\npugnas internas.\nEse sigue siendo el punto débil de España."
+    },
+    {
+        "headline": "Correo/Mundo 350 Nuevo Programa de Seguridad 'Chapo’ Guzmán es trasladado a cárcel en Ciudad Juárez",
+        "content": "\"La crisis\nesta en la persona\"\n\"Chapo\" Guzmán\nes trasladado a cárcel\nen Ciudad Juárez.Chile. TVN\nexplica las causas\ndel despido del\nperiodista que\nalabó al pisco\nEl periodista chileno Cristian\nPino aseguró haber sido \ndispuesto de TVN por presión de la\nAsociación Chilena de Pisco, al\nmencionar el licor peruano en\nuna entrevista, No obstante,\nTVN declaró que Pino incumplió \"estándares editoriales\"\naparticipando explícitamente en\npantalla y en varias entrevistas\nuna serie de marcas de alcohol.\"TVN no recibió ninguna presión alguna\npor parte de los titulares de pisco chilenos\",\ncomunicó el canal.EEUU ha solicitado extradición\ndel capo del narco-traficante Joaquín\n\"Chapo\" Guzmán.México sacó, durante la madrugada de ayer,\na Joaquín \"Chapo\" Guzmán de su celda en la cárcel de máxima seguridad de El Altiplano,\na 90 km de la capital de México.\nEl jefe del cartel de Sinaloa\nfue llevado a una prisión de Ciudad Juárez.\nLa Comisión Nacional de Seguridad indicó que la operación responde\n«nicamente a protocolos de seguridad» como parte de una rotación de reos.\nLa entidad informó además que había realizado más de 7400 intervenciones debido a un nuevo programa de seguridad.\nMedidas extremas.\nPara realizar el traslado del capo mexicano se hizo un gran despliegue militar.\nAdemás, el criminal fue escoltado por 150 policías.\nEl «Chapo» Guzmán logró escapar en julio de 2015 de la prisión de El Altilplano gracias a un túnel de 1.5 km que él mismo diseñó.\nFue capturado nuevamente en enero.\nEl recinto penitenciario al cual ha sido enviado hoy no posee categoría de «máxima seguridad», pero sí dispone de un área destinada a reos de alta peligrosidad y es «una de las más seguras» del país, según una fuente de la Comisión Nacional de Seguridad.Aún paso de EUA.\nCiudad Juárez, donde se encuentra detenido Guzmán, es una localidad cercana al límite con Estados Unidos, país que ha pedido la extradición del capo.\nEn 2013, la Comisión del Crimen de Chicago lo nombró enemigo público número uno.\nAdemás, ha sido acusado en por lo menos siete cortes federales de distritos de dicho país.\nLas autoridades mexicanas señalan que el procedimiento de extradición podría tardar por lo menos unos años más, el periodo transcurrido no indica que este tema tenga relación con algún envío potencial del narcotraficante hacia el otro lado de la frontera."
+    },
+    {
+        "headline": "Rodríguez Mackay internacionalista",
+        "content": "(Rodríguez Mackay)\nInternacionalista A/Ehs\n(Miguel Ángel Rodríguez Mackay)\n(Especial)\nThe abrupt and abusive dismissal of a Chilean journalist from a television network for acknowledging Peru's undeniable origin of pisco seems unfathomable. This incident highlights how some still believe the ongoing dispute between Chile over the origins of pisco—and other products like chirimoya renamed ‘chilimoya’, along with traditional sweets such as Suspiro Limeño which have been claimed—is trivial. They overlook it because they don't read much about these issues. Denomination of Origin is recognized as being Peruvian since colonial times, acknowledged even by European Union due to indisputable geographical evidence showing that Pisco was named after its place of production during pre-Columbian era. In Chile, there persists a complex historical narrative often overlooked by those who live far away but reminisce nostalgically about their homeland’s grand history compared to ours. While we were considered high culture through our rich heritage including the Inka Empire and regional cultures before colonization, indigenous groups like Araucans and Mapuche remained categorized under inferior culture. During Spain's rule, the Vice-Royalty of Peru stood central within South America where cities like Lima founded in 1535 enjoyed privileges unmatched elsewhere across continents. Our University of San Marcos established in 1551 held similar prestige akin to older institutions like the University of Salamanca in Spain. To achieve intellectual stature highly coveted among societies back then required passing through halls of both universities mentioned above while climbing socially around what was known as City Garden. Meanwhile, fate dealt differently towards Chile having merely limited authority vested upon a Captaincy-General office. Thus emerged the deep-seeded complexity following the War of 1879 wherein invading forces didn’t target monetary establishments nor commercial centers rather focused on pillaging libraries taking more than 50,000 invaluable records reflecting national memory homebound to Santiago. Such actions further fueled resentment against any potential exit strategy out of the European Union amongst citizens rallying nearly quarter million strong throughout Warsaw streets showcasing disapproval toward current administration policies deemed undemocratic violating core European principles. Their voices echoed loud proclaiming unity stating firmly “We’re Europe and shall remain.”
+    },
+    {
+        "headline": "Cómo llegar?",
+        "content": "Por vía área puede llegar en\nun vuelo de aproximadamente una hora desde\nLima. Si deseas más información sobre las rutas turísticas y noticias relacionadas, visita el portal:\nwww.túquéplanes.com\n\n**Clima:** Templado, moderadamente húmedo y con amplitud térmica moderada. Ayacucho goza de sol brillante durante todo el año. Desde una perspectiva panorámica, observarás cómo la ciudad parece expandirse majestuosamente ante tus ojos, especialmente notable desde el deporte aventurero del parapente. Cerro de Campanayoc ofrece vistas impresionantes permitiendo admirar cómo se cultivan y procesan las variedades autóctonas de papa dentro de la comunidad legendaria de Condorcancha ubicada apenas a 57 kilómetros de distancia de Ayacucho, famosa también por su producción láctea mediante actividades tales como ordeñar vacas y elaborar quesos. Además, podrás disfrutar experiencias únicas explorando cascadas naturales como Sirenachoq en Huamanguilla y Cascada de agua de Puma Pagcha ofreciendo excursiones ideales tanto a pie como montados a caballo, perfectas para quienes buscan emocionantes jornadas de senderismo."
+    },
+    {
+        "headline": "Un librero argentino Lucio Aquilanti dedic 27 años...",
+        "content": "Declaraciones de Lucio Aquilanti, quien invirtió 27 años recolectando materiales sobre la vida y obras de Julio Cortazar. Su investigación meticulosa culmina en la compilación de 850 elementos destacando 113 ejemplares originales, 38 prólogos y otras contribuciones significativas. Este tesoro bibliográfico inspiró la publicación de 'Todo Cortázár', resultado fructífero de una búsqueda exhaustiva iniciada tras cautivarse con historias emblemáticas como 'Casa tomada' y 'Bestiario'. Durante una conversación exclusiva compartida aquí, Aquilanti expresa sorpresa respecto a la ausencia previa de trabajos similares enfocados en Cortazar, reconociendo el impacto histórico de figuras literarias asociadas como José María Arguedas y Carlos Fuentes. Reflexiona sobre posibles extensiones del proyecto mencionando brevemente nuevos hallazgos post-publicación, admitiendo dificultades inherentes a completar índices adicionales que conectarían aún más profundamente a Cortazar con contemporáneos influyentes. Subraya la importancia vital de mantener el balance entre afición personal y patologización en el ámbito del coleccionismo, describiendo éste último como una actividad placentera impulsada por motivaciones genuinas más que compulsiones obsesivas."
+    },
+    {
+        "headline": "CONGRESISTA CARRILO LANZA LIBRO CONTRA...",
+        "content": "Si acaso...", presenta análisis profundos del Congresista Apurimeño Hugo Carillo Cavero, reconocido antropólogo, poeta, narrador, ensayista, músico, cantautor y fotógrafo. Esta nueva entrega compila ensayos centrados en temas cruciales como Inter-culturalidad, Comunicación, Territorialidad y Neoliberalismo, delineando retos persistentes enfrentados por la sociedad peruana moderna. Basado en décadas de experiencia acumulada liderando proyectos de comunicación y desarrollo rural en regiones serranas, estos documentos ilustrativos proporcionan insights fundamentales derivados de su trayectoria profesional extendida por treinta y cinco años. "
+    }
+]
+```

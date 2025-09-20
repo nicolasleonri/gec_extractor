@@ -1,0 +1,167 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/02/trome_09.txt ---
+
+```json
+[
+    {
+        "headline": "¿Qué puede pensar el votante del reúne entre Alan García y Pedro Castillo?",
+        "content": "Se está juntando tres políticos que tienen una visión común.\nPero también tienen acusaciones de corrupción."
+    },
+    {
+        "headline": "Ha caído casi enterrado Alejando Toledo?\n\nSí, yo también lo veo así...",
+        "content": "Desde el punto de vista de la opinión pública, es inexplicable o, sea, quizás logre salir bien librado, pero para la ciudadana, la casa y la oficina eran para él y esa plata era de él. Hay cadáveres y...\npolíticos en el Perú?"
+    },
+    {
+        "headline": "Existencia concentración de medios en el Perú?",
+        "content": "Existe concentración de lectores, pero ese es mérito de la buena gestión de Trome y otros diarios que tienen una gran audiencia."
+    },
+    {
+        "headline": "Entrevista",
+        "content": "\"Ahora tenemos ingresos a clase media\" \nLa nueva clase media es realmente el motor del crecimiento peruano? \"El motor del crecimiento es el modelo económico que permite que el Perú crezca.\""
+    },
+    {
+        "headline": "‘Por favor, ¡pido que paren esto!’\nAdelante, Gastón.",
+        "content": "Su imagen gigante pintada en una pared junto a la autopista genera controversia. El chef Gastón Acurio niega repetidamente aspiraciones presidenciales mientras enfrenta críticas públicas."
+    },
+    {
+        "headline": "Campana caliente",
+        "content": "Discusiones internas dentro de partidos políticos generan incertidumbre respecto a futuras nominaciones y estrategias electorales."
+    },
+    {
+        "headline": "Renuncia masiva en Perú Posible debido al Caso Ecotecnia",
+        "content": "Numerosos militantes renuncian después de implicaciones legales relacionadas con el líder Alejandro Toledo."
+    },
+    {
+        "headline": "Confirmación de Cambios en Gobierno",
+        "content": "Premier Villanueva anticipa ajustes ministeriales enfocándose en reformas estructurales más amplias."
+    },
+    
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extracting significant journalistic pieces. Articles related purely to ads, subscriptions, etc., have been excluded according to guidelines. Note any missing data was filled using `"NA"` where applicable but not needed here due to sufficient information available within each segment.
+
+--- ERROR ENTRY: data/txt/trome/2014/02/trome_09.txt ---
+
+```json
+[
+    {
+        "headline": "Cumpleaños de Panchón",
+        "content": "E6 El Chato Matta lleg al restaurante por unos sabrosos mariscos marinera con langostinos, medallones de pesada y conchas de abanico. Delicioso! \"Mara, el jueves pasado, se celebr\u00f3 un gran acontecimiento: el cumplea\u00f1os de Panchón!, que ya se acerca la base 5. El maestro, pese a que tiene la próstata inflamada como una pelota de tenis, dio la orden para festejar a lo grande.\n\nTodos sus amigos y fieles seguidores se preguntaron: cómo hacemos para que el gordito la pase del oméron?\n\nFiesta romana!\ngritaron los aprendices de la tramposera. Lo primero fue asegurar el local del To Felipe. A puertas cerradas, toda la noche para evitar a los lanzadores y zapatos rotos:\n\nMinutos antes de la media noche se apareció en el local el famoso Doctor Chotillo, ganadizo después de operar varias rodillas, con toda la Orquesta N'Samble. Le besó la mano a Pancho como en la película 'El padrino' y le dijo: \n\n\"Maestro, no me importa que me haya partido con La Bruja, con quien me iba a casar. Sé qué lo hizo para enseñarme la calle,\ny para que no me pegue con las Tilín. Su palabra es religión pa mí, antes de conocerlo yo era más sano que un vaso de yogurt. Toy peleado con mi novia, la escultural Mary, y por eso estoy libre, esos tres monumentos son mi cariño por haberme enseñado el mundo de la canalla.\""
+    },
+    {
+        "headline": "Pedí sucanción preferida",
+        "content": "\"Lasalsa comenzará a tumbar: Este hombre que cree muy dueño de lo que fuera mío/es aquel hombre que\ntan orgulloso ahora va contigo/porque tú le decías todas las verdades,/qué fuistes mi amante, ¿qué me diste todo/cuándo sabés danzar/\nque junto a mis brazos te hiciste mujer,/¿aún sentís mis besos/queman tu piel/y pienzas en mí, estando con él/mientras te acariciáis lleno de pasión,/mentes siempre\ninfidel, confiesa todo/libera tu alma y no lo engañes más./No vivás fingiendo, ves cuanto tardéis/as penitencias/nunca lo querréis/siempre lo quisierasssss."
+    },
+    {
+        "headline": "Panchón se emociona...",
+        "content": "Bebi un vaso lleno de Cartavio XO y dijo: \"Doctor Chotillo, la vida es una sola. La pampa es para todos, billete mata galán. Partidor que parte a partidor, tiene miles años de perdón. Ese tema de la orquesta del maestro Tommy Oliver me trae grandes recuerdos de tantas noches en La Posada con Marieta, un adelanto de las pocas mujeres que me movió el boludo. Lo malo es que ella estaba casada con un marino que me corrió a balazos, ella me engaña diciendo estába divorciada y por poco término baja tierra...\nThe party estaba a todo dar, el personal femenino lucía bien al tinte, mini falda de color, fuma echador y coloretero joquito. Los pulsecadores apretaban nada más la lengüita. Todo estaba bonito hasta que se apareció la psicológica gritando en la puerta del local. \"Gorda maldita, por qué no hubiese avisado de tu fiesta, un escándalo en la puerta, los vecinos llamaron al Serenazgo. Dos mujeres se agarrraban de las melcas, la próxima semana termino de contar esto otra vez..\"
+
+\"¡Pucho, ese señor Panchón es muy mujeriego, ya esta viejo y sigue en las mismas andanzas, Encima, tiene prostatitis y el colesterol alto. ¡Me voy, cuidensen!"
+    },
+    {
+        "headline": "Delincuente sale de ‘Maranguita’ y ataca jovén embarazada delante de su madre",
+        "content": "Abraham Valencia García (19), Pejerrey, quien salió hace tres meses del centro juvenil de rehabilitación de Lima ('Maranguilla') fue detenido ayer tras ser denunciado por su expareja, con dos meses de gestación, a quien disparó por negarse a abortar sin saber bajo qué bebé. \"El sujeto fue detenido en el crucero de la avenida Dos de mayo y Jr. Miranda Quesada, luego que su expareja Laura Llerly Cortez Vargas (18) lo acusó de haberle disparado a quemarropa en presencia de suma madre y dos amigas\", dijo un oficial. Después la joven futura madre dijo: \"Primeramente me quiso pegar, pero cuando mi mama interviniera sacó su arma, disparó al aire y luego me apuntó haciendo otro disparo, pero no me impactó\"."
+    },
+    {
+        "headline": "Charla informativa gratuita de tratamientos de fertilidad Dr. Carlos Zavalaga Coca",
+        "content": "Sabado 15 de Febrero del 2014 1200AM JR CAMANA 780 OFFICE 102 LIMA 426 2638 – 990 031841"
+    },
+    {
+        "headline": "HERMANOS MATAN OBREIRO",
+        "content": "El obrero Edward fue a una pollada y durmió ahí. Cuando despertó encontró a cuatro hermanos que intentaron lincharlo. Según testigos, los hermanos le pidieron ayuda a Abelio Taipey lo cual provocó que éste también recibiera varios golpes. "
+    },
+    {
+        "headline": "Cadaveres arrojados en la Panamericana Sur",
+        "content": "Ryan Ramiro Gutierrez Cortez (24) y Diego Armando Arias Malvezquez (22) eran buenos amigos y vecinos. La tarde del viernes, ambos salieron a una fiesta en Mala, donde además van a celebrar el cumpleaños de uno de ellos. Sin embargo, horas después, fueron encontrados muertos a un lado de la Panamericana Sur, con golpes en la cabeza y el pecho."
+    },
+    {
+        "headline": "Asaltan Hostal de Director de Grupo de Cumbia",
+        "content": "Una serie de pistoleros robó 400 soles y celulares de un hostal administrado por Pedro Yana, compositor, guitarrista y director del grupo de cumbia 'Pinocho y Sumix'. El asalto ocurrió a las 2:09 de la mañana en el hospedaje Rosita ubicado en la cuadra 30 de la avenida 28 de julio, en 'La Parada', La Victoria."
+    },
+    {
+        "headline": "SIGUEN VENDIENDO PELOTES EN JIRON AYACUCHO",
+        "content": "Desde las 10 de la mañana, comerciantes portan mochilas, maletines y costales donde llevan mascotas ocultas. Las ventas ilegales persisten a pesar de múltiples denuncias realizadas ante las autoridades locales."
+    },
+    {
+        "headline": "Peluches volan para el Dia de San Valentín",
+        "content": "Conforme se aproximan las festividades del 'Dia de San Valentín', las tiendas están adornadas con corazones rojos y frases amorosas. Peluches de animales diversos han capturado especialmente la atención de jóvenes clientes."
+    },
+    {
+        "headline": "Debate electoral según Alfredo Torres",
+        "content": "Entrevista exclusiva con Alfredo Torres, licenciado en Administración de empresas y especializado en Ciencias políticas, discute temas clave relacionados con seguridad ciudadana, candidatura política y percepción pública hacia figuras gubernamentales actuales."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/trome/2014/02/trome_09.txt ---
+
+```json
+[
+    {
+        "headline": "Curioso caso del curuchú",
+        "content": "Hay un curuchú que está sentado en los pies del platón. Es una blanca mamá, de cuerpo zarco y de nombre Andrea. Pero quien lo crea mucho porque ella ha hecho ver cómo subía a turno como un rico ‘minero’ que trabaja en un equipode Segunda."
+    },
+    {
+        "headline": "Pasado martes...",
+        "content": "Del nueve de la noche, Cayó ‘cientel chifa’ Unión de Barranco. Lleg solo y pidió dinero para llevar. La firme, como hoy no está demás, no lo atendió y tuvo que esperar. Primero le pararon bolsa a los que pedían la carta. ¿Qué fue...?"
+    },
+    {
+        "headline": "Clínica Dental Lara ofrece precios sorprendentes",
+        "content": "Precios regulares por medio baño Lara: sanitario blanco, incluye: taza, tanque y accesorios de tanque. Precios regulares por lavatorio más pedestal Lara: no incluye: grifera ni trampa."
+    },
+    {
+        "headline": "Bayern triunfa invicto",
+        "content": "Claudio Pizarro y Carlos Zambrano fueron los protagonistas de victorias de Bayern (1° con 56 puntos) contra Nürnberg (16° con 17 puntos) y Eintracht Frankfurt (12° con 26 puntos) respectivamente. Guardiola lo puso a Claudio Pizarro."
+    },
+    {
+        "headline": "Fiorentina sufrió para vencer a Atalanta",
+        "content": "Juan Vargas juega volante lateral por izquierda y contribuye tanto en defensa como en ataque. José Luis Civelli (16’) y Rafael Wolski (86’) anotaron los dos tantos necesarios para asegurar la victoria."
+    },
+    {
+        "headline": "Brasil: Coringthians enfrentará suplentes",
+        "content": "Paolo Guerrero muestra irritación tras entrenamientos debido a incidentes previos. Parece aún afectado por la situación anterior con Corinthians."
+    },
+    {
+        "headline": "Madrid: Real Madrid avanza líder",
+        "content": "Sin Cristiano Ronaldo, el Real Madrid derrotó 4–2 al Villarreal gracias a goles clave de Gareth Bale entre otros. Ahora espera retomar primer lugar cuando visite al Sevilla."
+    },
+    {
+        "headline": "Florentino Pérez confirma titularidad de Ronaldinho",
+        "content": "Ronaldinho jugará desde el inicio frente al Levante después de recuperarse completamente de lesiones musculares."
+    },
+    {
+        "headline": "Universidad presenta nuevas oportunidades académicas",
+        "content": "Ofrece programas variados desde Derecho hasta Doctorados, además de opciones de admisión especializada y complementación académica."
+    },
+    {
+        "headline": "Gabriel Costa dice que sólo recibió \"Carinitos\"",
+        "content": "\"Me pegaron, pero no hay que preocuparse\", afirmó Gabriel Costa refiriéndose a un encuentro donde también destacó su capacidad para mantener la compostura."
+    },
+    {
+        "headline": "Miraflores necesita personal motorizado",
+        "content": "Convocatoria dirigida a jóvenes responsables interesados en trabajar como choferes, motrizados o tácticos dentro de la municipalidad."
+    },
+    {
+        "headline": "Salvat Cabañas reparte pan luego de perder fortuna",
+        "content": "Tras problemas financieros causados por decisiones personales erráticas, Salvatierra Cabañas ahora dedica tiempo ayudando a distribuir alimentos en Ciudad del Este."
+    },
+    {
+        "headline": "Argentina: Argentinos Juniors logró importante victoria",
+        "content": "Leonardo Pisculichi y Lucas Cano anotaron para darle la ventaja definitiva a Argentinos Juniors sobre Godoy Cruz."
+    },
+    {
+        "headline": "Italia reclama impuesto pendiente a Diego Maradona",
+        "[...] Italian authorities have approached him during events for tax collection purposes, emphasizing his obligation towards unpaid taxes amounting to millions of Euros."
+    },
+    {
+        "headline": "Tips moda para camuflar pancitas",
+        "content": "Las recomendaciones sugieren optar por colores oscuros y cortes específicos para minimizar visualmente áreas problemáticas."
+    },
+    {
+        "headline": "Maltrato animal podría señalar riesgos mayores",
+        "content": "Expertos advierten que comportamientos violentos hacia animales pueden anticipar tendencias similares hacia otras víctimas potenciales."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and guidelines. Articles were identified based on distinct topics and structured accordingly within each entry. Any missing data was filled using "NA".

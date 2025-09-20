@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/07/gestion_24.txt ---
+
+```json
+[
+    {
+        "headline": "Fortalece la Planificación Agrícola (Ley No 30987)",
+        "content": "Que busca fortalecer la transferencia de información estadística agraria, articulando el acceso a la misma por parte de todos los niveles de gobierno y diferentes actores del sector rural, en consonancia con el Sistema Integrado de Estadística Agraria (SIEA). Para la planificación de producción agraria en el país."
+    },
+    {
+        "headline": "Todo Indica Que la Probabilidad de Ocurrencia de un Nuevo Desbalance Internacional Tiene Tendencia a Incrementarse",
+        "content": "\"... relaciones o crisis internacionales, como la que detonó en el 2008, fueron claras en economías de carácter emergente como la peruana: días de capitales, volatilidad cambaria, caída en precios de minerales, incremento en la percepción del riesgo soberano, descomposición de las finanzas públicas y recesión. El entorno internacional no está tranquilo. Al conocida evolución de los indicadores ligados a la sobrevaloración de activos, el nivel extremo de endeudamiento público de las principales economías del mundo, los spreads negativos en el mercado núcleo temporal de los bonos del tesoro americano, se suma hoy el desbalance generado por la guerra comercial entre china y Estados Unidos, el ruido financiero asociado al ajuste de las tasas de la Fed y las preocupaciones geopolíticas crecientes.\" Juan José Marthans Len\n\"... Una manera de amortiguar parte del impacto de una crisis sobre una economía emergente como la peruana estar dado a partir de la toma de consciencia de la menor vulnerabilidad comparativa que hoy dispone nuestra economía. Ha sido así que hemos logrado mantener un margen más amplio de maniobra durante episodios adversos económicos globales.\""
+    },
+    {
+        "headline": "FMI Reduce Sus Previsiones Mundiales",
+        "content": "\"Mayor aranceles de China y EE.UU., tarifas a las importaciones estadounidenses de autos a un Brexit sin acuerdo son los principales riesgos. Mayores aranceles de China y EE.UU., tarifas a las importaciones estadounidenses de autos a un Brexit sin acuerdo son los principales riesgos. (...) \"La economía mundial se expandirá 3.2% este año y 3.5% el próximo, ambas cifras un punto porcentual por debajo de lo proyectado en abril, señaló el organismo en su más reciente informe trimestral publicado ayer en Washington. (...)"
+    },
+    {
+        "headline": "Sondeo Argentino Revela Leves Mejoras",
+        "content": "(...) \"Según datos preliminares, Argentina registró en abril del 2018 una variación interanual nula. Las estimaciones entre ocho analistas locales y extranjeros reflejan una contracción en la economía de apenas un 0.1% interanual en el quinto mes del año, mientras que la media de las proyecciones arroj un [...] avance de un 0.1%.\""
+    },
+    {
+        "headline": "Guerra Comercial Continúa Entre EU y China",
+        "content": "\"(...) Próxima semana Estados Unidos y China retoman negociación. El representante de Comercio de Estados Unidos, Robert Lightizer, junto a altos funcionarios del país viajarán a China el próximo lunes para las primeras negociaciones cara a cara de alto nivel entre las dos mayores economías del mundo desde que se terruptieran las conversaciones en mayo.\"\n(...)\n\"Las partes están todavía distanciadas en aspectos importantes, como las demandas de Washington de reformas estructurales en la economía de China y el llamado de Beijing a que EE.UU. elimine los aranceles existentes sobre los productos chinos importados.\""
+    },
+    {
+        "headline": "Nuevo Acuerdo Fiscal Impulsa USD",
+        "content": "\"(...) El dólar subió el miércoles a máximos de casi cinco semanas después de que el presidente de Estados Unidos, Donald Trump, y los líderes del Congreso acordaran una extensión de dos años al límite de la deuda del país. Esto permitirá al Departamento del Tesoro aumentar su enduedamiento de corto plazo para incrementar su efectivo, que había disminuido cercano a US\$195,000 millones desde US\$423,000 millones a fines de junio.\""
+    },
+    {
+        "headline": "Revelan Datos Claves de Economía Peruana",
+        "content": "\"(...) Por un lado, Donald Trump no desperdiçó oportunidad para recordarnos lo atroz que es. Su última incursión racista ha deleitado a sus simpatizantes, pero ha repelido al resto. Por otro, hay muy bajo desempleo y el PBI creció 3.2% en el primer trimestre. Sin embargo, las elecciones no serán mañana, sino dentro de quince exhaustivos meses. El carácter de Trump no cambiar, pero la economía podría lucir significativamente diferente. Lo primero que necesitamos saber es qué tan grande será el déficit presupuestario federal esperado alcanzar US\$1 billón de millones este año, contrastándolo con los US\$600,000 millones reportados en 2016.\""
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads and unrelated data have been excluded according to specified criteria.

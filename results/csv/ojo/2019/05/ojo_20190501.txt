@@ -1,0 +1,117 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/05/ojo_01.txt ---
+
+```json
+[
+    {
+        "headline": "Presidente de la República",
+        "content": "OJO * LIMA : 13\nMIÉRCOLES 01.05.2019\nfue la inflación de los últimos siete meses del primer gobierno de Alan García, quien dej al Perú destrozado económicamente y moralmente en 1990.\nCongresistas cierran filas en torno a su líder.\nApristas niegan todo e insisten en su inocencia\nComo sí las cuentas, los testimonios, los documentos y la lógica fueran insuficientes, la bancada del APRA y el Partido Aprista Peruano (PAP) rechazaron la confesión de Miguel Atala sobre quién fue testaferro de Alan García al recibir $1’312,000 de una coima de Odebrecht que luego entregó por partes al expresidente."
+    },
+    {
+        "headline": "Gianella Neyra Felicita Próximo Debú de ‘Noche'",
+        "content": "Gianella Neyra, al igual que Rebecca Escriváns, felicitó la nueva propuesta de Latina: ’Noche de Patas’, que se estrena el 3 de mayo con Carlos Vílchez, Gonzalo Revoredo, Andrés Salas y Óscar López Arias. ’Me parece lo máximo, soy feliz, sé mis patas, Los veré, me parece bueno lo que harán. Es una alternativa más para que la gente vea televisión’, señaló Gianella. Por su parte, Rebecca Escriváns dijo que ’Son nuestros amigos, les deseo mucho éxito.’\n’TOMATE’ BARRAZA SALE EN DEFENSA DE YAHAIRA PLAESPENCA\nCarlos ’Tomate’ Barraza se refirió a La India, quien – según él llamó ’vedette’ a Yahaira Plascencia – diciendo que no le veía para alarmarme si me llaman vedette, no me sentiría afectado. Tengo una tía que lo haya sido: Lucho Rivera, que canta, baila y actúa. No creo deberíamos alarmarnos; creo que se extralimitó un poco o a lo mejor quiso decir otra cosa. Pero yo no me sentiría ofendido’. "
+    },
+    {
+        "headline": "Malas Lengua",
+        "content": "Estas malas lengüas reaparecen cargaditas de chismes. Arrancamos con Paola Vilca, quien le tiró flores a la prensa que la esperó en las afueras de América Televisión. No dijo nada respectivo a la bronca que se habrá armado entre las productoras PRO-TV y GV, quienes últimas contrató a la gauchita, quien incriminó en la ’Fiesta del Terror’ a alguien. Ahora pretende ser congresista. ¡Ajá! Mejor sigues haciendo tus viaje en el reality... Y me dicen que Rodrigo critiqué que Susan Ochoa está participando en ’El Artista del año', después de haber ganado dos Gaviotas de plata. Te das cuenta de que algo está mal en el espectáculo de nuestro país cuando una artista con todas sus letras como es Susan Ochoa está de participante y de jurado está un español desangelado (y don nadie), sin talento merecedor, ¿para qué evaluarte?"
+    },
+    {
+        "headline": "Mario Hart defiende su Participación en “El Artista Del Año”",
+        "content": "‘No sé si Korina me acompañará en futuras presentaciones, podríamos bailar juntos, nosotros podemos sacar mejores cosas todavía, hay que ensayar mucho, y lo demás me tiene sin cuidado, en realidad. Cuando siento una crítica real mente constructiva, de gente conocedora del tema, la voy a tomar con muchísima humildad.' Mario Hart expresó estas palabras defendiendo su papel en el programa musical.”
+    },
+    {
+        "headline": "Convierte Tu Casa en La Casa del Futbol",
+        "content": "¡Oferta especial! Convierte tu hogar en un santuario del fútbol. Disponible sólo por tiempo limitado. Incluye acceso premium a partidos internacionales y contenido exclusivo detrás de cámaras. Haz clic aquí para saber cómo beneficiarte de esta oferta única."
+    },
+    {
+        "headline": ": Cremas reciben Hoy a Sport Huancayo en Partido Pendiente",
+        "content": "Universitario recibe a Sport Huancayo, desde las 3:30 p.m., en el estadio Monumental de Ate, por el partido pendiente de la fase 8 del Torneo Apertura. Los cremas necesitan el triunfo para mantener vivas sus chances de pelear por el título de este campeonato, así lo afirmó el capitán Aldo Corzo. ‘Si ganamos, nos metemos a 7° lugar; y de ganar, nos pondremos a seis del lider Binacional'."
+    },
+    {
+        "headline": "Curandero Compactado Magico y Hechicería",
+        "content": "Realizo conjuros compactados de magia negra y rituales ancestrales provenientes de la selva en una misma sesión nocturna. Regreso al cariño de aquel/aquellos que están distantes geográficamente. Ofrezco solución definitiva mediante la aplicación de técnicas tradicionales garantizadas. Contactame para mayor información."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, sports scores unrelated to specific events, etc., have been excluded according to the scope defined.
+
+--- ERROR ENTRY: data/txt/ojo/2019/05/ojo_01.txt ---
+
+```json
+[
+    {
+        "headline": "Derrota 0–1 ante Tottenham Hotspur",
+        "content": "Ajax sorprende al mundo en Champions League."
+    },
+    {
+        "headline": "Cambios económicos relevantes",
+        "content": "Compra – venta de dólar presenta variación significativa.\n\nDepósito mínimo requerido aumenta considerablemente."
+    },
+    {
+        "headline": "Alan García enfrenta nuevas revelaciones",
+        "content": "\"Demostré, pues, imbeciles\", dice Alan García respecto a afirmaciones de recibir dinero de Odebrecht. Exfuncionario confiesa relación complicada con Petroperú bajo gestión anterior."
+    },
+    {
+        "headline": "Juventud corre peligro extremo",
+        "content": "Un joven realiza maniobra audaz escalando pared exterior para salvar a su mascota, acción aclamada públicamente."
+    },
+    {
+        "headline": "Emocionales respuestas cinematográficas",
+        "content": "Una joven requiere atención médica después de intensa respuesta emotiva mientras ve película en China."
+    },
+    {
+        "headline": "Descubrimientos geológicos impactantes",
+        "content": "Meteorito Fukang destaca por antigüedad estimada de 4.5 billones de años, fragmentándose posteriormente."
+    },
+    {
+        "headline": "Actitud deportiva provocativa",
+        "content": "Después de ser expulsado, jugador inglés provoca fallo eléctrico intencionado en estadio."
+    },
+    {
+        "headline": "Iniciativas legislativas mexicanas innovadoras",
+        "content": "Propuesta legal sugiere reducir consumo cervecero vendiendo productos fríos."
+    },
+    {
+        "headline": "Relatos personales inspiradores",
+        "content": "Abuela decide acompañar a nieto a ceremonia escolar debido a dificultades para conseguir compañía masculina."
+    },
+    {
+        "headline": "Hallazgos domésticos alarmantes",
+        "content": "Exesposo oculta residencia dentro vivienda familiar, situación detectada casualmente."
+    },
+    {
+        "headline": "Conductas urbanas imprudentes",
+        "content": "Individuo causa desconexión energética total en estadio tras incidente disciplinario."
+    },
+    {
+        "headline": "Incidentes violentos preocupantes",
+        "content": "Universitaria sufrió ataques físicos severos por individuos asociados a transporte informal."
+    },
+    {
+        "headline": "Detención policial relevante",
+        "content": "Grupo conocido como \"Maracas\" interceptado justo antes de ejecutar asalto en tienda electrónica."
+    ],
+    {
+        "headline": "Casos judiciales complejos",
+        "content": "Persona encuentra final dramático en habitación hotelera, evidenciando señales claras de confrontación mortal."
+    },
+    {
+        "headline": "Operativos criminales exitosos",
+        "content": "Autoridades arrestan líder notorio involucrado en actividades ilegítimas, asegurando múltiples elementos relacionados."
+    },
+    {
+        "headline": "Impactos ambientales adversos",
+        "content": "Residentes afectados gravemente por aplicación indiscriminada de pesticidas en área central urbana."
+    },
+    {
+        "headline": "Delitos financieros destacados",
+        "content": "Actor internacional víctima de hurto flagrante, siendo objeto de amenazas graves durante transacción cotidiana."
+    },
+    {
+        "headline": "Esclarecimiento informativo importante",
+        "content": "Corrección hecha pública referente a cifras erróneas inicialmente comunicadas sobre incidencias específicas en sistema de transportación masiva."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on significant events reported within the provided OCR text snippet. It adheres strictly to the guidelines for extracting meaningful journalistic content while excluding irrelevant sections such as ads and non-article elements.

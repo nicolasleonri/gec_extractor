@@ -1,0 +1,69 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/07/peru21_03.txt ---
+
+```json
+[
+    {
+        "headline": "Sureste tour mundial\nGabriel villamarín avanza en sudáfrica",
+        "content": "El tablaísta peruano Gabriel Villamarin inició exitosamente su participación en el Mr. Price Pro, fecha válida por el Tour Mundial ASP que se lleva a cabo en África. Villamarin terminó segundo en su serie con un puntaje de 11.16, quedando detrás del local Matthew Bromley (8.64) y del australiano Mitch Crews (5.03). En la siguiente fase enfrentará al estadounidense Michael Dunphy, al hawaino Griffin Colapinto, al marroqui Ramzi Boukhiam."
+    },
+    {
+        "headline": "Alianza confianza\n’bam bam’ ya sabecea el pezcado",
+        "content": "A pesar de que su equipo no gana hace dos encuentros, el técnico de Alianza Lima, Wilmar Valenzuela, está seguro de obtener un buen resultado el domingo cuando visiten a José Gálvez. ‘Va ir de pesca a Chimbote’, expresó el estratega, añadiéndose críticas hacia las condiciones de juego en algunas canchas locales.”
+    },
+    {
+        "headline": "Escenarios\ndefensa de luca oxenford",
+        "content": "La actriz Yvonne Frayssinet salió en defensa de su hija Lucrecia Oxenford tras recibir diversas criticas mediáticas. Según ella, su hija será sometida a un tratamiento especial después de experimentar síntomas severos relacionados con ansiedad y depresión. Además, menciona que estas situaciones han causado impacto emocional en toda la familia."
+    },
+    {
+        "headline": "Escenario\noscar d\'len volveraalos escenarios",
+        "content": "El salsero venezolano Oscar D'Lén asegura sentirse recuperado tras un incidente que amenazó seriamente su vista. Explicó que aunque aún tiene dificultades visuales, espera mejorar gradualmente gracias al apoyo médico. Durante esta época retoma su carrera artística, continuando con giras internacionales previstas anteriormente."
+    },
+    {
+        "headline": "Entertainment\nHugh jackman aclara rumores",
+        "content": "El reconocido actor Hugh Jackman abordó públicamente los constantes rumores sobre su supuesta homosexualidad. Manifestó que tales especulaciones resultaban molestas dado que eran falsas. También compartió cómo estos comentarios repetitivos afectaban su privacidad personal junto a su familia."
+    },
+    {
+        "headline": "Entretenimiento\nmuere hija de pi** brosnan",
+        "content": "Charlotte Emily, hija del veterano actor Pierce Brosnan conocido por interpretar a James Bond durante los años 90, lamentablemente falleció a causa de cáncer ovárico. Su padre emitió un emotivo mensaje recordándola como una guerrera valerosa frente a la enfermedad."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text while adhering strictly to the defined format requirements. It includes headlines where available and merges fragmented texts for coherent narratives within each entry. Articles unrelated to journalism such as schedules were excluded according to guidelines.
+
+--- ERROR ENTRY: data/txt/peru21/2013/07/peru21_03.txt ---
+
+```json
+[
+    {
+        "headline": "Canonizado en 1671; papá Juan Pablo II casi 54 años después",
+        "content": "Testimonio por Jerusalén (EFE): Cerca de ser consagrado santo segundo día en el juicio del tribunal católico francés Murad, luego de que una comisión de médicos confirmara un segundo milagro post mortem. El camino hacia la santidad incluye dos niveles previos: primero se considera Siervo de Dios y luego Beato. Testificado haber mediado en la curación de Parkinson a la francesa Simone-Pierre."
+    },
+    {
+        "headline": "Por qué la mejor cafetería gastronómica la encuentras aquí",
+        "content": "Nuestros chefs, Reto Steffenmann y Augusto Salazar, transforman el bufé dominical en un festival culinario lleno de exquisiteces. Ofrece platillos refinados como mozzarella y caviar, Terrinas de foie gras con higos, Escargots à la bourguignonnes, Timbal de centollo, Langostas au thermidor, Lomo wagyu y chuletón de cordero. Disfrútenlo todos los domingos de 12:30 a 15:30 hrs."
+    },
+    {
+        "headline": "Opina: Allende, Correa y el Len",
+        "content": "Reflexión sobre cómo Salvador Allende invitaría a Estados Unidos a moverse si no les agrada tener un país socialista junto. Análisis de las acciones posteriores de Agustín Pinochet y comentarios recientes del Presidente ecuatoriano, Rafael Correa, respecto a una supuesta donación estadounidense destinada a capacitación en Derechos Humanos."
+    },
+    {
+        "headline": "Entrevista Gonzalo Pajarés",
+        "content": "Juliana Venegas visita Lima para interpretar su álbum ‘Los Momentos’, explorando emociones universales mediante composiciones pictóricas más que narrativas. Discute su estilo introspectivo y cómo encuentra inspiración tanto en estados positivos como adversos."
+    },
+    {
+        "headline": "Lo Que pasa hoy y lo que está por pasar",
+        "content": "Anuncios diversos relacionados con eventos culturales y exposiciones artísticas destacables en Lima, tales como el concierto de Julieta Venegas y exhibición de grabados mexicanos."
+    },
+    {
+        "headline": "Acusan a burgomaster de Barranco y cinco regidores por abuso de autoridad",
+        "content": "Se denuncia penalmente a Jessica Vargas y varios regidores por intentar subastar partes del Acantilado de la Costa Verde, violando normativa vigente. Esta acción podría resultar en tres años de cárcel según el artículo 376 del código penal."
+    },
+    {
+        "headline": "Bus que cayó a abismo en Yauyos carecía de permisos legales",
+        "content": "Informe de la SUTRAN confirma ausencia de certificaciones requeridas para operar legalmente el autobús implicado en el fatal accidente en Yauyos, exacerbando preocupaciones sobre regulaciones viales deficientes."
+    },
+    {
+        "headline": "Exigen responsabilizar administradores de Discotheque Utopía",
+     

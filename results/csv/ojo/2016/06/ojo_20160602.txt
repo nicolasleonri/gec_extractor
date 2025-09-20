@@ -1,0 +1,85 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2016/06/ojo_02.txt ---
+
+```json
+[
+    {
+        "headline": "ADELE VIVE EN ESTADOS UNIDOS",
+        "content": "Adele se mudó a Estados Unidos y compró una residencia en Beverly Hills que le costó nueve millones."
+    },
+    {
+        "headline": "PADRE DE GEMELLAS",
+        "content": "Al cumplir 68 años, el guitarrista de los Stones anunció que será papá de gemellas. Su esposa, de 38, dio luz a Gracie y Alice."
+    },
+    {
+        "headline": "MILETT FIGUEROA NIÑEGUESA A LUKE SKYWALKER JR.",
+        "content": "\"Niñeguese\" a Luke Skywalker Jr. dice Milett Figueroa mientras niega pertenecer a su vida. \"¿Qué necesitan decir más detrás de mí?, ¿qué van a inventar?", afirmó la modelo. "
+    },
+    {
+        "headline": "MAGDYEL UGAZ SERÁ DOÑA PETRA EN GUERRERO",
+        "content": "Magdyel Ugaz encarna a Doña Petra en la película 'Guerrero'. \"Interpretar a la señora Peta es una gran responsabilidad\", comentó Magdyel. "
+    },
+    {
+        "headline": "JOAO PEREIRA PRESENTERÁ ÁLBUM",
+        "content": "Luego del lanzamiento del vídeo 'Solo', el cantante João Pereira está listo para presentar hoy su álbum 'Parte de mí', en el Jazz Zone de Miraflores."
+    },
+    {
+        "headline": "CIURLIZZA CON DEBÚT EN CINE",
+        "content": "Carlos Ciurlizza hará su debut cinematográfico interpretando a Don Pedro Pablo León García en la nueva producción dirigida por Fernando Spiner."
+    },
+    {
+        "headline": "PAULO GUERRERO CONFÍA EN JOVENES",
+        "content": "Paulo Guerrero destaca la calidad de los jóvenes seleccionados para la Copa América. \"Hay muchas cualidades en esta selección,\" mencionó."
+    },
+    {
+        "headline": "RAL RUDDY INTERÉS DE CLUBES CHILENOS",
+        "content": "El rendimiento de Raúl Ruidíaz despertó el interés de equipos mexicanos como Morelia y Toluca."
+    },
+    {
+        "headline": "ALIANZA BUSCA REFORZARSE",
+        "content": "Administración de Alianza Lima sigue buscando opciones para refuerzos, mostrándose insistente por conseguir a Diego Mayora."
+    },
+    {
+        "headline": "ANGEL DI MARÍA ESPERA SACARSE LA ESPINA",
+        "content": "Angélico Di María explica cómo Argentina planea enfrentar a Chile en la próxima Copa América después de perder anteriormente."
+    },
+    {
+        "headline": "ALEXIS COSSIÓ SOBERANO EN ASCENSOS",
+        "content": "Alejandro Cossío cree que los cuatro puntos de ventaja pueden remontarse en el campeonato ascendiendo desde Sporting Cristal."
+    },
+    {
+        "headline": "CRÓNICA INTERNACIONAL",
+        "content": "Dani Alves podría fichar por PSG según informes, España juega un amistoso crucial sin Ronaldo, y Portugal pierde a figuras clave en juegos próximos."
+    },
+    {
+        "headline": "RECETA FACILITA COCINA DOMÉSTICA",
+        "content": "Nuevo recetario facilitará la elaboración de platillos tradicionales peruanos, promoviendo dietas sanas dentro del hogar."
+    },
+    {
+        "headline": "HIPERTENSION ARTERIAL, FACTOR DE RIESGO",
+        "content": "Un factor significativo de riesgo cardiovascular es la presión alta, causada principalmente por sedentarismo y otros factores relacionados."
+    },
+    {
+        "headline": "PLANIFICACIÓN FAMILIAR MEDIANTE ANTICONCEPTIVOS MODERNOS",
+        "content": "Implementación exitosa del uso de métodos modernos de planificación familiar, reduciendo tasas de embarazo indeseado."
+    },
+    {
+        "headline": "CONTROL DEL ASPMA NECESITA ATENCIÓN CONSTANTE",
+        "content": "Control adecuado del asmático requiere comprensión profunda de la condición y medidas preventivas específicas."
+    },
+    {
+        "headline": "RIESGOS CRECENTES PARA FUMANTRICES PASIVAS",
+        "content": "Incremento notable en casos de cáncer asociados al humo ambiental, especialmente impactando niños vulnerables."
+    },
+    {
+        "headline": "REVOLUCIÓN EN FITNESS LOCAL",
+        "content": "Una innovadora red de gimnasios ofrece programas personalizados enfocados en mejora integral de estilo de vida."
+    },
+    {
+        "headline": "CASOS DEL CORAZÓN",
+        "content": "Relatos íntimos de individuos atrapados en dilemas sentimentales complejos, explorando sentimientos humanos profundamente arraigados."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the outlined extraction rules. Articles were segmented according to changes in topics indicated by headings or shifts in narrative focus. Non-article elements like ads or unrelated listings have been excluded.

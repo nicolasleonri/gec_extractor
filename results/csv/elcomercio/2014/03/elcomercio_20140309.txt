@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2014/03/elcomercio_09.txt ---
+
+```json
+[
+    {
+        "headline": "Michelle Bachelet pierde a otra viceministra",
+        "content": "Santiago de Chile [AP]. La presidenta electa de Chile, Michelle Bachelet, perdi ayer a su vice-ministra de Defensa. Carolina Echeverria renuncio a su designación cuando faltaban cuatro días para asumir, tras las criticas de víctimas de violaciones de derechos humanos, que acusan a su padre de haber torturado y violado a mujeres durante la dictadura de Augusto Pinochet (1973-1990).\n\nEn su carta de renuncia, Echeverria pidio a los familiares de víctimas de la dictadura confiar en el programa de la mandataria, que establece que \"los derechos humanos deben ser la base normativa de una sociedad democrática, que permita la convivencia nacional en torno a principios de igualdad, justicia, diversidad y tolerancia\".\n\nLa presidenta de la Agrupación de Familiares de Ejecutados Políticos, Alicia Lira, aseguró que la renuncia de Echeverra es un buen precedente, \"porque habla de una futura presidenta que escuchará a la ciudadana y tomará decisiones ante fundamentos moralemente sólidos\"."
+    },
+    {
+        "headline": "Opinión Farid Kahhat - Analista Internacional",
+        "content": "\"La vida te da sorpresas (también en Ucrania)\nEn Georgia, en el 2008, Vladimir Putin \\\\-cuando menos\\\‐esperó a que ciudadanos rusos fueron victimizados antes de alegar que enviaba a sus tropas para protegerlos. Cuántos ciudadanos rusos habían perecido como consecuencia de la violencia xénfoba en Ucrania antes de la ocupación de Crimea? Que sepamos, ninguno. El Presidente de Rusia alega que no se trata de una intervención militar de su país, sino de la acción de milicias locales que actuán de manera autonomía. ¿Claro, milicias sin distinto alguno, que jamás habían emitido un pronunciamiento público, cuyos líderes nadie conoce, y de las cuales absolutamente nadie había oído hablar en la víspera de su fulgurante captura de Crimea. Milicias que, además, entraron en acción justo cuando Putin obtuvo la autorización del Senado de su país para emplear tropas rusas en esa península.\n\nEs cierto que cuando el Secretario de Estado de EE.UU., John Kerry, alega que 'uno no invade otro país con pretextos falsos para hacer valer sus intereses', podría recordársele que eso fue precisamente lo que él contribuyó a hacer con su voto en el Senado en favor del uso de la fuerza en Irak. Aún así, existe una diferencia importante entre Irak y Ucrania: Estados Unidos no buscaba anexionar el territorio de otro país.\""
+    },
+    {
+        "headline": "Diálogo con líderes europeos",
+        "content": "El presidente de EE.UU., Barack Obama, mantuvo conversaciones telefónicas con el Primer Ministro británico, David Cameron; el Presidente Francés, François Hollande; y el Primer Ministro Italiano, Matteo Renzi, sobre la crisis en Ucrania.\n\nDiputados de Ucrania y Rusia vuelven a dialogar\n\nReuters\n\nLas protestas ucranianas contra Rusia continúan en Kiev.\n\nMosk [Agencias]. El Viceministro de Asuntos Exteriores ruso, Grigory Karasin, y el Embajador de Ucrania en Rusia, Vladmir Ilichenko, se reunieron ayer en Mosc en el primer contacto oficial entre el Kremlin y las nuevas autoridades de Kiev desde la caída del régimen de Victor Yanukovych.\n\nEl encuentro sirvi para ‘tratar cuestiones de las relaciones bilaterales ruso-ucranianas en un ambiente de confianza’, informó la Cancillería rusa."
+    },
+    {
+        "headline": "Angustia. Familiares de los pasajeros aguardan en Beijing noticias sobre el avión de Malaysia Airlines.",
+        "content": "Malasia\n\nEl avión de Malaysia Airlines quedó fuera de los radars una hora después de despegar.\n\nKuala Lumpur [Agencias]. Con la salida del Sol en el Sureste Asiático, ayer se retomó frente a la costa de Vietnam la búsqueda del avión de la aerolínea Malaysia Airlines, que despareció la madrugada del sábado con 239 personas a bordo, apenas una hora después de despegar de Kuala Lumpur, la capital de Malasia.\n\nDurante el sábado, un avión vietnamita avistó en el mar dos manchas de combustible a unos 250 kilómetros al sur de la Isla Tho Chû. Sin embargo, las autoridades malayas no confirmaron que el carburante pertenezca al navío desaparecido."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Other sections like ads, defunct notices, etc., were excluded according to the scope defined.

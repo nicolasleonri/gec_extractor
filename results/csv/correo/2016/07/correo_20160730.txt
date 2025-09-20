@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/07/correo_30.txt ---
+
+```json
+[
+    {
+        "headline": "Bandas musicales ofrecerán conciertos gratuitos",
+        "content": "Publico podr disfrutar de la música de Mar de Copas, Libido, Zen, RO, Aníbal, La Legión del Sueño, Daniela Flores, Termólogo, Fragil, Campo de Almas, Cementerio Club, Dolores Delirio, Futuro Incierto, Inyectores, Disforía, Cuchillazo, Serial Asesino, entre otras.\n\nLas entradas están a la venta en Teleticket a 39 soles."
+    },
+    {
+        "headline": "BETO CUEVAS ANUNCIA SEPARACIÓN DEFINITIVA DE LA LEY TRAS REGRESO",
+        "content": "\"LA VIDA DA MUCHAS VUELTAS Y ASÍ COMO UN DÍA NOS REUNIMOS, HOY NOS SEPARAMOS\", INDICÓ EL VOCALISTA DEL GRUPO\n\nCorrespondiente a la notificación donde Beto Cuevas, vocalista del legendario rock band chilena La Ley, anunció la disolución permanente después de su reapertura en los escenarios en 2013. Considerados uno de los grupos más influyentes de Chile en los años 90, integrado inicialmente por Beto Cuevas, Andrés Bobe y Mauricio Claverá, había lanzado su último álbum titulado \"Adaptación\" en 2016, pero terminó esa etapa musical el pasado 29 de julio. \n\n\"DESPUÉS DE VARIAS CONVERSACIONES Y MESES DE GIRÁ, HOY CIERRAMOS ESTE CAPÍTULO FINAL DE UN LIBRO LLAMADO LA LEY. ALGUIEN PODRÍA INTERROGAN LAS MOTIVACIONES DETRÁS DE ESTA DECISIÓN. MI RESPUESTA ES QUE LA VIDA OFRECERÁ OTROS CAMBIOS Y AHORA NO SOMOS LO MISMO.\""
+    },
+    {
+        "headline": "PROGRAMA FORMACIÓN DE PBLLCO PARA ESCOLARES",
+        "content": "\"BUSCAMOS FORJAR UN PÚBLICO REFLEXIVO DE ARTES DRAMA\"\n\nMelissa Gos, coordinadora del programa Formación de Públicos, destaca la relevancia de este innovador proyecto dirigido hacia estudiantes. Desde su inauguración en 2012, el programa ha sido fundamental en introducir a jóvenes en el universo de las bellas artes dramáticas. Los detalles incluyen cómo funciona el artículo, organizado por el gran jurado Críticos de Arte Peruano, quienes también otorgan reconocimientos a otros proyectos culturales destacados dentro de la programación diaria de eventos periódicamente realizados en el país."  
+```
+### Text Cleanup:
+
+The following steps were taken for cleaning up the provided data before extracting it into structured format:
+
+1. **Join Hyphened Words**: Any word split across pages was joined back together where necessary using context clues within each paragraph block.
+   
+   Example: `Se busca perro perdido` should read correctly after joining any fragmented parts like `-`.
+
+2. **Remove Redundant Information**:
+   - Eliminate repetitive information such as date mentions scattered throughout different sections which don't add value to individual stories but rather serve more general purposes.
+
+3. **Preserve Accents/Punctuation**:
+   - All special characters including accented letters have been preserved accurately according to their usage in native language contexts ensuring readability remains intact while maintaining authenticity.
+
+By applying these cleanup rules consistently over extracted texts ensures clarity and coherence making sure every story stands out distinctly even amidst potential noise created due to misprints during initial scanning processes involved in creating digital versions from physical newspapers. This approach helps maintain high-quality outputs suitable for further processing tasks like machine learning models training datasets etcetera.

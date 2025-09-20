@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/02/trome_10.txt ---
+
+```json
+[
+    {
+        "headline": "Automotores Murillo",
+        "content": "Te (0s] 32—2174\nAREQUIPA: INCAMÓRFRS Telf 05| 22.2200.\nAYACUCHO: AYACUCHO MOTORS Tert (0es) 31—sate."
+    },
+    {
+        "headline": "Costa verde",
+        "content": "Tre violatos\mpañante Jaime \nUrtecho inform que en un operativo con 200 efectivos del Escuadrón Verde y de Emergencias se intervino a varios que echaban agua y piedras a transeúntes, principalmente en Barrios Altos y El Agustino."
+    },
+    {
+        "headline": "Detienen a 72 personas",
+        "content": "Entotal727personas fueron intervenidas ayer,en total lacapital, por usar la violencia en los juegos de calle. El general Salvador EspecialLima, entre hombres y mujeres intervinieron, 474 son adultos y 253 niños. También se detuvo a una persona portener tentativa de hurto, en Comas."
+    },
+    {
+        "headline": "Juicio contra comerciantes",
+        "content": "Una jueza dispone prisión preventiva para cinco sujetos implicados en atropello mortal ocurrido en Villa María del Triunfo. Las víctimas eran trabajadoras sexuales que iban camino a trabajar."
+    },
+    {
+        "headline": "Mototaxis ilegales dejarán de circular",
+        "content": "Unos 600 mototaxis informales dejan de decir circulan en el distrito de La Victoria, especialmente en ‘La parada’ y cerros ‘San Cosme’ y ‘El Pino’, donde hay frecuentes accidentes de transito, además de robos y asaltos."
+    },
+    {
+        "headline": "Presentará nota de protesta",
+        "content": "El Gobierno Chileno enviará una carta oficial de protesta al Perú después de que la Cancillería divulgue un mapa en el cual según el reclamo, desconocían los límites territoriales con dicha nación y no reconocen como propio un área triangular conocida como 'triangular terrestre'."
+    },
+    {
+        "headline": "Robo frustrado termina mal",
+        "content": "Un sujeto acusado de golpear en el pavimento y arrebatar sus pertenencias a una estudiante de 17 años fue linchado por comerciantes del Mercado Modelo de Piura."
+    },
+    {
+        "headline": "Investigan a burgomaestre",
+        "content": "Un informe del programa Cuarto Poder revela que el actual alcalde de San Juan de Lurigancho está siendo investigado junto a dos de sus allegados por el presunto delito de lavado de activos."
+    },
+    {
+        "headline": "Leonard Nimoy, Doctor Spock, está grave",
+        "content": "Leonard Nimoy, famoso por interpretar al Dr. Spock en Star Trek, se encuentra en estado delicado debido a problemas respiratorios causados por enfermedad pulmonar obstructiva crónica."
+    },
+    {
+        "headline": "Schalke 04 logró victoria",
+        "content": "Jefferson Farfán continúa demostrando liderazgo en Schalke 04, contribuyendo significativamente a la victoria 2–0 sobre Hannover 96 gracias a su habilidad técnica y capacidad goleadora."
+    },
+    {
+        "headline": "Paulo Albarracín podría debutar",
+        "content": "Paulo Albarracín tiene intención de impresionar al nuevo director técnico de Alianza Lima, Guillermo Sanguinetti, para conseguir minutos en el campo de juego."
+    }
+]
+```
+This extraction includes headlines where available along with their corresponding contents based on the provided input data while adhering strictly to the defined scope and goal for extracting relevant information. Articles were identified through changes in context indicating different topics covered within the document. Non-article sections such as ads have been excluded according to guidelines.

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/07/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "Características económicas actuales",
+        "content": "ciasal incremento de la\nrecaudación del Impuesto\ña la Renta (y en particular\nde su regularización), \nbido al mayor precio \npmedio de los metales que\nexportamos, y al del IGV\ninternointerno, debido \nal dinamismo que viene mostrando\nla economía, el déficit fiscal\npasó de 3.1% en febrero a\n2.4% en mayo, ambos \nmedidos como promedio de\ndos meses.\n\n\"La inversión pública\ncreció por encima del\n20% en el primer\nsemestre\"\n\nEn ese sentido, el \nGobierno podría estar menos\npreocupado por las \ntasas fiscales y dar más \nimpuje a la inversión pública para cumplir su meta\nde crecimiento de esta \nvariable (17%). Con ello se\nha visto efectivamente\ncomprometido."
+    },
+    {
+        "headline": "Perspectivas Económicas 2018",
+        "content": "\nAla luz de lo expuesto, el\n2018 marcará un punto de\nquiebre para la economía\nperuana ya que \nderíamos superar el crecimiento\nde 4%, impulsado principalmente\npor los sectores no\nprimarios gracias a la \ndemanda interna y no\nsolamente basándose en el crecimiento de \notros factores externos como ocurrió en años previos.\nPero existen algunos riesgos en el horizonte. El primero es que la\n guerra comercial iniciada entre Estados Unidos y sus (ex)aliados\nescalen y afecten globalmente, provocando una merma en el PBI mundial,\ny consecuentemente alterando los términos de intercambio. Un segundo peligro radica en la fragilidad política del\npresidente Vizcarra quien podría verse tentado a implementar políticas populistas (o omitir decisiones necesarias)\napenas aceptables que podrían impactar negativamente las expectativas económicas. Esperemos que el año 2018 también sea reconocido positivamente por la participación de nuestro equipo en el Mundial."
+    },
+    {
+        "headline": "Opinión Kurt Burneo Farren",
+        "content": "\"En el presente artículo, discuto dos reflexiones económicas significativas:\nPrimero, analizo los posibles resultados derivados de una escalada en la guerra comercial entre EE.UU. y China, considerando potenciales repercusiones globales. Además, examino algunas contradicciones dentro de la actual legislación tributaria relacionada con el Impuesto a la Renta para individuos, destacando cómo determinadas deducciones legítimas están erosionando bases imponibles valiosas.\""
+    },
+    {
+        "headline": "Incentivar el uso de Gas Natural Licuado (GNL)",
+        "content": "Se está incentivando el uso de gas natural licuado (GNL) en transportes pesados, especialmente en la Carretera Panamericana. Para lograr una expansión considerable, será necesario establecer infraestructura adecuada según especificaciones técnicas de los vehículos, así como disponibilidad constante de puntos de suministro a lo largo de las principales arterias viales."
+    },
+    {
+        "headline": "Cambios en estrategias de inversión empresarial",
+        "content": "Empresas están optando por destinar sus depósitos a proyectos de inversión activa en lugar de mantener grandes cantidades en cuentas a plazo. Esta decisión refleja un optimismo renovado respecto al clima económico favorable, motivando movimientos hacia actividades productivas y expansiones operacionales."
+    },
+    {
+        "headline": "Fraudes mediante préstamos fraudulentos en línea",
+        "content": "La Superintendencia de Banca, Seguros y AFP alerta sobre prácticas engañosas llevadas a cabo por aproximadamente 20 compañías ilegítimas que ofrecen créditos rápidos bajo modalidades sospechosas. Dichas organizaciones solicitan pagos anticipados sin proveer servicios correspondientes, aprovechando plataformas digitales para realizar sus ilícitas actividades."
+    },
+    {
+        "headline": "Medidas del Banco Central frente a volatilidad cambiaria",
+        "content": "De cara a enfrentar incertidumbres internacionales, el Banco Central adoptará nuevas regulaciones relativas a límites de ventas de dólares usando instrumentos financieros tales como forwards y swaps. Esta acción pretende mitigar fluctuaciones abruptas en el tipo de cambio local."
+    },
+    {
+        "headline": "Creación de un nuevo fondo agrícola post-Agrobanco",
+        "content": "Tras confirmar el retiro gradual de Agrobanco, el Ministerio de Agricultura planea introducir un proyecto legislativo destinado a formular un nuevo organismo enfocado exclusivamente en brindar apoyo financiero a pequeños agricultores, buscando mejorar acceso a créditos favorables y fortalecer la estructura agropecuaria nacional."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on thematic breaks within the document's flow. Any missing data was filled using "NA," ensuring compliance with specified guidelines for handling incomplete information.

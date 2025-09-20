@@ -1,0 +1,76 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/06/ojo_07.txt ---
+
+```json
+[
+    {
+        "headline": "Cláudio Pizzarro dice que George Forsyth está exagerando",
+        "content": "Martínez señaló que cree que Vanessa sí podría haber estado exagerando un poco, aunque también mencionó que George, ocasionalmente, se pasa de página debido a situaciones particulares."
+    },
+    {
+        "headline": "Karl Azcona aclara relación con Forsyth",
+        "content": "Azcona afirmó que jamás sostuvo una relación íntima con Forsyth, insistiendo en que cualquier interacción ocurrió únicamente dentro de contextos grupales y sociales."
+    },
+    {
+        "headline": "Una cobertura espectacular desde Brasil",
+        "content": "Gran despliegue periodístico, técnico y de producción para millones de aficionados ansiosos por seguir a su Selección Nacional hacia la victoria en la Copa América."
+    },
+    {
+        "headline": "Claudio Pizarro disculpándose públicamente",
+        "content": "‘Me parece que eso quedó atrás’, indicó Ricardo Gareca respecto a comentarios hechos anteriormente por Claudio Pizarro sobre auto-exclusión de la selección nacional."
+    },
+    {
+        "headline": "Renato Tapia frente a criticas",
+        "content": "Tapia defendió la estrategia utilizada por Gareca, argumentando que más importa la funcionalidad futbolística de cada jugador independientemente de la cantidad de mediocampistas o defensores convocados."
+    },
+    {
+        "headline": "Julio Chávez Urribarri critica rendimiento de Christian Cueva",
+        "content": "Urribarri reconoce el talento innegable de Cueva, especialmente evidente en sus goles, pero sugirió preocupación por su productividad general en partidos."
+    },
+    {
+        "headline": "Jefferson Farfán regresa a entrenamientos normales",
+        "content": "Después de días de ejercicios diferenciados, ‘Jefry’ retomó actividades completas bajo supervisión médica, listo para enfrentar próximos compromisos."
+    },
+    {
+        "headline": "Entrena normalmente y asoma ante Colombia",
+        "content": "Conducciones tácticas lideradas por Gareca permiten optimización física y técnica de jugadores clave como Farfán, anticipando competencias cruciales."
+    },
+    {
+        "headline": "Angélica Comizzo presenta proyecto en Universitario",
+        "content": "Comizzo promete transformar a Universitario en contendientes principales del título nacional, buscando consolidarlo como líder indiscutible en el ámbito local."
+    },
+    {
+        "headline": "Libre de problemas, Adrián Balboa destaca puntería",
+        "content": "Balboa impresiona en prácticas con definiciones claras, demostrando habilidades técnicas avanzadas capaces de sortear obstáculos significativos."
+    },
+    {
+        "headline": "Juan Carlos Oblitas solicita disculpas a Pizarro",
+        "content": "Reiterando mensajes conciliatorios, Oblitas extiende disculpas a Pizarro por interpretaciones equivocadas relacionadas con decisiones pasadas de exclusión."
+    },
+    {
+        "headline": "Paulo Garcés debuta con Alianza Lima",
+        "content": "Este sábado, Paulo García dirigirá su segundo ciclo en Alianza Lima, evaluando posibilidades de incorporar nuevos elementos valiosos al plantel actual."
+    },
+    {
+        "headline": "Avilés González y Paolo Guerrero están aptos para Copa América",
+        "content": "Ambos jugadores confirmados sanos y dispuestos después de incidentes menores reportados durante un amistoso internacional."
+    },
+    {
+        "headline": "Argentina avanza en clasificación rumbo a Copa América",
+        "content": "Triunfos decisivos posicionan a Argentina favorablemente para continuar su camino competitivo en el próximo certamen regional sudamericano."
+    },
+    {
+        "headline": "Selección Uruguayana ultima detalles antes de Copa América",
+        "content": "Último amistoso programado contra Panamá sirve como última revisión integral antes de embarcarse hacia el evento principal en territorio brasileño."
+    },
+    {
+        "headline": "Colombia aspira a conquistar la Copa América",
+        "content": "Raúl Falcao, figura emblemática, instiga a su equipo a maximizar potencial y representatividad en búsqueda del codiciado trofeo continental."
+    ],
+    {
+        "headline": "Messi guía a Argentina en último examen",
+        "content": "Anticipando desafíos mayores, Argentina evalúa capacidades generales mediante confrontaciones preliminares, con Messi liderando el ataque."
+    }]
+```
+This JSON captures each identified article based on headlines followed by their respective contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were segmented according to distinct topics within the given input data.

@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/01/elcomercio_28.txt ---
+
+```json
+[
+    {
+        "headline": "Fallece el poeta Tulio Mora, una de las voces del movimiento Hora Zero",
+        "content": "NA"
+    },
+    {
+        "headline": "El Dr. Elmer Huerta detalla las 10 mayores amenazas a la salud pública según la OMS",
+        "content": "NA"
+    },
+    {
+        "headline": "Semana decisiva: Este miércoles 30 acaba la legislatura ampliada",
+        "content": "Bancadas exigen a comisión avanzar en reforma judicial.\n\nEn espera. Congresistas del Apra, Nuevo Perú, APP y PP-K señalan que es urgente aprobar en Constitución texto sobre la Junta Nacional de Justicia.\n\nSesiones. Rosa Bartra (FP) confirma que el grupo se reunirá hoy y mañana. Oficialista Alberto Oliva insiste en que pleno solo vea lo aprobado en Justicia."
+    },
+    {
+        "headline": "Fatalidad en Abancay",
+        "content": "Derrumbé en hotel durante una fiesta de boda deja 15 muertos.\n\nTragedia. Techo y pared del local colapsaron en medio de una intensa lluvia. Hubo más de 30 heridos y se reportó la desaparición de un niño."
+    },
+    {
+        "headline": "Editorial",
+        "content": "\"Casos como éste, desafortunadamente, demuestran lo poco preparados que estamos para emergencias relacionadas con fenómenos naturales, especialmente en el contexto de El Niño...\" \n\nHay eventos cíclicos inevitable...\n\nSe dedican importantes recursos a obras de prevención, pero muchas veces estas inversiones quedan incompletas o mal utilizadas. "
+    },
+    {
+        "headline": "Djokovic y sus fabulosos récord(s)",
+        "'Nole' hace historia de manera incansable.\n\n9 MAESTRS 1000 (Miami, Indian Wells, Monte Carlo, Madrid, Roma, Canada, Cincinnati, Shanghai y Paris) ha ganado 'Nole'.\n\nTENIS\tFORMAN PARTE DEL GRUPO SELECTIVO QUE HAN CONSEGUIDO CAMPEONATOS EN LOS CUATRO GRAND SLAMS (ABIERTO DE AUSTRALIA, ROLAND GARROS, WIMBLEDON Y US OPEN).\n\nSOLO UN JOVEN HA LOGRA DO VENCER A ROGER FEDERER Y RAFAEL NA DALL EN LOS 4 TORNEOS DE GRAND SLAM. Y ESA PERSONA ES DJOKOV IC."
+    },
+    {
+        "headline": "Política",
+        "content": "\nDiscusi\u00f3n sobre el sistema de justicia en el Congreso:\n\nReforma contra el tiempo. Solicitudes para que la Comisi\u00f3n de Constituci\u00f3n vote el dictamen sobre la Ley Orgánica de la Junta Nacional de Justicia. Urgencia manifestada por varios congresistas debido a proximidad del final de la legislatura ampliada."
+    },
+    {
+        "headline": "Pasión por el Perú",
+        "content": "Diálogo sobre el legado del Cardenal Juan Luis Cipriani y su impacto social y político en el país. Reflexiona sobre cómo su labor pastoral influyó en diversas áreas sociopolíticas durante su servicio."
+    },
+    {
+        "headline": "Encuentro en Huancayo",
+        "content": "Representantes de partidos y movimientos de izquierda buscan crear un frente único hacia las próximas elecciones generales. Discusiones centradas en cambios estructurales y nuevas formas de gobernanza."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while adhering strictly to the defined scope and goal criteria. Articles were selected where there was substantial journalistic content available within each segment identified. Other sections like ads, editorials not meeting full article requirements, and non-content pages have been excluded according to guidelines.

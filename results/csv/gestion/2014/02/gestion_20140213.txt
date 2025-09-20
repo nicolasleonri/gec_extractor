@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/02/gestion_13.txt ---
+
+```json
+[
+    {
+        "headline": "‘A veces, no te embriagas',
+         ‘Urabe’ criticó falta de ética en votación parlamentaria",
+        "content": "‘A veces, no te embriagas\n\nde poder y la resaca es muy \nda’, dijo al cuestionar que Urabe,\nquién habrá faltado a la ética, votó en algunos \ncasos para sancionar a varios congresistas.\n\nAl saberse que Uribe durmió durante sesión,\nello cual no había informado, dijo que ‘no\nes mal invertir en... pasado, lo triste es que no lo dijo', añadió.\n\nEn este contexto, recordó que Uribe es miembro\nde la Comisión de Educación. Aunque, en dicho grupo existen otros legisla-dores vinculados a instituciones educativas."
+    },
+    {
+        "headline": "AVANCE Eliminación de visa Schengen",
+        "content": "Mo UN PASO MAS\nEliminación de visa Schengen\n\nSiguiendo el procedimiento para eliminar la visa\nSchengen, ayer la medida fue aprobada por los miembros de la comisión de Libertades Civiles del Parlamento Europeo. An aún requiere el visto bueno del Pleno de la Euro-cámara, votación prevista para finales de abril."
+    },
+    {
+        "headline": "Scar López Meneses vuelve a cargar contra Humala",
+        "content": "Después de declarar más de cuatro horas ante la fiscalía,\nScar López Meneses volvió a arremeter contra el presidente Pedro Pablo Kuczynski. ‘Yo no soy amigo, mucho menos después de llamarme basura’. También señaló que el ex Ministro del Interior Wilfredo Pedraza y el Director de Policías Jorge Flores deben responder por el resguardo dado a casa ajena cuando él no lo solicitó. Respecto a una investigación preliminar sobre pérdida de dominio, mencionó que tuvo tres procesos, ‘en dos me absolvieron y en uno prescribió el delito.’"
+    },
+    {
+        "headline": "APRA recibiría a Tula Benítes",
+        "content": "La excón-gresista Julia Benítes, quien fue investigada por la presunta contratación de un empleado fantasma, podría sumarse al APRA. Esto según Omar Chehade, líder aprista, quién indica que no descartan el retorno de Benítes."
+    },
+    {
+        "headline": "Alerta de la Defensora del Pueblo sobre protestas anti-mineras",
+        "content": "Manifestó su preocupación por las próximas protestas contra proyectos mineros (incluido Conga) así como contra la construcción del penal en Cajamarca. Además, advierte sobre demandas económicas relacionadas con minería en Áncash."
+    },
+    {
+        "headline": "Carta de Protesta chilena pendiente",
+        "content": "Según Alfredo Moreno, aunque inicialmente se afirmó que se envió una nota de protesta al Perú respecto a mapas limítrofes disputados, todavía está bajo análisis y será entregada oportunamente."
+    },
+    {
+        "headline": "Renuncia masiva negada en Somos Perú",
+        "content": "Patricia Li, Secretaria General de Somos Perú, refuta noticias de renuncia colectiva dentro del partido. Informa que seguirán participando electoralmente independientemente, mientras preparan candidaturas locales."
+    },
+    {
+        "headline": "Violencia deja víctimas mortales en Venezuela",
+        "content": "Dos muertos resultaron de confrontaciones violentas entre fuerzas gubernamentales y opositores venezolanos. Ambos bandos protagonizaron disturbios callejeros en Caracas y otras zonas interiores, exacerbando tensiones políticas internas."
+    },
+    {
+        "headline": "Encuestas muestran ventajas electorales para Juan Manuel Santos",
+        "content": "Un reciente sondeo sugiere que el Presidente colombiano Juan Manuel Santos lidera cómodamente en preferencias de voto, anticipándole posibles necesidades de una segunda vuelta debido a alta incidencia de votos blancos."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, sports scores, etc., have been excluded according to specified criteria.

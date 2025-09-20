@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/09/gestion_24.txt ---
+
+```json
+[
+    {
+        "headline": "‘El tercer trimestre en su conjunto',
+        'ha registrado la expansión más sólida desde que el sector comenzó a recuperarse de la crisis financiera', dijo Chris Williamson, de Markit."
+    },
+    {
+        "headline": "Chile iniciará proceso a sospechosos",
+        "content": "La justicia chilena notificó el inicio de las investigaciones a tres jóvenes sospechosos de participar en recientes ataques con bombas en la capital, quienes podrían recibir pena de cárcel de hasta quince años por terrorista. Los implicados, una mujer y dos hombres, fueron detenidos la semana pasada en el sur de Santiago."
+    },
+    {
+        "headline": "Proyecto: Interconexión eléctrica entre Colombia y Panamá será en 2018",
+        "(Reuters) La interconexión eléctrica entre Colombia y Panamá entrarán en operación durante el primer trimestre del 2018, según menciona el proyecto buscando las licencias necesarias para avanzar."
+    },
+    {
+        "headline": "Impacto: OMC reduce previsiones para avance del comercio mundial",
+        "(Reuters) El comercio mundial de bienes crecería un 3.1 % este año, muy menos de lo esperado anteriormente debido a varios factores adversos incluyendo conflictos geopolíticos y epidemias sanitarias. En consecuencia, las exportaciones de países sudamericanos y centroamericanos disminuirían significativamente."
+    },
+    {
+        "headline": "Nuevo sondeo sobre segunda vuelta",
+        "content": "Dilma Rousseff le sigue sacando ventaja a Marina Silva conforme muestran resultados de nuevas encuestas realizadas. Según Vox Populi, Rousseff alcanza ahora un 46% de respaldo comparado con el 39% de Silva en una probable segunda vuelta electoral."
+    },
+    {
+        "headline": "Conflicto: EE.UU. ataca a Estado Islámico en Siria",
+        "(Reuters) Por primera vez, Estados Unidos junto a sus aliados árabes bombardea objetivos en territorio sirio afectando combatientes del Estado Islámico y otros grupos extremistas asociados a Al Qaeda."
+    },
+    {
+        "headline": "Cambio climático: Obama insiste en crear pacto de fuertes compromisos",
+        "(Reuters) Durante conversaciones bilaterales, el Presidente de Estados Unidos enfatizó la necesidad de involucrar tanto a economías desarrolladas como emergentes en nuevos acuerdos globales destinados a mitigar efectos negativos relacionados con el cambio climático."
+    },
+    {
+        "headline": "Diagnóstico crónico: Crónica deportiva",
+        "content": "Una reflexión sobre cómo enfrentar desafíos personales y colectivos tras perder partidas importantes, destacándose la resiliencia mostrada por equipos deportivos como Volcan en competiciones locales."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined scope and guidelines for extraction and cleanup. Articles were identified based on distinct topics and structured accordingly within each entry's `headline` and `content`. Non-article sections such as ads and unrelated data have been excluded according to specified criteria.

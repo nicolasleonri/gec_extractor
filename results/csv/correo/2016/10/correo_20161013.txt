@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/10/correo_13.txt ---
+
+```json
+[
+    {
+        "headline": "El Per ha tenido mucha suerte con la derrota electoral de Mendoza...",
+        "content": "El Per ha tenido mucha suerte con la derrota electoral de Mendoza, pues se necesitar siempre un Estado con una Rum decidida frente al terrorismo, y no actitudes que le el juego a quienes hoy permanecen agazapados esperando \"amnistía\" y \"reconciliación\".\n\nHa que ver qué pasa cuando los senderistas se den cuenta de que nadie acceddrá a sus \"propuestas\"."
+    },
+    {
+        "headline": "PETROPER Y REPSON SUBEN PRECIOS COMBUSTIBLES",
+        "content": "\"Por Segunda Semana Consecutiva\", Senala el Opecu\n\nPetroper y Repsol suben los precios de sus combustibles. Tendencia se acentu tras el anuncio de la OPEP de reducir su producción, cuyo precio paso los $50.\nPablo Flores-Flores\n\nCorrespondencia:\ngrupo-pensarte@...\n\nPrecios petroleros siguen al alza después del anuncio de la OPEP de disminuir su oferta global. Esto provocó ajustes importantes en los costos internos de ambos proveedores principales en el país."
+    },
+    {
+        "headline": "Promueven Turismo en la Amazonia",
+        "content": "Hasta 405 mil soles se podrán captar en la quinta Feria Per Región: Amazónia y Eco-logí-a. El evento, que se realizara el 25 de Octubre, reúne a empresas turísticas de Amazonas, Hunuco, Junín, Loreto, Madre de Dios, San Martin y Ucayali. Uno de los principales atractivos será la fortaleza de Ku-lapa."
+    },
+    {
+        "headline": "AFP: Opciones para mejorar su pensión jubilatoria",
+        "content": "\nMarcela Medina\nmmedinagrupo-censaa@gmail.com\n\nEntre el sistema privado de pensiones, cada afiliado contribuye durante toda su carrera profesional. Es importante destacar la importancia de mantener consistencia en los aportes y explorar opciones adicionales para maximizar el rendimiento final de la pensión."
+    },
+    {
+        "headline": "Capturan cazador de Vicunas",
+        "content": "Durante un operativo de la Policía Nacional se detuvo a un cazador furtivo de vicuñas en Moquegua. Raúl Mamani, de 57 años, tenía en posesión 16 pieles de la especie protegida junto con armamentos de largo alcance."
+    },
+    {
+        "headline": "Facebook Audios incriminan a ‘Los Nor-teños’",
+        "content": "Interceptaciones telefónicas revelan cómo planearon ataques criminales. Fiscalía presenta pruebas clave para emitir órdenes de captura contra miembros implicados en actividades ilegales."
+    },
+    {
+        "headline": "Casos vincularían ejecuciones extrajudiciales en Piura",
+        "content": "Investigación liderada por fiscales podría conectar casos similares ocurridos en diferentes partes del país. Exigen más indagaciones para determinar responsabilidades completas."
+    },
+    {
+        "headline": "Factibilidad de Va Alterna a la Carretera Central",
+        "content": "Congresistas proyectan estudiar alternativas viables para descongestionar la principal arteria nacional. Visita técnica programada evalúa potencial desarrollo infraestructural en la región de Junín."
+    },
+    {
+        "headline": "Huracán Matthew deja pérdidas millonarias en EE.UU.",
+        "content": "Costo económico preliminar calculado en aproximadamente \$10 mil millones según análisis de Goldman Sachs. Impacto limitado en economía general estadounidense comparado con eventos climáticos anteriores."
+    },
+    {
+        "headline": "Niño pierde la vida en Gaza por disparos israelíes",
+        "content": "Trágicamente, un niño de diez años falleció debido a impactos causados por fuerzas militares en la Franja de Gaza. Incidente refleja tensión continua en la frontera oriental de la localidad de Al-Qararah."
+    },
+    {
+        "headline": "Colombian Peace Deal Faces Challenges",
+        "content": "Despite initial support, peace agreements face scrutiny over implementation details concerning justice measures. President Santos emphasizes commitment towards maintaining democratic principles amidst ongoing negotiations."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on distinct topics and structured accordingly. Any missing data was filled using "NA".

@@ -1,0 +1,58 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/06/gestion_23.txt ---
+
+```json
+[
+    {
+        "headline": "Promedio)",
+        "content": "ychamas (US$250) han empezado bien su ingreso\nal mercadolocal\". Tambin\nhan recibido compras \noprtivas de sus navajas \nsuizaspor partida\nde empresas privadas."
+    },
+    {
+        "headline": "ROMEX LANZARA INNATA",
+        "content": "La firma exportadora Romex\nlanzar un nuevo producto\nque le permitirá ingresar al\nrubro de Chocolate fino,\nel cual llevará como nombre\nativo, anunció su gerente general,\nJosé San Martin.\nEl producto, reveló, será\n100%Cacao. Actualmente la\nempresa exporta café, cacao\ny derivados a los cinco \ncontinentes, especialmente a Europa.\nRomex posee en Lima una\nplanta para el \ntostado y selección de café y cacao con fines\nde exportación, mientras que\nen Chincha tiene una planta dedicada a los derivados del\ncacao. Además cuenta con\ncentros de acopio en zonas productoras del país, inform\nel boletín de ADEX."
+    },
+    {
+        "headline": "Para Recordar",
+        "content": "Nuevo Planta. Exportadora Romex actualmente\nconstruye una nueva \nfabrica en Cajamarquilla, que\n tendrá una extensión de 30\nmilmetros cuadrados para\nel tostado de café, cacao y chocolate."
+    },
+    {
+        "headline": "Mercado Aeréo",
+        "content": "Peruvian Airlines tras\nruta de Tacna a Iquique\nLa compañía Peruvian Airlines, que busca operar en\nChile en la ruta Santiago–Lima, con varios jugadores en competencia,\ntambién tiene incluidas en sus planes incluir rutas secundarias\ncomo Lima-Iquique o Tacna-Norte Grande, reveló el diario Estrategia.\nInicialmente la empresa esperaba operar en abril,\npero la nueva fecha tentativa ser entre septiembre y noviembre,"
+    },
+    {
+        "headline": "OpiniÓN Paco Barrón DIRECTOR GENERAL",
+        "content": "\"Con el tiempo, todas las categorías se dividen para dar paso a dos o más. As explicaban los autores del libro \"las 22 leyes inmutables del Marketing\", la ley número diez, la de la división.\" Dividir o perder\nEsta división está cada vez más acechada en el tiempo. Los productos y servicios van agotándose con el tiempo y deben ser innovados y la división de la... sirve para dar cabida a nuevas marcas así como también a las existentes. En la división está la ganancia. Un ejemplo:\nlas computadoras. Primero eran las grandes de empresa, luego aparecieron las computadoras de escritorio, que evolucionaron poquito a poco hasta las portátiles, agendas electrónicas, tablets, etc. Y en muchos casos estamos viendo surgir ‘’.”
+    },
+    {
+        "headline": "Apunta Al Perú En El Mediano Plazo",
+        "content": "EY ingresar con fuerza en servicios legales en la región latinoamericana según estudio de Estados Unidos debido al promedio de facturación. Ernst & Young, reconocido ahora como EY, tiene interés de abrirse camino en la región con servicios legales. Por lo pronto, tiene en marcha un proyecto para llegar a Colombia como bufete. EY es reconocida principalmente por sus auditorías contables y consultorías en otros países tiene servicios legales, con lo cual quiere ampliar su apuesta. Fue rankeada en el año 2013 por la revista Forbes como una de las 10 compañías más grandes de Estados Unidos. Tiene ingresos superiores a US$ 25,000 millones y hasta la fecha más de 175,000 empleados."
+    },
+    {
+        "headline": "Canibios & NombramientoS",
+        "content": "Carlos Antonio Moscoso Delgado (Nombrado Presidente Adjunto de Tecnología Legal en Banco GNB Peru.) Malcolm Ward (Nombrado CEO de AGN Internacional)"
+    },
+    {
+        "headline": "Encuesta",
+        "content": "El 77% de ejecutivos reclasificados opta por empleo dependiente. El 79% de los ejecutivos reclasificados en programas de LHH-DBM obtiene un nivel de salario igual o superior al anterior. El 85% de los ejecutivos reclasificados opta por cambiar de sector en su nuevo empleo. También es importante la red de contactos."
+    },
+    {
+        "headline": "Perspectiva",
+        "content": "Los candidatos a patrimonio mundial de la UNESCO. El Qhapac Ñan, la red de caminos de los incas entra en la lista del Patrimonio Mundial. Los champos fueron los mensajeros humanos durante el imperio incaico."
+    },
+    {
+        "headline": "Por el Dia del Padre Ventas Online Crecientes",
+        "content": "Las transacciones online por el Día del Padre se elevaron hasta en 100% respecto a meses regulares, destacando incrementos significativos en áreas como electrodomésticos. Rafael Hostina, Country Manager de PayU Latam para Perú, indicó que el gasto promedio en internet podría ascender a S/. 274 este año, cifra superior a la registrada en 2013."
+    },
+    {
+        "headline": "Exploraciones",
+        "content": "Sierra Metals halla más mineral en Yauyos. La canadiense Sierra Metals finalizó la primera etapa de su programa de perforación en la mina Yauricocha, encontrando varias zonas mineralizadas."
+    },
+    {
+        "headline": "CreCimiento Marca de Belleza OPI Abrir Nuevos Locales en Lima y Trujillo",
+        "content": "California SC, representante de las marcas OPI, Davines, TGI y Beter, indica que las ventas de productos profesionales pueden constituir hasta el 50% de los ingresos totales de un salón de belleza. Están planeando expandirse hacia otras ciudades importantes."
+    }
+]
+``` 
+
+This JSON contains extracted headlines and their corresponding contents based on the provided input while adhering strictly to the defined rules for extraction and cleanup. Articles were identified through recognizable patterns such as capitalization indicative of titles followed by substantial textual bodies. Non-article sections like ads, listings, and repetitive elements have been excluded according to guidelines.

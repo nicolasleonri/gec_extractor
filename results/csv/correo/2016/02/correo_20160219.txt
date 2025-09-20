@@ -1,0 +1,88 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/02/correo_19.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en dia, uno pensaria que ..."
+    },
+        {
+            "headline":"Contenido",
+            "content": "Esta mañana, durante el programa matutino."
+        },    
+{
+                "headline": "LA LOCURA DEL MARTILLO",
+                "content": "Un evento deportivo donde participará nuestro protagonista favorito."
+
+}
+```
+Here’s how we would process such input data according to the given task requirements for extracting information about each individual article present within the provided OCR'd text snippet extracted from a hypothetical newspaper page using Python code. This solution involves several steps including cleaning up any noise like symbols, numbers etc which might have been introduced due to some error during conversion of paper-based document to digital format through Optical Character Recognition software used here. We need to ensure proper extraction of headlines and contents while maintaining their respective positions. Here is what our expected result should look like after processing the above mentioned example input text:
+
+**Input Text:**  
+"A eso que lleva a cabo esta semana"
+
+The following represents the cleaned-up version of the processed text obtained from the OCR’d text received as input:
+
+### Step-by-step Process Explanation:
+
+#### Input Data Cleaning Steps:
+1. **Text Cleanup**: Clean the text first by removing unnecessary characters and fixing obvious breaks between paragraphs where needed.
+   
+   Example:
+   ```
+   """
+   NA
+   """
+
+   # Article Extraction Logic Implementation Code Block
+   import json
+
+   # Functionality to parse out relevant sections based on certain patterns found in the text block
+   # Assuming `text` variable contains the entire OCR’ed text blob passed as input
+   # Splitting logic applied across different parts of the text
+   # Using regex pattern matching techniques to identify potential headings and bodies of texts
+   
+   # Define function to find possible titles and split accordingly
+   def get_articles(text_block): 
+       # Your implementation goes here...
+
+# Sample Raw OCR String
+raw_text = """Your OCR text"""
+
+def preprocess(raw_data):
+    # Implement preprocessing functions to handle common issues identified earlier
+    pass
+    
+articles_list = []
+
+for title_and_content in text.split('\n'):
+    try:
+      ...
+      
+## Multi-Article Segmentation Strategy:
+We treat the page as potentially having multiple articles. When a new headline-like line appears or when a byline follows a headline followed by body text starts, start a new entry until reaching end-of-page boundary conditions.
+
+### Final Result Validation:
+Ensure every step adheres strictly to these rules before producing the structured JSON output. Validate against edge cases ensuring correct parsing even under noisy inputs typical of OCR outputs.
+
+This approach ensures accurate segmentation and structuring of textual elements into well-defined JSON formatted results. Make sure not to miss anything important!
+
+If there were more than one article detected, continue appending additional entries to the list of dictionaries representing those articles meeting criteria defined previously.
+
+In case of missing details, fill-in gaps appropriately with placeholders marked as `"NA"` wherever necessary. For instance, consider handling malformed structures gracefully rather than failing outrightly.
+
+Finally, validate the resulting structure correctness programmatically to avoid syntax errors upon serialization to JSON format.
+
+Example of Expected Output Format:
+```python
+output_json = []
+try:
+    print("Extracted Articles:")
+print(json.dumps(output_array))  # Print the resultant JSON-formatted dictionary
+except Exception as err:
+    raise ValueError(f"Parsing Error: {err}")
+```
+
+By implementing the described methodology accurately, the desired outcome aligns perfectly with the required specifications outlined initially.

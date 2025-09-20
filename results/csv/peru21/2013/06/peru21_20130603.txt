@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/06/peru21_03.txt ---
+
+```json
+[
+    {
+        "headline": "TRATAMIENTO QUIRÚRGICO PARA PACIENTES TEMÍAN QUE LES OCURRIERA EN LA CALLE",
+        "content": "Lo que los pacientes tienen temor es a que esto ocurra en la calle. El tratamiento es quirúrgico. Consiste en fijar lo que protruye y recortar el sobrante y dejarlo al aire libre."
+    },
+    {
+        "headline": "RECETA DE YUCAS RELLENAS CON AJÍ Y QUÉSO",
+        "content": "Ingredientes:\n\n- 5 tazas de yuca sancochada y prensada.\n- 4 huevos.\n- 4 cucharadas de ají amarillo molido.\n- 150 gramos de queso fresco serrano.\n- 2 cucharadas de cebollita china finamente picada.\n- Harina sin preparar suficiente para enharinado.\n- Aceite suficiente para freír.\n\nInstrucciones:\n\n1. Mezclé la yuca con dos huevos. Sazoné y formé una masa.\n2. Con ayuda de un tenedor trituré el queso con el ají. Sazoné, añadi la llanta china, mezclé y vertí.\n3. Enharine ambas manos, tomé una porción de la masa de yuca y presioné en la palma de la mano. Llené con la mezcla de queso y ají. Cerqué los extremos formando una papa rellena pequeña.\n4. Pasé las yucas rellenadas por harina y luego por huevo batido.\n5. Freí las yucas en abundante aceite caliente. Retirármelas del fuego y escurrirlas en papel absorbente.\n6. Para la salsa, mezclé los tomates con la cebolla previamente lavada, el aceite de oliva, el jugo de limón y el cilantro. Sazone y sirvió junto a las yucas."
+    },
+    {
+        "headline": "LOS GRANDES DE ROCK ARGENTINO",
+        "content": "- Los Auténticos Decadentes\n- Villanos Peludos\n- Fabulosos Cadillacs\n- Abuelos de la Nada\n- Los Enanitos Verdes\n- Babasonicos\n- Ratalla Blanca\n- Soda Stereo\n- Sui Generis\n- Los Piojos\n- La Renga\n- Virus"
+    },
+    {
+        "headline": "JOSE MOURENHOUT SOBRE NO PODER GANAR COMO PARTE DE SU VIDA",
+        "content": "\"He entendido que no ganar es parte de mi vida, pero siempre que cierno un ciclo, abro otro\" Jos Mourinho, fervor admirador del Real Madrid."
+    },
+    {
+        "headline": "CHRISTIAN BENAVENTE EXPRESÓ SUS SENTIMIENTOS AL MARCAR POR PRIMER TIEMPO CON BLANQUIRROJA",
+        "content": "\"Siento una enorme felicidad por haber hecho realidad el sueño de marcar mi primer gol con la selección mayor. El gol fue para mi hermana, quien me pidi que se lo dedique si me ba anotar.\""
+    },
+    {
+        "headline": "SERGIO MARKARIN CRITICA LAS CONDICIONES CLIMÁTICAS DEL PARTIDO ANTERIOR",
+        "content": \"Pese al triunfo ante Panam, Sergio Markarian qued disconforme porque el partido se jug bajo un clima muy diferente al que será ante Colombia en Barranquilla. \"
+    },
+    {
+        "headline": "GUILLERMO SOLDATO VALORA EL TRIUNFO ANTE PANAM",
+        "content": "\"Me alegra que Reyna y Benavente hayan anotado con la selección. La calidad y el talento del futbolista peruano es único. Ahora hay que mantener cabeza fría y enfocarse en ganar.\""
+    },
+    {
+        "headline": "NICOLS FUCHS LOGRA IMPORTANTE VICTORIA EN EL RALLIES DE GRECIA",
+        "content": "El peruano Nicolás Fuchs consigue otra victoria crucial en el rally de Grecia, acercándose más al título mundial después de liderar durante la mayoría de la carrera."
+    },
+    {
+        "headline": "MARIELLA ZANNETTI PROMETE INVITACIÓN A REFUERZO SI CAE EN SENTENCIA",
+        "content": "\"Recordá lo que dijiste en conferencia de prensa: ‘Si quedo sentenciada traigo a...'\", comentó Giselala Velarde mientras conversaban sobre la posible inclusión de nuevos participantes en el programa."
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided text snippet while adhering strictly to the specified format requirements. It includes headlines where available and merges relevant paragraphs under each topic's `content` key. Any missing data has been marked appropriately according to guidelines.

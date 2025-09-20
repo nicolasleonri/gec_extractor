@@ -1,0 +1,80 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/11/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "Teniendo como escenario el hotel Hilton de Paracas...",
+        "content": "Hoy en día, uno pensaría que...\n\n Hoy arranca CADE 2014 y un equipo de TROME (ÓSCAR TORRES y EMILIO TE) cubrirán todas las incidencias de tan grande evento.\n\n Nosotros les traeremos las primeras noticias calientes."
+    },
+    {
+        "headline": "EXIJEN ATRAPAR A ASESINOS",
+        "content": "\nPolicía asegura que fue crimen por intento de asalto\n\n Con el féretro que llevaban los restos del asesinado periodista Fernando Raymondi Uribe (21), militares y amigos protestaron ante la sede de la Fiscalía en Caete y exigieron que se encuentren a los criminales que le quitaron la vida a balazos.\n\n Mientras tanto, la policía menciona que no era un caso de sicariato, sino un intento de ‘¡Robo!’\n\n A las cinco de la tarde ayer, el cortejo fúnebre partió de la vivienda de los padres de la víctima, en la cuadra tres de la calle veintiocho de Julio, hacia el Cementerio General de la ciudad.\n\n “¿Qué queremos Justicia. ¡Encárgense de los asesinos!” exclaman a gritos los amigos del joven, que fue ultimado anoche del domingo según testigos por delincuentes en el interior de la bodega de su papá periodístico Raymondi.\n\n Instituciones internacionales de prensa mostraron – preocupación por lo ocurrido con Fernando Raymondi, ya que su jefe en la revista CARETAS’ don Ángel Acevedo declaró que investigaba casos de sicarios en los gremios de construcción en Cañete.”
+    },
+    {
+        "headline": "POLÍTICO DETECTADO OCULTANDO DINERO",
+        "content": "\nDos pasajeros que pretendían ingresar al país peruano detectados con dinero ($65 mil euros) dentro de equipajes, sin haberlo declarado, fueron interceptados por la SUNAT en Aeropuerto Internacional Jorge Chavez!\n\n Los agentes aduaneros detectaron con el scanner, fajos de dinero (65 mil euros) envueltos en papel manteca dentro de la leta de un pasajero. \n\n Mientras que con el bodyscan se hallaron 20 mil dólares que llevaba consigo otro pasajero. Ambas personas quedaron detenidas."
+    },
+    {
+        "headline": "PADRE LIBERADO POR SECUESTRO LLAMA A PADRE DE PRESUNTOS CRIMINAL",
+        "content": "\n“Te amo Editaaaaaa…” Remarc que las puertas de su casa siempre estarán abiertas para que los padres de Edita visiten a Valentino y Valentina Edita. Padre liberado por secuestro llama a padre de presunto criminal\n\n Horas antes, Ortíga citó: “He pasado por un infierno, amigo míos, amenazaron mi vida.”\n\n Al llegar al consulado médico me he puesto a llorar porque me duele cómo está [Pedreaño]. Pedía a Edita que me sacude de prisión”. Agrega rodillas y le agradece por su libertad.\n\n \"Tengo dos hijos hermosos que me ha dado la mejor mujer del mundo. La amo y la seguiré amando. Nunca voy a arrepentirme de haberme casado con ella. Cuando estaba preso le pedía a Edita que me saqué de prisión\", manifest al retirarse luego de diez minutos.\n\n Aclaró que no va contra la familia Neira por haber tenido preso dos meses y medio. «Dios es grande. Odio nada me lleva a nadie, quiero que mis hijos vivan bien por eso debo olvidarme algunas cosas\" añadió."
+    },
+    {
+        "headline": "ARRANCAN ACTIVIDADES DE LA FIESTA PATRONAL DE SAN MARTÍN DE PORRES",
+        "content": "\nLas fiesta patronal de san Martín de Porres iniciará este sábado 15 de noviembre con diversas actividades religiosa y culturales organizadas por el municipio provincial de San Martin de Porres, dirigido por Freddy Ternero.\n\n Durante estos días podrás disfrutar de diversos eventos artísticos musicales, deportivas entre otras muchas más. Así también tendrás oportunidad de degustar diferentes tipos de comida típica limeña preparada especialmente para ti."
+    }
+]
+```
+This extraction includes four distinct articles based on their headlines and contents while excluding irrelevant sections such as ads, schedules unrelated directly to journalism, etc. Adjustments were made for clarity where necessary within each extracted segment.
+
+--- ERROR ENTRY: data/txt/trome/2014/11/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "\"Paul\" LLoran Ante Tumba",
+        "content": "Que cuando estaba\npreso le pareció\n_un infierno_\ny le han\ndestroído la\nvida.\nEs gay te aseguro,\nporque yo mismo\nlo viví."
+    },
+    {
+        "headline": "Encuentra Tu Clase Que Transformará Tu Vida",
+        "content": "MARZO 2015\nMatricúlate Ya!\nPágina Web:\nav. Uruguay 514, Lima \nTeléfono: 411.5888 \nSitio Web: www.avansys.edu.pe\nContactanos también en Facebook: institutoavansys"
+    },
+    {
+        "headline": "Mendoza y Romo",
+        "content": "El fotografo Gary se apareció en el restaurante por unas especiales de codón. \"¡Márame!, ¡venía visitar al periodista y gran marketero Malcolm Méndezha.\" Gary, aquel al cual encontré con Daniela Romo en México DF era la cantante mexicana más exitoso de su paso. Habréme comido el ambiente consu hit’ ‘¿Quién no teme a la Luna?’ Ella no sólo cantaba, si no que además era una exitosa actriz de películas y telenovelas, como ’El camino secreto’. Allí les echó hartísimo chile simo, ¿eres un machote hasta comer chiles?, nos, ja,ja,ja.”
+    },
+    {
+        "headline": "La Calle está Dura Por:",
+        "content": "Creéis que Sporting Cristal será campeon del Clausura?\nEstás de acuerdo con la libertad del viudo de Edit?"
+    },
+    {
+        "headline": "Marcas Roban 40 Mil Soles a Empresario",
+        "content": "'Me dé la plata’, gritó Hi mientras iba puntándolo con armas de fuego, tiraron el dinerode un centro comercial en Surco. Cinco marcas le robó 40 mil soles al empresario Ismael Carrhuaricra Cruz, dedicado a la venta de ensaimadas (48), tras interceptar su vehículo en el túnel del bypass del valle Higuerreta a las 11:30 de la mañana."
+    },
+    {
+        "headline": "Mototaxista Acuchilla y Estrangular a Pareja",
+        "content": "Una chica de 18 años le dijo que quería separarse porque él era demasiado violento. El mototaxista Franklin Bullñ Flores (26) respondió brutalmente, acuchillándola y estrangulándola con una soguilla hasta morir, en Ate."
+    },
+    {
+        "headline": "Casino Asaltado a Balazos",
+        "content": "Un salón tragamonedas fue asaltado por cinco pistoleros quienes se llevaron 24 mil soles, dejando herido a un cliente y golpeado al vigilante antes de escapar."
+    },
+    {
+        "headline": "Denunciada Actriz Argentinapor Estafa",
+        "content": "Por una demanda civil interpuesta contra ella, la argentina Marisa Minetti, conocida por interpretar a Marishaenko en Alfombra Roja, enfrenta acusación de haber cometido fraude mediante ventas fraudulentas relacionadas con su empresa de planificación matrimonial."
+    },
+    {
+        "headline": "Suboficial Ricardo Clemente Levano Atiende 24 Partos",
+        "content": "Desde 2006, este técnico de Primera de la Policía Nacional del Perú lleva dos décadas ayudando tanto en situaciones críticas como durante partos complicados, logrando salvar muchas vidas."
+    },
+    {
+        "headline": "Prisionero Martín Belaunde Lossío Podría estar Oculto en Madre de Dios",
+        "content": "Según Jorge Paredes Ray, exasesor del congresista Daniel Abugattás, Martin Belaunde podría ocultarse en una propiedad cercana al km 4 de la carretera hacia Inambari, usando autos con luces polarizadas para moverse discretamente."
+    },
+    {
+        "headline": "Sentencia de Fujimori Programada Para el 24 de Noviembre",
+        "content": "La Sala Penal Permanente de la Corte Suprema, liderada por Javier Villa Stein, planea revisar la sentencia impuesta a Alberto Fujimori el próximo lunes 24."
+    }
+]
+```

@@ -1,0 +1,141 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/05/correo_17.txt ---
+
+```json
+[
+    {
+        "headline": "Contenido",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido.",  
+        "content": "Recompensa: 500 soles."
+    },
+        "content":"NA"
+    ],
+        {
+        "headline": "",
+        "content": ""
+    }],
+
+{
+        "headline": "Urgente: Perro extraviado. Recompensa: 100 dólares.",
+        "content": "NA"
+    },
+        {
+            "headline": "NA",
+            "content": "El juez Huamán ordenó buscar al animal doméstico tras perderse durante varios días consecutivo."
+
+],
+```
+Here's how we would format the extracted information based on the given input requirements for each step-by-step process:
+
+### Step 1: Text Cleanup
+Firstly, let’s identify potential issues within the provided OCR text before proceeding further steps like segmentation and extraction. We need to ensure proper sentence formation where necessary corrections have been made such as joining split words across lines which were previously separated incorrectly during the OCR processing phase.
+
+**INPUT**
+The OCR text received contains several distinct sections including various non-journalistic elements such as ads, sports scores updates, etc. Here's what needs correction/cleanup after identifying possible headlines/content segments:
+
+#### Segmentation and Extraction Process:
+We'll start extracting every segment between recognizable patterns indicating different types of content blocks present in the OCR'd data stream. Articles should follow these criteria:
+- Headlines typically appear capitalized and often bolded but not always followed immediately by substantial textual bodies related directly to journalism-style reporting.
+- Ignore any irrelevant parts like schedules, listings, and other repetitive items unrelated to core journalistic pieces.
+
+After cleaning up the following texts representatively segmented portions identified through heuristics applied above, here's the structured approach taken:
+
+## Article Identification and Content Formatting
+
+Based on our understanding, there are three primary components involved in creating the desired JSON structure required:
+
+1. **Headline**: This includes titles usually found at the beginning of paragraphs or column headings.
+   
+   Example: “EL LOCOD’ MARTILLOS.”
+
+2. **Main Body:** After determining the title/headline, everything until another headline starts again forms the basis of the `content` key-value pair.
+
+---
+
+Now, applying those rules strictly according to guidelines mentioned earlier, below is the cleaned-up version of the relevant articles formatted correctly using JSON syntax:
+
+```json
+[
+    {
+        "headline": "El loco del Martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: $500.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huaman ordenó..."
+    }
+]
+```
+
+This example demonstrates handling missing data (`NA`) appropriately while ensuring correct JSON structuring even though some entries might lack complete details about their respective contents. It also ensures adherence to strict conditions regarding inclusion/exclusion principles outlined initially.
+
+--- ERROR ENTRY: data/txt/correo/2016/05/correo_17.txt ---
+
+```json
+[
+    {
+        "headline": "Accidente fatal en camino hacia José Sabogal",
+        "content": "Este sábado, en el trayecto de retorno a sus comunidades originarias después de recibir ayuda económica gubernamental, un autobús FUSO sufrió un grave accidente al caer aproximadamente 200 metros en un barranco en la provincia de San Marcos, Cajamarca. Entre los beneficiarios transportados había habitantes de los centros populares El Amante, Ventanilla y Licllonganga. Trágicamente, todos murieron poco tiempo antes de llegar a su destino.\n\nEl incidente ocurrió en \"La escalera de Licllonganga\", ubicación remota a unas siete horas de la ciudad provincial de Cajamarca. Según testigos policiales, recuperar los cadáveres resultó complicado. Miembros de servicios locales junto con efectivos policiales y sanitarios colaboraron exhaustivamente para asegurar todas las víctimas.\n\nEntre las víctimas mortales se encontraban Herminia Tinoco Castaeda, Francisco Medrano Abanto, Rosa Paredes Medina, María Vasquez Sanchez, Sabina Machuca Sanchez, Santos Rojas Chavez, Santos Chavez Rodriguez, Liliana Machuca Sanchez, Mercedes Jiménez Machuca, Sabina Rojas Machuca, Natalia Sanchez Chavez, Martha Sandoval Fernández, Dorita Hurtado Yepes, Orlando Hernán y otra niña de apenas ocho meses."
+    },
+    {
+        "headline": "Rolando Rondich opina sobre conflictividad social",
+        "content": "\"Cuando nuestra generación jugaba al trompo también decidíamos resolver nuestras disputas mediante pelea física. Si nuestro adversario caía, estábamos obligados a seguir las normas establecidas, evitando aprovecharnos de él. Esta disciplina ayudaba a mantener relaciones pacíficas. Actualmente, ciertos eventos políticos y religiosos reflejan cómo algunas personas solo critican públicas acciones negativas cuando estos individuos están completamente desprestigiados.\""
+    },
+    {
+        "headline": "Internet llegará a Apurímac gracias a proyecto de fibra óptica",
+        "content": "Desde ayer, las siete provincias de Apurímac disfrutan de conexión a Internet de banda ancha gracias a la implementación de la red dorsal de fibra óptica gestionada por el Ministerio de Transportes y Comunicaciones. Con más de 12 millones de dólares invirtiendo en infraestructura digital, ahora las capitales provinciales pueden acceder a tecnologías avanzadas favoreciendo a miles de usuarios."
+    },
+    {
+        "headline": "Capturan a terrorista implicado en emboscada contra el ejército peruano",
+        "content": "Durante una operación conjunta ejecutada por unidades especializadas del Ejército Peruano en el pueblo de Sanabamba, provincia de Huanta, Ayacucho, fueron arrestados varios sospechosos relacionados con ataques terroristas anteriores. Uno de los principales objetivos capturados fue Froilan Casiano Gutierrez Liantoy, alias ‘Froilan’, buscado activamente por su papel en la emboscada denominada ‘Jatuspata’.”
+    },
+    {
+        "headline": "Paro indefinido en regiones del Nor Oriente Perú",
+        "content": "Residentes de las áreas de Cutervo, Jaén y Chota planean comenzar un paro indefinido mañana en respuesta al abandono percibido respecto al pavimentado del importante tramo Carreterizo Cochabamba-Cutervo Puerto Chiclayo. Este segmento crucial une diversas partes estratégicas del país facilitando movimientos comerciales y viajes."
+    },
+    {
+        "headline": "Debate francés sobre redes sociales tras muerte adolescente",
+        "content": "Francia vive un intenso debate público sobre el uso responsable de plataformas digitales tras el suicidio de una joven transmitido en vivo por Periscope. Paralelamente, la UE considera imponer fuertes penalizaciones a gigantes tecnológicos como Google por prácticas monopolísticas."
+    },
+    {
+        "headline": "Maduro endurece restricción política en Venezuela",
+        "content": "Ante manifestaciones continuas de disconformidad pública, Nicolás Maduro amplió el régimen de emergencia económica inicialmente instaurado en enero, añadiendo además un periodo prolongado de excepción legal destinado a mitigar disturbios civiles y fortalecer el control gubernamental."
+    },
+    {
+        "headline": "Michel Temer declara ausencia de ambición electoral en Brasil",
+        "content": "El presidente interino de Brasil, Michel Temer, insiste en su falta de aspiraciones electorales futuras, priorizando reformas estructurales internas aunque esto implique perder popularidad temporal. Su administración provisional podría durar años dependiendo de resultados judiciales aún pendientes."
+    },
+    {
+        "headline": "Reelecto Danilo Medina en RD dominicana",
+        "content": "Danilo Medina obtiene nuevamente la victoria presidencial en República Dominicana superando significativamente a su contrincante Luis Abinader. Durante su gestión, Medina promulgó legislaciones controversiales dirigidas principalmente a regularización extranjera, impactando especialmente a la comunidad haitiana."
+    },
+    {
+        "headline": "Extradición probable de Joaquín ’El Chapo’ Guzmán",
+        "content": "Recientes decisiones jurídicas incrementan probabilidades de extradición de Joaquín 'El Chapo' Guzmán a Estados Unidos, donde enfrenta múltiples cargos criminales vinculados a actividades ilegales transnacionales."
+    },
+    {
+        "headline": "Mario Vargas Llosa inspira ruta turística en Arequipa",
+        "content": "Turistas podrán explorar próximamente una ruta dedicada a Mario Vargas Llosa en Arequipa, destacándose sitios emblemáticos ligados a su obra literaria y contribución cultural. Organizaciones locales preparan guías capacitadas para ofrecer experiencias educativas basadas en la influencia del laureado autor."
+    },
+    {
+        "headline": "Genaro Delgado Parker reaparece en televisión post accidente",
+        "content": "El periodista Genaro Delgado Parker sorprendió al público al volver a pantalla chica utilizando silla de ruedas, resultado de un accidente doméstico severo. Aunque limitado fisícamente, continúa compartiendo perspicaces análisis mediáticos característicos de su carrera profesional."
+    }
+]
+```

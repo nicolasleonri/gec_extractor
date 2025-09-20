@@ -1,0 +1,112 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/10/ojo_08.txt ---
+
+```json
+[
+    {
+        "headline": "Abuela Manuela",
+        "content": "Quién de carió le\n‘’Mamá’, ha sido la más\ntenúsiastta de la família con \nesté proceeso electoral.\nMi abuelita cumple en noviembre 80 años y, aunque dice ‘¡ya!’,\nesperará hasta último momento antes de decidirse por algún partido político."
+    },
+    {
+        "headline": NA,
+        "content": "En cuanto a mí, estoy muy tranquila respecto a quién será nuestro próximo presidente pues sé que quien llegue a Palacio de Gobierno hará bien las cosas. Lo importante ahora es cuidarnos entre todos durante estas campañas presidenciales y evitar cualquier tipo de violencia política. ¡Que Dios bendiga nuestra querida Perú!"
+    },
+    {
+        "headline": "Consejo",
+        "content": "Querida, es muy lindo sentir ese deseo de mejorar algo en ti misma. Sin embargo, debes valorar también esos aspectos positivos que posees. Si decides seguir adelante con esa idea, asegúrate de tomar decisiones basándote en razones claras y justicia. Tu propia inteligencia y lucidez serán los mejores aliados en este camino hacia el cambio personal."
+    },
+    {
+        "headline": "Señoras mayores buscan compañía sentimental",
+        "content": "\"Un señor detallista desea contactarse con una dama humilde y sencilla, sin prejuicios, menor de 45 años, para una relación amorosa.\" Escribir a:\nbuzon.de.amor.grupo.ep@sanpei\n---\n\"Doctora, cómo puedo ayudar a mi abuelita?\nMe cuenta que está sintiendo mucha nostalgia últimamente y parece estar esperando alguien especial. Le pregunté si podría presentarme a alguna persona interesante y aceptó encantada. La verdad es que quiero verla feliz nuevamente. ¿Qué consejos podrías ofrecerme?”"
+    },
+    {
+        "headline": "La emoción de Mamá ante el humorístico",
+        "content": "Durante el último debate televisivo, mi ‘Mamá’ no paraba de aplaudir cada intervención del conocido comediante. Aunque intentábamos disipar sus expectativas diciendo que probablemente no tendría éxito, seguía insistiendo en que él evoca recuerdos de antiguos romances. Ella incluso expresó admiración cuando mencionó vivir modestamente debido a su edad avanzada, exclamando: \"Yo aún lucho por mis sueños\", refiriéndose a mantener activa su mente. Pero lo preocupante es notar cómo después de tales momentos intensos cae en estados melancólicos prolongados."
+    }
+]
+```
+This extraction focuses solely on extracting coherent narratives while excluding non-article elements like ads, schedules, etc. It maintains proper structure for each identified story within the provided input.
+
+--- ERROR ENTRY: data/txt/ojo/2018/10/ojo_08.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "",
+        "content": "Alcalde. Fiel a su estilo, \nbromeó sobre su derrota y la promesa que hizo en materia de seguridad ciudadana.\n\n\"Los ‘choros’ (de Las Malvinas) se salvaron de intentar volver a instilar dicho cargo y lo lograron (...)\n(dejar el sillón municipal a un familiar (...) entrará a ocupar otros puestos).\n\nPor ejemplo, aprovechándose del doble domicilio, el actual alcalde de Villa El Salvador (VES), Guillermo [...] tras seis años. En Chemlens, ganó la alcaldía Augusto Miyashiro, hoy del actual burgomaestre chorrilano.\n\nGanó también la alcaldía en Villa María del Triunfo con el partido Perú Patria Segura. En tanto, su hermano, será alcalde y tendrá como teniente alcalde al actual burgomaestre de ese distrito: Eduardo Bless.\n\nEn Los Olivos, Félix Castillo (Siempre Unidos) se quedó con la alcaldía donde competió con su hijo. Vuelve al cargo más [...]\n(años).\n\n‘Le deseo el mejor de los éxitos al virtual alcalde’, dijo Reggiardo.”
+    },
+    {
+        "headline": "ADVERTENCIA!\nChevrolet...",
+        "content": "Buscando la plena satisfacción de sus clientes, y ratificando su compromiso con la seguridad y calidad de sus productos, informa que realizó el llamado a revisión para 29 unidades correspondientes a los modelos Tahoe, Suburban y Silverado año modelo 2015 marca Chevrolet, comercializados en Perú desde el año 2015 hasta la fecha.\n\nSegún el informe, General Motors Sudamérica Occidente ha detectado que en algunos de estos vehículos en determinadas condiciones podría experimentarse una pérdida temporal de la dirección eléctrica (EPS), seguido de un retorno brusco de asistencia EPS, particularmente durante maniobras de giro de baja velocidad. Consecuentemente, si esto ocurriera, podría presentarse la pérdida y el retorno repentino de la asistencia EPS, generalmente durando aproximadamente 1 segundo debido a un fallo electrónico de software, provocando una sensación momentánea de rigidez en el timón de dirección."
+    },
+    {
+        "headline": "Triunfó la izquierda",
+        "content": "...resultados preliminares ... regional ..."
+    },
+    {
+        "headline": "Mandríbulas votan",
+        "content": "\"fugitivo\"\n...\nEl pueblo chalaco tendrá que esperar ahora qué harán grupos políticos como Pensé.PE ...\n\nSin embargo, según Ipsos, en el Puerto ya cuentan con nuevo alcalde. Red se registró en el Callao, don(...)nde el próximo gobierno nacional será el prófugo candidato de Podemos Peru, Pedro Spichiger, de Somos Perú, para que sea su fugitivo candidato obtenido 30–4%. "
+    },
+    {
+        "headline": "Joselyn Levizaca",
+        "content": "\nSurpresas en elecciones regionales\n\nJoselyn Levizaca levizacagroupoepensa.pe\n\nResultados sorprendentes después de la última jornada electoral llevada a cabo ayer en el país interno. Cinco regiones irán a segunda vuelta electoral; otras cinco elegirán nuevas administradoras gubernamentales. Posibles Ganadores. Según los resultados a boca de urna de la encuesta, hasta el día anterior SDK)"
+    },
+    {
+        "headline": "Ayuda Preventiva",
+        "content": "(Notificación oficial de existencia conforme al artículo 380 de la Ley General de Sociedades, se comunica que las decisiones adoptadas en las reuniones generales de acciones de Inmobiliaria Almonte SAC y Almonte 2 SL, ambas llevadas a cabo el día 19 de septiembre de 2018, se aprueba el Plan de Fusión en el que participan ambas compañías.)\n\nDiagnósticamente, se indicará un bloque patrimonial de Inmobiliaria Almonte SAC para transferirse a Almonte 2 SL, como resultado del proceso de fusión, el capital de Inmobiliaria Almonte SAC se reduce en US$ 11'837,292.00 (Once millones ochocientas treinta y siete mil doscientos noventa y dos dólares americanos con 00/100 céntimos adicionales)."
+    },
+    {
+        "headline": "Accidentes Electorales",
+        "content": "Al menos tres accidentes viales se reportaron internamente durante la jornada electoral. Uno grave ocurrió en Arequipa, donde un automóvil impactó contra una minibús dejando dos fallecidos y múltiples lesionados. Las víctimas se dirigían a cumplir su deber cívico."
+    },
+    {
+        "headline": "Equipo Electoral Falló",
+        "content": "Inconvenientes con el sistema de votación electrónica fallaron en muchos lugares de votación. Desde temprano, residentes formaron filas frente a escuelas y universidades en espera de poder utilizar máquinas para votar."
+    },
+    {
+        "headline": "Metro de Lima Abierta",
+        "content": "Después de la reapertura de líneas urbanas, grandes cantidades de gente comenzaron a moverse hacia destinos habituales utilizando sistemas de transporte público."
+    },
+    {
+        "headline": "Mercaderes Gastronómicos",
+        "content": "Durante la jornada electoral, comerciantes ofrecieron diversos platillos típicos y bebidas refrescantes afuera de establecimientos educativos, atrayendo así a numerosos electores deseosos de degustar algo especial antes de continuar con su tarea cívica."
+    },
+    {
+        "headline": "Brasil Decisión Presidencial",
+        "content": "Millones de brasileños eligieron presidente en una decisión crucial que definirá el rumbo futuro del gigante sudamericano. Resultados provisionales muestran una carrera cerrada entre dos figuras principales."
+    },
+    {
+        "headline": "Justicia Trágica",
+        "content": "Nuevo evento lamentable deja saldo mortal cuando un camión embiste a una congregación en ruta rural, resultando en numerosas víctimas mortales."
+    },
+    {
+        "headline": "Promociones Directv Sports",
+        "content": "Directv ofrece acceso exclusivo a eventos deportivos clave por tiempo limitado, permitiendo disfrute total de emocionantes transmisiones en alta definición."
+    },
+    {
+        "headline": "Castiga Opiniones Personales",
+        "content": "El alcalde critica públicamente comentarios irresponsables respecto a temas personales, enfatizando la importancia del respeto mutuo incluso en diferencias ideológicas."
+    },
+    {
+        "headline": "Victoria Local",
+        "content": "Álvares triunfa en disputa política local gracias a estrategias efectivas y sólida base popular, consolidando liderazgo en comunidad."
+    }
+]
+```

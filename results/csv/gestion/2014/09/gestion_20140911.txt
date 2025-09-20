@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/09/gestion_11.txt ---
+
+```json
+[
+    {
+        "headline": "El banco central incorporará chips en las tarjetas de crédito",
+        "content": "El chip cuesta entre US\$1.25 y US\$1.30, pudiéndose no trasladar al usuario, lo cual dependerá de cada banco.\n\n\"Colocar el chip no cuesta tanto, pero sí su proceso de certificación y distribución\", indicó Maranguíchi. Esto significa que será más costoso coordinar y asegurar la implementación de esta tecnología.\n\n\"El chip minimiza el riesgo de fraude, pero no elimina», aclaró el ejecutivo."
+    },
+    {
+        "headline": "¿Por qué no bajar la tasa de referencia?",
+        "content": "\"Cuando no falta liquidez, como ahora, las expansiones monetarias no son eficientes.\" Era un error que el Banco Central hubiese considerado reducir la tasa de referencia para combatir la desaceleración económica, según argumentaba el director de la Maestría en Economía de la Universidad del Pacifico, Juan Mendoza. \n\nExpuso que tal medida podría recalibrar artificialmente la economía sin resolver problemas estructurales fundamentales, además de anticipar potencial inflación futuro."
+    },
+    {
+        "headline": "Afirma Jaime Antezana: Hay 13 ‘narcocandidatos’ que podrían llegar a presidencias regionales",
+        "content": "De acuerdo con una investigación realizada por el especialista Jaime Antezana, existe un grupo significativo de candidatos ligados al narcotráfico aspirando a cargos políticos importantes. Entre esos están trece individuos identificados como poseedores de alta probabilidad de éxito electoral. Están principalmente localizados en áreas productoras de hojas de coca, tales como Apurímac, Cajamarca y La Libertad."
+    },
+    {
+        "headline": "Realidad: Presentación. Contralor Khoury afirma que 82% de instituciones en provincias no son controladas",
+        "content": "Durante su exposición ante la Comisión de Fiscalización del Congreso, el contralor general, Fuad Khoury, señaló alarmantes deficiencias en el sistema de fiscalización interna dentro de numerosas entidades públicas. Destacó que sólo el 18% de ellas tienen Oficinas de Control Interno operativas, evidenciando así falencias sistémicas profundas en materia de transparencia gubernamental."
+    },
+    {
+        "headline": "Referendum: Cargo de Cameron en riesgo si gana el sí en Escocia",
+        "content": "Si los resultados favorecen la independencia de Escocia, David Cameron, entonces Primer Ministro británico, podría verse forzado a renunciar bajo intensa presión política. Este posible desarrollo marcaría un hito crucial en la historia contemporánea del Reino Unido, afectando directamente la gobernabilidad y unidad territorial del país."
+    }
+]
+```
+This JSON structure captures key articles extracted from the provided OCR text while adhering strictly to the specified format requirements. It includes headlines where available and merges relevant paragraphs under each respective heading. Articles lacking explicit titles have been assigned "NA". Any extraneous information such as ads or unrelated sections has been excluded according to guidelines.

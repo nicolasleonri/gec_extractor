@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/06/gestion_09.txt ---
+
+```json
+[
+    {
+        "headline": "PROLVERSIN\nAgencia de Promocin de la Inversión Privada – Proinvención",
+        "content": "Prolnversin, por encargo del Ministerio de Energía y Minas, adjudicó el contrato Línea de Transmisión 220 kV Moyobamba–Iquitos.\nSubsidios asociados al Consorcio IsoLux \"Transmissão Brasileira\", conformado por las empresas IsoLux Engineering de España e IsoLux de México.\nEste proyecto ha sido concesionado por 30 años y su ejecución permitirá interconectar el sistema eléctrico aislado de Iquitos al Sistema Eléctrico Interconectado Nacional (SEN).\nPretende generar electricidad económica más limpia, eficiente y de calidad beneficiando al Oriente del Perú."
+    },
+    {
+        "headline": "ENTREVISTA",
+        "content": "\"—El máximo ejecutivo de la televisora local ve con expectativa la fiesta futbolística...\"\n\"Emesa OCHOA nos cuenta cómo preparan para el Mundial de Fútbol...\n‘Ser sponsor del Mundial puede superar los dos millones de dólares’\nGruposTV OFICIAL DE ACCIÓN\n‘Atención. La publicidad del Mundial no es cosa de último minuto.’\n‘Un aumento importante para ATV será el efecto que tenga el Mundial en el aumento de publicidad de este año’. ‘Me atrevería a decir que a fines de año deberíamos estar manejando un aumento de ventas del orden del 10%, debido principalmetne al efecto del Mundial.’”
+    },
+    {
+        "headline": "INVIERON US$ 20 MILLONES EN MODERNIZACIÓN PLANTAS EQUIPOS",
+        "content": "En los últimos 3 a 4 años, el Grupo ATV desembolsó US$ 20 millones en modernización de plantas y equipos, según declaró Cnéo. \n‘La operación del Mundial es costosa para nosotros y también para las empresas, ¿qué es costoso cuando el resultado es muy rentable?’\nTrabajaron en la conversión completa de señales a alta definición (HD) dentro de los estudios existentes, invirtiendo varios millones adicionales para fortalecer infraestructuras tecnológicas."
+    },
+    {
+        "headline": "CONDOR TRAVEL PREPARANDOSE PARA BRASIL 2014",
+        "content": "Con motivo de la Copa Mundial de Fútbol 2014, Condor Travel reportó haber vendido aproximadamente 1500 paquetes de viaje y 500 entradas corporativas en el país. Según Ibys Martínez, Gerenta Regional de Mercadeo y Desarrollo de Producto, esto representa cerca de US$ 20 millones en movimiento financiero relacionado directamente con eventos previos al torneo internacional."
+    },
+    {
+        "headline": "COREFO LOGRA CRECIMIENTO GRACIAS A RETAIL",
+        "content": "Editorial Corefo experimentó un notable crecimiento gracias a su incursión en el sector retail, específicamente mediante convenios con cadenas importantes como Metro y Wong. Esto resultó en un incremento significativo de distribuidores, abriendo oportunidades comerciales sustanciales para productos educativos."
+    },
+    {
+        "headline": "LA COMPETENCIA POR PALTA CONTINÚA",
+        "content": "Schumanchaca sigue consolidándose en el ámbito agrícola dedicado al cultivo de palta, destacando por altos niveles de producción y expansión territorial hacia Caete. Con planes ambiciosos de extender aún más su huerta cultivable, la compañía mira hacia Europa como próximo destino de exportación, colaborando con Camposol Holland BV."
+    }
+]
+```
+This JSON captures key information extracted from various sections within the provided document while adhering strictly to the specified structure for headlines and contents. Articles were identified based on their thematic separation and relevance according to typical journalism standards. Any missing data was filled using "NA".

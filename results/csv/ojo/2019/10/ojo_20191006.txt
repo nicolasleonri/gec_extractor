@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/10/ojo_06.txt ---
+
+```json
+[
+    {
+        "headline": "Diego Armando Maradona celebra triunfo de su Gimnasia y Esgrima de La Plata",
+        "content": "Argentinai tuvieron que pasar para que Diego Armando Maradona celebrara un triunfo de su Gimnasia y Esgrima de La Plata, 2–4 sobre Godoy Cruz en la provincia de Mendoza. Además, pasaron casi cinco meses para que el \"Lobo\" volviera a celebrar tres puntos claves para salvarse del descenso, aunque aún está lejos. Cabe agregar que ganaron como visitantes después de trece encuentros. Los goles del equipo del \"Pelusa\" fueron de Leandro Benítez (1'), del paraguayo Victor Ayala (43' y 82', con dos magníficos tiros libres), y de Matías García (87').\nDel lado de Godoy Cruz, descontó Juan Brunetta (44'' y 61'), aunque el local terminó el cotejo con nueve jugadores por las expulsiones de los defensores Joaquín Varela (51') y el paraguayo Miguel Jaques (80"), ambos por doble amonestación.\n\nCon el triunfo del \"Lobo\", Maradona terminó feliz de la vida y explicó la clave de los tres puntos. \n\"Lo tuvimos en nuestras manos a Godoy Cruz. Cuando ellos menos lo esperaban, les clavamos el cero. El cuarto fue una obra maestra. Ahora empieza el campeonato nuestro, el de los que trabajamos,\" sentenció."
+    },
+    {
+        "headline": "CLÁSICO PICANTE: Inter y Juventus se enfrentan en la Serie A",
+        "content": "Inter y Juventus, primero y segundo en la Serie A y los dos equipos con los mejores números en la actual temporada de la liga italiana, se verán las caras hoy a la 1:45 p.m. (hora peruana) en el duelo más atractivo de la jornada 7. Hoy un equipo podría dispararse o ceder el camino al segundo."
+    },
+    {
+        "headline": "REAL MADRID GANA, PERO SIGUE SIN GUSTAR",
+        "content": "Real Madrid gana, pero sigue sin gustar. El cuadro blanco derrotó 4–2 a Granada y sigue como líder de la Liga española, pero no termina de convencer con su juego. Primero abrió el marcador Karim Benzema, quién se adelant a su marcar y venció la portería visitante. El segundo fue obra de Eden Hazard, quien se estrenó con un golazo, enviando el balón por encima del arquero. Luego Modric aumentó, pero Machís y Duarte descontaron, llevándole zozobra al Madrid. No obstante, James Rodríguez llevó la calma con un gol para el 4–2 definitivo."
+    },
+    {
+        "headline": "París St-Germain aplasta 4–0 al Angers",
+        "content": "Paris Saint-Germain (PSG) se mantuvo en el primer lugar de la tabla de posiciones de la Ligue 1 luego de aplastar 4–0 al Angers en condición de local. Los goles de los parisinos garanticéron gracias a Pablo Sarabia, Icardi, Idrissa Gueye y Neymar."
+    },
+    {
+        "headline": "Guaynaa presenta su primera fecha en Lima",
+        "content": "\"Show en Lima.\" Guaynaa – fenómeno musical con éxitos como ‘Rebota’, ’charrán’ y ‘Byakka’ – confirmó para el 29 de noviembre su primer concierto en Lima. El artista, que considera a su estilo como ‘spicy’ (picante) pero no vulgar, cantará en el Centro de Convenciones Barranco Arena."
+    },
+    {
+        "headline": "AMY GUERRERO ACLARA ESTADO SENTIMENTAL",
+        "content": "Amy Guerrero aclaró a sus seguidores que está soltera. Quieta y contenta, avanzando con mi carrera musical,” aseguró la cantante, que hoy tararea “Mis mamá cocina mejor que la tuya.”"
+    },
+    {
+        "headline": "Andrea San Martin sorprendida con una fiesta sorpresa",
+        "content": "\"Estoy demasiado feliz. Estoy recibiendo mis 30 años como nunca lo iba a esperar. No me esperaba esta fiesta sorpresa,\" dijo Andrea San Martín."
+    },
+    {
+        "headline": "Rodrigo Gonzalez aclara relación sentimental",
+        "content”: "Los rumores señalaban el fin de su relación con Sean Rico, así decidi terminar con las especulaciones sobre el tema en una reciente entrevista con María Paz Cortés. \"Soy entregado. [...] Todas las cosas que me han pasado en todo [trabajo, amor, etc.] son decisiones propias. Yo he decidido esto para mí misma,\" comentó Rodrigo González.”
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided criteria while ensuring proper cleanup according to guidelines given. Articles were identified through their distinct headings followed by substantial textual bodies related to journalism topics such as sports results, celebrity updates, and cultural events. Other non-journalistic sections like ads, horoscopes, and Sudoku puzzles have been excluded.

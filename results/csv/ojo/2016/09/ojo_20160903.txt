@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2016/09/ojo_03.txt ---
+
+```json
+[
+    {
+        "headline": "‘El Show de Lel’ presenta mañana en el Parque Municipal de Barranco",
+        "content": "Con más de 22 años de experiencia actoral, León, creador de los grupos La Malandra y La Tumba Musical, vuelve con ‘El show de Lel’, que presentará mañana en el Parque Municipal de Barranco."
+    },
+    {
+        "headline": "Paola Buika llega a Lima este fin de semana",
+        "content": "Considérese una de las 50 mejores voces de todos los tiempos y ganadora de dos Premios Grammy, la cantante Paola Buika llegará por primera vez a Lima este fin de semana para presentarse en el Gran Teatro Nacional el lunes 5 de septiembre. Los tickets están disponibles en electrónica, línea blanca, electrodomésticos, etc."
+    },
+    {
+        "headline": "'De princesas a sapos...' y de hadas a brujas'",
+        "content": "Blanca Castro nos hizo reír, pero también pensar y cuestionarnos a través de su humor fino e inteligente, mostrándonos las particularidades de la psique masculina y femenina. ’De princesas a sapos... y de hadas a brujas', un monologo que presentó con éxito, vuelve este año con una nueva temporada todos los jueves a partir del 8 de septiembre al 27 de octubre en Escena 7."
+    },
+    {
+        "headline": "Pedro Aquino: ‘Nadie me quita la ilusión de llegar a Rusia’",
+        "content": "El mediocampista de Sporting Cristal y de la Selección Peruana, Pedro Aquino, aseguró que seguirá luchando con la bicolor por llegar a Rusia 2018. ‘A nadie me va a quitar la ilusión de pelear por lograr la clasificación a Rusia 2018. Esta derrota ante Bolivia duele, pero es hora de pensar en Ecuador.’"
+    },
+    {
+        "headline": "Raúl Ruidiaz: ‘No bajarán los brazos en este proceso’",
+        "content": "El delantero del Morelia de México, Raúl Ruidiaz, afirmó que continuará peleando con la selección en este proceso eliminatorio y destacó que después de la derrota en La Paz esperan la revancha ante Ecuador este martes en el Estadio Nacional. ‘No bajaremos los brazos y seguiremos intentando dar lo mejor.'"
+    },
+    {
+        "headline": "Los números revelan que el proceso de Ricardo Gareca es un desastre",
+        "content": "Las estadísticas reflejan que el rendimiento actual de la selección dirigida por Ricardo Gareca está siendo decepcionante. Ha acumulado menos puntos que sus predecesores desde que las eliminatorias adoptaron el formato de todos contra todos. Especialmente notable es el récord negativo cuando juega de local, obteniendo únicamente 4 puntos de 21 posibles."
+    },
+    {
+        "headline": "Carlos Torres: ‘Piensa en Colombia’",
+        "content": "José Torres señala que la situación post-partido requiere atención hacia el próximo enfrentamiento contra Colombia. Considera crucial cambiar el foco rápidamente para evitar repetir errores previos y buscar mejorar resultados futuros."
+    },
+    {
+        "headline": "Jhasmani Campos dice estar recuperado",
+        "content": "Jhasmani Campos, quien sufrió una contusión cerebral en un choque con Pedro Aquino y abandonó el campo de juego, anunció que ya se encuentra listo para competir. ‘Me siento completamente recuperado y estoy ansioso por ayudar al equipo en el siguiente partido.'
+    },
+    {
+        "headline": "Antonio Valencia vuelve al once titular de Ecuador",
+        "content": "El jugador Antonio Valencia, perteneciente al Manchester United, retornará al once inicial de la selección nacional de Ecuador para enfrentar a Perú en la próxima fecha de las Eliminatorias Sudamericanas rumbo a Rusia 2018, tras haber sido suspendido anteriormente debido a una expulsión."
+    },
+    {
+        "headline": "Edwin Cardona será baja importante para Medellín",
+        "content": "Medellín tendrá que hacer ajustes significativos en su formación debido a la ausencia prolongada de Edwin Cardona, quien sigue lesionado y aún no define su futuro deportivo."
+    },
+    {
+        "headline": "Preocupación por restricción del abasto de agua potable",
+        "content": "SEDAPAL notifica suspensiones temporales en el suministro de agua potable en diversos distritos debido a labores programadas de mantenimiento y mejora de infraestructuras hidráulicas. Solicitan paciencia y ofrecen alternativas de contacto para consultas adicionales."
+    },
+    {
+        "headline": "Alumnos de Usil participan en el Pabellón Viva México",
+        "content": "Como parte de la celebración gastronómica Mistura 2016, estudiantes de Administración Hotelera, Turismo y Gastronomía de la Universidad San Ignacio de Loyola colaboran con reconocidos chefs mexicanos en la elaboración de distintos platos tradicionales dentro del festival cultural dedicado a México."
+    },
+    {
+        "headline": "Escuela de manejo cerrada por irregularidades",
+        "content": "La Superintendencia de Transporte terrestre rescindió permisos a varias instituciones educativas en Lima por incumplimientos relacionados con normativas médicas y de seguridad vial, comprometiéndose a realizar auditorías rigurosas para garantizar conformidad legal."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on context clues such as distinct topics, author mentions, and structured information about events or statements. Non-article sections like ads, promotions, and repetitive elements have been excluded according to guidelines.

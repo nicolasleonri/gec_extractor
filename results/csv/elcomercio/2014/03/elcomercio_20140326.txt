@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2014/03/elcomercio_26.txt ---
+
+```json
+[
+    {
+        "headline": "Trece militares arrestados en operativos sorpresa",
+        "content": "Directora de Control Ciudadano para la Seguridad y la Fuerza Armada, Rocío San Miguel, confirma que tres oficiales activos y en posición de comando habían sido detenidos y estaban en las dependencias de Inteligencia Militar."
+    },
+    {
+        "headline": "Destitución de Daniel Ceballos",
+        "content": "Durante el día, Nicolás Maduro denunció un golpe orquestado por sus adversarios. Posteriormente, se conocía que la Sala Constitucional del Tribunal Supremo de Justicia había destituido a Daniel Ceballos, burgomaestre de San Cristobal, además de sentenciándolo a prisión por incumplir órdenes judiciales."
+    },
+    {
+        "headline": "Juicio a líder musulmán en Egipto",
+        "content": "El líder de los Hermanos Musulmanes, Mohammed Badie, y otros 682 integrantes enfrentan cargos criminales después de incidentes violentos vinculados a disturbios políticos en Egipto."
+    },
+    {
+        "headline": "Deslave en Washington ocasiona más de 150 víctimas",
+        "content": "Un devastador deslave cerca de Oso, Washington, resultó en numerosas bajas mortales y miles de desaparecidos, complicando aún más las condiciones climáticas locales."
+    },
+    {
+        "headline": "Rectificaciones solicitadas por la OEI",
+        "content": "Organización de Estados Iberoamericanos demanda correcciones públicas luego de artículos considerados erróneos y potencialmente injuriosos referentes a su implicación en controversias fiscales."
+    },
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles related purely to ads, notices about payments, etc., were excluded according to scope definitions.

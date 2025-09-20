@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/02/gestion_20.txt ---
+
+```json
+[
+    {
+        "headline": "Arancel de EU podría interrumpir $500 mil millones en acciones comerciales",
+        "content": "\"Según un informe publicado por la compañía financiera.\n\n\"Si se implementaran, los aranceles de Estados Unidos de hasta el 25 % y las medidas de represalia correspondientes de los principales socios comerciales de automóviles interrumpan unos US\$500,000 millones en transacciones comerciales\", advirtió Moody’s en un aviso a su cartera de inversionistas."
+    },
+    {
+        "headline": "EEUU evalúa nuevos aranceles a importación de vehículos",
+        "content": "Nuevo estudio revela que el proceso está siendo evaluado por parte del Departamento de Comercio de EE.UU., quienes están analizando cómo imponer aranceles de hasta el 25% a la importación de autos según reportes norteamericanos."
+    },
+    {
+        "headline": "Commodities: Cobre se acerca a máximo en tres meses",
+        "content": "El gobierno de EE.UU. reiteró su disposición de postergar el plazo límite para llegar a un acuerdo comercial con China. Según Reuters, los precios del cobre tocaron máximos en casi tres meses, impulsados por la debilidad del dólar y expectativas de un posible acuerdo comercial entre Beijing y Washington."
+    },
+    {
+        "headline": "Defensor militar venezolano respalda a Maduro",
+        "content": "Tras pedido de Donald Trump, la Fuerza Armada Nacional Bolivariana de Venezuela reiteró su subordinación y lealtad al gobierno de Nicolás Maduro, calificando las amenazas del mandatario estadounidense como insensatez."
+    },
+    {
+        "headline": "Medida: Paladio marca récord cercano a US$ 1500",
+        "content": "El paladio alcanzó un récord histórico debido a un déficit continuo en la oferta, influenciado también por preocupaciones globales económicas y ambientales."
+    },
+    {
+        "headline": "Editorial: Estancamiento Laboral",
+        "content": "A pesar de una tasa de desempleo favorable comparativa internacional, persiste alta informalidad laboral y disparidad salarial en el país. Las políticas deberían enfocarse más hacia la formalización y equilibrio salarial."
+    },
+    {
+        "headline": "Periodístico Opinión: Economista critica legislación sobre plataformas digitales",
+        "content": "Se discute la relevancia de legislar específicamente sobre plataformas de transporte digital frente a problemas mayores como la informalidad existente en sectores similares."
+    },
+    {
+        "headline": "Finanzas: Divisa estadounidense podríai retroceder",
+        "content": "Factores locales como pagos fiscales anticipados contribuyen a la depreciación del dólar en relación al sol, junto con perspectivas externas favorables derivadas de potenciales ajustes monetarios por parte de la Reserva Federal de EE.UU."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure for inclusion criteria. Articles were selected based on substantial journalistic value rather than peripheral information like ads or listings.

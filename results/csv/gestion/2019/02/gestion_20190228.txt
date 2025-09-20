@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/02/gestion_28.txt ---
+
+```json
+[
+    {
+        "headline": "\"María Teresa Fernández\"",
+        "content": "‘Donald Trump’ es un hombre\nque se presenta como candidato\ña la Presidencia para hacer grande \nporque piensa que él sabe cómo.\nPero ‘GB Trump’ también es un enigma.\nEs complicado, al igual\nque yo. Tiene partes\nbuenas y malas, como\ntodos. Pero lo malo\nsupera con creces\nlo bueno."
+    },
+    {
+        "headline": "TRUMP VS RUSSIA",
+        "content": "Las duras acusaciones contra\nTrump llegan en un momento\nen que el fiscal especial Robert Mueller parece a punto\nde completar su investigación\nsobre la posible collusión entre\nel equipo de campaña de\nTrump y Rusia para interferir\nen los comicios. Trump ha ganado\nlas apuestas que Cohen es un\nmental incapaz que busca reducir su pena\nde crédito y convertirse en una \"ratón.\""
+    },
+    {
+        "headline": "CUMBRE NUCLEAR",
+        "content": "'Muy buen diálogo'\ncon Kim Jong-un\nEl líder norcoreano, Kim Jong-Un,\ny el Presidente de EE.UU., Donald\nTrump, se reunieron en Vietnam\nayer en su segunda cumbre, donde\nWashington espera persuadir a Pyongyang\nde abandonar sus armas nucleares a cambio\nde promesas de desarrollo. Tras la cita,\nTrump afirmó tener un 'muy buen diálogo'\nenfatizando que había una ceremonia prevista\nde firmación conjunta."
+    },
+    {
+        "headline": "Breves",
+        "content": "Libertad política en Nicaragua:\nliberan a presos políticos justo antes de reiniciar\nnegociaciones para resolver la crisis. Accidente mortal\nen Cairo deja más de veinte víctimas mortales\ndebido a choques en la red ferroviaria. Guaidó planea\nconsultas diplomáticas con Bolsonaro en Brasil.\nEE.UU. impulsará en la ONU procesos electorales\ntransparentes en Venezuela ante tensiones internacionales."
+    },
+    {
+        "headline": "Marketing Digital",
+        "content": "Análisis del Content Marketing\nLa entrega de información valiosa es clave en marketing digital.\nMuchas compañías tienen equipos dedicados a esto.\nLos métodos incluyen storytelling y énfasis en vídeos.\nSin embargo, existe resistencia debido al uso excesivo de bloqueadores de anuncios.\nCrear contenido adecuadamente dirigido genera engagement y fortalecimiento de marca."
+    },
+    {
+        "headline": "Campaña Social",
+        "content": "Critica social mediante publicidad\nLa campaña 'La otra escuela' muestra mensajes controversiales\nacerca de roles tradicionales familiares. Dirigida por Fundación Ayuda en Acción,\nel objetivo es sensibilizar sobre niños fuera del sistema educativo formal."
+    },
+    {
+        "headline": "Expo Arte Contemporáneo",
+        "content": "Presentación Peruana en ARCOMadrid\nArtistas peruanos exhibiendo en diversos espacios culturales de Madrid.\nColección destacada de Eduardo Hochschild dialoga con obras clásicas europeas.\nDestacan piezas de Sandra Gamarra y fotografías conceptuales de varios autores."
+    },
+    {
+        "headline": "Negocio Chocolatero",
+        "content": "Patrick Roger, renombrado por sus innovadoras esculturas de chocolate.\nSus obras alcanzan precios elevados, mostrando creatividad única en gastronomía."
+    },
+    {
+        "headline": "Perspectivas Futbolísticas",
+        "content": "Opiniones de Hugo Duthurburu sobre cambios administrativos en el futbol profesional peruano.\nDiscute posibilidad de mejora económica y estructural en competición nacional."
+    }
+]
+``` 
+
+This extraction captures various topics covered within the provided OCR text while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. Articles were identified based on their headlines and substantial textual content related to journalism standards. Non-article elements such as ads, repetitive sections, and non-substantial fragments have been excluded according to the defined scope.

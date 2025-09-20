@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2016/09/ojo_12.txt ---
+
+```json
+[
+    {
+        "headline": "Super 1–0 Al Sport Huancayo",
+        "content": "Desesperación comenzaba a instalarse en el Monumental, porque la \"U\" no podía contra el Sport Huancayo que se defendió bien, pero a los 70 minutos apareció el que marcó la diferencia, sí señores, el uruguayo Diego Ga\u00fas tavo quién hizo una jugada fantástica para meter un derechazo imposible para Joel Pinto y decretar el 1–0 con el que finalmente ganaron los cremas.\n\nY la verdad que le costó demasiado a Universitario imponerse ante un Nuancayo que vino a batallar, pero con una alarmante falta de gol. Cuándo ya ganaba el córtex, Junior Ros tuvo una ocasión clara para anotar, pero su inoperancia permitió que el golero crema pudiera sellarlo y evitara el empate."
+    },
+    {
+        "headline": "Las Instalaciones Electricas de Luz del Sur Son Construidas de Acuerdo al Código Nacional de Electricidad y Cumplen con Las Medidas de Seguridad, Son Seguras Siempre Que Todos Observemos los Reglamentos",
+        "content": "- No acerques varillas de construcción a las instalaciones eléctricas.\n- No realices excavaciones cercanas a instalaciones eléctricas sin coordinación con ellos.\n- No construyas voladizos fuera de tu límite de propiedad.\n- No pongas antenas ni astas de banderas cerca de las instalaciones eléctricas.\n- No plantes árboles cerca de las instalaciones eléctricas.\n- No vuelves cometas cerca de las líneas eléctricas.\n- No acerques andamios a las instalaciones eléctricas.\nObserva los reglamentos. ¡Cuídate tú y la de los demás!"
+    },
+    {
+        "headline": "Universitario (1)",
+        "content": "CEDA; Estrada (TA), García (TA), Rodríguez, Trauco; Romero (Mendoza), Balón, Polo, Gómez (Suárez); y Rengifo. \nDT: Roberto Chale."
+    },
+    {
+        "headline": "Sport Huancayo (0)",
+        "content": "Pinillos; Rivas, Figueroa (TA), Baltazar; Corrales, Salcedo, Ortiz (TA), Lliuya, Rojas, Peña; Pereira (Laborthe).\nDT: Diego Umaña."
+    },
+    {
+        "headline": "Tabala acumulada",
+        "content": "1. Sporting Cristal\n2. Universitario\n3. FBC Melgar\n4. Alianza Lima\n5. Deportivo Municipal\n6. Sport Huancayo\n7. Juan Aurich\n8. Unión Comercio\n9. Comerciantes Unidos\n10. UTC de Cajamarca\n11. Alianza Atlético\n12. Real Garcilaso\n13. Ayacucho FC\n14. U. San Martín\n15. Defensor La Bocana\n16. U. César Vallejo"
+    },
+    {
+        "headline": "Nuevo Sistema Liga 1",
+        "content": "Ampliado su mercado nacional ahora también en Ecuador."
+    },
+    {
+        "headline": "Ayacucho FC Golee 5 a 2 al Alianza Atlético",
+        "content": "Ayacucho FC no quería tener problemas con el fantasma del descenso, por eso el equipo de Carlos Leeb golead 5–2 como local al Alianza Atlético de Sullana. Los goles del equipo mexiquense no fueron de Carlos Orr (39’ y 87’, Jesús Arríetta (64’) Giancarlo Carranza (68') y Tenyi Collán (90'). Anotaron para el elenco chure Robinson Álvarez (49'), y Juan Guillermo Valdez (52'). Desde un principio, el elenco local se adueñó de las acciones en el estadio Ciudad de Cuman. En el buen juego del once ganador fue clave el atacante."
+    },
+    {
+        "headline": "Leao Burrun:",
+        "'Nos Pasaron Por Encima'",
+        "content": "El arquero de Alianza Lima, Leao Burrun, reconocío que la San Martín fue mucho más que los locales y que por eso los goleo 3–0 el sábado en el Estadio Nacional."
+    },
+    {
+        "headline": "Melgar Le Gan 2–1 Con Un Pesimo Arbitraje de Garay",
+        "content": "Municipal no mereció perder. Esto es un claro ejemplo de cómo un pésimo arbitraje influye en el resultado de un partido. Deportivo Municipal le ganaba 01 al FBC Melgar en el estadio de la UNSA en Arequipa, con gol del uruguayo Pablo Lavander?a (41"), pero en el complemento, el pésimo arbitraje de Luis Garay contribuyo para la reacción del elenco rojinegro, cuando en el minuto 56 cobró un penal inexisten?"
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, contact info, etc., have been excluded according to the scope defined.

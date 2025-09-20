@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/04/gestion_09.txt ---
+
+```json
+[
+    {
+        "headline": "REORDENAMIENTO ESPECTRO BRINDARA MEJOR SERVICIOS PARA LOS USUARIOS",
+        "content": "De acuerdo en que van a poder brindar mayor conectividad a diversas partes del país, muchos inclusive dicen que quieren brindar \"4G\", según José Aguilar, funcionario del MTC.\nPRESIDENTE ANUNCIA PROYECTO CON IMPUESTO PREDEL\nCOMENTA QUE ESTÁ MEDIDA PROMOVERÁ INVERSIONES EN LA METROPOLITANA\nFUNCIONARIO DETALLÓ EL PLAN SOBRE OBRA POR ANTICIPADO PAGO DEL IMPOSTO\n\"SE TRATA DE UN ESCHEMA SIMILAR AL QUE SE APPLCA EN OBRAS POR IMPUESTOS\"\nPERÚ.-\nLA FUNCIONARIA COMENTÓ QUE LAS IDEAS SON REALIZAR INVERSIÓN CON BASE EN EL IMPUESTO PREDEL."
+    },
+    {
+        "headline": "MINSA DECLARA DIGEMID EN RESTRUCTURAÇÃO POR RETARDOS EN AUTORIZACIONES",
+        "content": "\"Entre la normatividad que prepara el MTC está la inclusión de la posibilidad del arriendo de espectro,\" mencionó José Aguilar, quien señaló que la normativa vigente no permitía dicha práctica. \nDIGEMID ENTRENDA EN REESTRUCTURACIÓN\nANTERIORMENTE, MINISTERIO HA IDENTIFICADO MAS DE DOS CENTENAS DE PROCEDIMIENTOS BUROCRACTICOSS. TORRES AGREGÓ QUE DESDE SU NOMBRAMIENTO REDUCIERON 52 TRÁMITES."
+    },
+    {
+        "headline": "MUÑOZ BUSCARÍA FINANCIAMIENTO PRIVADO SUPERANDO MILLONES PARA INFRAESTRUCTURA",
+        "content": "Desde la comuna viene trabajando en proyectos para impulsar obras mediante impuesto predial anticipado. SARITA VICENTE CASTELLANO, GERENTE DE MOVILIDAD CAPITALINA, INDICÓ QUE EL PROYECTO DE ORDENANZA ESTAR LISTO PRONTAMENTE. "
+    },
+    {
+        "headline": "TORRES INSISTE EN ACCELERAR OTORGAMIENTO DE REGISTROS SANITARIOS",
+        "content": "Anuncia restructuración de Digemid tras identificar más de 240 procedimientos burocráticos innecesarios. Torrez destacó que ahora buscan simplificación de procesos para emitir registro en máximo 48 horas."
+    },
+    {
+        "headline": "FITCHE ADVIERTE SOBRE PRESIÓN POLÍTICA SOBRE BANCOS CENTRALES",
+        "content": "James McCormack, global head de calificaciones soberanas de Fitch, alertó sobre cómo la desaceleración económica podría afectar la autonomía de los bancos centrales. Destaca que podrían verse obligados a intervenir más activamente en políticas fiscales."
+    },
+    {
+        "headline": "PROBLEMAS LEGALES AFECTAN TERMINALES TERRESTRES EN PERÚ",
+        "content": "Tras incidente grave en terminal terreste, defensora del pueblo solicita claridad regulatoria ante carencias legales persistentes. Anterior regulación había caducado hace años, exacerbando vulnerabilidades sistémicas."
+    },
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined structure for each entry. Articles were identified based on distinct topics and structured accordingly within the constraints given. Any missing data was filled using `"NA"` where applicable.
+
+--- ERROR ENTRY: data/txt/gestion/2019/04/gestion_09.txt ---
+
+```json
+[
+    {
+        "headline": "OTROS ACUERDOS\nSí bien el Perú tiene un acuerdo comercial con Brasil \natraves del Mercado Común del Sur...",
+        "content": "El ministro de Comercio Exteriores, Edgar Vásquez, detalló que su cartera está trabajando para implementar el tax–free, mecanismo que permitirá a los turistas internacionales exonerarse de impuestos en nuestro país.\nEl titular del sector adelantó que desde su área ya tienen \"las iniciativas claras\", aunque continúan dialogando con el Ministerio de Economía (MEP) y la SUNAT. An así, el ministro Vásquez declaró que la implementación de este tax–free deberá quedar lista en un plazo de tres meses."
+    },
+    {
+        "headline": "SUR (Mercosur)",
+        "content": "\"...el ministro Vásquez señaló que se pretende iniciar negociaciones con el zarán TLC bilateral que fundamentaron hace poco más de año. ‘Hemos lanzado la propuesta, estamos a la espera de la respuesta por el lado brasileño’, remarc.\" Además, se ha puesto la mira en Uruguay (país que también forma parte del Mercosur); sin embargo, llevará más tiempo iniciar negociaciones. ‘En el caso de Uruguay, también hemos estado en las conversaciones, pero aún no hay fechas concretas. El equipo negociador tiene una capacidad instalada de cuatro procesos en paralelo. Por ahora, estamos con los tiempos ocupados’.”
+    },
+    {
+        "headline": "MINCETUR CONTEMPLA QUE SOLAMENTE POR CIERTO PLAZO SE MANTENDRÁ LA TRIBUTACIÓN CERO",
+        "content": "‘Evalúa que en esos casos se paguen al menos bajos impuestos’. Durante su discurso en el Congreso, el premier Salvador Del Solar anunció que se impulsarán las Zonas Económicas Especiales (ZEES), o ex Centros, para lo cual el gobierno presentará un proyecto de ley mayor, según lo anticipado anteriormente. Al respecto, el ministro de Comercio Exterior, Edgar Vásquez, explicó que dentro de las medidas discutidas están la revisión del sistema tributario en estas áreas, que disfrutan de tributación cero."
+    },
+    {
+        "headline": "IMPULSO A LA INDUSTRIA",
+        "content": "\"tur centr pondrá especial énfasis en promover las exportaciones de sectores como metal mecánica, químicos, textiles y confecciones, entre otros, buscando expandir los envíos no tradicionales. También contempla reducir gradualmente la tributación cero, posteriormente imponiendo tarifas moderadas.””
+    },
+    {
+        "headline": "ESTE AO SE REALIZARÁ UN TRABAJO DE INFORMACION Y CAPACITACION",
+        "content": "El MinEdu suspenderá la evaluación docente de primaria hasta el próximo año. La Ministra de Educación, Flor Pablo, menciona que esta decisión surge tras identificar retrocesos significativos en materias clave como matemáticas y comunicación en estudiantes de segundo grado de primaria. Este cambio reflejará un foco renovado hacia información y formación antes de continuar con futuras evaluaciones."
+    },
+    {
+        "headline": "LATINO AMERICA",
+        "content": "Las cadenas logísticas experimentarán cambios importantes gracias a planes pilotos enfocados en optimización de costos y eficiencia. Esto involucra infraestructura crítica como caminos y centros de almacenaje frío, además de programas formativos destinados a minimizar pérdidas post-cosecha. Estos desarrollos buscan replicar exitosos modelos probados en cultivos estratégicos como la quinoa."
+    }
+]
+```
+This JSON captures key sections identified within the provided text based on their relevance and completeness for inclusion under defined criteria. Adjustments were made where necessary to ensure clarity while preserving essential information.

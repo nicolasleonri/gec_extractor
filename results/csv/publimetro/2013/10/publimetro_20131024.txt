@@ -1,0 +1,96 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2013/10/publimetro_24.txt ---
+
+```json
+[
+    {
+        "headline": "Martín De La Flor",
+        "content": "‘Clara’ ‘oro’ y roche:\n\nAcabé de estar en México y a ellos les llama la atención que usemos “clara” para expresar un estado animático, cuando se refiere a una enfermedad."
+    },
+    {
+        "headline": "Alíne Simenez",
+        "content": "“No hay nada más peruano que la palabra ‘huachufo!’.\n\nComo dice el escritor Iván Thays, creería yo también que las más resaltantes son ‘causa’, como una expresión de amistad, y ‘compadrón’, como una persona de máxima confianza.”
+    },
+    {
+        "headline": "LUÍS DEL BOY",
+        "content": "Comunicador que trabaja en el Diccionario de Peruanismos de la Academia Peruana de la Lengua\n\nEl primer peruanismo que se me viene a la mente es la palabra ‘callampa’. Es un término que proviene de un vocablo quechua, que significa ‘desnudo’. Es una palabra traviesa, graciosa, si la dices fuera de nuestro país, nadie la entiende. Podríamos decir que hasta el 20 % de nuestro léxico cotidiano está compuesto por peruanismos, especialmente encontrándose estos cuando hablamos de comida o de cosas de la calle (como vereda o pista).\n\nLos peruanismos no son palabras incorrectas; por el contrario, enriquecen al conjunto del español junto con otros países hispanohablantes. Muchos de nuestros peruanismos han sido importados de Argentina y México. Por ejemplo, el término ‘topo’ llegó desde Argentina. Ahí, a los policías se les conocía como ‘patovicas’, debido a uniformes con patrones distintivos. Acá, se adaptó la terminología localmente.\n\nOtros ejemplos incluyen variaciones lingüísticas únicas. Al referirnos a tener ‘una chamba pequeña’, utilizamos el diminutivo para hablar de trabajos informales. Estas diferencias culturales añaden color y diversidad al uso global del idioma español."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text which appear to represent individual opinions or discussions about language usage specific to Peru. These have been formatted according to the specified requirements for headlines and contents while ensuring clarity and coherence where possible given the nature of the input data.
+
+--- ERROR ENTRY: data/txt/publimetro/2013/10/publimetro_24.txt ---
+
+```json
+[
+    {
+        "headline": "Directv Presenta Nadams",
+        "content": "NA"
+    },
+    {
+        "headline": "A un Mes de Ir a Votar No Hay Intérés por Elecciones",
+        "content": "El 24 de noviembre los limeños tienen que volver a las urnas. Se elegirá a los 22 regidores que reemplazarán a los accesorios que ingresaron al Concejo Metropolitano en lugar de los revocados. La ONPE ha dispuesto que se vote en 39 locales más, por lo que habrá algunos cambios de mesas. 41% de limeños no sabe que hay elecciones este año. Había listas de siete partidos. Votación será más simple que la de marzo pasado."
+    },
+    {
+        "headline": "Humala Se Quiere con el Misma Avión Descartó que el Gobierno Vaya a Comprar un Nuevo Avión Presidencial Como había Propuesto el Premier Jiménez Guerrero Entró en Crisis Nerviosa",
+        "content": "NA"
+    },
+    {
+        "headline": "Palabras que Identifican a los Hablantes Peruano, a Propósito del VI Congreso de la Lengua Española en Panamá",
+        "content": "Peruanos, chilenos, mexicanos, venezolanos y hablantes del español en todo el continente tenemos una lengua común, pero a veces no nos entendemos.\n\nSucede que hay palabras que tienen un significado particular en cada país. En nuestro caso, peruanismos como ‘roche’, ’chela’, ’chupar’, ’bachín’ , ’chamba’ y la cada vez más usada palabra ’caviar’ forman parte de un léxico autóctono que merece traducción para hablantes del español de otros países.\n\n‘Los peruanismos tienen tres origenes, Puede tratarse de una palabra netamente castellana, pero que en tro país haya tomado otro sentido. Puede ser una palabra creada por nosotros mismos o puede ser una palabra mandada de otro idioma,’ menciona la lingüista Paola Arana, docente de la Universidad del Pacifico que investiga este tema,\n\nSostiene que los peruanismos “no son malos.” Más bien los presenta como muestra de las variedades maneras de expresarse que men los hablantes y de la evolución natural de la lengua.\n\n“Las personas tienen diferentes modos de llamar a las cosas. Que se adopten otros términos o nazcan nuevas palabras es un proceso natural de la lengua,” comenta Arana.\n\nA su vez, le resta importancia al hecho de que los peruanismos puedan no figurar en el Diccionario de la lengua española (DRAE), “Tenemos la idea de que si una palabra no está en el diccionario, no necesita prestigio; pero el referente no debería ser un referente estricto. Los usuarios van a seguir usando esos términos así no figuran en el diccionario,” asegura.\n\nAnísmos como señal de identidad BOCHÉ CHARBA CAÁRO ENGUELBO CHELA BACHÍN PATÓN ARQUEAYA&S\n\nHasta el 20% de nuestras palabras de uso cotidiano pueden considerarse peruanismos. \n\nLa lingüista Martha Hildebrandt presentó en julio una edición corregida y actualizada de su libro Peruanismos (Espasa).\n\nContenido. En esta publicación, recoje una serie de términos, expresiones o giros propios del español hablado en nuestro país y ofrece un comentario sobre cada uno de ellos, como en el espacio semanal que tiene en El Comercio.\n\n495 Millones de Hablantes Tiene el Español\n\nLos nuevos Retos de la Lengua Española Tras cuatro días de reflexiones sobre el presente y el futuro del español, unos 200 académicos y expertos pusieron fin ayer al VI Congreso Internacional de la Lengua Española en ciudad de Panamá.\n\nEntre los temas que se abordaron destaco los desafíos para protegerse de la contaminación de otras lenguas y el papel del español en la revolución digital.\n\nEn el congreso participó nuestro premio nobel de literatura Mario Vargas Llosa, quién reflexionó sobre el libro digital y sus consecuencias para las ediciones impresoras.\n\nYa existe información relevante sobre cómo las Academias de la Lengua de cada país hispanohablante pueden sugerir la inclusión de palabras en el DRAE, hasta ahora muy criticado en los términos hablados únicamente en España.\n\nEl Diario español El Pais, con motivo del VI Congreso Internacional de la Lengua Española, que ayer terminó en Ciudad de Panamá, pidió a sus lectores que eligiesen la palabra más característica utilizada sólo en su país. El escritor peruano Iván Thays abrió el debate proponiendo como el peruanismo más identificativo de estos lares la palabra huachafío.”
+    },
+    {
+        "headline": "Escalas. Ídas y Vueltas en el Ejecutivo por Avión Presidencial",
+        "content": "Lo adelantó ayer por la mañana la Canciller Eda Rivas y después lo confirmó el Primer Ministro Juan Jiménez; el ejecutivo estudiar \"de manera técnica\" la compra de un nuevo avión presidencial, después de las críticas por la parada forzosa realizada por Ollanta Humala en Paris al retornar de Indonesia.\n\nSegún Jiménez, la nave actual tiene \"un problema de autonomía de vuelo\" y debe cargar combustible cada 4 ó 5 horas.\"Es un patrimonio que quedaría para el estado,\" explicó.\n\nSin embargo, por la tarde el propio Presidente Humala descartó la compra de un nuevo avión. \"No estamos preocupados por ese tema, no está en nuestra agenda.Nosotros estamos pensando en otros temas de mayor urgencia\", declaró."
+    },
+    {
+        "headline": "Nuevo Diseño del Proyecto Camisea Prioriza Minimización de Impacto Ambiental",
+        "content": "El diseño del proyecto Camisea, operado por PlusPetrol, ha tenido como prioridad minimizar el impacto ambiental en áreas sensibles. Sus instalaciones están aisladas e inaccesibles por tierra para evitar construir caminos que podrían requerir taladrar árboles o poner en peligro comunidades indígenas. Acceso exclusivo mediante helicóptero o navegación fluvial."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/publimetro/2013/10/publimetro_24.txt ---
+
+```json
+[
+    {
+        "headline": "Cómo personalizar tus shorts",
+        "content": "Puedes usar lentejuelas pequeñas, piedritas brillantes o pintura de tela con glitter para crear diseños únicos en tus shorts.\nPuedes utilizar algún tipo de plantilla, por ejemplo, un pedazo de encaje. No olvides usar pintura para tela y dejarla secar como mínimo una hora."
+    },
+    {
+        "headline": "Lumia 2520: Nokia incursión en el mundo de las tabletas",
+        "content": "Confirmando los rumores de meses pasados, la marca Nokia anunció esta semana su ingreso al saturado mercado de las tabletas. El martes, la casa finlandesa presentó en Abu Dhabi el que será su nuevo buque insignia para enfrentar este competitivo mercado: el Lumia 2520, una tableta con pantalla de 10,1 pulgadas, conexión 4G (LTE) y Wi-Fi, que nos recuerda mucho a las tabletas Surface de Microsoft. El 2520 se suma así al ecosistema del sistema operativo Windows RT 8.1, una variante del Windows 8, que si bien comparten el nombre, no son compatibles entre sí. Una de las cosas que más llama la atención de esta nueva tableta es su diseño, que sigue la línea de los teléfonos Lumia: sobria, con acabado de policarbonato de alta calidad y muchos colores. Además, se le puede conectar una funda y un teclado adicionales. El 50% de la batería del nuevo dispositivo se carga en solo 40 minutos, según Nokia."
+    },
+    {
+        "headline": "Adidas lanzará un Smartwatch para hacer deportes",
+        "content": "La nueva moda tecnológica son los smartwatches. Gigantes como Samsung y Sony ya han presentado modelos, y Microsoft y Apple podrían sumarse pronto. Sin embargo, la que acaba de confirmar el próximo lanzamiento de su reloj inteligente es la marca deportiva Adidas. Este está diseñado específicamente para actividades físicas, incorporando características como GPS, acelerómetros, contador de pasos y pulsímetro. Será lanzado el 1 de noviembre a un costo aproximado de 400 dólares."
+    },
+    {
+        "headline": "Presentación de aplicación en quechua para tabletas",
+        "content": "Parte de la Semana del Quechua, celebrada en la ciudad del Cuzco, Microsoft presentará una innovativa aplicación para tabletas destinada a facilitar herramientas básicas para quienes hablen quechua. Con esto, Microsoft contribuirá junto a otras organizaciones a impulsar el uso del quechua mediante nuevas plataformas tecnológicas."
+    },
+    {
+        "headline": "Regreso triunfal de ‘El Salomón’",
+        "content": "El Ballet Nacional de Lima presenta desde hoy a las 7:30 pm en el Teatro Municipal la clásica obra 'Blancanieves y los siete enanos'. Como parte de las celebraciones por sus treinta años, dirigiendo Lucy Telge, ofrece una breve serie de actuaciones hasta el 3 de noviembre. Las entradas están disponibles en Teleticket."
+    },
+    {
+        "headline": "Kevin Johansen pospone su concierto en Lima",
+        "content": "Originalmente previsto para el 15 de noviembre en el Embarcadero 41 de Barranco, el concierto de Kevin Johansen se posterga. Ahora se llevará a cabo el 10 de abril de 2014, acompañado de su banda The Nada y el ilustrador Liniers. La devolución de boletos comenzó en Teleticket."
+    },
+    {
+        "headline": "Próxima visita de Bret Michaels a Lima",
+        "content": "La venta anticipada de entradas para el espectacular debut de Bret Michaels, antiguo líder de la banda Poison, continúa hasta el 16 de noviembre gracias a la gran expectativa generada. Michalels se presentará el 10 de diciembre en la explanada sur del Estadio Monumental. Boletos disponibles en Teleticket."
+    },
+    {
+        "headline": "André Calamaro regresa a Lima",
+        "content": "Después de tres años ausente, André Calamaro volverá a nuestra ciudad para brindar dos conciertos dentro de su tour 'Bohemio'. Presentará temas tanto antiguos como recién creados bajo el ámbito de su último proyecto discográfico titulado 'Salmon'.
+    },
+    {
+        "headline": "Akloradas aborda humorísticamente la menopausia",
+        "content": "Producida por Rocío Tovar, la pieza dramática 'Akoloradas' explora la menopausia utilizando el humor como vehículo principal. Actrices reconocidas dan vida a historias llenas de risas y reflexiones profundas sobre esta fase vital femenina. Disponible en el Centro de Convenciones de Barranco hasta el 18 de noviembre."
+    }
+]
+```
+This JSON captures each significant article found within the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on their distinct headlines followed by relevant content sections. Unrelated information such as ads was excluded according to guidelines.

@@ -1,0 +1,2 @@
+diff -r /scratch/nicolasal97/gec_extractor/results/csv /home/nicolasal97/gec_extractor/results/csv 
+rsync -avh /home/nicolasal97/gec_extractor/results/csv /scratch/nicolasal97/gec_extractor/results/csv

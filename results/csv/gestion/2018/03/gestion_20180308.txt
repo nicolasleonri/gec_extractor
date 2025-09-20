@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/03/gestion_08.txt ---
+
+```json
+[
+    {
+        "headline": "JEFF BEZOS QUIERE SER CAMARERO",
+        "content": "El ingeniero es considerado el peor jefe del mundo. Inici Amazon en un garaje y ahora fabrica cohetes para conquistar el espacio. Hace solo unas horas desplazó a Bill Gates del podio de los más millonarios con una fortuna de doce cifras.\n\nLuciana Tel·lor Ramrez lucianatellorianegocios@gmail.com Jeff Bezos es la única persona que tiene una fortuna de diez cifras y acaba de ser registrado, por primera vez, como el más rico del mundo en la revista Forbes. Sus US\$ 112,000 millones no te llaman \"millonario\" ni \"billónario\". El término aún no existe en el diccionario pero será \"cientillmiliónario\", según indica la cadena BBC.\n\nEl fundador de Amazon desplaz del primer lugar a Bill Gates quien ostenta la lista de los más ricos hace ya 17 años. El creador de Microsoft, que encabezaba la lista de los más ricos 18 veces, ahora se ubica segundo lugar con un patrimonio de US \$ 90,000 millones."
+    },
+    {
+        "headline": "VERO ES LA NUEVA RED SOCIAL SIN PUBLICIDAD NI ALGORITMO ALTERADOR DE CONTENIDO",
+        "content": "Vero es la nueva red social que llegó para hacerle competencia a las grandes plataformas, como Facebook e Instagram. Se trata de un nuevo concepto de red social, completamente libre de publicidad y de algoritmo que altere el contenido, donde la privacidad del usuario es máxima prioridad."
+    },
+    {
+        "headline": "PELL PROTAGONIZA LO NUEVO DE MASTERCARD",
+        "content": "\"Pel\", considerado uno de los mejores jugadores de fútbol de todos los tiempos, protagoniza la nueva campaña de MasterCard, denominada Comienza Algo?, cuyo slogan es PriceLess (Sin Precio).\n\nLa promoción, que aprovecha parala lanzamiento mundial el inicio de las eliminatorias de Octavos de Final de la UEFA Champions League, comparación de la que Master Card es partner oficial, quiere destacar el poder que tiene el fútbol para unirlas personas y crear momentos únicos que hacen historia."
+    }
+]
+```
+This extraction focuses on identifying distinct headlines followed by their respective contents while adhering strictly to the guidelines provided for extracting meaningful journalistic pieces. Other sections like brief mentions were excluded based on criteria such as lack of substantial textual information related directly to standalone articles.

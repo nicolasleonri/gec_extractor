@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/07/gestion_03.txt ---
+
+```json
+[
+    {
+        "headline": "Interés internacional",
+        "content": "\"Maduro\", aseguró el encargado\n\nde negocios de Estados \nUnidos en Venezuela, Jimmy\nStory, quien no cree que los\njóvenes militares arrestados\npor su muerte sean los únicos\nresponsables.\n\"Es interesante sí me parece\n(si el gobierno siempre)\nsiempre que hace un error\nculpa a los propios miembros\nde sus fuerzas armadas\",\nañadió Story."
+    },
+    {
+        "headline": "RUSSIA CALLS ON IRAN TO RESPECT KEY POINTS OF THE NUCLEAR DEAL",
+        "content": "(Reuters) El ministro ruso de\nAsuntos Exteriores,\n'Sergei Lavrov', hizo un llamado\nayer a los colegas iraníes\na mostrarse moderados, sin\nceder jamás a las emociones,\ny respetar los puntos clave de las\n garantías ofrecidas al Organismo\nInternacional de Energía Atómica(OIEA) y los puntos\ndel Protocolo Adicional del Acuerdo".  
+    },
+    {
+        "headline": "Protestas",
+        "content": "China rechaza\ninjerencia\nde Trump en\nHong Kong\n(AFP) China lamentó la \"grave\"\ninjerencia» en los\nasuntos internos de Hong\nKong del presidente\nestadounidense Donald\nTrump, quién dijo que los\nmanifestantes que\nsalieron ayer a protestar\nviolentamente en el\nParlamento de esta\nex-colonia británica,\nde-vuel-ta-a-China-en-1997,\nquieren «democracia».«Trum-p afirma que los\nmanifestantes bus-can-la-democracia'\ny ‘‘la mayoría de la gente\nquiere democracia’’ en Hong\nKong. De «afortunadamente», añadió,\nos-govier-nos-no-quieren-lademocracia’. En un fuerte\nmensaje, el portavoz del\nMinisterio de Relacio-nes\nExternas, Geng Shuang,\naseguró que Estados Unidos\nno debe intervenir ni\nen ningún modo apoyar a\nquiénes recur-r-an-a-la-violencia-y\nvio-len-te-mene-zan-la-le-i."   
+    },
+    {
+        "headline": "Ingresos digitales",
+        "content": "El año pasado la venta pública\npara dispositivos móviles\nalcanció los USD 4.390 millones\nen la región. Se estima que\neste año será de USD 5.760 millones,\nsegún el Reporte Global In-House\nDigital Marketing 2019 de Hootsuite\ny We Are Social. Lo cual significa\nque el 62.7 % de la inversión\npublicitaria digital, según se espera,\ncrecerá en América Latina hasta\nel 81.3 % en el 2023."
+    },
+    {
+        "headline": "Feliz día aleatorio del calendario",
+        "content": "Podrás celebrarlo nada más\nniño(a): Todo el d(oor) ul tod(o) estará\ncelebrándote. Podrás ver cómo te diferenciarás\nde lo que acabamos de vivir."
+    },
+    {
+        "headline": "Rompiendo las estadísticas: Perú busca llegar a la final de la Copa América",
+        "content": "La Selección Peruana juega hoy su oportunidad de llegar al partido más importante del torneo... Un gol de Carlos Zam-brano paga hasta 17 veces una apuesta y una clasificación por penales multi-plifica por diez cada sol apostado."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, excluding non-journalistic sections like ads and unrelated information.

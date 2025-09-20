@@ -29,11 +29,10 @@ echo "Activating virtual environment..."
 source ./venv/extract_csv/bin/activate
 
 echo "Running python script..."
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2017 -tn A5000 -aram 9 -ngpus 1
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2017 -tn A5000 -aram 9 -ngpus 1
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2017 -tn A5000 -aram 9 -ngpus 1
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2017 -tn A5000 -aram 9 -ngpus 1
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2017 -tn A5000 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2015 -tn A5000 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2015 -tn A5000 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2016 -tn A5000 -aram 9 -ngpus 1
+python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2017 -tn A5000 -aram 9 -ngpus 1
 
 deactivate
 module purge
@@ -51,21 +50,25 @@ seff %j
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2015 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/ojo/2017 -tn A5000 -aram 9 -ngpus 1
 
+# FAILED
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2015 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2015 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2016 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2017 -tn A5000 -aram 9 -ngpus 1
+# FAILED
 
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2016 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2016 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2016 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2016 -tn A5000 -aram 9 -ngpus 1
 
+# FAILED
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2017 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2017 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2017 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2017 -tn A5000 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2017 -tn A5000 -aram 9 -ngpus 1
+# FAILED
 
 ###################### 02: BERTopic task ###########################
 # source ./venv/bertopic/bin/activate

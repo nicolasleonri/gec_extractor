@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/10/correo_26.txt ---
+
+```json
+[
+    {
+        "headline": "Español gana la Supercopa de Catalunya",
+        "content": "Con un equipo reservista, Barcelona cay por 1–0 ante el Español en el encuentro por la Supercopa de Catalunya.\n\nEl gol lo anot el ecuatoriano Felipe Caicedo (9').\n\nLuego de conseguir el título, Español iguala en el palmarés al Barça, ya que el año pasado no se disput este cotejo."
+    },
+    {
+        "headline": "Lapadula se irá a préstamo al Genoa",
+        "content": "El delantero italiano-peruano Gianluca Lapadula podría irse a préstamo al Genoa, según el portal Calcio Notizie.\n\nLapadulu no tiene el rendimiento esperado en la temporada en el AC Milan y será en enero por Leonardo Pavoletti, atacante del Genoa, que interesa al rossonero.”
+    },
+    {
+        "headline": "Citación junta de propietarios Edificio 'La Rueda'",
+        "content": "Por conformidad con Artículo 38 del Reglamento Interno, convoca a los socios copropietarios a la sesión ordinaria a realizarse aún en Guayaquil, sitio en Malecón Armstrong No 175 Miraflores – Provincia y Departamento de Lima e inscripción de fecha 27 de noviembre del 2016.\n\nAgenda:\n- Actuación Junta Directiva Periodo 2012-2019\n- Primera Convocatoria – 03:30 PM\n- Segunda Convocatoria 08:45 AM"
+    },
+    {
+        "headline": "Diario Correo.Lima/Miercoles 26 De Octubre/2016",
+        "content": "Un día como hoy, en 1998, los presidentes de Ecuador, Colombia y Perú, Alberto Fujimori, firman en Quito un acuerdo de paz que pondrá fin a décadas de conflicto armado."
+    }
+]
+```
+This extraction includes four distinct articles based on their headlines and contents while excluding irrelevant sections such as puzzles, astrological signs, etc. It maintains proper structure for each entry according to the specified format requirements.
+
+--- ERROR ENTRY: data/txt/correo/2016/10/correo_26.txt ---
+
+```json
+[
+    {
+        "headline": "Diario Correo.PE",
+        "content": "Victima, la lle\ncon engaos al interior de un bus\nde la empresa de transportes\nChaska y luego la amenaz con\nmataria. El caso ya se encuentra\nen manos de la Fiscalía."
+    },
+    {
+        "headline": "EE.UU. Trump dice que Clinton no quiere ver lo que pasa en Cuba",
+        "content": "El candidato republicano a la Casa Blanca, Donald Trump,\nalab en Miami, en una reunión\ncon cubanos anticastristas, a las Damas de Blanco, y acus a Hillary Clinton de \"cerrar los\nojos\" ante las violaciones de los derechos humanos en la isla.\n\"Quiero reconocer con orgullo\na la resistencia cubana y a las\nDamas de Blanco, madres, hijas\ny esposas sujetas a abuso físico\ny verbal por turbas del \ngo\-bierno cubano\", expres./EFE"
+    },
+    {
+        "headline": "Leslie Shaw lanza audiovisual de su reciente hit Decide",
+        "content": "Shaw dijo que con este trabajo apunta a la internacionalización. El tema cuenta ya con más de 7 millones de vistas en YouTube."
+    },
+    {
+        "headline": "Luís Miguel está deprimido y en crisis",
+        "content": "La revista TV Notas afirm en su última edición, citando a un amigo del mexicano, que éste se halla \"deprimido\" y se \"refugia en el alcohol\"\na causa de problemas financieros y laborales que lo aquejan."
+    },
+    {
+        "headline": "Universitario visita a la San Martín buscando liderar tabla acumulada",
+        "content": "\"San Martín viene bien, cuenta con un buen técnico y tes jugadores, No podemos cuidarnos y menos entrar fiados pensando en que tenemos todo resuelto, Debemos ser cuidadosos y respetar a todos los rivales\", manifest el técnico merengué, Roberto Chále."
+    },
+    {
+        "headline": "Alianza Lima designará administrador mañana",
+        "content": "Renzo Ratto Ferreccio será quien reemplaza a Christian Bustos. Este último renunció el pasado 10 de octubre a la administración del cuadro victoriano, en la que permaneció por espacio de 17 meses."
+    },
+    {
+        "headline": "Sub 17 cae ante Paraguay en amistoso",
+        "content": "La Selección Peruana Sub 17 cay 2–1 ante Paraguay en un amistoso disputado en Asunción. Erraron un penalti durante el juego."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while filtering out irrelevant sections like ads and non-journalistic information according to the provided guidelines.

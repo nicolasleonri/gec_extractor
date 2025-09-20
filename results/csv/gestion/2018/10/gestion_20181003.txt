@@ -1,0 +1,32 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/10/gestion_03.txt ---
+
+```json
+[
+    {
+        "headline": "Exportaciones no tradicionales podrían mejorar",
+        "content": "Los envíos no tradicionales sumaron US\$1,137.5 millones, es decir, se incrementaron en 11.2% en el mes mencionado. En el sector no tradicional, la agroindustria se mantuvo en su línea de crecimiento de 18.9%, al igual que los textiles (14.4%). Las exportaciones no tradicionales pueden tener un desempeño mucho mejor con un esfuerzo integral para mejorar la competitividad del país."
+    },
+    {
+        "headline": "Proyecciones económicas",
+        "content": "La inflación anual continuará acelerándose en el último trimestre del año, según el Banco Central de Reserva (BCR). \"Esperamos un rebote de la inflación en los próximos meses...\" Además, en septiembre, el índice de precios al consumidor (IPC) del Instituto Nacional de Estadística e Informática (INEI) aumentó 0.19%."
+    },
+    {
+        "headline": "Segmentación de Operadores Económicos Autorizados",
+        "content": "\"Decenas atrás, ningún aduanero en el mundo pensaba en segmentar el mercado de Operadores de Comercio Exterior (OEA)...\" Después del ataque terrorista a las Torres Gemelas, Estados Unidos implementó medidas de alto estándar de seguridad. Esto llevó a la adopción del Marco SAFE desarrollado por la Organización Mundial de Aduanas (OMA)."
+    },
+    
+    {
+        "headline": "Perspectiva de Proinvésion",
+        "content": "La Anillo Vial Periférico de Lima será declarado de inversión pública en tercer trimestre del 2019. Así lo informó Albert Necco, director ejecutivo de Promoción de la Inversión Privada. También señalaron que el proceso para licitar el gasoducto al Sur debería finalizar en el primer trimestre del 2020."
+    },
+
+    {
+        "headline": "IGUALAR PENSIÓN MNIMA COSTARA S/. 2,060 MILLONES ANUALES ADICIONALES",
+        "content": "El ministro de Economía, Carlos Oliva, reconoció que los sistemas de pensiones nacionales no son sostenibles, requiriéndose así fondos del Tesoro Público. Igualar la pensión mínima equivalente a una remuneración mínima para los pensionistas de la ONP implicaría un aumento considerable en la planilla presupuestaria."
+    }
+
+]
+```
+This JSON captures several key articles extracted from the provided OCR text based on their headlines and contents while adhering strictly to the specified format requirements. Articles were selected for inclusion due to their substantial journalistic value within the context given. Other sections such as ads, notices, and non-journalistic information have been excluded according to guidelines.

@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/05/ojo_08.txt ---
+
+```json
+[
+    {
+        "headline": "\"El loco del martillo\"",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "",
+        "content": "Actriz Anunció nuevo rol\n\nMelissa Paredes, Rodrigo Snchez, Mariangel Effiom, Oscar Carrillo y Ciclo Tormenta: son algunos de los actores que participan en la historia.\n\nRos’ sale de ... TV. No lo puedo creer!", escribi la productora. Ante esto, Melissa Paredes no dudo en comentar al respecto. \"Me acabo de enterar que ‘Ojitos hechiceros’ sale de la tv\"."
+    },
+    {
+        "headline": "LIBÉRATE DE LOS LENSES!\n¡FUERA?",
+        "content": "CONTACTO:\n9994-140-588 411 - 5232  417 - 5240\n\nDirección:\nAV. SAN BORJA SUR 536 \nSAN BORJA |\nSitio web: www.futurosvision.com"
+    },
+    {
+        "headline": "Stephanie Valenzuela Viaja a Dubai Gracias a Papás y Novio",
+        "content": "[...] Esta polémica se dio cuando la menor de las Valenzuela colgó una imagen en Instagram, en la que posa en bikini en pleno centro de la ciudad de Dubái. [...] Su hermana trabajaba con [...], así que están muy felices de viajar por el mundo."
+    },
+    {
+        "headline": "Roman Polanski Apelan su expulsión de la Academia de Hollywood",
+        "content": "El cineasta Roman Polanski apelará su expulsión de la Academia de Artes y Ciencias Cinematográficas de Estados Unidos, organización que otorga los Premios Óscar. Harlan Braun, abogado de Polanski, declaró: Queremos el debido proceso, eso no es mucho pedir."
+    },
+    {
+        "headline": "Carolina Jaumeán presenta su disco debut",
+        "content": "Jaime Álvarez, conocido músico chileno, lanzó recientemente su álbum debut titulado 'Debut', marcando un hito importante en su carrera profesional."
+    },
+    {
+        "headline": "Alianza Lima evalúa nuevos fichajes",
+        "content": "Directivos de Alianza Lima consideran varios candidatos para fortalecer la plantilla, incluyendo Alexander Succar (Suiza), Irvin Valencia (México) y Nelson Palacio (Colombia). Juan Manuel Vargas expresó su interés personal por tener a Andrea Pirlo en el campo contrario."
+    },
+    {
+        "headline": "Se anticipa decisión clave sobre Paolo Guerrero",
+        "content": "Según informaciones preliminares, hay expectativa sobre la resolución definitiva relacionada con Paolo Guerrero, capitán de la Selección Peruana, pendiente de decisiones legales internacionales."
+    },
+    {
+        "headline": "Bayern Munich renueva contrato con Franck Ribéry",
+        "content": "Franck Ribéry extendió su vínculo contractual con el Bayern München hasta 2019, según comunicó oficialmente el club mediante sus plataformas digitales."
+    },
+    {
+        "headline": "Benavente contempla alternativas fuera de la convocatoria mundialista",
+        "content": "Tras recibir noticias mixtas sobre su inclusión en la lista final de convocados para Rusia 2018, Cristian Benavente reflexiona sobre futuras oportunidades más allá del Mundial."
+    },
+    {
+        "headline": "Intereses rusos en figuras sudamericanas",
+        "content": "El técnico Yuri Semin del FC Lokomotiv Moscú mostró interés en incorporar a Jefferson Farfán y Renzo Revoredo, destacadas figuras de la selección peruana, aunque reconoció limitaciones presupuestarias."
+    },
+    {
+        "headline": "Real Madrid critica arbitraje tras clásico español",
+        "content": "Después del último enfrentamiento deportivo entre Real Madrid y Barça, surgieron numerosas críticas hacia el árbitro Alejandro Hernández por errores significativos cometidos durante el juego."
+    },
+    {
+        "headline": "Atención médica prioritaria para CR7",
+        "content": "Cristiano Ronaldo sufrió un leve esguince en el tobillo, comprometiéndose su disponibilidad para próximas competiciones importantes mientras continúa recuperándose bajo supervisión médica especializada."
+    }
+]
+```
+This JSON structure captures each identified article based on its headlines and contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles lacking explicit headings have been assigned `"NA"` where appropriate. Non-article elements such as ads were excluded according to guidelines.

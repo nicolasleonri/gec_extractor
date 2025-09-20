@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/02/correo_21.txt ---
+
+```json
+[
+    {
+        "headline": "Importancia de los habitantes de Tacultura Recuay, Cajamarca y Huamachuco",
+        "content": "‘’En las vasijas vemos guerreros...’’. ‘’Malí expone muestra sobre migrantes de esta sociedad.’’ Identidad de la Berlinale."
+    },
+    {
+        "headline": "Fuocoammare obtuvo premios en la Berlinale",
+        "content": "'La 66ª edición del prestigioso Festival de Cine de Berlín otorgó su Oso de Oro a la película italiana Fuocoammare dirigida por Gianfranco Rosi...' "
+    },
+    {
+        "headline": "Exposición sobre cultura mochica",
+        "content": "‘’Esta exhibición está montada en las Salas 3 y 4 del Malí. En la primera sala se puede observar una reconstrucción del mundo Mochica...' ’'
+    },
+    {
+        "headline": "Modelo confirmación participación en certamen",
+        "content": "‘’Breves: Kylie Minogue se compromete con joven de 28 años... Extreme Noise Terror toca en Lima en marzo... Anna Karénina regresa al cine... Extrema Noticia Terror toca en Lima en marzo..."  
+    },
+    {
+        "headline": "Jessica Newton confirma postulación de Milett Figueroa al Miss Peru Universo 2016",
+        "content": "‘’A través de su cuenta en Instagram, la organizadora del certamen publicó una fotografía en la que la ex-participante de Esto es guerra aparece firmando un documento que confirma su postulación....'"
+    },
+    {
+        "headline": "Polémica en torno a Milett Figueroa",
+        "content": "‘’Trascendió más allá de nuestras fronteras y la modelo quería “desaparecer”; sin embargo, mucho tiempo después pudo superarlo...'
+    },
+    {
+        "headline": "Johnny Padilla destaca a Yahaira Plasencia",
+        "content": "‘’Programas de televisión le dedicaron sendos espacios diarios, las radios se pelean por tenerla en exclusiva y al sitio que va, la gente arma alboroto por una foto para el recuerdo...'’"
+    },
+    {
+        "headline": "Anuario presenta agenda global 2016",
+        "content": "‘’La revista ofrece un análisis de las incidencias mundiales del año 2015 y cómo éstas pueden influir en futuros eventos económicos, políticos y sociales...'’"
+    },
+    {
+        "headline": "Empates deportivos relevantes",
+        "content": "‘’Sporting Cristal visitará a Real Garcilazo en complicado encuentro... Deportivo Municipal empató sin goles con Ayacuch FC... Universidad Católica también empató sin goles con Sport Huancayo...'’"
+    },
+    {
+        "headline": "Sorteo de la Copa América Centenario 2016",
+        "content": "‘’La delegación peruana liderada por Edwin Oviedo asiste al evento en Nueva York. La selección nacional será cabeza de serie en el bombo 4...'’"
+    },
+    {
+        "headline": "Partidos claves en fútbol internacional",
+        "content": "‘’Alianza Lima juega contra CS Cartago Vallecito buscando su cuarto triunfo consecutivo... Werder Bremen pierde ante Ingolstad... Sporting Charleroi cae ante Standard Liège con Christian Benavente en acción...'’"
+    },
+    {
+        "headline": "Triunfos del Barcelona y otras noticias deportivas",
+        "content": "‘’El tridente del Barcelona brilló en Gran Canaria, consiguiendo una ajustada victoria... Real Madrid necesita ganar en La Rosaleda para mantener vivas sus aspiraciones de título...'’"
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on context clues such as topic shifts and distinct headings within the text. Any unclear data was marked appropriately according to guidelines.

@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/04/gestion_11.txt ---
+
+```json
+[
+    {
+        "headline": "VIZCARRA CAE OTRO VEZ Y EL 56% CRÉE QUE DEL SOLAR NO RESOLVERÁ LOS PROBLEMAS DEL PAÍS",
+        "content": "Popularity presidential\n\u2502 \u2502 Approve —Disapprove —\- N/A/N/C\nFuente: Pulso Per\nAHORA HAY 6.5 MILLONES DE POBRES\nEl año pasado\ndejaron de ser\npobres 313,000\nen el país.\nCosto promedio mensual de la canasta familiar de un pobre es de S/ 344. en...\nPobreza disminuyó más en la selva que en la sierra y la costa en el 2018 según un reporte del INEI."
+    },
+    {
+        "headline": "DETECTIVE FRANCES REPORTES",
+        "content": "'Para el 48% de peruanos en el discurso ante el Congreso del jefe del Gabinete, Salvador del Solar, no hubo anuncios importantes'\n'Más criticas a la presentación de Del Solar vienen de los segmentos C y D'"
+    },
+    {
+        "headline": "POPULARIDAD PRESIDENCIAL",
+        "content": "\"Martín Vizcarra comenzó el año con su popularidad más alta: 66%. Sin embargo, parece estar perdiendo el favor público, tal como revelan las últimas cifras del último sondeo de Pulso Per.\" \"Ya van tres meses de bajas continuas\""
+    },
+    {
+        "headline": "LAS ENCUESTAS INDICAN UN DESCENDIENTE CONTINUO PARA MARTÍN VICCRARRA",
+        "content": "Se espera que el rechazo supere a la popularidad, algo solo visto previamente en julio del año anterior cuando inició su propuesta de referéndum para la reforma política y judicial."
+    },
+    {
+        "headline": "LOS NUMEROS PREOCUPANTES SOBRE POPULARIDAD Y DESAPROBACIÓN",
+        "content": "El declive del Presidente refleja todas las clases sociales excepto el A/B, donde subió de 63% a 64%. Las mayores caídas fueron en el sector C bajando de 61% a 50%, y en el E descendiendo de 53% a 44%"
+    },
+    {
+        "headline": "¿PODRÁ EL NUEVO CABINETE LEADER BY SALVADOR DEL SOLAR SOLVENTAR LOS PRINCIPALES PROBLEMAS?",
+        "content": "El 56% no está seguro de que el nuevo gobierno liderado por Salvador del Solar pueda solventar los principales problemas del país. Solamente un 29% confía en que podrán hacerlo."
+    },
+    {
+        "headline": "PRIORIZANDO TEMAS CLAVE PARA EL NUEVO GOBIERNO",
+        "content": "Entre los temas prioritarios menciona la lucha contra la inseguridad, recuperación económica, generación de empleo, apoyo al sector educación y salud. "
+    },
+    {
+        "headline": "PERCEPCIÓN CIUDADANA SOBRE RELACIÓN ENTRE PODER LEGISLATIVO Y EXECUTIVOS",
+        "content": "El 45% piensa que la relación permanecerá igual con Salvador del Solar al frente del Gabinete Ministerial. Este sentimiento varía dependiendo de diferentes grupos demográficos."
+    },
+    {
+        "headline": "CASO LAS BAMBA'S: CONFLICTO MINERO SIN FIN VISIBLE",
+        "content": "El 75% ve cómo el gobierno manejó mal estos tipos de conflictos. Según datos de Datum International, existe preocupación significativa especialmente en regiones específicas."
+    },
+    {
+        "headline": "FORMATOS MIXTOS CAMBIARÁN EL ESCENARIO COMERCIAL",
+        "content": "Ante la limitación territorial, los nuevos desarrollos incluirán otros usos además de retail, tales como oficinas, hospedaje y residencias. Esto transformará la estructura tradicional de los malls."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting significant journalistic material. Articles related purely to ads, subscriptions, etc., have been excluded according to scope definitions.

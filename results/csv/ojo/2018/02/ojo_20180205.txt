@@ -1,0 +1,89 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/02/ojo_05.txt ---
+
+```json
+[
+    {
+        "headline": "Loco del Martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Comienza Torneo Verano 2018",
+        "content": ""
+    },
+    {
+        "headline": "Primer plano",
+        "content": ""
+    },
+    {
+        "headline": NA,
+        "content": "Como Hoy\n5 de Febrero\n1955\nNació el futbolista portugués Cristiano Ronaldo."
+    },
+    {
+        "headline": "Compra venta",
+        "content": ""
+    },
+    {
+        "headline": "¿Qué tal mueca?",
+        "content": "El piloto canadiense Pete McLeod realizó una prueba mortal durante los entrenamientos para primera ronda del Campeonato Red Bull Air Race [...]"
+    },
+    {
+        "headline": "Joven Modelo Finge Ser Mujer y Casí Ganó Concurso de Belleza",
+        "content": "Un día después de sus bodas, un recién casado decidió pedirle el divorcio a su mujer al verla despertar sin maquillaje, en Argelia. [...] Solicita la suma de 520,307.95 euros."
+    },
+    {
+        "headline": "Trabajadora china sirve nieve de la calle a clientes",
+        "content": "[...] grabada cuando cogía nieve del exterior de un supermercado y luego la servía a los clientes."
+    },
+    {
+        "headline": "Numéricos de Emergencia Servicios públicos",
+        "content": ""
+    },
+    {
+        "headline": "Agro peruano reclama declaración de emergencia económica",
+        "content": "Centenares de campesinos de papas provenientes de Ayacucho, Junín y Pasco llegaron ayer a la sede del Ministerio de Agricultura y Riego, en La Molina, para exigir al gobierno que declaren el ‘estado de emergencia’ del agro nacional."
+    },
+    {
+        "headline": "Productores de Papa Revolucionarios Van a Prisión Preventiva",
+        "content": "Seis agricultores permanecerán nueves meses en prisión preventiva por participación en disturbios durante el paro indefinido convocado por los productores de papa en la Región Huánuco."
+    },
+    {
+        "headline": "Detienen Hermanos Acusados de Violento Ataque",
+        "content": "Dos jóvenes resultaron gravemente lesionados tras un violento enfrentamiento protagonizado por José Luis Vargas Nahuem y compañeros."
+    },
+    {
+        "headline": "Madre Denuncia Golpiza Familiar",
+        "content": "Ana Medina Copides denunció que su padrastro la golpeó brutalmente delante de sus niños pequeños."
+    },
+    {
+        "headline": "Explosiones causan destrozos y víctimas",
+        "content": "La explosión de una granada provocó heridas a Jaime Villavicencio Jackeline Zapata Diana y daño material significativo en varios hogares."
+    },
+    {
+        "headline": "Atención especializada sobre inundaciones y humedad",
+        "content": "\"No basta con limpiar el lugar donde discurren los ríos\" señala Constantza Remar, Decana del Colegio de Arquitectos de Lima."
+    },
+    {
+        "headline": "Parkinson: Monopolio farmacéutico amenaza costos médicos",
+        "content": "La asociación advierte sobre el monopolio de precios en medicamentos antiparkinsonianos."
+    },
+    {
+        "headline": "Serenos equipados para protegerse",
+        "content": "Ante incremento de ataques, serenos reciben nuevos equipos protectores incluyendo chalecos antibalas."
+    },
+    {
+        "headline": "Instalan piscinas temporales en calles",
+        "content": "Distintos barrios organizaron actividades recreativas usando piscinas instaladas temporalmente en espacios urbanos."
+    },
+    {
+        "headline": "Vacunas anticovid prometidas gracias a cooperación internacional",
+        "content": "Mediante colaboración regional, se espera distribuir vacunas antiCOVID en semanas venideras según anunció el ministerio de Salud."
+    },
+    {
+        "headline": "Protesta técnica neoplásica demanda mejores condiciones",
+        "content": "Profesionales sanitarios organizan plantón solicitando mejora en infraestructura y recursos laborales."
+    }
+]
+```
+This extraction captures significant headlines along with their corresponding contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria. Articles lacking sufficient information have been marked appropriately using `"NA"` where necessary.

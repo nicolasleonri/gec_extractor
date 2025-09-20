@@ -50,6 +50,7 @@ seff %j
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2018 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2018 -tn H100 -aram 9 -ngpus 1
 
+# DONE: 23993126
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2014/ -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2013 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/2013 -tn H100 -aram 9 -ngpus 1
@@ -57,6 +58,7 @@ seff %j
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/peru21/2013 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/publimetro/2013 -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/2014 -tn H100 -aram 9 -ngpus 1
+# DONE
 
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/correo/2015/ -tn H100 -aram 9 -ngpus 1
 # python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/elcomercio/2014 -tn H100 -aram 9 -ngpus 1

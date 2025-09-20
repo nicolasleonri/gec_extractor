@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/05/gestion_15.txt ---
+
+```json
+[
+    {
+        "headline": "Consumidor bancario más selectivo",
+        "content": "En el nuevo escenario de menor crecimiento económico del país, el cliente del sector financiero peruano no ha cambiado abruptamente sus hábitos de consumo, sino que demuestra comportamientos más cautelosos.\n\nComo señalan los directivos financieros, esto está impulsando el aumento de hipotecas mientras decrecen otras formas de crédito."
+    },
+    {
+        "headline": "Opinión sobre el análisis estratégico del portafolio",
+        "content": "\"El portafolio es crucial para satisfacer necesidades del mercado mediante productos competitivos,\" dice Fredy Alvarado R.-\n\n\"Utilizando métodos como el Análisis BCG, podemos evaluar eficientemente cómo diferentes categorías de productos contribuyen a objetivos corporativos.\""
+    },
+    {
+        "headline": "Exportación de joyería hacia México, Colombia y Panamá",
+        "content": "To Shine aspira a convertirse en líder exportadora de bisutería de moda en el Perú, planificando extender su alcance a países como México, Colombia y Panamá según Gestión.\n\nActualmente, alcanzan mercados en Centro América, fortaleciéndose en comercio minorista doméstico."
+    },
+    {
+        "headline": \"Manejo de crisis pública, corrupción y gobernabilidad regional\",
+        "content": "Evento organizado por la Universidad Antonio Ruiz de Montoya discutiendo ética pública, corrupción y administración gubernamental regional. Con la intervención del Profesor Invitado Dr. David Crack de la Universidad de Maryland."
+    },
+    {
+        "headline": "Globalización empresarial insuficiente",
+        "content": "Solo un 12% de CEOs internacionales proviene de fuera de Estados Unidos, Europa y Japón, sugiriendo limitaciones en la verdadera aplicación de principios de globalización. Investigaciones muestran que compañías dirigidas internacionalmente tienen tasas de éxito superiores."
+    },
+    {
+        "headline": "Preocupaciones ambientales anticipan impacto significativo",
+        "content": "Expertos alertan sobre un posible fenómeno similar al Niño Fuerte de 1997-1998 debido a cambios atmosféricos observados recientemente. Previsiones sugieren preparativos urgentes podrían mitigar futuras pérdidas millonarias."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for structuring data within a JSON format. Articles were selected according to relevance and completeness criteria outlined in the task description.

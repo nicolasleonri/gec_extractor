@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/05/gestion_15.txt ---
+
+```json
+[
+    {
+        "headline": "Continúan discusiones bilaterales",
+        "content": "En cuanto a cómo realizarán esto, eso dependerá de consultas subsiguientes entre ambas naciones\", dijo en una rueda de prensa Geng Shuang, voz del Ministerio de Relaciones Exteriores, sin proporcionar más detalles."
+    },
+    {
+        "headline": "Otros \"',
+        "content": ""
+    },
+    {
+        "headline": "Medida contra Huawei",
+        "content": "Prohibición. El Presidente Donald Trump firmará esta semana un decreto para que las compañías estadounidenses no utilicen equipos de telecomunicación fabricados por empresas que representan un riesgo para la seguridad nacional. Este paso abre el camino hacia una prohibición de hacer negocios con la china Huawei, según informaron a Reuters tres funcionarios familiarizados con el plan."
+    },
+    {
+        "headline": "\"Estamos terminando la nueva lista de productos estadounidenses a los cuales aplicaremos tarifas en respuesta a los impuestos al acero y aluminio mexicanos\".\n\nGraciela Méndez,\nSecretaria de Economía de México",
+        "content": "Que el lado estadounidense no interprete erróneamente la situación ni subestime la determinación y voluntad de China de salvaguardar sus intereses.\" Pulseada entre EE.UU. y China por aranceles aduaneros Principales épocas EE.UU. / CHINA ...”
+    },
+    {
+        "headline": "",
+        "content": "Por otra parte, Trump describió la guerra comercial con China como ‘una pequeña disputa’ e insistió en que las conversaciones entre las dos economías más grandes del mundo no han colapsado, aunque los inversores seguían atentos a posibles intercambios de represalias. \n‘Estamos teniendo una pequeña disputa con China porque nos hemos sentido tratados muy injustamente durante muchas décadas’, dijo Trump a periodistas, haciendo referencia a las quejas de Washington sobre el trato de Beijing a la propiedad intelectual y sus subsidios.”
+    },
+    {
+        "headline": "Corrección",
+        "content": "Chile: sorpresa ante supuesta manipulación de dato de inflación (Bloomberg) Las cifras de inflación de Chile podrían haber sido manipuladas, dice la agencia de estadísticas, sorprendiendo al mercado en un país donde casi todo está indexado al aumento de los precios. La posible manipulación ocurrió en agosto y cambió la inflación en no más de 0.1 puntos porcentuales, señaló el director del Instituto Nacional de Estadística (INE), Guillermo Pattillo, en una conferencia de prensa en Santiago. "
+    },
+    {
+        "headline": "Quién Me Dice...",
+        "content": "Stephen Moore, quien fue nombrado por Donald Trump para formar parte de la Junta de Gobernadores de la Reserva Federal (Fed), hizo comentarios críticos sobre algunas regiones de Estados Unidos durante un evento en 2014. Su comentario revela actitudes conservadoras hacia votantes del interior del país."
+    },
+    {
+        "headline": "¿Realmente importan los estadounidenses del Centro?",
+        "content": "Para muchos liberales, el deterioro económico regional refleja el declive de oportunidades económicas favorables a áreas metropolitanas en detrimento de comunidades rurales. Muchos conservadores atribuyen estos problemas a fallos morales percibidos en estas regiones."
+    },
+    {
+        "headline": "Impacto",
+        "content": "La advertencia de la Fed sugiere que los bancos centrales necesitan adaptarse a condiciones globales de menor crecimiento y limitadas opciones de política monetaria. John Williams destacó la urgencia de reconsiderar estrategias políticas dado el panorama futuro previsto."
+    },
+    {
+        "headline": "Brexit",
+        "content": "El gobierno de Theresa May presentará próximamente su proyecto legislativo para salir de la Unión Europea después de reunirse con Jeremy Corbyn para buscar consenso parlamentario."
+    },
+    {
+        "headline": "Editorial",
+        "content": "La evolución tecnológica plantea nuevos desafíos regulatorios, especialmente en relación con la privacidad de datos personales y la difusión de información falsa ('fake news'). Es necesario actualizar las legislaciones vigentes para abordar adecuadamente estos fenómenos emergentes."
+    },
+    {
+        "headline": "Opinin",
+        "content": "Martín Farina von Buchwald destaca la competividad del Perú en materia de reforestación, resaltando potencial biológico único y criticando obstáculos burocráticos gubernamentales que frenan proyectos ambientales beneficiosos."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the outlined extraction rules. Articles lacking explicit headings have been marked accordingly.

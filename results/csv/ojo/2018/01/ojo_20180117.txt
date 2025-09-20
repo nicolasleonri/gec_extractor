@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/01/ojo_17.txt ---
+
+```json
+[
+    {
+        "headline": "Salud de Augusto Polo Campos se agrava",
+        "content": "Redacción Ojo\nVa. la triste noticia fue anunciada por el doctor Daniel Humán, director de la clínica en la que está internado el destacado músicos, quien entra en la Unidad de Cuidados Intensivos.\nCos. En este momento, el equipo médico está evaluando la respuesta de su organismo.”
+    },
+    {
+        "headline": "Este jueves 18 de enero",
+        "content": "Reclama GRÁFICA del Papá Francisco y venimos con SPECALENDARÍO 2018”
+    },
+    {
+        "headline": "Comunicado oficial",
+        "content": "Sección Registro Militar Departamental\nOficina de Registro Militar Departamental 053-A\nCumpliendo disposiciones legales respecto al servicio militar obligatorio según Ley No 29248 y modificaciones subsiguientes, se comunica proceso de inscripción para jóvenes varones y mujeres pertenecientes a clases 2017 y 2018. Todo peruano debe ejercer derechos constitucionales relacionados con defensa nacional. Para inscribirte debes obtener tu DNI Azul y realizar tus documentos requeridos en las oficinas designadas."
+    },
+    {
+        "headline": "Polémica envuelve a Yordy Reyna",
+        "content": "Valeria Roucco, ex de Yordy Reyna, asegura haber visto imágenes difundidas en programa ‘Amor de Verano’ mostrándole intentando calmar a su expareja después de un altercado físico reportado anteriormente."
+    },
+    {
+        "headline": "Apdayc convoca elecciones",
+        "content": "Del 18 de enero al 07 de febrero será el periodo electoral bajo normativa legal específica. Las listas pueden consultarse en la sede indicada durante el período establecido."
+    },
+    {
+        "headline": "Estado preocupante de salud de Valeria Piazza",
+        "content": "La modelo y ex-reina de belleza enfrenta complicaciones severas de salud, siendo atendida intensivamente mientras permanece acompañada por amigos cercanos quienes expresan apoyo constante."
+    },
+    {
+        "headline": "Importación de productos variados",
+        "content": "Promoción especial disponible incluye vibradores, consoladores, prótesis vaginales, lubricantes naturales, potenciadores sexuales, remedios caseros contra impotencia y prostatitis disponibles para entrega gratuita tanto domiciliaria como provincial."
+    },
+    {
+        "headline": "Servicios espirituales y rituales",
+        "content": "Brinda servicios de videncias pactadas, hechicería, magia negra, curanderismo, protección personal y profesional mediante prácticas ancestrales garantizadas. Contacto directo posible a través de números telefónicos proporcionados."
+    },
+    {
+        "headline": "Nicolas Fuchs abandona Dakar 2018",
+        "content": "Una situación adversa llevó al piloto argentino Nicolás Fuchs a retirarse prematuramente de la competición Dakar 2018, citando fallos técnicos irreparables justo al iniciar etapas cruciales dentro del territorio salteño."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined extraction rules and format requirements. Articles were identified based on distinct topics separated within the document structure. Any unclear data was marked appropriately according to guidelines given for missing information handling.

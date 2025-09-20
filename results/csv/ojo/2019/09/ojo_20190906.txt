@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/09/ojo_06.txt ---
+
+```json
+[
+    {
+        "headline": "Dirige Pedro Olaechea mensaje a Martín Vizcarra",
+        "content": "En respuesta al presidente Mart\u00fan Vizcarra, quién criticó al Parlamento por pretender \"intimidarlo\" con investigaciones en su contra, el titular del Parlamento, Pedro Olaechea, recalculó ayer que la labor de fiscalización es derecho y obligación del Congreso de la República. \"Son funciones del Congreso: legislar, representar y fiscalizar. La capacidad de fiscalización es un derecho y una obligación. Nadie puede prohibírselo\", acotó."
+    },
+    {
+        "headline": "Clase política enfrenta crisis de legitimidad",
+        "content": "\"La movilización de ayer por las calles de Lima, bajo la premisa '*QueSeVayanTodos*', halla asidero no solo en el planteamiento del presidente Mart\u00nan Vizcarra de adelantar las elecciones generales al 2020, sino también en el convencimiento del pueblo de que esta clase pol\u00edtica que nos gobierna está caduca y alejada de los intereses nacionales.\""
+    },
+    {
+        "headline": "Expedición judicial contra Mauricio Mulder",
+        "content": "\"Quieren saber qué hacía Mulder en Palacio...\": así comenzó el interrogatorio al parlamentario aprista, según reportes internos. Las sospechas giran entorno a supuestas irregularidades cometidas mientras ocupaba cargos clave dentro del aparato gubernamental."
+    },
+    {
+        "headline": "Capturan integrante de organización criminal",
+        "content": "Pedro Pablo Rivas Acero ('Cholo Rivas'), quien pertenecería a la organización criminal 'Los Charly's del Sur', dedicada a extorsión en obra pública y tráfico de terrenos, fue capturado en San Bartolo por agentes de la División de Secuestros de la Dirincri. Sobre él pesa una requisi-toria por el ilícito contra el patrimoniouniverspal-sorpresaagraviada."
+    },
+    {
+        "headline": "Detienen a traficantes de marihuana",
+        "content": "Dos sujetos identificados como Luis Miranda Alvarado ('Lajartija') y Renzo Ninacevich Garay, quienes distribuyeron aproximadamente 2 kilogramos de marihuana en distritos limeños, fueron arrestados por efectivos del Departamento de Investigación Criminal (Depincri) de San Borja."
+    },
+    {
+        "headline": "Denunciada violencia doméstica termina en tragedia",
+        "content": "Velicia Risco Toscos sufrió años de maltratos físicos y emocionales por parte de su esposo, Santiago Quispe Chamaya. Durante una nueva confrontación violenta, ella logró salvarse gracias a la intervención de su hijo, quien evitó que fuera gravemente herida."
+    },
+    {
+        "headline": "Emergencia solicitada en Costa Verde",
+        "content": "Debido a preocupaciones crecientes respecto a la erosión de acantilados, la municipalidad de Lima solicita formalmente al Instituto Nacional de Defensa Civil (Indeci) declare la zona como área de emergencia ambiental."
+    },
+    {
+        "headline": "Motociclistas demandan regulación más severa",
+        "content": "Una propuesta legal busca limitar el número máximo de pasajeros permitidos en motocicletas basándose en índices locales de criminalidad y condiciones específicas regionales. Esta normativa aún debe pasar por debates adicionales en el Congreso."
+    },
+    {
+        "headline": "Reforma salarial beneficiará docentes",
+        "content": "Según información oficial, el salario mínimo mensual de los educadores públicos ascenderá a $/2400 a partir del próximo año, conforme a planes establecidos por el Ministerio de Economía y Finanzas."
+    },
+    {
+        "headline": "Manifestantes exigen cambios políticos radicales",
+        "content": "Ciudades principales del país experimentaron grandes concentraciones ciudadanas que coreaban '#QueSeVayanTodos'. Estas acciones buscan impulsar reformas estructurales incluyendo el adelanto electoral y destitución de figuras políticas actuales."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents based on significant events reported within the provided text. It adheres strictly to the guidelines for extracting relevant journalistic material while excluding unrelated sections such as ads or repetitive elements.

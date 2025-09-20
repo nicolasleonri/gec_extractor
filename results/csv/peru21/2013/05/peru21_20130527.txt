@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/05/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "AMENAZAROJA",
+        "content": "Dirige: Dan Bradley. Actúa: Chris Hemsworth. Sinopsis: Un grupo de jóvenes está decididos a salvar paz ante una invasión de fuerzas malignas."
+    },
+    {
+        "headline": "EL REINO SECRETO",
+        "content": "Dirige: Chris Wedge, Voz: Colin Farrell. Sinopsis: Una chica se transporta al mágico mundo del bosque donde libra una batalla."
+    },
+    {
+        "headline": "EL GRAN GATSBY",
+        "content": "Dirige: Baz Luhrmann. Actor: Leonardo DiCaprio. Sinopsis: Nick se rodeará de unos millonarios y escribirá una historia de amor,"
+    },
+    {
+        "headline": "“Ojalá no existieran mujeres na clínica…\"",
+        "content": "\"Siento que Carlos no es racista que todos somos cholos a mucha honra. Su connotación iba por otro lado, pero el ambiente está sensible y todo nos parece racismo...\" \"Yo sentí que mi color de piel me daba ciertas ventajas, pero a otros no. Eso no debe ser así.\" "
+    },
+    {
+        "headline": "¡Después de varias semanas silencio...",
+        "content": "\"He podido analizar la propuesta y me parece muy interesante Ser un programa diferente. Me encanta el horario (3 de la tarde) y con quién voy a compartir la conducción. Maju es muy buena onda y creo tiene una imagen impecable, Es una señora. Estuve en el [bautizo] de su hijo y ví qué tiene una familia muy unida. Creo que será una etapa nueva y diferente. Escogí el camino que me hace sentir bien\", declaró Sofía a Peru21.\n\n\"En otro momento, la animadora negó que se sintiera responsable por la cancelación del programa ‘Dos sapos, una reina’ y la salida de José Luis Carrera y Roger del Águila.\n\n‘No soy yo quien decide que “Dos sapos, una reina” tenga un final. Eso ya estaba concebido... Es un programa diferente y no estoy reemplazando a nadie.’\n\n‘José Luis tiene propuestas en América TV, pero –no puedo decir más’, agregó.”
+    },
+    {
+        "headline": "¿Piensas tener otro hijo?",
+        "content": "'Sí, estoy con esa idea que me ha estado rondando la cabeza últimamente. \nNo es una decisión tomada aún, y tampoco es algo que he decidido ahora mismo con Jean-Paul. Estamos viendo qué pasa en los próximos meses. No lo descarto para nada.'"
+    }
+]
+```
+This extraction includes headlines where possible and merges related paragraphs under each heading for coherent content representation while adhering strictly to the provided guidelines. Any missing data has been marked appropriately according to instruction requirements.

@@ -1,0 +1,199 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2016/08/ojo_27.txt ---
+
+```json
+[
+    {
+        "headline": "APRENDA A AMARSE\nA SI MISM@",
+        "content": "Ante de pensar en buscar\ninitiar una relación, lo\ñ más importante es la \nf confianza en uno mismo, las\nvirtudes y deficiencias deben ser reconocidas antes de intentar mejorarlas.\nPero también hay que entender que nadie es perfecto."
+    },
+    {
+        "headline": "NO EXISTE LA PAREJA PERFECCIÓN",
+        "content": "La persona a la cual escogemos para comenzar una relación tendrá imperfecciones igual que nosotros mismos. Los especialistas aseguran que el respeto mutuo y la tolerancia influyen favorablemente sobre la comunicación y la seguridad dentro de la pareja."
+    },
+    {
+        "headline": "SIEMPRE SEÑORES SER VÍCTOR EN TODO LO QUE HAGAMOS",
+        "content": "Si está buscando encontrar el verdadero amor, la opción ideal será siempre mostrándose tal cual somos ante todos nuestros conocidos. Siempre debemos mostrar nuestra personalidad auténtica tanto en nuestro hogar, lugar donde trabajamos así como cuando estamos entre amigos."
+    },
+    {
+        "headline": "EVITEMOS CAER EN LAS TRAMPAS EMOTIVALES",
+        "content": "Al momento de surgir conflictos sentimentales procuraremos evitar caer en la tentación de guardar silencio hacia aquella persona amada pues esta conducta podría generar resentimientos ocultos que podrían afectar seriamente nuestras relaciones personales."
+    }
+]
+```
+This extraction focuses solely on extracting substantial textual content while ignoring irrelevant sections like astrology predictions, Sudoku puzzles, etc. It maintains proper structure according to the given guidelines.
+
+--- ERROR ENTRY: data/txt/ojo/2016/08/ojo_27.txt ---
+
+```json
+[
+    {
+        "headline": "Man Ray",
+        "content": "Nace en Filadelfia el fotgrafo y artista, uno\nde los ms importantes\nde los movimientos\ndadaista y surrealista."
+    },
+    {
+        "headline": "Exhibición critica",
+        "content": "El despiadado ataque a\nbalazos contra una mujer\nembarazada muestra el\nnivel al que estllegando\nla criminalidad en el pas.\nAunque no se ha podido\ndeterminar si es un \natentado por encargo, ajuste\nde cuentas o un \nfeminicidio, el hecho muestra\nque la vida tiene poco \nvolor, Si bien la medida de\npagar para capturar a \npeligrosos delincuentes ya\nda frutos, el Ministerio\ndel Interior tendr que \nhilar muy fino para reducir\nestos despreciables\ncrmenes. Latarea es\narda y probablemente\ntome mucho tiempo,\npero el origen del poco\nvolor que tiene la vida\nest en la familia. Hay\nque trabajar entonces\ncon los padres, colegios,\niglesas, clubes\ndeportivos y pedir el \napoyo de toda la sociedad."
+    },
+    {
+        "headline": "Momento de relax en miniatura",
+        "content": "El fotgrafo rusode Anatoli Evgenii tomesta imagn de sus mascotas,uns \"caracoles\". En ellase ve a uno de losmoluscos en una duertade rutina de ejercicios,mientras otros dos setoptan de asuntos placidlemente. No se parece aun da en el parcointere amigos?"
+    },
+    {
+        "headline": "Sunscreen bronzer que huele a pollo",
+        "content": "No es broma. Laladena especialista ens pollos broster hasdecidido lanzar supropio bronceador.En la etiqueta uesta\"Extra Crispy\" y tienhorma a pollo.Esedicin limitada desolo 3 mil frascos."
+    },
+    {
+        "headline": "Queda en la soledad por ser adicto a las cirugías de belleza",
+        "content": "Justln Jedlcita tiene 35aos y ha pagado con la\nsoledad el precio de sucadiccin a las cirugs estticass. Acaba de divorsiacindespues de tres anos decasamiento. \"Ahora uso\nuna aplicacin de citas paradenegociar con alguien,pero no hay muchaspersonas como yo.Tengo laputputacion de ser uno dela los adictos alas cirgsmsextticas masexremos del mundoo amo rompre loslimites\",dice Justln.Labelezapor ms plastical tenga svlor."
+    },
+    {
+        "headline": "Les prohbenn al Everest por mentirosos",
+        "content": "Epai. Dinsh yarkeshwar Ratnodijeron mes passoadela prensa queserenlabaja india ensubirl os8848metrossdelEverest,lasmontaa ms altadelplaneta.Mientieron.Uncompaero suo selocaliz. El gobernodenepalhasprohibidotranscalar lamontaa poresaos."
+    },
+    {
+        "headline": "Apasiona comer cuchillos porque gusta de su sabor",
+        "content": "Indiad. Unsujeto de 42 aos sorprendiomdsicos cuando tuvieronque extirparle 40 cuchltos.Consultaodo, el paciente asegurotener undeseoincontrolable depocomer cuchillos porque\"\lgustael savor\""
+    },
+    {
+        "headline": "Tortuga escape y recorre más de 100 kilometros",
+        "content": "Definitivamente,despacio seselega lejos.Touche, una tortuga de\n100 aos, de Californiahuya de lacasa dondedebajo por 50 aos quizssquieraconocerelmundi.Traspuntoparticularesubsecuencia,enbuscadades mediosconvencionales,suhabitatsufuerahallada104kmde suhogar."
+    },
+    {
+        "headline": "Modelo deja taxi",
+        "content": "Japan.Ikuta Kanade 24aos, es unbellemodelo japonesa dereconocidas revistas delembroiderie. Lamisma amaconducircautos yaprenderrecursos turisticosenTokio. Por ello es taxista."
+    },
+    {
+        "headline": "Ayuda psicológica personal de la comisaría",
+        "content": "\"Dos miembros de la familiahabrían influido al resto dela misma debido a susproblemas de salud mental.Según representantes del Minsa,\"Lo que se deberá realizar ahora es un tratamiento.\""
+    },
+    {
+        "headline": "Temén por ellos",
+        "content": "Vecinos expresaron su preocupación respecto a la situación de la familia Queñoz, afirmando sentir temor por posibles incidentes internos."
+    },
+    {
+        "headline": "Regresa a casa donde espera el fin del mundo",
+        "content": "Una pareja involucrada en una secta religiosa volvió a su residencia después de ser liberada temporalmente por la Policía."
+    },
+    {
+        "headline": "Breves",
+        "content": "Denuncia de padres de familia sobre condiciones precarias en Colegio 7042 Santa Teresa. Personal de la comisaría de Convillas rescato rápidamente un automóvil robado."
+    },
+    {
+        "headline": "Mototaxi informal causa problema",
+        "content": "Alex Ordar Ramos fue arrestado bajo sospecha de liderar actividades ilícitas utilizando mototaxis en forma irregular."
+    },
+    {
+        "headline": "Atención médica urgente",
+        "content": "Información relevante proporcionada sobre números de contacto para emergencias médicas y servicios relacionados."
+    },
+    {
+        "headline": "Abuelito perdido en Arequipa",
+        "content": "Buscan información sobre Salom Mendoza Huarca, describiéndose físicamente como alto y moreno."
+    },
+    {
+        "headline": "Sin piedad",
+        "content": "Detalles sobre cómo falsos pasajeros secuestraron un taxi para perpetrar un atraco violento."
+    },
+    {
+        "headline": "Invaden parqueo de bicicletas en Lima",
+        "content": "Descripción de acciones legales emprendidas por el Municipio de La Victoria frente a invasión de áreas destinadas a bicicletas públicas."
+    },
+    {
+        "headline": "Recolección de firmas para interpelarlo",
+        "content": "Discusiones políticas centradas en figuras gubernamentales locales enfrentándose a demandas populares."
+    },
+    {
+        "headline": "Conductor atropellado por un auto haciendo picos",
+        "content": "Narración de un accidente causado por imprudentes prácticas de manejo en Magdalena."
+    },
+    {
+        "headline": "Restauranteros buscan nuevos lugares",
+        "content": "Proceso judicial abierto contra individuos implicados en actos criminales graves hacia una mujer embarazada."
+    },
+    {
+        "headline": "Nuevo campus universitario",
+        "content": "Planificación futura de expansión educacional propuesta por la Universidad Nacional Mayor de San Marcos."
+    },
+    {
+        "headline": "Santa Rosa sale en procesion",
+        "content": "Eventos organizados en homenaje a Santa Rosa de Lima permitiendo acceso público a sitios históricos relevantes."
+    },
+    {
+        "headline": "Entrega de píldora del día siguiente",
+        "content": "Demandas defensores civiles enfocadas en garantizar derechos femeninos mediante disponibilidad farmacológica accesible."
+    },
+    {
+        "headline": "Agentes culpan al ministro",
+        "content": "Conflictos surgidos entre fuerzas policiales y funcionarios ministeriales destacados."
+    },
+    {
+        "headline": "Informe final de la verdad",
+        "content": "Acto oficial realizado solicitando perdón formal por violaciones humanas ocurridas previamente en el país."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/ojo/2016/08/ojo_27.txt ---
+
+```json
+[
+    {
+        "headline": "Empresas invertirán S/. 21 millones",
+        "content": "La empresa presenta el reconocimiento internacional recibido por el ingeniero peruano debido a la implementación exitosa del sistema Core. Ante la demanda del mercado asegurador y la exigencia de un servicio más rápido, la compañía instaló el nuevo sistema INSIS que permite cotizar, suscribir y emitir pólizas de todas las áreas de negocios de seguros. Además, facilitará acceso digital a información para los afiliados mediante varios canales de atención."
+    },
+    {
+        "headline": "New Athletic lanza 3 exclusivas zapatillas",
+        "content": "La marca deportiva New Athletic lanzó su línea de calzado \"Campeonas\", caracterizado por su alta calidad, confort y diseño innovador. Este producto está disponible en todas las tiendas de la marca a nivel nacional. Para obtener más detalles, visite www.newathletic.com.pe."
+    },
+    {
+        "headline": "Finca Rotundo se presenta en Mistura 2016",
+        "content": "\"Finca Rotundo\" participa en la feria gastronómica Mistura mostrando sus productos premium: pisco, vino y pack chilcanero. Durante el evento, programado del 2 al 11 de septiembre en la costa verde de Magdalena, Freddy Rotondo mencionó que figuras públicas podrían degustar bebidas típicas como el pisco sour y el chilcano."
+    },
+    {
+        "headline": "Wallqa celebra el Día del Café Peruano",
+        "content": "Restaurante Wallqa invita a disfrutar cócteles especiales basados en café, coincidiendo con la festividad del Día del Café Peruano. Desde hoy hasta el próximo domingo ofrecerá estas exquisiteces creadas por el bar tender colombiano Marlon Villa."
+    },
+    {
+        "headline": "'El Profesor Gareca Crey en Mi'",
+        "content": "Previo a enfrentamientos cruciales en las eliminatorias sudamericanas, Cristian Cuévas destaca cómo Ricardo Gareca apostó por él, fortaleciendo así su posición en la selección. Adicionalmente, analiza las dificultades inherentes a jugar en altitudes extremas, donde incluso aspectos técnicos como el peso del balón afectan significativamente el rendimiento."
+    },
+    {
+        "headline": "Pedro Aquino y Yoshimar Yotún sobresalen en entrenamientos",
+        "content": "De acuerdo con evaluaciones del cuerpo técnico, Pedro Aquino y Yoshimar Yotún han sido identificados como los futbolistas con mejor rendimiento bajo condiciones de juego en altura, gracias a su excelente condición física."
+    },
+    {
+        "headline": "Renato Landaver expone posibilidades de Andy Polo",
+        "content": "Andy Polo podría cambiar de club pronto tras dejar Union Comercio, considerándose fuertemente vinculado ahora con Colo-Colo de Chile. Su experiencia previa en Argentina sugiere potencial éxito en nuevos entornos competitivos."
+    },
+    {
+        "headline": "Christian Ramos titular frente a Gimnasia",
+        "content": "Para el arranque del torneo local, Christian Ramos será pieza clave en el mediocampo mixto de Gimnasia La Plata según palabras del director técnico Gustavo Alfaro, reconociendo su capacidad a nivel selectivo."
+    },
+    {
+        "headline": "Bayern Munich aplasta a Werder Bremen",
+        "content": "El Bayern München dominó completamente al Werder Bremen, obteniendo una victoria convincente de 6–0. Destacaron actuaciones individuales de jugadores como Xabi Alonso y Robert Lewandowski, mientras que Claudio Pizarro permanece ausente en el partido."
+    },
+    {
+        "headline": "Celebraciones por el Día del Café Peruano",
+        "content": "Organismos dedicados expondrán diversas expresiones cafeteras provenientes de regiones específicas, buscando elevar el consumo interno de café en el país. Eventos educativos complementarios también forman parte de las actividades planificadas."
+    },
+    {
+        "headline": "Martha Portalés cumple bodas de oro",
+        "content": "La célebre intérprete Martha Portalés realizará un concierto titulado ‘Amanda Solo’ en el Gran Teatro Nacional, marcando tanto un hito personal como profesional en su carrera musical."
+    },
+    {
+        "headline": "Graffiti transformado en arte en Los Olivos",
+        "content": "Una exhibición cultural enfocada en temas sociales relevantes reunirá talentosos grafiteros urbanos franco-peruanos, culminando con una performance creativa conjunta destinada a inspirar cambios positivos en la comunidad."
+    },
+    {
+        "headline": '"Hasta Que La Suegra Nos Separe"',
+        "content": "Carlos Iván protagoniza esta película peruana centrada en dinámicas familiares complejas, combinando humor y drama familiar. Disponible próximamente en varias plataformas cinematográficas locales."
+    },
+    {
+        "headline": "Alberto Conrado explora la urbe a través del arte",
+        "content": "Un conjunto de pinturas capturan distintas facetas de la metrópoli limeña, revelando historias invisibles detrás de paisajes urbanos cotidianos. Presentadas en la galería Ryoichi Jinnai, accesible gratuitamente al público interesado."
+    }
+]
+```

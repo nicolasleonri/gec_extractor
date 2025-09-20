@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/10/elcomercio_09.txt ---
+
+```json
+[
+    {
+        "headline": "Presidente respalda gobierno regional",
+        "content": "esta fue inmediato a la medición del presidente. Este respaldo es un cheque en blanco hasta el 2021?\n\n-No. No es un cheque en blanco, tampoco es un apoyo interesado, es un apoyo de principios, a la democracia, a la gobernabilidad. Lamentablemente a ese escenario nos llevó la Comisión de Constitución al archivar de manera irresponsable el proyecto de adelanto de elecciones.\n\n-Este incremento de partidas que se ha destinado a \nelos gobiernos regionales estaba previsto, o se da a partir de la situación en la que nos encontramos?\n\n-No, siempre ha estado previsto. De lo que hemos hablado, y que quede claro, es de la continuación de los proyectos, que no hemos empezado nosotros sino las gestiones anteriores. Las autoridades elegidas tenemos la obligación de continuar los proyectos anteriores y es allí que hemos estado coordinando [con el Ejecutivo].\n"
+    },
+    {
+        "headline": "Corte de California evalúa hoy nueva apelación de Toledo",
+        "content": "Exmandatario volvió a solicitar que se revoca su detención.\n\nEl expresidente Alejandro Toledo volverá a comparecer ante un juez estadounidense para insistir en su pedido de libertad bajo fianza y afrontar así el proceso de extradición que se le sigue por el Caso Odebrecht.\n\nEsta es la segunda vez que el exmandatario solicita a la justicia de los Estados Unidos que reconsideré su arresto. Se tiene previsto que la apelación sea evaluada hoy desde las 4:30 de la tarde (hora peruana), en la sede del juzgado de San Francisco. El magistrado del Distrito Norte de California encargado de evaluar el pedido será el juez Vince Chhabria."
+    },
+    {
+        "headline": "\"Tenemos que dejar atrás la polarización y obstrucción\"",
+        "content": "El presidente Martín Vizcarra considera que el Perú inicia una nueva etapa. \"Deportes\" afirm ayer que el Perú está comenzando un nuevo periodo, por lo cual ahora se debe 'dejar atrás la polarización y obstrucción'.\n\n'Ad portas del bicentenario de nuestra Independencia, el Perú está iniciando una nueva etapa donde deben prevaler el respeto a las instituciones, el diálogo, la transparencia y el bienestar general. Tenemos que dejar atrás la polarización y la obstrucción, que sólo traen atraso y subdesarrollo', expresó en su discurso por el aniversario de la Marina y el Combate de Angamos.'\n\n'Nuestra patria ha sido puesta a prueba una vez más, y han sido la Constitución y la Democracia las que nos han permitido resolver una situación de crisis que nos afectaba a todos dentro de los cauces democráticos e institucionales.', añadió después."
+    },
+    {
+        "headline": "Apra participará en las elecciones al Congreso del 2020",
+        "content": "Según Del Castillo, decisión no significa que avalen disolución del Parlamento.\n\nEl Partido Aprista participará en las elecciones congresales del 26 de enero del 2020, adelantó Jorge del Castillo, miembro del Parlamento disuelto. '\n\n-Vamos a ir a estas elecciones, las de enero. Esto lo hemos discutido a nivel del partido y es una decisión difícil porque se pueda decir que \'esto convalida lo anterior\' [la disolución del Congreso], pero peor es dejar los espacios en blanco\', señaló en Canal N.-\n\nDel Castillo recalca que el hecho de que su agrupación política participe en los comicios del próximo año no significa que avalen la decisión del Presidente Martín Vizcarra de disolver el Legislativo."
+    },
+    {
+        "headline": "Expulsan a Marisol Espinoza de Alianza para el Progreso",
+        "content": "Rolley Reyna / Archivo Decisión, avalada por Csar Acua, se tomó porque votó en contra del adelanto de elecciones y presentó demanda de amparo contra Vizcarra.\n\nRedacción Política El partido político Alianza para el Progreso (APP) expulsó ayer a Marisol Espinoza Cruz, integrante del Congreso disuelto. En un comunicado, la agrupación informó que Csar Acua, líder de APP y excandidato presidencial, tomó la decisión porque Espinoza actuó a 'espaldas de las decisiones partidarias'. Entre las razones están el voto de Espinoza contra el proyecto del ejecutivo para adelantar las elecciones generales al 2020 (como miembro titular de la Comisión de Constitución), pese a que APP apoyaba públicamente la iniciativa."
+    },
+    {
+        "headline": "‘No sentimos que el Perú sea un país xénofobo'",
+        "content": "'Juan Guaidó nos ha comisionado proteger los derechos de todos los venezolanos’, dice Carlos Scull.\n\nEs una migración avasallante y, claro, cómo se absorbe? También, lamentablemente, hay venezolanos que han cometido delitos. Es una minoría, pero el impacto que ha causado ha sido muy negativo, empaña la imagen de la gran mayoría que quiere trabajar. Lo que creemos es que no se puede dimensionar, ponerle nacionalidad a unos criminales. Cuando se señala en los medios, se hace mucho nfasis en el tema de la nacionalidad de la persona que comete este delito, en términos de percepción puede afectar a los demás."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Any non-article sections such as ads or unrelated information have been excluded according to specified criteria.

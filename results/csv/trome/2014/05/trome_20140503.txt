@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/05/trome_03.txt ---
+
+```json
+[
+    {
+        "headline": "Fía Internacional Del Narcotr\u0101fico",
+        "content": "Una fuente policial dio a\nconocer que, por ahora,\nela modelo Tilsa Lozano\ncitarna los\nque tuvieron\nrelaciones con\nasesinado en\nLamborghini.\nSegún la Policía,\narquivaron caso\npara impedir que lo\nsigan investigando."
+    },
+    {
+        "headline": "TRÁMITES ES OBLIGATORIOS PARA NATIVOS DE 1996 Y 1997",
+        "content": "Arranca la inscripción militar\nde El Ejército del Perú\ninició la inscripción militar para hombres \ny mujeres nacidos en 1996 y\n1997. Según un comunicado, el tramite\nrealizará en las oficinas centrales de cada ciudad\ny es requisito indispensable para obtener el nuevo\nDocumento Único de Identificación (DUPI).\nPero quienes no se inscriben serán multados\ncon el 5 % de una UIT (3,800 soles). "
+    },
+    {
+        "headline": "Milagros Carrillo estaba embarazada",
+        "content": "Periodista muerta por negligencia médica\nperiodista Millagros Carrillo, semanas después de estar\nen el picadero del sótano, según información de América Noticias.\nEl documento detalla que el doctor Csar Otuya solicitó\nuna unidad de emergencias tardíamente horas después de\natenderla. Aunque el informe del forense dice que falleció\npor hemorragia interna, causa que Carrillo tenía normalmente.\nNo consideraban necesario trasladarla; dijo."
+    },
+    {
+        "headline": "Suboficial Que Da Consejos Por Twitter Y Facebook Se Confiesa Con Trome",
+        "content": "\"Policia Chveré\", Giancarlo Dayz\nPardo (23), quien hace unos días salió del anonimato, le cuenta a Trome cómo rompió con tipo del hombre militarisado y se acerca al ciudadano a través de las redes sociales.\"Tres años. Soy de la ‘Comisión Sin Chimuchis!’\" \"¿Has trabajado detrás de la computadora?\nEstuve en la unidad especializada de Patrullaje.”"
+    },
+    {
+        "headline": "Viejita De 116 Años Cobró Cheque",
+        "content": "Doña Filomena Taipe Mendoza, la mujer más longeva del Perú con 116 años, cobró por primera vez la Pensión 65 y, además, cumplió uno de sus mayores sueños:\nmándar a hacerse unas prótesis dentales. Luego de obtener su Documento Nacional de Identidad, la anciana hizo el trámite necesario para dicho beneficio y, el último minuto, recibió su dinero."
+    },
+    {
+        "headline": "Denunciaron Al Exjefe De Región Policial Del Callao",
+        "content": "Por haberse aprovechado de su cargo para beneficiarse con 345 mil soles, testigos del control y fiscalización del transporte del Callao, fueron citados ayer el exjefe de la Región Policial del Callao, general PNP (r.) Bruno Debenedetti Vargas Machuca y otras 18 personas. La Fiscalía Anticorrupción del Callao presentó la denuncia ante el poder Judicial, para establecer qué se giró cheques a nombre de Debenedetti, cuando deberían ser entregados a la Gerencia Regional Policial del Callao en virtud de un convenio con la PNP."
+    },
+    {
+        "headline": "Premiaron Al Primer Andinista",
+        "content": "Armado (191): ardidista que llegó primero al ascenso escalón el Monte Blanco de los Alpes. Armado ascendió ayudado de un bastón, el andinista recibió el reconocimiento de la legisladora Luz Salgado, dedicada a favor de montañas.”
+    },
+    {
+        "headline": "David Hasselhoff Y Su Separable Auto Clónico Fueron La Atracción En Pamplona",
+        "content": "Un espectacular evento celebrado en la plaza del Castillo de Pamplona (España), donde se promociona el Festival musical Acceleration: Decenas de personas presenciaron admirados a la réplica de “Kit,” mientras Hasselhoff posaba para ser tomado fotografías por numerosos fans."
+    },
+    {
+        "headline": "'Chespirito', Robusto En Salud, Utiliza Red Social Para Descartar Rumores",
+        "content": "El cómico Roberto Gómez Bolaños (‘Chespirito’) usó Twitter para descartar rumores sobre problemas graves de salud. Confirmó sentirse tranquilo y acompañado por familia durante su estadía en Cancún, México."
+    },
+    {
+        "headline": "Desprendimiento Sepulta Villa En Afganistán",
+        "content": "Un desprendimiento de tierra sepultó una localidad en el nordeste de Afganistán debido a intensas lluvias, resultando en al menos 350 víctimas mortales y varias personas desaparecidas."
+    },
+    {
+        "headline": "Alianza Defiende La Punta Y Cristal Traerá Refuerzos",
+        "content": "Ambos equipos buscan triunfos importantes esta tarde en el Estadio Nacional. Alianza Lima lidera contra Sporting Cristal, quien intentará recuperar fuerzas con cambios significativos incluido el posible retorno de Carlos Lobatón."
+    },
+    {
+        "headline": "Juan Vargas Leal Anota Dos Goles En Derrota",
+        "content": "Durante el encuentro deportivo, Juan Vargas logró destacarse marcando dos goles aunque su equipo sufrió derrota frente a Santos Laguna."
+    },
+    {
+        "headline": "Peñarol Presenta Nuevo Entrenador",
+        "content": "El uruguayo Diego López será anunciado oficialmente mañana como entrenador principal de Peñarol, sustituyendo a Leonardo Ramos luego de resultados adversos recientes."
+    },
+    {
+        "headline": "Muerte De Guardiola Provoca Reacciones Entre Figuras Futbolísticas",
+        "content": "Figuras notables del mundo futbolístico expresaron condolencias tras el fallecimiento de José Mourinho, conocido rival histórico de Pep Guardiola."
+    }
+]
+```
+This JSON contains extracted headlines and contents for each identified article within the provided input data while adhering strictly to the specified format requirements. Articles were segmented based on recognizable headings followed by relevant textual bodies. Non-article sections such as ads, promotions, and unrelated listings have been excluded according to guidelines.

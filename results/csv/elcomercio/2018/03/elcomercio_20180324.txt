@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2018/03/elcomercio_24.txt ---
+
+```json
+[
+    {
+        "headline": "¿Subnacionales?",
+        "content": "-Moquegua fue una región bien gestionada con Vizcarra?\nPues sí, fue muy bien gestionada y lo interesante es que es una región con mucha minería. Ojo, minería moderna, que no trae problemas ambientales.\n\nEl Perú tiene una increíble cantidad de recursos mineros que no explota; es como tener a Messi en el equipo y no hacerlo jugar. Todos los sectores son parte importante del equipo, pero la minería es el Messi que tiene el Perú y que nos va a hacer anotar los goles."
+    },
+    {
+        "headline": "Qué errores debe corregir la nueva administración?",
+        "content": "Más que un error, se trata de un problema. El nuevo Ejecutivo tiene que aprender a trabajar de la mano con el Congreso. Pueden estar en desacuerdo en algunas cosas, pero también pueden llegar a acuerdos en otras; el balance final no debe ser negativo. Lo importante es avanzar en lo que se pueda avanzar."
+    },
+    {
+        "headline": NA,
+        "content": "Eduar-do Ca-ver-o / Archivo\n\nSi el nuevo gobierno logra un mínimo de gobernabilidad, podría mejorar el crecimiento de la economía, dice Palomino.\n\"Es muy distint... \n\n\"Ahora le toca al nuevo presidente nominar a los jefes de las instituciones que faltan.\""
+    },
+    {
+        "headline": NA,
+        "content": "\"Un motor grande para sacar adelante la economía era el sector construcción, pero con los problemas de corrupción lo han paralizado, ¿qué será la tarea?\n\nPor un lado, se debe hacer justicia: castigar a los corruptos; pero por otro lado, no debemos permitir que paren las obras y se pierdan miles de empleos. [...] "
+    },
+    {
+        "headline": NA,
+        "content": "\n---\nPerfil:\nProfesión: Economista de la Universidad del Pacifico y Ph.D. en Finanzas de The Wharton School, en la Universidad de Pensilvania.\n\nOtros cargos: Director del Instituto Peruano de Economía (IPE), de Southern Peru Copper Corporation (que tiene una operación en Moquegua) y de la Maestra en Finanzas de Pacific Business School."
+    },
+    {
+        "headline": "El Complejo panorámico de las Regiones",
+        "content": "Martín Vizcarra encontró un país enfurecido por la lentitud en la reconstrucción del Norte y con conflictos sociales emergentes. La atención está centrada en los nuevos Ministros...\n\nEste año, la Autoridad para la Reconstrucción Con Cambios planea completar 3512 obras, especialmente en el norte. [...]"
+    },
+    {
+        "headline": "El Perú Frente Al Cambio Climático",
+        "content": "[...] Uno de los principales peligros en nuestro país (uno de los cinco más vulnerables al cambio climático) es la correcta gestión de nuestros recursos hidráulicos. [...] \"Conecta\" es el tema de este año de la Hora Del Planeta, promovida por WWF en nuestro país. Una de las actividades programadas hoy es la limpieza de playas en la Costa Verde, de 2 a 4 pm."
+    },
+    {
+        "headline": "PUENTE SOLO BENEFICIARA A DELEGACIONES DEPORTIVAS",
+        "content": "Tras los Juegos Panamericanos, se eliminará el Puente Bailey sobre el río Rímac. Sin embargo, sólo beneficiará a las delegaciones deportivas durante esos juegos. 'Los cruzamientos difíciles son Scar R. Benavides y Argentina', según informes previos."
+    },
+    {
+        "headline": "Entrevista Miguel Ángel Martín",
+        "content": "'Podemos ordenar la captura internacional de Maduro'. Presidente del máximo tribunal venezolano en el exilio, comenta sobre acciones judiciales potenciales contra Nicolás Maduro, incluida una posible petición de arresto mediante Interpol."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their significance within the provided document while adhering strictly to the outlined extraction rules. Articles lacking explicit headings have been marked accordingly.

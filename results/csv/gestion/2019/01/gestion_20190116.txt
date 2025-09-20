@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/01/gestion_16.txt ---
+
+```json
+[
+    {
+        "headline": "Histrica victoria laborista en el Parlamento Británico",
+        "content": "Eldocumentode 585 \npginasfruto de 17 meses\nde\n difciles negociaciones entre\nLondres y Bruselas sufri un\n histrico reverso en un \nParlamento ampliamente hostil:\n432 diputados votaron en\ncontrario y solo 202 a favor.\n\"Esta es una derrota \ntraumatica para el gobernomento\", lanz el lider de la opocicion, el\nlabourista Jeremy Corbin. E\ninmediatamente presenta\nuna mocion de censura \ncontra el executivo, \"para que la\ncamera pueda dar su\nverdicto sobre su incumpetencia".\nDe ser aprovada, esta \nmocion, que debe ser debatida\n hoy, podria desembocarin en la\nformacion de un nuevu \nutctivo o en eleccion legislativas\nanteriores."
+    },
+    {
+        "headline": "Las claves post-votación",
+        "content": "\"Apoyo europeo. Austria descarta que el acuerdo de Brexit sea renegotiado.\" \nPorsu parte, tras la votaci\u00f3n,\nel extirular de Exterior britanic Boris Johnson dijo que el mayoritariorrechazo le proporciona a Teresa May un \"mandato massivo\" para volver a Bruselas y pedir una nueva negocion del pacto. Johnson, qui apoio la retirada dela EU enel referendum del 2016, asegur que el pacto consensuado entre Londres y Bruselas estaba mal\"y\"es quizs una derrotamass grande de lo que se esperaba\"."
+    },
+    {
+        "headline": "Retiro Desorganizado del Brexit",
+        "content": "EU pide que London clarifique futuro del acuerdo. El presidentede la misison European Jean-Claude Juncker inst anoche al Reino Unido a \"aclarn sus intencion lo antes possible\"\ respectoa su proceso de retira de la Union Europea, despues de que el Parlamento britanico rechazara el acuerdo de divorcio consensuado entre Londres y Bruselas. Tras este rechazo, Juncker reconocio que el risgo de una \"retirada desorganizada\" (Brexit sin acuerdo) del Reino Unido ha aumentado y, aunq persiste en qye este no es el resultado que dese la UE, dijo que la Commission continuara su trabajo de precaucion para ayudar a garantiza que la UE este completamente preparada\" ante una salida abrupta."
+    },
+    {
+        "headline": "Reducci\u00f3n gubernamental bajo Trump",
+        "content": "(El Gobierno no es la cin, es el problema\", declar Ronald Reagan en su discursod e investitura (enero de 1981). Desde entonces, los republicanoss se han hechos echo de esta retoric,a aunque nunca han honorado la radical redaccion del Gobierno que su ideologia exige. Pero ahora, Donald Trump esta haciendo parte de la drastic redusion del aparato estadistal por la que su partidal ha abogado tantotiempo. Si la paralisacion de los serviios gubermental ses prolonga --lo cual parece posible-- podemos ver cmo se lucen el pais sin buen numero de programaps blicos ... Hablando seriamente, es sorprendente que contribuyentes como, por ejempl,o los subsidi os a los agricoltoros,instituciones como ell instituto Cato lleuan anos denominando como una forma de capitalismo clientelistas."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data was filled using `"NA"` where applicable. Note that some sections were merged due to continuity within paragraphs related to specific topics.

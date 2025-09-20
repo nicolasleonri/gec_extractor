@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/01/trome_20.txt ---
+
+```json
+[
+    {
+        "headline": "Messi pudo vencer la resistencia del arquitectónico rival",
+        "content": "Gracias a Keylor Navás solo Piqué pudo añadir más alegría a David Villa (18’), pero el croata Lewandowski igualó con el mismo de un cabezazo a los 19’. Los locales habían avanzado gravemente (12° con 24) y Atlético Madrid había logrado mantener ventaja (18”). Sin embargo, Rakitić (73’) igualó de penal para Sevilla (7º adelantado con 31). Ahora, los ‘merengues’ (3º con 50) tienen que seguir resistentes."
+    },
+    {
+        "headline": "José Mourinho cumple 100 triunfos mandándole a Chelsea",
+        "content": "Chelsea, que ayer se impuso 3–1 al Manchester United gracias a un hat-trick de Camerún Samuele Eto’, cumplió bajo el liderazgo de José Mourinho. Durante este tiempo, el delantero camerunés destacó especialmente con tres tantos decisivos durante el juego."
+    },
+    {
+        "headline": "Novak Djokovic sigue firme en Abierto de Australia",
+        "content": "‘Nole’ ganó sin problemas contra el italiano Fabio Fognini por 6–4, 6–1 y 6–2, clasificándose así sin perder sets en el torneo. Será ahora retado por Stanislas Wawrinka en la próxima fase."
+    },
+    {
+        "headline": "Corinthians derrotó a Portuguesa en Torneo Paulista",
+        "content": "Paulo Guerrero, como titular, contribuyó significativamente al victoria de Corinthians sobre Portuguesa por 2–1 en São Paulo. Romarinho (34") y Guilherme (39") marcaron los goles cruciales para el club brasileño."
+    },
+    {
+        "headline": "Fiorentina golea Catania en Italia",
+        "content": "Matías Fernández (25'), junto a Alessandro Matri (28', 41"), llevaron a Fiorentina a una convincente victoria de 3–0 frente a Catania, mostrando dominación total en el campo."
+    },
+    {
+        "headline": "Milán consigue victoria ajustada sobre Hellas Verona",
+        "content": "Tras el debut de Clarence Seedorf como técnico, Milán obtiene un importante triunfo de 1–0 contra Hellas Verona, consolidando su posición en la competición italiana."
+    },
+    {
+        "headline": "Juventus remonta y vence a Sampdoria",
+        "content": "Un tanto tardío de Mario Mandžukić permitió a Juventus revertir el resultado inicial y obtener una crucial victoria de 2–1 sobre Sampdoria."
+    },
+    {
+        "headline": "Real Sociedad empata con Athletic Bilbao",
+        "content": "Ambos equipos terminaron 1–1 después de intensos momentos de tensión táctica y física, dejando ambos bandos insatisfechos con el punto obtenido."
+    },
+    {
+        "headline": "Participación Ciudadana en Construcción de Nuevo Edificio",
+        "content": "Se invita a la comunidad a expresar comentarios respecto a potenciales impactos ambientales derivados de la nueva estructura proyectada en Blvd. No 180, según informaciones proporcionadas por Vitra Inmobiliaria SAC."
+    },
+    {
+        "headline": "Innovadoras Carreras Profesionales disponibles",
+        "content": "Oferta educacional incluye diseño de modas, cosmetología, derecho, psicología, ingeniería ambiental, gestión pública, salud pública, entre otras áreas relevantes para aspirantes académicos."
+    },
+    {
+        "headline": "Carlos Lobatón podría jugar mañana contra EMELEC",
+        "content": "Superada la contractura muscular, el jugador peruano está siendo evaluado para incorporarse al próximo compromiso deportivo internacional."
+    },
+    {
+        "headline": "Reserva Cristal-Emelec promete acción futbolística",
+        "content": "Primer contacto competitivo previsto para el duelo programado dentro de la Copa Libertadores, anticipando estrategias clave para el éxito regional."
+    },
+    {
+        "headline": "Valioso legado cultural reconocido globalmente",
+        "content": "Caral, antigua urbe sudamericana, declarada Patrimonio Cultural de la Humanidad por UNESCO en 2009, destaca por su complejidad social y urbanística milenarias."
+    },
+    {
+        "headline": "Importancia de tener una mascota familiar",
+        "content": "Integrar animales domésticos influye positivamente en dinámicas familiares, favoreciendo aspectos emotivos y comunicacionales fundamentales para todos los involucrados."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents while adhering strictly to the provided guidelines for processing the input data. Articles were identified through recognizable patterns such as capitalization indicative of titles followed by narrative paragraphs detailing events or information pertinent to each title. Non-article elements like ads, contact info, etc., have been excluded according to instruction criteria.

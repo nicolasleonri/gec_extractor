@@ -1,0 +1,35 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/11/peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "Legislador aprista analiza el pobre nivel del Debate plenario",
+        "content": "On el estilo provocador que caracteriza, Mauricio Mulder analiza el escándalo que envuelve al Gobierno, y en esta entrevista nos deja algunas hipótesis para la reflexión.\n\nCreé que el señor Humala conocía de la protección a López Meneses?\nSi él dice lo contrario, tendríamos que suponer que no es un hombre inteligente, y si ha llegado a la Presidencia es por su inteligencia. Solo caben dos hipótesis: o no sabían nada, que es la hipótesis del renunciante Ministro Pedroza y otros que son una manga de ineptos, o sí sabía y lo permitió. No me cabe la menor duda de que esto solo pudo proceder con la anuencia y bajo las órdenes del presidente."
+    },
+    {
+        "headline": "Entrevista.21 MAURICIO MULDER. Vocero de Concertación Parlamentaria",
+        "content": "\"No crea en la tesis de la infiltración montesinista? Veámoslo así, ahora sale el presidente a decir ‘deslindamos con la basura’, pero solo lo dice con palabras. Aquí está el caso de cinco miembros de la banda de Humala visitando a López Meneses en San Jorge, la nunca explicada relación con el general Malca, las llamadas desde el velero Karisma a Locumba, el hecho de haber sido un rebelde de último minuto –como lo recordó Jaime Bayly– no renuncia tras el Golpe del 5 de Abril de 1992, y con arma en mano defienda durante ocho años a la Dictadura y hoy dice ‘ese gobierno mafioso’. ¿Cómo estuvo?"
+    },
+    {
+        "headline": "Carlos Castillo Cordero ccastillo@peru21.com",
+        "content": "‘Hasta cuándo estuvo?’\n’Hasta el último minuto, cuando organiza un paseo, se sube a un bus de pasajeros donde había veinte personas asustadas, sube a las colinas y retorna para dar una declaración. Qué casualidad que había prensa.’ \n\"Todo estaba armado para el escándalete cuando Fujimori había anunciado que se iba, había salido el vídeo, se había convocado a Elecciones y se buscaba a Montesinos, quién se estaba escapando aquel día en Barco. ¿Qué otra forma hay para distraer?' Cuando el presidente habló de ‘basura’, algunos dijeron…'"
+    },
+    {
+        "headline": "“Extrañas coincidencias. Mulder cree que levantamiento de Locumba fue para permitir la fuga de Vladimiro Montesinos.”",
+        "content": "'¿Qu otra forma hay para distraer?', se preguntó.''
+        
+        '"Sobre Martha Chavez “Fue un debate fuera de lugar, Todo porque algún no les gustaba el modo de pensar de la señora. A mí no me gusta el señor Abugattás. Voy a sacar del Parlamento por eso?"'\n"Sobre Daniel Abugattás \"Abugattás es un lobista profesional. All está la Ley que presentó a favor de los tragamonedas, ahorrándoles 14 millones, por favor."'
+    },
+    {
+        "headline": "COMISIONES INVESTIGADORAS",
+        "content": "El propietario de la comisión investigadora del tema Petroaudios, Daniel Abugattás, será puesto frente a la nueva situación legal relacionada con favoreces hacia López Meneses. Al parecer, están retando al sistema político existente. "
+    },
+    {
+        "headline": "OPINIÓN DE CARLOS CASTILLO CORDERO",
+        "content": "''El partido nacionalista es un proyecto improvisado?, Totalmente improvisado. Sus dirigentes, parlamentarios, han hecho política recién a partir de 2005. Son un grupo que buscó prenderse de la teta estatal, nada más. Incluyen figuras controvertidas dentro de sus rangos.''"
+    }
+]
+```
+This extraction captures several distinct sections within the provided input while adhering strictly to the guidelines for identifying headlines and corresponding contents. Note how each entry maintains its integrity based on context clues such as titles followed by relevant paragraphs. Any ambiguous segments were omitted due to lack of clarity regarding their nature as standalone articles.

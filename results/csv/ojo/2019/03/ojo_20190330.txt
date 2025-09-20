@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/03/ojo_30.txt ---
+
+```json
+[
+    {
+        "headline": "Sentirse ansioso con la pareja",
+        "content": "Se manifiesta mediante el miedo, control, la mala comunicación y sobre todo la baja autoestima. Si bien es natural que se presenten momentos de ansiedad, lo ideal es saber manejarlos y así no permitir que dañe a la pareja."
+    },
+    {
+        "headline": "Trabajador romántico quiere establecer relación seria",
+        "content": "Romántico se encuentra deseoso de conocer a una dama para fines serios y matrimoniales. Escribir a: [email protected]"
+    },
+    {
+        "headline": "Caballero desea formar una nueva relación",
+        "content": "De 46 años, soltero y sin hijos continúa buscando compartir su amor. Para disfrutar de este amor, será necesario vencer obstáculos externos. Quiere encontrar a alguien especial para comenzar una relación significativa."
+    },
+    {
+        "headline": NA,
+        "content": "La dependencia emocional puede convertirse en toxica si se basa únicamente en aspectos físicos como el sexo. Nadie tiene derecho sobre las acciones de otra persona. Formular relaciones sanas requiere más que simples interacciones superficiales."
+    },
+    {
+        "headline": NA,
+        "content": "Un hombre comparte cómo evolucionaron sus sentimientos hacia Carlos Antonio desde verlo simplemente como amigo hasta desarrollar un vínculo mucho más personal. Con el paso del tiempo, empezó a sentirse diferente respecto a él, incluso compartiendo experiencias íntimas como salir a cenar juntos."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text that resemble complete narratives or discussions typical for journalism pieces while adhering strictly to the guidelines given regarding what constitutes includible material versus extraneous information like ads or unrelated listings. Note how some entries have been labeled `NA` where specific headlines were either missing or unclear based solely on context clues available in the input data. This approach ensures clarity and adherence to the task's requirements for producing structured, usable outputs.

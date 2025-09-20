@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/06/correo_25.txt ---
+
+```json
+[
+    {
+        "headline": "Fo Del »BREXIT«",
+        "content": "Tras el \"Brexit\", pol\u00edticos escoceses\nLa Escocia por \ns\nerendum.\nTras el\n\"Brexit\",\npolticos\nescoceses\nadvierten sobre un posible referéndum para independizarse nuevamente después de la victoria del Brexit."
+    },
+    {
+        "headline": "Diagnóstico Económico Post-Brexit",
+        "content": "\"Dimite y sr economía\_es sacudida por ‘Brexit’\"\nEl referéndum del jueves en Gran Bretaña, que terminó decidiendo el alejamiento de la Unión Europea, tiene consecuencias económicas significativas. Entre ellas destaca la depreciación de la Libra Esterlina y preocupaciones respecto a inversiones externas. Además, sectores clave como el financiero podrían verse obligados a replantear estrategias operativas dentro del bloque europeo."
+    },
+    {
+        "headline": "Impacto Global del Brext",
+        "content": "Europa responde al resultado del referendum. Angela Merkel califica el evento como un «punto de inflexión» para Europa, instando a mantener la unidad entre Estados Miembros. Otros líderes mundiales también expresaron su preocupación sobre cómo esto podría influir globalmente, especialmente en términos políticos-económicos."
+    },
+    {
+        "headline": "Consecuencias Locales en Perú",
+        "content": "Las repercusiones directas del Brexit en Perú están principalmente ligadas al comercio internacional. Con el Reino Unido saliendo de la Unión Europea, será necesario renegociar acuerdos bilaterales específicamente con el país británico. Actualmente, existe un pacto vigente con toda la UE, que requiere adaptaciones urgentes."
+    },
+    {
+        "headline": "Opini\u00f3n Local sobre Facultades Legislativas",
+        "content": "Karla Schaefer y Hector Becerril anticipan dificultades en aprobar solicitudes de facultades legislativas hechas por el ejecutivo actual. Argumentan que estas deben estar sustentadas claramente y demostrar resultados tangibles rápidamente. Destacan además la importancia de evitar convertirse en meros instrumentos del Poder Ejecutivo."
+    },
+    {
+        "headline": "Análisis Interno de PP-K",
+        "content": "Daniel Urresti critica abiertamente a Apra, sugiriendo que necesita recuperar fuerzas y adherentes. Este comentario surge luego de observar cambios dinámicos en el panorama polítcico local, impulsados por nuevas formaciones partidarias emergentes."
+    },
+    {
+        "headline": "Visita Oficial de PPK en Cuzco",
+        "content": "Durante su estadía en Cuzco, Pedro Pablo Kuczyski participó en eventos culturales locales, tales como el Inti Raymi, y discutió iniciativas relacionadas con descentralización y desarrollo regional. Propuso incluso reconocimiento UNESCO para dichas festividades tradicionales."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while filtering out irrelevant sections such as ads, subscriptions information, etc. It maintains focus solely on substantial journalistic pieces within the provided document snippet.

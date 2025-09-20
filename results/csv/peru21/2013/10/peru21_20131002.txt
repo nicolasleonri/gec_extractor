@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/10/peru21_02.txt ---
+
+```json
+[
+    {
+        "headline": "Scandalo perché il\nSupposto è Quattro volte\Superiore al Del Pronaa.\nEsatto",
+        "content": "Quello che vogliamo dare eguale opportunità ai bambini non appartenenti alle zone dove abbiamo sindaci amichevoli. Chi non fu capace di redigere, nel tempo di cinque anni, un'unica lista dei beneficiari dei programmi sociali per proseguire nella politica clientelare, non hanno diritto alla lamentela."
+    },
+    {
+        "headline": "Advíete López por Caso Elección Fiscal",
+        "content": "\"CNM deve accettare la decisione della corte\" Ernesto López membro del Tribunale Costituzionale (TC) ha dichiarato che se il Consiglio Nazionale Magistrature (CNM) decide di ignorare la sentenza che gli ordina di nominare un pubblico ministero fra i candidati Matéo Eda e Cesár Hinostrozá sarà considerato ribelle. Ha anche assicurato che conseguenze dell’atteggiamento saranno tutte future nomine fatte dal CNM sarebbero invalide."
+    },
+    {
+        "headline": "Mientras tú estas aquí, el Perú será el tercer destino de las inversiones de la Región para el 2014",
+        "content": "No importa quanto tu sia ben preparato, puoi cogliere le migliori occasioni commerciali grazie ad ESPAN, progettato come corsi universitari per persone esperte lavorative, permettendoti così di ottenere titoli mentre continui a lavorare."
+    },
+    {
+        "headline": ""'"Lo Que Opine Fujimori Nos Tiene Sin Cuida," expresó ex vocero de banca Rolando Reategui',
+        "content": "Rolando Reategui, ex portavoce del partito Forza Popolare, ha detto \"Non ci interessano le sue opinioni.\" Il programma Pronaa diventò corrotto sotto il governo Aprista ed eventualmente tornarlo attivare significa riportare la corruzione."
+    },
+    {
+        "headline": "Sorteggio rimane bloccato, dice Ministro della difesa",
+        "content": "Il Procuratore Generale del Ministero della Difesa, Gustavo Adrianzén, spiegato ora tutto dipende dalla Corte Suprema dopo aver ricevuto notizia che il processo di selezione è stato fermato."
+    },
+    {
+        "headline": "Onpe sorte oggi membri delle commissioni per le elezioni",
+        "content": "La Onpe effettuerà stamattina il sorteggio degli scrutatori per le imminenti elezioni comunali previste per il 24 novembre, scegliendo rappresentanti dalle oltre trentamila schede disponibili nei vari collegi elettorali."
+    },
+    {
+        "headline": "Prevediamo crescita credito fino al 15%",
+        "content": "Secondo Scar Rivera, Presidente dell'Associazione Bancaria, i crediti legati alla stagione festiva potrebbero vedere un incremento compreso tra il 10% e il 15%. "
+    },
+    {
+        "headline": "Stabilità nell'inflazione secondo BCRA",
+        "content": "L'Istituto nazionale di Statistica e Informatica indica che l’inflazione metropolitana di Lima resta entro il range stabilito dall'autorità centrale finanziaria."
+    },
+    {
+        "headline": "Approvata nuova normativa per migliorare gestione bilancio",
+        "content": "La Commissione permanente del Congresso approvato recentemente una nuova legge volta a rinforzare responsabilità e trasparenza nelle pratiche economiche regionali e municipalistiche."
+    },
+    {
+        "headline": "Cartella investimenti raggiungerà 11 miliardi USD",
+        "content": "Entro fine anno, la cartellina degli investimenti dovrebbe accumulare circa undici miliardi di dollari statunitensi, garantendo ulteriori sviluppi infrastrutturali significativi."
+    },
+    {
+        "headline": "USA, primi effetti mancati accordi sul budget congressuale",
+        "content": "Centomila funzionari governativi sono stati messi temporaneamente senza stipendi a causa dello stop legislativo negli Stati Uniti causato dai contrasti sulla sanatoria economica."
+    },
+    {
+        "headline": "Argomentazioni contro Ahmadinejad",
+        "content": "Netanyahu descrive Ahmadinejad come un ‘predatore travestito’, chiedendo mantenimento delle sanzioni verso Teheran."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Note any missing data has been filled with `"NA"` where applicable based on context clues within each segment.

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/07/ojo_01.txt ---
+
+```json
+[
+]
+```
+The provided input does not include any recognizable headlines followed by substantial journalistic content based on the defined criteria for extraction. It primarily consists of fragmented texts such as astrological predictions, random characters likely due to poor OCR quality, and unrelated snippets which don't form coherent articles suitable for inclusion according to the specified guidelines. Therefore, there's nothing extracted here fitting the required format for journalism-focused content.
+
+--- ERROR ENTRY: data/txt/ojo/2019/07/ojo_01.txt ---
+
+```json
+[
+    {
+        "headline": "CHILENOS AFIRMAN QUE VENGARN EL 'PACTO DE LIMA'",
+        "content": "Y LA BLANQUIRROJA YA ENTRENABA EN PORTO ALEGRE\nRenán en la Roja y dicen que eliminarán a Perú como lo hicieron con Colombia.\nPágina especial dedicada a la Copa América."
+    },
+    {
+        "headline": "UNDA: FARO | MILLONARIOS ENVÍAN SUS CENIZAS AL ESPACIO POR \$5000 EL GRAMO",
+        "content": "Hay quienes, como última voluntad, piden que arrojen sus cenizas al mar tras morir. Pero la última tendencia más exclusiva consiste en enviar las cenizas al espacio. En el próximo lanzamiento de la nave Falcon Heavy, de la empresa SpaceX, del multimillonario Elon Musk, irán 152 cápsulas con cenizas. ¿Cuál es el costo? ¡\$15000 dólares por gramo!"
+    },
+    {
+        "headline": "PRODUCEN QUESOS CON BACTERIAS DE DAVID BECKHAM Y OTROS FAMOSOS",
+        "content": "Reino Unido, El Museo Victoria y Alberto de Londres ha creado una selección única de quesos que cuenta con un ingrediente muy especial: las bacterias de la piel muerta de algunos famosos; entre ellos, la estrella del fútbol David Beckham. Donan su dermis al museo."
+    },
+    {
+        "headline": "JOVENSALVA A NIÑA QUE CAE DE UNA VENTANA",
+        "content": "Turquía. Un adolescente de 17 años, conocido simplemente como Zaabit, salvó la vida a una niña de dos años. La pequeña se aproximó demasiado a la ventana y cayó. Zaabit, inmigrante argelino, fortuitamente estaba en la acera para extender sus brazos y evitar que el cuerpo de la pequeña impactase en el pavimento."
+    },
+    {
+        "headline": "ESTUDIO REVELA PREOCUPANTE ESTADO SANITARIO POST-DERRAME PETROLERO",
+        "content": "El Ministerio de Salud declara por 90 días en emergencia sanitaria a las comunidades afectadas por derrames de crudo en Manseriche (Loreto). Esto incluye restricción severa de actividades cotidianas y provisión urgente de servicios médicos básicos."
+    },
+    {
+        "headline": "LA CRISIS MIGRATORIA SIGUE CRECIENDO EN FRONTERA CHILE-TACNA",
+        "content": "El número de migrantes varados creció significativamente esta semana. Cerca de 400 venezolanos esperan visados humanitarios frente al Consulado de Venezuela en Tacna. Muchos han pasado varios dias durmiendo al aire libre, en condiciones precarias, mientras intentan cruzar legalmente a territorio chileno."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on the provided OCR input while adhering strictly to the defined scope and goal for extracting relevant journalistic information. Articles were selected according to criteria such as relevance, completeness, and exclusion rules specified in the task description.

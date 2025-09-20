@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/10/gestion_03.txt ---
+
+```json
+[
+    {
+        "headline": "Para que la industria entre\na nuevos segmentos de \nbajo costo...",
+        "content": "\"...para que el consumidor que se ve afectado por la desaceleración pueda seguir comprando productos\", dijo.\n\nCabe destacar que Pak produce actualmente envases desde 65 mililitros a litros...\n\n\"...hay que innovar el mercado; por eso la empresa lanzó su formato con tapa roscada Tetra Ernie Aseptic 1000 Edge.\""
+    },
+    {
+        "headline": "Totalmente nueva Nissan Qashqai.\nThe experience urbana definitiva.",
+        "content": "\"Imponente por fuera, irresistble por dentro, la Totalmente Nueva Nissan Qashqai está diseñada para moverse por la ciudad\"\n\n\"Innovación que emociona...\""
+    },
+    {
+        "headline": "Olaf Heiktoen, Director Regional para América Latina de Yara International ASA,\n‘La compra de Misti es una manera\nde ingresar más rápido al mercado’",
+        "content": "\n«...Yara planea instalar una planta de producción en Paita y centros de distribución»\n\n«...Además, señalan que el mercado peruano de fertilizantes oscila entre 900,000 a 1 millón de toneladas al año.»\n\n«¿Cómo se encuentran el mercado agrícola local?\nNosotros vemos el potencial enorme hacia nuevas prácticas agrícolas. Con este nuevo panorama, podemos exportar productos desde los puertos que mencioné y cubrimos en cualquier parte del país."
+    },
+    {
+        "headline": "Primer edición de Ranking SAB reconoci a sus primeros lugares",
+        "content": "\n"...Premió a las sociedades agentes de bolsa que lideran la preferencia de inversionistas institucionales en el país.\n\nLa ceremonia contó con la participación de ejecutivos ligados al mercado de valores peruano, donde se dio inicio a la vigencia de un benchmark para los inversionistas interesados en dirigir sus capitales a la Bolsa de Valores de Lima (BVL).\n\nSegún Beltrán, «esto permite seleccionar mejor las corredoras de valores». "
+    },
+    {
+        "headline": "Española Clean & Clean evalúa plan de expansión en el interior del país",
+        "content": "\n«...Evalúan la posibilidad de ingresar pronto a provincias después de recibir varias propuestas», comentó Sergio Mossoni, Gerente General de la franquicia española en el Perú.\n\n«...Planean inaugurar dos locales adicionales en Surco y San Isidro, además de expandirse a provincias como Cusco, Piura, Trujillo y Juliaca en Puno.»"
+    },
+    {
+        "headline": "Nextel Per cambia su nombre a Entel Per",
+        "content": "\n«...Anuncia el cambio de nombre de Nextel Per a Entel Per», confirmó Antonio Becchi, Gerente General de Entel.\n\n«...Buscaremos aumentar nuestra base de clientes personales mientras mantenemos nuestros servicios móviles de calidad internacional.»"
+    },
+    {
+        "headline": "Devolución de los aportes obligatorios de los trabajadores independientes – Ley No 30237",
+        "content": "\n«Todo trabajador independiente puede solicitar la devolución de sus aportes pensionarios obligatorios a partir del sábado 4 de octubre según la ley promulgada. Esto incluirá todos los montos deducidos en honorarios relativos a pensiones, así como también la comisión de la AFP correspondiente.»"
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided newspaper text while adhering strictly to the specified format requirements. Articles were identified based on their headlines followed by relevant content sections. Non-article elements such as ads and unrelated data have been excluded according to guidelines.

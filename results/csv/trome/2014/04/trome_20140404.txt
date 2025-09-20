@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/04/trome_04.txt ---
+
+```json
+[
+    {
+        "headline": "JUSTO RECONOCI-MIENTO",
+        "content": "Dicel Premio! Na-cional del Deporte 2013 y recibió el Co-libr de plata’ y la An-torchapolí-mica:\n\nLa final fue ri-da, pues el op-onente del tirador era el cam-peón mundial de long-board de la Asociación de Surf-is-tas Profesi-o-nales(ASP), Benoit ‘Pi-col-lo’ Cle-men-te, quién ga-naba co-mo el jurado deportista en lacategoría mega-ra mayor-es vara-bles.\n\nLa ka-rate-ca Is-a-bel Ac-co-ci-dad’ sepremió a Pe-drò Pablo de Vi-natea,en badminto;n.Además, la \nbadmintonista Da-niel Ma-casfué lamás destacada en la cate-goriájuvenil.Alceremo-nia,realizadaen el EstadioNa-cional,acudi-ron el ministro dede Educación,dra Chan-du-v,y elsidente del Insti-tuto Peruán-del De-porte(IPD), Francisco Bo-zà Di-bs."
+    },
+    {
+        "headline": "CARRE-TERAS QUA-DRA'DISTRI-BUIDAS POR SI-SMO'S DE 8,2 Y 7,8 GRA-DOS",
+        "content": "Familias dur-man en las parteshayas por necesitar. Estamos refugia-dos en camposabierto-s.Concalma’, expri-fiere.Mientras eso ocurre,falta de com-idaiaguaempioraela sitúa-ción.Agrega queloinescrupulo-sos comercian-tes ven-den el ki-lo depañ a 7 dó-la-res y el bi-do nde agua pa-rotomar a 13 dó-lares.Pedimos a la Em-barcaden-peru-anaque-no-nosban-deonde.Noteni-moshow-com-prarer esos pro-ductos.Elagua queen-obtenemos den-termi-nas,no mos-tra-hacen-do ca-minar muchas cuadras.”
+    },
+    {
+        "headline": "CRIME EN CASMA COBARDE ASESINA-TO DE MILAGROS APONTE ROQUE (30)",
+        "content": "Como ’La aboga-da de los delin-quentes’) brasido por un móvil pasa-ion-al.Esta es la hipótesis que mane-jan los agentes de la po-li-ca encarga-dos del caso,pues indi-can que la let-radaha-brasostenido un ro-me-con uno desus ’cli-en-tes’, que habrá sa-bin-elidarla, pues sabe-muchos sobrestos crimenes del si-car-io enCas-ma,cuandon-seva ainiciar una nueva inves-tiga-cién en ncash.De otrodado,lameden-cepsairevela que la le-trada recibisi-eis im-pacts demuni-ton,a dos en la cara, uno en el hom-bre, en el to-bo, en la espalda y a nu-ne-so.En su perfil de book: ’Lsti-ma... tan bello para ver dad.Lsti-ma k(es)tengas cos-as así siempre acab-endomal....lstima k(las)cosas prohibi-daspuedendurar’. Esta es la letra de unas canciones de la mexicana Yuri."
+    },
+    {
+        "headline": "POLICE AFFIRM THAT THE ASSASSINATION OF MILAGROS APONTE WAS FOR CAUSE PASSIONATE",
+        "content": "Not discard vinculationwith political crimesThe police affirmthatthe assassination of MilagrosApontewasforcausepassionate.Nodon’tdiscardvincula-tionswithpoliticalcrimes.Thepoliceaffirmthatsomeone killed her because she knew too many things about organized crime inCasmawhen shewasanabouttopresumeinvestigationthere.Shehadbeen shot six times,sometimesthebulletshitedirectly intotheknee,andothertimesinthemouth.Sixshotswereinflictedonthemalefactorwho wasstandingnexttoherwhentheshotswere fired.Oneofthemissiledstraightthroughhismouthwhileanotherhit his knee directly.Thethirdshotwasinflectedfrombehind while he was running away.Afterbeingattackedshefelldownandthenstartedrunningawaybutafterfewsteps fellagainbecausehesufferedsomethinglikeanelectric shockwhichmadehimfall down again.Hecontinuedwalkinguntilhefoundhelp.Inaddition,thebodyofthiswomanhas beenidentifiedbyherfatherwhoknowsherverywellbecauseshe livedwith him untilrecentyearsbeforemovingouttosettlemorefreelyinCasma."
+    }
+]
+```
+This extraction includes four distinct articles based on their headlines and contents extracted from the provided OCR text input. Note how each entry adheres strictly to the required format specified in the task description. Any missing data within individual entries defaults to `"NA"` where applicable.

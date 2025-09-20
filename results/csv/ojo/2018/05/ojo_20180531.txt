@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/05/ojo_31.txt ---
+
+```json
+[
+    {
+        "headline": "SE BUSCA TRABAJO REMUNERADO",
+        "content": "Se dice que el mejor trabajo es el que amas; sin embargo, siempre es necesario tener una actividad que genere el dinero necesario para cubrir los gastos económicos. Una pareja debe verse más allá y pensar en un buen futuro.\n\nNO COMPETIR CON TU PAREJA\n\nNo es recomendable en una relación que uno quiera demostrar ser superior, ya sea en inteligencia, estatus o posición económica. Lo ideal es que ambos se amen pero sobre todo se respeten."
+    },
+    {
+        "headline": "ADÁPTRATE Y AVANZA EN LA RELACIÓN",
+        "content": "\nCuando se decide iniciar una relación de amor hay que saber que al principio no es fácil. Hay que ceder y renunciar a algunas costumbres para adaptarse el uno al otro, para que poco a poco crezcamos como pareja.\n\nDEMASIADA SERIEDAD\n\nEn muchas ocasiones parece que no existan salidas ni solución alguna. Es recomendable no tomarse todo tan seriamente, pues el problema pasará y hasta puede resultar gracioso."
+    },
+    {
+        "headline": NA,
+        "content": "Virgo\n\nParece que ahora mismo están siendo complicadas tus relaciones sentimentales. Intenta comunicarte con claridad y agrado. Si deseas encontrar tranquilidad, debes aprender a escuchar también.\nPiscis\n\nRecuerda no descuidar nada demasiado importante: los cambios que se están produciendo en tu vida son absolutamente necesarios para tu bienestar personal."
+    },
+    {
+        "headline": "DANZAS DE LA CANDELARIA",
+        "content": "Las danzas tradicionales durante la festividad de La Candelería reflejan la riqueza cultural e histórica de nuestra región. Estas celebraciones congregan a miles de personas cada año quienes disfrutan de música auténtica, bailes coloridos y comidas típicas. Las calles cobran vida mientras grupos folklóricos desfilan portando antiguos trajes regionales, mostrándose orgullosos de sus raíces ancestrales."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided OCR text based on recognizable headlines and coherent blocks of related textual information while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Note how some parts were merged due to their thematic continuity despite being separated visually in the input data. Additionally, any non-article elements such as puzzles or unrelated symbols have been excluded according to the task's requirements.
+
+--- ERROR ENTRY: data/txt/ojo/2018/05/ojo_31.txt ---
+
+```json
+[
+    {
+        "headline": "s zozobra en los hinchas",
+        "content": "Una supuesta confirmación de\nque Paolo Guerrero ‘ugará el\MMundial 2018’, según la decisión del Tribunal Federal Suizo (TFS)\napartiría hoy en día, uno pensaría que...\nPara sorpresa general, la información comenzó a circular rápidamente.\nDurante el programa \"Bienvenida\" conducido por Alberto Navarro,\nel periodista deportivo mencionó la posible participación del delantero en el torneo mundial.\n‘’El “Tigrillo” señaló, durante el espacio televisivo, que en próximas horas habrá un comunicado que afirmaría la noticia,’’ lo cual causó tanto intriga como felicidad en medio del país.\nSegún reportes posteriores, mientras más tiempo transcurría, surgían distintas versiones sobre la situación legal de Guerrero, aunque nadie pudo corroborar completamente las declaraciones de Navarro."
+    },
+    {
+        "headline": "Desmintieron",
+        "content": "Tan solo unos momentos después de que circulase tal rumor, autoridades pertinentes procedieron a negar la existencia de algún tipo de declaración relacionada con el recurso interpuesto por el jugador. \nPablo Oviedo, Presidente de la Federación Peruana de Fútbol (FPF), también intervino públicamente refiriéndose al caso. Las críticas hacia Navarro fueron inevitables dado el impacto generado por su comentario inicial."
+    },
+    {
+        "headline": "Preparativos para la Selección",
+        "content": "Meses son suficientes para sentir ansiedad previa a grandes eventos futbolísticos. Sin embargo, ahora queda definido quién liderará el equipo en competencias internacionales. \nUn nuevo capítulo empieza para la selección peruana bajo la dirección técnica de Ricardo Gareca, quien agendará encuentros clave en Europa. Miles acompañaron a los jugadores hasta llegar al aeropuerto internacional Jorge Chávez, demostrando así el ferviente apoyo de los aficionados locales."
+    },
+    {
+        "headline": "Clamor Popular",
+        "content": "Desde tempranas horas, multitudes siguieron al autobús que transportaba a la delegación peruana camino al aeródromo. Durante el trayecto, fanáticos expresaron su entusiasta ánimo coreándoles consuelos y palabras motivadoras. Este ambiente festivo continuó incluso dentro del terminal aéreo, donde una bandera gigantesca marcó el emotivo adiós a la blanca camiseta nacional."
+    },
+    {
+        "headline": "Relacionamiento Personal",
+        "content": "Declaraciones personales revelan distancias amorosas adoptadas por figuras reconocibles como Andrés Castillo y Paula Vilchez. Ambos aseguran mantener relaciones independientes permitiendo libertades individuales. Esta separación pacífica contrasta notablemente con otros aspectos mediáticamente cargados de sus carreras profesionales."
+    },
+    {
+        "headline": "Amigos Despiden a Artista Humorista",
+        "content": "Compañeros lamentan profundamente la pérdida de Alejandro Guillermo Romero Casaretto, afectuosamente llamado el 'Gordo Casaretto’. Sus compañeros remembran tiempos llenos de risas y camaraderías laborales. Familiares enfrentan además preocupaciones económicas debido a posibles cambios legislativos que pueden influir directamente en beneficios financieros destinados a dependientes sobrevivientes."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined scope and guidelines for extraction. Any missing data has been marked appropriately according to instruction requirements.

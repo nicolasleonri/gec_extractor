@@ -1,0 +1,132 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/05/ojo_21.txt ---
+
+```json
+[
+    {
+        "headline": "Podrás conseguir algunos triunfos profesionales producido del esfuerzo y la dedicación que le pones",
+        "content": "Trata de escuchar a tu pareja.\njuntos, pero él no quiere. Él sigue siendo más joven que tú y siente que eres un EXPERTO, que no quieres poner más en lo que tienen. A veces parece una relación de tres, porque su madre se mete, opina y ella le da la razón en todo eso. Yo personalmente creo que estás equivocado, y por otro lado me da pena y risa pensar cómo tienes que aguantarte tantos años."
+    },
+    {
+        "headline": "Consejo",
+        "content": "Si te sientes frustrado,\npregúntale qué hace que soporte tanto tiempo?\nPero querido amigo/mujer/amiga\n¿Por qué seguir así cuando puedes encontrar alguien mejor?"
+    },
+    {
+        "headline": "TAURO",
+        "content": "Tenderás que luchar hasta que supere cualquier obstáculo. La paciencia que inviertas será premiada pues los logros serán importantes."
+    },
+    {
+        "headline": "ESCORPIO",
+        "content": "Serás una persona combativa y en acción contra todos esos problemas. ¡Usa toda esa energía!"
+    },
+    {
+        "headline": "GÉMINIS",
+        "content": "Si te enfrentas a personas autoritarias como tus padres, puede haber problemas que tengan consecuencias negativas. Utiliza la diplomacia."
+    },
+    {
+        "headline": "SAGITARIO",
+        "content": "Alguna(s) persona(s) leal(es) y de confianza tal vez se acerquen a ti en tu trabajo. Escucha sus palabras y saca valiosas conclusiones."
+    },
+    {
+        "headline": "CÁNCER",
+        "content": "Si te muestras humilde e intolerante en las relaciones con los demás, estarás utilizando la energía de forma totalmente negativa."
+    },
+    {
+        "headline": "CAPRICORNIO",
+        "content": "Lucharás por conquistar objetivos mayores. Además contarás con mucha energía para asumir responsabilidades en el trabajo."
+    },
+    {
+        "headline": "LIBRA",
+        "content": "Existirá cierta tristeza en las relaciones familiares. Esto tal vez se debe a algunas preocupaciones de una mujer muy exigente. Prueba la paciencia."
+    },
+    {
+        "headline": "ACUARIO",
+        "content": "Tu amabilidad y don de gentes pueden ser utilizadas en las relaciones dentro del terreno profesional. En el amor evita discutir con tu pareja."
+    },
+    {
+        "headline": "VIRGO",
+        "content": "Lo mejor que podrías hacer seria practicar algo de deporte. Después verás resultados positivos en tu trabajo y tu vida sentimental."
+    },
+    {
+        "headline": "PISCIS",
+        "content": "Dedícale atención especial a las relaciones de fuego y al amor, propiciando un día romántico también sensual. No te arrepentirás."
+    },
+    {
+        "headline": NA,
+        "content": "Según Gerard Leleu, en su libro ‘La fidelidad y el género’, el hombre tiene instintos biológicos de monogamia que se desarrollan durante la infancia, con el padre y la madre. Del contrario hay una necesidad irresistible de contacto."
+    },
+    {
+        "headline": NA,
+        "content": "Es importante recordar que cada signo posee características únicas que influyen directamente sobre nuestras decisiones diarias."
+    }
+]
+```
+This extraction focuses solely on extracting coherent pieces of journalism-related texts while excluding non-article elements like astrological advice sections which were not part of any specific article but rather general information provided throughout the document.
+
+--- ERROR ENTRY: data/txt/ojo/2018/05/ojo_21.txt ---
+
+```json
+[
+    {
+        "headline": "Opinan los lectores",
+        "content": "Creo que la castración quirúrgica también debería aplicarse a corrompidos."
+    },
+    {
+        "headline": "El parlamentario Mario Zuñiga pidió...",
+        "content": "Que el premier Carlos Villanueva y el presidente Martin Vizcarra dejaren sin efecto el aumento del Impuesto Selectivo al Consumo (ISC) a combustibles, argumentando que esto afectará principalmente a quienes tienen rentas menores.\nPregunta respondida en Ojo.Pe\n¿Crees que Paúl Guerrón será indultado?"
+    },
+    {
+        "headline": "Congresista Jorge Castillo deja al Frente Amplio",
+        "content": "\"Hay varios inconformes (...) No se descarta más renuncias\", afirmó respecto a la situación dentro del partido después de conocerse la contratación ilegal de una excarcerada relacionada con un compañero."
+    },
+    {
+        "headline": "Ken’ichi Fujimori sigue siendo visto positivamente",
+        "content": "‘Nos seguimos sintiendo unidos’, afirma la legisladora ‘valiente’ Maritza García frente a rumores de divisiones internas.”
+    },
+    {
+        "headline": "Tragedia en playas de Tacna",
+        "content": "Dos pescadores devueltos por el mar resultaron desparecidos tras golpes de grandes olas. Otro pescador trató de rescatarlos y también está desaparecido."
+    },
+    {
+        "headline": "EBRU PRENDIÓ COCINA CASERA",
+        "content": "En Cayma, Arequipa, un individuo quedó carbonizado tras intentar prender su cocina para hacer un aperitivo. Su cuerpo fue encontrado completamente calcinado."
+    },
+    {
+        "headline": "POLÍTICOS PESEADOS EN DISCOTECA",
+        "content": "Agentes especiales de la USIP Jordan Nelson y Yuri Montenegro fueron sorprendidos ebrios en una fiesta privada organizada por jóvenes estudiantes universitarias."
+    },
+    {
+        "headline": "EL VOLCAN KILAUEA HEREA ALGUIEN",
+        "content": "Durante la última erupción, la lava alcanzó a un hombre observándolo desde un balcón, provocándole severas quemaduras en la pierna."
+    },
+    {
+        "headline": "REPÚBLICA DEL CONGO REPORTA CRECIENTE NUMERO DE CASOS DE ÉBOLA",
+        "content": "Actualmente existen 21 confirmados, incluidos cuatro en áreas urbanas según reportes oficiales."
+    },
+    {
+        "headline": "COLOMBIA EXPERIMENTA TERREMOTOS SIN DAÑOS SIGNIFICATIVOS",
+        "content": "Un temblor de 4.8 grados ocurrió en el noreste colombiano sin consecuencias humanas notorias."
+    },
+    {
+        "headline": "SCÁNDALO RELIGIOSO EN EE.UU.",
+        "content": "Abbas Rubí, cura chileno, enfrenta acusaciones legales por comportamiento sexual indebido con una menor."
+    },
+    {
+        "headline": "ASESOR AMERICANO REVELA SUSPENDENCIA TEMPORAL DE ARANCEL ENTRE USA Y CHINA",
+        "content": "Steven Mnuchin confirma acuerdo bilateral temporal suspendiendo tarifas mutuas previstas inicialmente."
+    },
+    {
+        "headline": "LAS ELECCIONES PRESIDENCIALES EN VENEZUELA CRITICADAS",
+        "content": "Denuncia de fraude electoral por falta de regulación adecuada y presión gubernamental evidenciada mediante acciones controvertidas."
+    },
+    {
+        "headline": "VENEZOLANOS PROTESTAN EN LIMA",
+        "content": "Ciudadanos expresan frustración por exclusión del padrón electoral, reclaman derecho a votar fuera de Venezuela."
+    },
+    {
+        "headline": "OPERATIVO CONTRA MOTOCICLETAS UTILIZADAS PARA ASALTOS",
+        "content": "Incremento notable en ventas de motocicletas genera preocupación policiaca por su uso frecuente en actividades criminales."
+    }
+]
+```

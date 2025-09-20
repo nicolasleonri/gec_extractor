@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/04/trome_21.txt ---
+
+```json
+[
+    {
+        "headline": "Interesante reflexión sobre consumo responsable",
+        "content": "\"Ahora que se realizan campañas contra los ‘crímenes del volante’ o ‘choferes asesinos’, debe incidirse también en recordar la frase ‘Si toma, no maneje’. Pero debería invertirse el orden: ‘Si maneja, no tome’. Porque la decisión debe tomarse antes y no después, pues muchos vanos no pueden convencerse de que no deben conducir.\" Rodrigo Malvez A."
+    },
+    {
+        "headline": "Consultas sobre celebración de Pascua",
+        "content": "\"Me parece que hay confusión respecto a la palabra ‘pascuas’: antiguamente aquí se llamaba así a la Navidad, es decir, las festividades por el nacimiento de Jesús. Ahora, medité y cuento que también se llama esa fecha en la cual se recuerda la resurrección de Cristo. Extraño, porque usa la misma palabra para designar acontecimientos opuestos.\" Rodrigo Malvez A."
+    },
+    {
+        "headline": "Observación interesante sobre conducción bajo influencia",
+        "content": "\"Originalmente, Pascua (del griego ‘Pascha’) significa ‘paso’, pero ha sido extendida a otras celebraciones como Navidad y la adoración de los Reyes Magos.\" Emesto Muñoz P."
+    },
+    {
+        "headline": "Tragedia en la Va Expresa",
+        "content": "\"Una nueva tragedia ocurrió debido al choque entre un taxi y un poste en la Va Expresa, en Surquillo. El carro era conducido por Luis Enriquez Quiñonez, hijo de José Luis Enriquez Ramírez, quien muriera junto a su esposa Clara Quiñonez Tapia y sus hijas menores. La familia había pasado tiempo en una reunión familiar. Parece que el propietario del vehículo estaba cansado y le pidió a su hijo mayor que manejara.\""
+    },
+    {
+        "headline": "Capturan supuesta cabeza de peligrosa banda criminal",
+        "content": "\"Giuseppe Sormani Repondi, identificado como cabecilla de la banda ‘Los Charly’s de Breña’, fue capturado en el interior de un autobús de transporte público en Pueblo Libre. Durante el intento de robo a un empresario, logró escapar inicialmente, pero más tarde fue arrestado.”"
+    },
+    {
+        "headline": "Felicitaciones a ganador de premio sorpresa",
+        "content": "\"El número de la suerte resultó favorecedor para José Sanchez, residente de San Juan de Miraflores, quién recibió cinco mil nuevos soles gracias al sorteo realizado por el periódico Trome. Él planea utilizar estos fondos para mejorar la educación de su hijo.”
+    },
+    {
+        "headline": "Denunciado caso de negligencia médica",
+        "content": "\"Una denuncia interpuesta señala que hubo negligencia médica en el tratamiento dado a un paciente afectado gravemente por complicaciones respiratorias. Las acciones legales están siendo consideradas conforme avanzan las investigaciones pertinentes.”
+    },
+    {
+        "headline": "Detalles sobre evento cultural significativo",
+        "content": "\"Desde mañana hasta el próximo viernes, se llevará a cabo el festival artístico-cultural ‘Arte, sabor y cultura’, inaugurándose hoy en Campo de Marte. Participará diversas agrupaciones culturales presentando danzas auténticas y música folklórica peruana.”
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected according to relevance and completeness within the given input data.

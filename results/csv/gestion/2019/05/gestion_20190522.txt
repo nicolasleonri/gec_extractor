@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/05/gestion_22.txt ---
+
+```json
+[
+    {
+        "headline": "REPORTE DE ESTABILIDAD DEL SISTEMA FINANCIERO DE LA SUPERINTENDENCIA",
+        "content": "Una de cada cuatro\nfamilias está altamente\ndeudada con la banca.\nEl grupo de deudores de\nmayores ingresos concentra\nel 40% del saldo de\npréstamos de consumo y más del 70%\nde las hipotecas."
+    },
+    {
+        "headline": "SUPERVISIÓN A GRUPOS FINANCIEROS",
+        "content": "La SBS considera\nque actualmente tiene\nel suficiente poder para\nsupervisar los holding\nfinancieros. Sin embargo,\nestima que, a futuro, si \nstos grupos se diversican\nen términos de jurisdicción\ny de negocios, y así asuman\nun papel más\npreponderante en la gestión, la SBS\npodrá necesitar un fortalecimiento\nde su poder."
+    },
+    {
+        "headline": "DISMINUYE EXPOSICIÓN AL RIESGO CAMBIARIO CREDITICIÓ",
+        "content": "La SBS también destacó\nque el riesgo cambiario\ncreditorio de los deudores ha bajado\nconsistentemente."
+    },
+    {
+        "headline": "PRESENTACIÓN PROYECTO PARA MODIFICAR LEY DE BANCOS",
+        "content": "La Superintendencia de\nBanca, Seguros y AFP\n(SBS) presentará al\nCongreso un proyecto\npara modificar la Ley de Bancos."
+    },
+    {
+        "headline": "CRECIMIENTO LIMITADO DE SERVICIOS FORMALES DE TELEVISIÓN POR SUSCRIPCIÓN",
+        "content": "Ante redes sociales y videos\nen línea, ¿qué pasa con el\nnegocio tradicional? Al año,\nel sector de TV paga en América\nLatina podría perder hasta\n\$15.300 millones debido a la\npiratería online."
+    },
+    {
+        "headline": "TRAIL BY MODELLA GROUP SE EXTIENDERÁ A OTROS LOCALES",
+        "content": "El grupo chileno iniciará\nuna nueva fase centrada\nen prendas casuales además\nde las formales, buscando expansión\nen mercados adicionales."
+    },
+    {
+        "headline": "PLAN DE VA SUBTERRENÉA ENTRE CUARTEL SAN MARTÍN Y COSTA VERDE",
+        "content": "Proponen crear una ruta\nsubterránea conectando\nesta área histórica con zonas costeras,\nal tiempo que buscan mitigar problemas\nviales urbanos."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on distinct topics within the document's structure. Any missing data was filled using "NA," though it wasn't necessary for these entries.

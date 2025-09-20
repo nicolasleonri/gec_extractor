@@ -1,0 +1,162 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/05/correo_14.txt ---
+
+```json
+[
+    {
+        "headline": "Verenciás\nEL PERÚ A PASITOS DE LA OCDE",
+        "content": "En el reciente estudio \"Efectividad de la Inversión Pública a nivel regional y local\", la Contralora identificó que la brecha en infraestructura de salud, educación, transporte y saneamiento es de S/280 mil millones.\nEl 90% de la red vial departamental aún no está pavimentada. En Ayacucho, Apurímac, Ucayali y Huancavelica, el 100% de caminos regionales están sin asfaltar. El 97% de los hogares en Pasco tiene inadecuada calidad de agua, así como altos porcentajes en otras regiones. Solamente el 41% de los colegios públicos poseen servicios básicos. Dentro de los países desarrollados destacan transparencia, acceso a información y responsabilización gubernamental."
+    },
+    {
+        "headline": "Clarinada Ferreira Villegas\nOpini\u00f3n\nBreves",
+        "content": "Las inversiones en telecomunicaciones alcanzan \$1170 millones según datos proporcionados por el OSIPTEL. Telefónica invertirá en cámaras para incrementar la seguridad pública. Además, hubo un aumento notable en visitantes extranjeros comparado con años previos."
+    },
+    {
+        "headline": "Corrección ortográfica\n¿Es correcto 'Paracas'? ¿Mañana?",
+        "content": ""
+    },
+    {
+        "headline": "Marzo registra un 9% más de turistas extranjeros",
+        "content": "De acuerdo con el Ministro de Comercio Exterior y Turismo, hay un incremento considerable en la cantidad de turistas provenientes principalmente de Chile y Estados Unidos."
+    },
+    {
+        "headline": "\nPoderán comenzar tramites conforme nueva regulación",
+        "content": "Afiliados a las AFP con condiciones médicas severas podrán retirar el 50% de sus fondos bajo nuevas disposiciones legales anunciadas por la SBS."
+    },
+    {
+        "headline": "Restauraci\u00f3n de derecho legal",
+        "content": "Recién aprobada legislación permite a afiliados de cualquier edad retirar el 25% de sus fondos para comprar una casa inicial, siempre siguiendo protocolos específicos."
+    },
+    {
+        "headline": "Progreso económico peruano",
+        "content": "Adrian Armas reporta un crecimiento económico cercano al 4.5%. Sectores clave contribuyen positivamente a esta mejora, especialmente minería y construcción."
+    },
+    {
+        "headline": "Detectar dificultades auditivas tempranas",
+        "content": "Existen métodos modernos para diagnosticar pérdida auditiva neonatal, siendo crucial para mitigar impactos adversos en desarrollo infantil."
+    },
+    {
+        "headline": "Videojuegos: Herramientas Educativas Potentes",
+        "content": "Muchos juegos ofrecen oportunidades únicas para el aprendizaje cognitivo y físico, además de incentivar intereses histórico-culturales."
+    },
+    {
+        "headline": "Prevención de hipertensión arterial",
+        "content": "Una campaña informativa será llevada a cabo en varios hospitales buscando sensibilizar sobre la importancia de chequeos periódicos."
+    },
+    {
+        "headline": "Prisión perpetua para corruptos políticos",
+        "content": "Gerardo Viñas enfrentará prisión después de implicarse en fraude relacionado con compras fraudulentas de material didáctico."
+    },
+    {
+        "headline": "Combate a la minera ilegal intensificado",
+        "content": "Deforestación alarmante cerca del rio Malinowki alerta acciones urgentes del SerFor para proteger reservas naturales."
+    },
+    {
+        "headline": "Investigan lavado de dinero a autoridad municipal",
+        "content": "Valentin Fernandez, alcalde de Nuevo Chimbote, es objeto de investigación judicial por supuestos vínculos criminales."
+    },
+    {
+        "headline": "Ataque terrorista deja múltiples heridos",
+        "content": "Hezbollah confirmó la muerte de Mustafa Badreddine, figura prominente del grupo, en explosión perpetrada en Beirut."
+    },
+    {
+        "headline": "Medidas radicales implementadas por Temer",
+        "content": "Brasil experimenta cambios estructurales impulsados por el gobierno provisional liderado por Michel Temer, enfocado en combatir la corrupción sistémica."
+    },
+    {
+        "headline": "Transición política argentina demanda respuesta",
+        "content": "Justicia argentina requirió comparecer a Cristina Fernández por sospechas de mal manejo financiero mientras ocupaba la presidencia."
+    },
+    {
+        "headline": "Incendio amenaza área residencial española",
+        "content": "Gran incendio consume depósito masivo de neumáticos en España, extendiéndose peligrosamente cerca de áreas densamente pobladas."
+    },
+    {
+        "headline": "Violencia extremista golpea comunidad futbolística",
+        "content": "ISIS ataca entrenamiento juvenil del Real Madrid resultando en numerosas fatalidades, evidenciando hostilidad hacia práctica deportiva occidental."
+    },
+    {
+        "headline": "Elecciones Cubanas: Cambio Democrático Posible",
+        "content": "Grupo opositor contempla competir electoralmente en próximas votaciones presidenciales, marcando posibles avances democratizadores en Cuba."
+    }
+]
+```
+This extraction captures key headlines along with their respective contents while adhering strictly to the provided guidelines for structuring data within a JSON format. Articles were identified based on distinct topics separated throughout the document's flow. Any missing information was filled using placeholder texts where necessary according to instruction requirements.
+
+--- ERROR ENTRY: data/txt/correo/2016/05/correo_14.txt ---
+
+```json
+[
+    {
+        "headline": "Correo/Mundo 360 LOCAL SE ENCUENTRA EN BAGDAD",
+        "content": "Estado Islámico mata\na 16 en ataque a peña\nde Real Madrid.\n53 Estado islámico considera al fútbol anti-musulmán."
+    },
+    {
+        "headline": "Donald Trump evita dar detalles fiscales",
+        "content": "Menos 16 muertos.\nProvincia de Saladin.\nPaisa Tres mujeres asesinadas\npor sostener relaciones ilegítimas.\nTres jóvenes fueron asesinadas\ncon disparos en la cara después de\nacusadas de mantener relaciones sentimentales \"ilegítimas\" con varones,\neste tipo de crímenes calificados como \"crímenes de honor\"\nes común en el país y es perpetrado\npor familiares de las víctimas."
+    },
+    {
+        "headline": "Planificación electoral en Cuba",
+        "content": "\"Manuel Cuesta, vocero de la Mesa de Unidad Democrática\",\ngrupo opositor al Gobierno de Raúl Castro, menciona\nsus intenciones de presentarse a las próximas elecciones\npresidenciales de 2017, aún frente a la resistencia del régimen\ncastrista respecto a permitir más pluralidad política."
+    },
+    {
+        "headline": "Condena global al ataque terrorista en Irak",
+        "content": "El club español lamenta profundamente el horrible\nataque (...)\nel presidente español también denunció el incidente\nllamándolo un ataque \"aborrecible\", según reportes de seguridad,"
+    },
+    {
+        "headline": "Chofer polaco previene accidente mortal",
+        "content": "El conductor de un tren cerca de Poznan alertó\na tiempo a los pasajeros de un posible impacto,\nsaltando fuera de su cabina para advertirles personalmente."
+    },
+    {
+        "headline": "Israel cumple años bajo circunstancias únicas",
+        "content": "Este año marca el 68º aniversario de la independencia\nde Israel, siendo admitido como estado soberano\ntras recomendación de la Resolución 181 de la ONU."
+    },
+    {
+        "headline": "Divorcio legalizado de Mario Vargas Llosa",
+        "content": "Después de 50 años de matrimonio, Mario Vargas Llosa\ny Patricia Llosa están ahora formalmente divorciados\nen España aunque deben resolver aspectos legales adicionales aquí."
+    },
+    {
+        "headline": "Temporada lírica presenta 'Carmen'",
+        "content": "Ministerio de Cultura organiza funciones de ópera\nincluyendo la emblemática 'Carmen', protagonizada\npor Nancy Fabiola Herrera."
+    },
+    {
+        "headline": "Musical retorna a escenarios limeños",
+        "content": "Posterior éxito, producción musical retoma narrativa\njuvenil de los años 90 en Plaza Norte."
+    },
+    {
+        "headline": "Actriz mexicana filmará película histórica",
+        "content": "Andrea Rivera está rodando en Europa una nueva adaptación cinematográfica basada en personajes religiosos históricos."
+    },
+    {
+        "headline": "Reflexión moral en nuevo drama teatral",
+        "content": "Obra discute dilemas morales contemporáneos inspirados\nen experiencias históricas significativas."
+    },
+    {
+        "headline": "Selección nacional prepara enfrentamiento clave",
+        "content": "Equipo dirigido por Roberto Mosquera enfocado en superar\nretos locales importantes para mejorar posicionamiento competitivo."
+    },
+    {
+        "headline": "Convocatoria extraordinaria de asociados",
+        "content": "Notificaciones emitidas para reuniones generales relacionadas\ncon decisiones financieras y administrativas dentro de organizaciones específicas."
+    },
+    {
+        "headline": "Subasta pública para arriendo de área militar",
+        "content": "Evento público destinado a licitar espacio territorial perteneciente al ejército."
+    },
+    {
+        "headline": "Anuncio conjunto de escisión corporativa",
+        "content": "Información relevante sobre cambios estructurales internos\ndentro de empresas involucradas en operaciones bancarias."
+    },
+    {
+        "headline": "Barcelona huele a título",
+        "content": "Equipos españoles buscan cerrar temporadas exitosas\nen competición nacional, incluida la Liga Española."
+    },
+    {
+        "headline": "Confirmación de listado de seleccionados",
+        "content": "Lista oficial de jugadores convocados para la próxima fase de la Copa América ratificada."
+    },
+    
+]
+```
+This JSON captures each significant article found within the provided input while adhering strictly to the specified format requirements. Articles were identified based on their headlines and associated contents, ensuring clarity between different topics covered across various sections such as sports, politics, culture, etc.

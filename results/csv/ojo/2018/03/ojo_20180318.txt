@@ -1,0 +1,17 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/03/ojo_18.txt ---
+
+```json
+[
+    {
+        "headline": "VALVERDE REPITA FORMACIÓN ANTE CHELSEA",
+        "content": "Con la misión de obtener un nuevo triunfo para mantenerse cómodo en el primer lugar de La \"Liga\", además de continuar con su impecable récord, Valverde solo tendrá dos ausencias significativas en su plantel contra el Chelsea por la Champions League. Serán Sergio Busquets, debido a una lesión, y Luis Suárez, por acumulación de tarjetas amarillas.\n\nValverde optará probablemente por retomar el sistema táctico 4-3-3 utilizado previamente durante la victoria ante el Chelsea. Iván Rakitić remplazaría a Sergio Busquets mientras que Pablo Armero cubriría la posición dejada vacante por Luis Suárez. Además, está pendiente la participación oficial de Moussa Dembelé, quién podría estar buscando anotar su primer tanto en La Liga."
+    },
+    {
+        "headline": "ANDRÉS INESTABLE POR LESIÓN",
+        "content": "André Iniesta sigue siendo incierta su inclusión en el próximo encuentro tras haber sido afectado por una molestia muscular."
+    },
+]
+```
+This extraction focuses solely on extracting complete articles while excluding irrelevant sections such as ads, listings, etc. It maintains proper structure for headlines and contents according to given specifications.

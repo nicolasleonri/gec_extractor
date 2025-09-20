@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/11/correo_26.txt ---
+
+```json
+[
+    {
+        "headline": "PPK: \"Sino la firman, vayanse\"",
+        "content": "\"Desde Moquegua, el presidente Pedro Pablo Kuzynski resaltó que el país cuenta con reservas probadas de gas en el Lote 58. ‘O sea que hay gas para décadas’. Por ello criticó al consorcio que se negó a comprar las acciones de la brasileña Odebrecht si no se eliminaba la cláusula anticorrupción del contrato del Gasoducto Sur. ‘Si no la firman, váyanse’, sentenció el Mandatario, quien dijo esperar que a inicios de enero haya un reemplazante y ‘se haga el ducto de todas formas’."
+    },
+    {
+        "headline": "VIVIENDA DESTINA EL 73.7% DE SUS GASTOS A SANEARMEINTO",
+        "content": "‘Según segundo día consecutivo el proyecto de ley de Presupuesto General de la Republica del año fiscal 2017, entre el que destacó el sector de Vivienda a cargo de Edmer Trujillo. Durante su exposición, Trujillo sostuvo que del total de su presupuesto, se destinará el 73.7% a saneamiento y el 24% para vivienda.’"
+    },
+    {
+        "headline": "GOBIERNO PERMITIRA CUMPLIMENTO OFERTA DE SERVICIOS BÁSICOS POR PARTE DE PPC",
+        "content": "'Correspondiendo a la redacción editorial, el Gobierno permite el cumplimento de la oferta campaña de PPK de llevar servicios básicos al país.'"
+    },
+    {
+        "headline": "MARCAS\" ROBAN UACAS DE LIMA",
+        "content": "“Marchan contra la Violencia. Hoy, miles de mujeres limeñas marcharán vestidas de negro, en protesta por el alarmante aumento de las muertes de sus congéneres producto de la violencia que sufren por sus parejas, y en demanda por las que han sobrevivido a tentativas de femenicidio en el país.”
+    },
+    {
+        "headline": "EMPRESARIO FUÉ INTERCEPTADO EN LA AVENIDA EL MORRO",
+        "content": "“Marcas” robó S/144 mil a empresario que retira dinero de banco. Una banda de delincuentes asaltó ayer a un empresario que retiró S/144 mil de una agencia del Banco Tal, en el Jockey Plaza, en Surco. La víctima retiró el dinero para depositarlo en el Banco de la Nación, pero en esta agencia le informaron que no podía realizar más transacciones de dinero, por lo que se dirigió a Prosegur. En el trayecto, en la avenida El Morro, en Surco, fue interceptado por tres sujetos encapuchados."
+    },
+    {
+        "headline": "EXTRANIDADOS UN TOTAL DE 125 MAESTROS",
+        "content": "Premian buenas prácticas de los docentes. Un total de 125 maestros de 18 regiones del país fueron reconocidos y premiados ayer por el Ministerio de Educación tras ganar el IV Concurso Nacional de Buenas Prácticas Docentes."
+    },
+    {
+        "headline": "LUCHA CONTINUARA ANTES QUE LOS INCENDIOS FORESTALES",
+        "content": "Actividad constante de Bomberos Necesitas Más Equipamiento Actividad continua en Emergencias, Empero Ci Las Últimas Semanas Desempeñaron Un Rol Protagonista Al Estar Presentes – Sobre Todo– En Control Incendios, Tan Urbana Como Ahora Rural."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extraction. Articles were selected according to criteria such as having substantial textual information relevant to journalism standards outlined in the task description. Other sections like ads, subscriptions, and non-journalistic elements have been excluded following these guidelines.

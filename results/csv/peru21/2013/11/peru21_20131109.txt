@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/11/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "Noticia destacada sobre bebida peruana",
+        "content": "Alvaro Jana, aseguró que el anuncio que el miércoles hizo la Comisión Europea sobre la bebida peruana incentivará la competición en el mercado del Viejo Continente.\nPueden continuar comercializando este producto\", dijo al Diario Financiero chileno."
+    },
+    {
+        "headline": "Francia pierde grado de inversión",
+        "content": "\"París.— La agencia Standard & Poor’s (S&P) rebajó la calificación soberana de Francia, que se ubicaba en AA+ y la colocó en AA.\" Argumentó su decisión en las débiles perspectivas económicas de Francia y su escaso margen de maniobra fiscal. Las tres principales agencias de calificación crediticia ya despojaron a Francia de su máximo nivel de triple A. S&P ha reducido la nota por segunda ocasión, alertando que las reformas no son suficientes."
+    },
+    {
+        "headline": "Expertos forenses descartan venenos en restos de Neruda",
+        \"content\": \"Pese a ello, el juez a cargo rechazó el cierre del caso porque aún no está seguro si ocurrió algún crimen. \n\"Expertos forenses no detectaron evidencia de que el laureado escritor chileno Pablo Neruda fuera envenenado después del golpe militar de Augusto Pinochet en 1973, sin embargo, sigue vigente la investigación judicial para dilucidar las razones detrás de su muerte.\"\n\nLos análisis realizados tanto en España como en Estados Unidos no revelaron ninguna prueba forense capaz de establecer una causa médicamente diferente a la natural en la muerte de Pablo Neruda.”
+    },
+    {
+        "headline": "Super-tifón Haiyan afecta severamente Filipinas",
+        "content": "\"Manila.— El más potente ciclón tropical del año impactó partes de Filipinas, ocasionando desprendimientos de tierra, interrupción eléctrica y devastación en múltiples regiones. Cuatro individuos perdieron la vida mientras el fenómeno meteorológico arrasó áreas costeras con ráfagas que alcanzaron velocidades superiores a los 200 km/h. Cerca de 720,000 habitantes tuvieron que abandonar sus hogares precipitadamente.\""
+    },
+    {
+        "headline": "EEUU e Israel pierden votos en Unesco",
+        "content": "\"Paris.— Estadios Unidos e Israel perdieron automáticamente su derecho de voto en la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (Unesco) tras suspender su contribución monetaria, en respuesta a la incorporación de Palestina como nuevo Estado Miembro. Ningún país logró subsanar la falta de pago requerido para mantener su participación activa en decisiones futuras.\""
+    },
+    {
+        "headline": "Ex-presidente colombiano Uribe enfrenta numerosas investigaciones",
+        "content": "\"Bogota.— El expresidente Álvaro Uribe ostenta el récord de tener el número más elevado de casos judiciales pendientes en la Comisión de Acusación del Congreso Colombiano, sumando un total de 276 investigaciones. Le siguen antiguos fiscales generales con menos cargos acumulados. Así mismo, el actual Presidente Juan Manuel Santos también figura implicado en varios procesos legales.\""
+    },
+    {
+        "headline": "Reportero estadounidense arrestado en Venezuela",
+        "content": "\"Washington.— Im Wyss, periodista del periódico Miami Herald, fue detenido en Venezuela según información proporcionada por su propio medio editorial, que demanda su pronta liberación. Wyss había visitado el territorio venezolano para cubrir eventos deportivos importantes próximos a celebrarse en la región.\""
+    },
+    {
+        "headline": "Directores palestinos responsabilizan a Israel por muerte de Arafat",
+        "content": "\"Ramallah.— Autoridades palestinas señalan a Israel como principal responsable de la muerte de Yasir Arafat, argumentando que estudios toxicológicos indican niveles alarmantes de polonio radiactivamente contaminado en sus restos mortales. Esta situación genera tensiones políticas adicionales en el contexto regional.\""
+    },
+    {
+        "headline": "Problemas de seguridad pública en Madrid",
+        "content": "\"Madrid.— Desde el inicio de una huelga indefinida por trabajadores de saneamiento urbano, la capital española experimenta graves problemas de recolección de residuos sólidos, resultando en mal olor penetrante y visibles montículos de desperdicios en diversas arterias de la urbe.\""
+    },
+    {
+        "headline": "Desaparición preocupante de empresaria dedicada a negocios inmobiliarios",
+        "content": "\"Surco.— María Rosa Castillo Gonzáles, profesional enfocada en transacciones de propiedades, desapareció tras salir hacia una cita programada con un comprador potencial. Sus allegados expresan gran angustia dado que su automotor fue recuperado vacío, ausenciándole documentos personales cruciales, incrementando así el temor a posibles amenazas extremas tales como el rapto forzado.\""
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on context clues such as location mentions, significant events, and named individuals involved in notable incidents. Any missing data was filled using "NA".

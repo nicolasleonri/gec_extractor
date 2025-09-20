@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/04/gestion_05.txt ---
+
+```json
+[
+    {
+        "headline": "ESTUDIO DE LIMITACIÓN",
+        "content": "Según la Encuesta de Talentos para Innovación, de LMini, conocida como la cuarta revolución industrial, la transformación tecnológica ya es un reto impostergable en las empresas. Solo el 19% de las firmas aseguran contar con suficiente talento humano preparado para enfrentar los impactos de la transformación."
+    },
+    {
+        "headline": "ARELLANO BUSCARÁ EXPANDIRSE A CHILE Y ECUALDOR",
+        "content": "\"La consultora Arellano no sólo busca crecer en el mercado peruano sino también en el exterior,\" indicó Rolando Arellano Monroy, quien agregó que evalúan abrir filiales en Chile y volver a establecerse en Ecuador dependiendo de cómo avance la demanda."
+    },
+    {
+        "headline": "CLUB DEPORTIVO RIPLEY APUESTA POR MARKETPLACE PARA REFORZAR SU STRATEGIA ONLINE",
+        "content": "Durante la presentación del evento CyberWow 2019, el Gerente de eCommerce de Ripley Perú, Giancarlo Casaretto, anunció el lanzamiento de Mercado Ripley, una plataforma destinada a facilitar la comercialización de más de 1,000 empresarios y marcas locales mediante su página web."
+    },
+    {
+        "headline": "MACKENZIE BEZOS SE CONVERTIRA EN CUARTA MUJER MAS RICA TRAS DIVORSIO",
+        "content": "Tras el divorcio de Jeff Bezos, Mackenzie Bezos recibirá una participación del 4% en Amazon, valuándose aproximadamente en USD $36,000 millones, posicionándola detrás de figuras millonarias globales según datos de Bloomberg."
+    },
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any non-article sections such as financial data were excluded according to the scope defined.

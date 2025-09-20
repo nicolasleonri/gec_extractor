@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/09/gestion_03.txt ---
+
+```json
+[
+    {
+        "headline": "Referéndum de Independencia\nDestino de Reino Unido en duda tras avanzar el ‘\nsí’ en Escocia",
+        "content": "(Reuters) Un sondeo que mostró el mayor apoyo a la independencia de Escocia hasta la fecha puso en duda el destino del Reino Unido.\nLa encuesta de YouGov reveló que la ventaja de los defensores de la unión había caído a seis puntos porcentuales desde los 22 de hace un mes,\nasí mientras que el apoyo a la independencia subió hasta el 47 % en agosto para el referéndum del 18 de septiembre.\nUn voto a favor de la escisión se vería seguido de negociaciones con Londres sobre qué hacer con la libra esterlina, la deuda nacional, el petróleo del Mar del Norte y el futuro de la base submarina nuclear en Escocia antes de la independencia, prevista para el 24 de marzo de 2016."
+    },
+    {
+        "headline": "Entrevista Marco Súarez, experto en marketing\n‘Una semana del consumidor es infinita para las marcas ’",
+        "content": "El consultor fue gerente de marketing de Supermercados Wong y aprendió a conocer al cliente a partir de los momentos y roles que le toca vivir.\nMarco Súárez ofrece una ponencia titulada ‘Una semana en la vida del consumidor’. El experto explica que incluso el nivel socioeconómico pierde eficacia frente al momento específico que vive un cliente.\nPregunta ¿Cómo justificar esto?\nPor ejemplo, existe algo llamado brick and click. Supón que usted ve un producto en el supermercado, duda si comprarlo y consulta información sobre éste en el smartphone. Si usted no encuentra nada relevante, eso significa que debe mejorar su presencia digital.\nExplicación: Visión. Según el experto, en EE.UU. existe una marca de ropa interior masculina que automáticamente envía productos a sus clientes cada seis meses y luego les cobra de la tarjeta de crédito. Acaba con el problema de que el hombre nunca compra ropa interior. Esto es permission marketing, obtener permiso del cliente para entrar en su vida, porque lo que ofreces lo justifica.\n¿Qué prueba? \nQue no hay una unidad de canales. Deben integrarse todos ellos para brindar una buena experiencia de compra al cliente. Determinar cuándo satisfaces una necesidad en un momento preciso es crucial."
+    },
+    {
+        "headline": "TENDENCIA Estrategia y subida de las agencias independientes\n"No pertenece grandes grupos...",
+        "content": "\"Esta es para Gonzalo Figari, director de Volver D6, la mejor descripción de una agencia independiente. Históricamente, siempre fueron las transnacionales quienes dominaron el panorama calificado, pero ahora más empresas jóvenes están desarrollando modelos alternativos.\" Expresa Figari.\n\"La gran ventaja de la agencia independiente es poder hablar directamente con el propietario sin intermediarios\", añadió el experimentado profesional cuyo establecimiento lleva tres años operando en Lima. \"Creemos que tanto las transnacionales como las independientes deben coexistir para mantener saludable el sector,\" concluyó."
+    },
+    {
+        "headline": "MS All de Las Canchas\nLas Ligas Europeas Desembolsan Más de USD $1300 Millones en Transferencias",
+        "content": "Los clubes españoles gastaron aproximadamente USD $700 millones para fortalecer sus equipos esta temporada. Destaca el caso del Real Madrid, que invirtió significativamente en jugadores como Ángel di María, Luis Suárez, y recientemente James Rodríguez, junto a figuras como Cristiano Ronaldo, Karim Benzema y Gareth Bale, sumando casi USD $400 millones en nuevas incorporaciones. Además, el impacto comercial de estos deportistas va mucho más allá de las canchas, generando importantes ingresos mediante acuerdos de mercadotecnia."
+    }
+]
+```
+This extraction captures four distinct pieces of journalism based on their headlines and contents while adhering strictly to the provided guidelines for processing and structuring data extracted via OCR from a Spanish language source.

@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/10/correo_10.txt ---
+
+```json
+[
+    {
+        "headline": "Recta final",
+        "content": "Solo queda un mes\nPara conocer al\Prximo presidente de\nEstados Unidos.\nClinton y Trump siguen liderando encuestas."
+    },
+    {
+        "headline": "Corrección después del escándalo",
+        "content": "\"Cuando eres una estrella,\nellos te dejan hacerlo, Uno\npuede hacer lo que quiera\n(...)\". Así justifica Trump luego de revelarse un viejo vídeo donde menospreciaba a las mujeres usando lenguaje vulgar. \"Uno puede hacer lo que quiera (...)\", argumentó, reconociendo posteriormente haber cometido errores. Durante el último debate electoral, ambas partes confrontaron estos incidentes directamente, siendo Clinton quien recordó públicamente cómo había observado a Trump comportarse irresponsablemente hacia las mujeres anteriormente."
+    },
+    {
+        "headline": "Impacto del Huracán Matthew",
+        "content": "Ya se alejó de las zonas costeras de Estados Unidos, pero unas 800 mil casas se quedaron sin electricidad. El huracán Matthew causó devastación significativa, especialmente en Florida, Georgia, y Carolinas, resultando en múltiples víctimas mortales y severas afectaciones estructurales. Autoridades reportaron más de 800 muertos en total, principalmente en Haití, país gravemente impactado también por el fenómeno climático."
+    },
+    {
+        "headline": "Reacciones Internacionales",
+        "content": "Tras recibir el Premio Nobel de la Paz, el presidente de Colombia, Juan Manuel Santos, anunció que destinará el dinero correspondiente a ayudar a las víctimas de conflictos bélicos dentro del país. Además, diversas acciones políticas y culturales fueron noticia internacionalmente, tales como la nominación papal de nuevos cardenales provenientes de varios continentes, así como comentarios provocativos emitidos por líderes mundiales como Fidel Castro."
+    },
+    {
+        "headline": "Premier Latinoamérica en Hollywood",
+        "content": "Thirteen Latin American countries compete for recognition at next year's Oscars under 'Best Foreign Language Film'. Among these films, notable entries include 'Videofilia', which explores modern romance through digital communication, directed by Juan Daniel F. Molero. Other contenders reflect diverse narratives ranging from political struggles to intimate human stories across various cultural landscapes within the region."
+    },
+    {
+        "headline": "Conmemoración Musical",
+        "content": "Christian Cueva anticipa emocionado el próximo clásico sudamericano contra Chile, considerándose una oportunidad única para redimirse tras una suspensión en partidos anteriores. Adicionalmente, artistas locales preparan eventos musicales importantes, buscando conectar aún más con sus audiencias mediante presentaciones memorables."
+    },
+    {
+        "headline": "Triunfos Futuros",
+        "content": "España obtuvo una crucial victoria sobre Albania gracias a los goles de Diego Costa y Nolito, consolidando su posición como líder indiscutible en su respectivo grupo eliminatorio rumbo a Rusia 2018. Esto marca un hito relevante en su búsqueda continua por alcanzar nuevamente el éxito mundial en competiciones futuras."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes.

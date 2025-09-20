@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/11/gestion_19.txt ---
+
+```json
+[
+    {
+        "headline": "Informe del INEI para Lima Metropolitana",
+        "content": "\"Empieza a caer empleo\npara los trabajadores\nque son independientes.\nSolo 10% de los cuatro millones de independientes son formales.\" Hay 52,800 que trabajan más de 50 horas a la semana. \"El ingreso promedio mensual en últimos tres meses repunta más\ntanto entre los que tienen educación técnica\"."
+    },
+    {
+        "headline": "Revela Dionisio Romero Paolleli",
+        "content": "\"Credicorp dio US\$ 3.65 millons.\na campaña del 2011 de Keiko\n'Dinero fue dado en efectivo ante temor al chavismo. También se dio en el 2016 a Keiko y a PPK.'\"\nRoque Benavides señala que Buenaven no realizó aporte a la candidata de Fuerza Popular."
+    },
+    {
+        "headline": "Gracias a gestión económica, MinAgri podría operar desde 2021",
+        "content": "MinJusticia podria Operar Después Del Análisis Detallado Que Realizo El Sector Agro Exportador Con Los Cambios Introducidos Por El Congreso."
+    },
+    {
+        "headline": "Destaca Martes 19 de noviembre del 2019",
+        "content": "\"MTPE Dice Que ‘‘DE MOMENTO’’ NO HABRÁ DESCUENTO A GRATIFICACIONES'\nGobierno Emitirá En Próximos Dias Un Decreto Urgente Para Fortalecer Essalud. \nLa Ministra De Economía Y Finanzas, María Antonieta Alva, Annunció Que La Propuesta Para Elevar La Remuneración Mínima Dependerá De La Metodología Que Apruebe El Gobierno."
+    },
+    {
+        "headline": "Proyección de la Infofocus por trimestres se mueve a la baja",
+        "content": "Crece Menor Al Esperado Hasta Mitad Del 2020. Según El Focus Economics Consensus Forecast – LatinoFocus, Si Bien La Economía Se Recuperará En El 2020, Tras Su Debilitamiento De Este Año, Hay Que Prestar Atención Al Factor Político."
+    },
+    {
+        "headline": "Negocio Electrodomiciliarios",
+        "content": "Marcar Propia Myray Ya Representa 10% De Las Ventas De Hiraoka. Empresa Apuesta Que Marca Propia Tiene Lineas Completas De Producto. Nuevas Tiendas Y Eventual Ingreso A Províncias Estará A Cargo Ya De La Tercera Generación."
+    },
+    {
+        "headline": "Radard Empresarials",
+        "content": "Comunal Incursiona Mercado Mexicano. Peruanos Gastaran Us $10 Millones Campañas Negras. Española Gil Come Abrir Nuevos Mercados Desde Peru. Mas Sumar 406 Locales Hasta Finalización Año. Moltilia Lanza Marca Zeuss."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal criteria outlined in the task description. Articles were identified based on distinct topics and structured accordingly within each entry's `headline` and `content`. Any extraneous information such as ads or unrelated sections was excluded according to guidelines.

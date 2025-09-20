@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/08/peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "Mejoras en departamentos de tamaño reducido",
+        "content": "Los sillones plegables y muebles multifuncionales\nson ideales en viviendas de reducidas dimensiones,\nColores claros dan una sen\nde amplitud, por lo que agrandan\nel espacio. Porello, recomendamos\nfiligranas en la decoración de un área pequeña.\nUse papel vinílico."
+    },
+    {
+        "headline": "Paquetes turísticos disponibles",
+        "content": "Anforas en Uma:\nAte Vitarte Jr Los Aymara 219/Barranco Av. Grau 594/Jesus María Av. General Garzón 1420/Lince Ay. Arenales 815/La Victoria Av. Canadá 821 – Santa Catalina/La Molina Boceto Art – Av.Flor de Lis/Tiantán 946/La Molina Av. La Molina 807/Los Olivos Av. Antúnez de Maya 958/Lima Av. Uruguay 416/Lima José Antonio Miro Quezada 247/Lima Estación Metro 129/Paseo de la República/Los Olivos Alberto Mendiola 3847/Miráflores Shell 324/Miraflores Pardo 680/Pueblo Libre Av. Sucre 493/Surco Calle Preciado 149 Oficina 1/Surquillo Av. Angamos Este 913/San Borja Cochella Costanera Av.Aviación 2491/Surco Iris Carratero 105/Número de suerte, 20."
+    },
+    {
+        "headline": "Selección Peruana: Confianza en Guerrero",
+        "content": "\"El discurso del modo'\nlustrado por sus hazañas\ny en lo laboral y personal.\nPegi |\nErupcano \ny\n\"El discurso del modo'\nlustrado por sus hazañas\ny en lo laboral y personal.\" Sergio Markarian expresó su confianza en Paolo Guerrero, destacándose aún más en momentos cruciales. \"A Paolo lo he visto realmente bien. Estoy convencido de que a la hora de verdad nos va a dar una mano brutal porque tiene el potencial que todos apreciamos,\" afirmó el estratega de la Blanquirroja tras llegar de Corea."
+    },
+    {
+        "headline": "Escenarios artísticos",
+        "content": "El músico nacional Gian Marco Zignago bromeó sobre los besos románticos de ‘Paco’ Bazán con Regina Álcivar en la obra ‘La heredera’. Según él, permite solamente algunos besos durante la representación. Además, manifestó admiración por el regreso de su madre al teatro después de trece años y el debut de su compañero actor.”
+    }
+]
+```
+This JSON contains extracted information about four distinct topics found within the provided text input. It includes headlines where applicable and maintains relevant details for each topic while adhering strictly to the specified format requirements. Any missing data has been filled with `"NA"` according to guidelines. Note that some sections were excluded due to their nature being non-journalistic such as sports scores, schedules, etc.

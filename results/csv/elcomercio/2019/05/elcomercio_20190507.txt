@@ -1,0 +1,76 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/05/elcomercio_07.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista\nJUAN SHEPUT MOORE\nPortavoz de Concertación Parlamentaria",
+        "content": "Jos Carlos\nRequena\nEditor central de \nP\u00faltica\n\nEn su incansable vocaci\u00f3n por la verborrea err\u00eddica, el presidente Mart\u00fan Vizcarra acaba de escribir un nuevo episodio. En su reciente viaje a Huanta, el domingo 5 de mayo, el mandatario dijo aspirar a que la educaci\u00f3n no se politicen ni que \"se use la educaci\u00f3n como pretexto para atacar al gobierno\", ya que \"se estuviese usando a la educaci\u00f3n con objetivos pol\u00edticos\". Agreg\u00f3, enf\u00e1ticamente: \"Eso no lo vamos a aceptar\".\n\nLa frase gener\u00f3 muchos titulares. Pero es un anhelo vac\u00edo y hasta riesgoso, que poco aporta a la desafecci\u00f3n pol\u00edtica que carateriza al Per\u00fa contemporaneo. Vizcarra parece oponerse a que la Ministra de Educaci\u00f3n, Flor Pablo, sea interpelada por el Congreso, un mecanismo propio de los rgimen democráticos. Por lo demás, lo dicho por Vizcarra (evitar politizar un asunto político) va en contra de centros los debates en temas que son realmente relevante a la ciudadania."
+    },
+    {
+        "headline": "\nLEA MAÑANA EN POLÍTICA A MARIA ALEJANDRA CAMPOS\n",
+        "content": "El Comercio no necesariamente coincidi con las opinione de los articulistas que las firme, aunque siempre las respecte."
+    },
+    {
+        "headline": "\"NO DEBE HABER NI UN TIPO DE EXCLUSIONES PARA LA MES DIRECTIVA\"\n",
+        "content": "El congresista tambi\u00e9n afirmo que la lideresa de Fuerza Popular, Keiko Fujimori, \"no es una presa política, pero sí sufre\" una cárcel arbitraria.\n\nSEBASTIÁN ORTEGA MARTINEZ\n\nJuan Sheput, el portavoz de la bancada Concertación Parlamentaria, dejó abierta la puerta de una eventuales posibilidad candidatura a la Mesa Directiva del Congreso. Sin embargo, precisió que antes se debe decidir una agenda. "
+    },
+    {
+        "headline": "-9- SALAVERRY SE OPONE A QUE EL PJ DECIDA SOBRE LA INMUNIDAD\n",
+        "content": "Renzo Salazar\n\nTitular del Parlamento criticó la proposición del Ejecutivo y aseguro que el Poder Judicial no pueda convertirse en juez y parte.\nmartín Calderón\n\nEl Presidente del Congreso, Daniel Salaverry señalo ayer que se opone a que el levantamiento de la inmunidad parlamentaria sea competencia de la Corte Suprema, como propuso el Poder Ejecutivo. \n\nSalaverry consideró que la proposición convertirá en juez y parte al Poder Judicial. Por ello, señaló que el Parlamento debe mantener esa prerrogativa. \n\n"No puede ser juez y parte. Si finalmente el Poder Judicial es quién va a procesar y emitir una sentencia favorable o no, está mal que también sea quien resuelve si amerite o no levantar la inmunidad. Creo que eso es responsabilidad del mismo Congreso.", dijo. Explicó además que no cree posible modificar o eliminar la inmunidad parlamentaria 'dados la actual composicion del Congreso'.\n\nAdemás, Salaverry reconoció que hay un aprovechamiento de la inmunidad parlamentaria por algunos congresistas que han estado procesados o sentenciados y que \"no se han puesto a derecho\", refiriéndose a los casos de Benicio Ros y Edwin Donayre, ambos de Alianza para el Progreso (AP)"
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by substantial textual bodies related to political discourse within Peru's legislative context. Other non-article elements like ads, repetitive sections, and unrelated information have been excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/05/elcomercio_07.txt ---
+
+```json
+[
+    {
+        "headline": "Independencia y Veracidad",
+        "content": "EDITAN LIBRO CON LOS VERSOS MANO DE RODOLFO HINOSTROSOCHECA EN MEMORIA DE SU PADRE\n\nLIMA, MARTES 7 DE MAYO DEL 2019 \n\n\"EL PERUESE APARENTEMENTE ACOSTUMBRADO YA RESOLVER DISPUTAS DE TODO TIPO MEDIANTE LA 'PROTESTA SOCIAL', QUE MUCHAS OCASIONES NO ES MAS QUE UN GRUPO DE PERSONAS CON INTERÉS PARTICULAR AMENAZANDO CON VIOLENCIA SI LAS DEMANDAS NO SON ATENDIDAS.\" EDITORIAL EL COMERCIO.\n\nLA REAL ACADEMIA ESPAÑOLA DEFINE EXTORSIÓN COMO \"LA PRESIÓN QUE SE EJERECE SOBRE ALGUIEN MEDIANTE AMENAZAS PARA OBLIGARLO A ACTUAR DE FORMA DETERMINADA Y AS LOGRAR DINERO OTRO BENEFICIO\", SIN EMBAJO ESTÁ CLARA LA INTENCION SEMNTICA."
+    },
+    {
+        "headline": "Tensa sesión en el Congreso",
+        "content": "\"ALTERCADOS MINISTRO DEL INTERIOR CALIFICA DE ATROPELLAMIENTO CRITICA DURO EL INQUETARIO POLICIAL PARTICIPA EN OPERACIÓN CASA DE ALAN GARÇA. DEL CASTILLO NIETA LES HA FALLADO RESPETO\"\n\nCORONEL HARVEY COLCHADO JEFE DIVISIÓN ALTURA COMPLEJIDAD RECHAZÓ LLAMA «POLÍTICA» POR LO MENOS MINISTRO CARLOS MORÓN MOSTR FASTIDIÓ DEL CASTILLO LEVANT SESIÓN."
+    },
+    {
+        "headline": "Congresista Vacado",
+        "content": "OFRECEN S/100.000 POR CAPTURA EDWIN DONAYRE PROFUGO EQUIPOS POLICE BUSCAN ÉL CUMPLE CINCO ANOS CÁRCEL CASO GASOLINEZO."
+    },
+    {
+        "headline": "Salaverry se opone a que la Corte Suprema Decida sobre Inmunidad Parlamentaria",
+        "content": "ARGUMENTO TITULAR CONGRESO INDICA RESPONSABLE LEGISLATIVA OPINA PODER JUDICIARIO NO PUEDA SER «JEFE Y PARTE». CONTROVERSIA RUEDAS MIRAFLORIAS."
+    },
+    {
+        "headline": "«El Perú Parece Haberse Habitualizado Ya Resolver Disputas Mediante Protesta Social\"",
+        "content": "EDITORIAL EL COMERCIO DESTACA POPULARIZACION DE LA PROTESTA SOCIAL COMO MEANS DE PRESSIÓN PARA OBTERNER BENEFACTORIOS RESULTADOS DESAFECTIVOS CIERTOS DERECHO DE OTROS CIUDAADANO. PROBLEMA SURGE CUANDO DERECHO PROTESTA MATERIALIZE TRAVEZ ATAQUE DERECHOS OTROS CIUDADANO-COMO TOMA VIA PBLLICA LOCAL AJENO-. AUTORIDADES INCAPACES QUEDARSE BRAZOS CRUCES TEMOR LUCHAR CAUSA POPULARES-PARECIDERA.-"
+    },
+    {
+        "headline": "Ilustración: Giovanni Tazzá",
+        "content": "ANOCHA INCIDENTE CALLAO CATASTROPHIQUE COMPANIES BOMBARDIER COMBATIREN FIAMEGA FRECUENTE SOLDADES MARINES DISTINGUIDOS PUERTO ENTRES ACCIDENTALES OCCURRENCES ROCCA MILLER ABUNDANTE MATERIAL INFAMILIBLE. EDIFICIO TOTALMENTE DESTRUCCIÓN TAMBIÉN AFECTADO GIRALDO ZAVALA FARMA EUROPA. DANOS SIGNIFICATIVOS REPUBLICANA VISITA CHALACA ENCOUNTER OFICIALIDADES."
+    },
+    {
+        "headline": "Los números del Liverpool-Barcelona",
+        "content": "ESTE DERIVADO NATURAL MARCAR TENEMOS LENGUA GENERALL SENTIDO ADJECTIVAL QUIEN MARCA SUBSTANTIVE PERSONA QUE CONTROL MONEDAS METALES PESOS MEDIDA-DICCIONARIO REAL ESPAÑOLA 2014-, PERO EN CASTELLANO PERÚ PAISES LATINAMERICANOS MARKER EQUIVALENTO ROTULATOR INSTRUMENTO ESCRIPIR DIBUXAR-MISM DICICONARIO- COGNOME PLUMB-TITULO WEB EL COMERCIO: \"APRENDEM DECORA TU TASAJA PORCELLANA CON MARCADOR"."
+    },
+    {
+        "headline": "¿Qué pasa?",
+        "content": "TRAS FINALIZAR HORAS SESIÓN DEFENSIVA MINISTERIO INTERIOR CARLOS MORENO EXPRESÓ LAMENTABLE ESPECTÁCULO INTERROGANTE AGENTS DIVISION HIGH COMPLEXITY INVOLUCRADOS PROCEDIMIENTO DOMICILIARIO EX PRESIDENTE ALAN GARÇA-SUICIDE 17 APRIL DETENER. STUPIFY BEHAVIOR CRITICALIZAR POLICÍA PASSAR RESPONSABLE EVENTO VOLUNTARY ACTION DECLARED BY MR.GARCÌA."
+    },
+    {
+        "headline": "Oferta de recompensa de S/100 mil por Edwin Donayre",
+        "content": "GOVERNMENT INCLUDED RETRACTED MEMBER ALLIANZA FOR THE PROGRESS PARTY EDWIN DONAYRE LIST SEARCH PROGRAM MINISTRY INTERNAL OFFERING SUM MONEY INFORMATION ALLOW FIND LOCATION SECURE CAPTURE. POSITION MINISTER STATE THREE TEAMS NATIONAL POLICY DEVOTE PURSUITS DONAYRE-LIMA PROVINCES REPORTS INTELLECTUAL POINT OUT CAPITAL CITY."
+    },
+    {
+        "headline": "Acusación Contra Humala y Heredia Presentará Hoy",
+        "content": "THE CASE AGAINST FORMER HEAD OF STATE OLINTA HUMALA HIS WIFE NAVIDINE HEREDIA WILL BE FILED TODAY SPECIAL ATTORNEY GERMAN JULIEZATO CHE ON ACCOUNT ORGANIZATION CRIME COMMITTED TO FUNDS TRANSFERRED BRASILEIRO COMPANY ODUBRETCH CAMPAIGN YEAR TWO THOUSAND ELEVEN FOLLOW CONFESSATIONS EXECUTIVES BARATA ODUBRETCH CONTRIBUTIONS NON JUSTIFIED CAMPAIGN YEAR TWOO SIXTH MILTON HUMAN."
+    },
+    {
+        "headline": "Etiqueta Despolitización Política",
+        "content": "REQUEST POLITICS FUNCTION REPRESENTATIVE BODY ELECTED PEOPLE'S VOICES IS CONDITIONED ROLE EXPECTED FROM ELECTED OFFICIALS LIKE SENATORS IF THEY'RE TECHNICALLY SKILLED TEMPORARY ADMINISTRATOR FUNCTIONS?"
+    }
+]
+```

@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2019/08/elcomercio_07.txt ---
+
+```json
+[
+    {
+        "headline": "\"Dar todo para que el país se sienta orgulloso\", aconseja Carl Lewis a los atletas",
+        "content": "NA"
+    },
+    {
+        "headline": "\"Hubo una vez en Hollywood\" la nueva película de Quentin Tarantino llega al Festival de Cine de Lima",
+        "content": "NA"
+    },
+    {
+        "headline": "Cuándo era Alcadesa de Lima\nBarata dice que se le dio US\$500 mil a Villaran",
+        "content": "Al descubierto. Exrepresentante de firma brasileña devela nombres de políticos y periodistas detrás de los 'codinomes' que identificaban a los destinatarios de pagos ilegítimos.\n\nMartin Bustamante\n\nSusana Villaran\n\nHoracio Canepa\n\nEl exejecutivo de Odebrecht declaró que la constructora entregó US$3 millones para esa campaña a José Miguel Castro, entonces gerente municipal."
+    },
+    {
+        "headline": "CSAR VILLANUEVA\nCuando Era Alcalde(a)",
+        "content": "Barata declara que Villanueva recibió dos pagos de US$30 mil por la obra (US$60 mil en total), bajo el 'codinome' 'Currículum Vitae'. Según las mismas fuentes de El Comercio, los pagos a Villanueva fueron por órdenes de Eleuberto Martorelli, ejecutivo de la empresa brasileña en el Perú y exjefe de la firma en Colombia entre el 2012 y 2016."
+    },
+    {
+        "headline": "EL ESTADO NO DEBE \nCONSENTIR QUE EN UNA \nPERSPECTIVA SOCIAL SE VIOLEN LOS DERECHOS DE QUIENES DECIDEN LIBREMENTE NO PARTICIPAR EN LA MISMA.",
+        "content": "Las imágenes que comenzaron a llegar el lunes desde Arequipa –que despertó con un paro general convocado por un sector opositor al proyecto Ta María– eran de espanto helado. Destilan la sensación de que el estado de derecho estaba completamente suspendido en la ciudad: suspendido, por supuesto, para los vandalos que con total impunidad cargaban contra la propiedad privada a pedradas, y también suspendido para todos aquéllos residentes que haciendo ejercicios de su libertad decide no hacer parte de las protestas pero que no pueden salir de sus hogares debido a que los caminos están cerrados o simplemente porque no querían exponerse a recibir heridas físicas. Es decir, que han quedado reducido prácticamente a meros espectadores sin poder intervenir ante tal situación."
+    },
+    {
+        "headline": "CASO ODEBRECHT\nCAUSA ARDUAMENTE REVELACIONES SOBRE CORRUPTORES POLÍTICOS",
+        "content": "El Secretario General de Solidaridad Nacional también ha sido involucrado en el Caso OAS. Además, según fuentes de este medio, Jorge Barata confirmó que la Constructora Odebretch realizó un pago indebido a Susana Villaran por $500,000 relacionado con las nuevas vías de Lima en el año 2014, periodo en el cual Villaran fungía como alcaldesa de Lima."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on distinct headings followed by relevant textual information. Unnecessary elements such as ads, repetitive sections, and non-article related texts have been excluded according to guidelines.

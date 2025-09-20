@@ -1,0 +1,96 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/01/correo_07.txt ---
+
+```json
+[
+    {
+        "headline": "VALÈNCIA. En el resto de partidos...",
+        "content": "En el resto de partidos, el Valencia gui un resultado contundente con un 4—0 sobre el Granada que le deja adeondose a a a es cuartos de final. Negredo fue el héroe del partido con un triplete (7, 62\n\ndemo-cracyotr gol València X Rodríguez\noen metros amplitud, el ts ei on tan ir ae\nsubcampeón de la Copa del Rey,\nes\n(el\nal Vi\nice de la eliminación en el \nessculptural notabe mueve incluso con nueve hombres por las expulsiones de la d e ie ea a la eta Caicedo abrió el marcador tras un paso de Marco Asensio.\nLejos de venirse abajo, el Barça también empató con un remate de Messi tras una asistencia de Iniesta."
+    },
+    {
+        "headline": "España. Tras la salida del entrenador Rafa Bentez...",
+        "content": "Tras la salida del entrenador Rafa Bentez del comando técnico del Real Madrid, la dirigencia del Valencia de España ha comenzado las negociaciones para contratar al experimentado estratega. El poderoso empresario asiático Peter Lim, quien ha invertido más de 100 millones de euros en el club, quiere fichar a un técnico experimentado que pueda mejorar el nivel del club. Como se recuerda, Benítez logró el título de la Liga española con el Valencia en la temporada 2003–2004."
+    },
+    {
+        "headline": "Clásicos deportivos internacionales:",
+        "content": "Novak Djoković clasifica a Cuartos de Final de ATP de Doha. Novak Djoković (número uno)\nValencia tras los pasos del técnico Rafa Benítez\nAtención internacional: Verdasco pasa a Acuerdo de Doha. Rafael Nadal también se califica a la siguiente instancia."
+    },
+    {
+        "headline": "Diario Correo.pe Nacional/Jueves 7 de Enero/2016",
+        "content": ""
+    },
+    {
+        "headline": "\"Bombardero\" espera seguir en Primera División.",
+        "content": "Pizarro advierte que Werder Bremen no perderá categoría Ni el crudo invierno que azota a Bremen ni las enormes capas de hielo en la cancha del Werder impiden a Claudiod Pizarro dar todo de sí para llegar en óptimas condiciones al reinicio de la Bundesliga. El peruano espera superar el nivel físico que presenta tras su llegada al club en septiembre del año pasado. \"Para mí, la preparación es muy importante. Creo que puedo mejorar en cada entrenamiento\", manifestó el 'Bombardero'. De otro lado, Pizarro se mostró incómodo con los medios alemanes, quienes afirmaban que Bremen podría descender. \"Es increíble. Falta aún 17 partidos para que concluya la Burli y están hablando de descenso. Podrá suceder: nosotros confiamos en que no. Los jóvenes se sienten presionados con esos comentarios\", refirió."
+    },
+    {
+        "headline": "PAULO GUERRERO ESPERA ACABAR CON LAS CRÍTICAS.",
+        "content": "Paulo Guerrero se une a los trabajos de pre-temporada del Flamengo en Rio de Janeiro, buscando encontrar su mejor estado físico. El atacante encabezó las pruebas físicas al inicio de la preparación para arrancar la temporada. Su objetivo es recuperar su mejor nivel tras un año lleno de altibajos en su club. \"Estoy ansioso por iniciar el campeonato. Quiero empezar bien y terminar mejor. El año pasado comencé bien, pero lo terminé mal\", dijo Guerrero. Además, los hinchas del 'Fla' acudieron al lugar para saludar al atacante nacional."
+    },
+    {
+        "headline": "Marcelo Wong relanza su galería después de un devastador incendio.",
+        "content": "Correspondiendo a la noche anterior a la Navidad de 1992, prácticamente todo lo que Marcelo Wong había modelado durante décadas reducido a ceniza debido a un incendio que consumió su taller y galería. Sin embargo, al menos once años de labor fueron salvaguardados junto a su esposa Maja, quien apenas tenía varios meses de embarazo en aquel entonces. Pasados tres años, finalmente pudo abrir nuevamente sus espacios expositivos. A pesar de aquella adversidad, como creador visual, Marcelo conservó las piezas afectadas por el humo. Organizó una exhibición con estas reliquias quemadas, disponibles actualmente en su renovada sala de arte."
+
+    ,
+    {
+        "headline": "Cómo encontraste tu vocación?",
+        "content": "Durante mis estudios universitarios consideré varias alternativas. Proveniente de una familia donde la creatividad siempre jugó un papel fundamental, decidí enfocarme principalmente en la escultura. Esta elección definitiva surgió mientras cursaba la carrera, aunque hoy combino ambas disciplinas, sintiéndome particularmente inclinado hacia el ámbito tridimensional."
+    },
+
+    {
+        "headline": "Tu relación con tus obras cambió significativamente luego del incidente.",
+        "content": "Este cambio está ocurriendo gradualmente. Durante el periodo posterior al incendio, reflexionábamos constantemente sobre cómo avanzar. Pensábamos que con dicha muestra íbamos a cerrar un ciclo, pero resultó contrario a nuestra expectativa. Solo unas pocas semanas después de inaugurarnos nuestro nuevo local, pudimos sentirnos listos para pasar página."
+    }
+
+]
+```
+This JSON captures each distinct article found within the provided OCR text while adhering strictly to the guidelines for extraction and cleanup specified. Articles were identified based on headlines followed by relevant content blocks, ensuring clarity between different pieces of journalism presented. Any non-article sections such as sports scores unrelated directly to narrative context have been excluded according to scope definitions.
+
+--- ERROR ENTRY: data/txt/correo/2016/01/correo_07.txt ---
+
+```json
+[
+    {
+        "headline": "Inversión empresarial alcanza récord en 2015",
+        "content": "Unas 37 empresas de diferentes actividades económicas se financiaron en el mercado de valores, en 2015, colocándose títulos de deuda mediante Ofertas Públicas Primarias (Copp) por \$1394.8 millones, 19.5% más frente al 2014. En total, se hicieron 75 colocaciones de instrumentos de deuda en el 2015, principalmente a través de bonos corporativos, bonos titulizados, Instrumentos Financieros a Corto Plazo y Certificados de Depositos Negociables."
+    },
+    {
+        "headline": "\"Revolution\" del Internet en el país según entrevista",
+        "content": "Correspondiendo a la pregunta \"Cómo ves al mercado de telecomunicaciones en el 2016?\", se espera que será el año del desarrollo del acceso a internet en el interior del país. Durante 2015 se intensificó algunos de los 21 proyectos regionales del Proyecto de la Red Dorsal de la Fibra Óptica, que en 2016 madurará. Habrá mayor penetración de internet fijo, conexión WiFi en centros poblados y uso intenso de internet en áreas remotas."
+    },
+    {
+        "headline": "Profesionales técnicos insuficientes en varios sectores clave",
+        "content": "Carlos Montalvo, representante de IPAE Escuela de Empresarios, señala que falta más de 200 mil profesionales técnicos en sectores importantes como Tecnología de Información, Minería, Agroindustria y Salud. Actualmente, aunque hay aproximadamente 1 millón de estudiantes en universidades y 400 mil en institutos técnicos, aún persiste un déficit considerable en oferta profesional técnica."
+    },
+    {
+        "headline": "Indecopi multa a Embotelladora San Jorge",
+        "content": "Embotelladora San Jorge recibió una sanción de 6 UIT por encontrar una particula extraña en una botella de su producto 'Agua Viva'. Esta medida viene acompañada de iniciativas para aumentar la competitividad global."
+    },
+    {
+        "headline": "Netfilx expandirá cobertura a 130 países",
+        "content": "Durante el Consumer Electronics Show en Las Vegas, Netflix confirmó su entrada masiva a mercados globales, llegando a 130 nuevas localidades además de aquellos lugares previamente disponibles, excluyéndo únicamente a China."
+    },
+    {
+        "headline": "Crece turismo receptivo gracias a provincias sureñas",
+        "content": "Regionales como Arequipa, Cusco e Ica impulsaron notablemente el turismo receptivo en el último año, contribuyendo a un aumento cercano al 7%. Además, el litoral norte también jugó un papel crucial en este ascenso."
+    },
+    {
+        "headline": "Detalles sobre el Sistema de Empresas Prestadoras de Salud (EPS)",
+        "content": "Información detalla cómo funciona el sistema de EPS, menciona requisitos mínimos necesarios para afiliar a una compañía independientemente de su tamaño, así como opciones alternativas cuando ninguna EPS está contratada directamente con el empleador."
+    },
+    {
+        "headline": "Progreso Económico Peruano Estimado por Banco Mundial",
+        "content": "El Banco Mundial proyecta un crecimiento del 3.3% para la economía peruana hacia fines de este año, posicionando al país detrás de Paraguay y Bolivia en términos de mejora económica dentro de América Latina."
+    },
+    {
+        "headline": "Menor Sicario se entrega relacionado con homicidio político",
+        "content": "‘Shadow’, un adolescente involucrado en el asesinato del alcalde de Samanco junto a ‘Cumpita’ se presenta voluntariamente ante las autoridades judiciales, siendo investigado por su participación material en el hecho criminal."
+    },
+    {
+        "headline": "Denuncia pública de posible conspiración política en Junín",
+        "content": "Angustiado por rumores de intento de asesinato, el gobernador regional Ángel Unchupaico revela audios comprometedores atribuidos al vicegobernador Pedro Candioti, generando tensiones severas dentro del Gobierno Regional de Junín."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were selected where there was substantial information relevant to journalism standards outlined in the task description. Other sections like brief notes, ads, etc., have been excluded according to specified criteria.

@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/03/gestion_18.txt ---
+
+```json
+[
+    {
+        "headline": "Camisea nunca iba a llegar a llave o a la línea de frontera.",
+        "content": "Con Perú se llega a la línea de frontera?\xA0\nA 50 metros de Desaguadero Perú está el de Bolivia y all OTROS DIGO Apoyo al proyecto PTAR Titicaca Reconocímienlo para Provincia Versión.\xA0 El gobernador regional de Puno, Walter Aduviri, afirmó que apoya el proyecto de la Planta de Tratamiento de Aguas Residuales (PTAR) Titicaca, que será licitado por Provías Nacional en el mes de abril. \"Provías Nacional ha hecho un buen trabajo en este tema, ha conversado con la población y hay que saludar...\"."
+    },
+    {
+        "headline": "Proyecto para crear una Zona Franca Comercial.",
+        "content": "\"Nosotros [el gobierno regional de Puno] lo apoyamos y esperamos que con los antecedentes que se tienen, la corrupción no est contaminando proyectos grandes como éste.\" dijo a Gestión. Explicó que Provías Nacional se acercó a conversar con el Gobernador Regional de Puno hace la semana pasada, para explicarle las razones por las cuales la licitación sería el 29 de abril. Este es un proyecto que requiere la población de Puno, comentó."
+    },
+    {
+        "headline": "Gobierno pedirá renuncia de todo el directorio de Sedapal.",
+        "content": "El Ministro de Vivienda, Carlos Bruce, señaló que según el Informe emitido por la comisión sectorial encargada de determinar las causas técnicas del aniego en SJL, podría haberse evitado. Pedirán la renuncia de todo el directorio de Sedapal después de que en enero se registrara un aniego en San Juan de Lurigancho (por la estación Pirámide del Sol de la Línea 1 del Metro de Lima). Una vez nombrado el nuevo Director General, se solicitará la contratación de una empresa de headhunters para que recluten un Gerente General."
+    },
+    {
+        "headline": "Campaña de Mango cerrará con caída de 34% en producción.",
+        "content": "Angélico Gamarra, Presidente de PROMANGO, anticipó que aproximadamente un 30% de la demanda internacional por el mango peruano no se podrá cubrir debido a la disminución en la cosecha nacional. Según él, esto estaría principalmente influenciado por la genética de cultivos que alterna años de abundante producción con periodos bajos, además de la falta de facilidades crediticias para renovar prácticas agrícolas."
+    },
+    {
+        "headline": "Editorial: Ingresos bajo la lupa.",
+        "content": "La controversia surgida en torno al posible uso indebido de recursos destinados a la semana de representación de ciertos miembros del Parlamento invita a reflexionar más profundamente sobre las compensaciones dentro del ámbito público. Existen diferencias significativas en cómo se manejan estas situaciones comparándolas con profesiones similares, destacando también la flexibilidad otorgada a los parlamentarios en términos de movilización geográfica durante sus períodos de servicio."
+    },
+    {
+        "headline": "Retos económicos del nuevo Gabinete.",
+        "content": "Todos están pendientes de las características del nuevo Gabinete Ministerial liderado por Salvador del Solar, especialmente tras introducir un equipo paritario. Entre los principales objetivos figura impulsar inversiones públicas para recuperar tasas de crecimiento previas, así como establecer políticas fiscales transparentes y justas que favorezcan el clima de negocios y combatan la informalidad económica."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies within the given input data. Any extraneous information such as ads was excluded according to specified criteria.

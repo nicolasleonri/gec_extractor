@@ -1,0 +1,93 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/05/trome_18.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "FINAL MASTER DEROMA",
+        "content": ""
+    },
+    {
+        "headline": "Datazos\nSIMEONE es el tercer DT...",
+        "content": "Es el primer entrenador de la historia del Atlético Madrid en haber ganado la Liga (2014), la Copá del Rey (2013)... David Villa es el cuarto jugador que celebra la octava consecutiva."
+    },
+    {
+        "headline": "Carlos Simeone, padre del ‘Cholo’, vio...",
+        "content": "\"Tengo un hijo maravilloso. Estoy orgulloso, lo quieren y lo respetan\", dijo su padre. Giovanny y Gianluca, hijos de Diego, lo felicitaron por Twitter."
+    },
+    {
+        "headline": "El Uruguayo Diego Godín, autor del empate,...",
+        "content": "\"El futbol ha hecho justicia. Luchamos todo el año aguantando al Real Madrid y Barça\" se alegré el Farán.”
+    },
+    {
+        "headline": "Son multitud...\nNos creen en nuestras fuerzas....",
+        "content": "Allí está la respuesta: primero hay que jugar. Alianza Lima es el líder (24 pts) y favorito para disputar la final del torneo del Inca. Hoy recibe al Inti Gas, a las 3:30 p.m. en Matute, y solamente un empate lo haría imbatible para sus seguidores."
+    },
+    {
+        "headline": "Retiro de Fabrica",
+        "content": "Felicitamos más que hoy g..."
+    },
+    {
+        "headline": "",
+        "content": "Meses o mil euros mensuales durante seis meses o 12000 metros cuadrados comerciales en Mercado Libre. Precios desde $849.00 ** ¡¡Busca!!"
+    },
+    {
+        "headline": "Presentar Curriculum Vitae en Gerencia Municipal:",
+        "content": "Luís Perea \"Me parece muy importante en mí paso a la final.\""
+    },
+    {
+        "headline": "Subastará Excavadoras – Cargadores Frontales ...",
+        "content": "Una gran variedad de equipos pesados disponibles para compra."
+    },
+    {
+        "headline": "Ayudas técnicos y administrativos necesarios...",
+        "content": "Se requiere personal técnico y profesional en diversas áreas incluyendo ingenierías, secretarias y mecánicos entre otros roles específicos."
+    },
+    {
+        "headline": "Escuela de estudios técnicos Fundada en USA...",
+        "content": "Ofrece cursos cortos en instalación de aire acondicionado doméstico, técnicas de ventas, maquillaje de día, atención en restaurantes y eventos."
+    },
+    {
+        "headline": "Consultorio veterinario ofrece tips útiles...",
+        "content": "Importancia de evitar el consumo de alcohol en mascotas debido a riesgos respiratorios, circulatorios y nerviosos severos."
+    },
+    {
+        "headline": "Hola, mi nombre es Manu...",
+        "content": "Mi nombre es Charly y Osito y esto también somos amigos fieles y durmiles cómodos dentro de casa."
+    },
+    {
+        "headline": "Desde hoy conducirá 'La Rebeca'",
+        "content": "Mónica Cabrejos asegura que en 'La prueba' tendrá momentos dulces, severos y emocionales intensos."
+    },
+    {
+        "headline": "Afirma que su actual pareja es un principe azul...",
+        "content": "Expertos opinan acerca de cómo manejar relaciones amorosas públicas y privadas."
+    },
+    {
+        "headline": "Anuncia retiro por razones personales...",
+        "content": "Representantes de parejas en competición han anunciado retirada temporal por situaciones personales."
+    },
+    {
+        "headline": "Productor espera continúe en canal nueve...",
+        "content": "Negativa rotunda respecto a producciones alternativas fuera del programa principal."
+    }
+]
+```
+This JSON captures each identified segment based on headlines and their corresponding contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were segmented where appropriate using logical breaks such as changes in topic or introduction of new subjects. Any missing data was filled with `"NA"` according to specifications.

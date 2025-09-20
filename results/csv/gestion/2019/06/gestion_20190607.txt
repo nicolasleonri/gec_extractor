@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/06/gestion_07.txt ---
+
+```json
+[
+    {
+        "headline": "PAÍSES DESOLADOS: EL ENCANTO DE LOS LUGARES ABANDONADOS",
+        "content": "FOTOGRAFIOS Y YOUUTUBERS SE ESPECIALIZAN EN RETRAR ZONES DESPOBLADAS. LOS EUROPEOS SON QUIENES, DE MOMENTO, SE VE MÁS ATRACTIVOS POR ESTE TIPO DE TURISMO.\nwcmmx TELLO RAMIREZ\n(JUANA DEL GUARDIAN COM.PE)\nEXPLOTAR HOSPITALES ANTIGUOS, EDIFICIOS EN RUINA O PARQUES DE ATRACCIONES PUEDEN SER CURIOSAS FORMAS DE VIAJAR. \nLOS JAPONESES DENOMINAN A ESA PRCTICA \"HAKYO\" QUE SIGNIFCA RUINAS".\nPUEBLOS CONSERVADOS\nHUMBERTSTONE EN CHILE ES UN POBLESO QUE SE FUNDE EN 1872 CUANDO EL PAISO VIVA DE LAS EXPORTACIONES DE SALITRE. ALL VIVEN 3500 PERSONAS QUE SE DICENDABA A ELLA. CUANDO EMPECÉ SU DECLIVE SUS EDIFICIOS LE DA UN ASPECTO TENEBROSO. DESDE EL 2009 FUERA ABIERTA AL PBICO RECIBE DECENAS DE VISITANTES DIARIAMENTE SEGÚN BOOKING.COM.\nPARQUES DE ATRACCIÓN\nSIX FLAGS EN ESTADOS UNIDOS ERA UNO DE LOS PARQUES MAS POPULARES. EL HURACAN KATRINA LO DESTROYÓ TOTALMENTE Y TUVO QUE CERRARSE. SUS LOCALIDADES HA SIDO USADA PARA GRABACIÓN DE ESCENAS DE SERIES Y PELÍCULA."
+    },
+    {
+        "headline": "LAS MECAS DE LA COMIDA CALLEJA EN ASIA: NUEVAS TENDENCIA?",
+        "content": "EN ASIA, LA PRÁCTICA DEL STREET FOOD NO ES SOLO UNE NECESIDAD SI NO TAMBIÉN UNA TRADICIÓN EXPRESADA EN INSTAGRAM INCLUSO AHORA COMPARTIDO MEDIANTE NETFLIX DONDE TODAS CLASES SOCIALES DISFRUTAN DE PLATOS POPULARES. EN TAIPÉI SE OFRECEN APROXIMADAMENTE 5000 PLAZOS AL DÍA. OTROS RECOGNIDOS CENTROS DEL STREETFOOD'S IGUALMENTE EN SINGAPORE. "
+    },
+    {
+        "headline": "LA HISTORIA DETRS DE LA LLEGADA DE MARIO VAR GAS LLONA A LA FIL LIMA",
+        "content": "JOSE ANTONIO PRESIDENTE DE LA CMARA PERUVANA DEL LIBRO RELATA DETALLE DE NEGOCIACIONES Y ACTIVIDADES PREVIAS A EVENTO LITERARIO. ESPERAMOS VENTA SUPERIOR A $19 MILLONES. ANDREA ASSUMO\nNO AGUNO MANONGES NON OM PE\nLA PROXIMA FIESTA INTERNACIONAL DE LIBRO DE LIMA CONTARA CON INVITADO ILUSTRE. EL EVENTO LITERARIO ARRANCAR EL SIGUIENTE JULIO Y SER DEDICADO A EXPLORAR UNIVERSO VARGAS LLONA. EN ESE AMBITO MAGNANO REALIZADO POR NOVELAS, TEATRO ENTRE MUCHO MAS. UN EQUIPO DE MAÑORES ESPECIALISTA HARAN POSIBLE LA PARTICIPACIÓN DEL AUTOR DE CASA VERDE."
+    }
+]
+```
+This JSON contains three extracted articles based on their headlines and contents following the provided guidelines for extraction and cleanup. Note how each entry maintains its structure according to the specified format while ensuring clarity and coherence within the context given.
+
+--- ERROR ENTRY: data/txt/gestion/2019/06/gestion_07.txt ---
+
+```json
+[
+    {
+        "headline": "Restructuración fallida deja incertidumbre financiera",
+        "content": "Calicadade 66.66%\non pudo aprobar ningún plan\nde reestructuraci\u00f3n.\n\nEn tanto, el segundo acreedor,\nfue Gremco, quien pleiteaba\nsu crédito sustentado en un\nlaudo arbitral por la construcción del Estadio Monumental.\nEl Indecopi reconoce el capital\npor la construcción por US\$ 26\nmillones, pero declara contingentel pago de los intereses\npor US\$ 31 millones."
+    },
+    {
+        "headline": "Problemas legales afectan pagos de deuda",
+        "content": "\nPregunta: ¿Por qué es contingente?\nRespuesta: El Indecopi decide declarar contingente\nlos intereses de la deuda con Gremco debido a que prioridad al procedimiento cursal inició un \npoder judicial para la ejecución de laudo arbitrál, en el Juzgado Comercial de Lima.\n\nAdemás, en ese juicio solicitan el pago de la deuda y transferencia del Estadio Monumental a nombre de Universitario y la constitución paralela de una hipoteca a su favor."
+    },
+    {
+        "headline": "Finanzas complicadas del Club Universitario",
+        "content": "- Resultados financieros del Club:\n   - Universitario (Periodo 2013 - 2016):\n     - Margen / EBITDA: Ullmd opcional\n       - 4000901): 20%\nzooo,ooo 13% 157...\n      2% ...\n     [, 4% 5%\n     - —zooo,cco ...)\n*\n-. \"4000300 40 _,\n5’ooo.ono ’‘50>\n- —zo%\n'o'ooovooo —20 ‘a 25o...\n... m.- ou 2015 2016\n\nFA!I'E;' '“ .de liquidación Univrsitaliano 2017\n\nMedios de pago de la deuda concursal\nTerrenos Campo Mar '\n-,— Elobel)euvos especiales con desarollo un proyecto monumental que generará lujo duradero de la calidad educacional durante días les ayuda a un proyecto que encargare de desenvolver el inventario necesario para el desarrollo de su proyecto campo mar'"
+    },
+    {
+        "headline": "Administración cambiante ante crisis económica",
+        "content": "Una vez iniciado el procedimiento concursal, Gremco desiste del proceso judicial de ejecución, pero la administración verá tal decisión y algunos apelan esta medida para continuar siendo demandados. Posteriormente, el club pasa más de Fernando Bravo de Rueda – nombrado por la Sunat– quién también se desistió del procedimiento de apelación en el juicio concursal. Además, Bravo de Rueda inicia la acción popular que buscaba que se declare nulo el reglamento que impedía al Club Universitario acceder a la actualización de la deuda fiscal – que fue resuelto este año y podría reducir el crédito tributario entre \$5/20 y \$30 millones–."
+    },
+    {
+        "headline": "Nuevo rumbo para el Museo Crema",
+        "content": "A principios de 2015, tras la renuncia de Bravo de Rueda, la Sunat nombra como administrador a Soluciones y Desarrollo Empresarial SAC, liderando los destinos del club Real Garcilaso. Posteriormente, y como consecuencia definitiva del proceso de ejecución iniciado por Gremco, el Indecopi considera exigible el monto de los intereses en la deuda concursal en función al laudo arbitral y reconoce como total del crédito el monto de US\$ 57 millones, transformándose así en el acreedor mayoritario."
+    },
+    {
+        "headline": "Ventajas del gas natural sobre otras formas de energía",
+        "content": "Según la Organización Mundial de la Salud (OMS), nuestro país cuenta con el ambiente más contaminado de América Latina. Las causas primarias de polución en Lima provienen del parque vehicular. El Gas Natural Vehicular (GNV) emerge como alternativa más limpia para alimentar autos, contribuyendo significativamente a disminuir la cantidad de gases de efecto invernadero liberados gracias a su composición basada predominantemente en metano."
+    },
+    {
+        "headline": "Expansión internacional del museo universitario",
+        "content": "El museo crematorio será inaugurado el 7 de agosto de este año. Detalles proporcionados por Gestión señalan que ocupará un área de 5,500 m² con elementos innovadores tales como pantallas interactivas y exhibiciones multimedia. Este proyecto está respaldado económicamente mediante inversiones cercanas a US\$ 1 millón, asegurando autofinanciamiento."
+    }
+]
+```
+This JSON captures key articles extracted from the provided OCR text while adhering strictly to the specified format requirements. It includes headlines where available and merges fragmented texts for coherent narratives within each entry. Articles related purely to non-journalistic elements like ads were excluded according to guidelines.

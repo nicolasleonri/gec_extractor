@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/08/gestion_16.txt ---
+
+```json
+[
+    {
+        "headline": "Residencia Principal de West Creek Ranch",
+        "content": "West Creek Ranch, que cuenta con una residencia principal de 22.000 pies cuadrados y cuatro parcelas nicass de terreno, según informó el portal MegaRicos.\n\nCon una arquitectura vernácula de techos altos y espacios amplios, la residencia principal contiene además ocho dormitorios y ocho baños en cuatro niveles."
+    },
+    {
+        "headline": "Accesibilidad Urbana y Normativas",
+        "content": "\"Se refiere a dos factores: interno y externo,\" señala Sergio Malatesta, consultor en Bisnwanger.\n\n\"El primero se refiere a los interiores de un edificio, para los cuales existe una normativa de accesibilidad modificada en junio de 2009.\" Esta \"normativa ha logrado que actualmente cualquier edificación formalmente cuente con todas las características y dimensiones adecuadas\", esto quiere decir que se incluya la construcción de rutas, superficies, puertas, rampas y barandas.\n\nSegún un artículo reciente aparecido en Panorama, un estudio realizado por Erick Márquez Requena, representante del Colegio de Ingenieros del Perú, concluye que hay más de 60 barreras urbanas y arquitectónicas que dificultan diariamente la vida a las personas con diversidad funcional física y sensorial.\n\nEn cuanto a infraestructuras públicas, en el ámbito exterior, es decir, en espacios públicos como aceras, pistas, pasarelas peatonales u otros parques, la edificación se rige por el Reglamento Nacional de Edificaciones de 2006. Este establece que en las esquinas e intersecciones de las vías debería haber rampas para discapacitados con acceso a las aceras.\n\nPara el urbanista Aldo Paccheco Dedé, esta situación no se cumple ni en los distritos con mayores recursos por habitante. Sólo en algunas avenidas y calles (de Miraflores), pero no conforme al reglamento.”
+    },
+    {
+        "headline": "INFRAESTRUCTURA EN LA CIUDAD PARA DISCAPACITADOS VISUALES",
+        "content": "La Villa Panamericana y Parapanamericana poseen pisos polideprimidos en las vías peatonales y ciclovías. La idea es proporcionar mejor acceso a los deportistas con discapacidad visual. Además, las torres de la villa tienen señalética con sistema Braille en todos los pisos. Estas instalaciones fueron implementadas el año anterior."
+    },
+    {
+        "headline": "Datos Relevantes sobre Discapacidad en el País",
+        "content": "Según el INEI, el 10% de peruanos, es decir, más de 3 millones de personas presentan algún tipo de discapacidad. Detalle importante: de ese grupo, el 48.3% tiene dificultades visuales; el 15.1%, problemas motores o caminar; el 7.6%, auditivos; y el 4.2%, aprendices o comprensión limitada."
+    },
+    {
+        "headline": "Principios de Diseño Universal en Ciudades Accesibles",
+        "content": "Para tener ciudades verdaderamente inclusivas, Lima debería estar diseñada considerando el principio de ‘diseñar para todos’, expone Malatesta. Consiste en crear aspectos de la urbe centrados en la accesibilidad universal, permitiendo así movimientos libres y sin obstáculos para niños hasta adultos mayores. Como comunidad, buscamos alcanzar estándares elevados aunque nuestra metrópolis parece orientada hacia jóvenes atléticos de 20 a 30 años, critica el ejecutivo. Hay avances mínimos como semáforos audibles y teléfonos públicos adaptados, aún faltan muchos desarrollos pendientes."
+    },
+    {
+        "headline": "Surfistas Peruano Ganadores Medallas en Lima 2019",
+        "content": "Con orgullo, Perú ocupa el décimo lugar en el medallero de los Juegos Panamericanos Lima 2019 gracias a 39 medallas totales, siendo siete correspondientes al surf. Destaca Luciano Castillo quien obtuvo oro en Surf Open Masculino, junto a Daniela Rosas en Surf Open femenino y Benjamin Cavalcanti en Longboard. Tras intensiva preparación supervisada por tres entrenadores y un preparador físico, destacan técnicas avanzadas y fortaleza psicológica desarrolladas durante dos años previos a la justa internacional."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data.

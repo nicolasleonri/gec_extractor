@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/06/gestion_20.txt ---
+
+```json
+[
+    {
+        "headline": "TV Perú está así?",
+        "content": "Marissa Pozo, chief operation officer de Havas Group Perú, sostiene\nque aunque TV Perú posee la mayor cantidad de retransmisoras \n(cobertura) su alcance no es garantizado:\naparte porque desde el 2010 inició misión\nen televisión digital terestrestra (TDT), hoy sólo el 15%\nde televisores a nivel nacional están listos\npara este sistema.\nAsí,\nel canal del estado es una de\nlas señales con menor audiencia o\nalcance total."
+    },
+    {
+        "headline": "Ley \"Mulder\" no afectará inversiones publicitarias significativamente",
+        "content": "\"Lo que queda claro es que unos US\$ 26 millones no van a mover la\naguja de la Inversión Publicitaria en el Perú. Es un monto\nimportante, pero el efecto no es a nivel de inversión sino de\ncomunicación\", sentencia."
+    },
+    {
+        "headline": "¿Qué pasa si nos enfocamos únicamente en redes digitales?",
+        "content": "La invitación de Mulder implica usar las redes sociales para la labor de difusión.\nPero Velasco y La Riva advierten que incluso en estas plataformas, el alcance orgánico alcanza tan solo un 5% del universo de seguidores, cifras más optimistas, refiriéndose a cuentas de marcas populares u celebrities. Para asegurar un mayor alcance se precisa innovar en pauta digital. Las plataformas sociales son medios de comunicación privados, por lo cual no pueden utilizarse bajo la nueva normativa."
+    },
+    {
+        "headline": "Creación de Quantico en América Latina",
+        "content": "Quantico ha decidido aumentar su presencia regional abriendo operaciones en Miami, México y Colombia. Esta expansión valida su estrategia de crecer internacionalmente."
+    },
+    {
+        "headline": "'Viernes de invierno', la nueva campaña de Magnesol",
+        "content": "Esta campaña promueve cambios en la cultura laboral incentivando a trabajar hasta jueves para tener viernes libres anticipadamente, buscando mejorar el balance vida-trabajo."
+    },
+    {
+        "headline": "Ranking mundial revela sorpresas en Los 50 mejores restaurantes",
+        "content": "Durante la entrega de The World’s 50 Best Restaurants, Francescano lideró nuevamente gracias a su creatividad culinaria. Central sigue destacándose dentro de los primeros diez lugares globales."
+    },
+    {
+        "headline": "Premios especiales en The World's 50 Best Restaurants",
+        "content": "Clare Smyth recibió reconocimiento como Mejor Chef del año, destacando la falta de mujeres en alta cocina. Además, Azurmendi obtuvo el Sustainable Restaurant Award por segunda ocasión consecutiva."
+    },
+    {
+        "headline": "Predicciones fallidas de bancos antes del Mundial Rusia 2018",
+        "content": "Analistas financieros han tenido dificultades precisando campeón del Mundial, evidenciando incertezas inherentes al deporte. Este año, diversas casas proyectan distintos ganadores, mostrando variabilidad en métodos predictivos."
+    }
+]
+```
+This JSON captures key articles extracted from the provided OCR text while adhering strictly to the outlined requirements for format and inclusion criteria. Articles were identified based on headlines followed by substantial textual content related to journalism topics such as media analysis, advertising impacts, business expansions, culinary rankings, sports predictions, etc. Unrelated sections like ads, listings, and non-journalistic elements have been excluded according to guidelines.

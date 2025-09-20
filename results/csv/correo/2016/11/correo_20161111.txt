@@ -1,0 +1,116 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/11/correo_11.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que... "
+    },
+    {
+        "headline": "Contenido pendiente...",
+        "content": NA
+    }
+
+]
+```
+This example assumes there's more than one article present but not enough information for further details provided here. Here’s how we might proceed based on the input given above:
+
+### Article Extraction Process
+
+#### Step-by-step Analysis
+
+**Step 1**: Identify Articles within Text**
+
+The first step involves identifying distinct sections which could potentially represent separate articles. This includes looking out for headlines followed by substantial blocks of continuous prose indicating different stories or reports. We need to ensure proper segmentation between potential articles while maintaining their respective contexts intact.
+
+Here's what each extracted article looks like after cleaning up any obvious OCR issues such as joining split words across breaks, removing extraneous characters, fixing spacing inconsistencies, ensuring correct sentence structure where possible, and preserving special character integrity including accented letters.
+
+## Final Cleaned-up Content Array
+
+Based on these criteria, let us now attempt to segment and format the following data according to our defined rules:
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..." // Note: Actual continuation missing, hence marked 'NA'.
+    },
+
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+
+    # Missing actual content under assumption placeholder since full context isn't available.
+    
+    ```
+]
+
+# Example Output Format Validation
+
+Ensure that every entry adheres strictly to the required schema, using "NA" wherever necessary placeholders appear appropriate. Validate against common mistakes made during extraction, especially considering OCR inaccuracies corrected through manual cleanup steps applied earlier.
+
+If additional clarification was needed regarding specific parts of the process, please refer back to the detailed explanation about handling multi-article pages effectively, focusing on extracting significant journalism pieces accurately formatted in strict compliance with guidelines outlined initially.
+
+--- ERROR ENTRY: data/txt/correo/2016/11/correo_11.txt ---
+
+```json
+[
+    {
+        "headline": "Correspondencia",
+        "content": "Ad Honorem Revisar Cdigo Constitucional\nAsesor fujimorista es Secretario Tcnico de Comisin del Minjus.\nTrabaja con congresista Octavio Salazar, quien asegura que se enter recin hace dos das que revisar el Cdigo Penal es un error ms del Ejecutivo. \"Se evidencia una alianza que no le hace bien al pas ni al Gobierno. Otro error lamentable\", indic el legislador. En ese sentido, Quintanilla sostuvo que el asesor fujimorista debera dar un paso al costado. \"Creo que debera retirarse y dejar el cargo\", manifest. \"Q pena que la ministra Marisol Prz Tello permita situaciones de esta naturaleza\", agreg el congresista de izquierda."
+    },
+    {
+        "headline": "Len Afirma Que Exhumada Fue Evasiva Ante Comisión De Defensa",
+        "content": "\"El Presidente de la Comisi\u00f3n de Defensa del Congreso, Luciana Len, señal que el exmandatario Ollanta Humala se mostr \u201ceevasivo\u201d durante el interrogatorio realizado por la comisi\u00f3n parlamentaria peruana-SAT--1 a Francia. \u201CEstuvo cuatro horas siempre diciendo que estaba dispuesto a colaborar con toda la información; sin embargo, era completamente evasivo, eludiendo la información. Al inicio, ponía mucha resistencia en poder declarar, hasta que los congresistas le preguntaron: '\xA1A qu has venido!?',\u201d manifest. Por su parte, Santiago Gastaudoul, asesor de Humala, aseguró que nadie se opone a que el expresidente sea investigado, \u201cpero hay maneras de preguntar, los parlementarios no conocían los procedimientos de la adquisición. Lamentablemente preguntaban por preguntar y uno ve cómo los asesores les entregaban notas,\u201d recordó."
+    },
+    {
+        "headline": "Abogada del Procesado por Caso de la Red Orellana Alegra Violación Derecho a la Vida",
+        "content": "Ana Lescano Yaya\nLescano Grupos Pensae\nLa abogada del procesado por el caso de la red Orellana alega violaci\u00f3n de derecho a la vida. Ana Lescano Yaya menciona que Benedicto Jimenez Bacca, alias \u201CSheriff\u201D, detenido como integrante principal de dicha organización criminal, fue transferido al Hospital de Policía Nacional después de haber obtenido un habeas corpus argumentando amenazas a su integridad física por condiciones cardíacas previas. Su defensora confirmó que aunque la sexta sala penal encontró fundamentos suficientes basándose en antecedentes médicos, prefirió omitir detalles específicos relacionados a la condición actual de su defendido."
+    },
+    {
+        "headline": "Breves",
+        "content": "- Normativas limitan número de empleados de confianza en instituciones públicas.\n- Elección del nuevo titular del Poder Judicial programada para el 1 de diciembre.\n- Chávez solicita explicaciones a Mendoza sobre admisiones políticas controversiales.\n- Osinergmin registra múltiples denuncias por mal funcionamiento de servicios básicos.\n- Torneo Nacional de Debate Escolar enfocado en temas relevantes de justicia social."
+    },
+    {
+        "headline": "Inkafarma No Apela Resolución del Indecopi",
+        "content": "INKAFARMA, empresa perteneciente al Grupo Intercorp, comunicó que no apelará la sanción impuesta por el INDICEOPÍ a varias cadenas farmacéuticas por prácticas monopsónicas atribuidas a periodos anteriores a su incorporación al grupo empresarial. Esta postura refleja el compromiso de INKAFARMA hacia principios éticos de mercado y transparencia comercial."
+    },
+    {
+        "headline": "Surco Necesita Mayor Protección Policial Para Combatir Robos Bancarios",
+        "content": "Roberto Gomez Baca, alcalde de Surco, destacó la necesidad imperiosa de incrementar la presencia policial en respuesta a robos cada vez más frecuentes en centros financieros locales. Subrayó que anteriormente había contratado miles de guardias adicionales, pero cambios regulatorios han complicado mantener niveles adecuados de protección civil. Además, instó a implementar medidas preventivas junto a comunidades vulnerables, incluido el sector informal de cambio de divisas localizado dentro del área metropolitana."
+    },
+    {
+        "headline": "EDITORIAL",
+        "content": "Un editorial reflexiona sobre el impacto global del ascenso de Donald Trump a la presidencia de EE.UU., sugiriendo posibles repercusiones económicas y diplomáticas para países sudamericanos, especialmente en relación con tratados comerciales existentes. Destaca también la importancia de evaluar estos eventos desde perspectivas diversas, reconociendo potenciales beneficios y retos futuros derivados de tales transformaciones geopolíticas."
+    },
+    {
+        "headline": "Presidente Kuczynski Debería Atender Conflictos Sociales Urgentemente",
+        "content": "Pedro Pablo Kuczynski enfrenta llamamientos urgentes para gestionar eficazmente los conflictos socio-económicos asociados principalmente con proyectos mineros en distintas partes del país. Desde Cajamarca hasta Loreto, diversos grupos demandan atención prioritaria a sus causas ambientales y laborales, mientras el nuevo mandatario intenta consolidar un marco operativo viable para mitigar tensiones y avanzar en desarrollo inclusivo."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/correo/2016/11/correo_11.txt ---
+
+```json
+[
+    {
+        "headline": "Despu\u00eds de reaparici\u00f3n de Keiko Fujimori en la que critica los cien d\u00edas de gobierno, bancada de PPK le responde con dureza",
+        "content": "\nParraguay\nVence-l-en sun cin.\ng.21 pePORTES\nBruce: \u201cLa he notado amarga\rdita\"\nDe BeJaund:e \"La depresi\u00f3n no te hace un perdedor...\nbusc a ayudaprofeisonal\"\nVi ol et:a \u201cNos hubiera gustado escuchar propositas\" \nHer esi:\u201c Critica porque aspire al 2021\"\nDIARI OLIMA\nPulla. Segn el congreso ista Gui do Lombard(i PPk ), la decepci\u00f3n es una palabra fre-cuen-t.e-n-el-vocabula rio-de-Kei ko. \u201cCompre nsible que despues de la derrota de julio,\nkeikosegue decepcionada".\nTEMA DELDA\n---...._\nScar 9\nCO RN ET ER O FOM COM IT GR UPO EN ES PA NE\nRI CH AVELY\nCHIR OU QUE\nXIW ROQU ED IG RU PC OCCENSANE\nE\n\u201cbalconazo\u201d surprendente de keiko Fu ji mo ri contr el govi ernmento, des-pu's de seis mes-es de silenci-o, tu vo react iones diver-sas na sarcast icasy du ras-del-socialismoo dela demas-bancadas-parlamentarias.Una Keiko Fujimori energetica,reposta de la derrota dejunio,inag uro-la-no che-dels les-lo-qu-e-ser-la-se de-principal-de-Fuer za-Popular-en-la-c uadr-a-4-de-Paseo-Coln,Cerc ado de Lima.La avenda-fue-cerra-da-para-dar-passo-a-un-mitin-que-ch os-interpretan-como-el-inicio-de-la campan ia mu nicipal-de--18-de-los-naran ja.Casi-todo-el-corpo-parlamentario-del-fuji morismo,-incluyendoaKenji-,esto-presente."
+    },
+    {
+        "headline": "Prematuro. El mo respondi fuerte, recordandole lo prematuro de las crticas. Para Salvador Heresi tienen un objetivo poltico...",
+        "content": "\"Para Salvador Heresi tienen un objetivo politico en la linea de sus aspiraciones al 2021.\"\\n\"La ciudadana es consiente que a un gobierno que tiene algo de tres meses en el poder no se le pueda pedir resultados que corresponder a un quinquenio\", coment. \\nLament el matiz politico para debilitar al gobierno de Peruanos Por el Cambio. Asu juicio, lo unico que seguire la hija del exprimi eral seria generar \"un estado de ella misma ante la opinión pública\". \\n\"Me parece muy pronto para que un líder político sabbe salga a criticar a un gobierno que tiene poco tiempo en el ejercicio del poder\", añadio. \\nA su turno, el presidente del partido de gobierno, Gil ber Vi ol eta, sostuvo que Keiko Fuji mori perdi una gran oportunidad para ofrecer algunas proposiciones ef ectivas. \\n\"Nos hu bria gusto también encontraren tro proposiciones y no solamente criticas, pero pes e a ello respectamos su dere cho de opi nin y criticas de la señora Keiko Fuji mori\", indic. En ese sen tid o ma ntivist que sus expresiones refl ec tan cual es la vera dader posicion official del parti do nar ana. \\n\"Ella es una lideresa que representa una fuerza política importan te, pero con esto nos demostr a una pelicula completa de cuales cosa enfrenta el gobier no: por un lad mos la herencia de un gobierno nationalista que ha dejado mal la economía del pais, y po ro ot ro lado, tenemo s al fuj imoris mo que tie ne una posi cion fron teral\", precisi."
+    },
+    {
+        "headline": "Depresin. El pri o Alberto de Bella unde guar que al rededor de un millon setecientos mil peruanos sufren de depresin, con un 80 % de suicidi os.",
+        "content": "\\n\"La stigmazi cazion social emp ero el proble ma\", indic. \\n\"La depresion no te hace un per dedor; la depresion es una enfermedad. Si la sufres, no te avergl llenes, no es tu culpa. Busca ayuda profesi onal\", a dio el integ ran te del offi cialis mo en alusi n a las palabras que utilizo Keiko sob re la depresion. AM ARGURA ?. Po sua parte, Car los Bru ce, al commentar la recom endacion de Keiko al Presidente, en el sent ido de que deve hacer exerci cios corrien do las zona s de conflictos socia les y no en Pa lacio, iron iz que \"a va lios nos harfa fal tar ejercicios\", en cla ra alusion a la led ersa del parti do naranja. Dice que observe cierta actitud de \"am argura\" en la excaden ta rival de Pe dro Pablo Ku czyski. Lament que ela sta uviese mal informativa sobre la depresion, enfermedad que ace cha a mile s de perso nas en el Peru y el mun do. Paraj dicuo. Ke liko logr que govie rnistan tes se most rar aun itos. Gi uliano Bu xeice "
+    },
+    {
+        "headline": "Sin Luna de Miel. Bruce neg que este governo haya tenido un period o conocido como Tun a de mie l con ninguna agrupa cion politic a y mucho meno s con el parti do de Fuerza Popu lar.",
+        "content": "\\nAprovech para recordar que la ban cad a 'nar ani sa' se neg a saludar a Ped ro Pablo Kucz yn ski --el pasa do 28 de julio--cuando el Presiden te acudi al Parla mento para assum ir el poder y tomar las riendas del pai s. \\n\"Desde el prime ro dia de gobierno quando el presidente PPK entra a este Palacio (Congress)o la uni ca ban cada que no tubo un ges to de respeto o de pon erse de pie fue la ban cade fujimorista. Nunca hi zo lu na de mie l con el jimorismo y tam poco la queremos\", manifest. OT ROS FL AN COS. La lideresa de Fuerza Popular no sola recib cri tas de parte de la ban cand a officia lista sino tambien de otros gr ups par lam entarios como el APR A, Ac cin Popular y el Front Am pla. El rep resent ant e del parti do de la estrell a,Mauricio Mul der, seal que en el fujimorismo han he ch o una evaluacion del estado real de las cosas que venian suce dando en el interior de su centra politica y al pare cer final mente se dieron conta que ella (Keiko) se encuentra en un shock post-electoral que no podia processiar y que ha demorado 100 dias en proceso rior. El legislat or seal que es evidente que en Fuerza Popular llegaron a un pun to en que se dieron cuenta que ya no podrian segu ir prolongando el silencio de su leaderesa. \\n\"Dis tintos sector indicaban que ella no esta mostrando madures politica y ahora quiere revertir esa situcion y lo ha hecho con el pretextode inaugurar un local que ya estava alla hace bastan te tiempo\", sustuvo. Asi mis mo, salud que la excandidate presidencial \"haya despertado\" nuevamen te a la scena politica y que tambien se \"haya despreocupado\" de la prdida electoral. En ese sen tid o mant ivist que hubiera sido imp ortante que Keiko Fujimori saludara a Pedro Pablo Kuczyn skiy el mismod a de conocerse los primeros resulta dos oficiales de las ultimas eleccion es presidenciales. \\n\"Qui ze ella debe tener resentimeinto por las cosas que se dijeron en campaign,aunque eso demonstra que todavia hai factores de madurez que hay que superar\", puntuali z. El inte grin te de Action Popular Yo nh Le scan oa asegur que la hija del expressident Albert o Foji mori no tie ne moral para haser estas criticas porque su entorn o tiene muchos problemas de criminalidad. \\n\"Keiko Fujimori no tiene moral para haser esas criticas porque su entorno tiene muchas problenas de crimina lidad. Alfredo Ja lim ilic, dise gnado para re estructurar el sis,esta vinculado a su entorno\", expres. Al ser consultado si la sa fujimorista fue candidista\" al salir a criticar la tin de PPK, el leg islador indic que esto era cierto, pues Keiko Fujimori an \"esti ld a por el fra caso y la prdida de las election es\". Desde el Fr ente Amp lia bin hicieron notar su male star y no dubdan en criticar a la lead ersa de la ban cade naranja. Ma risa Glo ave rech az que se haya hecho referncia a una enfermedad que aqu ea a miles de peruanos como una for ma para menosspreciar a las personass. \\n\"Lo gra ve de Keiko Fujimori es la bur la que ha hecho de las pers onsas que algun ves sintieron depresion y deci r que eso es para perdedores\", dijo."
+    }
+]
+```

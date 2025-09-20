@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/02/gestion_06.txt ---
+
+```json
+[
+    {
+        "headline": "Ide! Vélez, ministro de Educación",
+        "content": "“Este año se pondrá más énfasis a los\nproyectos (\& obras por impuestos”. Minsterio afianza avances con bancos y empresas mineras en infraestructura de colegios de alto \nr endimiento.\nValeriá Fernández Saboya valeriá fernandez vanegas@gestión.com.pe\nEl titular de la cartera de educación, Ídel Vélez, es consciente de que asumió un ministerio \"convulsionado\" por las huelgas y las psimas condiciones de los colegios, en cuanto a infraestructura. Incluso, asegura que \"el esfuerzo de su sector insuficiente\"."
+    },
+    {
+        "headline": "\"En Sunedu\"",
+        "content": "Ministerio sigue evaluando continuación de Massa\nSe toma su tiempo. El titular de la cartera de Educación, Ídel Vélez, aseguró a Gestión que aún continua evaluar la \"ratificación o el cambio de Lorena Massa\", quien, a pesar de terminar su período, se mantiene a la cabeza de la Sunedu. \"Se está reuniendo todos los elementos de juicio y el trabajo correspondiente para tomar una decisión conveniente. Mientras tanto, de acuerdo a la ley vigente, le corresponde, y así lo está haciendo, a la señora Massa seguir en el cargo\", añadió."
+    },
+    {
+        "headline": "Exhibición",
+        "content": "Realidad virtual permite conocer Las Líneas de Nazca desde Suiza\nPocos días después de los os causados por un triler en Las Líneas de Nazca, el Museo Reutberg de Zurich presenta una exhibición de los geo-glianos peruanos en Suiza. Esta es la primera exposición sobre arqueología local que se trabaja en colaboración con instituciones culturales nacionales, según la agencia EFE. La mayoría de los 2000 objetos que se mostrarán, entremedio micropiedras y textiles, fueron prestados por nuestro país, algunos de ellos de coleccionistas privados."
+    },
+    {
+        "headline": "Prenda",
+        "content": "Sudadera protege celular de daños\nCon el objetivo mantener a salvo el celular del agua de las caídas, la marca deportiva Vans diseñó una sudadera impermeable con un bolso secreto que amortigua. Su funcionalidad fue pensada para los skaters, ya que les permite saltar y correr sin riesgo al móvil."
+    },
+    {
+        "headline": "Escuche’ Que El Movimiento De Dilbert es Una Cosas Total%",
+        "content": "eso debe ser verdad porque lo he visto de otras personas dam com rw.cuw<fvnuw w..uv am.—Unvw... Javier Tebas, el abogado costarricense que el fútbol italiano busca contratar"
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while filtering out irrelevant sections like ads and non-journalistic information according to specified criteria. Note how each entry maintains its structure within the defined schema.

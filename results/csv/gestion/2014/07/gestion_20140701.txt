@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/07/gestion_01.txt ---
+
+```json
+[
+    {
+        "headline": "Encuentran en un terreno muchísimo más optimista...",
+        "content": "don principal mente, aun esperada recuperación de la inversión pública en tres niveles de gobierno\n\nAsí lo señaló el presidente de la Confiep, Alfonso García Mir, quien espera que la versión en proyectos de infraestructura en las regiones y municipios recupe su dinamismo en los primeros meses.\n\nInvención pública en gobiernos regionales cayó 11.1 % entre enero y mayo,\n\ mientras en los gobiernos locales bajó 31%, informó ME."
+    },
+    {
+        "headline": "PCM Prevención ante efectos de El Niño",
+        "content": "\"El Gobierno continuará trabajando en la mitigación de las posibles consecuencias del fenómeno de El Niño en nuestro país,\" afirmó el Secretario de Gestión del Riesgo de Desastres de la Presidencia del Consejo de Ministros, Alberto Bisbal.\n\"Lo más importante es que con o sin pronóstico se está trabajando en prevención, desde hace más de dos años, en el mejoramiento de infraestructuras y de protección\", manifestó.\nRecalcó que según el último Estudio Nacional del Fenómeno de El Niño (Enfen), la magnitud prevista para la llegada de este fenómeno a territorio peruano es de débil a moderado, descartándose que este nivel se incremente a fuerte como ocurrió en el año 1997.\""
+    },
+    {
+        "headline": "Perú acepta invitación a Programa País",
+        "content": "El Perú aceptó formalmente la invitación que la Organización para la Cooperación y Desarrollo Económico (OECD) le formule para integrar el Programa País.\n\"El hecho de pertenecer a este programa permitirá al Perú contar con diagnósticos para evaluar, formular e implementar políticas públicas,\" explicó el director ejecutivo de Alianza Francesa, Augusto Rey de la Eva.\nAnunció además que durante los días 3 y 4 de julio, una misión de la OECD se reunirá con representantes del Gobierno para coordinar el contenido de este programa."
+    },
+    {
+        "headline": "Destrucción Creativa",
+        "content": "La educación superior es uno de los grandes éxitos del estado benefactor: lo que antes era el privilegio de unos pocos se ha convertido en un derecho de la clase media.\nEsta transformación será provocada por tres fuerzas: tasas en alza, cambios en la demanda y tecnología disruptiva. Los resultados incluirán la reinvención de la universidad debido a enfermedades económicas persistentes causadas por avances lentos en la productividad dentro de industrias intensivas en mano de obra."
+    },
+    {
+        "headline": "Argentine blames judge for not paying creditors",
+        "content": "The Argentine government cannot pay bondholders who did not accept debt restructuring due to a ruling by a U.S. court, despite having deposited funds intended for payment. This situation arose after Judge Thomas Griesa ordered the Bank of New York Mellon to halt payments under certain conditions until other debts were settled."
+    },
+    {
+        "headline": "Chile's economy struggles to rebound",
+        "content": "Retail sales increased slightly in May thanks to World Cup excitement but overall economic activity remains sluggish following declines in manufacturing sectors and rising unemployment rates during the month."
+    },
+    {
+        "headline": "(Dis)approval of University Law",
+        "content": "Concerns arise over the newly approved law which establishes regulatory oversight within education ministry structures. Critics argue it lacks clarity regarding quality standards and could potentially stifle private investment through excessive bureaucratic processes."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines. Articles lacking distinct headings have been assigned `"NA"` where appropriate. All entries maintain proper structure ensuring readability and compliance with JSON format requirements.

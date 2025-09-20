@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2014/05/elcomercio_21.txt ---
+
+```json
+[
+    {
+        "headline": "Putin's visit confirms global power shift ambitions",
+        "content": "The meeting between Russian leader Vladimir Putin and his Chinese counterpart, Xi Jinping, where 43 agreements were signed—including a political-military pact—is seen as confirmation that both giants aim to alter world force balances.\nThe encounter was already scheduled but accusations against five officers of Russia’s elite army unit for spying on U.S. companies provided common ground for leaders who appeared satisfied facing a shared enemy.\nChinese authorities view U.S. policy towards internet security as 'authoritarian' and hypocritical', accusing it of systematic mass espionage against their government and businesses."
+    },
+    {
+        "headline": "Explosion kills over 110 people in Nigerian market",
+        "content": "\"By now we have counted 118 bodies,\" said AFP correspondent Mohammed Abdul Salam, coordinator of Nigeria's Emergency Management Agency. He estimated there could still be more victims among the rubble.\" Earlier, Commissioner Chris Olakpe told reporters: \"We currently confirm that 46 died in explosions while another 45 suffered serious injuries\". Explosions occurred about thirty minutes apart near New Market Bus Stop next to a train station in Jos city center, Plateau state. Authorities suspect Islamist group Boko Haram behind attacks typical of its modus operandi."
+    },
+    {
+        "headline": "President Jonathan condemns bombings",
+        "content": "Goodluck Jonathan condemned the blasts calling perpetrators cruel and wicked. Assured continued fight against terrorism referencing Islamic extremist group Boko Haram responsible for April schoolgirls kidnapping. Group has factions operating in Jos—a previous target—and may benefit from infrastructure projects due to strategic alignment with Russia post-Ukraine conflict."
+    },
+    {
+        "headline": "Driver charged after Colombian schoolbus fire tragedy",
+        "content": "Jaime Gutierrez Ospino driver accused of negligence during Sunday blaze killing 31 children returning home from church service. Lawyer Anibal Nieo claims client saved six lives despite community aggression leading him surrender later that day. Autobus had been used previously transporting young passengers aged 2-3 years old according to lawyer statements."
+    },
+    {
+        "headline": "Over 150 far-right MEPs expected election win",
+        "content": "New EU rules suggest party winning elections better positioned candidate becomes European Commission president—one of Brussels most powerful roles. Over 400 million citizens across 28 countries vote today amid fears rising right-wing parties amidst challenges like unstable North Africa relations, immigration issues, potential British exit discussions, economic recovery management, banking sector health, job creation strategies, energy policies, plus destabilizing separatism movements such as Scotland or Catalonia."
+    },
+    {
+        "headline": "Thai military declares martial law not coup d'état",
+        "content": "After months-long protests against government, Thailand Army imposed martial law deploying troops around Bangkok censoring media claiming action aims restoring peace rather than staging coup. Interim Prime Minister unaware prior declaration made by armed forces."
+    },
+    {
+        "headline": "German court blocks Nazi Party registration attempt",
+        "content"): German Government seeks banning ultra-nationalistic NPD considered neo-Nazi following controversial campaign slogans including Holocaust denial references displayed publicly. Despite efforts, recent polls indicate possible parliamentary seat gain under current electoral laws."
+    }
+]
+```
+This JSON captures key articles extracted based on specified criteria, ensuring headlines and contents align accurately within each entry. Articles unrelated to journalism content, such as ads or non-substantive sections, are excluded.

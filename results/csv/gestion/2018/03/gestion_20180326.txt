@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/03/gestion_26.txt ---
+
+```json
+[
+    {
+        "headline": "Empleo Urbano y Producción Industrial Caen",
+        "content": "El empleo urbano, a nivel nacional, en empresas de 10 y más trabajadores (empleo formal) no aumentó en el 2015 ni en el 2016, y disminuyó en el 2017. Además, la producción de la industria no primaria, que es la más intensiva en mano de obra, lleva años decayendo desde el 2013 y ha tres años consecutivamente en declive.\nPero también el crecimiento del Producto Bruto Interno (PBI) desestacionalizado, que corrige factores estacionales y mide tendencias según el Banco Central de Reserva (BCR), ha sido prácticamente de 0% en el 2016 y 2017."
+    },
+    {
+        "headline": "Retos ante Mariano Herrán Ordóñez",
+        "content": "¿Cuáles retos enfrentará Mariano Herrán Ordóñez?\n\nSí, tenemos un sector público un poco diezmado, si alguien mira un ministerio, por ejemplo Educación, observa que retrocedimos a la década de los ochenta. Tenemos un sector público que ya no es el mismo que, con todos sus defectos, teníamos antes. También algunos, incluso de miembros del Ministerio de Economía (MEF), que ha perdido peso...\n\nAdemás, frente al 2011, los indicadores fiscales no son tan sólidos. En el 2011, la deuda pública era 22% del PBI y ahora está cercana al 25%. Habíamos supervisión fiscal y ahora hay déficit (3.2% en el 2017).\n\nQué consecuencia práctica de este deterioro?\n\nQue la posibilidad de realizar una política fiscal expansiva es mucho menor que hace unos años. Respecto a la política monérea, aún falta espacio para actuar, aunque están bastante agotadas."
+    },
+    {
+        "headline": "Expectativas Empresariales Empeoran",
+        "content": "Sí, las expectativas empresariales empeoran mes tras mes y, según la última encuesta de expectativas macroeconómicas del BCR, casi todas estas expectativas, el 90%, están empeorando y se encuentran en un territorio de pesimismo."
+    },
+    {
+        "headline": "Política Económica Desastrosa Independiente de Factores Políticos",
+        "content": "\"En general, la política económica ha sido mala independientemente de lo político. En los últimos meses ha sido una especie de política económica de sobrevivencia\". Esto incluye intervenir el mercado de papas para mantener los precios altos, similar acciones en el maíz, y probablemente futuros controles en otros sectores. Son estrategias típicamente asociadas con economías colapsadas."
+    },
+    {
+        "headline": "Problemas Heredados del Mandato Previa Administración",
+        "content": "Uno de ellos es la debilidad política del Ejecutivo... Parte de la política de sobrevivencia ha sido no respetar los fueros del poder judicial. Casos relevantes incluyen políticas de pensiones y apertura indiscriminada de cargos públicos bajo ciertas condiciones legales controvertidas."
+    },
+    {
+        "headline": "Perspectivas Futuras Mejoran Comparativamente",
+        "content": "Si bien la línea de base recibida por la nueva administración es baja, existe margen para mejora respecto a las metas fallidas anteriormente planteadas. Un factor positivo es la situación internacionalemente favorable, contrastando con la economía local detenida."
+    },
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting meaningful journalistic pieces. Other sections like ads, subscriptions, etc., were excluded according to the scope defined.

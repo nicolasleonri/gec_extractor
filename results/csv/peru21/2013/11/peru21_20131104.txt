@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/11/peru21_04.txt ---
+
+```json
+[
+    {
+        "headline": "Una historia íntima",
+        "content": "Hoy en día, uno pensaría que despertarse encendido por algunos\nsueños eróticos con mi antiguo amigo, esos sueños en\nlos que retomábamos las prácticas orales que \nhabíamos sabido compartir en tiempos de la \nu\ne\s\ti\d\a.\nYo no tenía más remedio que complacerme a solas,\nevocando los placeres que supe encontrar en su cuerpo."
+    },
+    {
+        "headline": "UNA LEY QUE HARÁ HISTORIA",
+        "content": "\"Se trata de una sentencia que apuesta a la libertad de expresión y que actúa, especialmente, sobre el negocio que se construye...\". La presidenta del grupo \"Justicia Legítima\" ha realizado algunas reflexiones sobre la Ley de Medios Argentina, destacándose cómo ésta representa una confirmación histórica de la garantía de libertad de expresión."
+    },
+    {
+        "headline": "Entrevista Gonzalo Pajares",
+        "content": "Dos años después de aquella cornada que me hizo perder un ojo y casi costarme la vida, ahora que estoy en mi mejor momento profesional, ¿Cómo recuerdas ese suceso?\n-Con resilencia: el 7 de Octubre de 2011 supuso un antes y un después en el aprendizaje de cómo aceptar la vida, además de no cojerle rencores al toro."
+    },
+    {
+        "headline": "PERSONALIDAD PÚBLICA",
+        "content": "El público limeño lo ve con entrega de un torero, y nos da tiempo para consolidar nuestra actuación, así nos decía Torero Juan José Padilla durante su visita a Lima."
+    },
+    {
+        "headline": "Opinan Toledo/Karp deben ser tratados igual que Camet",
+        "content": "\"Debe exigirse que Toledo/Karp sean tratados por nuestros fiscales, procuradores y jueces con el mismo rigor con que se trataba a Camet.\" Comenta un columnista sobre la situación legal actual comparándola con casos anteriores."
+    },
+    {
+        "headline": "Ciudadanos protegen playas frente a proyectos empresariales",
+        "content": "La municipalidad de Barranco está decidida a evitar la construcción de infraestructuras turísticas en áreas naturales sensibles, argumentando carencia de permisos legales adecuados."
+    },
+    {
+        "headline": "Rescatan a estudiantes tras extravío en Ruinas de Rapac",
+        "content": "Después de 12 horas perdidos, finalmente fueron hallados los jóvenes junto a su guía en Pampanuri, gracias a un extenuante trabajo de búsqueda llevado a cabo por policías locales."
+    },
+    {
+        "headline": "Incidencias urbanas generan controversia social",
+        "content": "Activistas vuelven a protestar en la Plaza de Acho mientras comerciantes ilegales siguen causando problemas sociales en distintas partes de la ciudad."
+    },
+    {
+        "headline": "Terrible incendio deja múltiples víctimas en Jesús María",
+        "content": "Cuatro hogares devastados y tres lesionados es el saldo de un terrible incendio registrado en la mañana de ayer en Jesús María, exacerbando aún más las condiciones críticas prevalecientes en esa comunidad."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text based on their headlines and contents while adhering strictly to the specified format requirements. Articles lacking explicit headings were assigned `"NA"` for those sections where applicable. Any unclear data was also marked accordingly.

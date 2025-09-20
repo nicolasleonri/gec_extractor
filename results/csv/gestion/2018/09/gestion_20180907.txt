@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2018/09/gestion_07.txt ---
+
+```json
+[
+    {
+        "headline": "Manuel Melgar",
+        "content": "Presentarn propuesta para simplificar regmenes del IR.\n\nRenovaran devolucin de IGV a minera, que vence este ao."
+    },
+    {
+        "headline": "INTERÉS POR LAS ELECCIONES",
+        "content": "Miní­vemen­tado\n\n17%\n\nNs/Nc \n\n3%\n\nNada "
+    },
+    {
+        "headline": "DESTACADOS ENCUESTA PULSO PER",
+        "content": "Reggiardo, Belmont y Urresti\ncreen y ya concentran el\n38.3% de la intención de voto\n\nLayoCornejo fueron los\ncandidatos que más\ncyieron. Indecisos se\nredujeron de 21.5% a\n14.5%, pero se elevaron\nlos que piensan variar su\nvoto al pasar de 9.3% a\n15.5%"
+    },
+    {
+        "headline": "LABOR DE LA ONPE",
+        "content": "¿Qué opinión tiene usted de la labor que está realizando actualmente la Oficina Nacional de Procesos Electorales?"
+    },
+    {
+        "headline": "INTENSIDAD DE INTERÉS ELECTORAL",
+        "content": "Solo el 17% se muestra \"muy interesado\"\nen elecciones municipales y regionales\n\nUn 56% de peruanos cree\nque no hay buenas\nalternativas entre los\n candidatos."
+    },
+    {
+        "headline": NULL,
+        "content": "Los electores se fijan poco en\nlos planes de sus candidatos\n\nEs una muestra del enorme\ndesinters de la ciudadana respecto a\nlas elecciones municipales y regionales que\nestá condicionado por varias cosas."
+    },
+    {
+        "headline": "APROBADORES CASTANE DA",
+        "content": "Su desaprobación se\nredujo de 69% a 66%. La\nmayor popularidad del\nalcalde proviene del sur,\nmientras que Lima moderna lo rechaza."
+    },
+    {
+        "headline": "INDICE DE CONCERTACIÓN AMCOR SAN MIGUEL",
+        "content": "Investigan si hay conciertación de\nabastecimiento de preformas PEI\n\nIndecopi indaga si Amcor y San\nMiguel acordaron repartirse clientes\n del mercado."
+    },
+    {
+        "headline": "PEDIDO PARA PRESERVAR ACTIVOS COPAINCA",
+        "content": "Pidieron que no se vendan oficinas de la compañía en Lima\n\nActivos de pesquera Copainca\natraen a China Zhonghai."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while excluding irrelevant sections like ads, subscriptions, etc. It adheres strictly to the provided guidelines for extraction and structuring.

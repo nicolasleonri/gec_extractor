@@ -1,0 +1,31 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/05/correo_16.txt ---
+
+```json
+[
+    {
+        "headline": "Millón de personas esperan salir de la pobreza",
+        "content": "Fuerza Popular en 2021."
+    },
+    {
+        "headline": "Mitones de puestos de trabajo en cinco años propone Pervanos Por el Cambio.",
+        "content": ""
+    },
+    {
+        "headline": "Mercedes Aroz le recordó a Vladimiro Huaroc...",
+        "content": "los 5/6 mil millones que se perdieron durante el fujimorismo por la corrupción, así como la eliminación de los gobiernos regionales y los mecanismos para decidir en qué casos corresponde la consulta previa.\n\nHuaroc, sin embargo, dio a Aroz el caso del Bagua. \"Ésta está presente. Ministra, usted es la última llamada para hablar de involucramiento con las comunidades\", afirmó. Sostuvo que la consulta previa es una reafirmación del compromiso democrático\".\nPor su parte, Gino Costa, del equipo de PPK, pidió al general PNP (1) Marco Miyashiro que aclare la situación de Joaquín Ramírez, dirigente de Fuerza Popular que, según dijo, está vinculado en un caso de lavado activos, algo que el representante 'naranja' negó.\n\nMiyashiro fue a la ofensiva y recordó a su rival que durante su gestión como Ministro del Interior suspendió la erradicación de la hoja de coca en el Vraem, razón por la cual el Perú pasó a convertirse en uno de los primeros países productores de cocaína.\n\nCosta destacó que en el plan de gobierno de Fuerza Popular no hay una sola línea de cómo enfrentar la inseguridad ciudadana, a lo que Miyashiro respondió a su opositor calificándolo de ‘‘estudiante de escritorio’’, con mucho discurso verbal y hábil para los números."
+    },
+    {
+        "headline": "España entrega material electoral para peruanos residentes en el extranjero",
+        "content": "El material electoral para que los 884,924 peruanos que residen en el extranjero (56 países) puedan ejercer su derecho al voto en las urnas el 5 de junio fue entregado ayer al Ministerio de Relaciones Exteriores por la Oficina Nacional de Procesos Electorales (ONPE).\n\nSe menciona también el orden de las candidaturas que serán puestas a consideración del Congreso para elegir al nuevo defensor del pueblo mediante un sorteo programado para realizar el próximo miércoles, tal como reveló el legislador Yonhy Lescano.\n\nEl Jurado Nacional de Elecciones (JNE) hizo énfasis en que los funcionarios públicos deberían mantener el principio de imparcialidad hasta después de finalizada la segunda vuelta presidencial."
+    },
+    {
+        "headline": "Proceso de obtención de nacionalidad peruana por Nancy Ann Lange",
+        "content": "Desde hace dos semanas, Peruanos Por el Kambio ha implementado una nueva estrategia buscando contrarrestar los constantes señalamientos respecto a la nacionalidad de su líder, Pedro Pablo Kuczynski. Esta táctica incluye gestionar nuevamente la nacionalización peruana de Nancy Ann Lange, esposa de Kuczynski, quién podría convertirse pronto en Primera Dama.\n\nActualmente, existe incertidumbre sobre si el artículo continuará más tarde...
+    "
+}
+```
+This example demonstrates how each extracted article should appear within the structured format required for proper JSON representation while adhering strictly to the given guidelines provided. 
+
+The above process ensures clarity between different sections such as headlines and contents which have been carefully separated based on their context and relevance according to the rules specified. This approach maintains consistency across various entries ensuring accurate data extraction and presentation.

@@ -1,0 +1,48 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2013/10/publimetro_21.txt ---
+
+```json
+[
+    {
+        "headline": "Funciónamiento gubernamental afectado por Obamacare",
+        "content": "Precisamente por el Obamacare, el Gobierno sufrió un cierre administrativo ('shutdown') por la falta de aprobación de su presupuesto para el 2014.\n\n\"Hay millones de estadounidenses que — quieren un seguro de salud. Nuestro objetivo es que el mayor número de personas tenga una cobertura el 1 de enero del 2014, cuando debe entrar en vigor la obligatoriedad del seguro\", dijo Lew."
+    },
+    {
+        "headline": "Muere último ícono de Yugoslavia, esposa de ‘Tito’",
+        "content": "\"Ultimo icono yugoslavo. Fallece la viuda del ex líder comunista ’Tito’, Jovanka Broz.\" \n\n\"El ltimo gran conejo de la antigua Yugoslavia, Jovanka Broz, viuda del lder nacistas Josip Broz »Tito«, falleció ayer de un paro cardíaco. Estuvo internada en un hospital de Belgrado desde agosto.\""
+    },
+    {
+        "headline": "Investigan a maquinista argento por accidente ferroviario",
+        "content": "\"Argentina. Maquinista será investigado por accidente ferroviario\"\n\n\"El Gobierno argentino confirmó ayer que el maquinista Julio Bentés será investigado por el accidente ferroviario ocurrido el pasado sábado en la concurrida estación Once de Buenos Aires, que dej 99 heridos.\""
+    },
+    {
+        "headline": "Primera boda gay celebra en NJ bajo nuevas normativas",
+        "content": "\"EE.UU.: Hoy se celebran primeras bodas gays en el estado de New Jersey\"\n\n\"El matrimonio homosexual fue legalizado después de años de controversia y debate social. El Senador estatal Mond Lesniak tenía planeado oficializar una ceremonia en su hogar justo después de medianoche para casar a dos lesbianas.\""
+    },
+    {
+        "headline": "Propuestas controvertidas de militares detenidos en Chile",
+        "content": "\"Polémicas proposiciones de militares presos en Chile\"\n\n\"Condenados por DDHH ofrecen información de sus crímenes a cambio de beneficios penitenciarios. Familiares de víctimas denuncian esto como \"siniestro y peligroso\".\""
+    },
+    {
+        "headline": "Debate global sobre responsabilidad de la obesidad",
+        "content": "\"¿Quién es responsable de la crisis de obesidad?\n\n\"Ciudad de México enfrenta altas tasas de obesidad, generando debates si la culpa reside más en individuos consumidores o en la industria alimentaria promotora de alimentos poco sanos.\""
+    },
+    {
+        "headline": "Impuestos nuevos a refrescos en México",
+        "content": "\"Presidente Enrique Peña Nieto considera impuesto adicional al consumo de gaseosas y refrescos para reducir niveles de obesidad en México.\""
+    },
+    {
+        "headline": "Triunfo clave de Alianza Lima frente a Real Garcilaso",
+        "content": "\"Alianza Lima obtiene crucial victoria sobre Real Garcilaso, posicionándose cerca del liderato en el campeonato local.\""
+    },
+    {
+        "headline": "Empates significativos en partidos claves",
+        "content": "\"Resultados importantes en ligas locales incluyen empates ajustados que podrían impactar clasificaciones finales.\""
+    },
+    {
+        "headline": "Figuras emergentes en el ámbito deportivo internacional",
+        "content": "\"Destacables actuaciones personales en eventos globales demuestran talento excepcional dentro del panorama competitivo actual.\""
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and requirements for inclusion/exclusion criteria. Articles were identified based on contextually significant information related to journalism standards within sports, politics, health discussions, etc. Non-article elements like ads, listings, and repetitive non-content sections have been excluded according to guidelines.

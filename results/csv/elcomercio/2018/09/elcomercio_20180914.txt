@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2018/09/elcomercio_14.txt ---
+
+```json
+[
+    {
+        "headline": "Acusan al presidente español de plagiar su tesis doctoral",
+        "content": "El presidente del Gobierno Español ha sido acusado de plagiar su tesis doctoral. Su caso es el punto más alto de una ola de acusaciones de fraude académico contra políticos de los dos principales partidos españoles. Ya la semana pasada la Ministra de Sanidad había renunciado a su cartera después de que se demostrara una multitud de irregularidades en el modo que había obtenido su grado de Maestría.\nParece ser, ha observado la periodista Marta García Aller, que hoy en día para tumbarse a un gobierno solo hace falta tener una conexión a internet y echar mano de Wikipedia: 'Antes lo que tenía morbo era que los políticos publicaran su declaración de bienes. Pero como nunca terminó de escandalizarnos cuanto acumulaban, o ya nos fuimos acostumbrand...'"
+    },
+    {
+        "headline": "Plagio en política internacional",
+        "content": "\"En el año 2006, dos investigadores estadounidenses descubrieron que en la tesis para obtener el grado de Economía Vladimir Putin había reproducido sin atribución ni comillas 16 páginas completas, y seis diagramas originalmente publicados en el libro ‘Strategic Planning and Policy’. Todavía hoy en la web del Brookings Institution puede descargarase un análisis del plagio. Ese mismo año, tras el revuelo, el Presidente citaba en un discurso a Franklin D. Roosevelt y añadia con ironía: ‘Bonitas palabras, lástima que yo no las haya inventado’."
+    },
+    {
+        "headline": "Karl-Theodor zu Guttenberg y el escándalo de plagio",
+        "content": "En el 2011, Karl-Theodor zu Guttenberg, entonces Ministro de Defensa alemán, renunció a su cargo luego de que la Universidad de Bayreuth le revocara el título en medio de un escándalo de plagio. La prensa de su país lo bautizó como Baron von Copy-Paste, ministro del cut-and-paste."
+    },
+    {
+        "headline": "Los plagiadores políticos y su impunidad",
+        "content": "‘De entre todas las faltas imaginables de un político, mentir o copiar en la universidad parece ser una de las más inocuas.’\n\n'Supongamos, estimado lector, que pudiera reimaginar todo el sistema de salud en el Perú; empezar desde cero para construir instituciones que atiendan de la mejor manera posible las enfermedades y otras complicaciones médicas de toda la población.'"
+    },
+    {
+        "headline": "Viernes 14 de septiembre del 2018 | EL ATENTADO EN TARATA Y EL ANIVERSARIO DE LA CAPTURA DE ABIMAELE GUZMAN",
+        "content": "'Sendero Luminoso había volado un coche bomba no muy lejos, en la calle Tarata, matando a 25 personas e hiriendo a más de 150. Al día siguiente, un amigo de mi padre tuvo que alojarse en nuestra casa, porque la suya ya no existía.'\n'Una nueva cadena perpetua cay sobre los responsables del baño de sangre.'\n'\n\"La batalla que nos toca hoy ya no es la del frente, sino la de la memoria.\"'"
+    },
+    {
+        "headline": "LA VENGANZA DE LOS NERDS",
+        "content": '"Steve Jobs fue un nerd\", asegura sin titubeos Burr Stettler, un conocido científico estadounidense. \"Si eres un nerd, gritarlo con orgullo porque toda empresa quiere bailar contigo."'
+    }
+]
+```
+This extraction captures several distinct articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were segmented where appropriate according to changes in topic or introduction of new subjects within the input text.

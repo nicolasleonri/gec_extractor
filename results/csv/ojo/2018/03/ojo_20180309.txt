@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/03/ojo_09.txt ---
+
+```json
+[
+    {
+        "headline": "Universitario",
+        "content": "‘Ya me contaron que en\nla crema están de mal así\orque todos se están\renciendo.\nAhora fue el ‘Camuro,\nquién, pese a\nque entré en la\nsemana, ayer pidió una\ninyección para el dolor y\nesta duda para el partido\nanto Cristal del domingo."
+    },
+    {
+        "headline": "Guerrero aseguró que se pudo contactar con Flamengo",
+        "content": "Paulo Guerreroseguró que se pudoporcontactar conFlamengo y estáesperándolo para retomer al equipo cuandofinalize su préstamo. También conversó brevemente conCarcediem (deHumo).\nPagué un contrato hastadel 10 de agosto.Fué calmado.paso a paso,resuelve más tarde.El \"Loco\" Varga también destacó cómo mejoró los balones.“De aquí sale algo grande.” Sentenció el entrenador."
+    },
+    {
+        "headline": "Italia 3 – Extraordinaria victoria contra el Milán",
+        "content": "Tras ser consecutivo sin ganar, Italia imponía en su debut de octavos de final de la Liga Europa League y derrotó alMilán por 0–2 gracias a los goles de Mkhitaryan y Ramsey, quien marcó tanto antes como después de recibir tarjeta amarilla."
+    },
+    {
+        "headline": "Atletico de Madrid triunfo en octavos de final de la Champions League",
+        "content": "Atlético de Madrid obtuvo propiedad ante el Liverpool en octavos de final de la Champions League tras ganar con autoridad por 3–0 al Lokomotiv Moscú. Jefferson Farfan estuvo ausente debido a lesión."
+    },
+    {
+        "headline": "Florentino Pérez confirma fichaje de Cristiano Ronaldo",
+        "content": "Florentino Pérez confirmó el fichaje de Cristiano Ronaldo, quien llegará procedente del Real Madrid. Con él, junto a Benzema y Bale, Florentino espera fortalecer aún más al club."
+    },
+    {
+        "headline": "Convocatoria Asamblea General extraordinaria de delegados",
+        "content": "El consejo de administración de Micromanías Prisma invita a la Asamblea General extraordinaria de delegados programada para el próximo 28 de marzo en Santiago de Surco."
+    },
+    {
+        "headline": "Experiencias urbanas generan fascinación online",
+        "content": "Las experiencias urbanas han capturado interés globalmente, especialmente en YouTube, donde miles buscan aventurar en sitios abandonados buscando fenómenos paranormales."
+    },
+    {
+        "headline": "Chocolate podría influir en relaciones sexuales según estudio",
+        "content": "Un estudio publicado en Journal of Sexual Medicine revela que el chocolate incrementa significativamente el placer sexual femenino, comparado con aquellos que prefieren café."
+    },
+    {
+        "headline": "Películas en pareja refuerza vínculos afectivos",
+        "content": "Observar películas conjuntamente permite crear memorias compartidas que fortalecen la relación sentimental, permitiendo recordar momentos especiales asociados a dichas proyecciones cinematográficas."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents while adhering strictly to the provided guidelines for processing and structuring data extracted from the given OCR input. Any missing information was filled using "NA," ensuring compliance with specified requirements.

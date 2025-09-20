@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/02/correo_14.txt ---
+
+```json
+[
+    {
+        "headline": "James brinda espectacular gol al Real Madrid",
+        "content": "Desde la llegada de Zidane, el Real Madrid había mostrado dificultades en el Santiago Bernabeú frente al Athletic Club de Bilbao (4–2), donde el rival generó preocupación mediante intensa presión tras recuperar su forma habitual.\nPese a ello, el único jugador capaz de romper esa tensión fue James Rodríguez. Disfrutando del encuentro, moviéndose rápidamente y asociándose eficazmente con sus compañeros, ejecutó un disparo increíblemente difícil para cualquier portero."
+    },
+    {
+        "headline": "Manchester United pierde fuera de casa (2–1) ante el Sunderland",
+        "content": "Esta derrota deja al Manchester United más distanciado de los lugares calificados para la próxima edición de la Champions League."
+    },
+    {
+        "headline": "Tridente sureño está preparado",
+        "content": "Barcelona se enfrentará completamente armado contra el Celta de Vigo en el Camp Nou. Con récord de 29 juegos invictos, aunque ha tenido algunos tropiezos en puntos clave, sigue liderando la clasificación española. Este año, además, cuenta con el regreso de Lionel Messi después de una operación menor."
+    },
+    {
+        "headline": "Paolo Guerrero será titular frente a Vasco da Gama",
+        "content": "Guerrero buscar continuar su buena racha goleadora en el clásico de Rio de Janeiro conocido como 'Clásico de millones', debido a la cantidad masiva de aficionados de ambos equipos."
+    },
+    {
+        "headline": "Empate decepcionante para Sporting Cristal",
+        "content": "Sporting Cristal empató 1–1 con Comerciantes Unidos, revelando carencias significativas en su capacidad para generar oportunidades claras de gol durante el juego disputado en el estadio Alberto Gallardo."
+    },
+    {
+        "headline": "Melgar gana cómodamente sobre Ayacucho FC",
+        "content": "Ayacucho FC ofreció mínima resistencia permitiendo a Melgar dominar el campo contrario gracias a los tantos conseguidos por Jessón Fernández, José Antonio González y Juan Pérez."
+    }
+
+```
+This JSON structure captures each relevant article's extracted information while adhering strictly to the guidelines provided for extracting data accurately based on the given criteria.

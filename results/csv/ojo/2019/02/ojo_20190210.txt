@@ -1,0 +1,56 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/02/ojo_10.txt ---
+
+```json
+[
+    {
+        "headline": "Opinion Column: Urgency Against Anaemia",
+        "content": "Sin agua limpia, costumbres de higiene, lactancia materna, seguridad alimentaria... no derrotaremos la anemia.”
+    },
+    {
+        "headline": "Celebrating Valentine's Day Options",
+        "content": "Parques zonales de la Capital ofrecerán conciertos y paseos románticos el 14 de Febrero. Chef peruano Jesús Aguilar ofrece 'leches de tigre' especiales."
+    },
+    {
+        "headline": "Police Warn About Delinquents Disguised as Delivery Riders",
+        "content": "Muchos delincuentes están usando moto taxis para cometer robos disfrazándose de repartidores según el Coronel Juan Olivera."
+    },
+    {
+        "headline": "Ministry Stance against Municipal Ordinance",
+        "content": "\"Carlos Morín señaló estar en contra de prohibición de circulación de motos con más de un ocupante.\""
+    },
+    
+    {
+        "headline": "Operative Success Against Auto Parts Smuggling",
+        "content": "Intervención exitosa en La Victoria terminó con arrestos y decomisos significativos relacionados con partes automotoras ilegítimas."
+    },
+
+    {
+        "headline": "Efforts to Clean Up Gang Influence in Gamarra Market",
+        "content": "Alcalde de La Victoria asegura que trabajarán para liberar Gamarra de influencias criminales."
+    },
+   
+    {
+        "headline": "Competitive Landscape in Private Pension Funds Management",
+        "content": "Propuestas para permitir gestión de fondos de pensiones también a empresas municipales y otras organizaciones financieras."
+    }, 
+
+    {
+        "headline": "Financial Oversight Demands Explanation Over Losses",
+        "content": "Funcionarios deberán comparecer ante el Congreso para discutir pérdidas en fondos de pensiones gestionados por AFP."
+    },
+
+    {
+        "headline": "Archbishop Critiques Political Party’s Lack of Action",
+        "content": "Cardenal Pedro Barreto critica a Fuerza Popular diciendo que jamás buscó verdaderamente beneficiar al país."
+    },
+
+    {
+        "headline": "Legal Proceedings Surround Former Regional President",
+        "content": "Abogado Eduardo Roy niega tener información relevante sobre casos legales pendientes contra Félix Moreno."
+    }
+
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were selected where there was substantial journalistic value present within each segment identified through headings and coherent narrative structures. Other sections such as brief notes, ads, and non-article elements have been excluded according to specified rules.

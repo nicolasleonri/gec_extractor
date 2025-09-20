@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2018/04/elcomercio_29.txt ---
+
+```json
+[
+    {
+        "headline": "COMIDA PERUANA TRADICIONAL Y FUSIÓN",
+        "content": "Singular sazon, variedad de \np\nplatos y servicio de primera \nl\lol distinguieron hoy a El Grifo, ofreciendo un estupendo 25%\ndescuento en toda su carta.\nSolamente recordando presentar su DNI e identificar-se como subscriptor del Club."
+    },
+    {
+        "headline": "EL COMERCIO ABRE SUS PÁGINAS AL INTERCAMBIO DE IDEAS Y REFLEXIONES",
+        "content": "Opinion dominical refleja el debate abierto dentro del periódico respecto a diversos temas sociales y políticos, enfatizando la libertad de expresión aun cuando existen discrepancias ideológicas."
+    },
+    {
+        "headline": "LAS CIFRAS SOBRE LA POBREZA EN EL PERÚ",
+        "content": "Se discute cómo la percepción errónea de 'país de empresarios' resulta insuficiente contra la pobreza, sugiriendo que el empleo dependiente ofrece más seguridad para los hogares vulnerables. Además, destaca el aumento significativo de la pobreza urbana comparado con la rural, especialmente notable en Lima debido a la disminución del empleo durante 2017 y principios de 2018. Urgen medidas para revigorizar el mercado laboral, criticando enfoques proteccionistas y abogando por la formación profesional adecuada y oportunidades claras de trabajo."
+    },
+    {
+        "headline": "DEMOCRATICÉMONOS LA CULTURA",
+        "content": "Patricia Balbuena, Ministra de Cultura, argumenta la necesidad de descentralización cultural, asegurando accesibilidad lingüística y representativa para comunidades indígenas. Subraya también la relevancia de salvaguardar el patrimonio cultural mediante proyectos gubernamentales eficientes y transparentes, buscando integrarlo en el tejido socio-económico contemporáneo."
+    },
+    {
+        "headline": "ERROR DE MATTEO",
+        "content": "Richard Webb reflexiona sobre la persistencia histórica de la pobreza incluso ante avances económicos significativos, citando ejemplos británicos y latinoamericanos. Critica intentos rápidos de redistribución de recursos, prefiriendo métodos graduales combinados con políticas públicas sólidas en educación y salud."
+    },
+    {
+        "headline": "BARRIOMOVIDO EN COLOMBIA ES EL SENADOR IVAN DUQUE",
+        "content": "Alfredo Torres analiza el panorama político colombiano, anticipando resultados electorales influenciados por figuras polarizadoras como Ivan Duque y Gustavo Petro. Discute el contexto sociopolítico detrás de dichas preferencias electorales y predice complicaciones futuras derivadas de decisiones controvertidas."
+    },
+    {
+        "headline": "LAS PRÓXIMAS ELECCIONES EN AMÉRICA LATINA",
+        "content": "Un análisis profundo revela tendencias emergentes de populismo y autoritarismo en América Latina, particularmente en países como Venezuela, México y Brasil. Destaca factores comunes tales como decepciones electorales y crisis éticas que impulsan demandas por liderazgos carismáticos capaces de combatir la corrupción sistémica."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on thematic breaks within the text, ensuring each entry aligns accurately with its respective context.

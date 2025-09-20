@@ -1,0 +1,17 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2014/05/gestion_08.txt ---
+
+```json
+[
+    {
+        "headline": "PERÍODO. PERMANECERÁ ABIERTA SU PELETA DEL 5 DE JUNIO HASTA NOVIEMBRE DE ESTE AO.",
+        "content": "PREMIO. ESPACIOS COMPETIR POR EL LEÓN DE ORO OTORGADO POR LA BIENAL.\n\nAsí, el pavellón peruano mostrará las grandes dotes vecinales que el Estado construyeron entre las décadas del sesenta ochenta en Lima para responder al crecimiento urbano.\n\"Es desde 1985 al año 2,000 que se da un vacío en la presencia estatal en las políticas de vivienda de la ciudad y ese rol pasa a ser de simple auspiciado. Reflexionar sobre este fenómeno, de ayudarlo a ponerlo en debate y arrojar soluciones\", detalla el comisario de la muestra, el arquitecto José Orrego Herrera."
+    },
+    {
+        "headline": "ELLOS TIENEN LA PALABRA",
+        "content": "\nYarina Landa. Gerente Comercial del Jockey Plaza.\nDice ella.\"Me gustan unos aretes de H.Stern de fantasía pequeños; me parecen super elegantes y sutiles pero con un diseño moderno.No soy aficionada nada a las joyas; bueno, vistes y enseñas sin ellas.Me tengo como un engreimiento pendiente que nunca priorizaré'.\n\nClaudia Lezama. Directora General de CIBERCITÉC.\nExpresa:\"Mi familia. Me encanta entregar obsequios, pero estos deben ser especiales. En el Día de la madre, me gusta recibir un viaje en crucero por las Islas Virgenes del Mediterraneo acompañada de mis familiares y mejores amigas.I eso sí es un verdadero regalo!'.'\n\nErika Bernales. Country Manager de D-MARK.\nAfirma:\"Aventuras. Por mi día quiero recibir un bote Zodiac para compartir más tiempo el deporte de vela(o ptimosit) Am si jos les gusta y lo practican durante todo el año.De esa manera podran disfrutar de ellos al máximo y conocer cómo se van desarrollando'.\n\nClaudia Lucioni. Gerente de Calidad de SODEXO.\nManifiesta:\"Gastronomía. Tengo grandss sueños que quisiera concretar.Uno de ellos es viajar a Italia con mis grandes amigos.All pasar por las calles de Venecia comer paste s hastae cansancio.También disfra rían de sus deliciosos vi nos en las clidas noches europeas'.\n\nDoris Ojeda.Gerente General de Ediciones COREFO.\nRevela:\"Devo ta. Si debbo pedir un regalo por el Dia de la Madre éste será una pintura de \'El Cristo\' de Salvador Dal.Se trata de una obra de arte admirable.Really me gusta.Además merece recordar donde ven go, adonde voy y aquí lle ve botto".\nPati ricia Mi rand a. Gerente General de DI.\nConfiesa:\" Cultura.El regalo del Día de la Madre se me adelant hace dos meses con la llegada de mi hijo,p ero hay uno muy especial que me encantar recibi r.un viaje a India Conocer la cultura de ese país siempre ha sido uns ueño i55 pues que pronto se hará realidad'"
+    }
+]
+```
+This extraction focuses on identifying headlines based on context clues such as capitalization patterns typical for titles within the provided text while ensuring each associated content block aligns logically under its respective title. Any extraneous information like unrelated numbers or fragmented phrases has been excluded according to specified guidelines.

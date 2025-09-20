@@ -1,0 +1,109 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/07/ojo_22.txt ---
+
+```json
+[
+    {
+        "headline": "Messi la pasa bien",
+        "content": "Se encuentra con\n\"Rafa\" Nadal en Ibiza\nIBIZA . . .\nIonnel Messi \nregalándose unos días de descanso tras finalizada la temporada pasada con el Barcelona. La \"Pulga\" disfruta del sol y la playa con su familia, también aprovecha tiempo libre para divertirse junto a las masas como el tenista \"Rafo\" Nadal."
+    },
+    {
+        "headline": "La \"Pulga\" no pudo picar en la MLS.\nRAL BRIVAZ DEBUT EN [A\nVICTORIA DEL SEA'TILE SOUNDERS",
+        "content": "Seattle. Comenzó con buen pie. Raúl Brívar tuvo minutos en la victoria 2-0 del Seattle Sounders ante los Vancouver Whitecaps FC (Ida del derbi del noroeste estadounidense).\nLa \"Pulguita\" entró en el segundo tiempo y participó en los últimos 30’ del encuentro. Aunque tuvo un par de oportunidades para marcar, no logró hacer gol."
+    },
+    {
+        "headline": "Vienna. Su primera vez. Andrés Carrillo se unió ayer a los entrenamientos del Al-Hilal...",
+        "content": "...debido a que se trata de uno de los pedidos del técnico portugués urge más. Durante la práctica, el extremo de la Selección Peruana realizó ejercicios de acondicionamiento físico y con pelota, dejando una buena impresión por su velocidad y dominio. El \"Churre\" entrenará durante varios días más de manera diferenciada y posteriormente hará trabajo conjunto con sus compañeros, quienes hoy enfrentarán al NK Rudar Velenje de Eslovenia, en el segundo partido de su preparación previa al inicio oficial de competencias locales."
+    },
+    {
+        "headline": "\"SAN MIGUEL\"",
+        "* Casa independizada urb. militar $275.000 negociable directamente (sin intermediarios)",
+        "content": "(2943506427 / 0943495128)"
+    },
+    {
+        "headline": "BASE en Callao 1° piso, 3 dormitorios, 3 baños, cochera",
+        "content": "C.990552480,"
+    },
+    {
+        "headline": "BELEN NIÑA muy familiar su casa independizada urbanización contigüa militares $275.000",
+        "content": "Negociable directamente (sin intermediarios)\n(2943506427 / 0943495128.)"
+    },
+    {
+        "headline": "Casas, Terrenos. Departament..., parcelas. Experta comercial Ingeniero Alonso.",
+        "content": "alonso.casa@hotmal.com C.998826420 C.955104651."
+    },
+    {
+        "headline": "CASAS en venta",
+        "content": "Venta de vivienda semi llave ubicada en Urbanización Contigua Militares, excelente precio $275.000 Negociable directamente (Sin Intermediarios) (2943506427 / 0943495128.)."
+    }
+]
+```
+This extraction captures distinct sections identified within the provided input based on their structure resembling headlines followed by relevant details/content. It adheres strictly to the defined rules for extracting and structuring data while ensuring clarity and correctness according to specified guidelines.
+
+--- ERROR ENTRY: data/txt/ojo/2018/07/ojo_22.txt ---
+
+```json
+[
+    {
+        "headline": "Mas de 600 niños en Canete",
+        "content": "NA"
+    },
+    {
+        "headline": "Victima victima",
+        "content": "Hallados con Impactos de bala dentro de una casa."
+    },
+    {
+        "headline": "Por un país más justo",
+        "content": "A menos de una semana de las celebraciones por Fiesta Patrias, muchos comentan que, a raíz de los audios, los peruanos no tenemos nada que celebrar, e incluso hay quienes piden cancelar el Desfile Militar. Nada más equivocado. El 28 y 29 de julio se celebra la grandeza del Perú, a los hombres y mujeres que dan su vida por amor a la patria.\nThe Perú no solo son los juegos, como dice el psicólogo social Jorge Yamamoto, \"el Perú no es el Palacio de Justicia, el Perú somos los peruanos\". Si nosotros cambiáramos cambia el Perú. \xA9 aprovechemos estas fechas para demostrar nuestro rechazo a la corrupción y reafirmar nuestro compromiso por un Perú mejor. Empecemos desde casa."
+    },
+    {
+        "headline": "Una visita es sorprendida por una ilusión artística",
+        "content": "En el Museo de Zhengzhou [China], donde el conejo de las artes marciales Bruce Lee parece salirse del cuadro con una patada. Lee fue criticado en su tiempo por enseñar kung-fu al occidente. Hoy en día es una estrella tanto en Asia... Airbus ha lanzado su modelo A330-700 conocido como Beluga XL por su parecido con la llamada ‘ballena blanca’ o beluga (un tipo de cetáceo). La aeronave, que se convertirá en uno de los cargueros más grandes del mundo, hizo su vuelo inaugural el jueves desde el aeródromo de Toulouse, en Francia. Los diseñadores del avión se han tomado con gracia el parecido del aparato con el mamífero acuático, al punto que le han dibujado ojos. Ahora las ballenas también vuelan."
+    },
+    {
+        "headline": "Que un hombre está enfermo puede ser un verdadero drama...",
+        "content": "...mientras que las mujeres suelen soportar los males de salud con mayor entereza. La razón según científicos de la Universidad de Cambridge, es que el sistema inmunológico de los varones es más débil."
+    },
+    {
+        "headline": "Pidén beber líquido rojo ... Mausoleo egipcio",
+        "content": "Hace unos días se halló un sarcófago negro del Antiguo Egipto. Dentro había esqueletos con un líquido rojo. Ahora mucha gente desea beber esa agua. Creen que les daría poderes."
+    },
+    {
+        "headline": "Colombia. El senador Antonio Navarro Mockus fue captado bajándose los pantalones a modo de protesta",
+        "content": "Ocurrió en la sesión inaugural del Congreso de Colombia. La razón fue que otros parlamentarios no dejaban terminar el discurso al presidente del Senado e intentaron callarlos con los pantalones abajo."
+    },
+    {
+        "headline": "Empresario teme por su vida después de recibir una amenaza",
+        "content": "Exemplecionadores dejaron una nota amenazante junto con algunos cartuchos de escopeta en la puerta de su residencia del distrito de San Isidro. Uno de los mensajes decía: «Paga tus deudas, si no quieres que estas balas vuelvan en tu cabeza»."
+    },
+    {
+        "headline": "Valoroso. Un vigilante del Colegio Simón Muñoz de Los Ángeles, en Villa María del Triunfo, obtiene golpes que un atraco armado robe moneda entre niñas mientras ven una película en el teatro.",
+        "content": "Además, el dueño huye hacia adelante."
+    },
+    {
+        "headline": "Incendio controlado por Bomberos",
+        "content": "Sin reportar muertos ni heridos, un incendio en el sexto piso de un edificio de la cuadra 10 de la avenida Pumacahua, en Jesús María."
+    },
+    {
+        "headline": "Golpea a suegra y en venganza recibe 4 balazos",
+        "content": "Acribillan a joven delante de amigos. Rosario Espinoza indica que todo comenzó hace un mes cuando el joven regresó al Perú procedente de Argentina, donde había estado radicando. Según la policía, se trata de un ajuste de cuentas, pues antes de ser atacado, Anthony Segura golpeó a un hombre aún en proceso judicial. Parece que ese sujeto lo buscó para vengarse."
+    },
+    {
+        "headline": "Exportación creció 5%",
+        "content": "Entre enero y mayo de 2018, la exportación de pisco suma $155 millones 78 mil, un aumento del 4% respecto al mismo período del año anterior, declaró el Presidente del Comité de Pisco de la Asociación de Exportadores (ADEX) William Urbina."
+    },
+    {
+        "headline": "Vecinos preocupados por enfermedades respiratorias",
+        "content": "\"El basurero pasa tres veces por semana ahora tenemos que botar la basura en la calle\", afirma Estela Castillo Peralta, residente del sector afectado."
+    },
+    {
+        "headline": "Celébranse fiestas patrias con fervor nacional",
+        "content": "Pese al rechazo de algunas partes de la población sobre ciertas circunstancias políticas, muchas familias expresan su patriotismo participando activamente en eventos culturales y civiles."
+    },
+    {
+        "headline": "Plan de acción ante intoxicación escolar",
+        "content": "Ministerio de Educación iniciará acciones urgentes tras incidente relacionado con productos distribuidos bajo Programa Nacional de Alimentación Escolar Qali Warma."
+    }
+]
+```

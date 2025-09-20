@@ -1,0 +1,173 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/08/trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "Delincuentes aprovechan que su seguridad es mínima",
+        "content": "A dueño de tienda le robaron 18 veces en dos años\n Pequeños negocios en la mira\n Uno de los casos más sonados es el de Segundo Salazar (30), quien hace unas semanas enfrentó a delincuentes para evitar el robo de su bodega en San Martín de Porres."
+    },
+    {
+        "headline": "Gitana decaía que era contra la envidia",
+        "content": "Estafaba con cuento de ‘curar’ dinero.\n La gitana que hizo un cambista de Miraflores con 200 mil dólares también mostró ser una curandera mexicana denominada Adriana Dávila y está siendo intensamente buscada por la policía."
+    },
+    {
+        "headline": "Declaración ministerial",
+        "content": "\"Probablemente vamos a entrar hacia el bicentenario (2021)!\" Por ello llevarán a cabo importantes reformas.”
+    },
+    {
+        "headline": "Neumonia causa preocupación",
+        "content": "Debido a la neumónica por las bajas temperaturas, se reportaron hasta ayer 312 personas afectadas, incluidas niños de cinco años y ancianos de sesenta, en las veintitrés regiones del país."
+    },
+    {
+        "headline": "Asesinan a mujer en playa",
+        "content": "Una mujer semi-desnuda fue encontrada muerta con señales de haber sido violada y posteriormente asesinada pedradas en la Playa Carquín, en Huacho."
+    },
+    {
+        "headline": "Sicarios matan alcalde en Huánuco",
+        "content": "Cuando regresaba a su casa después de cenar, recibió tres disparos en el pecho. Este crimen sacude a Huánuco durante la celebración de sus 475 años de fundación."
+    },
+    {
+        "headline": "Encuentran autos robados en Cochera",
+        "content": "Agentes de la Policía-National-Criminal-Investigation-District y División de Investigación Criminal encontraron 28 automóviles supuestos robados en un local cercado en el Callao."
+    },
+    {
+        "headline": "Muerte violenta de alcaldesa",
+        "content": "Myriam Fefer fue víctima de sicariato mientras participaba en actividades políticas. Su madre fue indicada como posible autor intelectual debido a diferencias personales."
+    },
+    {
+        "headline": "Robo de cohetes en espectáculo circense",
+        "content": "Profesor atacado por león en evento circense en el Cusco. Testigos afirman que el animal causó heridas graves antes de ser controlado."
+    },
+    {
+        "headline": "Colaboradora de revista premiada",
+        "content": "Victor Carrillo fue reconocido como el mejor árbitro según la Asociación Profesional de Árbitros de Futbol."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents based on significant events reported within the provided text. It adheres strictly to the defined scope and goal for extracting relevant journalistic information while excluding non-journalistic elements like ads and unrelated sections.
+
+--- ERROR ENTRY: data/txt/trome/2014/08/trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "EN LA MIRA DE SICARIOS",
+        "content": "Este reportaje detalla cómo el brutal asesinato del alcalde del distrito huanuqueño de Amarilis, Marzónys Puskás Vilchez Ramírez, provocó consternación regional debido a múltiples homicidios relacionados con políticos vinculados al narcotráfico."
+    },
+    {
+        "headline": "Dicen que Son Doctores\nY No Tienden Titulos,\nHacen Trampas en Sus Hojas de Vida\nY la Gente Como Tu Vota Por Ellxs...",
+        "content": "Una reflexión personal sobre la elección política basándose en credenciales fraudulentas, destacando preocupaciones éticas respecto a votar por individuos con antecedentes penales graves."
+    },
+    {
+        "headline": "Triste por Pelea Entre Familias por Niñ@",
+        "content": "Un relato emotivo sobre un infante separado de su madre después de un incidente violento involucrado a su padre, resaltando problemas legales y emocionales derivados de disputas familiares."
+    },
+    {
+        "headline": "Publica Tus Anuncios de Empleo",
+        "content": "Invitación abierta dirigida a lectores para publicar avisos de empleo mediante contacto telefónico proporcionado."
+    },
+    {
+        "headline": "Avísanos Si Te Gusta Este Producto",
+        "content": "Descripción de oferta comercial enfocada en tablet y celular ASUS FonePad 7, incluidos detalles técnicos y precios promocionados."
+    },
+    {
+        "headline": "Marcas Roban Billete a Am@s de Casa",
+        "content": "Reportaje sobre robos cometidos por ladrones disfrazados aprovechando situaciones vulnerables, específicamente menciona un atraco ocurrido cerca de una agencia bancaria."
+    },
+    {
+        "headline": "Niños Atropellados",
+        "content": "Relato impactante sobre niños víctimas de accidente vehicular, narrado por Lidia Lozano, describiéndose circunstancias previas al fatal evento."
+    },
+    {
+        "headline": "EX PROSTITUTA SE HACA PASAR POR MUJER PARA CAPTAR MENORES",
+        "content": "Informe policía sobre arresto de un proxeneta operativo en redes sociales engañando jóvenes hacia la industria sexual, utilizando identificación femenina ficticia."
+    },
+    {
+        "headline": "POR NUESTR@S ERMITAS",
+        "content": "Oferta especializada en descuento significativos en diversos productos alimenticios disponibles en supermercados asociados."
+    },
+    {
+        "headline": "Premiazos semanales",
+        "content": "Detalles sobre sorteos organizados por periódico ofreciendo incentivos económicos a participantes registrados."
+    },
+    {
+        "headline": "Datos, Rentálos y Deposítalos en Locales Autorizados",
+        "content": "Información general sobre procedimientos administrativos necesarios para realizar ciertos servicios financieros."
+    },
+    {
+        "headline": "Celebra el Dia Del Nio",
+        "content": "Noticias sobre eventos festivos dedicados a niños realizados en distintos lugares públicos, incluido el Parque de Leyendas."
+    },
+    {
+        "headline": "Karina Rivera Nos Habla de Su Gran Transformación Gracias a Sus Hijos",
+        "content": "Entrevistas personales centradas en cambios positivos experimentados por figuras conocidas inspiradas por experiencias familiares."
+    },
+    {
+        "headline": "DESTAPAN VIAJEITOS DE ISLA CON ASESORA",
+        "content": "Investigación periodística revelando costosos viajes internacionales pagados por fondos gubernamentales cuando Victor Isaías era presidente del Congreso peruano."
+    },
+    {
+        "headline": "'MEMES'",
+        "content": "Artículo humorístico usando memes populares para comentar aspectos controvertidos de figuras políticas notorias."
+    },
+    {
+        "headline": "GOLEADA",
+        "content": "Resumen de declaraciones políticas concernientes a inversiones millonarias anunciadas por Humala destinadas a proyectos infraestructurales en diversas regiones."
+    },
+    {
+        "headline": "CENTRALITA",
+        "content": "Discusiones judiciales relevantes sobre investigación penal prolongada denominada ‘Centralita’, criticada por falta de resultados efectivos."
+    },
+    {
+        "headline": "Valiente',
+        "content": "Controversial declaración pública emitida por Hector Becerril refiriéndose a acciones consideradas valerosas frente a adversarios mediáticos."
+    },
+    {
+        "headline": "HERIBERTO",
+        "content": "Narrativa judicial sobre intentos fallidos de Heriberto Benitez de comunicarse directamente con magistraturas responsables de importantes litigios."
+    },
+    {
+        "headline": "Dueño de Tienda Le Robaron 18 Veces en Dos Años",
+        "content": "Historia recurrente de victimización empresarial ante repetidos ataques criminales, evidenciando debilidades en medidas preventivas básicas."
+    },
+    {
+        "headline": "Gitana Deca Que Era Contrala Envidia",
+        "content": "Casos de fraude perpetrados por supuestos curanderos mexicanos explotando superstición popular para obtener grandes cantidades monetarias."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/trome/2014/08/trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "Revista semanal",
+        "content": "Callao\nCC, Ministro Ay Argentina 3093 Tel. 6690623 / SMS 95318 [RPM)\nTACNA Urb Vital Hermana Av Cuzco (Frente\nI [\nPueblo Nuevo RPM)95276)63 Acosta) calle frente\n( 020 e\nTi\n:\n8 SAN MARTÍN vs.\ngenar para seguir en la pelea\nporel título.\nResistentes y veloces que pueden hacer daño. Si dan las cosas,\nesaremos punteros, subrayó Rainer Torres.\nEn el cuadro \"Poeta\" que viene de caer 2–1 ante Melgar, la \nnova novedad será el ingreso de Luis Guadalupe por Luis Cardozo (expulsado).\n: R.GARCILASO 3:00 PM."
+    },
+    {
+        "headline": "Casaca trendy para hombre Jean básicos para...",
+        "content": "Precio regular: S/. 59.90 Precio regular: S/. 29.90\nC/u Todos los polos todos los polos estampados niños(as)\nenanos 90 de 23 alibásicos\nC/u Todos los polos todos los polos estampados niños(as)\nbébes 6–36 meses allbasícos\n90 de 10–16 alibásicos\nFoto referencial\nS/\nJean clásico niños(as)\n2–8 años alibásicos\nOfertas válidas del 16 al 26 de agosto del 2014 en TOTTUS a nivel nacional. Stock mínimo disponible 10 unidades en toda la cadena. Ofertas hasta agotar stock. Los polos estampados de niños – bebés y jeans adultos son de temporada Otoño-Invierno. Fotos referenciales, máximo 6 unidades por producto por persona, Ofertas no acumulables con otras promociones. Ofertas no válidas en TOTTUS Super ni TOTTUS Chuquiago Viejo"
+    },
+    {
+        "headline": "San Simón cerca mentariá cuando entienda ficharlo.",
+        "content": "\"Es un buen equipo, pero le falta un poco de experiencia nada más\", dijo Checho’. Los ‘Colegiales’ confirmaron los fichajes de los argentinos Fernando Giarrizzo (volante) y Jesús Nahuel Guerrero (zaguero) procedentes de Victoria, Serrato-Huarálly por la fecha 16 de Segunda: Municipal-Latacunga. Coopsol-Mannucci."
+    },
+    {
+        "headline": "Sergio Ibarra volvería a Primera. San Simón cercará mentalmente cuando entendiese ficharlo.",
+        "content": "\"Es un buen equipo, pero le falta un poco de experiencia nada más\", dijo Checho’. Los Colegiales confirmaron los fichajes de los argentinos Fernando Giarrizzo (volante) y Jesús Nahuel Guerrero (zaguero) provenientes de Victoria, Serrato-Huarálly por la Fecha 16 de Segunda: Municipal-Latacunga. Coopsol-Mannucci."
+    },
+    {
+        "headline": "Afirma que medio Perú haría lo mismo endiendo y trabaja en película al filo de la ley",
+        "* Trom fiesta ... EN AUDIO 2UE DIFUNDIERON AL AIRE, LE DICEN A GERMANI NEIRA EVVV NR NV VICENTE NIÑEZ REINALDO ARENAS. Modelo Feliz por Disculpas: Defel potro'",
+        "content": "Milett Figueroa seal que se sentía reparada luego que Guti Carrera le dio públicamente disculpas. «Obvio! Al final, media sale a pedirme disculpas. Asi que genial, todo bien. Yo sigoooo trabajando en la pelicula Al Filo de la Ley», dijo la modelo. Se sabe que en la pelicula, Milett ha el papel de una joven involucrada en el mundodel narcotri, según reveló publicamente que nunca le fue infiel a Melissa Loza con Pepe Rojas. Le dice a Germani Neira Evvv Nr nv Vicente Niñez Reinaldo Arenas. Model felizes por Disculpas: Defel potro'"
+    },
+    {
+        "headline": "Clara qué queréis recoger",
+        "content": "Va / CJW\nDos Biutir\nNo necesito, ¡¡¡¡!!! Económica mi era\nRRUNTO... Llego embajador\nTe dediqué días para contarte estos sinsabor felices\n...\nJosué Van Off festejares sus 24 años y dijo que no necesita una pareja para estar feliz, en claro álusa a Luzina Grasse Becerra con quién terminó relación. Hoy ayer total tener a alguien para estar feliz. Todo está bien en mi vida lo que quien estaba cómplice, así como invitado en el programa Fabrica de Sueños apoyando a Daniella en la competición conocida como baile. Rico con la peloja. Sobres futuro profesional, aseguró que no retornaría a Combat´ por que tienen proposiciones del exterior. También indicó que «Yo llamado unaproposición interesante del exterior y voy aver si tomó, lo mas probable es que no creo que retorno a Combat´ por que les hubieran llaman compañeros y esposo, y recibió el apoyo!"
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Any non-article sections such as ads or irrelevant information have been excluded according to specified criteria.

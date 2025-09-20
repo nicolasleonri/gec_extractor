@@ -1,0 +1,60 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/03/trome_05.txt ---
+
+```json
+[
+    {
+        "headline": "MANUELITO ha metido el dedo a todos los hincha...",
+        "content": "Lo único que sabe es llenarse los bolsillos con los viáticos de la FIFA, no importándole el sufrimiento de la hinchada. Todo su gestión está llenada de fracasos. Pero él cree que esto va acabar mal."
+    },
+    {
+        "headline": "Hay un runrún que algunos ‘Rankeados’ del ascenso fueron presionados para firmar un contrato, porque no dirigían ni en los amistosos contra Inglaterra y Suiza. Como no era Fecha Fifa estaba de vacaciones nadie iba jugar. Ahora el hijo del Pelao convence. Contáran haber habido un pacto secreto donde Bielsa pedía disculpas. Me voy, soy fugado."
+    },
+    {
+        "headline": "Alter Ibéñez advierte a rivales de que Alianza logre una victoria",
+        "content": "‘FIFA respeta’. Walter Ibéñez hace advertencia a rivales de que Alianza logre una Victoria."
+    },
+    {
+        "headline": "Joazinho Araújo incidente durante partido",
+        "content": "\"Voy a llamarme alguien que los bajen de sus nubes, no tienen por qué pedir DNIPersona (su acompañante)...\" había reclamado el jugador después de ser citado por la dirección deportiva de Cristal."
+    },
+    {
+        "headline": "Inicia búsqueda del diseñador interior que lleves dentro",
+        "content": "Descubre cómo participar gratis en esta oportunidad única organizada junto a Bravo Mad School. Insícrate hoy mismo!"
+    },
+    {
+        "headline": \"El mundial está cerca y todas afilan la máquina\",
+        "content": "Selecciones clasificadas y otras que aún no están listas enfrentarán partidos amistosos antes del campeonato. La preparación incluye entrenamiento intenso y táctica refinada."
+    },
+    {
+        "headline": "Servicios Personales",
+        "content": "Ofrece servicios variados adaptados a necesidades específicas, destacando atención personalizada y calidad garantizada."
+    },
+    {
+        "headline": "Reglas gramaticales importantes",
+        "content": "Es importante recordar escribir correctamente sin usar coma innecesaria antes de la conjunción 'y' en enumeraciones complejas."
+    },
+    {
+        "headline": "Tradiciones culinarias locales",
+        "content": "Explora sabores tradicionales mediante recetas paso a paso, ideal para quienes buscan experimentar gastronomías regionales."
+    },
+    {
+        "headline": "Cómo evitar problemas cardiológicos graves",
+        "content": "Medidas preventivas clave incluyen chequeos médicos regulares y control de factores de riesgo tales como hipertensión arterial y sobrepeso."
+    },
+    {
+        "headline": "Motivos familiares detrás de decisiones artísticas",
+        "content": "Historia emotiva de una madre que percibe señales divinas respecto a la salud de su hija cantante, resalta valores familiares y fe religiosa."
+    },
+    {
+        "headline": "Continúa agenda musical internacional",
+        "content": "Después de eventos internacionales cancelados, la agrupación retoma actividades programadas fuera del país manteniendo compromisos previamente establecidos."
+    },
+    {
+        "headline": "Defensora de influencia positiva en jóvenes artistas",
+        "content": "Refuta afirmaciones negativas hacia figuras influyentes en el ámbito juvenil, defendiendo relaciones basadas en motivación y aspiraciones compartidas."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Articles were segmented based on distinct topics identified within the input data. Any missing information was marked appropriately using `"NA"` where necessary.

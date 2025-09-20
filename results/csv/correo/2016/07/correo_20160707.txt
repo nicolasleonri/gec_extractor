@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/07/correo_07.txt ---
+
+```json
+[
+    {
+        "headline": "Lo revela informe de comisión especial",
+        "content": "Ex primer ministro británico admitió haber tomado Decisiones ilegítimas en conflicto de Iraq.\n\nTony Blair dijo ayer que asume \"toda la responsabilidad\" por cualquier error cometido en la guerra de Iraq, \"sin excepción ni excusas\". En una declaración divulgada tras la publicación del informe sobre la guerra, Blair\u2014en el poder entre 1997 y 2007\u2014afirmó que tomó la decisión de \"buena fe\" y para el \"mejor interés\" de su país. \n\nBlair fue muy criticado en el informé, en el cual se indica que los datos de inteligencia utilizados para justificar la guerra fueron \"defectuosos\" y que el expresidente se comprometió a aportar fuerzas antes de agotar la opción pacífica."
+    },
+    {
+        "headline": "Siete de julio, San Fernín!",
+        "content": "\"Los jóvenes vestidos de blanco y con una pañuelo roja en la cintura hoy corean \\\"Uno de enero, dos de febrero, tres de marzo, cuatro de abril ... (pausa)... cinco de mayo, seis de junio, siete de julio\\\", San Fernín!\n\nAsí es la fiesta en Pamplona, España, que hoy celebra su día central, y cuyo origen medieval ha hecho famoso al esperado encierro de los toros que luego son soltados por las principales calles de la ciudad desde las 8 a.m. recorriendo 849 metros por delante de los toros. Comienza con el denominado Chupinazo que se realiza desde el balcon de Pamplona en honor a San Fernándo de Amiens. La festividad la hizo famosa Ernest Hemingway, y la de hoy, en la capital de Navarra, puede llegar a contar más de un millón de personas; además, del encierro cuentan los actos religiosos en honor de los santos, que se realizan desde el siglo XII, así como las esperadas ferias comerciales y las imperdibles corridas de toros. La tradición de los sanfernines llegó al Perú con los españoles y bastará mirar en nuestra hermosa serrana cómo los altoandinos recrean acrobáticas y alegoras provocando al toro para comprender que parte del sincretismo peruano-españo lo encontramos en las referidas fiestas religiosas y en las manifestaciones del folklore. San Fernández es universal, y los amantes de la tauromaquia jamás se la suelen perder. Es única en su género y le promueve a España importantes ingresos que no se vuelven a repetir durante el año, especialmente considerando que la península vive del turismo; es decir, se trata de su principal fuente de ingreso nacional. Probablemente por la reciente exención de la Visa Schengen haya más peruanos nunca en San Fernández; hagámonos lo mismo para que los europeos vengan a nuestras fiestas en Cutervo o Chota, en Cajamarca, donde encontraremos extraordinarias fiestas de toros del Perú."
+    },
+    {
+        "headline": "Marco Zuñiga Confiesa Que Pens Matarse",
+        "content": "\"He sido depresivo toda mi vida, pero siempre trataba de ocultarlo. Es una enfermedad que no la puedes ver y yo siempre pretendía que estaba bien, y eso era doloroso. Incluso pensé en el suicidio. Esta es una condición a la que hay que poner atención,\" manifestó el reconocido actor en Hola a Todos."
+    },
+    {
+        "headline": "Luca Mendez Envía Mensaje a Joven Modelo",
+        "'Le deseo lo mejor a Milett en Colonia,' Pero el Rol No Es Fácil," comentó la actriz después de hablar sobre el remake de la telenovela que está siendo desarrollada por América Televisión para 2023. Desde México, a través de cámaras de Hoy a Todos, la experimentada actriz Lucrecia Méndez, quien entre 1980 y 1981 protagonizó la novela Colorina, dio consejos a la modelo peruana Milett Figueroa, quien será la estrella del remake que está planeando Michelle Alexander. \"Definitivamente, que tenga mucho cuidado. Hay que aprender mucho y entender la psicológica del personaje,\" mencionó la interprete de 81 años reconociendo sin embargo que el papel no es fácil. "
+    },
+    {
+        "headline": "Hermando de Pablo Escobar ‘Revisa’ Narcos 2",
+        "content": "Roberto Escobar, el hermano del narcotraficante colombiano fallecido en 1993, reclamó a Netflix poder ver y revisar la segunda temporada de la serie antes de su estreno y distribución desde el 2 de septiembre de manera \"amistosa.\" \"Nadie más en el mundo está vivo para determinar la validez de los materiales excepto yo,\" indicó Escobar."
+    },
+    {
+        "headline": "Carta de Cathriona White Revela Detalles de Su Fatal Decisión",
+        "content": "Antes de quitarse la vida el 28 de septiembre de 2015, Cathriona White dejó una carta de despedida a Jim Carrey, quien había puesto fin a la relación amorosa apenas unas semanas atrás. Ayer, el portal TMZ publicó la misiva, donde la maquilladora de 35 años deja saber su difícil situación personal. \"Ya no estoy aquí físicamente, pero sé que tú podrías sobrevivir a esto. He pasado días enteros sin querer levantar cabeza. Intenté buscar ayuda profesional, pero parece que aún queda mucho trabajo por hacer dentro de mí misma,\" refiere parte del contenido emotivo de la nota enviada por White."
+    },
+    {
+        "headline": "Universitario Visitará Mercantiles Unidos en Cutervo",
+        "content": "Universitario luchar por regresar al primer lugar del Torneo Clausura y hoy, cuando enfrente a mercantiles Unidos en la plaza de Cutervo, deberá obtener una victoria crucial. Cambios tácticos están previstos según palabras del comando técnico liderado por Roberto Chale, quienes buscan mantenerse competitivos en la competencia local."
+    }
+]
+```
+This JSON contains extracted information about various articles found within the provided OCR text input while adhering strictly to the defined format requirements for headlines and contents. Articles were selected based on their relevance and completeness according to specified criteria. Any missing data was filled using "NA". This ensures clarity and usability of the structured data derived from the newspaper's textual content.

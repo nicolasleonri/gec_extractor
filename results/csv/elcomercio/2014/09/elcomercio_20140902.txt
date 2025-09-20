@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2014/09/elcomercio_02.txt ---
+
+```json
+[
+    {
+        "headline": "Filtran fotos íntimas de 100 famosas",
+        "content": "Jennifer Lawrence, Kate Upton y otras actrices y modelos en aprietos."
+    },
+    {
+        "headline": "Una concurrención cerebral leve puede originar daños duraderos",
+        "content": "El alemán Christoph Kramer no recuerda jugar la final del Mundial de Brasil."
+    },
+    {
+        "headline": "Incertidumbre. Se declara su excusa en Primera Instancia",
+        "content": "PG. A2\nLa candidatura de Castaeda queda en manos del JNE.\nPablo Bellido\nEn capilla. Jurado Electoral de Lima Centro declar improcedente su postulación por haber consignado datos incorrectos en su hoja de vida.\nGrave acusación. El presidente de Solidaridad Nacional calificó la medida de fraude y convocó a marchar hoy hacia la sede del JNE.\nPosible escenario. Si se ratifi...
+    },
+    {
+        "headline": "Teatro político: Jurado electoral retira la candidatura de Castaeda por mentir sobre sus estudios",
+        "content": "Solidaridad Nacional apelará ante el JNE, última instancia para ver el caso. Ex alcalde calificó resolución de 'fraude' y llamó a una marcha.\nPor mayoría, el JEE de Lima Centro excluyó a Luis Castaeda de la elección para la Alcaldía de Lima, ya que determinó que mintió en su declaración jurada de vida con respecto a sus estudios universitarios. La decisión no es definitiva, ya que el JNE verá el caso...\nExaminando más detalles:\nShadia Valdez sí especificó correcta...
+    },
+    {
+        "headline": "Diego García-Sayán empieza campaña personal por secretaria de la OEA",
+        "content": "Mientras que los candidatos de Guatemala y Uruguay cuentan con el respaldo público de sus presidentes, Diego García-Sayán realiza una campaña individual en Washington para conseguir algún voto. \nEl canciller señaló que la candidatura está bajo evaluación externa e interna. \"La evaluación tiene que ver con cómo esta candidatura logra o no un endoso...\""
+    },
+    {
+        "headline": "Chile envía nueva nota diplomática al Perú expresando reserva formal al nuevo mapa limítrofe",
+        "content": "\"Chile ha enviado una nueva nota diplomática al Perú expresando nuestra formal y completa reserva al mapa que fue presentado por el Presidente Humala\", explicó el Canciller Chileno Heraldo Muñoz. Agrega que buscan mantener buenas relaciones con el Perú, afectadas por discrepancias territoriales."
+    },
+    {
+        "headline": "Amado Romero niega vínculo con Sendero Luminoso después de revelación audiosa",
+        "content": "Tras filtrarse un audio donde supuestamente Admitía haber estado involucrado con Sendero Luminoso, el congresista Amado Romero afirma que simplemente había asistido a encuentros forzosos. Expresa que nunca tuvo intención de adherirse a tales grupos extremistas."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while following specified guidelines such as excluding irrelevant sections like ads and maintaining proper structure.

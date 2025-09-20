@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/02/gestion_15.txt ---
+
+```json
+[
+    {
+        "headline": "Embargos solicitados por la Procuraduria contra exdirectivos de Odebrecht",
+        "content": "Se informa que embargos fueron solicitados por la Procuradura contra cinco exdirectivos de Exsucas de Odebrecht. En el caso de José Graa, se señala que se le embarga S/ 21’028,875 millones en acciones. Sin embargo, la cifra reportada inicialmente estaba errada, correspondiendo realmente a S/ 1’028,875 millones."
+    },
+    {
+        "headline": "Finanzas: Empresas del \"Club de la Conctrucción\" deberían continuar contratando con el Estado?",
+        "content": "\"AdCap lanzará tres nuevos fondos de inversión y un fondo mutual más\", según Marco Adrián Pinho. Personas podrán acceder a estos fondos destinados a proyectos inmobiliarios de tamaño mediano, factoring y deudas locales. Además, el fondo mutuo apostará por activos extranjeros. Martin Palmer, Country Manager de AdCap Perú, explica cómo capturarán a inversionistas con medianos y altos patrimonios desde US$ 50,000 en adelante."
+    },
+    {
+        "headline": "Rentabilidad de las AFP bajo escrutinio",
+        "content": "Si bien muchos celebraron el rendimiento de los fondos de las AFP en enero, existe incertidumbre debido a fluctuaciones históricas. Entre 2008 y 2018, el fondo agrupa a más del 90% de afiliados mostró una rentabilidad promedia anual de 6.5% en dólares netos de comisiones. Sin embargo, analizando únicamente los últimos cinco años dentro de dicho período, la rentabilidad cae a sólo un 2% anual en dólares."
+    },
+    {
+        "headline": "Opinión: Profesor de economía critica concentración de inversiones de las AFP",
+        "content": "Un profesor universitario advierte que evaluar la rentabilidad de las AFP requiere análisis a largo plazo. Destaca problemas actuales como la baja liquidez del mercado de valores local y sugiere diversificar inversiones internacionales dado el contexto globalizado actual."
+    },
+    {
+        "headline": "Perspectivas económicas favorecen al oro",
+        "content": "Inteligo SAB pronostica condiciones favorables para el oro ante la posible desaceleración económica mundial y postergación de ajustes monetarios por parte de la Reserva Federal estadounidense. Factores geopolíticos también contribuyen a considerarlo un activo seguro."
+    },
+    {
+        "headline": "Plan Macroeconómico hasta el bicentenario presentado por Banco Interbank",
+        "content": "El Gerente General del banco presenta metas clave centradas en fortalecer divisiones de comercio internacional y banca digital, buscando asociaciones con fintechs. También menciona planes relacionados con la expansión de servicios ofrecidos."
+    },
+    {
+        "headline": "Participación Internacional en el Portafolio de Alicorp tras la compra de Inlacruz",
+        "content": "Discusiones panelísticas exploran cambios significativos en estructura corporativa después de la integración de nuevas compañías, impactando decisiones de inversión y dirección empresarial."
+    },
+    {
+        "headline": "Reforma legislativa requerirá aumento límite de inversiones externas de las AFP",
+        "content": "Analistas argumentan que reformular el portafolio de las AFP será complejo, especialmente elevando el límite legal de inversiones exteriores, actualmente establecido en 50%".
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure for each entry. Articles were identified based on distinct topics within the financial and political context presented in the input data.

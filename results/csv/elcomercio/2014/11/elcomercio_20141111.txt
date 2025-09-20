@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2014/11/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "Discúbase y se vote el Informe Ético",
+        "content": "Que plantea que Heriberto Bentez sea suspendido de sus funciones parlamentarias por 120 días.\n\nEl pronunciamiento multipartidario de ese grupo especial del Congreso propone también que el caso de Bentez pase a la Subcomisión de Acusaciones Constitucionales, ya que se encontraron indicios de cuatro delitos: patrocinio ilegal, encubrimiento personal, resistencia a la autoridad y fraude procesal.\n\nLa razón:\nEl motivo es uno: la presunta interferencia que tuvo el ex representante de Solidaridad Nacional –en julio del 2011– en el allanamiento fiscal a 'La Centralita', el supuesto centro de espionaje a los opositores políticos del detenido ex presidente regional de Ancash César Álvarez.\n\nBentez presentó la semana anterior un pedido ante la Comisión de ética para que dicho informe sancionador sea retirado porque existe un pronunciamiento de la Fiscalía Suprema de Control Interno que resuelve que el referido allanamiento al local de 'La Centralita' fue ilegal."
+    },
+    {
+        "headline": "Boletín Informativo",
+        "content": "- Colección Aprista Renueva: \n   Los jóvenes del APRA vuelven a manifestarse en Plaza de Armas reclamando la captura de Martin Belaunde Lossio, denominándole \"el cajero de Humala\".\n   
+     - Incidente con Alejandro Toledo: \n   En un incidente reportado, el ex-presidente Alejandro Toledo confrontó verbalmente a periodistas mientras estaba acompañado por el empresario israelí Adam Pollack.\n  
+     - Opinión Editorial: Mariella Balbi sugiere aspirar hacia un país desarrollado mediante debates constructivos enfocados en áreas clave como corrupción, seguridad ciudadana, y más.\n    
+     - Caso Martín Belaunde Lossío: Discusiones continúan respecto a su implicación en prácticas corruptas relacionadas con contratos gubernamentales.\n     
+     - Temática General: Reflexiones sobre cómo combatir la informalidad económica y estructuras corruptas persistentes en diversos sectores del gobierno."
+    },
+    {
+        "headline": "Visitas Diplomáticas y Críticas Presidenciales",
+        "content": "Durante la conferencia Asia-Pacific Economic Cooperation (APEC), el Presidente Ollanta Humala expresó preocupaciones sobre la implementación deficiente de la ley de descentralización en el Perú, describiéndola como un proceso mal gestionado. Además, instó a líderes internacionales a trabajar conjuntamente en proyectos públicos privados para mejorar el desarrollo socio-económico global."
+    },
+    {
+        "headline": "Reorganización Urbana Pendiente",
+        "content": "El Concejo de Lima aún enfrenta dificultades para regularizar a miles de ambulantes tanto formales como informales en el área central de la capital. Las discrepancias administrativas entre diferentes departamentos municipales complican el avance de esta tarea crucial, afectando directamente el flujo urbano y la economía callejera."
+    },
+    {
+        "headline": "Detención Internacional Relacionada con Actividades Extremistas",
+        "content": "Una persona originaria de Libia, identificado posteriormente como parte del grupo terrorista Hezbollah, está bajo custodia después de admitir pertenecer a dicha organización. Durante su arresto, fueron confiscados materiales potencialmente usables para crear dispositivos explosivos, elevando tensiones diplomáticas y de seguridad."
+    },
+    {
+        "headline": "Manifestaciones Ciudadanas Demandan Acción Urgente",
+        "content": "Residentes cercanos a la Carretera Panamericana Norte realizaron un bloqueo vehicular extendiendo su acción pacíficamente para insistir en la conclusión pendiente de importantes obras viales anunciadas años atrás. Argumentan impactos negativos severos causados por condiciones temporales de construcción incompletas."
+    }
+]
+```
+This structured extraction captures key elements such as headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes.

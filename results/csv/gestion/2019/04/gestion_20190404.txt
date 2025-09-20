@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2019/04/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "Resultado favorable por los proyectos de Queollaveeo y Marcobre",
+        "content": "Inversión minera no\nse detuvo pese a que\ñafronta 71 conflictos.\n\nIsyock\n'\n'Aumento 21% en febrero, aunque nuevamente cayeron los recursos destinados a la explotación de nuevas minas.\n'\nFuera de Fuerabamba comienza a perder apoyo de otras comunidades,\npero Gregorio Rojas dice que \"no dará un paso atrás\".\n'\nJuzgado condena a 36 meses de prisión preventiva a los abogados Im genek Chavez Sotelo por presunta extorsión."
+    },
+    {
+        "headline": "Todo internet que capte publicidad de Google deberá pagar impuesto",
+        "content": "Todos los sitios web que capturan publicidad de motores de búsqueda como Google tendrán que pagar un 29.5% de Impuesto a la Renta. \nAnteriormente, los dueños de páginas web pagaban únicamente un 5%. "
+    },
+    {
+        "headline": "Empresa española asegura encontrar salida económica a rescisión de contrato con Enagas",
+        "content": "\"Mañana promete salir a flote gracias a una compensación de US$ 500 millones.\" Según el periódico español El Economista, esto surge después de conversaciones mantenidas entre el Presidente Martín Vizcarra y representantes de Enagas."
+    },
+    {
+        "headline": "Destrucción histórica a pie?",
+        "content": "¿Qué significa realmente la sentencia de 36 meses de prisión preventiva emitida contra los Hermanos Chvez Soteloe? Representantes de Haquira, Mara y Tambobamba están intentando posicionarse dentro de la disputa territorial relacionada con la mina Las Bambas. Estas tensiones también involucran a diversas figuras políticas locales y regionales quienes discuten cómo proceder mientras persisten las protestas."
+    },
+    {
+        "headline": "Eficiencia Energética será requisito legal para frigoríficos y lavadoras",
+        "content": "A partir del próximo 8 de Abril, según indica Javier Ugarte, director de Indurama, ninguna nueva unidad de línea blanca puede ser vendida sin etiqueta de eficiencia energética. Esto podría generar problemas de suministros y fomentar prácticas comerciales ilegales dado el corto periodo antes de implementación."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting meaningful journalistic pieces. Other sections such as ads, subscriptions, etc., have been excluded according to the scope defined.

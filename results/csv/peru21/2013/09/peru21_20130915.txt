@@ -1,0 +1,140 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2013/09/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Defende a los programas decantantes",
+        "content": "Coach’ del reality ‘La Voz Peru’, de Frecuencia Latina, el cantante venezolano José Luís Rodríguez, ’El Puma!, defendió a los programas que les dan tribuna a los jóvenes valores de la música.\n\n“No creo que se ameriten las críticas a los realitys decantantes, son necesarios para la gente que no tiene recursos y que quiere darse a conocer, es un trampolín excelente para…”"
+    },
+    {
+        "headline": "\"Angie Jibaña responde a su expareja\"",
+        "content": "“Jean Paul me us todo el tiempo\"\nLa modelo Angie Jibaja contó que se sintió …… y afectada al enterase de que su expareja, Jean Paul Sánchez Marquina, le había dicho que no extrañaba a sus dos hijos. “Me usó todo este tiempo, fueron cuatro años de relación falsa. Pensé que no firmaba a mis hijos porque no podía y no porque no los quería firmar”, declaró a Punto Final.\n\nAsí mismo, desmintió que se haya embarazado con la intención de retener a Jean Paul."
+    },
+    {
+        "headline": "¿Continuará Carlos Cabrera en \"Al fondo hay sitio\"?",
+        "content": "Es posible que tu personaje ‘Carlos Cabrera’ continúe en ‘Al fondo hay sitio’ el próximo año ya que ‘Charito’ lo ha aceptado?\n\n“No sé qué va a pasar en la historia, pero estoy muy contento de cómo se están dando las cosas con mi personaje. Yo tengo otras propuestas, pero sería delicioso y un honor continuar en la serie. Estaría siempre contento de seguirla.”
+    },
+    {
+        "headline": "Beyoncé cierra fiesta musical con éxito",
+        "content": "Con una espectacular y sensacional presentación, la reina estadounidense Beyonce puso el broche de oro en la noche inaugural del esperado festival Rock in Rio 2013.\n\n“Aproximadamente 85 mil personas se movilizaron al ritmo de la diva de la música, quien hizo vibrar el gigantesco Palco Mundo – montado en la Ciudad del Rock – durante 90 electrizantes minutos. Interpretó versiones de temas como Human Nature, de Michael Jackson, y Love To Love You Baby, de Donna Summer.\n\nBeyoncé, quien tuvo hasta ocho cambios de vestuario, también deleitó al público con sus famosos éxitos I’m Sorry, Irreplaceable, Love On Top, Crazy In Love y Single Ladies, entre otras. Para cerrar su show, la artista sorprendió interpretando una versión del funk carioca O Passinho Do Funk Festival Fantástico, de MC Federado. Previo a esto, la cantante brasileña Ivete Sangalo y el Dj francés David Guetta encargaron la previa de esta extenuante velada nocturna."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles related to cinema listings were excluded due to lack of substantial journalistic content.
+
+--- ERROR ENTRY: data/txt/peru21/2013/09/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Abrazála tú",
+        "content": "Hoy en día, uno pensaría que...\n\nInvo\-ca a las \npersonas a que sean \"ojos\ningunos\" de la Policía\npara dar con \naparcialidad de niña.\n\n'Ebrazála tú'\nes el nombre de\nla campaña que comenzó ayer la\nmina de la Mujer, Ana Jara,\npara localizar a la pequeña\nBañoleta Cinthia Leonarde Cabrera,\nraptor hacéase días en el Hospital\nArcobispo Loayza."
+    },
+    {
+        "headline": "Desesperación, esposo y esposa esperan a su pequeña.",
+        "content": "\"Un día como hoy vino a iluminar mi vida. ¡Quiero que estés aquí!\nPide angustiadamente la madre a la raptor.\n\nÉl y su pareja tratarán de animarse mirando fotos y juguetes de su querida Bañoleta.\n\nLa tarde anterior se celebró una misa por el rápido regreso de la criatura. Posteriormente, habitantes de Puruchuco organizaron una velada nocturna."
+    },
+    {
+        "headline": "Anunciada Reforma",
+        "content": "Con la próxima modificación del transporte público urbano, aproximadamente 3,000 trabajadores podrían quedar cesantes. Sin embargo, la municipalidad promete capacitarlos para reintegrarlos al mercado laboral.\n\nEste programa incluye colaboración con instituciones educativas públicas para facilitar nuevas oportunidades profesionales."
+    },
+    {
+        "headline": "Biología Canina",
+        "content": "Existen varios alimentos prohibidos para alimentar a tus perros debido a sustancias nocivas como la teobromina presente en chocolate, cafeína, lácteos, alcohol, etc. Además, erradicar falsos conceptos sobre dietas adecuadas para ellos es crucial para mantener su buena salud."
+    },
+    {
+        "headline": "Dr. Rodrigo Rodón Opina",
+        "content": "Muchos propietarios de perros cometen errores al proporcionar ciertos tipos de comida que resultan dañinas. Entre los más frecuentes está el compartir chocolates o productos con café, ambos conteniendo componentes altamente tóxicos para los caninos."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion criteria and data cleanup processes.
+
+--- ERROR ENTRY: data/txt/peru21/2013/09/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCOS DEL MARTILLO",
+        "content": "Hoy en da, uno pensara que... "
+    },
+    {
+        "headline": "CONTENTO POR FIN DE CUARENTENA!",
+        "content": "Estoy feliz porque... "
+    },
+    {
+        "headline": "URGENTE: SE BUSCA PERRO PERDIDO. RECOMPENSABASESOLES:",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huaman ordenó..."
+    },
+    {
+        "headline": "EXIGEN PUENTE PEATONAL EN CRUCE",
+        "content": "> ---> Sandra Portal\n=: Puente Piedra\n\nFrente al cementerio Buen Retiro se debe construir un puente peatonal pues los otros pasan por la Panamericana Norte a toda velocidad. La mañana del jueves \natropellarón a un hombre en esa zona.\n\nSe requiere la intervención urgente de las autoridades."
+    },
+    {
+        "headline": "EL CROWNE PLAZA ABRI SU CHILEÑOS BAR",
+        "content": "(Benavides 300, Miraflores) abiéron su barra libre por S/.55, De 7 a 9 p.m.\n\nGASTRONOMÍA.\n\nMI LLUVIOSA COCINA\n\nde Virgilio Martinez en restaurant Senzo,\ndos vinazos de S\n--Noema y Angels Cava, Central\n\nEscenses\n\nCuve– y un pisco\nnos hicieron la vida más feliz en Cuzco. Nos llevó a...\nPATIO MARIA\n\nBODEGA NOEMA\n\nen Después del amor no hay placeres mas intenso que el comer y el beber. Y ahí vamos\na Cuzco, al bello hotel Palacio Nazarenas, ubicado en un convento religioso colonial que ahora se ha convertido, con buen gusto, en uno de los mejores de la ciudad Imperial.\n\nY esto se realza aún más ya que su restaurante, Senzo, está dirigido por Virgilio Martinez, el gran chef peruano asegurándole así la calidad de la comida. Claudia Eraso, sommelier de Orient Express – cadena a la que pertenece el palacio Nazarenas-, nos recomendó dos vinos para acompañar los platillos de Virgilio: un Noema 2020 Malbec (Argentina)\net un Angél’s Cuve Blanca de Bianco 2004 (80% Chenin, 10% Trebbiano y 10% Viogner, un blanco uruguayo único en su género pues fermentó y envejece como un Jerez).\n\nEraso menciona que el Ánge’ls posee una nariz compleja, con aromas a leche fresca y durazno, almibar, ciruela y hierbas – elegancia pura -, razón por la cual combina perfectamente con paiche en costra de tocino y...\nporque posicionó a Central, su restaurante limeño, dentro de los 50 mejores del planeta. Cambió totalmente nuestras sensaciones gustativas gracias a unas salsa de cerdo \"porque recoge todos los sabores del vino\" junto con quesos y...\n\nAl Noema –“sutil y maduro"- le funcionó genial con la malaya ‘‘pues el dulzor leve de la salsa se conserva y no pierde la fruta’. Para finalizar, optamos por abrir un Cholo Mate Toro, continuamos felices.\n\nPosteriormente visitamos el restaurante Senzo, del Hotel Palacio Nazarenas donde experimentamos la máxima expresión de alegría gastronómica."
+    },
+    {
+        "headline": "SAUVIGNON BLANC NON BLANC DE VIÑA MARÍA",
+        "content": "\nDesde Nueva Zelandael vino Sauvignons Non Blanc de Vinña María, una bodega creada hace más de 50 años por Geoffisonich, dueño del viñedo más premiado de Nueva Zelandia. Esta bodega dispone de variedades en Marlbrough, considerado actualmente el santuario moderno de la Sauvignon Blanc. Además, la región también elabora excelentes vinos de Pinot Noir, una cepa que valora especialmente climas templados que ayuden al vino a preservar su frescura, elegancia y tonos afrutados. Este vino presenta características típicas de la cepa, cerezas y grosellas además de sutilezas especiarias derivadas de su crianza en barricas de roble francés. Su versatilidad permite combinación con carnes asadas. Año: 2011. Región: Marlbourgh (New Zealand). Variedad: Pinot Noir. Alcohol: 33.5 %. Servicio: 15-17°C. Precio: S/115 (Wong)"
+    },
+    {
+        "headline": "JAIME DIEZ-CANESEO",
+        "content": "http://www.josiediezcanseco.com\nTeléfono: 422-7720\n\nARIES: pasarás graciosos momentos junto al ser amado, número de suerte, 17.\n\nTAURO: la atención hacia tu persona estará centrada en ti. Número de suerte, 6.\n\nGÉMINIS: decidirás tomarte algunos compromisos que no te satisfagan. Número de suerte, 13\n\nCÁNCER: eres tú quién descuidó tu vida afín, corrígela antes de que sea demasiado tarde. Número de suerte, 9.\n\nLEO: tendrás encuentros con gente del pasado que podrían confundirte. Número de suerte, 1.\n\nLIBRA: será un excepcional y confortante día para ti. Número de suerte, 5.\n\nESCORPIÓN: estarás de buen ánimo irradiando muchísimo magnetismo. Número de suerte, 14.\n\nSAGITARIO: preferirás gozar tus buenas vibras sentimentales. Número de suerte, 2.\n\nCAPRICORNIO: tendrá muchos compromisos sociales y distracciones. Número de suerte, 12.\n\nACUARIO: después de discusiones, volverá la tranquilidad a tu hogar. Número de suerte, 16.\n\nPISCIS: surgirá alguien especial provocando una atracción inevitable. Número de suerte, 22."
+    },
+    {
+        "headline": "\"NO HAY NADA NUEVO SI DIGO QUE QUIERO DIRIGIR A LA SELECCIÓN\"",
+        "content": "Roberto Mosquera\n\nJuán Aurich se postula para tomarla 'Blanquirroja'\n\nLIGUILLA A. ALLIANZA GOLEÓ 3—0 A UNION COMERCIO Y MANTIENE ESPECULACIONES DEL TÍTULO\n\nLA MARCA INTIMA 23\n\nCienciano Vs. José Gálvez\n\nGodtv\n\n11:00H (EN VIVO)\n\nWilmer Aguirre (2) y Guevgeoziń marcaron. 'Granes' están a ocho puntos del líder Garcilaso.\n\nCarlos Bernú Flores\n\ncbernuflore@peru21.pe\n\nMarca tu camino, Alianza; alcanza el horizonte al cual te diriges aun sin saber qué habrá all. Marcarlo con la 'Z' del Zorro', que desenvaina la espada del gol y traza sobre la piel comerciantesa su huella. Marcarlo con sangre y tinta blanquiazul, para que quienes lean sepan que vas a luchar. Y el segundo paso de esta lucha fue el 3—0 contra Union Comercio.\n\nPorque el primero había sido un buen partido en Uruguay. Pero el de ayer demoró en desarrollarse, aunque terminó decidiéndose, Andersen no tenía precisión para habilitar y Vilamarin no era el lateral que sube y baja por derecha. Ciucciagen su batalla en el mediocampo, pero Bažn fue intermitente. Lo mejor estuvo arriba, y remarqué lo que digo, Aguirre encar siempre y pasó a Lechner y a Anderson, mientras que Guevgeozin fue un tanque de combustible ilimitado.\n\nA los 3’, la tuvo el Zorro, pero el portero Azurm –ex-Alianza- salvó el intento. Sin un creador, Alianza ingresó en área vacía y Comercio intentó asustar con subidas de Traco por la banda izquierda. Además, el remate al poste de Aguirre (27’) no encontró ese toque de fortuna, esa pizca de azar que tampoco halló Guevgeozin a los 35’ cuando lanzó un remate a tres dedos.” Visto estaba que la situación iba a complicarse.\n\nMarcadores contragolpes:\n\nDos minutos tardó Alianza en encontrar el sendero señalizado por el destino. La resistió el Armenio y mandó un pase largo para la escapatoria y la culminación de Aguirre. Guevgeozin seguía sin conseguir su gol, pero sí ofreció otra magnífica habilitación para el Zorrito’ a los 68’. El delantero dibujó su progresión y cerró de pierna derecha, pero, como el futbol a veces es equitativo, a los 90’ el Armenio aprovechó un fallo de Azurm y colocó la testa para el tercero. Posteriormente, Baylon recibió tarjeta roja injustificadamente, Como Zorro’ de películas, Alianza grabó su insignia en carne ajena. Para infundir temor, para declarar existencia vigilante y esperanzadora."
+    },
+    {
+        "headline": "CENTRAL VS SPORTING CHRISTAL CMD",
+        "content": "13:00H (EN VIVO)\n\nUTC VS. UNIVERSITARIO MD/CANAL7\n\n1530 H (EN VIVO)\n\nLiga italiana\n\nLAZIO VS. CHIEVO ESPN+, LP*\n\n2001 UEN VVO)\n\nLiga española\n\nBETIS VS. VALENCIA DTV:610\n\n13:55 H (EN VIVO)\n\nLiga argentina\n\nARSENAL VS. RIVIERA PLATE ESPN+\n\n19:00H (EN VIVO)\n\nBIG LEAGUE BASEBALL MLB\n\nYANKERS VS. RED SOXS ESPN3\n\n19:00H (EN VIVO)\n\nFUßBALL LIGUIILLA A\n\nGARCILASO CAE ANTE LOS POETAS\n\nCEsar Vallejo (30° con 49) derrotó en Cajamarquedel Real Garcilaso (1º con 58) por 2—0 y prendió alerta en la liguilla A. Daniel Chvez de cabeza (59') y Germn Alemann de derecha (74') anotaron para los poetas.'\n\nPor la misma llave, Sport Huancayo superó 1—0 a Melgar con gol de Ryan Salazar (7'). Por la liguilla B, Inti Gas venció 2—0 al Leon con goles de Oliveira (35') y Orejuela (90')"
+    },
+    {
+        "headline": "PTBOLO. LIGUILLA A",
+        "content": "Garcilaso cae ante los 'Poetas'"
+    },
+    {
+        "headline": "FC Barcelona vence al Sevilla",
+        "content": "Claudio Vivas lidera al FC Barcelona en victoria ajustada frente al Sevilla con gol decisivo de Alexis Sanchez en el último minuto."
+    },
+    {
+        "headline": "'Bale' un empate",
+        "content": "Real Madrid solo pudo empatar 2—2 en casa del Villarreal a pesar de contar con el multimillonario fichaje de Gareth Bale, quien contribuyó con un gol crucial."
+    },
+    {
+        "headline": "Matrimonio Civil",
+        "content": "Edicto matrimonial anunciando la inscripción civil previa al casamiento de Degoberto Quenuendra y Carla Cabrera Aguilar."
+    },
+    {
+        "headline": "Prescripci\u00f3n Adquisitiva de Dominio de Ve\u008dculo",
+        "content": "Anuncio legal respecto a la transferencia de propiedad vehicular mediante prescripción adquisitiva según ley aplicable."
+    },
+    {
+        "headline": "Disolución Empresarial",
+        "content": "Notificación oficial de disolución voluntaria de la empresa Graza E.I.R.L conforme a legislación correspondiente."
+    },
+    {
+        "headline": "Boxeo. Lesiones Crónicas",
+        "content": "Jonathan Maicelo enfrenta problemas médicos relacionados con artrosis severa en sus manos, advirtiendo riesgos adicionales significativos."
+    },
+    {
+        "headline": "Controversias Musicales Internacionales",
+        "content": "Exploración de videos musicales controvertidos prohibidos globalmente, destacando casos emblemáticos como aquellos de Madonna y Britney Spears."
+    },
+    {
+        "headline": "Defensa de Reality Shows",
+        "content": "Jose Luis Rodriguez ('El Puma'), coach de 'La Voz Peru,' argumenta favorablemente sobre la importancia cultural y profesional de los shows de talento musical."
+    },
+    {
+        "headline": "Angie Jibaja critica relación anterior",
+        "content": "Modelo Angie Jibaja manifiesta sentirse utilizada durante su relación con Jean Paul Santa María, refiriéndose específicamente a temas familiares pendientes."
+    }
+]
+```

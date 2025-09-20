@@ -1,0 +1,81 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2014/07/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "La importancia de la presunción de inocencia",
+        "content": "o puede ser negado en casos en que \nexista una sentencia judicial firme condenatoria.\n\nDe otra manera se estará violando su derecho a la presunción\nde inocencia."
+    },
+    {
+        "headline": "Problemas políticos y judiciales en Cajamarca y Pasco",
+        "content": "\nPor supuesto, esto trae tremendos problemas...\n\n...Resolver definitivamente la situación de sus presidentes regionales es particu-larmente importante,\npues atravie-san situaciones económicas sumamente preocupantes..."
+    },
+    {
+        "headline": "Humor Profano",
+        "content": "- MariO Molina -\n\nEL TABANO\n-DaMita De HierRo-\n\nEl rico Mal-zón en la Rica Vicky\n\nMuchos de ustedes recordarán al juez Maíz Urbi-na,..."
+    },
+    {
+        "headline": "Polémica política en Lima Metropolitana",
+        "content": "Durante el gobierno de Susana Vil-larín se han celebrado tres procesos electorales dis-tintos...",
+        
+    },
+    {
+        "headline": "Filosofemas",
+        "content": "\"Y por vida de tus ojos, que son de mis ojos vida, que nuestra amistad despida cual-quier ocasión de enojos\".\n\nALEMANIA O ARGENTINA?\n¿Quién ganará?"
+    },
+    {
+        "headline": "Mirada de fondo",
+        "content": "ARGENTINA Y LOS 'HOLDOUTS'\niván Alonso\n\nECONOMISTA\n\nLa Presidenta argentina, Cristina Kiri-chner, calificó en su momento de extorsion-in el pedido que hiciera un grupo de acreedo-res…"
+    },
+    {
+        "headline": "Universitarios",
+        "content": "HACE DOS SEMANAS ESTUVIESE EN EL NORTE DEL PAÍS Y ME DETUVE EN LA PUERTA DE UNA UNIVERSIDAD DE RECIENTE FORMACIÓN...."
+    },
+    {
+        "headline": "Verdadero Reforma",
+        "content": "Con tanta discusión sobre esta ley, estamos dejando de lado los temas más importantes."
+    },
+    {
+        "headline": "El Habla Culta",
+        "content": "Pasar pellejeras. Pellejera es un derivado femenino de pellejo ‘prosti-tuta de baja ralea', que viene a su vez de piel con el sentido de ‘rama-era'..."
+    },
+    {
+        "headline": "Contacto Cartas",
+        "content": "DIRECTOR GENERAL:\nFRANCISCO MIR QUESADA C.\n\nIMPORTANTE: Adjuntar nombre completo y número de DNI."
+    }
+]
+```
+This JSON captures each distinct segment identified within the provided input based on headlines and associated contents while adhering strictly to the defined extraction rules. Articles lacking explicit headings have been assigned `"NA"` where appropriate. This ensures clarity and maintains structural integrity across extracted data points.
+
+--- ERROR ENTRY: data/txt/elcomercio/2014/07/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "Logró que el Jurado Electoral de Arequipa aceptase su inscripción como candidato a la presidencia de su región por mandato judicial",
+        "content": "Octubre. Logr que el Jurado Especial Electo\-ral de Arequi\-, pa acep\- tase su \n\ninscripci\u00f3n como candidato a la presidencia de su regi\u00f3n por man\- dato judi\- cial.\n\nEso sí, a partir del lunes habr más de una tacha."
+    },
+    {
+        "headline": "Ay ay ay! Candidaturas políticas en disputa",
+        "content": "\n\n-Ayer se frustró la aprobación del plan de trabajo de la comisión del Con\- greso que investiga el caso del ex operador montes\- ninista Scar López Mesenas, y que incluía solicitar el levanta\- miento del secreto ban\- cario, de las comunica\- ciones y tri butario a 20 perso nas.-\n\nEl presidente de la comisi\u00f3n, Juan Dázs Dio,s,\n\nacus a su col ega Yonhy Le scano de fr ustrar la sesión porque nunca se presentó a la sa\- la de reuniones. \"Lo he visto pasearse más de 20 veces por el pasillo\", di jo. L escano estába en la Co\- misió n de Fi scalización.\n\n-Dáz Dí os lamentó que se frustrara sesión.\n\n-Viernes 11 de julio del 2014\n\n-Anoche se reunió la bancada oficialista en Palacio. La opción de Ma ri sol Espinoza, respal\- dad a por grupo parlamentario, fue deja\- da de lado.\n\n-Juan Pon ces/\n\nArchivo\n\n-Hugo Pre z/\n\nArchivo\n\n-La jornada de anoche fue clave en la definición del candidato oficialista a la Presidencia del Congreso. Fre dy Otto ra, quién act ua mente ocupa ese cargo, le dijo esta sem ana al mand atario O llanta Hu mal a que no pretendiese postular a la reelección. Esta declinación colocó al oficialismo en una disyuntiva: las parlamentarias Mari sol Espinoza, representa nt e por Pi ura y actual vicepresidente de la Re pu bl ica, y An a María So lr zaño, na tural de Arequi pa, presidenta de la Comisión de Inteli gienci a del Congreso. Esta última hac ia poc o tiempo tenía seri as posi bilidades de as umir la car tera minist erial de la Mu jer y Po bli caciones Vul nerabl es.\n\n-Se sabe que el Comercio recibió ayer información de que en ho ras de la tar de circularon en los despachos de los legisladores oficialistas una carta de respaldo para que Espinoza fuera la candidata a la presidencia del Congreso. Estaba firmada por 22 de los 42 parlamentarios oficialistas (sin contar a la suspendi da Ce nai da Uribe).\n\n-Betw een them there were important figures of nationalism such as Dani ell Ab ugatt ss, Jo sé Urq ui zo and Om ar Che had e. Who promoted this expression of support for Espinoza was the parliamentarian Esther Saave dra.\n\n-In official circles it was commented that Sol rzano would be the candidate supported by Palace Government to succeed Ot rol a.\n\n-Anoche fueron convo cados a Palacio de Go bierno los congressistas offi ciali stas para resolver este asunto. According to what we know, a faction within the government insisted that it would not be convenient for Espinoza to assume the presidency of Congress because she is currently the sole Vice President of the Republic. But the discussion became heated. Those who backed Espinoza even suggested that Sol rzano, despite his closeness to the presidential couple, did not have more experience managing parliamentary affairs than others.\n\nIt was urgent to reach an agreement since President Humala leaves tomorrow abroad. And shortly before midnight it was known that the chosen one is Ana Maria Sol rzano."
+    },
+    {
+        "headline": "Clarificación de Urresti niega responsabilidad en muerte de minero",
+        "content": "-El ministro del Interior, Daniel Ur resti, re ch azó la denuncia que la Fed era cin Miner a de Made ra de Dios le form uló por la muert e del miner o Americo Laur a Pri zarro, ocurrida el 8 de abril duran te la hu ela mini era. Luís Ottuk a, director de los mine ros ilegal es, responsable a Ur resti de los disparos que hi zi ó la Polic ía a Lau ra. El min istro dijo que en esa ocasión él estaba en Li ma y no tu vo influencia alguna sobre la acción policiál. \"Esta denuncia no tie ne asidero\" agregó."
+    },
+    {
+        "headline": "Audencia en piedras gordas Tribunal resolverá si Santos continúa en prisión",
+        "content": "-El suspendido presidente regional de Cajama raca, Gre gor io Santoss, sustent ayer, a través de su defensa legal, la apelación que interpuso para cambiar la medida de prisión preventiva de 14 meses que cum ple en el pen ali de Pie dras Gordas. El abog ado de Sant oss, F ide l Rojas, solicitó a la Sala Pen al de Apelaciones que cambié dicha medi da por la de compa recencia restrictiva. Los int égrates del tribunal dejarón al votó dicho pla net amient o. Su resolución será conocida dentro de dos días."
+    },
+    {
+        "headline": "Procuradora pide ampliar investigación del 'Casó La Centralita'",
+        "content": "-El procu rador anti corr upción Christian Salass se quejó porque la fiscal no resolvía el pedido realizado por su departamento para ampliar la investigación del Caso \'La Centra lit a\'. Indicó que no sólo buscan incorporar a Rol dof Oliv erraña, sino también a jueces, fiscales y policías que podrían haber estado involucrados en la organización criminal liderada por Cesár Ivarrés."
+    },
+    {
+        "headline": "Fragmentación política se detiene según Jaime de Altshaus",
+        "content": "-Para estas elecciones hubo 151 candidatos a presidente regional presentados por partidos políticos, 147 correspondientes a movimientos regionales y 13 candidatos postulan por alianzas (usualmente entre un partido y un movimiento regional).\n\n-Las regiones con mayor oferta electoral son en total 311 listas para 25 regiones: un promedio de 12 por cada una. Las regiones donde se han presentado más listas de candidatos son Tumbes (21), Tacna (19), Arequipa (18), Ancash (16) y Lima Provincias (15)\n\n-Parte de la explicación puede estar en el cambio normativo que aumentó de 1% a 3% del padrón de electores la cantidad de firmas válidas que partidos y movimientos deben presentar para registrarse. Pero aún así, la presión centrifuga siguió siendo tan intensa que para estas elecciones se inscribieron 218 movimientos regionales, una cantidad sumamente grande.\n\n-No hemos calculado para las municipalidades provinciales y distritales si el número de movimientos regionales o locales se incrementará o no, pero si se repetirá el mismo fenómeno podría inferirse que el proceso de fragmentación creciente del sistema de partidos se ha detenido después de más de dos décadas de división, y quizás estamos comenzando a ver el principio de un punto de inflexión. No solo el número de movimientos regionales ya no creció después de duplicarse de elección en elección, sino que el número de partidos viene disminuyendo y algunos están tratando de volver a tener presencia en las regiones y provincias del país. Observaremos si los resultados acompañan y si pueden revertir la tendencia mucho más pronunciada hacia que el porcentaje de alcaldes electos pertenecientes a partidos haya sido cada vez menor.\n\n-Una posible razón detrás de esto podría ser el cambio regulatorio mencionado anteriormente. Además, fortalecer aún más los criterios requeridos para registrar movimientos regionales y locales, aumentando la barrera legislativa para coaliciones y adoptando sistemas de distritos uninominales, que tienen el efecto de afincar a los partidos, reconstruir canales de representación y limitar el número de partidos obligándoles a fusionarse con grupos mayores si aspiran a ganar elecciones. Ahora depende del Congreso tomar decisiones al respecto."
+    }
+]
+```

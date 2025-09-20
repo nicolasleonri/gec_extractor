@@ -1,0 +1,42 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/02/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "Función y características del refrigerador",
+        "content": "Portátil 19000 grumsenso Display LED visualiza temperatura, configuración del temporizador, programa autoreinicio después de cortes eléctricos, ventiladores incluido filtro lava bandejas."
+    },
+    {
+        "headline": "Detalles técnicos de los modelos de ventiladores",
+        "content": "Ventilador modelo Paris, pantalla de cristal para tres luces ahorradoras, acabado plateado.\n\nVentilador modelo Nina, pantalla de cristal para luz ahorradora, acabado plateado brillante disponible en negro y blanco."
+    },
+    {
+        "headline": "Operación de bandas criminales",
+        "content": "\"Se buscó a líderes de la banda ‘La cruz de Piura’ responsables de extorsiones y secuestros, acumulando más de 12 millones de dólares. Detención de principales implicados incluye al jefe Dennis Cruz alias Cara de balón.\""
+    },
+    {
+        "headline": "Investigación policial sobre actividades ilícitas",
+        "content": "Actividades ilegales involucraban chantajes a contratistas y manejo de tierras invadidas seguida de ventas fraudulentas. Operativa liderada por personal corrupto dentro de instituciones públicas."
+    },
+    {
+        "headline": "Proceso judicial continuará",
+        "content": "A pesar de acciones legales previas, fiscalía sigue proceso contra autoridades locales por corrupción relacionada con licitaciones municipales."
+    },
+    {
+        "headline": "'Brand New Noté'",
+        "content": "Promoción especial ofreciendo descuentos significativos en colegios universidades e institutos durante Febrero."
+    },
+    {
+        "headline": "Psicológicamente preparándose para el Día del Amor",
+        "content": "Profesionales sugieren aprovechar días festivos para mejorar relaciones personales y fortalecimiento emocional independiente."
+    },
+    {
+        "headline": "Reforma educativa financiera",
+        "content": "Acciones judiciales continúan contra administrador municipal Carlos Burgos debido a irregularidades financieras detectadas."
+    },
+    
+]
+```
+This JSON captures key sections identified within the provided input while adhering strictly to the outlined extraction criteria. Articles were segmented based on distinct topics such as product descriptions, crime reports, ongoing investigations, promotional offers, psychological advice related to Valentine's Day, educational financial reforms, etc. Any non-article elements like ads have been excluded according to guidelines.

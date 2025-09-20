@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2018/06/elcomercio_06.txt ---
+
+```json
+[
+    {
+        "headline": "Flexibilidad en regulación de vacaciones",
+        "content": "Lo señalado nos debería llevar a reflexionar sobre la necesidad de flexibilizar la regulación de las vacaciones en cuanto a la posibilidad de fraccionar los períodos de goce físico, siguiéndonos el criterio establecido en el Convenio 52 de la Organización Internacional del Trabajo."
+    },
+    {
+        "headline": "Negociaciones en Mina Escondida",
+        "content": "[AGENCIA] El precio del cobre, del que Chile es mayor productor mundial, toc niveles máximos en seis semanas ante el temor a una nueva huelga en la mina chilena Escondida. Al cierre de las transacciones el metal rojo cotizaba en US\$7.084,50 por tonelada en la Bolsa de Metales de Londres.\n\n--Huelga---\nThe Friday, el sindicato de la mina chilena operada por BHP Billiton, indicó que había iniciado una ronda de negociaciones. \n\nThe company has a deadline of 10 days for responding. From that date onward, the negotiation process formally starts which has its maximum date set at July 31, when the collective contract expires."
+    },
+    {
+        "headline": "Indicadores económicos",
+        "content": "-22- INDICADORES EL DÍA\nPER GEN +0,29%\nANTERIOR +0,52%\nDOW JONES -0,05%\nANTERIOR +0,72%"
+    },
+    {
+        "headline": "Modificación Ley Promoción Agraria",
+        "content": "Postergado el Debate de Cambios al Regimen Agrario. Por unanimidad, la comisión agraria del Congreso de la República decidi postergar por una semana el debate sobre el proyecto preliminar que plantea modificar la ley de promoción agraria."
+    },
+    {
+        "headline": "Resumen Semanal Selección Peruana",
+        "content": "Conoce a Suecia, el equipo contra el que la blanquirroja enfrentará este sábado en Gotemburgo. Muchas similitudes en comparación a Dinamarca, el primero rival en Rusia. Metódico, analítico y disciplinado así es Ricardo Gareca. Su estrategia consiste en elegir rivales según lo próximo que se avecine."
+    },
+    {
+        "headline": "Ofertas Europeas para Miguel Trauco",
+        "content": "Según Radio Ovación, José Chacn explicó que existen intereses de clubes españoles, belgas y alemanes hacia Miguel Trauco debido a su bajo rendimiento reciente en Flamengo."
+    },
+    {
+        "headline": "Primer Partido de Liga Después del Descanso",
+        "content": "Sporting Cristal juega hoy contra Real Garcilaso buscando mejorar su posición en el Torneo Apertura después de haber tomado un breve periodo de descanso."
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided text snippet while adhering strictly to the defined structure and guidelines. Articles were identified based on their headlines followed by relevant content sections. Non-article elements like indices, schedules, etc., have been excluded according to specified criteria.

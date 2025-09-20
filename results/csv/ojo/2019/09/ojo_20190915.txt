@@ -1,0 +1,47 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2019/09/ojo_15.txt ---
+
+```json
+[
+    {
+        "headline": "Logró escapar linchamiento gracias a Policía",
+        "content": "La enardecida población intentó linchar al sujeto, pero éste fue rescatado por la Policía."
+    },
+    {
+        "headline": "Dos accidentes cobran varias víctimas mortales",
+        "content": "\"Niñas personas fallecieron y cerca de 50 resultaron heridas en dos siniestro que se registraron en las regiones de Lambayeque y Cajamarca.\" \"El primero ocurrió a las tres de la madrugada, en la provincia de Huarmey. [...] Otros 18 resultaron heridos, entre ellos menores de edad. Los más leves fueron evacuados al hospital de Huarmey, mientras que los de mayor gravedad fueron derivados a hospitales de Chimbote y Barranca.\"
+
+\"El segundo accidente se registro la tarde de ayer en la región Lambayeque, donde un triple choque acabó con la vida de tres personas y dejó al menos 29 heridos. Allí, un autobús que transportaba a 25 pasajeros del fundo Plantaciones del Sol impactó contra una minibús y una combi con pasajeros, en el kilómetro 82 de la antigua Panamericana Norte, en el sector Santa Rosa de la comunidad Collánac. Uno de los heridos le amputaron [...]"
+    },
+    {
+        "headline": "Nuevo Huracán Amenaza Archipiélago Bahames",
+        "content": "Bahamas no para de sufrir a causa de la tormenta tropical Humberto, que podría convertirse hoy en huracán, según reportes meteorológicos. Esta situación representa una nueva amenaza para el archipiélago aún recuperándose de los devastadores efectos causados anteriormente por el huracán Dorian. Existe también la probabilidad de que la tormenta realice un cambio de dirección evadiéndo así las proximidades de las costas bahamesas aunque persistirá la expectativa de intensas precipitaciones."
+    },
+    {
+        "headline": "Confirmada Muerte de Hamza Bin Laden",
+        "content": "El presidente estadounidense, Donald Trump confirmó la muerte de Hamza Bin Laden, hijo de Osama Bin Laden y considerado líder actual de Al-Qaeda. Este hecho ocurre durante una operación antiterrorista llevada a cabo por fuerzas militares de EE.UU. en la frontera entre Afganistán y Pakistán. Trump enfatizó cómo esto supone un duro golpe para Al-Qaeda, privándolo de habilidades clave de liderazgo y conexión histórica familiar."
+    },
+    {
+        "headline": "Roban Inodoro Hecho de Oro",
+        "content": "Un peculiar incidente involucró el robo de un inodoro elaborado completamente en oro de 18 quilates valorado aproximadamente en un millón de libras. Este artefacto había estado expuesto temporalmente en Blenheim Palace, residencia ancestral del famoso político inglés Winston Churchill. Además de servir propósitos decorativos, el inodoro era utilizado ocasionalmente por visitantes interesados en experimentarlo físicamente."
+    },
+    {
+        "headline": "Policial Dirige Baile Folklórico",
+        "content": "Durante un evento cultural destinado a exhibir música y danzas folklóricas, un oficial de policía tomó control improvisado de la conducción musical, bailando junto a la agrupación participante. Esto generó risas y admiración entre espectadores, demostrando un momento único de integración comunitaria y cultura popular."
+    },
+    {
+        "headline": "Yovita Barzola Protege Reserva Natural",
+        "content": "Como residente comprometida, Yovita Barzola dedica su energía a preservar la integridad ambiental de las Lomas de Mangomarca, ubicadas en San Juan de Lurigancho. Su rol implica supervisión activa de actividades ecoturisticas, educacion ambiental y defensa legal contra proyectos destructivos impulsados por especuladores inmobiliarios. Ella aspira a consolidar estas áreas bajo protecciones gubernamentales adicionales."
+    },
+    {
+        "headline": "Obispo Ortodoxo Distribuye Agua Bendita desde Helicoptero",
+        "content": "En un gesto poco usual, el obispo ortodoxo de Tver utilizó un helicóptero cargado con barriles de agua bendita para distribuir dicha sustancia sagrada sobre un pequeño pueblo ruso. Argumentó que esta acción tenía fines purificadoros para sus feligreses dispersos geográficamente."
+    },
+    {
+        "headline": "Real Madrid Empuja Sus Limites Para Ganar",
+        "content": "En un emocionante enfrentamiento futbolístico, el Real Madrid consiguió imponerse al Levante con marcador ajustado de 3–2. Benzema y Casemiro marcaron los tantos decisivos permitiendo mantener la posición competitiva del conjunto merengue en la tabla española."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were selected based on substantial journalistic value, excluding irrelevant sections like ads or non-content elements.

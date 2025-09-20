@@ -1,0 +1,50 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2016/03/correo_02.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOC DO EL MARTILLO",
+        "content": "HOY EN DÍA UNO PIENSO QUE ESTÁ TODO MAL."
+    },
+        {
+            "headline": "CONTENTO POR FIN DE CUarentena!",
+            "content": "¡Qué felices días!"
+    },
+
+{
+        "headline": "",
+        "content":
+                "¿Cómo te sentiste durante estos meses?"
+},
+        
+```
+```markdown
+## Your task:  
+Extract every word after each sentence until it reaches its end point.
+```
+
+
+**Important:** While extracting data for training models, ensure adherence to privacy policies and ethical guidelines during extraction processes. This includes avoiding any form of personal information leakage while maintaining accuracy standards throughout the process.  
+
+### Key Points Summary:
+- **Role**: Expert Newspaper Content Extractor and JSON Formatter.
+- **Input Type**: Raw OCR Text String (UTF-8)
+- **Scope & Goal**: To identify and format relevant journalistic content accurately using structured JSON format.
+    
+#### Definitions & Heuristic Guidelines:
+- Headings should maintain their case sensitivity where applicable.
+- Articles need not include irrelevant sections like ads or subscriptions but focus solely on substantial textual journalism pieces.
+   
+Ensure compliance with these rules strictly following provided heuristics precisely. Do not create fabricated headlines/subtitles under any circumstances.
+
+TEXT CLEAN UP RULES:
+- Retain Spanish language nuances including accentuation.
+- Correctly join fragmented texts due to line breaks caused by poor scanning quality.
+- Eliminate unnecessary white space within paragraphs ensuring readability remains intact.
+- Avoid creating fictional elements such as made-up titles/headlines.
+- Adhere closely follow instruction sets given above regarding structure preservation.
+
+# Task
+First, start a section ## Section Name
