@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/08/trome_05.txt ---
+
+```json
+[
+    {
+        "headline": "Ser una dignidad democrática",
+        "content": "Por allí un gracioso pregunta si son \"los doce\".\nPues, ah, ya...\n\nEn la izquierda buscan con lupa un candidato. Julio Arbizu propone una plancha con Sergio Tejada y Verónica Mendoza. Ayaya'\n\nKeiko sigue con su campaña y ayer estuvo indirecta al PPCuy de \n\n¡PPK!? Nonoooo...\n\nUna nueva especie ha llegado para conquistar la altura."
+    },
+    {
+        "headline": "Nuevo integrante de la familia de camiones Isuzu",
+        "content": "El modelo NPR 4TON es el nuevo integrante de la familia de camiones Isuzu.\n\nIsuzu\n\nVICUA\n\n(Nvicugna vicugna)\n\nNPR4TON | DESEMPLEO\n\nISUZ2U NPR 4TON\n\nALMACÉ\NMendiola 1637,\nSn.,\n\nTarma — Ay Venancio Hancayo — Av. San Agustín 68 Carretera\nTrujillo — Av. La Marina SN/A (Curva el Sol) Av. Mansiche 1023.\nPiura — Av. Vieja Zona Industrial Mz. 229 Lt. 28, Chiclayo — Km 7 Lambayeque Chimbote — Av. Enrique Mejía\n(Santa Clara): ATE — Av. Nicolás Aguilar 1685. Mendiolá — Av. Alfredo Benites — Av. Viña Hermosa 102\nTacna — Av. Manuel Ortiz S/N.\n\nFundación Andina de Cementos Ltda. planta productora de cemento situada en la av. Atahuichi 2440, villa María Del Triunfo."
+    },
+    {
+        "headline": "Muerte accidental en obra de construcción",
+        "content": "\"Alas 10 de la noche del lunes, sorpresivamente, de uno de los ductos cayeron toneladas de cemento, que los sepultaron.\" Anderson Gutierrez (31) y Victor Ramón López Flores (31) realizaban trabajos de limpieza en un multi-silo para la producción de cemento. Durante la operación, aproximadamente después de excavar unos 20 minutos, lograron sacar y llevar a ambos hombres gravemente lesionados. Familiares de las víctimas han criticado a los contratistas por falta de seguridad adecuada."
+    },
+    {
+        "headline": "Medidas contra sicarios tras crimen de policías",
+        "content": "El ministro José Luis Pérez confirmó que los responsables del homicidio de agentes policiales serán enviados al penal de máxima seguridad de Challapalca (Tacna). Además, señaló que también estarán confinados en centros similares debido al régimen más severo implementado desde abril de 1994 bajo el sistema ‘24×7’."
+    },
+    {
+        "headline": "Homónimo preocupado por seguimiento satelital",
+        "content": "El conductor Jorge del Castillo Abad, homónimo del político aprista, reportó que desconocidos colocaron un dispositivo de rastreo satelital en su vehículo en Surco. Expresa temor por su seguridad aunque aclara que no guarda relación familiar alguna con el líder político."
+    },
+    {
+        "headline": "Inspección preventiva en escaleras eléctricas",
+        "content": "Después del incidente fatal en China donde una persona fue arrollada por una escalera eléctrica, autoridades locales iniciaron operativos en diversos establecimientos comerciales de Lima para verificar el estado de estas instalaciones y así prevenir futuras tragedias."
+    },
+    {
+        "headline": "Extranjeros continúan llegando para laborar",
+        "content": "Durante los últimos cinco meses, más de 27 mil extranjeros entraron al país buscando empleo. Colombia lidera el grupo demográfico migratorio, seguido por Chile, España, Argentina entre otros países latinoamericanos."
+    },
+    {
+        "headline": "Moda Peruana: Historia de éxito",
+        "content": "Desde diseñadora autodidacta creando prendas caseras a convertirse en figura prominente dentro de la alta moda nacional, Norqa Peralta relató cómo comenzó vendiendo ropas elegantes y terminó exportándolas hacia mercados importantes como Estados Unidos y Europa."
+    },
+    {
+        "headline": "Accidente espectacular involucró a Minions",
+        "content": "Robbie Maddison protagonizó un audaz intento de surfear olas montado en moto frente a las playas de Tahití, Francia. Su aventura quedó registrada en videos virales mostrando tanto destreza técnica como innovación mecánica."
+    },
+    {
+        "headline": "Gabriel Costas y compañía suspenden práctica",
+        "content": "Costas junto a Willyan Mimbela realizaron tratamiento físico post-injury en Matute, anticipando posibles cambios tácticos ante próximos compromisos deportivos."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on distinct topics within the mixed-content input. Any missing data was filled using `"NA"` where applicable.

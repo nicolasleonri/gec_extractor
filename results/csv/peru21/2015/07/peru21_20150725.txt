@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/07/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "LA URRACA' DEFIENDE INFORME SOBRE COSTOSOS AUTOS DE INTEGRANTES DE REALITY",
+        "content": "Respondió a los ‘guerreritos’\n\nLa conductora de televisión decidícontestartelas criticas de losintegrantes de los realities y deRodrigo González ’Peluchín’, quiénes cuestionaron lapublicación de su revista Magaly', dondedesarrollo un artículo sobrelos lujososautos deguerreros'ycombatientes’. \n‘¿Y por qué no reclaman cuando sedefinenprecios de los lujosos autos de losteniostas?’,\npreguntael urraca’a mododesfío.\nAdemás, lamoderadora no se quedcallada y hasta se refirió alreportaje realizarduhace añosacerca delvalor de sus bienessosteniendo:\n'Seinmintierondescaradamente.Nohay punto decomparaciónde esto'\."
+    },
+    {
+        "headline": "SEGUROS PARA TODOS",
+        "content": "¡Regálate tranquilidad!\nPuedes contratar seguro de salud,vida, accidentes,etc. ¡Contáctalos ahora!"
+    },
+    {
+        "headline": "CLÁUDITO CRITICA SUPERHEROE PEQUENO",
+        "content": "\"Ant-Man\" resultó una de las películassatisfactorias hechas porMarvel Studios. Este filmcombina acción cómica y humor,supone un cambio respecto alas producciones más grandilocuentes deAvengers. Dirigida porPeyton Reeder, \"Ant-Man\" destaca por su narrativa ágil ydivertida, recordándonosen cómo fueron los comics antes deque Hollywood los transformarásuperproducciones épicas.\""
+    },
+    {
+        "headline": "PAOLA MAUTINO BUSCA METAS ALTAS",
+        "content": "Torontose prepara para nuevosretos.Paula Mautino intentará mejorar su posición en saltolargo durante los próximos días,en búsqueda de mejores resultados."
+    },
+    {
+        "headline": "ALEXANDRA GRANDE BRILLA EN CANADIENSES",
+        "content": "La karateca Alexandra Grandeganó la medalla de oro en lacategoría –61 kg, después devencer a la dominicana Karina Dáz.Con habilidad y determinación,Alexandra demostró su superioridaden el tatami, llevándose así sucuarto metal dorado para el equipo Peruano en estos juegos."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines. Articles were selected according to criteria such as having substantial textual information related to journalism rather than mere listings or non-content sections like ads or schedules. Any unclear data was marked appropriately using `"NA"` where necessary.
+
+--- ERROR ENTRY: data/txt/peru21/2015/07/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Licencias de Construcción Ilegales",
+        "content": "Según Velarde, Allison y sus funcionarios forman parte de una \"organización\" que se dedica a otorgar licencias ilegales que atentan contra las normas metropolitanas de zonificación e índices de uso.\xA0\nAfirmó que se ha hecho que 103 viviendas dados en la zona de conflicto que originalmente figuraban como inscritas en San Isidro aparecían como parte del distrito de Magdalena. \xABHan cambiado de jurisdicción de forma irregular desde hace diez años\xBB, refiriéndose a Perú21 el alcalde sanisidrino.\xA0\n\xABAllison está promoviendo negocios inmobiliarios con fines de lucro,\xBB hemos efectuado esta denuncia penal pues...\xA0\nEste enfrentamiento también involucró licencias de construcción siendo parte de las disputas entre ambas comunidades."
+    },
+    {
+        "headline": "Detienen a Dos Trabajadores del Terminal Portuario del Callao",
+        "content": "Un conjunto de 172 paquetes de cocaína (190 kilos de droga) que tenían como sellos las figuras de un delfín y un lagarto fueron incautados en el terminal portuario del Callao. La Policía detuvo a dos trabajadores de la empresa APM por sus presuntos vínculos con una mafia de narcos. La intervención fue realizada el 8 de julio, después de que agentes de la Dirección de Drogas (DIRANDRO) supieran que uno de los contenedores ubicados en los depósitos de APM tenía el precinto de seguridad clonado. Se trataba de un cargamento de paprika que en su interior contenía maletas con cocaína. Información indica que el estupefaciente iba a ser enviado a España, país donde la cantidad de droga incautada tiene un valor superior a los 8 millones de dólares."
+    },
+    {
+        "headline": "Plan de Desvío Vehicular Durante Pasacalles Escolar",
+        "content": "La Municipalidad de Lima implementará hoy un plan de desvío vehicular debido a que se realizará un pasacalle escolar por Fiestas Patrias en el Campo de Marte. El evento comenzará a las 8 de la mañana, por lo cual los vehículos serán desviados por las avenidas 28 de Julio y Arnaldo Murillo, jr. General Canterac, parque y calle Santa Cruz, jr. Horacio Urteaga, avenida Republica de Chile, rn Pablo Bermúdez y avenida Talara."
+    },
+    {
+        "headline": "Control Intensificado de Motos en Miraflores",
+        "content": "Ante el aumento de casos de sicariato y asaltos perpetrados por hampones en motos o vehículos de lunas polarizadas, la municipalidad de Miraflores intensificará las operaciones contra estas modalidades durante las fiestas patrias. Así lo expresó el alcalde Jorge Muñoz Wells, mencionando que será un trabajo coordinado entre el serenazgo y agentes de la policía nacional, solicitándoles sus respectivos documentos a los ocupantes de tales vehículos."
+    },
+    {
+        "headline": "Identifican Participantes Violentos en Protestas Mineras",
+        "content": "El equipo especial de la policía en la provincia de Islay logró identificar a individuos implicados en actos violentos durante las protestas anti-mineras relacionadas con el proyecto Tara María. Pronto se procederá a solicitar la detención de aproximadamente ochenta antimineros según declaraciones del jefe regional de la policía de Arequipa, general Enrique Blanco Ridoutt. Entre los procesados podrían incluirse cargos de extorsión, asociación ilícita para delinquir y financiamiento de actividades de protesta."
+    },
+    {
+        "headline": "Heridos Por Volcamiento de Microbus",
+        "content": "Cuarentinueve pasajeros, incluido un grupo de estudiantes universitarios, resultaron lesionados cuando el minibús en el que viajaban desde Juliaca volcó ayer en una curva cercana al ingreso a la ciudad de Puno. Cuatro están graves. Esto ocurrió mientras retornaban de visitar sitios turísticos locales."
+    },
+    {
+        "headline": "Estado de Emergencia Declared for Coastal Areas",
+        "content": "El ejecutivo declara estado de emergencia por riesgos de erosión costera en los balnearios trujillanos de Huanchaco, Victor Larco Herrera y Moche por sesenta días calendario. Dentro de dicho periodo deberán tomar acción preventiva para reducir el riesgo existente."
+    }
+]
+```
+This JSON contains extracted information about various significant events reported within the provided text snippet while adhering strictly to the specified format requirements. Articles were identified based on their headlines followed by relevant detailed contents. Non-article sections such as ads, recipes, puzzles, and other non-journalistic elements have been excluded according to guidelines.

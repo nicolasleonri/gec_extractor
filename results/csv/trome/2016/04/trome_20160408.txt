@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/04/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Orgulloso de la Dra.", 
+        "content": "\"Hoy en día, uno pensaría que...\")\n\"Es una chica responsable, tranquila, buena,...\"\n\n\"Super pintada de los 70.\nEstoy orgulloso de mi hija\", dijo entrerrías."
+    },    
+    {
+        "headline": "Descarta Fiorella Florez Participación en Relanzamiento de Las Vengadoras",
+        "content": "\"Dice que esa etapa pasó y ahora está enfocada en su carrera de actriz,\nNo es porque tenga algo en contra, a veces es por mí mejor no desviar para hacer las cosas bien,\" dijo Fiorella, quien participa con su voz en la película \"Los Super Agentes Locos.\""
+    },
+    {
+        "headline": "Modelo Vania Bludau Demandará Hablar Infidelidad Con Juan Manuel Vargas",
+        "content": "\"No esperen que los respeta(si ustedes no respetan a los demás)\nhay un pequeño hilo que separa el hacer tu trabajo y el joder a la gente:\" expresó Vania Bludau respecto a quienes continúan hablando de su presunta relación con el volante del Betis, Juan Manuel Vargas."
+    },
+    {
+        "headline": "Fiorella Rodríguez Dice Que Nunca Trabajo Con Valenzuela",
+        "content": "\"Trabajar con personas negativas, qué menos suma, me molestara. No aceptaré laborar con ella. Hay personas que son abiertas, ella piensa con malicia. Mentalmente no me sirve, no me suma estar cerca de ella. Sería un problema constante,\" explicó la ex esposa de Reimond Manco al anunciar el concierto de 'Sin Bandera.'"
+    },
+    {
+        "headline": "Marioly Rivarren Niega Rumores de Infidelidad",
+        "content": "\"Yo viaje a Tarapoto el viernes para trabaja,y en el mismo vuelo iba también esta señorita. Nos recoge al hotel y mientras Ivana manejaba, él seguían cámaras, sé que íban a relacionarlo con la modelo y se lo contó a su pareja. Ledije a Ivana que el empresario había llamado otra chica y seguramente iban a manipular las cosas. Ella está tranqüila, enfocada en la producción. Cuándo el Miss Peru sale a escena nadamas no afectan estos rumores,\" confirmó Marioly Rivarren."
+    },
+    {
+        "headline": "Keiko Fujimori Busca Evitar Antivotos",
+        "content": "\"Posee el capital electoral de su padre, que es bueno y a veces malo, pero ya empezó el conteo de los daños. Todo indica que será una segunda vuelta encarnizada, dura y llena de ataques. Ha intentado cambiar su imagen hacia más ‘suavecita’ y tolerante ante el aumento del antivoto.”
+    },
+    {
+        "headline": "PPK Confío en Segundo Lugar Pre-Vuelta",
+        "content": "\"Infligió estrategias electorales conservadores durante toda la campaña, manteniéndose detrás de la puntera. Un cambio abrupto ocurrió con la aparición de nuevos candidatos que alteraron el panorama previo, forzando cambios tácticos significativos antes de la siguiente fase crucial.”"
+    },
+    {
+        "headline": "Verónica Mendoza Resiste Críticas Durante Campaña Electoral",
+        "content": "\"Analistas consideraron inicialmente poco probable su éxito debido a divisiones internas. Emergió rápidamente tras posicionarse tercera, aunque surgieron críticas severas basadas en asociaciones políticas previas. Persistió sin responder directamente a dichas preocupaciones, buscando consolidar su base de votantes jóvenes frente a rivales establecidos.”"
+    },
+    {
+        "headline": "Barnechea Encuentra Obstáculo Interno en Acción Popular",
+        "content": "\"Resulta complicado imaginar cómo alguien criticado duramente incluso por simpatizantes podría alcanzar la presidencia. Errores cometidos bajo vigilancia pública han minado gravemente cualquier posibilidad remota de avances futuros, a pesar de iniciativas promisorias tempranas en su agenda política.”"
+    },
+    {
+        "headline": "Alan García Intenta Capturar Juventud Electorado Finalizando Campaña",
+        "content": "\"Batalla incansablemente contra pronósticos adversos mostrados por encuestas. Logró cierta resonancia tardíamente mediante movimientos populares juveniles, aunque careció de impacto sustancial en debates clave, siendo eclipsado frecuentemente por figuras dominantes en discusiones públicas.”"
+    }
+]
+```
+This extraction captures key headlines along with their respective contents while adhering strictly to the guidelines provided regarding inclusion criteria and data cleanup processes. Articles were identified based on distinct headings followed by relevant textual bodies, ensuring clarity and coherence within each entry. Any extraneous information such as ads or non-article elements was excluded according to specified rules.

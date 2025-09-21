@@ -1,0 +1,38 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/04/correo_05.txt ---
+
+```json
+[
+    {
+        "headline": "Investigación amplía alcance más allá de sobornos individuales",
+        "content": "Aquí el asunto no es quién o quiénes coimearon más, sino ir hasta el fondo de la corrupción. Dependiendo de la labor fiscal será determinada la responsabilidad de Moreno en este proceso de investigación por supuestos sobornos."
+    },
+    {
+        "headline": "Prueba de fuego para Fiscalía",
+        "content": "Allanamientos de tres inmuebles vinculados al gobernador regional del Callao, Félix Moreno, ponen al Ministerio Público en situación límite. Hay diversas perspectivas respecto al análisis de este caso, especialmente considerando el contexto actual del convenio de colaboración de Odebrecht con la Fiscalía."
+    },
+    {
+        "headline": "Opinión política comparativa",
+        "content": "Sería sorpresivo que aquellos que critican la dictadura de Nicolás Maduro ignoren eventos históricos significativos en Perú. Observar cómo políticos de diferentes ideologías manejan estas circunstancias revela inconsistencias notorias en sus posturas públicas."
+    },
+    {
+        "headline": "Corrupción amenaza instituciones democráticas",
+        "content": "Interpretaciones divergentes sobre intervenciones gubernamentales resaltan peligros inherentes a tales acciones. Las consecuencias negativas de romper normas constitucionales son evidentes independientemente de la orientación política involucrada."
+    },
+    {
+        "headline": "Sector Agrario enfrenta pérdidas económicas",
+        "content": "Según el presidente de Conveagro, las pérdidas ocasionadas por el Niño Costero superan los 5200 millones de soles. Propuestas financieras adicionales podrían mitigar parcialmente el impacto devastador en agricultura y ganadería."
+    },
+    {
+        "headline": "Expectativas macroeconómicas ajustadas",
+        "content": "Proyecciones económicas revisadas sugieren un crecimiento limitado durante el año. Factores externos como el ‘Lava Jato’ y el Niño Costero contribuyen a reducir expectativas originales establecidas anteriormente."
+    },
+    {
+        "headline": "Acciones legales contra prácticas comerciales indebidas",
+        "content": "Nuevo dictamen legislativo introduce penalización severa para actividades de acaparamiento y especulación comercial. Esta medida pretende salvaguardar intereses consumidores asegurándoles precios equitativos."
+    },
+    
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected where there was substantial journalistic value evident within each segment. Other sections such as ads, notices about dividends, etc., have been excluded according to specified criteria.

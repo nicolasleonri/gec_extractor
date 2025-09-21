@@ -1,0 +1,85 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/08/trome_11.txt ---
+
+```json
+[
+    {
+        "headline": "ISTA QUE\n1 GE A CORRUPTOS\nY CRIMINALES",
+        "content": "\"Hablo de corrupción y crimen en el país\" dice que los peruanos no buscan soluciones extremas, sino un futuro mejor.\n‘Hablar del Fujimorismo en el Perú es como hablar del PRI en México’\nha tenido más que una incapacidad personal, es una falta de recursos políticos para poder gobernar.”
+    },
+    {
+        "headline": "Aquí van aquellas caras nuevas que le quieran dar una opción a todos los peruanos...",
+        "content": "De cara a las próximas elecciones se acabará el ciclo de ‘dinosaurios’ y abrirá una nueva etapa de renovación política."
+    },
+    {
+        "headline": "¿Qué opinión tienes de Forsyth?",
+        "content": "Él está haciendo una buena obra a nivel distrital y creo que es algo positivo para que la gente tenga más opciones."
+    },
+    {
+        "headline": "Entrevista a Julio Guzmán",
+        "content": "'Julio Guzmán opina sobre varios temas importantes, incluida la minería y cómo manejar proyectos como Tamara.' Él cree firmemente en validar total el acuerdo con Odebrecht y respalda completamente el trabajo de fiscales específicos."
+    },
+    {
+        "headline": "(ENTREVISTA)\nPKEZYNSKI?\nCreo que sí porqué no sé anticipé la realidad de la magnitud del compromiso que había tenido en el caso de Odebrecht.",
+        "content": "Cuál fue tu acción al enterarte del suicidio del expresidente Alan García?"
+    },
+    {
+        "headline": "Critics still question how Julio lives.",
+        "content": "He live off three things: teaching at universities and implementing workshops across Peru’s regions."
+    },
+    {
+        "headline": "ESTUDIOS Y MEMORIA",
+        "content": "Un joven de San Juan de Lurigancho ingresa a la universidad gracias a su dedicación académica y dieta basada en pescado."
+    },
+    {
+        "headline": "Veterinario enfrenta robos durante consulta",
+        "content": "Mario Garrido, un veterano veterinario, sobrelleva amenazas constantes de ladrones quienes pretenden hurtarlo de su auto profesional."
+    },
+    {
+        "headline": "Dominguín 11 de Agosto del 2019",
+        "content": "Noticias destacables incluyen casos judiciales relevantes y eventos culturales significativos dentro del contexto nacional."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents while adhering strictly to the provided guidelines about what constitutes a legitimate article versus other types of information present within the input data. Note any potential ambiguities were resolved based on context clues available directly around each segment identified as part of an article.
+
+--- ERROR ENTRY: data/txt/trome/2019/08/trome_11.txt ---
+
+```json
+[
+    {
+        "headline": "Por qué los nombres del Nacional.",
+        "content": "Son por los Laureles portivos y tun data estar all’.\n\nEse vaticinio se cumplió en el 2018, luego de que ganara la dorada en los Juegos Mundiales de Karate.\n\nAsí es Alexandra, quien representa al Perú desde los 14 años, cambió mentalización para perfeccionarse y pelea padeciendo condromalacia (rodillas desgastadas debido a la inflamación de las articulares).\n\n“No porque mis rodillas están mal voy a dejar de participar, eso no va conmigo,” dijo hace unos meses."
+    },
+    {
+        "headline": "Humilde gran karateka",
+        "content": "\"Con humildad, puede entrenar en Europa, pasar por Sudamérica y hacerlo en el Colegio IE Juan Guerrero Qumer, de Villa María del Triunfo, junto a sus compañeros de kata y kumité.\" \n\n\"Ayer, muy cerca, en Villa El Salvador, usando un protector bucal con la bandera del Perú, Alexandra demostró pensar en grande.”\n\n**Karateca Peruana:** Ganadora múltiple en competiciones mundiales incluyendo:\n- Primer puesto – Juegos Panamericanos Medellín 2010?\n- Tercer puesto – World Combat Games Beijing (2010)\n- Segundo puesto – Juegos Panamericanos Guadalajara (2011)\n- Primero puesto – Juegos Panamericanos Toronto (2015)"
+    },
+    {
+        "headline": "'Reina del sur' no es Kate del Castillo, sino Claudia Suarez",
+        "content": "Campeona nacional en forma consecutiva, derrotó en la final a la cubana Wendy Durán por 15–4 y 15–14, culminando invicta su participación. ‘No sé hasta cuándo jugaré, pero espero que esto sea una motivación para las nuevas generaciones,’ declaró la deportista.”
+    },
+    {
+        "headline": "Yudo panamericano",
+        "content": "‘Me falta el aire, pero no porque estaba corriendo, sino viendo cómo ponía turbo en la recta final el zambo Mario Bazán.’\n\nMario Bazán, representante nacional, obtiene medalla de bronce en tres mil metros con obstáculos en los Juegos Panamericanos."
+    },
+    {
+        "headline": "Triumph for our athletes",
+        "content": "The event was filled with pride as various national sports figures achieved remarkable feats across different disciplines during these games."
+    },
+    {
+        "headline": "Benavente presentado en Nantes de Francia",
+        "content": "Christian Benavente ha firmado contrato con St Etienne hasta el año 2022 después de llegar prestado procedente del Pyramids FC de Egipto."
+    },
+    {
+        "headline": "Uruguay’s victory in MMA",
+        "content": "Enrique Barzola defendió el honor del país al vencer por decisión dividida al estadounidense Bobby Moffett en la primera pelea estelar de la UFC Uruguay."
+    },
+    {
+        "headline": "Double goal achievement by Claudio Pizarro",
+        "content": "Claudio Pizarro marcó un doblete con Werder Bremen contra el Atlas Delmenhorst por la Copa Alemana, mostrando destrezas incluso cercanos a los 41 años."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines. Articles were identified based on distinct topics within the text related to sporting events and achievements. Non-article sections such as ads and unrelated information have been excluded according to the scope specified.

@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2018/05/publimetro_14.txt ---
+
+```json
+[
+    {
+        "headline": "Israel celebra traslado de embajada estadounidense",
+        "content": "Israel celebr ayer el traslado de la embajada de EE.UU. desde Tel Aviv a Jerusalem, que se concreta oficialmente hoy, con una recepción que estuvo encabezada por el primer ministro israelí y titular de Exteriores, Benjamin Netanyahu.\n\nCuarenta países de los 86 — invitados — asistieron al acto en la sede del Ministerio de Exteriores en Jerusalem, y cuyo protagonista fue la delegación estadounidense, encabezada por el subsecretario de Estado, John Sullivan, e Ivanka Trump, hija del Presidente Donald Trump.\n\nEn su discurso de agradecimiento, Netanyahu instó a todos los estados a trasladar sus embajadas a Jerusalem, \"porque es lo correcto y porque sirve para alcanzar la paz\"."
+    },
+    {
+        "headline": "Impuestos podrían aumentar el contrabando según especialistas",
+        "content": "\"Verona indica que eso sí es posible, si es que la SUNAT no tenga ‘una adecuada estrategia de fiscalización’ de los productos falsificados.\""
+    },
+    {
+        "headline": "Programa Turismo Emprende ofrece oportunidades financieras",
+        "content": "‘Es una gran oportunidad ya que pueden solicitar financiamiento, sin reembolso, hasta por S/150 mil’, explicó Roger Valencia, titular del MINCETUR. Además mencionó que el MINCETUR acompañará a los empresarios durante todo el proceso.”
+    },
+    {
+        "headline": "Recompensa ofrecida por búsqueda de perro perdido",
+        "content": "“Urgente: Se busca perro perdido. Recompensa: 500 soles.”"
+    },
+    {
+        "headline": "Edición deportiva destaca rendimiento internacional de jugadores peruanos",
+        "content": "Paulo Guerrero marca después de varios meses fuera debido a suspensión, contribuyendo significativamente al resultado positivo de Flamengo. Edison Flores también destacó en competiciones internacionales, mostrando habilidades clave en múltiples juegos."
+    },
+    {
+        "headline": "Lewis Hamilton dominó GP España consolidándose líder",
+        "content": "El piloto británico Lewis Hamilton (Mercedes) obtuvo su segundo triunfo en el Mundial de Fórmula 1 al imponerse en el Gran Premio de España, quedando ahora con 17 puntos de ventaja sobre Sebastian Vettel (Ferrari)."
+    },
+    {
+        "headline": "Preparativos mundiales anticipan emocionantes eventos deportivos",
+        "content": "Desde el próximo sábado 16 de junio, la Selección Peruana comenzará su aventura en el Mundial de Fútbol enfrentando a Dinamarca en Saransk. Los aficionados están ansiosos por ver cómo avanzará el equipo bajo la dirección técnica de Ricardo Gareca."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were selected based on substantial journalistic value, excluding irrelevant sections like ads and non-content elements.

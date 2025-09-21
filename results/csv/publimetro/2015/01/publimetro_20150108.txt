@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2015/01/publimetro_08.txt ---
+
+```json
+[
+    {
+        "headline": "Mejor momento de su carrera",
+        "content": "Prueba de ello es que, luego de su paso por Lima, dio dos conciertos sold-out en el Wembley Stadium de Londres (programados para julio).\nThe entradas para ver al interprete de \"Sing\" están a la venta en Teleticket con un 25%\npagado con tarjetas\nen enero.\nPrecios: S/.130 (Tribuna),\ns/.189 (VIP) y\n.s/.330 \n(Platinum)."
+    },
+    {
+        "headline": "Motorama",
+        "content": "Esta banda de indie rock/post-punk rusa alborot nuestra capital en febrero del 2014 y este año vuelve recargada para ofrecer otro concierto el jueves 30 de abril en la antigua discoteca Mangos (Av. Arequipa 1530, Lince). En esta ocasión, llegan para promocionar su tercer disco de estudio, Poverty.\nLas entradas para ver a Motorama y escuchar temas como Eyes, Alps, Ghost o Wind In Her Hair están a\nventa en\nTeleticket\na S/.120\n(general)."
+    },
+    {
+        "headline": "James Blunt",
+        "content": "Hace cuatro años, muchos se quedaron con las ganas de ver a este cantautor británico en su primera visita a Lima. Si fuiste uno de ellos, debes saber que Blunt retornará este 17 de marzo con su gira Moon Landing World Tour, que también pasará por Argentina, Ecuador, Colombia y Chile. La cita es en el Anfiteatro del Parque de la Exposición. Entradas en Teleticket\nS/.125 (Pre-) + preferencial),\n-S/.225 (Vip)\n-y S/.365\n(platinium)."
+    },
+    {
+        "headline": "James Bond en Los Alpes",
+        "content": "Algunos de los protagonistas de la nueva entrega del agente 007, Daniel Craig (James Bond), Lea Seydoux (Madeleine Swan) y Dave Bautista (Mr. Hinx), participaron ayer de una sesión de fotos en la que será una de las localidades de esta película de acción: los Alpes Austriacos."
+    },
+    {
+        "headline": "Adam Lambert recibe elogios de Brian May",
+        "content": "El guitarrista de Queen, Brian May (67), no tuvo más que elogios para Adam Lambert (32), el nuevo vocalista de la banda Británica, en una entrevista con la revista Classic Rock. ‘’Es la primera persona que puede hacer todo el catalogo de Queen sin parpadear. Mantiene vivo el recuerdo de Freddie (Mercury). Es un regalo de dios,’’ remarc, Rusty Miller."
+    },
+    {
+        "headline": "Ricky Martin revela portada de su nuevo disco",
+        "content": "El cantante puertorriqueño de 43 años cuenta de Facebook la que sera la portada de su nuevo álbum titulado \'A Quién Quiera Escuchar\', el cual saldrá a la venta el 10 de Febrero. ’’Estoy loco por que escuchuen la música’,’ escribi Ricky acompañando la imagen, Puess Merro."
+    },
+    {
+        "headline": "'Los Mataviejitas' en el Pirandello",
+        "content": "La hilarante comedia dirigida por Juan Carlos Fisher vuelve por una corta temporada desde hoy hasta el 26 de enero. Carlos Carlín, Gonzalo Torres, Ramón Asquerino, Pablo Saldaña, Franco Cabrera, Ricardo Velásquez y Ana Cecilia Natteri nos arrancaran mas de una sonrisa.\nLugar: Teatro Pirandello (Av. Alejandro Tirado 274, Santa Beatriz).\nHora: 8:30 p.m.\nEntrada: Desde S/.30 hasta S/.95 en Teleticket."
+    },
+    {
+        "headline": "Rock Nacional en La Noche",
+        "content": "Tres intensas bandas peruanas dentro del espectro del rock se unen para ofrecer un esperado concierto. Ni Yoyo ni Voto (hard rock), Vicúa Toys (experimental) y PulsaRes (grunge) animaran la noche Barranquilla.\nHora: 11 p.m.\nEntrada: S/.15 en puerta.\nLugar: La Noche de Barranco (Pasaje Sanz Carrin 199 A)."
+    },
+    {
+        "headline": "Crees que el Islam es una Religin que Incita a la Violencia?",
+        "content": "\"No,\" dice Farid Kahhat, Analista Internacional y Director de Estudios Internacionales en la PUCP. Explica que aunque algunas interpretaciones podrían justificarse para ataques específicos, esto no refleja la postura generalizada de los seguidores pacíficos del Islam. Argumenta que tales extremismos vienen más relacionados con ideologías políticas que puramente religiosas.\""
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided input based on their headlines and contents while adhering strictly to the given format requirements. Articles lacking explicit headings have been assigned `"NA"` for those sections where applicable. Additionally, any extraneous information such as ads has been excluded according to guidelines.

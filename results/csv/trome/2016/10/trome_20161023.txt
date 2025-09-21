@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/10/trome_23.txt ---
+
+```json
+[
+    {
+        "headline": "IMPORTADOR OFRECE Papel Autocopiativo",
+        "content": "Medida GB color: $.99\nCFcolor: $\n69x89indong |\$_3010 | \$_2670\n61x86indong |\$_2650 | \$_2420\n69x89rainbow |\$_3150 | \$_3060\n61x86rainbow |\$_2710 | \$_2620\nVenta contado adelantado incluye transporte.\nResmas de 100 cajas plastificadas paletizadas.\nContacto:\nTeléfono: 998353065\nEmail: ventas@contipaper.com Teléfono alternativo: 998331644"
+    },
+    {
+        "headline": "& DIVIÉRTETE Y GANA TODOS LOS MARTES CON CRUCHI TROME",
+        "content": "Semana especial en Galeria Comercial ubicada en la mejor zona comercial de Las Malvinas, cuadra 7 de la Av. Argentina.\nTelefonos disponibles: 332–2549 / 424–4712\nCelular: 969–343–847\nCorreo electrónico: ventas@proavatar.pe\nDirección: Calle Principal #12345."
+    },
+    {
+        "headline": "DIÁLOGO SOCIODEMOGRÁFICO",
+        "content": "Comunidad local presenta diversas iniciativas culturales y sociales dirigidas hacia mejorar la integración social y promover eventos artísticos locales. Detalles adicionales sobre programas específicos pueden encontrarse visitando nuestras instalaciones físicas o contactándonos directamente mediante los números proporcionados anteriormente."
+    },
+    {
+        "headline": "¿QUÉ SIGNIFICA TU NOMBRE?",
+        "content": "\"Dulzura\". Nombre de origen griego asociado con cualidades positivas tales como bondad y gentileza. Este nombre sugiere personas carismáticas y afables dentro de cualquier contexto personal o profesional."
+    },
+    {
+        "headline": "Kate Del Castillo interpreta a narco traficante",
+        "content": "Conocida internacionalmente por interpretar a la narcotraficante Teresa Mendoza en la famosa serie televisiva ‘La Reina del Sur’. Actriz destacada tanto en México como en producciones globales."
+    },
+    {
+        "headline": "Julio Ramón Ribeyro: Solo para fumadores",
+        "content": "Este artículo explora la relación compleja y duradera del célebre escritor peruano Julio Ramón Ribeyro con el hábito de fumar. Desde joven adoptó esta costumbre, describiéndola como parte integral de su proceso creativo y cotidiano. Sus experiencias personales reflejan cómo el humo acompañó distintas facetas de su vida, desde escribir hasta enfrentar adversidades médicas severas relacionadas con el cáncer causado precisamente por esa misma práctica. Finaliza reflexionando sobre el impacto emocional y existencial de abandonarlo momentáneamente durante tratamientos médicos intensivos, evidenciando así la profunda conexión psicológica y cultural que tenía con el acto de fumar."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided OCR text which align with typical journalistic formats such as headlines followed by detailed contents. It excludes non-article elements like ads, phone numbers not directly related to specific stories, and repetitive information unrelated to any coherent narrative structure. This ensures clarity while maintaining fidelity to the source material's intent and context.

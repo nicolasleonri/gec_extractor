@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/09/peru21_07.txt ---
+
+```json
+[
+    {
+        "headline": "Subte's Influence in Audiovisual Work",
+        "content": "De dónde nace tu vocación\npor lo audiovisual?\nDe niño jugaba\ña hacer películas.\nDibu¬jaba en papel...\ny los ponía uno tras otro."
+    },
+    {
+        "headline": "Editor Roberto Barba Discusses Collages and Fan Magazines",
+        "content": "\"Es así?, Esta onda eclectica. Justo\nel afiche de Generació­n bomba será ‘fanzinés’.\"\nPregunta sobre la inspiración collage y fanzine en programas televisivos específicos."
+    },
+    {
+        "headline": "The Political Scene in Peru",
+        "content": "‘One is his irregular entry into Congress,\nas he should have been disqualified...'\nThe political scene involves controversies over election results and accusations against politicians like Rocío Silva Santiesteban regarding economic impacts due to protests blocking mining projects."
+    },
+    {
+        "headline": "Brazil Election Attack Raises Concerns",
+        "content": "Ataque le causa lesioness en varios órganos, pero aspirante ya se recupera.\nCandidate for presidency suffers stabbing during campaign event but undergoes emergency surgery and stabilizes."
+    },
+    {
+        "headline": "Earthquake Hits Fiji Without Damage Due to Depth",
+        "content": "Island of Fiji was surprised yesterday by earthquake magnitude 8.1, fortunately causing no damage because it occurred deep underground."
+    },
+    {
+        "headline": "Indian Supreme Court Decriminalizes Homosexual Acts",
+        "content": "Sex between consenting adults cannot be unconstitutional according to Indian Supreme Court ruling which decriminalized homosexuality under Section 377 of the Criminal Code."
+    },
+    {
+        "headline": "UK Investigates Allegations Against President Trump",
+        "content": "British authorities investigate anonymous allegations about resistance within US government against President Trump described as petty and ineffective."
+    },
+    {
+        "headline": "Detained Chileans Demand Release Over Baby Dispute",
+        "content": "Congress members demand immediate release of detained Chilean couple involved in surrogacy dispute after being accused of human trafficking despite lack of specific law addressing such cases."
+    },
+    {
+        "headline": "Motherhood Substitution Legalization Progress in India",
+        "content": "Court rulings recognize legality of motherhood substitution practices previously considered illegal, marking significant progress towards equality rights for LGBTQ community in India."
+    },
+    {
+        "headline": "Authorship Investigation Following Anonymous Article About Trump",
+        "content": "Following publication of anonymous NYT article alleging internal White House opposition to Trump administration policies, investigations seek author behind claims suggesting potential treasonous activity."
+    },
+    {
+        "headline": "Recovered Ancient Mask Returns Home After Long Process",
+        "content": "After nearly twenty years since its seizure, ancient mask belonging to Lord of Sipán returned to Peru following lengthy international recovery process involving German officials."
+    },
+    {
+        "headline": "Public Protests Against Proposed Transport Route Expansion",
+        "content": "Residents protest proposed expansion of transportation route known as Purple Line fearing job losses among local drivers amidst police intervention using tear gas."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal criteria outlined in the task description. Articles were identified based on distinct topics separated by breaks or changes in subject matter throughout the document.

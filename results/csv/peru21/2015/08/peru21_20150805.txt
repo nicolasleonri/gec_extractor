@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/08/peru21_05.txt ---
+
+```json
+[
+    {
+        "headline": "FTBOL. EN MINCH, ESPOÑALES GANARON AL TOTTENHAM Y ALEMANES GOLEARON AL AC MILÁN",
+        "content": "Real y Bayern brillan en Audi Cup\n\nAmbos definirán hoy el título del torneo que lograron los bávaros en dos ocasiones (2009 y 2013).\nMINCH.— Por el favoritismo en la balanza del fútbol. Real Madrid y Bayern Munich sacaron lustre a sus pergaminos y se impusieron fácilmente al Tottenham (2–0) y AC Milan (3–0) en el cuadrangular amistoso de la Audi Cup, donde hoy defenderán el campeon.\nAntes, los perdedores irán por el tercer lugar. Todo en el Allianz Arena.\nA primera hora, el cuadro merengue –sin CR7 ni Benzema–basó juego en la movilidad veloz de Isco y las altas defensivas de los ‘Spurs’, James Rodríguez abrió la cuenta de cabeza a los 37’ tras centro de Isco y pasividad del golero Vorm y el central Alderweireld. En el complemento, Gareth Bale, quien jugó en punta junto a Jesús, metió un robo al área, cerró la cuenta con un zurdazo desde fuera del área (79’). \"Ahí aún deben mejorar la precisión\", señaló el entrenador Rafael Benitez."
+    },
+    {
+        "headline": "River recibe a Tigres buscando su tercera Copa Libertadores",
+        "content": "Luego de ganarla en 1986 y 1996, River Plate tiene la chance de sumar hoy su tercera Copa Libertadores cuando reciba a Tigres de México en el duelo de vuelta (0–0 en la ida) de la final. \"Tenemos la confianza necesaria para llevarla Copa, Seremos agresivos\", dijo el zaguero ’Millonario’ Jonathan Maidana. \nA su vez, el DT de Tigres, Ricardo Ferretti, calientó el duelo al declarar que \"Riveyraya se siente campeón\". Ambos equipos ya chocaron en la fase de grupo con empates 1–1 y 2–2. \"Quiero que Pedro se quede en el Barcelona\", expresó Luis Enrique, DT de los \'culés\'\n\"‘Tata’ Martino sale en defensa de Lionel Messi\"\nThe DT de Argentina Gerardo Martino respaldó al astro Lionel Messi luego de las críticas por perder la final de la Copa América. \"Hablar de las críticas a Messi les da entidad a algo que no merece ningún análisis. Si yo fuera Messi, haría cualquier cosa menos dejar de jugar en Argentina\", comentó el técnico, quien no descarta a la Pulga para el amistoso contra México (8 de septiembre)."
+    },
+    {
+        "headline": "Entrevista | Gustavo Buono. Actor será homenajeado en el Festivaledge del Limá",
+        "content": "\"¿Cómo tomas el homenaje que le van a ofrecer el Festival de Cine de Lima?\n Me ha sorprendido… Le tengo temor a un evento de esta naturaleza porque es un poco intimidante.\" Con más de treinta años de trayectoria, el actor peruano Gustavo Bueno recibirá este viernes un homenaje en el festival de Cine de Lima. Aún sorprendido, se anima a analizar el cine y la TV actual. \"Creo que el cine nacional está resurgiendo con varias propuestas de género,\" opina. \"Hay una generación de directores jóvenes y el cine se está reconstruyendo poco a poco.\" Agrega que mientras exista interés público en explorar emociones profundas y problemas sociales, el cine podrá florecer nuevamente."
+    },
+    {
+        "headline": "Retornos noticiosos",
+        "content": "Robert Downey Jr. sigue siendo el actor mejor pago por tercer año consecutivo según informa la revista Forbes. Ganó $80 millones principalmente debido al éxito de taquillas de películas como Avengers: Era de Ultron. Además, la relación ficticia entre Kermit la Rana y Miss Piggy llegará a su fin después de cuatro décadas mediante un anuncio oficial en Facebook. Finalmente, el reconocimiento internacional continúa para supermodelos locales quienes destacan en eventos internacionales."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on headlines and associated contents while filtering out non-journalistic elements such as ads and unrelated information. It ensures each entry adheres strictly to the defined structure for inclusion in the resulting JSON format.

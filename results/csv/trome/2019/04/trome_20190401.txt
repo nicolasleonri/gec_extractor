@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/04/trome_01.txt ---
+
+```json
+[
+    {
+        "headline": "Utilidades disponibles para empleados de Empresa Eléctrica El Plátano S.A.",
+        "content": "Se comunica a todo el personal que labora para la empresa Empresa Eléctrica El Plátano S.A., durante el ejercicio fiscal del año 2018, que a partir del miércoles 03 de abril al viernes 26 de abril del 2019 podrán acercarse a Av. Carlos Villarín 514 Urb. Santa Catalina, Distrito de La Victoria, para hacer efectivo el cobro de las utilidades correspondientes al período 2018.\nPrelativamente deberán contactarse mediante llamada al teléfono 619–2800 Anexo 2825/2864, dentro del horario de lunes a viernes de 9:00 a 4:00 pm."
+    },
+    {
+        "headline": "Trauco logró título con Flamengo después de una temporada difícil",
+        "content": "Finalmente, Miguel Trauco se queda siguiendo peloteándose y ayer sacó provecho de la oportunidad para alzar su tercer título con Flamengo, quién se impuso 3–1 al Vasco Da Gama en penales, tras igualar 1–1 en los 90’ y quedarse con la ‘Taça Rio’. \nAunque era un partido único frente a uno de sus clásicos rivales, el técnico Abel Braga, quien estaba recuperándose de una arritmia hospitalizada, optó por enviar al campo alternativo bajo dirección de su asistente Leo Moura, reservando titulares para enfrentamientos posteriores. \n‘El Mozo’, apodo debido a sus habilidades goleadoras, participó aceptablemente aunque pareció que el Vasco se adjudicaría el título gracias a un gol de Thiago Réis a los 55', hasta que a los 93' emergió el uruguayo Giorgian de Arrascaeta para establecer el 1–1 definitivamente. Directamente a penales donde convertieron Vitinho, De Arrascaeta y Uribe, errando Rodinei, mientras Trauco esperó innecesariamente luego de haber sido suficiente su presión inicial. Igual así, después de una complicación semanal con la Selección Peruana, él posee motivos para alegría como también quienes compartimos esta noticia."
+    },
+    {
+        "headline": "Trabajo duro culmina en éxito para Cristal",
+        "content": "Conchetas tardías permitieron ilusionarse a Cristian Ortíz, quien realizó un espectacular gol ‘sombrero’ para Sporting Cristal, asegurando una victoria de 2–0 sobre Municipal y manteniéndose líder exclusivo. \nEl Tití dejó relegado al lateral José Carrillo posteriormente haciendo imposible cualquier intervención del guardameta Renzo Revoredo (37"). Posteriormente, aún más cerca del minuto 70, un centro desde la derecha ejecutado por el debutante lateral Cristopher Carbajal, de tan sólo 19 años, posicionó favorablemente a Cristian Ortiz, iniciador de la ventaja. Carencia de ideas evidentes en primera mitad solamente despertó hacia el segundo lapso, sin mayores contratiempos adversarios. Pensando ahora en próximas confrontaciones deportivas, especialmente el encuentro internacional pendiente."
+    },
+    {
+        "headline": "Un análisis crítico post-partido revela preocupantes carencias tácticas",
+        "content": "Ahora se vislumbra lo bueno en el Hexagonal sub-17. La eliminación de Brasil añadió dificultades adicionales a la clasificación mundial juvenil, reduciendo aspirantes potenciales de seis a cinco. Actualmente, competiremos por cuatro lugares. Que los jóvenes talentosos no caigan en la presión pública ni sean influenciados negativamente por empresarios interesados únicamente en explotar situaciones personales. Pronto comenzaremos contra Argentina, ascendiendo tras eliminar a los brasileños. Equipos liderados por figuras prometedoras deben capitalizar el ambiente positivo generado en locales como San Marcos para maximizar resultados beneficiosos."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text which align with typical journalism standards for reporting events, achievements, analyses, etc. It ensures each entry has both a `headline` and corresponding `content`, formatted according to specified requirements while omitting irrelevant information such as ads or non-content elements like sports scores unrelated directly to narrative context.

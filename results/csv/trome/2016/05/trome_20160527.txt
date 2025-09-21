@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/05/trome_27.txt ---
+
+```json
+[
+    {
+        "headline": "Corearon a Simeone",
+        "content": "El Atlético de Madrid se adelantó y arribó ayer a la ciudad, donde mañana se disputará la final de la Champions, en medio de un gran recibimiento.\n\nTras dos horas de vuelo, el ‘colchonero’ se dirigió al hotel Meli Milanò, donde un centenar de aficionados esperaba al grito de “¡Oh, Oh, Oh, Cholo Simeone!”\n\nA los fanáticos ’rojiblancos’ se sumaron también hinchas del Inter de Milán, que guardan un gran recuerdo del DT argentino.\n\n\"Creo que revancha es una palabra negativa, porque recuerda derrotas, momentos malos. En cambio, oportunidad habla de optimismo, habla de seguridad, habla de confianza y habla de lo que está por venir, de lo que queremos, que es la Champions League\", explicó el técnico."
+    },
+    {
+        "headline": "Jos Mouinho acaba de llegar",
+        "content": "Manchester United arregló con el entrenador portugués y hoy lo presentará. En el cielo de la Liga inglesa, ya rezan ‘Pep’ Guardiola [Manchester City], Antonio Conte [Chelsea], Jürgen Klopp [Liverpool]. ‘Mou’ cobrará un salario de 14 millones de dólares por cada una de las tres temporadas. Además, ‘The Special One’ tendrá prioridad de 7,3 millones de dólares sí es que califican a la próxima Champions y 3,6 millones más si ganan la Premier League."
+    },
+    {
+        "headline": "Lista del Portugués",
+        "content": "Con 300 millones de dólares para fichajes, Mourinho tiene varios nombres en su lista: los defensas John Stones [Everton] y Raphael Varane [Real Madrid]; los volantes Matic y William [Chelsea], Saul [Atlético] y los delanteros Zlatan Ibrahimović [libre] y Gonzalo Higuaín [Nápoli], además del extremo peruano André Carrillo, por quien los ingleses pagarían hasta 28 millones de dólares al Benfica, según The Sun’ y ‘A bola’. \n\n‘Yo tengo muchos amigos jugadores’, dijo Ibra.”
+    },
+    {
+        "headline": "Cristiano Ronaldo niega haber dicho...",
+        "content": "\"No me molesta lo que haya conseguido el ‘Barça’. Si ganamos la Champions es mucho más que el ‘doblete’ o un ‘triplete’. Te digo de corazón, que no lo vivía\", señaló CR7 en una entrevista con el programa Jugones. \"Mas alla de eso, reafirma su antipatía por el cuadro catalán, ‘Imposible que mi hijo sea del Barza!’ Tiene los genes del pap, pero si tuviera que pasar yo lo aceptaría. No le llevaría al Camp Nou, pero no le voy a pegar, Es mi hij@. Soy un padre de la p…”"
+    },
+    {
+        "headline": "Alfredo Ramírez vuelve para enfrentar a Real Garcilaso",
+        "content": "Somos un equipo muy Mar Adentro...\n\nQue se había convocado tras el receso de la Copa América Centenario, sorprendió a propios y extraños siendo incluido en el partido de práctica y arrancará en el once de Cristal ante su ex-equipo, Real Garcilaso, mañana en el Alberto Gallardo!\n\nEl Chapu sufrió un esguince en el tobillo derecho frente a Vallejo que lo tuvo fuera cuatro semanas."
+    },
+    {
+        "headline": "Rosados se reparten taquilla del Domingo",
+        "content": "Calmanate para los Bolsilleros\n\nGerardo – No habia otra, teniamos que creer. Neheanae Somos un equipo muy Mar Adentro...\n\nAmigos personeros secretarios de Gerardo Peluso – Ayer, en la mañana, en el estado Campolo Alcalde de La Perla, los integrantes del Sport Boys marcharon tarjeta para no ser acusados de abandono de trabajo, pero con la firme decisión de cumplir su segundo dia de huelga por falta de pago."
+    }
+]
+```
+Note: This extraction focuses solely on extracting complete articles based on headlines followed by their respective contents while ignoring irrelevant sections such as ads, sports scores not forming coherent stories, etc. Adjustments were made where necessary to ensure clarity and coherence within extracted texts.

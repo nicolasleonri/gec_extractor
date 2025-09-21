@@ -1,0 +1,54 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2019/02/publimetro_28.txt ---
+
+```json
+[
+    {
+        "headline": "Tom Parker, el ‘Coronel’ detrás de Elvis Presley",
+        "content": "Como figura oscura, Tom Parker tomó el control de la carrera y la vida personal de Elvis Presley a partir de 1967. Existen rumores fascinantes, como aquel que sugiere que Elvis pudo haber fingido su propia muerte, dejando pistas sutiles tales como la inicial duplicada en su lápida."
+    },
+    {
+        "headline": "Temas Trending en Twitter",
+        "content": "Entre los principales temas discutidos ayer en Twitter figuran historias impactantes como el milagro médico de un bebé considerado el más pequeño superviviente de un embarazo tan precoz, así como un devastador accidente de tren en El Cairo causando numerosas víctimas mortales y heridos graves."
+    },
+    {
+        "headline": "Venecia aprueba tasas de entrada para turistas",
+        "content": "Históricamente significativo, el gobierno municipal veneciano decide implementar cargos de acceso para los visitantes, buscando conservar la integridad cultural y estructural de la icónica ciudad reconocida mundialmente como patrimonio humano."
+    },
+    {
+        "headline": "Investigarán al Cardenal George Pell en Roma",
+        "content": "Según comunicó el Vaticano, procederá una investigación eclesiástica respecto a las denuncias legítimas contra el cardenal australiano George Pell, enfrentándose posibles penas severas debido a crímenes sexuales cometidos según dictaminación legal local."
+    },
+    {
+        "headline": "Encuentro diplomático entre Juan Guaidó y Bolsonaro",
+        "content": "Recién regresado de Colombia después de participar en operativos fallidos relacionados con suministros humanitarios, el líder interino venezolano sostiene conversaciones estratégicas con el mandatario brasileño en Brasilia, mientras continúan reportes de desercción militar dentro de Venezuela."
+    },
+    {
+        "headline": “‘Optimismo’ entre Trump y Kim Jong-un en Vietnam",
+        "content": "Durante una histórica conferencia celebrada en Hanói, ambos líderes expresaron esperanzas positivas respecto a futuros tratados vinculados a programas nucleares, resaltando comentarios públicos llenos de confianza mutua y expectativas constructivas."
+    },
+    {
+        "headline": "Testimonio explosivo de Michael Cohen ante el Congreso",
+        "content": "Anterior consejero jurídico de Trump, Cohen describió duramente al Presidente como racista y fraudulento, además de admitir acciones indebidas durante la administración electoral de 2016, comprometiéndose ahora a cooperar activamente con investigaciones legislativas federales."
+    },
+    {
+        "headline": "Presentaciones destacadas en Mobile World Congress",
+        "content": "Empresas punteras mostraron adelantos revolucionarios en telefonía móvil, especialmente centrados en teléfonos flexibles y capacidades avanzadas de conectividad 5G, anticipando transformaciones radicales en experiencias multimedia y aplicaciones cotidianas."
+    },
+    {
+        "headline": "Sorteo del Campeonato Sudamericano Sub 17",
+        "content": "Celebrado en Perú, el evento determinó grupos competitivos para equipos juveniles sudamericanos, destacando el debut programado de la Selección Peruana contra Ecuador, en búsqueda de calificación al Mundial Juvenil."
+    },
+    {
+        "headline": "Eliminatorias intensas en el campeonato español",
+        "content": "FC Barcelona logró victorias cruciales en semifinal contra Real Madrid, consolidando su posición para alcanzar nuevamente la gran final de la Copa del Rey, evidenciando superioridad táctica y ejecución precisa en campo contrario."
+    },
+    {
+        "headline": "Palpitante eliminación de Talleres por Palestino",
+        "content": "En un vibrante encuentro internacional, Palestino derrotó a Talleres de Córdoba, garantizando su lugar en el grupo de alto perfil de la próxima fase de la Copa Libertadores, compartiendo escenario con clubes legendarios como River Plate y Inter de Porto Alegre."
+    }
+]
+``` 
+
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined extraction rules and guidelines.

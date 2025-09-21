@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/07/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista.21 A Víctor Andrés García Belaúnde, congresista",
+        "content": "“Oréllana me envió un mensaje...\".\nPregunta clave durante la sesión: \"¿Por qué cree Ud. que nadie más contestará estas preguntas?”\n\nRespuesta de García Belaúnde:\n“No tengo idea. Yo creo que ellos están muy ocupados haciendo campaña electoral.”\n\nContinúa diciendo: “Lo único cierto es que yo estoy aquí dispuesto a hablar de cualquier cosa relacionada con el caso.”
+    },
+    {
+        "headline": "\"Nadine va a ir (al Congreso) porque no le tenga miedo a este tipo de comisiones.\"",
+        "content": "\nClara muestra de determinación por parte de la primera dama, Nadine Heredia, frente a la comisión investigadora liderada por Marisol Pérez Tello. Durante la tensa sesión, acompañada por 18 legisladores de Gana Perú, solicitó públicos debates y confrontó directamente tanto a la opositora Pérez Tello como a otros miembros de dicha comisión. \n\nSu intervención duró más de tres horas debido a la inclusión de múltiples voceros dentro de su equipo legislativo."
+    },
+    {
+        "headline": "Abogado de Ex Asesor Dice Que Fiscal Quién Investiga a Primera Dama Visitó Empresario",
+        "content": "Se reporta que José Urquizo, defensor legal de Martin Belaunde Lossio, indicó que el fiscal Ricardo Rojas sugirió a su cliente convertirse en ‘colaborador eficaz’ en relación a las investigaciones hacia Nadine Heredia por posible lavado de activos. Esta información surge después de que Belaunde Lossio compareció ante la comisión encabezada por Marisol Pérez Tello. Sin embargo, Rojas niega tal proposición afirmando que aún no está claro cómo involucraría esto a Belaunde Lossio específicamente."
+    },
+    {
+        "headline": "Gerard Ortega Peña Siguiendo Militante Inscripción Partido Estrella",
+        "content": "Contrariamente a rumores previos, Gerard Ortega Peña permanece registrado como miembro del Partido Aprista, según registros actualizados del Jurado Nacional de Elecciones. Este hecho genera controversia dado su proceso judicial pendiente por vínculos sospechosos con narcotráfico. Simultáneamente, Miguel Facundo Chinguel también figura todavía como adherente del mismo colectivo político."
+    },
+    {
+        "headline": "Coronel Sentenciado Por Masacre Chillihuaya",
+        "content": "Un fallo histórico dictaminó 15 años de cárcel para Manuel Delgado Contreras, implicado en el atroz incidente ocurrido en mayo de 1991 en la comunidad de Chillihuaya, Puno, resultando en la pérdida de vida de cuatro habitantes locales. Además, deberá compensar monetariamente a las familias afectadas. Originalmente absuelto en 2013, el tribunal decidió revisar el caso, llevándolo nuevamente bajo investigación."
+    }
+]
+```
+This JSON structure captures four distinct articles extracted based on their headlines and contents while excluding irrelevant sections such as ads and non-journalistic information. It maintains clarity and coherence for each entry according to specified guidelines.

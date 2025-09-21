@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/03/correo_15.txt ---
+
+```json
+[
+    {
+        "headline": "Una nueva bancada",
+        "content": "eso sí, precisió que \"un sistenta no se retira para debilitara su bancada\", sino que lo\nhace porque su grupo no\ncumple con las expectativas\ny los principios establecidos.\nPRESIDENTE DEL CONGRESO:\n\"ESA LEY (ANTI TRANSFUJA)\nFO CREADA CON LA FINALIDAD\nDE QUE EN FP NO SE VAN SUS CONGRESISTAS\"\nPresentaran un recurso de\nimpugnación, y luego de ello\nconvocará a una audiencia pública."
+    },
+    {
+        "headline": "COMISION TORRES ADOPTA IMPORTANTE ACUERDO",
+        "content": "Constición DEROGÓ TRES DECRETOS LEGISLATIVOS\nDictados Por El Ejecutivo\nLa Comisión de Consticion Acord Recomiendar Derogar Tres Decretos Legislativos Publicados Por El Ejecutivo En El Marco De Las Facultades Para Legislare Que Le Otorgó El Legislativo. Son Tratados Los Decretos Nos 1344, 1345 Y 1333.\nDos Primeros Decláran Inconstitucionales Por Falta De Solicitar Facultades Específicas. Termino Normativo Criticado Por Similitudes Con Decreto Relacionado Con 'Baguazo'."
+    },
+    {
+        "headline": "LEY ANTI TRANSFUJA CRÍTICADA",
+        "content": "\"NO ME PARECE QUE AYUDA A LA DEMOCRACIA (... LA FRAGMENTACIÓN NO HACE BIEN A NADIE\")\nExpresa La Bancada De FUERZA POPULAR Considera Peligroso Intentar Derogar Ley Anti Transfuga. Subraya Necesidad De Respetar Voluntad Electoral."
+    },
+    {
+        "headline": ": QUÉDA ADMITE APELACIÓN DE TOLEDOD",
+        "content": "El 41° Juzgado Penal De Lima Adjudicó Apelación Solicitada Por ExCongresista Roberto Benítez Abogado Del Expresidente Alejandro Toledod, Permitiendo Continuar Con Habéas Corpus Buscando Anular Orden Preventiva De Detención Durante 18 Meses."
+    },
+    {
+        "headline": "PODER JUDICIAL CONDENA EMPRESARIO A 06 AÑOS DE PRESIÓN",
+        "content": "Por Fraude Fiscal Mediante Emisiones Irregulares De Cartas Fianzas. Además Hallado Culpa De Falsificación Documental Y Colaboración Ilícita Para Delinquir."
+    },
+    {
+        "headline": "PJ DECLARA IMPROCEDENCIA DE RECURRESO PARA CASO TARATA",
+        "content": "Colegiado ‘A’ Denega Petitorio Senderistas Quieren Invalidar Juicio Por Ataque Terrorista De 1992 Argumentando Violación Derechos Individuales Durante Etapas Judiciales Previa Y Actual."
+    },
+    {
+        "headline": "ALARMA EMERGE DESBORDE RO CHILCA",
+        "content": "Vecindario Temió Peor Después De Que Un Ciudadano Falleció Arrastrado Por Aguas Torrenciales. Casas Dañadas Y Servicios Interrumpidos Debido A Incremento Fluctuante Del Rio."
+    },
+    {
+        "headline": "POLICÍA DETIENE SERENO DENUNCIADO POR ABUSO SEXUAL",
+        "content": "Un Funcionario Del Municipio De Ate Arrestado Tras Hechos Reportados Por Madre De Menor Quién Afirma Su Hij@ Fue Forzosamente Introducida A Baño Donde Sucedió Incidente."
+    },
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extracting significant journalistic pieces. Articles were identified based on distinct headings followed by relevant textual information. Non-article sections such as ads, notices, and unrelated listings have been excluded according to guidelines.

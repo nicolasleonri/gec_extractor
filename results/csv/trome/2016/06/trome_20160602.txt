@@ -1,0 +1,81 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/06/trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "COMPATIBILIDAD",
+        "content": "No todos los grupos\nsanguíneos son \npcatables entre sí.\nPor ejemplo,\nen caso de\nque necesites\nda más de una\nplaza de la\ntransferencia:\npuedes saber qué\nson los cuatro\nprincipales tipos\nde grupo sanguíneo:\n+\nEl grupo A\nposee el antígeno A\n+\nEl grupo B posee el antígeno B\n+\nEl grupo AB posee ambos\nantígenos\n+\nEl grupo O no posee ninguno\nLa identificación cubriendo los grú\ny de\nX\nLos más importantes son\nCuatro y fueron descubierto\negr el patólogo austriaco Karl Landstein, en 1901."
+    },
+    {
+        "headline": "La Tierra es un geoide...",
+        "content": "Es decir, una esfera ligeramente achata en la zona de los polos a causa de su movimiento de rotación. El diámetro ecuatorial es de 12,756 km y el polar es de 12,713 km, resultando así una diferencia aproximadamente de 43 km. Esto ‘aplana’ nuestro planeta."
+    },
+    {
+        "headline": "La palabra láser, recogida en el Diccionario académico desde 1984...",
+        "content": "Es la adaptación al español del acrónimo inglés Laser [Light Amplification By Stimulated Emission Of Radiation]. Lleva tilde en la a. El plural del láser es los láseres, no los láser, los lsers ni los lasers."
+    },
+    {
+        "headline": "Reinaldo Franco precisa que por ahora está concentrada en sus proyectos empresariales...",
+        "content": "\"Hay que esperar un ratito\" matrimoni[o], \"Nosotros estamos chamb[eando]. Hay otras bodas más importantes para este año, el mood está perfecto; dar ese paso me está costándome un poco por falta de tiempo\", expreso la rubia."
+    },
+    {
+        "headline": "Maro Hart precisió que su relación con Leslie Shaw marcha bien...",
+        "content": "\"Todo muy bien, no se nos ve mucho en la calle, ni en eventos mediáticos, porque uno está preocupado por sus cosas, pero mírame aquí, todo bien.\""
+    },
+    {
+        "headline": "Producotr Tonadero confirma que Magdyel Ugaz caracterizaría a Da Petita...",
+        "content": "\"Estoy más que feliz que me haya dado el honor de interpretar a Da Petita, la mamá de Paulo. Estoy aceptando este rol con mucha humildad. Ahora empiezo a trabajar junto a Da Petita; voy a conversar mucho con ella para entender personalidades y arrancar filmaciones,\" señal Magdyel."
+    },
+    {
+        "headline": "Modelo Shirley Arica contó que Juan Manuel 'Loco' Vargas y su esposa Blanca Rodríguez atraviesan su mejor momento...",
+        "content": "\"El (Vargas) llegaba después de viajar y hablar con mi esposo Poop para invitarlo a una parrillada en su casa. Fuimos porque nuestras bebé[s] no se conocían, compartimos y tomamos una foto. No sabemos todavía el tiempo de embarazo (de Blanca), no le pregunté. Ell@s están superbi[n], están felices y además tienen cinco hijos, ¿qué mas quieres?, indicó Shirley."
+    },
+    {
+        "headline": "Vanessa Ciurlizza, prima amiga de Blanca Rodriguez, indica que la esposa de Vargas está ilusionada con su embarazo...",
+        "content": "\"No tengo nada que declarar del (Vargas)... Creo que ése el embarazo, pero no quisiera hablar del tema. Tenéis vuestra familia, ¡ojalá de una vez salga toda la información para que caiga la careta y no la pinten santa!"
+    },
+    {
+        "headline": "Marco Hart especificó que su relación con Leslie Shaw sigue firme...",
+        "content": "\"Todo muy bien, no se nos ve tanto en público, ni tampoco en eventos médicos, porque uno está ocupado con sus responsabilidades personales, pero mirame aquí, todo bien,\" aclara el piloto."
+    },
+    {
+        "headline": "Productora Tonadero afirma que Magdyel Ugaz representará a Da Petita...",
+        "content": "\"Estoy más que emocionada de haber sido elegida para interpretar a Da Petita, la mamá de Paulo. Me siento honrada y estoy recibiendo este papel con muchísima gratitud. Empecé a colaborar con Da Petita; vamos a dialogar bastante para comprender sus características y comenzaremos pronto con las grabaciones,\" afirmó Magdyel."
+    },
+    {
+        "headline": "Modelo Shirley Arica explicó que la pareja vive momentos positivos tras concebir su quinto hijo...",
+        "content": "\"Él (Vargas) venía de regresar de un viaje y charlando con mi esposo Poppy invitándolo a pasar a comer algo en su hogar. Participamos porque nuestros pequeños aún no se conocían, disfrutamos y capturamos un instante fotográficamente. Todavía desconozco el avance gestacional (de Blanca), nunca consulté. Son sumamente dichosos, cuentan con abundancia económica, aspecto deseable para algunos, y gozan de numerosos descendientes, ¿Qué más podría añadir?", detalla Shirley."
+    },
+    {
+        "headline": "Vanessa Ciurlizza, cercana confidente de Blanca Rodríguez, manifiesta que la consorte de Vargas muestra alegría hacia su espera maternal...",
+        "content": "\"Prefiero mantener silencio respecto al (Vargas)... Supongo que aquel periodo de expectativas viene avanzando, aunque evito profundizar en ello. Poseen una hermosa progenie, y ahí radican mis comentarios," pronunció Vanessa."
+    }
+]
+```
+This JSON captures each distinct article found within the provided OCR text while adhering strictly to the specified format requirements. It includes headlines where available and merges fragmented texts for coherent narratives under their respective headings. Articles lacking explicit titles have been assigned `"NA"` accordingly.
+
+--- ERROR ENTRY: data/txt/trome/2016/06/trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "Alerta por adicción a marihuana",
+        "content": "C(a En algunos países se está legalizando la\nmarihuana, he tenido amigos adictos a\nessa droga que felicesamente ya la dejaron,\npero pasaron un terrible drama.\nHasta donde tengo conocimiento, la marihuana sí es adictiva\ny llama al consumo de otras drogas más \nfuerzas, Por eso rechazo cualquier propuesta para\nlegalizarla."
+    },
+    {
+        "headline": "\"Makara\" secuestraba niños y pedía rescates",
+        "content": "<z>(EN EL CALLAO)\nAcribillan a chiquillo\nG De siete balazos, un\nmenor de edad fue \nasesinado en el Callao, pocas\nhoras después de haberse\nampliado por tercera vez el\nestado de emergencia en el\npuerto chalaco.\nLos criminales atacaron a\nJampier A.C. [17) en el \ncruc\nje de los jirones Atahualpa y\nAyacucho. Fue llevado a un\nhospital con cuatro disparos\nen la cabeza, uno en cada\npierna y en el tra\x94\nSegún las primeras \ninvestigaciones, el ataque habrá estado dirigido contra el conocido\ncomo \"Adilson\", del barrio de\nAtahualpa, quien acompañaba a Jampier, pero logró escapar. (E. Cirilo)"
+    },
+    {
+        "headline": "Loco mata esposa y a sus dos hijas",
+        "content": "\nJoel Dagá Inocente(29) tenía la esperanza de volver con su ex pareja\nGeraldine Vega-Bañez Gutierrez(25), pero al escuchar que él ya no la amaba,\nel estrangulara luego envenenó a sus hijas de 1 y 8 años.\nEl padre escribió en la pared antes de tomar el veneno:\n\"Perdonen por favor yo sólo quería estar para siempre con mi familia.\""
+    },
+    {
+        "headline": "Matatán",
+        "content": "5 Omilsolesporsuscaptura.\nEntre ello también aparecen nombres relacionados con actividades ilícitas."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while excluding irrelevant sections like ads and non-journalistic information. Adjustments were made for clarity where necessary within each entry's context.

@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/02/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "HUANCAVELICA. TURBA INGRESÓ A COMISARÍA PARA LIBERAR PRESUNTOS DELINCULNTES",
+        "content": "Atacan comisaría para sacar\na delincuentes y castigarlos\mpobladores se \nllevaton a los detenidos\ny los azotaron en la\nplaza. Policía los \nrrescat horas después.\nDecididos a tomar justicia por\nsus propias manos contra tres\ndelinquentes que se \nencontraban detenidos en la comisaría\ndel sector, un grupo de \npobladores del distrito de Paucar,\nin la provincia de Acobamba, en Huancavelica, atacó\nla noche del viernes último la\ndependencia policial de esa\njurisdicción, a la que ingresó utilizando bombas molotov y\nhondas. La turba no solo trozó las oficinas sino también\nincendió dos patrulleros, una moto y un vehículo particular.\nNada detuvo a los enardecidos pobladores que, una vez adentro de la\ncomisaría, rompieron el candado de la celda donde se\nencontraban los detenidos José Daniel Gamarra Regalado, Jorge Antonio Guerra Moralez y Fernando Escobar Lancasca –acusados de robar una retroexcavadora– y los sacaron del calabozo para llevarlos hasta la plaza principal del distrito, donde los desnudaron y amarraron de manos y pies, sometiéndoles a un castigo público."
+    },
+    {
+        "headline": "Rescate de Detenidos",
+        "content": "Tras el ataque, según declaró Alejandro Oviedo, jefe policial de la región Policial Huancavelica, hubo cuatro civiles heridos de balín y cuatro efectivos contusionados. \"Por una cuestión de costumbre, quieren castigar a estas personas, quisieron que se los entregásemos internándolos\", señaló. Posteriormente, fuerzas policiales restauraron el orden en la zona, liberando a los tres presuntos ladrones robados previamente en el área de Pumaránra."
+    },
+    {
+        "headline": "Operativos Antilegislación Forestal",
+        "content": "Durante el año, inspectores de migraciones han impedido que varios niños sean transportados internacionalmente mediante documentación fraudulenta. Además, en Madre de Dios, autoridades decomisaron miles de metros cúbicos de madera valiosa almacenada clandestinamente, impactando significativamente la industria forestal ilegal."
+    },
+    {
+        "headline": "Problemas Respiratorios Infantiles",
+        "content": "\"Freire Educando en salud\" discute cómo el asma bronquial afecta principalmente a jóvenes debido a múltiples factores desencadenantes tales como contaminación atmosférica y cambios climáticos severos. Explican métodos preventivos y terapias disponibles para manejar dicha enfermedad crónica."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable, though none was necessary here given sufficient information within each segment.

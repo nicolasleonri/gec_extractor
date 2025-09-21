@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/06/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "George Forsyth dice que ‘Melissa Klug’ está buscándole esposa",
+        "content": "‘Ya estaba que se jalaba de los pelos’, decía él sobre cómo se sintió cuando supo que Melissa Klug había sido captada por cámaras abandonando un restaurante departamental."
+    },
+    {
+        "headline": "Susan Ochoa divide opinión en competencias de danza",
+        "content": "\"Clara Seminara, tras enterarse de que Enrique Espejo, alias Yuca, fue ampayado por Magaly TV, aseguró que la realidad siempre emerge.\" \"Mis papeles\", afirmó mientras discutió sobre los criterios utilizados por los jurados en programas de talento musical."
+    },
+    {
+        "headline": "Monologuista español critica falta de consistencia en jurados musicales",
+        "content": "\"Creo que los fanáticos tienen razón respecto a ciertos puntajes otorgados durante concursos televisivos,\" expresó el monologuista, señalando inconsistencias notables en las valoraciones realizadas por los integrantes del panel de jueces."
+    },
+    {
+        "headline": "Conductora de 'Punto Final' opta por bicicletas ante congestión vehicular",
+        "content": "\"Utilizar bicicletas mejora tanto nuestra salud física como ambiental,\" menciona Monica Delta refiriéndose a su elección personal de transportarse así hacia su labor periodística."
+    },
+    {
+        "headline": "Modelo Erik Sabater revela detalles íntimos de relación con Marcela Balik",
+        "content": "\"Nos encontramos viviendo momentos maravillosos aquí en Lima,\" compartió Sabater, destacando la importancia de conocer más profundamente a su compañera argentina."
+    },
+    {
+        "headline": "Edith Santos parodia a Johanna San Miguel en nuevo segmento cómico",
+        "content": "\"Desde pequeña me dedicé a hacer reír a quienes me rodeaban,\" explicó Edith Santos, anticipando su participación en el próximo episodio donde interpretará a 'Johana San Miguelito.'"
+    },
+    {
+        "headline": "Realización de nuevos proyectos cinematográficos internacionales involucra a actor peruano",
+        "content\": \"\"Después de años enfocado exclusivamente en roles locales, retoma su carrera actuativa en grandes producciones extranjeras,\" anunció Eduardo 'El Pap' Pastrana, entusiasmado por nuevas colaboraciones globales."
+    },
+    {
+        "headline": "Importancia de mantener relaciones personales sólidas según columnista",
+        "content": "\"Las conexiones humanas genuinas requieren cuidado constante y sinceridad,\" reflexiona Jorge, solicitando orientación para construir vínculos duraderos basados en experiencias anteriores difíciles."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure for each entry. Articles were identified based on distinct topics and narrative continuity within sections separated by breaks or shifts in subject matter. Non-article elements like ads have been excluded according to guidelines.

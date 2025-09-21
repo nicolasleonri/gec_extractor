@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/04/trome_10.txt ---
+
+```json
+[
+    {
+        "headline": "NA",
+        "content": "As jóvenes y gente de su ciudad generaron para que presente un proyecto a fin de reflotar un astillero. Los progresistas peruanos \"Comepollitos\", \"Robacables\" 'Comeoro's o Pantaleones' son bebés de pecho comparados con él. Pero Frances 'Frank' Underwood y Kevin Spacey es el centro de las intrigas y tejeor de maldades y siniestras en el partido demócratas en el poder. Él es un antiguo diputado por Carolina del sur, quien maneja entre bambalinas a su bancada y logra que su candidato sea elegido presidente, con la promesa de nombrarlo secretario de estado, pero el mandatario electo lo ignora. Desilusionado, humillado, enojado, llega a su casa donde su mujer Claire (Robin Wright), al verlo derrotado, le crítica: ‘No eres el hombre del que me enamoré ¿Dónde está tu valor? Pónete los pantalones y lucha por lo que mereces’. Frank, al día siguiente, enfila sus batallas contra quienes considerea un obstáculo para sus objetivos: Quiero llegar a la presidencia.\n\nSu primera víctima es el vicepresidente. Insisto, parece una serie sobre la política peruana. Pero el protagonista no podría armar su juego sin la ayuda de una joven periodista, hermosa y ambiciosa: Zoe Kate Mara), quien lucha para ser tomada en cuenta por el director del periódico y encuentre en Underwood su ‘Garganta Profunda’, que le suministra carne fresca confidencial del gobierno y el congreso. Clara, pero a diferencia del que ayudó a los periodistas del Caso Watergate, Frank le da las primicia que le convengan y contribuyeron a seguir tumbase a sus enemigos. Así también Zoe consigue sacar al director del diario al ganarse la simpatía de la dueña por sus primicias y porque se niega revelar su fuente. Cuando el director la despide, ella lo acusó de haber llamado cabrona’ a la dueña del periódico, y es echado. Zoesevae trabajar a un medio digital, dónde sigue bombardeando con las ‘primicias’ de Underwood, quien así logra aprobar leyess que le convenían, se tumba al líder mayor hasta enfrentar al presidente. Es una mezcla de Montesinos que vello, tiene frase célebre cuando las pronunciaba Hasta hace diez años era recién nacientes misión mencionales (\%) años. El poder es una sólida construcción de piedra que crece y perdura por siglos'.\nEsa relación poder-periodismo, con fines oscuro, me hacen recordar ciertos funcionarios de comunicación que anda por las sombra en conciliábulo con esos periodistas que les gusta estar apretujados por los tentáculos del poder."
+    },
+    {
+        "headline": "LA SEXY MODELO LUZ ES UNA BUENA CIUDADANA Y POR ESO HOY CUMPLIRÁ CON SU DEBER CIVICO DE VOTAR",
+        "content": "Se sabe todas sus cochinchadas, Lucas Goodwin, al que llega a meterte en la cárcel. Levantar temprano, tomar un rico desayuno en familia y acudir a su local de sufragio. Ella, como todos los peruanos, quiere un gobierno justa y sin corrupción. La situación nos parecen familiar?\nPongo el televisión."
+    }
+]
+```
+This extraction identifies two distinct pieces within the provided input based on their context and structure while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Note how each segment has been cleaned up according to the rules outlined regarding spacing, joining split phrases, etc.
+
+--- ERROR ENTRY: data/txt/trome/2016/04/trome_10.txt ---
+
+```json
+[
+    {
+        "headline": "jeres sufren acoso\nsexual en buses de Lima",
+        "content": "G Una encuesta de la Fundación Thomson Reuters señala que el transporte público de Lima está entre los más peligrosos del mundo, ya que las mujeres sufren más acoso. Mujeres incluso hasta grabarlas.\nAdemás, recomendaron que si una mujer denuncia ante el conductor o chofer que es acosada por algún individuo, éste debe reportarlo de manera inmediata.\n\"Las autoridades deben sancionar duramente a los acosadores, no dejar pasar a que agredan\", dijo el presidente de la organización civil Luz Ambar, Luis Quispe."
+    },
+    {
+        "headline": "Arrancan obras en Javier Prado Este",
+        "content": "\¿Mañana se iniciarán los trabajos de ampliación de la avenida Javier Prado Este, en el tramo comprendido entre las avenidas La Molina y Circunvalación El Golf. \nLas obras se llevarán a cabo desde las once de la noche hasta las cinco de la mañana para evitar congestionamientos vehiculares, dado que estas avenidas son bastante transitadas. \nEl tramo a pavimentar comprenderá un área de 5 mil 500 metros cuadrados y demandará una inversión aproximada de 3 millones de soles, según información proporcionada por la municipalidad de La Molina."
+    },
+    {
+        "headline": "*SAN BORJA\nA moverse en bicicleta",
+        "content": "- Para evitar congestiones vehiculares durante hoy, debido a las elecciones generales, la Municipalidad de San Borja pondrá a disposición de sus habitantes 150 bicicletas para uso personal. Aquellos interesados en utilizar este servicio deben registrarse dentro del programa \"San Borja en Bici\". Hay puntos de recojo ubicados en varias áreas estratégicas de la ciudad. \"Esta iniciativa representa una excelente oportunidad para combinar responsabilidades cívicas con actividad física,\" mencionaron representantes municipales."
+    },
+    {
+        "headline": "\"Melcochita\" será candidato presidencial",
+        "content": "Después de despertar cansado, Melcochita anunció solemnemente que aspira a convertirse en presidente. Durante un evento político, expresó: \"Urge generar empleo, necesitamos jóvenes dedicándose a alguna labor productiva.\" Propone reformas radicales, sugiriendo juegos deportivos para resolver conflictos internacionales y criticando severamente a figuras públicas corrupción. Además, compartió experiencias personales sobre cómo enfrentó adversidades económicas en su juventud, enfatizando valores humildes y honestos."
+    }
+]
+```
+This JSON contains four extracted articles based on their headlines and contents derived from the provided OCR text input. It adheres strictly to the specified format requirements for inclusion within a structured dataset.

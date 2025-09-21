@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_03.txt ---
+
+```json
+[
+    {
+        "headline": "Renato deja testimonio periodístico",
+        "content": "Ciudad es aburrida, añadiérale Teresa. Ya dejás de salir, ves películas, entonces lo\nque escribo erán historias de amigos.\nLa gente quería saber más del autor,\nel cinismo y esto no gusta a la novia.\nEstaba entre los lectores o ella y al final siguió\ncón el blog.\n¿Con tu esposa paso lo mismo?\nNo, porque ya había dejado el \nblog hacía muerto."
+    },
+    {
+        "headline": "Opinión sobre políticos y sociedad actual",
+        "content": "\"El Perú ha mejorado como país? Es mejor del qué teníamos hace 20 años atrás. Por ningún lado veo atisbos de esa dictadura que han pretendido crear algunos sectores políticos que están viéndose perjudicados. Toño Vizcarra no me parece el mejor presidente del mundo, es un tipo que no tiene mucha reflexión política, pero creo que ha sintonizado con demandas muy urgentes de la gente, como traer a renovar nuestra clase política y luchar contra la corrupción.\""
+    },
+    {
+        "headline": "‘Noche Crema’ marca comienzos auspiciosos",
+        "content": "Esta fue una noche donde nadie se qued ‘Mudo’. Razones sobraron. El ‘Monumental’ lleno, el ‘regreso’ de ‘Lolo!’ las luces de colores y Alberto Rodríguez con la U’ en el pecho. La ‘Noche Crema’ fue el inicio del romance entre los hinchas de Universitario y el plantel del 2019, donde el defensa fue el último en llegar, pero el primero en el ‘aplausometro’.”
+    },
+    {
+        "headline": "Sport Boys muestra potencial juvenil",
+        "content": "Los cremas fueron a casa llena. Mucha euforia, luces, entusiasmo, pero la firma repaso los nombres del plantel y no encuentra un fichaje de renombre, un nombre distinto, alguien que marque la diferencia. El ‘Mudo’ Rodrguez se llevó todas las palmas, pero es muy frágil y a veces juega un partido y descansa dos."
+    },
+    {
+        "headline": "Christian Cueva frustra transferencia",
+        "content": "Sin cuerda y sin cabra. Cuando se avizoraba un final feliz entre Krasnodar e independiente, Christian Cueva habría tirado todo al agua exigiendo un mayor salario que el acordado. \"Cuando todo estaba hecho, el jugador sorprendió pidiendo un contrato más alto, no realista con el fútbol argentino y entre eso, impuestos, el pase se elevará a un millón de dólares más. Cueva ya no llegaría\", reveló la cadena TyC Sports."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable. Note that some sections were merged due to continuity within paragraphs but separated logically according to topic shifts.

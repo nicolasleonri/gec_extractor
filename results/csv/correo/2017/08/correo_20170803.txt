@@ -1,0 +1,30 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/08/correo_03.txt ---
+
+```json
+[
+    {
+        "headline": "Por fin se puede decir 100% que Neymar deja el Barcelona y firma por el Paris Saint-Germain en las próximas temporadas.",
+        "content": "Fecha. Ayer, 2 de agosto del 2017, era un día clave para toda Europa en el ámbito futbolístico y los mismos directivos lo presentan. El entrenamiento en la ciudad Deportiva se inició de manera normal sin la presencia del atacante. El club le había dado permiso para que acudiera a las prácticas siempre y cuando acudiese a las instalaciones, a fin de reunirse con la copula de dirigentes catalanes.\n\nReunión. Así que “Ney” Júnior llegó al club junto con su representante, su padre, y le comunicó a los directivos que no quería seguir en el equipo. La conversación continuó con la obvia respuesta de la directiva: se va sí le abonan los 222 millones de euros,\nmonto de la claúsula de rescisión de contrato. Neymar y su padre aceptaron."
+    },
+    {
+        "headline": "OFICIAL: Neymar se fue del Barça",
+        "content": "Despedida. Sin embargo, antes de irse, recibió unas palabras de cariño por parte de sus compañeros y del cuerpo técnico. Especial abrazo tuvo con Lionel Messi, con quien se hizo muy amigo en la convivencia en entrenamientos y partidos del equipo. Ya para entonces, el Barcelona informaba lo sucedido a través de un comunicado oficial, reboteado por millones de cibernautas en todo el mundo mediante distintas redes sociales y páginas web.\n\n“Neymar, acompañado de su padre y representante, ha comunicado al Barcelona su decisión de abandonar la entidad. El doble confirmará más adelante su salida.”
+    },
+    {
+        "headline": "Este domingo se corre segunda fecha de Motovelocidad",
+        "content": "El Autódromo de La Chutana será sede de la fecha 2 del Honda Grand Prix, del Campeonato Nacional 2017. Además, Christian ‘Pulga’ Riquelme jugará contra el Tricolor en el Estadio Morumbi. Hoy sale a la luz CR7, la biografía de Ronaldo, uno de los mejores jugadores del mundo en la actualidad. Solamente S/5 soles costará la publicación. La puedes conseguir desde hoy en tu quiosco favorito junto con la compra de El Bocón."
+    },
+    {
+        "headline": "Correspondiente entrevista de Johana Ugaz/Foto: Ángela Ponce",
+        "content": "\"...habrá que buscar una ruta\" dice Lucio Callchahuayo refiriéndose a cómo describió a Scar Callchahuayo, esto a la paciencia, afirma ser un hombre que se toma su tiempo, aunque siempre está ocupado iniciando, continuando o terminando la historia de sus cuentos fantásticos, novelas o poemas. Acaba de publicar la reedición de su primera novela, \"La tarde de toros\", y cuenta para Correo parte de su trabajo como escritor."
+
+    },
+    {
+        "headline": "¿Qué trata La tarde de toros?",
+        "content": "Es una novela que gira alrededor de una fiesta en los Andes, con una corrida de toros donde ocurren eventos trágicos, pero también germinan amor en unos niños que son de estratos socioeconómicos muy diferentes. La tarde de toros es un conjunto de historias que muestra la vida en un pequeño pueblo andino, en los tiempos en que los campesinos trabajaban en las minas. Con esta novela traté de rescatar las costumbres, mitos y leyendas de ese pueblo, que es un reflejo de otros a nivel pan-andino en una época determinada de nuestra historia."
+    }
+]
+```
+This extraction captures four distinct pieces of journalism based on their headlines and contents while adhering strictly to the provided guidelines for cleaning up and structuring data extracted through OCR processing. Any missing information was filled using "NA". Note how each entry maintains its integrity according to the defined structure.

@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/11/trome_17.txt ---
+
+```json
+[
+    {
+        "headline": "Resultados",
+        "content": "Mayor Rentabilidad para tu Negocio.\nRegístrese en la cadena de custodia en las muestras,\nosotros no somos intermediarios\n*Más cantidad de marcadores genéticos evaluados en casos complejos de parentesco.*\nConfianza y Confidencialidad."
+    },
+    {
+        "headline": "Exitsuos cuentan sus secretos",
+        "content": "Lo wn JMUNATS\n\"Concierto VI\nBALSA Y REGGAFFTON PARA UN FIESTÓN.\" \nNo arrojes los residuos sólidos urbanos...\nporque obstruyen las tuberías!"
+    },
+    {
+        "headline": "",
+        "content": "\"Actriz cómica Cindy Marino vuelvió a los reflectores, al ser captada por el programa ‘Amor, amor, amor’ junto al periodista deportivo Erick Osorio en una discoteca. En dicho ampay, ambos aparecen disfrutando la noche y luego se retiran en un mismo auto con rumbo desconocido según las imágenes que se difundieron ayer en Latina. Recordemos que hace algunos años Cindy estuvo en el ’ojo de la tormenta’ cuando tuvo un breve romance con el futbolista Renzo Schuller y Gian Piero Díaz, conductores de Combate!. Serán los invitados especiales, este sábado, en la pista de Los Reyes del Show’. Aunque no se ha confirmado si harán un Desafío’ o serán Jurados Vips, ha transcendido que la dupla participará en variadas de las secuencias del reality de América Televisión.”
+    },
+    {
+        "headline": "",
+        "content": "‘Defienden mural:\nPueblo peruano honra así a figuras internacionales.’\nEl futbolista Alfonso ‘Puchungo’ Yepez defendió el mural que pintaron los vecinos del barrio de Atahualpa, Callao, en agradecimiento a Yahaira Plasencia. Como se sabe, en dicha zona también están pintados Hector Lavoe, Celia Cruz y Cheo Feliciano, entre otros grandes de la salsa. ‘No entiendo las críticas. A cualquier artista, nacional o internacional, se le dedican estos homenajes, por venir a cantar de forma gratuita. Para nosotros, esto significa mucho valor. Además, ayuda a que la gente tenga más visitantes (cervezas, anticuchos…) Esto es un día festivo para nosotros’, precisó ‘Puchungo’."
+    },
+    {
+        "headline": "",
+        "content": "'Milagros Pérez-Schultz cuenta que se reconcilió con Giovanni Král, padre de sus dos menores hijos, tras haberlo denunciado por violencia familiar. Así pasó desde la tempestad hacia la calma. \"A pesar de que han pasado muchas cosas, problemas y lágrimas..., hoy puedo decir que, gracias a Dios, hemos podido solucionarlo (con Giovanni) por el bienestar de nuestros hijos\", declaró Milagros, quién compartió fotografías junto a Giovanni y sus pequeños. Dos semanas atrás, Milagros protagonizó su drama televisivamente afirmando que había sido víctima de maltratos físicos y amenazas de muerte, culminando una relación de cuatro años. Indicó que aunque el tiempo curó viejas heridas, actualmente mantienen una cordial relación enfocado siempre en el beneficio de sus hijos, Dashley y Giovanni. "
+    },
+    {
+        "headline": "",
+        "content": "Clínica de la Piel ofrece tratamientos avanzados utilizando tecnología de última generación como Laser SP Spectro (FOTONA Slovenia): Acné/Hongos/Verrugas/Alergia/Vitiligo/Psicosis/Rosácea/Cancer de Piel/Lunares/Otras condiciones. También ofrecen tratamiento mediante laser Co2 fraccionado (SYNERON USA) para cicatrizes post-acné/varicela/arreglar arrugas profundas/caída de párpados/manchas de edad/ojeras/rejuvenecimiento facial/etcétera. Ubicada en Av. Guardia Civil 320 – San Isidro y Av. Carlos Izaguirre 814 – Los Olivos."
+    },
+    {
+        "headline": "",
+        "content": "BAIC X25 disponible en Motormundo. Ofrece precios competitivos válidos hasta agotar existencias. Disponible tanto en versión estándar como modificada. Visite nuestra red de tiendas en diferentes distritos de Lima y provincias para adquirir su vehículo nuevo."
+    },
+    {
+        "headline": "",
+        "content": "Rubén solicita consejo sobre cómo mejorar su situación sentimental después de una ruptura dolorosa. Expresa deseos de formar nuevas relaciones basándose en la comprensión mutua y posiblemente construir una nueva historia de amor. Solicita contacto a través del número proporcionado."
+    },
+    {
+        "headline": "",
+        "content": "Incidentes graves ocurren durante eventos masivos debido a deficiencias en normativas de seguridad. Ejemplos históricos destacan incidentes catastróficos en discotecas y comercios populares causados principalmente por negligencia administrativa y falta de cumplimiento de regulaciones básicas de emergencia. Este tipo de accidentes recalca la importancia crucial de adherirse rigurosamente a protocolos de prevención y respuesta rápida frente a potenciales riesgos."
+    }
+]
+```
+This extraction captures various types of articles including reports, personal stories, health services information, vehicle sales promotions, relationship advice requests, and safety warnings based on historical incidents—all formatted according to the specified requirements for inclusion within a structured JSON format. Articles were identified through their thematic substance rather than specific headlines where applicable. Non-article elements such as ads, listings, and non-substantive notices have been excluded following provided guidelines.

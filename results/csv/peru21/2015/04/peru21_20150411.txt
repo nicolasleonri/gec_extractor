@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/04/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "\"El mundo de la política también está muy dominado por los economistas\"",
+        "content": "\"… Hoy en día, uno pensaría que…”"
+    },
+    {
+        "headline": "Autoficha",
+        "content": "' Director de Tironi ps océacaia del diario El Mercurio. Logró el …'"
+    },
+    {
+        "headline": "¿Cómo se ve el Perú desde Chile?",
+        "content": "\"El Perú se ve bien. Un país que ha tenido un progreso económico extraordinario, un país que además tiene una democracia consolidada, con partidos políticos fuertes, prensa libre, libertades individuales.\""
+    },
+    {
+        "headline": "",
+        "content": "\"Deliberación conjunta evadiendo responsabilidades respecto a la alarmante cantidad de criminales liberados tras arrestos preliminares\"."
+    },
+    {
+        "headline": "Corrupción",
+        "content": "\"Ante estos hechos, el Congresista Renzo Reggiardo expresó: ‘Vemos que cada quién habla de sus cifras, esto no es nuevo.’\""
+    },
+    {
+        "headline": "Opinan.21",
+        "content": "\"‘La naturaleza –como la vida– tiene sus ciclos y sus tiempos’.”
+    },
+    {
+        "headline": "Nuevo aumento presupuestario para túnel Santa Rosa",
+        "content": "\"Son $19 millones adicionales destinados a completar las labores antes de fines de año.”"
+    },
+    {
+        "headline": "Trabajo continuará en horas nocturnas en Carretera Panamericana Sur",
+        "content": "\"Recomienda precaución a conductores mientras duran reparaciones estructurales programadas.”"
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles lacking distinct headings have been assigned `"NA"` where appropriate. Any non-article sections like ads were excluded according to scope definitions.

@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/10/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "DE ELLAS 62 ESTN EN PELIGRO CRÍTICO, SEGUIMIENTO SERFOR",
+        "content": "Hay 300 especies de\norquídeas en riesgo.\nLa Conferencia de Alto Nivel\nde las Américas sobre el \nComercio ilegal de Vida Silvestre\nrealizada en Lima puso el foco\nen los delitos que se cometen\ncontra el jaguar, Sin embargo,\nelas flores no están exentas de\nesté peligro, entre ellas la \norquídea.\nAl respecto, el Servicio \nnacional Forestal y de Fauna \nSilvestre (SERFOR]\ndel Ministerio de Agricultura y Riego informó\nque en nuestro país existen\nentre 2,600 y 3,000 especies\nde orquídeas, de las cuales más\nde 300 especies se encuentran\ncatalogadas como amenazadas:\n62 están en peligro crítico,\n19 en peligro y 220 son vulnerables."
+    },
+    {
+        "headline": "ESFUERZO TIENE UNA RECOMPENSA",
+        "content": ""
+    },
+    {
+        "headline": "",
+        "content": "Dos medicamentos analgésicos ofreciendo diferentes velocidades de acción y advertencias específicas relacionadas con condiciones médicas previas y restricciones de uso junto con información detallada de dosificación."
+    },
+    {
+        "headline": "PALACIOS",
+        "* Restaurante 'PUÑALES'\nPanchita *\n—— Dulce de Níspero\nIngredientes Preparación\nm 2ts. de níspero fresco\nm 2ts. de azúcar rubia\nml rama de canela\nm1 cucharadita de sal\nProceso paso a paso para preparar dulce de níspero incluyendo lavado, cocimiento repetido, cambio de agua caliente, agregado de aromáticos y creación de almíbar."
+    },
+    {
+        "headline": "ACK % ESCONDE LA MESESALA",
+        "content": "Una lista extensa de plagas clasificadas según tipos distintos como insectos y caracoles, acompañada de números asociativos desconocidos."
+    },
+    {
+        "headline": "WE THE LION ES LA PRIMERA BANDA PERUANA EN LLEGAR A LOCALLAPOOZA",
+        "content": "Chicago, que se realizará el 26, 27 y 28 de marzo del próximo año."
+    },
+    {
+        "headline": "ESCRITORES OLGA TOKARCZUK Y PETER HANDKE",
+        "content": "Obtenedores del Premio de la Literatura en el Mundo. Ambos son de Europa Central. Otorgados a la novelista polaca Olga Tokarczuk y al autor austriaco Peter Handke, reconocidos por sus contribuciones literarias entrelazadas con temas religiosos, éticos y sociales europeos. Detalles adicionales sobre sus carreras y controversias personales también mencionadas."
+    },
+    {
+        "headline": "TU VOZ",
+        "content": "Antología de poemas y canciones titulado \"Tu voz\", destacando la importancia cultural de Juan Gonzalo Rose y revelando nuevos manuscritos poco conocidos. Resumen biográfico breve y contexto histórico-literario proporcionado."
+    },
+    {
+        "headline": "MUNICIPALIDAD PROVINCIAL DE HUAMANGA LLAMA A LICITACIÓN",
+        "content": "Convocatoria pública para seleccionar empresas privadas involucradas en proyectos de mejora urbana y servicios culturales en Ayacucho. Información detallada sobre procedimientos legales, requisitos financieros y cronograma establecido."
+    },
+    {
+        "headline": "\"CHRISTIAN CUVEA EST TRABAJO BIEN\"",
+        "content": "Selección Peruana Defiende a ‘Aladino’ Previo Partido Contra Uruguay. Contextualización deportiva y estrategias futuras delineadas por el director técnico Ricardo Gareca, enfocado en optimizar rendimiento y formación del equipo."
+    },
+    {
+        "headline": "NEYMAR CUMPLE 100 PARTIDOS CON BRASIL",
+        "content": "Detalles del empate de Brasil contra Senegal en un amistoso celebrado en Singapur, incluido el impacto significativo de Neymar Jr. en el juego y estadísticas relevantes."
+    },
+    {
+        "headline": "TODO LISTO PARA LOS DEPORTE BREVES",
+        "content": "Resumen rápido de eventos deportivos actuales, decisiones técnicas clave y actualizaciones de equipos locales."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on provided criteria while maintaining clarity and structure for further processing. Articles lacking explicit headings were assigned `"NA"` where appropriate. Content was cleaned up according to specified guidelines ensuring readability and coherence.

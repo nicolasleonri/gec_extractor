@@ -1,0 +1,40 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/06/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "Productos en potencia",
+        "content": "El mercado ruso es el séptimo más grande del mundo y Perú es el proveedor número 81. Actualmente, nuestro país le ofrece 171 partidas arancelarias, pero podrían ser más.\n\nAdex ha encontrado 110 productos para generar comercio en Rusia. Con esto se podrán sumar US$840 millones a la canasta de despachos peruanos. Los sectores que se beneficiarán son el siderometálico, agropecuario y químico.\n\n\"Se está explorando el mercado para ingresar productos potenciales, como pisco, filetes congelados de trucha, manteca de cacao y harina de maca\", sostuvo Arreluce."
+    },
+    {
+        "headline": "Perfil del consumidor",
+        "content": "\"Rusia import US$4,600 millones en 2017. Su principal socio comercial es Ecuador. El 11% de las importaciones rusas son del sector agropecuario (plátanos, soya y carne).\n\nEl año pasado, esta nación import fruta por US$4,677 millones, un valor 22% mayor registrado en 2026. Sus principales proveedores de fruta son Ecuador (23%) y Turquía (17%).\n\nLos envíos de fruta peruana solo significan el 1% del total del mercado. Por ello, el MinComercio Exterior ha identificado que existe una clara oportunidad comercial en la venta de cítricos y uva. Solo en 2017, Rusia importó US$1,189 millones en cítricos y US$435 millones en uvas.\""
+    },
+    {
+        "headline": "An en déficit",
+        "content": "\"El Perú importa cuatro veces más productos de Rusia que lo que nos compra el anfitrión del Mundial. Por ello, la balanza comercial de 2017 tiene un déficit de US$226.9 millones en favor de Rusia, según datos de Adex. \n\nLos envíos sumaron US$86.1 millones y las importaciones, US$313.1 millones. Pese a esto, hay una buena noticia. En el primer semestre de 2018, los envíos crecieron 20.2% respecto al año pasado y han sumado US$16’599,000. ¿Qué productos destacaron?\n\nLos agroindustriales y pesqueros, que aumentaron 34.3% y 38.6%, respectivamente.\""
+    },
+    {
+        "headline": "ENTREVISTA MUJAÍL PALACIOS IBARRA MPALACIOS@PERÚ.COM",
+        "content": "\"Jean-Pierre Magnet, músico\"\n\n\"¿QUÉ TIENEN EN COMÚN LA MÚSICA Y EL FUTBOL?\n\nEl entrenador de futbol es equivalente al director de la orquesta, quién más allá del escenario da las pautas de cómo pueden llevar la sección de percusiones, etcétera, y lograr el máximo de efectividad. Entonces, usted es como un Gareca o Guerrero en escena. \"Me siento un Gareca, porque Guerrero somos todos los músicos,\" respondió Magnet."
+
+    },
+    {
+        "headline": "Autobiografía musical",
+        "content": "\"Yo soy Guerrero. Totalmente. Cuando estoy de solista, adelante, me siento como Guerrero. Es una sensación incomparable. Y qué conexión personal guarda con el fútbol? Mi padre era vasco-francés. Nunca jugué fútbol. Él murió cuando tenía trece años y me adoptaron mis tíos en Cañete, donde todos jugaban en la chacra. Hasta que un día me dicen 'vamos a la playa Hawai', Yo iba a ver, no jugaba nada. Hacía tenis y nadaba. Me dijeron que faltaba arquero, todos voltearon a mirarme porque era el más alto. ‘Tu mismo eres’, me alarmaron. Tuve que tapar, hermano, nos metieron 11 goles y una patada en los huevos. Esa fue mi carrera futbolística, nunca más volví a un campo de juego. Pero sí aprecio el fútbol.\""
+
+    },
+    {
+        "headline": "Opinin política internacional",
+        "content": "\"COLOMBIA. 'CON DUQUE SERÁN REFORTALECIDAS LA DEMOCRACIA Y LA LIBERTAD', DECLARÓ FL PEÑO NOL '\"Mario Vargas Llosa muestra su apoyo público al candidato uribista Iván Duque. 'Estoy seguro de que con él serán refortalecidas la democracia y la libertad para Colombia y toda América Latina,' declaró el escritor en un video que fue publicado en las redes sociales del aspirante del partido Centro Democrático.'\""
+    },
+    {
+        "headline": "Noticias internacionales",
+        "content": "\"NICARAGUA. 'HACEMOS UN LLAMADO URGENTE AL GOBIERNO PARA EVITAR MAS DERRAMIENTO DE SANGRE'\n\nBoletín informativo emitido por la Comisión Interamericana de DDHH señala preocupación por situaciones humanitarias actuales en Nicaragua.\""
+    },
+]
+``` 
+
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Any non-article sections such as ads, images descriptions, and unrelated data have been excluded according to specified criteria.

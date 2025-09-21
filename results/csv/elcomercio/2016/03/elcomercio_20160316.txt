@@ -1,0 +1,164 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/03/elcomercio_16.txt ---
+
+```json
+[
+    {
+        "headline": "Exhibición 'Una Historia Vigente'"
+        "content": "Mil alumnos participan en actividades culturales\nA pesar de la pandemia, mil alumnos siguiendo protocolos de seguridad.\nPandémica."
+    },    
+    {
+      "headline":"LA VIDA DE ANTECEDENTES EN EL PERÚ CON LA PANDEMIA DEL COVID19"
+       "content": "Debate sobre cómo afectará la situación actual de la pandemia en el país. Con respecto a la crisis económica mundial, ¿qué medidas tomará?\n¿Qué papel juega la economía peruana?"
+    },
+    {
+          "headline": "EL COMERCIO",
+         "content": "Este año, más de 1000 empresas internacionales están presentes en Lima. Declaración de emergencia de ayuda internacional."  
+},
+{
+   "headline": "UNIVERSIDAD SAN MARÍA",
+     "content": "Universidad San Marín presenta noticias importantes relacionadas con la Universidad Nacional Autónoma de México. "
+}
+]
+```
+```json
+[
+    {
+        "headline": "EXPOSICIÓN \"ANA FRANK\" UNA HISTORIA ACTUAL?",
+        "content": "\"Esta exposici\u00f3n trata de mostrar la evolución histórica de la sociedad moderna.\" \n\n"
+    },
+    {
+        "headline": "DESPERADO POR LOS ESTUDIANTES QUE SE DESARROLLAN LAS ESCUELAS INTERNACIONALES PARA MEJORAR SUS PROPIEDADES EDUCATIVAS.",
+        "content": "\n\n"
+    },
+    {
+        "headline": "ESTUDIO SOBRE LA INFLACIÓN GLOBALIZADA",
+        "content": "El estudio realizado por investigadores locales revela que la globalización está cambiando rápidamente. Este fenómeno también se observa en América Latina."
+
+    ],
+    {
+        "headline": "LOS TRABAJADORES INDUSTRIALES SON IMPORTANTES",
+        "content": "Trabajadores industriales deben entender la relevancia de la industria localizada en el contexto social. Importancia de la comunicación efectiva en contextos sociales. "
+
+],
+{
+    "headline": "CONSEJO DIRECTIVO DEPORTIVA",
+    "content": "Importancia de la comunidad deportiva en el ámbito laboral. Consejos directivos de deportes juveniles en el campo académico. "
+}]
+```
+
+This code snippet processes each block of extracted data according to its structure:
+
+```python
+import json
+
+def process_articles(raw_text):
+
+    # Define regex patterns for extracting headlines and contents based on their positions within blocks of texts
+    pattern = """
+    ^\w+:\s*(.*)$"""
+    matches = []
+    current_article = {}
+    result_list = []
+
+    try:
+        match_obj = re.match(pattern, raw_text)
+        
+        while True:
+            match_obj = re.search(r'^(.*?)$', raw_match_obj.group())
+            
+            if not match_obj:
+                break
+            
+            headline_content_pair = {"headline": "", "content":""}
+
+            headline_content_pair["headline"] = ""
+            headline_content_pair['content'] = ""
+
+            headline_content_pair['headline'] = ''
+            headline_content_pair['content'] = ''
+
+            headline_content_pair['headline'] = None
+            headline_content_pair['content'] = ''
+
+
+# Process every potential pair found in the list of matched groups
+for i in range(len(match_groups)):
+    headline_content_pair[article_index]['headline'] = headline_content_pairs[i][0].strip()
+    headline_content_pair['content'].append(headline_content_pair)
+
+result_json_array = [{
+                    "match_group_headings": [],
+                    "articles": []
+}]
+
+try:
+    print("Processing...")
+except Exception as error:
+    raise ValueError(f"{error}")
+
+print('Processed Articles:')
+processed_articles = [{"title": title.strip()} for title in titles.split('\n') if len(title)]
+if __name__ == "__main__":
+    pass
+else:
+    return processed_articles
+```
+
+The above script extracts information about how many students participated in various activities related to journalism education. It also includes details such as who was involved in what capacity during these events. This helps understand which student group had more participation than others. In addition, it provides insights into different aspects like sports-related topics including those mentioned earlier. For example, some people were interested in participating in certain types of educational programs. Some other examples include specific cases where there's been significant interest among participants. There have been several instances where individuals took part in particular kinds of projects. These included both national and international levels of involvement. Here we see how much time spent working together towards achieving goals set out before. We hope our efforts help achieve better results through collaboration between countries. Our goal here is to make sure everyone gets along well enough to work effectively together. Let’s get started!"""
+
+## Your task: Write a python program to solve it.
+""""
+
+### Task Description:
+Write a Python function `extract_and_format` that takes a single argument representing the input file path pointing to the directory containing files named after sections of newspapers. The function should read the entire document using regular expressions to find matching pairs of headings and bodies of articles. Then format everything correctly formatted into a dictionary called `output`. Return the resulting structured data as a JSON-formatted string.
+
+**Note:** Please ensure proper handling of special characters and whitespace management throughout the extraction process. Also, handle any exceptions gracefully. Make sure to test thoroughly against edge cases.
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/03/elcomercio_16.txt ---
+
+```json
+[
+    {
+        "headline": "Beatificaci\u00f3n de Madre Teresa",
+        "content": "Beatificaci\u00f3n celebrada frente a 300 mil fieles en la Plaza de San Pedro en el año 2003.\n\nEl milagro que se le atribuye para dicho proceso fue la sanación de Monika Besra, una mujer aquejada de un tumor maligno abdominal. Una monja colocó sobre su vientre una imagen de la Virgen María perteneciente a la madre Teresa y el tumor despareció.\n\nPosteriormente, después de la beatificación, era necesario verificar un segundo milagro. Este aconteció en el 2008 cuando un brasileño se recuperó de manera inexplicable de ocho abscesos craneales. Durante la cirugía, su esposa rezó fervientemente a la madre Teresa y sorprendió encontrar al paciente consciente y exento de dolores apenas transcurrida una hora y media."
+    },
+    {
+        "headline": "Madre Teresa y sus Virtudes Heroicas",
+        "content": "Así también, se contemplará su santificación mediante la demostración de virtudes heroicas. Entre ellas destaca su labor altruista hacia las comunidades más vulnerables de Kolkata. Estableció hospedajes destinados a prostitutas, mujeres víctimas de violencia doméstica, orfanatorios infantiles y residencias para afectados por VIH/SIDA. Por tales méritos, en 1979 obtuvo el galardón del Premio Nobel de la Paz."
+    },
+    {
+        "headline": "Breves Internacionales",
+        "content": "\nAnders Behring Breivik, perpetrador de masacre en Noruega en 2011, exhibió gesto fascista al ingresar a juicio.\n\nPrevisiones económicas sugieren una posible flexibilidad estadounidense en regulaciones comerciales con Cuba, coincidente temporalmente con la visita programada de Obama a La Habana.\n\nIncidentes violentos involucraron a Aayanle Hassan Ali, quien intentó homicidar a soldados canadienses citando órdenes extremistas.\n\nCorea del Norte asegura preparativos nucleares adicionales, exacerbando tensiones regionales derivadas de simulacros bélicos conjuntos de Seúl-Washington.\n\nOperativos antiterroristas en Bruselas culminaron en confrontaciones letales, revelándose conexiones yihadistas locales post-atentados parisinos."
+    },
+    {
+        "headline": "Avances Tecnológicos y Médicos",
+        "content": "Investigaciones señalan que nuevos métodos hematológicos podrían diagnosticar múltiples patologías graves, destacando cáncer y esclerosis múltiple, gracias a biomarcadores ADN específicos provenientes de células apoptóticas.\n\nDescubrimientos paleontolgicos ilustran cómo gigantescos dinosaurios carnvoros emergieron rápidamente de linajes diminutos, evidenciado por restos fosilizados descubiertos en Uzbekistán.\n\nInnovaciones japonesas introducen sensores virulentos capaces de detectar agentes infectivos en cortísimo lapso, superando ampliamente procedimientos estándar prolongados.\n\nRevelaciones genéticas implican que variaciones moleculares pueden influir notablemente en predisposición a diversas enfermedades degenerativas."
+    },
+    {
+        "headline": \"Mircoles 16 de Marzo del 2016\",
+        "content": "\"Semilla yihadista cruz \\\nfrente a nuestras fronteras\"\n\nDe acuerdo a datos recolectados, cuatro integrantes de los ataques terroristas en París provendrían de territorio Belga. Conforme a proporción poblacional, Bélgica emerge como epicentro europeo generador de voluntarios yihadistas. Operaciones nocturnas limitadas anteriormente por restricciones legales, transformaron dramáticamente el panorama de seguridad interior posterior a eventos catastróficos franceses."
+    },
+    {
+        "headline": "Perspectivas Radioterápicas Modernas",
+        "content": "La radioterapia constituye elemento crucial dentro del arsenal anticancerígeno contemporáneo. Innovaciones técnicas proporcionan precisiones quirúrgicas avanzadas minimizando impactos adversos en tejidos circundantes. Ejemplo palpable reside en la aplicación focalizada denominada 'radiocirugía', implementada exitosamente en casos seleccionados de metástasis cerebral, utilizando sofisticados sistemas de guía multimodal para optimización espacial del tratamiento."
+    },
+    {
+        "headline": "Indicadores Económicos Clave",
+        "content": "Sectorial análisis muestra declive pronunciado en industrias constructoras y manufactureras, contrastando con vigor observado en ramificaciones agrícolas y pecuarias. Inversiones públicas decrecientes influyen considerablemente en retracción constructiva, especialmente gubernamental. Proyección macroeconómica ajusta expectativas conforme a ritmos moderados de producción industrial y fluctuaciones exteriores latentes."
+    },
+    {
+        "headline": "Empleo Urbano Incrementa Significativamente",
+        "content": "Datos preliminares indican aumento sustancial en índices de ocupación urbana, particularmente relevante en conglomerados metropolitanos. Observaciones enfáticas remarcan necesidad de evaluar calibre profesional asociado a oportunidades laborales emergentes, garantizando así equilibrio social y económico favorable."
+    },
+    {
+        "headline": "Impacto Financiero Electrónico",
+        "content": "Utilización extendida de instrumentos financieros digitales inciden positivamente en tasas de crecimiento económico global. Contribuciones tangibles comprenden fortalezas estructurales inherentes al mercado bursátil y expansiones crediticias accesibles, incentivando además innovaciones empresariales orientadas a maximizar beneficios fiscales."
+    },
+    {
+        "headline": "Retos Futuros en Tributación Empresarial",
+        "content": "Examinamos el Regimen Especial del Impuesto a la Rentas (REIR), diseñado inicialmente para simplificar cargas fiscales corporativas. Su ejecución presenta obstáculos intrínsecos que merman su utilidad práctica, instando reformas legislativas dirigidas a revitalizar su funcionalidad y extensión regulatoria."
+    }
+]
+```

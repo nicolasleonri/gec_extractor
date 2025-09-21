@@ -1,0 +1,69 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/06/peru21_04.txt ---
+
+Based on the provided input, it seems there isn't any recognizable journalistic content such as headlines or full-length articles present within the given text. Instead, what we have here appear to be product descriptions, technical specifications for welding equipment, machinery details, pricing information, contact numbers, addresses, etc. These elements typically don’t qualify under the criteria set out for extracting substantial journalistic pieces like news reports, opinions, or feature stories.
+
+Given these observations, according to the defined scope and goal which focuses exclusively on including news articles, opinion columns, interviews, and similar types of journalism while excluding items like ads, listings, and purely informational texts about products/services, **there's nothing suitable** to include based on the current data snippet.
+
+Therefore, following the instruction guidelines strictly regarding handling cases where no eligible articles exist, my response would adhere to producing an appropriate representation indicating absence due to lack of qualifying content:
+
+```json
+[]
+```
+This outcome reflects adherence to the task requirements by providing a correctly formatted but essentially empty result, signifying that after processing the supplied text through the lens of specified extraction rules, no actionable journalistic material was identified. This approach ensures clarity and maintains consistency with expected outputs across varying inputs.
+
+--- ERROR ENTRY: data/txt/peru21/2018/06/peru21_04.txt ---
+
+```json
+[
+    {
+        "headline": "Soluciones",
+        "content": "NA"
+    },
+    {
+        "headline": "Delantero — Bayern Munich\n Delantero — Werder Bremen\n Nombre y apellido completo:\non demanda civil específicamente menciona productos y empresas constituyentes...",
+        "content": "NA"
+    },
+    {
+        "headline": "\"En esa época el padre le prohibía la música.\n También era alcohólico y bastante agresivo con él\".\n Gonzalo Vera Jr.\n Rotativo de la serie \"El principito de la canción\" dio detalles de José José."
+    },
+    {
+        "headline": "",
+        "content": "Durante su programa \"El artista del año\", Gisela Valcácel se pronunció acerca de la muerte de Évelyne Santos que fue víctima de un juicio ahorcado por un joven a manos de un hombre que te haga daño y amenazarte te ama, así como trató a su madre, lo hará contigo. Estoy de acuerdo con la cadena perpetua y seguimos luchando por la no violencia. Nadie es mejor ni peor que yo. El amor no se mendiga, debemos aprender a decir ‘no’ a tiempo.”
+    },
+    {
+        "headline": "Volcanmil envió mensaje:",
+        "content": "Le pedí a las autoridades que no se hicieran de la vista gorda. La tarea de un juez es dictar sentencias y deben cumplirlas... Dejen de pelear por sus intereses. Nos eligieron para que luchen por nuestra seguridad.” precisó la señora."
+    },
+    {
+        "headline": "DETENCION POR AGRESIÓN",
+        "content": "La integrante del reality baila, Diana Sánchez, fue tenida ayer por la Policía después de agredir a su esposo, el colombiano Harold Cortés, en Miraflores. Durante una discusión, ella tomó las llaves del carro y comenzó a atacarlo físicamente. Inmediatamente, la policía intervino manteniéndo la situación bajo control. Por ello, la participante fue recluida temporalmente."
+    },
+    {
+        "headline": "SHAKIRA REGRESÓ AL ESCENARIO",
+        "content": "Tras siete meses fuera debido a problemas en las cuerdas vocales, la cantante Shakira realizó un espectacular retorno en Hamburgo, Alemania, dentro de su gira El Dorado. Interpretó éxitos como “Estoy Aquí,” “Suerte,” y más, recibiendo ovaciones entusiástas. Expresa sentirse emocionada de compartir otra vez con su público."
+    },
+    {
+        "headline": "LOS ESPÍRITUSS PRESENTACIÓN OFICIAL",
+        "content": "Bandas locales como Los Flejes, junto a City Woods, ofrecerán actuaciones memorables en el evento cultural organizado por PromPerú. Esta oportunidad permite fusionar talentos emergentes con figuras establecidas, promoviendo la diversificación musical en festivales contemporáneos."
+    },
+    {
+        "headline": "Are You Living to Die?",
+        "content": "Ciudad Woods presenta álbum debut. Ciudad Woods, conocida por mezclar elementos de blues y country, está preparándose para revelar su trabajo inicial titulado '¿Are You Living to Die?' incluido en su próximo showcase programado para el mes entrante."
+    },
+    {
+        "headline": "Selección Peruana Triunfa",
+        "content": "Paulo Guerrero retorna glorioso con doblete en la victoria 3–0 de la selección peruana sobre Arabia Saudita. Esto marca el inicio de una secuencia positiva extendiéndose a través de varios enfrentamientos internacionales, fortaleciendo aún más el espíritu competitivo del equipo dirigido por Ricardo Gareca."
+    },
+    {
+        "headline": "Tormenta en el Campo",
+        "content": "Universitario suma puntos adicionales mediante un empate 2–2 contra Universidad San Martin. Continúa navegando hacia mejorar su rendimiento general mientras espera futuros compromisos cruciales en el calendario deportivo local."
+    },
+    {
+        "headline": "Brasil Resurge Fuerte",
+        "content": "Neymar brinda impresionantes habilidades técnicas liderando a Brasil a una convincente victoria 2–0 sobre Croacia. Regresando tras una larga rehabilitación, muestra signos claros de haber retornado plenamente a su máximo potencial."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR data while adhering strictly to the defined format requirements. Articles were identified based on context clues such as bold headings followed by relevant paragraphs detailing events or opinions. Any missing information was marked appropriately using `"NA"` where necessary.

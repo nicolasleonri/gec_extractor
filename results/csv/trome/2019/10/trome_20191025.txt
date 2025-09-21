@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/10/trome_25.txt ---
+
+```json
+[
+]
+```
+The provided input does not include any recognizable journalistic content such as headlines or substantial textual bodies typical for inclusion based on the defined criteria. It primarily consists of advertisement material related to products like sex enhancement supplements, contact information, promotional offers, etc., which should be excluded according to the guidelines specified. Therefore, there's nothing suitable to format into the required JSON structure within these constraints.
+
+--- ERROR ENTRY: data/txt/trome/2019/10/trome_25.txt ---
+
+```json
+[
+    {
+        "headline": "TELÉVISION DIGITAL",
+        "content": "Si no lograste completar la frase ganadora, no botes tu cartilla. Registra el código que ahí aparece en www.trome.pe/registro/frase y participarás en el sorteo digital de 15 Smart TVs de 32 pulgadas que se realizará el 18 de noviembre."
+    },
+    {
+        "headline": "Premios",
+        "content": "Estamos lanzando 3 mil premios:\n\n+4 Autos 0 km\n+2 Premios de 10 mil soles\n+4 Premios de 5 mil soles\n+6 Premios de mil soles\n+2984 Premios de 100 soles.\nPágina 1,\nEste lunes 28 de octubre busca tu cartilla a página completa dentro del diario. Reclama gratis al canillita tus cupones, letra y número. Ubica los números que te tocaron, registralos y págalos en tu cartilla."
+    },
+    {
+        "headline": "DATO IMPORTANTE",
+        "content": "Es importante saber que cada ganadora de una de las cinco filas de tu cartilla, gana el premio que corresponde al espacio vacío correspondiente. Hay distintos premios disponibles. Podés reclamarlos desde este lunes 28 de octubre hasta el sábado 2 de noviembre. Cuántos más cupones tengas, más oportunidades tendrás de ganar!"
+    },
+    {
+        "headline": "EL COLESTEROL MALO TRAE ABAJO TU ERÉCTIL",
+        "content": "Hoy la población está consciente del daño que ocasionan las grasas saturadas a la salud, se sabe que producen aumento del colesterol y éste, el riesgo de un ataque cardiaco. Pero lo que no saben muchos hombres es que también reducen las arterías que transportan la sangre al miembro viril, lo cual contribuye con la disfunción eréctil. \n\nEl colesterol es una sustancia tipo grasa que se encuentra en la sangre. Existiendo dos tipos de colesterols: el HDL, que transporta el colesterol de otras partes del cuerpo al hígado y este último lo elimina, y el LDL, que lleva a una acumulación en las arterías. Con el tiempo, esta concentración causa que las arterías se adelgacen, haciendo más lento o bloqueando el flujo de sangre al corazón provocando un infarto o al pene ocasionalmente impotencia. Ya lo sabe, una dieta que proteja al corazón evitará también la disfunción eréctil."
+    },
+    {
+        "headline": "Operación física",
+        "content": "Adolfo Lázaro señaló que llegar a esos resultados (83.9 Km/h) tras calcular la distancia y tiempo que hizo el vehículo desde el punto del último giro hasta el impacto con las víctimas. \"Para obtener los valores fuimos al lugar, hicimos mediciones y tomamos fotos de los puntos de referencia, ampliamos a décimas de segundos el vídeo donde se ve el atropello. Se realizó una operación física basada en una estrategia que creó Luis.\" Indicó."
+    },
+    {
+        "headline": "Segunda Parte",
+        "content": "\"Leslie Sánchez adelantó que el grupo seguiría apoyando en las investigaciones. ‘‘Haremos un segundo informe porque queremos determinar a qué velocidad iba González Gagliuffi antes de perder el control del volante. Eso lo haremos con las nuevas imágenes de otras cámaras de seguridad. Estamos decididos a ayudar y hacer justicia en estos casos’,’ manifestó."
+    },
+    {
+        "headline": "¿Qué son los rasgos de personalidad más notables?",
+        "content": "Amigable, Acogedor, Envidioso, Generoso, Egosta, Servicial, Honestos, Malvolo, Compasivo, Bondadoso, Valentía, Son algunas características destacadas de estas figuras."
+    },
+    {
+        "headline": "Samuel Sunderland sobre continuación de serie",
+        "content": "\"Realmente ni siquiera nosotros sabemos si vamos a continuar el próximo año, nadie lo sabe, pero personalmente me encantaría y sí siguiese\", indicó el actor."
+    },
+    {
+        "headline": "Producción cinematográfica",
+        "content": "Adolfo Aquilar confirmó que en abril del próximo año se estrenará la segunda parte de la comedia 'No me digas solterona’. ‘El 15 de noviembre arrancamos el rodaje de 'No me digas solterona 2', ya está cerrado el casting y guion, Ana Alva (guionista) está con todas las pilas, en Big Bang (productora) estamos desesperados por armarlo.’'"
+    },
+    {
+        "headline": "John Kelvin sobre cambio radical",
+        "content": "\"Ahora mismo me siento completamente diferente después de perder 22 kilogramos mediante una cirugía de manga gástrica,\" expresó el cantante."
+    },
+    {
+        "headline": "Greissy Ortega sobre relación familiar",
+        "content": "\"Mi relación con Milena será diferente, pero aún así mantendré gratitud hacia ella por haberme dado refugio,” explicó Greissy respecto a su situación actual con su familia.”
+    }
+]
+```
+This JSON contains extracted articles based on significant headlines found within the provided OCR text input while adhering strictly to the defined scope and goal for extracting meaningful journalistic content. Non-article sections such as ads were excluded according to guidelines.

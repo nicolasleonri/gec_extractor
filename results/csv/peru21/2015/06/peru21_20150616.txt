@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/06/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "Grave error defensivo de Perú frente a Brasil",
+        "content": "Zambrano hizo un mea culpa por los errores defensivos ante Brasil. \"Hay que mejorar en defensa y que ya no pueden tratar de controlarlo.\" Tratan de implementar controles obligatoricos ordenados por la Conmebol. \"Hay controles antidopaje tanto dentro como fuera del partido. Hoy se presentaron sin avisar y tomaron muestras a seis jugadores. Fue un doping sanguíneo\", explica Julio Segura, médico de la Selección."
+    },
+    {
+        "headline": "Jefferson Farfán y Juan Vargas ausentes en práctica",
+        "content": "\"La Foquita\" fue a una clínica para tratarse con un dermatologo la reacción alérgica que sufrió en los pies y que casi lo priva de jugar ante Brasil. El 'Loco' se qued en el hotel trabajando con los fisioterapeutas para recuperarse de un esguince en la rodilla derecha y una contusión en el tobillo izquierdo."
+    },
+    {
+        "headline": "Claves antes de enfrentamiento entre Brasil y Colombia",
+        "content": "\"Neymar está listo para ayudarnos a ganar a Colombia,\" James Rodríguez, volante de Real Madrid. Habrá que ver cómo podemos competir contra él. Lo decísivo está más enfocado ahora mismo."
+    },
+    {
+        "headline": "Argentina prepara choque clave ante Uruguay",
+        "content": "ARGENTINA no está para bromas ante URUGUAY. ¿Una boludez?, pregunta Messi a Di María. A lo que el ‘Fideo’ respondió: “Que (el 2–0) no es un resultado fácil.” Luego ambos se rieron al salir a disputar el segundo tiempo contra Paraguay. Tres días después de que ambos cracks se burlaran de la charla de su técnico, ARGENTINA (2° con 1) choca hoy (6:30 p.m.) con URUGUAY (1° con 3) en el Estadio La Portada. "
+    },
+    {
+        "headline": "Gerardo Martino sobre resultados futuros",
+        "content": "\"No terminar primero no significa nada. Hay que clasificar,” dijo el DT Gerardo Martino, quien apostará por un recuperado Pablo Zabaleta en lugar de Ronny. Messi espera regalarse un triunfo en su partido número 100 con su selección. Uruguaya, que eliminó a los 'chilenos' en la Copa América 2011, refuerza la línea media.”
+    },
+    {
+        "headline": "Resumen Grupo B: Paraguay juega con cambios",
+        "content": "Antofagasta.- \"Vamos a ponernos serios,\" afirma Calvo respecto al próximo encuentro de Paraguay (2º con 1) contra Jamaica. El velocista Mattocks será crucial en este compromiso."
+    },
+    {
+        "headline": "Equipo Ideal Primera Fecha incluye a Messi y Neymar",
+        "content": "En Santiago, el argentino Lionel Messi aparece junto a Neymar en el equipo ideal tras sus actuaciones destacadas. El guardameta elegido es Bravo (Chile) y forman parte también otros talentosos jugadores internacionales."
+    },
+    {
+        "headline": "Empate emocionante entre Chile y México",
+        "content": "'Pop’, exclama Consulito cuando ve el marcador empatado. Un vibrante duelo donde Chile logró un valioso punto gracias a goles de Arturo Vidal y Eduardo Vargas, aunque fallaron oportunidades claras posteriormente."
+    },
+    {
+        "headline": "Valparaiso celebra victoria histórica de Bolivia",
+        "content": "Se metieron al mar de la ilusión. Bolivia prendió y le ganó 3–2 a Ecuador para acercase a los cuartos de final en el grupo A. Marcelo Martins convirtiendo penaltis ha sido fundamental en esta remontada épica."
+    }
+]
+```
+This extraction captures key headlines and their corresponding contents based on the provided OCR input while adhering strictly to the defined rules for inclusion/exclusion and cleanup processes.

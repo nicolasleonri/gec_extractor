@@ -1,0 +1,79 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/04/correo_07.txt ---
+
+```json
+[
+    {
+        "headline": "Charlize Theron se enfrenta a su segunda villana",
+        "content": "Algo no muy habitual porque \"este tipo de papeles son un territorio vedado a las mujeres\", declara a EFE la bella actriz sudafricana.\n\nTheron presenta en Madrid, junto a Vin Diesel, la última entrega de una de las sagas más taquilleras de Hollywood."
+    },
+    {
+        "headline": "Acción",
+        "content": "1 cantante español Enrique Iglesias y su futura novia y modelo rusa Anna Koumikova, se casaran en 2018 y se mudaran a vivir...\n\nFue la reina malvada de Blancanieves y ahora Charlize Theron se enfrenta a su segunda villana, una cyberterrorista sin escrupulos, en The Fate of the Furious. \n\n\"Este tipo de papeles son un territorio vedado a las mujeres\", dice a EFE la bella actriz sudafricana.\n\nSilencio\n\nHasta la fecha, Iglesias y Koumnikova, que tienen 16 años de relación amorosa, no se han pronunciado sobre su matrimonio."
+    },
+    {
+        "headline": "La Selección Peruana alcanza histórico puesto 17 en ranking FIFA",
+        "content": "\"Es realmente para mí Ricardo Gareca es un gran técnico; ha hecho jugar mejor a Perú y internacionalmente dicen que los que están jugando mejor al fútbol son: Brasil, Chile, Colombia, a veces Uruguay y Perú.\" señala Nolberto Solano, asistente técnico del Gre.”
+    },
+    {
+        "headline": "Claudio Pizarro liderará en Bundesliga",
+        "content": "El Eintracht Frankfurt y el Werder Bremen abren hoy la jornada 28 de la Bundesliga en el estadio Commerzbank Arena de Frankfurt, donde Claudio Pizarro brillará en el conjunto visitante. El peruano viene de jugar 60 minutos y será fundamental en la goleada del Bremen sobre el Schalke 04."
+    },
+    {
+        "headline": "Carlos Zambrano pierde en copa rusa",
+        "content": "Carlos Zambrano estuvo presente los 90 minutos de la derrota de su equipo, Rubin Kazán, por 2–1 con el Ural por la semifinal de la Copa Rusia. Esta vez no podríamos ver una final de peruanos en este campeonato."
+    },
+    {
+        "headline": "Paulo Guerrero confirma continuidad en Flamengo",
+        "content": "Paulo Guerrero está seguro de querer renovar con el Flamengo antes que venza su contrato a mediados del 2018. \"Mucha prensa, yo solo trato de entrenar muy fuerte y jugar bien,\" afirma Paulo."
+    },
+    {
+        "headline": "Alberto Fujimori condenado a prisión perpetua",
+        "content": "En 2009, Alberto Fujimori fue condenado a 25 años de prisión por los delitos de asesinato calificado, homicidio y violación, tras ser encontrado culpable de las matanzas de Barrios Altos (1991) y Cantuta (1992) y del secuestro de un empresario y un periodista."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined scope and goals outlined in the task description. Articles were identified through their distinct headings followed by relevant textual bodies, ensuring clarity between different pieces of journalism within the document. Non-article sections such as ads, sports scores not forming complete stories, etc., have been excluded according to guidelines.
+
+--- ERROR ENTRY: data/txt/correo/2017/04/correo_07.txt ---
+
+```json
+[
+    {
+        "headline": "Grupos Epensa\nPoder Judicial decidirá solicitud del Ministerio Publico de detención preventiva por 18 meses a gobernador regional del Callao, sospechoso de recibir coima de Odebrecht",
+        "content": "Acusado de Integrar Banda Criminal.\nPoder Judicial decidir solicitud del Ministerio Pblico de detener preventivamente por 18 meses a gobernador regional del Callao, sospechoso de recibir coima de Odebrecht."
+    },
+    {
+        "headline": "ECOTEAVA: Hoy se ve petición de prisión preventiva",
+        "content": "La audiencia judicial en la que se evalúa el pedido de prisión preventiva contra los procesados en el caso ECOTEVA continuará hoy en medio de gran expectación. Entre los comprometidos se encuentra el expresidente Alejandro Toledo; su esposa, Eliane Karp; el empresario José Manuel Máñez; y el miembro de seguridad del ex mandatario, Ángelo Barahona, acusados por la presunta comisión del delito de lavado de activos. La decisión sobre el pedido del Ministerio Público está ahora en manos del juez Mario Guerra Bonilla, encargado del Sexto Juzgado Penal Colegiado Transitorio de la Corte Superior de Justicia de Lima."
+    },
+    {
+        "headline": "Embajador Nichols Le Responde a Rodríguez",
+        "'Pregunta-le a Pablo Sánchez y a Hamilton Castro'",
+        "content": "\"Colaboración\" con autoridades peruanas \"permance\", dice. Embajador de EE.UU. aclara que colaboración con autoridades peruanas, respecto al caso Toledo, es permanente y se da \"hombro a hombro\". El embajador de Estados Unidos, Brian Nichols, respondió a los cuestionamientos del Presidente del Poder Judicial, Duberli Rodriguez, quien días atrás dijo que las autoridades judiciales estadounidenses venían demorando el pedido de detención con fines de extradición del expresidente Alejandro Toledo."
+    },
+    {
+        "headline": "Niega Que Propuesto Afeta Libertad de Prensa",
+        "content": "Keiko defiende Ley de Medios y Decretos. La líder de Fuerza Popular, Keiko Fujimori, defendió que la supresión de Constitución del Congreso haya pedido modificar el Decreto Legislativo 1323, que pretendía agravar los delitos de homicidio cuando se producen bajo móviles de discriminación por varios factores. Según ella, el ejecutivo no tenía facultades para legislar en esa materia."
+    },
+    {
+        "headline": "Discrepancia Política",
+        "content": "Carlos Bruce Habla Sobre Posiciones Homofóbicas Dentro Del Partido. Más temprano, el congresista liberal lista Carlos Bruce había dicho que la posición del fujimorismo revelaba que parte de dicha agrupación política es homofóbica. \"Hoy rechazan que el Estado proteja a estas minorías con políticas. Ya no es cuestión de protección de familias es dejarlos nomás que los pateen.\" Esto indica según él, cierta aversión hacia las comunidades LGBTI+. "
+    },
+    {
+        "headline": "Proyectos de Control Económico",
+        "content": "Aprueba Pleno Ley Para Combatir Especulación Durante Emergencias. Ayer, el pleno del Congreso de la República aprobó un proyecto de ley que penaliza con cuatro años de cárcel los actos de especulación y acaparamiento de bienes básicos en áreas declaradas en situación de emergencia. Esta disposición será válida mientras persista tal condición."
+    },
+    {
+        "headline": "Entrevista a Roberto Vieira",
+        "content": "Roberto Vieira Analiza Situación Posterior a Desastres Naturales. El congresista Roberto Vieira presenta mociones para crear una comisión investigadora sobre cómo se manejaron los fondos destinados a la prevención de desastres naturales. Critica duramente la gestión anterior, señalando negligencia y malversación de fondos."
+    },
+    {
+        "headline": "Sanctioning Restaurant for Health Violations",
+        "content": "Second Muelle Closed Due To Rat Infestation. After discovering footage showing rats within its premises circulating on social media, agents from the Municipal Government of San Isidro intervened at Second Muelle restaurant located along Avenue Canaval y Moreyra. They imposed sanctions including closure until health violations were rectified."
+    }
+]
+``` 
+
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes.

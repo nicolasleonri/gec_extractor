@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2014/06/publimetro_19.txt ---
+
+```json
+[
+    {
+        "headline": "Survidad\nElectro Asistida\nComodidad\nEspacio Maniobra-bilidad",
+        "content": "Imagen referencial.\nTCR: $/.2,83,\nPrecio valido hasta el 30 de junio del 2014\nhasta agotar stock. Stock minimo 5 unidades. Produccion 2014. Equipo\ntiene varia-según version.*Lo que ocurra primero."
+    },
+    {
+        "headline": "Eficiencia\nSURVIDAD\nSEGU-RIDAD\nCOMODIDAD\nESPACIO MANIO-BRABILIDAD",
+        "content": "Imagen referencial. \nTCR: $/.2,83,\nPrecio válido hasta el 30 de junio del 2014\nhasta agotar stock. Stock mínimo 5 unidades. Producción 2014. Equipo\npuede variar según versión. * Lo que ocurra primero."
+    },
+    {
+        "headline": "Ford Fiesta Spe-c-táculo",
+        "content": "\"En un alto entre las pruebas de Argentina y Polónia, Nico Fuchs, piloto Peruano, viene cumpliendo en la exigente categoría WRC2. Con nuevo auto y un ánimo a prueba de choques, este limeño de 31 años es, sin duda, el mejor automovilista peruano.\" \"Incluso hubieron problemas con pasajes aéreos, se rompió el motor en Cerdea, en Argentina nos volcamos en la primera etapa, pero aún así terminamos luchando. Sabemos que así son las carreras, no siempre se puede ganar. Pero tenemos la mentalidad de seguir adelante\"."
+    },
+    {
+        "headline": "NICOLÁS FUCHAR CORRENDO EN POLÓNIA",
+        "content": "\"Abandonaste en el rally de Cerdea y en el Finladia debido a fallas mecánicas,\" dice Nicolás Fu-chs, piloto peruano. \"Creo que nos ha tocado pagar un poco de derecho de piso en la nueva categoría del Mundial. Yo creo que esto es un año de adaptación. Ahora mismo estoy sexto en la clasificación, voy a intentar sumar algunos puntos.\" "
+    },
+    {
+        "headline": "Christian lengua Solís entrevista NICOLÁS FUCHS",
+        "content": "\"¿Cómo vas a enfrentar el resto de temporada en el Mundial de Rally?, preguntó Christian Lengua Solís. ‘Este mes definitivamente ha sido complicado,’ respondió Fuchs. ‘Teníamos problemas incluso antes de empezar.’”
+    },
+    {
+        "headline": "TOYOTA TSUSHO EXPERTO SOLO",
+        "content": "‘Toyota Tsusho’ es destacado como especialista único en vehículos.”
+    },
+    {
+        "headline": "Un Vida de Confaza",
+        "content": "El popular actor regresa a las tablas con su unipersonal realizándolo hoy y mañana en Los Olivos."
+    },
+    {
+        "headline": "Griffith Borra Tatuaje de Anto-nio",
+        "content": "La actriz Melanie Griffith parece querer comenzar una nueva fase después de su divorcio de Antonio Bandaras. Sin su anillo de casada y cubriendo su tatuaje de 'Antonio', muestra signos visuales de cambio."
+    },
+    {
+        "headline": "McCartney cumple 72 anos",
+        "content": "Sir Paul McCartney celebra su 72º cumpleaños mientras continúa su tratamiento médico luego de enfermarse en Japón."
+    },
+    {
+        "headline": "Poemas Inditos de Pablo Ne-ruda Hallados",
+        "content": "Mas de veinte poemas desconocidos escritos por Pablo Neruda han sido descubiertos y están programados para ser publicados este año."
+    },
+    {
+        "headline": "Mario Testino Reconoci-do Como Fotgrafo Del An-o",
+        "content": "Reputado fotógrafo peruano honrado con el título de Mejor Fotógrafo del mundo por la revista Vogue España."
+    },
+    {
+        "headline": "Apertura XXVI Festi-val Internacionales de Dan-zas",
+        "content": "Empiezan las actuaciones internacionales en el Instituto Cultural Peruano-Norteamericano de Miraflores."
+    },
+    {
+        "headline": "Samsung Presenta Su Televisión Curva Ultra-High Definition",
+        "content": "Samsung revela nuevas características innovadoras en su televisor UHD, incluida una impresionante calidad visual gracias a su diseño curvo."
+    },
+    {
+        "headline": "Presentacién del Primer Smartphone de Amazon",
+        "content": "Amazon introduce oficialmente su primer móvil inteligente, el Fire Phone, equipado con sensores avanzados capaces de ofrecer imágenes en 3D."
+    },
+    {
+        "headline": "Ventas de Consolas Nintendo Suben",
+        "content": "Nintendo reporta incremento significativo en las ventas de consolas comparado con el último año fiscal."
+    },
+    {
+        "headline": "Astrología Canadiense Eugenia Last Ofrece Consejos Para Ser Feliz",
+        "content": "Encuesta sugiere claves importantes para alcanzar la felicidad basadas en comportamientos cotidianos."
+    }
+]
+```
+This JSON captures each distinct article found within the provided OCR text while adhering strictly to the specified format requirements for headlines and contents. Articles were identified based on their thematic separation and presence of significant textual information relevant to journalism standards. Non-article sections such as ads, listings, etc., have been excluded according to guidelines.

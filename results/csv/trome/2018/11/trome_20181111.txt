@@ -1,0 +1,32 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/11/trome_11.txt ---
+
+```json
+[
+    {
+        "headline": "HACE 19 ANOS, EL MER YAIPEN UYPAN",
+        "content": "Dominguo 11 de Noviembre del 2018\nEl 1 de julio, cumpleaños de mi mamita.\n¿Cuál es tu chapá?\n¡Bebe’ yy amave vergüenza ja,\njaja!\nBails?\nMuy bien. De chica, el grupo ensayaba en mis segundos pies yo ahí hemame dado puracumbia.\nJuegas fútbol?\nJugaba. Era tan malo que decidí dejar de prácticarlo.\nHincha de?\nSolamente de la Selección y te cuento algo...\nAdelante...\nPara el partido con Colombia compré dos entradas para ir con un amigo y estando listos para entrar alguien me había caído del bolso.\n¿Donde lo viste?\nEn una pantalla gigante que pusieron en el Sheraton.\nTodos los Yaipén son gorditos, ¿como fundador de la Orquesta, falleció en un accidente, pero su voz no se apago, se reencarnó en la de su hijo Christian. El talento del menor conquista cada incón del Perú y hasta los cerros bailan cuando lo escuchan cantar."
+    },
+    {
+        "headline": "CAMBIO MI CORAZÓN",
+        "content": "Quiere cambiar mi corazón, por otro que no te está amando. Quiere cambiar mi corazón, porque el mio está cabándome. Quiere cambiar mi corazón, y acabar con este sufrimiento. Porque el mio es un caso perdido, está obsesionado contigo, y no es correspondido. Porque el mio es un caso perdido, está obsesionado contigo, pero no es correspondido. Y no quiero sufrir, ya no quiero llorar, porque mi corazón me quiere matar. \nEl canal de YouTube del ‘Mi Corazón’. ¡Ya millones de descargas!"
+    },
+    {
+        "headline": "POR LO vivido entera mañana y parte del tardío con el heredero del ’Grupo 5o’, me animo a decir que sigue la filosofía del español José Ortega y Gasset, quien aseguró: Camínalo despacio, no te apresures; que a dónde tienes que llegar, eso mismo.”
+    },
+    {
+        "headline": "BOYS GANÓ Y MANDÓ ROSEIRO A SEGUNDA",
+        "content": "Los dos son ‘Sport’, pero sólo uno es elegante. Boys no se quitó el traje de Primera al vencer 3–1 al Roseiro, al que condenó definitivamente a Segunda. Luis Tejada adelant con una definición de karate (25"). Mauro Retegui (57") y Maximiliano Velasco (90’) sellaron la despedida de los huarikeños. Descuentó Carlos Urive (84').\nCrema’s Volvió a Ganar a Real Garcilaso en Cuzco y Siguen Sonando con la Sudamericana\nCambió en el Equipo. El ‘Universitario’ puso el pecho, batalló más Moralez y Arquímides Figuera) y un golazo lateral Nilson Loyola fue con las piernas y tuvo manos gringas. Gol de contragolpe de Pablo Lavandeira alos 51, convocado de urgencias a la selección nacional, luego que a Alexi Araez se le diagnosticó desgarro muscular y no podría jugar ante Ecuador y Costa Rica (15 y 20 de noviembre).\nConvierten a Loyola a Selección\nUn 0$ de los ganadores será Neymar Jr. Hoy arribará Benavente, Aquino, Flores y Ruidíaz. Ellos son A un 0$ de los ganadores A"
+    },
+    {
+        "headline": "Nos Hizo Agua Diluvio Posterga Ida Final Libertadores Rivales Jugaran Hoy",
+        "content": "Quizás Dios tenía algo qué hacer y no quiso perderse el partido. Porqué la naturaleza terminó por dejar al mundo del fútbol con la miel en los labios, luego de la posergación del superclásico entre Boca Junior y River Plate debido a un diluvio que dejó inundada ‘La Bombonera’ y gran parte de la capital Argentina. La primera final –si el clima lo permite– se jugará hoy alas 2 de la tarde (FOX Sports)\nGuadalajara Vs Monterrey otra vez Frente a frente Duelos Domingueros Preparen Premier League Man City vs. Man United Remoto (11:30 AM/Espñol 2)"
+    },
+    {
+        "headline": "Benavente Marc Goles en Triunfo Hechizo Brava",
+        "content": "Charlaro.– De ‘Chaval’ a hombre, cristian benavente deja en claro por qué es de la selección. Llegó a cinco goles en la Liga de België al anotar en el 2–1 del Sporting Charleroi (7° con 20) contra Brujas (2° con 31). A los 39'; conectó de cabeza y venció la valla rival. De otro lado, Claudio Pizarro jugó los últimos 15′ en la derrota 3–1 del Werder Bremen ante Monchen Gladbach por la 11ª fecha de la Bundesliga. Hoy (12:30 pm) en España, Rayo Vallecana, de Luis Advincula, recibirá al Villarreal."
+    }
+]
+```
+This extraction captures each distinct article based on headlines followed by their respective contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria and cleanup rules.

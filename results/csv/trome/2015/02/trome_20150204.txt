@@ -1,0 +1,54 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/02/trome_04.txt ---
+
+```json
+[
+    {
+        "headline": "SE JUNTANLAS ALMAS HERIDAS",
+        "content": "Rodrigo Gonzalez, \"Peluche\", arremeti\u00f3 contra Larissa Arroyo\n\"Una cosa es ser malo. Saber que tienes un minifidel, nadie está libre en la vida.\nVolandas Medina contestó que pronto grabará un temazo junto a Michelle Soifer \n\"Ahora nosotros nos juntaremos las ex-Almas bellas; Desde el cabello hasta el pelo.\""
+    },
+    {
+        "headline": "CONTINUACION SOBRE ARROYO",
+        "content": "\"Después breve grabaran algo así como una salsa; dijo Yolanda, que anunció que será entrevistada por Patricio Parodi)\n\"Te legalizará porque hiciste cosas contra él controlándolo entre las cuerdas. Ella también puso cara de emocionada, contando su hipocresía encima,\" dijo Rodrigo en Amor, amor, amor."
+    },
+    {
+        "headline": "CREES QUE MI PARTICIPACIÓN EN ‘ESTO ES GUERRA’ ME HA PERJUDICADO EN EL MISS UNIVERSO?",
+        "content": "Mayumi Mantilla afirma que no cree que la participación de Jimena Espinoza en 'Esto es guerra' haya afectado negativamente su performance en el 'Miss Universo!' \"Creo que, al contrario, le dio más exposición mediática antes se ponían nerviosa, pero la competencia le dio la oportunidad de desenvolverse mejor. Además, a Jimena la he visto preparada para el concurso. No es que un programa determine tu imagen, sino cómo actuás y qué acciones realizás. Cada uno es responsable de lo que hace, le visión.\""
+    },
+    {
+        "headline": "¿POR QUÉ CREES QUE CARLOS CACHE SE QUEDA SIN PROGRAMA?",
+        "content": "Según comentarios, todo lo que toca este tipo lo destruye, incluso después de 300 programas ya están todos cansados. \"Ya sabemos cuales son los resultados del matrimonio (con Leonor)... La mala onda nunca sólo la han tenido Maluma sino mucha gente. Una cosa es burlarse y tomar al aire nuestros asuntos, como yo que hasta de mis propios problemas me he rendido, otra cosa es actuar con maldad y desechar que otras personas sean felices.\""
+    },
+    {
+        "headline": "CHACHI TOCA DE OCTUBRE DE 2014",
+        "content": "Ahora hay que llevar los papeles para registrarlos,' indica la conductora de 'Hola a Todos!'
+'Tanto Christian como Tania Ros, esposa de Christian, nunca vinieron al país.'"
+    },
+    {
+        "headline": "BRUNO AGOSTINI CONFIRMÓ SU ROMANCE CON VANIA BLUDAU",
+        "content": "'El beso fue el viernes pasado, salimos a una disco y pasamos chévere. Hubo varios besitos, pero en una foto no sé si estamos enamorados, pero podrán nacer muchas cositas bonitas', dijo la ex de Chocolatín."
+    },
+    {
+        "headline": "JORGE REYES CONTÓ DETALLES DE SU BESEO CON ORIANA URIBE",
+        "content": "'Yo fui el que dio el primer paso. Éramos unos amigos, estaba bailando y en los tiempos que vivimos se puede dar un beso en estas ocasiones.', declaró en 'Hola a Tod@s'"
+    },
+    {
+        "headline": "DORITA ORBEÑOSO REVELÓ QUE LE DA UNA SEGUNDAPORTENCIA A LUIGI CARBAJAL",
+        "content": '"Descuidé la relación. Nosotros somos una pareja joven, que no tienen niños, imaginen cuando tengamos hijos, si ahora mismo se siente seguro y no le interesa la relación, ¿qué pasa cuando tengamos hijos?', explicó.'
+    },
+    {
+        "headline": "ALESSANDRA MAYORGUÍA VOLVIÓ A ACTÚAR EN 'AL FONDO HAY SITIO'",
+        "content": '"Ya casi que termina (con mi papel), pero aún no puedo deciros nada porque todavía no hemos decidido...', confió la actriz."
+    },
+    {
+        "headline": "ARNOLD PICASSO POSTULARÁ PARA INGRESAR A 'ESTO ES GUERRA TEENS'",
+        "content": '"Este sábado hay una nueva etapa de castings y luego vendrá las pruebas físicas. La verdad que no me preocupo demasiado el tema físico, porque entrenó todos los días haciendo ejercicio con el equipo de futbol.", expresó Arnold Picasso."
+    },
+    {
+        "headline": "DORITA ORBEÑOSO COMENTÓ SOBRE POSIBLE REGRESO DE COPPINATO A 'COMBAT"',
+        "content": '"Podría venir a Perú, pero dudo que integre 'Combat!', según comenta. Durante nuestro tiempo juntos, llamaron varias veces pero no aceptó debido a otros proyectos en su vida."'
+    }
+]
+```
+This JSON captures each identified article based on headlines followed by their respective contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were segmented where appropriate according to changes in topics indicated by potential new headings or shifts in narrative focus within the text.

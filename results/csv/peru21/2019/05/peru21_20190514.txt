@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/05/peru21_14.txt ---
+
+```json
+[
+    {
+        "headline": "Admisión 2020 – Escuelas Profesionales Modalidad Semipresencial",
+        "content": "Administración y Negocios Internacionales\nCiencias Contables y Financieras\nDerecho\nIngeniería Ambiental\nIngeniería Industrial\nPsicología Humana\nInscripciones Abiertas."
+    },
+    {
+        "headline": "\"El Congreso de la República demora demasiado las acusaciones constitucionales\"",
+        "content": "Jorge Chavez Terina\ncux cinad ord la * cala de Crimen Organizado\nAs se saboteo el caso Los Cuellos Blancos en el Pleno.\nee \nst \nvotos a favor para acusar el\nie ie la o a\nIr. Egguer:\n– 26\n– 0\nAbstención 45\nFuerza Popular: 32 abstenciones\nApra: 2 abstenciones;\n1 sin respuesta\nPpK: 8 abstenciones\nA favor\nEn contra\n*Membres de la Comisión Permanente no podrían votar en estos casos.\nA favor\nEn contra\nAbstencion\nJulio Gutierrez\nFuerza Popular:\nApra:\nPpK:\n– 28\n> o\n44\n33 abstenciones\n1 abstención;\n2 sin respuesta\n8 abstenciones\nRESPONDIER ON A LA JUSTICIA. La Audiencia Nacional española aprob ayer, en primera instancia, el pedido de repatriacion del ex-juez ..."
+    },
+    {
+        "headline": "Extradición de Hinostroza",
+        "content": "Alvaro Reyes Quinteros\nalvaroreyesq\nA la Sala en lo Penal de la Audiencia Nacional Española le tom poco más de un mes aceptar la extradicion del ex-juez supremo Cesár Hinostroza, señalado de ser cabecilla de Los Cuellos Blancos del Puerto, que fue formulada por el Estado peruano. Sin embargo, pese a la celeridad del tramite, no todo salió cómo lo esperaba la justicia peruana. Si bien el Tribunal concedió la repatriación, lo hizo por tres de los cuatro delitos que le imputa la Fiscalía peruana al ex-magistrado: patrocinio legal, trafico de influencias y negociación incompatible. Los jueces Concepción Espejeil, Ramón Secades y Enrique López no aceptaron atribuirle a Hinostroza organización criminal —que castiga hasta con 20 años de cárcel porque, entre otras cosas, el Congreso de Perú no había aprobado imputarle el mismo delito a los sindicados miembros de esa red. En la resolución a la que accedió Per21, la sala indica que, según ha planteado el Estado peruano en su requerimiento de extradición, \"no se identifica a una auténtica organización criminal\". "
+    },
+    {
+        "headline": "Encuesta Opinan",
+        "content": "¿Crees que el Congreso es responsable de no excarcelar a Hinostroza?"
+    },
+    {
+        "headline": "Visitas Checas en Lima",
+        "content": "Interacción congresal Representantes de la Cámara de Diputados de la República Checa nos visitaron ayer y sostuvieron reuniones de trabajo con los legisladores peruanos. ¿Harán atención especial a la experiencia?"
+    },
+    {
+        "headline": "Preparada Para Ir Presa",
+        "content": "“Estoy preparada para la cárcel.” La ex alcaldesa de Lima Susana Villaran manifest ayer que tenía claro que su próximo destino seria estar en prisión, después de reconocer que sí sabía de los millonarios aportes de Odebrecht y OAS a la campaña del ‘No’ para evitar la destitución de Susana Villaran. A cambio, según la Fiscalía, su gestión les garantizó la ejecución de proyectos viales importantes. “Me siento liberada,” expresó tras realizar su declaración pública.”
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, subscriptions, etc., have been excluded according to specified criteria.

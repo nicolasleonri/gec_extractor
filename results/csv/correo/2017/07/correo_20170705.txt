@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/07/correo_05.txt ---
+
+```json
+[
+    {
+        "headline": "Política/Corrección\nNadine Heredia: 'Afecta derechos de mis hijas y es un deplorable acoso'",
+        "content": "Pese a las aclaraciones del Ministerio Público, la ex primera dama Nadine Heredia insistió ayer en afirmar que el fiscal Germán Juárez Atoche cometió un \"abuso\", al haber enviado a dos de sus colaboradores a reunirse con la directora del colegio de sus hijas.\n\nLos fiscales fueron a constatar los detalles del viaje que las menores hicieron con su abuela, Antonia Alarcón, a Estados Unidos. Según el Ministerio Público, debían corroborar un eventual peligro de fuga.\n\nPor medio de su cuenta de Twitter, Heredia escribió: \"Con preguntarle a los padres era suficiente. Mientras mi gente se entrevistaba con el fiscal Juárez, éste envía adjuntos a indagar al colegio\".\n\n\"¿Qué el fiscal Juárez envíe emisarios al colegio, para indagar sobre mis hijas, afecta sus derechos y evidencia deplorable acoso?, agregó."
+    },
+    {
+        "headline": "Corrección/Mínisterio de la Mujer,\nañade dirección de investigación a adultos",
+        "content": "\"Las autoridades y los adultos deben dirigir su investigación a nivel de adultos. Los niños tienen que estar al margen y protegidos sobre todo mentalmente\", indicó [nombre omitido].\n\nAsimismo, mediante su cuenta de Twitter, el Ministro de la Mujer expresó preocupación por el proceder de la Fiscalía frente a la visita que realizaron al colegio de las hijas de Ollanta Humala y Nadine Heredia.\n\n\"Los hijos no tienen responsabilidades de lo que hacen los adultos, entonces ¿qué pasa?", continuó diciendo el representante del ministerio."
+    },
+    {
+        "headline": "Edgar Alarcón podría retomar posición en Contraloría según Protica",
+        "content": "\"Sería poner al gato guardián,\" advirtió el Director Ejecutivo de Proética, Walter Albán Peralta, señalando que varias de las denuncias relacionadas con lavado de activos están bajo investigación judicial. Considera crucial evitar cualquier posibilidad de interferencia futura en procesos legales pendientes."
+    },
+    {
+        "headline": "Emprendedor asesinado en Puente Piedra",
+        "content": "Un ciudadano identificado como Javier Burgos Ancasi (56 años) perdió la vida después de recibir múltiples disparos en la Octava Cuadra de la Av. Buenos Aires, en Puente Piedra. La Policía sugiere que el móvil del crimen está vinculado a disputas financieras derivadas de negocios ilegales."
+    },
+    {
+        "headline": "Granadas encontradas en domicilio del Callao",
+        "content": "Se descubrió material bélico, incluida munición antitanques, en un apartamento usado también como taller electrónico. Autoridades aseguran que el dueño ha negado toda implicación personal en el almacenamiento ilícito de dicho arsenal militar."
+    },
+    {
+        "headline": "Primeros resultados de la huelga médica",
+        "content": "Muchos centros de salud reportan cancelaciones masivas de turnos programados. Pacientes enfrentan dificultades adicionales dado el déficit de recursos básicos como extinguidores en áreas públicas clave."
+    },
+    {
+        "headline": "Plan Piloto de Vigilancia Electrónica arranca pronto",
+        "content": "Carlos Vasquez Ganaza, líder del INPE, indica que el sistema permitirá monitorear a reos seleccionados basándose en buen comportamiento previo. Esto forma parte de estrategias más amplias destinadas a reducir costos penitenciarios y mejorar programas rehabilitativos."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Note any missing data has been filled with `"NA"` where applicable, though none was needed here given sufficient information within each segment.

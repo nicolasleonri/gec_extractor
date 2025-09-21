@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/08/peru21_06.txt ---
+
+```json
+[
+    {
+        "headline": "Un hombre en la Luna",
+        "content": "NA"
+    },
+    {
+        "headline": "Cambiará de camiseta",
+        "content": "PAULO INTERESA AL\nINTER DE PORTO ALEGRE\nPg. 22\nPERÚ 21\NDIRECTORA PERIDÍCTCA: CECLINA VALÉNZUELA\nLUNES 6 DE AGOSTO DEL 2018\n\nSE CONFIRMA QUE PAUL SNCHZ INVESTIGARÁ A CSAR HINOSTRÓZA.\nFabiana Sanchez Di Natalé fabiana.sanchez@noticiasperú21.com\nLas investigaciones en torno al suspendido juez supremo Csar Hinostroza ponen al Ministerio Público en el ojo de la opinión pública. Ante los diversos pedidos para que el fiscal de la Nación, Pedro Chavarri, se inhiba de investigar al vocal, ayer se confirmó que será Pablo Sánchez –el fiscal supremo de mayor antigüedad– el encargado de llevar a cabo esta tarea."
+    },
+    {
+        "headline": "\"Asumo grandes retos\"",
+        "content": "“LA UAP ME PREPARÓ PARA ASUMIR GRANDES RETOS.” Martín Virkar “Vamos a combatir la corrupción caiga quién caiga y venga de dónde venga.”
+    },
+    {
+        "headline": "Urge: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "La fiscalía convertida en un ring de boxeo",
+        "content": "PEDRO CHAVARRY SUSPENDIERON LAS ACTIVIDADES POR LOS AUDIOS DE CORRUCCIÓN PUBLICADOS POR CUARTO PODER. Las investigaciones en torno al suspendido juez supremo Csar Hinostroza ponen al Ministerio Público en el centro de atención. Ante los diversos pedidos para que el fiscal de la Nación, Pedro Chavarri, se abstuviese de investigar al vocal, ayer se confirmó que sería Pablo Sánchez –el fiscal supremo de más edad– el encargado de liderar dicha investigación."
+    },
+    {
+        "headline": "¿Qué significa que Pablo Sánchez está a cargo?",
+        "content": "Juan Sheput considera que la designación de Pablo Sánchez promoverá \"más transparencia\" en las investigaciones. ‘’El señor Pablo Sánchez no está implicado en charlas cordiales con Hinostroza, y eso es positivo.’’ Para el oficialista también se necesita ofrecer suficientes recursos para facilitar su trabajo."
+    },
+    {
+        "headline": "Opinión: Un paso al costado",
+        "content": "Ex procurador Luis Vargas Valdivia sugirió que el fiscal de la Nación debe renunciar temporalmente durante las investigaciones debido a sospechas de participación personal en el caso. Alberto Quintanilla, vocero alternativo de Nuevo Perú, coincidió en que Chavarri debe apartarse de todos los procesos vinculados a estos audios."
+    },
+    {
+        "headline": "Elección democrática",
+        "content": "Pronto tendremos nuevas figuras políticas seleccionadas por los votantes. Estas decisiones reflejan cómo perciben los ciudadanos nuestro estado de derecho y qué expectativas tenemos hacia nuestras futuras autoridades."
+    },
+    {
+        "headline": "Contradicciones en el gobierno",
+        "content": "Salaverry insistió en solicitar clarificaciones al Presidente respecto a declaraciones controvertidas presentadas en grabaciones filtradas. Además, Alberto Fujimori fue internado nuevamente después de experimentar complicaciones cardiacas."
+    },
+    {
+        "headline": "Contacto secreto",
+        "content": "Una comunicación clandestina entre el fiscal Walther Delgado y el juez supremo Carlos Hinostroza levanta preguntas sobre posibles favores cruzados dentro del sistema legal."
+    },
+    {
+        "headline": "Escándalo Judicial",
+        "content": "Funcionarios del CNM están bajo investigación por contratos fraudulentos valorizados en más de S/1 millón durante la administración de Guido Aguilera. Baltasar Morales alertó sobre prácticas corruptas previendo su eventual expulsión."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their significance within the provided OCR text while adhering strictly to the outlined extraction rules. Articles lacking explicit titles were assigned `"NA"` for missing information where applicable.

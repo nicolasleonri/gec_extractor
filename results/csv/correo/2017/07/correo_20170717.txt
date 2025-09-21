@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/07/correo_17.txt ---
+
+```json
+[
+    {
+        "headline": "Corrección judicial permite liberación de procesados",
+        "content": "Distintos fiscales señalaron que los procesados fueron notificados con suficiente anticipación para que el día de la audiencia concurriesen a la Sala Penal Nacional."
+    },
+    {
+        "headline": "Ranking Sector Banca y Finanzas destaca liderazgos empresariales",
+        "content": "Las mejores empresas según el Monitoreo Empresarial de Reputación Corporativa (Merco) incluyen a Caja Huancayo destacándose en retención de talento dentro del sector bancario y financiero peruano."
+    },
+    {
+        "headline": "Vecinos protestan contra bypass proyectado",
+        "content": "\"No al extermino\" de árboles y otras preocupaciones urbanísticas manifestaron habitantes de San Isidro en respuesta a planes de construcción municipal."
+    },
+    {
+        "headline": \"Celebraciones del Dia del Pollo a la Brasa congregan masivamente\",
+        "content": "Restaurants ofrecían descuentos y atracciones especiales para incentivar la participación popular en esta festividad culinaria nacional."
+    },
+    {
+        "headline": "Puente Bella Unión será inaugurado después de años de demoras",
+        "content": "Cambios significativos en diseño y funcionalidad generan incertidumbre entre los usuarios del Puente Bella Unión recién completado."
+    },
+    {
+        "headline": "Comunidad molinense legislará contra la discriminación",
+        "content": "Mediante nuevas regulaciones, el Municipio de La Molina buscará combatir incidentes discriminatorios ocurridos en el área."
+    },
+    {
+        "headline": "Exfonavistas recibirán compensaciones económicas próximamente",
+        "content": "Un grupo considerable de beneficiarios podrán acceder a sus respectivas indemnizaciones conforme a disposiciones administrativas vigentes."
+    },
+    {
+        "headline": "Motociclistas crean símbolo patriótico en calles de Lima",
+        "content": "Portando indumentarias coloridas, aproximadamente tres mil motorizados conformaron simbólicamente la Bandera Nacional en movimientos coordinados."
+    },
+    {
+        "headline": "Manifestación anti-Constituyente Venezolana en Lima",
+        "content": "Ciudadanos venezolanos organizaron eventos públicos para mostrar disconformidad hacia decisiones políticas tomadas en su país de origen."
+    },
+    {
+        "headline": "Violento tiroteo deja víctima fatal en gasolinera callaoína",
+        "content": "Sin razón aparente, individuos armados perpetraron un homicidio en un establecimiento comercial, presumiblemente relacionado con ajustes de cuentas criminales."
+    },
+    {
+        "headline": "Reflexiones editoriales sobre legado del Terrorismo",
+        "content": "Artículo editorial reflexiona sobre cómo el estado aún enfrenta repercusiones sociales derivadas de décadas de conflicto armado interno."
+    },
+    {
+        "headline": "Nombramientos controversiales ponen foco en ética política",
+        "content": "Discursos mediáticos sugieren conflictos de interés en designaciones gubernamentales, aunque evidencias académicas contraponen tales afirmaciones."
+    },
+    {
+        "headline": "Planificación Agrícola enfoca mejoras post-emergencia climática",
+        "content": "Programas específicos están siendo implementados para revitalización de sectores agrícolas impactados severamente por fenómenos meteorológicos extremos."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on distinct topics within the input data, ensuring clarity between different pieces of information presented across various sections of the document.

@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/06/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "MEDARDO LOPEZ PEDIRÁ GARANTÍAS PARA SU VIDA...",
+        "content": "Se defiende de acusaciones.\n\n\"¡Este hombre!\", ella me dijo que \"me iba a perjudicar\", Me da pena que yo tenga 28 años de carrera y me quieran dar con mentiras...\n\nEs imposible que la ataque con un cuchillo, yo no soy agresivo\", declar Vilchez."
+    },
+    {
+        "headline": "\"SIGO FELIZ DUEDA A QUIEN LE DUELA\"",
+        "content": "La integrante de Esto es Guerra, Milett Figueroa, aseguró que se encuentra feliz a pesar de que Claudia Cruzalegui la acusara de ser la amante de su ex pareja, el empresario César Acuña J.\"Con cariño haters!, Dejen de tomar tantas cosas personales, no siempre son cómo parecen y podrán tragarse sus palabras.\n\nSigo feliz \nduela a quien le\nduele. Soy bendecida,\nsí así citios y tas ¿Podrán?\nláms!», dijo Milett."
+    },
+    {
+        "headline": "NO DESCARTA DEJAR MUCHO DINERO PARA SUS SEIS HIJOS",
+        "content": "\". Vista [1] 2,330,4:30,6,7.\n\n»No habrá mucho dinero para mis hijos de herencia, porque lo estamos gastando!». Para ver los estrenos y la programación completa, ingresa a nuestra web www.peru21.pe"
+    },
+    {
+        "headline": "¿QUÉ TE APARECE QUE LA ESPAÑOLA SILVA INSISTA CON LA SALIDA DE TACINTA’ DE LA TV PORQUE DENIGRA A LA MUJER ANDINA?",
+        "content": "\"La Paisana Jacinta\' no ofende a nadie, No sé por qué siguen con ese tema... Hasta el momento no me han dicho si habrá más capítulos, lo único que sí es que tendrá su circo, Yo también tendré mi circo del ‘Niño Alfredito’ en el mall Aventura de Bellavista\"."
+    }
+]
+```
+This extraction includes four distinct pieces identified within the provided OCR text based on their headlines and associated contents while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Any non-article elements such as movie listings were excluded according to these rules.

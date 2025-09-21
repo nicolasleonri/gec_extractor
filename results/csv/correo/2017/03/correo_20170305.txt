@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/03/correo_05.txt ---
+
+```json
+[
+    {
+        "headline": "Promoción para debut como conductora genera controversia",
+        "content": "Debut promociona su entrada al noticiero 'Noticiero 90 Matinal' generando comentarios variados. Su nombre resurge debido a un incidente captado en vídeo que rápidamente se tornó viral. Ella misma afirma necesitar realizar cambios significativos después de años alejada de pantalla."
+    },
+    {
+        "headline": "¿Es Magaly Medina demasiado audaz?",
+        "content": "\"NO DOUDO\" De acuerdo con Pamela Vértiz, la reaparición de Magaly Medina podría traer atención y debate público. Esta transición marca un punto crucial en su trayectoria profesional, cambiándola hacia temas más graves como seguridad ciudadana."
+    },
+    {
+        "headline": "Louis Tomlinson arrestado tras altercado",
+        "content": "El cantante británico Louis Tomlinson fue detenido en el aeropuerto de Los Ángeles por agredir a un fotógrafo aficionado, resultando éste último con lesiones leves según reportes de medios locales."
+    },
+    {
+        "headline": "Donald Trump critica salida de Arnold Schwarzenegger",
+        "content": "Presidente Donald Trump menciona públicamente que Arnold Schwarzenegger fue despedido de 'El aprendiz' debido a bajos índices de audiencia, destacando así decisiones empresariales basadas en rendimientos televisivos."
+    },
+    {
+        "headline": \"Nuevo capítulo cinematográfico de Kong\",
+        "content": "Se anticipa el próximo filme 'Kong: La Isla Calavera,' describiéndose como una experiencia puramente adrenalínica. Protagonizado por Tom Hiddleston, explora nuevos territorios narrativos fuera de los clásicos referentes del género kung-fú."
+    },
+    {
+        "headline": "Preocupación por el futuro del fútbol peruano",
+        "content": "Trágico panorama deportivo observado en categorías inferiores, especialmente notable en la Selección Sub–17, evidenciando problemas estructurales profundos en el sistema formativo del país."
+    },
+    {
+        "headline": "Alianza Lima improvisará estrategia",
+        "content": "Después de resultados insatisfactorios, Alain Ramírez considera usar a Alejandro Hohberg como delantero central mientras intenta reconducir el rumbo del club mediante ajustes tácticos urgentes."
+    },
+    {
+        "headline": "San Martín aplasta a Universidad Comercial",
+        "content": "Triunfo contundente de San Martín sobre Universdad Comercial deja preocupaciones administrativas en el rival, provocando renuncia del técnico actual y señalando crisis interna post-partido."
+    },
+    {
+        "headline": "Final de la Copa Guanabara define destino de Flamengo",
+        "content": "Partido decisivo entre Flamengo y Fluminense marcará quién continúa en competiciones regionales superiores, ofreciendo premios económicos sustanciosos además de prestigio deportivo."
+    },
+    {
+        "headline": "Melgar visita a líder invicto Sport Rosario",
+        "content": "Encuentro clave en búsqueda de liderato del Grupo A, donde ambos conjuntos buscan capitalizar ventajas propias y explorar vulnerabilidades contrarias bajo condiciones competitivas intensas."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided newspaper text while adhering strictly to the defined extraction rules. Articles were identified based on distinct topics within the text, ensuring each entry aligns accurately with its respective theme.

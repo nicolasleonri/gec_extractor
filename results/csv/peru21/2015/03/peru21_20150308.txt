@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/03/peru21_08.txt ---
+
+```json
+[
+    {
+        "headline": "Reformas Electorales Aprobadas Por el Congreso",
+        "content": "“Si se produce la revocatoria, los accesitarios serán los que terminen el período y no se convocará a nuevas elecciones”, anota."
+    },
+    {
+        "headline": "NCASH AGOBADO POR DEUDAS Sin plata",
+        "content": "El gobernador de NCASH, Enrique Vargas, indica que en su entidad existe un desbalance de S/510 millones producto de las deudas que arrastra. Debía pedirle al inhabilitado Waldo Ros que le brinde la formula sobre cómo conseguir dinero."
+    },
+    {
+        "headline": "BRUCE POR LA UNION CIvil Presente",
+        "content": "El congresista Carlos Bruce (CP) encabezó marcha en la que cientos de personas gritaron al parlamento cuanto antes el proyecto de ley sobre la uniÓn civÍl."
+    },
+    {
+        "headline": "Guillermo Niño Deguzmín//Escritor LOS ESCRITORES ANTE LA ENFERMEDAD Y LA MUERTE",
+        "content": "La reciente y temprana aparición de la escritora brasileña Julie de Mesnils ha llevado a reflexionar sobre la incidencia de las enfermedades en el ámbito literario. En su libro clásico sobre la enfermedad y sus metáforas, Susan Sontag analizó el fenómeno social generado por la tuberculosis y el cáncer. Algo similar ocurrió con Julio Ramón Ribeyro, quien hizo de “tentación del fracaso"—como titulara su diario íntimo—un estilo de vida. Como sabe, aún siendo salvo milagrosamente en una ocasión, sufrió bajas en circunstancias en que estaba a punto de recibir el Premio Juan Rulfo en México. "
+    },
+    {
+        "headline": "Usos de la Palabra Ricardo Lago/Escritor Semblanza:",
+        "content": "\"Es ecléctico: ni capitalismo ni socialismo, sino todo lo contrario. Es libre-pensador y culto, no se casa con ninguna teoría\"."
+    },
+    {
+        "headline": "María Luisa Del Río//Periodista Ustedes mismos",
+        "content": "Yo periodista, soy escritora, soy deportista, soy mamá. Que iba a ser mamá lo tenía claro siempre. Sin embargo, de niña no me gustaban las muecas y prefería los juegos de niños. Cuando terminé el colegio, en cambio, quería ponermetercos y pintarme, tener novios, casarme, formar una familia tradicional. Y lo hice, con convicción, felicidad y placer, hasta que un día me enamoré de una mujer y tuve que deshacer todo ese esquema tradicional."
+    },
+    {
+        "headline": "PERÚ RETIRA SU EMBAJADOR EN SANTIAGO POR ESPIONAJE",
+        "content": "Tras reiterar su \"más firme repudio y profundo cinismo por las acciones de espionaje de Chile en contra de la seguridad nacional\", la cancillería dio cuenta del retiro del embajador del Perú en Santiago, Fernando Rojas Samaniez, en tanto el gobierno de Michelle Bachelet no dé satisfacción alguna respecto al caso."
+    },
+    {
+        "headline": "Procurador Joel Segura Habla Sobre Caso Belaunde Lossio Ley Apoya Expulsión",
+        "content": "El procurador anticorrupción Joel Segura expresó su convicción de que las leyes están a favor del estado peruano en el caso de Martín Belaunde Lossio y que pronto se logrará su expulsión de Bolivia."
+    },
+    {
+        "headline": "Transferencia de Fondos a Regiones TRANSFIEREN $733 Millones a Regioness",
+        "content": "El ministerio de Salud junto a seis gobiernos regionales transfirieron $733 millones para ejecutar obras de infraestructura y fortalecer programas sociales como Más Salud y Plan Esperanza."
+    },
+    {
+        "headline": "Norma Aprobada por el Congreso No es Retroactiva, Sostiene Expertoen Norma Aprobada por el Congreso No es Retrógrada",
+        "content": "Experto señala que la reciente aprobación en el Congreso de la norma prohibiendo la reelección inmediata de alcaldes y presidentes regionales no impedirá un segundo término consecutivo de las actuales autoridades."
+    },
+    {
+        "headline": ": PROGRAMA DE Osinergmin Beneficiarà a más de Cinco Millones de Personas de Escasos Recursos",
+        "content": "El uso del GLP está ganando terreno mediante el Programa de Inclusión Social Energético, buscando sustituir la leña y kerosén por motivos ambientales y sanitarios."
+    },
+    {
+        "headline": "Mirando a Chile Mirando a Chile",
+        "content": "El Fondo Monetario Internacional (FMI) anunció que el crecimiento económico de Chile será solamente 2.8% en 2015, atribuido principalmente a la caída en el precio internacional del cobre."
+    }
+]
+```
+This extraction captures each significant article within the provided text while adhering strictly to the guidelines outlined regarding inclusion criteria and format requirements. Articles were identified based on their headlines followed by substantial textual content related to journalism topics such as politics, economics, culture, and more. Any non-article sections like editorials, ads, or repetitive elements have been excluded according to specified rules.

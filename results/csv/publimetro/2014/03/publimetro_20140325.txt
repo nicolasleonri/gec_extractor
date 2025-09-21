@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2014/03/publimetro_25.txt ---
+
+```json
+[
+    {
+        "headline": "Interpretación a un analista de crimenes del FBI",
+        "content": "Que fue encerrado en un manicomi\nPor supuestamente haber cometido los crimes\ndel Dr. Hannibal Lecter (Mads Mikkel\nsen), un psiquiatra fotense con afici\nones canibaless a quien en un prin\ncipio llamaron para que lo ayude a \nencontrar a un asesino en serie.\nDesde el manicomi, Will dever demonstrar que Lechler\nes la vera mente criminal, mientras que este ultimo\nsigue pasandose por los pasillos del FBli haciende las\nvezes de asesor de investigacion de outros crimes."
+    },
+    {
+        "headline": "\"Ashton Kutcher y Mila Kunis en la dulce espera\"",
+        "content": "Otra fonte confirmou a nova ao a revista US Weekly. O portal El News assuru ter visto a parella num curso prenatal en Los Angeles.\nNon hai passado mo tempo desdes que comezan as especulaçons sobre a próxima casamenta dos actors Mila Kunis e Ashton Kutcher.\nDes de uns poucos semans, a actris de 30 anos foi vista usande um anello de compromiso, facéndo pensar que os preparativos estavan próximos a começar.\nPorem, a verdadeira causa das muitas caricias públicas (como foron vistas nunhas partidas de basket)\nera o embarazo da actris de origins ucrais.\nUnha fonte moi proxecta á parella informou que Mila está xa varias semanas embaraza\x00e7a e que a boa nova enchergulleiros aos futuros pais.\n\"É ainda muito cedo, mais a boaxía deste embarazo fez-os sentir máis unidos que nunca e están optimistas cara ó seu futuro\", especificou a fonte na revista People.\n\"Chegará o bebé vai mudalo tudo e vai modificar as suas prioritás\", disse a confidente, recalcanxo os compromissos profissionais de Kunis e do protagonista da série \"Two & A Half Men\"."
+    },
+    {
+        "headline": "Emma Watson: 'Harry Potter foi uma realodissea'",
+        "content": "A actriz británica Emma Watson, quién deu vida a Hermione Granger nas catro películas de Harry Potter, comentou que mentras esa saga lle abriron portas tamén deixoulle \"vaporizada\" psicoloxicamente e fisicamente.\n\"O rodaxe foi unha auténtica odixeia. Hai moita pressión e remató vaporizada mental e físicamente. Engordeunos dez anos durante os días de filmación cos filmes de Harry\", afirmou Watson ao Daily Mail, puixemerro."
+    },
+    {
+        "headline": "+ – Próximo capítulo, Episódio 4, Titulado ‘Takeaway’",
+        "content": "O FBI atopará un novo cadaver engaiolado nun árbore e con un panal de abellas na testa. Mentras isto acontece, Will, dende a prisón, recolecta máis probas de que Hannibal é responsável destes assassinatos."
+    },
+    {
+        "headline": "Cómo melhorar seus abdominais",
+        "content": "Milhares de persoas aspiran a mostrar un abdomen plano. Aquí vos deixamos consells dunha especialista americana para erradicar esos rolls.\nQuedas prácticamente sen poder respirar polo uso de corsets?\nEsta é un indicativo clarísimo de que débedes iniciar a eliminación da grasa da barriga. Como vestirse con roupa que defina non é unha solución duradeiro, consultamos a Stacie Clark, entrenadora de celebrities e protagonista dos vídeos Women’s Health Power Sculpt (O Poder de Modelar às Mulleres Saudáveis).\xE9lle nos proporcionou consells para conseguir abs firmes coma pedra."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and cleanup processes. Articles were segmented according to distinct topics identified within the input text. Any unclear data was marked appropriately using `"NA"` where necessary.

@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/04/trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "&ADENA GRENTINA TYC Sports",
+        "content": "Ya dejamos atrás la fase de Argentinalegra con ritmo, 9:10 pm. Perú vs. Ecuador considera a la ‘bicolor’ como el mejor y ahora vamos por el próximo objetivo."
+    },
+    {
+        "headline": "León Wandows Zambrano es el Defense más Duermo",
+        "content": "Cuando Carlos Zambrano enfrentaba a Robert Lewandowski, en Alemania, siempre dejaba su huella. Hoy, el polaco es el máximo goleador de la Bundesliga con 199 – supera en cuatro a Claudio Pizarro – y record a los defensas que más dolor de cabeza le han dado. En entrevista con ’Sport Bild’, el artillero del Bayern Munich no olvidó al ‘Leon’ en el ‘Top four’ de los más duros que lo marcan. Sergio Ramos es un gran defensor que además, tiene un buen manejo de balón. Jerome Boateng y Mats Hummels. Siempre fue un desafío jugar contra ellos. Carlos Zambrano también es un back muy agresivo, fue muy duro como rival.”
+    },
+    {
+        "headline": "Messi Busca Otra Obra de Arte",
+        "content": "En el estadio 'La Cerámica'; Lionel Messi buscará seguir moldeando obras de arte. Barça (1º con 69 puntos) visita al Villarreal (17º con 29 puntos), por la fecha 30 de la Liga de España. Barçà quiere mantener – o incrementar – la ventaja con Atlético de Madrid (2º con 59 puntos), mientras que hoy (12:30 p.m.) recibirá al Girona (13º con 34 puntos)."
+    },
+    {
+        "headline": "Alianza se Juega su Destino en la Libertadores",
+        "content": "En Santiago de Chile, Alianza Lima (4° con 1 punto) tiene la oportunidad de sumar hoy (7:30 p.m.), su primer triunfo en esta edición cuando visite a Palestino (3° con 1 punto) por el Grupo A. El equipo limeño está envuelto en una mini crisis luego de dejar escapar resultados en los últimos minutos."
+    },
+    {
+        "headline": "Melgar Recibe a Junior por la Copa",
+        "content": "Bernardo Cuesta continúa motivado después de realizar un hat-trick frente a San Martín. Melgar (3° con 1 punto) saldr por su primer triunfo en el Grupo F de la Copa Libertadores ante Junior (4° con 0 puntos), al que ya goleó 4–0 en la 'Ciudad Blanca'."
+    },
+    {
+        "headline": "Pelea Familia",
+        "content": "Las peleas entre hermanos pueden llegar incluso a los golpes. Para evitar conflictos constantes, intervención profesional podría ser útil. Muchos niños distraídos no sufren déficits de atención sino problemas menores de concentración. Aplicar técnicas específicas ayudará a mejorar su foco."
+    },
+    {
+        "headline": "Mi Bebé Tiene Cliques",
+        "content": "El llanto es el idioma principal del recién nacido. Cuando parece que llora sin razón alguna, llamamos cliqué, aunque en verdad ese término no existe científicamente. Hay varias maneras de tranquilizar al bebé, desde envolverlo hasta llevarlo a caminar."
+    }
+]
+```
+This extraction focuses on identifying distinct headlines followed by their respective contents while filtering out irrelevant sections such as ads and non-journalistic information. Adjustments were made for clarity where necessary within each extracted segment.

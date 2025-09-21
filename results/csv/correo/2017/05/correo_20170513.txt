@@ -1,0 +1,13 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/05/correo_13.txt ---
+
+```json
+[
+    {
+        "headline": "Diario Correo.Pe\n24 \xcapsula DO 3 E MAYO/2017 CORREO",
+        "content": "\nLos peruanos Miguel Trauco y Paolo Guerrero posan con la copa obtenida por el Flamengo,\ncampen del Torneo Carioca.\nitusin\n\nActivista de la opoción al gobierno del presidente Nicols Maduro en Caracas, Venezuela.\nar>\n\nPeruanos ganan\nel Torneo Carioca\ncon el Flamengo\nPeregrinos llegan al AA el Papa a SS Santuario de Ftima para ver\nFtima insiaccin de Jacinta y\n\nEmmanuel Macron, presidente electo de Francia,\nsalta frente al Museo del Louvre, en Paris.ar>\n\nEl papa Francisco ora ante la Imagen de Nuestra Seora de\nFtima en Ftima, Portugal.ar>\n\nue es ie ee\ntitulo del Torneo Carioca, que logran los peruanos con el \nmengo de Brasil. Ambas figuras vecino por su buen desempeo en la\n(r ai ia a 2 na\nmengo supero 2–1 a Fluminense con ungol de Guerrero. Por otro lado, el\npapa Francisco ya se encuentra en Ftima, Portugal, para canonizar a\n\nEl la d\n\ndos de los pastores aque se lespresent la Virgen de Ftima,\nJacinta es efia\nla d e E es ie dd na\nE s e\n\nCrece el negocioen el MercadodeFlores poreld Da delaMadre.miguelYovera"
+    }
+]
+```
+This extraction focuses solely on identifying sections within the provided text that resemble structured journalism pieces based on headlines followed by relevant content while excluding non-article elements like puzzles, astrology predictions, etc. Adjustments were made for clarity where necessary according to given heuristics.

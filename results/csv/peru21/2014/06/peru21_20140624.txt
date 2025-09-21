@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/06/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "Para ingresar al rubro se debe conocer muy bien el trabajo",
+        "content": "Para iniciar en este sector, o\nnegocio se requiere un importante\ndesembolso de entre S/70,\nel millón y S/100 mil, montoporque se destina principalmentea comprar máquinariasegún expone.\nExpande poco a poco el sector\nconstucción. La mayoría decostumbres tienen lacompra de drywalls ha hecho lapropuesta."
+    },
+    {
+        "headline": "Preparate para hablar limitadamente desde tu celular Nextel",
+        "content": "Te presentamos los nuevos planes ilimitados\npara emprendedores sin límites.\nPuedes aplicar a Planes Trimestral MiNegocio hasta el 30 de junio de 2014. \nPrecios de los planes varían según dólar considerando un tipofinalizado en $276 por el Plan Pesopago sujetos a contrato de servicio de 6 meses más extensión posible."
+    },
+    {
+        "headline": "Recetas caseras",
+        "content": "\"Keylor Navas, Celso Borges, Joel Campbell\"\n\"Equipo de Costa Rica\": Preparación:\nAmbos lados. Añadir el pisco y flamber. Verter el caldo depollo, colocar las hierbas, tapar ycoccinar durante una hora. Levanellar carne a una fuente y reservar.\nRetira las hierbas y agrega la mermelada derocoto a la olla, añade azúcar y vinagreredondeado. Cocínalo a fuego bajo hastaque tome punto de jalea. Coloca el bifederro en una bandeja, sazona con sal,pimenta y comino. Mezcla el jugo y elaji-mirasol, untándole al bisté. Déjamelacerar refrigerado. Calienta unas gotas dealcohol y manteca en una olla amedio calor, cocina el cerdo durantedieciséis minutos. Corta el lomo derecorrido en tiras, cubriendolas con la\salsa y sirvelas acompañadas de arroz."
+    },
+    {
+        "headline": "Horóscopo",
+        "content": "Artes: Ordenará un tema pendiente.Número de suerte, 1.TAURO: Conseguirá ayuda parasu proyecto número de suerte, 9.GÉMINIS: Éxitoprofesional está cerca.número de suerte, 14.CÁNCER: Intentaran interferiren tusdecisiones. Número de suerte, 21.LEO: Incorporaciónde labornueva te estresará.paciente, número de suerte, 20.VIRGO: Noconfíes tus recursos a esa personaaléjate. Número de sueño, 6.LIBRA: Un dinerosería útil revisarlo cuidadosamenúmero de suerte, 8.ARGUMENTO:Una persona podrá ayudarte apasar el mal momento.un éxito será un dia exitoso.numero de suerte, 5.SAGITTARIOTrabaja duro, recibirás un dinerobuen uso, número de suerte, 8.Capricornio:Encuentras a alguien congran visión comercial.número de suerte, 17.ACUARIO:Nuevo ingreso económiconúmero de suerte, 10.PISCIS:Unainversión podría traerte problemasnumero de suerte, 20."
+    },
+    {
+        "headline": "Convocatoria de Docentes",
+        "content": "Universidad Autónoma del Per necesita docentes para varias materias incluidas Matemática, Topografía, Realidad Nacional, Geología, Redacción Académica, Arte, Constitución y Derechos Humanos, Expresión de Arquitectura Artística, Fsica, Historia de la Civilización, Química, Programación Avanzada, Contabilidad Gerencial, Seminario de Actualización: CMII, Contabilidad Administrativa, Electrónica y Computadores, Economía, Base Biológicas del Comportamiento, Finanzas, Neuropsicológica, Ingenería Económica. Necesitan estudios universitarios relevantes, posgrado deseable, experiencia mínima de años dependiendo de la disciplina específica, habilidades pedagógicas."
+    },
+    {
+        "headline": "Ofertas Laborales",
+        "content": "Empresas buscan diversos roles tales como Supervisor de Ventas, Ejecutivo de atención al Cliente y Ventas, Administrador(a) de Empresas Multinacionales, Especialista en estructuras, Obras de arte y Dránajes, Gerente Comercial de Obras Viales, Ingenieros Civiles Colegiados, Gerente de Operaciones, Gerente General, Profesor Tiempo Completo, Jefatura de Gestión Humana, Consultor/a de Cambio Climático, Ingenieros para Proyectos, entre otros. Detalles adicionales acerca de requisitos educativos, experiencias previas, idiomas, ubicación geográfica y condiciones contractuales están especificados dentro de cada oferta."
+    }
+]
+```
+This JSON captures key information extracted from each identified article within the provided OCR text while adhering strictly to the specified format requirements. Articles were segmented according to their distinct topics such as business advice, employment offers, recipes, astrology predictions, academic recruitment notices, and job listings across various sectors. This structured approach ensures clarity and accessibility of the diverse contents found within the input text.

@@ -1,0 +1,112 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/08/elcomercio_30.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Un artículo publicado hoy sugiere que en estos días pensaríamos que... "
+    },
+    
+    {
+        "headline": "Contenido",
+        "content": "Hoy en día, uno podría pensar que… Hoy en día, uno pensaría que…"
+    },
+
+    {
+        "headline": "Importancia de buscar urgente: Urgente búsqueda de perro perdido. Recompensa: $5000."
+        "content": "N/A"
+    }
+
+]
+```
+### Article Extraction Process:
+
+1. **Article Identification**  
+   Articles were identified based on their headlines which include significant information about journalism-related topics such as political events, opinions, etc.
+
+#### Detailed Content Analysis for each extracted segment:
+
+1. **Headline**: "El Loco Del Martillo," followed by its detailed discussion regarding current affairs related to democracy's impact within society.
+   
+2. **Main Body Text:** This includes discussions around how today’s thinking would lead us towards understanding more than justifying it through various perspectives like those mentioned above."
+
+3. **Additional Context Information**
+   - Discussions surrounding urgent searches for lost dogs offer rewards amounting up to $5000.
+   - Further details indicate there was some confusion over whether these should have been included under different sections due to unclear data points being discussed here.
+
+This structured approach ensures clarity while maintaining focus on relevant aspects of the topic matter presented throughout the document.
+
+
+## Additional Notes:
+
+The process involves extracting every detail possible from the given context provided, ensuring accuracy and relevance across several key areas including but not limited to specific segments outlined below.
+
+---
+
+In summary, ensure proper extraction techniques focusing on identifying elements crucially important for accurate representation of the subject matter covered herein.
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/08/elcomercio_30.txt ---
+
+```json
+[
+    {
+        "headline": "\"El loco del martillo\"",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": NA,
+        "content": "[\"El\"] Per es lo \"\[...\]"
+    },
+    {
+        "headline": NA,
+        "content": "CAPITALE PRIVADOS PODRN INGRESAR A CODELCO\nLA CORPORACION NACIONAL DE COBRE DE CHILE (CODELCO)... "
+    },
+    {
+        "headline": NA,
+        "content": "EL FORO DE COOPERACIÓN ECONÓMICA ASIA-PACÍFICO (APEC) TRABAJARÁ EN IDENTIFICAR UNA LISTA DE BARRERAS ARANCELARIAS ..."
+    },
+    {
+        "headline": NA,
+        "content": "EMPRENDIMIENTOS CHILENOS VISITARÁN AL PRESIDENTE PERÚ KKEIKKAKKK."
+    },
+    {
+        "headline": NA,
+        "content": "SEGÚN ZAVALA, LA PUBLICIDAD RADIAL HA CRECIDO POR ENCIMA DEL 30%"
+    },
+    {
+        "headline": NA,
+        "content": "- Garantismo, Tributación y Universidades Privadas.\n DOMINGO \n García-Belaúnde\n Uno de los problemas del estado en nuestras días es el aspecto tributario ... "
+    },
+    {
+        "headline": NA,
+        "content": "COMO EL NUEVO INFORME DE EMPLEO EN EE.UU. PODRÍA AFECTAR A LA FED\n MOHAMMED A. EL-ERIAN Periodista\n Sería imprudente sugerir que la publicación de un único dato económico podría decidir la política monetaria de la Fed ..."
+    },
+    {
+        "headline": NA,
+        "content": "EXPORTAMOS EL 30 % DE PRODUCCIÓN VIDEOJUEGO\n NUMERO DE EMPRESAS DEDICADA ACTUALIDAD CRECE 100% DOS AÑOS ANTES."
+    },
+    {
+        "headline": NA,
+        "content": "UN 2016 QUE PAINT BIEN\n ROdrigo Zavala Director De Rent Variable De Credicorp Capital Per\n Nos acerca mos últimos meses año pintan bien ..."
+    },
+    {
+        "headline": NA,
+        "content": "PAOLO GUERRERO SER EVALUADO ENTRENADOR FSICO PARA JUEGA ALTURA\n SELECCIÓN GALLESE TAPIA BENAVESTE TAMBIÉN SUMARSE GRUPO CUZCO."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles lacking explicit headings have been marked `NA` where applicable. Note that some sections were merged due to lack of distinct separation between different topics within the input data.

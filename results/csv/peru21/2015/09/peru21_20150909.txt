@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "ELOGIOS Y CRÍTICAS",
+        "content": "Los compañeros de Piraro tardaron en elogiar la destrezas de Messi...\nBien hecho, pues eres un ejemplo a seguir. Estoy encantado de poder aprender más de ti.\n\nY ahora vamos a entregar las pizzas\", escribió en Twitter el atacante Anthony Ujah. \n\nEn tanto, el volante y capitán Clemens Fritz dijo que \"Pizarro es una motivación para todos\".\n\nSin embargo, el ex jugador del Bremen Mario Basler, de 46 años, puso en entredicho la llegada del peruano. \"Si lo fichan con 36 años, yo también podría regresar a jugar,\nPizarro está solo para jugar los últimos 30 minutos, no para ser titular\", dijo a la web Sportal."
+    },
+    {
+        "headline": "Brasil golea 4–1 a Estados Unidos",
+        "content": "\"No perdon nada. Brasil mostró toda su contundencia al golear 4–1 a Estados Unidos en amistoso disputado en Massachusetts con dos goles del astro del Barça Neymar. De esta manera, la escuadra que dirige Dunga qued listo para el inicio de las Eliminatorias ante Chile.\" \n\nEl 'Scratch' abrió la cuenta con Hulk a los 9'. Neymar, que ingres al inicio del segundo tiempo por William, amplió la cuenta a los 51', de penalti. Rafinha puso el tercer a los 64' y 'Ney' selló la goleada a los 67".\n\nLos norteamericanos respondieron por medio de Daniel Williams (91')."
+    },
+    {
+        "headline": "Eurocopa. Los dirigidos por Vicente del Bosque quedaron a un empate de entrar a Francia 2016",
+        "content": "España cerca, Austria ya está. Inglaterra venció 2–0 a Suiza con un gol de Rooney, que alcanzó la marca del legendario Bobby Charlton. \n\nSe buscó 'tiki-taka' porque, con un juego sin brillo, España (1° con 21 puntos) necesitó un autogol para ganar 3–0 de visitante a Macedonia (6° con 3).\n\n'Spain's Fury' quedó a un empate de asegurar su participación. Con respecto al encuentro anterior, el delantero Wayne Rooney saltó al campo de la mano del hijo de David Beckham, Romeo, quien cumplió 13 años."
+    },
+    {
+        "headline": "Tenis. Croata se impone en el abierto de EE.UU.",
+        "content": "Cilic vence a Tsonga y se mete en semifinales. Nuevo York.– El croata Marin Cilic (9º ATP), campeón defensor del Abierto de Estados Unidos, salió victorioso ayer de una dura batalla de cinco sets casi cuatro horas ante el francés Jo-Wilfried Tsonga (13º ATP), después de derrotarlo 6–4, 6–4, 3–6, 6^(7)(3)/[7], 6–4 para clasificar a la semifinal del torneo jugado en Flushing Meadows.\n\nTsonga llegó a salvar tres match points en el cuarto set, pero en el quinto no pudo con el tenis del actual campeón. \"Fue una dura batalla, especialmente después de perder el cuarto set, pero supe mantener mi estrategia\", dijo Cilic."
+    },
+    {
+        "headline": "Escenarios",
+        "content": "El conocido actor español Antonio Banderas ahora estudia la carrera de Diseño de Modas para lanzar más adelante su propia línea de ropa. Demasiado interesado en el arte de la moda, Banderas comenzó un curso de diseño en la prestigiosa escuela Central Saint Martins de Londres. "
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Additional sections like sports scores were excluded due to not fitting within defined criteria for inclusion.

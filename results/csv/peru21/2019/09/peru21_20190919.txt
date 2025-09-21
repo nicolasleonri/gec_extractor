@@ -1,0 +1,27 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/09/peru21_19.txt ---
+
+```json
+[
+    {
+        "headline": "Existe una frmula para envejecer como msico?",
+        "content": "\"La msica es una entidad rosa que nunca ser dominada y eres un servidor de ella\", dice al otro lado de la lnea Brian Bell, guitarrista de una de las bandas ms influyentes de los 90. Weezer, con ms de 27 aos de carrera, llega por primera vez a Per este domingo.\"\"Lo que puedes hacer es entregarte cada da, aprender algo nuevo con tu instrumento o un nuevo cover,\" asegura Bell. \"Y es que la banda formada por Rivers Cuomo, Patrick Wilson y Scott Shriner lanz dos discos este ao, El Teal Album, de covers, y el Black Album, con material propio. El primero con mas exito que el segundo.\"
+
+        \"Qu aporta Weezer al reinterpretar una cancion? La banda formula el pasado valindose de canciones que escuchaban cuando eran adolescentes. Explica a Well Bell el concepto de nostalgia musical, desde Toto a Michael Jackson y Black Sabbath. Hace una semana, lanza GENERACION.CLASICOS.DE.UNA\n\nCLASES DE ROCK ARGENTINO\n\nLOS AUTNTICOS DECADENTES LOS ENANITOS VERDES \nVLIM PALMA E VAMPIROS BABASNICOS\n\nLOS FABULOSOS CADILLACS RATBLANCAP\n\nLOS ABUELOS DE LA NA DA SOSDA STEREOPallares guisados con acelgas Preparacin Lavar y pasar por agua caliente la acelga. Una vez escurrida, mezclarla con la mitad del queso parmesano y reservar. Remojar y pelar los pallares, hacer un aderezode ajo, cebolla, dorar bien y añadir los pallares, cocinarlos con el fondo de pollo o verduras hasta que estn cremosos. Al final, incorporar la acelga molida con el resto del queso y la leche, dar un ultimo hervor y servir, espolvoreando más queso parmesano encima."
+    },
+    {
+        "headline": "WEIZER LANZA DOS DISCOSS ESTE AO",
+        "content": "El Teal Album, de covers, y el Black Album, con material propio. El primer disco tiene mayor éxito que el segundo. Qu aporta Weezer al reinterpretar una canción? La banda explota el pasado utilizando temas conocidos durante su adolescencia, explicando así el fenmeno de la nostalgia musical, incluyendo referencias musicales variadas desde Toto hasta Michael Jackson y Black Sabbath."
+    },
+    {
+        "headline": "KEVIN QUEVEDO TIENE OFERTAS DEL BENFICA Y DEL UNION BERLIN",
+        "content": "Alianza Lima intentará renovar el contrato de Kevin Quevedo, aunque parece probable que su futuro sea fuera del país debido al interés mostrado por equipos importantes como el Benfica de Portugal y Union Berlin de Alemania. Quevedo, destacándose como máximo goleador de Alianza con 14 tantos, podría dejar el club al término de su vínculo contractual actual."
+    },
+    {
+        "headline": "RAFAEL NADAL APUNTA SUS ESFUERZOS PARA EL MASTER'S DE LONDRES",
+        "content": "Tras superar recientes competiciones, Rafael Nadal centra ahora toda su atención hacia el Master's de Londres programado del 10 al 17 de noviembre. Según palabras de su técnico, Carlos Moyà, el objetivo principal será llegar completamente preparado dado que el español no ha enfrentado problemas físicos significativos desde principios de año."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Any non-article sections such as ads, sports scores not forming complete narratives, etc., have been excluded according to specified criteria.

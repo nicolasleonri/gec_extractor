@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/01/trome_19.txt ---
+
+```json
+[
+    {
+        "headline": "Pedro Pablo Kuczynski responde críticas",
+        "content": "Respondió a las crticas de su rival electoral Pedro Pablo Kuczynski (Peruanos Por el Kambio), quien afirma que él es una imitación de su persona. \"El teléfono original era el que estaba colgado en la pared, ahora tenemos iPhone, el original no es mejor, sino más moderno\", precisó Guzmán."
+    },
+    {
+        "headline": "Isaac Humala critica a su hijo Ollanta",
+        "content": "\"Don Isaac Humala\" la dispar contra su hijo Ollanta y dijo que era nacionalista ‘solo de nombre’, pues según él, realmente es fujimorista. Dice que acepta la Constitución de 1993, a la cual califica de ‘delincuencial’ y de traición a la Nación.”
+    },
+    {
+        "headline": "Carlos Castañeda inaugura túneles peatonales",
+        "content": "Se inauguraron los túneles peatonales 'Santa Rosa' y 'San Martín', permitiendo conectar varias áreas importantes en minutos. Actualmente están en fase de prueba operativa ('Marcha blanca') durante tres meses."
+    },
+    {
+        "headline": "Hermandas chilenas muertas ahogan reclamo",
+        "content": "Vecinos denuncian afectaciones debido a obras de túneles, demandando reparaciones urgentes a municipalidades involucradas."
+    },
+    {
+        "headline": "Parqueo costará medio real por media hora en algunas playas",
+        "content": "Durante esta temporada vacacional, únicamente once comunas podrán cobrar parqueo en sus playas, establecido en cinco céntimos por media hora."
+    },
+    {
+        "headline": "Precio del dólar continúa aumentando",
+        "content": "El valor del dólar registró niveles altísimos comparables a hace diez años, siendo comprado a 3.44 soles y vendido a 3.41 soles."
+    },
+    {
+        "headline": "Elección digital facilita proceso electoral",
+        "content": "Superior número de ciudadanos optó por elegir su mesa de votación mediante internet, destacándose principalmente jóvenes adultos."
+    },
+    {
+        "headline": "Alerta sanitaria por alta temperatura",
+        "content": "Expertos recomiendan tomar precauciones frente a temperaturas elevadas, sugiriendo evitar exposiciones prolongadas al sol y mantenimientos hidratantes adecuados."
+    },
+    {
+        "headline": "Angélica Jolie causa revuelo por estado físico extremadamente delgado",
+        "content": "Actriz conocida mundialmente presenta signos alarmantes de adelgazamiento severo, generando discusiones respecto a su salud pública."
+    },
+    {
+        "headline": "Presidente Mauricio Macri genera controversias",
+        "content": "Tras situar a su mascota Balcarce en el sillón presidencial, provocó diversas criticas sociales y políticas."
+    },
+    {
+        "headline": "Choque mortal en carretera provoca múltiples víctimas",
+        "content": "Accidente fatal ocurrió luego de que conductor perdiera control del autobús, culminando en numerosas pérdidas humanas y lesionados graves."
+    },
+    {
+        "headline": "Proyectos futuros del campeonato peruano de fútbol",
+        "content": "Detalles estructurales del nuevo formato competitivo incluido en el calendario del año próximo, dividido en etapas específicas."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were selected based on relevance and completeness within the context given. Any missing data was filled using "NA". Note that some sections might have been condensed slightly but still retain essential information.

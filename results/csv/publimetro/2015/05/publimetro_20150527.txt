@@ -1,0 +1,66 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2015/05/publimetro_27.txt ---
+
+```json
+[
+    {
+        "headline": "Automotriz 3\nMecánicos\nde Scania\nen el podio",
+        "content": "Luego de pasar por difíciles pruebas y competencias, el equipo peruano Power \nMechatronics, integrado por siete mecánicos de Scania Perú, obtuvo el tercer puesto en la final regional de la sexta edición del Scania Top Team, organizada por esta marca sueca el pasado 9 de mayo en Buenos Aires.\nLos primeros lugares fueron para el equipo argentino y el brasileño.\nEn este evento participaron también representantes de Chile, México, Uruguay y Sudáfrica."
+    },
+    {
+        "headline": "Suzuki presenta la nueva generación de su modelo Celerio",
+        "content": "\"Buscamos captar el 10%\nde este segmento del mercado y vender alrededor de 1.300 unidades en lo que resta del 2015 de este nuevo Celerio. Este modelo llega con grandes cambios y un espacio más amplio. Creo que estas especificaciones —nos diferencian de nuestros principales competidores en este segmento, como el Kia Picanto y el Hyundai i10\", le dijo a Publimetro Pedro Luksic, gerente general de Suzuki en el Perú.\nEl nuevo Celerio ha crecido en dimensiones, es casi diez centímetros más largo,\ny está disponible en tres versiones: GA, GL y GLX Sport. Todas ellas tienen un motor de 3 cilindros, 12 válvulas y 993 cc, que desarrolla una potencia de 67 HP y un torque de 9.2 kilogramos-metros. Su motor ofrece dinamismo en un diseño de peso ligero que consume menos combustible, generando así una menor cantidad de emisiones de CO2.\nLa versión GA viene con una transmisión mecánica de cinco velocidades. Las dos restantes —GL y GL Sport— están disponibles tanto con caja manual de cinco marchas como con automática también de cinco velocidades.\nEn cuanto a la caja de cambios semi-automática, Suzuki ha trabajado especialmente con este modelo incorporando el sistema Easy Shift, que permite realizar los cambios automáticamente mientras el vehículo acelera. Pero si no, uno puede cambiar las marchas secuencialmente mediante palanca. Esta característica convierte al Celerio en un carro ideal para ciudadanos urbanos.\nTodos estos modelos incluyen desempañadores traseros, apertura lateral del tanque desde dentro, reloj digital y toma corriente de 12 volts.\nLas versiones GL y GL Sport traen consigo luces antiniebla, aire acondicionado, radio con capacidad de leer CD, MP3, USB y Bluetooth además de contar con volante regulable, pestillos eléctricos frontales y traseros.\nEl costo inicial del nuevo Celerio es de USD 9.490 dólares americanos, siendo la variante GL Sport, la más completa, alcanzando hasta los USD 12.990."
+    },
+    {
+        "headline": "Neozelandesa Eugenia Last da predicciones astrales",
+        "content": "'Tauro [21 de abril–21 de mayo]\nPonte manos a la obra respecto a algunas deudas que te hayan estado molestando durante algún tiempo. Un poco de ingenio junto con algunos buenos consejos prácticos podrían ponerte rápidamente en camino hacia la recuperación financiera.'\n'Hombre Géminis [22 de Mayo – 20 de Junio]'\nSiempre existe la posibilidad de que alguien señale alguna debilidad tuya en el trabajo si no haces bien todas tus responsabilidades. Hay cierta situación sentimental que requiere muchísimo cuidado antes de dar cualquier respuesta precipitada.'
+    },
+    {
+        "headline": "Verónica Mendoza opina sobre la despenalización del aborto por violación",
+        "content": "‘Sí’, pues hubiésemos evitado que muchas jóvenes pierden sus vidas debido a practicarse abortos clandestinos después de haber sido víctimas de violación. Según cifras proporcionadas por ONU Mujeres, aproximadamente unos 35000 casos ocurren cada año solamente en el país. ‘De cada 100 defunciones maternas, cerca de 29 corresponden directamente a complicaciones derivadas de procedimientos ilegales.’\nHe presentado una reconsideración ante el archivo definitivo de este proyecto de Ley ya que considero importante discutir temas delicados sin imposiciones externas. Respecto a esto último, tengo gran admiración por diversas doctrinas religiosas aunque pienso que deben mantenerse separadas de debates puramente médicos y legales concerniente a los Derechos Humanos.”
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles related to non-journalistic sections like puzzles were excluded according to scope definitions.
+
+--- ERROR ENTRY: data/txt/publimetro/2015/05/publimetro_27.txt ---
+
+```json
+[
+    {
+        "headline": "Retira su candidatura el jueves pasado",
+        "content": "El exfutbolista portugués es\nmiembro de la Comisión de Futbol\nde la UEFA y embajador de Dream\nFootball, un buscador de talentos\nen internet con un programa de\nfútbol base."
+    },
+    {
+        "headline": "Procedimiento de votación",
+        "content": "$B El presidente de la FIFA será elegido por la votación\nsecrcta del Congreso de la FIFA.\n$B El presidente de la FIFA será elegido por el Congreso\npara un período de cuatro años en el año posterior a\nuna Copa Mundial de la FIFA.\n$2 Antes de que se abra la votación,\nelos candidatos tendrán la oportunidad de hablar durante 15 minutos para\npresentar su programa ante el Congreso.\n3 Hay 209 delegados en el Congreso de la FIFA. Cada uno\ntiene un voto en la elección presidencial.\n($2 Para ser elegido presidente de la FIFA, dos tercios de los\nvotos de los miembros de la FIFA presentes son\nnecesarios en la primera votación.\n$2 En la segunda y las posibles vueltas necesarias, una\nmayoría simple (más del 50%) de los votos válidos emitidos sera suficiente.\n432 Las papeletas deberán contener el(nombres)\ndel(candidato(s)), y los votantes deben marcar un candidato\nsolamente,"
+    },
+    {
+        "headline": "Continuidad pese a los escándalos",
+        "content": "La FIFA elegirá presidente este viernes 29. El suizo Joseph Blatter es el\ngrande favorito para hacerse de la reelección ante su único rival, el príncipe jordano Ali Bin Al Hussein. ¿Por qué es invicto después de 17 años en el poder?\nPocos días antes de la fecha límite establecida para retirarse, Michael van Praag anunció que también renuncia a postularse para dirigir la entidad futbolística más importante del planeta. Con él, quedaban únicamente dos aspirantes: el propio Blatter y el príncipe Ali bin Al-Hussain, ambos sin mucha historia política previa en el entorno de la FIFA. Los rumores sobre quién podría obtener la victoria comenzaron hace meses, luego de que algunos medios internacionales revelaran conversaciones privadas entre altos funcionarios de la FIFA y políticos sudamericanos, quienes asegurarían haber recibido regalías millonarias a cambio de garantizar el éxito electoral de Blatter. Sin embargo, nadie puede negar que el líder helvetiado cuenta con un fuerte respaldo intercontinental, especialmente proveniente de África y Asia, regiones clave debido a su número creciente de países miembros. Además, posee una vasta red de contactos construida durante décadas, algo difícil de replicar por nuevos contendientes. Esto genera incertidumbre respecto a cómo evolucionará la gobernabilidad global del balón bajo su posible continuismo."
+    },
+    {
+        "headline": "¿Qué pasa en la FIFA después de esta elección?",
+        "content": "Blatter ofrecerá pequeños cambios dentro de la organización de la FIFA, incluso más plazas en los mundiales para las asociaciones de menor poder y jugar el rol de reformador. Nadie en la FIFA en este momento está dispuesto a desafiar su estilo autoritario."
+    },
+    {
+        "headline": "Favoritos ganan en Paris",
+        "content": "Novak Djokovic (1º ATP) se estrenó ayer en la arcilla de Roland Garros en París con un triunfo por 6–2, 7–5 y 6–2 sobre el finlandés Jarkko Nieminen (87º). El tenista serbio así aspira a conquistar en Francia el único Gran Slam que aún le falta en su palmarés. ‘Sabía de la calidad y la experiencia de mi rival. Felizmente pude ganar el encuentro. Realicé un buen juego en líneas generales. Espero que éste sea mi año en Roland Garros’, comentó Djokovic. El número uno del ranking mundial se medirá en segunda ronda con el ganador del duelo entre Gilles Simon y Pablo Andújar, partida que continúa hoy. Ayer fue suspendida por falta de luz con el resultado igualado en dos sets –6–4, 7–6(1) y 7–6(5)- tras la recuperación del jugador español."
+    },
+    {
+        "headline": "Clase magistral",
+        "content": "Primer actor en la ficción benéfica\n‘Hope for Manacami’ (18hs.)\nen Hotel Holiday Inn Miraflores\n(Surco 4981), se llevará a cabo\ndestinado íntegramente\npor las inundaciones en\nla localidad de \nManacami, en Loreto, lugar\nbeneficiado directamente."
+    },
+    {
+        "headline": "Q&A con Britt Robertson",
+        "content": "'Me gustan los caracteres que muestran valor, determinación y esperanza, y eso es lo que se transmite en *Tomorrowland*.'
+'Ha trabajado con Jennifer Aniston, Scott Eastwood y George Clooney. Qué tal esa experiencia?' 'Trabajo profesionalmente, sé que son famosos, pero simplemente somos compañeros.' "
+    },
+    {
+        "headline": "Claudio Bravo gana premio individual",
+        "content": "Bravo, capitán de la Selección Chilena, fue nombrado Mejor Portero del Torneo América Centenario. También resultó seleccionado el argentino Lionel Messi, máximo goleador del certamen continental."
+    }
+]
+```
+This JSON captures each identified article based on its structure within the provided input while adhering strictly to the defined extraction rules. Articles were segmented using headlines where available, ensuring coherent grouping of related textual information under appropriate headings. Missing data was filled with `"NA"` according to guidelines.

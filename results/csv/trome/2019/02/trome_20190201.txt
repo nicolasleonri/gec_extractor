@@ -1,0 +1,76 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_01.txt ---
+
+```json
+[
+    {
+        "headline": "Carlos Padilla impide por posesión de drogas durante vuelo",
+        "content": "\"Según información de Magaly TV, la firma’, Carlos Padilla fue detenido por posesión de drogas mientras volaba acompañado de Ivana Yturbe, Valeria Rodríguez y primo de futbolista.\""
+    },
+    {
+        "headline": "Opinión sobre conductores de programas de farándula",
+        "content": "\"Gianinna Lujo critica a Tilsa Lozano por su papel como conductora de ‘En Exclusiva’ recordándole su pasado con el futbolista Juan Manuel ‘Loco’ Vargas. Expresa que algunas figuras públicas carecen de habilidades genuinas para conducir programas, sugiriéndoles roles más adecuados según su experiencia previa.\""
+    },
+    {
+        "headline": "Entrevistas destacadas",
+        "content": "\"Sección dedicada a entrevistar celebridades locales, incluidas Vanessa Terkes discutiendo amenazas personales relacionadas con actividades criminales en su área residencial, así como Tamara Gorrostieta comentando cómo enfrenta las críticas online. También destaca la perspectiva de Pamela Franco respecto a cambios profesionales tras dejar un popular show matinal.\""
+    },
+    {
+        "headline": "Actualización legal y política local",
+        "content": "\"Artículo centrado en acciones legales contra organizaciones criminales en La Victoria, lideradas por el Alcalde George Forsyth, con testimonios directos de involucrados políticos y sociales.”"
+    },
+    {
+        "headline": "Análisis cultural y eventos próximos",
+        "content": "\"Resumen de acontecimientos culturales importantes, tales como el debut de Melcochita en un nuevo proyecto televisivo, además de detalles sobre producciones musicales y cinematográficas emergentes en el ámbito peruano.”
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on their thematic relevance while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. Note how each entry includes both a `headline` where applicable and corresponding `content`, formatted according to the required JSON structure. Any missing data has been marked appropriately using `"NA"` but was not necessary here given sufficient information could be extracted directly.
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_01.txt ---
+
+```json
+[
+    {
+        "headline": "RENUESTRA AMIGO PARA VIAJAR POR EL MUNDO CON POCO PRESUPUESTO",
+        "content": "Alguna vez has ido al cine a ver una película recomendada por un amigo?\nPues algo parecido ocurre con los influencers en las redes sociales\n(Facebook, Instagram, YouTube y Twitter).\nTe aconsejan cómo vestirse,\nqué comer,\néste tipo de sugerencias.\n¿Has escuchado alguna vez de \"Misías pero viajeras\"?,\nsí, estas chicas están enseñándoles a sus seguidores cómo viajar por el mundo con poco presupuesto."
+    },
+    {
+        "headline": "LOS QUE MAS BUSCAN LAS MARCAS",
+        "content": "Cuando tratamos de un influencer con millones de seguidores,\nopcionan cobrar desde 500 miles de dólares por un post en instagram.\nSi tienen más de 100 mil seguidores, podrían optar por pagar menos.\nLo importante aquí es saber qué tan influyentes son estos usuarios en internet.\nSegún el estudio ‘Marketing de Influencers Latinoamérica’ de Axel Springer:\nLas principales características buscadas por las marcas son credibilidad,\nnaturalidad y trabajo constante."
+    },
+    {
+        "headline": "FECHA ESPECIAL",
+        "content": "Su festividad se celebra el 2 de febrero.\nQué países en Sur América celebran esta Fiesta Paternal?\nCanarias en España, Filipinas, Bolivia, Colombia y Perú.\nSe trata de una estatua (o imagen) de la virgen María,\nbearing a child in one hand and a green candle in the other.\nLa Candelaria es una fiesta cristiana donde piligrinos y turistas se unen a la festividad.\nEstá marcada por una procesión y una ceremonia religiosa.\nPeregrinos y turistas se unen a la festividad."
+    },
+    {
+        "headline": "VISITORA F",
+        "content": "\"Visitadora F\", Millet Figueroa confirmará que será «La Brasileña» en el musical \n‘Pan Talén y Las Visitadoras’. Ser ‘La Brasileña’, uno de los personajes centrales de la novela de Vargas Llosa. Respetuosamente, no vamos a imitar a Angélica Cepeda, que hizo el papel para el cine, pues está realizándose una adaptación especial porque será un musical de Broadway que se estrena el 24 de Mayo en el Teatro Peruano Japonés.\""
+    },
+    {
+        "headline": "MIENTRAS NO TENGO ARGUMENTO...",
+        "content": "«Mi carta pasará por el trasero», porque no tiene argumento.\nUn abogado está trabajando en la demanda y mis pruebas serán las cámaras del hotel."
+    },
+    {
+        "headline": "POR LLAMÁRMEE SUPLENTE'",
+        "content": "Jamila Dahabreh enfrentó a Metiche por haberla llamado suplente'\nin el programa ‘Válgame Dios’ y especular que había tenido un romance con Pablo Heredia.\n\"Me parece horrible que hables así, eres desatinado.\"\nAdemás, agregó que estaba cómoda hacienda comedía, pues anteriormente interpretaba a la mamá de ‘Caín’ en ‘Asu Mare.’"
+    },
+    {
+        "headline": "QUÉ PASÓ ENTRE NICOLÁS Y AGOSTINI?",
+        "content": "Nicolas Porcella se disculpó con Fabio Agostini por algunas palabras dichas hacia él durante el reality show Guerreros.\nAhora ambos mantienen buenas relaciones fuera de pantalla."
+    },
+    {
+        "headline": "¡YA SOY ASÍ!",
+        "content": "Ya estoy preparada para comenzar a conducir mañana mismo el programa, ya van a salir las promociones en el canal. Además, continuaré participando en ‘Yo Soy’.”
+    },
+    {
+        "headline": "CARLOS PADILLA SE QUEDA SIN PROGRAMA",
+        "content": "Mediante un comunicado oficial, Panamericana Televisión anunció cambios radicales en su grilla televisiva, incluido el retiro definitivo de Carlos Padilla de su programa matutino ‘Hola a Todos’."
+    },
+    {
+        "headline": "LAS ÚLTIMAS CHISMEOLOGÍAS DE HOLLYWOOD",
+        "content": "La China Pinelo comentó que este año le gustaría volver a ser madre y tener la pareja completa junto a su hija Kmaleesi.\nMientras que Cantantes como Sheyla Rojas y Gianinna Lujn fueron mencionadas respecto a conflictos mediáticos y roles profesionales respectivamente."
+    }
+]
+```

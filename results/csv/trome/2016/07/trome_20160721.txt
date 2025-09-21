@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/07/trome_21.txt ---
+
+```json
+[
+    {
+        "headline": "Convocatoria contrato a plazo fijo",
+        "content": "La Dirección Regional de Salud del Callao requiere contratar personal bajo la modalidad de Contrato a Plazo Fijo, para brindar servicios en el ámbito de la jurisdicción de la DIRESA Callao, para los siguientes puestos:\n\nCANTIDAD DE PLAZAS VACANTES MEDICOS ESPECIALISTAS (Radiología, Medicina Interna, Gineco–Obstetricia, Óftalmologia, Pediatría, Cardiología).\n\nPara conocer detalles y requisitos de postulación a partir del jueves 21 de julio de 2016, llamando a los siguientes números telefónicos: (01) 4650048 anexo 136 o anexo 181 ó ingresando a nuestra página institucional www.diresacallao.gob.pe."
+    },
+    {
+        "headline": "Preocupaciones futuras de Aurich",
+        "content": "Tras vencer la semana pasada a Alianza Lima por 2–0, Aurich volvió a caer en la irregularidad y no pasó del 1–1 en casa ante Unión Comercio. Iván Mejías adelantó al ‘Ciclón’ y Diego Mayora empataba para la visita. El golero Ronald ‘Banana’ Ruiz, que había llegado al Aurich, impidió el triunfo chiclayano."
+    },
+    {
+        "headline": "Maradona ofrece regresar gratis a Argentina",
+        "content": "\"Diego‘ Pelusa’ Maradona está listo para volver a dirigir a Argentina después de la salida de Gerardo ‘Tata’ Martino. Está dispuesto incluso a hacerlo gratuitamente. \"A la Selección la dirige gratis\", dijo el ‘Pelusa’. Además menciona que José Mourinho podría enfrentarlo próximamente.”
+    },
+    {
+        "headline": "Christian Ramos ficha por Gimnasia",
+        "content": "El jugador Christian Ramos ha sido presentado oficialmente como nuevo integrante de Gimnasia y Esgrima de La Plata para las próximas tres temporadas. Su incorporación generó entusiasmo dentro del plantel ya que viene con buen nivel físico gracias a mantener contacto constante con el entrenador Gustavo Alfaro."
+    },
+    {
+        "headline": "Ancelotti supera a Guardiola",
+        "content": "Josep Guardiola recibió una gran ovación al retornar al Allianz Arena donde anteriormente lideraba Bayern Munich. Sin embargo, su actual equipo, Manchester City, sufrió derrotas contra equipos alemanes, mientras que Carlo Ancelotti logró victorias significativas frente a él."
+    },
+    {
+        "headline": "Dalérs Responsabilidad Desde Pequeño",
+        "content": "Es importante enseñar a niños pequeños cómo manejar sus errores y convertirse en adultos autónomos capaces de tomar sus propias decisiones. Esto involucra evitar sobreprotegerlos, darles responsabilidades adecuadas según su edad, mostrar apoyo emocional continuo y entender que errar forma parte del proceso educativo."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text which represent complete articles based on their headlines and associated contents while excluding irrelevant information such as ads, schedules, etc.

@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2015/08/publimetro_10.txt ---
+
+```json
+[
+    {
+        "headline": "Conservador opuesto Mauricio Macri (29%).",
+        "content": "‘Cada voto\nes un sueño’\n— dijo él.\ny hay que\n> cuidar bien nuestros\nsueños y la decisión de\ncada argentino’. \nMauricio Macri (56), candidato\npresidencial argentino por la alianza electoral Propuesta Republicana. \nEl tercer lugar entre los más votados fue para el disidente –kirchnerista– Sergio Massa (23%). \nSegún el sociólogo argentino – Ricardo – Rouvier,\nel resultado oficial será anunciado hoy."
+    },
+    {
+        "headline": "Alerta en Venezuela",
+        "content": "El líder opositor venezolano y dos veces candidato presidencial, Henrique Capriles, aseguró ayer que en el primer semestre de este año hubo 56 saqueos y advertió que estos constituyen ‘una señal de la bomba sobre la cual está sentada el país’. ‘No se puede jugar con la paciencia de la gente’, escribió Capriles en su columna dominical de prensa. \nComo duro opositor a Maduro, bajo el título ‘¡Cuidado con saltos al vacío!’ Capriles remarca que ‘Venezuela se está aproximando a una situación insostenible’ y que ante esto el Gobierno de Nicolás Maduro ‘insiste en tensionar la cuerda, en jugar con dinamita’, con una supuesta indiferencia.”
+    },
+    {
+        "headline": "Ya hay cinco muertos por tormentas en el norte de Chile",
+        "content": "El gobierno de Chile declaró ayer el estado de emergencia en las ciudades de Antofagasta y Tocopilla, debido al temporal de vientos y lluvias y los aludes que han afectado el norte del país, provocando la muerte de tres personas. Estas víctimas mortales se añaden a otras dos ocurridas el último sábado en las ciudades más meridionales de Viña del Mar y Coquimbo. El alcalde de Tocopilla, Fernando San Román, reportó que los aludes están arruinando unas cinco mil casas."
+    },
+    {
+        "headline": "Marathon sudamericanos",
+        "content": "Los maratonistas peruanos siguieron obteniendo medallas en la Maratón Internacional de Asunción celebrada ayer. En esta competición, se determinó el Campeonato Sudamericano 2015 de los 42 kilómetros. La rama femenina fue dominada por la puna Wilma Arizapana, mientras que en varones, el peruano Juan Humann logró coronarse campeón sudamericano aunque terminó cuarto en la carrera general."
+    },
+    {
+        "headline": "Haz tu cohete ecologíco con botellas PET",
+        "content": "Crear un cohete utilizando botellas de plástico recicladas ofrece tanto diversión educativa como concientización ambiental. Necesitarás dos botellas de plástico preparadas para reciclar, junto con papel grueso, fieltro colorido, cinta correa, pegamento y herramientas básicas como tijeras y agujas. Inicialmente, limpia las botellas quitándoles las tapas y etiquetas, después pégales piezas de fieltro formando alas simuladoras de escape. Finaliza cosiendo correas al cartón base para simular motores laterales."
+    },
+    {
+        "headline": "Presentación Flamenco pierde con Guerrero",
+        "content": "Durante toda la duración del partido, Flamengo perdió 1-0 contra Ponte Preta en la décimoséptima fecha del Brasileirão, quedando en el puesto número trece con veinte puntos. Paulo Guerrero intentó adelantar a su equipo, pero un cabezazo suyo impactó solamente en el poste derecho del arco contrario. Es notable mencionar que esta es la primera derrota de Guerrero desde su incorporación al club brasileño."
+    },
+    {
+        "headline": "Carrillo campeón con el Sporting",
+        "content": "Gracias a un potente lanzamiento desde afuera del área ejecutado por Andrés Carrillo, Sporting de Lisboa obtuvo una contundente victoria de 1-0 sobre Benfica en la Supercopa de Portugal. Con este triunfo, el técnico Jorge Jesús suma su primer título de la temporada defendiendo ahora los intereses del conjunto lisboeta."
+    },
+    {
+        "headline": "Cristal, el nuevo líder del Torneo Apertura",
+        "content": "Tras recuperarse de una serie adversa post-Copa América, Sporting Cristal demostró su superioridad aplastando 4-0 a Real Garcilaso en el complejo escenario cusqueño. Luis Abram inauguró el marcador tempranamente, seguido rápidamente por un penalti convertido magistralmente por Carlos Lobatáñez. Aunque Garcilaso buscó revertir el marcador, Diego Penny brilló salvando múltiples oportunidades claras, consolidando así a Cristal como líder provisional gracias a diferencias mínimas de goles respecto a Deportivo Municipal."
+    },
+    {
+        "headline": "Cómo reconocer la práctica del ’Mobbing’ en el Trabajo?",
+        "content": "Identificar el mobbing requiere observar patrones continuos de intimidación dirigidos específicamente a individuos en entornos laborales. Esto difiere de conflictos interpersonales normales pues involucra actitudes sistemáticas destinadas a generar ansiedad y reducir rendimientos profesionales. La Organización Mundial de la Salud describe estas acciones como persistentemente agresivas y deliberadamente destructivas, enfocadas exclusivamente en aislar y debilitar a la víctima seleccionada."
+    }
+]
+```
+This JSON structure captures each significant article found within the provided input while adhering strictly to the outlined requirements for extraction and structuring. Articles were identified based on their headlines followed by substantial textual bodies related to various topics such as politics, sports events, environmental projects, etc. Any non-article elements like ads or unrelated listings have been excluded according to guidelines.

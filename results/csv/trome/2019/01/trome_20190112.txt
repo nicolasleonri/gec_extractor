@@ -1,0 +1,100 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/01/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "\"Esto es guerra\" con un montón de jalones...",
+        "content": "Ka sí ayer terminó y estamos felices porque nos fuimos liderando el rating frente a la competencia. Y ya se viene \"Esto es guerra\" con grandes jalones, parece que los dos realities: ('Combate') se van a unir.\n\nSer un año positivo para ti en lo laboral, solo falta el aspecto sentimental.\n\nSí, así lo sé, me voy bien y ya llegará el amor, es lo último que me falta. Seguro aparecerá – la chica que me llené el corazón. (C. Chavez)"
+    },
+    {
+        "headline": "Nicola Porcella asegura que tiene la consciencia tranquila,...",
+        "content": "Nicola Porcella asegura que tiene la conciencia tranquila, luego que Fabio Agostini (...) Karla Tarazona coincide (...)\n\n(...) Pero ¿qué iba a retirarme? Yo no hice nada malo en el pasado, pero ellos sí sabían que...\n\nLa verdad, ni cuenta me di estaba ahí, porque Daniela Darcourt me mandó saludos."
+    },
+    {
+        "headline": "Michael ‘Pato’ Ovalle revela que en breve se lanzará como cantante de 'trap' y hip-hop;",
+        "content": "\"Es algo que quería hacer toda la vida, ahora tengo más tiempo, ya que no estoy en la televisión. Quiero sacarme la espinita\", dijo. \n\nEl trap es fuerte, tiene letras duras. Sí, pero lo mío será al revés, con mensajes positivos.\" (B.P.J.G.)\n\n(...)
+    },
+    {
+        "headline": "Olénka Zimmermann dice que nadie va de diva en su programa y todos son un gran equipo",
+        "content": "(...) Cuando me matan siento la luz de tus ojos hechiceros caer lindas rosas que florecerán...\"\n\n(…) Olénka Zimmermann dice que nadie va de diva en su programa y todos son un gran equipo. Esta es la novena temporada. (C.Chvez)"
+    },
+    {
+        "headline": "Checho Ibarra cumple años y fue sorprendido por su esposa Rocío González...",
+        "content": "\"Esto es una gran sorpresa, no sabía que ibas a venir, me dejas sin palabras\", dijo Sergio Ibarra cuando voz apareció a su señora. \"Estamos casados hace 25 años, es la mujer de mi vida y me agrada mucho al verla en el set. Le digo la patrona» con mucho cariño, cada día disfrutamos nuestro matrimonio junto a nuestros hijos y nietos,\" sostuvo el conductor del bloque de deportes de '90 Matinal."
+    },
+    {
+        "headline": "Rebecca Escribens desea éxito a Magaly Medina en su retorno a la televisión...",
+        "content": "\"Qué le vaya muy bien, como a todos. Lo que más quiero es que la gente tenga trabajo, que se divierta con lo que hace y bienvenida a la televisión, no soy partidaria de los 'ampays,' pero soy respetuosa del trabajo ajeno\", coment Rebecca. Dice que a Nacho Dimaro, 'El Bicho,' no sabe cómo meter la cara cuando su mam Paty Fernández, que acaba de llegar de Argentina, dijo que Angie Arizaga le pareciera 'grande' para su hijo, porque su beb necesita una 'bebita'."
+    },
+    {
+        "headline": "Angie Jibaja decide ingresar a un centro de rehabilitación...",
+        "content": "\"Lo estoy haciendo por mí, porque quiero estar bien, por mis hijos, por mi familia, por los pocos amigos que me quedan y mis fans», precisó. La madre de la modelo, Maggie Liza, está en Lima y apoya la decisión de su hija."
+    },
+    {
+        "headline": "Brabaró Flores aplaudió la decisión de Angie Jibaja y espera que se recupere pronto...",
+        "content": "\"Soy amigo de Angie, siempre va a nuestros shows, Bailó en el escenario porque es una chica divertida\", agregó el cantante."
+    },
+    {
+        "headline": "Karen Dejo comenta sentirse renovada después de su viaje a Cancún...",
+        "content": "\"Estoy muy bien, tranquila, feliz y disfrutando del verano. He regresado renovada de mi viaje y alistando todo para irme a la playa por unos días\", contó Karen Dejo."
+    },
+    {
+        "headline": "'Clavito' Muñoz quiere un matrimonio al estilo huancayo...",
+        "content": "\"Los planes de matrimonio con Andrea siguen en pie. Habíamos decidido casarnos el año pasado, pero debido al embarazo se pospuso. Este año debe ser sí o sí y estamos pensando que sea un matrimonio al estilo huancayo. Vivo aquí desde hace más de dos décadas y adoro sus tradiciones y costumbres.", afirmó 'Clavito.'
+    },
+    {
+        "headline": "Genesis Tapia emocionada por reunirse con compañeras de Alma Bella...",
+        "content": "\"Me invitaron y yo, feliz. Después de muchos años vuelvo a ponerme plumas y lentejuelas\", declaró Genesis Tapia. También menciona que inaugurará su centro deportivo Fetame: «Formaremos deportistas desde niños. Contaremos con profesores y entrenadores». "
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided criteria while ensuring proper cleanup according to specified rules. Articles were identified through distinct headings followed by relevant textual bodies. Any unclear data was marked appropriately using `"NA"` where necessary.
+
+--- ERROR ENTRY: data/txt/trome/2019/01/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "Destaco con Pase-Gol en Vallecano, que gan 4–2 al Celtic",
+        "content": "Madrid.— Este ‘Rayo’ cargó electricidad, energía y anticipó el triunfo. Luis Advíncular repartiéndole bolígrafo a\n\nts compañeros y señaló al delantero Radamel Falcao para sentenciar el 4–2 del \nVallecano contra Celtá de Vigo."
+    },
+    {
+        "headline": "Curiosa apuesta en Rally Dakar",
+        "content": "> Misma película, pero no son Demi Moore con Robert Redford.\nLa heptacampeona del Dakar en motos (categoría mujeres), Laia Sanz,\nel lanzó una peculiar apuesta a su copropietario de equipo Toby Price.\nLa española le dijo al australiano que si ella quedaba entre los 15 primeros pilotos,\néstería el cabello. Price aceptó con la condición de que si él terminaba en el top 5;\nela besaría durante cinco segundos. Ayer cuatro peruanos abandonaron la carrera,"
+    },
+    {
+        "headline": "Claudio Pizarro hizo labor solidaria en Pretemporada",
+        "content": "Pretoria.— Golpes con corazón. Claudio Pizarro encabezó la comitiva del Werder Bremen que visitó el centro\nAmans Fund Hub, en Sudáfrica, y se reunió con niños y jóvenes que crecieron en condiciones difíciles,”Este será un día inviable tanto para los niños como para nosotros”, dijo ’el Bombardeo’, quién jugó unos minutos en el empate 2–2 ante Bidvest Wits, en un amistoso."
+    },
+    {
+        "headline": "UEFA lanzó millonario Once del 2018",
+        "content": "* Messi y Cristiano Ronaldo son parte de la ofensiva que completa el joven Kylian Mbappe (PSG)\ny dónde está ausente el brasileño Neymar. El equipo lo completan:\n Ter Stegen (Barcelona);\nRamos (Real Madrid), Van Dijk (Liverpool), Varane (Real Madrid)y Marcelo (Real Madrid);\nKanté (Chelsea), Modric (Real Madrid) y Hazard (Chelsea)"
+    },
+    {
+        "headline": "'Maxi' López confeso que su ex esposa llama cuando Mauro Icardi esta concentrado con Inter de Milán",
+        "content": "Buenos Aires.— Si una vez fue partido, ahora les toca repartir. El delantero argentino Maxi López hizo explotar una bomba al confirmar que su expareja y madrecés de sus hijos, Wanda Nara, tiene actitud celosa hacia su actual pareja, Mauro Icardi.”
+    },
+    {
+        "headline": "Rolando Chilavért dio su descargo",
+        "content": "Contraataque. Tras ser acusado de drogarse (junto a su hijo) y casi violar a una mujer en Ucrania, el técnico paraguayo Rolando Chilavert –quiendirigió a varios equipos en Perú-, ofreció su versión,"nos secuestró una mafia que quería lavar dinero hasta utilizar nuestros vehículos para transportar drogas. Nos obligaron a pagar las cuentas y querían que estuviéramos con prostitutas. Si no hubiésemos escapado, nos iban a matar a balazos.”"
+    },
+    {
+        "headline": "Marcelo Tinelli dará su opinión futbolística desde Arabia Saudita",
+        "content": "Atención jeques, comprad este equipo. La UEFA dio a conocer el once ideal del 2018 elegido por sus aficionados mediante una votación. Messideportivo para la cadena catarí 'Bein Sports’. Mou’analizará, el 17 de enero, el duelo entre Qatar y Arabia Saudita por la Copa Árabes y dos días después comentará el enfrentamiento entre Real Madrid y Barcelona."
+    },
+    {
+        "headline": "‘La Pínfila’: Mara Victoria Santana, más conocida como ‘La Pinchada', vuelve a la televisión",
+        "content": "\"Para ellas\". Entrevista exclusiva a María Victoria Santana, también conocida como \"La Pinchada\", protagonizando nuevamente la pantalla chica interpretando a Flower, una empleada doméstica en la serie 'Los Vilches'"
+    },
+    {
+        "headline": "Karla Tarazona coincide con Christian Domínguez",
+        "content": "Karla Tarazona compartió espacio con Christian Domínguez en una reunión social sin saber que ambos estarían presentes. Ambos negaron haber interactuado directamente."
+    },
+    {
+        "headline": "Milett Figueroa aclara relación con Jason Day",
+        "content": "Milett Figueroa reiteró que la relación existente entre ella y el actor estadounidense Jason Day es meramente amical y enfatizó que actualmente está centrada en su desarrollo profesional dentro de la música y actuación."
+    }
+]
+```

@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/08/peru21_21.txt ---
+
+```json
+[
+    {
+        "headline": "\"PICOS Y PLAZAS\": AUTORIZACIONES Y CAMINO 42",
+        "content": "PA ESTÁ EL FUTURO DE\nLA UNIÓN Y LA UPCH EN MANOS DE LA FISCAL SUSPENDIDA:\n\"DE CHAVARY\"\n'Se puede determinar que existe una organización que viene actuando con varias ramificaciones'.\nFiscal Jesús Fernández.\nTestimonio ante el juicio especial que indaga a Los Cuellos Blancos."
+    },
+    {
+        "headline": "Los Cuellos Blancos del Puerto",
+        "content": "'Tuvinieron \"hermanitos\" en todo el país'\nFabiola Valle Mendez\n[fvalle@peru21.com]\nThe criminal organization known as Los Cuellos Blancos del Puerto not only operated in Lima but expanded its reach nationwide thanks to declarations made by former President of the Court of Appeals for Callao, Walter Ross. We now know who were part of the network...\nAfter forming a special team exclusively tasked with investigating said group, investigations involving 41 judges and prosecutors have been transferred to this unit. Peru21 has learned that out of these individuals, 22 hail from Callao, three from Ventanilla, two from Tacna, one each from Tumbes and Lambayeque, eight involved in organized crime, and four anti-corruption prosecutors. An insider source within the Public Ministry explained that these magistrates faced investigation due to their issuance of biased rulings benefiting litigators... However, inquiries conducted across regions lacked crucial information regarding the origins of such favors. Most of these judges and prosecutors served directly under former Supreme Judge Caesar Hinostroza and incarcerated former judge supreme Walter Ross. According to hypotheses proposed by the Special Team against Los Cuellos Blancos, heads of the criminal organization recruited corrupt lower-ranking officials throughout various regions to manipulate verdicts and appointments in exchange for money and other benefits. This operation ran parallelly supported by external operators."
+    },
+    {
+        "headline": "POLÍTICA",
+        "content": '"¡VOCEO O NO VOCEO!" LIBERALIDAD ACERCA DEL ANTEPROYECTO DE ADELANTO ELECTORAL\nNO SE DISCUSIONÓ PETICIÒN PARA DECLARARSE EN SESIÓN PERMANENTE | ASISTENTES\nBartra posterga discusiones sobre elecciones\nMiembros del Partido Popular Cristiano, Acción Popular, Alianza para el Progreso y Unidos por la República mostraron interés en debatir antes de proceder a la aprobación inicial prevista para principios del próximo mes. Como había anticipado anteriormente este medio, el debate respecto al proyecto gubernamental para adelantar las elecciones hacia 2020 no será considerado hasta la primera semana de septiembre. ¿Por qué? La Comisión de Constitución no celebrará sesión durante la próxima semana parlamentaria que comenzará mañana. La reelecta presidenta del grupo, Rosa Datángalo (Partido Morado), indicó que aún falta establecer el programa de trabajo necesario para evaluar el tema, dado que actualmente está pendiente la formación oficial de las comisiones. Sin embargo, posteriormente precisó que tal situación no ocurrió debido a que tales reuniones están programadas después de constituir formalmente las respectivas comisiones."
+    },
+    {
+        "headline": "JUEZ NEZZ EVALÚA PRONTO ARGUMENTACIÓN FISCAL PARA RESOLVER POSIBILIDADES LEGALES",
+        "content": "Suspension of Chavarria rests upon decisions taken today during public hearings where arguments presented by both sides could lead to further investigative actions being initiated. Despite claims by Chavarría about removing certain investigators based on disobedience towards his authority, it was later revealed through recordings between him and others discussing potential promotions which contradicted earlier statements. These developments suggest possible motives behind personnel changes aimed at influencing ongoing legal proceedings related to corruption cases linked to political figures."
+    },
+    {
+        "headline": "MEJORANDO LAS RELACIONES INTERESTATALES",
+        "content": "The Vice-President's remarks highlight efforts toward fostering better international relations amidst domestic challenges. By emphasizing dialogue over confrontation, there’s hope expressed for collaborative progress despite existing tensions among different governmental branches. Such initiatives aim to create shared agendas focusing primarily on national development goals rather than partisan interests."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text while adhering strictly to the specified format requirements. It includes headlines and corresponding contents derived from coherent sections identified within the input data. Any unclear segments default to placeholders like `"NA"` according to guidelines given.

@@ -1,0 +1,84 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/11/elcomercio_24.txt ---
+
+```json
+[
+    {
+        "headline": "Messi lleva al Barcelona a octavos de Champions League",
+        "content": "NA"
+    },
+    {
+        "headline": "Movida inmobiliaria: Humala transfiere departamento en Miraflores a su hija",
+        "content": "Dos meses después de abandonar Palacio de Gobierno, el ex presidente transfirió un departamento junto a un estacionamiento que eran de su propiedad en la Av. Armendriz, en Miraflores. Esto formó parte de un anticipo de herencia que realizó Ollanta Humala el pasado 16 de septiembre, a favor de su hija mayor."
+    },
+    {
+        "headline": "Sepres Apoya a Saavedra no frena interpelación",
+        "content": "\"Él explicará bien las cosas, no lo dudo. Tengo total confianza en él\", enfatizó Pedro Pablo Kuczynski refiriéndose a Saavedra. \"La motivación de esta moción son los presuntos actos de corrupción y la ineptitud del señor Saavedra\".", Daniel Salaverry, Vocero de Fuerza Popular."
+    },
+    {
+        "headline": "Función y organización de la FAO",
+        "content": "La FAO está compuesta por 194 países miembros, emplea a 1738 profesionales y personal de apoyo sumando 1510 colaboradores. Tiene sedes principales en Roma y oficinas adicionales en 130 países, además de cinco oficinas regionales, diez sub-regionales y cinco oficinas de enlace, siendo una de ellas en Ginebra, Suiza, donde trabajará Nadine Heredia."
+    },
+    {
+        "headline": "Un viaje anticipado",
+        "content": "Nadine Heredia aceptó el puesto de Directora de la Oficina de Enlace de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) en Ginebra, Suiza, a pesar de que aún no había resolución del juez sobre su permiso para cambiar de domicilio. Ella partió hacia Europa antes de conocer dicha determinación."
+    },
+    {
+        "headline": "LAS MOVIDAS INMOBILIARIAS DE OLLANTA HUMALA",
+        "content": "Transcurridos unos meses luego de salir de Palacio de Gobierno, el expresidente Ollanta Humala transfirió un departamento y un estacionamiento en Miraflores a su hija mediante un documento público. Estos bienes fueron valorizados económicamente según registros públicos disponibles."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on contextually significant information related to each topic mentioned within the input data.
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/11/elcomercio_24.txt ---
+
+```json
+[
+    {
+        "headline": "Análisis económico global",
+        "content": "Ar, est el gran estímulo fiscal anunciado. Si bien aún no se tienen muchos certezas sobre los detalles, sí se espera que sea masivo, y ello podría generar un importante impulso en la economía de EE.UU., que en el corto plazo será positivo. Por ello, los precios de algunos metales industriales, como el cobre, ya han experimentado fuertes subidas.\n\nEn segundo lugar está la posición respecto a la revisión de tratados comerciales y políticas proteccionistas. Ambos elementos podrían generar un aumento de la inflación tanto por el lado de la demanda como por el de los costos. Ante esto, como contrapeso para contener la inflación, se puede esperar una política monetaria más restrictiva, con una consiguiente apreciación del dólar."
+    },
+    {
+        "headline": "Posibles cambios en la Fed",
+        "content": "En este contexto es prácticamente seguro que 'La FED subirá su tasa de interés por segunda vez en 8 años en su reunión de diciembre, y además pudiera continuar el próximo año con subsiguientes subidas hasta llevar la tasa de corto plazo a cerca del 2%\'.\n\nEntonces, lo que estamos observando es una recomposición de los rendimientos esperados para diferentes clases de activos. En un periodo de crecimiento con un nivel de inflación más alta y con un dólar más fuerte, la renta variable deberá tener un mejor desempeño que la renta fija. Por el lado de renta variable, el mercado más beneficiado es EE.UU., donde estaría el foco de crecimiento, mientras que la situación no seria la misma para mercados emergentes, que además de verse perjudicados por un dólar más fuerte también podrían enfrentarse a restricciones en el comercio exterior. Por el lado de la renta fija, el daño vendrá principalmente por el ciclo alcista de las tasas de interés."
+    },
+    {
+        "headline": "Impacto del cambio presidencial en Estados Unidos",
+        "content": "Yaël Rojas/Javier Penny Gerente General de Renta 4 SAB Tras las repetitivas rupturas de máximos históricos de los índices estadounidenses, la baja de los precios del oro por debajo de los US$1.200 y el rally del dólar, cabe reflexionar sobre los catalizadores del efecto Trump en los mercados bursetiles. En primera, la psicológica ‘bullish’ del mercado implica que los inversores creen que las propuestas económicas de Trump traerán mayor crecimiento, inflación y por tanto, un escenario de mayores tasas de interés, dejando de lado los efectos colaterales que estas propuestas implican. Por otra parte, queda claro que el resultado a corto plazo es positivo para las bolsas; sin embargo, una normalización monetaria en solitario de la FED podría exacerbar la divergencia entre las bolsas y un dólar fuerte perjudicará a las economías emergentes."
+    },
+    {
+        "headline": "SIMPLICACIÓN",
+        "content": "La Sunat puso en línea una aplicación para móviles y PC que permite cancelar deudas notificadas a los contribuyentes que sean usuarios de clave SOL. Esto agilitará 200 mil transacciones por mes."
+    },
+    {
+        "headline": "ENERGÍA",
+        "content": "El Gobierno definirá dónde se invirtió en energías renovables. El Ministerio de Energía y Minería definirá los lugares de inversión para la subasta de energías renovables del 2017, según informó el Viceministro de Energía, Raúl Pérez Reyes."
+    },
+    {
+        "headline": "POLÍTICA MONETARIA",
+        "content": "Se anticipa que la FED elevara las tasas de interés en diciembre próximo, conforme a las últimas minutas divulgadas por el director de la política monetaria de EE.UU."
+    },
+    {
+        "headline": "LA FED PREVIÓ EL ALZADO DE TASAS INTERÉS",
+        "content": "Según reportes, la FED se prepara para aumentar las tasas de interés próximamente, basándose en información proporcionada por autoridades financieras relevantes."
+    },
+    {
+        "headline": "Nuevo liderazgo empresarial",
+        "content": "Felipe Cantuarias es nombrado nuevo Presidente de la Sociedad Peruana de Hidrocarburos (SPH). Ha ocupado roles importantes anteriormente en empresas reconocidas como Backus y Antamina."
+    },
+    {
+        "headline": "Industria agrícola peruana",
+        "content": "\"De 1990 a 2012 la productividad del agro saltó a 4%, una tasa poco igualada en países desarrollados durante los últimos 100 años\". Richard Webb Director del Instituto del Per USMP destaca estos datos significativos."
+    },
+    {
+        "headline": "Expectativa de crecimiento económico",
+        "content": "Se proyecta que México alcanzará un mínimo de alza del Producto Interno Bruto (PIB) del 2% este año, ajustando expectativas previas debido al impacto del Brexit."
+    },
+    {
+        "headline": "EFECTO TRUMP",
+        "content": "Después de varias jornadas récord en los principales índices de Wall Street, junto con la depreciación del oro bajo $1200 y fortaleza del dólar, analistas discuten cómo las medidas de Donald Trump están influenciando los mercados internacionales."
+    }
+]
+```

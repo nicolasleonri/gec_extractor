@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/03/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "Plantear cierta variedad dejando a Fernán detrás de México el viernes",
+        "content": "Los dirigidos por Heimir Hallgrímsson no podrían contar con su capitán, Raúl Ruidíaz, debido a la expulsión del viernes."
+    },
+    {
+        "headline": "Holanda golea 3–0 a Portugal en encuentro amistoso en Ginebra",
+        "content": "Durante la jornada de hoy, la nueva Holanda dirigida por Ronald Koeman infligi ayer un duro golpe a la actual campeona de Europa, Portugal, al derrotarla por un contundente 3–0 en partido amistoso disputado en Suiza. Una joven ‘Naranja Mecánica’ sentenció el partido en el primer tiempo, con goles de Memphis Depay (12"), Daley Blind (45'), y Virgil van Djik (48')."
+    },
+    {
+        "headline": "Messi será titular hoy cuando Argentina visite a España en Madrid",
+        "content": "La Pulga volverá a vestir la '10' de la selección argentina cuando enfrente en el Wanda Metropolitano a España, país donde reside desde los 13 años. Lionel Messi superó la fatiga muscular que lo había marginado del amistoso contra Italia el viernes anterior."
+    },
+    {
+        "headline": "Lewis Hamilton anticipa carrera intensa con Ferrari en Bahrein",
+        "content": "Tras no haber comenzado como esperaba, Lewis Hamilton reconoce que no será fácil mantener el ritmo frente a Sebastian Vettel y compañía de Ferrari durante la próxima competición en Bahrein."
+    },
+    {
+        "headline": "Selección Peruana de Media Maratón ocupa octavo lugar mundial",
+        "content": "Con destacadas marcas personales, Gladyz Tejeda, Inés Melchor y Luz Mary Rojas representaron dignamente a nuestra delegación obteniendo posiciones respetables en el evento celebrado en España."
+    },
+    {
+        "headline": "Piérdete entre historias de amor y risas con Stand Up Comedy",
+        "content": "Este sábado disfruta de un espectacular show de stand up comedy junto a grandes nombres del género, prometiendote horas llenas de diversión y reflexión personal."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on recognizable patterns within the provided OCR data while adhering strictly to the defined scope and goal for extracting relevant journalistic content. Any missing information has been marked appropriately according to guidelines.

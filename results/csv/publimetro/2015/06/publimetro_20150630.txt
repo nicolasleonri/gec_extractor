@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2015/06/publimetro_30.txt ---
+
+```json
+[
+    {
+        "headline": "EL CONCURSO DE RIHANNA YA TIENE A SU GANADORA",
+        "content": "Te Presentamos el collage que vale un Viaje para Ver a ‘’Riri’.mos >\nl a\nIMA Martes 30 de Junio del 2015 ei i /publimetrope erublimetrope\nCaso Chávez de Honduras no Involucra a Comandos.\nCorte Interamericana de Derechos Humanos Dicta Sentencia Desde Costa Rica. Establece Que el Estado Peruano Tiene “Responsabilidad Parcial” \npor Presuntas Ejecuciones Extrajudiciales a Terroristas Del MRTA. Deber Pagar $30 Mil Dolares Por Gastos Judiciales Y Reabrír La Investigación Por Muerte Del Emerrérista Eduardo Cruz Titoe". Se Confirma Que Comandos Que Participaron En Rescate De Rehenes Están Libres De Responsabilidad."
+    },
+    {
+        "headline": "Hoy expordrá por partida doble en Lima Su Mensaje Por La Espiritualidad y La Meditación.",
+        "content": "En Las Últimas Decenas,\nel Gur Indio Sri Sri Ravi Shankar Ha Dedicado Su Vida A Difundir La Espiritualidad y La Meditación Por El Mundo.\nA Través De Sus Técnicas Ha Ayudado A Poblaciones En Zonas De Conflicto Como Kosovo, Iraq, Israel y Sri Lanka.\nAdemás, Ha Sido Nombrado Cinco Veces Al Premio Noble De La Paz Y Es Considerado Uno De Los Oradores Más Importantes De Este Siglo Por La UNESCO.\nHoy, Este Líder Espiritual Está En El Perú. A Las Diez AM Ser Recepcionado En El Congreso Por La Presidenta Del Legislativo, Ana María Solís Romero, Y Allí Dirigirá La Charla * Una Voz Por La Paz*. Por La Noche, A Las Sieben Treinta PM Dará Una Charla Ante Cuatro Miles Personas En El Anfiteatro Del Parque De La Expoición."
+    },
+    {
+        "headline": "“LOS PASES INVIRTEN MUCHO EN ARMAS, PERO NO APUESTAN POR LA PAZ”",
+        "content": "Según La Organización Mundial De La Salud, Cada Cuarenta Segundos Una Persona Se Suicida En El Mundo, ¿Qué Responden Estas Cifrás?\nEsto Se Debe A Falta De Fortaleza Espiritual. La Practica De Correcta Respiración Genera Gran Diferencia En cuanto Al índice De Casías Suicidas, Solo Necesitamos Minutos De Meditación Para Conectarnos Con Nosotros Misomos Y Con La Sociedad. Trabajando Construcción De Espíritu Fuerte Es Meta Para Lograr Armonía."
+    },
+    {
+        "headline": "Actitud Actualizada",
+        "content": "La Mesa Directiva. Martin Belaunde Postularía A La Presidencia Del Congreso.\nEl Congresista Martín Belaunde Moreyra Confirmó Precandidatura A La Presidencia Del Congreso. Annuncia Que Se Reunirá \"Con Todas Las Fuerzas Políticas Del Legislatur\" Para Obtener Apoyo."
+    },
+    {
+        "headline": "Compras Ventas Dow Jones –1,95%",
+        "content": "Dolar S/ 31.71 S/ 31.73\nEuro S/.3.440 S/.3.682 +0,73%\n¿Cómo Financia Campañas Eleccionarias?"
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies. Non-article sections such as ads, financial data unrelated directly to journalism, etc., have been excluded according to specified criteria.

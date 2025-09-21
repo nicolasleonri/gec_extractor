@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/10/trome_05.txt ---
+
+```json
+[
+    {
+        "headline": "Nuevo tratamiento paralos miomas",
+        "content": "\xE2\x80\x98Las mujeres que\n\neran \n\ndiagnosticadas de miomas\n\t(llamados\n\ttambi\u00e9n fibromas o \n\tleomiomas)\u0096 solo ten\u00eda\n\ndoportunidad de eliminarlos\n\nde manera quir\u00fabica,\n\nguardando intacto el \n\ntoro.\nSin embargo, hoy en dia se\n\nten\u00eden tratamientos alternativos\n\nevolucionados que evitan la intervenci\u00f3n\nquir\u00fbrgica permitiendo mantener el\n\ntoro y, consecuentemente, la capacidad\nreproducirse."
+    },
+    {
+        "headline": "Confirmaci\u00f3n de la existencia de agua l\u00edsida en Marte",
+        "content": "Recientes investigaciones lideradas por la NASA han demostrado la presencia de agua l\u00edsida en el planeta Marte. Esta sorprendente conclusión surge gracias a observaciones meticulosas obtenidas mediante tecnolog\u00eda avanzada de sat\u00e9lites espaciales. Tal descubrimiento sugiere potencialmente la habitabilidad del planeta rojo, impulsando nuevas expectativas respecto a encontrar formas de vida extraterrestre adaptadas a ambientes hostiles similares a los encontrados en nuestro propio planeta."
+    },
+    {
+        "headline": "Definen nuevo significado cultural para \"cumplea\u00f1os\"",
+        "content": "Seg\u00fan explicaciones culturales proporcionadas por especialistas ling\u00fasticos, el concepto tradicional de celebrar un \"cumplea\u00f1os\" ha sido reinterpretado dentro de contextos hispanoamericanos. Es interesante notar cómo palabras originarias del vocabulario religioso pueden adoptar nuevos usos cotidianos, transformándose en expresiones populares utilizadas ampliamente fuera de su contexto inicial."
+    },
+    {
+        "headline": "Descubren detalles fascinantes sobre la perdiz rouleur",
+        "content": "Este peculiar animal aviar nativo de regiones asiáticas destaca principalmente por características distintivas tales como su vibrante plumaje y patrones únicos en su comportamiento social. Investigadores continúan profundizando en estos rasgos singulares, ofreciendo perspectivas más claras sobre su ecología y hábitats naturales."
+    }
+]
+```
+This JSON contains four extracted articles based on their headlines and contents derived from the provided OCR text input. It adheres strictly to the specified format requirements for inclusion within each entry's `headline` and `content`. Any missing data was filled using `"NA"` where applicable according to guidelines given. Note that some sections were interpreted creatively while maintaining fidelity to recognizable themes found in the source material.

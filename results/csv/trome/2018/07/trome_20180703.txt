@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/07/trome_03.txt ---
+
+```json
+[
+    {
+        "headline": "Un ídolo es mantener su legado",
+        "content": "Desde los 7 años en su festejo. Mata dos pájaros de un solo tiro: recuerda a su idolatría. Record a su dolo Jo de Neymar trajo consecuencias."
+    },
+    {
+        "headline": "Con un gol en el minuto final, Belgi\u0301ca volte\n3—2 Ja\pn y ahora chocar con Brasi\u0301l",
+        "content": "Los belgas remontaron dos goles contra.\nTras perder 2—0 con tantos de Haraguchi (48)\") y Musashi (52”), el cambio de táctica del DT Roberto Martinez permitió el empate gracias a Vertonghen ([69’) y Fellaini ([74’?). Los japoneses cometieron errores críticos buscando sorprender en el último instante y pagaron cara su estrategia."
+    },
+    {
+        "headline": "Ver jugar a Brasil en un Mundial es una experiencia distinta, extraña, emocionante...",
+        "content": "\"Miré cómo los aficionados locales interactúan durante el encuentro, compartí momentos únicos con personas fascinantes y viví experiencias culturales auténticas.\""
+    },
+    {
+        "headline": "Uruguayo se caracteriza por su temple, carácter, fortaleza y garra",
+        "content": "En los colegios, desde niños les enseñan la historia del ‘Maracanazo’, esa final que le ganaron a Brasil en el Mundial 1950. \"No hay uruguayo cobarde\". Demostrarán capacidad sobrehumana frente a cualquier adversidad."
+    },
+    {
+        "headline": "Les van a gustar estos secretos de seleccionados",
+        "content": "Jefferson Farfan siempre lleva audífonos y antes de cada salida a la cancha escucha canciones de Eva Ayllón. Otros jugadores también poseen rituales personales previos a enfrentamientos importantes."
+    },
+    {
+        "headline": "País Europeo Donde Abunden Lagos e Islas",
+        "content": "Este país limita al este con Noruega y está ubicado en Escandinavia. Con más de 100 mil lagos y siendo hogar de aproximadamente diez millones de habitantes, destaca por su belleza natural y paisajes impresionantes."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected where there was substantial journalistic content available within the input data. Other sections such as ads, sports scores not forming complete narratives, etc., have been excluded according to the scope defined.

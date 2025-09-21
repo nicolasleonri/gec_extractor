@@ -1,0 +1,84 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2019/04/publimetro_22.txt ---
+
+```json
+[
+    {
+        "headline": "¿Ir a esa ola?",
+        "content": "No. Y es un discurso\n\ncorto válido decir que sí.\nSi no se está en ella,\none va a desaparecer. \nSi uno mira al mercado anglo,\nhay mucho más que lo urbano,\ny esa diversidad enriquece a la música. \nEn otras latitudes, ya nadie se\npreocupa por encasillarse en un género. \nEsa práctica de ponerle etiquetas a la\nmusica creo que es más un rollo latino."
+    },
+    {
+        "headline": "Cómo ver Perú21TV",
+        "* Por el momento, se encuentre alojado en el home de la web de Peru21 (peru21.pe/peru21tv).\n* También se puede ver en una cuenta de YouTube (www.youtube.com/user/Peru21TV), que ya tiene más de 17.000 suscriptores.\n* Actualmente cuenta con las secciones 21Noticias, La Voz del 21, Deportes21, Dinero con Sentido, Informes 21 y Especiales 21.\nPerrTV también, hace transmisiones en vivo desde el fanpage de Peru21 y su Twitter,"
+    },
+    {
+        "headline": "Por qué elegir Perú21TV como alternativa informativa?",
+        "\"Hoy en día la gente esta buscando criterio periodístico. Cuando internet abrió estos espacios para todos, todos pensaban que eran periodistas y que podían hacer, deshacer y acusar sin pruebas. Ahora quienes buscan informarse saben que para obtener información contrastada y rigurosa, deben recurrir a un medio serio, que ponga la cara y responda por lo que publica. El criterio periodístico, de los buenos periodistas, no morirá, solo encuentra nuevas formas de expresarse\"."
+    },
+    {
+        "headline": "Teorias populares de Game Of Thrones",
+        "- **Bran es el Rey de la Noche**: Esta es una de las teorias mas descabelladas, pero que mas entusiasma a los fanaticos. Se dice que en sus intentos por salvar a la humanidad, durante uno de sus viajes en el tiempo, Bran qued atrapado en el cuerpo del propio Rey de la Noche.\n- **Jon gobierna por Daenerys**: Una practica comun en los autores de GOT es desechar al personaje que mas apoyo tiene. As, Daenerys es la candidata perfecta a morir en la Gran Guerra. Y Jon, al ser hijo de Rhaegar Targaryen, tiene derecho al trono."
+    },
+    {
+        "headline": "Opinin de Katherine Ampuero sobre Lava Jato",
+        "**Considereo** que no va a ser afectada, siempre y cuando, la Fiscalía y el poder judicial hagan respetar su autonomía e independencia, reconocidas por la constitución. \"Sin embargo, parece que cuando toca a los amigos o a determinadas personas ya no es igual.\""
+    }
+]
+```
+This extraction captures several distinct pieces of journalism within the provided input while adhering strictly to the defined scope and heuristics for identifying headlines and contents. Articles were segmented based on changes in topics and presence of potential headings followed by relevant bodies of text. Unrelated sections such as trivia questions, daily forecasts, etc., have been excluded according to guidelines.
+
+--- ERROR ENTRY: data/txt/publimetro/2019/04/publimetro_22.txt ---
+
+```json
+[
+    {
+        "headline": "Atentados más sangrientos desde 2009",
+        "content": "Dichos atentados son catalogados \u201cd\u201d los ms sangrientos\u201d desde el 2009, ao en que termin la guerra civil en Sri Lanka. Este conflicto tnico-religioso enfrent a la mayora budista y a la minorita hind tamilar por 26 aos, dejando ms de 40.000 muertos.\n\nAguaas visit ayer esta ciudad, donde la violencia y la inseguridad siguen en aumento. \"En poco ms de 140 das de gobien\ngobierno de Cuitlhuac García en Meracruz se han registrado 730 asesinatos; de los cuales, 30 son feminicidios. Además,\n166 secuestros, Y de enero a marzo se consumaron 468 homicidios. Por favor, que alguien haga algo\", reclam el periodista Alejandro Aguierre."
+    },
+    {
+        "headline": "Ucrania elige a comediante como su nuevo presidente",
+        "content": "\nSegún sondeos a boca de urna, el comediante Volodymyr Zelenski, de 41 años, obtuvo ayer el 73.2% de los votos en la segunda vuelta de las elecciones presidenciales de Ucrania. Se trata de una abrumadora victoria ante su contendiente, el presidente saliente Petro Poroshenko, que pagó el precio por la aguda – crisi económica que azota el país y el “y Miguel Velázquez\n\nZelenski es el protagonista de una serie muy popular en Ucrania, Servidor del Pueblo, en la cual interpreta precisamente a un presidente de su país. Como aún no soy oficialmente presidente, me dirijo – como – ciudadano ucraniano a todos los ses post-soviéticos, nosotros, todo es posible. Gracias a Dios! Prometo que no les fallará.”
+    },
+    {
+        "headline": "ESTUDIO CIENTÍFICO CONFIRMA QUE LAS VACUNAS NO PREVENEN LAS ENFERMEDADES",
+        "content": "NO CREAS EN TODO LO QUE DICEN. FIJA TE LA INFORMACIÓN, PERO TAMBIÉN EN QUÉ QUIEN TE DA. Felizmente existen estudios científicos que demuestran cómo funcionan efectivamente las vacunas contra diversas enfermedades."
+    },
+    {
+        "headline": "SON NECESSARIAS LAS CLASES PARTICULARES?",
+        "content": "SI UN ESTUDIANTE FRENTA DIFICULTADES EN SU RENDIMIENTO ESCOLAR, PUEDA SER BUENA IDEA CONTRATAR UN TUTOR. Pero ojo: Esta decisión debe considerarse temporal, mientras el alumno mejore su situación educativa."
+    },
+    {
+        "headline": "LINKEDIN: ELABORA UN PERFIL EXITOSO",
+        "content": "Tu perfil LinkedIn debe incluir una fotografía adecuada, información precisa y palabras claves relevantes. Interactúa regularmente publicando contenidos relacionados con tu área de interés para incrementar las vistas a tu perfil."
+    },
+    {
+        "headline": "GOL DE TAIPA EN WILLELM II",
+        "content": "Renato Taipa celebra su primer gol en Willem II durante la fecha 31 de la Eredivisie de Holanda, contribuyendo así al empate de su equipo en su visita a Excelsior."
+    },
+    {
+        "headline": "UNIVERSITARIO SE IMPONE SOBERANO ANTE LOS ROJINEGROS",
+        "content": "Universitario consigue su segunda victoria consecutiva al golear 4–0 a Sport Boys en la décima jornada del torneo Apertura, consolidándose en la tercera posición de la clasificación."
+    },
+    {
+        "headline": "MARCHE PERUANA DOMINA COPA PANAMEÑICA",
+        "content": "Selección femenina de marcha atlética del Perú conquistó la copa panameña en México, destacando Kimberley García quien además califica a los próximos juegos olímpicos de Tokyo 2020."
+    },
+    {
+        "headline": "FOGNINI TRIUNFA EN MASTER'S TENIS MONTECARLO",
+        "content": "El tenista italiano Fabio Fognini se adjudicó el título del Master's Tennis Monte Carlo después de superar al serbio Dušan Lajović, alcanzando su primera victoria en un master’s."
+    },
+    {
+        "headline": "VI FESTIVAL DE LA CULTURA NIKEI",
+        "content": "Desde hoy arranca la sexta edición del festival organizado por la asociación Peruano-Japonesa, ofreciendo charlas, exposiciones culturales y música tradicional japonesa."
+    },
+    {
+        "headline": "TONY SUCCR REGRESA A LIMA CON CAMILA",
+        "content": "El músico Tony Sucré regresa a Lima presentando un espectáculo conjunto con la banda argentina Camila, fusionando ambos repertorios musicales en un único show."
+    },
+    {
+        "headline": "PER21TV LANZA PLATAFORMA DIGITAL",
+        "content": "Per21 introduce Per21TV, una innovadora plataforma de noticias digitales diseñada para adaptarse a las preferencias modernas de consumo de información, disponible online."
+    }
+]
+```

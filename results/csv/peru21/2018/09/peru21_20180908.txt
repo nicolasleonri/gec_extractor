@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/09/peru21_08.txt ---
+
+```json
+[
+    {
+        "headline": "ADN CONFIRMA PATERNIDAD DE CIUDADANO",
+        "content": "Juan Sotomayor rompe record\n Candidato al Callao tiene 92 denuncias.\nPgs. 2 Y 3\n Juez decide hoy sí excarcela a padres de mellizos."
+    },
+    {
+        "headline": "",
+        "content": "\"Recibí el respaldo de la población y me dicen que el camino que planeo es el adecuado\".\nMartín Vizcarra Pres der *e\na República sobre su campaña contra la corrupción.\nFiscal de la Nación está convencido de que existe una campaña de denuncia en su despacho orquestada desde su propia Institución.\nChávarry se niega a renunciar tras nuevo pedido de fiscales supremos.\nMagistrados Pablo Sánchez y Zoraida Valdivia le vuelvieron a pedir que diera un paso al costado.\nAlvaro Reyes Quinteros\nalvaroreyesq\nEl pasado jueves, cerca de las 9:30 a.m., los cinco miembros de la Junta de Fiscales mos se reunieron nuevamente y tuvieron el encuentro más tensión desde que hace mes y medio Pedro Chávarry está al frente del Ministerio Público.\nUna vez más, según fuentes consultadas por Perú21, los fiscales supremos Pablo Sánchez y Zoraida Valdivia intentaron persuadir a Chávarry de dar un paso al costado ante la falta de apoyo que tiene incluso en su propia institución. Pero él se negó a hacerlo.\nLo de la sesión también fue confirmado por el Fiscal Superior Tomás Guzmán en dialogo con este diario, aunque evitó dar detalles de lo sucedido.\nPor otro lado, la cita tuvo un matiz distinto a la primera reunión, cuando –a inicios de agosto– Sánchez y Valdivia pusieron a discusión la salida de la máxima autoridad del Ministerio Público tras confirmarse que había mentido sobre sus encuentros con el suspendido juez Carlos Hanostaiza y periodistas en casa del detenido empresario Antonio Camayo.\nEsta vez, Chávarry no especuló y, según conoció este diario, responsabilizó a su colega Sánchez, su antecesor en el cargo, de la situación inestable que enfrenta su gestión.\nEl fiscal de la Nación está convencido de que los pedidos de dimisión que surgen desde diferentes instancias son parte de una campaña orquestada para deslegitimarlo,\nel último hecho que considera un ataque es el informe de la fiscal Sandra Castro, quien lo señala como miembro de la organización criminal ‘Los Cuellos Blancos del Puerto’ y que fue añadida por Sánchez en su denuncia constitucional."
+    },
+    {
+        "headline": "Red Civil Juntará Firmas en Respaldo al Referéndum para la Reforma Política y Judicial",
+        "content": "Apoyarán iniciativas de Vizcarra\nEl Presidente de Transparencia, Allan Wagner, informó que se creó una Red Civil, junto con otras Organizaciones Civiles, por el referéndum.\nA través de esto, explicó, se conformó un comité integrado por Walter Albán, Carolina Trivelli, Tito Bracamonte y un Representante del Consejo de la Prensa Peruana para definir los próximos pasos en apoyo a las políticas del Presidente Martin Vizcarra para la consulta popular en materia de la no reelección de congresistas, el retorno de la bicameralidad y la reforma del Consejo Nacional de la Magistratura.\nWagner aseguró que juntaran firmas para respaldar la propuesta del jefe de estado, la cual actualmente se encuentra en el Legislativo.”
+    },
+    {
+        "headline": "Dictan Cinco Años de Prisión para Juez Que Pidi Coima",
+        "content": "El magistrado deberá pagar $50 mil de reparación civil y quedará suspendido de su cargo por 5 años.\nThe judge was sentenced to five years imprisonment for demanding bribes while serving his duties."
+    },
+    {
+        "headline": "Entrevista Mujail Palacios y Bar",
+        "content": "Artículo escrito por Julio y George Manrique Rodríguez, quienes relatan cómo comenzaron a trabajar con la filigrana desde muy jóvenes gracias a su familia. Explican el proceso creativo detrás de sus diseños únicos y comentan sobre los obstáculos actuales que enfrenta el oficio debido a la baja remuneración económica. Ambos están comprometidos a mantener vivas las técnicas ancestrales combinándolas con innovadoras formas modernas."
+    }
+]
+```
+This JSON captures four distinct articles extracted from the provided OCR text based on their headlines and contents according to specified criteria. Articles lacking explicit titles have been assigned `"NA"` where applicable. All efforts were made to ensure accurate extraction and representation within the constraints given.

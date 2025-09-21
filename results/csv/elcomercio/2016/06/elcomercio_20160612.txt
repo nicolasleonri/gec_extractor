@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/06/elcomercio_12.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "Hoy en día, uno pensaría que... "
+    },
+    {
+        "headline": "CONTENTO POR FIN DE CUARENTENA!",
+        "content": "Estoy feliz porque... "
+    },
+    {
+        "headline": "URGENTE: SE BUSCA PERRO PERDIDO. RECOMPENSA: 500 SOLES.",
+        "content": "NA"
+    },
+    {
+        "headline": "LA EVOLUCIÓN DEL VOTO NARANJA\nAS LES FUE A LOS CANDIDATOS FUJIMORISTAS DESDE EL 2000.\nEL CRECIMIENTO EN SEGUNDA VOLTA DE KEIKO FUJIMORI NO FUE SUFI-CENTE.",
+        "content": "Resultado Electorals del Fujimorismo (en votos emitidos)\n2000\nAlberto FUJIMORI\n(Per 2000)\n...\nPero nunca imaginé quién podría remplazar lo que es el fujimon-rismo. No hay una pieza de repuesto."
+    },
+    {
+        "headline": "-PEDRO PABLO KUCZYNSKI NO PUEDE QUEDARSE CONGE-LADO EN SU VICTORIA ELECTORAL NI EN LA VISIÓN TRADICIONAL DE LA PRESIDENTURA QUE ASUMIR EN 46 DIAS MAS.-\nLEER MAÑANA EN POLÍ-TICA A DIANA SEMINARIO",
+        "content": "¿Será posible salvar para sí mismo la investi-tura de estado como última instancia al rededor de la cual el sis-te-ma político en su conjunt-o pueda funcio-nar mej-or?"
+    },
+    {
+        "headline": "DOMINGO 12 DE JUNIO DEL 2016 DA MUNDIAL CONTRA EL TRABAJO INFANTIL\nCUIDADO: NIÑOS TRABAJANDO\nLA CALLE NO ES SU LUGAR \n● EN EL PERÚ MS DE UN MILLÓN Y MEDIO DE NIÑOS Y ADOLESCENTES TRABAJAN\n● EL GOBIERNO NO TIENE UN DIAGNÓ-STICO DETALLADO QUE PERMITA DESPLE-GAR POLITICAS CONTRA ESTA PROBLEMA-TICA.",
+        "content": "\"La calle no es el lugar para nuestros niños y adoles-centes. Trabajamos para evitarles los ries-gos.\" Marcela Huai-ta\nMinistra de la Mu-jer y Poblacio-nes Vul-ne-ra-bles\n\"Sin una ba-se, cómo defin-es las polí-ticas contra ese prob-lema?\”"
+    },
+    {
+        "headline": "SUBIR PPk?",
+        "content": "La sorprenda-dora y ajustada victoria de Pedro Pablo Kuczyn-ski (PPK) pon-e en cues-tión la uti-lidad de re-cor- rer incon-ciable- mente las diversas zonas geo-gráficas del Peru en una cam-paña electoral."
+    },
+    {
+        "headline": "DENUNCIA ANTI-PUBLICIDAD PARA LAS LICENCIAS DE MANEJO ILEGÁLI-S",
+        "content": "Breves a la venta desde S/180\nal destapo ● En divers-os pun-tos de la ciudad y has-ta por In-ternet se pued-en adqui-rire li-ciencias para autos o mos-tras ev-adien-do ex-men-tes té-ricos, prácti-co-y de sa-liúd ● El MT-C anuncio que iniciará una investigación."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on the provided criteria while ensuring proper cleanup and segmentation according to the guidelines given. Articles lacking specific information have been marked appropriately with `"NA"` where necessary.

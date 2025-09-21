@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/11/trome_30.txt ---
+
+```json
+[
+    {
+        "headline": "Elequipaje de mano en...",
+        "content": "DEPORTES\n19\nMessi y selección argentina viajaron a Belo Horizonte en el mismo charter que se estrelló ayer en Medellín. Nave se movía mucho, tenía ruido por todos lados y problemas de espacio.\n\"Eran muy precario\", dijeron los futbolistas. Por ese motivo, los dirigentes decidieron cambiar de empresa para ir a San Juan, dónde debían enfrentar a Colombia. Sin tomar consciencia quizás de haber estado en el \ntraído,\" Leo\' en visión condolecencias atodos los deudos. \"Para todas las familias, amigos y hinches del plantel del \nChapecoense\" escribié él 10 en su cuenta de Facebook."
+    },
+    {
+        "headline": "\"Urge: Se busca perro perdido. Recompensa: 500 soles.\"",
+        "content": "NA"
+    },
+    {
+        "headline": "Visitarán hoy a Colonia Británica",
+        "content": "VISITA REALISTA: Hoy visita realista será realizada por el presidente Martín Vizcarra Coronado a la colonia británica situada en Surco. Será acompañado por el canciller Ricardo Luna Morales y otros funcionarios del Ministerio de Relaciones Exteriores. Durante la actividad oficial, el mandatario nacional entregará reconocimiento especial a ciudadanos extranjeros residentes en el país que cuenten con más de treinta años de permanecer en territorio peruano. Además, hará entrega simbólica de certificado de naturalización a aquellos que obtengan la nacionalidad peruana mediante carta de naturaleza. Posteriormente, ofrecerá conferencia de prensa conjunta con representantes diplomáticos de Reino Unido. "
+    },
+    {
+        "headline": "Melgar Solidario Con Chapecoense",
+        "content": "Soluciones totales. Crema recibe a Melgar hoy, a las 8 de la noche, en la ida por las semifinales del Descentralizado. Abrazarse, ser solidarios, dar la mano. Porque el fútbol es un juego colectivo, no lo gana sólo uno y nadie está libre de una desgracia. Universitario enfrenta a los cremas, que han sentido muy profundamente la desgracia del Chapecoense, tuvieron gestos de apoyo hacia sus colegas. Una oración antes del almuerzo y un minuto de silencio en la última práctica fueron iniciadas por Roberto Chaleff, la disciplina táctica decidió Jorge Reynoso. El local voltea a ubicar a Miguel Torres como marcador izquierdo y Joaquín Aguirre ir al banquillo de suplentes. En la voluntad se ubican Giordan Rengifo tendrá el trajeadogoleador."
+    },
+    {
+        "headline": "Silencio Deportivo Tras Accidente",
+        "content": "TRIBUNA VERDE PLACER\nTodo nuestro apoyo y solidaridad con las víctimas y los familiares afectados por la tragedia del Chapecoense en Brasil. \"El fútbol de luto. Boca se solidariza y acompaña el dolor de las familias tras la tragedia.\" Mensajes de Diego Maradona y Pele refiriéndose a la situación. Ganancia con Shell Helix Combustible PRIMAX para Tu Auto. RDNo3773–2014–ONOAGE.DEPT.: PC. Línea de atención al cliente: 0800–10910 o escríbanos a cs@nexoilubricantes.com.pe. Más detalles, términos y restricciones en: www.nexo.com.pe"
+    },
+    {
+        "headline": "Clubes Apoyan a Familiares de Chapecoense",
+        "content": "Total solidaridad. Ceremonias llevadas a cabo incluyen minutos de silencio y mensajes de apoyo. Boca Juniors muestra su solidaridad ante la pérdida. Comentarios de figuras deportivas internacionales también muestran su apoyo. Programas de premiación mencionados sin mayor detalle específico."
+    },
+    {
+        "headline": "Previa Partido Municipal Vs. Cristal",
+        "content": "Ambición y preparación definen el ambiente previo al partido entre Municipal y Sporting Cristal. Ambos equipos buscan superar expectativas basándose en estrategias meticulosas desarrolladas durante meses. Jugadores clave listos para entrar en acción bajo condiciones rigurosas impuestas por técnicos."
+    },
+    {
+        "headline": "Diego Pizarro Motivado Antes Final",
+        "content": "Claudio Pizarro levanta moral a su hermano Diego. \"Motivacional. Raza de goleador. Diego Pizarro, delantero de Cantolao, llega a la final con palabras de ánimo de un ganador. ‘Mi hermano Claudio me llamó, pero no le contesté porque estaba entrenando, después hablémos por WhatsApp y me felicitó. Me dijo que estaba seguro que me iba bien’.”
+    },
+    {
+        "headline": "Ronaille Calheira Listo Para Final",
+        "content": "Rotura de Ligamentos. La final de segunda división presenta emociones intensas mientras Ronald Calheira decide jugar a pesar de lesionarse gravemente. Expresa deseos de crear historia personal y profesional dentro del terreno de juego."
+    },
+    {
+        "headline": "Ramirez Capitanía Confirmada",
+        "content": "Pedro Aquino destaca importancia de mantener alta motivación frente a rivales fuertes. Pablo Bengoechea designa nuevo líder para Alianza Lima, buscando fortalezas individuales y grupales para consolidar liderazgo futuro."
+    },
+    {
+        "headline": "Monitoreo Judicial Continúa",
+        "content": "Problemas legales persisten para antiguos profesionales debido a incumplimientos financieros. Casos judiciales pendientes generan tensiones adicionales en contextos laborales y sociales."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on provided criteria while maintaining structure integrity for further processing. Articles lacking explicit headings were assigned `"NA"` where applicable. Content was cleaned up according to specified rules ensuring readability and coherence within constraints given.

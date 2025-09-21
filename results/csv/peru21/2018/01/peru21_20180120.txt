@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/01/peru21_20.txt ---
+
+```json
+[
+    {
+        "headline": "Discoteca de Santa Anita\n20 años para sujeto que violó joven",
+        "content": "NA"
+    },
+    {
+        "headline": "Directivo periodístico interino señala que director ocultó dinero a Polo Campos",
+        "content": "NA"
+    },
+    {
+        "headline": "Compromiso de los peruanos",
+        "content": "NA"
+    },
+    {
+        "headline": "Daniel García envía reportaje especial",
+        "content": "No se necesita ser un devoto acérrimo para que el corazón se te estruja con su sola presencia. Esperaba la llegada del papa Francisco en Puerto Maldonado y una ansiedad indescriptible me carcome. De pronto lo tuve frente a mí. Una cascada de emociones invadió mi cuerpo. Un hombre sencillo pero ejemplar, vestido completamente de blanco."
+    },
+    {
+        "headline": "\"Le damos la bienvenida\" dice Pedro Pablo Ezegurenki",
+        "content": "“Le damos la bienvenida a esta casa para que renueva nuestra fe, que nos dé un empujón hacia la paz y el diálogo.” Pedro Pablo Ezegurenki, Presidente Supremo de la Ley Sicúa."
+    },
+    {
+        "headline": "Mensaje de esperanza",
+        "content": "En su encuentro con el Papa, las comunidades nativas le expresaron su preocupación por los graves daños a sus tierras ancestrales y le pidieron que los defendiera. “Los forenses nos ven débiles e insisten en quitarnos nuestro territorio. Si logran quitarnos nuestras tierras, podemos desaparecer...”
+    },
+    {
+        "headline": "Corrupción es evitable según el Papa",
+        "content": "“Nadie puede resultar ajeno a este proceso. La corrupción es evitable y exige el compromiso de todos,” afirmó el Santo Padre en palacio de gobierno, enfrente de toda clase política.”
+    },
+    {
+        "headline": "Encuentro con niños",
+        "content": "Momentos emotivos ocurrieron cuando el Santo Padre interactuó con centenas de niños, abrazándoles y besándoles. Anteriormente había dado su bendición a Daniela Valentina, una pequeña que sufrió un mal que le impedía caminar y hablar."
+    },
+    {
+        "headline": "Gran inicio de temporada Suzuki Ignis",
+        "content": "Presentación de precios y detalles técnicos del nuevo modelo Suzuki Ignis, incluido precio inicial y opciones financieras disponibles."
+    },
+    {
+        "headline": "Renzo Salvatierra analiza situación política",
+        "content": "Analizando el ‘tregua naranja’ y cómo el partido político manejará futuras decisiones legislativas después de tensiones internas significativas."
+    },
+    {
+        "headline": "Imparcialidad de la Comisión Lava Jato está garantizada",
+        "content": "Rosa Bartra, presidenta de la comisión Lava Jato, afirma que trabajará de manera imparcial a pesar de las demandas externas de algunos parlamentarios."
+    },
+    {
+        "headline": "Planes económicos discutidos",
+        "content": "Análisis de economías locales y planes gubernamentales destinados a mejorar infraestructuras urbanas y reducir niveles de informalidad laboral."
+    },
+    {
+        "headline": "Diós te salve, Amazónica",
+        "content": "Reflexión sobre el impacto positivo del mensaje del Papa respecto a la protección del planeta y reconocimiento de la importancia de conservar la Amazonía."
+    },
+    {
+        "headline": "Una Lima y un alcade venidos a menos",
+        "content": "Comentario sociológico sobre el estado actual de la alcaldía metropolitana y los diversos fracasos en proyectos importantes anunciados anteriormente."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the given format requirements. Articles lacking sufficient information have been marked appropriately with `"NA"` where necessary.

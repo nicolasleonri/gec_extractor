@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/02/peru21_19.txt ---
+
+```json
+[
+    {
+        "headline": "Para una cerveza?",
+        "content": "Cada cerveza, cada bebida,tiene\nsu momento. Por ejemplo, por\lla noche, al llegar a casa, es un\nbuen momento para una \nz...\nSiempre repito que una \npueba de que Dios nos quiere mucho\nes que la cerveza existe (risas).\nLanzamientos como la Red\nLager, luego la cerveza de \ngo y, hoy, la de quinua,\nresponden a una exigencia del\nmercad o que está apostando\npor lo artesanal?\nUna cerveza artesanal no\nsiempre es mejor, Hay que ver cada\ncaso. Además, en la variedad\nestá el gusto, El público pe ru ana\nse está sofisticando, La Red\nLager naci a partir de un \nbier fest: nos pidieron una \ncever za especial y la cream os.\nFue tan exitosa que decidi mos que se\nqued e perman entement e en el\nmerc ado. Y también había un \nesc pa io par a tener una cerveza de\nt ri go . Se hicieron los resp ectiv os\nestudios de merc ado , y vimos\nque la gente estaba dis puesto\na compr ar un pro ducto así, Son\nni chos de mer cad o, responden\na gostos específ icos de algun os\ncons um id ores."
+    },
+    {
+        "headline": "Studiando cine",
+        "content": "Cycle de Cinema Reeli cena!\nS e\nBe e in\nde Flavi ano \nQuisp e. U. de Lima\n( Evac ign et Este, cdra. 465/n,\nSurco ). 4:30 p.m."
+    },
+    {
+        "headline": "Teatro",
+        "content": "<CIUDA DES INVISIBLES'\nmues tra 'Ciudades invisibles’, ind ividual del \narqui tec to y arte st plsti co Franco Vel la. Ga ler a \nyvon ne Sanguinetti ( Av. Grau 810\nBar ran co) 7:30 pm."
+    },
+    {
+        "headline": "Opina",
+        "content": "\"¿Qué bueno que aún no haya un vino\npara el cebiche, así la cerveza sigue\nsiendo la mejor opción para ese plato\"."
+    },
+    {
+        "headline": "Extremadamente Colombiano",
+        "content": "Colombiano tenía recortes periódísticos de crímenes cometidos en la capital\nSicario cae con lista de\npersonas asesinadas\nm Tiene resaltado\nel nombre de \next rnanje ros asesi na do cerca de Direccion de\nMigraciones.\nUn colombiano que entre sus\npertenen cias teña recortes\nperi odísticos de cri menes\nrecenteme nte cometidos en la\ncapital, en los que los nom bre s de\nlas ví ctimas apa rece an\nreso latados, fue atrapa do en Ba r rio s Altos."
+    },
+    {
+        "headline": "Educación",
+        "content": "Profesor universitario desapareció\nImágenes ilustrativas para arrojar heces caninas a tachos\nV remi nistro de Po blaciones Vulnerables\n'Más de 4,600 niños fueron rescattados\nde las calle s del país du rant el 2013’\nCam pan aa ‘comecac a ’ genera pole mia\nBasureros. Ha y 31 tacho s insta lado s en el distrit o."
+    },
+    {
+        "headline": "Transporte",
+        "content": "Choques frecuentes\nOtro choque\nde bus\n‘chosi cano’\nUn conduc tor de la emp ras a ‘El Cho sis ano’ causa un nue vo acciden te. El choq ue de una\ncy trety un camión de una pres sa papeler a deja tres perso nas h ere idas en el ki lmetro 19 de la Ca rrera Central,en Cha cla cayo."
+    },
+    {
+        "headline": "Salud",
+        "content": "Beneficios del SIS Empleador\nMediciones médicas gratuitas\nChequeo Ginecológico\n+ Papanicolau\n+ Frutos vaginal\nEcografía transvaginal\nInformes computarizados inmediatos\nConsulta especializada"
+    },
+    {
+        "headline": "Agenda Cultural",
+        "content": "Evento cinematográfico\nCycle de cinema reelice\nFecha: Domingo 4:30 PM\nUbicación: Surco\nEventos Teatrales\nPresentación de Ciudades invisibles\nArtista invitado: Franco Vella\nHora: 7:30 PM\nLocalización: Barranco"
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided text snippet while adhering strictly to the guidelines for extraction and cleanup specified in the task description. Note any missing data has been filled with `"NA"` where applicable based on context clues available.

@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/07/peru21_30.txt ---
+
+```json
+[
+    {
+        "headline": "APERTURA. ALIANZA LIMA LE GANA 1–0 A CIENCIANO Y ESTÁ A UN PUNTO DE MUNICIPIAL",
+        "content": "Volvieste de vacaciones, Alianza. Te fuiste por Fiestas Patrias, te fotografiaste en provincia, te hiciste extrañar, Pero regresaste para mostrar la sonrisa que mata el frio y regalar la íntima y adorable compañía.\n\n Hay triunfo y eres escolta del líder por ese 1–0 ante Cienciano (11° con 15 puntos) que hizo bien. \n\n Al principio, el ‘Papá’ sacó la correa con un juego fuerte y brusco, y a los 10′ perdió la chance de abrir la cuenta con un frenteazo de Carlos Orejuela. Alianza andaba mareado porque Gabriel Costa jugaba de posición como de gestionario (?) aéreo (?). Solo las subidas de ’Cucurucho’ Guizasola por derecha asomaban como camino. A los 30′ probó Costa de tiro libre y, un minuto después, Cienciano perdió otra chance cuando Succlli no pudo con Butrón. Hasta que Alianza intentó volver y primero probó Julio Landauri (31″) y luego el poste devolvió el típico tiro lejano de un Willyan Mimbela hoy intermitente (38º).\n\n La última fue de Costa y fue el arquerito cuzqueño Morales quien se lo negó.\n\n Al complemento volvieron con cuatro corners seguidos sin fortuna para los ‘grandotes’, y luego un peligroso disparo de Costa (57″), Orejuela volvió a inquietar a los 59′, pero un rotativo comentó que la Liga, que se puso a un punto del lider Deporivo Itaugüe."
+    },
+    {
+        "headline": "APERTURA. GANÓ LOS CELESTES NO SE CANSAN DE DOMAR A LEN",
+        "content": "Cinco años han pasado desde la última caída de Sporting Cristal (4° con 21 puntos) en Huánuco y ayer ratificó su patronímico al ganar 2–1 a León (16° con 11 puntos) por la fecha 13 del Apertura. Cristal abrió la cuenta a los 44″ cuando Iván Bulos cerró una jugada donde combinaron Carlos Lobatón y Sergio Peña. El empate local fue de Ricardo Salcedo, de cabeza (48′), pero Renzo Sheput desniveló a los 51′ con otro cabezazo.\n\n En Lambayeque, Juan Aurich (11° con 15 puntos) cayó 1–0 ante Alianza Atlético (12° con 15 puntos)."
+    },
+    {
+        "headline": "LIBERTADORES. FINAL River empató con Tigres y tiene ventaja",
+        "content": "Todo se definirá en casa, River Plate dio un gran paso en pos de ganar su tercera Libertadores (fue campeón en 1986 y 1996) al empatar 0–0 en su visita al Tigres de México por el duelo de ida de la final 2015. A los 13′ avisó el Millo™ con un remate de Mercado, pero el cuadro felino asustó cuando Álvarez Rojas sacó un centro desviado por Vangioni que pegó en el travesaño.\n\n Dos minutos después, un cabezazo de Sobis encontró bien parado al guardameta de River, Barovero, quien volvió a salvar a los 59′ y 77′ tras remates de Pizarro y Julinho. La vuelta se jugará el próximo miércoles en Buenos Aires."
+    },
+    {
+        "headline": "APERTURA. CON GRAN ACTUACIÓN DE SU PORTERO, LA 'U' EMPATA 0–0 EN CASA DE SPORTHUANCAYO",
+        "content": "'Superman', el héroe merengue nos ayuda mucho sumar un punto. El penal atajado se lo dedico a mi esposa\", dijo el guardameta cremas. \"Nos dependemos de nosotros mismos para ser campeones\".", dispo Díaz Méndez, volante de Municipal.\n\n Huancayo.- Como si fuera una película, Superman® salvó la Ciudad Crema. Usó la fuerza de sus manos, voló cortando el viento y puso el pecho a los tiros. Raúl Fernández volvió a ser aquel héroe de antes y la 'U' (17° con 10 puntos) empató 0–0 en casa de Sport Huancayo (10° con 16 puntos).\n\n El guardameta fue el más destacado, junto a un correctísimo trabajo de la defensa García-Dulanto-Mourning-Benítez mientras que solo Juan Diego Gutierrez inquietó para la crema (57"). Pero faltaba lo mejor: a los 71′ el árbitro cobró dudosamente penal sobre Meza-Cuadra, pero 'Superman' bloqueó el remate de testa de Daniel Morales (72')."
+    }
+]
+```
+This extraction includes four distinct articles based on their headlines and contents while excluding non-journalistic elements like ads, sports scores unrelated to narrative context, etc. Adjustments were made for clarity where necessary due to potential OCR issues such as missing characters or incorrect spacing.
+
+--- ERROR ENTRY: data/txt/peru21/2015/07/peru21_30.txt ---
+
+```json
+[
+    {
+        "headline": "DEL ÚLTIMO AÑO DE HUMALA LO ESPERO QUE CONCLUYA SIN MUCHO SOBRESALTÓ...",
+        "content": "Raúl Grávio, periodista y sociólogo\n\"Lo espero que concluya sin mucho sobresalto, que cumpla al menos con lo que prometió, que es poco. Este último año va a ser de perfil bajo, no va a modificar nada.\".\n\nExpertos opinan sobre el final del gobierno de Humala...\n\n**¿Qué espera usted para lo que queda de este gobierno?\n\- Del año, francamente, después de escuchar el discurso, espero que este gobierno concluya sin mucha controversia, que cumpla al menos con lo que propone, que es poco. Este último año será de perfil bajo, no cambiarán muchas cosas. Bueno, entraremos en campaña electoral. Desde octubre o noviembre los enfrentamientos políticos ya estarán más definidos. Mucho se comentó que este gobierno iría en automático, también que no dejarían obras significativas. Tomando en consideración esto –y que la política peruana es impredecible– ¿Ve alguna oportunidad para Humala de retornar al poder? \\\n\nEn el Perú nunca sabremos qué traerá consigo el futuro político de nadie, o muy poco. Yo hace años les pregunté a los peruanos si Alan García podría regresar y todos respondían que no, que estaba fuera de sí. Pero él volvió, incluso ahora está buscando otra reelección. Obviamente, no todos los casos son similares, pero puede pasar."
+    },
+    {
+        "headline": "TEMPERATURA (MINIMA/MAXIMA)",
+        "content": "\"Nosotros debíamos celebrar nuestra Independencia el 9 de diciembre, fecha de la batalla de Ayacucho donde definitivamente terminó la dominación española. Simplemente San Martín había podido asegurar temporalmente Lima y cualquier cosa hubiese podido alterar el curso de la historia entre el 28/07 de 1821 y el 9/12 de 1824. Además, tenemos que reconocer que nuestro país tenía profundos vínculos coloniales: tanto Chile como Colombia jugaron roles cruciales en nuestra emancipación completa desde España.\"\n\n\"Siempre he dicho que nuestras festividades deben recordar eventos clave históricos, especialmente aquellos que realmente consolidaron nuestra soberanía nacional. También vale destacar cómo factores externos influidos por Napoleón Bonaparte indirectamente facilitaron nuestros procesos independentistas debido a las complicaciones internas que generó en Europa.\""
+    },
+    {
+        "headline": "MULTA POR PALOMAS",
+        "content": "La municipalidad impone una multa económica considerable a aquellas personas que proporcionen alimentos a las palomas urbanas. Esta decisión surge como medida preventiva ante el incremento preocupante de dichas aves en ciertas áreas metropolitanas, según indica una disposición oficial publicada en medios gubernamentales locales."
+    },
+    {
+        "headline": "MATÓ A NIETO DE DOCE AÑOS",
+        "content": "**Crimen macabro:** Una tragedia familiar sacude a la comunidad de San Juan de Lurigancho. Un hombre identificado como Samir Carballo Flores, de 22 años, acabó con la vida de su nieto de apenas 12 años mediante puñaladas antes de intentar suicidarse. Investigaciones preliminares sugieren intención criminal detrás del acto violento hacia el menor. Agentes policiales rápidamente intervenieron, confinándose al autor de los hechos en cuidados médicos urgentes dado su delicado estado físico post-atentado personal."
+    },
+    {
+        "headline": "GRAN PARADA MILITAR",
+        "content": "Durante la ceremonia militar correspondiente al bicentenario patriótico, el Presidente rompió convenciones establecidas extendiendo su intervención inicial. Más de 12,000 miembros militares exhibieron orgullo y disciplina frente a miles de ciudadanos congregados. Entre las atracciones notorias, el grupo ‘Escuadrón Orejitas’ capturó especial atención gracias a su dedicación en rescate de animales callejeros. Adicionalmente, se presentó música tradicional interpretada por artistas renombrados, añadiendo solemnidad cultural al evento."
+    },
+    {
+        "headline": "TEMÁTICA EDUCACIÓN MARKETING DIGITAL",
+        "content": "Marketing emerge como una opción profesional altamente valorizada actualmente. Exige análisis meticuloso, capacidad innovadora y adaptabilidad continua. Dentro de sus ramificaciones modernas, el marketing digital representa el epicentro contemporáneo de prácticas empresariales exitosas, ofreciendo múltiples caminos laborales emergentes tales como gestión de comunidades digitales y consultorías analíticas avanzadas."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines regarding format and inclusion criteria. Articles were selected due to substantial narrative elements indicative of journalism rather than mere listings or brief notes.

@@ -1,0 +1,44 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/05/elcomercio_27.txt ---
+
+```json
+[
+    {
+        "headline": "Opinion\nPor qué votar?",
+        "-p. 8- JAIME De AltahaUs \nPeriodista y antroplogo avanzando en la diversificación -p. 32- GIANFrAncO CASTAGNOlA Presidente de Apoyo Consultora\nel costo de la corrupción -p. 33- ARTUrO SALAZAr LArrAna Periodista lo que se viene -p. 33- MARCo SIffuentes Periodista",
+        "content": "La educación en la Amazonía es uno de los temas.\nARQUITECTURA el pabellón Peruano va por el León de Oro en Bienal de Venecia Precios en Provincias: envío terrestre s/.2,50 y área s/.4,00. Edición: 52 páginas y 2 cuerpos. Sede Principal: Jr. Antonio Mir Quesada 300, Lima 1. Redacción: 311-6310. Publicidad: Jr. Jorge Salvador Arroyo 171 Urb. Santa Catalina, La Victoria 311-6500. Teléfono avisos: 708-9999. Suscripción: 311-5100. Depósito Legal: nº 95-0052\nEditorial Viernes 27 de Mayo del 2016 \"Desde las páginas de EL COMERCIO estamos abocados a desterrar de nuestra Patria la 'mentira política' en todas sus formas porque entendemos [...]\nQue la turbiedad no puede ni debe acompañar al Sistema Democrático\". Editorial de EL COMERCIO Los Medios Como Guardianes de la Libertad / 16 de Abril del 2011 Decidimos jugar Limpios En varios Espacios, la presente Campaña Electoral no se ha distinguido por Buscar Veracidad o Visibilidad en los Comentarios y Propuestas de los Candidatos a la Presidencia."
+    },
+    {
+        "headline": "Reportajes de América TV Vsquez no habría dicho que Denuncia Contra Ramirez era Falsa Versión Extendida. En un Audio Difundido Ayer en 'América Noticias', se Escucha Que el Piloto Ratifica Su Denuncia Contra el Ex Secretario General de Fuerza Popular Joaquín Ramírez. 'Es Verdadero, No es Falso'. Jess Vsquez Denunciante",
+        "content": ""
+    },
+    {
+        "headline": "",
+        "content": "Avance Minero Desactivan Gran Minería Ilegal de Oro en La Libertad Intervención Ministerio Público en los Campamentos Donde Laboraban Más de Mil Mineros Ilegales. Contaminación Hallaron Varias Pozas de Cianuro Utilizados en Extracciones de Oro. Policías Destruyen Equipamientos Valorados en $10 Millones."
+    },
+    {
+        "headline": "Política Última Recta de la Campaña Viernes 27 de Mayo del 2016 Fuerza Popular Keiko Fujimori Realizó Mitin en Plazuela Bolognesi de Cajamarca Prometió Regresar a la Región Si Ganase la Presidencia, 'No Como el Presidente Ollanta Humala'",
+        "content": "\"Gracias por las cifras de las Encuestas, Las Tomamos siempre con Mucha Prudencia.\" Negativa de Eliminar Ley Permitiendo Retiros de Fondos de AFP. Reaccionó Sorprendida por Invitación de Debate Del Domingo Irá 'Con Firmeza.' Disculpas Ofrecidas por PPCK por Frases Acerca de 'Los Rateros,' Son Aceptadas. Referencias Hechas Respecto a Martin Vizcarra, Candidato Vicepresidencial de PPK, Involucrado en Investigaciones Penales."
+    },
+    {
+        "headline": "Política Dice que No Dejar Herederos Políticos PPK No Dudará de que Alberto Fujimori Est Detrás de la Campaña de Keiko Viernes 27 de Mayo del 2016 Linio Chipana",
+        "content": "El Ex Primer Ministro Restó Importancia al Simulado de Votos de CPI, Donde la Ex Congresista Sacaba Una Ventaja de Siete Puntos. Criticó Gobierno Basado en Violencia Y Metralletas. Manifestó No Planificar Dejar Herederos en Posiciones de Poder Posterior a Eventual Mandato. Expuso Confianzas Personales Frente a Resultados Electorales Actuales."
+    },
+    {
+        "headline": "Por Qué Votar?\nPpk Tiende a Ser Considerado Mejor Para Modernización del Estado Comparado con Kf Quienes Han Construído Partido Político Duradero",
+        "content": "Ambos Candidatos Presentan Conjuntos de Reformas Beneficiándose Potencialmente al Paisajear Cambios Necesarios para Impulsar Economía Formalizada. Distinciones Residen Mayormente en Aspectos Políticos Relacionados a Hipotéticas Situaciones de Ingovernabilidad versus Autocracia. PPK Podría Experimentar Debilidad Legislativa, mientras KF Dispondrá de Mayoria Parlamentaria Facilitando Implementación de Legislación Necesaria."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/05/elcomercio_27.txt ---
+
+```json
+[]
+```
+Explanation:
+
+Upon reviewing the provided input, it consists primarily of financial data related to stocks, market indices, dividends, yields, etc., along with some regulatory information about securities commissions. There's also mention of events like conferences attended by regulators but lacks any substantial narrative structure typical for journalism such as headlines followed by detailed reporting found within traditional news articles.
+
+Given these observations, there were no discernible sections meeting the criteria outlined for inclusion as full-fledged articles under the specified guidelines. Therefore, according to the task requirements, we return an empty JSON array `[]` indicating no qualifying articles were extracted from the given text.

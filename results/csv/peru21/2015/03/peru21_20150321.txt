@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/03/peru21_21.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCUTOR URUGUAIO SERGIO BLANCO Y LUIS ABRAM EN REEMPLAZO DE LOS ARGENTINOS CESAR PICANTE PERERYRA Y MATAS MARTINEZ",
+        "content": "“Es un partido muy importante de cara a la aspiración al campeonato del Torneo del Inca. Melgar es un equipo bien estructurado. Tenemos que estar bien atentos. Ser un partido muy intenso,” seal Ahmed."
+    },
+    {
+        "headline": "\"TIMAO\" HACE TODO POR GUERRERO",
+        "content": "El hecho de que Paolo Guerrero se haya convertido en el máximo goleador extranjero del Corinthians ha incentivado a los directivos del \"Timão\" a hacer hasta lo imposible por retener al atacante ruano. Según el portal brasileño Globoesporte, Roberto de Andrade, nuevo presidente del club, pedirá un préstamo para aumentar a US$5.5 millones la oferta para renovar a Paolo. Además, incrementará su sueldo de US$148 mil a US$154 mil mensuales."
+    },
+    {
+        "headline": "SE ACABARON LAS ESPECULACIONES. TORNEO DE CLUBES MAS PRESTIGIOSO DEL PLANETA DEFINE SUS LLAVES DE OCTAVOS DE FINAL",
+        "content": "Una cosa está clara: no se repetirá la final del año pasado. Hagan sus apuestas.\n\nValores de plantillas:\nCorinthians: US$365.7 millones\ndts.: US$779.1 millones\nJuventus: US$348.2 millones\nPorto: US$230.3 millones\nBayern Munich: US$646 millones\nParís Saint Germain: US$646 millones"
+    },
+    {
+        "headline": "REAL MADRID ES UN GRAN RIVAL COMO LOS OTROS SIETE Quedan",
+        "content": "Tendré que enfrentarme a ellos. El Porto es joven y victorioso en la Champions League.”
+    },
+    {
+        "headline": "LO QUE DEJA EL SORTEO DE LA CHAMPIONS LEAGUE",
+        "content": "|Sorteo de la Liga de Campeones, considerada la copa más prestigiosa del mundo, arroja cruces interesantes este momento, entre equipos europeos atravezados por historia pasada, pero sabiendo que cada encuentro será decisivo, especialmente en instancias finales después de mucho tiempo. Desde mi perspectiva, predigo algunas eliminatorias difíciles. La Juventus tiene una oportunidad única contra el Barcelona, recordando cuando venció en Copa de España. Por último, destacamos el desafío entre Real Madrid y Atlético Madrid, siendo estos últimos potenciales candidatos al título gracias a su rendimiento excepcional durante toda la temporada."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided OCR text based on headlines and associated contents while adhering strictly to the defined rules for inclusion/exclusion criteria. It ensures proper cleanup and structuring according to the specified format requirements.

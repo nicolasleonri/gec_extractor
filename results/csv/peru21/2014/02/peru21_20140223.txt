@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/02/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "Capítulo final de la tragedia política en Siria",
+        "content": "Ban Ki-moon, Secretario General de la Organización de las Naciones Unidas, solicitó acción urgente hacia todos los sectores del país."
+    },
+    {
+        "headline": "Muertes aumentan tras enfrentamientos en Venezuela",
+        "content": "Tras las manifestaciones violentas en Venezuela, el número total de víctimas mortales relacionadas con las protestas ascendió a diez. Una joven universitaria resultó gravemente herida después de que efectivos disolvieran una concentración pacífica usando munición real."
+    },
+    {
+        "headline": "Opini\u00f3n: Riesgos bajo el régimen de Nicolás Maduro",
+        "content": "\"El régimen de Nicolás Maduro representa un autoritarismo competitivo, pues aunque realiza elecciones, favorece significativamente al grupo gobernante mediante vastas redes clientelistas financiadas principalmente gracias a ingresos petrolíferos.\""
+    },
+    {
+        "headline": \"Capturan al capo \\\\\"El Chapo\\\\\" Guzmán\",
+        "content": "Joachín 'El Chapo' Guzmán, líder del cartel de Sinaloa, fue arrestado en México tras años próximos a la clandestinidad. Este acontecimiento marca un hito crucial en la campaña anti-drogas emprendida por el gobierno mexicano."
+    },
+    {
+        "headline": "Destruyen el mito de Adolf Hitler refugiándose en América Latina",
+        "content": "Investigaciones revelan que Adolf Hitler pudo haber sobrevivido más tiempo de lo creído inicialmente, posiblemente utilizando distintas identidades falsas en países sudamericanos antes de morir definitivamente."
+    },
+    {
+        "headline": "Caída de Yanukovych tras intensificación de disturbios en Ucrania",
+        "content": "El Presidente de Ucrania, Viktor Yanukovich, fue depuesto por el Parlamento ante la escalada de tensiones civiles provocadas por su negativa a firmar un tratado económico con la Unión Europea, optando en cambio por fortalecer relaciones con Rusia."
+    },
+    {
+        "headline": "Detención de peligroso ecuatoriano en el Callao",
+        "content": "Agentes de inteligencia de la Policía peruana capturaron a un conocido sicario ecuatoriano implicado en múltiples asesinatos contratados en Lima, según información proporcionada por la Interpol."
+    },
+    {
+        "headline": "Bandas criminales incrementan ataques audaces en Lima",
+        "content": "Delincuentes especializados en robos rápidos atacaron una sucursal de Courier Express en Pueblo Libre, amenazando a clientes presentes y forzando la entrega de fondos importantes."
+    },
+    {
+        "headline": "Escuela de Posgrado ofrece nuevas oportunidades académicas",
+        "content": "Desde marzo, varias instituciones educativas lanzarán programas avanzados enfocados en áreas claves como administración global, salud pública y gestión ambiental, ampliando así opciones formativas superiores."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified guidelines. Articles were identified based on distinct topics and structured accordingly within each entry.

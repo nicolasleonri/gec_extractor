@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/06/trome_25.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCODEMARTILLO",
+        "content": "Hoy en día, uno pensaría que todo se sabe. Todo se sabe. EL PATRONCITO!, que no le dan un cachito en la Bundesliga, se tom hasta el aire en ‘Barranco bar’ y vio cómo una Barbie a una gerente gordita. Tuvieron un ‘dale que te doy’ y ahora ella recontrainterésntemente lo llama para un remember. El pelotero está arrepentido porque ya se ha dado cuenta que es ‘buén pobre’ porque la muchachita es tacón 5 para abajo. Eso pasa a veces cuando uno se mete unos pomos y le entra la caliente."
+    },
+    {
+        "headline": "CONTENTOFINAL",
+        "content": "Todo parece indicar que alguien anda construyendo un chalet con puras habitaciones. Será un banco al estilo de la Foquita; aunque con un perfil más de hotel. Ya me imagino los cuartos con jacuzzi y toda la morbisdad para descansar placenteramente, un jardín para la rumba y la parrillada. Lo mejor será el bar. Le aseguro que estará muy surtido porque el dueño es comandante de una compañía de bomberos. Desde etiquetas azules, verde, dorada, negra, roja, hasta cazadores. ¡Me voy!"
+    },
+    {
+        "headline": "POLONA ENCENDI VELENAS",
+        "content": "Polonia enciende velas para que se le abra el arco a su goleador Robert Lewandowski, quien aún no pertence a ningún equipo oficialmente. Hoy, ambos equipos jugarán frente a frente buscando avanzar hacia los siguientes niveles de competición europea."
+    },
+    {
+        "headline": "RAL RUIDAZ NO SALE DE UNIVERSITARIODESPUESDEL NEGOCIACION CON MORELIÁ",
+        "content": "Tras fallar negociación con Monarcas Morelia de México, Universitario decidió mantener a Raúl Ruidíaz dentro del plantel. Ofertaban únicamente préstamo temporal y opción de compra posterior, situación considerada insatisfactoria por directivas locales."
+    },
+    {
+        "headline": "JAIRCESPEDES EMOCIONADO POR ENFRENTRAR A CRACK BRASILEÑO",
+        "content": "Jaír Céspedes, defensor de Sporting Cristal, expresa entusiasmo ante la idea de medirse cara a cara con Ronaldo Nazário durante un encuentro futbolístico programado en el Cusco. “Sería un honor enfrentarlo, pero tendré que poner resistencia.”
+    },
+    {
+        "headline": "FLANCETINO",
+        "content": "Preparamos flancetinos utilizando ingredientes naturales como toronjas, manzanas y especies aromáticas. Esta receta ofrece beneficios nutricionales significativos para nuestro sistema respiratorio gracias a su composición balanceada."
+    },
+    {
+        "headline": "PLATO EMBLEMÁTICO DE NUESTRA SELVA PERUANA",
+        "content": "Celebramos el Día de San Juan ofreciendo el Juane, un emblemático platillo de la cocina selvática peruana. Preparado con guiso de carne acompañado de arroz y condimentsado con hierbas autóctonas, simbolizando la festividad local."
+    },
+    {
+        "headline": "COMO TOMAR UN TAXI MOVIL SIN PROBLEMAS",
+        "content": "Con la modernización digital actual, obtener taxis móvilmente requiere precauciones específicas. Utilizar apps certificadas permite verificar credencialidades del chofer y seguridad general del trasporte urbano."
+    },
+    {
+        "headline": "ALEJANDRA MÉNESES AFIRMA QUE ANDRYNSANE TIENE MAL TRATO PSÍQUICO CONTRA POLO CAMPOS",
+        "content": "Alejandra Méndez denuncia comportamientos indebidos atribuidos a Andrýnsane hacia Polo Campos, sugiriendo acciones legales pertinentes para resolver conflictos personales públicos."
+    },
+    {
+        "headline": "ERNICK ESCUCHÓ AUDIO DONDE POTRO TRATA MAL A ALEJANDRA DRUMMOND",
+        "content": "Ernick escucha grabaciones comprometedoras involucrando a Potro tratándole mal a Alejandra Drummond, generando controversia pública acerca de relaciones interpersonales entre figuras mediáticas."
+    }
+]
+```
+This extraction captures various articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting relevant information. Articles were identified through distinct headings followed by substantial textual bodies related to journalism topics such as sports events, culinary traditions, personal disputes among celebrities, etc. Non-article sections like ads, subscriptions prompts, and unrelated listings have been excluded according to specified criteria.

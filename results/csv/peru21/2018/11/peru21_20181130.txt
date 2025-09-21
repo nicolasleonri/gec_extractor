@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/11/peru21_30.txt ---
+
+```json
+[
+    {
+        "headline": "\"Ver del Mar\" tendrás tus ojos\"",
+        "content": "Esta precipitación mengúa y tiene\nuna dimensión más mítica.\n\nEn sus novelas, Karina Pacheco incorpora la \nviolencia política como una línea\nque se suma al conflicto de\nsus personajes. En sus relatos,\nen cambio, ésta aparece\nde manera sugerida, como\nen \"Ventanas Rotas\". De esa\nformá explorá la psicología\nde sus personajes e, inclusive,\nin algunas historias el\nnarrador los interpeía desde la\nsegunda persona.\n\nLa lectura de Lluvia nos muestra,\sin duda alguna, lo mejor\ndel arte narrativo de esta autora cusqueña."
+    },
+    {
+        "headline": "Libertadores, Conmebol Confirma Que La Final Será El 9 En El Santiago Bernabeú",
+        "content": "Asunción.— Perdi Boca Junior,s perdi River Plate, perdió el futbol y,en definitiva, perdimos todos. La final\nmás importante del futbol sudamericano terminó por desvirtuar-se completamente ayer cuando la Conmebol confirmó que la revancha de la final de la Copa Libertadores entre los dos clubes más grandes de Argentina se desarrolará el próximo domingo 9 a las 2:30 pm.(hora peruana), en Madrid.Sí, la Copa Libertadores de América se mudará a Europa.\n\n\"Este partido se va a disputar con ambos públi-cos en la ciudad de Madrid, en el estadio Santiago Bernabéu. Va a ser con afición amante del futbol y los que apoyan a sus equipos, los de River y Boca\", confirmó Alejandro Domínguez,presidentede la Conmebol,minutos después de que el Tribunal de Dis-ci-plina del organismo desestimara el pedío del «Xeneize» y confirmara las sanciones deportivas y económicas del «Mil-lonario». "
+    },
+    {
+        "headline": "Europa League. Ganó Krasnodar Imparable Con ‘Aladino’",
+        "content": "Con Cristian Cueva hasta los 70’, el Kras-nodár(10 con 12)derrótapor 2–1 alAkhi-sar Belediye deTurquia(ltimoesin puntaje), por lapenílm-tima jornada delgrupo J dela Euro-paleague.Para losrusoses-anotaron Gazins-ký(49)y Ari(A57").Ser-ginhocovertiópara lavisita(240).\nLos rusos aún tienen esperanzas de avanzar a la próxima fase del torneo mientras enfrentan próximas rondas contra rivales europeos fuertes."
+    }
+]
+```
+This JSON contains three extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any non-article sections such as ads were excluded according to the scope defined.

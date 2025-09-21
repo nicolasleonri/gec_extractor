@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/02/trome_19.txt ---
+
+```json
+[
+    {
+        "headline": "Cómo vuelan los aviones",
+        "content": "No se trata de algo mgico.\n\nLo raro y mgico seria que los aviones no pudiesen volar teniendo la forma que tienen. La clave está en su forma aerodinámica, entre otras cosas.\nEsta estructura permite que el aire vaya mucho más rápido por encima que por debajo. Al disminuir la presión en la parte superior respecto de la inferior, se produce una fuerza que levanta el avín. As de simple.\nUna respuesta más elaborada sería decir que un avín vuela gracias al flujo de aire que pasa por las alas. Por lo que ya podemos deducir, que para que un avín vuele, se necesita un flujo de aire, o lo que es lo mismo, una velocidad respecto al aire. Cuando el aire fluye a través de las alas se genera una..., fuerza hacia ambas, llamada sustentación, que si es suficiente compensa el peso del avín."
+    },
+    {
+        "headline": "Las jergas lingüísticas",
+        "content": "Es un lenguaje particular y familiar que utilizan entre sí los integrantes de un cierto grupo social. Las jergas suelen nacer para ocultar el significado de las palabras. Por ejemplo, la jerga carcelaria es usada por los presos para evitar que la policía entienda lo que dicen. Esto lleva a que los términos usados en la jerga sean temporales: una vez que son adoptados y se masifica su uso, dejan de ser utilizados."
+    },
+    {
+        "headline": "Operada de urgencia Lesly Castillo",
+        "content": "\"Metuvieron que operarme de emergencia, tenía un dolor horrible en el vientre, casi no podía caminar ni respirar. Inmediatamente me llevaron a una clínica y me operaron por apendicitis.\" \n\"Estoy en reposo y me han dado tres días de descanso médico\", cuenta Lesly, quien se encuentra en Arequipa. \"Mis labores en ‘La noche es mía’ reportera) las retoman cuando esté totalmente recuperada\", finalizó."
+    },
+    {
+        "headline": "Actriz revela estado sentimental",
+        "content": "\"Entre risas. [...] Ya llevo tres años sola y me gustaría tener un hombre a mi lado\", declaró Dorita Orbegozo durante su participación en el espectáculo 'Madame' de los Olivos. \"La verdad, ya tengo un buen tiempo sola y quiero tener alguien a mi lado. A mí me gustan todos, altos, flacos, gorditos o bajitos,\" añadió."
+    },
+    {
+        "headline": "Superado tras incidente íntimo",
+        "content": "\"No tengo nada que comentar sobre ese tema, prefiero no hablar... tampoco tengo por qué ocultarme, está superado. Sé que hay mucho bullying, pero yo estoy enfocada en las grabaciones de ‘Torbellino’, indicó Ximena Hoyos. Formará parte de esta producción, donde interpretará a Luciana, describiendo cómo será una chica del salón de clase junto a Valentina.'"
+    },
+    {
+        "headline": "Triunfo personal de Doris Alexia",
+        "content": "\"He logrado obtener mi papel protagonizando estudiar y pasando los casting. Además, he seguido los consejos de mis padres\", menciona Doris Alexia, destacándose en la novela 'Torbellino'. También señaló que cuida su imagen pública para evitar escándalos similares a otros personajes mediáticos."
+    },
+    {
+        "headline": "Muerte de Ernesto Pimentel",
+        "content": "Conmovió profundamente a Hollywood la pérdida de Ernesto Pimentel, reconocido diseñador de modas. Figuras públicas como Magaly Medina y María Paz Zamudio lamentan su partida, refiriéndose a él como el 'rey de la moda'."
+    },
+    {
+        "headline": "Preparativos de Gelacio Espinoza",
+        "content": "\"Si llega otra ocasión similar, espero que ahora pongan un jurado experimentado», afirmó Gelasio Espinoza ante rumores de nuevos programas televisivos. Habló también sobre su experiencia anterior en competencias de baile."
+    },
+    {
+        "headline": "Anuncio musical de Angie Arzábal",
+        "content": "Angie Arzával compartió imágenes de su reciente visita a Chincha, donde realizó movimientos característicos en la celebración de Mamachicha. Sus fans anticipan próximas apariciones en pantalla."
+    },
+    {
+        "headline": "Regreso triunfal de Jazmin Pineda",
+        "content": "\"Cumplí mi ciclo en 'Este es guerra' y decid continuar explorando nuevas áreas artísticas, incluida la actuación en 'Torbellino’. Mi meta actual es concentrarme completamente en estos nuevos roles profesionales.", relató Jazmin Pineda después de dejar atrás algunos compromisos antiguos."
+    }
+]
+```
+This JSON contains extracted headlines and contents for each identified article within the provided input text according to specified criteria. Articles were selected based on their relevance and completeness while excluding non-journalistic elements like ads and unrelated sections.

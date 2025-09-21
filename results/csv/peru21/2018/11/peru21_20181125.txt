@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/11/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Se viene el clásico trujillano",
+        "content": "Los dos clubes más populares de Trujillo dan vida a un nuevo clásico cuando Caer Vallejo y Carlos Manucci se enfrenten en el Estadio Mansiche por la primera de las semifinales de la Segunda División, en la que ambos buscarán dar el primer paso a una final que los regresé a Primera División."
+    },
+    {
+        "headline": "Liverpool Invicto y Cerca",
+        "content": "La Premier League continua teniendo de celeste, pues el Manchester City (35 pts) se mantiene en lo más alto de la misma, jugadas 13 jornadas, luego de golear como visita 4–0 al West Ham. Silva (11’), Sterling (19’) y Sane (34’ y 90+7) marcaron. En tanto, el Liverpool (2° con 33) sigue invicto y cerca luego de vencer 3–0 al Watford con tantos de Salah (66’), Alexander-Arnold (76’) y Firmino (88’). Manchester United (7° con 21) sigue mal e igual 0–0 con Crystal Palace."
+    },
+    {
+        "headline": "Le sacó nueve puntos al Inter",
+        "content": "<CR7o marca y mantiene a la Juve'en lo alto\n Valverde (o\ Turn.- Cristiano Ronaldo indica \n El camino de un nuevo triunfo de la Juventus (1º con 37) al marcar el primero (29′) de su equipo , en el 2–0 frente al SPAL (15º con 13).\n La victoria del líder de la Serie A la complementó Mandzukic (60′). Por otro lado, el Inter (28pts) subió al tercer puesto tras golear 3–0 al Frosinone, Balotelli (10′ y 82′) y Martinez (57′) anotaron."
+    }
+]
+```
+This extraction includes three distinct pieces identified based on their headlines and associated contents while excluding non-article elements like schedules and match results not forming coherent standalone narratives. Adjustments were made for clarity where necessary due to potential OCR misinterpretations.
+
+--- ERROR ENTRY: data/txt/peru21/2018/11/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "DESPERTADOR POLÍTICO",
+        "content": "Ecuaracas\nPROTESTA VIOLETA.\nLa manifestación de los ‘chalecos amarillos’ caus desmanes en la zona turística."
+    },
+    {
+        "headline": "ECUADOR ANIMA A SUS CRISIS INTERNAS",
+        "content": "“ETIOPÍA:\nPresa del terrorismo interno, el país más poblado de África intenta superarlo bajo nuevas políticas.”
+    },
+    {
+        "headline": "INTERPOL SE SUMERGE EN EL ESCÁNDALO",
+        "content": "Después de la misteriosa desaparición y renuncia del jefe de Interpol, un nuevo líder coreano emerge frente a controversias internacionales."
+    },
+    {
+        "headline": "TRANSPORTES SIN INSPECCIÓN",
+        "content": "Paul Concha Revilla destaca que aproximadamente un millón de vehículos circula sin cumplir con la inspección técnica requerida, aumentando así el riesgo de incidentes viales graves."
+    },
+    {
+        "headline": "LA INDIFERENCIA TAMBIÉN ES VIOLACIÓN",
+        "content": "Martín Vizcarra insta a mejorar la atención diligente hacia las denuncias de violencia contra mujeres durante la celebración internacional dedicada a erradicar tal problemática social."
+    },
+    {
+        "headline": "TRANSFORMACIONES EMOTIVAS",
+        "content": "Emprendimientos sociales innovadores buscan cambiar vidas mediante soluciones creativas y tecnológicamente avanzadas, destacándose Pixed y varios otros proyectos inspiradores."
+    },
+    {
+        "headline": "CORRUPTORES CAIDOS",
+        "content": "Capturan al gobernador de Tacna implicado en redes criminales relacionadas con el tráfico ilegal de tierras, basándose en interceptaciones telefónicas clave."
+    },
+    {
+        "headline": "CRIMINALIDAD INFANTIL DETECTADA",
+        "content": "Una banda sospechosa de comercializar niños en Arequipa ve cómo algunos integrantes principales son sometidos a medidas cautelares severas."
+    }
+]
+```
+This JSON structure captures each significant story extracted from the provided OCR text while adhering strictly to the specified format requirements for headlines and contents. Any missing data has been marked appropriately according to guidelines given.

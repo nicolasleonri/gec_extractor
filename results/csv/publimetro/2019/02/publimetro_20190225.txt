@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2019/02/publimetro_25.txt ---
+
+```json
+[
+    {
+        "headline": "Borges pedirá usar la fuerza contra Nicolás Maduro",
+        "content": "En reunión de hoy del Grupo de Lima, en Bogotá, donde estará presente Juan Guaidó, el diputado venezolano en el exilio, Julio Borges, afirmó que solicitara en la cumbre contundentes acciones diplomáticas “más contundentes” y el “uso de la fuerza” contra el Gobierno de Nicolás Maduro. ‘Vamos junto a Juan Guaidó...’"
+    },
+    {
+        "headline": "Comisión electoral aprueba nuevo texto constitucional en Cuba",
+        "content": "‘Mas de 6,7 millones de cubanos votaron ayer en el referéndum sobre una nueva Constitución.’ Según la Comisión Electoral Nacional, la cifra representa el 74% de los 8 millones 669 mil ciudadanos convocados a participar en el acto para refrendar el borrador final del texto constitucional."
+    },
+    {
+        "headline": "Turismo inclusivo: Una propuesta para personas con discapacidad",
+        "content": "'El día que una persona con discapacidad – pueda viajar cuando quiera, a la hora que quiera y por los días que quiera será el día que hayamos logrado nuestro objetivo,’ nos dice Piero Pascual, CEO de Sin Frenos, promotora del turismo accesible para personas con movilidad reducida."
+    },
+    {
+        "headline": "¿Amigos u enemigos?",
+        "content": "Nosotros somos lo que pensamos. Tal y como nos aconseja Mahatma Gandhi: ’Cuida tus pensamientos, porque se convertirán en tus palabras. Cuida tus palabras, porque se convertirán en tus actos...'
+    },
+    {
+        "headline": "Victoria de Sporting Cristal frente a Alianza Lima",
+        "content": "La segunda fecha del Torneo Apertura tuvo como plato fuerte el encuentro entre Sporting Cristal y Alianza Lima. En el Estadio Nacional, los Celestes se impusieron 1–0 a los Blanquiazules y alcanzaron su tercera victoria consecutiva ante este rival."
+    },
+    {
+        "headline": "Jaamsa y San Martín avanzan en la Liga Nacional de Voley",
+        "content": "El Coliseo Bonilla de Miraflores albergó ayer los últimos partidos de ida de los cuartos de final de la Liga Nacional Superior de Voley. Primero, Jaamsa Volleyball Club sorprendió al remontar por 3–1 a Alianza Lima."
+    },
+    {
+        "headline": "Triunfo de Roma en los Oscars",
+        "content": "Al igual que en los Globos de Oro y en el Premio del Sindicato de Guionistas, Nick Vallelonga y Brian Currie triunfaron en la categoría de Mejor Guión Original por Green Book."
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided newspaper excerpt while adhering strictly to the specified format requirements. Articles were identified based on their headlines followed by substantial textual content related to journalism themes such as politics, sports, culture, etc. Non-article sections like ads and unrelated listings have been excluded according to guidelines.

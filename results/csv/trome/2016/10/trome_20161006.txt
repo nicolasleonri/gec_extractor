@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/10/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "Nicols Lcar le envi sus mejores vibras a Mnica Delta, despus de asumir la conduccin de Punto final.",
+        "content": "\"No he visto a Mnica porque mi familia me ha secuestrado cada domingo. [...] Siempre hemos sido compañeras de trabajo, no amigas.\""
+    },
+    {
+        "headline": "Brunella Horna asegura que los escndalos son parte del pasado, porque ahora se convertir en animadora infantil.",
+        \"content\": "\"No me arrepiento de haber estado en un reality porque me abrieron las puertas de la televisión, pero siempre soñé con animar un programa infantil\"."
+    },
+    {
+        "headline": "Silvia Rosa Huaman, la popular ‘Rosita de Espinar’, confes que el éxito de su carrera en el mundo del folclore es no meterse en problemas.",
+        "content": "\"Es que el público que nos sigue es muy conservador, chapado a la antigua y, como cantantes, les debemos respeto, No podemos estar metiendo en escándalos porque si no, te dan la espalda.\""
+    },
+    {
+        "headline": "Segundo Rosero dice sentirse un peruano con corazón ecuatoriano.",
+        "content": "\"Los llevo en lo más profundo de mi corazón porque es uno de los públicos que más me ha apoyado, y yo también los quiero\", dijo el cantautor, quien se presentará el 13 de este mes en el 'Maracan' de Jesús María."
+    },
+    {
+        "headline": "Rosngela Espinoza aclar que la relación que mantiene con Carlos Enrique Esteban Gmez, 'Carloncho', es solo de amistad.",
+        "content": "\"Obviamente, las disculpas están, sobre algo que no estuvo bien. Esta foto la subí porque ya sabía que nos habían grabado. Cuando alguien se equivoca, debe reconocer sus errores. Continúo enfocada en mi trabajo y estudio. La amistad continua, nadie le cerró las puertas de mi casa,\" coment Rosngela."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents while adhering strictly to the provided guidelines for extracting meaningful journalistic pieces. Any extraneous information such as ads or unrelated sections has been excluded according to the scope defined.

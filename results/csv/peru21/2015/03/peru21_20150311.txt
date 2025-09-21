@@ -1,0 +1,50 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/03/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "Sexo. Exploren el tratamiento del sexo en el cine en su más de un siglo de historia: se sorprenden de cómo cambian los tabúes.",
+        "content": "Olvidémonos de esto NO ES PARA TI\nDescubramos verdaderas obras maestras del cine erótico en los pasillos de Polvos Azules.\nPolveros Azules es un templo comercial de lo más insólito, un caso único en la identidad limeña: de megastore de la oferta pirata se ha convertido con los años en punto de referencia casi ineludible de todo turista que se precie y, a la vez, en conservatorio de la cultura cinéfila como no existe en ningún otro emplazamiento de la capital.\nAsí, entre las principales atracciones culturales de Lima, el centro comercial de Paseo de la Republica es ya una visita tan obligatoria y tradicional para el visitante cultivado como el bar Queirolo o el mercado de libros Quilca. La prueba de su aceptación y popularidad es que sus dos páginas principales de Facebook suman más de 80.000 adeptos, entre ellos numerosos periodistas."
+    },
+    {
+        "headline": "Copá Libertadores. Cristal dio el batacazo y gan 2–1 a Racing en Avellaneda",
+        "content": "Que buena raza\nComo en 1997, los celestes jugaron bien y esta vez sí ganaron con un doblete de Carlos Lobatón.\nBuenaños Aires.- Por eso es un Cristal. Carlos Lobatón refleja el liderazgo del ‘camello’ Jorge Soto dado ‘Camello’ y lleva en la espalda la voz de la experiencia. Irven Vilca es la copia del héroe del diente amplio y la gambeta mortal. La raza de 1997 es idéntica dieciocho años después.\nCristal retrató su mejor versión en la Copa Libertadores y derrotó 2–1 de visitante a Racing por el Grupo 8. Por el Perú.\nSi el 23 de julio de 1997 los celestes habían perdido 3–2 jugando un buen partido, esta vez se trajeron el triunfo con un sistema de 3–3–2–2 inesperado, pero efectivo. Villaca fue el punta de terror para la defensa de la academia y Lobatón condujo como el mejor chofer. Detrás, Ballón y Revoredo se olvidaron de la palabra error y secaron al goleador Bou."
+    },
+    {
+        "headline": "Selección, Ricardo Gareca defendió convocatoria del delantero",
+        "content": "\"Pizarro es un orgullo\"\nUna hora de charla. Eso duró el segundo encuentro del director técnico de la Selección Peruana, Ricardo Gareca, con la prensa. El Tigre afirmó la convocatoria de Claudio Pizarro y la ausencia de Juan Vargas. \"Dije que todos los jugadores tienen las puertas abiertas de la selección. Pizarro es un orgullo para nosotros por todo lo que ha logrado en el futbol europeo, pero no estoy en condiciones de decir si será capitán\". Acerca de Vargas, que no integrará esta lista no impide que pueda estar disponible para otros partidos\", sostuvo Gareca, quien también se refería al estilo de juego que desea. \n\"Tengo claro que vinimos a trabajar y queremos que se vea un Perú protagonista. Me gustaría jugar con un enganche, pero eso se ver. Respecto a Farfán, tenemos la fortuna de que sea nuestro jugador y lo tendremos dónde está más cómodo\", apuntó el entrenador. Finalmente, Gareca habló de la posibilidad de jugar en altura, \"No descarto nada, pero lo más viable es jugar en el Estadio Nacional\", concluyó el Tigre."
+    },
+    {
+        "headline": "Maroon 5 segunda álbum",
+        "content": "Luis Fernando Suárez, flamante DT de Universitario, ya sabe del duro reto que le espera con el club crema. \"Cuando llegas a un club grande, y en cualquier parte del mundo, te van a pedir que seas protagonista. La posibilidad de ser campeones es una obligación\", dijo. Suárez arribará el próximo miércoles a Lima y estará plan de observador en el partido contra UTC, el sábado 21 en Cajamarca. Luego, el 25, asumirá la dirección para el amistoso contra la Universidad Católica de Chile. "
+    },
+    {
+        "headline": "Merengues jugaron pésimo, cayeron 4–3 ante Schalke, pero clasificaron a Cuartos",
+        "content": "El Real Madrid confirmó que está lejos de su gloria máxima y clasificó con angustia a cuartos de final de la Liga de Campeones pese a perder 4–3 de local (había ganado 2–0 en la ida) ante el Schalke 04. Las imprecisiones y errores en el final lo ratificaron. Desde antes incluso de comenzar el partido, toda la afición merengue fue adversa, inclusive hacia el propio técnico Carlo Ancelotti. De eso y del pésimo rendimiento local se aprovecharon los alemanes, que abrieron la cuenta con un potente disparo de Christian Fuchs donde falló Casillas a los 20’. Cristiano Ronaldo equilibrió con un cabeza perfecta (25’) pero Huntelaar devolvió ventaja al Schalke a los 40’. Cinco minutos después llegó el tanto de ‘CR7’, con el que igualó el récord de Messi de 20 tantos en Champions League, acumulando ya 75 goles, iguales a los de la Pulga. Numerosos datos aparte, el Madrid seguía mostrándose errático, aunque encontró redención en el gol de Benzema (53"). Sin embargo, Sané (57") y Huntelaar (80') dejaron al Schalke a un gol de la heroica, cosa que evitó salvar Casillas frente a ambos remates. Posteriormente siguieron fallos y silbatinas."
+    }
+]
+``` 
+
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Any non-article sections like schedules or unrelated listings have been excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/peru21/2015/03/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "LAS PAREJAS HOMOSEXUALES SIN PODER HEREDARSE...",
+        "content": "Sin estar en el hospital cuando solo se permita la visita de familiares, sin poder compartir un seguro. Derechos que tenemos todos por el innegociable hecho de haber nacido personas, como dice la Constitución.\n\nQuizás, por ejemplo, para los congresistas Tubino, Eguren y Rosas, los homosexuales no son personas como todas y por eso no hay mal en que el estado y la sociedad los discriminan un poco. ¿Por qué? Porque \"amenazan\" a \"la familia\", a \"los niños\" y ofenden a \"Dios\", como asegura el cardenal. Y no se les ha ocurrido a Cipriani y a los congresistas que votaron en contra...\n\nPara todo lo demás, está el oscuro confesionario."
+    },
+    {
+        "headline": "ENTREVISTA DIANA HIDALGO",
+        "content": "\"Provisto del cargo de director académico, Diana Hidalgo analiza la situación de la educación en el Perú. Considera que, aunque falta mucho por avanzar, estamos mejorando favorablemente.\"\n\n\"Internacionalmente hemos mejorado a nivel latinoamericano. En PISA no estamos bien, pero estamos mejorando.\" \n\n\"¿Qué piensa usted sobre críticas que dicen que pruebas internacionales no reflejan completamente los avances en educación?\n\n\"Estoy de acuerdo. Evaluaciones como PISA y UNESCO sólo miden áreas específicas. Necesitamos sistemas más completos que también valoren valores civiles y capacidades personales.\"\n\n\"Cuál fue la reforma educativa más importante en años recientes?\n\n\"La reforma de la carrera pública magisterial rompió con décadas de precariedad. Ha sido crucial implementar criterios meritocráticos.\"\n\n\"Cómo podemos seguir evolucionando desde modelos educativos tradicionales?\n\n\"Un cambio significativo requiere adoptar métodos didácticos centrados en el alumno, donde él interactúa activamente con diversos recursos educativos. Esta transición aún enfrenta retos sustanciales tanto aquí como globalmente.\""
+    },
+    {
+        "headline": "",
+        "content": "-Brad Pizza-Toledo podría simbolizar humorísticamente preferencias políticas populares según comentarios satíricos.\n\n\-El Banco Central vendió miles de dólares para frenar la apreciación del billete verde, impactado por fluctuaciones económicas globales y locales.\n\n-Celebridades y figuras públicas expresan preocupaciones sobre efectos adversos de proyectos urbanos en residentes cercanos, destacándose incidentes relacionados con estructuras subterráneas.\n\n-La necesidad urgente de actualizar legislaciones referentes a derechos de extranjeros resaltada por autoridades competentes enfatizando inclusión social y protección legal básica.\n\n-Investigaciones preliminares señalan posibles negligencias militares vinculadas a usos indebidos de instalaciones gubernamentales, mientras otros reportes lamentables describen actos extremos dentro de establecimientos penitenciarios.\n\n-Acciones proactivas del gobierno local aumentan patrullaje policial buscando reducir índices criminales en regiones estratégicas.\n\n-Justicia cultural fortalecida mediante creación de tribunales multilingües favorecería accesibilidad equitativa a servicios legales para poblaciones indígenas."
+    }
+]
+```
+This JSON captures three distinct sections identified within the provided text based on their thematic focus while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. Note how each entry maintains its structure according to the required format.

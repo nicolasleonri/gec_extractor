@@ -1,0 +1,79 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2014/05/publimetro_14.txt ---
+
+```json
+[
+    {
+        "headline": "Artista Suizo Falleció Tras Caída Por Las Escaleras De Su Casa",
+        "content": "HR Giger, creador de Alien, murió a los 74 años."
+    },
+    {
+        "headline": "Medicos Piden Bonificación Extra Por Cumpleaños",
+        "content": "Galeno del MINSA y EPS iniciaron ayer una huelga indefinida. Miles de pacientes retornaron sin atención. Afiliados recibirán lo aportado según el ministro Castilla quien aclara varias dudas sobre bonificaciones de jubilación."
+    },
+  
+
+--- ERROR ENTRY: data/txt/publimetro/2014/05/publimetro_14.txt ---
+
+```json
+[
+    {
+        "headline": "Estados Unidos supera a Francia y lidera el ranking de países con mayor consumo de vino",
+        "content": "Estados Unidos demandó 29 millones de hectolitros de vino, 0,5 % más que el año previo; mientras que el consumo de Francia retrocedió 7,4 % respecto al 2012, cerrando el año con una demanda de 28 millones de hectolitros."
+    },
+    {
+        "headline": "OECD asegura que economías desarrolladas continuarán estables",
+        "content": "Las perspectivas de crecimiento para las economías emergentes están empeorando, pero siguen siendo estables para los países desarrollados, según afirmó ayer la Organización para la Cooperación y el Desarrollo Económico (OCDE). Indicadores de crecimiento de China (98,8), Brasil (98,4) y Rusia (99,2) se situaron por debajo del promedio a largo plazo de la OCDE (100), mientras que economías como Estados Unidos (100,4), Alemania (100,8) y la Zona Euro (101,2) se posicionaron sobre ese nivel."
+    },
+    {
+        "headline": "Series 'Family Guy' y 'The Simpsons' realizarán episodio conjunto",
+        "content": "Las series animadas estadounidenses 'Family Guy' y 'The Simpsons' harán un episodio juntas titulado 'Los Simpson Guy', presentándose en televisión en septiembre en EE.UU. Este especial mostrará cómo la familia Griffin visitará Springfield y conocerá a Homer y su familia."
+    },
+    {
+        "headline": "FARC celebra negociaciones mediante videoclip musical",
+        "content": "Las FARC publicaron un vídeo en el que, acompañados por el grupo cubano de rap Cuentas Claras, celebran las conversaciones actuales con el Gobierno colombiano. El tema ‘Pueblo Colombiano Pa’ la Mesa’, muestra imágenes de integrantes notorias de la agrupación rebelde."
+    },
+    {
+        "headline": "Identificación de menores secuestradas por Boko Haram",
+        "content": "Relacionados cercanos han reconocido a algunas de las 223 adolescentes secuestradas por la milicia radical islámica Boko Haram en Nigeria gracias a videos emitidos por estos últimos. Autoridades confían aún en hallar a las jóvenes sanas y salvas."
+    },
+    {
+        "headline": "Emboscada deja saldo mortal en conflicto ucraniano",
+        "content": "Milicias prorrusas llevaron a cabo ataques violentos en Donetsk, causando la muerte de siete soldados ucranianos y lesionando gravemente a otros ocho. Además, destruyeron múltiple material militar y provocaron disturbios civiles significativos en la localidad."
+    },
+    {
+        "headline": "Expertos evalúan riesgos del Virus MERS",
+        "content": "Con casos sospechosos detectados en California, funcionarios de salud pública organizaron una conferencia urgente en Ginebra para determinar si el coronavirus MERS constituye una preocupación global. Desde su aparición en Oriente Medio en 2012, el virus ha sido responsable de numerosas hospitalizaciones y víctimas mortales."
+    },
+    {
+        "headline": "Protestas separatas prohiben acceso a líderes internacionales",
+        "content": "Separatistas en Donetsk vetaron temporalmente la entrada de personalidades políticas globales tales como Obama, Angela Merkel y Catherine Ashton, argumentando tensiones locales derivadas de conflictos territoriales."
+    },
+    {
+        "headline": "Desastre minero causa tragedia masiva en Turquia",
+        "content": "Un colaps estructural seguido de un incendio devastador cobró la vida de aproximadamente 150 mineros turcos en Manisa. Rescate activo está en curso para salvar a quienes permanecen atrapados bajo tierra."
+    },
+    {
+        "headline": "Presidente Venezolano exhibe capacidad bélica en frontera",
+        "content": "Durante maniobras militares en Apure, Venezuela probó exitosamente sistemas de lanzacohetes rusos diseñados para neutralizar objetivos distantes, demostrando así fortaleza nacional y compromiso regional."
+    },
+    {
+        "headline": "Uruguay persistirá en legalización de cannabis",
+        "content": "Ante resistencias externas, especialmente provenientes de EE.UU., José Mujica sostuvo firme su postura sobre regular el uso de marihuana en Uruguay, buscando cortar influencias ilegítimas del narcotráfico."
+    },
+    {
+        "headline": "Innovadoras tiras cómicas miniatura creadas en cabello humano",
+        "content": "Artífices alemanes utilizaron tecnología avanzada para crear microcomic denominado 'Juana Knits The World'. Solo visible bajo microscopia, esta obra destaca tanto por su creatividad técnica como narrativa."
+    },
+    {
+        "headline": "Paro generaliza servicios públicos en Rio de Janeiro",
+        "content": "Manifestantes interrumpieron operatividad de transportes urbanos en respuesta a reclamos sindicales, generando severas complicaciones económicas y sociales en anticipación a eventos mundiales próximos."
+    },
+    {
+        "headline": "Selección peruana prepara plantillas para próximo campeonato",
+        "content": "Equipos nacionales ajustan formaciones definitivas conforme se aproximan fechas cruciales del evento futbolístico continental, incorporando talentos clave recuperados de lesiones."
+    },
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on contextually significant information related to current events and topics discussed within the input data. Any non-article sections such as ads or unrelated listings have been excluded according to guidelines.

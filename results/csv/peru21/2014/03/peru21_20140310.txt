@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/03/peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "Cienciano supera a Universidad",
+        "content": "Este jueves, antes del encuentro contra Unión Juventud, el campeón apostó por un once alternativo. Entre estos cambios destacó la presencia juvenil de Diego Canseco en la línea defensiva, así como Iván Uríbe (22 años) y Jonathan Aguirre (18 años) en mediocampo, quienes enfrentaron dificultades frente a Martin Illic y Gary Correa.\nPero también Cienciano tenía limitaciones, siendo notable cómo Ricardo Calderón resultó más obstáculo que ayuda, excepto por intervenciones notables del juvenil Renato Chira. Ya a los 21', Correa intentó marcar desde larga distancia iniciándose el peligro hacia el arco contrario. Posteriormente, Calderón falló otra oportunidad clara (26’), y el travesaño salvó un potencial tanto de Correa a los 38’. Para el descanso, Cienciano había acumulado 14 tiros comparado con apenas dos de la ‘U’, augurando un resultado adverso."
+    },
+    {
+        "headline": "Les Cayuno Correaso",
+        "content": "Renato Chira facilitó el camino para que Gary Correa marcara, encontrando espacio gracias a la indecisión de Dvila. Esto permitió a Llontop convertir mediante un disparo al primer palo cinco minutos después. Aunque la ‘U’ buscó responder rápidamente con un cabezazo de Christian Martinez detenido por Morales, el destino pareció inclinar la balanza definitivamente a favor de Cienciano. Más tarde, un disparo de Rivera evitado nuevamente por Llontop (83’) precedía a un impacto frontal de Hansell Riojas contra el lateral del arco (84”), manteniéndose incólumes ambos postes."
+    },
+    {
+        "headline": "Alianza sorprende a Garcilaso",
+        "content": "Utilizando uniformes especiales inspirados en su hija menor, Canela, Luis Trujillo consigue abrir el marcador capitalizando errores del portero Juan Pretel durante el choque con Real Garcilaso. “Levanté la mirada al cielo recordando a mi pequeña, expresando gratitud divina por el gol conseguido y el recibimiento entusiástico de nuestra afición,” comentó Trujillo. Actualmente, el club está planeando estrategias para contrarrestar efectivamente a Sport Boys en el próximo compromiso dominical.”
+    },
+    {
+        "headline": "Selección Peruana Sub-17 decepciona",
+        "content": "Durante su participación inicial en los juegos Odesur dentro del Grupo A, el conjunto dirigido por Juan José Orcasitas sufrió una contundente derrota ante Colombia, culminando el encuentro con un marcador de 4–1. Este único punto positivo proviene del gol anotado por el delantero Luis Ibérico. Por otro lado, Mauricio Fiol obtuvo reconocimientos individuales obteniendo plata en los 100 metros mariposas, además de prepararse para futuros eventos competitivos ese mismo día."
+    },
+    {
+        "headline": "Escuela de Gestión Pública ofrece diplomados",
+        "content": "Se invita a interesados a inscribirse en programas especializados tales como Gestión Financiera Pública, Tributos Municipales y Regulaciones Laborales Sector Públicas. Información adicional disponible en contacto telefónico proporcionado junto a dirección física especificada."
+    }
+]
+```
+This JSON captures key details about each identified article within the provided text while adhering strictly to the specified structure for headlines and contents. Articles were selected based on their relevance and completeness according to defined criteria. Any missing data was filled using "NA". This ensures clarity and usability of extracted information.

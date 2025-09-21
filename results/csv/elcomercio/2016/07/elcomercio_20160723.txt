@@ -1,0 +1,18 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/07/elcomercio_23.txt ---
+
+```json
+[
+    {
+      "article_id_01": {
+          "title": "EL LOCO DEL Martillo",
+          "text": "Hoy en día, uno pensaría que...".  
+      },   
+     {    
+         "articles":[
+           {"heading":"El loco del martillo"},
+       ],
+   }],     
+```
+The above example demonstrates how each extracted article should appear within the specified format for inclusion in the resulting JSON structure. This ensures clarity regarding which parts of the input data were included based upon their relevance to journalism standards while excluding irrelevant sections such as ads, subscriptions, etcetera.

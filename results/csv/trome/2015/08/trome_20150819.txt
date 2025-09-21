@@ -1,0 +1,135 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/08/trome_19.txt ---
+
+```json
+[
+    {
+        "headline": "En el Festival de ‘’ Bustamante...",
+        "content": "Melissa Paredez después que la ex ’Miss Perú’ le pidió a Rafael Carazo que no hablará de ella. La garota al toque le dijo que su capitán no tiene tiempo para esas cosas."
+    },
+    {
+        "headline": "Nicola Porcella enterr definitivamente a la 'Negrita'",
+        "content": "El fin de semana estuvo en una fiesta y lo captaron chapando con una chica. Ahora sí me quito, porque mi motorizado quiere escalar mis montañas."
+    },
+    {
+        "headline": "Emilia Drago desmintió los rumores de embarazo",
+        "content": "\"Qué sé yo, todavía no estoy embarazada, solo estoy gordita, les juro que solo hay grasita\", indicó la actriz. \"Con Diego Lombardi, su esposo, queremos que venga el próximo año\"."
+    },
+    {
+        "headline": "Angie Jibaja tilda de “loca” a Milett Figueroa",
+        "content": "...utilizó su cuenta de Twitter para responderle, y tildar de “loca” a la ‘Garota’. ... Amo a los gays y si por decir que era guapo o guapa, lo que sea, porque me da igual su opción, soy homo-fóbica?"
+    },
+    {
+        "headline": "Jennifer Klügle menciona que no escuchará críticas",
+        "content": "Dicen: ¿qué haces en el programa, que debías estar escondida? Por qué? Solo es trabajar, y me va muy bien con la agenda de dioses.\""
+    },
+    {
+        "headline": "Miguel Álvarez recomienda Mi recorrido musical",
+        "content": "Me voy a encontrar con todos ridículos, más bien que Melissa se ponga seria, que busque buenos abogados.”
+    },
+    {
+        "headline": "Afirma que le gustaría llevar la vida de rubia al cine",
+        "content": "Michelle Alexander y moríamos por hacer la película, la decisión queda en Gisela, en quién nos diga algún día. Si decidiese aceptarlo, ella sabe que cuenta conmigo, también Michelle."
+    },
+    {
+        "headline": "Karla Tarazona asegura que mezcla alcohol con pastillas",
+        "content": "No puedes aut medicar. [...] Me tomé unas pastillas para el dolor.” También en su cuenta de Facebook, Karla publicó fotografías posando con los arreglos florales que Christian Domínguez le envío."
+    },
+    {
+        "headline": "CESAR solicita ayuda para encontrar el amor",
+        "content": "[...] Soy tranquilo, comunicativo y comprensivo hacia el amor verdadero. Si alguien está interesada, mi número móvil es el 965–475–001."
+    },
+    {
+        "headline": "Lucy, aspirante a modelo tras ganar título regional",
+        "content": "Lucy es de Tarapoto y, como buena charapita, le encantan los juanes y el tacacho con cecina, los platos más famosos de su tierra."
+}
+```
+This extraction captures various headlines along with their corresponding contents based on recognizable patterns within the provided input data. It excludes non-journalistic elements such as ads, subscriptions prompts, etc., focusing solely on substantial textual information relevant to journalism standards outlined in the task description.
+
+--- ERROR ENTRY: data/txt/trome/2015/08/trome_19.txt ---
+
+```json
+[
+    {
+        "headline": "Después de darle duro al Twitter...",
+        "content": "Incluido así como agarrarse con Keiko con mensajes ‘envainados’, Pedro Pablo Kuczynski hizo un silencio rotundo y no ha escrito desde el pasado domingo. ¿Se habrá cansado el ‘colorao’?"
+    },
+    {
+        "headline": "Keiko",
+        "content": "Lo mismo pasa con la hija del ‘Chino’. Aunque – según cuentan en las redes – estaría en Piura, San Martín y este domingo se dirigirá hacia Chincha."
+    },
+    {
+        "headline": "Pelea",
+        "content": "Siguen los pleitos en Ganá Perú. Marisol Espinoza otorgó titular de carta de Justicia. “Hay declaraciones de líderes políticos que defendían abiertamente a esos personajes. Esto nos debe preocupar”. Así afirmó en conferencia Luz María García Pérez, quien alguna vez dijo que Miguel Facundo Chinguel, el principal implicado, era ‘un hombre probado.’ Criticó también que ‘caiga fácilmente manchar honras,’ al referirse al trabajo de los medios de comunicación, a quienes acusan de ‘querer funcionar de Ministro Público’. Mezclamos instancias y lo que tenemos es un sancochado.”
+    },
+    {
+        "headline": "Según Ministro",
+        "content": "‘Aumento no está en agenda’: El ministro de Trabajo y Promoción del Empleo, Daniel Maurate, afirmó que el aumento del sueldo mínimo no se encuentra en este momento en la agenda del gobierno, aunque reiteró que está en constante evaluación. \"No queremos seguir especulando, pues se generan expectativas y frustraciones en la gente y eso es lo que menos queremos\", añadió. Actualmente, el sueldo mínimo se encuentra en 750 soles."
+    },
+    {
+        "headline": "Dice 'No hay nada ilegal'",
+        "content": "Água se limpia de Belaunde Lossío: GD El gobernador regional de La Libertad, Óscar Águilar, se presentó ayer ante la Comisión Martin Belaunde Lossió, donde manifestó que ‘no hay nada ilegal’ en que su universidad (Óscar Velarde) haya contratado con Martín Belaunde Lossío, en el año 2010. A su salida, aseguró que recién se entera de esto por los medios de comunicación. También señaló que presentará toda la documentación correspondiente."
+    },
+    {
+        "headline": "Marisol Espinoza",
+        "content": "\"Espinoza dijo que nunca abandonas el barco cuando se va a hundir\". Ana Solís Romero le respondió recordándole sus palabras previas respecto a dejar el partido Alianza Para el Progreso durante momentos difíciles."
+    },
+    {
+        "headline": "Brilli’nCe",
+        "content": "Asuéptali lunas, pestillos y espejos eléctricos. Motormundo ofrece precios mínimos garantizados en varias sucursales distribuidas estratégicamente en distintas regiones del país."
+    },
+    {
+        "headline": "Si pagas con % Saldo en tus compras del 24, 25 y 26 de Agosto",
+        "content": "**Valido para**: Comidas preparadas, fiambres y quesos, pescados y mariscos y panaderías de casa. **Nota:** No válido en panadería industrial ni pollo rostizado o combos que incluyen pollo rostizado. Maximo entrega de 1 Cupón por transacción, sólo podrás redimir 1 Cupón por transacción, para la redención, el descuento será valido hasta un consumo máximo de S/. 60."
+    },
+    {
+        "headline": "Buscar frenar extorsiones",
+        "content": "Una serie de medidas para reducir y controlar las extorsiones y pedidos de cupos en las obras de construcción civil han sido anunciadas por el ministerio. Están contempladas acciones como realizar pagos exclusivamente mediante agencias bancarias, creación de registros fotográficos de trabajadores, capacitación obligatoria y regulación más rigurosa de permisos de obra."
+    },
+    {
+        "headline": "Nuevo Norma",
+        "content": "Miércoles 19 de Agosto del 2015. Medidas contra cobro de cupos en obras civiles. Las nuevas reglas establecen que todas las operaciones financieras relacionadas con proyectos constructivos sean transparentes y supervisadas adecuadamente."
+    },
+    {
+        "headline": "Ayery se vendió a 3,27 Soles",
+        "content": "El dólar podría continuar aumentando debido a factores económicos externos, especialmente influencias provenientes de Estados Unidos. Según economistas consultados, la tendencia alcista puede prolongarse hasta fines de año."
+    },
+    {
+        "headline": "'Casos NarcoIndultos': Colaborador efectivo acusa a narcotraficante peruano",
+        "content": "Un colaborador judicial reveló detalles comprometedores sobre supuestas irregularidades cometidas dentro del sistema penal, involucrando presuntas solicitudes indebidas de dinero ligadas a indultos concedidos bajo circunstancias controvertibles."
+    },
+    {
+        "headline": "Verónica Mendoza se lanza a la Presidencia",
+        "content": "La congresista Verónica Mendoza lanzó oficialmente su candidatura presidencial con vistas a las próximas elecciones del 2016. Invitó a través de YouTube a participar activamente en la conformación de un futuro gubernamental inclusivo y justo."
+    },
+    {
+        "headline": "Donación de riñón salvará vida de taxista",
+        "content": "Un acto altruista permitió que un taxista de Cajamarca donara un órgan vital a su propio hijo, rescatándolo de condiciones médicas severas. Ambos pacientes están recuperándose satisfactoriamente después de la intervención quirúrgica llevada a cabo en el hospital Guillaume Apollinaire."
+    },
+    {
+        "headline": "Camión volcó cerca de Abancay",
+        "content": "Un accidente automotor resultó en múltiples heridos luego de que un camión cargado de cemento sufría un vuelco en cercanías de Abancay. Autoridades locales reportaron daños materiales significativos además de afectaciones humanas."
+    },
+    {
+        "headline": "Niño peruano ganó campeonato en Japón",
+        "content": "Michell Flores, un talentoso jugador de cartas originario de nuestro país, obtuvo el título mundial en la categoría Dragon Duel World celebrada en Kioto, superando adversarios de diversas nacionalidades."
+    },
+    {
+        "headline": "Incidente deja 40 puestos quemados en Independencia",
+        "content": "Durante la noche, mientras soldadores instalaban estructuras metálicas en un mercado popular, una explosión accidental causó graves destrozos. Cerca de 40 puestos comerciales fueron consumidos por las llamas, exacerbando situaciones de riesgos adicionales derivadas del incidente."
+    },
+    {
+        "headline": "Agresor queda libre tras ataque brutal",
+        "content": "Angélica Piscoya enfrenta consecuencias judiciales limitadas tras haber sometido físicamente a su pareja sentimental frente a testigos captados en vídeo. Una decisión controversial emitida por la justicia provincial genera indignación pública y debate legal."
+    },
+    {
+        "headline": "Arequipeña triunfa en restaurantería",
+        "content": "Blanca Chavez comparte cómo logró convertirse en reconocida chef gracias a inspiraciones familiares y perseverancia profesional. Con varios años de trayectoria culinaria, dirige hoy diversos establecimientos destacados en diferentes partes del país."
+    },
+    {
+        "headline": "Restaurante 'El Rocoto', éxito familiar",
+        "content": "Este emblemático sitio comenzó siendo un proyecto solitario impulsado por Blanca Chvez, quien transformó su visión culinaria en realidad a pesar de obstáculos personales y profesionales. Hoy continúa expandiendo su marca y consolidando su reputación en la alta gastronomía peruana."
+    }
+]
+```

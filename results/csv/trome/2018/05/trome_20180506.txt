@@ -1,0 +1,68 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/05/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contenido editorial omitido debido a restricción de longitud."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamán ordenó..."
+    },
+    {
+        "headline": "Entrevista Exclusiva: Historias detrás de ‘Pao’",
+        "content": "‘Chato Matta llegó al restaurante por un ceviche...' "
+    },
+    {
+        "headline": "Alertas y Denuncias al WhatsApp",
+        "content": "Pedimos construcción de un centro de salud en Palomino..."
+    },
+    {
+        "headline": "Comunidad solicita atención médica urgente",
+        "content": "'La lectora también se pregunta por qué no dan...'
+    },
+    {
+        "headline": "Gracias por reconocer un servicio ejemplar",
+        "content": "Experiencia satisfactoria con Bomberos y personal de seguridad..."
+    },
+    {
+        "headline": "Detención de banda de delincuencia organizada",
+        "content": "Capturan integrantes de 'La Batería de la Gorda Lu'"
+    },
+    {
+        "headline": "Investigan implicación de mototaxista en homicidio",
+        "content": "Polícia arresta a mototaxista involucrada en muerte de universitario..."
+    },
+    {
+        "headline": "Operativos policiales frustran intentos criminales",
+        "content": "Intervienen armas, drogas y liberan automotores secuestrados..."
+    },
+    {
+        "headline": "Robos coordinados mediante comunicación móvil",
+        "content": "Localización exitosa gracias a seguimiento satelital..."
+    },
+    {
+        "headline": "Premios sorprendentes durante este Domingo Festivo",
+        "content": "Participa hoy y gana miles de soles!"
+    },
+    {
+        "headline": "Celebramos Cinco Aniversarios junto a ti",
+        "content": "Regalaremos Smart TVs para vivir emociones futbolísticas..."
+    },
+    {
+        "headline": "Julio Guzmán: Un líder político optimista",
+        "content": "Encabezará encuestas hacia elección presidencial 2021..."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extracting significant journalistic pieces. Note that some lengthy texts have been summarized under `content` where necessary to maintain clarity within constraints.

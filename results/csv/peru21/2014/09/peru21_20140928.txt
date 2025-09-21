@@ -1,0 +1,67 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/09/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Escenario Internacional",
+        "content": "\"El actor contrajo matrimonio con\nAmal Alamuddin en Venecia,\n...\"\nPuedes leer más detalles sobre esta noticia aquí."
+    },
+    {
+        "headline": "Celebridades Internacionales Casándose",
+        "content": "\"El actor de \nHollywood y soltero\ncodiado George\nClooney le dio el\n'sí, quiero'\na su prometida\nAmal Alamuddin...\n\""
+    },
+    {
+        "headline": "Premio Cinematográfico Peruano",
+        "content": "\"El documental Buscando a Gastón, que tiene como protagonista al chef peruano Gastón Acurio, fue premiado en el Festival de Cine de Santander de España.\n\""
+    },
+    {
+        "headline": "Revelación Personal De Actriz Mexicana",
+        "content": "\"Sin temor a nada, la actriz mexicana María Antonieta de las Nieves, que interpreta a la Chilindrina, anunció que revelará secretos del programa El Chavo del ochoen el libro autobiográfico titulado Había una niña en una vecindad.\""
+    },
+    {
+        "headline": "Alianza Lima Mantuvo Invicto",
+        "content": "\"Los mínimos, que conservaron el invicto, pudieron ganar en el final. [...] Esta vez lo mejor de Alianza fueron los hombres de pierna atenta.\""
+    },
+  
+
+--- ERROR ENTRY: data/txt/peru21/2014/09/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Señalarán incumplimientos de acuerdo de transporte público",
+        "content": "Según información proporcionada por Protransporte, están pendientes acciones relacionadas con un acuerdo firmado el 19 de septiembre de 2014. Cambios significativos incluyen modificaciones en puntos de partida y eliminación de ciertas estaciones."
+    },
+    {
+        "headline": "Realización del Concurso de Reubicación Docente",
+        "content": "El Ministerio de Educación llevará a cabo medidas de seguridad rigurosas durante el evento realizado hoy. Profesionales educativos deberán abstenerse de traer dispositivos electrónicos tales como teléfonos móviles y cámaras digitales."
+    },
+    {
+        "headline": "Cuatro nuevas alarmas de seguridad instalarán en San Juan de Lurigancho",
+        "content": "Daniel Urresti, Ministro del Interior, comunicó la implementación de sistemas de alerta gestionados por comunidades locales en áreas estratégicamente seleccionadas del distrito."
+    },
+    {
+        "headline": "Proceso continuará con la colocación de geomallas en la Costa Verde",
+        "content": "Emave confirmó planes futuros para continuar fortificaciones costeras utilizando geomallas en distintos segmentos de playa próximamente."
+    },
+    {
+        "headline": "Detención de líder político tras ataque mortal",
+        "content": "Líder Hany Villazana Flores, aspirante a alcaldía, fue víctima fatal de un ataque perpetrado mientras planificaba actividades de campaña electoral."
+    },
+    {
+        "headline": "Capturan a presunta ‘Reina de la droga’ después de su boda",
+        "content": "Benita Vilca Vilca enfrenta cargos múltiples luego de ser arrestada justo después de contraer matrimonio en Juliaca."
+    },
+    {
+        "headline": "Intervenciones policiales destacables",
+        "content": "Operativo exitoso resultó en la aprehensión de individuos involucrados en diversas infracciones legales, incluidos casos de narcotráfico y posesión ilegal de sustancias prohibidas."
+    },
+    {
+        "headline": "Escritores inspiran obras dramáticas basadas en cartas ficticias",
+        "content": "Obra titulada “Fraude Epistolario” presenta interacción literaria imaginativa entre figuras históricas José González y Juan Ramón Jiménez."
+    },
+]
+```
+This extraction focuses solely on significant journalistic pieces while excluding non-content elements like ads and unrelated notices. It maintains structure according to provided guidelines for headlines and contents within each identified story.

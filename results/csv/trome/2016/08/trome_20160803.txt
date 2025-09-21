@@ -1,0 +1,54 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/08/trome_03.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que Curly recuperó su libertad después de que su abogado pechara persistentemente ante un magistrado que había reducido su condena a cinco años hacia fines del 2014, explicó un alto oficial."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque estoy libre nuevamente y he regresado a mis actividades criminales habituales. Durante sus indagatorias, la policía consiguió evidencias suficientes para demostrar que el detenido planeó y coordinó un atraco en la cuadra cuatro de la avenida Las Begonías, en San Isidro."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "LA MAYORA SON JOVENES",
+        "*LA HISTORIA DE SIEMPRE_X_Curry'",
+        "content": "\"Curry\" fue condenado a 12 años por robo agravado en el Penal Castro Castillo. Para la Policía Nacional, él fue \"el cerebro\" detrás del asalto perpetrado junto a varios cómplices en la mencionada ubicación."
+    },
+    {
+        "headline": "Cocina peruana en Records Guinness",
+        "content": "La cocina peruana ostenta reconocimiento mundial gracias a su diversidad culinaria, siendo catalogada por el Record Guiness como poseedora de la más amplia variedad de platillos típicos (491). Participará activamente en eventos gastronómicos internacionales destacándose también por tradiciones ancestrales como la pachamanca y el ceviche."
+    },
+    {
+        "headline": "Puso Cargo a Nuevo Titular de Institución Penitenciaria",
+        "content": "Julio Magán renunció a seguir liderando la Dirección General de Instituciones Penitenciarias (DGII-PEN), dejando claro que está listo para cooperar bajo nuevas direcciones establecidas por la Ministra de Justicia, Marisol Pérez Tello."
+    },
+    {
+        "headline": "Joel Chirinos cumple sueño al convertirse en uno de los 50 mejores bartenders del mundo",
+        "content": "Este joven limeño comenzó trabajando en restaurantes locales y ascendió rápidamente dentro del competitivo ámbito de coctelería global, obteniendo prestigioso reconocimiento en competencias internacionales como World Class."
+    },
+    {
+        "headline": "Clinton supera a Trump en preferencias electorales según última encuesta",
+        "content": "Según un estudio de opinión pública, Hillary Clinton cuenta actualmente con un 46% de apoyo electoral comparado con el 39% de Donald Trump, anticipando así una posible disputa presidencial en Estados Unidos."
+    },
+    {
+        "headline": "Delgado tendrá baja médica de tres semanas debido a lesión muscular",
+        "content": "Tras lesionarse gravemente en un encuentro deportivo, Erick Delgado será sustituido temporalmente en el campo de juego, permitiendo que otro portero ocupe su posición habitual en el próximo duelo contra Atlético Mineiro."
+    },
+    {
+        "headline": "Defensor Sporting recibirá visitantes afectados económicamente",
+        "content": "Un grupo futbolístico experimenta dificultades financieras significativas, incapacidad para cubrir costos básicos incluida la alimentación adecuada de sus integrantes, situación que podría llevar a cambios administrativos importantes próximamente."
+    },
+    {
+        "headline": "Juventus desea adquirir servicios de Cristiano Ronaldo",
+        "content": "Se reporta que Juventus evalúa firmar al famoso delantero Cristiano Ronaldo proveniente del Real Madrid, ofreciendo un contrato lucrativo estimado en aproximadamente 25 millones de euros."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines for extraction. Articles were identified based on distinct headings followed by relevant textual information. Non-article sections such as ads and irrelevant data have been excluded according to specified criteria.

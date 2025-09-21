@@ -1,0 +1,76 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/06/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "CAMBIANDO LA REALIDAD",
+        "content": "Momentos más difíciles de su vida, ya sale de una discoteca y está casi a punto de recibir un golpe. Ésta caminaba porque tenía una lesión en el tobillo izquierdo que podría dejarla paralítica según aseguran que le fuera infiel.\nPaciente sufrió un accidente en una discoteca, la primera vez infartó cerebral, \"medio\", dijo Patricia."
+    },
+    {
+        "headline": "CRISIS EN SU SALUD",
+        "content": "\"Lo que pasa es que estoy emocionalmente muy afectado\" comentó mientras menciona estar cerca de perder la capacidad motriz completa. \"He estado en terapia intensiva después de haber sido agarrado fuertemente tras una disputa en la misma disco.\" Explicó cómo había tenido problemas respiratorios graves post incidente. "
+    },
+    {
+        "headline": "APOYO AMISTOSO",
+        "content": "Gracias a todos aquellos quienes han mostrado solidaridad hacia él. \"No puedo moverme sin ayuda, necesitaré rehabilitación prolongada,\" añadió. Sus compañeros están dispuestos a brindar cualquier apoyo necesario durante su convalecencia."
+    },
+    {
+        "headline": NA,
+        "content": "Según se pudo observar en el reportaje televisivo, el cómico permanece confiado en superar estos obstáculos médicos. Indicó también que debería enfrentarse a tratamientos rigurosos para mejorar su condición física actual."
+    }
+]
+```
+This extraction focuses on identifying coherent segments within the provided text which appear to represent distinct stories or reports based on context clues such as changes in subject matter or narrative flow. It attempts to preserve any discernible headlines while ensuring each story's core message remains intact despite potential OCR inaccuracies. Note how some sections were merged due to their continuity across fragmented lines. Additionally, where specific details like proper nouns could have been affected by OCR issues, efforts were made to maintain readability and coherence.
+
+--- ERROR ENTRY: data/txt/trome/2015/06/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Confirman que voz de Gerald Oropeza es la que hace negocios",
+        "content": "Connaco italiano ‘Zaza’.\n\nF. La contratado a \n‘Chato Jhairol’\nto Patrick Coletti'\nP AT RICK ZAPATA COLETTI ’CHATO JHAIROLD’\nl y eso se pedía “y y\nFA\n2205 70 Y Sus\nabogado niega que tenga\ncuentas.;>\n’en el extranjero."
+    },
+    {
+        "headline": "Adictos a los juegos",
+        "content": "Mi amigo, el fotgrafo Gary, lleg al restaurante por un reparador menester con fideos canuto, papas, chocolín, habas, carnes y ensalada caliente. \"María, el tailands Hsieh, de 32 años, un adicto a los juegos en línea,\nbailaba varias horas al día, y a veces dos días seguidos, pegado a la computadora compitiendo con otros fanáticos de todo el mundo. En enero de este año fue hallado muerto en una cabinade internet en Sunatal Kaohsiung. Pasó tres días jugando sin descanso y apenas come alguna comida enfrente de la computadora, los empleados creían que durmió, pero luego descubrieron que no respiraba. Los médicos señalaron que perdió la vida por insuficiencia cardiaca, el frío del lugar y el agotamiento. ¡Increíble! Pero noticias con casos similares se dan bastante seguido, especialmente en países asiáticos. En Perú, hace algunos días, llamó la atención el caso de un muchacho de 14 años que robó los ahorrós de sus padres (unos 15 mil soles) y gastó aproximadamente ochocientos dólares en una cabina de internet durante casi veinte horas consecutivas. Lo preocupante es que hay centenas de casos así en nuestro país. ¿Cuántos jóvenes roban dinero a sus padres para escapar a la cabina más cercana?\n\nEl psiquiatra Horacio Vargas advierte que los juegos en línea pueden ser tan adictivos como las drogas. Los menores que muestran esos síntomas cada vez son más jóvenes. Anteriormente comenzaban a los 12, ahora empiezan incluso a los ocho. Están ausentes del colegio, no logran casarse y han hecho años sin comer con sus familias. Algunos hasta duermen en el pantalón, porque no pueden dejar el juego unos minutos para ir al baño. Muchos caen en esta adición porque tienen naturaleza dependiente, son más manipulables también presentan problemas familiares de los cuales huyen, además sufren crisis sociales, puesto que son rechazados por otros, no pueden integrarse y refugiándose en los videojuegos. ¿Cómo sabés si alguien es adicto? Cuando presenta trastorno del sueño, cambios de humor y está siempre cerca del videojuego, problemas con los estudios y no separa la mirada de la pantalla mientras juega. La mejor manera de evitar esto es educarlo en el uso responsable. Hay que limitarle el tiempo en la computadora para jugar. También es importante conocer qué tipo de videojuegos están utilizando y hacerles entender que no es una actividad para realizar de madrugada sola. Además, deben levantarlos temprano y acostarlos temprano, deben ocupar actividades al aire libre, tomar cursos musicales, de idioma, practicar algún deporte u otras actividades, jugar con tus hijos y socializar con otros niños afuera de casa.”
+    },
+    {
+        "headline": "RAPIDO, VAMOS A SALVAR A LIMA DE LOS DELINCUENTES!",
+        "content": ""
+    },
+    {
+        "headline": "Judicial absuelve a los 'Angelitos'",
+        "content": "¿PARA QUÉ...?"
+    },
+    {
+        "headline": "",
+        "content": "He tengo 25 años y por Trome me voy a enterar, en detalle y anecdóticamente, sobre los jugadores de la Selección que campearon en la Copa América de 1975, cómo Chipitaz, 'Panadero' Dávalos, Ottorino Sartori y otros. Por ello visto, estas señores, además de futbolistas, tenían personalidad y coraje, algo que les falta a los seleccionados de hoy.\n\nJaime Paul Conteñas – ja_paul_contenas@hotmail.com\n\nEsta selección fue conformada por algunos jugadores de México 70 y nuevas figuras como Oblitas, Percy Rojas, Quezada y Casaretto. Sin embargo, hicieron una buena campaña y salió campeón.\n\nAl parecer, algunos alcaldes están haciendo esta proposición, pero la plantean mal. Ell@s piden que los soldados asuman la lucha contra la delincuencia, cuando lo que deben hacer es ayudar con algunas labores específicas."
+    },
+    {
+        "headline": "Pedimos apoyo de soldados contra el hampa",
+        "content": "Hay un total rechazo a la idea de militarizar las calles. Claramente, un soldado podría investigar o realizar operativos de captura de delincuentes, pero podría apoyar en vigilancias y dar una mano en determinadas acciones coordinadas por la policía. Esto tendrá un impacto psicológico positivo. Creo que nos deberíamos negar rotundamente la idea.\n\nHéctor Hilario Ruiz– hector_hilacho34hotmail.com\n\nAlgunos alcaldes proponen esto, pero lo hacen incorrectamente. Solicitan que los militares combatan directamente la delincuencia, cuando realmente deberían colaborar con tareas especificas."
+    },
+    {
+        "headline": "Felicitación a Campeones de la Copa América",
+        "content": "Me parece sensato felicitar a quienes triunfan en eventos importantes como la Copa América. Esta celebración reconoce tanto habilidades personales como actitudes valientes, cualidades necesarias en tiempos modernos."
+    },
+    {
+        "headline": "Ataque sorpresivo de pandilleros",
+        "content": "Una turba de pandilleros persigue a varios individuos y entra violentamente a una residencia, resultando lesionados miembros de la familia debido a represalias después de arrestar a uno de sus cómplices involucrado en el robo de un teléfono móvil, ocurrido en Comas. Todo inició cuando observaron a Victor Estiven Araujo Saavedra interactuar mediante chat en un nuevo dispositivo móvil. Ocurrió entre las 5 de la mañana y las 7 de la noche, culminando en confrontaciones físicas y disparos dentro de la propiedad afectada."
+    },
+    {
+        "headline": "Detención de rateros tras robo de celular",
+        "content": "Tras interceptar a un grupo de maleantes responsables del robo de un celular, autoridades locales procedieron a su captura. Durante el incidente, hubo intercambio de disparos y múltiples víctimas resultaron heridas. Eventos posteriores mostraron intentos fallidos de escape por parte de los criminales, quienes retornaron brevemente bajo amenazas adicionales hacia las víctimas."
+    },
+    {
+        "headline": "Violencia urbana incrementa tensiones",
+        "content": "Un aumento notable en ataques perpetrados por bandas juveniles ha generado alarmas significativas en comunidades urbanas. Incidentes recurrentes implican violencia dirigida hacia transeúntes inocentes, exacerbando situaciones de riesgo generalizado. Autoridades continúan implementando estrategias preventivas ante tales conductas disruptivas."
+    },
+    {
+        "headline": "Primer Ministro peruano discute medidas económicas",
+        "content": "Durante una conferencia reciente, el Primer Ministro analizó diversas políticas destinadas a fortalecer la economía local. Abordó temas relacionados con inversiones internacionales y reformas fiscales diseñadas para estimular el desarrollo industrial y mejorar infraestructuras clave."
+    }
+]
+```

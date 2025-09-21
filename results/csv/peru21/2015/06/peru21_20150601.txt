@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/06/peru21_01.txt ---
+
+```json
+[
+    {
+        "headline": "¿Qué hubiera pasado?",
+        "content": "Por supuesto. Mientras no se consume la extradición,\ntras no lo entreguen, se pudo haber planteado\nhasta el final.\n\n¿Qué debió hacer el Estado peruano para ello?\nDebe hacer un pedido formal de inmediato, porque, desde\lla recaptura de Belaunde, el Estado boliviano dio\nmuestras de que quisiera deshacerse de él de \ndiatos. Entonces, la figura de la extradición o\nexpulsión para ellos era indiferente."
+    },
+    {
+        "headline": "Ciudad",
+        "content": "\nMorro Solar se volvió en un campo de batalla. Cerca de 60\ntraficantes de tierras —que querían volver a invadir la\nzona— se enfrentaron ayer con palos, piedras, hondas y\nmachetes a personas del sector conocido como Marca-vilca, en Chorrillos, donde se encuentra una zona\narqueológica.\n\nMujeres embarazadas, venenes, adultos, niños y ancianos\nllegaron al lugar a las cinco de la mañana con carpas,\nrastros y plásticos para tomar posesión de un área\nintangible de 32 hectáreas ante la ausencia de personal de\nseguridad del Ministerio de Cultura.\n\nCuatro horas después, los usurpadores se enfrentaron\nhasta con armas blancas contra los habitantes del sector,"
+    },
+    {
+        "headline": "Electrónico",
+        "content": "Este documento posee un chip que contiene toda la información del portador, incluyendo sus huellas digitales, lo que agiliza el control migratorio.\n\nSetrata también de un requisito indispensable que exige la Comunidad Europea para la eliminación de la visa Schengen."
+    },
+    {
+        "headline": "CREAN DOBLE VARIEDADES DE PATATA",
+        "content": "Constante variación climática ha impulsado a científicos del Instituto Nacional de Innovación Agraria (INIA) a desarrollar nuevas variedades de papas más resilientes a cambios ambientales severos. Las innovadoras variantes están siendo evaluadas en Santa Rita de Siguas, Arequipa, prometiendo tolerancias superiores a sequías y enfermedades."
+    },
+    {
+        "headline": "MATAN A TRES EN QUINCEAO",
+        "content": "Durante un evento nocturno en Villa Uña de Gato, Zarumilla, tres individuos murieron víctimas de un ataque perpetrado por tres pistoleros motorizados. Entre las víctimas está un infante de apenas nueve años."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data.

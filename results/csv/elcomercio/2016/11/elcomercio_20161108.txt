@@ -1,0 +1,31 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/11/elcomercio_08.txt ---
+
+```json
+[
+    {
+        "headline": "¿Por qué fueron elegidos dos de McKinsey?",
+        "content": "Un hombre alejado de la profesión y experiencia en materias económicas financieras, ya sea controvertido políticamente o no, también contribuiría poco a las decisiones de política monetaria, cambiaria, bancaria y financiera. Por ello, la ley lo excluye. Claro está, ocasionalmente un directorio requerirá de opinión legal, pero para eso basta con un asesor legal. La idea de otorgar al directorio un perfil multidisciplinario parece más un capricho insensato.\nPretendemos integrar la OCDE? Mejorar nuestra percepción de riesgo soberano? Mostrar que se respeta la ley e institucionalidad? Respecto a la última pregunta, sí, la ley se honró mediante los votos obtenidos por los candidatos; sin embargo, no así en términos de competencias y vínculos. Dos medidas sinceras podrían impedir futuros incidentes similares. Primeramente, definir detalladamente el perfil y competencia de los miembros del directorio dentro de la Ley Orgánica del Banco Central debe realizarse bajo control público."
+}
+```
+Note: This example assumes there's more than one article based on how many headlines appear before each paragraph break.
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/11/elcomercio_08.txt ---
+
+```json
+[
+    {
+        "headline": "LA HUMANIDAD ANTE EL TEMIDO HITO DE LAS 400 PPMM DE CO2",
+        "content": "Este ao se ha superado\u00ed \u2013y por mucho\u2013 la cantidad de di-xido de carbono en la atmosfera terrestre. La capacidad de reciclarlo es cada vez mas compleja.\n\nAyer se han reunido en Marrakech (Mar-rocos) cerca de 200 naciones para la Confe-rencia de Partes (COP 22) sobre el clima, convo-cada por la Convencion de las Naciones Uni-das sobre el Cambio Climi-tico (UNFCC).\n\nEl 2015 abi una epoca de opti-mismo con el Acuerdo de Paris, en el que unas 200 naciones fir-mar-on un compromiso para fre-nar el calentamiento glo-bal; sin embrago, este ao termi-na con un panorma pre-o-cupante.\n\n\u2013 Las 400 ppmm\u2013\nde acuerdo con la Orga-nizacion Mundo-l Meta-orologica (WMO, por sus siglas en ingl-s), el 2016 sera la prime-ra vez en la his-toria que superemo-s las 400 parti-es por million (ppm) de di-xido de carbono (CO2) en la atmos-fe-ra. La estacion de monitor-eo de Mauna Loa en Hawaii (EEUU) ha encontrado esa proporción de molecu-las de CO2 por cada million de molecu-las de aire. Una cifra que no se había alcan-zado desde haya cinco millions de anos."
+    },
+    {
+        "headline": "LAS METAS DE LA BV L AL 2025",
+        "content": "\nPuede un equipo que acaba de salva-r-se del descenso ponerse como meta camp-eona-la la Copa Liberta-do-res?\n\nEsa aspiración que tiene la Bolsa de Va-lores de Lima (BV L): tras 'sal-varse' de ser degra-da-a a mercado fron-te-ra por el provi-de dor de ndices MSC-I, ahora reto ma el pla-no y la ambi-ci-n de conver-tirse en el '\uhub'\fi na-cier-regional en el 2025.\n\nAyer, en la prima-jornada de la sex-edicion del Pe Cap-itals Markets, Bank-ing&Finance Da-y evento organi-zado por El Do-red Investments, El Co-mercio y la Es-ce-le-poa-grado dela Uni-versi-del Pa-fi-co-hubo consensus en que no se tra ta de una meta uptica, pero si de un trabajo complexo y de long-alento entrel os sec-tores pub-li-co y pri-vado."
+    },
+    {
+        "headline": "RESULTADOS DE VENTAS EN PER FAVORECE EL BALANCE DE ENTEL CHILE",
+        "content": "Al cierr-el tercer tri-menstre la fi lia-peruanase lleg a 45 millones de client-es al suma-r 32 mil nu-evaslneas.Esta cifra es 77%\nmayors alto quel mis-moperiododel ao pasa-do, lo que lei da a la firma al redondeldel1225%delpartici-pamientode merc-adoe.\n\nLa fi liaperuana incremen-tossus ingresos en 53%, lo que perm iti que lasga-nacias del gruposer-recupe-raran.Losreportesenesta-blanque establecen que en lautilidad antebeforentax, depredi-cacion yamo-rtización(Ebitda),registraron una gan-ança de 21% interannal.Enmonedadachilenaelautil-idaddela companiaentreenero ysetiem-breascendi $42222mlns.frente alo$s10800mlns.del2015."
+    }
+]
+```

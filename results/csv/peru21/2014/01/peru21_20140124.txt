@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/01/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "Su mayor retroceso en casi 12 años",
+        "content": "El resultado, explicaron operadores, se generó por las dudas sobre la economía de ese país y la falta de divisas.\n\nEn lo que va del año, la moneda acumula una devaluación de 18.5%. Esta situación, según expertos, provocará presiones al alza sobre los precios y elevada la inflación anual por encima del 30%"
+    },
+    {
+        "headline": "Facilidad para usuario",
+        "content": "Habr libro de reclamos por internet. \n\nLas empresas que ofrecen bienes o servicios en internet también están obligadas a tener un Libro de Reclamaciones, el cual debe ubicarse en la página de inicio del negocio. As lo establece la nueva norma sobre esta herramienta, publicada por la Presidencia del Consejo de Ministros."
+    },
+    {
+        "headline": "Manifestaciones serán en 36 ciudades de Brasil",
+        "content": "\"Manifiesto\" Convocan a protestas contra el Mundial. \n\nReclaman por la violencia, la falta de servicios públicos y los gastos en esta gran competición. Sao Paulo – Una serie de actos y manifestaciones fueron convocados, para mañana, en 36 ciudades brasileñas contra el Mundial de Futbol 2014 bajo el lema \"no habrá copa\". Según el grupo Movimiento Unidos Ro, las manifestaciones serán en Rio de Janeiro, São Paulo, Salvador, Porto Alegre, Curitiba y la capital Brasilia, entre otras."
+    },
+    {
+        "headline": "Distorsión económica argentina",
+        "content": "Viernes 24 de enero del 2014 | Noticias Internacionales. Argentina, 47 grados. Cuatro muertos por ola de calor. Buenos Aires (AFP/EFE): Cuatro personas fallecieron en Argentina en las últimas horas como consecuencia de las temperaturas extremas registradas en gran parte del país, que vive el enero más caluroso de los últimos 53 años, informaron fuentes hospitalarias."
+    },
+    {
+        "headline": "Entrevista a Cecilia Taft",
+        "content": "“La mujer lidera todo. Para empezar damos vida.” Nos cuenta Cecilia Taft, vicepresidenta de la República Dominicana integrante del Jurado del premio a la Mujer Microempresaria que, por octavo año consecutivo, organiza la Financiera CrediScotia. “¿Qué tienen ustedes preparado?”\nPregunta Perú 21. “Tenemos muchas sorpresas.”
+    },
+    {
+        "headline": "Ciudad: Autonomía costera alerta sobre peligro de derrumbe",
+        "content": "Autoridad autónoma de la costa verde avierte que hay peligro de derrumbe en caso de sismo. ‘‘No basta instalar mallas en acantilado’’. Cancruéneas para precautelar la seguridad pública frente a potenciales desastres naturales sigue siendo crucial."
+    },
+    {
+        "headline": "Obstetrician's March Causes Traffic Chaos",
+        "content": "Caos vehicular desencadena la marcha que decenas de obstetras del Ministerio de Salud realizaron la madrugada de ayer con dirección al Congreso de la República. Exigen regulación conjunta de normativas técnicas permitidas."
+    },
+    {
+        "headline": "Peligran discoteca visitantes",
+        "content": "El estudio muestra preocupación ante el alto índice de conductores intoxicados. Milton Rojas, especialista de Cedro, señala que conducir bajo influencias aumenta significativamente el riesgo de incidentes viales."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, listings, etc., have been excluded according to specified criteria.

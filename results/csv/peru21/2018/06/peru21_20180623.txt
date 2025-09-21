@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/06/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "Secretario general de Transparencia alerta sobre posibles infracciones éticas de parlamentarios",
+        "content": "Legisladores podrían haber incurrido en solicitudes indebiles según Gerardo Tvara.\nPiden investigación por la Comisión de Ética."
+    },
+    {
+        "headline": "Subversion y Terrorismo\nYa está circulando una versión preliminar de las correcciones y precisiones que contendrá los textos escolares del próximo año respecto al terrorismo.",
+        "content": "\"Repiten hablar solo de ‘violencia terrorista’ caracterizando lo acontecido en el país, confundiéndonos subversión con terrorismo.\" \"Confunden subversión con terrorismo\" explicando cómo estas últimas usaron tácticas violentas durante conflictos políticos locales."
+    },
+    {
+        "headline": "Procuraduria Publica indica que Pedro Castillo no representa ningún sindicato magisterial",
+        "content": "Información proporcionada después de una larga huelga de maestros en 2017. Detalles adicionales incluyen comentarios del Ministro de Educación sobre desarrollo regular de clases."
+    },
+    {
+        "headline": "Sector Privado muestra incremento en contratación laboral",
+        "content": "Datos revelados por el Banco Central de Reserva muestran aumento notable en número de trabajadores registrados. Incremento también observado en sectores específicos como construcción."
+    },
+    {
+        "headline": "Producción agrícola registra importantes aumentos",
+        "content": "Incrementos notables reportados en producción de papas y aves de corral gracias a recuperación post-fenómeno El Niño. Producción de arroz escacharra experimenta gran crecimiento."
+    },
+    {
+        "headline": "Entrevista AUGUSTO REYES: Reflexiona sobre política conservadora y necesidad de cambios estructurales",
+        "content": "Augusto Reyes discute la naturaleza conservadora de la política peruana y enfatiza la importancia de trabajar más cohesionadamente dentro del ámbito público."
+    },
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected due to substantial textual information relevant to journalism standards outlined in the task description.

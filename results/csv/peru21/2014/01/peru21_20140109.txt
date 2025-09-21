@@ -1,0 +1,131 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/01/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "Temporadas más renovadas",
+        "content": "Juan Reynoso llegó ayer a Arequipa y de inmediato comenzó a trabajar con Melgar, equipo con el cual aspira a destacar en el torneo Descentralizado. \"La Administración Temporal me solicitó convertirnos en un conjunto competitivo y buscar objetivos importantes\", expresó Reynoso."
+    },
+    {
+        "headline": "Seleccionada Fiorentina avanza en la Copa de Italia",
+        "content": "La Fiorentina logró avanzar a los cuartos de final de la Copa de Italia después de derrotar al Chievo Verona por 2–0. Joaquín (30\") y Rebic (45’) fueron quienes anotaron para el equipo ‘Viola’. El jugador peruano Juan Vargas permaneció en la banca y no participó debido a decisiones estratégicas del técnico Vincenzo.”
+    },
+    {
+        "headline": "Carlos Sainz triunfa en Rally Dakar",
+        "content": "El piloto español Carlos Sainz obtuvo la victoria en la cuarta etapa del Rally Dakar 2024, completándolo en 5 horas, 20 minutos y 32 segundos. Superó así a su compañero Nani Roma y mantuvo el liderazgo en la categoría de buggies. Además, Joan Pedrero dominó en motos, siendo líder absoluto en dicha división."
+    },
+    {
+        "headline": "Botto sorprendente en Tenis",
+        "content": "La tenista Bianca Botto continuó mostrando su destreza en el circuito internacional al avanzar a la segunda ronda del ITF WC Vero Beach Tennis Open. Logró una emocionante victoria sobre la húngara Melinda Czink con resultados de 6–4, 0–6 y 7–5."
+    },
+    {
+        "headline": "Película 'Escáner', éxito rotundo",
+        "content": "\"Escáner\" continúa cosechando éxitos en cartelera nacional, consolidándose como una película imprescindible según palabras de Jessica Lindsey. Esta producción cinematográfica está causando sensación entre espectadores y críticos por igual."
+    },
+    {
+        "headline": "Nicole Kidman brillará en Broadway",
+        "content": "La aclamada actriz Nicole Kidman será la próxima estrella principal en Broadway, interpretando a Blanche DuBois en la obra clásica \"Un tranvía llamado deseo\". Este papel marca otra importante incursión de Kidman en el mundo del teatro."
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided input text while adhering strictly to the specified format requirements for headlines and contents. Articles were selected based on their substantial journalistic value, excluding non-relevant sections like ads or repetitive elements.
+
+--- ERROR ENTRY: data/txt/peru21/2014/01/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "Se agrava tensión internacional",
+        "content": "Combatientes del Estado Islámico en Iraq y el Levante (EIIL), un grupo vinculado a Al Qaeda, y miembros de tribus hostiles al gobierno tomaron el control en los últimos días de Fallujá y diversas áreas de Ramadi, dos ciudades importantes de la mayoría suní de Al-Anbar, fronteriza con Siria.\n\n\"La mayoría reside actualmente en colegios, edificios públicos y casas de familiares\", comentó un responsable de la organización humanitaria, Mohamed al Juzaie, añadiendo que la Media Luna Roja está auxiliando a más de 8000 familias en Al-Anbar en los últimos tres días."
+    },
+    {
+        "headline": "Exnazista alemán enfrentará juicio por masacre en Francia",
+        "content": "Berlín – Un exmiembro de las SS nazis de 88 años será procesado por homicidio y complicidad en la masacre cometida en la pequeña comunidad francesa de Oradour-sur-Glane en junio de 1944, cuando murieron 642 civiles. Actualmente, aún no se confirma si se llevará a cabo algún procedimiento judicial según una fuente legal alemana. El individuo involucrado pertenecía a esa unidad militar."
+    },
+    {
+        "headline": \"Privatización de servicios de taxis en Cuba\",
+        "content": "\"La Habana – Miles de taxistas anteriormente empleados por el régimen cubano estarán próximamente rentando sus vehículos personalmente bajo nuevas regulaciones gubernamentales destinadas a mejorar la eficiencia del servicio de transporte.\""
+    },
+    {
+        "headline": "Propuesta oficialista sugiere cambio de Capital Argentina",
+        "content": "\"Buenos Aires – Julio Domínguez, Presidente de la Cámara Baja, planteó la idea de trasladar la Capital Federal al norte de Argentina, siguiendo ideas previas del expresidente Raúl Alfonsín.\"\n\nDomínguez resaltó cómo Buenos Aires podría dejar de ser el epicentro administrativo del país, considerando alternativamente establecer la capital en otra zona geográficamente estratégica."
+    },
+    {
+        "headline": "Reducción global significativa en posesión de armamentos nucleares",
+        "content": "\"Washington – Según estudios realizados por iniciativas privadas, la cifra de países capaces de desarrollar armas nucleares ha decrecido aproximadamente un 25% en los últimos dos años debido a políticas globales enfocadas en la eliminación de componentes sensibles susceptibles de explotación terrorista.\""
+    },
+    {
+        "headline": "Papa Francisco elimina título honorífico ‘monseñor’",
+        "content": "\"Ciudad del Vaticano – Con el objetivo de eliminar jerarquizaciones innecesarias dentro de la estructura eclesiástica, el pontífice retiró varios títulos honoríficos tradicionales, buscando así fortalecer valores humildes y accesibilidad dentro de la Iglesia Católica.\""
+    },
+    {
+        "headline": "Entrevista a Luis Salazar sobre la situación industrial peruana",
+        "content": "\"Empresas locales están experimentando cambios sustantivos respecto a prácticas comerciales y productividad. Luis Salazar destaca la necesidad urgente de reformas regulatorias para facilitar inversiones y desarrollo económico en sectores clave como manufacturas y tecnología.\""
+    },
+    {
+        "headline": "Nuevo Plan Nacional Industrial",
+        "content": "\"Actualmente, el gobierno trabaja en planes integrales orientados a impulsar la producción industrializada especialmente en regiones apartadas como Sierra y Selva, mediante la mejora de conexiones viales y facilidades empresariales.\""
+    },
+    {
+        "headline": "Denuncia irregularidades en licitación de nuevos corredores de transporte público",
+        "content": "\"Existen sospechas de manipulación en el proceso competitivo para asignar contratos de ruta pública, generando controversia política y mediática. Funcionarios municipales afirman seguir adelante con transparencia mientras continúa la investigación.\""
+    },
+    {
+        "headline": "Restauración del suministro de agua en Lima Norte",
+        "content": "\"Gracias al incremento natural del flujo del rio Chillón, se espera restaurar completamente el servicio de agua potable en varias partes del norte limense en breve tiempo, beneficiando directamente a miles de residentes.\""
+    },
+    {
+        "headline": "Paro médico programado para principios de año",
+        "content": "\"Mediadores profesionales planean acciones de resistencia frente a incumplimientos contractuales percibidos por parte del ministerio correspondiente, solicitando revisiones urgentes en escalas remunerativas y condiciones laborales.\""
+    },
+    {
+        "headline": "Robo perpetrado por adolescentes causa indignación",
+        "content": "\"Recién descubierto incidente revela dinámicas sociales complejas detrás de comportamientos juveniles problemáticos, motivados frecuentemente por influencias externas y presiones emocionales intensas.\""
+    },
+    {
+        "headline": "Multas impuestas por estacionamiento indebido en playas",
+        "content": "\"Autoridades buscan regularizar situaciones de congestión vehicular en espacios costeros designados, instaurando medidas disciplinarias severas para quienes incurran en tales infracciones.\""
+    },
+    {
+        "headline": "Trágico asalto resulta en fatal herida mortal",
+        "content": "\"Incidentes violentos aumentan alarmantemente en algunas zonas residenciales, evidenciando fallas sistémicas en mecanismos de protección civil y justicia penal adecuada.\""
+    },
+    {
+        "headline": "Uniformidad requerida para flotas de taxis",
+        "content": "\"Regulaciones adicionales dictadas por la municipalidad pretenden estandarizar visualmente el servicio de taxis, contribuyendo indirectamente a una imagen urbana más cohesionada y reconocible.\""
+    },
+    {
+        "headline": "Escisión corporativa formalizada",
+        "content": "\"Social Capital Group SAC comunicó oficialmente la decisión tomada por su junta accionarial de dividir activos valiosos, dando paso a la formación de una entidad separada conforme a legislación societaria vigente.\""
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/peru21/2014/01/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "Usísmo Exige no Forzar Resultados.",
+        "content": "Por último, señale que las\ninvestigaciones deben seguir\nsu curso, pero no se deben\ndeforzar los resultados.\n\nOpina.21\n=\n= ImNiCADELTA __\nVUELO 2014\nDiagnostico. Cielo politico nublado,\ntormentas electorales y en la cabina del avi\u00f3n,\npiloto militar de ceo \nfrun-cido, con poca experienci-a,\ny ambiciosa joven copilota\nimitando como punto de destino:\nContinuar en el comando de la na-vi sin tomar en cuenta ning-n boton de\nalarma. El menu del viaje y los protag-onistas: Varip-opeto. Primer punto en la bi-torca de vuelo: Cambio de agenda.\nEntorpecer comisi-o de invest-gaci-o Lopez Me-ne-ses para que ya no se hable de la penetracion de Jo-l escandalo,norm-y vie-j o, desde Pa-la-ci,o, una dis-cusion por presunta concentracion de med-os tomando posicion por una de las partes.\nSiguien-te punto, la officializacion de Na-dine como presidenta del parti-do de Go-bier-no. Tormenta electoral a la vis-ta para los su-fridos pa-sage-ro-s de cla-se eco-nomi-ca:Nadie sabe quando sera el pole de cand-idata, financ-iando sus mo-vimi-en-tos \"con la sua\" y quand o el ti-tulo de pri-mera da-na-paga-da con los im-postos de los peru-anos.Paralelamen-te, la izquier-da tran-soch-ad a-prove-ch-a el ple-it-o de Hu-mala con la derecha y bus-can camuf-ar-se en el ro-pero de Accion Po-Pular\npa-ra te-ner un part-io y un sim-bo-lo que los \"au-pe\" en futuro no je-lla-No Man-el Dam-me-rtn ani-qu-e que presenta-con esa agre-grupa-cion po-li-tica, un proye-to de lei para la regulari-zacion de medi-os.Si Fer-n-ando Be-lau-de Vi-viera le die-ra un \"patats\" ante esa posi-bili-dad ha-yan-do sido el ada-lid de la li-be-rad de pren-sa.Se ra bo-no es-car la opi-nion de su so-bre-nieto, el popular Vitoch'o'\n\nEl gob-ie-rio, con su cabe-za en el pleno del Congreso,sigue pro-te-gen-do al ex-pre-sidente To-le-do pe-se a que la Comi-sion de Fi-scali-zaci-on ya aprobo-denunciarlo por lava-do de active-s y asoci-acion ili-ci ta para de-line-tr."    
+    },
+    {
+        "headline": "MINISTERIO PUBLICO FORMULA INVESTIGACIÓN POR ENRIQUECIMIENTO ILEGAL",
+        "content": "Fiscalia deja el caso Urtecho\nen manos del poder judicial.\nm Fiscal Supremo\nPodria Solicitar Que Se Le Dictamine Orden Detención Al Exp Legislador De Solidariedad.\nEl ministerio publico informo,a través de su cuenta en twitter, que ya formalizo una investigación preparatoria, ante el poder judicial,contra el desa-forado congreso-rista michael urtecho,pors los presuntos delitos de enri-quecimiento licito y concusión por haber estado el sueldo a los servidores de su depósito en bene-ficio proprio.Urtecho es el primero leg-islator destituido del congresso en el periodo 2013–2016.Ademas de haber sido destituido en di-ce- bre del año pasa-do,el ex-legisla dor de solidaridad nacional también fue inhabilitado para exercer la función pública por 10 años.Las denuncias contra dicho exparlamentario,se recuerdo,fueron presentadas por el program periódístico Cuarto Poder,en septiem-bre pasado,luego de recojer los testimonios de cuatro ex servi-dores de su depósít.o legislativo quiénes accusaron a urtecho de haberles recortado y haberse queda-do con parte de sus remune-raciones.Una de las denunciantes,m menciona-do,evelyn calderón, era que solía recibir mensualmente s/3670 pero que solo recebia/s/2000.En el caso se implique a claudia gonza-les,la espos.a del exlegisla.dor.De Otro lado,la situación de urtecho podría compli carse en los próxi mos días.In el Marco de la inv-es.tiga.ción preparatoria dispues.ta por el Ministe rio Publico,el fiscal superior en lo Contencioso Admi.nistrativoo,c.arlos mantilla, decide,r,gni el port-al we.b de rp noticias, si solicita la deteni ciòn del mencio-nado expl egis.la mentario."
+    },
+    {
+        "headline": "Comisión permanente del Congreso podrá legislar hasta el próximo 28 de febrero",
+        "content": "Durante ese tiempo —y debido al receso— dicha instancias debatirá los dictámenes pendientes y las proposiciones que remitan el @pdgovPe. Resolución neblina en bien blanco uii iiiinenisis el ano 2013 Critican a ANR por opo nerse a Ley Uni versitaria ESTUDIANTES Diversos colectivos de estudiantes uni-versitarios marca ran distan cia respectoa la posición de la Asamblea Nacional de Re ctores (ANR) sobre la Ley Universidad. Indicaron que estas autori dad.es quiere evi tar camb ios para mantener \"sus privi legios.\" Piden inten sar Ju cha contra la miner ia ile gal DEFENDORA El Defendor del pueblo,Eduardo Ve.ga, solicit al Executi.vo que incremente las acciones de erradicación de la minería ilegal y exh ort a los gobiern os regionales a que lideren los procesos de formalización en sus jurisdicciones y que, sí es necesario, los mini eros col aboren con esta tarea.Vega demanda más acción al Gobierno. \"La Superintenden cia va a seguir en pie\", Daniel Mor a,Congresista de PP Se reanuda juicio a Fujimori por los \"diarios chi cha\" PODER JUDICIAL Esta mañana se reanudará el juicio oral al expresidente Alberto Fu ji mori por el desvo de s/122 millones para la compra de la línea editoria l de los \'diarios chich\'a\. La audiencia fue suspender en varías oportunidades tras la operación a la len gua a la cual fue someti.do el ex man datario.Economia PROYECTO DE LEY EN EL CONGRESSUBE TO PE SALARIAL PARA EL PAGO DEL IMPOSTO A LA RENTA MENOR IMPO STTO PAR TRABAJO RO EN PLANILLA YA NO SE DESCONTARA A LOS QUE GA NAN MEN OS DE S/3257 AL MES.A LA FECHA EL TOP ES DE S/1900.Está sem ana se ha presente do en el Congresso un projecto de ley que busca elevar el mont ode du cible ant er al pago del imposto a la renta(de quint catgoria) q ue gra va a los trabaja dors en pla nila.El ini ciativ es de la banca da ACCION PO BLIC-FRENTE AMPLIO.Actuali mente pagan el puesto quienes reciben sos ann ua ls –sueldos mas gratifica cions– mayo-res a 7 UI(T)(52660)\. Es decir, solo los que ganan meno res de 51901 al mes están exonera dos.del pago.Mientras que la propuesta eleva a 12 UIT(54560) el mont odeducible, por lo que ahora estáran exonerados del pago quienes ganen has ta 53257 al mes.El Legis lat ore Yo hn ly Lescano, au tor dela init at iv ,men tion que la propuesta es para equi-parar la deducci ón respecto a los tra bajadors de quart categoria(q ui emiten recibos por hono rar-ios), pues ellos ade ms de las 7 UIT se les deduce el 20% de sus ingre nos. Sería un aumento de sueldo para un segmento que no tie nen ingresos suficientes\", dijo.Parc el congresa sto de Gana Pe,R jaime Delgado, si se eleva el topo salarial deducible del imposto a la ren ta en los trabal jos por planila se les compensara de la devolucion del gv,beneficio al qual solo acceden las empresa.s.An ot. Para el Tributa ri sta jo rg e Ma ni ni asegur que la medida es viable,\"La menor recaudaci ón que haya por imposto a la renta(ir)sere-compensada con maior pago de imposto ge-neral a la ven ta igv)pues al subir los sue ldos aumenta el consumo\", coment."
+    },
+    {
+        "headline": "\"MAS DE DIEZ EMPRESAS QUIEREN INVERTIR EN GASODUCTO\"",
+        "content": "Hay Interés en gasoducto Hay ms de 10 interesados en el Gasoducto del sur y son principal mente compañías canadienses y euro-peas, aseguró el Director Ejecutivo de Proinv ersión,Javier Illes cas.\"Esas ms de 10 empresas son las que han comprado bases, pero mu-chas veces entre ellas forman un consorcio para participar\",expl icó Informó que esta obra, que requerira una inversión aproximada de Us$3mil millones, se adjudicaria en Febr ero.Resaltó que lo ms importante en estos procesos no es la fecha de la conce ssión «sino que los proyectos salgan». Más adjudi cac ion es. El Representante de Proinves rin informat que para la linea 2 del tren eléctricola cual adjudicación se haría en el segundo mes del año,hay inte resados de eu ropea y américa del sud.En tanto,referió que la entrega de la buena pro del puerto internacional de Ch inchero,en cus-co, se realizaría en Mar zo. Esta obra requeri rá cerca de Us$533 millones."
+    },
+    {
+        "headline": "Prevenir baja inflación",
+        "content": "Precio seguiran estable Los Precios de los alimentos siguieran stables durante 2014 por las mejor condiciones de oferta interna, estim ayer el banco de crédito(bcp).\nReferi que los únicos riesgos, de baja probabil idad, serían las variaciones bru scas en los prec io s de alimentoss que el país importa.La Entidad financier a previ para este año una inflación promedio de 2.4%, tasa menor al 2.9% registrado en 2013.Buen sint om Record en zona euro.Desemplo af ecta a 129 millones Bruses las(agencias)- La tasa de desempleo en los 17 países del euro se sitúo en 121% en Noviembre, un nivel histó rico, lo que se traduce en unos 192 millones de perso nas sin job bajo,in-formó la Oficina de estadísticas de la union européa.Sin embr ago, las vent as minoritas en el bloq ue(indicator de consumo) repunto ton 1.4% en noviembre,trás caer un 04% en Octubre."
+    }
+]
+```

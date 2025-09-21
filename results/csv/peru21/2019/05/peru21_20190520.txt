@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/05/peru21_20.txt ---
+
+```json
+[
+    {
+        "headline": "Deportes",
+        "content": "Santos' le voltearon\na Vallejo y se van\nelevándose del fondo.\nSan Martín (16° con 14)\ncomenzó a alejarce de la parte baja de la tabla después de \nvoltéarle el partido ayer a C.Vallejo (6º con 20) en el \ndo.Silva (22) avanzó al ‘Portero’, pero Espinoza (60’ y 72 ) les dio el triunfo a los ’santos’. \ny en Olmos, con gol de Cabello (90), Cantolao (10 con 19)venció a Pirata FC(17” con 11).\nPajoy se tomó su revancha y castigo a blanquiazules.\nAlianza Lima (6 con 19)\nnopudo ayer en Hunuco por la jornada 15 del Torneo Apertura, y cayó\npor 2–2 ante Alianza Universidad (11° con 18), que se impuso con dos goles\nel extremo Leonard Pajoy (47 y 79), El desconto blanquiazul fue obra de Kevin Quevedo (90’) en\nun partido que tuvo que ser trasmitido via Facebook."
+    },
+    {
+        "headline": "Fútbol/Mundial",
+        "content": "RAFA VENCE A DJOKOVIC Y REVALIDA SU TTULO EN ROMA\nLa tierra batida es un templo y su Dios es Rafael Nadal (2 ATP), El español se impuso ayer a Novak Djokovic (1 ATP) por 6−0, 4−6 y 6^1 en 2 horas y 25 minutos para ganar por segundo año consecutivo el Master’s 1000 de Roma, título que ya ha logrado en nueve oportunidades. \"Este estar aquí en Roma con este trofeo en mis manos significa mucho\", dijo \'Rafa.\"Vasco – y titulos en Roma."
+    },
+    {
+        "headline": "BARCELONA CIERRA LA LIGA CON EMPATE Y EL MADRID, CON DERROTA",
+        "content": "A la espera de lo que será la final de la Copa del Rey contra Valencia (25/05), un Barça yacen cierran la Liga empatando 2−2 en su visita al Eibar con un doblete de Messi.En tanto, Real Madrid cayó en casa por 2−0 frente al Betis,en lo que fue su último fracaso de una temporada para el olvido."
+    }
+]
+```
+This extraction focuses solely on sections identified as having substantial journalistic content related to sports events while excluding non-article elements like schedules, addresses, etc. Adjustments were made for clarity based on typical OCR issues such as incorrect character recognition and spacing inconsistencies.

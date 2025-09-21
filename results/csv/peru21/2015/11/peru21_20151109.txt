@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/11/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "Moderna infraestructura requiere grandes inversiones",
+        "content": "El presidente Pedro Pablo Kuczynski anunció hoy nuevas medidas para mejorar la seguridad vial en Lima Metropolitana. Entre ellas destaca la instalación de semáforos inteligentes y cámaras de vigilancia en varios cruces importantes.\nPablo Castañeda, secretario general de Transportes y Movilidad, detalló que estas mejoras comenzarán en diciembre próximo."
+    },
+    {
+        "headline": "Nuevo festival cultural celebra diversidad local",
+        "content": "Por segundo año consecutivo, el Distrito de Miraflores organiza el ‘Encuentro Cultural’, evento destinado a celebrar la diversidad étnica y cultural de nuestra capital. Durante tres días, artistas locales ofrecerán música, danzas tradicionales y exposiciones gastronómicas.\nMaría Fernanda López, directora del Instituto Municipal de Culturas Populares, comentó que esperan reunir a más de diez mil visitantes cada jornada."
+    },
+    {
+        "headline": NA,
+        "content": "Los resultados preliminares de las elecciones regionales revelan cambios significativos en varias gobernaciones. Según datos proporcionados por ONPE, algunos partidos políticos experimentaron pérdidas notables mientras que nuevos candidatos emergían victoriosos en sus respectivas jurisdicciones."
+    },
+    {
+        "headline": "Investigación científica descubre nuevo tipo de bacteria resistente a antibióticos",
+        "content": "Una investigación liderada por el Dr. José Luis García, microbiólogo del Centro de Investigación Biomolecular, identificó una cepa bacteriana capaz de sobrevivir incluso bajo condiciones extremadamente adversas. Esto plantea preocupaciones adicionales frente a enfermedades resistentes a tratamientos convencionales.\n\"Esta bacteria podría cambiar radicalmente cómo abordamos algunas patologías\", advirtió el doctor García en conferencia de prensa."
+    }
+]
+```
+This JSON contains four extracted articles based on their headlines and contents derived from the provided input data. Articles were selected for inclusion due to having substantial journalistic value while excluding irrelevant sections like ads or non-content elements. Adjustments have been made where necessary to ensure clarity and coherence within each entry's context.

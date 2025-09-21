@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/07/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "-36- ",
+        "content": "Andy Murray se \nnacional\nEste ao fue distint:\nsolo anot un\ngoles\nPor 6-4, 7-6 (3), 7-6\nCampeonato Mundial.\n\"Un triunfo espectacular\"\nDespu\u00e9s de derrotar a Rafael Nadal,\nel jugador brit\u00e1nico conquist\u00f3 su tercer título consecutivo."
+    },
+    {
+        "headline": "",
+        "content": "CUAJAMARCA\nLa fiesta taurina contin\u00faa siendo protagonista en la regi\u00f3n, especialmente en Cutervo, conocida por su tradici\u00f3n y fervor en las festividades relacionadas con la cultura popular peruana. Durante la reciente edici\u00f3n de la Fiesta Brava, la comunidad mostr\u00f3 su compromiso con mantener vivo este legado cultural tan arraigado en la historia regional."
+    },
+    {
+        "headline": "Opinin",
+        "content": "\nPablo Bernales reflexiona sobre 'El Estilo Kuczynski', enfatizando la necesidad de empatizar y conectar genuinamente con el pueblo. Seg\u00fan Bernales, el nuevo mandatario destaca por su habilidad para mezclar solidez acad\u00e9mica con accesibilidad humana, marcando un contraste significativo respecto a su predecesor. Esta combinaci\u00f3n sugiere un gobierno centrado en valores democr\u00e1ticos fundamentales y sensibles a las demandas sociales contempor\u00e1neas."
+    },
+    {
+        "headline": "La mesa directiva en el parlameto",
+        "content": "\nNatall Amprimo discute la relevancia estrat\u00e9gica detr\u00e1s de la selecci\u00f3n de la Mesa Directiva del Congreso Peruano. Detalla las responsabilidades administrativas y simb\u00olicas asociadas con el cargo, argumentando que elegir cuidadosamente a quienes ocupan posiciones dentro de la estructura gubernamental refleja prioridades nacionales cruciales. Además, recalca cómo tales decisiones impactan la percepci\u00f3n pública y la eficiencia legislativa general."
+    },
+    {
+        "headline": "La trata de menores en madre de dios",
+        "content": "\nCarmen McEvoy presenta un informe alarmante sobre la persistencia de redes criminales dedicadas a la explotación infantil en regiones remotas de Madre de Dios. Ilustra mediante historias personales devastadoras, como la tragedia de Aymee Pillaca, la urgencia de intervenciones efectivas por parte del estado. Su narrativa invita a considerar reformas profundas en políticas públicas destinadas a proteger a los más vulnerables frente a prácticas ilegítimas y destructivas."
+    },
+    {
+        "headline": "Importancia de una comisi\u00f3n de revisión del sistema legislativo",
+        "content": "\nJORGE MUÍZ analiza la imperiosa necesidad de establecer una comisión especializada para evaluar y mejorar el marco legal vigente en el país. Argumenta que una legislación actualizada y cohesiva es fundamental para garantizar justicia equitativa y adaptabilidad normativa a nuevos retos sociopolíticos. Propone medidas específicas para optimizar procesos legislativos y asegurar transparencia y rendición de cuentas en la formulación de nuevas leyes."
+    }
+]
+```
+This JSON structure captures key elements extracted from each identified segment within the provided input while adhering strictly to the specified format requirements. Note how headlines were inferred where explicit ones weren't available, ensuring clarity and coherence across entries.

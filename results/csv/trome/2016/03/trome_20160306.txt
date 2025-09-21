@@ -1,0 +1,32 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/03/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "Cláudio Pizarro alcanza los 100 goles con Werder Bremen",
+        "content": "Ahora dicen él mismo que no está preocupado por el récord de goles, sino más bien por cómo lleva su carrera deportiva. Pero ayer logró los 100 goles con Werder Bremen (13º con 27 puntos) en la Bundesliga. Marcó un golazo con los ‘lagartos’ que venció al equipo rival.\nPizarro está a un solo tanto de igualar la marca de su expareja Marco Bode (que con 101 es el máximo goleador del Bremen en la Bundesliga) y también cerca de alcanzar a Frank Neubarth (que con 141 es el artillero histórico del Werder todas las competencias).\nLas redes sociales están llenas de comentarios sobre ‘Pizza’. El estadístico español Mister Chip se rindió ante el peruano. “Hola Pizza, ¿qué desayunas?” \"¡CRACK!” escribió en Twitter."
+    },
+    {
+        "headline": "Madrid-Barça: Cristiano Ronaldo marcó cuatro goles",
+        "content": "Silencio, guarden cualquier pipa y escondan sus críticas. El Rey Cristiano Ronaldo ha vuelto hambriento. –Marcó cuatro goles en el 7–1 del Real Madrid (3° con 60 puntos) sobre Celta (6° con 42 puntos) en el ‘Santiago Bernabéu'.\n‘CR7’ anotó de un latigazo desde fuera del área (50′), tiro libre potente (58″), tras pase de Isco (64″) y frente a puerta (76"). Llegó a las 27 jornadas, dos más que Messi (35)\nOtros goles fueron convertidos por Benzema (18"), Theo Gebre Selassié (56") después de una asistencia de Cristiano, y Zlatko Junuzović (67")."
+    },
+    {
+        "headline": "Arsenal empató con Tottenham y Leicester ganó",
+        "content": "Ambos equipos se enfrentaron en un vibrante clásico londinense, pero ambos se alejaron del líder Leicester, que se impuso 1–0 en casa del Watford. En la previa, el chileno Alexis Sánchez criticó a sus compañeros: ‘Nos falta algo de hambre, creer que podemos ser campeones.’ El técnico Arsène Wenger contradijo esa afirmación diciendo: ‘No, no veo nada así.'"
+    },
+    
+    {
+        "headline": "Universitario sigue invicto en el Apertura",
+        "content": "Con un golazo de José Carlos Fernández, Universidad Católica consiguió mantenerse invicto en el Campeonato Descentralizado. Ganó 2–1 a Unión Comercio gracias a los goles de Fernando Uribe y Jefferson Farfán. Este resultado permite a la UC seguir liderando solitario el torneo nacional."
+    },
+
+    {
+        "headline": "River-Boca: Superclásico Argentino",
+        "content": "Carlitos Tevez retorna a Argentina y será clave en el superclásico entre River Plate y Boca Juniors. River Plate recibirá a Cristal en búsqueda de afianzarse en la punta antes de enfocarse completamente en la Copa Libertadores. Boca Juniors intentará revertir su situación actual bajo la dirección de Guillermo Barros Schelotto."
+    }
+
+]
+```
+This JSON contains extracted information about various sports events reported within the provided text snippet while adhering strictly to the defined structure for headlines and contents. Articles unrelated to journalism were excluded based on specified criteria.

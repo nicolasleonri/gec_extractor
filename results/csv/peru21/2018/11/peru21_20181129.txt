@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/11/peru21_29.txt ---
+
+```json
+[
+    {
+        "headline": "Empresarios en CADENA CONTRA CORRUPTIÓN",
+        "content": "‘’Fortalecer la lucha contra la corrupción forma parte de los compromisos frente a los peruanos y la OCDE’. Premier Villanueva informó que la Contralora recibirá 9% más de recursos para labores de prevención y detección de actos de corrupción.\nPrioridad será la lucha contra la corrupción."
+    },
+    {
+        "headline": "YA VAN 121 FEMINICIDIOS...",
+        "content": "Mató a pareja frente a sus hijos."
+    },
+    {
+        "headline": "RATIFICACIÓN DE DENUNCIA\nAéromeza hunde a Mamani",
+        "content": "Evalúación de término ‘Termina el colegio en el año 2018?’\nPreferente AV. SAN FELIPE 1109 – Jesús María *(01) 266 0195 Anexo 127 www.peru21.pe dif peru21noticias | E Peru211 w Per211V\n‘Fortalecer la lucha contra la corrupción forma parte...'"
+    },
+    {
+        "headline": "PRESENTACION PRESUPUESTO PARA EL AÑO 2019",
+        "content": "Presentación del nete ministerial y los titulares de las instituciones autónomas del estado, comenzó ayer en el Pleno del Congreso el debate de la Ley de Presupuesto del Sector Público para el año 2019, ascendió a $5,168,074 millones. Primer ministro Cesár Villanueva señaló que una de las prioridades es la lucha contra la corrupción. Incrementará en 13% la capacidad de gasto del Poder Judicial y de la Fiscalía comparado con 2018."
+    },
+    {
+        "headline": "OTRAS PRIORIDADES SON LA RECONSTRUCCIÓN",
+        "content": "Prioridades gubernamentales según Villanueva incluyen la reconstrucción del Norte del país. Fondos específicamente dirigidos a intervenciones urgentes naturales tendrán una capacidad de gasto significativo. Detalles adicionales proporcionados por el Ministerio de Economía."
+    },
+    {
+        "headline": "GOBIERNO PRIORIZA SECTORES DE SALUD Y EDUCACIÓN",
+        "content": "Incremento notable en presupuesto para sectores clave como salud y educación. Mayor énfasis en mejorar infraestructura sanitaria y aumentar compensaciones docentes. Daniel Alfazo menciona que el 28% del incremento está dedicado a educación."
+    },
+    {
+        "headline": "OPINIÓNEditorial",
+        "content": "'Gerardo Tarqui//Secretario general de Transparencia\n''Es una inversión, no un gasto''. Importancia crítica de abordar la corrupción mediante inversiones estratégicas en distintos sectores públicos. Necesidad urgente de acciones coordinadas entre gobierno, medios y ciudadanía.''
+    },
+    {
+        "headline": "SENTENCIA ABSOLUTORIA GENERA CONTROVERSIAS",
+        "content": "Movadef absolved for alleged apology of terrorism through distribution of pamphlets glorifying Shining Path leader Abimael Guzmán. Solicitudes de reconsideración legal están siendo procesadas. Contexto histórico relacionado con eventos ocurridos en setiembre de 1990."
+    },
+    {
+        "headline": "POLÍTICA INTERNACL FUERZA POPULAR",
+        "content": "Renuncia sorpresiva de Ruth Luque genera tensiones internas dentro de Fuerza Popular. Conflicto político exacerbado por diferencias personales y disputas de poder. Reacción oficial de la agrupación política aún incierta."
+    },
+    {
+        "headline": "DENUNCIA DE TOCAMIENTOS INDÉBITOS AFECTA AL LEGISLADOR MOISES MAMANI",
+        "content": "Denuncia formal interpuesta por trabajadora de LATAM resulta en convocatoria de Comisión de Ética del Congreso. Situación legal compleja involucra posible levantamiento de inmunidad parlamentaria."
+    },
+    {
+        "headline": "COLABORACIÓN ENTRE PROCURADURÍA AD-HOC Y ODEBRECHT ESTÁ PRÓXIMA A FINALIZARSE",
+        "content": "Negociaciones concluidas cerca de lograr acuerdo definitivo. Empresas deben admitir culpabilidades asociadas a grandes proyectos corruptos. Discusiones continúan centradas en modalidades de restitución económica."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on contextually significant information related to political events, corruption issues, budget discussions, etc. Unrelated sections such as ads, contact details, and repetitive elements have been excluded according to guidelines.

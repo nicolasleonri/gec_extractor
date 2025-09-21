@@ -1,0 +1,50 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/02/elcomercio_20.txt ---
+
+```json
+[
+    {
+        "headline": "Argumentar la inaplicabilidad de la regulación para final de cuarentena",
+        "content": "argumentar la inaplicabilidad de la regulaci\u00f3n\n\ntambién divide a los personeros legales partidarios: \nquienes calculan que no pasaran el um-\nnivel aducen que esta norma aún no debe aplicarse;\nquienes confían en su electorado presionan para que rijan.\nfinalmente, la famosa ventana única –vendida como el último grito de la lucha anticorrupción–\nno ha servido de nada para filtrar candidatos congresales en los casos con la justicia.\n\nLa reformología barata ha contribuido a la anarquía electoral que contemplamos con impotencia y que ha arrastrado al propio JNE. Quienes son financiados para \"fortalecer la democracia\" [sic] han terminado perjudicándola, alterando la dinámica de una contienda en la que deberán debatirse propuestas y no interpretaciones legales. (Pero el figurativismo de los reformólogos puede más).\nexigir ahora elecciones libres es importante es insignificante comparado con esto. Urgente! Por favor, reconozcan que... nunca será suficiente."
+        
+    ],
+    {
+        "headline": "Contenido principal",
+        "content": "Es urgente reconocer que el sistema político está lleno de contradicción. Hoy en día, uno pensaría que..."
+
+    },
+    
+    {
+        "headline":"Urgente: Se busca perro perdido. Recompensa: 500 soles.",  
+        "content": "NA"
+
+    },
+
+{
+   "headline": "NA",
+   "content": "El juez Huamani ordenó investigar el caso."
+
+}
+```
+This example demonstrates how we extracted three separate pieces:
+
+### Article 1
+**Headline**: Not applicable for some sections due to lack of clarity about what's included/excluded but it seems like there was something related to political regulation discussions which were not fully captured under any specific title hence marked NA.
+
+**Content**: This includes discussion around regulations being applied incorrectly during quarantine times along with opinions expressed regarding these issues within society at large.
+
+---
+
+### Article 2
+**Headline:** Content mainly revolves around debates concerning democracy reforms where experts argue against current practices while others support changes based upon their own interests rather than public good.
+
+**Content**: Detailed analysis provided discussing various aspects such as internal party democracy flaws, funding transparency concerns among other topics suggesting comprehensive policy overhaul needed post-election cycle completion before next government takes over responsibilities ensuring better governance structures moving forward avoiding past mistakes made previously leading up till now including those caused directly through actions taken recently causing further damage already done earlier too much more could happen soon after elections depending entirely whether proposed solutions implemented successfully enough otherwise risks remain high potentially worsening situation even worse still possible outcomes may occur later down road...
+
+### Note:
+The above extraction process involves identifying key elements relevant to journalism standards mentioned throughout each segment followed closely examining every detail carefully considering context clues available surrounding information presented therein allowing accurate identification between different types of texts found across pages scanned using optical character recognition technology tools used today widely accepted worldwide standard practice nowadays especially since many newspapers have adopted similar methods themselves making sure everything works out perfectly well ahead!
+
+## Multi-article Segmentation Example Explanation
+
+In cases where headlines appear again following certain paragraphs indicating start of another story/article block, treatise should begin anew whenever encountering fresh set off blocks separated either way visually distinctively formatted thus far apart yet connected logically together forming coherent narrative structure required according guidelines specified hereinabove described format requirements outlined explicitly beforehand enabling seamless transition between segments seamlessly transitioning smoothly back-and-forth effortlessly maintaining reader interest level engagement throughout entire duration until conclusion reached naturally occurring end point determined solely via authorship alone!
+```

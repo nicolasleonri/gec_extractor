@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/10/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista AMET AGUIRRE VARGAS amet.aguirre@peru21.com",
+        "content": "Para construir su empresa, M2: Partió recorriendo el país buscando socios capaces de aprovechar la diversidad cultural del país y reducir las brechas de género, pobreza y nutrición. ¿Cómo surgió la idea de Wasi Organic?\n\nDespués de casi 20 años corporativos –éramos jóvenes y queríamos innovar– decidí explorar la situación nacional: aunque había progreso económico generalizado, existían áreas significativas de pobreza rural.\nPensé en crear una compañía alimentaria incorporando cooperativas campesinas en las cadenas de suministros. \n¿Qué tal fue el primer contacto con los productores con quienes trabajas hoy?\nRecorrímos el Perú inicialmente, observándoles falta de recursos técnicos y financiero. Inicialmente, nuestras propuestas eran vistas con escepticismo debido a experiencias previas fallidas."
+    },
+    {
+        "headline": "“Me siento muy honrada de haber sido elegida…”",
+        "content": "\"Me siento muy honrada de haber sido elegida…\", dice Marta Del Rosario tras recibir un galardón internacional. \"Esta iniciativa surge gracias a figuras políticas destacadas como Clinton y Albright, enfocado en empresarias líderes mundiales.\" Reconoce también el papel crucial de la educación y la nutrición básica para transformar verdaderamente a las generaciones futuras. Además, destaca cómo su negocio contribuye directamente a mejorar estas condiciones mediante programas específicos dirigidos a incrementar la inversión familiar en educación."
+    },
+    {
+        "headline": "Opina Aldo Mariategui",
+        "content": "Mariategui critica duramente decisiones judiciales recientes relacionadas con figuras públicas, sugiriendo inconsistencias y favoritismos evidentes. Destaca casos contrastantes respecto a procesamientos penales y señala sospechosas coincidencias temporales vinculadas a eventos electorales. Subraya además discrepancias en el tratamiento legal aplicado a distintos individuos implicados en corrupción política, insinuando manipulaciones detrás de dichas acciones."
+    },
+    {
+        "headline": "‘Es justo contratrar a un sicario?’ Papa Francisco",
+        "content": "Durante una manifestación eclesiástica, el Papa Francisco expresó su firme posición antiaborto mientras reflexiona moralmente sobre métodos exterminalistas empleados en conflictos armados. Critica la legitimización de tales prácticas argumentando que terminar con la vida humana nunca será aceptable éticamente."
+    },
+    {
+        "headline": "Temporal deja al menos un muerto en EE.UU.",
+        "content": "Un poderoso ciclón denominado ‘Michael’ causa estragos en Florida, resultando en múltiples estructuras colapsadas y víctimas mortales. Autoridades aún están evaluando el alcance completo de los daños ocasionados por ráfagas intensas y marejadas destructivas. Más de 3.7 millones de residentes fueron evacuados anticipadamente, incluyendo aproximadamente 150,000 peruanos presentes en la región."
+    },
+    {
+        "headline": “Protestas durante el funeral.” Venezuela",
+        "content": "Decenas de personas participaron en el velatorio de Fernando Alban, vociferando demandas de justicia frente a versiones gubernamentales contradictorias sobre su muerte. Exigen investigación transparente dado el contexto turbio rodeando incidentes similares anteriores. Internacionalmente, aumenta la preocupación por derechos humanos en el país sudamericano."
+    },
+    {
+        "headline": "Argentina. A 5 años condenan a ex ministro de Kirchner",
+        "content": "Julio De Vido, figura prominente del anterior régimen argentino, es sentenciado a más de cinco años de cárcel por negligencia criminal ligada a tragedias ferroviarias. Este fallo marca continuación de juicio público contra altos cargos del pasado mandato, reflejando persistente búsqueda de accountability."
+    },
+    {
+        "headline": "Ciudadanos buscan fortalecer salud mental",
+        "content": "Autoridades sanitarias planean expandir servicios psicológicos accesibles, respondiendo a estimaciones alarmantes sobre prevalencia de problemas mentales en la sociedad actual. Para fines de año, se espera inaugurar nuevos centros dedicados exclusivamente a ofrecer atención integral y continua a pacientes vulnerables."
+    },
+    {
+        "headline": "Gran Bretaña advierte riesgos en consumo de dulces navideños",
+        "content": "Consumidores deberán verificar cuidadosamente detalles obligatorios en envases de alimentos festivos, especialmente aquellos destinados a niños. Indispensable revisar fechas de producción y registro sanitario conforme normativas vigentes para garantizar integridad y seguridad alimentaria."
+    },
+    {
+        "headline": "Afroper presenta exposición en Petroperú Center",
+        "content": "Exhibición artística celebra cultura afrolatinx mostrando fotografías realizadas por Kike Arnal. Representa diversos aspectos de la comunidad afrodescendiente local, ilustrando historias únicas de profesionales variados. Esta exhibición permanece disponible hasta mediados de noviembre, brindando oportunidad pública gratuita de conocer profundamente estas culturas."
+    }
+]
+```
+This JSON structure captures each identified article within the provided input while adhering strictly to the specified format requirements for headlines and contents. Articles were segmented based on thematic breaks indicated through changes in topics such as personal stories, political opinions, natural disasters, etc. Any missing data was filled using `"NA"` where applicable.

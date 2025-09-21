@@ -1,0 +1,136 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/04/elcomercio_24.txt ---
+
+```json
+[
+    {
+        "headline": "Al 2002-2003 fue la década del ilusionismo.",
+        "content": "Brasil en últimas no tiene tanto problema porque puede seguir siendo 'el país del futuro y siempre lo será', como decía Stefan Zweig en alusión a la eterna incumplida expectativa de éxito de ese gran país. Más, para el resto de la región, la pregunta ahora es hasta dónde llegará el retroceso si el panorama económico se agrava más. ¿Conducirá la mediocridad de la oferta política y de los partidos a una nueva crisis de representación en América Latina, como señala el polítólogo francés Alain Rouquié? ¿Se extendrá la crisis brasileña como un efecto domino de ingobernabilidad? O cuanto será la implicación en términos de las ganancias en reducción de la pobreza y de aumento de la clase media durante la década de los ilusionistas?"
+    },
+    {
+        "headline": "Resultados de la Encuesta de Intención de Voto",
+        "content": "Ligera ventaja de PPK\nalfred Torres Presidente ejecutivo de Ipsos Perú.\nPregunta clave: ¿Prefieres que el Ejecutivo y el Legislativo estén en manos de diferentes partidos para crear un contrapeso, o prefieres que estén bajo el mismo partido?\nUna mayoría significativa opta por tener un sistema de contrapeso independientemente del partido gobernante."
+    },
+    {
+        "headline": "Por Segunda Semana consecutiva...",
+        "content": "Pedro Pablo Kuczynski (PPK) mantiene una ligera ventaja de cuatro puntos porcentuales sobre Keiko Fujimori en la intención de voto para la próxima fecha. Un análisis detallado sugiere que esto podría considerarse un empate técnico debido al margen de error de ±2.3%"
+        
+    "Sin embargo, existen claras diferencias en cómo ven estos resultados según diversos factores sociodemográficos."
+
+    "Según datos adicionales, parece haber un consenso generalizado hacia el final de la campaña."
+    
+    "Este fenómeno también resalta preocupaciones importantes relacionadas con temas específicos dentro de la sociedad peruana."
+    },
+    {
+        "headline": "Un Éxito Que Es Un Obstáculo",
+        "content": "A poco más de un mes, la situación legal prevaleciente sigue afectando decisiones futuras. Hoy en día, uno piense en qué dirección tomarán estas tendencias actuales. Esto representa un dilema importante para analizar quién está detrás de tales movimientos estratégicos."
+    },
+    {
+        "headline": "Entrevistado",
+        "content": "\"¿Cómo ves tu papel en todo esto?,\" preguntó el entrevistador. \"Creo que debemos enfocarnos en resolver problemas estructurales.\" respondió el portavoz oficial. "
+    }]
+```
+This code snippet represents how we would process each individual story found within the provided input data using specific criteria for inclusion/exclusion based on defined rules. It extracts relevant information while cleaning up any unnecessary elements such as ads or irrelevant sections. This ensures clarity and relevance in presenting extracted stories formatted correctly according to specified guidelines.
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/04/elcomercio_24.txt ---
+
+```json
+[
+    {
+        "headline": "El fujimorismo no está para hinchar las plumas de pavo real",
+        "content": "La responsabilidad compartida consistirá en que Fuerza Popular y Peruanos por el Cambio tendrán que ser los principales aliados de ese giro político de 180 grados, no importa cuántos callos.\n\nEl fujimorismo no está pues para hinchar las plumas y las alas de pavo real pretendiendo reivindicaciones propias antes que las nacionales. Está para demostrar que es capaz de marchar, paso a paso, a contracorriente de las taras, vicios y delitos del autoritarismo civil-militar del '90 al 2000.\n\nFujimori y Kuczynski no tienen que ofrecernos a los peruanos una guerra sucia electoral, sino un sentido de futuro con reformas válidas que la fragmentación parlamentaria y la confrontación política humalista echó a perder, con abierta frivolización y cinismo, en los últimos cinco años."
+    },
+    {
+        "headline": "Keiko gobernará a la derecha en economía?",
+        "content": "El día después de la primera vuelta, crea en la importancia de la inversión privada, claramente también cree que el estado tiene un papel importante que jugar, interviniéndonose fuertemente en algunos aspectos del mercado, más allá de lo que hoy lo hace.\n\nEste modo de ver la economía ha sido compartido por su bancada, que en este gobierno y en el anterior ha planteadoun rosario de proyectos intervencionistas. Entre varíossotros,regular elprecio de los medicamentos, intervenir en los precios del transportointerprominal,restrictiposiblidelas que los centros educativos cobren a sus deudormorosos,prohibirenlarecreaciónde nuevas universidades,volver mástransparentelo régimen laborsuperalasexportacioness-tradicionales,prohibirabsolutamente lapublicidad del tabaco ou usaroeldelmoney de loscontribuyentespararefinanciar debandas agricultoras.\n\nTeniendo todoesto en cuentalo más probable es que,en lo que tocataloecono-miacomo,gobierno de Fujimori-si bien respetara lasgrandelinesdelmodelo-supondrávariosgradsménosenlibertadelosmercados quelohayedehojeydifícilemseñalar,"vuelcotralaederechaporlotomeneco-nómico".Algo quesinembargo,noesunconsueloparmisiamesdeizquierda,demostreamospodermoshacerclaroqueescogerdaldavañas a lasurnas."
+    },
+    {
+        "headline": "‘Desde que se dio la norma (de la eliminación del sistema 24x24), en agosto del 2015, más de 3 mil policías han pedido su baja porque se han visto afectados en sus ingresos y remuneraciones. Esta norma les ha bajado la moral.’\nKEIKO FUJIMORI (21/04/16)",
+        "content": "Media Verdad:\n\nEsta semana Keiko Fujimori se manifestó en contra de la eliminación del régimen 24x24. Sin embargo, sus afirmaciones respecto al número de policías que han pedido su baja y a sus ingresos son cuestionables. Respeto de lo primero, según reportó el Ministerio del Interior, durante el 2015 solicitaron su pase al retiro 2761 agentes, mientras que durante el 2014 la cifra llegó a 4301, o 360 efectivos por mes aproximadamente. \n\nRespecto de las remuneraciones, un agente de la Policía gana en promedio entre 74% y 108% más que en el 2011. Verdadero entonces que la imposibilidad de trabajar en el día de franco afecta sus ingresos, pero también es cierto que éstos se han visto significativamente incrementados para compensar la prohibición."
+    },
+    {
+        "headline": "'Para el 2018, cada municipio debe contar con un CIA(M), que responda a las necesidades de los adultos mayores de su comunidad.' PEDRO PAULO CUZYNISKI (Plan de gobierno)",
+        "content": "Medio verdadero:\n\nEl Plan de Gobierno de Peruanos Por el Cambio dispone la implementación de Centros Integrales de Atención al Adulto Mayor (CIAM) en cada gobierno local del país. Lo interesante es que el artículo 8° de la ley Nº 28.803, del año 2006, ya establece que el MINISTERIO DE LA MUJER PROMUEVE LA CREACIÓN DE UN CIA(M) EN CADA MUNICIPALIDAD PROVINCIAL Y DISTRIITAL. NO OBSTEDE QUE A MARZO DEL 2016 SOLO 363 GOBIERNOS LOCALES CUENTAN CON ELLOS; MENOS DEL 20 % DEL TOTAL. LAS CAUSAS SON EL DESINTERÉS E INSENSIBILIDAD DE AUTORIDADES LOCALES, FALTAPRESUPUESTO EDIFICIOS ALTO ROTACION PERSONAL TODO FORMAR PARTE RESPONSABILIDAD SUBNACIONALES YNO CENTRAL."
+    },
+    {
+        "headline": "UNGASS 2016: el calor del Debate",
+        "content": "Una sesión especial de la Asamblea General de las Naciones Unidas (UNGASS) analizó los logros y fallos de la lucha contra las drogas. Durante la reunión, países como México, Colombia y Guatemala pidieron cambios importantes. \"¿Qué están haciendo estos países que son la gran demanda de la cocaína?", preguntó el Presidente del Perú, destacando la responsabilidad compartida. Además, se menciona cómo el Perú sigue siendo un actor clave en producción y exportación de cocaína, a pesar de los decomisos constantes."
+    },
+    {
+        "headline": "Los Pesos Perdidos",
+        "content": "La nueva composición del Congreso muestra la volatilidad de influencias personales y grupales dentro de la política peruana. Bancadas antiguas pierden relevancia rápidamente, dejando sólo sombras de figuras influyentes del pasado. Este ciclo repetitivo sugiere una dinámica política marcada por la impermanencia y la búsqueda continua de nuevos liderazgos."
+    },
+    {
+        "headline": "Propuestas de Candidatos para Lograr una Lima Más Segura",
+        "content": "\"Lo que más nos preocupa es la corrupción\" afirma Gino Costas, responsable del plan de seguridad ciudadana de Peruanos por el Kambio. Propone colaborar estrechamente con alcaldes, fortalecer la relación entre la Municipalidad y el Ministerio del Interior, así como distritalizar recursos de la PNP. Octavio Salazar, de Fuerza Popular, reconoció la urgencia de enfrentar problemas estructurales de valor y asegurar fondos adecuados para combatir la inseguridad en distintos distritos."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/04/elcomercio_24.txt ---
+
+```json
+[
+    {
+        "headline": "Kuczynskiy mantiene el paso",
+        "content": "a seis semanas de elecciones ● Pedro Pablo Kuczynsky sigue cuatro puntos por encima de Keiko Fujimori, según medicin de Ipsos ● El 43% de los votantes de PPK lo apoya para que no gane su rival ● El 84% de quienes votarán por Keiko Fujimori lo hará porque es su candidata ● El antivoto de Fujimori es 45% mientras que el de PPK 37."
+    },
+    {
+        "headline": "Intención de voto hacia la Segunda Vuelta",
+        "content": "Si mañana fuera la segunda vuelta de las elecciones presidenciales, ¿por quién votará?\n\nPEDRO PAULO KUCZYNSKI\n43%\n\nKEIKO FUJIMORI\n39%"
+    },
+    {
+        "headline": "Motivación del voto",
+        "content": "¿Usted votará por ... porque es su candidato o para que no gane el otro candidato?"
+    },
+    {
+        "headline": "Opinión independiente",
+        "content": "Independientemente de por qué candidato votaría usted, ¿qué cree que ganará la segunda vuelta de las elecciones presidenciales?"
+    },
+    {
+        "headline": "Mal Menor",
+        "content": "Para usted, ¿quiénes son los candidatos menos malos?"
+    },
+    {
+        "headline": "Qué debería hacer cada candidato para ganar",
+        "content": "¿Qué cree que deberían hacer ... para ganar las elecciones en esta segunda vuelta?"
+    },
+    {
+        "headline": "Elección del Presidente del Congreso",
+        "content": "Cómo sabe, el presidente del Congreso se suele elegir entre los congresistas más votados del partido con más respaldo, en este caso Fuerza Popular. Si estas fuesen las opciones, ¿quién cree que deba ser el próximo presidente del Congreso?"
+    },
+    {
+        "headline": "Balance entre ejecutivo y legislativo",
+        "content": "¿Considera necesario que exista un contrapeso entre el Ejecutivo (presidente) y el Legislativo (Congreso)? O bien, que ambos sean del mismo partido y formen mayoría?"
+    },
+    {
+        "headline": "Endose de votos",
+        "content": "Si el candidato por el cual votó en la primera vuelta promueve que vote por Keiko Fujimori u otro candidato, ¿haría eso?"
+    },
+    {
+        "headline": "Renegociación del Gas",
+        "content": "\"Lo que tenemos que investigar es por qué y cómo se negociaron los contratos [de gas] y [por qué] el Perú recibe tan pocas regalias.\" señaló Keiko Fujimori. \"Comme je l'ai dit ces derniers jours, nous avons accepté la proposition du Sr. Barnechea : nous allons renégocier le gaz et nous devrons enquêter sur ces accords signés par le Sr. Kuczynski\"."
+    },
+    {
+        "headline": "Propuestas económicas de Fujimori",
+        "content": "\"Creemos que su plan [el seguro de desempleo] está destinado a favorecer a las grandes aseguradoras,\" comentó keiko Fujimori."
+    },
+    {
+        "headline": "Respuesta de Sheput a Fujimori",
+        "content": "'Él, cuya padre despide miles de funcionarios públicos y reduce los derechos laborales, carece de autoridad política para hablar de protección al trabajador,' declaró Juan Sheput."
+    },
+    {
+        "headline": "Alianzas políticas inciertas",
+        "content": "‘Tenemos que encontrar acciones para volver a poner al partido cerca de la gente,’ expresó Enrique Cornejo, líder aprista."
+    },
+    {
+        "headline": "Reflexión interna del PPC",
+        "content": '"Debemos realizar una reflexión con responsabilidades políticas que deben asumirse internamente," afirmó Marisol Prez Tello.'
+    },
+    {
+        "headline": "Análisis del panorama político peruano",
+        "content": 'La gran ironía de esta situación es que la mayoría legislativa fujimorista tendrá que utilizar sus recursos para impulsar reformas democráticas, tal como la reinstauración del Senado, que anteriormente había defendido fervientemente.'  
+    }
+]
+```

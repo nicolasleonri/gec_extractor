@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/08/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "Optimistas Vs. Pesimistas",
+        "content": "Mi amigo Gary llegó al restaurante por un sancochado caliente... Es evidente que hay más posibilidades de tener éxito en un objetivo si se enfrenta con optimismo en lugar de pesimismo. El optimismo es la disposición a creer que el futuro será favorable."
+    },
+    {
+        "headline": "Profesionales víctimas de violencia extrema",
+        "content": "\"Fue brutalmente asesinado el médico implicado en la amputación errónea en el Hospital Sabogal\"... \"Pedro Rivera Alva (70)... era conocido tras haber sido criticado nueve años atrás por la amputación indebida de una pierna sana a un paciente en dicho centro sanitario.\""
+    },
+    {
+        "headline": "Detienen a peligroso distribuidor de drogas",
+        "content": "\"Luis Arturo Caliche Pacheco (20), apodado ‘Arturito’, operaba vendiendo marihuana utilizando mototaxis... Policías capturaron a ‘Arturito’ junto con cerca de un kilogramo de marihuana.”"
+    },
+    {
+        "headline": "Violencia doméstica deja huella",
+        "content": "\"Balda y su novia violentaron repetidamente a Lorena Medina Castro (30)... Durante una discusión nocturna, ella encontró a su conviviente gravemente lesionado.”
+    },
+    {
+        "headline": "Intolerancias alimentarias tienen remedio",
+        "content": "\"Si tienes intolerancia a la lactosa, puedes optar por productos libres de lácteos como Gloria Sin Lactosa... recomendado por asociaciones internacionales especializadas en estas dolencias.”
+    },
+    {
+        "headline": "Promociones especiales esperan a nuestros lectores",
+        "content": "\"Participa en nuestra nueva campaña donde podrás llevar hasta 10 mil soles... Además, tenemos sorprendentes descuentos disponibles únicamente durante estos días festivos.”
+    },
+    {
+        "headline": "Plan Horario Pic y Placa mejora flujo vehicular",
+        "content": "\"Se implementará restricciones viales específicamente diseñadas para reducir congestionamientos... Las multas aplicadas ascenderán significativamente bajo nuevas regulaciones establecidas.”
+    },
+    {
+        "headline": "Temperatura baja drásticamente",
+        "content": "\"Previsiones climáticas anticipan temperaturas mínimas cercanas a los 11°C acompañadas de neblinas densas especialmente notorias en áreas costeras.”
+    },
+    {
+        "headline": "Apoya a jóvenes estudiantes con subsidios de renta",
+        "content": "\"El gobierno lanzará un fondo económico destinado a facilitar pagos de alquiler para beneficiarios del Programa Rent-a-Joven... Esto ayudará considerablemente a mitigar cargas financieras adicionales.”
+    },
+    {
+        "headline": "Congreso evalúa posible adelanto electoral",
+        "content": "\"Tras intensas deliberaciones políticas, existe consenso preliminar respecto a modificar calendarios electorales previsto inicialmente... Lo anterior podría influir notablemente en futuros escenarios gubernamentales.”
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined extraction rules. Articles were identified based on distinct topics within the text block, ensuring each entry aligns accurately with its respective theme.

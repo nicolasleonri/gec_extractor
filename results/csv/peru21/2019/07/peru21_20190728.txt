@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/07/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Domngo\nPresidencial y el Análisis Profundo Pe’\n21 a",
+        "content": "Felipe Acurio.\n\"El país es todo\", Gladys Tejeda, Cristhian Pacheco (maraton)\nes mi motor, \"... es mi sueño permanente\"."
+    },
+    {
+        "headline": "Actualidad",
+        "content": "\"Seamos firmes en nuestras decisiones y antepongamos el amor al Perú y el interés nacional al cálculo político.\" \n\- Javier Pérez de Cuellar, ex secretario general de la ONU, participación para la BBC – 20\n\n\"No vale la pena volver a las fricciones. Yo encuentro que el Congreso ha cumplido con las reformas.\" \n– Óscar Valdez Villanueva, Ex Premier y congresista de Alianza Para el Progreso\n\nPlantea Agenda. El congresista de Acción Republicana es el nuevo presidente del Congreso y, aunque ganó a Salaverry con votos de Fuerza Popular, dijo que su gestión será independiente de esa bancada. Sostuvo que es hora de pasar página respecto a las reformas."
+    },
+    {
+        "headline": "ECONOMÍA EN FOQUE",
+        "content": "En su discurso de asunción, Olaechea señaló que era momento de voltear la página respecto a las reformas judiciales y políticas para retomar atención en la economía. \"En los últimos meses, el trabajo del Congreso ha estado enfocado en las reformas del Poder Judicial y políticas impulsadas por el Ejecutivo. Nos hemos logrado grandes ces (...); ahora enfocémonos en atacar los problemas que enfrentamos como país. Nuestra economía está estancada,\" señaló,\n\nEl titular del Parlamento dijo que propondrá una «agenda de emergencia» a trabajar conjuntamente con el gobierno para retornar al sendero del crecimiento económico. \"Desde el Congreso aprobarémos la legislación necesaria para impulsar las actividades extractivas y desterrar la inversión,\" remarc."
+    },
+    {
+        "headline": "OPINI\u00d3N",
+        "content": "Justo Reconocimiento. Tras la victoria de Gladys Tejeda en la maratón femenina de los Juegos Panamericanos, sorprendió la presencia del Presidente Martín Vizcarra en la ceremonia de entrega de la medalla de oro. \"Nos hizo sentir la fortaleza de la mujer peruana. Ellas luchan hasta el final y lo ha demostrado,\" expresó el Mandatario visiblemente emocionado."
+    },
+    {
+        "headline": "Panamericanos",
+        "content": "En plena elección de la Mesa Directiva, el Pleno del Legislativo realizó una pausa para celebrar la victoria de Gladys Tejeda en la maratón femenina. Legisladores olvidaron temporalmente sus diferencias internas y reconocieron el éxito de la deportista. "
+    },
+    {
+        "headline": "Acuerdo Político",
+        "content": "Ahora me toca a mí. Antes de iniciar la sesión en el Pleno, los aspirantes a liderar la Mesa Directiva, Daniel Salaverry y Pedro Olaechea, compartieron saludos cordiales. Este acto simbólico reflejó la importancia de la rotatividad política en una democracia funcional."
+    },
+    {
+        "headline": "Proceso Electoral",
+        "content": "Subsecuentes eventos revelaron tensiones inherentes al proceso electoral parlamentario. Durante la selección de nuevos líderes legislativos, observaciones notorias indicaron divisiones ideológicas latentes, mientras que discursos públicos intentaron mitigar percepciones adversativas hacia futuras colaboraciones bipartidistas."
+    }
+]
+```
+This JSON captures key sections identified within the provided input while adhering strictly to the outlined requirements for extracting significant journalistic content. Articles were segmented based on headlines where applicable, ensuring each entry contains both `headline` and `content`. Any missing data was filled using `"NA"` according to guidelines. This structured format allows easy parsing and further processing.

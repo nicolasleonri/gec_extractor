@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2015/11/publimetro_09.txt ---
+
+```json
+[
+    {
+        "headline": "SI DESEAS APRENDER SOBRE EL MUNDO DEL DEPORTE, ENTÓRNOS A FORMAR PARTE DE NUESTRO EQUIPO!",
+        "content": "Triatlón\nSport**\nEn Triathlon Sport seguimos con nuestro proceso de expansión, y estamos en búsqueda de personas que les guste el deporte y tengan una excelente vocación de servicio.\nNosotros Teofrecemos:\nAP*\nIngreso a pleno beneficio de nuestros planes de carrera.\nVENTAJAS ADICIONALES\nVen a formar parte de nuestra empresa!\nVenta Directa\nAdministrativos\nGerentes De Tienda\nAuxiliares De Almacén\nCajeros(as)\nPaga Semanal\nComisiones Por Ventas\nDesarrollo Personal\n¡Únete Ya!"
+    },
+    {
+        "headline": "TODO LO QUE DEBES SABER SOBRE TUS SUPERHEROES FAVORITOS:",
+        "content": "Perfil físico y psicológico, enemigos, aliados, rivales y evolución histórica \nDibujantes y guionistas de los cómics desde su creación \nValiosas infografías con imágenes increíbles \nPromoción válida a nivel nacional del 05 de noviembre del 2015 al 24 de enero del 2016 o hasta agotar stock \nUna unidad disponible por pedido: 8100. Una vez realizada la compra, no habrá devolución."
+    },
+    {
+        "headline": "CONVERSAMOS CON EL CO-CREADOR DEL MICROPROGRAMA DE YOU-TUBE ‘LOS CIFÍLIOS’, QUIÉN AHORA PRESENTA ‘COMO EN EL CINE’ SU PRIMER LARGOMETRAJE.",
+        “content”: "\"LA VIDA ES UNA GRAN PELETA\" \nContó que fue un niño gordito peleado con los deportes. Que no le gustaba ir a misa y que prefiriá pasar sus días viendo películas. Fue en esas horas interminables frente a la pantalla y sus constantes compras clandestinas de películas pirata en Betamax donde Gonzalo Ladines (30) conocía –a través de sus films– a quién seria su guía de vida: Woody Allen. \nLadines es comunicador y guionista. Ha trabajado en diversos cortometrajes y es co-creador –junto a Bruno Alvarado– de \"Los Cinfilos\", una serie de micro-programas en Youtube producidos por Señor Z, en el que Manuel Gold y Guillermo Castrillón hacen de dos adictos a las películas que anteponen esta pasión a su conexión con la realidad. \nTras dos años, el canal de \"Los Cinfilos\" tiene más de 560 mil seguidores y Ladines ya ha producido varios cortometrajes. Además, escribió el guion de la comedia \"ViejossAmigos\". Ahora, Gonzalo se prepara para estrenar su ópera-prima: \"Como en el cine\", comedia bastante personal en la que plasma mucho de ese humor aprendido de Allen. "
+    },
+    {
+        "headline": "CUANDO TE DISTE CUENTA DE QUE ERAS UN CINFILT?",
+        "content": "A los quince años aproximadamente. Cuando iba a misa, por ejemplo, sólo quería terminar para poder ir corriendo a rentar películas (risas).\nCreo que confío más en las películas que en la religión. ¿Quién es tu modelo cinematográfico?\nWoody Allen, de hecho, me ha influido bastante. Sus películas, más que todas, me han parecido conmovedoras. Más humanas. No hay héroes ni villanos. Cuándo empecé a querer hacer cine tú mismo?"
+    },
+    {
+        "headline": "RESULTADO COMPROMISO TRABAJO POR RESULTADOS",
+        "content": "Cómo defines a un cinfito?: Francamente no creo que tenga que ver con el número de películas que hayas visto, sino con el sentimiento particular que le tienes a cada una de ellas. Cómo te sientes después del rodaje de tu primera película?: Ha sido completamente agotador. Quiero unas vacaciones (risas). Pero es genial estar detrás de cámaras viendo a los actores interpretar los guiones que has escrito. Estamos mostro,\nTe resultó complicada la transición de hacer un micro programa a un largo metraje?: No es que fuera más difícil. Lo que sí sentiste fue muchísima responsabilidad. Querés que todo salga bien ya no solamente por vos, sino también por todos esos compañeros que pusieron el hombro. Siempre estás pensando en cine?. Sí, estoy enamorado (risas)"
+    }
+]
+```
+This extraction captures four distinct sections identified within the provided input based on their thematic coherence and structure resembling typical journalism pieces. Other parts such as schedules, ads, etc., were excluded according to given guidelines.

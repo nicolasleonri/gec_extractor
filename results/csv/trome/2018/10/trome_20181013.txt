@@ -1,0 +1,76 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/10/trome_13.txt ---
+
+```json
+[
+    {
+        "headline": "Carlos Alvarez y el alcalde Claro, bien jugado",
+        "content": "Nadie habló – ¿Qué tan importante, y además de qué? – Luis Casteda Lossio.\nPregunta de trabajo, sólo eligió el pueblo quién lo votó – \"Mejor no opinar de ese tema, porque tengo un gran cariño no solamente vamos a volver a ver a Vanessa por Carlos, sino porque\nen múltiples ocasiones he coincidido con el alcalde, pero sí creo que todos debemos respetarnos y el respeto va más allá\nde quién eres, cómo te comportas con los demás, Lo que puedo decir es que he...\nMiguel Arce llegó de México y no descarta regresar a ‘Combeta’ para apoyar a Marisol Croustillat."
+    },
+    {
+        "headline": "Anélida Araúz cuenta que tomará acciones legales",
+        "content": "\"Quiero felicitar a cumbiambero por su nueva paternidad y espero que haya aprendido la lección para no cometer los errores del pasado.\" \n\"Un bebé siempre es una bendición, espero que le vaya muy bien, que sea feliz con su pareja, pues parece que están muy enamorados.\"\nMelissa Klug arremetió contra Yahaira Plasencia y la califica de 'quitamaridos'.\n\"Válgame Dios\", me molestó, que has hecho la víctima. La chica fue inteligente, supo marketearse;\nhablo de la manera que él escaló,\nsobre la forma que seleccionó a una persona que había robado el marido,\" dijo en entrevistas recientes.\n\"Siempre será recordada como la 'Reyna madre', no hay nadie como ella, fue la que comenzó toda esta dinámica.”
+    },
+    {
+        "headline": "Magaly Medina critica a Mario Hart tras polémica",
+        "content": "\"Creo que está claro que hubiese sido preferible pedir disculpas públicas antes de involucrar a terceros. Reconocer nuestro error muestra madurez personal y profesional.\"\nManolo Rojas afirmó que está preparado para enfrentar retos mayores en su próxima aparición en 'El Gran Show: el duelo perfecto'.\n\"He estado entrenándome física y mentalmente para dar lo mejor de mí en cada performance. Mis compañeros pueden testificar mi dedicación constante hacia el arte circense.\"\nSe anticipa que durante el evento también tendrá lugar un segmento especial enfocado en temas de inclusión social dentro del ámbito deportivo."
+    },
+    {
+        "headline": "Flavia Laos revela detalles íntimos de su relación",
+        "content": "\"Mi prioridad es disfrutar plenamente estos momentos únicos junto a mi pareja. Nos hemos tomado nuestras decisiones basadas en nuestra conexión emocional profunda y entendimientos mutuos.\"\n\"Para nosotros, compartir experiencias cotidianas y extraordinarias significa construir un futuro sólido lleno de risas y complicidad. Esperamos seguir creciendo juntos tanto individual como conjuntally.\"\nLas próximas actividades incluyen viajes planeados a destinos aún secretos, así como proyectos creativos colaborativos que estamos ansiosos por desarrollar."
+    }
+]
+```
+This extraction captures four distinct articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria and data cleanup processes.
+
+--- ERROR ENTRY: data/txt/trome/2018/10/trome_13.txt ---
+
+```json
+[
+    {
+        "headline": "RAYO ESTÁ IMPARABLE CONTRA CHILE",
+        "content": "\"Hoy en día, uno pensaría que Ricardo Gareca había dicho algunas palabras inspiradoras días anteriores, y Luis Advíncula salió ayer decidido a enfrentar al temible adversario conocido como ‘El Rayo’. Esta fuerza indetenible provenía desde su banda derecha, provocando verdadera angustia dentro del área defendida por los chilenos cada vez que iniciaban ataques velocistas. Además, este encuentro destacó también por mostrar físicamente cómo podían retener el ímpetu necesario para contrarrestar avances de futbolistas reconocidos como Junior Fernández o Mathías Fernández.\n\n‘Bolt’ está viviendo momentos excepcionales, y si continúa así, existe consenso general respecto a que podría ascender a grandes ligas europeas próximamente.\""
+    },
+    {
+        "headline": "UN TRIUNFO DECISIVO PARA PERÚ SOBRE CHILE",
+        "content": "\"Por fin después de cinco años logramos nuevamente obtener victoria frente a Chile mediante un excelente rendimiento deportivo acompañado de una convincente diferencia numérica. Anteriormente predije que éste era el instante ideal para poner punto final a nuestra serie negativa aprovechándonos de la ausencia de varias piezas clave en el conjunto visitante. Así, Medel y Vidal argumentaron que debíamos considerar este duelo más como un clásico regional que como un evento decisivo internacional. Nosotros buscábamos simplemente moderar nuestras expectativas elevadas mientras disfrutábamos de nuestro triunfo.\n\nDurante aquel periodo en el cual mantuvimos posesión efectiva del balón surgieron oportunidades significativas gracias a la habilidad disruptiva de Carrillo y la destreza técnica mostrada por Advíncula, quienes nos recordaron por qué están compitiendo en divisiones tan prestigiadas como la española. Ambos exhibieron características impresionantes tales como rapidez, precisión, astucia táctica y resistencia insuperable. Otros entrenadores empezaron a observar estos talentos emergentes con interés creciente."
+    },
+    {
+        "headline": "BIENVENIDO ACUARIO QUINTERO",
+        "content": "\"Acuario Quintero entró al campo transformado completamente, convirtiéndose rápidamente en figura central del encuentro. Dos simples contactos con el balón resultaron en dos tantos conseguidos. Ramos adoptó el papel silencioso y eficiente similar al legendario ‘Mudo’ Rodríguez, dirigiendo la línea defensiva junto a Santamaría, ambos ofreciendo solidez aunque limitación en creatividad. Gallese contribuyó mínimamente debido a la baja exigencia situacional, proporcionando tranquilidad bajo palos. Trauco aún evidenciaba carencia de preparación óptima derivada de su participación en Flamengo, presentando dificultades en avanzar hacia el gol y tratando infructuosamente de coordinar acciones conjuntas. Cuervo continuaba siendo objeto de preocupación dado su nivel inconsistente, necesitando urgentemente mejorar su impacto en partidos subsiguientes.\""
+    },
+    {
+        "headline": "PREPARACIÓN INTENSIVA PARA PARTIDOS CRÍTICOS",
+        "content": "\"Continúo teniendo reservas específicas relacionadas con pérdidas frecuentes de balón durante nuestros lanzamientos iniciales. Espero fervientemente que la amplia superioridad obtenida en el último compromiso no oculte falencias persistentes identificadas particularmente en la fase inicial del encuentro. Resulta imperativo dedicar mayores recursos temporales enfocados exclusivamente en corregir estas áreas problemáticas. Hay veces en que optar por simplificar el juego parece prudente, especialmente cuando existen riesgos latentes de exponer vulnerabilidades innecesarias. Mi partida concluye aquí, prometiéndonos continuar colaborando activamente en proyectos venideros.\""
+    },
+    {
+        "headline": "ENTREVISTA ESPECIAL: PAULINA AGÜERO MOTIVÓ A LA SELECCIÓN",
+        "content": "\"Antes del crucial enfrentamiento contra Chile, Paulina Aguilar envío mensajes de ánimo a través de plataformas digitales, ejemplificando el espíritu capitán. Durante la celebración anticipatoria organizada por aficionados locales, hasta incluyeron música en vivo directamente en el estadio, fortaleciendo el ambiente festivo. Posteriormente, Oscar Washington Tabárez utilizó paneles gigantes ubicados estratégicamente para enviar señales visuales dirigidas a los rivales, intensificando la atmósfera competitiva justo antes del inicio oficial del partido.\""
+    },
+    {
+        "headline": "RESULTADOS IMPORTANTES EN ATLETISMO LOCAL",
+        "content": "\"Tras varios experimentos realizados utilizando agua bendita, diversos individuos reportaron resultados positivos notablemente variados dependiendo de condiciones personales particulares. Aquellas experiencias sugieren aplicabilidad universal, invitando a interesados a probar dichos métodos personalizados según requerimientos médicos especificados anteriormente.\""
+    },
+    {
+        "headline": "CRÓNICA DEPARTAMENTAL: UNIVERSIDAD VS COMERCIO",
+        "content": "\"Universitarios recibirá mañana a Universidad Comercio en el emblemático Estadio Nacional, en un partido determinante programado originalmente para la jornada número cinco del torneo Clausura. Actualmente posicionados en el lugar treinta y ocho acumulativamente, enfrentaremos a un rival cercano clasificado en el puesto cuarenta y uno. Rafael Farfán retorna al guardametas luego de haber sido sustituido temporalmente por Patrick Zubczuk. También retornará Do Corzo, además de Alberto González, Ángel Roméro y Blas López. Junto a él jugará el argentino Germin Denis, respaldado por el joven talento nacional Quintero, mientras que Juan Vargas defenderá la portería. Según expresó Denis, \"Las finales deben jugarse concentradamente\"."
+    },
+    {
+        "headline": "ATENCION ENTRETENIMIENTO: BRASIL DOMINA AMISTOSAMENTE",
+        "content": "\"Brasil obtuvo una victoria ajustada de 2–0 sobre Arabia Saudita en el King Abdullah Sports City Stadium. A pesar de contar con un formidable ataque integrado por nombres ilustres como Neymar, Gabriel Jesús y Philippe Coutinho, el equipo apenas desarrolló suficientes opciones de gol. Finalmente, sólo cerca del minuto ochenta y tres, Alexandre Pato capitalizaría un preciso servicio de Neymar para asegurar la victoria. Esto ocurrió tras expulsión de Mohammed Al-Owaiss, permitiendo a Brasil incrementar su ventaja.”
+    },
+    {
+        "headline": "NOTICIAS INTERNACIONALES: FRANCIA VISITA PARQUE TEMÁTICO",
+        "content": "\"Después de empatar 2–2 contra Islandia, las estrellas galas de la Selección Francesa hicieron una visita recreativa a Disney Paris. Figuras como Paul Pogba, Antoine Griezmann, Kylian Mbappe y Ousmane Dembelé interactuaron con icónicos personajes y exploraron emocionantes instalaciones, reviviendo memorias infantiles.”"
+    },
+    {
+        "headline": "EVENTO ESPORTIVO: HOLANDA RECIBE GERMANIA",
+        "content": "\"Holanda y Alemania protagonizarán un histórico enfrentamiento en Johan Cruijff ArenA, correspondiente a la tercera fecha del Grupo 1 de la Liga de las Naciones Europea. Todos los focos estarán centrados en Frank de Jong, jugador holandés de veinte años que debutará como titular en este contexto altamente competitivo.”
+    },
+    {
+        "headline": "DESTACA ACTUALIZACIÓN DE USAIN BOLT EN AFL",
+        "content": "\"Usain Bolt, famoso por su récord mundial de velocidad, incursionó exitosamente en el fútbol profesional con Central Coast Mariners, registrando dos goles en su debut absoluto. Utilizando su característica explosividad atlética, Bolt sorprendió gratamente a los fanáticos y compañeros de equipo.”
+    }
+]
+```

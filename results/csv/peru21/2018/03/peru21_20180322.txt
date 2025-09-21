@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/03/peru21_22.txt ---
+
+```json
+[
+    {
+        "headline": "Val un 30 % de Martín Vizcarra solo sostenido por el kirchnerismo.",
+        "content": "Y Fuerza Popular tampoco buscará un cogobierno?\nParecería improbable que el kirchnerismo quisiera asumir responsabilidades de cogobierno, pero sí les conviene que le vaya bien a Vizcarra. Recordemos que si renuncian los vicepresidentes, el presidente del Congreso debe convocar a elecciones. A Keiko no le conviene esto porque quiere apartar los hechos recientes de una posible elección."
+    },
+    {
+        "headline": "“El Peje no pueda sostener un gobierno con mayoría absoluta opuesta en el Congreso.”\n\n\"En el caso de Fujimori,\nSu solución fue dar un golpe de Estado.\"",
+        "content": "\"Si PP.K pierde su inmunidad presidencial y puede ser juzgado por los cargos de Odebrecht, por ejemplo.\nTiempo limitado, pero los procedimientos podrían finalizar con una acusación del Ministerio Público y comenzará un juicio penal, que aquí lleva mucho tiempo. PP.K no es Fujimori. Por ende, para efectos prácticos, esa situación dejará de importar rápidamente.\""
+    },
+    {
+        "headline": "¿Cómo será un gobierno de Martin Vizcarra?",
+        "content": "Ser igualmente débil y más kichinerdependiente (qué el parlamentaria opositora y no tiene partido propio, banca propia, no es conocido).\nAunque llega a término de su mandato después de la tragedia.”
+    },
+    {
+        "headline": "Opinion: Aldo Mariategui",
+        "content": "Una pena cómo acabó este gobierno de PPK, uno en el cual muchas gentes –hasta muy exageradamente– pusieron grandes expectativas. Desde \"el presidente de lujo\", hasta muchos ministros venían con excelente reputación profesional. Hoy todo eso se ha ido por el desague, entre computos y desesperados aprendices de bruja. Duro, muy duro está fracaso."
+    },
+    {
+        "headline": "Zoom.21",
+        "content": "Hasta la vista PPK\nMuchísimo entusiasmo y hasta cierta perspectiva positiva de la población después de un mediocre gobierno Humalista. Su discurso de asunción fue, según él mismo decía, lleno de esperanza, con un compromiso de luchar frente a la corrupción y mejorar socialmente hacia el bicentenario. Llegó con reconocimiento internacional por su carrera profesional como banquero y con experiencia política de haber sido premier y ministro en distintos gabinetes en dos periodos democráticos."
+    },
+    {
+        "headline": "Lo que espera a Vizcarra",
+        "content": "Recibirá una ‘papa caliente’ tras cumplir años al tomar las riendas del ejecutivo tras la salida de PPK. Considerado así por el ex-ministro Interior Flores-Aráoz, sugiriendo dificultades inherentes a gestionar el país en momentos tan turbulentos políticamente."
+    }
+]
+```
+This extraction captures several distinct pieces of journalism within the provided text while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. Note how each entry maintains its own structure according to the defined schema.

@@ -1,0 +1,103 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/10/peru21_19.txt ---
+
+```json
+[
+    {
+        "headline": "BARCELONA NO FUE MAL, ELLOS QUISIERON DAR UN SALTO DE CALIDAD Y DIJERON...",
+        "content": "EL BRITÁNICO LEWIS HAMILTON (MERCEDES), CON 36\nA SUS 33 AÑOS, LUÍS SUAREZ ESTÁ EMPECINANDOSE EN PEDIR LA PAJA,\nY ES QUE DESDE LA CIUDAD DE LAS LUMBRERAS AFIRMAN AHORA QUE EL ACTUAL CAMPEÓN FRANCÉS PODRA SUMARSE A MBAPPÉ EN PARÍS.\nSEGUROS QUE SI NEYMÁR SALE POR LESIÓN DESCANSO O SUSPENDIDOS, \nNO SOLO ESTARA DISPUESTO A ESCUCHAR OFERTAS POR EL BRALEAO, \nPERO TAMBIÉN APUNTARIAN A ANTOINE GREIZMAN (ATHLETIC MADRID)\nCOMO SU PRINCIPAL SUSTITUTO."
+    },
+    {
+        "headline": "DATOS DEL CLUB",
+        "content": "MEDIO GALO NO HA DUDO EN PUBLICAR LAS INTENCIONES DEL CUADER DIRIGIDO POR THOMAS TOCHTEL DE PAGAR LOS 150 MILLONES DE EUROS DE LA CLÚUSURA DE NEYMÁR, SIN OLVIDARNOS DE OTROS DETALLE IMPORTANTE:\nSI NECESITA RECAUDAR DINERO EXTRA, SERIAN CAPACES DE COLOCAR AL ATACANTE BARCELONESO ROBERTO FIRMINHO POR 140 MILLONES DE EUROS."
+    },
+    {
+        "headline": "LAPOLICIÆNTENDIDA",
+        "'QUÉ PASÓ', ME CONTÓ CSAR HINO-STROZA, QUIEN AGREGÓ QUE EN EL PERÚ LO QUESERA ARRESTAR DE CHIVOO EXPEDIENTE: ‘¡IMAGINA!\nCON MI CORTE SE FUÉ AL MUNDIAL GRATIS, ALMONEDA BAJO PRETEXTO DE JUECES Y FISCALES, SE DEBA LA GRAN VIDA, PERO FREGRON.'\n‘¿PORQUE TE HAS IDO ASÍ?', SIGUIÓ INTERROGANDO PETRO CHAVARRY, TRISTEMENTE CONFESANDO QUE ÉL ERA UNA PERSONA NORMAL, HONESTA Y BUENA, PERO QUE TENÍA PROBLEMAS ENTRE AMIGOS Y FAMILIARES."
+    },
+    {
+        "headline": "AHORRENSE YA MISMO...\nTRAS RECUPERAR LA SERIEDAD, CHAVARRY ADMITIÓ QUE LE PENABA RECIBIR TANTA CRÍTICA Y SE PREGUNTÓ: ¿POR QUÉ TANTO ODIO?\nENTONCES ADMITIÓ QUE PIENSANDO EN SU FAMILIA, ALGO PASÓ POR SU CABEZA, PERO PASÓ MUY RPIDAMENTE.",  
+        "content": "ASI MISMA, LUEGO DE TANTA PRESIÓN DE LOS PERIODISTA, CHAVARRY DIÓ FINALMENTE FECHA PARA SU SALIDA. ’ADECUATE’, DICHA, ’RENUNCIO APENAS LE DEPOSITEN LA CESANTÍA A KEIKO’."    
+    }   
+]
+```
+This extraction includes four distinct pieces based on headlines identified within the provided text block. It maintains the integrity of each segment's context while adhering strictly to the guidelines for extracting meaningful journalistic content. Any unclear data has been marked appropriately according to instruction requirements.
+
+--- ERROR ENTRY: data/txt/peru21/2018/10/peru21_19.txt ---
+
+```json
+[
+    {
+        "headline": "Arremete fiscal de la Nación contra colega",
+        "content": "El fiscal de la Naci\u00f3n arremeti contra su colega \u2014quien\ninvestiga los casos de lavado\nde activos vinculados a varios\npartidos, entre ellos el de Keiko\nFujiomori y el Apra\u2014 porque en\nM\u00e9xico se refiri,\nin un pasaje\nde su discurso, a las \"guerrillas\"\nen el Per\u00fa, al mencionar a las\norganizaciones terroristas\nSendero Luminoso y el MRTA.\n\"El sr. Jos Domingo\nPrez es quien debe definir por\nqu razn hizo estas\naseveraciones, no solamente porque\nM SE LE FUE ENCIMA. Chvarry cuestion duramente a Prez en su presentaci\u00f3n en el Congreso.\nConsidero que est\nequivocado, no s con qu intencin lo\nhar\u00eda. (...) Haber vertido\nesos calificativos de alguna\nmanera mella la honra de los\nperuanos cadetes\", expres.\nAdemas, se quej de que\nel fiscal, integrante del equipo\nespecial Lava Jato, ha tenido\ndeclaraciones en su contra."
+    },
+    {
+        "headline": "Retiran del Cargo a José Abanto; lo remplaza GianMarco Paz",
+        "content": "Remueven al oficial mayor Siguen rodando cabezas por el\nesc\u00e1ndalo de la fuga de Csar\nHinostroza, Esta vez fue en el\nCongreso, Ayer, el Consejo Del\nRectivo decidi remover al\nofficial mayor Jos Abanto,\nSu salida obedeci a que\thubieron que pasar 12 das\npara que el Legislativo envi\nal Ministerio Pblico y al\nPoder Judicial el documento con\nla aprobaci\u00f3n de la acusi\u00f3n\nconstitucional contra el\ndestituido juez,\nEl Pleno haba dado luz\nverde, el 4 de octubre, a las\ndenuncias por cuatro delitos,\naads de su destituci\u00f3n.\nFue el propio presidente del\nLegislatura, Daniel Salaverry,\nquien el da lunes planted que\nAbanto cumpla su labor como\noffical major, cargo en el que\nestaba desde agosto, cuando\nreemplazo de Jos Cevasco.\nEn su lugar ingresara\nGianMarCo paz mendez, quién\nantes has ocupado el cargo de\ndirector general parlamentario.\nTambi\u00e9n ha sido secreta rio tcnicode comisionsarias y especialistaporlamentariop."
+    },
+    {
+        "headline": "Entrevista Ricardo Monzn KCMT",
+        "content": "| Mircoles, Fiorella\nMolinelli, presidenta\nde Essalud, acudi a la\nComisi\u00f3n de\nFiscalizaci\u00f3n del Congreso para,entre otras cosas,dar alcance sosobre la denuncia depresuntas irregularidades ensus adquisiciones del hospedalgEdgardo Rebagliati desde 2012.Tras la sessi\u00f3n, que fue reserva da,recebials algunas crticas alas que da respuesta en esta entrevista.El presidente de\nFiscalizaci\u00f3n, Luis Lopez, dioj que no qued satisfactoriado porque\nusted no pudo respondere ciertas inquietudes.Qu le respondera?\nYo sa muy satisfactoria dela sessi\u00f3n porque pudimos expresar\nnosotros mismos fueron mas\ndo brindar toda la\ninformaci\u00f3n sobre la denuncia ques fue planeada en base agesti onesanteriores.En segundolugar,nos permiti alcanzar\nlos logros de nuestros\nprimeros 180 dias degestion.Un temade que a lacomi si le gust muchoes la direcci\u00f3n de conflicto deintereses,quepermite quelos func ionarios de\nla entidad,pero sobre todolos miembros de comites,antes dedesarrollar un concurso\nde compras expresen culha sidola relacion conprivadosuo otras empresas,Esa es una direcci\u00f3n que ya\nesta en marcha?"
+    },
+    {
+        "headline": "Ex mandatario responder Hoy por el indulto",
+        "content": "PPK declar sobre los\n\"mamanivideos'\nEl ex presidente Pedro Pablo\nKuezynski declar a la Fiscala\sobre el presunto\stopo de beneficios a\nparlamentarios para evitat suvacancia,talcomo mostro losvideos de\nMosls Mamani,\"Se deja claro\nque nunca existi una\nnegociaci\u00f3n que significamechange de votos por obrasyfinal,Pedro Pablo Kuezynskifu victima de una guerrapolitica queen termine en lainclinaci\u00f3n presidenital\",sel\u00e1 sel su abogado,Csaro Nakazaki.PPK volvere hoy a la Fiscala\npara responder porelindultodel ex presidente Fujimori."
+    },
+    {
+        "headline": "Corrupción. Molinelli asegura que en compras menores a 8 UIT es dónde está más oportunidades de abrir ventanas de corrupción.",
+        "content": "\"Los pacientes no puedennesperar.\" Corrupci\u00f3n.Molinelli asegura que en comprasm menores a 8 UIT es dondetiene ms oportunidades deabrirlasventanas decorrupci\u00f3n.Esilasumi la gestion endiciembrey hace seis mesess,no sehavia avancado enprocesos decompra dentrodellugares publicossometidos en la Ley de ComprasPublicas.OBIEQUIPO ESPECIAL.La Concertacin(tiempo) Tiene que ser aborda desdes varias artes,y necesitan elcompromiso de diversasentidades.Nosotros hemos propuesto,junto con el Ministeriode salud, undecreto legilsativo que nos va aermitir salir a comprar alexterior.Estamos apronta deaprobar una directiva.Primer tener un concurso nacional ysies que no se presenta lasempresas,o si ves indiciosdecorrupti\u00f3n deprecios,salir a comprar fuera,Yalemos experienza con laprotamin,aqui es un insumbasicoparatodospaciente cardacos.en peru hay unsuposicion bastecimiento.lampolla estava 5120 yen exterior la hemoscomprado a menos de $10.Ennoviembre se aprobara ladirectiva?.S, ya esta parasdiscusion.Como evitar laconcertaci\u00f3n de precioso?La concertaci\u00f3n tieme que seraborada desdediversas artesis y necitas elcompromisos de diversasesenties.No podemos dejar desabastecer al hospital.Entonces,laprincipal seal es que,mientras sedea con el proceso,uno puedaavanazar con algunascompras menores a 8UIT."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/peru21/2018/10/peru21_19.txt ---
+
+```json
+[
+    {
+        "headline": "Formación continua técnicas de investigación periodística",
+        "content": "Irumpirse frustra el caso Charlar\n(a periodista – Daniel)\nde creí!\nq +P\nInicio: Octubre 2018\nInstitución:\nvansys\nEn alianza con:\nMas información aquí: (\") 934992493\n(01) 411–5888 | Av. Uruguay 514, Lima. | www.avansys.edu.pe"
+    },
+    {
+        "headline": "Casos registrados en el país entre enero y septiembre superan ampliamente a todos los de 2017",
+        "content": "Diagnosticaron a unas 6,985\nHispana Nuestra \nsra, del Carmen.\nLa E % so.e\nE1 % >  %\n3 % S/\nEy x_e*\.- arota\nea — (* dept\"\nmMinisterio de salud busca que más pacientes sean detectados bajo política preventiva específicamente en templos de Nueva York y barrios como Las Nazarenas m+\nf+ =El cáncer de mama es el\n40 años, debido al aumento de casos. Mujeres peruanas con 19.5%. Atención. Debido a la procesión, la ruta alterará su itinerario."
+    },
+    {
+        "headline": "Podrán comprarlos fuera",
+        "content": "Por la procesión, la Ruta A del Metropolitano será desviada de 9:30 pm a 12:00 pm de hoy por la Av. Alfonso Ugarte. La Ruta C solo llegará a la Estación Central. PODER JUDICIAL NO ACCEDE PETICIÓNEl poder judicial declara fundada la acción de amparo interpuesta hace meses por parte de Cineplex, dueña de CinePlanet, para suspender medidas restrictivas impuestas por autoridades competentes. Anteriormente, Indecopi había determinado que desde marzo último, las cadenas Cinemark y CinePlanet ya no podrían obligar a consumidores únicamente productos vendidos dentro de sus instalaciones. Ambas compañías argumentaban pérdidas significativas derivadas de estas restricciones."
+    },
+    {
+        "headline": "Arequipa. Fiscalía presenta pedido contra ex-alcalde de la ciudad Blanca Alfredo Zea",
+        "content": "La fiscal especializada en criminalidad organizada solicita el impedimento de salida del país para el ex alcalde regional de Arequipa Alfredo Zeárraga, investigado conjuntamente con la banda de narcotraficantes conocida como ‘Los Maditos’ de Virú Civil. Este procedimiento legal surge después de revisar minuciosamente las agendas personales del acusado, encontrándose evidencias adicionales vinculándole con líderes criminales mencionados. Actualmente enfrenta cargos por presuntos hechos de corrupción administrativa."
+    },
+    {
+        "headline": "San Judás Tadeo Gracias por el milagro concedido",
+        "content": "Mis queridos hijos políticos y nietos de quién en vida fue Alicia Leon Cedano invitan a sus allegados a participar en la santa misa programada para el próximo domingo 21 de octubre a las 11:30 am en la Parroquia Nuestra Señora de la Piedad situada en Jr. La Castellana 102 Villa Jardín – San Luis. Durante dicho homenaje también rendiremos tributo recordatorio al mes transcurrido desde su lamentable fallecimiento. Expresamos nuestro sincero reconocimiento hacia aquellos que compartieron momentos especiales y solidarios deseos en tan difícil momento."
+    },
+    {
+        "headline": "Ajíaco de papas Ingredientes Preparación",
+        "content": "1 kg. de papa blanca\nCanchal\n2 ts. de cebolla roja\n2 cds. de ajo picado\n3 cds. de ají panca molida\n3 cds. de ají amarillo molida\n4ts. de caldo de res\n2 ramas de huacatay\n½ ts. de queso troceado\n½ ts. de leche evaporada\n1 ts. de habas\nAceite vegetal\nSal y pimienta\nPelar y cortar la papa en trozos medianos. Crear un sofrito utilizando ajo y cebollas hasta obtener un color dorado. Incorporar los ajies, añadir posteriormente la papa troceada, verter el caldo caliente y colocar una rama de huacatay. Condimentar adecuadamente y cocinar lentamente hasta lograr consistencia similar a puré. Introducir las habas y proseguir con la cocción, integrar el queso y la leche, ajustar sazonamientos agregando hojas frescas de huacatay picadas, dejar enfriar brevemente y servir acompañado opcionalmente de carne de ave o simplemente con salsa criolla tradicional."
+    },
+    {
+        "headline": "Encuentro es la celebración de las fuerzas que adquieren la comunicación",
+        "content": "Este viernes inauguran el Festival de la Palabra PUCP, dedicado especialmente a honrar la trayectoria de la poetisa, dramaturga y ensayista Carmen Oll. Participarán figuras notables tales como Susana Reisz, Rosella Di Paoli y Abelardo Snchez Len, discutiendo diversos aspectos de su legendaria carrera creativa. Además, el programa incluye conferencias magistrales impartidas por personalidades internacionales como Rafael Spregelburg y Josefine Lizette, explorando temas contemporáneos relevantes en narrativa y crítica cultural. Gabriela Yepes, coordinadora del evento, señala que además de valorar la oralidad, se pretende incorporar elementos visuales mediante proyección cinematográfica y arte visual, ofreciendo así una experiencia integral centrada en la diversidad lingüística y sensorial."
+    },
+    {
+        "headline": "Leo por gusto Del futuro",
+        "content": "Contrariamente a lo que muchos piensen, la ciencia ficción ofrece herramientas valiosas para analizar realidades sociales complejas. Autores como George Orwell utilizaron géneros futurísticos para comentar sobre vigilancias gubernamentales omnipresentes, tal como se observa en obras emblemáticas como \"1984\". Siguiendo esta línea, Juan Manuel Robles en su compilación titulada \"Nosotros no somos cazafantasmas\", examina cómo la tecnología moderna influye en nuestras memorias colectivas y experiencias individuales. Relatos como \"Memorias de la China\" ilustran vívidamente conflictos intergeneracionales exacerbados por intervenciones digitales mientras otros cuentos revelan preocupaciones éticas emergentes asociadas con mercantilización emocional digital."
+    },
+    {
+        "headline": "Alianza Lima Bengoechea confía en sacar una victoria ante Melgar en Matute",
+        "content": "\"Creo firmemente que poseer el control del balón será crucial para asegurar un resultado favorable contra Melgar,\" sostiene el estratega Pablo Bengoechea. Reconociendo la fortaleza defensiva mostrada por su adversario, insiste en que aunque no son claros favoritos, contarán con el respaldo local para potencialmente cambiar el rumbo del encuentro. Consciente de las dificultades inherentes al torneo, espera maximizar cada oportunidad disponible para mantenerse competitivo cerca de la punta del clasificador."
+    },
+    {
+        "headline": "Universitario Cardozo termina de preparar el duelo ante Binacional",
+        "content": "Buscando consolidar su posición en la tabla general, Universidad Peruana planea extender su serie positiva visitando a Binacional en Moquegua. Para compensar las ausencias importantes como Lavandiera, Denis y Siucho, Nicolás Carrizo está optimizando tácticamente recurriendo a talentos jóvenes como Diego Manicero, Anthony Osorio y Alberto Quintero. Su meta es aprovechar cualquier error cometido por su contrincante para sellar otra victoria vital en su camino ascendente."
+    },
+    {
+        "headline": "Convocatoria Ayacucho Busca la cima",
+        "content": "Con aspiraciones elevadas, Ayacucho FC viaja a enfrentar a Sport Huancayo buscando recuperar liderato en el Torneo Clausura. Tras registrar resultados mixtos, ambos equipos necesitan urgentemente mejorar su posicionamiento para garantizar acceso a instancias eliminatorias posteriores. Desde la dirección técnica, existe gran motivación para revertir dinámicas anteriores y demostrar capacidad de adaptación rápida en circunstancias cambiantes."
+    }
+]
+```

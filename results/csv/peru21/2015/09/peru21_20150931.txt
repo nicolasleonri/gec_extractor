@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_31.txt ---
+
+```json
+[
+    {
+        "headline": "LA POLÍTICA DE SEGURIDAD FALLÓ",
+        "content": "Que nuestra Policía no sirve\npara nada, El gobierno responde\na \"aquellos\" que sacará\nlos militares a patrullar las calles\nes demagogia pura.\nEs verdad!\nPero también es evidente\nque no sabe cómo afrontar\nel problema de fondo.\nLa inseguridad es un asunto\nde Estado. Desde el principio\ndebi abordarse de esa manera.\nTodas las energías de quienes\ntoman decisiones deberían\napuntar a resolver esta prioridad\nnacional,\pero no hubo reflexión.\nNo hubo estrategias y Ollanta\nHumala resultó un gobernante\nmedio. Mucho reactivo, principal¬mente\ncon sus enemigos políticos,\mpoco capaz de realizar\nreformas estructurales. Frente\na un sistema corrupto por la criminalidad\ny la delincuencia se necesita valentía.\nSe necesitan liderazgo. Nos falta\nni lo uno ni lo otro."
+    },
+    {
+        "headline": "PEDIDOS PARA MUERTE CIVIL A LOS TERRORISTAS",
+        "content": "\"El vocero de Fuerza Popular,\nPedro Spadaro, solicitó a la\nComisión de Constitución que\npriorice el debate del proyecto\nde ley que presentaron en febrero\npasado y que plantea declarar\nla muerte civil de los\ncondenados por el delito de terrorismo,\napropósitos de evitar su\npostulación a cualquier cargo público.\""
+    },
+    {
+        "headline": "RIESGO SOBRANTE EN SALUD REPRODUCTIVA",
+        "content": "«Los Centros Privados de Hemodiálisis\nde la ciudad de Lima que durante más\nde 25 años hemos estado atendiéndo\na 4500 pacientes de Essalud con\nInsuficiencia renal terminal, sentimos\nla responsabilidad de advertir a la\nopinión pública sobre la negligencia\nmanifestada por Essalud hacia sus afiliados\nen tratamientos de diálisis.»"
+    },
+    {
+        "headline": "CORRUPTO GARCA APARECIENDO EN CORREOS BRASILEROS",
+        "content": "Un nuevo escándalo involucra al ex-presidente\nAlan García, vinculado ahora al caso 'Lava Jato'.\nCorrespondencia interceptada revela conexiones\npotencialmente comprometedoras con figuras\npolíticas brasileras."
+    },
+    {
+        "headline": "PROBLEMA LEGISLATIVO EN PERÚ",
+        "content": "Las discusiones legislativas continúan generando controversia.\nParticular atención está centrada en las reformas\nelectorales y financieras dentro del contexto parlamentario."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were selected where there was substantial journalistic value evident within the given context. Other sections such as ads, notices, and non-journalistic information have been excluded according to specified rules.

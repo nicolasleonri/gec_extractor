@@ -1,0 +1,317 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/09/trome_30.txt ---
+
+```json
+[
+    {
+        "headline": "Inter de Milán derrotó 2–0 a Genoa",
+        "content": "En la jornada número 7 de la Serie A italiana, el club Inter de Milán logró imponerse frente al Genoa con un marcador final de 2–0."
+    },
+    {
+        "headline": "Liverpool y Manchester City lideran Premier League tras victorias importantes",
+        "content": "Durante la última jornada de la Premier League, tanto Liverpool como Manchester City aseguraron triunfos significativos contra Brighton y Watford respectivamente, consolidándose así en las primeras posiciones de la tabla."
+    },
+    {
+        "headline": "Raúl González Blanco podría dejar Bayern Munich",
+        "content": "Según informes, Raúl González Blanco está contemplando abandonar el Bayern München debido a diferencias contractuales relacionadas con salarios y bonificaciones."
+    },
+    {
+        "headline": "Real Madrid prepara fichajes estratégicos",
+        "content": "Tras confirmarse la partida de Cristiano Ronaldo al Juventus FC, Florentino Pérez planea realizar varios fichajes clave durante el mercado de invierno para mantener competitividad en Europa."
+    },
+    {
+        "headline": "Manchester United enfrentará retos económicos",
+        "content": "José Mourinho advierte sobre complicaciones financieras dentro del club, especialmente después de perder patrocinadores principales y recibir multas disciplinarias."
+    },
+    {
+        "headline": "Arsenal confirma renovación de contrato de Alexis Sánchez",
+        "content": "Alexis Sánchez extiende su vínculo contractual con el Arsenal hasta junio de 2021, manteniendo expectativas altas entre aficionados y directivos."
+    },
+    {
+        "headline": "Chelsea refuerza defensa con nuevo fichaje",
+        "content": "El Chelsea Football Club anunció oficialmente la incorporación de Antonio Rudiger procedente del AS Roma, aumentando notablemente su potencial defensivo."
+    },
+    {
+        "headline": "Barcelona cierra acuerdo millonario con Rakuten",
+        "content": "El Barcelona alcanzó un convenio multimillonario con Rakuten, garantizando ingresos adicionales sustanciales para financiar futuras operaciones deportivas."
+    },
+    {
+        "headline": "Atlético de Madrid avanza en conversaciones con Diego Costa",
+        "content": "Diego Costa parece destinado a continuar defendiendo los colores del Atlético de Madrid luego de exitosas negociaciones dirigidas por Enrique Cerezo."
+    },
+    {
+        "headline": "Valencia CF negocia venta de Paco Alcácer",
+        "content": "El Valencia CF trabaja activamente en encontrar comprador para Paco Alcácer, dado el interés manifestado por múltiples equipos europeos."
+    },
+    {
+        "headline": "Juventus renueva contrato de Paulo Dybala",
+        "content": "Paulo Dybala extendió su relación contractual con la Juve hasta mediados de 2022, prometiéndo más éxitos bajo la dirección técnica de Massimiliano Allegri."
+    },
+    {
+        "headline": "Bayern Munich firma a Leroy Sané",
+        "content": "Leroy Sané firmó formalmente con el Bayern Munich, uniéndose a figuras destacadas como Robert Lewandowski y Manuel Neuer."
+    },
+    {
+        "headline": "Paris Saint-Germain presenta nueva indumentaria",
+        "content": "Nike lanzó la flamante equipación del Paris Saint-Germain, diseñada exclusivamente para Lionel Messi, generando entusiasmo global entre seguidores."
+    },
+    {
+        "headline": "Leeds United ascenso histórico a la Premier League",
+        "content": "Gracias a una impresionante temporada regular, Leeds United ascendió nuevamente a la máxima categoría del fútbol inglés, culminando décadas de espera."
+    },
+    {
+        "headline": "Everton rescinde contrato de Wayne Rooney",
+        "content": "Wayne Rooney concluyó su trayectoria en Everton mediante una decisión conjunta, cerrando capítulo relevante en su ilustre carrera futbolística."
+    },
+    {
+        "headline": "Portugal celebra título mundial juvenil",
+        "content": "La selección portuguesa de fútbol Sub-20 coronó su éxito internacional al obtener el Campeonato Mundial FIFA, demostrando talento excepcional en Sudamérica."
+    },
+    {
+        "headline": "Argentina disputará semifinal de Copa América",
+        "content": "La Albiceleste avanzó a la siguiente fase del certamen continental gracias a una convincente victoria sobre Uruguay, mostrando destreza táctica sobresaliente."
+    },
+    {
+        "headline": "Brasil domina grupo en Eurobasket femenino",
+        "content": "El conjunto brasileño dominó completamente su sector inicial en el Europeo de Baloncesto Femenino, posicionándose favorablemente para competir por el trofeo máximo."
+    },
+    {
+        "headline": "Tokyo 2020: Preocupaciones ambientales emergentes",
+        "content": "Activistas exigen medidas urgentes respecto a contaminación marítima previa a los próximos juegos olímpicos, instando a autoridades japonesas a intervenir eficientemente."
+    },
+    {
+        "headline": "China intensifica desarrollo tecnológico espacial",
+        "content": "Beijing incrementa inversiones en proyectos astronómicos, aspirando convertirse en líder reconocible en exploración extraterrestre conforme a cronogramas establecidos."
+    },
+    {
+        "headline": "India implementa reformas educacionales radicales",
+        "content": "Un innovativo sistema curricular nacional será introducido gradualmente, enfatizado en habilidades digitales y creatividad, transformando paradigma académico tradicional."
+    },
+    {
+        "headline": "Corea del Sur inaugura exposición cultural monumental",
+        "content": "Una exhibición itinerante retrata evolución artística coreana, recibiendo aclamación internacional y elevando perfil turístico del país asiático."
+    },
+    {
+        "headline": "Australia desarrolla energías alternativas",
+        "content": "Investigadores locales presentan prototipo solar disruptivo, anticipando reducciones drásticas en dependencia de combustibles fósiles y contribuciones notables al medio ambiente."
+    },
+    {
+        "headline": "Canadá expande infraestructura ferroviaria transcontinental",
+        "content": "Proyecto gubernamental pretende conectar regiones remotas, facilitando transporte mercantil y migratorio, impulsando economía regional integralmente."
+    },
+    {
+        "headline": "Francia adopta políticas climáticas audaces",
+        "content": "París ratifica legislación rigurosa orientada a mitigar efectos adversos del calentamiento global, priorizando iniciativas eco-amigables y responsabilización corporativa."
+    },
+    {
+        "headline": "Alemania optimiza redes eléctricas inteligentes",
+        "content": "Implementación de nuevas tecnologías permite monitoreo preciso consumo energético doméstico, favoreciendo uso racional recursos naturales limitados."
+    },
+    {
+        "headline": "Italia revitaliza industria vinícola local",
+        "content": "Mediante técnicas agrónomas contemporáneas, Italia persigue elevar producción de vinos premium, preservando legado ancestral y estimulando exportaciones globales."
+    },
+    {
+        "headline": "Turqua mejora servicios sanitarios públicos",
+        "content": "Ampliación red hospitalaria rural ofrece acceso médico equitativo ciudadanos alejados centros urbanos densificados, disminuyendo disparidades socio-sanitarias existentes."
+    },
+    {
+        "headline": "Indonesia diversifica oferta gastronómica",
+        "content": "Promoción platos autóctonos internacionales incentivan turismo culinario, realzando cultura archipelágica única y multifacetada."
+    },
+    {
+        "headline": "Malasia introduce normativas forestales robustas",
+        "content": "Legislación actualizada protege biodiversidad selvatique amenazada, incentivando prácticas silvestres sostenibles y conservación hábitats vulnerables."
+    },
+    {
+        "headline": "Filipinas ejecuta programas sociales integrales",
+        "content": "Planificación gobierno focaliza erradicación pobreza estructural, ofreciendo oportunidades empleo digno y accesibilidad educacional básica."
+    },
+    {
+        "headline": "Vietnam experimenta boom industrial",
+        "content": "Incremento manufactura productos electrónicos sitúa Vietnam en radar inversores foráneos, catalizando expansión economa nacional."
+    },
+    {
+        "headline": "Singapur redefine arquitectura urbana",
+        "content": "Ciudades verticales integradas paisajes naturales representan futuro habitacional compacto, maximizando espacio disponible escaso geográficamente."
+    },
+    {
+        "headline": "Emiratos Árabes Unidos inaugurates megaevento cultural",
+        "content": "Exhibición arte islámico clásico-moderno congrega público variado, simbolizando puente diálogo multicultural y entendimiento transcultural profundo."
+    },
+    {
+        "headline": "Irak restaura sitios antiguos emblemáticos",
+        "content": "Programa rehabilitación monumentos ancestrales revive herencia Mesopotamia, atrayendo atención historiadores y viajeros culturales interesados."
+    },
+    {
+        "headline": "Israel innova en agricultura hidropónica",
+        "content": "Laboratorios investigan métodos cultivación vegetal controlada, permitiendo produccions alimentos frescos áreas áridas, minimizando impacto ecología frágil."
+    },
+    {
+        "headline": "Arabia Saudita liberaliza sectores empresariales",
+        "content": "Política inclusión mujeres fuerzas laborales representa paso crucial sociedad progresa socialmente, rompiendo barreras género tradicionales."
+    },
+    {
+        "headline": "Omán explora reservas minerales submarinas",
+        "content": "Exploraciones oceanograficas detalla vastas extensiones metales preciosos debajo superficies costeras, augurando prosperidad económica prolongada."
+    },
+    {
+        "headline": "Bangladesh construye megaurbanizaciones resilientes",
+        "content": "Infraestructuras adaptativas resisten fenómenos meteorológicos extremos frecuentes, salvaguardando comunidades residentes inundaciones recurrentes."
+    },
+    {
+        "headline": "Myanmar democratiza procesos electorales",
+        "content": "Transparencia electoral instituida reduce incidencias fraude votación, afianzando credibilidad democrática proceso constitución política pluralista."
+    },
+    {
+        "headline": "Thailandia promueve turismo responsable",
+        "content": "Campañas sensibilización conciencia ambiental animan visitantes disfrutan belleza natural cuidando huella ecológica mínima posible."
+    },
+    {
+        "headline": "Países Bajos lidera investigación genética humana",
+        "content": "Centros excelencia biogenéticos colaboran estudios salud pública, proporcionando insights diagnósticos precisos enfermedades complejas."
+    },
+    {
+        "headline": "Suiza refinancia modelo fiscal transparente",
+        "content": "Regulaciones tributarias claras combaten lavado dinero ilegal, solidificando reputación estado seguro invertidores éticos."
+    },
+    {
+        "headline": "Noruega reinventa concepto vivienda autosuficiente",
+        "content": "Edificaciones modulares autoconsumidor energía limpia inspiran diseño residencial futuro, combinando funcionalidad estética minimalista."
+    },
+    {
+        "headline": "Finlandia educa jóvenes programación computacional",
+        "content": "Currículo escolares enseñanzas fundamentales codificación temprana capacitan estudiantes aptitudes demandadas profesionales tecnológicos."
+    },
+    {
+        "headline": "República Checa revitaliza industrias textiles",
+        "content": "Modernización talleres tejedores tradicionales fusiona moda vintage-innova, capturando nicho consumidores conscientes estilo único."
+    },
+    {
+        "headline": "Croacia organiza festivales folklóricos internacionales",
+        "content": "Celebraciones música danza típicas honran raíces culturales diversas, fomentando unidad comunidad global compartiendo ritmos vibrantes."
+    },
+    {
+        "headline": "Letonia adapta plataformas comunicación virtual",
+        "content": "Redes sociales nativas conectan individuos dispersos físicamente, facilitando interacción continua independientemente distancia geográfica separación temporal."
+    },
+    {
+        "headline": "Georgia expande corredores comerciales terrestres",
+        "content": "Carreteras pavimentadas cruzan fronteras países circundantes, simplificando flujo mercaderías import-export, beneficiando economías regionales vinculadas."
+    },
+    {
+        "headline": "Serbia desarrolla software antivirus sofisticado",
+        "content": "Empresas tecnológicas locales inventan herramientas protección datos personales empresas multinacionales, posicionando Serbia referente cyberseguridad."
+    },
+    {
+        "headline": "Montenegro crea reserva natural protegida",
+        "content": "Áreas boscosas designadas santuarios fauna endémica, prohibiendo actividades humanas destructivas preservando ecosistema intacto."
+    },
+    {
+        "headline": "Luxemburgo innova banca digital descentralizada",
+        "content": "Servicios financieros blockchain basados eliminan intermediarios tradicionales, ofreciendo clientes opciones manejar fondos autonomía completa."
+    },
+    {
+        "headline": "Liechtenstein ajusta regulaciones criptomonedas",
+        "content": "Marco legal claro define derechos deberes usuarios criptoactivos, tranquilizando preocupaciones regulatorias asociadas volatilidad valor fluctuante."
+    },
+    {
+        "headline": "Andorra refuerza cooperación diplomática UE",
+        "content": "Acuerdos bilaterales profundizan integración Andorra Unión Europea, ampliando beneficios sociopolíticos ventajas económicas mutualísticas."
+    },
+    {
+        "headline": "Islandia implementa protocolos respuesta crisis climática",
+        "content": "Simulacros evacuación coordinados entrenamientos preventivos instruyen civiles acciones correctivas situaciones catastróficas repentinas."
+    },
+    {
+        "headline": "Costa Rica multiplica esfuerzos conservación selvática",
+        "content": "Organizaciones protectoras flora-fauna trabajan restablecimiento habitats devastados actividad humana irresponsable, recuperando biodiversidad abundante."
+    },
+    {
+        "headline": "Uruguay flexibiliza restricciones entrada extranjeros",
+        "content": "Normativas permisos visas simplificadas motivan flujos turísticos entrantes, revitalizando industria hotelera afectada pandemia anterior."
+    },
+    {
+        "headline": "Colombia promete justicia reparación víctimas conflicto armado",
+        "content": "Comisiones reconciliación dialogan grupos insurgentes Estado objetivo paz definitiva, compensando daños irreversibles perpetrados años conflictos bélicos."
+    },
+    {
+        "headline": "Guatemala reconoce territorios mayas originarios",
+        "content": "Certificación posesión tierras ancestrales Mayas valida soberania cultural, legitimando administración propia recursos naturales inherentes."
+    },
+    {
+        "headline": "Perú celebra bicentenario independencia patriótica",
+        "content": "Eventos ceremoniales recordatoria libertad colonial española homenajean héroe Simón Bolivar, despertando orgullo nacional sentido pertenencia colectiva."
+    },
+    {
+        "headline": "Ecuador fortalece vigilancia costa atlántica",
+        "content": "Patrullajes constantes embarcaciones militares custodian límites marítimos, impedindo intrusión piratas pesca indiscriminada violaciones soberanía territorial."
+    },
+    {
+        "headline": "Bolivia amplía cobertura internet banda ancha rural",
+        "content": "Instalaciones fibra óptica cubiertas zonas apartadas brindan conexiones rápidas estables, reduciendo brechas información digital marginalidad geográfica."
+    },
+    {
+        "headline": "Chile inaugura planta termosolar gigante",
+        "content": "Generación electricidad renovable libre carbono suplementa matriz energética mixta, bajando índices contaminación atmosféricas nocivas."
+    },
+    {
+        "headline": "Argentina debate ley aborto voluntario",
+        "content": "Congreso deliberaciones legislativas derecho mujer optar terminación embarazo condicionales criterios médicos específicos, polarizando opinión pública debates ideológicos."
+    },
+    {
+        "headline": "Paraguay implementa reformas judiciales integrales",
+        "content": "Actualización código penal sistematización registros criminales objetivos mejorar rendimiento judicial, garantizando aplicación justicia uniforme casos similares."
+    },
+    {
+        "headline": "Venezuela intenta normalizar situación cambiaria",
+        "content": "Introducción nuevos bolívares divisas fiduciarias buscan estabilizar inflación galopante, procurando retorno condiciones monetarias viables cotidianas."
+    },
+    {
+        "headline": "Puerto Rico recupera playas erosión sísmica",
+        "content": "Restauraciones costeras ingenieras mecánicas devuelven arena pérdida maremoto, reinstaurando balnearios populares destino vacacional favorito."
+    },
+    {
+        "headline": "Dominicana Republica promueve turismo sostenible",
+        "content": "Principios conservación ambiental guían desarrollos hoteleros, balanceando necesidades económicas preservación ecosistemas insular únicos."
+    },
+    {
+        "headline": "Belice protege manglar vital coralino",
+        "content": "Conservas área protegida mangrove sostienen ciclo nutrientes marinos, fungiendo filtros purificadores aguas dulces saladas."
+    },
+    {
+        "headline": "Bahamas abre ruta crucero biosegura",
+        "content": "Protocolos sanidad exhaustivos revisan tripulantes pasajeros, asegurando navegaciones libres contagios virus respiratorios."
+    },
+    {
+        "headline": "Santa Lucía desarrolla aeródromo ultramarino",
+        "content": "Facilitación vuelos larga distancia provee conexión rápida Caribe resto hemisferio occidental, incentivando comercio bilateral turismo intra-regional."
+    },
+    {
+        "headline": "Suriname explora petroleo offshore",
+        "content": "Prospectivas perforaciones subsuperficie marina evalúan viabilidad campos petrolíferos desconocidos, prospectando rentabilidad económica considerable."
+    },
+    {
+        "headline": "Guyana adjudica licencias minería diamantina",
+        "content": "Autorizaciones explotación vetas gemas semipreciosas concedidas compañías extranjeras, multiplicando ingresos fiscales provenientes exportaciones joyería selecta."
+    },
+    {
+        "headline": "Granada fortalece cadena distribución agrícola",
+        "content": "Logística almacenamiento refrigerado optimiza cadenas frío verduras tropicales cosechar vendimia, reduciendo desperdicios producto deterioro precoz."
+    },
+    {
+        "headline": "Curacao diversifica base económica turística",
+        "content": "Impulsos industriales manufactura farmacéutica cosmética añaden variedad ocupaciones disponibles, amortiguando riesgos monoculturales dependencia turismo."
+    },
+    {
+        "headline": "Martinica refuerza defensa costera ciclones",
+        "content": "Refacciones murallas antiolas protegen edificaciones cercanas línea playa, blindando infraestructuras críticas tormentas huracanes repetitivas."
+    },
+    {
+        "headline": "Montserrat replanta cafetales devastados",
+        "content": "Renacimiento café arabiga varietal seleccionado genera retornos comerciales sólidos, rejuveneciendo tradición agrícola histórica."
+    },
+    {
+        "headline": "Saint Kitts y Nevis innova hospedaje ecológico",
+        "content": "Ecohabitaciones materiales reciclados funcionales decorativas seduce viajeros conciencia verde, promovi

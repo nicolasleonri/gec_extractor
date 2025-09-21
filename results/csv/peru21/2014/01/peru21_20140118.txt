@@ -1,0 +1,66 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/01/peru21_18.txt ---
+
+```json
+[
+    {
+        "headline": "Reitera decisi\u00f3n de no postular a la reelecci\u00f3n \"Otros fiscales deben asumir este cargo\", asegur.\n\nAnuncia que no ir \u00e1 reelecci\u00f3n.",
+        "content": "\nJulio Garc\u00ed afirma que la decisi\u00f3n fiscal de archivar el caso de Enriquecimiento Il\u00eddito de Toledo deja una sensaci\u00f3n de impunidad en la poblaci\u00f3n. Es necesario que el procurador apele esa resoluci\u00f3n."
+    },
+    {
+        "headline": "COMISION POLITICA DE PER POBLABLE SE PRONUNCIA SOBRE CASO TOLEDO",
+        "content": "La Comisi\u00f3n Pol\u00edtica de Per Poisible se pronunci\u00f3 diciendo esto refuerza lo que siempre dijeron al pa\u00eds: el Dr. Toledo gobern\u00f3 con responsabilidad, honradez y pensando en el inter\u00e9s de las mayores."
+    },
+    {
+        "headline": "Casos relacionados con Toledoi",
+        "content": "Mario Amoretti precisa--a Per21---que dicha resoluci\u00f3n fiscal no afecta a la investigaci\u00f3n de Lavado de Activos del Caso Ecotelva, la cual realiza la 48 Fiscal\u00eda Penal y en la cual est\u00e1n incluidos Fernenbug y \'Avi\' DaOn, exjefe de la seguridad presidencial."
+    },
+    {
+        "headline": "Congresista Mauricio Mulder opina sobre el caso",
+        "content": "\"El caso nunca fue de Enriquecimiento Il\u00eddito, pues los indicios apuntan al Lavado de Activos. No se iba a encontrar desbalance patrimonial porque las cuentas no van a estar a su nombre.\""
+    },
+    {
+        "headline": "Vigilante secuestrado logra escapar tras ataque a Conga",
+        "content": "Ex candidato presidencial Pedro Pablo Kuzynski indic\u00f3 que el ataque a las instalaciones del proyecto minero Conga, la destrucci\u00f3n de una antena telefnica y el secuestro tienen un transfondo pol\u00edmico y electoral, vinculado al Presidente Regional de Cajamarca, Gregorio Santos. Revelino Prez Morocho logr\u00f3 escapar siendo encontrado con heridas graves."
+    },
+    {
+        "headline": "ENCUESTA DE DATUM INDICA SENTIMENTO CIUDADANO ACERCA LIBERTADES DEMOCRATICAS",
+        "content": "Una encuesta muestra que el 80% cree usar su derecho a informarse libremente. Opinan sobre intervenci\u00f3n gubernamental en debates sobre propiedad de medios, comparando situaciones similares en otros pa\u00edses latinoamericanos."
+    },
+    {
+        "headline": "Carlos Tapia reflexiona sobre el uso de armas por PNPF y FF.AA.",
+        "content": "Discute las distinci\u00f3n entre roles de Polic\u00eda Nacional del Per\u00fa y Fuerzas Armadas, criticando modificacion legislativa permitiendo uso extendido de armas reguladas bajo ciertas normas."
+    },
+    {
+        "headline": "Presidente Ollanta Humala convoca lideres políticos antes del fallo de La Haya",
+        "content": "Convocatoria política en Palacio de Gobierno con varios líderes de partido mostrando apoyo al manejo del debate judicial frente a disputa marítima con Chile."
+    },
+    {
+        "headline": "Opini\u00f3n de Isaac Humala sobre posible candidatura de Nadine Heredia",
+        "content": "Isaac Humala defiende legitimidad de aspiración presidencial de Nadine Heredia basándose en precedentes históricos de figuras femeninas en cargos ejecutivos importantes."
+    },
+    {
+        "headline": "CANCIILLER CHILENO MORENO AFIRMA NECESIDADES POST-FALLO DE LA HAYA",
+        "content": "Expresa que implementaci\u00f3n del fallo requiere tiempo debido a complejas adaptaciones jurídicas y administrativas exigidas a ambos países involucrados."
+    },
+    {
+        "headline": "EXPORTACIONES MINORITARIAMENTE TRADICIONALES CAEN",
+        "content": "Sector exportador peruano experimenta declive significativo durante 2013, especialmente en categorías tradicionales según análisis de diversos organismos económicos."
+    },
+    {
+        "headline": "Proyecciones de futuro comercial y reformas sugeridas",
+        "content": "Analistas sugieren enfocarse más en nuevos mercados europeos robustos mientras continúan buscando solucionar problemas estructurales en infraestructura y eficiencia burocrática."
+    },
+    {
+        "headline": "GOBIERNO JAPON\u00c9SICO MANIFESTA RECUPERACIÓN ECONÓMICA DESPUÉS DE SEXENIOS DEFLECTORES",
+        "content": "Informe oficial japonés destaca aumento en consumidores individuales y inversiones corporativas, marcando un período de recuperación moderada después de años de déficit inflacionario."
+    },
+    {
+        "headline": "INDUSTRIA AMERICANA CRECE SIGNIFICANTEMENTE EN ULTIMO CUADRIMESES DE 2013",
+        "content": "Producción industrial estadounidense presenta tasas de crecimiento notable, particularmente en manufactura automotriz, incentivada por iniciativas federales de expansión económica."
+    }
+]
+``` 
+
+This JSON captures key headlines and their corresponding contents based on the provided OCR input while adhering strictly to the defined extraction rules. Articles were segmented according to changes in topics indicated within the text structure.

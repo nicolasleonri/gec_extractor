@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/11/trome_15.txt ---
+
+```json
+[
+    {
+        "headline": "Califa golazo de Panchón",
+        "content": "Chato Matta lleg al restaurante por un cebichito de cola nueva y un arroz con mariscos con pulpo, conchitas, langostinos y abundante queso parmesano encima. También se pidi\nuna jarrita de chicha morada al tiempo.\n\"Mara, me entero la última que le hizo el gran Panchón al doctor Chotillo, ¿Sabes qué? El ‘Cirujano de las estrellas’ siempre maletea al gordito Pancho... Ya fue, solo agárrate a lucas de aquí pa'l otro mundo. Yo, caviar y lomo fino.\" El abogado mujeriego ya se había enterado de todo, pues Pepito lo tir en cancha al teléfono. \"¡Ah sí!, Idí[email protected], yo también fui así, más joven, estudié Medicina. Ahora que está ganado, paga cualquier capricho como el pizzero\". Jamás me va a perdonar que lo parte con su burriquito, esa enamorada con la que se iba a casar’. Bueno, Chotillo conoció a unas cuantas colombianas en un nightclub donde paran varias figuras deportivas, arriba de la Carretera Express, en Surquillo. El médico timbreó a Pancho: ‘Maestro, mi bobo es una colombiana de Barranquilla, ¡qué cosa tan bella! Mejor que Shakira en sus días dorados de “Señora, señora, silenciosa”. Venimos a ver el partido en mi casa de playa, María Eugenia, la escultural Merly está en el Norte con su familia. Pero cuidado, nada de mirar a mi Amparito. Ella no está a tu alcance, Para ti tengo preparada a una amiguísima, una morena de Medellín.”\nPanchito le sirvió algunos tragos dobles de whisky y Amparito se rió sin pronunciar palabra alguna. Chotillo es cabeza hueca. Cuando pusieron “El mocito de la ciudad”, del maestro Cano Estremera, Pancho la invitó a bailar y le tocó la orejita. Justo entonces, el Doctor ya estaba bastante embriagado. \n‘Pancho, por favor, déjamelo tranquilo con mi cosita.’ El Emperador bajó el volumen de la pantalla gigante y comenzó a relatar el encuentro como antaño: ‘¿Qué dicen?, ¡Por mí viejita!’...\nCuando terminó el juego, ambas damas ascendieron al segundo piso.”
+    },
+    {
+        "headline": "Habla Trome Defiende a Daniel Ábalos",
+        "content": "“No soy militante de ningún partido político, pero como peruano lamento lo sucedido en el Congreso con la censura a lo referente al blindaje a un congresista cuestionado por despedir a una empleada embarazada. Se protegen mutuamente, utilizando aquel dicho popular que menciona ‘otorongo no come otorongo’, según expresó Daniel Ábalos."
+    },
+    {
+        "headline": "Robricú Pag 33",
+        "content": "\"Siempre fuerza libanesa, francesa, palestina y siria! Que termine pronto esta masacre insensible!\nCreo que Perú podría derrotar a Brasil este próximo martes?\nOpinan favorablemente sobre liberación de Aurelio Pastor?"
+    },
+    {
+        "headline": "Emergencias Bomberos 116",
+        "content": "Información útil proporcionada incluye números de emergencia tales como Bomberos 116, Emergencias 105, Defensa Civil 165, Essalud 113800, Aguilas Negras 3623277, Escuadrón Verde 4276904, Luz del Sur 6175000, Sedapal 3188000, Indecopi 2227800."
+    },
+    {
+        "headline": "Junior Antonio Tarazona Achér (32)",
+        "content": "Después de haber sido detenido, Junior Antonio Tarazona Achér, alias 'Jota', temía enfrentarse a detectives especializados contra robos armados después de estar involucrado en múltiples atracos junto a cómplices provistos de arma blanca cerca de locales comerciales en Magdalena del Mar."
+    },
+    {
+        "headline": "Emprende Bien Tu Día",
+        "content": "Promoción destacada ofrece smartphones a precios increíbles, planes ilimitados disponibles para operadoras diversas, además de servicios rápidos de redes sociales gracias a velocidades superiores. Visítanos en www.entel.pe para encontrar la oferta adecuada."
+    },
+    {
+        "headline": "Diario Pap' Sorteos Generosos",
+        "content": "Sortearán $5,000 dólares constantes durante el evento denominado Revolución Semanal, celebrándose el sábado 12 de diciembre. Participa fácilmente registrando tus datos conforme indican las instrucciones publicadas."
+    },
+    {
+        "headline": "Educación Institución Virgen de Guadaloupe",
+        "content": "Oferta académica disponible en Traducción e Interpretación (inglés/francés) y Asistencia de Gerencia Bilingüe. Inscripción exclusiva dirigida hacia estudiantes avanzados de secundaria, programada inicialmente para el 4 de enero."
+    },
+    {
+        "headline": "Análisis Electoral Vitocha García Belaunde",
+        "content": "Discute potenciales resultados electorales enfocándose en la dinámica política interna, evaluando candidaturas individuales y coaliciones estratégicas dentro del panorama electoral nacional."
+    }
+]
+```
+This JSON captures key elements extracted from each identified article within the provided input while adhering strictly to the specified format requirements. Articles were segmented based on distinct headlines followed by their respective contents. Any non-article sections such as ads or unrelated information have been excluded according to guidelines.

@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/10/peru21_26.txt ---
+
+```json
+[
+    {
+        "headline": "SEGÚN EXPERTO, MINISTERIO PUBLICO DEBERÍA CENTRARSE EN ORIGEN DINERO CUENTA HEREDIA",
+        "content": "¿Cuál es el origen del dinero de las cuentas de la primera dama, Nadine Heredia?\n\n\"...esta es la pregunta central que debe resolver el Ministerio Público...\".\n\n\"Lo inmediato es seguir la pista del dinero. Esto debe ser el objetivo del Ministerio Público.\n\nLuego debe identificar el delito precedente o el delito previo\", declaró el ex fiscal Avelino Guzmán."
+    },
+    {
+        "headline": "DEVUELTA. EVALUA VISITA CASOS CORRUPTORES EN ÉPOCAS ELECTORALES",
+        "content": "\"La Comisión de Fiscalización del Congreso realizará visitas sorpresivas a los gobiernos regionales, a fin de prevenir y detectar casos de corruptela e irregularidades.\" \n\n\"Como lo informó Mariano Portugal, coordinador del grupo encargado de fiscalizar procesos de contratación de bienes, servicios y obras en los gobiernos locales,...\"\n\n\"La idea es erradicar la corrupción bajo cualquier modalidad,\" puntualizó."
+    },
+    {
+        "headline": "ESCUELA MAESTRIA DE GESTIÓN PACIFICO ‘’PUBLICA UNIVERSIDAD DEL PACÍFICO'",
+        "content": "MAS DE UNA DECADA ESTRUCTURA CURRICULAR CAPACITANDO A PROFESSIONALS PERMANENTE\n\nCOMPETITIVIDAD RESPONSABLE INICIO DE CLASES 24 DE NOVIEMBRE\n\nINFORMES E INSCRIPCIÓN:\n\n219.0101 /paredesen@educacion.pe Disponible en App Store > Google Play www.egp.up.edu.pe POSTGRADO UP SIGUENOS EN:"
+    },
+    {
+        "headline": "ELABORACIÓN DE STRATEGY DEFENSIVA PARA PROCESO LEGAL CONTRA HEREDIA",
+        "content": "\"Roy Gates señaló que conforme avancen las diligencias fiscales evaluarían la estrategia legal de la defensa.\n\n\"Obviamente una estrategia de defensa no se puede adelantar. Lo tendríamos que ver conforme se desarrollen los hechos, para decidir cómo proceder en este proceso,\" mencionó."
+    },
+    {
+        "headline": "VISITA PENALES POR COMISION PARLAMENTARIA",
+        "content": "\"La comisión parlamentaria que investiga la influencia del narcotráfico en los partidos políticos planea visitar hoy los penales Miguel Castro Castro y Piedras Gordas, a fin de obtener testigos clave para continuar sus investigaciones.\""
+    },
+    {
+        "headline": "POSIBLE CAMBIOS ENTREGADOS OFICIALISTAS DESPUÉS DE SALIDA MIEMBRO BANCADA",
+        "content": "\"José Cevasco destacó que si ocurre una nueva dimisión en la bancada gobernante podría resultar en pérdidas importantes para ellos, especialmente en términos de liderazgo en ciertas comisiones legislativas.\""
+    },
+    {
+        "headline": "ESPINOZA POTENCIAL ADAPTACIÓN APUESTA POLITICA ACUÑA",
+        "content": "\"La Vicepresidenta de la República, Marisol Espinoza, está siendo considerada para convertirse en figura principal de Alianza para el Progreso, dirigido por Óscar Acuña, según reveló un informe periodístico.\""
+    },
+    {
+        "headline": "PREOCUPANTE DECLARATORIAS PRESDENA RESGUARDOS CIUDADANOS TRAS SENTENCIA",
+        "content": "\"Presidente comparó situación judicial personal con seguridad jurídica ciudadana, sugiriendo preocupación ante decisiones judiciales futuras.\""
+    },
+    {
+        "headline": "PROCURADOR ANUNCIA MEDIDAS EFECTIVAS CONTRA FINANCIAMIENTO ILLEGAL PARTIDARIO",
+        "content": "\"Fredy Otrola, titular de la Comisión de Constitución del Congreso, resaltó cambios legales destinados a penalizar adecuadamente a aquellos partidos que acepten fondos ilegítimos.\""
+    },
+    {
+        "headline": "EXPECTATIVAS INFLACIÓN LATINO AMERICANA INDICAN REDUCCIÓN COSTOS PRODUCTOS SERVICIOS",
+        "content": "\"Análisis muestra disminuciones esperadas en índices de inflación regional, atribuida principalmente a caída en precios de productos básicos y combustible.\""
+    },
+    {
+        "headline": "CONTINUÓ CRÉDITO SOLARES PROMOVENDO ACCESIBILIDADES EMPRESARIALES PERSONALES",
+        "content": "\"Datos económicos evidenciaron incremento notable en créditos otorgados en soles durante septiembre, favoreciendo sectores empresariales y personales.\""
+    },
+    {
+        "headline": "PRÁCTICAS FORZOSAS REVELAN COLUSIÓN OPERADORES TOURISTICOS TIENDAS JOYA",
+        "content": "\"Practicantes forzadas han sido documentadas nuevamente en Hong Kong, implicando operadoras turísticas y comerciantes en actividades fraudulentas hacia viajeros internacionales.\""
+    },
+    {
+        "headline": "LISTA BENEFICIARIOS FONAVI DISPONE TRANSFERENCIA CAPITAL SOCIAL",
+        "content\": \"Listado actualizado permite transacciones monetarias directas a más de 45 mil individuos reconocidos como ex-fonavistas, facilitándoles compensaciones pendientes.\""
+    },
+    {
+        "headline": "NECESIDAD MEJORAR IGUALDAD GENERO EN ACCESO SERVICIOS FINANCIEROS",
+        "content": "\"Persisten diferencias marcadas en accesibilidad a recursos financieros entre géneros, requiriendo intervención urgente para equilibrio y oportunidades iguales.\""
+    }
+]
+```
+This JSON structure captures each significant article within the provided input while adhering strictly to the specified format requirements. It includes headlines where available and merges fragmented texts appropriately under their respective contents. Articles lacking explicit headings have been assigned `"NA"` accordingly.

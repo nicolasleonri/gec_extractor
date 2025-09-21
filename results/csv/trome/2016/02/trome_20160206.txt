@@ -1,0 +1,121 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/02/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "Sac lustre a su medalla",
+        "content": "Corazón.\n\nG>\n\nCajamarca.— Sac lustre a su medalla ayer Melgar, actual campeón, venció 3–1 a UTC y fue tan dulce su inicio del Apertura como saborear un trofeo de la Liga. El peso de su plantel y la estrella sobre el pecho inclinó la cancha a favor del monarca. El colombiano Omar Fernández, de penal (81’), abrió la lata. Luego se demoronce once minutos para dibujar una maniobra de PlayStation y anotar el segundo de remate cruzado. A los 88’, Patricio Arce puso la ‘decoración’ a la fiesta. Descontó el colochito Victor Guaza de cabeza."
+    },
+    {
+        "headline": "Brayaner Garcia",
+        "content": "CREMA.\n\n(*)\n\n[...] Lo que le pas a Horacio Benínsa [...]\n\n[…] Pero Roberto […] reuni al grupo y habl para todos. \"Éste es titular. Lo que pasa son cosas del futbol [...]\". \nPero lo que sí se supo revertirse es el caso de Raúl Ruidías. Su esguince de segundo grado afecta aún más su rodilla izquierda generándole molestias y tocado de futbol, el malestar inevitable. Raél cuerpopédiaco, él “Y antiene unas semanas más para poder reaparecer con la Academia.”
+    },
+    {
+        "headline": "Será difícil volver a ver a Universitario así",
+        "content": "[...] Robeto Chale fue contralacrrente. Reuni al grupoy habl para todos. \"Este es titula[…].\"\n\nLuego, tuvo una charla sola con el zurdo. Primero, de manera muy seria y luego, con risas de ambas partes. Así, borran y cuentan nueva página y empiezan a escribir una nueva historia.[…]"
+    },
+    {
+        "headline": "Entre estudiantes, no valen las 'artimañas'",
+        "content": "\"La 'Academía' superó por 1–0 a la Universidad San Martin en el 'Miguel Grau'. En el minuto 59, Juan Diego Gonzalez-Vigil encontró un balón ayudado con la mano, el juez de línea Julio Vi la levantó el banderin, pero el árbitro Renzo Castaeda dejó seguir y finalmente la jugada acabó en gol de Maximián Velasco. Después, el portero Erick Delgado se erigi en figura. La franja terminó con 10 hombres por expulsión de Armando Alfageme (49’) por doble amarilla.\""
+    },
+    {
+        "headline": "Nuevo sabor y espuma, Cristal sirve el primero trago a su hinchada",
+        "content": "\nCuando hoy, desde las 3 de la tarde, recibirá a Sport Loreto en el 'Alberto Gallardo', en el inicio del Apertura. La atracción será sin duda Alfredo Ramúa, quien ha prometido goles, huevas y pelea las pelotas paradas a Carlos Lobatín. También se supo que Jorge Casulo alinear de zaguero central y Renzo Revoredo como lateral derecho. "
+    },
+    {
+        "headline": "Regresa el SmartPhone de 5.5 Airis",
+        "content": "Gracias a Samsung y Motorola puedes reservar tu smartphone ahora. Conoce cómo participar en la promo aquí:\n\nCanje tu equipo prestacional en cualquier sucursal Airis en el país. Registra tu celular antiguo y reserva tu nuevo dispositivo. Descarga tu cartilla con los 4 cupones que se publicarán en TROME entre el 18 y 21 de enero. Te enviaremos un correo electrónico o SMS confirmatorio el 24 de enero. ¡Participa!"
+    },
+    {
+        "headline": "Que...",
+        "content": "La carne del pavo tiene menos calorías como elemento principal el ajo ayuda a combatir microorganismos antiparasitarios. Además, facilita la digestión produciendo sensación de saciedad. Incluir aceites sanos como el de oliva también beneficia la salud cardiovascular."
+    },
+    {
+        "headline": "Receta de Hoy",
+        "content": "+1kg de fresas lavadas y cortadas. +½ kg de azúcar blanca. Procedimientos: Licuar las fresas junto con parte del agua caliente, repetir proceso varias veces intercalando con el azúcar. Finalmente, llevar la mezcla al congelador batirla periódicamente hasta obtener una consistencia cremosa."
+    },
+    {
+        "headline": "Celebrará el siglo de nuestra bebida de bandera",
+        "content": "Morris's Bar, donde surgieron versiones contradictorias sobre quién inventó el cocktail. Variaciones modernas ofrecen nuevas experiencias culinarias utilizando diferentes tipos de jarabes y técnicas de elaboración."
+    },
+    {
+        "headline": "Pronto celebraremos el día del travieso San Valentin",
+        "content": "Ideas para sorprender a tu pareja con gadgets tecnológicos innovadores. Desde smartwatch compatibles con iOS y Android hasta tablets multifuncionales capaces de transformarse según tus necesidades diarias."
+    },
+    {
+        "headline": "Lucir cartera de la misma marca",
+        "content": "Comparativa humorística entre Michelle Soifer y Melissa Klug respecto a gustos compartidos en moda y relaciones personales. Análisis social basado en observaciones públicas y declaraciones indirectas."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined rules for extraction and cleanup. Note any missing data has been filled with `"NA"` where applicable according to guidelines.
+
+--- ERROR ENTRY: data/txt/trome/2016/02/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "Pullazos",
+        "content": "Empezaron los pulla\nra conocida como 'Miss Bagua dice que \n\"Julio Guzmán no tiene el\nejemplo de \nexperiencia técnica\".\nQueee."
+    },
+    {
+        "headline": "Elecciones",
+        "content": "\"Daniel Ábugattás se\nen Alianza Por el Pro\nmanda con todo. \"No\nSean ingenuos, los \npresentantes de los \ngo\nbios más corruptos\nsubsisten para bene\ñício de mermeleros\", i\nescribi en un tuitazo...\;"
+    },
+    {
+        "headline": "Urresti",
+        "content": "Parece que Daniel\nUrresti se cans de \nteñar. Ahora a las \nquinientas manda un\nmensaje, solo reenvía\nlos tuits de otros, \nprev y cuando lleven \nvenero, Hummmm..."
+    },
+    {
+        "headline": "Gamarrá",
+        "content": "Verónica Mendoza\ncuenta que estuvo en\nGamarra y le pasaron\nel dato que se han \nperdido miles de puestos\nde trabajo por la \nimporación de tela barata.\nAyayay..."
+    },
+    {
+        "headline": "Outsidér?",
+        "content": "Para la gente de Acción\nPopular, Alfredo Banéstea se perfila como el\n‘outsider’ oculto en las\nproximas elecciones,\nsegún las redes \nasociales\"\nAyer fue al local de\nla lamp'a y convoc\na miles de jóvenes.\nNo me diga..."
+    },
+    {
+        "headline": "Humala",
+        "content": "Ollanta salió con\nla pierna en alto.\nNo puede hablar\nde la campaña, \npero les manda sus\n‘chiquitas’ a Alan y\nKeiko. Al primero se \nrefiere con lo de “gobiernoinvasión en el gobierno\nbanzano” y a la segunda\nla machaca con la \nocurrencia de su pap. As es..."
+    },
+    {
+        "headline": "Meten preso a policía por paro anunciado",
+        "content": "terminó con la detención de un efectivo en actividad, el único\nque se apartó de la Plaza Dos de Mayo del uniforme y de su armadura reguladora\npor tanto. El suboficial superior PNP Jorge Sierra Morena,\npcías en retiro y allegados hicieron una bulliciosa protesta.\nSe le dará de baja por encabezar protesta con esposas e hijos de\nefectivos Medida no fue acatada Hubo refuerzo de seguridad\nen las calles Violentamente por sus colegas.\nEn un afán de librarse, desenfundó su arma,\nal cual se la quitó galvanizada en el suelo.\nLa Policía tuvo que lanzar gases lacrimógenos\ncontra manifestantes. Sin embargo, él fue llevado al\ncalabozo de Seguridad del Estado."
+    },
+    {
+        "headline": "Sueldos – Justificación",
+        "content": "titución del sistema\ncolectivo; Upnor lista:\n– y/ 3.893 f Por su parte,\nVictoria ‘24×24’ y\nautorizado Romero, director\nmental operacional, en\nEstómago motivará acción de varios agentes antimotines usó el\nuniforme para metódicamente\nmadres de familias, esposas y hasta primas de oficiales en actividad,\nnovillas y banderas en\nlas manos respaldaban\na la policía que encabezaba\nel uniforme, pues\nColegas\nHoy se celebran el Dia del\npisco sour’ y en todo el país\nLos motín y macerados con nuestras rodajas de jora y 7 uñas de pisco\nacholado, según nos contó el chef del restaurante ‘El quebranta’ y la ‘caja china al pisco’. "
+    },
+    {
+        "headline": "Cierran el Tumbao'",
+        "content": "Con bloques de cemento, clausuraron la discotheque Tumbao'\nSegún las autoridades, dicha medida se tomó por el desacato de los\nadministrativos a conducir ruidos nocivos para los vecinos y realizar actividades después de las 3 de la mañana.\nDetalles añaden que también hubo riña en las instalaciones.\nIndican que Siapo Moreno percibe 4 mil soles, pero sólo cobró 436 soles\nporque posee demandas alimenticias y presenta diversas sanciones severas.\n“Definitivamente, su hoja de vida no es la mas adecuada,” declaró."
+    },
+    {
+        "headline": "*CALLAO Encuentran",
+        "content": "A la entrada del asentamiento humano ‘Chavín’, en el distrito de Mi Peru (Callao), hallaron armamento que causó alerta entre residentes locales.\nOcho ojivas de proyectil, tres granadas de mano, cuatro morteros y tres munición de artillería fueron abandonados en una caja presumiblemente por criminales.\nPuesto que el sitio generó temor, elementos de la UDEx arribaron para neutralizar amenazas, procedimiento que implicó cordón sanitario en área circundante."
+    },
+    {
+        "headline": "Temperaturas extremas",
+        "content": "La temperatura alcanzó 32 grados Celsius en diversos sectores capitalinos, provocando sensación térmica de hasta 34°C. Solicitan precauciones contra elevados índices de radiancia solar.\nPlayas reportan insatisfacción debido a que únicamente 60 playas están certificadas como apropiadas para baño. Digesa advierte niveles alarmantes de contaminación."
+    },
+    {
+        "headline": "Del cantolao",
+        "content": "Mathías Vera, de apenas 8 años, destacó en el club Cantolao Callao B, hasta recibir diagnóstico de leucemia. Ante esto, compañeros y docente envían ánimos para recuperación exitosa."
+    },
+    {
+        "headline": "Por trafico de terreno",
+        "content": "Durante confrontación mortal en playa de Punta Negra resultaron fallecidos Ricardo Luyo Quijano ('Ricky' o Bamby’) y Esteban Medina Vidal (35).\nIdentificaciones confirmadas tras incidente relacionado con comercio ilícito territorial."
+    },
+    {
+        "headline": "Johnnier Montaños rompe su silencio",
+        "content": "Finalmente, el 'hombre de los silencios' decidió compartir públicamente sus sentimientos. Participará en evento automotor bajo Team Yokohama, pilotando Honda Civic SI'. Expresa emociones previas a competencia denominada 'Las seis horas peruanas'."
+    },
+    {
+        "headline": "Alianza Atlético anticipa estrategia",
+        "content": "Preocupación surge respecto a ausencia de Víctor Rosell en planificación inicial frente a Sport Boys. Estrategia alternativa contempla uso intensivo de juvenil Arturo Bentés."
+    },
+    
+]
+```

@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/09/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "El caso Mayorga es similar al de ‘petroaudios’\n‘No hay audios, pero hay documentos’. ",
+        "content": "Victor A. Garcia Belaunde\nnfesta de AP–FA\nLA AGENDA.\nRecibi a Laub & Quijandría un dia antes de que Perpetro aprobara nuevo contrato con Interoil.\nOrmulgar reglamento que elabor como privado. GarcíaBelánde pide censura y acusación constitucional.\nDocuments complican más situación del ministro Mayorga\nCarlos Castillo\nScarlibn\nLa situación del ministro de Energía, Eleodoro Mayorga, se ha complicado aún más \ncuando resta solo un día para que se presente ante el Pleno del Congreso para responder a tres pliegos interpelatorios.\nPer21 confirma que Mayorga recibió en su despacho, el 19 de marzo, a quienes fueron sus socios en Laub & dra. Al día siguiente, el director de Perpetro aprobó el nuevo contrato con Interoil para la explotación de los lotes III y IV. Ese mismo día, el Estado Peruano había ganado un arbitraje internacional a la petrolera noruega."
+    },
+    {
+        "headline": "Todos los días descuento y BENEFICIOS",
+        "content": "Traslada Tu Cuenta Sueldo\nDisfruta Los 365 Días Del año\nPromociones Exclusivas – Todos Tus Retiros Son Gratis – Cero Costo Por Mantenimiento de Cuenta.\nFinancia Hasta El Descuento Limitados En Nuestros Establecimientos Para Que Lo Uses Las Veces Que Quieras.\nY Si Además Trasladas Tu CTS, Te Damos Una Tasa De 7.5%\nTREA Soles.”
+    },
+    {
+        "headline": "Del Director",
+        "content": "Juzguen Ustedes\nHa algunas semanas, en esta columna (“¿También Nos Dejaríamos?” 19 de junio), expusimos nuestra opinión por la aparición en Chile de una puesta que atenta contra las AFP. Ya hemos señalado nuestras preocupaciones por el sistema local, sus origines y posibles reformas, pero nada de esto sustenta darlas. Son el ahorro de millones de peruanos y cualquier potencial confiscación o traspaso a manos del estado debe ser combatido frontalmente. Y si en chile estaba pensando en ello, pues era inevitable que llegase la idea a nuestro país. A los pocos dias, guiado por una comunicación personal del ministro castilla, publique una nota que informaba que, al parecer, esa idea no estaría contemplada ni en el mef ni en la sb. Si el ministro de economía te indica que eso no ocurrió, está en evaluación y que –por lo tanto– no tiene ni pies ni cabeza, pues lo correcto es transmitir esa información al público lector. Casi tres meses después, en el diario oficial de las ideas regresivas, sale la lierra nuevamente. “Proponen una afp estatal para los independientes”, sostuvo el titular (La Republica, 9 de septiembre). La nota recoge la proposición del Instituto del Ahorro, que promueve la creación de un sistema estatal de pensiones “que sea complementaria a las existentes.” La idea, por supuesto, suena muy bien: el estado, en aras del pueblo y sin el fin de lucro, ofrece un sistema bueno y barato. ¿No es así?"
+    },
+    {
+        "headline": "Denunciarán a ministro Urresti",
+        "content": "Lex congresista Michael Martinez, postula a la presidencia de la comisión de Acuerdo Regional, denuncio ayer al titulator del interior, Daniel urresti, por haberlo vinculado al narctráfico. Ahora le exige dos millón de soles de indemnización."
+    },
+    {
+        "headline": "Los comentarios de Juan José Garrido",
+        "content": "Director@perú21.com\nPublicidad:\nCorreo electrónico: info@publicidad.perú21.com\nTeléfono: 224-4000 anexo 111\nDirección: Jr. Abancay 1181, Jesús María\nEdificio Torre Empresas, Oficina 1201\nHorario atención telefónica: Lun-Vie 09:00 a.m.-06:00 p.m.; Sab 09:00 a.m.-02:00 p.m."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while filtering out irrelevant sections like ads and non-journalistic information according to the provided guidelines. Note how each entry maintains its structure within the defined schema.

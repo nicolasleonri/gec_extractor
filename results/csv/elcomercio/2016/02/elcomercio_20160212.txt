@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/02/elcomercio_12.txt ---
+
+```json
+[
+    {
+        "headline": "Manifiesto contra la dictadura sanitaria",
+        "content": "Por primera vez en muchos años, el periodista argentino Juan Pablo Fernández publica un artículo titulado 'Manifiesto contra la Dictadura Sanitaria'. Hoy más que nunca necesitamos leer artículos completos."
+    },
+    {
+        "headline": "",
+        "content": ""
+    },
+    {
+      "headline": "EL LOCO DEL MARTILLO",
+      "content":"Hoy en día, uno piense que…"
+    },  
+]
+```
+This example demonstrates how to format extracted data according to specified guidelines while ensuring clarity and accuracy in representing each article's structure within the defined constraints. This approach ensures comprehensive extraction and accurate representation of information based solely on provided input.

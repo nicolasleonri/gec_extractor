@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/01/peru21_21.txt ---
+
+```json
+[
+    {
+        "headline": "LA CLAVE PARA ELIGIR CON ÉXITO ES REALIZARSE UN AUTOEXÁMETEN",
+        "content": "La clave para elegir con éxito es realizar un autoexamen para identificar tus talentos e intereses, evitando dejar que modas externas influyan tu decisión.\nPregunta e informarte antes de tomar decisiones críticas respecto a tu futuro profesional."
+    },
+    {
+        "headline": "\"TEST VOCACIONAL NO ES DEFINITIVO\"",
+        "content": "María Del Pilar Orrego, psicóloga educacional, menciona que mientras estos tests pueden ayudar a reconocer aptitudes e intereses específicos, no garantizan resultados precisos sin considerar la madurez emocional y disciplina del individuo. Es importante analizar características personales más profundas además de simplemente seguir consejos basados únicamente en estas evaluaciones."
+    },
+    {
+        "headline": NA,
+        "content": "Se destaca que seleccionar una carrera solo por motivos superficiales como prestigio o expectativas económicas podría llevar a dificultades mayores durante la vida universitaria. Muchos estudiantes abandonan debido a esta desconexión entre interés genuino y elección forzosa. Por eso, entender verdaderamente qué motiva a alguien resulta crucial para evitar frustración posterior."
+    },
+    {
+        "headline": "QUÉ BUSCAN LOS HEADHUNTERS?",
+        "content": "Según Selenee Sánchez, gerente de Link Consulting, buscan ejecutivas capaces de manejar retos significativos dentro de roles medianos a altos niveles. Además, resalta la importancia creciente de contar con habilidades lingüísticas avanzadas, particularmente en inglés, dado el contexto globalizado actual donde muchas compañías requieren movimientos internacionales frecuentes."
+    },
+    {
+        "headline": "¿CUALES SON LAS COMPETENCIAS NECESARIAS?",
+        "content": "Las capacidades requeridas incluyen desde conocimientos técnicos sólidos hasta habilidades blandas tales como liderazgo efectivo, capacidad de trabajar en equipos diversos, flexibilidad ante nuevos escenarios y disposición hacia el cambio constante. El desarrollo continuo también juega un papel vital pues permite ascensos organizacionales y oportunidades globales."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text which align with typical journalistic structures such as headlines followed by detailed discussions or advice related to career choices and professional development insights. It ensures clarity while maintaining fidelity to the source material's intent and context.

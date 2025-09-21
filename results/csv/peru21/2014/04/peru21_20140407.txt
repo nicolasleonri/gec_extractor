@@ -1,0 +1,81 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/04/peru21_07.txt ---
+
+```json
+[
+    {
+        "headline": "Opini\u00f3n: \xBFQui\u00e9n estaba detr\u00e1s del atentado?",
+        "content": "\xBFCree que Csar Iv\u00e1nez estuvo detr\u00e1s del atentado al candidato opo-sitor Juan Caldas?\n\nLa ministro...\n\n...en cierta ocasión.\n\n...en ese entonces."
+    },
+    {
+        "headline": "Plaza de armas",
+        "content": "La pregunta de hoy:\n\nCreemos que Csar Iv\u00e1rez estuvo involucrado en el ataque al candidato opositor Juan Calderón?"
+    },
+    {
+        "headline": "Impulsa reunin en la PM",
+        "content": "Siendo independiente del oficialismo, Carlos Tubino destacó en Twitter que promovió una reunión entre el Ejecutivo y los sectores en protesta regional para discutir soluciones urgentes."
+    },
+    {
+        "headline": "Pol\u00eda",
+        "content": "\"En el caso de BTR, replicaron argumentos de criminales.\" Invitación especial a criticar la actuación de Megacomisión Laboral.\n\n\"Gobiernadores utilizados por nacionalismo como herramienta política,\" señalan observadores políticos. \"Su presupuesto es tres veces más grande comparado con administraciones previas.\""
+    },
+    {
+        "headline": "Len anuncia retorno de exprimer mandatario",
+        "content": "Alejandro Toledo regresar pronto a Lima para liderar campaña electoral. Participará incluso en primarias según José Lecca, representante de Perú Posible."
+    },
+    {
+        "headline": "Irresponsabilidad de la alcaldesa Villarán",
+        "content": "Susana Vil-larrán reintroducirá fotografías de multas, método controversial para incrementar ingresos fiscales. ¿Es esto realmente eficiente o simplemente buscar fondos mediante tácticas engañosas?"
+    },
+    {
+        "headline": "Transparencia fiscal exigida",
+        "content": "Exposición pública requerida sobre cómo Dinámica Internacional usa fondos gubernamentales. Revelaciones indican que gran cantidad fue destinada a operativos clasificados."
+    },
+    {
+        "headline": "Nuevo Nissan Sentra 1.8",
+        "content": "Todo Cambio Es Bueno. Algunos cambios son espectaculares. Presentación del Nuevo Nissan Sentra 1.8 disponible próximamente."
+    },
+    {
+        "headline": "Limites marítimos solicitados",
+        "content": "Publicación urgente del nuevo mapa de límites marinos recomendada por consejos consultivos. Importante para educación y concientización territorial."
+    },
+    {
+        "headline": "Daniel Moralla critica resistencia legal",
+        "content": "Rectificación necesaria frente a negativas de comparecencia ante investigación parlamentaria. Caso particular del rector universitario Luis Cervantes Lin."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents based on the provided input while adhering strictly to the defined structure and guidelines for extraction. Note any missing data has been marked appropriately according to instruction requirements.
+
+--- ERROR ENTRY: data/txt/peru21/2014/04/peru21_07.txt ---
+
+```json
+[
+    {
+        "headline": "LO ESTRANGULARON",
+        "content": "Asesinan a\nlocutor en\nuna playa.\nEn la playa Chorrillos de \nofue encontrado el cadáver del locutor radial Joe!\nVillanueva Gonzales, quien fue\nestragulado por tres hampones fuertemente armados.\nEl homicidio se produjo a las\nCuatro de la mañana de ayer.\nVillanueva, quien se encontraba acompañado por Pedro\nBernal y dos mujeres, se hubiera resistido al asalto,\nsegún las primeras investigaciones."
+    },
+    {
+        "headline": "MAÑANA LEEN FALLO DE CASO UTOPA",
+        "content": "El 21° Juzgado Penal de Lima leerá mañana la sentencia a\nlos dueños de la discoteca Utopa, Alan Azizollahoff y Edgar\nPaz Ravines, por la muerte de 29 jóvenes ocurrida en julio\nde 2002, durante un incendio.\nLa diligencia —que el jueves 28 de marzo fue suspendida por la\nhuelga judicial— se realizará a las 10:00 a.m, en la Sala de\nAuditorías del Palacio de Justicia."
+    },
+    {
+        "headline": "PUESTOS SE HAN CONVERTIDO EN GUARIDAS DE DELINCUENTES",
+        "content": "Abandonan módulos de seguridad del Cono Norte.\nRegidor exigirá que se forme una comisión investigadora\nen la próxima sesión de consejo.\nAl menos seis puestos de retén rápido instalados por la municipalidad\nde Lima en el Cono Norte han sido abandonados. Los módulos\nse han convertido en almacenes de residuos sólidos y en guaridas\nde delincuentes. El regidor metropolitano Alfredo Lozada afirmó que cada\nuna de estas casetas, debidamente equipadas, le costó a la comuna\nlimeña unos 200 mil soles; es decir, un millón 200 mil soles están en riesgo.”
+    },
+    {
+        "headline": "HASTA MEJORAR AL SISTEMA DE CONTROL DEL TRANSPORTE",
+        "content": "Callao\nMás de dos millones de soles invertirá este año el Consorcio Tránsito\nCiudadano (CTC) en implementar una nueva señalización en las Avs.\nFaucett y Tomas Valle, en instalar otras diez cámaras de seguridad en el\nprimer puerto y en colocar más semáforos y mejorar talleres móviles."
+    },
+    {
+        "headline": "SOLO SEIS DISTRIOTOS PIDIERON AYUDA PARA AFRENTER TERREMOTOS",
+        "content": "La alcaldesa de Lima, Susana Villaran, afirmó que solamente seis\ndistritos de la capital solicitaron ayuda a la comuna metropolitana para\nproveerles equipos que les ayuden ante un posible terremoto o tsunami.\nSon: La Molina, Puente Piedra, San Bartolo, San Juan de Miraflores,\nSan Martin de Porres y Villa El Salvador."
+    },
+    {
+        "headline": "SUNAT REMATAR BIENES POR CUATRO MILLONES DE SOLES",
+        "content": "Esta semana, la Superintendencia Nacional de Administración Tributaria\n(Sunat) llevará a cabo una venta pública de diversos bienes muebles e inmuebles.\nEntre los artículos disponibles figuran una casa, un terreno industrial, varios\nlocales comerciales y diferentes tipos de vehículos. Todo está valuado en más\nde cuatro millones de soles."
+    }
+]
+```
+This JSON contains extracted information about significant events reported within the provided OCR text while adhering strictly to the defined structure for headlines and contents. Articles related purely to ads, subscriptions, etc., have been excluded according to guidelines.

@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/05/peru21_14.txt ---
+
+```json
+[
+    {
+        "headline": "Termin octavo, los creadores de la idea del estilo salieron del club, la dictadura del resultado pasaba factura.",
+        "content": "Por suerte, el manual existe, cuando hubo que buscar entrenador, este ayudó a seducir a un DT exitoso como Mario Salas. A los técnicos serios les seduce más los proyectos que los retos en los que solo vale el resultado sin importar cómo. Salas y Cristal parecen el matrimonio ideal, El manual es todo lo que este Cristal traslada a la cancha. Recupera rápido, ataca con amplitud, velocidad y dinámica. Además, acierta con el ‘9’ y el central. Con lo cual aseguró contundencia y salida limpia. Es el inicio del camino, pinta bien el año, gracias al bendito manual."
+    },
+    {
+        "headline": "Juventus gana su séptima liga consecutiva",
+        "content": "ROMA.— Juventus (1° con 92) ganó el “Scudetto” 34º de su historia y el séptimo de manera consecutiva (Copa y Serie A) tras empatar 0–0 en el Olímpico con la Roma (3° con 74).\n\nDe esta forma, el equipo de Allegri se convierte en el primero del futbol italiano en ganar el “doblete” (Serie A y Copa) en cuatro temporadas consecutivas.\n\nAntes, la Lazio (4° con 72) empató con Crotone 2–2 y deberá jugar la próxima semana, en la última jornada, una “final” ante el Inter (5° con 69) por el último lugar en la Champions."
+    },
+    {
+        "headline": "FC Barcelona cayo 5–4 ante el Levante y concedió su primera derrota",
+        "content": "Partidazo y chao invicto Ernesto Valverde decidió prescindir de Lionel Messi y no pudo finalizar la Liga de manera invicta.\n\nVALÈNCIA.— Nada dura para siempre. Si no que lo digan el Barcelona (1° con 90), que por culpa de 56 minutos nefastos, vio caer su invicto duramente en un partido en el que estuvo abajo 5–1 ante el Levante, pero que terminó 5–4, a falta de una jornada para finalizar la liga.\n\nErnesto Valverde decidi dejar fuera de los convocados también a Luis Suárez, además, puso a Pedri, Arthur Melo y Ansu Fati en el once inicial. La baja obligatoria de Samuel Umtiti (lesión) y Sergio Roberto (sanción)\n\nY así que con Jordi Alba, Gerard Piqué, Clement Lenglet y Ronald Araújo en defensa, el Levante tuvo todo para sorprender: André Silva (9’, 30′ y 49’) y José Campaña (46’ y 56’) sepultaron el invicto de un Barça que tuvo en Antoine Griezmann (38', 59' y 64') a su único salvavidas.\n\nEl penalti transformado por Leo Messi (71") hizo sonreír con la remontada; sin embargo, ésta no llegó y el Barça tendrá que conformarse ahora con intentar conquistar otro título."
+    },
+    {
+        "headline": "Alexander Zverev derrotó a Thiem y se corona rey de Madrid",
+        "content": "El alemán Alexander Zverev (3 ATP), de 21 años, se quedó ayer con el Masters 1000 de Madrid al batir al austriaco Dominic Thiem (/7 ATP), de 24 años, con un doble 6–4, en un duelo entre dos abanderados de la nueva generación del tenis. \"Es increíble, soy mi tercer Master 1000 y aún sólo tengo 21 años\", declaró emocionado después del encuentro."
+    },
+    {
+        "headline": "Hamilton se consolida en la punta tras ganar el GP de España",
+        "content": "Dos semanas después de estrenar en Azerbaiyán su cuenta de victorias este año, Lewis Hamilton (Mercedes) volvió a imponerse ayer, pero esta vez en el Gran Premio de España y se adelanta al frente de la clasificación del Mundial de Fórmula Uno con 95 unidades, 17 más que Sebastian Vettel (Ferrari), quien finalizó cuarto. Detrás del británico, completaron el podio Valtteri Bottas (Mercedes) y Max Verstappen (Red Bull).\"Ahora somos nosotros quienes presionamos,\" manifestó Hamilton."
+    },
+    {
+        "headline": "Manchester City es el primero en alcanzar los cien puntos en la liga",
+        "content": "El Manchester City de Pep Guardiola se convirtió ayer, gracias al gol agónico de Gabriel Jesús (90'), en la victoria sobre el Southampton por 1–0, en el primer equipo que logra llegar a los 100 puntos en la historia de la Premier League.\"Manejaremos mañana nuestras estrategias junto a nuestros aficionados, luego vendrán unas merecidas vacaciones y seguiremos pendientes del Mundial, aunque será difícil estar presente debido a compromisos anteriores,\" comentó Pep."
+    }
+]
+```
+This extraction captures several distinct articles based on their headlines and contents while adhering strictly to the guidelines provided for identifying and segmenting relevant journalistic material. Unrelated sections such as sports results summaries, promotions, and other non-article elements were excluded according to the scope defined.

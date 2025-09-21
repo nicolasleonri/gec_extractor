@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/01/peru21_31.txt ---
+
+```json
+[
+    {
+        "headline": "Recetas de cocina fácil",
+        "content": "Precale el horno a 180 °C.\nPique la berenjena con piel en\nrodajas de medio centímetro\ndepais grosor. Lleve a un bol y eché\nuna cucharadita y media de\nsal. Déjelas reposar, enjuáguela y séquela bien con papel absorbente.\nPresiónela con fuerza para absorber el agua.\nPónlas berenjenas en un recipiente refractario,\norrocúrelas con tres cucharadas de aceite de\noliva y lávélas al horno durante unos diez minutos."
+    },
+    {
+        "headline": "Ingredientes:",
+        "content": "55 cucharadas de albahaca picada\n3 1/2 tazas de aceite de oliva\n1 cebolla pequeña picada\n2 tazas de harina sin preparar\n1 taza de tomate sin piel ni semillas, en cubitos\n1 cucharadita de azúcar\n1 cucharadita de levadura en polvo\n1 berenjena mediana\n1/4 de taza de pecorino rallado\n2 dientes de ajos en laminas\nqueso parmesano, desmenuzado\n1/4 de taza de salvia picada\nSal y pimienta"
+    },
+    {
+        "headline": "Integrante de ‘Esto es Guerra’ pide que la dejen en paz en clara alusín a ‘Peluchín'",
+        "content": "\"Espero que se cansen de este acoso. Sé que soy un personaje público, pero tengo derecho a llevar una vida normal...\nFelizmente, en mi departamento hay cámaras de seguridad que registran todo.\nSi van a especular, insinuar o decidir algo y quieren hacer creer a la gente cosas, tengan mucho cuidado, no es justo que sigan diciendo cosas que no son... Denme en paz\", twitteó.\n\"Si muchas veces callo, es por algo. Acá no hay víctima ni pobrecito, hay muchas cosas que no saben; sin embargo, se creen dueños de la verdad. Solo intento ser feliz, tengo derecho\", agregó."
+    },
+    {
+        "headline": "Johnny Depp y su novia se casarían la próxima semana",
+        "content": "El actor Johnny Depp estaría alistando su boda con Amber Heard, con quien se comprometió hace un año.\nDepp y la actriz preparan una boda íntima en las Bahamas para 50 invitados. \"La pareja se casará la próxima semana en la isla privada que el actor posee en las Bahamas; agendaron como fecha el 7 y 8 de febrero\", publicó Page Six."
+    },
+    {
+        "headline": "Shakira y Gerard Piqué dan la bienvenida a su segundo hijo",
+        "content": "La cantante colombiana Shakira y su novio, el futbolista español Gerard Piqué, dieron la bienvenida a su segundo hijo Sasha Piqué Mebarak, nacido el 29 de enero a las 21:54 (hora de Barcelona).\n\"Estamos felices de anunciar el nacimiento de Sasha Piqué Mebarak, nacido el 29 de enero a las 21:54 (hora de Barcelona)\nEl nombre Sasha es de origen griego y ruso y significa defensor de la humanidad y guerrero'. Tanto la madre como el bebé se encuentran en perfecto estado de salud\", se leyó en el comunicado."
+    },
+    {
+        "headline": "Rubén Aguirre responde a 'Chilindrina'",
+        "content": "\"A una actriz se le exige talento, frescura, lozanía y belleza, y muchas tienen que recurrir a la cirugía estética. La vejez viene sola. Si tengo 81 años, los llevo con mucho orgullo, pues los he vivido. Si yo quisiera, podría tener 40\", declaró al matutino Espectáculos.\""
+    },
+    {
+        "headline": "Roberto Moll critica duramente a María Conchita Alonso",
+        "content": "\"No quiero hablar de esa señora porque es muy grosera y está mal de la cabeza\", señaló Moll, quien se someterá a un rejuvenecimiento en los ojos."
+    },
+    {
+        "headline": "Ortiz retorna con el programa Vidas Secretas",
+        "content": "\"El programa se estrenó en el 2002. En esa época fue muy controvertido, ya que se investigaba mucho en las biografías. El reto es encontrar historias nuevas, no es simplemente hacer un resumen y buscar los archivos de la familia, esposa, amante, etc.", comentó Ortiz."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, listings, and non-journalistic segments have been excluded according to specified criteria.

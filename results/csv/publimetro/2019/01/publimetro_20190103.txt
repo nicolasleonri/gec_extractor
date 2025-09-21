@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2019/01/publimetro_03.txt ---
+
+```json
+[
+    {
+        "headline": "\"Silicon Valley\" Boom Nacional",
+        "content": "National Geographic estrena el jueves 24 a las 9pm esta miniserie documental (seis episodios de una hora) que narra la historia de los pioneros de internet."
+    },
+    {
+        "headline": "‘’Kingdom’’: Serie Original De Netflix",
+        "content": "Esta serie surcoreana escrita por Kim Eun-hee y dirigida por Kim Seong-hun, se ambienta en la época de la Dinastía Chosún (1392). El brote convertirá a las personas en zombis. Ji-Hoon es el protagonista de esta producción. Podrás verla en HBO todos los domingos desde el 20 de enero a las 10 p.m."
+    },
+    {
+        "headline": "'The Grand Tour': Amazon Prime Video",
+        "content": "Este próximo viernes 18, Amazon Prime Video liberará la tercera temporada de esta serie británica, cuyos protagonistas Jeremy Clarkson, Richard Hammond y James May conducen por los caminos más extraños del mundo."
+    },
+    {
+        "headline": "Crashing: Exploración Del Stand-Up Comedy",
+        "content": "Protagonizado por el cómico Pete Holmes, esta serie explorará el imprevisible mundo del stand-up comedy. Estrenará su tercera temporada el próximo domingo 20 de enero. Contará cómo el brote convirtió a las personas en criaturas parecidas a zombies mientras Hammond manejaba una picop Chevy a través de un angosto puente en la jungla colombiana."
+    },
+    {
+        "headline": "Personajes Que Marcamos Colección Vintage",
+        "content": "Es votada vintage historia y secretos de la producción entrega 1: Domingo 6 de enero Mickey, aprendiz de brujos entregas especiales incluyen una colección metálica con libros exclusivos y figuras de PVC disponibles desde este domingo 6 de enero en línea y locales cercanos."
+    },
+    {
+        "headline": "Trivias Para Conocimiento General",
+        "content": "Algunos de los temas abordan curiosidades sobre deportes, religión, política y cultura general. Por ejemplo, ¿Cómo se juega al cricket?, ¿Quién fue el primero obispo de Roma?, ¿Qué significa \"Tengo un sueño...\"?", "¿Cuál es el nombre nativo de Isla de Pascua?"
+    },
+    {
+        "headline": "Horóscopo Semanal",
+        "content": "Para Aries, Tauro, Géminis, Cancer, Leo, Virgo, Libra, Escorpio, Sagitario, Capricornio, Acuario y Piscis, consejos específicos basados en emociones personales, relaciones amorosas, situaciones profesionales y recomendaciones generales para mejorar el estado mental y físico durante la semana."
+    },
+    {
+        "headline": "Opini\u00f3n Exprocurador Anticorrupci\u00f3n Joel Segura",
+        "content": "Joel Segura cree que el actual procurador no comprende la legitimidad fundamental del Ministerio Público. Critica la falta de visión estratégica detrás de acciones políticamente calculadoras y señala errores significativos relacionados con casos importantes como Lava Jato."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on headlines and their corresponding contents while adhering strictly to the guidelines given regarding what constitutes includable material versus non-includable elements like ads or unrelated listings.

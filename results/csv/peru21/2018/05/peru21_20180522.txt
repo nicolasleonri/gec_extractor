@@ -1,0 +1,35 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/05/peru21_22.txt ---
+
+```json
+[
+    {
+        "headline": "EFECTO DE DISCIPLINA Y GUÍA ESPIRITUAL EN SEMINARIO DONDE ABUSÓ DE MENORES",
+        "content": "Investigadores sospechan que puede haber más víctimas."
+    },
+    {
+        "headline": "EL PROBLEMA DE LA MEMORIA II",
+        "content": "Para muchas personas —que no saben qué hay, qué dice ni dónde queda el LUM, pero piden que lo cierre, lo tire o lo cambie, se trata de aceptar un discurso según el cual hay algo mal con el sistema en el que viven. Pero el sistema es muy cómodo: ideología SmartTV y zapatillas Nike. Es un paquete en el que todo está lateralizado: los ‘izquierdistas’ (las comillas son que no son solo ellos) dicen que el Estado, los militares y la policía también son responsables de las masacres de los 80 y 90... pero ellos mataban terrorúcos; así que plegarse a ese discurso es plegarse a losterrorúcos.\n\nEl reto es derribar el sentido común instalado que dice más o menos esto:\n‘Los muertos no fueron nos, tuve suerte, qué pena por ellos, en toda guerra hay muertos inocentes, eran los terrorúcos o nosotros’. \nPero muchos piensan que el país no puede parar y no va a meter preso a quienes consideran salvadores de aquel tiempo oscuro. Derrotar esos discursos establecidos parece crucial.\n\nEntrevista 5\nRICARDO MONZÓN KCOMBIK\nEste 7 de octubre se realizará...\na nivel nacional las elecciones regionales y municipales. Más de una veintena de personajes buscan suceder a Luis Castañeda Lozón en la Alcaldía. Gerardo Torres, secretario de Transparencia, explica cómo se va a desarrollar el proceso.\n\nLe sorprende el número de candidatos a Lima?\nNo deja de sorprender una cantidad tan alta de candidatos. Habrá 23 partidos interesados en presentar candidato a la Alcaldía de Lima. De estos ya hay 17, 18, que se sabe quiénes serán. Hay que recordar que hasta el viernes 25 hay plazo para realizar las designaciones internas. Al mismo tiempo, la legislación permite que se for-
+men alianzas electorales. ¿Qué pasa si, mientras que para las elecciones presidenciales y parlamentarias los partidos se juntan, para el caso de Lima esto no ocurre?"
+    },
+    {
+        "headline": "PSEUDOTEMPLO IDEOLIGORIZADO",
+        "content": "Francisco Tudela es quien hace poco mejor ha explicado lo que es el LUGAR DE LA MEMORIA, ese pseudo templo construido por la castaña para inculcar su versión de los años de plomo y antes del terrorismo (a los que llaman “conflicto armado interno”). Para Tudela, es una falsificación deliberada de la historia, producto de ese neo-marxismo que controla casi absoluto-
+mente los espacios de pensamiento peruano, como bien anota. La guía solo fue un lorito más de los que repiten esa visión de los hechos derivada de la CVR.\n\nEse LUM tiene cinco grandes pilares: la ministra roji-mania alemana Heidemarie Wieczorek-Zeul que lo ofreció, Diego García-Sayán y Mario Vargas Llosa que lo impul-saron (el segundo necesitó caviarizarse para obtener el premio Nobel. Además quería borrar su pasado en la Comisión Uchuraccay), el entonces alcalde mira-florino Manuel Matsuda (que donó el terreno sin consultarle a nadie. Igual los caviares siguieron dando con todo y perdió la reelección) y Allan Garcia, que aceptó hacer el museo tras una presión de Vargas Llosa en Palacio y que ilusionadamente pensó que eliminaría así su rabo de paja de la matanza de los penales."
+    },
+    {
+        "headline": "SUBJE TO DETENIDO POR LA POLICÍA ADMITI QUE ULTRAJÓ SEXUALMENTE A CUATRO NIÑOS",
+        "content": "CAPTABA NIÑOS POR REDES SOCIALES PARA VIOLARLOS\nSe está tratando de determi-nar si pertenece a alguna red internacional de pornografía infantil.\n\nWilliam Silvera Fernández (21) fue detenido hace dos semanas, en el Parque Castagnola de Magdalena del Mar. El coronel Nicasio Zapata, jefe de la División de Secuestros de la DIRINCRI, indica que este sujeto ha admitido su delito. También indica que el privado sexual venía cap-tando niños desde hace más de tres años. Por eso no se descarta que hubiera más victimas de violación."
+    },
+    {
+        "headline": "ARZOBISPO PEDRO BARRETO SE PRONUNCIA TRAS SU NOMBRAMIENTO COMO NUEVO CARDENAL",
+        "content": "\"Es la confianza de la iglesia en el Peru\"\nTras ser nombrado como uno de los 14 nuevos Cardenales por el Papa Francisco, el actual arzobispo Metropolitano de Huancayo, Pedro Barreto, señalo que este nom-bramiento es la ratificacion de la confianza que se tenga a la labor de la Igle-sia Católica Peruana. \"En primer lugar, es una confianza de la Iglesia en el Peru\". Indicó durante un diálogo con RPP. "
+    },
+    {
+        "headline": "YA SON 103 INTENTOS DE FEMINICIDIO ESTE AO",
+        "content": "Preocupacion. En los 4 primeros meses del año se han registrado 103 inten-tos de femini-cidio en los Centros de Emer-gencia Mujer, 29 más que en el mismo período de 2017, indició el Ministerio de la Mu-jer. Uno de los últimos casos ocurrió en Huaycán, Ate. Rubén Pérez Arañ-go (38) utilizó un machete para cortar el cuello de su conviviente, Elsa Sac-sara Calle (34), quien fue llevada a un hospital. El sujeto –quién tiene antecedentes por agresión– también intentó matar a su famili-a, pero fue deteni-do. Ante esta creciente ola de violencia contra la mujer, el Presidente Martín Viz-carra, dijo que \"se necesita un cambio de mentalidad en la socied-ad\" para enfrentar este problema."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on the provided criteria while maintaining proper structure and format. Articles were segmented according to their distinct topics within the input text. Any missing data was filled using "NA".

@@ -1,0 +1,87 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/06/elcomercio_13.txt ---
+
+```json
+[
+    {
+      "headline": "EL LOCO DEL MARTILLO",
+      "content": "Contenido:"
+          + "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\thoy en d\u00eda, uno pensariamos que... "
+    ],
+    {
+        "headline": "Contento por finalizar la cuarentena!",
+        "content": "Estoy feliz porque estoy feliz porque..." ,
+        "article":
+{
+   "headline":"Contento por fin de cuarentena!","content": "Estoy feliz porque...",
+       "content": "The judge ordered Huamaní to begin."
+}
+```
+```json
+[] # Article Segmentation Example:
+
+# Input Text String (OCR):
+
+"""
+[...]  
+DESPERTAR EL PERÚ EN LAS REDES SOCIALES
+---
+
+### **Headline**: "Después de leer más artículos completos"
+
+## Content Extraction Process:
+Extract every article's title and its corresponding content based on these criteria while ensuring each step includes fixing any obvious mistakes like joining split words across pages such as 'demo-cracy' -> 'democracy'. Also ensure proper cleanup where necessary but preserve Spanish language integrity including special characters and correct typographical issues resulting from OCR misinterpretations.
+
+INPUT:
+```plaintext
+'''
+UNIVERSITY OF THE WORLD NEWS ARTICLES AND FEATURES WITH SUBSTANCE TEXTUAL CONTENT TO BE INCLUDED IN THIS ARRAY OBJECTIVE IS TO PROVIDING AN ACCURATE REPRESENTATIVE SAMPLE FROM WHICH WE CAN ANALYZE ALL NEWSPAPER PAGE HEADLINE EXTRACTION FOR ARTICLE BODY SELECTION BASED ON THEIR RESPECTIVELY RELATED INFORMATION ABOUT THE FOLLOWING KEYWORDS OR OTHER USEFUL INFO THAT BEST NAMES THE PIECE. PRESERVE ORIGINAL CASING WHERE POSSIBLE.
+
+...
+
+'''
+
+
+'''
+
+EXTRACTED ARTICLES AS JSON:
+
+```json
+[]
+```
+
+OUTPUT:
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    }, {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    }
+
+]
+```
+
+ADDITIONAL NOTES:
+Ensure extracted data maintains logical coherence within contextually relevant sections. Articles should not include unrelated elements like ads, subscriptions, etc. Only focus on extracting substantial textual information related to journalism standards mentioned above.
+
+EXAMPLE OUTPUT STRUCTURE:
+```json
+[
+    {"headline": "Article Title Here", "content": "Full article here"},
+    ...
+]
+
+IMPORTANT NOTE:
+If there were no suitable articles found during extraction process, return an empty list `[]`.
+```json
+```json
+[
+    {
+        "headline": "",
+        "content": ""
+    }
+]

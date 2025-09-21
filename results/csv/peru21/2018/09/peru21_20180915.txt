@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/09/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Propuesta del Poder Ejecutivo solo obtuvo siete votos a favor, frente a las nuevas once negativas del Bloque Fujimorista",
+        "content": "‘Esto huele más a sabotaje que a intención de colaboración que tanto han mencionado todos estos días’. Gilbaut Violeta\nCon reservas *, Peruanos por el Cambio sobre abstención de FP.\nmParlamentarios critican postura de FP. Presentarán una reconsideración para que se vote de nuevo.\nTras casi cuatro horas de debate, la Comisión de Justicia del Congreso no logró aprobar la reforma del Consejo Nacional de la Magistratura (CNM). Solo siete legisladores se pronunciaron a favor de la propuesta del Ejecutivo, frente a las nueve abstenciones de la bancada de Fuerza Popular (FP).\nLas fuerzas políticas están en la obligación de empezar por lo prioritario. Y eso es que tengamos un Consejo Nacional de la Magistratura probos, técnicos y en el cual podamos confiar los ciudadanos."
+    },
+    {
+        "headline": "Legislador del Frente Amplio pidió que no se le levante la inmunidad parlamentaria",
+        "content": "Edilberto Curro (Frente Amplio) solicitó que se declare improcedente el pedido de levantamiento de inmunidad parlamentaria que pesa en su contra. \nCabe recordar que la solicitud fue formulada por la Corte Suprema de Justicia debido a que el legislador es procesado por el presunto delito contra la fe pública y falsedad genérica, en agravio de la Universidad Andina Néstor Cerpa Velásquez de Puno.\nEl legislador del FA indicó que se ha emprendido una campaña de desprestigio en su contra y culpo al congresista Alberto Quintanilla (NP) de estar detrás de ella.”
+    },
+    {
+        "headline": "Magistrados de Arequipa se suman a petición de Colegas de Ancash, Puno, Huánuco y selva central",
+        "content": "Con 22 resoluciones, el Fiscal de la Nación realizó 30 cambios de fiscales provinciales a nivel nacional. \nCon 22 resoluciones, el fiscal de la Nación realizó 30 cambios de fiscales provinciales a nivel nacional. \nCada día que pasa, hay nuevos pedidos de renuncia para el actual de la Nación, Pedro Chávarry. A los pronunciamientos de fiscales de Ancash, Puno, Selva Central y Huancavelica, incluido el fiscal supremo Pablo Sánchez, ayer se sumó el de los miembros de Arequipa."
+    },
+    {
+        "headline": "Proyecto a medida",
+        "content": "El vocero alternativo del oficialismo, Jorge Meléndez, refirió que Fuerza Popular solo quiere demorar el debate de la reforma y ‘acomodar la norma a sus intereses’.\n‘¿Qué buscan?’ preguntó. ‘Que se demore el tiempo, aprobar un proyecto a su medida e intentar incorporar artículos que no tienen nada que ver con la propuesta del Ejecutivo’, respondió."
+    },
+    {
+        "headline": "Opinan.21 Carlos Tapia Tiempos de Tarata",
+        "content": "'Coche-bombardier en Tacna (16/07/92)' se enmarca dentro de la estrategia de Sendero Luminoso basada en un supuesto equilibrio táctico impuesto durante los años 89–91. El Presidente Gonzalo engañó a sus seguidores afirmando que para alcanzar el poder, había que incrementar acciones terroristas en la capital. Realidad diferente mostró el Ejército aliándose con los camposistos, encargándoles importantes operaciones antiterroristas."
+    },
+    {
+        "headline": "Merkeko Jesús de Praga y política basura",
+        "content": "Olvidando a probar-nos qué Gabriel García Márquez realmente escribió obras hiperealistas, hoy se habla del denominado pastor Santana. Un personaje conocido por usar disfraces religiosos mezclados con elementos financieros. Esto evidencia cómo algunos individuos explotan la fe para beneficio personal, contribuyendo así a una cultura de corrupción extendida también a figuras públicas y partidos políticos."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria and data cleanup requirements. Articles were selected where there was substantial journalistic content available within the input text.

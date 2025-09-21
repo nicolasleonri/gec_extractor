@@ -1,0 +1,62 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/02/peru21_12.txt ---
+
+```json
+[
+    {
+        "headline": "Plaza de Armas",
+        "content": "La pregunta de hoy\nCree que la congresista Cenaida Uribe debe sersancionada por la Comisión de Ética?\npregunta a nombre de la Nación Participantes 93%\n936\nRepresentación\nSE VAN DE VIAJE\ndel 17 al 21 de febrero los parlamentarios tendrán luz verde para llevar a cabo la semana de sesión en sus respectivos territorios."
+    },
+    {
+        "headline": "POLÍTICA",
+        "content": "PORTEÑO PORTAVOZ SERGIO TEJADA AFIRMA QUE DENUNCIAS SON GRAVES Y QUE SERÁ CONVOCADO PARA DAR ACLARACIÓN.\nBancada de Legislativo nacionalista se niega a aclarar denuncias y alega que no habla de su vida privada.\nLos argumentos de la congresista nacionalista Cenaida Uribe para desvirtuar las denuncias en su contra sobre presuntas presiones al ex director del colegio Alfonso Ugarte para que favorezca a una empresa privada en la licitación de paneles publicitarios no parecen haber convencido ni siquiera a los miembros de su propio bloque político.\nEl vocero de Ganá Peru, Sergio Tejada, anticipó que su colega será convocada para que dé las explicaciones del caso ante la bancada. Inicialmente dijo que seria el lunes 17, pero luego señaló que debido al viaje de los parlamentarios a provincias –con motivo de la semana de reunión–, la fecha sería definida posteriormente.”
+    },
+    {
+        "headline": "EL PRESIDENTE DE LA AGRUPACIÓN, RAÚL CASTRO, ADVIERTE QUE SU CANDIDATURA PODRÍA SER INVALIDADA",
+        "content": "PPC investigará denuncias contra Secada por maltrato personal\nCONGRESISTA JAVIER BEDOYA NO DESCARTA ACUSACIONES CONTRA SECADA\nPresidente del Partido Popular Cristiano (PPC), Raúl Castro, informó que la Comisión de Ética de esa agrupación ha iniciado una pesquisa respecto de las denuncias contra el regidor Pablo Secada por presunto maltrato personal. Aclaró que el concejal “no es precandidato ni candidato” a la alcaldía de Lima, y que si está realizando un trabajo político con ese fin “tenderá a realizarlo dentro de las filas partidarias”."
+    },
+    {
+        "headline": "OPINIÓN",
+        "content": "\"Un enfermo silencioso\"\nPara nadie es secreto que el desempleo se posiciona como el principal desafío de las economías desarrolladas; lo que pocos observan es que, silenciosamente, también se asoma en las economías emergentes. \nDel análisis realizado por líderes de opinión consultados por el Foro Económico Mundial recientemente, el 21% considera el desempleo como el principal reto europeo mientras el 20% ve la falta de crecimiento económico como tal. Similar situación se presenta en América Latina, donde predomina la preocupación por el incremento de la desigualdad social más que el desempleo directamente."
+    },
+    {
+        "headline": "EDITORIAL",
+        "content": "Editora Claudia Zaguierre\nDirector Manuel Tumi\nPolítica: Dan Flores Economía: Gina Sandoval Ciudad: Yolce Pacori Perú: Mariana Sausa Deportes: Francisco Cairo Escenarios: Signy Prieto Central: Gonzalo Pajares Mundo: Franco Boggiano Web: Alejandro Castro Grafico: Luis Hidalgo Foto: Fidel Carrizo."
+    },
+    {
+        "headline": "LA PRODUCCIÓN INDUSTRIAL CRECIÓ LEVEMENTE EN 2013",
+        "content": "Según Clady Trives, secretaria técnica de producción industrial, \"en 2013, la manufactura creció 1.2% gracias a mayor producción de bienes intermedios\"."
+    }
+]
+```
+This JSON captures key sections identified within the provided input while adhering strictly to the outlined requirements for extracting and structuring data. Note any missing information has been marked appropriately according to guidelines given.
+
+--- ERROR ENTRY: data/txt/peru21/2014/02/peru21_12.txt ---
+
+```json
+[
+    {
+        "headline": "¿Qué le gusta de exponer en Lima?",
+        "content": "Lima me encanta. Y creo más orgánico (expresar mediante imágenes): \u2014imagen interior\u2014\n\nCuánto tiempo me dan? Veinte minutos?\nEste no es un espacio rimbombante ni elitista:\nllegan niños, jóvenes, adultos; los niños juegan.\n\n**QUÉ SIENTE CUANDO VE UNA TELA?:\n**
+La tela es lo más importante,\nel veo y me emociona. Si tienes una buena tela, tienes el vestido."
+    },
+    {
+        "headline": "Cómo ve a la moda?",
+        "content": "Lo que me interesa es narrar, ofrecer un ataque de emociones. Hay mucha gente que se pone un traje para ‘estar’ favorecida’. Allí se cree que una mujer ‘elegante’ siempre tiene que estar con tacos… Pero ¿qué importa cómo ves tú al modelo y no al traje?"
+    },
+    {
+        "headline": "MANO DURA, CARAJO!\nPolicías amasan fortuna con extorsión",
+        "content": "Personas cercanas a Corporación San Jorge enfocaban en galletas, fideos, panetones y golosinas desde 1945, generando mucho empleo de calidad. De perfil bajo, es una de las más exitosas, especialmente fuerte en el norte. Sus directivos enfrentan amenazas graves relacionadas con actividades ilegítimas dentro de la corporación."
+    },
+    {
+        "headline": "CORRUPTIÓN GENERÓ PERJUICIOS POR S/.9 MILLONES A 22 MUNICIPIOS",
+        "content": "Funcionarios de varias municipalidades incurrieron en actos corruptos tales como negativa a competidores justos, culpables de corromperse, manipulación documentaria y conspiración interna. Esta conducta resultó en pérdidas económicas significativas superiores a nueve millones de soles."
+    },
+    {
+        "headline": "HALLAN MUERTA A MUJER ENTERRADA BAJO CONCRETO",
+        "content": "Una investigación reveló que María Vilches Pérez había sido víctima de homicidio seguida de sepultura clandestina. Su compañero permanece prófugo mientras continúan las indagatorias respecto a estas acciones criminales."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were selected where substantial journalistic content was evident, excluding non-article elements like ads or repetitive sections.

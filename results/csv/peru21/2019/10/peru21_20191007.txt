@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/10/peru21_07.txt ---
+
+```json
+[
+    {
+        "headline": "PERÚ: Excongresistas perderán inmunidad parlamentaria",
+        "content": "Fabiana Sanchez Di Natalé\nha pasado una semana \ndesde que el presidente Martin\nVizcarra anunció la disolución\nde Congreso y se reducen días para que los\nahora ex-legisladores pierdan\nsu inmunidad parlamentaria.\n¿Qué ocurre?\nArtículo 93 de la Constitución Política\ndel Perú señala que los diputados\nno pueden ser procesados “ni presos sin\nprevia autorización del Congreso o de\nla Comisión Permanente,\nsiendo electos hasta un mes después\nde haber dejado sus cargos.” Esto significa\nque sólo quedan 23 días para disfrutar\nde dicho privilegio."
+    },
+    {
+        "headline": "Un hombre en la Luna",
+        "content": "Jaime Bayly\nHallan médicos ebrios en hospital\nRoberto Vieira enfrentará investigación\npor recibir coimas según indagan fiscales.\n“Me solicité yo misma el levantamiento\nde inmunidad. Siempre he querido que\nme investiguen.”
+    },
+    {
+        "headline": "Casos destacados: Becerril y Flores",
+        "content": "Existen individuos aún bajo inmunidad debido\na su posición dentro de la Comisión Permanente.\nPertenecen figuras como Hector Becerril y\nClemente Flores, implicados en actividades ilegales.\nSegún opinión judicial, estos sí conservan\nprivilegios aunque existen discrepancias legales."
+    },
+    {
+        "headline": "Opini\u00f3n: Apoyo a Pasajeros",
+        "content": "Funcionarios del Ministerio de Comercio\nExternacional y Turismo ofrecieron víveres\na turistas afectados por suspensiones de vuelos.\nUsuarios también cuentan con recursos legales\na través de Indecopi para defender sus derechos."
+    },
+    {
+        "headline": "Palabra Clave: Uso de la palabra honesta",
+        "content": "\"Las conductas deshonesta pueden combatirse efectivamente\nrecordándose constantemente nuestras normativas morales.\" \nBasado en teorías económicas y experimentación social,\nel uso consciente de principios éticos fortalece prácticas honradas."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected due to substantial textual information relevant to journalism standards outlined in the task description.

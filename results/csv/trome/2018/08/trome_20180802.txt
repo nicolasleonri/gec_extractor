@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/08/trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "\"Do otra carrera\", indica Melisa, quien protagonizara el musical ‘Hadas’ en el teatro Plaza Norte.",
+        "content": "(E.C.) XLe parece una tontera que le quiten corona a Estefani Mauricci\n\nee Shantal Oneto está segura de salir airosa del versus que tendrá con Mirella este sábado en 'El Artista del año'. Será un duelo bastante duro.\n¿Creés que vas a ganar?\nYo quiero ganar, ahí nomás me siento ganadora por todo lo que he logrado con mi baile y voz, pero eso lo decide el jurado. Conozco a Mirella, ella tiene 21 años y yo 41 y solo tengo amor para darle y aconsejarla, pero soy sincera, deseo alzar la Copa y no caer en sentencia."
+    },
+    {
+        "headline": "COMENTA CRISS SOIFER SU RELACIÓN PASADAA",
+        "content": "Criss Sofía aseguró que ya no estaba enamorada de Jaycy Pérez y que era un capítulo cerrado en su vida. \"Con toda honestidad puedo asegurar que ya no estoy enamorada de Jaycy, eso se terminó hace mucho tiempo y debo aclarar que no he hablado de él ni de Evelyn Vela\" dijo en \"Vuélveme Loca.\" \nLa menor de las Sofía también precisó que en el tiempo que estuvo con el dominicano éste no le había sido infiel. \"Que yo sepa, no y no sé si estando conmigo salía con Evelyn, pero lo nuestro es parte del pasado. Estoy tranquila, relajada, en otra, alejada de la televisión,\" detalló. Asimismo, confirmó que Erick Sabater, ex-pareja de Michelle, también desapareció de su vida."
+    },
+    {
+        "headline": "‘Es un proceso que transforma energía’, dice Hugo.",
+        "content": "Hola buenos días, Doctora Carmen,\nsé que usted siempre contesta cartas así que aquí va esta carta. Me llamo Hugo y vivo en Arequipa desde hace muchos años. Mi esposa lleva viviendo sola más de diez meses después de haber muerto mi hijo mayor. Ella tenía 50 años y sufrió muchísimo durante estos últimos cinco años debido a enfermedades crónicas. Sufrimos tanto nosotros como familiares cercanos ver cómo iba deteriorándose cada día más sin poder ayudarla demasiado. Después de tantos tratamientos médicos fallidos decidió internarse voluntariamente en casa de reposo para ancianos donde actualmente vive junto a otras personas mayores que comparten situaciones similares a la suya. Ahora estamos intentando encontrar alguna forma de mejorar nuestra calidad de vida mientras cuidamos de nuestros padres ancianos quienes necesitan atención constante dado su estado físico delicado. ¿Qué podemos hacer?"
+    },
+    {
+        "headline": "“Un día como hoy” 1956",
+        "content": "Nació la cantante española Isabel Pantoja. Grabó 29 álbumes. Entre ellos destacan temas como 'Éramos Dos', 'Sevilla' y 'No voy a Confesar'.
+    },
+    {
+        "headline": "Historias de Corrupción Permanentes",
+        "content": "Este cronista recibió varias llamadas solicitando seguir publicando notas relacionadas con casos emblemáticos de corrupción para concientizar a jóvenes lectores sobre eventos históricos significativos. Uno de tales episodios involucró a figuras públicas implicadas en actos corruptos revelados gracias a grabaciones comprometedoras conocidas como Petroaudios. Durante estas transacciones ilícitas, altos funcionarios discutían ajustes financieros sospechosos bajo la mesa. Un fragmento notable muestra interlocutores planificando reducciones presupuestarias ilegítimas antes de proceder con acciones fraudulentas. Tales incidentes refuerzan preocupaciones sociales profundas frente a prácticas indebidas persistentemente arraigadas en ciertos sectores gubernamentales."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text that align with typical journalistic formats such as headlines followed by detailed narratives or reports. It excludes non-article elements like ads, schedules, and repetitive administrative information while maintaining contextually relevant details for each identified story segment.
+
+--- ERROR ENTRY: data/txt/trome/2018/08/trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "Qué hacer?",
+        "content": "El psicólogo de parejas Martín Zurita señala que si estás segura de las actitudes malintencionadas de esa mujer, hables con tu novio. \"Es aquí donde debes poner un límite y decirle que si respeta la relación debe ponerle un alto al contacto que tiene con esa joven, de lo contrario están perdiendo tiempo ambos\", sugiere."
+    },
+    {
+        "headline": "Confianza",
+        "content": "Sin embargo, no hay que alarmarse del todo porque puede que simplemente conserven una buena amistad o una relación de ‘Hola’ y ‘Chau’. Además, sí tú tienes la suficiente confianza con tu pareja y él te ama mucho no hay de qué preocuparse, ellos no volverán."
+    },
+    {
+        "headline": "\"La noche es más oscura justo antes del amanecer\"",
+        "content": "Suele repetimos esta frase cuando necesitamos darnos ánimo y fortalecernos a fin de salir exitosos de un mal momento. Es la expresión de esperanza de que las cosas van a mejorar. Es tiempo de acudir a ella. Los audios que evidencian la corrupción de funcionarios públicos van a seguir saliendo, tienen para rato y se han convertido en tema de conversación y desaliento permanente.\n\nLes digo que nuestras vidas no deben quedar atrapadas all. Hagamos un quiebre, que eso siga su proceso y que se sancione a los corruptos. Nosotros, constructores de bienestar en donde estemos, nuestro hogar, trabajo, barrio...\n\nTengamos pensamientos, emociones y conductas positivas y contribuyamos a forjar un Perú mejor. Que la podredumbre de otros no apeñuce nuestras vidas y no nos impida reconocer y ser felices con nuestros logros. La salud social de nuestra patria también depende de nosotros,"
+    },
+    {
+        "headline": "Enséñale el valor de la bondad",
+        "content": "Importancia:\nLos niños deben aprender a hacer el bien para aportar a la sociedad y no competir, maltratar o agredir a los demás.\nPOR: PILAR CUYA \n\n1. Con el ejemplo: Es importante que los chicos imitan las conductas de los padres, por eso si quieres un hijo con bondad actúa de la misma manera, esto va para los padres y los abuelos.\n\n2. Ayudándoles a saber cómo: Por ejemplo pueden colaborar con la profesora en el salón, apoyar a un compañero o cooperar con las colectas contra el friaje,\nsostiene.\n\n– Colaborar en casa: Pueden acompañar a hacer las compras, ayudar a servir las comidas o en la decoración del hogar en eventos como cumpleaños o Navidad. Todo esto con la finalidad de que los hijos lo vean como actos cotidianos y normales.”
+    },
+    {
+        "headline": "Integrante de Combate, Diana Sánchez, confirmó que está separada de su esposo Harold Cortés...",
+        "content": "\"Quiero dar a conocer que mi relación con el Sr. Cortés ha concluido por razones estríctamente personales. También les participo que toda vinculación laboral, empresarial y comercial ya no existe más. No voy a hablar más del tema,\" añadió Sánchez en Twitter, evitando responder directamente a comentarios específicos."
+    },
+    {
+        "headline": "Yaco Eskenazi contó que se sintió nervioso al grabar la escena donde su personaje Percy es acuchillado...",
+        "content": "\"Estaba un poco nervioso, era la primera vez que me acuchillaban, antes solo me habían golpeado en la actuación. Usamos navajas reales, se hizo con mucho cuidado.\" Agregó que su colega, referenciado como Pedrito, interpretaba a alguien sumamente violento según describió."
+    },
+    {
+        "headline": "'El Artista Del Año' Brinda Apoyo Moral A Sus Hermanas Menores De Edad",
+        "content": "\"Cuando tenía menos de dieciocho años estaba embarazada. Mi madre siempre trabajó sola, entonces mis dos hermanas mayores tenían que mantenerse ellas mismas. Ahora que somos adultos podemos vernos entre semana\" explicó Luís 'Cutty' Guadalupe, destacando además el carácter independiente de sus hermanas."
+    },
+    {
+        "headline": "Angie Jibaja vuelve a estar en el ojo de la tormenta...",
+        "content": "Uno de sus amigos cercanos, Gian Carlo, reveló mensajes de WhatsApp donde la modelo pedía drogas. Según Gian Carlo, Angie enfrenta problemas graves incluidos depender de sustancias nocivas mientras deja a sus hijos vulnerables."
+    },
+    {
+        "headline": "Flavia Laos cumplió ayer 21 años y celebró rodeada de afectos...",
+        "content": "Su exnovio Pablo Heredia sigue compartiendo momentos junto a Alessandra Fuller, aunque ahora bajo circunstancias diferentes tras decidir continuar profesionalmente juntos en proyectos futuros."
+    }
+]
+```
+This extraction captures various significant stories within the provided text while adhering strictly to the guidelines outlined regarding inclusion criteria and data structuring requirements.

@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/01/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "¿Podrá haber dos Fujimoris compitiendo?",
+        "content": "Crece la expectativa sobre la posible participación de más candidatos dentro del movimiento político liderado por Keiko Fujimori. Históricamente, el fujimorismo ha generado múltiples facciones y partidos políticos, sugiriendo que podrían formar otra agrupación política."
+    },
+    {
+        "headline": "Tan inocente como Toledo...",
+        "content": "\"Escándalo\" involucra a Gregorio Santos, actualmente detenido mientras dirige una manifestación hacia Lima. Investigaciones revelan supuestos sobornos millonarios vinculados a él, implicando también a figuras notables como Martin Belaunde Lossio. Este contexto alimenta debates sobre corrupción y justicia en el país."
+    },
+    {
+        "headline": \"El acuerdo del siglo es la bofetada del siglo\",
+        "content": "Mahmoud Abbas declara públicamente su rechazo a cualquier propuesta de paz impulsada por Estados Unidos relacionada con Israel. Esta postura refuerza tensiones regionales ya existentes.\n\nAdemás, Venezuela reporta violentos enfrentamientos contra grupos insurgentes, resultando en víctimas mortales. Simultáneamente, autoridades filipinas cierran medios periodísticos críticos al régimen de Duterte, destacando preocupaciones internacionales sobre libertades civiles."
+    },
+    {
+        "headline": "Fue asesinada en la puerta de su casa, en Magdalena",
+        "content": "Trágico homicidio ocurre cuando Esther Huerta Estrada es tiroteada junto a su esposo, Victor Suelprez Jerez, ambos saliendo de vacaciones. Funcionario público está bajo investigación por irregularidades administrativas, añadiéndose sospechas criminales personales detrás del ataque."
+    },
+    {
+        "headline": "Aumentan a dos los muertos por fuerte sismo en Arequipa",
+        "content": "Un devastador temblor deja nuevas víctimas en Arequipa, exacerbando crisis sanitarias locales debido a infraestructuras comprometidas. Colectivamente, estos eventos ponen a prueba capacidades gubernamentales de respuesta rápida y efectividad en gestión de catástrofes naturales."
+    },
+    {
+        "headline": "Oratoria, Liderazgo y Motivación",
+        "content": "Se ofrece curso práctico dirigido a adultos, jóvenes y niños, diseñado para mejorar habilidades de comunicación pública y motivación. Dirigido por Orlando Mendoca, reconocido conferenciante con amplia trayectoria en América Latina."
+    },
+    {
+        "headline": "Buho Luigh: Jugando para Educar",
+        "content": "Introducción de la marca ‘El Bho Luigi’, dedicada a fusionar entretenimiento y enseñanza mediante innovadoras herramientas didácticas. Busca posicionarse favorablemente en mercados escolares y domésticos, aprovechando tendencias crecientes en métodos alternativos de aprendizaje infantil."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were selected for inclusion due to their substantial journalistic value within the context given. Other sections like sports scores, ads, etc., have been excluded according to guidelines.

@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/05/trome_15.txt ---
+
+```json
+[
+    {
+        "headline": "Irma Maury afirma que se ha vuelto novelera",
+        "content": "por lo que no se pierde detalles de 'Fatmagül'\n\n¿Qué pasa?\n\nLuisito Caycho, ‘EL CHAMACO’, aseguró que el doctor CESAR OLAYA tenía razón en todo lo que decía de su expareja, ROBBIE, quien ahora sale con un chibolo de 23 años, de nombre Giuseppe...\nThe exnovia del ’KIKO’ de la cumbia, María Celeste Aliaga, le recomendó a LUCHO que busque ayuda profesional para su problema con el alcohol.\nPongo primera y me arranco hoy tengo un cuerpo a cuerpo con mi motorizado."
+    },
+    {
+        "headline": "David 'Pantera' Zegarra aseguró que tiene una propuesta para regresar a 'Combate!'",
+        "content": "y admitió que dirigió una película protaganizada por Maricarmen Marín.\n\nLa actriz Monica Sánchez contó que se siente feliz,\nporque están 'despeinando' a la dulce 'Charo', su personaje en 'Al fondo hay sitio'.\n'Estaré más cómoda en ese reality.'\n'Muchísimas gracias por esta nueva etapa que voy a vivir junto a Sergio, como que le estamos moviendo el piso. Este año a Charo la despeinan,' dijo.\n\nJaime Cochancha, director general de América Televisión, confirmó que será parte del proyecto.\n'A mí también me gusta trabajar con ellos,' señaló.\n\nMonica agregó:\n'También vamos a compartir set con grandes talentos como Erick Elera y Angie Jibaja. Será divertido ver cómo interactúan todos.'
+    },
+    {
+        "headline": "Señoras, ¿cuál es el secreto?",
+        "content": "'Me dan muchos consejos, pero yo prefiero seguir adelante confiando en Dios y en mi familia,'\nexplicó Adriano (54).\n'Buenos días, doctora Carmen, la soledad me preocupa. \nPor diversas razones, desde hace años estoy sin la compañía de una dama y creo que mi vida cambiaría rotundamente si conozco a una mujer trabajadora, de buenos sentimientos y que tenga entre 32 y 54 años. Estoy convencido de que la felicidad se disfruta mejor en pareja. Espero conocer pronto a alguien así, honesto, respetuos@, tranquilo, trabajador. Le brindar lo mejor de mí mismo. Mi teléfono es 978865–5448. ¡Gracias!'
+    }
+]
+```
+This extraction includes three distinct pieces identified within the provided input based on their structure resembling typical journalism formats such as headlines followed by detailed contents. Other sections were excluded according to specified criteria like ads, non-journalistic information, etc.

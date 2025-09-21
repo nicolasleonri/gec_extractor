@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/01/trome_14.txt ---
+
+```json
+[
+    {
+        "headline": "Nicolas Porcella afirma que este año sí...",
+        "content": "Este ao s que me estaba grabando. No quera..., ...ellas siguen."
+    },
+    {
+        "headline": "Laura Bozzo anunciará que los demandará por difamación",
+        "content": "...cuando tuvo conocimiento del lanzamiento del libro ‘Senorita Laura’ el cómic de Marco Sifuentes, Hernán Migoya y Ricardo Montes editado por Planeta, Laura Bozzo anunció que los demandaría por difamación y llegó a Lima para entablar la querella. [...] Cristian reveló en ‘Hola a todos’: […] ‘Estamos viendo unos temas legales básicamente por un libro que se hizo, porque utilizaron no sólo el nombre de ‘Señorita Laura’, sino también el nombre de Laura Bozzo.’ [...]"
+    },
+    {
+        "headline": "‘El Gordo’ Casaretto aún recupera después de amputación",
+        "content": "[...] El ‘Gordo’ Casaretto todavía no puede recuperarse totalmente, tras la amputación de una de sus piernas, según contó su esposa Patricia Tragodara. ‘[…] Tenemos mucha plata pero nunca hemos visto ese dineral’. […]"
+    },
+    {
+        "headline": "Monica Cabrejos está abierta al amor",
+        "content": "«Sigo soltera, pero no sola. Podría decir que estoy acompañada», afirmó Monica, quien el año pasado hizo público el drama que vivió al fallecer el escritor Iván Thays. «¿Qué falta para iniciar una nueva relación?, preguntaron. ‘Tiempo. Estoy tomando algunos cursos y trabajo mucho, así que no tengo tiempo para dedicarme a una relación porque el amor hay que alimentarlo’.”
+    },
+    {
+        "headline": "Exorcismo terrorífico hoy en cine nacional",
+        "content": "\"¡Atención!, ¡exorcismo aterrorizador! Hoy en todas las cadenas de cine nacional. Desde que tuvo conocimiento del lanzamiento del filme ‘Nosotros no estamos solos’, dirigido por Irina Evlannikova, ha causado gran expectativa entre los espectadores."
+    },
+    {
+        "headline": "Demetrio Chavez Pérez Herrera sale libre",
+        "content": "Este jueves, Demetrio Chávez Pérez-Herrera, apodado ‘Vaticano’, salió de prisión. Vestido deportivamente, sonriendo, pareció más tranquilo. Recordó a jóvenes presentes durante su conferencia post-libertad: ‘Que la juventud no haga lo que yo he hecho’. Sin embargo, antes había sido testigo clave contra Vladimiro Montesinos, denunciándole sobornos millonarios para permitirle operar impune en Campanilla. Sus testimonios ayudaron a develar conexiones oscurecedoras dentro del régimen político anterior."
+    }
+]
+```
+This extraction captures significant articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting relevant information. Any extraneous details such as ads or unrelated sections have been excluded according to the scope defined.

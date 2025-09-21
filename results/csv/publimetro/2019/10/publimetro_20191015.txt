@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2019/10/publimetro_15.txt ---
+
+```json
+[
+    {
+        "headline": "Leslie ep",
+        "content": "ALEJANDRO SANZ\nregresa a Lima\n\nAyer se confirmó que el cantautor español ha incluido a Perú en La Gira, tour internacional de su más reciente trabajo, El Disco. El autor de \"Mi persona favorita\" se presentará el 13 de febrero del 2020 en el Jockey Club. Las entradas se venderán desde el 19 de noviembre en Teleticket.\n\nAlejandro Sanz es el máximo nominado a los Latin Grammy 2019, con ocho en total."
+    },
+    {
+        "headline": "ESPECTÁCULOS",
+        "content": "LA DISEADERA DE VESTUARIO DE LA SEGUNDA ENTREGA DE MALÉFIKA DA DATOS SOBRE LA CREACIÓN DE ESTE NUEVO MUNDO.\n\nKimba F presenta hoy ‘’La pera K'' en el LUM\n\nEl elenco afroperuano Kimba F presentará La pera K, adaptación de La pera de los tres centavos, de Bertolt Brecht. Esta versión corre durante los preparativos del Centenario de la independencia del Perú. La cita es hoy (12 m.) en el Lugar de la Memoria (Bajada San Martín 151, Miraflores). Ingreso libre previa inscripción en www.joinnus.com.\n\nMALÉFIKA: DUENA DEL MAL*\nSinopsis. Cinco años después de la primera película, la vida pacífica de MaléfiKa en el Paraíso toma un giro inesperado cuando el príncipe Philip le propone matrimonio a Aurora y ella acepta. La madre de Philippi, la reina Ingryth, planeará utilizar la boda para poner en contra a las hadas y a los humanos para siempre. Cuando MaléfiKa y Aurora se ven atrapadas en medio de una guerra inminente, ambas comienzan a cuestionarse si realmente podrían formar una verdadera familia."
+    },
+    {
+        "headline": "LUIS SANDOVAL, DIRECTOR DE KIMBA F Y ESTE ESPECTÁCULO.",
+        "content": "‘’MaléfiKa’, un perfil desde sus vestuarios\n\nA MaléfiKa, quien ya tenía un guardarropa muy marcado en la primera película, “Ella es la estrella blanca y negra del mundo de hadas: esa fue la imagen con la que iniciamos.” Su aspecto inicial era orgánico, representativo de las hadas del bosque. Posteriormente, estos elementos organizaron formas geométricas complejas, transformándose primero en hueso y oro, y eventualmente en diamantes negros y esmeraldas.”
+    },
+    {
+        "headline": "MUSE SE PRESENTARA HOY (9 PM)",
+        "content": "Por primera vez en Lima –en La Pelouse del Jockey Club– y lo hará con un show que hablará de sí mismo. Se trata de su tour Simulation Theory, donde Matthew Bellamy, Christopher Wolstenholme y Dominic Howard despliegan un escenario lleno de guiños futuristas y murphy, un robot gigante de 16 metros de alto inspirado en Robocop. Entradas disponibles en Teleticket desde S/172."
+    },
+    {
+        "headline": "NUVAS PRODUCCIONES DE ’CHESPIRITO’ EN CAMINO",
+        "content": "Chespirito Media Universe hará series y películas con los personajes creados por Roberto Gómez Bolaos. Una buena noticia para los fanáticos de ‘Chespirito’. Thr3 Media Group y el Grupo Chespirito anunciaron que unirán fuerzas para crear un universo mediático basado en los icónicos personajes del recordado cómico mexicano. Este proyecto pretende mantener vivo el legado de Gómez Bolaos en corazones latinos por muchas generaciones más."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, listings, and unrelated snippets have been excluded according to specified criteria.

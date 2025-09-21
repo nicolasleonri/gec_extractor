@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/05/peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "Sillega al Pleno, representantes de la subcomisión acusadora tendrán que... ",
+        "content": "han transcurrido desde que cuatro congresistas presentaron la denuncia constitucional contra Fujimori, Ramírez y Bedoya.\n\n\"Moisés, donde mi viejo ponga la mano te asegura la reelección\".\n\nSegún el reglamento del Congreso, pa…\npara que se concrete el desafuero se necesitan 2/3 de los votos del Pleno sin contar a los mismos integrantes de la Permanente; es decir, se necesita el apoyo de 69 congresistas."
+    },
+    {
+        "headline": "\"La Junta de Portavoces nos ha dicho que veamos el caso de Fujimori, Ramírez y Bedoya lo más pronto posible\"",
+        "content": "Milagros Takayama presenta el 5° informe de la Subcomisión de Acusaciones Constitucionales\n\nSAMUEL ACUSA A SU COLEGUA DE MODIFICAR DECLARACIONES DE TESTIGOS\n\n\"Segura false y alteró la verdad intencionalmente\"\n\nLuego de conocerse el último reporte de Segura, el congresista Benjamín\
+Ramírez, de quien se recomienda su destitución, arremete contra su colega y lo acusa de \"alterar la verdad \
+intencionalmente\", «El congresista Segura incurrió en delito de falsedad ideológica, al haber alterado la verdad \
+intencionalmente simulando y falseando declaraciones que no fueron dichas así por los congresistas que fueron citados \
+testigos»,\ntanto Moctezuma como Ticlla, quienes según Ramírez, negaron haber recibido ofrecimiento para cambiar su voto "
+    },
+    {
+        "headline": "De Terror",
+        "content": "Para Elena Foronda, la voz alternativa del Movimiento Libertario, no ofrece disculpas, tampoco hace mea culpa por la contratación \n— a todas luces éticamente incorrecta— de la condenada por terrorismo Nancy Madrid Bonilla, a quién conoció mientras ambas estaban recluidas en un penal de Cajamarca por ese mismo delito. Por el contrario, la parlamentaria sólo reconoce haber cometido un » error político« al contratar a Madrid para trabajar en un estado que ella misma había tratado de derrotar formando parte de la organización criminal Sendero Luminoso. En entrevista a El Comercio, la legisladora afirma que lo hizo »por humanidad«, aquella humanidad que no tuvo Nancy Madrid cuando dirigía las denominadas ‘‘cárceles populares’’, lugares donde los insurgentes mantenían secuestrados a diversos empresarios. Entre estos últimos, algunos lamentablemente encontraron la muerte bajo custodia rebelde: Pedro Miyashita, el español Fernando Manrique y David Ballón Vera, éste último hallado después de cinco meses de encierro en una calle de San Miguel, herido mortalmente y visiblemente torturado."
+    },
+    {
+        "headline": "",
+        "content": "Raúl Jiménez Pérez\nDefensor dellector@defensorperu.org\n\nVioleta Añaza compareció ante la comisión Lava Jato para responder sobre el pago realizado por Keiko Fujimori durante su precandidatura presidencial. Este evento marca otra fase importante en la investigación relacionada con financiamiento irregular proveniente de empresas constructoras internacionales."
+    },
+    {
+        "headline": "RAPTOR",
+        "content": "Rafael Vela señala preocupación sobre solicitud de separación de jueces involucrados en el caso de la ex pareja presidencial. Durante una sesión fiscal destinada a mantener a ciertos magistrados alejados del juicio, Vela destacó esta acción como potencial táctica dilatoria. Además, recordó que cualquier movimiento similar podría contradecir decisiones judiciales previas basándose en principios fundamentales de equilibrio y objetividad judicial."
+    },
+    {
+        "headline": "Shack prometerá colaboración partidaria",
+        "content": "La Contralora General del Estado entregará próximamente a los partidos políticos una relación exhaustiva de empleados públicos implicados en actos corruptos u observados disciplinarmente. Esta medida pretende facilitar elecciones transparentes y honestas, permitiendo a cada partido seleccionar cuidadosamente a sus futuras figuras electorales. Asimismo, se pondrá a disposición pública un software especializado diseñado para simplificar la declaración de bienes personales de aquellos vinculados directamente al Sistema Nacional de Control."
+    },
+    {
+        "headline": "Heitor Becerril procederá con denuncia formal",
+        "content": "Tras reconocer errores significativos en la selección de personal legislativo, el portavoz alterno de Fuerza Popular, Hector Becerril, planea llevar a cabo una denuncia formal ante la Comisión de Ética del Congreso. Esto surge tras la controversia generada por la contratación de individuos anteriormente comprometidos con actividades terroristas, específicamente criticando a María Elena Foronda y Wilbert Rozas por validar tales nombramientos."
+    },
+    {
+        "headline": "Alberto Fujimori acepta limitaciones viales",
+        "content": "Confirmado por su equipo legal, el ex-presidente peruano decide no disputar la prohibición temporal de salir del país establecido por tribunales superiores. Argumenta que tal decisión coincide con su objetivo actual de residir permanentemente en territorio patrio, especialmente considerando experiencias adversas vividas fuera de él. Actualmente está sometido a medidas restrictivas adicionales derivadas de cargos pendientes relativos a violaciones de derechos humanos atribuidas a operaciones militares efectuadas durante su gobierno."
+    }
+]
+```
+This JSON structure captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the outlined requirements for extraction and structuring. Articles lacking explicit headings have been marked accordingly.

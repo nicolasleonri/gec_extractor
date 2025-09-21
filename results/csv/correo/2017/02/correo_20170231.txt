@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/02/correo_31.txt ---
+
+```json
+[
+    {
+        "headline": "Corrección de errores en la construcción del Aeropuerto Nacional de Chinchero",
+        "content": "\"Hay gente que nos quiere frenar, pero nosotros no frenaremos. Ahora en el Cusco hay unos que dicen que el aeropuerto no, y otros que sí. Pero el aeropuerto se va a hacer en Chinchero, Cusco, de todas maneras\", manifestó el Mandatario.\n\"No vamos a parar. Vamos a hacer los proyectos que hemos dicho que los vamos a hacer\", agregó."
+    },
+    {
+        "headline": "Respuestas políticas frente a tensiones legislativas",
+        "content": "Desde la bancada de Fuerza Popular rechazaron la posición del presidente Kuczynski sobre la situación de su ministro Martín Vizcarra en el Congreso. \"Los integrantes de la bancada mayoritaria dejaron en claro que ellos en ningún momento han hablado de una...\nPizarra también resaltó que pedir que en la bancada de Perú [...] cumplirá su labor de control política.\""
+    },
+    {
+        "headline": "Análisis de confrontación gubernamental",
+        "content": "\"El analista político Augusto Figueroa lamentó las acciones de Pedro Pablo Kuczynski al referirse sobre la posible crisis en el escenario de una eventual censura a Martín Vizcarra. \n\"El Presidente está cometiendo un gravísimo error, hacer cuestión de confianza cuando no le han dicho que lo van a cesurar [sic], es anticiparse a los hechos.\"\n\nAdemás, destacó que en Fuerza Popular hubo más sensatez sobre este punto de la interpelación al ministro de Transportes y Comunicaciones porque nadie se había pronunciado sobre una posible censura."
+    },
+    {
+        "headline": "Desavenencias dentro del Gobierno",
+        "content": "\"Sin embargo, desde el oficialismo, Carlos Bruce (PPK) aseguró que aún su grupo no ha conversado con el Mandatario, pero que la bancada sí respalda a Martín Vizcarra.\""
+    },
+    {
+        "headline": "Controversia parlamentaria y análisis externo",
+        "content": "\"El congresista Jorge Castro, de filas de Tierra y Libertad, de Marco Arana, se mostró sorprendido por el accionar de la facción de ‘Nuevo Per’, que en la víspera presentó un pliego de preguntas para que sean incluidas en la interpelación al ministro Martín Vizcarra.\"\n\"Castro señaló que las preguntas que entregó esta organización no tienen validez. ¿Cómo van a conferir validez algo que provienen del Frente Amplio, de los cuales nueve integran ‘Nuevo Per’?, criticó Castro, clasificándolos como un movimiento fantasma.\""
+    },
+    {
+        "headline": "Opiniones divergentes sobre liderazgo político",
+        "content": "\"‘Heresí está entregando en bandeja de plata la cabeza de Vizcarra’. Esta frase resume algunas posturas encontradas hacia el Vicepresidente de la República, donde algunos consideraban necesario tomar medidas extremas mientras otros veían innecesarias tales decisiones.\""
+    },
+    {
+        "headline": "Denuncia formal contra funcionarios públicos",
+        "content": "\"Juan Sheput anunció que su bancada planea denunciar penalmente al Secretario General de Fuerza Popular, José Chlimper, por emitir opiniones políticas a pesar de ocupar un cargo en el directorio del Banco Central de Reserva (BCR).\""
+    },
+    {
+        "headline": "Negativa a demandas legales extranjeras",
+        "content": "\"La Procuradora Katherine Ampuero informó que no procedía atender directamente el pedido de compensación económica hecho por Odebrecht, argumentando que cualquier discusión deberá llevarse a cabo durante la fase procesal adecuada.\""
+    },
+    {
+        "headline": "Posición internacional de figuras políticas locales",
+        "content\": \"Eliané Karp afirmó que su esposo, el prófugo expresidente Alejandro Toledo, permanecerá fuera del país hasta que se revierta la orden judicial vigente. Ella atribuyó tal circunstancia a influencias adversas provenientes de grupos políticos rivales.\""
+    }
+]
+```
+This extraction captures key political narratives while adhering strictly to the provided guidelines for extracting significant journalistic content. Articles were identified based on their headlines and coherent narrative structures within the given text. Non-article elements such as ads and unrelated sections have been excluded according to specified criteria.

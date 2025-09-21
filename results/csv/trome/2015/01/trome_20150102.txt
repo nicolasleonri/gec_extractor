@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/01/trome_02.txt ---
+
+```json
+[
+    {
+        "headline": "Recibi el 2015 Bailando Con Jimmie Baluarté",
+        "content": "\"Jimmy Baluarté\" gozo con \"BeBita Daysi Ontañeda\", quién estuvo anoche del 31 en el Tumbao sur, bailando por año nuevo, hasta verse besándose...\n\n\"Somos amigos y estamos divertíndonos en grupo por año nuevo!\", precisa.\n\nAsimismo, saludó el hecho que Magaly se disculpara con Mauricio Diez Canseco.\n\n\"Era la respuesta de una dama. Me parece humilde de su parte», añadió."
+    },
+    {
+        "headline": "Reconoce Que Tiene Su ‘Pasado’, Pero Reitera Que No Dejará Que León Ard Vea a sus Hijos Porque está Enfermo’ Niega...",
+        "content": "\nKarla Tarazona negó que Leonárden haya dado 15 mil soles para los gastos de sus hijos, y seguró que no dejaría que vea a los pequeños hasta que pase por un riguroso examen psicológico. Además, estuvo animando el concierto de Agua Marina en Plaza Norte, junto a Tula Rodríguez.\n\nExtranás Christian en ’Hola a todos’?\n\nNos vamos a contar unas cositas sobre nuestro romance. Mañanas no lo ves, pero estaremos juntos ese día.\n\n¿Te preparas para sum matrimonio? Todo está listo, sólo falta que llegue esa fecha. ¿Se irán de Luna de Miel?"
+    },
+    {
+        "headline": "Confirma Que Golpeará a Leonardo Len por Atacarlo Sin Motivo",
+        "content": "Christiane dice que golpeará a Leonardo Len por agredirla sin motivo alguno. «Mis familiares les gusta hacer justicia, aunque nunca avalo la violencia; si va a recibir algún castigo será conforme a ley».\n\n«Leonor ha recordado que yo también tengo pasado... Acaso digo que tengo mi pasado limpio? No soy Santa; tampoco estoy libre de mis pecados». "
+    },
+    {
+        "headline": "‘Yo Soy Candy’: La Flaca Andrea Santos Posteo Una Foto Junto a Su Novio Sebastían Lizárraga...",
+        "content": "Posteo una foto, junto a su novio Sebastién Lizárraga, en la que le hace ésta frase: »Éste es el amor de mi vida... Vania Bludau se broncea en las playas del panema, Brasil, dónde recibió el 2015... ¡Me paso el pie!"
+    },
+    {
+        "headline": "Confirmó Ser Pareja de Pedro Loli y Serie Delos Gitane Espinoza Quien Aseguró Que El Cantante También Lo Llama y Es Medio Coquetón:",
+        "content": "“Con Pedro tenemos un año (de relación) y nos llevamos muy bien?, dijo Fiorella Mendoza-Maldonado. \n\nBrigitte asegura que Pedró la llama medio coquetón... No, no hay forma (risas). Con fió en Pedro.”
+    },
+    {
+        "headline": "¡Qué Tal Quitarle la Química a Christopher Gianotti?",
+        "content": "Nos llevamos super bien, pero qué chiquito es el mundo después que nos peleábamos por el rating terminen ‘Hola a todos’. Como avanza el proceso contra Leonard Len?\n\nAvanzando. Es verdad que Leonard dio 15 mil soles? Estoy que los busco, tengo treinta cuentas aún y ando buscando en cuál deposité. Es una persona enferma. Todavía no le permites ver a sus hijos?\n\nPara que vea a sus hijos tendrá que pasar el peritaje psicológico, cuando pase ese examen, igual que su familia, entonces sí dejaré que lo vea. No es tema de plata, es tema de seguridad por mis niños. Estuve con él siete años y muy bien desde que conocí a ella, pero espero que esta felicidad no interrumpa, en ningún momento, nuestra relación como padres.” señaló el cantante que recibió el año nuevo cantando con el Grupo 5’ en la Estancia de Molina a la media noche."
+    }
+]
+```
+This extraction captures several distinct articles based on their headlines and associated contents while adhering strictly to the provided guidelines for cleaning up and structuring data within the specified format constraints. Articles were identified through changes in topics indicated by headings followed by relevant paragraphs forming coherent narratives. Other non-article elements such as ads, listings, etc., have been excluded according to the scope defined.

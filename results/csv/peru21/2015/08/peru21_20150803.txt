@@ -1,0 +1,56 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/08/peru21_03.txt ---
+
+```json
+[
+    {
+        "headline": "Conversamos",
+        "content": "Argentino ve un pie... \n\nLatinoamérica. El líder, el cantante y político argentino Dr. Jorge Gimenéz está en Perú con mucho entusiasmo.\n\nEl Jefe Ejecutivo peruano recibió al músico con presión constante debido a su popularidad."
+    },
+    {
+        "headline": "UELVE Y TOCAR",
+        "content": "Id cinco días más después de haber entrado a grabar algo nuevo en 2015. El grupo punk futbolísticamente conocido como \"Bestia Negra\" viene a participar en el Festival Internacional de Rock Latinoamericano. Entraremos tres veces antes de poder entrar a grabar nuevamente.\n\nLos proyectos incluyen música nueva bajo la dirección mental, emocional y física de nuestro director principal."
+    },
+    {
+        "headline": "Se ha reeditado Do",
+        "content": "El histórico grupo nacional El Polen prepara un ciclo de conciertos por sus 46 años, comenzando el 7 de agosto en la Casa de la Literatura Peruana, donde presentará un conjunto de poemas musicales de autores como César Vallejo, Juan Gonzalo Rose, Javier Sologuren, entre otros. El 13, la banda ofrecerá un concierto en La Noche de Barranco, el 30 de septiembre será el turno del ICCP del Centro de Lima y culmina el 7 de octubre, nuevamente en La Noche de Barranco. Hay varias oportunidades para disfrutar del grupo fundado por los Hermanos Pereira."
+    },
+    {
+        "headline": "Una tremenda noticia",
+        "content": "Lee Perry, quien ha colaborado con bandas como The Clash y Bob Marley, llega a Lima. También se suma otro grande de la producción musical: Mad Professor, residente habitual de la ciudad. Ambos actuarán el 3 de octubre en Certes Dub (Chorrillos) por motivo del quinto aniversario de Lima Sound System."
+    },
+    {
+        "headline": "Apertura. Universidad Nacional Mayor de San Marcos Iguala 1–1 contra Garcilaso y no deja tomar la punta",
+        "content": "\"Di una mano\", dice Gustavo Dulanto mientras celebra su gol de cabeza después del tiro libre ejecutado por Flores. El defensor destacó siendo uno de los mejores momentos del juego. Dulanto junto a Carando fueron quienes anotaron. Las cremas están últimas (11 puntos). Garcilaso ocupa el tercer puesto (24 puntos).\n\nTodos contribuyeron a mantener vivo el título. Frente a un rival fuerte, los cusqueños parecían tener ventajas basándose en resultados previos, pero no pudieron superar a la solidez defensiva de la universidad gracias a la precisión de Dulanto y García, quienes realizaron remates perfectos hacia arriba."
+    },
+    {
+        "headline": "VALLEJO SACÓ EMPATE CON ESCÁNDALO",
+        "content": "Durante un controversial encuentro, CS Vallecito obtiene un empate 2–2 en condición de visitante contra FC Choferes. Hubo controversia cuando el árbitro confirmó un gol de cabeza de Luis Cardozo justo al minuto 90’ aunque había posición adelantada. Previamente, Ayacucho había conseguido goles mediante Luis Prieto (20’) y Scar Guerra (61’). Donald Miller redujo diferencias de penal (56’) para los forasteros."
+    },
+    {
+        "headline": "Melgar molesto",
+        "content": "‘Capitanía’ explota tema Ruidíaz. El técnico de Melgar, Juan Reynoso, muestra indignación respecto a rumores sobre la partida de Raúl Ruidíaz hacia Universitario. ‘Raúl aún tiene compromisos aquí’, declaró el estratega.”
+    },
+    {
+        "headline": "Arsene Wenger le gana por primera vez a José Mourinho",
+        "content": "Finalmente, Arsène Wenger puede decir victoria sobre José Mourinho. Arsenal se adjudicó la Supercopa Inglesa imponiéndose 1–0 sobre Chelsea en Wembley. Un espectacular gol de Oxlade-Chamberlain aseguró el éxito. Mourinho reconoció la superioridad organizativa del adversario.”
+    },
+    {
+        "headline": "BARCELONA VUELVE A LA DERROTA SIN MESSI",
+        "content": "Después de caer eliminado en penaltis ante Chelsea, Barcelona experimenta su segundo revés en esta fase de preparación al sucumbir 2–1 frente a Juventus en territorio Italiano. Destaca el rendimiento de Federico Bernardeschi, autor de ambos tantos italianos. Luis Suárez hizo honor a su nombre con un gol tempranero."
+    },
+    {
+        "headline": "RAFAEL NADEL SE CORONE TRIPLE CAMPEÓN ANTES DE LOS MAESTROS",
+        "content": "Español Rafael Nadal domina en Hamburgo, obteniendo su tercero trofeo del año al vencer a Fabio Fognini por parciales de 7–5 y 7–5. Esta victoria representa su ascenso hasta el noveno escalón mundial. Además, recordó antiguos éxitos en Buenos Aires y Stuttgart."
+    }
+]
+```
+This extraction captures various sports-related reports while adhering strictly to the guidelines provided regarding inclusion criteria and data cleanup processes. Articles were identified based on headlines followed by substantial textual content related to journalism rather than other types like ads or listings.
+
+--- ERROR ENTRY: data/txt/peru21/2015/08/peru21_03.txt ---
+
+```json
+[]
+```
+The provided input does not include any recognizable full-length articles based on the defined criteria for inclusion. It primarily consists of fragmented titles, short descriptions, event listings, financial data, brief reports, and other non-journalistic elements which don't form coherent standalone articles suitable for extraction according to the specified guidelines. Therefore, there's nothing substantial enough to format into complete articles within these constraints. As such, the resulting JSON array remains empty.

@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/10/correo_03.txt ---
+
+```json
+[
+    {
+        "headline": "Pablo Sanchez Solicita Informe Sobre Trabajo De Magistrada",
+        "content": "Fiscal Sara Vidal en la mira\n\nde Ministerio Pblico por su\n\ntuación en caso Ramirez.\n\nLa investigación contra el cuestionado exdirigente de FP, que\n\ningresa además a Keiko Fujimori, fue archivada la semana pasada.\nPablo Sanchez Velarde, anunci ayer que\n\nevaluará a la fiscal adjunta Sara Vidal Vargas por su \nutención en el caso del \npolemico exdirigente fujimorista Joaquín Ramírez.\n\"Yo he pedido \na información sobre el trabajo de la fiscal y\n\voy a evaluar su actitud\n\nen ese caso\", comentó\nChavez Velarde a la prensa,\nluego de encabezar la ceremonia\n\nde inauguración de la \ncadena de Fiscales y Procuradores Generales de Europa."
+    },
+    {
+        "headline": "Casación. Intención Del Pleno Casatorio Es Uniformizar La Jurisprudencia",
+        "content": "\"Entre sus argumentos, la magistrada consideró la polémica sentencia 92–2017 Arequipa, emitida\npor la Corte Suprema, que elevaba los requisitos para llegar a establecer el \"delito fuente\"\nin los casos de lavado de activos.\" Decisión decidida\nSe espera que esta semana, la Procuraduria de Lavado de Activos presente\nun recurso de apelación contra la decisión de la fiscal Vidal. Esta acción también involucró a la líder de Fuerza Popular, Keiko Fujimori, dentro de la investigación por el presunto \"lavado\" de 15 millones de dólares destinados a la campaña presidencial fujimorista del año 2011."
+    },
+    {
+        "headline": "Medida Cautelar Les Permite Operar En La Calle",
+        "content": "San Isidro y cambistas enfrentados por decisión judicial\n\nEl alcalde Manuel Velarde señaló que la medida judicial permite el retorno de seis cambistas a las calles. Mediante redes sociales, menciona que evitaría más violencia y favorecería la seguridad ciudadana. Frente a estas acciones, Orlando Vega sugiere dialogar con el alcalde para garantizar condiciones laborales adecuadas."
+    },
+    {
+        "headline": "Siguen Polemica Por Mis Papal",
+        "content": "\"Costa Verde Tiene Capacidad Solo Para 500 Mil\",\nexplicó el colegiado de arquitectos, mostrándose dubitativo respecto al reporte oficial. Argumentan que bajo ciertos estándares, sólo podrían alojarse 500 mil personas. Además, el director del Instituto Geográfico del Perú advierte que visitar la costa podría implicar riesgos significativos."
+    },
+    {
+        "headline": "Judicial Dicta Comparecencia Restringida Liberan Empresario Que Caus Muerte De Tres Jovenes En La Costa Verde",
+        "content": "Un tribunal concedió libertad condicional al empresario Guillermo Riera Daáz, culpable de un fatal incidente automovilístico en la Costa Verde. Las medidas restrictivas incluyen impedimentos de viajes internacionales y obligatoriedad de cumplimientos periódicos legales. Su escape transitorio a EE.UU. precedió su eventual retorno clandestino."
+    },
+    {
+        "headline": "Breves",
+        "content": "- Exministro Daniel Mora es agredido y amenazado por su hijo, culminando en confrontaciones físicas severas.\n- Detienen a ladrones de taxi después de atraco violento, encontrando drogas ilícitas en posesión de los sospechosos.\n- Fritz Antonnio Moreno pasa a control fiscal relacionado con cargos antiguos ligados a figuras políticas notorias."
+    }
+]
+```
+This JSON structure captures each significant article found within the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on headlines followed by relevant content sections, ensuring clarity between different stories presented in the document.

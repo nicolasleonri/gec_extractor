@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/02/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "ARGENTINA. ALCALDE DE BUENOS AIRES CON 27.9% EN NUEVA ENCUESTA",
+        "content": "Macri lidera las\n\mpresidentiales.\nmLe sigue el \ngobernador Scioli, aliado de\n\tla presidenta \ntina Cristina \n\Fernández, con 23.6%\n\nBUENOS AIRES (Agencias).\u2014 El\n\malcalde derechista de Buenos Aires,\n\u202fMauricio Macri, lidera por primera vez las\n\mcuentas de intención de voto para las\n\mpresidenciales del 25 de octubre de este año,\ninforma la consultora Management & Fit(M&F)\n\nMacri obtiene 27.9% de las preferencias,\nsiguio por el\n\mgobernador de la mayor provincia argentina,\nel de Buenos Aires, Daniel Scioli, aliado de la\n\tpresidenta Cristina Fernández, con 23.6%"
+    },
+    {
+        "headline": "** Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NIGERIA. ATENTADO PODRIA HABER SIDO ORCHESTRADO POR BOKO HARAH",
+        "content": "\nnia kamikaze estall en\n\mun mercado y mueren seis\n\nMenor suicida tenía unos siete años.\n\nAtaque en localidad\n\tof Potiskum también dej 19 heridos.\n\nKANO (AFP)\u2014Un atentado suicida perpetrado por una nia\n\ten un mercado en la localidad de Potiskum, en el norte de\n\tnigeria, dej cinco muertos.\n\"Al menos cinco personas\n\tmurieron, además de la nía,\ny otras 19 resultaron heridas\", declar a AFP\n\buba lawanm, miembro de un grupo local de autodefensa.\n\nEsta modalidad de ataque se suma a otros\n\tautos cometidos por niños suicidas en nigeria,"
+    },
+    {
+        "headline": "Comité de PROINVERSIÓN en proyectos de infraestructura...",
+        "content": "MINISTERIO DE TRANSPORTES Y COMUNICACIONES\n\nConvocatoria:\nConcurso de Proyectos Integrals Para La Concesión De La Carretera Longitudinal De La Sierra Tramo 4."
+    },
+    {
+        "headline": "UN HOMBRE EN LA LUNA",
+        "content": "\"Dos fiestas en cinquenta anos\"\naqui muchos aos,\nfui muchas veces...\nDespués de tanto tiempo, llegué a los cincuenta años\nhabiendo estado a punto de acabarlo varias veces gracias a medicamentos.\nCelebré esta ocasión junto a mi familia más íntima, aunque algunas partes importantes de ella optaron por excusarse."
+    },
+    {
+        "headline": "EL MUERTO",
+        "content": "Durante el último fin de semana, dos antiguos partidos políticos organizaron eventos masivos. El APRA celebra el 'Da de la Fraternidad', mientras que el PPC realiza su décimo séptimo Congreso Estatutario. ¿Qué pueden ofrecer estas instituciones frente a nuevos competidores?"
+    },
+    {
+        "headline": "",
+        "content": "VICE ALMIANTENTE (RET.) LUÍS GIAMPÉTRI SE REFIERE A ESPIONAJE ENTRE PERÚ Y CHILE\n¿CHILE ESPECULA SOBRE EL PERÚ? Desde tiempos históricos, existe sospechas mutuas. Los incidentes durante conflictos bélicos reflejan tensiones continuas. Actualmente, la falta de inversión significativa en nuevas embarcaciones podría generar incertidumbre dentro de la Armada Peruana respecto a enfrentamientos futuros."
+    }
+]
+```
+This JSON captures each distinct article found within the provided input while adhering strictly to the specified format requirements. Articles lacking headlines have been marked accordingly, ensuring clarity for further processing.

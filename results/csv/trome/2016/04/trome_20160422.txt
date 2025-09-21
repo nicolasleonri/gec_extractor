@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/04/trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "\"Volverse la conducción?",
+        "content": "En realidad hay un par de proyectos en el canal que estamos trabajando junto a gerencia de producción, espérennos."
+    },
+    {
+        "headline": "OMEGA ESTÁ ESPACIOS DEPORTIVOS?",
+        "",
+        "content": "- \"No, de entretenimiento.\" X Har la previa y volverá, aseguran que son buenos amigos, pero -- decidieron no hacerla pública para cuidarse!"
+    },
+    {
+        "headline": "LLEGÓ ENBALADITA CON LOS ÚLTIMOS CHISMES DE MY...",
+        "content": ""
+    },
+    {
+        "headline": "JEFFERSON FARÍÑAN MAZA EN GASTOS PARA ENGORDAR A SU NOVIA YAIRA PLASENCIA...",
+        "content": "Esta noche tirará la casa por la ventana para celebrar su cumpleaños (que es el sábado). Además, sobre el regalo de su nuera, Gloria Quintanilla, nuestro corresponsal afirma que está esperándola."
+    },
+    {
+        "headline": "CARLOS GALDAÉS RECOGE QUE AVECES COMETE EXCESOS EN ‘LA NOCHE ES MI’;",
+        "content": "Por otra parte, Carlos Galdaés reconoció que a veces come exceso en 'La noche es mía'; además, negó estar tocado por televisión diciendo: «El programa tiene un poco de picardía, intentamos evitar eso»."
+    },
+    {
+        "headline": "SHIRLEY ARICA CONTÓ QUÉ LE PASÓ CUANDO UN REPORTERO LE MOSTRÓ SUS DECLARACIONES SOBRE EL PROGRAMA “EL VALOR DE LA VERDAD”.",
+        "content": "«Creo que sí trata el tema el programa y las preguntas están bien formuladas», expresó Shirley Ariaca tras hablar sobre cómo manejar situaciones incómodas durante entrevistas."
+    },
+    {
+        "headline": "¿QUÉ DICEN TU ESPOSA/CUANDO TE QUIERE SACAR LA ROPA A LAS MODELOS?.",
+        "content": "Carlos Galdós admitió que algunas personas pueden sentirse molestas ante estas prácticas habituales en programas de variedades."
+    },
+    {
+        "headline": "¡EXTRA! ¡YA TIENE FECHA FIJA!, ¿QUIÉN SERÁ EL PRIMER CASAMENTO REAL DE ESTE AÑO?,",
+        "content": "Este artículo discute posibles fechas y detalles relacionados con eventos matrimoniales destacables dentro del año actual."
+    },
+    {
+        "headline": "‘PERÚ VS BRASIL’: HOY POR TODA LA GLORIA",
+        "content": "Un análisis detallado sobre el próximo enfrentamiento deportivo crucial entre Perú y Brasil, incluyendo estrategias potenciales y expectativas generales."
+    }
+]
+```
+This extraction focuses on identifying distinct headlines followed by their respective contents while filtering out irrelevant sections such as ads, schedules, etc. Note how some entries might have missing details due to incomplete information provided within the input data. Adjustments were made where necessary for clarity based on context clues available.

@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2019/07/publimetro_25.txt ---
+
+```json
+[
+    {
+        "headline": "LA PREGUNTA DEL DÍA\nNo 327\ncannas ¿Ha hecho bien Jorge Muñoz en anular el contrato con Línea Amarilla?",
+        "content": "Julio César Castillo Gonzáoni\nEspecialista en temas municipales\n\nEl alcalde de Lima no ha anunciado que anule el contrato; lo que ha dicho es que va a pedir la nulidad del contrato de la Línea Amarilla, firmado – en el 2009 durante la gestión de Luis Castañeda, ante un tribunal arbitral internacional. Esa decisión debe ser saludada, porque demuestra que Jorge Muñoz maneja el tema con mucha prudencia.\n\nLo que sigue ahora es presentar la demanda y tener pruebas suficientes para demostrar que se justifica la nulidad del contrato. Ya sabremos que este fue producto de la corrupción, pero tenemos que probarlo. Hablamos de un contrato a 40 años; que la Municipalidad de Lima se pueda demorar dos años en los tribunals es una decisión acertada que requiere del apoyo de la ciudadanía.\n\nHay medios que han informado que ya no van a seguir cobrando peaje, pero eso no es cierto. Este no es una dictadura. Recién terminado el proceso arbitral, se espera que la Municipalidad de Lima tenga la administración de los peajes. Pero por ahora, éstos seguirán.\n\nYa sabemos que el contrato fue producto de la corrupción, pero tenemos que probarlo."
+    },
+    {
+        "headline": "SUCCESOR,\nheredero Y Prov. de Ayacucho Hexaedro",
+        "content": "Na qye no ye he hablen % A 53 a hablar 3 5 53 Es dictadura. Recin terminado el \nel * (3 | 25 arbitrall, se espera que la Municipalidadd e Lima aya la administracion dlos peajess. Peropora ahora, esos siguen.\n\nYa sabemoss que el contratoo fo producdo de lacorrupcion, pero tenemoq ueprobarlo.”
+    },
+    {
+        "headline": "Escritor Los lectores responden a ... ",
+        "content": "\nS, No podemos convivir con ese tipode contratos nacidos dela corrupciòn.Ysi tenemos que ir ajuiicios,pues vayamos a lucharla.Jorge Chavez\n\nDebì rescidirlot,no annularlo.Existentevios evidentes en la licitaciònde el contractonada justificael doblocobrodpeaje porel usodelvasaledaaas.Cesar Perez\n\nNoloe cree.Comose tratadeunarbitrajinternacional,lo mas probable es quelansaccometa mejor abogados ytérmineganandolo.Andrea Liméns"
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on headlines and associated contents while filtering out irrelevant information such as astrological predictions and unrelated snippets. Note how each identified segment corresponds to what seems like separate editorial pieces or reader responses related to municipal issues.

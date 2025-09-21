@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/08/peru21_13.txt ---
+
+```json
+[
+    {
+        "headline": "Inclusión política versus confrontación",
+        "content": "“En la misma línea, el líder Javier Velásquez Quesquén, portavoz alterno del Apra, aseveró en este medio que Zeballos ‘está viviendo la emoción de ser ministro y se olvida que es congresista’. 'Es innecesario buscar una confrontación con el Congreso. Todos sabemos que lo que plantear el presidente no es una reforma institucional, sino una forma de mantener su popularidad', sostuvo."
+    },
+    {
+        "headline": "Debate en el Congreso sobre Informe Final de Lava Jato",
+        "content": "‘La comisión Lava Jato del Congreso, que preside la fujimorista Rosa Bartra, comenzará hoy el debate de su informe final sobre la investigación realizada a Odebrecht y otras empresas brasileñas que habrían incurrido en delitos de corrupción’, según informó el grupo investigador en un comunicado. La sesión está programada para las 3:00 p.m. en la Sala Bolognesi del Palacio Legislativo."
+    },
+    {
+        "headline": "Entrevista a Iván Gavilan",
+        "content": "'Para el congresista Alberto de Belaúnde, hay una clara diferencia entre el origen de la reforma de justicia y el de la reforma política que plantea el Gobierno. [...] Como se imaginara, yo soy uno de los más entusiastas sobre este retorno a la bicameralidad, pero la propuesta de sacar una cámara de 100 diputados y una cámara de 30 senadores, para no alterar el número de congresistas, va a generar que no exista una representación adecuada.'"
+    },
+    {
+        "headline": "Prisión Preventiva para Dos Jóvenes del Movadef",
+        "content": "Sobre las tres de la mañana de ayer concluyó la audiencia de prisión preventiva para los estudiantes Bryan Franco y Eliot Flores, acusados de hacer propaganda a Sendero Luminoso a través del Movadef, organismo generado del grupo terrorista. El juez Rafael Martínez evaluó las pruebas y aceptó la solicitud de la Fiscalía Edith Mori de imponer nueve meses de prisión preventiva para los estudiantes y así evitar su posible fuga del país."
+    },
+    {
+        "headline": "Opini\u00f3n sobre Reforma Laboral",
+        "content": "’En el mensaje presidencial del pasado 28 de julio, no se tocó el tema de la reforma laboral. En su opinión, el Presidente Vizcarra no habló sobre el tema porque no tenía nada preparado o porque tiene temor de que al hacerlo hubiera manifestaciones y huelgas?’"
+    },
+    {
+        "headline": "Exportaciones Sumaron Us\$14,691 Millones",
+        "content": "Las exportaciones mineras crecen a buen ritmo. Según la Sociedad Nacional de Minería, Petróleo y Energía (SNMPE), en la primera mitad del año los despachos sumaron US$14,691 millones, un 18.3% más que en el primer semestre del año pasado."
+    },
+    {
+        "headline": "Atentado Fallido en Venezuela",
+        "content": "Se planeó un ataque usando drones durante un evento militar en Venezuela. Desafortunadamente, el plan falló debido a problemas técnicos relacionados con inhibidores de señales electrónicas. Tras el fallo, algunos participantes fueron capturados y sometidos a interrogatorios severos bajo sospechas de traición."
+    }
+]
+```
+This JSON contains extracted information about various topics covered within the provided newspaper text while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Note how each entry includes both a `headline` and corresponding `content`. Any missing data has been marked appropriately according to the rules given.

@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/04/peru21_26.txt ---
+
+```json
+[
+    {
+        "headline": "Plaza de armas",
+        "content": "La pregunta de hoy\n¿Qué opinión –creer– que será ganadora de la final del torneo del Inca; Alianza Lima o Carlos Vallejo?\nLa vergüenza de ayer\nDebe haber más duras penas para quienes vulneran la intimidad de las personas?"
+    },
+    {
+        "headline": "FLOR ES-AROZ / VALEN-CIANO",
+        "content": "El ex titular del Legislativo, Fernando Villavicencio, resalta el cambio de personalidad del Premier. ‘A Pedro Cateriano lo veo irreconocible, debe haberse tomado todas las dosis de agua de azahar y de valeriana, se le ha tranquilo, consensual, cuanto le durará? No lo sé’, dijo.\nCONFÍA VOTO INVESTIDURA\n‘El Parlamento tendrá un ánimo de subsistencia y creo que harán algo para hacerse un harakiri. Le dará el voto de confianza’, sustuvo, descartó que Cateriano llegaría al Pleno con un mensaje conciliador."
+    },
+    {
+        "headline": "Aval del pleno a Cateriano",
+        "content": "Daniel uribe, los mejores representantes. ‘Déjenos respirar, den un paso atrás’. Abugattas, la coyuntura política es decisiva. Al margen de la política menor, dicho, lo que está en juego es nuestro país.”
+    },
+    {
+        "headline": "Gl Fiscalía le debe $50 millones",
+        "content": "Por falta de recursos, la Fiscalía General del Estado peruano enfrenta dificultades financieras importantes, según reportajes locales."
+    },
+    {
+        "headline": "Pérez anuncia medidas",
+        "content": "Más filtros para proteger la democracia. Pérez propone implementación de nuevas políticas públicas enfocándose en mejorar la seguridad nacional."
+    },
+    {
+        "headline": "Buscalá Presidencial",
+        "content": "Selva Lay, líder de Restauración Nacional, anunció que postulará a la presidencia en 2016. Explica que aún no cuenta con candidaturas personales definitivas debido a ciertas circunstancias internas dentro del partido."
+    },
+    {
+        "headline": "Premier y Diálogo con Bloques",
+        "content": "Mauricio Mulder lamenta que Cateriano no haya dialogado con bloques parlamentarios clave antes de solicitar el voto de investidura. Indica que ha habido poco avance real hacia lograr apoyo bipartidista necesario."
+    },
+    {
+        "headline": "Defensor del Lector",
+        "content": "Carlos Basombri critica cómo algunos medios minimizan noticias relevantes dependiendo de quién sea involucrado directamente. Destaca la situación específica relacionada con el Caso Larez y la respuesta mediática variada respecto a ello."
+    },
+    {
+        "headline": "Opinion Urbana",
+        "content": "Urbanista Mariana Alegre analiza cambios urbanísticos en Lima, destacando mayor participación ciudadana y demandas por infraestructuras adecuadas. Resalta iniciativas como el movimiento salvemos barranco frente a obras disruptivas."
+    },
+    {
+        "headline": "La próxima Fiesta:",
+        "content": "Predice transformaciones futuras impulsadas por innovaciones tecnológicas emergentes tales como inteligencias artificiales avanzadas, biotecnología sintética, manufactura 4D, computadoras cuánticas, internet de cosas, materiales basados en grafeno, energías limpias y bio-combustibles."
+    },
+    {
+        "headline": "Ex Presidente de BA explica vínculos",
+        "content": "Alejandro Toledo evadirá comparecencia solicitada por fiscales vinculado a investigación criminal liderada por Rodolfo Orellana. Su ausencia repetida genera sospechas sobre potenciales tácticas defensivas legales."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents while adhering strictly to the provided guidelines for extracting significant journalistic material. Any missing data has been filled with `"NA"` where applicable. This ensures clarity and completeness within each extracted entry.

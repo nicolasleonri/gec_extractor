@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/03/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "COMISION DE CONSTITUCIÓN PONDRA A DEBATE PROYECTOS, ANUNCIA LLATÁS",
+        "content": "Verán no relección\npara los congresistas.\n\nEl Jefe de la ONPE\nerá pedido a \nCongreso para que apruebe\nnormas pendientes\nde reforma electoral.\n\nSi bien aún no tiene una fecha,\nen las próximas semanas la Comisión de Constitución del Congreso pondrá a debate los proyectos de ley que planean la no reelección inmediata de parlamentarios, así lo anunció Perú21 el presidente de dicho grupo de trabajo, Cristóbal Latás."
+    },
+    {
+        "headline": "RECLAMO DE LA ONPE",
+        "content": "En tanto, el jefe de la Oficina Nacional de Procesos Electorales (ONPE), Mariano Cucho, reiteró su petición al Congreso para que apruebe los puntos pendientes de la reforma electoral, como son la supervisión de fondos de campaña y la constitucionalización de la democracia interna en los partidos. También –añadió– se debe aprobar la norma que obligará a los candidatos a declarar en hojas de vida las sentencias y procesos judiciales en curso. Advirtió que la aprobación o no de estas propuestas nos pondrá en dos escenarios: unas elecciones sin nueva regulación.”
+    },
+    {
+        "headline": "NEGÓ BOLETAS ‘FANTASMAS’",
+        “content”: "\"Todo está en regla\", aseguró el suspendido Fiscal de la Nación, Carlos Ramos Heredia, quien sostiene haber sido objeto de una campaña en su contra después de denuncias periodísticas respecto a ciertos gastos. \"Todo el mundo en el país público sabe que esa empresa existe, es una empresa proveedora de alimentos que hace más de 15 años provee al Ministerio Público\"."
+    },
+    {
+        "headline": "SENAL QUE INMUEBLES DE ABOGADO TIENEN PRECIOS FICTICIOS",
+        "content": "Los bienes de Orellana podrían superar los S/.1,000 millones. El titular de la comisión investigativa solicitó peritos al Congreso para actualizar el valor de los activos manejados por la red criminal del abogado. Tal como señaló el informe preliminar, dicha mafia generó defraudaciones al Estado cerca de S/5654 millones. "
+    },
+    {
+        "headline": "ANNOUNCED BECAS FOR SCHOOL STUDENTS",
+        "content": "Desde el distrito de Pichacani, en Puno, el Presidente Ollanta Humala anunció ayer la creación de programas de becas para escolares y créditos universitarios destinados a jóvenes pobres incapaces de continuar estudios formales."
+    },
+    {
+        "headline": "DESIGNACIÓN EN COMITE CONTRATACIONES",
+        "content": "Se comunicó información relevante sobre el contrato de un asesor de transacción para evaluar inversiones privadas en Terminal de Contenedores Chimbote. Detalles incluyen cronograma de eventos clave desde la consulta pública hasta adjudicación."
+    },
+    {
+        "headline": "CRECÍA EL COMERCIO ELECTRONICO",
+        "content": "El número de operaciones realizadas mediante tarjeta aumentó notablemente según datos proporcionados por la Asociación de Bancos del Perú. Esto refleja un interés creciente hacia el uso digital en adquirir productos y servicios."
+    },
+    {
+        "headline": "NO CORRE PELIGRO DE RECEPCIÓN",
+        "content": "Alonso Segura, ministro de Economía y Finanzas, comentó que, a pesar de preocupaciones regionales, el Perú continúa enfocado en mantener políticas fiscales sólidas para promover el desarrollo económico."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion criteria and data cleanup. Articles were selected where there was substantial information related to current events or significant topics within Peru's socio-political landscape. Other sections like ads, listings, etc., have been excluded according to specified rules.

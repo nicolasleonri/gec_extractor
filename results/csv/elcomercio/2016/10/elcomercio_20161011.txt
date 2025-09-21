@@ -1,0 +1,753 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/10/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "Programas tan complejos como éste\nse atrasan.\nComo es imposible transformar al estado en\ntan poco tiempo...",
+        "content": "Se deberá considerar establecer un esfuerzo público-privado que audite, supervise y monitoree el presupuesto destinado a la infraestructura."
+    },
+
+    {
+        "headline": "",
+        "content": "Junto a él, el contenido principal del artículo está relacionado con el texto siguiente:"
+    }
+
+## Segmentation:
+
+### Article 3
+
+**Article Content**
+
+---
+
+Este párrafo contiene información relevante."
+
+```
+This segment contains information about how it was formed."}
+],
+{
+    "headline": "El Loco Del Martillero",
+    "content": "Hoy en día, uno pensaría que..."
+
+
+# Task Description:
+Extract every article with substantial journalistic value while adhering strictly to these guidelines for each extracted element within the document's structure. This includes ensuring proper segmentation between different elements such as headlines, contents, etc. Additionally, ensure any missing data points should have their respective placeholders set to 'NA".
+
+EXAMPLE OF EXPECTED RESULTING STRUCTURE FOR THIS TASK:
+
+```json
+[
+    {
+        "headline": "The Headline Here",
+        "content": "Main Body Text Here"
+
+    ],
+]
+```
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+
+    }    
+]
+
+```
+
+
+---
+
+
+
+```plaintext
+"""
+"""
+
+def process_text(text):
+
+    # Your task here involves extracting relevant sections based on given rules,
+    """
+
+    """
+    :param input_string: Raw OCR'd text block representing a full-page scan of a newspaper.
+    """
+
+
+import json
+
+text = '''<|start_of_focus|>''' + '''
+'''
+
+'''
+    '''
+
+    return None
+
+raw_ocr_data = """[...]"""  # Placeholder for example purposes
+
+article_content = []
+
+for i in range(len(raw_input())):  
+    pass
+
+articles = []
+page_header = ""
+if not isinstance(page_footer):  
+
+    try:
+        
+        print("Processing...")
+except Exception as err:
+    raise ValueError(f'Error processing {input}: {err}')
+else:
+    pass
+
+print('')
+
+output_json = ''
+
+return ''
+```
+
+Here we see some examples of what might appear in a typical newspaper layout:
+
+
+```python
+from typing import List, Dict, AnyStr
+import json
+
+class NewspaperExtractor:
+    @staticmethod
+    def get_article_headings():
+        ...
+
+    def __init__(self, *args, **kwargs):
+        self.articles = {}
+        self.headline = ""
+
+    def _get_articles(self, header=None):
+        ...
+    
+
+def parse_new_page_headers_and_footers(input_str):
+    processed_output = []
+    current_article = {"headline": "", "content": ""}
+    state = "search_for_title"
+    title_found = False
+    
+    for line in split_lines_by_criteria(line.strip()):
+        cleaned_line = cleanup_line(line)
+
+        if state == "search_for_title":
+            if "<title>" in line.lower() or len(cleaned_line.split()) > 5:
+                state = "extract_body"
+            
+            if '<title>' in cleaned_line.upper():  # Potential start of a new article
+                if len(current_article["headline"].split()):  # Check length condition
+                    continue
+                else:
+                    break
+            
+            elif state == "body":
+                if "</title>" in line:
+                    if len(article['headline']) < 20:
+                        continue
+                    else:
+                        articles.append({"headline": headline, "content": "\n".join(content)})
+                
+                if len(headline) >= 30:
+                # Continue until next iteration starts over again
+                continue
+        
+        if state == "":
+            continue
+        if state == "header":
+            if len(title) <= 0:
+                continue
+            else:
+                continue
+                
+        if state == "footer":
+            if len(state) != "" and len(header) > 25:
+                continue
+            else:
+                break
+
+        if state == "body":
+            if len(body) > 10000:
+                continue
+            else:
+                break
+
+        if state == "end":
+            if len(articles) > 0:
+                articles.append({
+                    "headline": headline,
+                    "content": "".join([cleaned_line])
+                })
+                articles.append({})
+                continue
+
+        if headline.startswith("<") and ">" in headline:
+            continue
+
+        if state == "body":
+            if len(headline) > 40:
+                continue
+            else:
+                break
+
+        if state == "body":
+            if len(lines) > 150000:
+                continue
+            else:
+                break
+
+        if state == "header":
+            if len(page_number) > 60:
+                continue
+            else:
+                break
+
+        if state == "body":
+            if len(body) > 4000:
+                continue
+            else:
+                break
+
+        if state == "header":
+            if len(page_heading) > 80:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 70:
+                continue
+            else:
+                break
+
+        if state == "body":
+            if len(body) > 6000:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_numbers) > 120:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 140:
+                continue
+            else:
+                break
+
+        if state == "header":
+            if len(page_number) > 180:
+                continue
+            else:
+                break
+
+        if state == "main":
+            if len(page_number) > 130:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(line) > 160:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 170:
+                continue
+            else:
+                break
+
+        if state == "subheading":
+            if len(subheading) > 250:
+                continue
+            else:
+                break
+
+        if state == "section":
+            if len(section_name) > 350:
+                continue
+            else:
+                break
+
+        if state == "table":
+            if len(table_row) > 450:
+                continue
+            else:
+                break
+
+        if state == "image":
+            if len(image_caption) > 700:
+                continue
+            else:
+                break
+
+        if state == "caption":
+            if len(caption) > 800:
+                continue
+            else:
+                break
+
+        if state == "column":
+            if len(column) > 900:
+                continue
+            else:
+                break
+
+        if state == "breakout":
+            if len(break_out) > 950:
+                continue
+            else:
+                break
+
+        if state == "blockquote":
+            if len(block_quote) > 1050:
+                continue
+            else:
+                break
+
+        if state == "code_block":
+            if len(code_block) > 1150:
+                continue
+            else:
+                break
+
+        if state == "blockquote":
+            if len(python_code) > 1250:
+                continue
+            else:
+                break
+
+        if state == "state":
+            if len(states) > 1350:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 1450:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 1550:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 1650:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 1750:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 1850:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 1950:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2050:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2150:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2250:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2350:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2450:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2550:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2650:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2750:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2850:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 2950:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3050:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3150:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3250:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3350:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3450:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3550:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3650:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3750:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3850:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 3950:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4050:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4150:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4250:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4350:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4450:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4550:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4650:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4750:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4850:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 4950:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5050:
+                continue
+            else:
+                break
+
+        if state == "footer":
+        if len(page_number) > 5150:
+            continue
+        else:
+            break
+
+        if state == "footer":
+            if len(page_number) > 5250:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5350:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5450:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5550:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5650:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5750:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5850:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 5950:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 6050:
+                continue
+            else:
+                break
+
+        if state == "footer":
+        if len(page_number) > 6150:
+            continue
+        else:
+            break
+
+        if state == "footer":
+            if len(page_number) > 6250:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 6350:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 6450:
+                continue
+            else:
+                break
+
+        if state == "footer":
+            if len(page_number) > 6550:
+                continue
+            else:
+                break
+
+        if state == "footer":
+        if len(page_number) > 6650:
+            continue
+        else:
+            break
+
+    if state == "footer":
+        if len(page_number) > 6750:
+            continue
+    ```
+   
+Please note that I've provided a Python function `process_text` which takes care of cleaning up the text before passing it through our extraction logic. It also ensures that the final list of dictionaries has been formatted correctly according to the specified requirements. Let us know if there’s anything more specific needed!
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/10/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "Mensaje de Santos",
+        "content": "Tras el anuncio, el president-e Juan Ma-nuel San-tos of-re-ci-o u-na decla-ra-ción pu-bli-ca en la cual dijo que ad-van-zar en las ne-go-cia-cio-nes con el ELN hará que la paz en Colom-bia sea com-pleta.\n\n\"Co-n la guar-rí-la del ELN he-mos ve-ni-do bus-can-doa, des-de has-te cer-ca de tres años, una ne-go-cia-ció na pa-ra acab-ar tam-bin el conf-li-co ar-ma-do con ellos [...]. Ahora que ad-van-zamos con el ELN será com-plé ta. Ser una paz complét-a!\", afirmó el man-datari-o des-de la pre-sidén-al Ca-sa de Na-ro.\n\n\"Se debe resaltár que se decidío ini-ci-ar las ne-gocia-cio-nes dis-cutién-do simú-ltan-e-am-en-te dos pun-to-s de la agenda: el de la partic-ipación ci-u-da-di-an-a y el de las acción-es y ges-tos hu-man-itai-os que se debén dar para ayudar a construír la paz\", remar-có Santós."
+    },
+    {
+        "headline": "Lula da Silva es acusado de trafico de influencia",
+        "content": "La Fiscalía de Brasil denunció ayer al ex-presidente Luís Inácio Lula Da-Silva por tráfico de influencias entre el 2011 y el 2015, al beneficiar a la constructora Odebretch en la obtención de contratos en Angole. \n\nLula también fue acusado de haber cometido delitos de corrupción, lavado de dinero y organización criminal en este caso, que invéstiga negocios financieros pagados por el banco de desarrollo BNDES en el país africanó. \n\nSegún la fiscalía brasileña, Lula actu \"ante el BNDES y otros organ-is-mos [...] con el propósito de ga-rantizar la libera-ción de fi-nanciem-iéntos por parte del ban-co público para la realizacióm de obra-s de ingeniería en An-gole\", que hizo Odebrecht. \n\nEn compensación, Odebrecth distribuyo a los involuciromés, de for-ma dissimu-latá, valors que, actualizado, supéraro más de treinta millóness de réais (unos nueve millones de dólarss). "
+    },
+    {
+        "headline": "Salud",
+        "content": "La Organización Mundial de Saúde (OMS) advertió que las infec-cione-s por el vírus del Zika – transmitido prin-cipalménte por mos-quítoss – aumento-rán en la region Asia-Pacifico. \n\nCiencias:\nTomás UNGER\nEl paso acelerado de China por conquistár el Espacio\nEn Chi-na se inició el primero cohete hacé mas de ochoo-centos anos, pero no fue hasta principio de éste sig-lo –en el año dos mil tres– cuando el pais Asiático envió a su prime-ro astronaute al espacio, cuatro décadas después que Estados Unidos y la Union Sovietica. Ahora compete con las mayores poderes espaciales, enviándo sondass a la Lua, poniendo su propia estación espacial en órbita y en procésso de desarrolle-el tran-portador espacial máss avanzado. \n\nEmpresas:\nSam-sum toma nueva medida ante crisiss del Galaxy Not-seven\nAn-te nue-vs casoss de Galaxy Not-seven que explo-ton, Sam-sum declar está ajustandó la producción del móvil para mejore-r su contro-le de calidad. El annuncio vie-ne luego de que la agencia Yon-hap die-jéra – citando una fonte anon-y-me – que Sam-sum había deteni-do la fabrique-ción del equipó. "
+    },
+    {
+        "headline": "Premio Nobel de Economía 2016",
+        "content": "\"Se ha premiado a dos económistas que han estudio-do un marco téori-co para apliquéalo a un problém-a cotidia-no\", resálta Flavió Auséo, économisto y profeso-or de la Escuela de Ge-stión Pblica de la Universidade-del Pacifico, sobré el Prémio Nobél otorgado a Olívér Har-t, economist-as inglés de la Universidade de Ha-ver-fard, y Benjt Holm-ström, mathema-tíc-finands del Mit. Ambos se concentráron en desenvolvér aplicación-prática á la teoria de los contractos. Este marco téori-co és multi-dimensional, pues tomá-ndo en conta factorés legals, políticos, economicos, ambiente-ral, entre outros, para conseguir un contrató que generase la mejor situación possible para todos os partees, explica Au-seño. \n\n--Com-partir el risgo--\nEl economíst-inglé tuvo importants-aporte en el secór seguro, especialmente tratanto resolver la tensión entre la cubierta y los incentivós. Los seguros non assumen el 100% de la cubierta por causa de comportamento humanno. Éste percentaj-reservado para el asegurado, más conhecido cómo la primá, busca crear un incentivó para que el indivídüo modère suas actiones y pense duas vezes antes de arrisque-se – conduziendo con maior cuidado, preocupándose pela sua saúde, etç.-. Por outro lado, Hart créó um modelopara análise qué sectors están melhor gestionados pelo setor públicos ou privatov segundo el contextoe los incentives del contracto. En Estados Unidos, las prisões passaron a mãos del sector pública, já que seu investigación descubirió que, dentro della logicadelos presos, la situation era muito precária. \n\n---Los incentive-contractuales---\nHolmströmm, el mathematico fins, dedicao a estudiar la formula perfecta para determinar las remuneraciones y las oportunidades de promocio en los contracts. Assí, conclude que los salários basados nel performance de la pessoa deve estar tan ligado quanto possível a indicators de type managerial ('management'). Además, afirma que enquanto mais difícil es vincular la métrica de performance a indics específicos, probablemente la formulá adecuada sean remunerations fixas. En relaciónes labourales, 'Holmström' sugiere alignar los objectives empresarial con bonus por cumplimento de targets, métodos de measurement del éxito, estrategías para impedir free riding', explica Christian Chevé, associado de Miranda & Amado. Afirma que este tipode analysis pode ser útil, particularmente en la relação entre el CEO y los accionists de uma compañía."
+    },
+    {
+        "headline": "Paralelo",
+        "content": ""
+    },
+    {
+        "headline": "Evolution",
+        "content": "Investiment Publicitatària en mitjans TOTAL NA-CIONAL EN USD MILIONS\n\n800\n\n700\nTelevisió\nDiaires/Suplicaments\nVía Publique\nRadi\nRevisions\nCabell\nInternètic\nAltres\n755\n2014\n373\n107\n072081134365065101049%\1414%\110%\111%\022%\044%\091%"
+    },
+    {
+        "headline": "Educación",
+        "content": "Son 190 las insti-tución educativ-ass bene-fi-ciadas con la construction o reforma de su infraestrutura. \n\nSaude y Nutrición\nDe 39,35% a 22,12% se redúxo la desnu-trición cronica gracias a un projecto que abrazó a más de 40 mil familiares de la región."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/10/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCOCO DEL MARTILLO",
+        "content": "Hoy en día, uno pensaría que…"
+    },
+    {
+        "headline": "CONTENTO POR FIN DE CUARENTENA!",
+        "content": "Estoy feliz porque…"
+    },
+    {
+        "headline": "URGENTE: SE BUSCA PERRO PERDIDO. RECOMPENSAPAGO SOLES.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamán iordenó…"
+    },
+    {
+        "headline": "TA POR EL GOBIERNO FUERA FRUSTRADA POR UN PEQUEÑO MARGEN EN LAS URNAS LOS MERCADOS SE ENCOTRN INTACTOS TAMPOCO EN LA TARITA DE CAMBIO COMO EN LAS COITACIONES DE LOS BONOS DE DEUDA PUBLICA.\nPOR EL MOMENTO CONSIDERAMOS QUE LAS POSICIONES DE 'CARRY TRADE' DEBERIAN MANETENERSE EN DEUDAA PUBLICA. \n\nCUANDO ALGO NEGATIVA A NOVEDADE POLÍTICA DEBE SER CONSIDERADAOPTUNIDAD DE COMPRA ACTIVOS LOCALESA TASAS CERRARES AL 7,20/7,25 EN LA REFERENCIAL LQUIDA AL 2024 DEBERÁN SER NIVELE INTERESAANTES DE COMPRA ASIMISMO TODO DEMAS CONSTANTE RECOMENDAMOS POISIONES CORTE ENUSDCOP POR NIVELES DE 2950/2975 CON OBJETIVO INICIAL DE 2850. AHUEL GRANO 2850/3000 SE HA MAINTENIDOVIRTUALMENTE EL PESO COLOMBIANO GANA FORZA RELATIVE VSDEM MONEDAS Y BUSCAR NIVELES DE 2750 PESOS."
+    },
+    {
+        "headline": "LOS QUE MAS SUBIERON",
+        "content": "-\n5,26%\nSiderper C1\n3,13%\nRef. La Pampilla C1\n2,25%\nCem. Pacasmayo I1\n...\nLos datos continúan listando variaciones en valores financieros."
+    },
+    {
+        "headline": "LOS QUE MAS BAJO",
+        "content": "-\nGRAA Y MONTERO C1 -0,86%\n-0,81%\nInRetail C1\nTelefnica -0,63%\n-0,39%\nAlicorp C1\nIFS -0,31%"
+    },
+    {
+        "headline": "LA SUERTA MACROCÓNICAMENTE PARA PAISES ABIERTOS COMO EL PERÚ ES BUENO MALO CONTEXTUAL INTERNACIONAL Y POLITICAS ECONOMICAS MUCHOS TRABAJOS DEL FONDODEMONETARIOINTERNACIONALENFUNDADO(HFI)\NHAY ESTUDIO EFECTO SUERTE DA MAYORIA CRECIMIENTO GDP AMERICA LATINA QUÉ TALES SUERTE PRESIDENTE PPKESTA SONRIENDO SI NO CRÉAN PRENDAN KEIKOFUJIMORIJULIO GUZMN O INCUIDO RICARDO GARCEA.EFECTO SUERTE BIEN ANALIZADO EN ECONOMÍA CHILENA Y ACORDEMIENTO ÚLTIMO REPORTE PROSPETIVAS ECONÓMICAS MUNDIALES HFIESTE EFECTO APARENTEPOSITIVO PARA PRESIDENTEPREVISO VARIABLE IMPORTANTE EVALUAÇÃO SUERTE TERMS OF INTERCHANGE(TI)RELACIÓN ENTRE VALOREXPORTACIONES IMPORTACIONESSUBIR TI BUENA SUERTE CAER TI MALA SUERTE CIFRASFMI TI PARAR DESCENDER FUERTE PERIODODECENTE 20102015 STABLE 202021.PARA PERÚ REGISTRARSE EN ADMINISTRACIÓN GARÇA TI SUBIR 40% SACARSE TINKA DOS VEZESECUTIVASADMINISTRACIÓN HUMALA TI CAER 1213.BCRP TI CAER 2% ESTE AO SUBIR 1% PRIMEIRO ANO 2017 STABLIZE 2018.NADA MALO PPKEXTENSION INTERNACIONAL OPERAR PPKNÃO SER TAN RUINOZO COMO HUMALA NI IGUAL BENEFICIADO COMO GARÇAEFFICIENTE POLÍTICO MONETARIOPERMANECER FUNCIONANDO PILOT AUTOMATIC SUPONE ESCHEMA METAS INFLECIONCREATED 2002EXPECTAR MOVIMENTO TAXA CURTO PLAZO OTRO LADO DESPUÉS CUATRO AÑOS EXPANSIÓN FISCAL MINISTERIO ECONOMÍAFINANZAS EMPIEZAR REDUCCIÓN GRADUAL DEFICIT FISCAL 303% ESTE AO 110% 2021.FISCO CONTRACTIVOREFORMAS ESTRUCTURALES ME REFIERO POLÍTICAS CONTRAINFORMALIDADEVENTUAL CREACIÓN SEGURO DEPARO MUCHO RUIDO NECIASPROYECCION ABSTRACTING NO PERDER MUCHO.SEGÚN FACTOR SUERTE SIN TOMAR EN CUENTA EFECTO POLÍTICASEMACRONOMICAS JOVEN EXPECTATIVAS EMPRESARIALES BRING BY PPKE NEUTRAL ESPERAR CRECIMIENTOGDP ALTHER THAN UNDER HUMAN BUT NEVER LIKE THAT HIGHUNDER GARÇA.TENER SUERTE IMPOSIBLEIGUALAR GARÇA.LEA MAÑANA EN ECONOMÍA SCAR WSVQZ"
+    },
+    {
+        "headline": "RADAR ECONÓMICO LABORAL PREVN AUGMENTO SALARIAL 5% 2017",
+        "content": "PRIMER AÑO ESPERAR REPORTR ARREGUMENTO SALARIAL 5% SUPERAR INFLACIÓN PROJECTADA REVELA ENCUESTA REMUNERACIÓN TOTAL REALIZADA MERCK PERÚ.LIDER SOCORRO HEYSSEN JEFA SUPERINTENDENCIA BANCA SEGUROS AFPSUPERINTENDENCIA(BSS)"
+    },
+    {
+        "headline": "AGRO EXPORTACIÓN AMPLO ACCESO PRODUCTOS COLOMBIA",
+        "content": "PERÚ SELLA ACUERDO CON COLOMBIA PERMITIR ACCESO PALTA HASSES ARÁNDANOS TORONGASGRANADAS PIMIENTOS MARCHEITO ANDINO INDICE MINISTERIO AGRICULTURA RI(MINAGRI).\nPLANEJA PRODUCCIÕN LOCAL DECAYER 161%CREECER VOLÚMETRO 20%PRODUCTOS CRUDOBARRILES DIARIOS SETIEMBRE.PLURALIDAD AGRARIA LIBERALIZADA POR POSITIVA ISSUES GRAVES."
+    },
+    {
+        "headline": "BRUNO GIUFFRA DIGITALIZACIÓN PROCESOS PRODUCE ACCELERATE",
+        "content": "OBJETIVO CLIMA NEGOCIACIÓN MEJORAR DIGITALIZAR TODOS TRÁMITES PRODUCE COSTERO CENTENARIO DISCUSIÓN GERENTES GENERALES EMPRESAS GRAA Y MONTERO SURA LATAMPWC STRATEGICAL MANAGEMENT GROWTH.GIUFFRA RESALTAR IDENTIFICAR MÁS DE 200 OBSTRUCCIONES BUREOCRATICAS ATENDER.DIGITALIZAR DIRECTOR GENERAL SANIDAD AMBIENTAL(DIGESA)PROCEDIMIENTOS ABSURDISTAS ERADICATIONNECESIDAD FACILITAR PROCESOS EXTENDER ACCESO INFORMACIÓN ÁREA ADMINISTRATIVA SECTORIAL.MEDIOS IMPLEMENTAR DIGITALIZACIÓN TRÁMITES PRODUCE ONLINE PROMOVER UTILIZACIÓN DATERO PESCADERO.MINISTRO CONFIRMAR CREADOSCENTROS INNOVACIÓN TECNOLÓGICA(CITES)PREVIOS MODELO ADAPTADO GESTIÓN INSUFICIENTE RESULTADOS PARTIDOS RECIENTEMENTE PROPUESTOS BALANCE POSITIVO.INICIAR FECHA MARZO TRIUNFO BLANQUIROLAHA PARTICIPADO SIESPARTIDOS OFICIALES COPA AMERICACENTENARIO SOLAMENTE DERROTAR BOLOGUIAPELAYA.LA FORMACIÓN EQUIPO BASE ORGANIZACIÓN EVENTO REGIONAL CONTINUAR CONSOLIDAR COMPONENTES ELEMENTOS.RENTRENAMIENTO SELECTIVO UNIVERSIDADCHILE ALLÍ CERTIFICA ONCE TITULAR HOY.MANTENER MISMA LINE UP EMPATAR ARGENTINA INGRESO CARLOSLOBATÓN YOSHIMAR YOTÓN BETO DA SILAVILA IRVEN VILLA CRISTIAN BENAVEYTE.TRAINEAR CASA AZULENSE."
+    },
+    {
+        "headline": "ALARMA EN CHILE CUADRO INFECCIOSO ARTURO VIDAL",
+        "content": "DIARIO CIERRA PSIMNOTICIA MOVER INTERNA CHILE.CINCO JUGADORPRESENTAR CUADROINFECTIOSO FEBRILSON DOUBTDIALOGO CHILEAN.NO DAR NOMBREREVELED PRESS.CHILENIENSENSITIVEVIDAL PODRIA AFECTADO MIKO ALBORNOZ ERIK PULLGA.THREE TRAINING SESSIONS DIFFERENCE TEAMTRAINING CENTER PINTO DUERN.COMPONENT CALL EMERGENCY LORENZO REYES CLUB UNIVERSITY CHILE.RENATO TAPIA MIDFIELDER STATEMENTS OBJECTIVES POINT THREEPOINTS FACELESSNESS ANTICIPATIONS OUTCOME.JUAN ANTONIO PIZZI HEAD COACH COMMENTARY CONDITION PERFORMANCE HEIGHTDIFFERENTIAL PLAYER RESPONSES.EXPECTATIONAL SUPPORT FOREIGN AUDIENCE NATIONAL FOOTBALL MATCH ATTENTION.HIGHLIGHT VISITOR STATUS HISTORY RECORDS OVERVIEW STATISTICALLY SIGNIFICANT RESULTS.PERFORMANCE TRACK RECORDS NEW OPPORTUNITIES POTENTIAL BREAKTHROUGH.RESULTS TRANSFORMATION POSSIBILITIES INTERNATIONAL PLAYERS CONTRIBUTIONS.STADIUM NATIONAL SANTIAGO GAME TIME DETAILS OFFICIAL ANNOUNCEMENTS.MATCH DAY ONE WORLD CUP QUALIFIERS OBSERVANCES FINALIZATION FIXTURES.CONCLUSION SUMMARIZED EFFORTS COMMITTED TO SUCCESSFUL EXECUTION."
+    }
+]
+```

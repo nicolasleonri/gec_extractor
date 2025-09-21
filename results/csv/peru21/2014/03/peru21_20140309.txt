@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/03/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "“Tilsa Lozano y Vanessa Terkes\nno son amigas, pero son\ncmpañeras de trabajo.”",
+        "content": "\"‘Al Fondo Hay Sitio’ sigue siendo vista,\npese al fallecimiento de alguno de sus actores.\nGracias a los seguidores continuaremos discutiendo, peleándonos y disfrutando.\" Con estas palabras, el conductor de ‘Enemigos Públicos’, refiriéndose a las emociones vividas durante su participación en la popular telenovela peruana."
+    },
+    {
+        "headline": "Es posible que ‘Las Vengadoras’ viajen a Chile tras éxito internacional?",
+        "content": "'Después de presentar nuestro nuevo video musical, nos han hecho múltiples ofrecimientos. Además, estamos conscientes de que nuestras canciones están resonando tanto en Brasil como en Ecuador… Tenemos invitaciones para giras fuera del país, aunque aún no tenemos confirmadas.' Así respondió la banda cuando les preguntaron si seguirían expandiendo su música más allá de Perú después de recibir atención global."
+    },
+    {
+        "headline": "¿Regresará Laura Bozzo a Univisión?\nPuede haber cambios post-contractuales con Televisa.",
+        "content": '"Solo puedo comentar que actualmente soy parte de Televisa, quienes siempre me han tratado excepcionalmente bien. Sin embargo, también conservo buenas relaciones laborales con Univision. Cuando enfrenté problemas legales aquí en México, ellos fueron muy solidarios." Declaró Laura Bozzo telefónicamente desde Ciudad de México.'
+    },
+    {
+        "headline": "Opinan sobre el rendimiento de ‘Titanes’. ¿Existe rivalidad entre Vanessa Terkes y Tilsa Lozano?",
+        "content": "\"Titánicos es apenas un proyecto emergente y hasta ahora ha sido satisfactorio verlo crecer. Entre Vanessa y Tilsa no existe competencia personal alguna; simplemente colaboran profesionalmente dentro del mismo espacio laboral. Me complace observar cómo Tilsa está ganando mayor presencia en pantalla\"."
+    },
+    {
+        "headline": "¿Se alejará Fiorella Flores de ‘Las Vengadoras’? Rumores sugieren nuevos roles individuales.",
+        "content": "'La pasión de Fiorella por la interpretación nunca disminuye, cada integrante persigue metas distintivas. Respecto a quién podría ocupar su lugar eventualmente, todavía no decidimos, sin embargo, podríamos considerar reintegrar a alguien conocida previamente. Sobre la realización de una mini-serie basada en el conjunto, existen numerosas ideas pendientes de negociarse'."
+    }
+]
+```
+This extraction focuses solely on segments identified as having substantial journalistic value based on their context within the provided input. Other sections such as schedules, website links, and unrelated fragments were excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/peru21/2014/03/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "Inspección frustrada en antiguo mercado",
+        "content": "Na — que llegaron a inspeccionar el exmercado para evaluar\nel grado de \nisalubridad—fueron impedidos de ingresar.\nAnte ello, se levant un\ñacta para advertir que la zona\nrepresenta un alto riesgo para\nla salud pública."
+    },
+    {
+        "headline": "Asfixia fatal durante el Día de la Mujer",
+        "content": "Uno nuevo feminicidio se \nprodujo ayer, precisamente en el\nDa Internacional de la Mujer.\nUna joven de 25 años fue \nsinada por su pareja en un \nhotel ubicado cerca de la Plaza\nSan Martín, en pleno Centro\nde Lima.\nEl cuerpo fue encontrado\na las 9:00 de la mañana en la\nhabitación 21 del hotel San\nMartín, situado en la avenida\nNicolas de Pierola 882.\nSe supo que la víctima\n—quién aún no ha sido \nidentificada—habría sido asfixiada.\nElla ingresó al hospedaje con\nNelson Chilet (28), quien huyó\nen la madrugada. El sujeto está buscado por la Policía."
+    },
+    {
+        "headline": "Recolección de basuras bloqueada en Barranco",
+        "content": "\"Emape\" reconoce que\nactualmente no cuenta con los recursos\nfinancieros para proteger la\nCosta Verde en el tramo \ncorrespondiente a Barranco. Además,\nel último viernes, Barranco informó que\nno iba a acatar la disposición de la\nMunicipalidad de Lima sobre el cierre de la vía\nen el tramo entre la Bajada de Agua Dulce\ny la Bajada Armendariz, debido a que no tenía\npresupuesto suficiente. También señaló que\nLima estaba evadiendo su responsabilidad ya que\nse trataba de una vía metropolitana."
+    },
+    {
+        "headline": "Propuestas legislativas para combatir femicidios",
+        "content": "El Ministerio de la Mujer y\nProtección Familiar informó que evaluaba presentar un\nproyecto de ley para que quienes sean denunciados por\nviolencia machista lleven grilletes electrónicos\ncomo medida preventiva. \"Nos gustaría incorporar esto\ncomo herramienta más eficaz\", menciona Marcela Huaita,"
+    },
+    {
+        "headline": "Rescate de peruanos explotados en Brasil",
+        "content\": \"Decenas de peruanos que\nlabraban bajo condiciones similares a la esclavitud en un\ncentro de costura en São Paulo fueron liberados por autoridades\nbrasileñas.\""
+    }
+]
+```
+This JSON contains extracted information about significant events reported within the provided text while adhering strictly to the specified format requirements for headlines and contents. Articles were identified based on their thematic significance and narrative structure. Non-article sections such as ads, sports scores, etc., have been excluded according to guidelines.

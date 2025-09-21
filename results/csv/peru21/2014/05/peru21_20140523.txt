@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/05/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "Ejército da golpe de estado y decrea el toque de queda",
+        "content": "En Estados Unidos y la Uni\u00f3n Europa condenan el hecho y piden el pronto \nrturno a la democracia.\n\nBANGKOK (Agencias).\u2014 El ej\u00e9rcito tom ayer el poder en tailandia. Despu\u00e9s de ocho meses de crisis politica e inten-tos de re-concilaci\u00f3n entre el bi-gov-ierno y la oposi-cin, los cargos die-ron un gol-pe de estado, re-vocaron la Cons-tituci\u00f3n, de-cr-e-a-n-un toque de qui-era e ins-trau-rian un Co-mando Na-cio-na-l pa-ra la Pa-z y el Man-te-nimi-en-to, a fi-n de go-bear la na-ci-on asi-at-ca.\n\nTra-s de sos-pender las li-bre-dades indivi-duales, el ej\u00e9r-cito ordeno-al pri-me-ro mini-stro ra-percio, Ni-wat-tum-rom Bo-onsongpa-san, y a su gobi-erno \"pre-sentar-se\" ante el nue-vo rgimen. Tam-bin or-den-o a los manifes-tantes pro-y go-be-rnan-tes, que oc-upa-ban diferen-tes lu-gars-de Bang-kok, que vu-el-an a ca-sa,\ny pro-hibi-do to-da con-centrac-in de mas de cin-co perso-nas."
+    },
+    {
+        "headline": "China Presidente chino dijo que castigar a terroristas y EE.UU. Condon el ataque",
+        "content": "\nMU-ROMO!\n(AGENCIAS)\u2014 Al menos 31 personas muertas y 94 he-ridas dej ayer un atenta-do en la capi-tal de la re-gin au-tonoma de Xin-jiang, ocurri-do por el cho-ce de dos cam\-ne-os y la explo-sin de uno de ellos en un atesta-do mer-ca-do calle-jero\ndel noro-es-te de Chi-na.\n\nEl ataque, con-side-rado el ms cruento de una seria de inci-dientes violen-tos, fu-e du-chido por las auto-rida-des nas a ext-re-mis-tas separatis-tas de la mi-no-ra mus-ul-man-uiga ur, los cuales quiere pon-fin a la domi-nacio chi-ne sa en la re-gin. El go-bierno re-gio-nal de Xin-jiang-califi-c el he-cho co-mo un \"grave in-ci-dient-te ter-rista, vo-lien-to de una natu-le-tra-parti-cu-la-men-te vil\".\n\nEl pre-si-dente chi-ne-so, xi ping, se com-pro-meti-a ga-ar ve-ren-tere a los ter-rios-tas\", se-gun la age-nia xihna.\n\nEn tan-to, la Ca-sa blan-qa califica de \"atroz\" el aten-ta-do.\"Se tra-ta de un acto de vo-lien-cia abye-to y es-can-da-lo-so contra ci-ves ino-cen-tes\", declar ja-y car-ney, porta voz de la Presi-denciade Es-tados uni-dos."
+    },
+    {
+        "headline": "Brasil Luiz Lula Da Silva Expresidente Dice Sudamerica No Puedede Retroceder",
+        "content": "\"...en los ul-ti-mos 80 aos se registraron 18 golpes de estado en Tailanda. El mo tuvo lugar en 2006 contra el exprime-ministro Thak-shin Shinawa-tha...\n\nNuevo Autoridades Castrenses Nun-Cezanan Con Bi-O Querer Las Redes Sociales Que Incitan A La Violencia O Critican Golpe De Estado.\n\nToque De Queda Desta El Caos En Bangkok Donde Registraron Numerosos Em-botella-Mientos.\n\nCon-Dena In-Terna-cio-Nal Secretario Estadounidense John Kerry Hizo Llamado Para Fundación Im-mediate-Ga De Gobierno Ci-Vial Retorno Rapido A Proces Democrita Legiti-Mo. Por Su Par-te Sec-retari General De Las Naciones Una-Banas Ban Ki Moon Re-clamo Di-logo Para Res-ti-tucion Go-bierno Demo-critico...."
+    },
+    {
+        "headline": "España Alcalde Llama Mierda A Los Inmigrantes",
+        "content": "ES-PAA-(DA PA)-El alcalde de Ses-tao,en el nord-e de Es-paa,a-git la po-lmia ayer al llamar \"mie-nda\" a los in-mi-gran-tes, a los que se nie-go empadro-nar.-\"La mie-nda ya no vie-ne a Ses-tao;si no,e cha yo y ya me encarg-o yo de que seva-len a ba-se de hos-tias\", di-jo Josu Ber-gara en una ri-nin. Sus pa-labras causaron in-di-ga-ci-on en el pais."
+    },
+    {
+        "headline": "Centro Metropoli-tano Blues Cada Semana Saltan Noticias Hechos Metro-politano",
+        "content": "...dos hombres golpearon a un vigila-nte, una pa-liza a un ciuda-dan espanol, usuar-ios que reco-mi-nan-rescin-ta de conduc-tor de de-terminar-se a causa de fal-las en fre-nos etc. La mayo-ra de estas es-cenas tran-das en vide-o--son violent-as y mue-stran la agre-sivi-dad de vida cotidia-na de la capi-tal.\n\nMetro-po-lite-nio es nu-ev-o spa-cio pub-li-co en Li-ma.No es sola-mente un servicio de transporta-masa; es,sobre to-do,lugar inte-racci-n de mi-les de habitant-es.Tru-xilo de pas-il-lo-s y ne-s cir-culan el lim-eo me-dio contempo-rneo,qui-en se des-plaza por la ciu-dad(en trabaja-o o estudio)sims-imado en tel-fono inteligi-nt.e, conte-niendo la ra-bia de frus-tra-cions dia-rias qeu exploten ante pri-mera o-portuni-dad."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while filtering out irrelevant sections like financial data and repetitive information about pensions. It adheres strictly to the provided format requirements for each entry within the array.
+
+--- ERROR ENTRY: data/txt/peru21/2014/05/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "Delincuencia financiera atribuida a Alejandro Toledo",
+        "content": "De hecho, del delito de lavado de activos, el autor intelectual, el que ha maquinado todo esto, sin ninguna duda es Alejandro Toledo. Nosotros vamos a insistir en que este tema se siga, no estamos de acuerdo con esta resolución que ha emitido la Fiscalía. Además, el autor intelectual es Alejandro Toledo.\n\nNosotros exigimos que el expresidente Alejandro Toledo debe estar implicado porque no se ha podido demostrar que el dinero provenía de su amigo Josef Maiman; entonces, es claramente demostrable que ha venido de la corrupción de la gestión de Alejandro Toledo."
+    },
+    {
+        "headline": "Polémica por proyecto que sanciona transfuguismo",
+        "content": "Parlamentarios protagonizaron enfrentamientos verbales y trataron de bloquear propuesta. Los ánimos caldeados. El debate de un proyecto para sancionar a los parlamentarios que renuncian a las agrupaciones políticas o alianzas electorales por las cuales fueron elegidos provocó ayer acalorados encuentros en el Pleno del Legislativo. Imprimir con calidad ahora cuesta menos."
+    },
+    {
+        "headline": "Orden de captura relacionada con homicidio abre investigación",
+        "content": "Con la orden de detención de 29 personas por un supuesto vínculo con el asesinato de Ezequiel Nolasco, emitida por el Tercer Juzgado Penal Nacional, se ha abierto lo que debe resultar en una investigación, no por demorada, menos ejemplar. No hay que olvidar que Cesár Alvarez, presidente del Gobierno Regional de Ancash, ocupa el cargo desde hace 7 años: cuatro del gobierno Aprista y casi tres del actual. \n\nPero no hay que considerar que es un problema de “provincias”, del centralismo o de la descentralización: la cuestionada gestión edil del distrito de San Juan de Lurigancho es una muestra de que también es un asunto más, originado en debilidades institucionales, falta de respeto por lo público, anómico funcionamiento de los sistemas de control y el desinterés generalizado por el ejercicio de la política como servicio público."
+    },
+    {
+        "headline": "Congresista Daños Dios cuestiona demora en elaboración de conclusiones",
+        "content": "“Fallo a favor de Uribe no debe afectar el informe de Ética’’, afirma Mesas Guevara. ‘‘Mesa Guevara afirma que votará según los indicios, independientemente del Ministerio Público.’’\n\nLa resolución del Ministerio Público que archiva la causa a la parlamentaria nacionalista Cenaida Uribe ’’de ninguna manera'' deberá afectar la decisión de la Comisión de Ética respecto al caso de Punto Visual, señaló ayer el congresista Juan José Daños Dios (FP).\n\n“Existen un tema claro. Si bien todo delito implica una falta ética, que no haya delito nos significaría que no existe falta ética. No tendríamos por qué darse un archivo de inmediato'', señaló a Perú21."
+    },
+    {
+        "headline": "Investigación sobre vinculación de figuras públicas con narcotráfico",
+        "content": "“Hay evidencia suficientes de faltas éticas.” Por otro lado, el legislador Mesas Guevara (Acción Popular) aseguró que votarán en la Comisión de Ética de acuerdo a los indicios, independientemente de lo resuelto por la Fiscalía, pero advirtió que solicitarían que la resolución fuera enviada a los miembros de ese grupo de trabajo para su análisis.”
+    },
+    {
+        "headline": "Grupo presenta propuestas a comisión evaluadora",
+        "content": "Candidatos a defensor. La Comisión Evaluadora de candidatos a Defensor del pueblo se reunirá hoy para evaluar los nombres de posibles aspirantes al cargo que, desde marzo de 2011, ocupa temporalmente Eduardo Vega. Transcurrido este tiempo aún no se presentan las conclusiones. "
+    },
+    {
+        "headline": "Demanda penal interpuesta contra gobernador por irregularidades",
+        "content": "Denuncia al gobernador de Conima, Man Cahuapausa, quién habría estado cobrando S/1 por la entrega de kits de abrigo a beneficiarios de esa región. \"El gobierno no va a tolerar irregularidades en la entrega de 250 mil kits a nivel nacional\", afirmó a Perú21 la titular del sector, Carmen Omonte."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria and data cleanup requirements. Note any missing information has been marked appropriately according to the rules specified.

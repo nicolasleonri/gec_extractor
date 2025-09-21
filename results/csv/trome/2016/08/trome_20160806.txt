@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/08/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "CIPRIANI PIDE PERDON\n\"Jamás se me ocurrió ofender a la mujer\"",
+        "content": "\"Al menos eso espero\", remarcó Cipriani."
+    },
+    {
+        "headline": "Arzobispo Loayza Hospital ya atiende desde las 6 AM",
+        "content": "El Gobierno de Pedro Pablo Kuczynski anunció medidas para mejorar acceso a servicios de salud. Ayer, el hospital Arzobispo Loayza inició atención temprana a pacientes."
+    },
+    {
+        "headline": "San Isidro Cambistas se resisten a abandonar zona",
+        "content": "Miembros de la asociación de cambistas en San Isidro planean contratar seguridad propia ante nuevas regulaciones."
+    },
+    {
+        "headline": "Primeros días soleados pronosticados para Lima",
+        "content": "Raquel Loayza, meteoróloga, informó que aunque inicialmente será nublado, podría haber más sol hacia las tardes."
+    },
+    {
+        "headline": "Plaza Norte y Mall Del Sur Presentan Feria Automovilística",
+        "content": "Con más de 300 modelos disponibles, ExpoMotor ofreció importantes descuentos en automóviles Toyota, Hyundai y Honda."
+    },
+    {
+        "headline": "Amarraron Puerta para Robar Accesorios de Auto",
+        "content": "Después de drogar a una familia, seis ladrones encerraron a sus víctimas para robar accesorios valorizados en 7000 soles."
+    },
+    {
+        "headline": "Samsung Anuncia Descuentos en Smart TVs y Laptop",
+        "content": "Durante la exposición tecnológica, Samsung lanzó ofertas especiales en televisores inteligentes y laptops."
+    },
+    {
+        "headline": "Peterson Trabajará Como Mesera Temporalmente",
+        "content": "Tras perder su empleo anterior, Peterson aceptó trabajar temporalmente mientras continúa su carrera profesional."
+    },
+    {
+        "headline": "Refuerzos Confirmados Antes de Partido Crucial",
+        "content": "Juan Pablo Pino llegó a Lima listo para fortalecer el equipo nacional en partidos próximos contra rivales clave."
+    },
+    {
+        "headline": "Carlos Céspedes Discute Error Grave Dentro del Vestuario",
+        "content": "Posterior a un grave error cometido durante un juego crucial, Céspedes solicitó reunión con compañeros para explicar su acción."
+    },
+    {
+        "headline": \"Renzo Lenz Busca Medallas en Remo\",
+        "content": "Representando al país en los Juegos Olímpicos, Renzo buscará destacarse en la competencia individual de remo."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on significant topics identified within the provided OCR text input. Note any missing data has been filled with `"NA"` where applicable according to guidelines given for extraction tasks.

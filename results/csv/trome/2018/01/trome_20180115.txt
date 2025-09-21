@@ -1,0 +1,43 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/01/trome_15.txt ---
+
+```json
+[]
+```
+The provided input does not include any recognizable headlines followed by substantial journalistic content based on the defined criteria for extraction. Therefore, there's nothing suitable to format according to the specified requirements. As such, I've returned an empty JSON array indicating no extracted articles were found within the given constraints.
+
+--- ERROR ENTRY: data/txt/trome/2018/01/trome_15.txt ---
+
+```json
+[
+    {
+        "headline": "Alianza Lima",
+        "content": "X Luis Surez g Messi acabaron con 11 anos sin triunfos en San in X Barcelona perda 2–0, volte\n4–2 y sac 19 puntos a Real Madrid\nan Sebastin.– Son cazafantasmas de maldiciones. Exterminadores con \nm chim\npunes en los pies. Lionel Messi y Luis Surez se juntaron para acabar con onze\nos que tena el Barcelona sin poder ganar en casa de la Real Sociedad. ‘Barza'\n[1.o con 51) remont un 0–2 para vencer 4–2 y mantenerse como nico invicto en\nEuropa, Y si algo faltaba: el Real Madrid est 19 puntos atrs.\nEl cierre de la primera ronda de la Liga no pudo tener mejor show. El local adelant con tantos de\nWillian Jos (11) y juanmi (34”), pero el descuento de Paulinho (39') le dio vida a los catalanes. \nPape\nreci Surez para acabar con la racha de no poder anotarle a la Sociedad de visita: el primero, un\ngolazo (501) y despus, engaando al portero rival [71”).\nLa cereza al postre la puso Messi con un extraordinario tiro libre a los 85 Listo, adis 'maldicin\nde Anoeta."
+    },
+    {
+        "headline": "Luís Suárez llega a seis jornadas consecutivas MARCA",
+        "content": "*MESS| Ua 0 CFISII8PO como ngad [ CON – el programa 'El Larguero!', el titular merengue Florencio Que’ So’ Ill’0 bre n la Liga e ti mos tino Presz quiere s o s a Neymar y ya está cansado\nde las exigencias y bajo nivel de Cristiano. Por su \np dL | defl ntaba dos g0|95 de te, el mismo 'Ney' ya le habrá dicho al presidente del renca desde ar|_ 014, cuando super Madrid que solo iría a la 'Casa Blanca' si Ronaldo se va, ya que no desea compartir el protagonismo\ncon nadie, Otro detalle que cerrará el negocio\nes que el dueño del PSG, Nasser \nA—Khefaifi gusta mucho de 'CR7, a quien\nya intent fichar en el pasado."
+    },
+    {
+        "headline": "GUARDIOLA Y MANCHESTER CITY pierden momento en Inglaterra",
+        "content": "IVERPOOL.- Para todo veneno, hay un antidoto. Y para Pep” Guardiola existe Jurgen Klopps. El técnico alemán volvió a ganarle al español y de paso,\nLiverpool (3.o con 47) acab con el\ninvicto de 30 partidos en Liga Premiers que llevaba el Manchester City (1.o con 62)\nEs la sexta ocasión en la que Klopp vence a ’Pe’, máxima cantidad que un DT tiene ante Guardiola. Además, se convirtió en el primer entrenador\nen marcarle cuatro goles a un equipo del catalán por segunda vez, algo que no han podido Mourinho, Ancelotti, Conte ni Zidane. La primera vez fue en la Copa de Alemania en el 2013, cuando Borussia Dortmund se impuso 4–2 al Bayern Munich.\nEn Anfield, el City sucumbió ante sus propios errores, El terrorífico de los Beatles Firmino, Salah y Mane arrasaron a su rival, El local adelant con\nAlex Oxlade-Chamberlain (9'), pero el City empató gracias a Leroy Sané (41"). Luego llegó la avalancha de los Red Devils, que desató la fiesta con goles de Firmino (59"), Mane (61") y Salah (68"). Los pupilos de Guardiola vendieron caro su derrota descontando con Bernardo Silva (84”) y Gundogan (90)”."
+    },
+    {
+        "headline": "DYBALA Y MALUMA JUNTOS EN DESFILE DE MODELS",
+        "content": "Melbourne.— El actual número dos del mundo y vigente campén del Abiertos la Juventus, el delantero argentino Paulo Dybala, se dio el gusto de juntarse con el cantante de moda, el reguetonero colombiano Maluma, en el marco del Fashion Week de Milan. Dybala desfiló un exclusivo traje en su debut como modelo para Dolce & Gabanna; mientras Maluma interpretó su éxito Felices los Cuatro.”
+    },
+    {
+        "headline": "ALEXI GÓMEZ SIN BRÚJULAS EN ATLETICO DE MADRID",
+        "content": "Madrid.— Alexi Gómez no encuentra el rumbo en Atlético de Madrid, al que llegó hace algunas semanas. Tras la tercera caída seguida y su opaco desempeño, la 'Hiena' fue el foco de las criticas. Ayer jug sólo el primer tiempo en el 3–1 que sufrió Atlético (17.o con 18) en casa de Rayo Vallecano (1.o con 28).\n‘Es un pobre jugador, no gana ni un mano a mano’. ‘Parece un muerto’. ‘No aporta al equipo’, fueron algunos comentarios en Twitter de los aficionados."
+    },
+    {
+        "headline": "PAULO GUERRERO ENTrena CON TENIS",
+        "content": "Brasil.— Sorprendió a sus fans al seguir su preparación física jugando al tenis. Flamengo ya no pagará más su salario. Actualmente juega en Lokomotiv Moscú después de haber estado detenido por FIFA debido a infracciones disciplinarias relacionadas con dopajes."
+    },
+    {
+        "headline": "JORRY REYNÁS CAMBIÓ RADICALMENTE DE LOOK",
+        "content": "Canadá.— El delantero venezolano del Vancouver Whitecaps FC, Jorry Reynás, cambió drásticamente su apariencia siguiendo consejo de la influencer digital Johana Cubillas. Ahora presenta un nuevo estilo rubio audaz compartido ampliamente en redes sociales."
+    }
+]
+```

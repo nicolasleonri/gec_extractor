@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2014/09/publimetro_12.txt ---
+
+```json
+[
+    {
+        "headline": "Valerie Dínez presenta consejos de belleza para la temporada",
+        "content": "Para delineado, empieza en el punto donde está el iris del ojo hacia fuera para que el trazo se vaya ensanchando hasta llegar a la esquina exterior del ojo. Utiliza trazos cortos.\nPestañas\nUtiliza un rizador para moldear tus pestañas y coloca rimel negro.Rubor y Labios\nEn cuanto a la aplicación de rubor en mejillas, sigue los mismos pasos que en el look ‘Piel Radiante’. Mientras tanto, en los labios, puedes utilizar un gloss de color suave. Recuerda que en este make-up tus ojos son los protagonistas y no tus labios."
+    },
+    {
+        "headline": "'PAYASO', SHOW DE IMPROVISACIÓN TEATRAL PARA TODA LA FAMILIA",
+        "content": "Parte de su programa Circo en Tu Parque, la municipalidad de Miraflores invita mañana a las 5 p.m. al Show Payaso, un espectáculo de teatro e improvisación con buenas dosis de humor. El show será dirigido por el mimetizado y clown peruano Manchi Ramírez.Sábado 20 de Setiembre.La tarántula de Pulchinello (cuentacuentos).\n*Sábado 27 de Septiembre.Travesuras (mime y clown)\nLa cita es en el centro cultural Santa Cruz (calle Mariano Melgar 247, Miraflores) y el acceso es completamente gratuito. Los siguientes sábados también tendrán funciones gratuitas."
+    },
+    {
+        "headline": "ESTRENARÁ HOY EL CENTRO CULTURAL PERÚ-JAPÓN CON \"EL HOMBRE DEL SUBSUÉLO\"",
+        "content": "\"Basada en una novela de Dostoievsky.\" Actúan Pietro Sibille, Guillermo Castaeda, Andrea Luna, Juan Carlos Pastor, Alex Mori y Mariano Sabato. Esta obra relata la historia de un funcionario público que decide abandonar su empleo, desencantado ante la corrupción reinante. Decide retirarse no sólo de su puesto, sino también de la sociedad y romper vínculos sociales. Tras recibir noticias de una herencia, opta por vivir modestamente lanzando críticas morales mediante cámaras de vídeo.El precio de admisión es S/.50. Entrada reducida para estudiantes y jubilados. Funciona todos los días excepto domingos."
+    },
+    {
+        "headline": "EXPOSICIÓN COLECTIVA INAUGURA HOY AL CAER LA TARDE EN EL CC RAMÍREZ PALMA",
+        "content": "Organizada bajo la curatoría de Christian Bendayan y Giuliana Vidarte, la exposición colectiva titulada “De su largo llanto se formó el Amazonas”, inaugurará hoy a las 7:30 p.m. en el Centro Cultural Ricardo Palma. Reuniendo obras de 22 artistas peruanos, explora diferentes técnicas artísticas buscando cubrir discursos ausentes acerca de dicha región geográfica. Las visitas están permitidas de manera gratuita durante los próximos meses."
+    },
+    {
+        "headline": "SE PRESENTA HASTA ESTE DOMINGO LA MOSTRA \'INKARRI\' EN GALERA ENLACE SAN ISIDRO",
+        "content": "Exhibiciones fotográficas y diseño gráfico exploran el mito de Inkari, reinterpretándose como símbolo de resistencia contra el avance modernizador. Curada por Sebastian Burgo y José Aburto, permanecerá disponible hasta el próximo lunes 15 de setiembre. Acceso libre garantizado."
+    },
+    {
+        "headline": "LAS PEQUES SUPERHEROÍNAS QUE VIENDRÁN PRÓXIMAMENTE",
+        "content": "Anunciadas fechas clave para películas de superhéroes incluyen:\nMarzo 25: DC May revelará nuevas aventuras de Batman y Wonder Woman.\nMayo 3: Marvel sorprendirá nuevamente con Captain America: Civil War.\nJunio 26: Continúa la saga de Guardianes de la Galaxia.\nNoviembre 24: Prevé grandes eventos cinematográficos relacionados con franquicias establecidas."
+    },
+    {
+        "headline": "MISTURA DESPEDIDA ESTE FIN DE SEMANA CON OFERTAS COMERCIALES Y EVENTUALES ACTIVIDADES",
+        "content": "Este evento culmina tras mostrar más de 240 expositores distribuidos en distintos sectores temáticos. Actividades adicionales incluirán conferencias sobre cocina regional y entrega de distinciones a chefs sobresalientes. Información adicional accesible online respecto a precios y ubicaciones específicas dentro del festival."
+    }
+]
+```
+This JSON captures key information about each identified article while adhering strictly to the provided guidelines for extraction and structuring. Note how non-article elements like ads were excluded based on their nature not fitting within defined criteria for inclusion.

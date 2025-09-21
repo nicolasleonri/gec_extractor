@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/06/peru21_03.txt ---
+
+```json
+[
+    {
+        "headline": "Fiscaliz detecta inconsistencias en versión de Nadine Heredia",
+        "content": "\"Además de los envíos de dinerode una empresa venezolana durante 2005 y la sospechosa\nutilización de una tarjeta de crédito a nombre de otra \npersona, la investigación fiscal por\ndelicto de lavado de activos a Nadine Heredia encontró\ninconsistencias en la versión de la primera dama sobre la\njustificación del dinero que recebia por supuestas consultorias,\nségun fuentes judiciales.\nEn un caso, tras revisar la carpeta fiscal No 122–09 –que contiene la indagación que fue archivada en 2010– se detectó que son distintas las partes del texto, la estructura y una de las firmas de los contratos presentados por Heredia y Arturo Belaunde Guzmán, quién le entregó más de US$50 mil aparentemente por un estudio de mercado sobre el uso de palma aceitera, entre los años 2006 y 2007."
+    },
+    {
+        "headline": "Lescano presenta iniciativa en el Congreso",
+        "content": "\"Formalizan pedido para investigarla\nEl parlamentario Yonhy Lescano (AP–FA) present ayer una moción con el fin de que el Pleno del Congreso apruebe la conformación de una comisión especial para investigar las ‘operaciones chanchudas’ (transferencias bancarias y finanzas) de Nadine Heredia, primera dama y presidenta del Partido Nacionalista. El pedido plantea una indagación por 180 días, en la cual se incluyera al entorno de Heredia, eso significa familiares y amigos.”
+    },
+    {
+        "headline": "Contradicción en compra personal con tarjeta de Crédito",
+        "content": "\"Contra dicción\nEn tanto, Nadine Heredia conoci ayer que había hecho compras personales con la tarjeta de crédito Platinum adicional que le facilitó su amiga Rocío Calderón Vinatea, asesora en la Presidencia de la República. Dej entre ver que el 30% (US$11,400) de los más de US$33,000 usados en adquisiciones de productos de lujo con esa tarjeta fueron destinados para ella, según una vista publicada en el blog rosamariapalacios.pe. Pero esto se contradice con la versión brindada por su abogado Eduardo Roy, quien sostuvo que lo adquirido en el exterior con la tarjeta ’no fue para ella, sino para su amiga’.\""
+    },
+    {
+        "headline": "Interrogantes sobre Dinero para fuga de Belaunde",
+        "content": "\"Ex asesor deberá responder sobre procedencia de dinero para su fuga en Bolivia. Ramiro Guerrero, fiscal General de Bolivia, aseguró que el millón de dólares que Martin Belaunde Lossio utilizó para financiar su fuga en Bolivia llegó de los Estados Unidos y de Colombia. Detalles específicos mencionan vehículos oscuros dejándose abandonados como parte de una venta, como pacto de rescate o como préstamo.\""
+    },
+    {
+        "headline": "Procura anticorrupción anticipa duración del Juicio Oral",
+        "content": "\"Joel Segura, procurador anticorrupción, señaló que el juicio oral a Belaunde comenzará en 2016 debido a la complejidad del caso. Hay 69 personas implicadas, y están organizando equipos para trabajar de forma coordinada. Probablemente empecemos el próximo año.”"
+    },
+    {
+        "headline": "Ministerio de Defensa instala Radar Operativo",
+        "content": "\"Titular de Defensa asegura que, desde el 10 de mayo pasado, han detectado 47 aeronaves ilegales. Jakke Valakivi, Ministro de Defensa, destacó la importancia del radar TPS70 para el monitoreo anti-drogas en el Vraem, capaz de cubrir 240 millas náuticas aproximadamente 450 kilómetros. Desde su operatividad, ha detectado principalmente aeronaves provenientes de Bolivia y Brasil.”"
+    },
+    {
+        "headline": "Informe WJP muestra Retroceso Peruano en Indicadores de Corrupción",
+        "content": "\"La Organización World Justice Project reportó que el Perú cae en posición dentro de América Latina en cuanto a transparencia y derechos humanos básicos. Este descenso evidencia problemas sistémicos relacionados con la gobernabilidad y aplicación de políticas públicas adecuadas para enfrentar estas problemáticas sociales.”"
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines. Articles were identified based on distinct topics within the document's flow, ensuring each entry represents unique journalistic material.

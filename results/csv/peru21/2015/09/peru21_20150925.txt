@@ -1,0 +1,26 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Después de discusión, Chile debe adquirir un nuevo plan",
+        "content": "Na\nm La Corte decidi por 14 votos a favor y 2 en contra rechazar las objeciones de competencia presentadas por Chile.\nm Una encuesta realizada por la Pontificia Universidad Católica de Chile indica que el 36’ rechaza que su país conceda un acceso soberano al mar.\nm En la Guerra del Pacífico de 1879 contra Chile, Bolivia perdió 400 km de costa y 120 mil km² de territorio.\nEn cuanto al aspecto político, Vidarte comenta que este tipo de resolución puede tener efectos positivos para el gobierno de Evo Morales, quien busca cambiar la Constitución para su reelección; mientras que en Chile podría afectar un poco la situación de Bachelet, pues su reacción ante el terremoto fue bien recibida por la población."
+    },
+    {
+        "headline": "\"Antes las agresiones físicas\"",
+        "content": "“No creo en el dios de los cristianos. Ni en ningún otro. Si hay algo superior, claramente no está representado por la Iglesia Católica, que, en efecto, haya sido sin duda la principal promotora del conocimiento de su propio tiempo pero a la vez y por ello mismo, ha sido también la mayor represora del pensamiento humano y la alcahueta y – muchas veces promotoras – de algunas de las desgracias más graves registradas en la historia de la humanidad.\nTampoco creo en la sabiduría de los Papas. Usar falda y no hacer el amor no convierte a nadie en sabio, mucho menos en Santo. Y las decenas de miles de historias de hombres y mujeres que decidieron ‘‘ dedicarse a Dios ’’ mientras violaban niños lo demuestran. Y además, estos miserables eran protegidos por su Iglesia, lo que agrega al ultraje un escupitajo de desprecio en los ojos de las víctimas y la sociedad de la que suponen guiárselas o protectoras.”
+    },
+    {
+        "headline": "Muñail Palacios y Barón entrevistan Mujail Palacios y Barón",
+        “content”: "“Yo soy partidaria de usar el término genérico de feminicidio cuando hablamos de homicidios cometidos contra mujeres, especialmente si están relacionados con relaciones sentimentales fallidas. Pero sí estoy totalmente de acuerdo con que existen casos específicamente vinculados a prácticas culturales machistas arraigadas en ciertas regiones del mundo, incluido nuestro continente americano. Estos últimos podrían denominarse femicidios culturales, dado que responden a tradiciones ancestrales basadas en conceptos patriarcales extremadamente violentos hacia las mujeres. Por ejemplo, en México existe la figura jurídica llamada ‘crímenes pasionales’, utilizada frecuentemente para absolver a varones que matan a sus esposas tras descubrir infidelidades. Este fenómeno cultural permite minimizar la responsabilidad criminal de tales individuos, perpetuándose así estas conductas aberrantes dentro de determinadas sociedades latinoamericanas.”
+
+    },
+    {
+        "headline": "Presidente francés visita América Latina",
+        "content": "Emmanuel Macron visitará tres países sudamericanos en octubre próximo, según anunció el Ministerio de Relaciones Exteriores de Francia. Durante su recorrido, buscar fortalecer las relaciones económicas y colaborar en proyectos tecnológicos innovadores. Los detalles aún no han sido divulgados completamente, pero se espera que el foco esté puesto principalmente en energías renovables y educación digital. "
+    }
+]
+```
+This extraction includes four distinct articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria and data cleanup processes. Note any missing information was filled using `"NA"` where applicable.

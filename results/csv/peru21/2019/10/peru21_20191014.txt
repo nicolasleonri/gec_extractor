@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/10/peru21_14.txt ---
+
+```json
+[
+    {
+        "headline": "Henry Sullivan y Barclay: Una historia política",
+        "content": "Amigo desde los tiempos de \"La Prensa\", Henry Sullivan ayuda a organizar su aventura política. Abrazó el peligro con espíritu pirata. En pocas semanas, logró que un partido político les apoyara y reuniera en un club aristocrático a doce hombres poderosos, a quienes invitó a financiar la operación política de Barclays. Uno de ellos, ejecutivo de una constructora, ofreció un préstamo de un millón de dólares.\n\n\"Es un préstamo,\" advirtió. \n\- ¿Cómo nos lo pagaríamos?, preguntó Barclays.\n\n-Barclays pensó que no debían aceptar ese «préstamo veneno» y lo rechazó. Organizó una fiesta y mencionó que Barclays tenía ‘novia’. Uno de los asistentes difundió el rumor, provocando que Barclays, ofendido, terminara su amistad con Sullivan y decidiera no postularse a presidente, considerándose más un escritor que un expresidente."
+    },
+    {
+        "headline": "Empresas avícolas planean exportación internacional",
+        "content": "\"Las empresas avícolas están preparando un plan para exportar aves y huevos a mercados internacionales.\" Comenta el Presidente de la Asociación Peruana de Avicultura, Apolonio Suarez, explicando que el gremio está trabajando en un proyecto piloto en la costa norte peruana, buscando obtener reconocimiento sanitario mundial para comenzar enviando productos a EE.UU., posteriormente expandirse hacia Asia y Europa. Proyectan culminar estos planes dentro de cinco años, estableciendo puntos de producción destinados específicamente para exportación en toda la geografía nacional."
+    },
+    {
+        "headline": "Incremento en la calidad de productos avícolas impactará precios",
+        "content": "El aumento en la calidad de los productos avícolas influirá directamente en el ajuste de precios de aves y huevos. \"Los precios irán a la baja gracias a la mejora en la competitividad, beneficiando así al consumidor final,\" afirma José Vera, presidente del comité productor de huevo de la APA. Esta estrategia forma parte del marco discursivo durante el 26° Congreso Latinoamericano de Cultura – OVUM 2019."
+    },
+    {
+        "headline": "Protestas en Ecuador derivan en derogación de decreto económico",
+        "content": "El gobierno ecuatoriano anunció la revocatoria del Decreto 883, eliminativo de subsidios al combustible, después de negociaciones exitosas con movimientos indígenas. Esto marca el término de manifestaciones violentas que duraron 12 días, resultando en varias víctimas mortales según reportes de la defensoría pública. Ahora, el objetivo gubernamental será implementar nuevas medidas enfocadas en dirigir fondos públicos a sectores realmente vulnerables."
+    },
+    {
+        "headline": "Trump ordena salida completa de tropas estadounidenses de Siria",
+        "content": "Mediante órdenes firmadas por Donald Trump, se procederá al repliegue completo de militares estadounidenses ubicados en el noroeste de Siria. Esta acción surge ante preocupaciones de escalada bélica entre Turquía y combatientes kurdo-sirios aliados de EU. Anteriormente, cerca de 30 soldados fueron evacuados anticipatoriamente frente al inicio de hostilidades turcas."
+    },
+]
+```
+This extraction focuses solely on significant journalistic pieces within the provided text while adhering strictly to the outlined criteria for inclusion/exclusion. Other sections such as ads, promotions, and non-journalistic information have been omitted according to guidelines.

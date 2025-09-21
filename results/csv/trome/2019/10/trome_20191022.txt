@@ -1,0 +1,84 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/10/trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "Indira emocionada con ‘La frase’",
+        "content": "La sexy Indira está emocionada con 'La Frase Ganadora la nueva y más regalona promoción de\nTrome, Serán premiados tres mil de nuestros lectores con dinero en efectivo por más de 300 mil\nsoles y, lo mejor de todo, cuatro se llevarán modernos autos cero kilómetros.\nPues eso, ella reclama\ningunos días con su 'diario pap'.!"
+    },
+    {
+        "headline": "Caídas de la Crisis en Chile",
+        "content": "\"Este Bhó recibe correos de sus jóvenes lectores. 'Bhó, qué pasa en Chile?\nExplicanos a tu estilo.' Voy a ser lo más conciso posible,\nPero lo primero que debo aclarar es que no hay un solo motivo:\nel aumento en el precio del pasaje del metro de Santiago,\nsino que ésta impopular medida fue la gota que derramó el vaso,\nque rebalsó una situación de crisis social y económica que estaba a punto\ndestrucción extrema."
+    },
+    {
+        "headline": NA,
+        "content": "Quienes hemos recorrido Santiago de \nChile, nos sorprendemos por el orden en su transporte público, donde\nsolamente hay tres tipos vehículos: El subterráneo o Metro, que recorre toda la ciudad y desde mediados de 1970 es el principal medio de\ntransporte de la población, A diferencia de Lima, donde hay usuarios\nque nunca han tomado el Metro o el Metropolitano, simplemente\nporque el transporte público aquí es un caos, pues paralelamente al sistema formal hay combis, microbuses, taxis formales o informales, taxi colectivos y mototaxis. Por eso, cuando hubo una subida de cien por ciento del boleto de los alimentadores del Metropolitano, no se escuch ninguna protesta. En Santiago solo hay taxis Remís, de empresas privadas, buses como los de los corredores limeños y el Metro. Por eso un alza en su boleto engloba a vastos sectores de la sociedad. Y a pesar de que la tarifa está subsidiada por el estado según estudios, después de Brasil es el más caro de América Latina. Fueron los estudiantes, secundarios y universitarios, quienes por redes sociales convocaron a 'evasión masiva'[saltearse los controles], pero como fueron repelidos a palazos por las fuerzas especiales decidieron 'asaltar en masa las estaciones'\nTambién hubo infiltrados –los que quemaron el edificio del diario El Mercurio en Viña del Mar– o el oportunismo lumpen delincuencial que optó por el vandalismo y los saqueos."
+    },
+    {
+        "headline": NA,
+        "content": "Protestas por igualdad: Según estudios en Santiago, hay familias de bajos recursos que destinan ¡el 30%! de su salario a transporte, mientras en el sector económico más rico sólo se destina el 2%. Lo que sucede hoy en Chile es que durante el 'Milagro Económico Chileno Autoritario' en la Dictadura Pinochetista de los años ochenta y noventa, surgió y creció una clase media que ahora, con sus pensiones de la AFP de la cual fueron los primeros afiliados, no les alcanza. Sus salarios son bajos, ya que las grandes corporaciones durante los gobiernos Socialistas Prefirieron Exportar sus Capitales y Empresas a países Vecinos con Gobiernos Endurecidos Laboralmente, como el que Les Ofreció Fujimori en los noventa. Son los Hijos de esa Clase Media quiénes le reclaman al Estado Mayor Intervención en la Educación pública, y sus Padres en los Sistema de Salud y Resolver el Problema de Pensiones Irrisorias. Piñera, indolente, llamó 'Delincuentes' a los Estudiantes. La Derecha y la Izquierda, Que se Alternaron en el Poder, Tiene Gran Responsabilidad Ante Ésta He-catombre. Apagué el Televisión."
+    }
+]
+```
+This extraction captures three distinct pieces of journalism based on their headlines and contents while excluding non-journalistic elements like ads and unrelated sections. Note how each entry maintains its structure according to the provided guidelines for extracting relevant information.
+
+--- ERROR ENTRY: data/txt/trome/2019/10/trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "Robo",
+        "content": "La especialista recomienda guardar los ahorros en una entidad financiera.\nInfórmete bien y elije la que se adecúe mejor a tus expectativas, Puedes optar por\ndepósitos a plazo fijo o fondos mutuos, ganándoles más interés."
+    },
+    {
+        "headline": "Clásico Ideal Griego",
+        "content": "El ideal clásico era una piel blanca y delicada,\ncabellos dorados y un maquillaje\ningrávido que no alterara\nlas formas de la cara\nOs griegos eran reconocidos por\nsu belleza inconmovible, facciones\nlineadas, cuerpos estilizados y pieles tersas e\ninmaculadas que los hacían\nparecerse a las esculturas que tanto fama les dieron.\nEste ideal no sólo lo buscaban las mujeres, también\nlos hombres ocupaban su\ntiempo en estas labores."
+    },
+    {
+        "headline": "Secreto de Belleza Antigua",
+        "content": "\"Secretos de belleza en la antigua Grecia\"\nPelo:\nPara tenerlo rubio, solían empaparlo\nen vinagre por las noches y exponerlo\nal sol durante el día siguiente para aclariarlo.\nExfoliación:\nComo los egipcios, los griegos\ntambién usaban sal de mar para exfoliar\nsu piel y nutrirla de minerales. La\nmezclaban con aceite de oliva para\nhumectar.\nMaquillaje:\nPolvos y bases\nPara lograr un cutis blanco y perfecto, usaban\nsoluciones a base de ceras y albaida\n(carbonato de plomo).\nDepilación:\nHombres y mujeres se depilaban\nlas piernas con pastas especiales o\ncon un candil, pues las cuchillas no\nsurgirán hasta un poco después.\nSombras y delineador\nLos ojos los pintaban con azafrán o ceniza.\nLas pestañas y cejas las engominaban\ncon brillantina hecha con clara \nde huevo, goma y amoniaco. Se\ndelineaban los ojos con Kohl\n(galena molida, piedra de plomo)\nLabios y Mejillas\nConsiguen ese brillo característico haciendo\nuna pasta con cinabrio en polvo que ayuda\na mantener el tono más tiempo. Lo malo\nes que este particular polvo era sulfato\nde mercurio, altamente tóxico."
+    },
+    {
+        "headline": "Formación Planetaria",
+        "content": "¿Por qué los planetas tienen esa forma?\nGracias a la fuerza de gravedad. En la formación\nde un planeta, la gravedad atrae la materia en\nforma de polvo y gas, formando una masa.\nEsta comienza a agruparse en torno al centro de\ngravedad que ella misma forma. La gravedad es,\nessencialmente, la fuerza que transforma cualquier\nmasa en una esfera."
+    },
+    {
+        "headline": "Abigail rompe silencio tras terminar relación con Christian Domínguez",
+        "content": "| Abigail Acevedo rompió su silencio sobre los motivos por los cuales terminó su relación con Christian Domínguez, asegurando que borraba conversaciones de WhatsApp y siempre mentía!\n\"Él nunca quería enfrentar problemas\", señaló además que él sí estaba enterado del ampay con Pamela Franco, aunque negó saber cómo había ocurrido realmente. \"Le mintió constantemente, tratando de excusarse.\""
+    },
+    {
+        "headline": "Isabel Acevedo listo para nuevo programa",
+        "content": "\"Ahora soy yo quién está detrás de cámaras», expresó Isabel Acevedo respecto a su participación en un próximo espacio televisivo donde compartirá experiencias junto a su hijo. «He aprendido a manejar diferentes roles dentro de la producción»."
+    },
+    {
+        "headline": "Laura Spoya decide no ampliar familia",
+        "content": "\"Actualmente decidí concentrarme en proyectos profesionales aparte de mi esposo y nuestra pequeña hija,\" menciona Laura Spoya refiriéndose a su decisión de posponer planes futuros de expandir aún más su familia."
+    },
+    {
+        "headline": "Julie Freundt presenta álbum ‘Cumbia Criolla’",
+        "content": "\"‘Cumbia Criolla’ representa una fusión cultural única,” explica Julie Freundt sobre su último álbum, destacando colaboraciones importantes y anticipando críticas constructivas hacia su innovativo estilo musical."
+    },
+    {
+        "headline": "Mayella Lloclla trabaja en próxima entrega de saga histórica",
+        "content": "\"Nos encontramos actualmente desarrollando la tercera parte de 'El Último Bastón’, previsto para filmarse próximamente. Espero continuar contribuyendo significativamente a este ambicioso proyecto," comparte Mayella Lloclla."
+    },
+    {
+        "headline": "Paula Manzanal celebra matrimonio",
+        "content": "\"Celebramos nuestras bodas civiles y planeamos realizar la ceremonia religiosa posteriormente. Mi compromiso con mi futuro esposo y nuestra familia creciente significa todo para mí,\" declara Paula Manzanal llenando de alegría su reciente unión."
+    },
+    {
+        "headline": "Kelín Rivera será Miss Peru Universe",
+        "content": "\"Representaremos orgullosamente al Perú en el certamen internacional Miss Universo,\" anunció Kelín Rivera tras recibir la corona como Miss Perú Universe, marcando así un hito importante en su carrera profesional."
+    },
+    {
+        "headline": "Amy Gutiérrez debuta como actriz",
+        "content": "\"Pronto comenzará mi aventura en la actuación con la serie 'Hualla,’ donde exploraré nuevos talentos y oportunidades creativas,\" adelanta Amy Gutiérrez mientras reflexiona sobre su diversificación profesional."
+    },
+    {
+        "headline": "Israel Dreyfus opina sobre programas de farándula",
+        "content": "\"Considero insensible divulgar detalles íntimos públicamente, especialmente en contextos mediáticos,\" argumenta Israel Dreyfus frente a prácticas populares en algunos espacios de entretenimiento."
+    }
+]
+```

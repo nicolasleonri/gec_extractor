@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/11/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "Recordada intriga",
+        "content": "Polémica que hizo Wendy Sulca crítica ‘La Tigresas del Oriente’ por la letra de su videoclip\n‘Estamos Chivas tú?’ ¿Pues hasta qué punto?\nPues hasta ahí porque alienta el bullying.\nTemas de las redes\nAdemás, dijo que nunca había tenido problemas \npersonales,\nopinaba trabajar con ella, pues cada cual lleva su propia agenda."
+    },
+    {
+        "headline": "Manya...",
+        "content": "Me pasaron el teléfono de que Miguel Conejo Rebosío está babéandole con su último hijo y dice que ahora cerrará la fábrica...\nLuciana Bacán y Jonathan Rojas desmintieron tener desacuerdos tras conocerse que no ensayan juntos por las presentaciones del cumbiambera con ‘La Gran Orquesta’. Bueno, soy fugaza porque mi amorcito se alucina con él siendo el máximo goleador y dice que esa noche anota unos cuatro golasos..."
+    },
+    {
+        "headline": "KARINA SE LANZA COMO SALSERA",
+        "content": "Pues grabaré su éxito ‘Lloras por mí’ en ese popular ritmo. Me he enterado de que muchos salseros quieren grabarlo en salsa así que he decidido hacerlo yo misma y lo lanzaré en unos días. Es una canción muy bonita, y la salsa no me es ajena porque siempre he estado tocándome algún tema en mis shows.”
+    },
+    {
+        "headline": "MONIQUE PADRON RESALTÓ Y ELOGIÓ IMITACIÓN DE CELO TORRES",
+        "content": "Que conduce Gisela Valcárcel. “El programa de Gisela ha llegado al nivel más alto, artísticamente hablando. Gracias Ceilo Torres por tu talento.”\nComentar sobre la participación de la actriz de ‘Ojitos Hechiceros’, al interpretar su éxito mamá, Caramelito. En tanto, Cielo Torres aseguró que fue difícil caracterizar a Monique. \"Decidí estudiar a la perfección el personaje, es muy rico porque tiene muchos matices. He estudiado un personaje no sólo corporal, sino también vocalmente.\""
+    },
+    {
+        "headline": "GREISSY ARÁEZ ESPERA QUE SU ESPOSO DAYRON RECUPERÉ",
+        "content": "\"Se acerca la navidad y no quiero vivir una época triste, sé que tengo que tenerlas antes de estas fechas y compartirlas\" señala Anely mientras expresa cómo enfrenta la ausencia de sus hijas debido a situaciones complejas con su exesposo Dayron. Ella recalca que sigue comprometida laboralmente y enfocada en brindarles seguridad económica a sus menores."
+    },
+    {
+        "headline": "IVÁN CRUZ CONFÍA EN CAMBIO POSITIVO EN EL PAÍS",
+        "content": "\"Si queremos cambiar las cosas tenemos que comenzar por cambiar nosotros mismos\", expresó Iván Cruz refiriéndose a la necesaria transformación cultural hacia el entendimiento mutuo y el perdón. Además mencionó su proceso de recuperación después de haber sufrido una fractura previamente."
+    },
+    {
+        "headline": "SARA MANRIQUE CONTÓ SUS MOTIVOS PERSONALES TRAS DECIDIR SER MADRE",
+        "content\": Sara explicó que decidió ampliar su familia luego de diez años de maternidad inicial, destacando la responsabilidad adicional que esto representa, especialmente en términos educativos y financieros. Actualmente gesta otro bebé masculino y planea continuar trabajando durante su embarazo."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the guidelines provided for extracting significant journalistic pieces. Other sections such as ads, notices, and non-article texts have been excluded according to specified criteria.

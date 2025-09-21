@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/10/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista a Cesár Villanueva",
+        "content": "\"La ‘Ley Fujimori’ es inconstitucional porque es discriminatoria y tiene nombre propio\".\n\n**Fabiana Sanchez Dinarte / fabiana.sanchez@peruz.com**
+
+Desde el viernes, el Ejecutivo tiene en sus manos la gráfica de la llamada \"Ley Fujimori\", y desde hoy se inicia su revisión, reveló el Premier Csar Villanueva, quien de otro lado pidi al Congreso que revele su postura sobre el caso Pedro Chávez. Afirma que no le pasa por la cabeza cerrar el Parlamento."
+
+    },
+
+    {
+
+        "headline": "Oficialista Jorge Meleñdez afirma que la ubicación de las preguntas es irrelevante",
+
+        "content": "ONPE presenta diseño de la cédula para el referéndum\n\nEl congresista Jorge del Castillo (APRA) cuestionó el orden. “Se invirtió la 3ª con la 4ª”, insiste.\n\nEl diseño de la cédula de sufragio (ver foto), que se utilizará el domingo 9 de diciembre para el referéndum nacional, fue presentado por la Oficina Nacional de Procesos Electorales (ONPE) en una Resolución Jefatural publicada ayer en el Diario Oficial El Peruano."
+        
+    }
+
+]
+```
+This JSON captures the extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any non-article sections such as ads, metadata, etc., have been excluded according to the scope defined.

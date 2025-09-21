@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2014/03/publimetro_21.txt ---
+
+```json
+[
+    {
+        "headline": "CUANDO TE ENVASES ALIMENTOS CON AGUA CORRIENTE...",
+        "content": "Muchas personas se valen del agua corriente para descongelar sus alimentos. Para no gastar este elemento precioso, es preferible sacarlo de la refrigeradora el día anterior. Y si es muy urgente, usar el microondas. Estos aparatos tienen una función especial para este fin.\n\n**ESPECIAL AGUA:**\n¿Cómo utilizamos los limenses el agua potable?\nLas malas conexiones y el rápido crecimiento urbano están convirtiendo en graves amenazas para la disponibilidad de este recurso."
+    },
+    {
+        "headline": "LAS MALAS CONEXIONES Y CRECIMIENTO URBANO AMENAZAN EL ABASTECIMIENTO DE AGUA POTABLE EN LIMA",
+        "content": "Según un informe conjunto realizado por WWF, ANA y la Fundación Backus, más del 90% del área metropolitana está urbanizada, reduciendo áreas verdes naturales e impidiendo la infiltración natural del agua. Además, aproximadamente el 14.5% de la población carece de acceso directo al agua potable en sus hogares. \nSe recomienda coordinar políticamente acciones conjuntas entre distintos sectores gubernamentales y sensibilizar a la sociedad civil para conservar eficientemente este vital recurso."
+    },
+    {
+        "headline": "**Real Madrid Barcelona 7 – Manchester City**, Domingo 23 de Marzo",
+        "content": "Canalización deportiva disponible en Directv. Disponible también online mediante Directv Play. Detalles adicionales disponibles contactándose al número proporcionado."
+    },
+    {
+        "headline": "LA PEOR TEMPORADA PARA UNIVERSITARIOS QUE SIGUE SIN TRIUNFO",
+        "content": "Tras ser eliminado de la Copa Libertadores tras una aplastante derrota contra Atlético Paranaense, Universidad continuará buscando recuperarse. Actualmente atraviesa una sequía de triunfos extendida durante varias competiciones. Información detallada incluye rendimientos individuales y declaraciones post-partido tanto del técnico interino como del adversario."
+    },
+    {
+        "headline": "FILOTTINA PERDIÓ CONTRA JUVENTUSA Y QUITARSE DE OCTAVOS",
+        "content": "Después de un emocionante encuentro en Italia, Fiorentina fue eliminada de la Europa League luego de perder 1–0 contra Juventus. Destacables actuaciones personales mencionadas junto con detalles tácticos compartidos por ambos técnicos involucrados."
+    },
+    {
+        "headline": "SELECCIÒN PERUANA PREPARACIÓN SOBRE MICROCIKLÍCOLES",
+        "content": "El director técnico Pablo Bengoechea anunció su lista inicial compuesta principalmente por jóvenes talentos del campeonato local. Planificado realizar múltiples ciclos de entrenamiento previos a compromisos importantes fuera del país."
+    },
+    {
+        "headline": "BARÇA VS REAL MADRID, DERBI ESPAÑOL DECISIVO ESTÁ PRÓXIMO",
+        "content": "Ambos clubes buscan asegurar ventajas cruciales dentro de la tabla clasificatoria española. Particular atención hacia cómo manejarán la intensidad competitiva dado el histórico precedente de resultados anteriores."
+    },
+    {
+        "headline": "MOVISTAR LIMA 42K ATLETAS DE TODO EL ORBE COMPETERÁN",
+        "content": "Evento atlético internacional organizado por Adidas congregará participantes globales. Inscripción aún activa con precios variados según distancia elegida. Evento certificado por federaciones relevantes."
+    },
+]
+```
+This JSON captures key information about each identified article within the provided input while adhering strictly to the specified format requirements. Articles were segmented based on distinct headlines followed by their respective contents. Any non-article elements such as ads or unrelated sections have been excluded according to guidelines.

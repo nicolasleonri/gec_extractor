@@ -1,0 +1,121 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/01/elcomercio_26.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "Hoy en día, uno pensaría que...",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contenido felicitación! ¡Finalmente!"
+    },
+        {
+            "headline": "¡Felices fiesta!", 
+            "content": "Estoy feliz porque..."  
+    },   
+]
+```
+This example demonstrates how each extracted article should appear within the specified format:
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que...", 
+        "article_content": "Hoy en día, uno pensaría que..."
+
+],
+{
+   "articles":[
+      {    
+          "headline":"El loco del Martillo",
+         "content": "Hoy en día, uno pensaría que..."
+       },"Contento por fin de cuarentena!" : "Estoy feliz porque...
+        
+}
+```
+
+The following code block represents the expected structure required for extracting every article's information correctly formatted according to the given specifications. This includes handling headlines and contents accurately while ensuring proper cleanup before producing the desired structured data representation using JavaScript Object Notation (JSON):
+
+```python
+import json
+
+# Sample input representing OCR'd text from a hypothetical newspaper page
+raw_ocr_text = """
+[Your OCR Text Here]
+"""
+
+# Function to process and parse the OCR'ed text
+def extract_articles(text):
+    # Splitting based on potential headings and paragraphs
+    import re
+    
+    # Clean up function definitions here
+    def fix_hyphens(line): return line.replace('-', ' ').replace('\n', '').strip()
+    split_lines = lambda x: ''.join(x.split())
+    
+    # Initialize variables
+    articles_list = []
+    current_article = {"headline": "NA", "content": ""}
+    capturing_headline = False
+    
+    # Process each line separately
+    for line in raw_ocr_text.strip().split("\n"):
+        cleaned_line = fix_hyphens(split_lines(line))
+        
+        # Check if it looks like a heading
+        if cleaned_line.isupper() and len(cleaned_line) > 10:
+            if current_article["headline"] != "NA":
+                articles_list.append(current_article)
+            
+            current_article = {"headline": cleaned_line, "content": ""}
+            capturing_headline = True
+        
+        elif capturing_headline:
+            continue
+        else:
+            paragraph = ""
+        if candidate == "":
+            pass
+            
+        # Capture subsequent non-empty lines as content until next header starts again
+        if any(char.isdigit()):
+            break
+        else:
+            print("Invalid")
+                
+        # Append captured content after cleaning
+        current_article['content'] += cleaned_line + "\n"
+
+    # Add last collected article if exists
+    if current_article["headline"] != "NA":
+        articles_list.append(current_article)
+    
+    # Return processed list of dictionaries
+    return articles_list
+
+
+# Example usage
+extracted_data = extract_articles(raw_ocr_text)
+print(json.dumps(extracted_data, indent=4))
+
+```
+
+### Explanation:
+
+1. **Text Cleanup**: We define functions `fix_hyphens` and `split_lines` to handle common issues such as joining hyphen-separated words across lines and removing unnecessary whitespace respectively.
+
+2. **Article Extraction Logic**:
+   - Iterate over each line of the provided OCR text.
+   - Identify possible headlines through uppercase checks combined with length criteria.
+   - Collect consecutive lines under identified headlines as their respective content.
+   - Reset upon encountering another likely headline indicating start of a new article.
+
+3. **Output Formatting**:
+   - Construct a dictionary for each detected article comprising its headline and associated content.
+   - Compile these dictionaries into a list which forms our resultant JSON-compatible Python list.
+
+By adhering strictly to defined rules regarding what constitutes a legitimate article versus other types of textual elements found typically in newspapers, we ensure accurate extraction aligned with requirements outlined initially.

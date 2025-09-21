@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/10/correo_29.txt ---
+
+```json
+[
+    {
+        "headline": "Bruno Da\u0301z Squindo\u0301n, hijo de Vicente Da\u0301z Arce",
+        "content": "Mi padre es un falso pastor e integra una organizaci\u00f3n criminal.\n\nAdministrado de empresas Soy el \nf\u00edsimo de ocho hijos de Vicente Daz Arce. He sido victima de la red criminal que encabeza mi padre."
+    },
+    {
+        "headline": "Una Entrevista de Gabriel Mazzei",
+        "content": ""
+    },
+    {
+        "headline": "Legislatura está ad portas de una sanción",
+        "content": "Ethica podría recomendar mañana suspensi\u00f3n de nl Yesenia Ponce\n\nLa Comisión de Ethica del Congreso, dirigida por Juan Carlos Gonzalez, realziará manaña una audicién por el caé de la fujimorista Yesenia Ponce, quien fue denunciada debido a mentir en su hoja de vida respectoa de sus estudios de secundaria."
+    },
+    {
+        "headline": "Diario Correo.Lima/Domingo 29 de Octubre/2017",
+        "content": "<7\n\nLegisladora está ad portas de una sanción.\n\nEthica podría recomendar mañana suspensión de\nnl Yesenia Ponce\n\nLa Comisión de Ética del Congreso,\ndirigida por Juan Carlos Gonzáles, realizará mañana una audiencia por el caso de la\ nfujimorista Yesenia Ponce, quien fue denunciada\ndebido a mentir en su hoja de vida\nrespecto de sus estudios de secundaria.\n\nMeses atrás, el citado grupo congresal\narchivó el caso. Sin embargo, la difusión de\nun comprobante por un sospechoso depósito de 10 mil soles a la cuenta personal de Daniel Soto Rivera, el profesor que suscribió las actas de estudios secundarios de la legisladora, generó que su expediente se reabriera. Ética también expondrá el informe sobre la investigación preliminar contra el titular de ese grupo, Juan Carlos González, acusado de haber recibido un lápiz de Ponce, días antes de archivar su caso."
+    },
+    {
+        "headline": "Corrección editorial",
+        "content": "EDITORIAL URGE MEJORAR LA ATENCION DE LAS VICTIMAS\nLes que responden a menores de edad es preocupante, pero más alarmante saber que poco menos del 30% de estos casos llegan a ser sentenciados, ya que los demás quedan en el archivo. Las estadísticas ponen sobre el tapete los problemas en cuanto al tratamiento de estas situaciones, que bien vale la pena comenzar a analizar y resolver."
+    },
+    {
+        "headline": "Rolando Soya Opinión B",
+        "content": "PPK y comisión \"Lava Jato\": el que se excusa, se excusa (I)\n\n---\n\nContraponiéndose a la inmunidad de la que goza el Presidente República durante su mandato, contra acusaciones por delitos distintos a los contemplados en el artículo 117º de la Constitución Política vigente."
+    },
+    {
+        "headline": "Alberto Belaunde",
+        "content": "\nEn los últimos días, los medios de comunicación nos permitido recordar que vivimos en un país en dónde la violencia contra la mujer es parte de nuestra realidad. Los distintos casos presentados evidencian que este problema no es ajeno a ningún sector de nuestra sociedad. Por ello, es muy importante ver cómo podemos contribuir a que esa situación cambie."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their structure within the provided input data while adhering strictly to the specified format requirements. Articles lacking explicit headings have been assigned `"NA"` where applicable. Note any missing details were filled according to context clues available in the document.

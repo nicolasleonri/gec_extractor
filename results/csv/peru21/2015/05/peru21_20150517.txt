@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/05/peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "Para el analista Carlos Tapia existen en el país una derecha y una izquierda...",
+        "content": "Para muchos, los términos \"izquierda\" y \"derecha\" están desfasados. ¿No es así?\n\n-No, y me remito a las pruebas, porque estoy sentado aquí. En todos los países del mundo, los referentes de \'izquierda\' y \'derecha\' sirven para explicar una aproximación a la realidad. Tan es así que no sólo se denominan dichas orientaciones políticas diversas organizaciones políticas, sino también determinadas políticas públicas.\n\n¿Qué une a la izquierda en el Perú?\n\n-La actual izquierda está en recomposición después de años...\n\n-Habría dicho que siempre estuvo en recomposición durante varios periodos históricos...\n\n-Los procesos de síntesis histórica son graduales y complejos. Más aún cuando las circunstancias cambian significativamente."
+    },
+    {
+        "headline": "\"Autocritica. La ideología previa a la caída del Muro de Berlín era muy dura,...\"",
+        "content": "\n-Autoritarismo versus democracia. Una derecha autoritaria desea resolver conflictos imponiendo sus visiones según sus intereses personales. Sin embargo, existe una facción más pro-democrática que realmente intenta obtener consenso popular. Existe incluso una tendencia algo corrupta. \n\n-Cómo interpretarías las dinámicas electorales actuales?"
+    },
+    {
+        "headline": "\"Modernaización. Más que haberse modernizado, la izquierda se ha adaptado...,...\"",
+        "content": "-Se necesita innovación política junto con programas claros y estructuras organizativas sólidas. Esto incluye llegar al poder bajo condiciones difíciles, necesitándose creatividad y capacidad de respuesta rápida frente a retos constantemente emergentes."
+    },
+    {
+        "headline": "\"EL APRA. Alan García es un animal político....\"",
+        "content": "-Considerado hábil tácticamente, utiliza habilidades excepcionales para manejar aspectos delicados de la contienda política. Sin embargo, algunos argumentan que está bastante desgastado debido a controversias antiguas relacionadas con figuras notorias y problemáticas vinculadas al narcotráfico."
+    },
+    {
+        "headline": "\"Directora Periodística Juan José Garrido\",\nDel Director:\nY ahora,\ndonde quedamos?",
+        "content": "-Tras múltiples crisis sociales y económicas, queda evidente que nuestra situación es complicada. Los últimos acontecimientos sugieren que debemos reconsiderar cómo gestionamos recursos naturales y relaciones socio-políticas. Necesitamos líderes capaces de impulsar cambios sustanciales, pero lamentablemente carecemos de tales figuras en la arena pública."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on their thematic relevance while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. It captures key discussions around political analysis, critiques, reflections on democracy, and editorial opinions presented throughout the document.
+
+--- ERROR ENTRY: data/txt/peru21/2015/05/peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "Justos con el cuerpo",
+        "content": "\"Testimonio\nEl Modelo Lorena trabaja como candidata del Miss Universo 2015 y cursa especialización en Nutrición Ortomolecular. Sigues un programa poco conocido.\n\"Según ella, la nutrición ortomolecular busca prevenir y curar males mediante la alimentación. Personalmente...\n¿Qué consejo darías al consumidor peruano?\n\- Que se fije más en los componentes químicos, no sólo en calorías. \"Explicó Harrison.\" Hay que tener cuidado con ciertos ingredientes comunes en cocina."
+    },
+    {
+        "headline": "Paranoia: Tuve sueños raros...",
+        "content": "\"Nivel de Dirección II SAN CRISTÓBAL X ZONA Y ZONAZ\nDespués de correr, recomienda estiramientos post-carrera según indica Harrisson. Justos con el cuerpo\", afirma Harrisson."
+    },
+    {
+        "headline": "Verdad protege",
+        "content": "\"La Verdad deja pistas de todos los tipos. Así, suponemos que pueden surgir complicaciones mentales. ¿Cómo manejar esto? Muchas veces ocultamos eventos embarazosos que no están directamente relacionados con nosotros, mientras otras optamos por callar frente a dificultades emocionales. Una verdadera confesión previene errores futuros y fortalece relaciones."
+    },
+    {
+        "headline": "Para Todos Can",
+        "content": "\"LLAMADAS LAS RUEDAS DISNEY TODO ESO\"\nPáginas llenas de rumores y chismes populares, incluidas llamadas telefónicas ficticias y números aleatorios asociados a cada signo zodiacal."
+    },
+    {
+        "headline": "Cartas sobre el Metro",
+        "content": "\"Protesta declaración de concesionaria respecto a responsabilidad municipal en servicio metropolitano. Según Juan Bautista Muñoz, gerente general de Lima Bus Internacional SAC, tales comentarios carecen de validez legal y factual."
+    },
+    {
+        "headline": "Denuncia falsedad agentes Dinámica Instituciones",
+        "content": "\"Agentes niegan participación en labores operativas. Explican discrepancias en registros administrativos y aseguran ausencia total en acciones ilegítimas atribuidas incorrectamente."
+    },
+    {
+        "headline": "Basura Acumula Problemas Vecinos",
+        "content": "\"Vecinos denuncian persistente acumulación de residuos sólidos urbanos cerca de José Granda. Solicitan intervención urgente para resolver situación crítica causada por negligencia local."
+    },
+    {
+        "headline": "Prostitución universitarios demanda acción",
+        "content": "\"Comunicado de estudiantes de la Universidad Nacional Federico Villarreal solicita medidas urgentes contra comercio sexual cercano a campus. Denunciaron incremento en incidentes criminales vinculados a actividad ilícita."
+    },
+    {
+        "headline": "Secuestro víctima ofrece guía",
+        "content": "\"Victima secuestrada proporciona recomendaciones prácticas para evitar riesgos similares. Sugiere variar rutinas cotidianas, mantener vigilancia ambiental y reportar sospechas policiales oportunamente."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while excluding irrelevant sections like ads and non-journalistic elements according to provided guidelines. Adjustments were made for clarity where necessary within constraints given.

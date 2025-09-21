@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/03/trome_11.txt ---
+
+```json
+[
+    {
+        "headline": "Del saque somos carne...",
+        "content": "Ahora se siente una chica en la televisión, cuenta que se ha acostado con uno, otro y otro, y al final le dan un billete. Encima con el alcahuete de siempre al lado. Mis respetos para las jóvenes decentes que estudian y se sacan el sustento con este trabajo tan duro."
+    },
+    {
+        "headline": "Alexi Gómez viajó con Melgar a Brasil",
+        "content": "\"Sentí que necesitaba jugar y donde estaba no lo iba a hacer. He vuelto a Perú a jugar Copa Libertadores, pelear un campeonato internacional y es un reto que me emociona\", dijo el extremo, que ayer arribó junto al plantel rojinegro a São Paulo. \"Gomez\" espera volver pronto a la selección nacional. \"Mi meta era estar, pero no se dio, habrá otra oportunidad\", afirmó el ex-Gimnasia y Esgrima de la Plata."
+    },
+    {
+        "headline": "Arrauri salvó de derrota a Municipal",
+        "content": "Cuéntame historias, dice Piérrez Larañeri al ‘Chino’ Rivera a los 87’. El delantero estaba con fuerte fiebre, pero Municipal perdería 2–1. Entonces entró y a los 93′ puso el empate final 2–2 contra Sport Huancayo en el Segundo Aranda Torres.”
+    },
+    {
+        "headline": "Messi celebró el primero año de su hijo menor",
+        "content": "Su hijo Leo Messi no deja de festejar y ayer celebró con su familia el primer año de su pequeño Ciro, el menor de sus hijos. El astro argentino posteó una foto en Instagram en la que aparecen sus niños y su esposa Antonella, que en menos de una hora superó el millón de likes. "
+    },
+    {
+        "headline": "Real Madrid volvió a ganar",
+        "content": "Respiración profunda después de una semana difícil en la que perdió la oportunidad de ganar Copa, Champions y Liga, el Real Madrid se reencontró con el triunfo y recuperó el ritmo en el torneo local, al golear 4–1 a domicilio al Real Valladolid, por la fecha 27."
+    },
+    {
+        "headline": "Liverpool continúa en la pelea",
+        "content": "Los muchachos de Liverpool siguen en la contienda con el Manchester City, tras vencer por 4–2 al Burnley, en Anfield Road, por la fecha 30 de la Premier League."
+    },
+    {
+        "headline": "Samanta Sampaioli perdonó a Cueva",
+        "content": "Christian Cueva recibió una nueva oportunidad de Jorge Sampaoli y participó en el llamado 'duelo albiceleste’, jugando los segundos 45 minutos en el empate 0–0 del Santos frente al Corinthians."
+    },
+    {
+        "headline": "Jefferson Farfán corrío como un joven y marcó un golazo",
+        "content": "Farfán demostró que aún tiene destellos juveniles al marcar un espectacular gol en la victoria del Lokomotiv Moscú sobre FC Anji."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on the provided input while adhering strictly to the defined scope and rules for extraction. Articles were identified through recognizable patterns such as capitalization indicating potential headlines followed by substantial textual bodies. Non-article elements like ads and unrelated sections have been excluded according to guidelines.

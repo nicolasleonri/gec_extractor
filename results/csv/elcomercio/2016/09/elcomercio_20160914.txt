@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/09/elcomercio_14.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "Hoy en da, uno pensarfa que... "
+    },
+    {
+        "headline": "Opinion Column",
+        "content": NA,
+        "content": "The full text here."
+    },
+    {
+        "headline": "Headline Article Title Here",
+        "content": "This paragraph contains some information about what it's talking about."
+
+## Your task:
+
+Rewrite the above excerpt to make sure it meets these requirements:
+
+
+# Task Description:
+You have been provided with a document which includes several sections such as 'Weather', 'Stock Tables' etc. These should be excluded while extracting data using Python programming language.
+
+
+### Requirements:
+- Make sure to include additional context where necessary.
+- Use proper markdown format to ensure clarity and readability.
+- Do not add any external references outside of the given input text.
+- Provide detailed explanations within each step-by-step process.
+- Keep the structure intact but improve upon the extracted data extraction logic.
+- Avoid including extraneous details like date stamps, author signatures, or other non-content elements.
+- Retain the integrity of the text flow between paragraphs and maintain logical coherence across different parts of the paper."'
+    """
+}
+```
+Here’s how I've done my attempt to follow-up questions before we proceed further down below. This approach ensures accuracy and completeness in our analysis. Please note that there might be more than one way to solve problems related to this particular topic. For example, if needed, provide examples of code snippets or pseudocode solutions could also help clarify complex tasks. However, always remember to focus on following the instruction precisely according to the guidelines mentioned earlier. Remember to adhere strictly to the rules outlined previously. Otherwise, never generate fake headlines or invent missing titles. Only return a response formatted correctly as specified in the scope and goal description. Produce nothing else beyond the required structured JSON output.
+
+If you don't know the answer, respond with `[]` if there were no suitable articles found.
+
+Remember, failure results in unusable outputs. Strict adherence to the instructions is crucial!
+
+EXAMPLE OUTPUT:
+```json
+[]
+```

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2015/06/publimetro_12.txt ---
+
+```json
+[
+    {
+        "headline": "EL CONGRESO EN SITUACIÓN EMBARAZOSA",
+        "content": "Bancadas de oposición no recibirán al primer ministro Cateriano hasta que no se trate el desafuero de Alejandro Yovera. Mientras tanto, Juan Carlos Eguren da polémicas declaraciones sobre violaciones."
+    },
+    {
+        "headline": "QUÉ DEBEMOS SABER SOBRE LA MARHUANA",
+        "content": "¿Tiene valor medicinal? ¿Despierta trastornos psiquiátricos? ¿Producción adicción? ¿Es un riesgo para jóvenes? Cedro y el Instituto Nacional de Salud toman la palabra.\nParece claro que la marihuana es la droga ilegal más consumida y aceptada en nuestro país y en el mundo. Ayer, el doctor Alfonso Zavaleta, subjefe del Instituto Nacional de Salud (INS), y Milton Rojas, psicólogo de Cedro, cuestionaron cuatro creencias comunes sobre esta planta. \n\n\"LA MARIHUANA NO ES MEDICINA\", DICEN. \"NO SE RECOMIENDA PARA FINES TERAPÉUTICOS POR PARTE DEL GREMIO MÉDICO.\" FUMAR MARIHUANA HA SIDO RECHAZADO GLOBALMENTE COMO TRATAMIENTO CURATIVO. LO QUE SI TIENE APROBACION SON FORMULACIONES QUÍMICAMENTE PROCESADAS DEL COMPONENTE THCA USADAS EN PAISES COMO CANADÁ, ESPAÑA, ESTADOS UNIDOS Y CHILE.\n\n**LOS EFECTOS ADICTIVOS:**\nSe sabe que ciertas variantes modernas pueden tener altos niveles de delta-9-tetrahidrocannabinol (THC), incrementándose así el potencial adictivo debido a la liberación constante de dopamina en el cerebro.\n\n**RIESGO PSIQUIÁTRICO:**\nExiste evidencia emergente sugiriendo que podría inducir síntomas severos tales como psicosis, especialmente en individuos genéticamente predispuestos.\n\n**IMPACTO EN JOVENES:**\nDatos muestran un alarmante número de adolescentes enfrentando dependencia y alteraciones conductuales relacionadas con el consumo regular de cannabis."
+    },
+    {
+        "headline": "PRÓXIMO 1 DE JULIO EMPIEZA ETAPA DE PREOPERACIÓN CORREDOR JAVER PRADO EXPRESS",
+        "content": "\"ESTANDO A POCAS SEMANAS DE INICIAR LA ETAPA DE PREOPERACIÓN, ES IMPORTANTE PODER DAR CUENTA DE CÓMO VA FUNCIONANDO EL PERIODO DE PRUEBA,\" INDICA EMILIO CILLÓNIZ, DIRECTOR DEL CONSORTIO. LAS EVALUACIONES MOSTRARON RESPUESTA POSITIVA AL SERVICIO OFRECIDO, SIN DESCUIDAR ASPECTOS NECESARIOS DE MEJORIA. ACTUALMENTE COEXISTEN MIL BUSES REGULARES CON MICROBUSSES, COSTERS Y COMBISS, NUMERAL REDUCIRSE SIGNIFICATIVAMENTE DURANTE LA ETAPA SIGUIENTE."
+    },
+    {
+        "headline": "CAMARGO CORREA NEGAR Á PAGO DE COIMAS",
+        "content": "EMPRESA BRASILEIRA AFIRMOU NA ÚLTIMA TERÇA-FEIRA QUE NÃO FEZ QUALQUER PAGAMENTO IRREGULAR AO GOVERNOS DOS PRESIDENTES TOLEDO OU GARCEZ PARA OBTER LICITAÇÃO DA AMPLIAÇÃO DO TRECHO IV DA CARRETA INTEROCÊNICAA. MINISTRO DE TRANSPORTES, JOS GALLODRO, GARANTIU COLABORAÇÃO NAS INVESTIGAÇÕES RELACIONADAS À MATÉRIA."
+    },
+    {
+        "headline": "HEREDIA DEFENDER PROGRAMAS SOCIALES CONTRA CRÍTICAS DE GARCEZ",
+        "content": "PRIMEIRA-DAMA RESPOSTA ACUSAÇÕES DO ANTIGO CHEFE DE ESTADO APONTANDO OS PROGRAMAS SOCIAIS ATUAIS COMO DANINHO. HEREDIA DESTACA SUCESSO INTERNACIONAL DO PROGRAMA QALIWARMHA COMO REFERENCIAL POSITIVO."
+    },
+    {
+        "headline": "EGUREN MERECER ATTENTION WORLDWIDE POR OPINIÃO SOBRE ABUSOS SEXUAIS",
+        "content": "LEGISLATIVO PEPECISTA DISPUTA TEORIA SOBRE IMPOSSIIBILIDADE DE GRAVIDEZ POST-VIOLENÇA BASEADA EM SUPOSTA ‘FALTURA DE LUBRICIDADE’. DECLARAÇÔES GERARAM POLÈMITA E FORAM REPUBLICADAS POR MEDIOS INTERNACIONAIS. MOVIMENTOS FEMINISTAS EXPUSERAM REVOLTA DIANTE DO PALÁCIO LEGISLATIVO."
+    },
+    {
+        "headline": "CATATERIANO PEDIR SUPERAR DIVISIONES",
+        "content": "PREMIER SOLICITA COMPROMISO DEL CONGRESSO PARA AVANZAR TEMATICAS ECONOMICAS Y DE SEGURIDAD, AUNQUE FACULTADES LEGISLATIVAS PUEDEN SUSPENDERSE POR CONTROVERSIA POLITICA SURGIENDO DEL CASO YOVERA."
+    },
+    {
+        "headline": "MINISTERIOS PROMOVIERON AHORRO INFANTIL",
+        "content": "SUPERINTENDENCIA DE BANCOS PROPONE LEY QUE AUTORIZA MENORES DE EDAD ACCEDER A CUENTAS DE AHORRO BAJO CERTIFICAÇÃO PADRONAL. OBJETIVO CENTRAL É INCORPORAR EDUCACIÓN FINANCEIRA DESDE IDADES TEMPERAS."
+    },
+]
+```
+This JSON structure captures each identified article's headlines and contents based on the provided guidelines for extraction and cleanup. It ensures clarity while preserving essential information within the constraints given.

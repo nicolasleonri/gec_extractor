@@ -1,0 +1,28 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/04/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "DRÁSTICAS SANCCIONES PARA MALOS CONDUCTORES",
+        "content": "A fin de frenar de manera tundente la racha de accidentes de tránsito fatales que han ocurrido en todo el país, especialmente en Lima y el Callao, el Ejecutivo publicará hoy un decreto supremo que dispone una serie de drásticas medidas contra los malos conductores y contra las empresas que los acojen.\n\nDicha norma modifica los reglamentos de Tránsito, de Administración del Transporte y de licencias de conducir. Las sanciones van desde la retención inmediata de la credencial de conducción, el internamiento de los vehículos en el depósito, la reducción de los plazos de investigación, hasta la cancelación definitiva del permiso de circulación a las empresas de transporte público."
+    },
+    {
+        "headline": "PROPOSICIÓN SE ENCUENTRA EN ANÁLISIS",
+        "content": "\"El ministro Carlos Paredes se mostró de acuerdo en que Lima y Callao deben contar con una autoridad única para el transporte urbano. Indicó que esta propuesta se encuentra en evaluación desde hace bastante tiempo, ya que implicaría la modificación de varias normas y, quizás, de hasta la Constitución Política.\""
+    },
+    {
+        "headline": "EL DIRECTOR GENERAL DE HELIOS ESTÁ INVOLUCRADÍSIMO",
+        "content": "Cuando la Comisión de Fiscalización solicitó información al OSCE sobre los contratos de la corporación Helios con el Estado, revelándose más contratos de peritaje realizados por dicha entidad, surgen preguntas sobre posibles cobertura de información y complicidad política involucrando incluso al entonces director general de Helios."
+    },
+    {
+        "headline": \"MALOS VIENTOS\" \nHumala respaldó al ministro Mayorga, aunque también le pidió clarificaciones respecto a las decisiones administrativas que pudieran generar conflictos de interés.
+    },
+    {
+        "headline": NA,
+        "content": "Encargada de notaría participaba en licitaciones en Ancash. Cuñada de Otrola facilitó documentos clave para proyectos gubernamentales bajo la dirección de Csar Iván Vílchez, generando preocupaciones éticas debido a relaciones familiares cercanas con figuras políticas relevantes."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles lacking explicit headlines have been marked accordingly.

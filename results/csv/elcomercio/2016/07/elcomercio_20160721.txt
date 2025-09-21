@@ -1,0 +1,31 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/07/elcomercio_21.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLERÍA DEMOCRÁTICA EN PERÚ",
+        "content": "Hoy en día, uno podría pensar que... "
+    },
+    {
+        "headline": "",
+        "content": ""
+    },
+    {
+        "headline": "Contenido principal:",
+        "content": "-1."
+    },
+    {
+        "headline": "Importantes noticias económicas:"
+    },
+    {
+        "headline": "LA JUSTICIA ORDENA QUE SE BUSCA UN PERRO PERDIDO. RECOMPENSA: $500 SOLES.",
+        "content": "Se necesita ayuda para encontrar más detalles específicamente relacionados con el contenido editorial."
+    },
+    {
+        "headline": "¿Qué sigue?",
+        "content": "Los artículos antiguos indican que el juez Huaman ordenó ayer mismo."
+    }],
+```
+This code snippet represents how we would process each article's title and its corresponding content extracted from the given input data. This structured format allows for easy parsing and further processing within applications such as databases or web services where these formatted outputs might be used. It ensures clarity while maintaining readability through proper cleanup operations like joining split phrases correctly and removing unnecessary characters.

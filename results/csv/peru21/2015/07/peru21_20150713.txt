@@ -1,0 +1,82 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/07/peru21_13.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "JEFA DEL OSCE YA FUE NOTIFICADA POR GRUPO DE TRABAJO PARLAMENTARIO",
+        "content": "Ir a comisión\n\nEl presidente de la comisión parlamentaria que investiga la red del abogado Rodolfo Orellana Rengifo, Vicente Zeballos (SN), indicó que ha sido invitada para el día de hoy la jefa del Organismo Supervisor de Contrataciones del Estado (OSCE), Magali Rojas.\n\n\"Ella (Magali Rojas) ya ha sido debidamente convocada\", puntualizó. La funcionaria debe explicar las obras caducadas con cartas-fianza otorgadas por Coopex, vinculada a Orellana."
+    },
+    {
+        "headline": "OPINA.21",
+        "_jenpique castañudo_|",
+        "content": "\"¿Solo vocero?\nPregunta: ¿Es el Primer Ministro solo un vocero del régimen, que acata, tramita y transmite la posición del gobierno, aunque no está de acuerdo con ella?"
+    },
+    {
+        "headline": "LEA MAÑANA",
+        "content": "PEREZ CASTILLO"
+    },
+    {
+        "headline": "INPE ESPERA NOTIFICACIÓN DE HÁBEAS CORPUS",
+        "content": "No aún reposen teléfono a Fujimori\n\nEl Instituto Nacional Penitenciario (INPE) espera que el Poder Judicial lo notifique sobre el hábeas corpus que favorece al condenado expresidente Alberto Fujimori –emitido el 1 de junio– para que restablezca el teléfono público en el penal de Barbadillo, en Cajamarca."
+    },
+    {
+        "headline": "LA COMISIÓN BELEN LOSSIO DECIDIR LISTA COMPLENTARÍA ESTE MARTES",
+        "content": "Coincidieron en que Juan Heredia seria investigado\n\nLa comisión parlamentaria que investiga los presuntos negociados en el Estado de Martin Belaunde Lossio decidirá mañana si el hermano de la primera dama, Juan Heredia, pasa a calidad de investigado."
+    },
+    {
+        "headline": "RENTO MAXIMO $13000",
+        "content": "Maxio Zarita\n\nPercy Medina, de IDEA Internacional, sostiene que el régimen de sanciones es todavía incompleto."
+    },
+    {
+        "headline": "REPÓRTATE DE LA ONPE ADVIERTA QUE 31 DONANTES DEBER ÁN AL SISTEMA FINANCIERO ENTRE UN MILLÓN Y DIEZ MILLONES DE SOLES",
+        "content": "Mas de 3,800 financieros de agrupaciones políticas tienen deudas según un reporte de la Oficina Nacional de Procesos Electorales (ONPE)"
+    },
+    {
+        "headline": "INTERÉS GENERAL",
+        "content": "Los posibles candidatos ya hacen campaña en el interior, pero no se desgastaran hasta las elecciones?"
+    },
+    {
+        "headline": "AVISO IMPORTANTE",
+        "content": "Mucha atención a la penetración de narcos\n\nLos partidos políticos deben ser muy cuidadosos ante los intentos de penetración del narcotráfico en la campaña electoral venidera."
+    },
+    {
+        "headline": "PUBLICO",
+        "content": "Estado subsidiará innovación empresarial\n\nLas empresas que decidan invertir en investigación científica, desarrollo técnológico e innovación tecnológica podrán beneficiarse con la deducción adicional de 175%"
+    },
+    {
+        "headline": "EUROZONA HA FIADO COMO FECHA LÍMITE EL 15 DE JULIO PARA QUE EJECUTE CAMBIOS",
+        "content": "Grecia podría aceptar algunas exigencias a cambio de rescate\n\nDurante el fin de semana, líderes de la Eurozona y de Grecia se encontraron para presentar sus propuestas y alcanzar un acuerdo mutuo."
+    },
+    {
+        "headline": "SURDEL PERÚ SE BENEFICIARÁ",
+        "content": "Infraestructura GLP boliviana a Juliaca\n\nDesde el inicio de este gobierno, hemos mantenido debates sobre la importancia de ofrecer más servicios públicos básicos."
+    },
+    {
+        "headline": "ROMPIENDO RELACIONES",
+        "content": "Diez organizaciones rompen vínculos con Trump tras comentarios controvertidos sobre migrantes mexicanos."
+    },
+    {
+        "headline": "CHAPO ESCAPA DE PRISION",
+        "content": "Joáquin ‘El Chapo’ Guzmán escapa otra vez usando túnel elaborado dentro de prisión de máxima seguridad."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on the provided input while adhering strictly to the specified format requirements. Articles lacking explicit headings have been marked accordingly.

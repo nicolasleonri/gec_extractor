@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/07/peru21_13.txt ---
+
+```json
+[
+    {
+        "headline": "Keiko Fujimori y el sistema penitenciario femenino",
+        "content": "Hoy en día, uno pensaría que... El sistema penitenciario no es rehabilitador ni regenerador sino estrictamente punitivo y, si se trata de las mujeres, lo es más, pues no existen políticas que se adapten a sus necesidades. ¿Qué tiene que ver Keiko con esto? En principio nada. Pero ya que es una de las mujeres más poderosas del Perú, sería doblemente interesante que logre salir de él."
+    },
+    {
+        "headline": "Reflexión sobre las reformas bajo Martin Vizcarra",
+        "content": "Parte de los 16 meses de cárcel de Martín Vizcarra han tenido a la opinión pública entretenida en una agenda reformista (judicial y política)... La frustrada elección de los miembros de la Junta Nacional de Justicia y el reciente retiro del Tribunal Constitucional del Consejo para la Reforma de Justicia suponen serios reversos para la iniciativa del Ejecutivo, que contó con la legitimación elitista ‘’de notables’’ y con la popular, vía referendum."
+    },
+    {
+        "headline": "Capturan a líder de Sendero Luminoso en Huancavelica",
+        "content": "Camarada Julio Chapo’, un despiadado terrorista por el que el Ministerio del Interior ofreció $52 millones de recompensa para conocer su ubicación, se encontraba en las inmediaciones de una vivienda rústica en el corazón del Valle de los Ríos Apurímac, Ene y Mantaro (VRAEM) cuando fue capturado ayer en la madrugada."
+    },
+    {
+        "headline": "Telefonica critica fallo de la Corte Suprema respecto a impuestos",
+        "content": "Ante la reciente resolución emitida por la Corte Suprema y relacionada a la Controversia Tributaria integral entre Telefonica y la SUNAT por el Impuesto a la Renta (IR) originada hace cerca de veinte años, la compañía considera oportuno precisar lo siguiente: [...] Este resultado parcial afecta seriamente la predictibilidad tributaria que requiere la economía peruana para atraer más inversiones, fomentar la formalidad y seguir creciendo."
+    },
+    {
+        "headline": "Muñoz advierte acciones drásticas frente a negativas conversaciones con Línea Amarilla",
+        "content": "[...] Si la situación no se reverte, su gestión podría tomar una “drástica” decisión. […] Con Linea Amarilla las negociaciones no están yendo por un necesario buen camino.”
+    },
+    {
+        "headline": "Opini\u00f3n: Izquierda y cambios estructurales",
+        "content": “[...] Ya lo hemos dicho (y recibido muchas criticas), la izquierda requiere dejar de aislar del centro politico y social [...]"
+    },
+    {
+        "headline": "Justicia española realizará audiencia en reserva sobre extradición de Hinostroza",
+        "content": "En sesión reservada, la Audiencia Nacional de España analizar el próximo viernes 19 la apelación del exjuez supremo Carlos Hinostroza contra la sentencia que aprobó su extradición al Perú para investigarlo por sus vínculos con Los Cuellos Blancos del Puerto."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected where there was substantial journalistic content available within the input data. Other sections such as ads, subscriptions, etc., have been excluded according to the scope defined.

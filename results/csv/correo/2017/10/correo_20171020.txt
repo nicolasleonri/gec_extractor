@@ -1,0 +1,64 @@
+
+
+--- ERROR ENTRY: data/txt/correo/2017/10/correo_20.txt ---
+
+```json
+[
+    {
+        "headline": "Consumo con Tarjeta de Débito Crece",
+        "content": "\"El crédito de consumo se reactivo en el segundo semestre y está creciendo entre 3 y 4%\"," señaló. Además, menciona que en el país hay 13 millones de tarjetas (entre crédito y débito).\n\n\"Día Oficial Paralelo Bolsa Enuro Oficial Euro Paralelo\\nComprar Vender...\"\n\nQuince días tienen de plazo el público interesado en enviar comentarios para esta norma."
+    },
+    {
+        "headline": "Desregulación Bancaria",
+        "content": "Jefe de la entidad aseguró que se vienen una serie de desregulaciones en áreas financieras.\n\n\"Por otro lado, directores de las AFP comentaron algunos efectos que ha tenido en el sistema la norma que permite retirar hasta el 95.5% de los fondos de pensiones.\" \n\nUna menor contratación de rentas vitalicias por jubilación ha surgido como consecuencia. \"Para nosotros también es beneficioso,\" agregó Gonzalo Basadre, gerente general de Interseguro."
+    },
+    {
+        "headline": "Primer Festival Gastronómico y Cultural Nikkei",
+        "content": "Del 27 al 29 de octubre se realizará el primer Festval Gastronómico y Cultural Nikkei del Perú. Este evento reunirá lo mejor de la cocina y cultura peruano-japonesa. Habrá diferentes secciones dedicadas a sushi, Nikkei criollo, contemporáneo y street food. También incluye actividades adicionales como karaoke, sake & biru bar, y un área de productores locales."
+    },
+    {
+        "headline": "Accidente en Selva de Pucallpa",
+        "content": "Durante un viaje de la empresa Air Morella, una avioneta sufrió una caída forzada cerca de la comunidad Nuevo Saposoa, resultando en lesiones para once ocupantes aunque todos sobrevivieron. Las causas preliminares sugieren una falla técnica."
+    },
+    {
+        "headline": "Alerta del Arzobispado de Trujillo",
+        "content": "Personas están solicitando dinero falsamente para organizar eventos relacionados con la visita del Papa Francisco. El Arzobispado aclara que ningún pago económico es necesario para tales eventos."
+    },
+    {
+        "headline": "Renault Sandouville Gonzalez Opina sobre Precios del Agua",
+        "content": "Critica cómo Sedalib incrementa precios sin mejorar significativamente el suministro de agua. Destaca problemas persistentes incluso después de severas inundaciones."
+    },
+    {
+        "headline": "Inteligencia Americana Confirma Intento Ruso de Intervención Electrónica",
+        "content": "Mike Pompeo confirmó intromisión electoral rusa, aunque descarta influencia decisiva en el resultado final. Esto sigue siendo objeto de múltiples indagatorias internas."
+    },
+    {
+        "headline": "Nuevo Crimen Organizado Emergiendo en México",
+        "content": "Imágenes circulan mostrando individuos vestidos como soldados, presumiblemente asociados con el Cartel de Santa Rosa de Lima, expandiendo territorios en Guadalajara."
+    },
+    {
+        "headline": "Exigen Auditorías Complejas Post-Elección Venezolanas",
+        "content": "EE.UU. demanda revisión exhaustiva de los últimos procesos electorales en Venezuela, criticando acciones gubernamentales contra líderes opositores."
+    },
+    {
+        "headline": "Reacción Española Ante Crisis Autonomista Catalana",
+        "content": "El gobierno español planea restablecer el orden constitucional mediante intervencionismo regional, respondiendo a movimientos independentistas catalanes."
+    },
+    {
+        "headline": "Primera Transexual en Revista Playboy Francés",
+        "content": "Ins Roussel será destacada en la próxima edición de noviembre-diciembre de Playboy, marcando hitos importantes respecto a diversidad inclusiva dentro de medios populares."
+    },
+    {
+        "headline": "Jacinda Ardern Nombrada Primera Ministra Neozelandesa Más Joven",
+        "content": "A los 37 años, Ardern asume el rol más alto político en Nueva Zelanda, simbolizando progreso hacia mayor juventud política y cambio generacional."
+    }
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines. Articles were identified based on context shifts within the input data. Any missing information was marked appropriately according to specifications.
+
+--- ERROR ENTRY: data/txt/correo/2017/10/correo_20.txt ---
+
+```json
+[]
+```
+The provided input primarily consists of non-journalistic content such as product listings, prices, event details, financial information, and administrative notices rather than structured news articles or feature pieces typical for inclusion based on the defined scope and goals. Therefore, there were no suitable entries found within the given data set to form any legitimate journalism-focused outputs according to the specified criteria. Consequently, the resulting JSON array remains empty due to the absence of qualifying articles.

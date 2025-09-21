@@ -1,0 +1,68 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/02/peru21_04.txt ---
+
+```json
+[
+    {
+        "headline": "España está en el grupo de la muerte",
+        "content": "España estará en el grupo de la muerte, el Grupo A, junto a Serbia, Brasil, Egipto, Irán y Francia, campeón europeo."
+    },
+    {
+        "headline": "\"LeBron James no ha confirmado su presencia\"",
+        "content": "“Simeone es el mejor DT con el que he trabajado.” Diego alaba al técnico del Atlético\n\n\"Alonso dice que los monoplazas de este año son feas.\" El español Fernando Alonso (Ferrari) admite que los Formula Uno de este año no son bonitas debido a los morros que tienen en la parte frontal.\n\n\"‘Los coches son feas’, hay que ser honesto. Pero estoy seguro que nuestros ingenieros encontrarán soluciones para hacerlos bonitos y rápidos\", dijo el español."
+    },
+    {
+        "headline": "AHORA ES LA ‘LOCAMOTORA’ DEL SCHALKKE",
+        "content": "El Schalkke 04 anda fino en la Bundesliga y eso se debe –en parte– al buen estado físico de sus jugadores, especialmente el peruano Jefferson Farfan.\n\nSegún la web alemana Derwesten.de, los ‘Reyes les’ recorrieron 11,892 kilómetros en el duelo que le ganaron 2–1 al Wolfsburg. Y uno de los que más corrió fue la ‘Foca’. \n\n“No podemos decir con certeza cuántos kilómetros recorrió él, pero lo que hizo fue increíble, parece una tortuga”, señaló Horst Heldt, gerente deportivo del Schalke.\n\nDe otro lado, el Fenerbahçe está interesado en Claudio Pizarro, según Tuttomercato."
+    },
+    {
+        "headline": "LA ESCENA DE AL FONDO HAY SITIO INICIÓ LOS ENSAYOS PARA LA SEXTA TEMPORADA",
+        "content": "El elenco de Al fondo hay sitio inició los ensayos de la sexta temporada y recibió a los actores Gianella Neyra y Carlos Rittter.\n\n“A su llegada, expresó su gratitud hacia el público. Voy a trabajar duro para lograrlo”, comentó Carlos Rittter.\n\nCarlos Rittter mencionó que participará en la obra “Escuela de Payasos” y Gianella Neyra en la obra “La Jaula de las Locas.”
+    },
+    {
+        "headline": "UN LEGISLATIVO COLOMBIANO QUIERE CESAR UN VIDEO POR IMORALIDAD",
+        "content": "Un legislador colombiano comenzó una campaña para censurar el videoclip de Shakira y Rihanna \"por imoralidad\"."
+    },
+    {
+        "headline": "LUCA DE LA CRUZ SALE EN LIBERTAD TRAS ACUSACIÓN DE ESTAFA",
+        "content": "Después de tres meses detenido bajo sospecha de injuriar a la empresaria Jessica Rodríguez, la cantante criolla Luca de la Cruz sale libre, aunque su proceso judicial continúa.\n\nComo defensa, afirmó haber sido víctima de fraude durante un concierto en 2012 cuando no cobró por dicho evento y aseguró desconocer las notificaciones legales. Este 6 de marzo tendrá un careo con la denunciante."
+    },
+    {
+        "headline": "'TI-TANES', DESDE EL PRIMER MARTES DE FEBRERO",
+        "content": "Finalmente se confirma que el nuevo programa de competición titanes debutará el próximo lunes 10 de febrero a las seis de la tarde en Frecuencia Latina, presentado por la conductora Vanessa Terkes. Competirá contra programas similares como Combate (ATV) y Esto es guerra! (América Televisión).\n\nParticipará Tilisa Lozano como jueza calificadora."
+    },
+    {
+        "headline": "POLÍCIA NEYORKANA DESCUBRIÓ HERONA EN CASA DE PHILIP SEPHER MORFINHO",
+        "content": "La policía de Nueva York investiga el origen de la heroína utilizada por el difunto actor después de encontrar 50 paquetes marcados con 'As de espadas'. Además, fueron localizadas numerosas jeringas vacías y medicinas diversas cerca de su cuerpo."
+    }
+]
+```
+This extraction captures distinct articles based on headlines and their respective contents while adhering strictly to the provided guidelines for processing and structuring data extracted via OCR from a Spanish language newspaper context.
+
+--- ERROR ENTRY: data/txt/peru21/2014/02/peru21_04.txt ---
+
+```json
+[
+    {
+        "headline": "LA CAMPAÑA ESCOLAR YA EMPECÉ Y LA VENTA DE LOS UNIFORMES ES BUENO CONTACTARSE DIRECTAMENTE CON LAS DIRECCIÓN DE LOS CENTROS EDUCATIVOS PARTICULARES",
+        "content": "La campaña escolar ya empecé y para la venta de los uniformes, una bueno opción es contactarse directamente con las dirección de los centros educativos particulares.\n\nMuchos negociantes ya empiece la campaña. Además de los útiles escolares, uno de los sectores con más ventas durante esta temporada es el de los uniformes. Ana María Sánchez, de Confecciones Anita, señala que debido al aumento del poder quisitivo de los peruanos, ahora el público demánda una mejor calidad del producto."
+    },
+    {
+        "headline": "ANA MARÍA SNCHZ SEALA QUE POR EL MOMENTO SOLO VENDEN EN LIMA, PERO EN MEDIANO PLAZO QUIERE ABRI MARKETING EN PROVINCIAS",
+        "content": "¿Cuánto tiempo tiene el negocio? \nComenz hace ocho años. Todo empez en el colegio de mi hija, donde me pidieron un lote pequeño de buzones y como cumplí con el plazo y el producto era de buena calidad, las mamás me sugerían que me dedicara a esto.\n\nQué hizo para expandirse?\nEn febrero, veía los modelos de uniformes, los elaboraba y bajo mi riesgo iba y los ofrecía en las puerta de los colegios. Luego me llamaban de diferente centros educativos.\n\nSolamente venda en Lima? Por el momento sí, pero en medio plazo quiere abrir mercados en provincia."
+    },
+    {
+        "headline": "CASE EXITO ANA MARÍA SNCHZ",
+        "content": "Señoras/os enviá su currículum a:\ngurvina@overall.com.pe,\nhaciendo referencia a Consultores Corportivós.\nPueden aplicar a través de www.aptitus.com\n\nImportante Empresa De Montaje Electro-mecánico Pesado necesita GERENTE COMERCIAL.\n\nRequisitos:\n-Ingeniero Civil, Mecánico y/o industrial con especialización en Mercadotecnia orientado al rubro de Minería.\n-Mínimo cinco año de experiência en posición similar.\n-Nivel de inglés avanzado.\n-Capacidad para diseñar, elaborar, ejecutar y evaluar las estrategías de mercadotecnia.\n-Capacidad para búsqueda de nueva oportunidades de negocio.\n\nPersonas interesadas y que cumplan con los requisitos pueden enviar su curricúlm a: potencialhumanos2014@gmail.com, indicando en el asunto: Gerente comercial."
+    },
+    {
+        "headline": "JEFE DE SEGURIDAD (ARENQUIPA)",
+        "content": "Empresa líder en nuestro sector de actividad, contamos con operación en trece ciudad y con un equipo de más de diecisiete mil colaboradores. Nos encontramos en pleno proceso de expansion a nivel nacional e internacionales, por ello requerimos cubrir la posición de Jefe de key account manager. La posición reportará a la gerencia de supply chain y será responsable primordialmente por el cumplimiento de los acuerdos del nivel de servicio del área de supply chain hacia sus clientes así como también por la planeación de la demanda (demand planning).\n\n-Liderar un equipo de key account managers, velando por el cumplimiento de los procesos de logística frente al cliente interno.-\n-Se requiere un profesional con formación en administración de empresas, ingeniería industrial o carreras afines. Es deseable contar con un diplomado en supply chain, conocimientos de crm.\n-Es necesario contar con mínimo cinco años de experiencia liderando equipos en empresas de gran envergadura, planeando la demanda y manejando indicadores."
+    },
+    {
+        "headline": "UNIVERSITARIO ADMINISTRACIÓN LE OFRECIO EL CARGO DE MGNER",
+        "content": "Chemio Regresa\n-Del solar seria el nexos entre Comizzo y la dirigencia. Técnic argentinano renov ayer por un ano.\n-Alisto el retorno. La vuelta de José del Solar a Universitario está casi cantada dado de la propuesta personal, que le ha ofrecido el cargó de mgnero a fin de sea el nexo entre los director y el técnico Ángel Comizzo.\n-Según se supo, el clim enrarecido que están viendo en últimas días es producto de que no haya una persona que lidere temas clave como el de los refuerzos.\n\"El tema de los refuerzos es un buen ejemplos de lo que han pasado en la ‘U’. Si el técnico Comizzo ya tenía decidida la salida de John Gallichio el 20 de diciembre del año pasado, ese mismo día debió haber dicho qué jugador pedido para remplazarlo. Valga decir, bi deciros no quiero a éste jugador y estas son las opciones que mano para ese puesto\", coment una fuentes del club.\nEn ese sentidos, transcurrió que el técnico tendría responsabilidad en la demora de los refuerzos.\n\-Debe decir: el refuerzo tiene que estar el primero de enero para inicio de la preparatoria. Ahora los jugadores están llegando sobre la hora.\" agregó el informante.\nSi no paso algo raro en próximos dias, Del Solar aceptará la oferta y retornará a ate tras su fallida experiencia como técnicas entre 2010 y 2012, cuando esa misma administración lo reemplazó por Norbereto Solano.\nEntretanto, se supo que Comizzo renovó ayer su contratos por todo el 2014."
+    }
+]
+```

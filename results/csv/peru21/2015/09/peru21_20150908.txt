@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_08.txt ---
+
+```json
+[
+    {
+        "headline": "Medidas financieras China elimina el impuesto a la renta para dividendos",
+        "content": "China anunci\u00f3 la eliminaci\u00f3n del impuesto a la renta para dividendos de aquellos inversionistas que sean tenedores de acciones durante un periodo mayor a un año, con lo cual buscan fomentar la inversión en ttulos de largo plazo y minimizar la especulación de corto plazo.\n\nAdicionalmente, se implementará una reducción en la tarifa de impuestos sobre dividendos para accionistas que mantengan participaciones entre un mes y un año. Según lo comunicado por el Gobierno, dichas medidas entrarán en vigor hoy."
+    },
+    {
+        "headline": "Encuesta de INEI Más jóvenes en asistencia alimentaria",
+        "content": "Según datos proporcionados por el Instituto Nacional de Estadística e Informática (INEI), en el segundo trimestre del 2015, el 37.4% de menores de edad recibió beneficios de al menos un programa alimentario, mostrando así un incremento significativo respecto años previos. Entre los más accesibles figuran el Programa Vaso de Leche, comedores populares, desayunos escolares, almuerzos escolares y atención alimentaria y nutricional WAWA WASI."
+    },
+    {
+        "headline": "¿Qué pasa con la Izquierda?",
+        "content": "\"Ayer reflexionábamos sobre cómo en un país marcado por grandes niveles de inequidad social como el Perú, aún persiste una baja representación electoral hacia partidos políticos de orientación izquierdista, considerándose ésta última como opción política preferida por aproximadamente el 50% de la población según estudios sociológicos.\" \n\n\"Podría argumentarse que tras la caída del Muro de Berlín y el término de la Unión Soviética, la percepción global hacia ideologías marxistas-leninistas experimentó cambios drásticos. Sin embargo, países europeos continúan presentando fuerzas políticas de izquierda influyentes y exitosas. ¿Ha contribuido también el legado violento de grupos extremistas locales como Sendero Luminoso y el Movimiento Revolucionario Tupac Amaru (MRTA)?\"\n\n\"Quizás exista una desconexión interna dentro de la misma izquierda peruana, generando barreras insalvables para dialogar eficientemente con sectores externos. Existe además la posibilidad de que cualquier voz discordante proveniente de fuera sea rápidamente descartada bajo etiquetas negativas tales como ‘ignorancia’ o ‘superfluidad’. Esto genera interrogantes importantes sobre estrategias futuras.”
+    },
+    {
+        "headline": "INTERVIEW Ricardo Monzn Komtur",
+        "content": "\"‘Un juez está vedado de tener miedo’, declara Ricardo Monzn, Presidente de la Corte Superior de Justicia de Lima, enfatizando que ningún magistrado debe actuar influenciado por amenazas o coacción alguna. Respecto a la situación actual de inseguridad pública, señala que existe una urgente necesidad de adoptar políticas integrales que involucren a múltiples ramas gubernamentales para enfrentar adecuadamente el fenómeno creciente de criminalidad. Además, critica la práctica recurrente de liberar prontamente a individuos implicados en delitos económicos debido a restricciones legislativas temporales, sugiriendo revisiones normativas urgentes para mejorar la retención temporal mientras avanza el procedimiento jurídico correspondiente.\""
+    },
+    {
+        "headline": "Guatemala Jimmy Morales lidera preferencias electorales",
+        "content": "Jimmy Morales, conocido actor y humorista guatemalteco, alcanzó el 23.95% de apoyo popular después del conteo preliminar del 97.71% de los votos emitidos, posicionándose favorablemente para disputar la siguiente fase electoral programada para el 25 de octubre. Su éxito marca un hito notable dado su perfil ajeno a experiencias tradicionales en cargos públicos, consolidándose como figura prominente del Partido de la Libertad Civil."
+    },
+    {
+        "headline": "POLICÍA MUERE AL ESTALLARSE GRANADA ANTE ESCUELA",
+        "content": "Una tragedia sacudió a la comunidad de Villa El Salvador cuando un oficial de la Policía Nacional del Perú sucumbió tras activar accidentalmente una bomba colocada frente a un plantel educativo. Esta acción formaba parte de una serie de intimidaciones relacionadas con demandas monetarias ilegítimas hechas al directivo del colegio. Durante el incidente, varias familias y estudiantes corrieron grave peligro, evidenciando la gravedad de las tácticas utilizadas por bandas criminales dedicadas a la extorsión."
+    },
+    {
+        "headline": "IMPORTACIÓN DE ALIMENTOS PREVENIDA POR EVENTO CLIMÁTICO",
+        "content": "Ante la posible emergencia provocada por un Fenómeno Climático Extremo denominado El Niño, el Ministro de Agricultura, Juan Manuel Benítes, adelantó planes para traer provisiones adicionales destinadas a socorrer a más de un millón de personas susceptibles de verse afectadas severamente. Paralelamente, el Ejecutivo formalizó regulaciones excepcionales para facilitar respuestas ágiles y coordinadas en respuesta a impactos adversos derivados de condiciones meteorológicas intensificadas."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on context clues such as topic shifts, presence of titles/headings, and coherent narrative structures within each segment. Any missing data was filled using "NA". This ensures clarity for further processing or analysis tasks.

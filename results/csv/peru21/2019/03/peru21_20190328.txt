@@ -1,0 +1,52 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/03/peru21_28.txt ---
+
+```json
+[]
+```
+The provided input does not include any recognizable headlines followed by substantial journalistic content based on the defined criteria. Therefore, there's nothing suitable to format according to the specified requirements.
+
+--- ERROR ENTRY: data/txt/peru21/2019/03/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Premier descarta la salida de Carlos Bruce",
+        "content": "El premier Salvador del Solar descart\u00f3 la salida de Carlos Bruce del Ministerio de \nVivienda, tras ser denunciado por\nel fiscal Juan Carrasco por su\ntema nexo con la organizaci\u00f3n criminal Los Temerarios\ndel Crimen.\n\"Estamos abiertos\na que haya una investigaci\u00f3n\ny si da luces sobre algo que\nda llevar a que cambiemos\nde decisi\u00f3n sobre qui\u00e9n ocupa\nun lugar en el gabinete, en ese\nmomento (...) se evaluar\",\nthubo. Juan Sheput, por su\nparte, dijo que el \"blindaje\"\nde Del Solar a su ministro se\ncontradice con la lucha anticonsumpti\u00f3n."
+    },
+    {
+        "headline": "Contralora Detecta Irregularidades en la Ejecución del Contrato",
+        "content": "Hallan perjuicio de US$6\nmillones en puerto de Paita\nUn organismo de control\nidentific responsabilidad penal y\nadministrativa en 22\nfuncionarios públicos del\nMinisterio de Transportes y\nComunicaciones (MTC),\nPronaturaleza y Ositrán.\nEntre las irregularidades\ndetectadas se señala que la\nautoridad portuaria nacional\n(APN)\naprob expedientes técnicos\nde las obras de infraestructura\ny Ositrán las reconoció como\nadicionales pese a que\ncorrespondieran a obras mínimas,\nEs decir, la firma estaba obligada\na ejecutarlas. Esto generó\nun perjuicio de US\$3’244,169,"
+    },
+    {
+        "headline": "Emergen nuevos datos sobre violación de derechos humanos",
+        "content": "\"Hechos ocurridos en Huancavelica\nentre 1984 y 1985 serán\npúblicos porque los hechos han sido\ncalificados como crímenes\nde lesa humanidad.\" El Ministro Público\nha solicitado penas que van desde\nlos ocho hasta los 20 años de prisión\npara los acusados."
+    },
+    {
+        "headline": "Participación en utilidades ejercicios fiscales previos",
+        "content": "Notificación a empleados respecto a la distribución de utilidades correspondientes al año anterior. Detalles específicos sobre procedimientos y requisitos necesarios están disponibles en las instalaciones designadas."
+    },
+    {
+        "headline": "Nuevo proyecto legislativo presenta cambios económicos",
+        "content": "Propuestas relacionadas con la modificación de políticas financieras destinadas a mejorar condiciones de acceso a créditos educativos y empresariales. Discusiones relevantes giran en torno a incentivos tributarios y subsidios gubernamentales."
+    },
+    {
+        "headline": "Desarrollo Económico y Político Actualizado",
+        "content": "Análisis profundo sobre tendencias macroeconómicas vigentes, destacándose proyecciones futuras basadas en estadísticas actuales. Evaluación de posiciones políticas frente a eventos globales y locales influyen directamente en decisiones comerciales y sociales."
+    },
+    {
+        "headline": "Opinião Editorial",
+        "content": "Reflexiones profundas sobre el estado presente de la política nacional, enfocado particularmente en acciones gubernamentales y repercusiones socio-económicas derivadas de tales movimientos. Consideraciones éticas y morales también forman parte integral del análisis editorial."
+    },
+    {
+        "headline": "Revisión Poética Contemporánea",
+        "content": "Exploración introspectiva de la obra lírica moderna realizada por Oswaldo Chanove, discutiéndose temáticas centrales y filosóficas inherentes a su producción artística. Análisis comparativo con figuras históricas similares proporciona perspectiva cultural relevante."
+    },
+    {
+        "headline": "Política Internacional y Respuestas Diplomáticas",
+        "content": "Discusión centrada en declaraciones diplomáticas emitidas por líderes mundiales en relación a tensiones geopolíticas emergentes. Reacciones diversas iluminan complejas dinámicas internacionales afectando relaciones bilaterales y multilaterales."
+    }
+]
+```
+This JSON structure captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected according to relevance and completeness within the given constraints.

@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/10/peru21_05.txt ---
+
+```json
+[
+    {
+        "headline": "Irregular",
+        "content": "Por otra parte, el ministro de Inclusión Social, Jorge Meléndez, opinó que la elección de Ortiz de Zevallos fue \"completamente irregular\"."
+    },
+    {
+        "headline": "Demanda cautelar",
+        "content": "\"El extitular del Consejo de Ética del Colegio de Abogados de Lima, Walter Ayala, presentó una medida cautelar para que se declare nula la designación de Ortiz de Zevallos.\""
+    },
+    {
+        "headline": "Requerimientos judiciales",
+        "content": "\"María Mantilla no descartó sesión alguna respecto a la situación judicial actual.\""
+    },
+    {
+        "headline": "Recusación de jueces",
+        "content": "\"Salvador Heresi señalará que recusará a los magistrados Carlos Ramos y Eloy Espinosa-Saldías por haber adelantado opinión.\""
+    },
+    {
+        "headline": "Neutralidad requerida",
+        "content": "\"Exigen que el Tribunal Constitucional (TC) ‘est obligado’ a mostrar neutralidad en sus decisiones.\""
+    },
+    {
+        "headline": "Disolución del Congreso lamentada",
+        "content": "\"Salaverry critica duramente a sus excolegas de Fuerza Popular, mencionándoles que están ofreciendo un ‘triste espectáculo’.\""
+    },
+    {
+        "headline": "Política interior",
+        "content": "\"El Ministro Morán rechazó comentarios de la Comisión Permanente acerca de mantener el orden público.”"
+    },
+    {
+        "headline": "Participación política",
+        "content": "\"Csar Segura manifiesta que Fuerza Popular sí debe participar en las próximas elecciones parlamentarias.”
+    },
+    {
+        "headline": "Proyectos ambientales",
+        "content": "\"Un proyecto sugiere reforestar mitades de áreas deforestedas en selvas amazónicas, requiriendo inversiones significativas."  
+    },
+    {
+        "headline": "Suspensión de operaciones aéreas",
+        "content": "\"La aerolínea Peruvian anunció la suspensión indefinida de sus servicios debido a restricciones financieras causadas por un embargo legal."""
+    },
+    {
+        "headline": "Confianza pública",
+        "content": "\"Discute cómo la confianza es fundamental para la cooperación social y políticas públicas eficientes, destacando tensiones actuales en dicha dinámica.”"
+    }
+]
+```
+This extraction focuses solely on identifying distinct pieces of journalism within the provided text while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Any ambiguous sections were interpreted based on context clues available in the input data.

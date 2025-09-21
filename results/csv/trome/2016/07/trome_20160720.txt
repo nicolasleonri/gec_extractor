@@ -1,0 +1,19 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/07/trome_20.txt ---
+
+```json
+[
+    {
+        "headline": "Le dispararon en la cabeza delante de dos mujeres, en Villa María del Triunfo",
+        "content": "Uno de ellos estaba acompañado de dos jóvenes chicas y su abogado. Estaban frente a la cevichería ‘Marinos’, situada en la calle Jorge Chavez, en el área conocida como Tablada de Luna. Cuando salían lentamente hacia la salida trasera, un hombre armado se aproximó rápidamente y sin mediar palabra alguna, sacó un arma y le propinó varios balazos directamente en la cara."
+    },
+    {
+        "headline": "André Silva cometió crimen por robo",
+        "content": "André Lucas De Silva Santistevan Matías (21 años), recibió una condena de prisión de 20 años y 10 meses después de haber sido declarado culpable de asesinar a golpes a su prima Vanessa Verónica Mazá Jara (42 años) en mayo del año 2014 mientras él tenía apenas 19 años. Además, también enfrentará cargos adicionales relacionados con el delito de violación sexual contra su víctima y su madre, así como intento de feminicidio debido a la brutal naturaleza del ataque perpetrado contra ellas ambas."
+    },
+    {
+        "headline": "No les dejaron testamento",
+        "content": "Una pareja había decidido dejar todo su patrimonio compartido entre ambos hijos antes de morir, pero ahora estos están involucrados en una batalla legal por determinar quién debería recibir qué partes específicamente según lo establecido previamente por sus padres difuntos."
+```
+This extraction focuses on identifying distinct stories within the provided text based on headlines followed by relevant narrative details while excluding non-article elements like ads and unrelated information. Adjustments were made for clarity where necessary but preserving the essence of each story's context.

@@ -1,0 +1,70 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/07/trome_25.txt ---
+
+```json
+[
+    {
+        "headline": "ViajamuchoaBrasil,EuropeayEstadosUnidosparamoverproovedoresytenerentendidasesobrequéproductosventaséxitosas?",
+        "content": "¿Quéfecha sésvendemás?\nAhoreremarkado está bien raro, he conversado conpersonasdedefinesectores comerciales y coincidimos que esto es un julio típicoporque,en vez demoder moda, lapersonaalgo prefieresalirdede viajen familiar.\n\nY,cúal es túestrategiapara enfrentarfaltadeventasydesinterés?\nTrabajo mucho ensellamarca,yo haceshowroomsenprovincias.Enmiárea,vamoímbiénbien,seme ayudafenalfrenteadeltancamientoquehayenLima.Concuántopersonaltrabajás?\nTenointegranteequipoconsieteoperariosenfunción.Ofrecemos servicios a otros sellos,manteniendo producción alta,puedoenfermeseproducircerca de 600 pares mensuales.\n\nHas sentido apoyo en producción y venta?\nNo,todo hasido autónomo,trabajo denerviosa dedicación.No hay apoyo suficiente parasociosempresarial,aunque tengamos que competircon mercadoinformal."
+    },
+    {
+        "headline": "Característicasdesteperuanoseremprendeordigital",
+        "content": "Me parece que el peruano es punche,Siquierohaceralgo,doblementehace, trabaja cómo hormiguilla.Personas comprometidas.\nPregunta frecuentes:\nCuálscolorspidan más?\nPreferenciapor negro,nude.Naturalmentelas damasnosesponjan a probarotros,colorespor temoren saber combinar.Miocaso,hacediseñozapatillascolor rojo,amarillo,fucsia."
+    },
+    {
+        "headline": "EdwinOviedonecesitatransición",
+        "content": "[...]Directivos yComitéConsultivoFed.Oviedo pidieran que dé un paso atrás.[...\nPresidente federativo casi forzado a reunirse [...]Pedían salida de Oviedo por temas delicados incluyendo \"audios\" y procedimientos legales pendientes.Además, podría clarificar situación respecto retorno potencial del entrenador Ricardo Gareca.Quienes también respaldaban decisión: GianfrancoCastagnola,LuisFelipeCantuarias,[...]"
+    },
+    {
+        "headline": "ConvocatoriaRicardogaeca",
+        "content": "\"¡Regresa,Ricardo Gaeca!\nFanáticos peruanos compran sección completa del periódico Clarin argentinopor él.Empresas locales ofrecen incentivos económicos.Federación ofrece propuestas tentadoras.Después de varios intentos, fanáticos muestran mensajes directos en medios internacionales.\"Gaeca vuelve al Perú.Triplicaremos nuestra base de fans para llevarnos a Qatar\", dice primera línea.El segundo mensaje insiste:\"No pienses.Regresa,García vuelve\"."
+    },
+    {
+        "headline": "PauloGuerreroenFlamengo",
+        "content": "Critican rendimiento bajo de Pauloguerrerodesde Flammengo.Se espera mejora después de críticas recibidas.Recientemente mostró buen juego frente Dinamarca,France,Australia.Sin embargo, aún necesita mejorar consistencia."
+    },
+    {
+        "headline": "PaoloHurtadoretomaimportancia",
+        "content": "Intereses extranjeros aumentan hacia PaoloHurtado.Portuguesequipos reconocen talento,SeattleSounders muestra interés fuerte.Debido a destacadas actuaciones en Portugal, equipo estadounidense considera incorporarlo."
+    },
+    
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and rules outlined in the task description. Note how irrelevant sections like ads were excluded based on given criteria.
+
+--- ERROR ENTRY: data/txt/trome/2018/07/trome_25.txt ---
+
+```json
+[
+    {
+        "headline": "Medio Hermano: Definición y Contexto Familiar",
+        "content": "Grafía similar a medio hermano: el sujeto que, junto a otro individuo, posee en común a su padre o su madre, pero no a ambos."
+    },
+    {
+        "headline": "Confían en éxito cinematográfico tras primera entrega",
+        "content": "La actriz Melania Urbina confía que ‘Margarita y la banda de los hermanos mayores’ supere la audiencia lograda por la anterior película donde interpretó al personaje de ‘Claudia’. “Queremos que le vaya muy bien a la película, sabemos que existe un público cautivo que está expectante ante su estreno programado para el 2 de agosto.”
+    },
+    {
+        "headline": "Actrices destacan en producción audiovisual peruana",
+        "content": "Por otro lado, comentó que desde hace más de un año concluyeron la filmación de la secuela protagonizada también por la jovencísima actriz Alessandra Araújo. Contó además que durante la última semana de rodaje compartió escenario con el argentino Pablo Hecker en una particular pamplinascola."
+    },
+    {
+        "headline": "Marco Zunino regresa próximamente a la pantalla chica",
+        "content": "El actor Marco Zunino anunció que aparecerá nuevamente en televisión dentro de pocas semanas. \"Tengo un proyecto interesante, aunque no pertenezca al ámbito del cine ni de la ficción. Dentro de un mes podrán disfrutarlo\", comentó Zunino."
+    },
+    {
+        "headline": "‘Melcochita’ enfrentará consecuencias judiciales",
+        "content": "\"Melcochita\" se encuentra más tranquilizado después de recibir sentencia judicial consistente en cuatro años de prisión suspensiva y el pago de 120 mil soles como reparación civil debido a un accidente de tráfico causado previamente."
+    },
+    {
+        "headline": "Rosangela Espinoza expone felicidad personal",
+        "content": "Rosangela Espinoza declaró sentirse sumamente feliz junto a su pareja Victor Hugo Coméndelo. Explicó cómo equilibra su relación laboral frente a especulaciones mediáticas."
+    },
+    {
+        "headline": "Protagonistas revelan aspectos detrás de cámaras",
+        "content": "Los artistas involucrados en producciones locales ofrecen perspectivas únicas respecto a sus roles y experiencias fuera de set, incluido el humorístico caso de Melcochita y su implicación legal."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extracting substantial journalistic material. Articles were identified based on context shifts indicated through changes in topics such as movie releases, celebrity statements, and notable events within Peru. Unrelated sections like ads and non-journalistic entries have been excluded according to guidelines.

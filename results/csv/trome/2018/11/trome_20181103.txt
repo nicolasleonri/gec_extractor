@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/11/trome_03.txt ---
+
+```json
+[
+    {
+        "headline": "SOY ROMÁNTICA, LEAL Y SINCERA",
+        "content": "\"Qué dice la gente cuando te ves\npor primera vez?\n‘¡Oh, qué diferente eres y un poco\ñ más delgada’.\nThe Peru...\nMICORAZÓN. Es la tierra en donde\nquisiera hacer patria y nunca\nirme de ella.\nTu lugar soñado es...\nDISNEY WORLD, porque llevárselas\nmis hijos será un viaje inolvidable.\nUn trab?o que odies...\nNunca odio ningún trabajo, por más\nque algunos cansaran más que otros,\nporque me encanta trabajar.\nTu dibujo animado favorito es...\n*Mago Merlín*, en búsqueda de suma magia."
+    },
+    {
+        "headline": "MI CASITA",
+        "content": ""
+    },
+    {
+        "headline": "BIÉNSES BASICOS DE CIÉLO TORRES",
+        "content": "Jean ajustado a la cintura:\nx Le encanta, ya que al ser muy\n\ttop pro rojo delgado y no tener\nxcadera pronunciada, unas prendas ideales para complementar formas voluptuosas, un estilo moderno modela delicadamente su silueta gracias a las franjas negras laterales.\ny moda, sin dejar de ser elegantes y femeninas.\nBotines con plataforma:\nx PeSeAquese\nven anchos y algopsados, la combinación con las otras piezas hacen protagonistas y perfectos para estilizar la figura."
+    },
+    {
+        "headline": "TIPOS DE ARETES DE HILOS DE SEDA",
+        "content": "Son livianos y bonitos para agregarlos a esa tendencia informal. Tienen montón de ideas por ejecutar. Cuando están colgándoles tus orejas mientras llevas el cabello recogido resalta aún más esos instantes creativos."
+    },
+    {
+        "headline": "PARA CONTROLAR EL COLESTEROL",
+        "content": "Digestiva y desintoxicante. Además gastronómicas, más allá de aparecer como ingrediente básico de la cerveza. Rica en vitaminas del grupo B [B1, B3 y B6]. Una buena fuente energética, especialmente hidratos de carbono de absorción lenta y resultará mineralizante por su contenido en potasio, magnesio, calcio, hierro y fosforo. Rica también en fibras solubles, rica en beta-glucanos asociada a la prevención de enfermedades cardiovasculares."
+    },
+    {
+        "headline": "POR QUÉ PIENSAS CELEBRAR SUS Éxitos ASÍ?",
+        "content": "Comida peruana, me gusta la pachamanca, ballo música de Agua Marina y Grupo 5, aunque también escucho a José María y no dejo de leer mi ‘Trome’. Con su ‘Gato de la fortuna’, ¡estoy feliz!"
+    },
+    {
+        "headline": "PAULA MANZANEL CONTÓ LOS DÍAS Q UE LE FALTAN PARA ALUMBRA SU PRIMER BEBE",
+        "content": "Después del nacimiento de su beb piensa mudarse a Australia. \"Encantadora de volver a Australia el próximo año con mi niño\"."
+    },
+    {
+        "headline": "Deysi Araújo reveló detalles íntimos de Claudia Ramírez",
+        "content": "Actriz cómica Marisa Victoria Santana contó cómo interpretar a Flower en la serie 'Los Villches'."
+    },
+    {
+        "headline": "Fabio celebró el cumpleaños de Mayra Dondiván",
+        "content": "Afirma que con Fabio Agostini está enamorado de Mayra Godoya y respeta su relación actual."
+    },
+    {
+        "headline": "Andrea San Martín dedica su tiempo a criar a sus hijas",
+        "content": "Ha estado enfrentando dificultades legales respecto a pagos alimentarios."
+    },
+    {
+        "headline": "Arturo Álvarez visitó Israel y conocía Tierra Santa",
+        "content": "Feliz por poder experimentar estos sitios sagrados relacionados con Jesús."
+    },
+    {
+        "headline": "Jess Zurita aprueba la relación de su hermano Cristian con Adriana Amiel",
+        "content": "Destaca que después de tantos conflictos, él merece comenzar una nueva fase positiva en su vida personal."
+    },
+    {
+        "headline": "Carolina Canvin anunció su embarazo",
+        "content": "Va a tener una niña y planea continuar trabajando durante su gestación."
+    },
+    {
+        "headline": "Ruth Karina reflexiona sobre experiencias laborales difíciles",
+        "content": "Recordó momentos en que debió cancelar shows debido a circunstancias fuera de control."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on the provided OCR input while adhering strictly to the defined rules for extraction and cleanup. Articles were identified through recognizable patterns such as capitalized titles followed by relevant paragraphs. Non-article sections like ads have been excluded according to guidelines.

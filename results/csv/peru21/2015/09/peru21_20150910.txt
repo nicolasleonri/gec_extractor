@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "¿Cómo mejorar la calidad del voto?",
+        "content": "El propsito es que ayuden a\nmejorar la calidad del voto, de\ñas propuestas de los partidos y\nde la idoneidad de los \nos y, por lo tanto, ayuden a\nmejorar la calidad de la democracia.\nY crea que, con \nestesesfuerzos, en el 2016 tendremos\nmejores autoridades?\nMira, este año, en el Congreso,\nes aprob un cambio en la Ley\nde Partidos Políticos que tiene\nque ver con la hoja de vida, y\nahora ya es obligación que los\ncandidatos señalen sus \ningresos y sus bienes."
+    },
+    {
+        "headline": "Reformas Electorales Pendientes",
+        "content": "\"El voto preferencial\nes un tema a \ndiscutir, aunque hay que\nser conscientes de\nque es un tema \ndonde es difícil alcanzar\nun consenso\".\nTenemos tiempo mientras\nel presidente de la República,\n\"Ollanta Humala\", no convoque al\nproceso electoral, cosa que debe\nhacer entre el 10 de noviembre y\nel 10 de diciembre. \"Creo que se\ndeben aprobar las normas que\nfallan priorizando las que tienen\nmayor impacto en el proceso del\n2016.\" Como cuales?:\nPor ejemplo mayores facultades\sobre el\nfuncionamiento a las campañas\nlectorales. Porque hoy, cuando\nlos partidos no cumplen con \nreportar sus ingresos y gastos de\ncampaña a la ONPE, se les \ncae una multa que no pagan. "
+    },
+    {
+        "headline": "Opini\u00f3n sobre Candidaturas",
+        "content": "\n--Comparto el pesimismo de \nRospigliosi sobre que Nadine y Ollanta siem>\npre se libren en el PJ, como en el \n\"Andahuaylazo\" (al que Ollanta apoy\npor RPP desde Sel.) Oigan su \ngolpismo en https://www.youtube.com/\nwatch?v=f3RDOkKSVsE cuando exigía\nla salida de la presidencia de su ahora\nALIADO Toledo) y \"Madre Ma\"\nexculpado increíblemente por San Martín,"
+    },
+    {
+        "headline": "Extorsión y Terrorismo Urbano",
+        "content": "Aparecen extraños trapos rojos\nen medio de oleada de extorsiones\nmás violentas. Se hallaron \npistolas junto a \nbanderolas con dibujos de la hoz y el\nmartillo. La Policía descartó que se trata de\ngrupos terroristas tradicionales, mientras\nanalistas sugieren otras hipótesis."
+    },
+    {
+        "headline": "Ataque Contra Mujeres",
+        "content": "Abogada asesinada por esposo\ntras carcelización con arma blanca. Carlos Antonio Busso Escurra mató a golpes a su mujer después de una fuerte disputa doméstica."
+    },
+    {
+        "headline": "Proyectos Anticipatorios Frente a Fenómenos Climáticos",
+        "content": "El Gobierno Regional de Lima solicita fondos adicionales para prepararse frente a potenciales eventos climáticos severos asociados al fenómeno de El Niño."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while filtering out irrelevant sections such as ads and non-journalistic information. Adjustments were made where necessary to ensure clarity and coherence within each extracted segment.

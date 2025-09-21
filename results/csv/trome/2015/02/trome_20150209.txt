@@ -1,0 +1,58 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/02/trome_09.txt ---
+
+```json
+[
+    {
+        "headline": "Trilogía",
+        "content": "A Kouri se le vió en\nun mitin de Alan y el Apra\napoya la revocatoria de la\ntarea que, dicen, promovió el ‘Movimiento’...\nPACIFICA REGIONAL\nDe Yhony Lescano, como buen pueblo,\netá emocionado con el carnaval de la Candelaria en Puno.\nLo califica de \‘espectacular, majestuoso y emotivo’. Ay ay ay...\n‘ECOTEVAS'\nEl fujimorista Juan Day dice que espera que las denuncias contra Nadine Heredia y su entorno familiar por presunto lavado de activos no sean tratadas como un nuevo Ecotevas. Solicita que la Comisión de Fiscalización investigue el tema."
+    },
+    {
+        "headline": "Que Tu Negocio No Despunte",
+        "content": "“No podemos evitarlo.”\nTeléfono:\n513–5000\no a tu corredor de seguros.\nPOLÍTICA LOCAL\nHumberto Lay transmite que su partido, Restauración Nacional, tampoco participará en el diálogo en Palacio debido a demandas de cambio en el gabinete ministerial...\nArcheología\nEsta semana, miembros sindicales realizarán una manifestación exigiendo la dimisión del ministro Daniel Urresti..."
+    },
+    {
+        "headline": "Soledad",
+        "content": "Leila Chung publicó un tweet acompañado de un meme del periódico El País y escribió: “Ahora sí me entendés! ¿Por qué las mentes más brillantes requieren soledad?” Ay ay ay..."
+    },
+    {
+        "headline": "SURFEAN CON COLCHONES INFLEXIBLES",
+        "content": "Al ritmo del pegajoso reguetón ‘El Taxi’, un grupo de mujeres ofrece servicios sexuales en un local disfrazado de hotel ubicado en San Martin de Porres. Agentes de la Región Policial Lima irrumpieron sorpresivamente encontrándoles seis féminas vestidas mínimamente. También había lubricantes y condones disponibles."
+    },
+    {
+        "headline": "Procura no dejar a Belaúnde Lossio",
+        "content": "Ya que se declaró improcedente el pedido para extraditarlo, Joel Segura afirma que Bolivia debe mantener el arresto domiciliar de Martín Belaúnde Lossio en La Paz. Expresa preocupación respecto a cómo esto afecta las relaciones bilaterales."
+    },
+    {
+        "headline": "CAIDA DE DOS HUAICOS CAUSEN APAGON",
+        "content": "Dos huaicos causaron daños significativos cerrando las compuertas de la planta de La Atarjea, limitando así el suministro de agua potable en algunas áreas de Lima y Callao."
+    },
+    {
+        "headline": "PETICIÓN PARA ROBAR COMBUSTIBLE DEL GRUPO AREO",
+        "content": "Denuncian que ilegalmente entraron dos cisternas al Grupo Aero No 51 de Pisco robando combustible destinado posiblemente al narco-traficante según reportes preliminares."
+    },
+    {
+        "headline": "REFACCION AMPLIAMIENTO PARQUE DE LAS LEYES",
+        "content": "Actualmente están mejorando instalaciones dentro del Parque de Las Leyendas incluyendo nuevas estructuras metálicas y cascadas para mejorar tanto la experiencia pública como la calidad de vida de animales residentes tales como el león Sultan y las otorongo Zamba y Canuta."
+    },
+    {
+        "headline": "CALLAO CELEBRACIÓN FECHA VALORES AFECTIVOS",
+        "content": "Durante domingos festivos, familias organizan piscinas inflables y actividades recreativas en Callejones del Callao, creando ambientes llenos de diversión y camaradería."
+    },
+    {
+        "headline": "PSIQUELOGISTA ALERTA SOBRE EFECTOS PSICÓLOGICOS",
+        "content": "Dr. Carlos Bromley señala incremento en casos de depresión relacionados con sentimientos de soledad y pérdida sentimental especialmente notable en días dedicados a expresiones públicas de amor."
+    },
+    {
+        "headline": "VIDEO VIRAL PROPUESTA MATRIMONIO EN AEROPUERTO",
+        "content": "Video muestra a Israel proponiendo matrimonio a Addi en el Aeropuerto Internacional Guillermo Concha Ibérico de Piura mediante globos reveladores dejando claro su intención frente a testigos."
+    },
+    {
+        "headline": "MAXIMO MINISTERIO JUSTICIA INTERVIENE CASO YANACOCHA",
+        "content": "Campesinos de Nanupe denuncian hostigamientos continuos por Yanacocha quienes buscan aislarlos legalmente impidiéndoles protestar efectivamente."
+    },
+    
+]
+```
+This extraction includes headlines where available along with their corresponding contents while excluding non-journalistic sections like ads, subscriptions prompts, etc. It maintains the structure requested for each entry within the provided constraints.

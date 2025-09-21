@@ -1,0 +1,113 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/08/peru21_01.txt ---
+
+```json
+[
+    {
+        "headline": "Manifestación del técnico Roverano",
+        "content": "Un partido en la altura con Melgar, que es difícil en la cancha donde juegue\", manifestó el DT Roverano.\nPese a cumplir con sus\nocho fechas de suspensión,\nel volante uruguayo \nbloMigueznoviagó a \nArequipa para tener una lesión muscular."
+    },
+    {
+        "headline": "Lesiones afectan plantilla de Melgar",
+        "content": "\"El golero Leao Bustamante con cuatro tarjetas\namarillas más una roja, no podría jugar el próximo\ntemporada ante Municipal.\""
+    },
+    {
+        "headline": "Previa del partido entre Melgar y Alianza Lima",
+        "content": "\n\"Información de última hora desde Arequipa.\nEl cuadro mistiano, que\nllega entonado después de golear 4–1 en su visita a Cienciano, espera hacer respetar su casa y meterse en la pelea por el título.\"\n\"El técnico Reynoso decidi apostar por el golero Jonathan Medina en lugar de Daniel Ferreyra. La razón?\nTrascendió que el Capitán habría tenido una discusión con el arquero en los últimos días y por eso decidiera enviarlo al banquillo.\""
+    },
+    {
+        "headline": "Apuesta fuerte de Reynoso contra Alianza Lima",
+        "content": "\"‘Alianza Lima’ llegará desgastado y con bajas, porque a estas alturas la mayoría de equipos no tienen uno o dos suspendidos sino varios. Otro aspecto favorable que crece cuando le toca un gran equipo’, subrayó Reynoso.\""
+    },
+    {
+        "headline": "Participaciones destacadas en partidos futuros",
+        "content": "\"Sporting Cristal recibirá a Sport Huancayo buscando sumar puntos importantes hacia el campeonato Apertura. Para este encuentro, Sergio Calcaterra retornará titular... \"Daniel Ahmed comentó: ‘Este sábado será un partido crucial para nosotros.'\""
+    },
+    {
+        "headline": "Cambios significativos en Sporting Cristal",
+        "content": "\"Calcaterra retorna a la formación inicial reemplazando a Renzo Sheput en la media cancha; además, el argentino Mathías Caruzzo ocupará el puesto vacío por Alberto Rodríguez.”"
+    },
+    {
+        "headline": "Confirmación de jugadores extranjeros",
+        "content": "\"Jefferson Farfán comenzó su primera práctica con el Al-Jazira de Emiratos Árabes Unidos. Además, Paolo Guerrero abandonará próximamente el Pacos de Ferreira rumbo al Reading inglés.”
+    },
+    {
+        "headline": "Posición estratégica de Gareca sin Christian Cueva",
+        "content": "\"El director técnico de Perú, Ricardo Gareca, está considerando alternativas para cubrir las responsabilidades de Christian Cueva, incluyendo Reimond Manco, Willyan Mimbela y Pier Larrauri.”"
+    },
+    {
+        "headline": "Último capítulo profesional de Ronaldinho",
+        "content": "\"Ronaldinho Gaúcho se dispone a cerrar su carrera deportiva en Fluminense, recordándose cómo Diego Maradona alguna vez reflexionó acerca de qué hubiera ocurrido si él nunca había consumido sustancias prohibidas. Sin embargo, Ronaldinho ha vivido momentos gloriosos junto a figuras legendarias como Messi y Maradona.”"
+    },
+    {
+        "headline": "Aspiraciones de Rafael Nadal en Hamburgo",
+        "content": "\"El español Rafael Nadal buscará avanzar a otra final frente al italiano Andreas Seppi durante el Torneo de Hamburgo, siguiendo su reciente eliminación prematura en Wimbledon.”"
+    },
+    {
+        "headline": "Carlos Ascues persigue su primer trofeo con Wolfsburg",
+        "content": "\"Anteriormente confirmado en el conjunto convocado, Carlos Ascues tendrá oportunidad de obtener su primer título defendiendo al Wolfsburg en la Supercopa alemana contra el poderoso Bayern Munich.”"
+    },
+    {
+        "headline": "Defensa del título de Carlos Zambrano",
+        "content": "\"El boxeador peruano Carlos Zambrano defenderá su corona mundial intermedia de la AMB en Chincha, enfrentando al colombiano José San Martín, manteniéndose invicto desde su victoria anterior.”"
+    },
+    {
+        "headline": "Regreso de Raúl Ruidíaz a Universitario",
+        "content": "\"Raúl Ruidíaz anunció su retorno a Universitario mediante pago personal de USD 140,000 correspondientes a su clausura contractual previsto hasta diciembre, firmando ahora un nuevo compromiso de un año adicional.”"
+    }
+]
+```
+This JSON captures each distinct article found within the provided OCR text while adhering strictly to the outlined requirements for extraction and cleanup. Articles were identified based on headlines followed by relevant content sections. Any non-article elements such as schedules or unrelated information have been excluded according to guidelines.
+
+--- ERROR ENTRY: data/txt/peru21/2015/08/peru21_01.txt ---
+
+```json
+[
+    {
+        "headline": "Fugas de Dinero",
+        "content": "Os errores que les hemos mostrado son comunes (haladores invasivos o tiendas sobrecargadas). Sin embargo, muchos empresarios saben que estas prácticas no generan buenos resultados, pero persisten porque piensan que está establecido cómo deben trabajar. Gran error. Cambien su modelo de negocio porque afecta sus ventas y usa ineficientemente sus recursos."
+    },
+    {
+        "headline": "GRACIAS A GRECIA PODRÁ RETOMAR SUS OPERACIONES BURSALES LUEGO DE CINCO SEMANAS DE INACTIVIDAD",
+        "content": "Bolsa de Atenas reabrirá el lunes. Clímenes Tsakalotos, Ministro de Finanzas, firma decreto para reiniciar actividades bursátiles después de cinco semanas suspendidas. Analistas anticipan restricción en transacciones bancarias, impactando principalmente a inversionistas locales."
+    },
+    {
+        "headline": "Para aliviar el financiamiento de las empresas China prepara fondo estatal de crédito",
+        "content": "El Gobierno chino planifica crear una empresa estatal de garantías crediticias para facilitar préstamos bancarios a pequeñas empresas, representativas del 75% de empleos en el país, frente a la desaceleración económica."
+    },
+    {
+        "headline": “’El embargo impuesto a Cuba debe terminar de una vez por todas’. Hillary Clinton, precandidata a la presidencia de EE.UU.",
+        "content": "Clinton expresa su respaldo al levantamiento de sanciones a La Habana."
+    },
+    {
+        "headline": "Israel. Israelis lanzaron bombas Molotov contra una casa en Cisjordania",
+        "content": "Incidentes violentos resultan en víctimas mortales y múltiples quemaduras severas. Primer ministro Netanyahú contacta al Presidente Abbas para discutir ataques terroristas."
+    },
+    {
+        "headline": "Bolivia. Amalia Pando anunció que dejaría emisora radial por supuestas presiones del gobierno",
+        "content": "Renuncia de la destacada periodista boliviana Amalia Pando provoca preocupación internacional respecto a libertad de prensa en Bolivia."
+    },
+    {
+        "headline": "Vuelve el Talibán",
+        "content": "Análisis histórico sobre el retorno del Talibán post-retiro occidental de Afganistán, comparándose con intervención estadounidense en Irak."
+    },
+    {
+        "headline": "Desabastecimiento causa caos en Venezuela",
+        "content": "Disturbios civiles derivados de falta de suministros básicos en Caracas, incluidos incidentes fatales durante intentos de saqueo."
+    },
+    {
+        "headline": "Entrevista Mihael Palacio Ibar",
+        "content": "Diálogo con Hugo Muñoz 'Pitillo', explorando filosofía contemporánea del humor y rol social del payaso moderno."
+    },
+    {
+        "headline": "Personal especializado llegará para ubicar a obrero extraviado y recuperar cuerpos de compañeros",
+        "content": "Equipo de búsqueda intensificará labores en localización de trabajadores desaparecidos en accidente minero en Piura."
+    },
+    {
+        "headline": "Regreso de la TeleNovela Peruana",
+        "content": "Programación semanal dedicada a series dramáticas producidas en el Perú."
+    }
+]
+```
+This extraction captures distinct sections identified within the provided OCR text based on their thematic relevance and structure typical for journalism pieces. It excludes non-content elements like ads, subscriptions prompts, etc., focusing solely on substantial textual information suitable for inclusion in structured data format.

@@ -1,0 +1,81 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/01/trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "CONTENTO POR FIN DE CUARENTENA!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "URGENTE: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamán ordenó..."
+    },
+    {
+        "headline": "UN FAJÍN",
+        "content": "El aprista Mauricio Mulder no perdona a Javier Barreda y Abel Salinas por aceptar ser ministros. Dice que los principios deben estar \"por encima\" de un fajin."
+    },
+    {
+        "headline": "SINSABOR'",
+        "content": "La presencia de apristas en el \"Gabinete de la Reconciliación\" no le ha cuadrado a los PPKausas. Uno de ellos es Salvador Heraesi, quien afirmó que existe una especie de \"sinsabor\", uyuyuy...\n\nLochanca.\n\nPara el congresista Carlos Villanueva, PPK debería ser generoso con el país y renunciar". Agregó que el datario no sabe de esto políticamente y que su caso es \"clínico\".\"BLÁSAMO\"\n\nSegún el periodista Allan Wagner, la visita del Papa será un \"blásmo\" que permita serenar los ánimos y avanzar en el proceso de reconciliación nacional. Vale...\n\nAgua del Mari\n\nEn las redes le daban duro a PPK por ponderarle algo así a una niña que le dio agua para su pueblo. \"¡Ah tienes todo el mar!\", le dijo. Qué...\n\nAgua del mari II\n\nHoras más tarde, el mismo PPK aclaró que a la niña le expresó que el gobierno desalinizaría el mar y entonces ella podría tener agua para tomar. Algún editor había editado el vídeo del incidente para dejarlo mal. Así no es..."
+    },
+    {
+        "headline": "LAS MALAS ARTES DE MARTÍN BELAÚNDE",
+        "content": "\"Instigado por Hugo Canévaro, el abogado de Belaúnde Lossío,\n\nto alterar al fiscal,\" [...] \n\n\"Para asegurar cambiar al fiscal, López debía escribir un texto que él (Canévaro) le dictaminara. Le dijo que iban a sacarlo en el periódico de Belaúde y en algún medio de televisión. El objetivo era cambiar al fiscal, pues estaba muy firme y debían cambiarlo por uno más blandón\", narra el testigo [...]\n\n\"De acuerdo a algunas versiones, según las cuales Belaúnde estaría en algunos casos como ‘colaborador eficaz’ con clave, afirmando versiones que no pueden sostener. Los colaboradores eficaces son claves para dar con los cabecillas que se coludieron con la empresa corrupta Odebrecht, pero muchos también usan dicha figura legal para venganzas personales, involucrándo a gente inocente que termina siendo procesada injustamente. He conocido casos de destacados funcionarios públicos que tuvieron que abandonar sus cargos porque candidatos a convertirse en colaboradores efectivos nombraron sus nombres sin pruebas sólidas.»"
+    },
+    {
+        "headline": "XIBALLADO A EMPLEADA REGIONAL DEL CALLAO",
+        "content": "[...] «Cuatro hombres vestidos con máscaras de Anonymous y de chimpancé, que se ponían para evitar reconocimiento, irrumpieron en la residencia familiar de Estrella Suspiro Huertas Estrada, esposa de Victor Suelpres Jerez, matándole a ésta frente a sus tres niños. […] Después de llevar a cabo el acto violento, el autor escapó rápidamente hacia la motocicleta donde lo esperaba su cómplice.»"
+    },
+    {
+        "headline": "MATRIZA MUERE ENVUELTO CON SBANAS",
+        "content": "«Hallaron envuelto con sábana y una frazada, como si fuera un fardo, el cadaver de la administradora de empresas Cindy Rojas Portilla (30) en el balcón de su apartamento, en San Martin de Porres. Presumen que fue ultimada a golpes y cortada con navaja por el progenitor de su hija.»"
+    },
+    {
+        "headline": "DOCTOR TILDE DAR CLASES DE REDACCION PROFESIONAL",
+        "content": "“El maestro Jesús Raymundo, popularmente conocido como Doctor Tilde’, impartirá clases-taller sobre técnicas de escritura claras y precisas.”
+    },
+    {
+        "headline": "REALIZAN TRANSPLANTE DOBLE DE PULMONES",
+        "content": "Medics del Hospital Almenara ejecutan exitosamente operación quirúrgica compleja."
+    },
+    {
+        "headline": "MULTAN CEVICHERIAS POR PRODUCTOS INSALUBRES",
+        "content": "Por poseer alimentos deteriorados y plagas, inspectores multaron establecimientos gastronómicos en el centro de Lima."
+    },
+    {
+        "headline": "TERREMOTOS PREOCUPACION GENERAL",
+        "content": "Instituciones ofrecen recomendaciones para manejar crisis sísmicas, promover seguridad personal y proteger propiedades."
+    },
+    {
+        "headline": "BUSCAN TAXISTA QUE TRANSPORTABA CADVER",
+        "content": "Investigaciones policiales buscan detener al conductor que transportó clandestinamente el cuerpo de la artista folklórica Vilma Cruz Pinedo."
+    },
+    {
+        "headline": "PILOTODE REBELIÓN CONTRA MADURO SERÍA CAIDO",
+        "content": "Escobar Pérez, aviador venezolano disidente, posiblemente haya encontrado su fatal destino en confrontación militar."
+    },
+    {
+        "headline": "AUTO FLOTANDO CAPTURO ATENCIÓN",
+        "content": "Incidentes insólitos ocurren regularmente, atrayendo curiosidad pública y medios de comunicación."
+    },
+    {
+        "headline": "PRESENTE LA CAMISETA AZUL GRANA",
+        "content": "Equipo deportivo presenta indumentaria oficial anticipando competiciones importantes."
+    },
+    {
+        "headline": "EXPECTATIVAS ANTES VISITA DEL PAPO",
+        "content": "Preparativos intensos prevalecen conforme se aproximan eventos significativos relacionados con visitas papales."
+    }
+]
+```
+This JSON captures each identified article based on its structure within the provided input while adhering strictly to the outlined requirements for extraction and formatting. Articles were segmented using headlines where available, ensuring clarity between distinct pieces of journalism. Any missing data was filled appropriately according to guidelines given.

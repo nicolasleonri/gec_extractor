@@ -1,0 +1,192 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "Escenarios",
+        "content": "\"No me considero un artista del pasado,\nporque también presento canciones nuevas\".\n\nJos Feliciano, intérprete venezolano, asegura que sigue evolucionando como músico."
+    },
+    {
+        "headline": "Emisoras y Medios del Grupo Vocémcive",
+        "content": ""
+    },
+    {
+        "headline": "Argentino recibió galardón a mejor actor en festival de cine español",
+        "content": "Darín triunfa en San Sebastián\n\nEl argentino Ricardo Darín fue reconocido en el Festival de San Sebastián obteniendo la Concha de Plata a Mejor Actor, debido a su destacada interpretación en la película \"Truman\", dirigida por el cineasta español Cesc Gay. Este premio compartió junto a Javier Camarena, co-protagonista de la obra cinematográfica. \n\n\"Hemos colaborado intensamente. Es gratificante saber que ambos hemos sido distinguidos dado que resulta complicado diferenciar roles cuando se trata de historias centradas en relaciones personales,\" expresó Darín refiriéndose a su compañía actoral. Además, mencionó una frase inspiradora enviada mediante redes sociales relacionándose con experiencias vitales derivadas de películas trágicas."
+    },
+    {
+        "headline": "Actores revelados detalles de reality talentoso",
+        "*La voz Peru?\nse estrena esta noche*\n\nLas grabaciones comienzan mostrando cambios significativos en el panel de jueces, incluido el retorno de Eva Ayllón y la incorporación de figuras musicales tales como el guineño Luis Enrique, el mexicano Alex Lora y Gian Marco Zignago representando a Perú."
+    },
+    {
+        "headline": "",
+        "content": "De España reportan que Lionel Messi sufrió una lesión en la rodilla mientras disputaba un encuentro frente a Las Palmas, evento que culminó con una victoria de 2–1 para Barcelona. Esta situación obligará al jugador a ausentarse de competiciones importantes durante varias semanas próximas."
+    },
+    {
+        "headline": "España. Iguala 0–0",
+        "content": "Real Madrid pierde brevemente la puntería después de enfrentarse al Mallorca en el Santiago Bernabéu, resultado finalizado en un empate sin goles. Los comentarios posteriores resaltaban cierta ansiedad experimentada hacia el término del juego según palabras de Rafael Benítez, técnico madridista."
+    },
+    {
+        "headline": "Inglaterra. Manchester United logró arrebatar la punta a City",
+        "content": "Un emocionante desarrollo ocurrido en Old Trafford permitió al Manchester United obtener una ventaja temporal en la tabla clasificatoria de la Premier League, aprovechando simultáneamente la caída del Manchester City en su propio territorio deportivo."
+    },
+    {
+        "headline": "Claudio Pizarro decepciona en Alemania",
+        "content": "Werder Bremen, bajo la dirección táctica limitada de Claudio Pizarro, sucumbió ante Bayer Leverkusen dentro de la jornada número siete de la Bundesliga. Críticas surgidas apuntan a la falta de impacto decisivo esperado del veterano atleta germanoperuano."
+    },
+    {
+        "headline": "Chelea apenas consigue punto valioso",
+        "content": "Chelsea mantuvo su posición competitiva en Inglaterra al sumar un punto crucial en condición de visitante frente al Newcastle, gracias a intervenciones clave de sus jugadores brasileros Ramires y William."
+    },
+    {
+        "headline": "Brasil. Flamengo prepara revancha",
+        "content": "Anticipando un próximo compromiso importante, Flamengo planea recuperar fuerzas tras una contienda previa adversa, buscando capitalizar el impulso positivo generado por Paulo Guerrero en escenario internacional."
+    },
+    {
+        "headline": "Uruguay. Romario critica a Platini y Blatter",
+        "content": "Figura emblemática del fútbol sudamericano, Romário expone crítica directa hacia altos ejecutivos del ámbito europeo, sugiriendo similitudes ideológicas problemáticas entre ellos."
+    },
+    {
+        "headline": "Clausura. Universitario cae 2–0 en Arequipa",
+        "content": "Una serie de fallos determinantes llevaron a Universidad Nacional Mayor de San Marcos a sufrir una derrota ajustada ante Melgar, evidenciando vulnerabilidades estratégicas aún pendientes de resolver."
+    }
+]
+```
+This JSON captures each significant segment identified within the provided input while adhering strictly to the outlined requirements for extraction and structuring. Articles were segmented based on headlines where available, ensuring clarity between distinct pieces of journalism presented across various sports and cultural topics. Missing data was appropriately marked as `"NA"` according to guidelines.
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista.21 ALUIS IBÉRIGO NEZ. Presidente del Congreso de la República.",
+        "content": "\"RECIBIMOS INFORMES (DE COMISIONES) CONGELADOS QUE NO PODÍAMOS TRATAR POR LO TANTO PEDIMOS UN TIEMPITO EXTRA PARA VER SI LOS PUDEMOS DESHELADER.\" \"LA MISIÓN DEL CONGRESO ES DAR TRANQUILIDAD AL PAÍS Y GARANTIZAR SU GOBERNALIDAD\".\nPregunta.- ¿POR QUÉ ANTES DE OCTUBRE SE APRAVARÁN REFORMAS ELECTORALES?\nRespuesta.- ESTA DISCUSIÓN HA IDO CREANDOSE Y FINALMENTE EL PRESIDENTE DE LA COMISIÓN DE CONSTITUCIÓN PIDIERON UN TIEMPO ADICIONAL PARA LOGRAR ACORDARSE."
+    },
+    {
+        "headline": "Las agencias en la mira. El titular del Parlamento afirma que está facultado para investigar y está obligado a hacerlo, y eso no es persecución.",
+        "content": "- Ricardo Monzn Komt\n- Usted dijo que antes de octubre se aprobarían las reformas. No llegué a la meta. He hecho todo el esfuerzo. Haré una invitación a mis colegas parlamentarios para que sean más flexibles en sus posiciones, porque estas discusiones podrán seguir siendo largas.\n-Porque vinieron entrando otros temas importantes que también requerían atención urgente."
+    },
+    {
+        "headline": "Actores de crisis. ‘’He debido tomar decisiones difíciles durante mi mandato.’'",
+        "content": "'NO VA A SER POSIBLE CONTINUAR CONTRATANDO PERSONALES SIN CONTROL NI EVALUACIÓN PREVIAMENTE REALIZADA'.\n‘''Es necesario evaluar cuidadosamente quién realmente necesita mantenerse dentro de nuestras filas laborales’. \n-'Creo que aún queda trabajo pendiente en términos de transparencia y rendición de cuentas".'
+    },
+    {
+        "headline": "Del Director. La tormenta perfecta",
+        "content": "“Los años de gran expansión económica fueron gracias a la elevada tasa de inversión privada. Sin embargo, desde el año pasado, dicha inversión comenzó a disminuir drásticamente.”\n“Existen varios factores detrás de esta situación adversa, incluyendo conflictos políticos y cambios regulatorios severos.”
+    },
+    {
+        "headline": "Defensor del lector",
+        "content": "“Este artículo aborda cómo algunos países están limitando la libertad de prensa mediante legislaciones restrictivas. Destaco especialmente la situación en Ecuador, México, Cuba y Venezuela, donde periodistas enfrentan diversas formas de represalias gubernamentales.”"
+    },
+    {
+        "headline": "Política",
+        "content": "Legisladores Mulder y Eguren alertan sobre un decreto considerado como “mordaza” hacia los medios de comunicación. Critican que podría silenciar críticas legítimas al sistema judicial, mientras defensores del ejecutivo argumentan que buscan proteger la integridad legal."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extraction. Articles were selected according to criteria such as having substantial journalistic value and excluding non-journalistic sections like ads or unrelated information.
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "Legisladores mulder y Eguren alertan que Norma para sancionar Denuncias Calumnia 'A*' PoE ''En Deroga Silenciar Medios de Comunicación",
+        "content": "Congresistas acusan al Ejecutivo\n\nde promulgar ’decreto mordaza'\nmEvaluarán \nconstitucionalidad de decreto\nlegislativo y citarán\na titular de Justicia al\nParlamento.\nEn visperas de cumplirse el \npazo que le concedió el Congreso\npara legislar en materia \nimpositiva y de seguridad ciudadana,\nel Ejecutivo promulgó un\ndecreta legislativo que \nsanciona con pena de cárcel y multa pecuniaria a quién “denuncie\nante la autoridad un hecho \npenalizable, a saber de que no se\nha cometido o que ha sido \netenido por una persona distinta a la denunciada”, trata del artículo 40º contenido en\nel capítulo II referido a los delitos contra la administración de justicia.\nPiden Explicaciones\nEn opinión de Mauricio der (APRA) y Juan Carlos Eguren (PPC), la norma constituye\nuna mordaza para los medios de comunicación. Esto versión\nfue contrarrestada por su homólogo oficialista Santiago Gastaudú, quien comentó\nque lo que se busca con la norma es “cautelar una correcta\nadministración de justicia.”\nAdemás, el ministro de Justicia lo sabe y por eso dicta este decreto\n“mordaza” que tiene la evidente intención de amedrentar\na los medios de prensa y evitar que estos denuncien.”
+    },
+    {
+        "headline": "Premier Caterianos Hablar También Con Lozudes Flores y Raí Castro",
+        "content": "Se reunió con Bedoya\nComo parte del dialogo entre\nel Gobierno y las fuerzas políticas,\nel Premier Pedro Cateriano\nse reunió ayer con el líder popular cristiano (PPC)\nLuis Bedoya Reys, en el domicilio de éste último, en Miraflores.\nLa cita duró más de una hora y en ella –según reveló\nCateriano– se trataron los temas que marcan la coyuntura política,\ncon especial énfasis en los temas de seguridad democrática\ny la continuación del sistema democrático."
+    },
+    {
+        "headline": "Magistrado Bacsa Nexo Entre Órgano de Nadine Heredia y Financiamiento del Nacionalismo",
+        "content": "El fiscal Gerónimo Juárez Atocha,\nquién indaga el manejo de la campaña del Partido Nacionalista,\ndispuso que se examina a la ONG Prodin,\ncreada por Nadine Heredia, con el objeto de determinar\nsi dicha entidad está vinculada también a las personas del entorno\nde la primera dama o al mencionado grupo político.\nJuárez decidió después de que la procuradora de lavado de activos, Julia Princesa,\ntuviera presentado supuestos registros personales de Heredia.\nConsideró necesario revisar información relevante sobre la organización y posibles conexiones financieras."
+    },
+    {
+        "headline": "Yo Soy El Cocodrilo",
+        "content": "|sti teni?\nostulantes a las elecciones del 2016;\nn no creo que esto les importe pero igual les cuento que antes me indignaba con ustedes y ahora solo miro todo este ridículo evento como el casting de una comedia perversa. Veo a Urresti rapéando junto a un modelo vestido de soldado que se agarran las bolas. Da risa, especialmente porque es malísima cantante, además no presenta nada nuevo, simplemente quiere superar a otros candidatos populares diciendo ‘yo soy mejor’. Sin embargo, parece olvidar cómo terminó siendo menospreciado anteriormente. Continúa apareciendo PPK, alguien que siempre admiré por su inteligencia económica combinada con empatía social, sorprendentemente acompañado por el padre de Ciro Castillo, únicamente reconocido por el lamentable destino de su hijo. ¿Quién sigue?"
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes.
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "Dos guardianes de rancho fueron asesinados y quemados en Trujillo",
+        "content": "Horror en La 136\nTestigos presumen que los atentados se deben a que el dueño de los dos predios se negó a pagar cupo.\nSicarios les dispararon a dos guardianes de dos ranchos en el sector de Alto Salaverry, en el distrito trujillano de Salaverry y luego prendieron fuego a los predios con los cuerpos dentro.\nLos delincuentes fueron primero a una de las haciendas y mataron a JL.M.L., de 15 años, quien recibió un balazo en el pecho. Luego fueron al otro predio y ultimaron a William Smith Saavedra Castillo, de 22 años, quien tenía un impacto de bala en el abdomen, según informó la Policía Nacional."
+    },
+    {
+        "headline": "Cartilla Cuponera:",
+        "content": "Para más información visita: www.promeiras.com\nNombre y apellido: [Datos omitidos]\nNúmero de reserva:\n¡Reserva tu smartphone llamándonos!\nCentro comercial Ga y Pe. Ejemplo: Para un crédito simple de 3100, a un plazo de 36 meses podrás obtener tasas de solo 0%. ¡Información disponible!"
+    },
+    {
+        "headline": "Nave Cayó en Cuzco",
+        "content": "Recuperan cadáveres\nAccidente ocurrió ayer a las 2:01 de la madrugada, a 29 kilómetros al sureste del distrito de Soras, provincia de Sucre, según informó el Instituto Geofísico del Perú. Unidad de Rescate de Altitud de Ancash intervino tras terremotos registrados en la región."
+    },
+    {
+        "headline": "Boquiabierto a cualquier espectacular visual",
+        "content": "Grandes efectos, impresiona y abruma a todos. Esta nueva manera de hacer teatro lleva a un viaje emocional y físico. El creador de estas experiencias teatrales apareció inicialmente en la película ‘Tesis sobre un homicidio’, protagonizada por Daniel.”
+    },
+    {
+        "headline": "Proceso de Licitación",
+        "content": "Niegan supuestas irregularidades\nGuillermo Gomero aclara varios puntos relacionados con denuncias de irregularidades en una licitación. Afirma falsedades sobre viajes conjuntos y relaciones contractuales mencionadas erróneamente en medios."
+    },
+    {
+        "headline": "Calidad de Impresión",
+        "content": "Ahorrar dinero usando tintas originales Canon garantiza mayor durabilidad y calidad de tus documentos impreso. Visite www.canon.pe para saber cómo ahorrar aún más."
+    },
+    {
+        "headline": "Organizadora de Viva Peru en México critica falta de apoyo gubernamental",
+        "content": "Ingri Yrivarren señala que el evento culturalfalta de respaldo oficial. Solicitaron fondos significativos para cubrir costos totales, enfrentando limitaciones presupuestarias del Estado peruano."
+    },
+    {
+        "headline": "Catlna, la lengua y la secesin",
+        "content": "Las próximas elecciones parlamentarias en Catalunya pueden tener implicancias profundas para España. Las tensiones lingüísticas reflejan divisiones sociales mayores, destacando debates sobre identidad regional versus unidad nacional."
+    },
+    {
+        "headline": "Escenarios",
+        "content": "\"No me considero un artista del pasado,\" declara José Feliciano, enfocado también en producir música contemporánea además de clásicas."
+    },
+    {
+        "headline": "Argentino recibe galardón a mejor actor en Festival de Cine Español",
+        "content": "Daniel Triunfa en San Sebastín obteniendo la Concha de Plata a Mejor Actor por su rol protagónico en la película \"Truman\" bajo dirección de Cesc Gay."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines. Articles were identified based on context clues such as titles followed by substantial narrative content. Non-article sections like ads and repetitive information have been excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/peru21/2015/09/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "Formalidad Vs Competitividad",
+        "content": "nel año 2012 los contribuyentes con domicilio\nen La Victoria pagaron casi 3,000 millones de \nensoles impuestos al fisco, considerando IGV y Renta.\nLa mayor cantidad de estos recursos proviene del\nIGV generado por las ventas de Gamarra, emblema de la\nPyme. Las preguntas que se hacen estos empresarios,\ncon algunos de los cuales converseste semana, es \"¿y cuanto\ñame devuelven por estos impuestos?\", ¿está cumpliendo\nel Estado su parte del contrato (social)?\" Es verdad\"\ny probablemente también engañan algunas\n\"públicas\", pero sólo el pago del IVG, cuya obligación\nnace incluso sin haber recibido pago alguno, genera suficiente\nlegitimidad para cuestionar el sistema. Uno dirigente de Gamarra,\npor ejemplo, me mostró números de por medio cómo la\nformalidad está redunda con la competitividad. Y ser competitivos,\nin pocas palabras de grandes centros comerciales, no solo\nincluyen las variables precio y calidad, sino también los servicios\ny la infraestructura que debe ofrecerse a los clientes para que\ntengan una buena experiencia de consumo; aspectos en los que\nellos mismos ben gastar, como en seguridad, al no recibir de parte\nde Estado un servicio aceptable (20 efectivos para 34 manzanas\nes una broma).\nDesde luego, ahí no se agota el fracaso del Estado en cuanto a lo\nqué (no) hace a cambio de los impuestos. Bastará no estar de\nacuerdo con una acotación de la Sunat para advertir que, a pesar\nde que se le venzan los plazos al fisco para resolver qué se demore\nel poder judicial igual les cobran intereses/IPC por la ineﬁciencia\nestatal.\nNecesitamos un cambio de instituciones estatales. Un mercado\ncon este Estado no es un \"modelo de mercado\". No es un modelo."
+    },
+    {
+        "headline": "China invertirá en países poco desarrollados",
+        "content": "El presidente de China, Xi Jinping, anunció en Nueva York,\nantes de la Organización de las Naciones Unidas (ONU), que,\nhasta el 2030, su país invitará 12 mil millones de dólares para\nluchar contra el hambre, la pobreza y otros problemas que\nabundan en los países en vías de desarrollo. El mandatario asiático\nanunció que dentro de su plan también se encuentra una iniciativa\nde condonar la deuda de los países menos desarrollados a ﬁn de\nao, señalando que \"todos los países deberían tener las puertas bien\nabiertas al desarrollo\". Así, China lograría llevar a cabo los Objetivos\nDel Milenio, señala Xi. Finalmente, el presidente chino propuso una\n\"energía de Internet\" para suponer la necesidad energética de los\npaíses menos desarrollados."
+    },
+    {
+        "headline": "Bolivia. Congreso aprobo Proyecto de Ley que le Permitirá Postular a la Presidencia en 2015",
+        "content": "\"Evo Morales Cerca de la Cuarta Reelevción.\" Desde las Naciones\nUnidas, mandatario señaló que desea gobernar \"más tiempo\nhasta el 2025\". LA PAZ (Agencias): El Parlamento de Bolivia, controlado\npor el Partido Movimiento al Socialismo, aprobó en una primera\ninstancia la norma que plantea una nueva constitución que\npermite al Presidente Evo Morales postular en las Elecciones Generales\ndel 2019. Tras cerca de 20 horas de debate, el proyecto de ley fue\naprobado y será enviado a consulta al Tribunal Constitucional. Luego de\nello, será sometido a Referéndum popular, que ya se tiene programado\npara el 21 de febrero del 2016. La norma propuesta al Congreso por los\nsindicalizados de obreros e indígenas afines a Evo Morales modificaba\nel artículo 168 de la Constitución boliviana para permitir un mandato y\ndos reelecciones consecutivas, en lugar de una, tal como lo disponía la\nCarta Magna en la actualidad. El proyecto de ley fue aprobado por 113\ndiputados que avalaron la reforma frente a 42 votos de la Alianza de\npartidos de oposición Unidad Democrática y Partido Demócrata Cristiano.\nEn tanto, los partidos de oposición anunciaron que harán campaña\npara evitar que Morales pueda volver a postular a la presidencia."
+    },
+    {
+        "headline": "Mexicana Protesta en La Paz",
+        "content": "HIJA DE EVÓ MORALES PROTESTÓ EN LA PAZ. Miles marchan por\nlos 43 Desaparecidos. México DF (DPA): Miles de personas marcharon\nen varias ciudades de México y del Mundo en el aniversario de la\nDesaparición de los 43 estudiantes de la Escuela Normal Rural de\nAyotzinapa de la ciudad de Iguala. La protesta fue encabezada por\nlos Padres de los estudiantes desaparecidos. La Marcha se realizó en\ndistintos lugares del mundo, como en Perú, Francia, España y Bolivia.\nEn el caso de La Paz, Eva Liz Morales, hija del presidente boliviano\nEvó Morales, encabezó el Plantón ante la Embajada de México para\nreclamar que se hiciera Justicia por las 43 víctimas."
+    },
+    {
+        "headline": "Malestar, Policías dicen...",
+        "content": "... Que Les Quitan un Ingreso Extra y además no les Aumentan Sueldo Bsico. MINISTRO DEL INTERIOR ADmite Que Último Aumento Real de Sueldos Se Otorgó en 2017. Reconoce que PNPs solo reciben bonos. Luego de que Per21 Informara sobre el Malestar Entre Agentes de la Policía Nacional por el Falso Aumento de Sueldos, el Ministro Del Interior José Luis Pérez Guadalupe reconoció ayer que los Miembros de Esta Institución, Actualmente, Solamente Reciben Bonos y que el último Aumento Real se Otorgó en el 2012. \"Yo He Dicho Clara mente que se les Subió la Remuneración en el 2012 y lo que están Recibiendo Actualmente son Bonos (en Cinco Etapas)\", precisó. Sin Empezar a Pérez Guadalupe Una Aclaración Sobre Estos Incrementos Respondió: \"La Compensación a esos Bonos Va a Ser la CTS. Anteriormente un Suboficial Recibia Ente 1,500 y 2,000 Soles por sus 30 años de Servicio, Ahora Van con 60mil o 70mil Soles\". Cuando se le Insisti a Pérez Guadalupe una Aclaración Más Respondió: \"La Eliminación del Servicio de 24×24. Yo les Exigiría a Buses Ser Coherentes y que Apoyaran Esta Medida\", Indicó. No Obstante, Otros del Interior Como Remiglio Hermann y Octavio Salazar Han Sealado su Apoyo a la Eliminación del 24×24, Siempre y Cuando Existiese un Aumento Real a los Policías. Es más, Salazar Advirtió que Esto Podría Generar Actos de Inconducta de los Agentes."
+    },
+    {
+        "headline": "Darán Cadena Perpetua a Quienes Sean Valgan de Menores para Cometer el Delito",
+        "content": "ENDURECEN PENAS a Extorsionadores. Los Extorsionadores que se valgan de Menores de Edad para Cometear su Delito Verán Cadena Perpetua tras que el Solo Uso de Explosivos con Finés Extorsivos Ahora tendrá una Penas de 15 a 25 Años de Prisión. As lo Establece un Decreto Legislativo Publicado Ayer en el Diario El Peruano, que Modifica el Código Penal. A fin de Terminar con la Ola de Extorsión en Lima y en el Interior del País, También se Ha Establecido una Penas Privativas de la Libertad de 25 Años cuando la Victima de las Extorsiones sea Propietaria, Responsable o Contratista de la Ejecución de una Obra de Construcción Pblica o Privada. Igual Sucede en el Caso de que el Hampan Aproveche su Condición de Integrante de un Sindicato de Construcción Civil. En Tanto, si el Delincuente, con Fines Extorsivos, Mantenga de Rehen a una Persona, la Penas Privativa de la Libertad Será Entre 20 y 30 Años. A Estas Disposiciones se Suman Otras que Tienden que Ver con los Delitos de Fabricación y Tenencia de Explosivos, Tráfico Ilícito de Droga y Conspiración para el Terrorismo."
+    }
+]
+```

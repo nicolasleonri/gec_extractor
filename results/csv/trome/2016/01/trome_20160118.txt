@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/01/trome_18.txt ---
+
+```json
+[
+    {
+        "headline": "VAGINITIS",
+        "content": "Em La vagnitis es el resultado de una alteración del equilibrio de la flora vaginal, la cual permite la proliferación de microorganismos contaminantes que causan irritación del área genital, inflamación de los labios vaginales, aumento del flujo vaginal con mal olor, ardor al momento de miccionar y dolor durante las relaciones sexuales.\n\nPara mejorar la vaginitis y evitar que se vuelva crónica le damos alternativas naturales y sencillas, pero eficientes:\n+\nDisuelva 2 cucharadas de vinagre blanco en un litro de agua y lávese con esta mezcla la región genital durante 7 días.\n+\nDisuelva una cucharada de yodo en un litro de agua y realice la limpieza del área genital con esta solución dos veces al día durante 14 días.\n+\nLas infuciones de té verde sirven para disminuir la inflamación cuando son aplicadas sobre los genitales en paños tibios.\n\nLa vaginitis afecta a mujeres de todas las edades. De persistir el problema, lo mejor es acudir a un especialista para conocer las causas y seguir un tratamiento."
+    },
+    {
+        "headline": "Aniversario de Lima",
+        "content": "Hoy, 18 de enero, se celebra el aniversario de Lima, ciudad que fue fundada en 1535 por el conquistador español Francisco Pizarro. En principio se llamó ‘Ciudad de los Reyes’. \n\nSegún cuentan los cronistas, Pizarro, con su espada, trazó el cuadrilatero de lo que seria la Plaza Mayor. El lugar se encontraba a una distancia perfecta del mar. Además poseía buen clima, vegetación y caminos llanos. Desde entonces, las primeras casas comenzaron a construirse entorno a esa plaza, cercana al Rio Rimac, con paredes de barro y techos de caña.\n\nDurante muchos años, Lima ha mantenido su importancia histórica y cultural, mostrándose orgullosa de su patrimonio arquitectónico tanto colonial como contemporáneo. Sus calles aún conservan vestigios de su rico pasado mientras continúan evolucionando hacia un futuro promisorio."
+    },
+    {
+        "headline": "James Joyce",
+        "content": "Fue un escritor irlandés (1882 – 1941). Su primera obra: ’Dublinenses’; y más tarde ’Retrato del artista joven’ y ’Ulises’, lo consolidaron como uno de los autores intelectuales más innovadores del siglo XX. Su compleja narrativa fusiona elementos lingüísticos avanzados, psicológicos profundamente humanos, reflexiones filosóficas y motivos mitológicos."
+    },
+    {
+        "headline": "Alejandra Baigorria confiesa...",
+        "content": "\"Sí, me molestó y me molesta que una cosa sea bromear y otra dejar a alguien como loca. [...] Me enteré de las burlas de Mario y también de cómo Leslie Shaw me había catalogado como regresa a Lima. Creo que no podría haber alcanzado tantas tardes trabajando, entrar en controversias académicas, ni mantener lo que hoy tengo, si realmente fuera una loca.\""
+    },
+    {
+        "headline": "Monos Capuchinos",
+        "content": "Este primate pertenece al género de América Central y Sudamérica. Debido a su distintiva máscara facial, recibió su nombre inspirado en los hábitos religiosos de los monjes capuchinos. Son conocidos por su gran astucia y habilidad social dentro de grupos familiares estructurados."
+    },
+]
+```
+This extraction captures key informative pieces while adhering strictly to the provided guidelines for extracting structured data from the given input. Articles were identified based on their headlines followed by substantial textual content relevant to journalism standards. Other sections like ads, personal notes, etc., have been excluded according to specified criteria.

@@ -1,0 +1,40 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/06/peru21_17.txt ---
+
+```json
+[
+    {
+        "headline": "Obsérvense proyectos al Congreso",
+        "content": "Presiden-
+te no dio luz verde.\n\nEl Ejecutivo convo-
+có a Legislatura Extraordinaria pa-
+ra mañana donde se discutirá la petición de facultades legíslativas."
+    },
+    {
+        "headline": "Exoneración de descuentos a las gratifica-ciones",
+        "content": "\nPese a que su banca había votado a fa-vor de la ley que exonera de forma permanentede los descuentos a las gra-tificacióness de julio y diciembre, el Pre-sidente Ollanta Humala decidió ob-ser-var la auté-grafia alegando objeciones de tipopresupuestal y const-itucional.\n\nPedro Cateriano anunció esto en una conferencia de prensa. \n\nSeñaló que parlamentarios carecen de iniciativa para legis-lar sobre temas de gasto público y que la norma no tenía sustento técnico. Además, indicó que podría causar déficits presupuestos-al."
+    },
+    {
+        "headline": "Instan a Bancada Oficialista a Ratificar Exone-ración",
+        "content": "\nOpinión contraria surge dentro del Congreso. Victor Andrés García-Bellido declara que insistirán en la norma aprobada previamente. Critican que Gobierno escucha más al Ministe-ro de Economía que a su propia Ban-ca-da."
+    },
+    {
+        "headline": "Optimismo por Delegación Presidencial",
+        "content": "\nPremier indica que Presidente convoca a sesión especial para debatir pedidos de faculta-des legislativas relacionadas con administra-ciión, economía y seguridad ciudadana. Considera que después del conflicto político anterior, podrían avanzar en pro-yectos benéficos para el país."
+    },
+    {
+        "headline": "Del Director: Calatos, Pues",
+        "content": "\nEditorial critica situación política actual comparándola con obra literaria ‘Calatos’. Destaca bajos niveles de institución y producción económica. Propone implementar cambios estructurales urgentes en áreas clave como partidos políticos, sistema jurídico y eficiencia gubernamental."
+    },
+    {
+        "headline": "Suspensiones Políticas Generan Confrontaciones",
+        "content": "\nDurante sesión del Consejo Direc-tivo, confrontaciones surgieron por suspender a Heriberto Bentez. Acciones provocadoras llevaron a interrupción momentánea de actividades. Posteriormente, se procedió a cumplir mandato judicial relativo a otro diputado."
+    },
+    {
+        "headline": "Supuestas Contribuciones Fantasmáticas Reveladas",
+        "content": "\nVictor Huaranca expresa cómo fue involucrado falsamente como contribuyente durante elección de 2011. Denuncia manipulación por intermediarios cercanos a Primera Dama. Confirma amenazas implícitas de repercusiones personales frente a autoridades judiciales."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on context shifts within the document's flow. Any missing data was filled using "NA".

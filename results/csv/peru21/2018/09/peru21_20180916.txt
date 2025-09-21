@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/09/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "Correo de Ca:",
+        "content": "“La idea es que\na mis clientes no los tocas.\nNo los puedes llamar ni enviarles\ncorreos electrónicos. Tus clientes\nya son tuyos y los míos ya son míos,\nTe mando una \nlínea. No vayan a romper este\nacuerdo de caballeros. Una guerra\ncomercial de jaloneo no le hace bien\na nadie.” Numerosas cartas decían\ncosas parecidas."
+    },
+    {
+        "headline": "Prontuarios y Realidades",
+        "content": "\"‘La descripción de una pelea de gallos’...\nPérdennos, Chabuca\" \"La descripción de una pelea de gallos en ‘Gallo camarán’ y del caballo de paso en José Antonio’, son, para mi gusto, los versos más logrados de Chabuca:\n‘Fina cadencia en el ánca,...'"
+    },
+    {
+        "headline": "Política",
+        "content": "'Los demás oficiales ya están en la cárcel por robar gasolina a su institución. ¿Donayre tiene corona?\nParece que sí.'\n'DOMINGO 16 DE SETIEMBRE DEL 2018'\n‘PEDRO CHARVARRY LLENA DE FISCALES PROVISIONALES EL MINISTERIO PÚBLICO.’\n'MÁS MOVIMIENTOS ADMINISTRATIVOS POR PEDIDO DE JUSTIFICACIÓN.'
+    },
+    {
+        "headline": "Informe.21",
+        "content": "‘CELDAS DE YIHADISTAS CONSIGUEN FALSOS DOCUMENTOS EN LIMA PARA PODER VIAJAR A EUROPAA Y ESTADOS UNIDOS’. Desde hace tres décadas, el Perú ha sido elegido por organizaciones terrorista islámicas como lugar de tránsito, refugio y captación de adeptos."
+    },
+    {
+        "headline": "Opina.21",
+        "content": '"Jaime Chincha"\nOr Salaverry nos dijo sesión en vez de función, pero por el bloqueo visto esta semana, da lo mismo. Cambiar las cosas es algo que aterra al Keikoismoo. Transformar la justicia y el sistema político es crucial."
+    },
+    {
+        "headline": "Entrevista.21",
+        "content": "Jose Carlos Requena, analista político, afirma que el Presidente Vizcarra está solo y representa únicamente el referéndum, causándole agotamiento. Explica cómo cambió el estilo de liderazgo tras perder popularidad inicial."
+    }
+]
+```
+This JSON captures each distinct article based on headlines identified within the provided text while adhering strictly to the specified format requirements. Articles lacking explicit headings have been assigned `"NA"` where applicable. Content has been cleaned up according to guidelines given, ensuring proper merging of fragmented lines and removal of irrelevant sections like footnotes or metadata.

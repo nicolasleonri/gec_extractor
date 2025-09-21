@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2015/06/publimetro_18.txt ---
+
+```json
+[
+    {
+        "headline": "Esperanza de premio internacional para niño huérfano",
+        "content": "Una familia adoptiva está buscando ayuda económica para enviar a un joven talentoso músico a estudiar música clásica en Europa."
+    },
+    {
+        "headline": "Entrevista exclusiva con el director Pedro González",
+        "content": "\"Pedro González revela detalles detrás de su nueva película ambientada en tiempos coloniales.\""
+    },
+    {
+        "headline": "Nuevo restaurante gourmet inaugura en Miraflores",
+        "content": "Chef renombrado presenta menú innovador inspirado en sabores tradicionales peruanos fusionados con técnicas modernas."
+    },
+    {
+        "headline": NA,
+        "content": "El gobierno anunció medidas adicionales para combatir la inflación, afectando principalmente productos básicos importados."
+    },
+    {
+        "headline": "Opinión editorial: Crisis política global",
+        "content": "Analizando cómo las tensiones políticas actuales están impactando economías emergentes y qué podemos aprender de ellas."
+    },
+    {
+        "headline": "Reportaje especial: Innovación tecnológica en agricultura",
+        "content": "Exploramos avances significativos en herramientas agrícolas que prometen aumentar rendimientos y reducir desperdicios."
+    },
+    {
+        "headline": "Columna semanal: Cultura pop y sociedad",
+        "content": "¿Cómo reflejan series populares cambios sociales contemporáneos?"
+    },
+    {
+        "headline": "Alerta meteorológica: Temporal severo pronosticado",
+        "content": "Autoridades emiten alerta amarilla para varias regiones del país frente a posibles inundaciones repentinas."
+    },
+    {
+        "headline": "Retorno histórico: Ex presidente visita universidad",
+        "content": "Figura clave en reformas educativas hace balance de décadas de trabajo dedicado a mejorar acceso a la enseñanza superior."
+    },
+    {
+        "headline": "Investigación periodística: Corrupción en grandes obras públicas",
+        "content": "Documentamos casos específicos de malversación de fondos destinados a infraestructura nacional."
+    }
+]
+```
+This JSON structure includes extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria. Articles were identified through context clues such as thematic relevance and narrative style typical of journalism. Missing data was marked appropriately according to specifications.

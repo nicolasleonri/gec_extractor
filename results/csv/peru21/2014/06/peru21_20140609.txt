@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/06/peru21_09.txt ---
+
+```json
+[
+    {
+        "headline": "IPAE acaba de premiar esta labor",
+        "content": "Morales, como colofón a esta charla, nos dice: \"Si quiero que mis nietos y los nietos de mis nietos vivan en este país, necesitamos mejorar nuestro sistema educativo. Si no educamos a la gente, el Perú no es sostenible... por más oro que tengamos\"."
+    },
+    {
+        "headline": "Entrevista",
+        "content": "\"Este es el mejor Perú que le ha tocado vivir?\n\nNi en la mejor de mis fantasías imaginé un Perú así. En 2008 me tocó organizar la reunión empresarial de la APEC. Por esta tarea tuve que viajar a muchos países, y cuando me tocaba hablar del Perú y mostrar sus cifras económicas, yo mismo me sorprendía, parecía que hablaba de otro país: eran cifras sorprendentes. Y todo eso que me parecía un sueño no lo era, era realidad. Hay que seguir creyendo en nuestro país.\n\nPara esta bonanza, ¿el Estado ha sido un facilitador o una traba?\n\nLos astros se alinearon: hubo una conjunción del Estado, de los peruanos y de los empresarios: todos trabajamos juntos.\""
+    },
+    {
+        "headline": "Autoficha",
+        "content": "\"El 3 de octubre de 1968, empieza mi trayectoria empresarial en el fundo El Naranjal. Trabajo 45 años aquí antes de enfocarme completamente en otras áreas...\n\nAhora soy reconocido como uno de los fundadores de esa universidad y he impartido numerosas clases, especialmente en derecho minero... también vinieron circunstancias personales. Hubo un cambio de política económica, y todos los gobiernos posteriores han sabido mantener esa línea, lo cual nos ha permitido crecer. Después, la empresa privada comenzó a desarrollarse, reinviertiendo en el Perú.\""
+    },
+    {
+        "headline": "Lo que pasa hoy y lo que está ocurriendo ahora",
+        "content": "\"José Miguel Morán ‘si hoy me reuniera con el presidente’\n‘Les diría que agarren un hacha y corten todos esos nodos burocráticos’. Cuando nazcan convertírnos en empresarios’, nos dice el profesional José Miguel Morán.”
+    },
+    {
+        "headline": "Encuesta Ideológica",
+        "content": "\"La reciente encuesta ideológica de Datum, inspirada en el Test de Nolan, indica que solo un 4.8% de los peruanos es liberal, mientras que un tercio son totalitarios o sea, típicos fascistas que estarían cómodos ahora con el Frente Nacional francés de Le Pen. Son antis-inmigración, antic-gay, pró-sindicatos (el fascismo se sustenta en el sindicalismo gremial), protectionistas, mano dura, clérigos, estatistas, fiscalistas, anti-retailer... Mussolini, Franco, Fujimori y Chávez hubieran sentido orgullo!\n\nAdemás, estos ’totalitarios’ confluyen peligrosamente en temas específicos con el 2.5% de conservadores (controlar la libertad de prensa, antis-nómades, clérigos, anti-gays) y el 3.2% de progresistas izquierdistas (anti-inmigración, protectionistas, sindicalistas, anti-retailer, estatistas, fiscalistas).\n\nFelizmente, existe un 58% de centristas peruanos, quienes están cerca de los liberales económicamente.”"
+    },
+    {
+        "headline": "Alarma aumento de robo de camionetas",
+        "content": "\"Representa el 30% de las sustracciones de vehículos ocasionadas en todo el país según la Policía Nacional del Perú. Existen grandes cantidades de partes de lujo buscadas en mercados ilegítimos. Bandas criminales apuntan hacia modelos populares como el Chevrolet Sail Sedán debido a la facilidad de venta internacional con documentación fraudulenta.\"\n\n\"Se recomienda ahorrar tiempo y dinero utilizando planes de mantenimiento preventivo ofrecidos por proveedores confiables. Además, existen campañas públicas advirtiendo sobre el riesgo elevado de robar camionetas, particularmente en regiones densamente pobladas como Cajamarca, afectada negativamente por políticas locales restrictivas bajo liderazgos problemáticos.”"
+    },
+    {
+        "headline": "Serán instalados paneles con rostros de acosadores",
+        "content": "\"Tras registrar múltiples incidentes de agresión sexual dentro del transporte público metropolitano, ProTransporte planea exhibir fotografías de individuos implicados en dichos crímenes en todas las terminales del Metro. Esta medida pretende alertar tanto a potenciales víctimas como a perpetradores, reducir incidencias futuras y aumentar sensibilización pública respecto a la violencia de género en espacios compartidos.”"
+    },
+    {
+        "headline": "Remodelarán el tradicional Puente de los Suspiros",
+        "content": "\"Esta semana iniciará la remodelación del emblemático Puente de los Suspiros en Barranco, invertirse aproximadamente 940 mil nuevos soles. Este trabajo formará parte de un ambicioso proyecto destinado a revitalizar el área turística local, integrándola junto a sitios históricos cercanos como la Ermita y la bajada de baños. La alcaldesa Jessica Vargas anticipa completarlo en 90 días, contribuyendo significativamente al paisaje urbano y atracción turística de la región.”"
+    },
+    {
+        "headline": "Destacado egresado honrado por Universidad Villarreal",
+        "content": "\"Durante una ceremonia celebrada recientemente, el Dr. José María Vega, rector de la Universidad Nacional Federico Villarreal, otorgó la Medalla Honorífica UNFPV al Doctor Eduardo Sotomayor Bustamante, notable graduado y líder en investigación oncología desde Estados Unidos. Su compromiso continuo con avances médicos resalta el impacto positivo generado por instituciones académicas en campos científicos cruciales.”"
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on provided criteria while ensuring clarity and adherence to specified guidelines for extraction and structuring.

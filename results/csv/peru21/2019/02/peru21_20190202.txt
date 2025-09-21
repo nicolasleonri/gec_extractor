@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/02/peru21_02.txt ---
+
+```json
+[
+    {
+        "headline": "EL TRADICIONAL RESTAURANTE BRUJAS DE CACHE CHE SIEMPRE TIENE SORPRESAS PARA SUS COMENSALES:",
+        "content": "Esta vez, ofrece un festival de langostas que no te debes perder.\n\nExperiencia de disfrutar de un plat\u00f3 de langostas va más allá del sabor. Puede ser una ceremonia constante en búsqueda de una gran recompensa. El restaurante Brujas de Cache Che, en Miraflores, es un clásico, pero no deja de sorprender a los comensales peruanos y extranjeros que acuden a sus calientes instalaciones con grandes banquetes, como el de la langosta, el cual disfrutamos hace unos días.\n\nBrujas de Cache Che ofrece comida exclusivamente peruana, con pequeños toques internacionales, explica Hipólito Flores, el chef, quien lleva en el restaurante más de 26 años. Decir, desde el nacimiento del establecimiento. Conoce bien lo que el público quiere. \"Cocinar es mi felicidad, y es la mejor forma de expresar mi cariño con este oficio\", dice Hipólito, un hombre que disfruta cada día como la primera vez, \"Yo quiero que el cliente se vaya feliz\", comenta, al tiempo que alista todos los detalles para este val de langostas que recomendamos mucho."
+    },
+    {
+        "headline": "\"CON LEON NO SOLO HABLAMOS DE FTBOL\"",
+        "content": "Deporte\n\"Todo empieza a las 7:00 p.m. en el Monumental. Luego, la ‘U’ se medirá con U. de Concepción.\" \nLlegó el día esperado por la nación crema. La jornada en la que Universitario de Deportes y su hincha refirmán su amor y compromiso en busca de la anhelada estrella número 27. Hoy (7:00 pm) se realizara la esperada Noche Crema en el Estadio Monumental, en donde los cremas presentaran al plantel que buscara dejar en el olvido el difícil año 2018 para volver a ser protagonistas este 2019,\n\nEl recinto merengué tendrá un lleno de banderas, pese a que el equipo no rindiera lo esperado en su gira de la semana pasada por Chile, donde cayera frente a la Universidad de Chile (2–2) y la Universidad de Concepción (3–0).\n\nLa ’U’ regresa hoy a medirse contra el “Campanil,” ante el cual buscaremos mejorar nuestra imagen en esta pre-temporada.\n\nEl técnico Nicolás Carrizo tendrá a disposición a su mejor plantel, incluyendo al atacante panameño Alberto Quintero, quién se recuperará de una lesión muscular.\n\n“Tenía en cuenta\"\nDos mil policías brindarán seguridad tanto dentro como fuera del campo durante el evento deportivo."
+    },
+    {
+        "headline": "NOCHA CREMA 2019 UNIVERSITARIO VS. U. DE CONCEPCIÓN",
+        "content": "Gol Peru\n19:00 H (EN Vivo)\nLiga española\nReal Sociedad Vs. Athletic Bilbao ESPN 2/ESPN 2 HD\n30:00 H (EN ViVo)\nFC Barcelona Vs. Valencia FC ESPN 2/ESPN 2 HD\n12:15 H (EN ViVo)\nBayern Munich Vs. RB Leipzig FOX Sports 2\n09:30 H (en vivo)\nLeipzig Vs. Bayer Leverkusen FOX Sports 2\nPremier League\nArsenal Vs. Manchester City ITV Sport\n07:05 H (EN Vivo)\nChelsea Vs. Wolverhampton Wanderers BT Sport\n16:50 H (EN Vivo)\nManchester United Vs. Newcastle United Sky Sports Premier League\nPrimera División Italiana Juventus Vs. Parma Serie A TIM\ESPN 2/ESPN 2 HD\n14:25 H (Envío)"
+    }
+]
+```
+This JSON contains three extracted articles based on their headlines and contents following the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable. Note that some sections were merged together under similar topics while maintaining clarity and coherence within each entry's context.

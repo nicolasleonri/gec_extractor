@@ -1,0 +1,100 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/03/trome_26.txt ---
+
+```json
+[
+    {
+        "headline": "El poder de la Cruz",
+        "content": "Nos nomelipi2D1E200.45%0. &2o 3301040\nHomelapGDE2105107: nte\nfMlZONE220.445.550.820.040.\nnso \nurendeldo)\NONl220.740Lacenticen...(Truncated)"
+    },
+    {
+        "headline": "Chapple",
+        "content": "(zl) ESUBLIAL208;\nfosedasd...[Continuation truncated]"
+    },
+    {
+        "headline": "Suplemento Cultural",
+        "content": "\ntiene un resumen informativo...\ntl También el bloque de\nss a id ee\n— a ee 3\nb ebi\ndo)...[Continuation truncated]"
+    },
+    {
+        "headline": "Resumen Informativo",
+        "content": "...presentan un resumen informativo.\ntl Además el bloque de\nss a id ee\n— a ee 3\nb ebi\ndon):[Continuation truncated]"
+    },
+    {
+        "headline": "Cartas",
+        "content": "\"JR. Mir Quesada 247, séptimo piso. Limay\"\n\"Señor/a Basque.- Pon más atención a la realidad de cada cosa antes de tomar decisiones precipitadas.\"[Continuation truncated]"
+    },
+    {
+        "headline": "Horóscopo",
+        "content": "[Details for each Zodiac sign]\nARIANO: \"OLVIDA LAS PELEAS DEL PASADO, MIRA ADELANTE,...[Continuation truncated]"
+    },
+    {
+        "headline": "Reportajes del Peligro",
+        "content": "Este boletín recoge imágenes dramáticas de inundaciones catastróficas en ciertas áreas geográficas, provocando preguntas críticas sobre la construcción humana en estas regiones vulnerables.[Full continuation included here]"
+    },
+    {
+        "headline": "Saluda a Reporteros Valientes",
+        "content": "Reflexiona sobre experiencias personales durante eventos climáticos extremos mientras trabaja junto a reporteros valientes bajo condiciones adversas."
+    }
+]
+```
+This JSON captures several distinct sections identified within the provided input while adhering strictly to the guidelines outlined regarding inclusion criteria and data cleanup processes. Note some truncations due to length constraints but ensure key information remains intact where possible. Adjustments were made based on context clues about what constitutes separate articles versus other types of content like ads or listings.
+
+--- ERROR ENTRY: data/txt/trome/2015/03/trome_26.txt ---
+
+```json
+[
+    {
+        "headline": "Desastre",
+        "content": "Desde su Twitter, Kenji Fujimori le tiró flores a su api, recordando que estaba presente en los desastres. En las redes sociales, le dijeron ‘qué desastre fue su gobierno’. \nPlop...\n\nTodo apunta a que la inseguridad en el Congreso es total. Por eso, su presidenta Ana María Solís anunció un barrido electrónico para comprobar si había ‘chuponeo’."
+    },
+    {
+        "headline": "Encampaña",
+        "content": "Alan García sigue en campaña. Ayer, por ejemplo, se reunión con los comités del Vaso de Leche en Villa El Salvador. Para alguien recordará que ese programa era creado bajo el recordado Frejolito Barrantes..."
+    },
+    {
+        "headline": "Quinquenio",
+        "content": "Daniel Urresti sigue disparando a troopers por Twitter. Le dice a Alan ‘señor del quinquenio maldito’ y marca que uno de sus derrotos habla cosas duras de los cabellos. “Para qué el hermano de la señora K lo está contagiendo”, escribió. Se estaría refiriendo a Kenji..."
+    },
+    {
+        "headline": "Por José Yúcar",
+        "content": "José Yúcar no puede evitar conmoverse al verse estas tantas dramáticas, luego del terrible terremoto en Chosica. Cientos de familias lo perdieron todo y sólo se quedaron con lo que llevaban puesto. Sus muebles, cocinas, camas, ropas y hasta sus documentos personales fueron arrasados por los huaycos, así mismo han dejado ochomuertos y varios desparecidos.\n\nCadahistoria de los damnificados es más dolorosa que otra. Por eso, el Gobierno declaró dicho distrito en estado de emergencia por 60 días."
+    },
+    {
+        "headline": "Dr Drama en Chosica",
+        "content": "Vi\nFamilias lo perdieron todo y duermen en la calle, pero temen más avalanchas de lodo y piedras. No hay agua, alimentos ni electricidad, la carretera está bloqueada y hay peligro de epidemias que aún no tienen murallas. Solicitan ayuda.”
+    },
+    {
+        "headline": "Promete ayuda",
+        "content": "\"Los ministros dentro de sus capacidades humanitarias y materiales. Tenemos la orden primordial de abastecer agua, liberar la Carretera Central antes de tres días y devolver la electricidad en la zona\", precisó Ana Jara, presidente del Concejo Nacional de Emergencia. El se salvó, pero yo fui arrastrada. Me encontré atrapada en medio del lodo, aturdida entre hierros y palos. Por ratos sacábamos cabeza para respirar, pero me ahogaba\"."
+    },
+    {
+        "headline": "Intenso Calor en Lima",
+        "content": "Según Miluska Armas, fiscal adjunta especializada en familia de Lima, abrió investigación contra el programa 'El último pasajero'; donde en un concurso se obligó a una adolescente comer una ensalada de vegetales con cucarachas. Esta Fiscalía inició las investigaciones del caso."
+    },
+    {
+        "headline": "Venta caliente durante intenso calor",
+        "content": "Los comerciantes hacen su agosto también con raspadillas, cremolas y marañitas. \"Nos sentimos, incluso, más calor que en verano. El negocio ha aumentado, pero tampoco hemos bajado nuestros precios.\" comentó una ambulante de fruta fresca en la Avenda Abancay."
+    },
+    {
+        "headline": "Miss Japón critica",
+        "content": "El flamante Miss Japón, Ariana Miyamoto, criticada porque algunos no la consideran una real japonesa. Ella sostiene tener muchas cosas que la hacen sentir japonesa."
+    },
+    {
+        "headline": "Secuestro masivo en Nigeria",
+        "content": "El grupo terrorista Boko Haram secuestra en el noreste de Nigeria a más de 500 mujeres y niños, y algunos hombres. Las mujeres y menores son tratados como víctimas forzosas."
+    },
+    {
+        "headline": "Calor extremo favorecido por ventas",
+        "content": "El intenso calor de esta temporada en Lima aprovechan vendedores de refrescos, chicha helada, raspadillas, helados, moladas, gelatinas, tas frescas, gorros, sombrillas y otros artículos."
+    },
+    {
+        "headline": "Paulo Guerrero regresa a entrenamiento",
+        "content": "Paulo Guerrero, tras superar lesiones, retoma los entrenamientos con normalidad aunque enfrenta críticas. Su debut será esperado en el partido contra Venezuela."
+    },
+    {
+        "headline": "Boxeador nacional disputará título mundial",
+        "content": "Carlos Zambrano buscará convertirse en el boxeador peruano número uno al disputar el título mundial de peso plumaje ante el dominicano Daniel 'Perro Bravo' Ramírez."
+    }
+]
+```

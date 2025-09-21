@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/11/peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "Pulse Perú revela falta de interés gubernamental en capturar a Orellana",
+        "content": "Pese a que los máximos representantes del gobierno como la Premier Ana Jara y el Ministro del Interior, Daniel Urresti – aseguran estar detrás de los pasos de Rodolfo Orellana, casi la mitad de los peruanos no cree en dicho compromiso. Según la encuesta Pulse Perú, elaborada para Peru21, Gestión y Frecuencia Latina, realizada entre el 1 y 4 de noviembre, el 45% advierte que el gobierno no desea capturar a Orellana."
+    },
+    {
+        "headline": "Encuestas señalan alta desaprobación hacia el Congreso actual",
+        "content": "Si bien los parlamentos son impopulares globalmente, en el Perú esto alcanza extremos significativos. Un 79% está en contra de la reelección de los congresistas según el último sondeo de Pulse Perú. Este sentimiento surge después de múltiples escándalos recientes implicando a miembros del nuevo Congreso."
+    },
+    {
+        "headline": "Ana Jara enfrenta disyuntivas políticas importantes",
+        "content": "La congresista y premiera Ana Jara tiene frente a sí una importante decisión política: ¿servirá a sus electores y así contribuir positivamente a la vida política peruana, o será usada simplemente como figura decorativa dentro del régimen?"
+    },
+    {
+        "headline": "Versión contradictoria del gobierno sobre irregularidades en el caso López Meneses",
+        "content": "La Presidenta del Consejo de Ministros, Ana Jara, insiste en utilizar la versión de ‘corrupción policial’ para describir el incidente relacionado con el domicilio de Óscar López Meneses. Esto contrasta directamente con comentarios previos emitidos por Wilfredo Pedraza, quien había sugerido una “irregular asignación de seguridad.”
+    },
+    {
+        "headline": "Certificación obtenida rápidamente por corporación ligada a Belaunde mientras estaba prófugo",
+        "content": "Reportajes periodísticos han mostrado cómo la Corporación Asia SAC obtuvo certificaciones necesarias para continuar actividades mineras en Áncash durante la clandestinidad de Martin Belaunde Lossío. Correos electrónicos sugieren continúa influencia y contacto con figuras clave incluso fuera del país."
+    },
+    {
+        "headline": "Nuevo paquete económico propone incentivar consumo mediante aumento de ingresos",
+        "content": "El Ministerio de Economía y Finanzas lanzará nuevas iniciativas destinadas a incrementar el flujo monetario disponible para sectores específicos de la sociedad, buscando estimular el consumo general. Entre estas acciones están el aumento de aguinaldos y diversas formas de subsidios financieros."
+    }
+]
+```
+This JSON captures key articles extracted based on their relevance and substance while adhering strictly to the provided guidelines for extraction and structuring. Articles were selected due to their significant political implications, investigative journalism findings, economic policy announcements, and public sentiment insights derived from surveys. Other sections such as ads, sports updates, and non-journalistic contents have been excluded according to specified criteria.

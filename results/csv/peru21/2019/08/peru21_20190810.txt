@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/08/peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "Glvez amenaza\ncon separar al fiscal\nJos Domingo Pérez",
+        "content": "El fiscal supremo Tomás \nClave señaló que el fiscal José Domíngo Pérez\ntendrá que ser separado\nde Ministerio Público si no\ncircune a una eventual\nciación de la Junta de\nFiscales Supremos.\n\"Él es un simple\nfiscal provincial\nque se cree el más\npoderoso. Si\nno circune,\nseria\nseparado\", dijo en Canal N."
+    },
+    {
+        "headline": "Suspenión de la Licencia de Construcción de Ta María criticada",
+        "content": "\"Mal precedente\"\nPablo de la Flor, director ejecutivo de la Sociedad\nNacional de Minería, Petróleo y Energía (SNMPE)\ncomenta que la decisión tomada por el Consejo\nNacional de Minería envía un mensaje erróneo a\nlos inversores. \"Esta es un nuevo golpe a nuestra\ninstitucionalidad. Estamos erosionaodndo uno de los\npilares fundamentales del modelo económico\nperuano, que era el respeto a las reglas de juego\ny la prediccibilidad en materia normativa de la\ninversión privada\", explicó a Perú21. Agrega que la\nmedida es contradicha, puesto que la licencia fue\notorgada por el mismo Ministerio de Energía y Minas."
+    },
+    {
+        "headline": "Entrevista Mujail Palacios Ibáñez\nJosé Luis Valverde ‘Jo-selito’",
+        "content": "¿Cómo empezaste?\n\"He estado en locales dónde bombas han\nzoqueteado otros 25 años. Conozco cómo funciona\neste negocio. Cuando dejé el periodismo buscaba\nsalir de mi situación precaria.\" ¿Qué aprendiste?\n\"Trabajé duro para entender el mercado y adaptarme.\nDescubrí que había espacio para músicos contratados\ny comencé a ofrecer servicios musicales a diversas\norganizaciones.\" ¿Te gustaría compartir algún consejo?\n\"Ser persistente y adaptable es clave. Nunca sabés qué\npuerta podría abrirse mañana.\""
+    },
+]
+```
+This JSON captures three distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any irrelevant sections such as ads were excluded according to the scope defined.

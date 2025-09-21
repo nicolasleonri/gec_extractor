@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2016/01/trome_06.txt ---
+
+```json
+[
+    {
+        "headline": "\"COLORINA\" Y MENDOCHA",
+        "content": "Mi amigo, el fotgrafa Gary, lleg al restaurante por surica colinova apanada con salsita criollo, arrocito blanco y una jarra de limonada heladita para sofocar el calor, \"Mar\u00eda,\", lleg a la Redacci\u00f3n mi amigo el gran periodista y marketero ayacuchano Malcolm Mendocha, Estaba entusiasmado, 'Gary, en M\u00e9xico se me voltearon los ojos durante mi encuentro con la querida actriz azteca Luiza Méndez, 'La Señora Tentación'. Bast mencionarle a su esposo y mnager, Pedro Torres, que era cronista peruano, para que me conceda una entrevista, 'Luiza dice que serás su invitado de honor en la cena-show Noches de Cabaret\", me dijo, En el teatro 'Blanquita' me llevaron a la mesa junto al presidente de Televisa! Y apareció ella. Cantando y bailando en plumas y lentejuelas!, luciendo sus infartantes caderas. Era la 'Colorina'!, sensual como sacada de la pantalla chica, Qued grabado en mi corazón, cuando dijo: \"Saludo al periodista peruano, tierra de milenaria cultura y su buena gente. Vamos a echar porras por Peru.\" Fu al camarín de la primera hispana con estatuilla en Hollywood. Una bata de seda cubría su alucinante atuendo. Le dije: Eres fantástica, gracias por tanto cariño al Perú. Prendado de su blonda cabellera y labios provocativos, le expresé mi admiración, desde su recordado personaje 'Viviana'. Se le encendieron sus coquetos ojos color caramelo y me sorprendió: eres mi compadre. Deja de hablar, ndale, apápáchame y hagamos una escena de Colorina'. Con su generoso busto casi al aire, me abraz apasionadamente. No me 'chupé’, porque hice el papel del fogoso galán Enrique Ivárez Félix, Nos dimos irresistibles arrumacos! y con cálida sonrisa me dijo: Hijole, guapo!, resultaste gallardo, bendiciones mi rey’. Besó la mano de esta hermosa mujer que actuó junto al mítico Vicente Fernández en el ‘Hijo del pueblo’ y con Anthony Quinn. Años después, nos reencontramos en una suite del hotel 'Sheraton' y le regal un emblemático retablo ayacuchano. Quién más que Michelle Alexander, genial productora nacional, para recordar la historia de una prostituta que se enamora de un millonario y que paralizó el país por su carga dramática y divertida. Viendo el remake de la telenovela, protagonizado por la modelo Milett Figueroa, creo que “ella hará linda’, por su talento y atributos físicos, al comps de Pecadora' del Grupo Nativa". En cuanto a su pareja en la telenovela, el carismático Yaco Eskenazi, yo le digo '¡Ya fuiste valiente!', porque la 'Colorina' fue antes ya, ¡Ja, ja!’."
+    },
+    {
+        "headline": "¿CUÁL ES TU OBLEMA, SENOR OE?",
+        "content": "Recuerdo películas peruanas\nRecordaba al actor Mariano Leon, quien hacía décadas protagonizó la película 'Gregorio' y me entero por las redes que el Grupo Chaski ha puesto a disponibilidad toda su producción a través de la plataforma Vimeo. Ahora que el cine se desarrolla en base a un criterio netamente comercial, me parece muy importante este aporte, Lo aplaudo.\nJuan Augusto Melgar:\nPiden penas mayores\nNo entiendo por qué, si hace poco sentenciaron a seis meses de cárcel a un policía y haberle dado un castigo severo, ahora un fiscal deja en libertad a un efectivo que le cortó la mano a un agente por intentar evitar que matara a alguien. Los castigos deberían ser igual para todos."
+    },
+    {
+        "headline": "Grupos exitosos revelan sus secretos",
+        "content": "Todos los jueves contaremos historias inspiradoras de empresarios exitosos quienes compartirán sus estrategias clave para alcanzar el éxito. Desde dinámicas innovadoras hasta consejos prácticos, estas narrativas están diseñadas para motivarte y guiarte hacia tus propósitos profesionales."
+    },
+    {
+        "headline": "Asesinan vigilante en su habitación:",
+        "content": "Para robarle batetes rápidos, repuestos de vehículos y el dinero recaudado por los conductores, un vigilante de una empresa de transporte fue estrangulado dentro del depósito que ocupaba como dormitorio, en Vitarte. La Policía sospecha que el homicida podría conocer bien al guardia nocturno, pues la entrada no mostraba señales de violencia forzosa. Junto al cadáver encontraron un cable de computadora, instrumento utilizado presumiblemente para privar de la vida al trabajador."
+    },
+    {
+        "headline": "Encuestas muestran preocupación ciudadana",
+        "content": "Resultados preliminares indican que un significativo número de ciudadanos está demandando medidas drásticas contra funcionarios públicos ausentes en sesiones legislativas importantes. Además, existe un debate público respecto a posibles decisiones políticas futuras relacionadas con líderes gubernamentales destacados."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were segmented according to distinct topics identified within the input text. Non-article sections such as ads, subscriptions prompts, etc., have been excluded following specified rules.

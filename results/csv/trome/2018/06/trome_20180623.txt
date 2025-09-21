@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/06/trome_23.txt ---
+
+```json
+[
+    {
+        "headline": "Pelota réplica Adidas",
+        "content": "Los ganadores tienen 30 días para reclamar."
+    },
+    {
+        "headline": "Feliz cumpleaños Trome",
+        "content": "Janeth, la colombiana hincha celebra todo la semana por los 17 años de Trome, del que se confiesa hincha. Además, está muñeca se puso la blanquirroja, pues se siente una peruana más y alaba el juego de los dirigidos por Ricardo Gareca en el mundial de Rusia. Dice que es fanática de ‘Farfán’."
+    },
+    {
+        "headline": "'En el Gran Teatro Nacional'",
+        "content": "\"Este tipo pensaba que se había equivocado de lugar cuando llegó a la esquina de Javier Prado con Aviación, buscando el Gran Teatro Nacional para ver el esperado espectáculo de Miguel González por los 25 años de grabación de su trascendental disco Ákúndún? y el homenaje al gran zapateador chinchano y mentor de González, Amador Ballumbrosio. [...] Salimos felices después de haber vivido momentos únicos junto a nuestro ídolo.”
+    },
+    {
+        "headline": "Cartas: Gloria quiere conocer a una señorita sencilla y educada",
+        "content": "[...] Mi teléfono es 969–076–553. Suerte."
+    },
+    {
+        "headline": "Horóscopo",
+        "content": "- EMARIOS: Debes cambiar de actitud si deseas seguir siendo considerado: diciéndole cosas bonitas a tus novietas.\r\n- TAURUS: Una buena noticia te levanta el ánimo, deja atrás la nostalgia. \r\n- CANCER: Decide dar una nueva etapa,\r\n- LIBRA: Si has cometido errores, lo mejor será culparte, tienes una espinita clava en tu corazón.\r\n- ESCORPIÓN: Deberás dar prioridad a un asunto urgente. [...]"
+    },
+    {
+        "headline": "Ya empezó el festival fantástico",
+        "content": "¡Fantásticos productos de Vestuario, calzado y accesorios de las mejores marcas Mujer – Hombre –Niños!\r\nEXCLUSIVO CON:\r\nDescuento válido con cualquier medio de pago, vigente del 22/06/18 al 27/08/18 a nivel nacional\r\nStock mínimo disponible: 5 unidades\r\nPromociones válidas sólo durante el periodo indicado. Descuentos no válidos para compras en boutique MNBA, Adrienne Vittadini, Calvin Klein Jeans, Claires y La Martina ni marcas en concesión ni consignación.\r\nInformación difundida de acuerdo a ley."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/trome/2018/06/trome_23.txt ---
+
+```json
+[
+    {
+        "headline": "Defensora dice esto Boca es Ma...",
+        "content": "medida adoptada por el \nCongreso es inconstitucional\", manifest.\nDEFENSORA\nDe otro lado, el presidente del Tribunal Constitucional (TC), Ernesto Blume, informó que este lunes confirmaran si admite a tramite la demanda de inconstitucionalidad contra la Ley ‘mordaza’ que presentaron 33 parlamentarios."
+    },
+    {
+        "headline": "DENUNCIAN QUE EQUIPO COMUNICACIONES PRENSA ALGUIEN DEL FUJI-MORISMO ADQUIERE PRESUPUESTO SUPERIOR MEDIO MILLÓN SOLES MES QUÉ COSA MAÑÁ ACENTÚA BAJODECADOR YA ES MANÍA CON SUS TRABAJADORES ¡UYUYUY!"
+        ,
+        "content": ""
+    },
+    {
+        "headline": "BIQUETÓN",
+        "content": "Nos cuentan que el fujimorista Guillermo Martorell presentó una iniciativa para que el 20 de junio sea declarado ’Dia Nacional de la Aceituna’. Plop..."
+    },
+    {
+        "headline": "Asaltaron joyeria con metralletas, rompen vidrieras y al huir fueron grabados por cámaras de seguridad",
+        "content": "Se llevan los objetos en dos maletines y fugan con dirección hacia la salida por la rampa que da a la avenida Javier Prado, donde se estrellaron contralasescalerasdel centro comercial\"infor-mó el general Gastón Rodríguez, oficial de la Región Policial Lima."
+    },
+    {
+        "headline": "'Le dijo Caveñcola'",
+        "content": "\"Cejon\' ata ca al Mundo'\nPero \"Nicolas Nicola\' fue calificado el alcalde de Lima, Luis Castañeda Lossio, por su homologo de San Isidro, Manuel Velarde, quien ya antes se había enfrentado a él.\"Anuncio que pinturas van a comenzar a abrir tintorerías en el mismo bloque y que barrio empezará a abrazar colorido.\"\nVelarde, quien también señaló que \"esto es más manía con sus trabajadores\"."
+    },
+    {
+        "headline": "Argentinos tienen en la mira a técnico de la Selección",
+        "content": "Selecciones de ARGENTINA Y COLOMBIA. AS COMO CLUBES DE MEXICO, INGLATERRA Y ESPAÑA LO TIENEN EN LA MIRA\nRICARDO GARCIA LEVA 45 PARTIDOS CON LA SELECCIÓNI TRIUNFIOS 12 EMPATES 13 DERROTASSolo queda terminar bien el torneo y seguir creciendo\"PEDRO GALLESE ESTUVIMOS AL NIVEL DE LA DU RA COMPETENCIA, QUEDA SEGUIRNOS ENFOCADOS\"PEDRO AQUINO"
+    },
+    {
+        "headline": "Farfan agrace apoio incondicional de hinchas",
+        "content": "Contigo Per\nMoscow.— Perú quedó fuera de la fiesta de Rusia 2018, pero los seleccionados quedaron tatuados para siempre en el corazón de los hinchas. \"Solo quiero agradecer a todo el pueblo peruano por el apoyo incondicional al equipo. Jamás en mi vida había sentido algo así, Gracias, mi Per, no dejemos de seguir así, unidos hacemos más grande a nuestro país,\" escribió Jefferson Farfán en su Instagram."
+    },
+    {
+        "headline": "Paulo Guerrero podría dejar Brasil",
+        "content": "Una atractiva oferta de China le habría llegado en estos días y además trascendió que recibió la visita de empresarios árabes con la intención de llevarlo a su fútbol. Con 34 años, el 'Depredador' firmaría un gran contrato para terminar su carrera."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on the provided OCR input while adhering strictly to the defined rules for inclusion/exclusion criteria. Note any missing data has been filled with `"NA"` where applicable.

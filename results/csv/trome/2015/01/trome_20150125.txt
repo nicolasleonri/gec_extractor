@@ -1,0 +1,117 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/01/trome_25.txt ---
+
+```json
+[
+    {
+        "headline": "Un domingo como hoy",
+        "content": "En este Bhoe escucha por primera vez el nombre de na 11 años. Fué tal tar dé qué ingresá la cárcel del mitico cine Mirónes, pagándole un apa propíña al ‘’To bolero’. La pelicula encartela, ’El Retratode Dorían Gray’, éra pa mayores de 21 años con documento pro-bativo! El argumen-tó del libro era aluci-nante: ‘Dorian era un jóven de extrema-damente bella-cía, tan tá, que un pin-tra-quedeobsesi-na-do-con-su-at-rac-te-hizi-un-re-trató. \n\nMientrá-Dorián-lleváb-a-u-navída-de-per-versión-es-y-aberra-ci-onés-causa-ando-doli-y-muriéra-mujér-e-s-y-hom-brès-pór-i-gual,suo-rostró--\na-pe-sár-del-os-aos-segu-al-o-z-anóa-y-nil.El-cuar-do-era-el-qüeen-viej-acá-y re-presentabál-a-lohorror-y-la ma-led-ad-ar-ra-diáo-Doria,n.Me pare-ce-qué-Wilder-sehu-bie-ra-senti-do-orgul-lo-so si hu-bie-ra ve-rio-el-film-de-70.Alprolagonís-Heluít-Bergèr,fué ca-talogado-po-r-la revíst’a-Vogú’e-des-tee-as-como-'El hom-bre-ms-bel-lo-del uni-ver-so'. Al vérla-cín-ta,-el-no-table ci-neastá-LuchiñoVis-cont-califi-car-su ac-túa-ció’n-co-me'-Demo-nác,a-insañá-y-sexual-men-te-per-verte-da-fiél-a-le-spri-túde-wilde'. Pe-ro él escri tor ramu-chís-mo más-que-un hombré-de-li-cado, de-bu-en ves tir-y-de-len-gua-flor-idá.El-gran-Jorge Luis Borgés-apuntás sobre él:Menciónare-lnom-bre-de-Oscar Wildése menciona-r á ún Dan dy-que fué tam-bin ún poétá (...)-tam bién-es-evocar-la noc-in-de-artécómo-un-juego-secretoya el po-etá truiós (...) Á Wil-de lé hape ru di-cado-supérfeci ón (...) nos cue-stai magi nar el universo síno les epigrámás de Wilde'."
+    },
+    {
+        "headline": "Amores y odios",
+        "content": "\nEste Bhoe escucha por primera vez el nombre de na 11 años. Fué tal tar dé qué ingresá la cárcel del mitico cine Mirónes, pagándole un apa propíña al ‘’To bolero’. La pelicula encartela, ’El Retratode Dorían Gray’, éra pa mayores de 21 años con documento pro-bativo! El argumen-tó del libro era aluci-nante: ‘Dorian era un jóven de extrema-damente bella-cía, tan tá, que un pin-tra-quedeobsesi-na-do-con-su-at-rac-te-hizi-un-re-trató.\n\nMientrá-Dorián-lleváb-a-u-navída-de-per-versión-es-y-aberra-ci-onés-causa-ando-doli-y-muriéra-mujér-e-s-y-hom-brès-pór-i-gual,suo-rostró---\napesar-del-os-aos-segu-al-o-z-anóa-y-nil.El-cuar-do-era-el-qüeen-viej-acá-y re-presentabál-a-lohorror-y-la maled-ad-ar-ra-diáo-Doria,n.Me pare-ce-qué-Wilder-sehu-bie-ra-senti-do-orgul-lo-so si hubie-ra visto el film de 70.Al protaganis Helmut Berger, fue catalogado por la revista Vogue de ese año como \'El hombre mas bello del universo\' Al ver la cinta, el notable cineasta Luchino Visconti calificó su actuación como \"Demónica, insana y sexualmente perturbada, fiel a las spritudes Wilde\". Pero el escritor muchísimo más que un hombre de licudo, de bueno vestir y lengua florida. El Gran Jorge Luis Borges apunta sobre ello: Mencionaremos el nombre de Oscar Wilde es mencionarnos también un Dandy que fuera también un poetá (...), además evocará la nociones de arte cómo un juego secreto ya el poeta truños (...).\nÁ Wilde le ha perjudicado superfiición (...) nosotros queremos imaginar el Universo sin esos epigramas de Wilde."
+    },
+    {
+        "headline": "Sabías...",
+        "content": "Que en elmundo del art eh ay 105 alidades delcolor rojo hasta ahora. Miami, famosa gonester estadouniden ocidas, unas de las ms peculiar dens del os 20 y 30. Na ce il 17 de enerode 1899."
+    },
+    {
+        "headline": "Joselynn dice soy sabrosa",
+        "content": "Lo cabello color roji zo y suscur vas dedinfarto hazen de laguapa Joselly nu mujery quesusu espous le prohibiran ver as ushi jos.Derrotado,via ja Parss dese ada.De mosconfessaque buscar els bronze ado perfec ton ens una paradisiaca play ade ls ur.Desmuestra tot sal talento paras el cant end ela agroupaci ndelas sab rosas decumb ia.\" Demuride meningitis en un hoteli it en el qual se aloj co nnomb refals:o BastianMelmoth.Tenanos.Apago eltelevisior."
+    }
+]
+```
+This extraction captures four distinct pieces based on their headlines/content structure while adhering strictly to the guidelines provided for extracting meaningful journalistic content. Any non-article elements such as ads were excluded according to the scope defined.
+
+--- ERROR ENTRY: data/txt/trome/2015/01/trome_25.txt ---
+
+```json
+[
+    {
+        "headline": "Stefano Salvini (22)",
+        "content": "NA"
+    },
+    {
+        "headline": "LAS CONFESIONES DE PANCHO LOÑEZ",
+        "content": "\"El Chato\" Matatalé gastó restaurante por unos ceviche de bonito con bastante aceite y un arroz con huevo rallado, salsa criolla, yuquitas fritas y un jarrito de limonada heladita. \"María, después de varias semanas me trajo este torchi­tillo, el famoso Cirujano de pelotas terosas\", comentó.— «El Chato», la vida es una sola,— añadió.— Una noche cenábamos en un local privado junto a otros conocidos de Lima, Callao y balnearios. Desde que inicié en 2015, estoy viviendo en mi casa de playa y por ello invité al maestro, quién ha sido homenajeado por diversos gremios por sus aportes al mundo del atletismo, el dame que doy, las sacadas del engüita y pataditas bajo el mesa.\n\n**CHOTILLO:** Pancho, ¿cuántas mu­jer­es han pasa­do por tus brazos?\nPANCHEÓN: Di­cen que un hombre pierde la memoria, así que jamás voy a nombrar nombres, pero sí tengo memorizada cerca de medio millón de mujeres en más de treinta años de camino. Ya superé a Luís Miguel y pronto voy a alcanzar alto Ju­lio Iglesia. ¡Qué tesoro he acumulado!\n\n**CHOTILLO**: Invier­tas pa­ra ‘cam­peona’\n\nPANCHEÓN: Dependiendo del mo­mento, lo justificado y ne­cesario. Ronquito, polo­tely teléfono es mi frase favorita, Pero si tengo ganas y billetes para comprarme un whisky etiqueta azul...\n\n**CHOTILLO**: Algún ve­z te han parti­do'\n\nPANCHEÓN: Has­ta Napo­len tuvo su Wa­terloo. Siempre está­ré expo­sto a que alguna canalla te adorne, pero llega por qué la calle es la calle, aquí nadie tie­ne corazón de piedra. Lo im­porte es que no seas tú mismo tan firme:\n\n**CHOTILLO**: Re­cue­rdas cuándo te partió'\n\nPANCHEÓN: Fue a los diecisiete años. Estaba en pri­mer ciclo de Derecho, en la universidad, y mi enamorado era también la moreni­sima de San Marcos. Estába­mos templados ambos, pero uña­l notó fra­gilidad. Ibais bus­cán­dola y sumadre miraba con cara de malaca y medíca: «¡No estás aún veni­do a verte tirar del carro!» La señora antes me trataba con dulzu­ra y hasta me invitó a lonche. Me escuché en la esquina y la espér. Un Volks­wa­gen pareció salir de su casa. Mi chica bajó de aquel coche con un minúsculo infarto que nun­ca había puesto pa­rámetro. Corrí y quisqué despídeme con un tremendo cha­pe. Traidor,- grité.- Ella no se movió, Sa-lí su mamá y me grító: «Fuera de ahí, míster». Soy­o sé que él era el «Cholo Huaracha», jun­to hacían caravan-chicha...\n\n**CHOTILLO**: Desde entonces empezaste a mirar mujer ajena?\nPANCHEÓN: Sí, creo que queda­ra traumatizado... pero discúlpame por habermetido contigo burrico, pero ellas merecen galanterías...\n\n**CHOTILLO**: Eso nunca te lo perdone, Yo iba a casárme con ella.\nPANCHEÓN: Lo siento, mi hermano, la carne es débil,\n\n**CHOTILLO**: Alguna vez has sentido remordimiento de lo que haces?\nPANCHEÓN: Sí, cuando partida mi hermana con su enamoradita del barrio, pero lo hice para abrirle los ojos, porque esa chica era juguetito!\n\n**CHOTILLO**: Qué ha sido el amor de tu vida...?\nPucha, qué tal encuentro! La próxima semana continuará."
+    },
+    {
+        "headline": "Creéis que Keiko Fujimori será una buena Presi­den­ta del Pe­rú?",
+        "content": "¿Ayer: Creéis que la Ley Pul­pin debe ser corre­gi­da en vez de deroga­da?"
+    },
+    {
+        "headline": "AFIRMA QUE NO DAN A PENSIONIS-
+TAS",
+        "content": "Quien les escribo es una mujer pen­sión ista de la Ley 20 5330 y quiero denuncia­r que, hace días, no están dando pago alguno. Va­mos a cobrar al Ban­co de la Na­ción y nos dice­mos que re­grese­mos, pues la ri­dez la tienen los fo­navis­tas. Esto me parece un abuso total.\n\nOlga Bo­luarte Vi­da de Pon­ce — Ve­cin a de Mi­raflo­res\n\nDice que le hablan las autori­da­des de la Onp y del Ba­nco de la Na­ción, pues no es jus­to que las perso­nas de la ter­ce­ra edad sean mal trata­das. Les deben pagar en sus fechas."
+    },
+    {
+        "headline": "PROPONÉ CAMPAÑA »LIPIEA Z ES CU-
+LTURA«",
+        "content": "An­te la sue­cie­dad que abun­da en nues­tras ca­lles, pro­pongo lan­zar la cam­pañ a \'Li­piea es cul­tu­ra\' De esta mane­ra, crea­re­mos con­ciencia y darí­a­mos una mejor ima­jen a nue­stro vis­i­tan­tes. Ha­ga­mos de todo el Pe­rú un lu­gar límpi­o y di­gni­fo de admi­ra­ción.\n\nJulio Gui­andi Ro. — negu_38 838 hotmail.com\n\nInteresan­te pro­po­sa que podr ser to­ma­da en cue­nta por nuestras au­tori­da­des. Dela ca­sa de­ben fo­men­tar la li­mie­za, pues es una for­ma de mos­trar res­pei­to ho­rra las otras per­sonas."
+    },
+    {
+        "headline": "BALAZOS EN SAN TA NI TA CAEN CHIBOLS QUE ROBARON POLLERA DOS MENORES INGRESARON AL LOCAL PIPOS ARMADOS CON ARMAS FUERON CAPTURADO POR POLÍCIAS",
+        "content": "Dos menores en moto y armados con pistolas se llevaron dinero y objetos personales de clientes. Se enfrentaron a tiros con policías que atraparon a tres y recuperaron botín.\n\nDicen testigos que cuatro hombres vestidos igual dispararon contra clientes mientras robaban en un local denominado Pipos situado en la Av. La Collec-tora 2130, Urbanización Los Talés. \n\n\"Erán cuatro jóvenes que entraron dis-parando como locos, gol-pilaron a todos, se apo-daron del dineroy obje-tos de valor de los client-es y hu-yeron rápidamente,\" relató un cliente.\n\nLos ladrones ingresas-ron al local Pipos de la av. La Colección 2130, en la ur-banización Los Taless, según indicó un testigo. Er-an cuatro muchachos vestidos iguales que entra-ron disparando como locos, gol-pe-a-ra-n a todos, se apro-di-caron del din-e-ro y objet-s de valor de los clients y hui-yeron ráp-idamente," relató un cliente.\n\nLos agentes persiguieron a los ladrones, a quienes interceptaron en el Valle de Santa Ana. \"Los pistoleros nos dis-pararon, pero los convi-ci-mos a que se entre-guen. Nos sorprendi-ron en Santa Ana.\" Capturaron a tres menores identificados como L.G.G (17), L.U.Z (16) y P.E.D (16).\n\nRecuperaron el botín, explicó un oficial. "
+    },
+    {
+        "headline": "POLICÍA ACUCDIÓ AL LLAMADO DE UN VE-CINO Y SIGUIÓ A LOS LADRONES QUIENES INTERCEPTARON EN VALLE DE STA. ANA",
+        "content": "Los pistoleros nos dispararon, pero los conven-cimos a que se entrega-ren. Nos sor-prende-ron en Sta. An-na. Cap-tura-mos a tres menor-es identifi-ca-do-s como L.G.G (17), L.U.Z (16)y P.E.D (16)\n\nCapturan a asalta­nte de ban­cos\n\nRobo a punta de fusil\n\nBalazos atrapa­nan a asal­tante de ba­n-co\n\nAsaltante de banco\n\nTras una pu-jada a balazos, cap-turar-on a Jo-seph Juan Canes Come-liño (35), alias ''Ro-rry'' y José García Mun-do (30), alias Cho-fifa, cómpli-ce de Joseph, presuntos asal­tantes de ban­cos, segùn la Dirin-crì internacio­nal. Habrían cometido el crimen en octubre del año 2013. Escaparon a balazos cuando intentaban ro-bar la agencia Mi-Banco junto a seis cómpli-ces, según la Policía. "
+    },
+    {
+        "headline": "ESTÁ INTERNADO EN EL PE-NAL DE LU-RIGANCHO",
+        "content": "Con el cuer-po decapi-zado en várias partes, que fueron coloca­das dentro de cinco bol-sas y enter-ra­das, terminó Ma-rylin Mon-tez Solano (25), mad-re de dos niños. El au-tor de tan macabo crimen, quien endiez horas de ayer fuera arrestado por la Pre-polici,a es un desconocido que vive ocasionalmente en el salón Karamba y a las veces trabaja en el centro comercial Enrique Milla Octavo, según declaraciòn de la víctima, quien estaba desaparecida desde el dom­ingo 18 de enero, lo que habían denunciado a la Po­lícia. Ante la alerta de los uniformados, capturaron a Percy Montes (35), sospechoso principal, y a José Garcia Mundo (30), alias Cho-Fifa, compañero de Joseph, presuntos asaltantes de bancos, según la Direcciòn Internacional. Habrían perpetrado el crimen en oc-tubre del año 2013. Escaparon a balazos cuando inten-taban robar la agencia Mi-Banco junto a seis cómplices, según la Policía. "
+    },
+    {
+        "headline": "MATERNIDAD IDENTIFICÓ RESTOS ENTERRADOS EN MONTECILLO",
+        "content": "Entre lá-grimas y gem-i-da-res, la ma-drè reconocio la pul-sera con la imagen de la vir-gen de Guadalupe que ella le habia regalado a su hija, quien estaba desaparecida desde el domingo 18 de enero, lo que habían denunciado a la Policía. Allí encontró a los detective,s acompañado por el padre de la occisa, Edwin Solano, quien se acerca y vio la mano de la ocurisa; tenía un piercing. Contó a los investigadores que Marylin trabajaba eventualmente en el salón Kar-amba y a las veces en el centro comercial Enrique Milla Octavo, según declaración de la victima, quien estaba desaparecida desde el domingo 18 de enero, lo que habían denunciado a la Policía. "
+    },
+    {
+        "headline": "ROBO CALIENTE",
+        "content": "Durante los vo­s para reco-brar el bo­tin de Ca-quét, en el Ján, se cla-u-suraron cinco pos-tos de venta de pol-lo, los cuales se dan en condiciones de-higiene, causa-ndo daños a la san­dad de los consu-midores. Frente a nuestra página web (www.trome.pe) o enviando un mensaje de texto, desde tu celular, al número 2436. Tiene de 7 de mañana a 6 de tarde para registrar-te, pues a las 7 en punto de la noche es el sorteo, el que siempre cuenta con el visto bueno de un Notario público y con el representante del Ministerio del Interior. También, los residuos utilizaban utensi-li-os viejos que despe-dían olores repulsivos. Otros productos y alimentos perecibles en la cuadra 7 de la calle Te-niente Ruiz Uribe fueron retirados. Se colocaron rejas y comenzó la limpieza del lugar. "
+    },
+    {
+        "headline": "PROTECTORES CONTRA LA RADIANCIÓN SOLAR",
+        "content": "Manana Mangas Gratis Para Choferes\n\nEl sol está quemando con fuerza y los que mas frenson los amigos del volante. Conscientes de esto pondremos a su alcance las mangas TROME, con las cuales protegerán sus brazos de la radiancia solar. Podrán cambiarlas hoy lunes (de 8 de la mañana a 2 de la tarde) en el crucero de Alfonso Ugarte con Venezuela (Breña), Nicolás de Piérola con Abraham Valdelomar (Miraflores), Tacna con Colmena (Surco) y Carabayllo con Cuzco (Magdalena). "
+    },
+    {
+        "headline": "SHORTS CALIENTES CAUSEN FUROR EN TEMPORADA VERANEO",
+        "content": "En temporada de calor, en el emblemático distrito de Gamarra, los comerciantes ofrecen short pants pegaditos, los cuales exhiben algunas clientas mostrando sus atributos. Otras prendas y accesorios que se venden en este gran mercado incluyen leggins llamanados leggings, costando desde 15 nuevos soles. Prefieren estas prendas para mantenerse frescas durante el verano caliente. "
+    },
+    {
+        "headline": "EXAMEN ADMISIÓN FEBRERO ESCUELA DE TALENTOS",
+        "content": "Desde el hogar Tips para fomentar el desarrollo emocional juvenil Ejercitemos nuestro talento compartiendo responsabilidad en decisiones familiares. Demostremos amor enseñando habilidades prácticas y organización personal. Promovamos actividades creativas y deportivas. Ayuden a mejorar la comunicación y confianza mutua. Participen activamente en eventos escolares y culturales. Ofrece oportunidades educativas gratuitas para estudiantes destacados de colegios públicos regionales callao. Informes e inscripción disponibles. "
+    },
+    {
+        "headline": "PEDRO PABLO KÚZYNSKI PRESENTA SUS PLANES PRESIDENCIALES",
+        "content": "Pedro Pablo Kuczynski presenta planes ambiciosos para impulsar inversiones públicas, generar confianza económica y reducir drogas drásticamente mediante vigilancia aumentada. Propone reformas urgentes en seguridad y economía, asegurando beneficios sociales ampliados. Critica ley actual considerada inadecuada y sugiere nuevas políticas centradas en problemas fundamentales. Destaca necesidad de infraestructura moderna, empleo formal y acceso universal a servicios básicos. Expresa optimismo frente a retos futuros y compromisos electorales. "
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/trome/2015/01/trome_25.txt ---
+
+```json
+[
+    {
+        "headline": "BOOIYESPIOSPAPZEDE?",
+        "content": "’PRPAONSZAAMEMY 15\nEZUEJEW, OPHEUSAIBSB3\nEAE0UEIEJYE OU –08 EUODO EJSLEY ‘OXEQJO UNA)\n–UADSAP ’EXIPPO USAPONG AQEPSUJA ASEDD OPUI;\nPAPERNSUSSUODOUANS3?\n’SIEL1O\n-EYPANDEPEUA’B SEOIQ:\n-AE ANURE'SEUENSENASODEPUOP.\nOPTEISEYO ?\nCENTSEUY, AP\nOPIQUEDEYANBSASPANDO\n‘SEQUOZL\n-OY ENDWE 23 EMPAOJEBANB SA\nEL EL EL\n’OPO1OEPNISAOWAY 15\nOEWOJEULQ\nUSEY SEGUA BIOQUISISAWFN\nSEJ'SOIPA NA UNS 'SEOBEJJY\n'EEOROCSDSATENDDO SW\n-JUQE SOS'O'SA IG OE ZERE QE\nANBASA T30 EPDJ39 IQ OS 1081\n-AUTPIOAP SIQPEDI EO\nUNUOSEJI OGIPANSUASOURELS ANBIOD 'OBAJUERSA JOSSJUARP\n-X JAIDEOSAPS AND SAP'O;\n-UA JEERATA 1 SO1 BE JJ AO\n'SOA 104 ' SOP IOOO SAS OPS\nSOSTUEYS AZOME APS ADA AAP\nSAPPURREJUNBAR POSJ OLQQ\nAPUOLEY, UN UA QUENTE SOE\nAOA AU CO OD UR EZ, : ENDUO PE;\nUASONAD ULG, EUR EDOSDNSAP\nSO FUOS UP ODEJARU AUAN OUTXE\n-PONSEURA) SPAN BS OAOUNOJUA\n'OUS MY 1 EX0A3 POPIP DAY\nO&A NB SJ APS ORQS PU SYO\n-N USSAJ OM&S ANB “E) SIPOU\n-ADEUNSASE JS MAQAULEU\n-SIAS AE DOZ EA IS ANBP OENU\n-UA 'OOSEQEP\n-TUAAR E PI0D\nOPUEJISUEN “OP\n-EAPJASODOP\n-NUENO 'SO SOY\n-ESTI EOUJUE."
+    },
+    {
+        "headline": "Valinlinasiontv",
+        "content": "NB VANO3\nAQIS1 ON3UH3\nOONY NSNY1S3\nSOIVAIS SOY1\nVOIJ NFANO DJ\nAOLS IA OYONT NN\nVN S3 ILIS34N\n30 NOI LS IY1..\nPIJaPa2A\n-s20AUD10UAN BOIPOU;\nASA0U 0UON BA QS UO QB IOS\n-JUO LMUVUP,: XO1U0 PQGA\n-PIA UPSAO1AP MOVUOQUPSUN\nUAOPUDO PU OSIAD UPIS NYO\n-COPUNDOSAI 'OJR APA GA U A\nAUPIO OO PAY 9 D12 MORAP RA\n-OY UT TOPSIGMMUO DL2 PYLU\nSERPIDOTOS100\nAJUEUMPENSPU OSPSEP O 'USLQ OL\n-AGE PIO NAS EWOURS EP\n-EXUY SS FN WE YOU ANBSAQ\n-EG'SO X AF NU RES JP APP ISA UW\n-O YEJUA E UNU SESIDO N,\n:XPRE SEP ANB PER USA SEA E UN\nOXO 01 SQ RUQ WAY OMY\nAP PPQ UD UE GAP ETUQO,\n*'OPU AF AIS ISO IQ\n-YANB AWJP EQE PJOSU'Y0 RELTEL EL 'SUO\n-EINQSEUN UA SOPRUAS SUPO\nUNUAOPERISIAAQUO EUEJSN2\nAY USE ATDSO DEN SD ASPAU\n-ORA WON BP OP OJ GU IR OZ O\nEUNUSA UNSAY OTUADUN\nSANB LONG, FA T ROS SJ UAU\n-E LAQO ” STISTA QA SPE BEU ASE JDNO ORD AJA\n-EMP UP NS OO EP IU ASDIOS\nOPANBSWR'OS POR AR DW RS \nSOP IBAJA\nSOPEJPSMPAQUE PSI AWS WL L?\nPPUED SUSUENB\nUE MP EYA NP API PSA\n-U00A0J SAT TO 'S PT U AP OU\n-AUOJOPUEUEZ UAN BI S SO REO\n-IS SOQ 'PEPUN AST UEJUEA)\n-UEPE PIN U NES SAN SO NG\nNSAUN JEJUEG\nAOAS9UEJONEQU ANCAND?\n"E SAQED EJUOS E PPPUES E POL JUL\nAES UB AES TA OST MU OB ED\nSAJUENYSTUR UC O NZ IS N U QE OZ,\nALEUOS\n-ADJA CAS9UOC00UANQB?\n\"ESAQEPEDNSORT DU MO OU3 EURO;"
+    },
+    {
+        "headline": "Amistosos exigentes para La Sudándo la gota gorda:",
+        "content": "E UN INITODE AO SEMARA MARKA PORUNA BUENA CELNICOMOMENTO DONDE NO SE TOMA MUCHO ENCUESTALES RESULTADOS,SINO A QUIRVALES ENFREN TAS.EN ATHENOHC ASA A LAS CRTICAS,PORQUE CONSIDERAN QUE HAN RECIBIDOUNA PARAPRN ACIN DE ALTONIVELEN.LA 'U' TUVO SU 'GRASUDAMERICANA' ENFRENTANDO A RI VER PLATE(ARGENTINA), NATINAL(U RUGUAY) Y DE PORTIVOCALI(CO LBIA). ANOCHO REVIALIZ CON DEPORTIVO SAMARKOS(CHILE) Y CERRARSUSAMI STOSOS ANT EM ELEC(ECUADOR], EL MARTES 27, ENLA 'NOCHE ELECTRI CA’. LOS CREMAS TIERN 10 DS MAS PARA AJUSTARDETALLESMIRA EL DE BUT LEN DE HUNUCO, ENEL TORNEDEL INC A.ElGOLE RO REAL FE RN ND E Z VOLVIAYER ER SER T ITULAR YRECIBE L RESPALDO DELOSHINC HAS ENEL 'JORG EBASADER'TACNA."
+    },
+    {
+        "headline": "Aurich Gancon Gol Detenido",
+        "* Plidos. Juan Aurich derrotayar cer cerradas, contanto de Luis Teja hizo FT Bol affirmel chalaco. ENSAYO POETICO EnMatute yp uerta cerradas,A lianza ensayo el posibleonce titular queen fre ntara aHuracn porla Cop Liberti DoRes.Por ejemplo,Cesar Valle jo y fue un 3--0 afavor Pablo Miguez,G abriel CostayChristian Cueva anotaron,mientras LeaoBut rn tu vo en el ar co. \"Tenemos lapresin de entrar a la siguienterdadelaCop.Algunos cre mas tenern die s dias mas pa aj ust ard etailes con miras aldebutenLen deHu nu co,enelTor nedel Inc A.El gol ero Ra l Fernandezvolviayer era titu lar ye rcibi els respaldo delosh inchas enel 'Jorg e basader' deTacna."
+    },
+    {
+        "headline": "Nuevo Delantero de Alianza Lima EstampaSuFirma Manana y Espera Ganarse Corazon Des Los Hin Chas",
+        "content": "BRIP AGAAD MEDIO ML|UNDEC LA RESE %3LONTELLIER POR EL PRES TAM DE E IN EE EI E MES ESCES DE PARA YA REPARECIENDO ENT RAIT FRANKFRURT,T RAS SUPERAR UN LESINCASI 60 DAN S ANTES DE LO PRE VI STA.DO.\"FE U NASORPRESA PARA MQUE PU DIESTE STAR DESDE EL PRI NC IPO.GRACIAS A DIOS,M I R OID NI NO ME DIO PROBLEMAS\", SEAL EL DEFENSA.LESL GUILAS CA ERARON 3 -- 0 A MAN ISTOSO ANTE SERVICE TED DE SUICA.HOY SPORTING DE LISBOA, CON ANDRCARRILLO, RECE PIE GUESA. ENITALIA,FIO REST INA, DE JUAN VAR GAS, EN FRE NTARALA ROMA POR LA SERIES A.[E M5 K POR EL BOM BAR DER O DEL SAQUE ... A LOS CHICOS NO'RIVER SOL LES PIDO UNA COSA PARAMAANA:C ARACTER. Esos argentinoscreen que se va tom un jugodenaran ja cons todasconnosotros.Y los sonsos nos irve bol.EntrenaInternet y len ancmon ay erequi Pos deSegunda y Terce rd ivisi nde rr ahanelimi nada al Manchester City yChester en lacopa Fa.Inla Can cha SON 11 CONTRA 11. LAS ESTRELLASTEN EN EL CI EL Y LOS CU CCOS NOEXISTEN.As eso Sim eone Hay querescar lobien.No es unm agoconelbaln,Eso juego area,poten ci a y despla za mien to sin pe lota As esos..La Firme Queel Chem delos po bros'esten su peri momento,El Mi er cos pas ado llega Mister Fish de Los Olivos con una ami gu tabien poderosa.Pass unaha ro y noseinvitanada.Alla rat,oelsefa ba alba oy em pea ll ama ran unos ca usos de Subari yo les pedique la 'res caten'porque se hadapelado con el Zam bo,que anda ms bajo de bil let e quel Gobierno Ven eco '.Alfi nal,lafulan itesa ali delocal con el'tango' que no escucha bi en el celu lar y se fo. Po ber chi to.... RRN'Ya aprendis un negocio.Se lle vu nd ri zo eneld'aDel hin cha' de la Vic ky y agora set has pon ed en med io de la lleg ada de Ve laz cue s".Les ha dicho aes directivos que ledan 180mil'cocos',lee strassa carta pasa del Zam bo y listo para jugar.Lo pe ores quele han hecho caso, cuando elfut bola sta queda libre junio.Le lan pagaalos gregos que son du eos de supase, pero sal gor dit.o Hu uu um mm ..."
+    }
+]
+```

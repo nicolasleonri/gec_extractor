@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/05/peru21_03.txt ---
+
+```json
+[
+    {
+        "headline": "Sheput Vs. Becerril",
+        "content": "Juan Sheput pidal alma a Hector Becerril (FP) tras señalar que el ciclo naranja en la Mesa Directiva ya culmin.\n\"Que ocupen algunas vicepresidencias, No fomentamos vetos\", ironiz el ppkausa."
+    },
+    {
+        "headline": "Gesti\u00f3n Con Palacio\nNada De Lobbies",
+        "content": "Palacio indic que toda tin con el Despacho Presidencial o ministerios se hace por conducto regular. No se dejen sorprender por personas inescrupulosas que hacen ofrecimientos, indicaron."
+    },
+    {
+        "headline": "Colmo Abogados Del Senderistas Critican Al Poder Judicial",
+        "content": "Abogados de los senderistas crticon al Poder Judicial por realizar dos audiencias por semana en el caso Tarata. Selafan que lo hacen para tener una rpida sentencia. Es lo que toda la sociedad quiere."
+    },
+    {
+        "headline": \"Humala Y Heredia Se Ponen A Disposición De La Fiscalía\",
+        "content": "\"Ex presidente insisti en que, junto con su esposa, y su \\\\\"total inocencia\\\\\\\" en el caso.\" Gerardo Tvara fr taric de carencia EX Pareja Presidencial Acudi A Sede Del Minsterio Publico Para GarantarLe I LF Z Que Contribuyan Con Pesquisas Humala Y Heredia Se Ponen A Disposición De La Fiscalia mEx presidente Insisti En Que Junto Con Su Esposa Y Su \\\\\"Total Innocencia\\\\\\\" En El Caso."
+    },
+    {
+        "headline": "Comisi\u00f3n Admite A Tr\u00e1mite Pedido De Levantamiento De Inmunidad Presentado Por El Poder Judicial",
+        "content": "Richard Acua Podria Ser Procesado Sin Ninguna Restricción. Después De Dos Sesiones Frustradas Por Falta De Quorum, La Comisión De Levantamiento De Inmunidad Parlamentaria Admitió A Trámite El Pedido De La Corte Suprema Para Investigarlo Por Presunto Fraude Procesal."
+    },
+    {
+        "headline": "Material Entregado Por Mamani, Según Peritaje, Presenta Incongruencias",
+        "content": "'Keñijvideos' No Coincidían Con La Fuente Original. Fiscala Entreg A Peritos Reloj Con El Cuál El Legislador De Fuerza Popular Había Hecho Grabaciones. Los Audios Y Videos Que Entreg El Congresista Moses Mamani Al Ministerio Público Por La Investigación Del Caso ‘keñijvideos’ No Coincidían Con La Fuente Original, Según El Peritaje Del Instituto De Medicina Legal Y Ciencias Forenses."
+    },
+    {
+        "headline": "Entidad Identifica Peligros En Las Bases Y Proyecto De Contrato Para Servicio De Limpieza",
+        "content": "Contralora Advier To Risks Identified In The Contest For Cleaning Service Of Metropolitan Municipality Of Lima. Through An Announcement, The Municipality Stood By Its Response That It Overcame Observations Detected."
+    },
+    {
+        "headline": "Opina.21 MNICA DELTA DE VOLVER AL BARrio DIOSAS Comparaciones Involuntarias Hacemos Al Volver Del Mundo Desarrollado",
+        "content": "Solo Unos Das Fuera Y Como Jode Constatar Una Y Otra Veces Que Lima (La Tres Veces Coronada) Es Una Ciudad Mal Distribuida Sobrepoblada Agotada Por El Estrés De Su Gente. El 40% Del Total De Peruano Están En Lima O Alrededores. Solo El 12% Viajan A Sus Destinos Hogar Trabajo Estudios En Carros Privados O En Taxi, Por Lo Que Resulta Una Falacia Que Esta Capital Tiene Exceso De Carros."
+    },
+    {
+        "headline": "Alfredo Ferrero Corta Vida De Negocio Se Debiera A La Baja Adaptaci\u00f3n Digital De Emprendedor:",
+        "content": "Mas Del 50% De MyPes Cierran Antes De 3 Años. Se Conocen Tres Barreras Que Impiden Implementacion De Negocios Virtuales En El Perú. Entre 6 Y 7 Meses Le Tomará A Una MyPe Posicionar En Buscador De Google. Si Optan Por Colocación De Avíos, El Efecto Se Verá En Minutos."
+    },
+    {
+        "headline": "Patricia Teullet Importaciones Crece 11%",
+        "content": "En Primer Trimestre Del Ao, Las Importaciones Peruanas Registraron Incremento De 11%. Asi Lo Informó La Cámara De Comercio De Lima (CCL). "
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the outlined extraction rules. Articles were segmented where appropriate using logical breaks such as topic shifts indicated by headings or context changes. Any unclear data was marked appropriately according to guidelines.

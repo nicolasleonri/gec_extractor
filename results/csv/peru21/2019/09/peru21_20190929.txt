@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/09/peru21_29.txt ---
+
+```json
+[
+    {
+        "headline": "España. Atlético de Madrid y Real Madrid empataron 0–0 en un derby deslucido Italia. sigue de líder",
+        "content": "La tv inter aguanta\nel acecho de\ngiros la juventus\n— Liga 1 (Caución)\nmbarcelona derrotó \na municipalvs.cantolo a\nal getafe y se puso\na dos puntos de los\n1130h (En Vivo)\nmerengues y a uno\nUniversitario de Deportes\nVs.Alianza Lima\nMADRID.— Los hinches que llevaron al wanda metropolitano\nDe madrid esperaban una verdadera lucha de gigantes.\nuna batalla a muerte en pos de la ansiada punta,\nPero ni atlético de madird ni real madrid estuvieron a la altura de\nLas expectativas y apenas igualaron 0—0 por la séptima fecha\nde la liga española.\nel empate mantiene al madrid en la cima con 15 puntos\nY al ‘atleti’, tercer con 14 unidades, Pero ambos quedaron\nA tiro del barcelona, que está a dos puntos de los líderes y a\nUno de los rojiblancos."
+    },
+    {
+        "headline": "Inter aguanta el acecho de rivales mientras sigue de líder",
+        "content": "Milán Vs.florentina\nespñ/a espn hd\n1354h (en vivo)\nllegó hasta Roma después de haber sido visitado por el spal.\ntras disputarse seis jornadas del calcio, los nerazzuri son líderes con 18 unidades,\ndo más que la vecchia signora que se impuso en casa por 2—0 sobre el spal.\npjanic (45’) y cristiano ronaldo (78’), hicieron los goles tras su triunfo por balones, pero sin llegar a crear tantos de la juve.”
+    },
+    {
+        "headline": "Liverpool suma su septima victoria al vencer al sheffield united",
+        "content": "Imparables, perfectos y contundentes así se muestran los reds, quienes encuentran la victoria con el gol del holandés georgino wynja ndum, quién aprovechó un grosero error del arquero local dean henderson a los 69’. liverpool mantiene los cinco puntos de ventaja con respecto al manchester city (2° con 16), que superó de visita a burnley por 1—0."
+    },
+    {
+        "headline": "Curiosidades del enfrentamiento entre universitarios y aliannistas",
+        "content": "Carlos olascoaga tiene la máxima cantidad de partidos jugados en el monumental con 352 juegos. pedro galínez ostenta la mayor cifra de victorias con 132 logros deportivos. estadísticas generales indican que han habido 258 clasificatorias en total, siendo el primer clásico celebrado el 23/09/1928 cuando universitario le ganaba a alianna lima por 1—0."
+    },
+    {
+        "headline": "Christian cueva defiende acciones frente a fanático",
+        "content": "Un vídeo publicado en twitter muestra a christian cueva peleándose dentro de un centro nocturno en santos. Sin embargo, él asegura defenderse luego de ser víctima de agresión verbal y física por parte de un aficionado del club."
+    },
+    {
+        "headline": "Resultados de Superligas Argentinas antes del gran choque",
+        "content": "river plate obtiene una victoria de 2—0 sobre gimnasia de la plata bajo dirección técnica de maradona, colocándose cerca de boca juniors, quienes consiguieron un empate de 1—1 en bombonera."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text based on headlines and their corresponding contents while adhering strictly to the given guidelines for extraction and cleanup. Articles were identified through changes in topics indicated by potential headings followed by relevant paragraphs. Unrelated sections such as sports schedules have been excluded according to specified criteria.

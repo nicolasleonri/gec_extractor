@@ -1,0 +1,68 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/03/peru21_31.txt ---
+
+```json
+[
+    {
+        "headline": "Stambulenses de la Familia",
+        "content": "Se calcula que esta producción\nserá editada en abril y luego saldr\nen las pantallas bolivianas.\n\nEn tanto, Monika retomará hoy\nlas grabaciones de Al fondo hay \nsitio, en donde su personaje ‘Charito’\ncambio de manera de ser y ya no es\ntan sumisa."
+    },
+    {
+        "headline": "Melissa Loza Interesada en Crecer como Animadora",
+        "content": "Luego de confirmarse que será\nla copresentadora del nuevo\nlitígrafo Guerra de Colegio, la modelo\nMelissa Loza aseguró que tomará esta\noportunidad para crecer en su carrera,\n‘Gracias a Dios estoy conmucho trabajo\ny dandole duro a Estoesguerrra’. Ahora tengo muchas expectativas en lo\nque estamos involucrados todos\nlos del reality… Se trata de ir desarrollándose y crecer’, dijo Loza\nsobre Guerra de colegios."
+    },
+    {
+        "headline": "Kate O’Mara Falleció Actriz de la Serie Dinastía?",
+        "content": "La actriz Kate O’Mara, quién\npersonalizó a ’Caress Morrel’en la recordada serie\nDinastía, murió a los 74 años en una residencia para ancianos\nde condado de Sussex, Inglaterra.\n\nSu representante Phil Belfield comentó que O’Mara falleció tras haber\nsufrido una breve enfermedad, de la cual no ofreció más detalles."
+    },
+    {
+        "headline": "Jennifer Aniston Confirma Su Boda Para Este Año",
+        "content": "Finalmente confirma que el próximo año se casará con el actor Justin Therox.\n\n'Tengo una queja contra la Policía de Trujillo que es una pieza clave para arreglar\nmi domicilio', dice emocionadamente Rodrigo Gonzales durante una entrevista.\n\n'Esa situación deberían corregirla urgentemente'.\n\nAniston también menciona sus planes futuros diciendo:\n\n'Ha sido un ejercicio complicado mantener balance entre mi agenda laboral y personal'\n'debido a múltiples filmaciones consecutivas sin descanso alguno.'\n\n'Simplemente necesito tiempo para organizar mejor mi hogar en Los Ángeles,' añadió.\n\n'Aprovecharé estos próximos meses para finalizar algunos contratos pendientes '\ny así tener disponible el siguiente año para enfocarme plenamente en mi vida familiar.'
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines. Any non-article sections were excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/peru21/2014/03/peru21_31.txt ---
+
+```json
+[
+    {
+        "headline": "autoriz\na la Mesa Directiva a\ncons tratar y adqui r ir \nsin contro l alguno.\nLa const ruccion del nue vo ",
+        "content": "La construcción del nuevo edificio del Congreso —por el que se ha pagado $5’173 millones y no funciona—fue un proceso exonerado de los alcances de la Ley de Contrataciones del Estado durante la gestión de Daniel Abugatti. De acuerdo con el contrato suscrito por el Parlamento con el consorcio Activa Perú Construction SAC—a cuya copia accedió Perú21.—durante la primera administración parlamentaria de este poder del Estado se aprobó una disposición final en la Ley de Presupuesto."
+    },
+    {
+        "headline": "\"Este es un tema\nmuy gra ve que,\_sin du da, se\ninvestiga ra en\nel pr ximo \nCon gre so\".\nJa vier Vel zquez Q.",
+        "content": "Expresidente del Parlamento. Para el expresidente del Parlamento, Javier Velázquez Quispe, el único propósito de esa exoneración fue evitar que la contratación de la constructora pase por un concurso público y todo se resuelva por invitación a postores donde solo uno participe. \"ELEFANTE BLANCO. La obra no pasó por concurso público.\""
+    },
+    {
+        "headline": "PERITAJE CONFIR MA DESBALANCE PATRI MONIAL DE OSC AR LO PE Z ME NES ES",
+        "content": "Un peritaje de la Contralora General de la República confirmó el desbalance patrimonial del exoperador montesinista Óscar López Meneses. Durante la década del fujimorismo (1990 y 2000), gastó $2’504,000 dólares en inmuebles, viajes y vehículos, pero solo sustentó ingresos por $146,358 dólares. "
+    },
+    {
+        "headline": "CASO NARCODULT OS LO ESP EA",
+        "content": "El vicepresidente de la Megacomisión\", Enrique Wong, dijo que las investigaciones del caso de los narcoindultos concluyeron en indicios de una posible infracción constitucional de parte del expresidente Alan García. \"Nuestras investigaciones han arrojado ciertos indicios que nos hacen pensar que el expresidente habría infringido varios artículos constitucionales en la entrega de indultos, porque era su obligación velar y combatir al narcotráfico,\" declar."
+    },
+    {
+        "headline": "MEDIDA PARA IMPUL SAR LA EC ON OM IA",
+        "content": "Por cuarto mes consecutivo, el Banco Central de Reserva (BCR) dispuso la reducción de los encajes (provisiones que hacen los bancos por los depósitos) en moneda nacional, según una norma publicada en el diario oficial El Peruano. Esta vez el recorte de las provisiones de las entidades financieras pasa de 12.5% a 12%."
+    },
+    {
+        "headline": "PREPARATE PA RA DISFRUTAR SIN PRE OC UPACIONES ECONOMICAS",
+        "content": "Como disfrutarlos al máximo sin generarte problemas económicos? Para lograrlo, te damos seis recomendaciones: averigua precios, programa tu presupuesto, busca ofertas, incluye imprevistos, busca opciones locales y considera tomar un préstamo de libre disponibilidad."
+    },
+    {
+        "headline": "MOODY'S: POSIBLE MEJOR A NA CALIFIC AC IO N DE PERÚ",
+        "content": "Junto a Uruguay seremos los primeros en la región en subir en la calificación crediticia, indicó el analista senior de la agencia de riesgo, Mauricio León. Ambos países tienen panoramas positivos por un buen tiempo, aunque aún quedan retos importantes pendientes."
+    },
+    {
+        "headline": "CRE CE BSQUEDA DE CA JA SNE GRA S",
+        "content": "Las autoridades continúan buscando las cajas negras que podrían revelar qué ocurrió con el vuelo MH370. Las probabilidades disminuyen mientras más días transcurren después de la pérdida del contacto con el avión."
+    },
+    {
+        "headline": "AVANZA DI LOGO DE PAZ ENT RE GUERRILLA Y BIENESTAR COL O MBIANO",
+        "content": "La guerrilla de las FARC y el gobierno colombiano anunciaron progresos en los diálogos de paz celebrados en Cuba. Han estado negociando durante 15 meses para terminar medio siglo de conflicto armado."
+    }
+]
+```

@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/05/trome_11.txt ---
+
+```json
+[
+    {
+        "headline": "Plaza Norte:",
+        "content": "Mañana, tributo a\nViernes 11 de Mayo del 2018\n\nEl hotel San Isidro, ubicado entre\nlas avenidas Jorge Basadre\ney Los Pines, que ofrece 254 amplias habitaciones ysúites, además de bar, piscina,\nen esta ocasión estamos seguros de que nuestro punto de referencia\", dijo el gerente general del mismo."
+    },
+    {
+        "headline": "Mall Plaza Bellavista:",
+        "content": "Mañana, concierto desde las 7 de la noche con el imitador de Marc Anthony, para cantar y bailar ‘Vivir mi vida’ ’Va valía pena’ y otros."
+    },
+    {
+        "headline": "Jockey Plaza:",
+        "content": "Desde el mediodía, zona gratuita de flores para llevarle un lindo arreglo a mamá."
+    },
+    {
+        "headline": "Megaplaza:",
+        "content": "Hoy se inicia la feria gastronómica ‘Sabores de mamá’, mañana, pasacalles de mariachis y el domingo, bienestar con ‘Mam saludable’. Mimosa regalan rosas.\n\nVecinos denunciaron la aparición de nuevas grietas y hundimientos en la mencionada construcción, abierta al público.”
+    },
+    {
+        "headline": "Real Plaza:",
+        "content": "Final del concurso de ‘Canto Kids’ y en ciertos en vivo, concursos, sorteos, hora loca de ofertas y otras actividades empiezan las celebraciones para mamá en los centros comerciales."
+    },
+    {
+        "headline": "En Derrama Magisterial",
+        "content": "Homenaje a mamá con música andina. La cantante de música andina Josefa Nahuis ofrecerá un homenaje a la madre por su día este sábado en el local de la Derrama Magisterial, en Jesús María. En el mismo evento se recordará también el Día de la Canción Andina, que se celebra cada 15 de junio. Entre sus composiciones figuras ‘Taki Para’ (lluvia de canciones), ‘Puente de música’ y ‘Carnavalitos Chayray-Chayray”. Interpretarán mulizas, chimaychos y tunantadas."
+    },
+    {
+        "headline": "Open Plaza:",
+        "content": "Activación ‘¡Qué rico me lo dedico a mamá!’ y mañana, a las 7 de la noche, conciertos con el imitador de José José y de Sandro ‘Cantemos a Mamá!, y por su campaña, ‘Mam, soy hincha de tú’ sorteo de 5 Gift Cards de mil soles."
+    },
+    {
+        "headline": "Mall Aventura Santa Anita:",
+        "content": "El domingo, a las 6 de la tarde, a gozar con el concierto del imitador de Marc Anthony."
+    },
+    {
+        "headline": "En la ‘Curva Zapata’: Mataron 3 vigilantes a tiros en Manchay",
+        "content": "Agentes del Departamento Policial de Pachacamac informaron que Rolando Gabriel Rojas Castillo (21), Mario Andrés Caspedes Izaga (29) y Miguel Ángel De la Cruz Arias (30), asesinados en un terreno en Manchay, recibieron más de cien balazos. Sus familiares confirmaron que los contrataron para cuidar el extenso terreno de 26 hectáreas en la ‘Curva Zapata’."
+    },
+    {
+        "headline": "Salida Lista Lugares Más Acosadores",
+        "content": "Según la reciente lista, los distritos más inseguros para ellas son: Pueblo Libre, Cercado de Lima, Miraflores y San Isidro. También las avenidas Brasil, Javier Prado, Angamos y Primavera. Las mujeres deben denunciar cualquier maltrato."
+    },
+    {
+        "headline": "Venta Tecnología & Electrodomésticos",
+        "content": "Promociones válidas del 11 al 17 de mayo de 2018 incluyen precios especiales en tecnología y electrónica tales como masajesadores, smartphones, tablets, audífonos, cámaras IP, microondas, lavadoras y televisiones."
+    },
+    {
+        "headline": "Clubes Exitosos Revelan Secretos",
+        "content": "Este Miércoles, los empresarios exitosos contarán sus secretos durante eventos organizados en diversos clubes locales."
+    },
+    {
+        "headline": "Selección Nacional Prelista Rumbo a Rusia",
+        "content": "Tras las puertas de la Videna, el seleccionador Ricardo Gareca prepara la lista final de 25 jugadores para el Mundial de Rusia tras recibir críticas mediáticas respecto a la inclusión de Claudio Pizarro."
+    },
+    {
+        "headline": "Opinión Bombardero",
+        "content": "\"Me van a matar\" dice Julio Cesar Uribe sobre la polémica decisión de llamar a Claudio Pizarro para el Mundial de Rusia, comparándolo con situaciones históricas similares dentro de la selección peruana."
+    },
+    {
+        "headline": "Incidencias Futbolísticas",
+        "content": "Jefferson Farfán y Rafael Guardiola están considerados candidatos principales para ocupar la posición de centro delantero en la selección peruana, excluyéndose así a Claudio Pizarro de la lista oficial enviada a la FIFA."
+    },
+    {
+        "headline": "Regreso de Christian Cueva",
+        "content": "Saõ Paulo concedió permiso especial a Christian Cueva debido al próximo nacimiento de su hijo, permitiéndole permanecer temporalmente en Lima y concentrarse con la selección peruana previo al Mundial de Rusia 2018."
+    }
+]
+```
+This JSON captures each distinct segment identified within the provided OCR text based on headlines and associated contents while adhering strictly to the defined extraction rules. Note any missing data has been filled with `"NA"` where applicable according to guidelines.

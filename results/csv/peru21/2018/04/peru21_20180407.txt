@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/04/peru21_07.txt ---
+
+```json
+[
+    {
+        "headline": "Se estrena la telenovela ‘Torbellino’, 20 años después, en la que participas, pero el rating no le ha favorecido.",
+        "content": "El tema número va y viene, algunas veces baja, pero lo importante es construir un horario. Torbellino tiene una historia bonita y hay que ir ganando público. Nos estamos apuntando por una televisión diferente que demanda mucha gente.\n\n\"Mis hijos, Danny (su esposo), toda la familia y yo estamos entusiasmados!\".\n\nKatie Holmes está confirmada."
+    },
+    {
+        "headline": "\"Han Solo\" se estrenará en Cannes",
+        "content": "La película \"Han Solo: Una Historia de Star Wars\", nueva producción de la saga intergaláctica, tendrá su estreno mundial el 15 de mayo en el Festival de Cannes (Francia) fuera de la competición oficial, según informó el medio Deadline. Su estreno comercial está programado para el 25 de mayo en otros países.\n\nAlden Ehrenreich interpretará a \'Han Solo\' durante su adolescencia, papel hecho famoso por el actor Harrison Ford en las tres primeras películas de Star Wars. Otros miembros del reparto incluyen a Woody Harrelson, Emilia Clarke, Donald Glover, entre otros."
+    },
+    {
+        "headline": "\"No me sentí un reemplazo de Rodrigo\"",
+        "content": "\nTilsa Lozano cerró el ciclo de \"Amor de verano\". \n\"Se acababa este ciclo en el cual nunca sentí que era un reemplazo de Rodrigo González o Gigi Mitre. Jamás fue así, siempre formé parte de un equipo que trabajó arduamente durante todo el año,\" señala."
+    },
+    {
+        "headline": "Beto Ortíz dice que «la idea de hacerlo es real»",
+        "content": "Considera regresar con \"El Valor de la Verdadera\"\nPablo Ortíz llevó a cabo una consulta entre sus seguidores sobre el posible retorno del show \"El Valor de la Verdad\", proyecto que evalúa actualmente.\n\n\"Las condiciones para retomar 'El Valor de la Verdad' son claras: nuestros invitados deben tener contenido valioso, evitando figuras meramente sensacionalistas, buscando inspiración para nuestra audiencia juvenil,... Por supuesto, eso aún tengo que definir. Sin embargo, sí considero seriamente la propuesta,\" expresó en su espacio radial."
+    },
+    {
+        "headline": "SPORTING CRISTAL RECIBE A ALIANZA LIMA EN EL ESTADIO NACIONAL",
+        "content": "Sería una batalla crucial. De lograr la victoria, Sporting Cristal podría consolidarse como líder absoluto del Grupo A, eliminando cualquier esperanza de título para Alianza Lima. Con un récord imbatible como visitantes y liderados por Emmanuel Herrera, máximo artillero del torneo, enfrentan un encuentro clave contra Alianza Lima, que también necesita recuperarse luego de una derrota anterior frente a Palmeiras en la Copa Libertadores."
+    },
+    {
+        "headline": "«Quevedo tuvo inconductas», revela Benegoechea",
+        "content": "El técnico de Alianza Lima explica la ausencia de Kevin Quevedo en el próximo juego contra Sporting Cristal, citando problemas disciplinares. Según él, estas acciones van más allá de simples infracciones deportivas, afectando directamente el compromiso requerido dentro del club. Esta situación marca un punto crítico en la carrera del mediocampista hacia convertirse en un referente positivo dentro del plantel."
+    },
+    {
+        "headline": "Universitario cambia estrategia",
+        "content": "Alberto Quintero será utilizado como delantero centro en el siguiente partido contra San Martín. Este cambio táctico responde a necesidades específicas del equipo dirigido por Pedro Troglio, quien confía plenamente en la capacidad goleadora de Quintero para mejorar el rendimiento general del conjunto crema."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text while adhering strictly to the defined scope and guidelines for inclusion/exclusion criteria. Articles were identified based on headlines followed by relevant content sections, ensuring clarity and coherence within each entry. Any extraneous information such as sports schedules unrelated directly to specific stories was excluded according to specified heuristics.

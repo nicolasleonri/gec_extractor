@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/11/elcomercio_05.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLERO",
+        "content": "Hoy en día, uno pensarías que debería existir más espacio entre palabras."
+    },
+    {
+        "headline": "CONTENIDO PARA FINALES DE CUARENTENA! ¡RECOMPENSADO POR LOS SOLES!",
+        "content": "¡ESTAMOS CONTENTOS QUE FINALMENTE SE LIBERA EL DERECHO HUMANO AL MOVIMIENTO DEMOCRÁTICO EN PERÚ!"
+    },
+    {
+        "headline": "Contenido importante:",
+        "content": "Se está buscando activamente información relevante relacionada con noticias actuales."
+    },
+    {
+        "headline": "Importancia económica",
+        "content": "Los detalles específicos aún están sujetos a revisión continua."
+    },
+],
+```
+This example demonstrates how each extracted article's title should appear within square brackets for clarity and organization purposes. It includes both headlines and their corresponding contents formatted according to specified guidelines while ensuring proper cleanup of any typographical issues resulting from optical character recognition software misidentifying characters during digitization processes. This ensures accurate representation of information intended for public dissemination through print media channels such as newspapers like 'The Peru Times'."
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/11/elcomercio_05.txt ---
+
+```json
+[
+    {
+        "headline": "Ilse Wisotzki Loli naci el 13 de febrero de 1934. Fue rectora de la Universidad de Lima durante 33 años, en dos períodos distintos.",
+        "content": "\"En el terreno de la tertulia tenía una velocidad argumentativa difícil de superar\".\n\n**FRASES**\n\nFlavio Figallo, Ex Viceministro de Gestión Pedagógica: \"Su capacidad de gestión la llevó a transformar las instituciones en las que participaba\".\n\nJulio Hevia, Psicoanalista y Catedrático: \"Ella era capaz de dividir las aguas y zanjar los grandes problemas sin pestañear. Resulta dificil aceptar que una persona tan llena de vitalidad y energía nos haya dejado\"."
+    },
+    {
+        "headline": "Fuego arrasa Cantagallo, comunidad que vivió entre promesas de reubicación",
+        "content": "- Daños ● Incendio deja más de 2.000 damnificados, un niño herido y 438 casas destruidas ● Traslado de nativos quedó truncado cuando actual gestión municipal dejó sin efecto el proyecto Ro Verde.\n\nRoger Rodríguez, de 33 años, trabaja de noche en una fábrica y regresa a casa a las 4 de la mañana. Ayer, cuando volvió, su precaria vivienda ardía en llamas. Su esposa y su hijo de 3 años pudieron salir a tiempo y él, desesperado, solo pudo rescatar poco de ropa. Roger es Shipibo. Hace diez años salió de Ucayali y se instaló en la asociación de vivienda Cantagallo con la ilusión de un mejor futuro. Desde el año 2009 este pueblo Nativo ubicado en la ribera del río Rímac busca ser trasladado a una zona segura.\n\nCasi 12 horas después del incendio que consumió 438 viviendas y dejó a más de 2.000 damnificados (entre ellas, unas 250 niños) de la comunidad Shipibo-Conibo y de otras asociaciones de Cantagallo, Roger retiraba con ayuda de sus familiares los escombros de su terreno en la zona más alta del pueblo. Solo cenizas quedaban de lo que había sido su casa, pero él colocaba cuatro palos y una colcha a modo de techo.\n\nSegún los vecinos, el fuego empez cerca de la 1 de la madrugada en un puesto del mercado, aparentemente por un cortocircuito. La presencia de material inflamable en los talleres del parque industrial artesanal y las viviendas de material rústico hicieron que las llamas se extendieran rápidamente.\n\nEn total, 28 unidades de los bomberos, entre ambulancias, motobombas y cisternas, acudieron al lugar, pero la falta de agua y el terreno agreste dificultaron el ingreso de los vehículos. Bomberos, Serenos, Policías y vecinos trabajaron juntos por casi seis horas para apagar el fuego y rescatar a las familias. Pocas personas pudieron sacar algún enser.\n\nRobert Aliaga es uno de los comerciantes que tenían una vivienda y un taller en la zona industrial de Cantagallo. No dudo en sumarse al grupo humano que ayudó a los bomberos a apagar el fuego, sin imaginarse que con el pasar de las horas las llamas se extenderían y también él lo perdería todo. «Entre las máquinas de su taller, artefactos y muebles de su vivienda, perdi como 200 mil soles», cuenta una sobrina del comerciante. Robert Aliaga no tiene palabras, se abrazaba a un amigo y lloraba desconsoladamente.\n\n«Lo que ocurrió aquí podría evitarse con la reubicación» señalan autoridades locales."
+    },
+    {
+        "headline": "Reacciones políticas frente al incendio en Cantagallo",
+        "content": "\n-Luis Castillo Lossio, Alcalde de Lima: \n   * «A los Shipibos les vendieron ilusiones. El terreno de Campoy no tiene saneamiento físico legal». \n   
+-Eduardo Pérez, Alcalde del Rímac:\n   * «Esto se pudo evitar con la reubicación. El responsable de esta desgracia tiene nombre y apellido».\n-Mercedes Araoz, Congresista y Vicepresidenta:\n   * «No es momento de acusaciones, es tiempo de atender la emergencia. La reubicación se ver con un dialogo alturado»."
+    },
+    {
+        "headline": "Incidente en Ohio revela tensiones antes de las Elecciones Presidenciales en EE.UU.",
+        "content": "Jo Ingles, correspondiente de la Radio Pública de Ohio menciona que 'esto es una vergüenza'. Un estado clave donde Trump y Clinton buscan asegurar cada voto. Si bien Trump parece favorecido en Ohio, esto no garantiza su triunfo general según Paul Beck, Profesor Emérito de Ciencias Políticas de la Ohio State University. Además, existen amenazas de ataques terroristas relacionadas con estas elecciones, incrementándose así la seguridad especialmente en áreas estratégicas como Nueva York."
+    },
+    {
+        "headline": "Chile experimenta disturbios masivos solicitando reformas al sistema de pensiones",
+        "content": "Manifestantes en Chile solicitan cambios radicales al sistema de pensiones establecido durante la dictadura de Pinochet. Miles tomaron las calles causando caos y confrontaciones con la policía. Presidenta Michelle Bachelet reconoce la legitimidad de las demandas populares, sugiriendo que encontrar una solución sustentable requerirá mucho tiempo y negociación. Entre las medidas gubernamentales está la introducción de una AFP estatal y contribuciones adicionales de empresas."
+    },
+    {
+        "headline": "Argentina revisará beneficios económicos de Cristina Fernández",
+        "content": "Carolina Stanley, Ministra de Desarrollo Social, determinó suspender pagos duplicados recibidos por Cristina Fernández, quienes eran percepciones simultáneas derivadas de su rol anterior como presidenta y posteriormente como viuda de Néstor Kirchner. Esta medida surge luego de recomendaciones jurídicas enfocadas en regular dichos beneficios únicamente a figuras específicas dentro del ámbito público argentino."
+    },
+    {
+        "headline": "Propuesta controvertida en México podría limitar la libertad de prensa",
+        "content": "La Corte Suprema mexicana evalúa permitir derechos de réplica incluso cuando la información difundida es precisa. Esto genera alarmas respecto a posibles restricciones indebidas a la libre expresión mediática. Expertos advierten que tal cambio legislativo facilitaría litigios innecesarios y potencialmente intimidatorios contra medios informativos."
+    }
+]
+```

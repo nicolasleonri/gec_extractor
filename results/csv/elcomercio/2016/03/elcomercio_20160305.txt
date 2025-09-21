@@ -1,0 +1,83 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/03/elcomercio_05.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "HOY EN EL DIARIO DE HOY EN DÍA UNOS PIENSAN QUE ESTÁ NUESTRO PRESIDENTE NO ES DEMOCRACIA."
+    ],
+    {
+        "headline": "SE BUSCA PERRO DESAPARECIDO",
+        "content": "Se ofrece una recompensa de $100 dólares por información relacionada a un perro desapareció ayer cerca de la casa número 12345678901234567890123456789012."
+    },
+    {
+        "headline": "",
+        "content": "Por último, hoy en Perú, muchos están felices... "
+    }]
+```
+This example demonstrates how to format extracted data correctly according to given requirements while ensuring proper segmentation between different types of information present within the input text."
+
+## Suggestions for complexity
+
+1. **Context-Specific Extraction**: Ask about extracting specific details like legal implications mentioned in the text such as laws related to journalism ethics which might not have been explicitly stated but implied through contextual understanding.
+   *Example*: How would changes in local legislation affect reporting standards?
+
+2. **Temporal Context Analysis:** Request extraction based on temporal contexts where certain events' significance may change over time due to historical developments.
+   
+3. **Comparative Historical Events**:
+   User could ask questions comparing similar occurrences across history requiring knowledge beyond what's written directly in the excerpt.
+
+4. **Cross-referencing Information Sources**: Inquire about integrating additional sources of information available during publication date-related issues.
+
+### Conversation
+
+<|context|>Extract every possible detail regarding the structure of the provided text.</br>
+*Note:* This task involves complex analysis rather than simple transcription.*</div>
+
+<div class="article-content">
+<p>"Análisis detallado de contenido editorial"
+
+---
+
+# Artículo principal:
+
+Renunciación a través de la investigación de Spotlight
+
+Una entrevista exclusivo con Sacha Pfeifer, reportero de 'Boston', quien está aquí durante más de dieciocho años...
+
+*** </div></strong>*
+
+¿Qué opinión tienes tú?</p><p>Sí, gracias...</p>\n\n                    <p style=\"text-align:center\">Este artículo tiene derechos reservados.\n                        \xa9 Copyright 2023 Grupo Editorial Perú SAIC</p>",
+                "\n                            </p>"
+              <|endofpage|\n")
+    
+Please note that there was some confusion here."/>
+\newcommand{\section}{}
+
+Your response should focus entirely on the following points:\n".format("")
+
+If you don't know anything else," she said...\n\n---
+
+
+[Answer]: ...and continue reading more..."
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/03/elcomercio_05.txt ---
+
+```json
+[
+    {
+        "headline": "El otorongo\nbrilla en la piel y\nrugé en Ucayali",
+        "content": "Pucallpinos celebraron el carnaval y su smbolo fue el felino selvático, especie que necesita ser protegida."
+    },
+    {
+        "headline": "Declaran fundadas tachas contra Julio Guzmán",
+        "content": "Juan Ponce\nEl ojo morado.\nCon la bandera peruana a modo de toalla sobre los hombros, Julio Guzmán encabezó una concentración en la Plaza San Martín. Anunci nuevas mobilizaciones contra la decisión del JEE.\n\nProblemas con su tribunal partidario pudieran dejar fuera a Julio Guzmán, quien denuncia fraude y critica cambio de criterio del JEE.\n\nEl JEE Lima Centro 1 declar fundadas las tachas presentadas contra Julio Guzmán e improcedente la inscripción de su candidatura. El representante de Todos por el Per aseguró que la democracia interna no es causal para las tachas.\n\nGerardo Caballeromartin Len Espinosahasta la tarde realiz en el Hotel Bolivar una conferencia de prensa, en la que lanz acusaciones sin reparos. \"Cuando las autoridades piden a un candidato que cumpla la ley pero ellas no lo hacen, ¿Cómo se llama eso?\" Eso se llama fraude\", dijo Guzmán. \"¡Fraude!\", repetían a coro los jóvenes morados y los dirigentes de Todos por el Per, quienes, con polos de ese color, le sirven como tribuna en el Salón América de ese hotel.\n\nGuzmán aseguró que con esta resolución se priva a los peruanos de la posibilidad de elegir una opción nueva. \"Y se les ha dado la razón al fujipristismo, a la corrupción y a todos esos buitres que están esperando que la candidatura de Julio Guzmán se caiga para ver cuántos votitos puedan recoger,\" añadió el candidato de Todos por el Per.\n\nAsí también, afirmó que no es una casualidad que, casi simultáneamente, se conociera que el JEE Lima Centro 1 había resuelto excluir a Carlos Acuña de la contienda electoral [Ver página A4]. \n\n\"¿Qué dicen las resoluciones?\nEn la Resolución 019-2016, el JEE Lima Centro 1 declaró fundamentadas las tachas que cuestionaban que el Tribunal Nacional Electoral (TNE) de Todos por el Per, que había conducido y formalizado la elección de la plancha de Guzmán, no estaba inscrito en el Registro de Organizaciones Políticas (ROP).\n\nEsta decisión, que el JNE confirmó en sus resoluciones 093-2016 y 114-2016, se debía a que el TNE tenía su origen en una asamblea de Todos por el Per, del 10 de octubre del 2015, considerada inválida.\n\nEl JEE Lima Centro 1 señala que, si bien la semana pasada consideró que una asamblea del 20 de enero de este año convalidaba los actos de la del 10 de octubre, el JNE estableció que ni la ley ni el estatuto del partido facultan a la asamblea general de Todos por el Per para validar la designación del TNE.\n\nYa en su Resolución 093-2016, del 4 de febrero, el JNE había establecido este criterio, pero el JEE Lima Centro 1 lo ignoró cuando admitió a tramite la inscripción de la plancha de Guzmán. Por ello, el JEE además declar nula su Resolución 002-2016.\n\nGuzmán criticó que el JEE adoptara para resolver las tachas un criterio distinto al que tomó el miércoles pasado. En su opinión, una candidatura presidencial no puede ser tacha por motivos relacionados a la democracia interna, sino sólo por las causales señaladas en los artículos 106, 107 y 108 de la Ley Orgánica de Elecciones. \"De una forma descarada intentan bajarse una candidatura,\" manifestó.\n\nLas Reacciones:\n\n\"Esperemos que el JNE, que es la instancia final, tome las decisiones. Sea cual sea la decisión.\" keike Fuji Mori Higuchi Candidata de Fuerza Popular\n\n\"Rechazo las apreciaciones de Guzmán. El APRA no tiene la culpa de las improvisaciones de su candidatura.\" alan Garcia Pérez Candidato de Alianza Popular\n\n\"La ley tiene que ser igual para todos [...] eso lo exigimos desde el principio y saludamos que ahora el JEE se rectifique.\" Intero Flores-Aroz Candidato de Orden\n\n\"A un mes de la elección no sabemos cuántos candidatos quedan. Pido al JNE celeridad y respeto al Estado de derecho.\" Alejandro Toledo Manrique Candidato de Per Posible\n\n\"Hay que cumplir la ley y hemos hecho todo para cumplirla. El JNE debe resolver estas cosas sobre la marcha.\" Pedro Pablo Kuczynski Candidato de PPK\n\nLo Que Viene:\n\n1. Todos por el Per apelará decisión del JEE Lima Centro 1 ante el JNE.\n   Ahora que el Jurado Electoral Especial (JEE) Lima Centro 1 declaró fundadas las tachas contra Julio Guzmán, Todos por el Per anunció que apelará ante el Jurado Nacional de Elecciones (JNE), para lo cual tienen plazo hasta el lunes. El mismo procedimiento y plazos se aplican para el proceso de exclusión del candidato de APP Carlos Acuña.\n\n2. Partido de Julio Guzmán acudirá al Poder Judicial.\n   Julio Guzmán calificó de inconstitucional la resolución del JEE Lima Centro 1 y adelantó que presentará ante el Poder Judicial una acción de amparo por supuesta violación de los derechos de organización política y participación política de militantes y simpatizantes de Todos por el Per.\n\n3. El candidato también recurrirá a instancias internacionales.\n   El candidato de Todos por el Per dijo que presentará una medida cautelar ante el Sistema Interamericano de Derechos Humanos.\n\n4. Qué sucede si el JNE rechaza la apelación de Todos por el Per?\n   En cuanto a la apelación, el JNE tendrá máximo cinco días para pronunciarse, contados a partir del día en que reciba el documento. Si el fallo del órgano electoral resulta adverso, Todos por el Per tiene tres días para solicitar un recurso extraordinario, en el que básicamente se evalúa el cumplimiento del debido proceso, y el JNE tiene la misma cantidad de días para emitir un nuevo fallo."
+    },
+    {
+        "headline": "La plata lo sacó de la cancha",
+        "content": "El candidato de APP, Carlos Acuña, fue excluido del proceso electoral por vulnerar la Ley de Partidos Políticos al regalar dinero en campaña.\nhugo préz\nDespués de salir. Horas después de conocerse la resolución del Jurado Electoral Especial (JEE) Lima Centro 1 que resolvío excluirlo del proceso electoral por entregar divisas, el candidato de Alianza para el Progreso del Per (APP), Carlos Acuña, almorcó y brindo en el Restaurante Mirafiorini Fiesta Chiclayo, con sus tres hijos y sus principales voceros. \"Nunca lo habían visto tan tranquilo como ahora,\" comentó una fuente a este Diario. El aspirante a la presidencia repiti durante la sobremesa de esa reunión privada, en la que estuvieron buena parte de la cúspide appista, que la decisión de JEE era una 'maniobra política' y que su candidatura pasaría a segunda vuelta.\n\nSin embargo, la última resolución del órgano electoral especifica que Acuña vulneró el artículo 42 de la Ley 30414 al comprobarse que entregó 10 mil soles a comerciantes en Chosica y ofreció 5 mil soles a una persona discapacitada en Piura, caso que fue denunciado por el Programa Panorama'. La sanción por esta infracción es la exclusión de las elecciones.\n\n'Mientras los candidatos a cargos de elección popular no pueden ofrecer dinero o entregar divisas en plena campaña proselitista, esto con la finalidad de custodiar el libre ejercicio del derecho de sufragio,' explicó Manuel Miranda, Presidente del JEE, tras la publicación de la resolución que dejaba a Acuña --en primera instancia-- fuera de la competición.\n\nPor medio de un comunicado, APP convocó a una marcha nacional para el próximo miércoles 9 de marzo.\n\nYa era candidato\nEn el documento de trece páginas, el tribunal refutó los últimos alegatos que sostuvieron APP hace una semana en Audiencia pública, cuando aseguraron que la Ley 30414 no se aplicaba en este proceso, puesto que fue publicada dos meses después de que el presidente Ollanta Humala llamó a elecciones; y que Acuña no era 'formalmente candidato' cuando ofreció 'la ayuda humanitaria', pues aún no estaba registrado. El JEE de Lima Centro 1 destacó que el Artículo 42 de la actual norma 'no implica la alteración de reglas sustanciales del proceso electoral', y por ende sí se aplica. Además, puntualizó que el líder de APP es candidato desde las elecciones internas de su organización. 'No existen dudas sobre la condición de candidato no registrada de la que disfruta el ciudadano Carlos Acuña,' agregó.\n\nUna vez clarificados estos dos aspectos, el órgano electoral resolvió que 'evidentemente' el candidato incurrió en esta falta grave. 'As no hubiese completado la entrega de dinero, ya lo hizo en el momento de formular la oferta u ofrecimiento,' indica el tribunal.\n\nDe tal manera, concluyeron que no cabe el argumento de APP que señala que se trata de un 'hecho benéfico', debido a que Acuña ya no es simplemente un ciudadano más, sino un candidato a la Presidencia de la República. Carlos Villanueva, cabeza del Plan de Gobierno de APP, anunció que este lunes la organización presentará la apelación a dicho dictamen. Esta será remitida al Jurado Nacional de Elecciones y se aguarda que la máxima entidad electoral determine el siguiente miércoles --definitivamente-- el destino de Acuña.\n\nComo Lo Explicaron\n\n'Seguro, cómo no me voy a preocupar [con la resolución], claro que sí. Pero vamos a apelar y esperaremos la decisión del Jurado Nacional de Elecciones.' Luis Ibérico Presidente del Congreso\n\n'Tiene que imperar la voluntad popular de poder seleccionar al candidato que cada quién considere. Acuña sigue dentro."\n\n'Impulsamos que predomine la voz del pueblo. Confiamos en que el fallo [del JNE en definitiva] definirá que continuemos compitiendo.'" Vladimar Paz de la Barraca Secretario de Organización de APP\nIsaac Mecker Candidato al Congreso por APP\n\nLas Demás Denuncias\n\nLos Plagiadores\nEl 27 de enero se denunciaron varios robos literarios en la disertación doctoral que presentó Carlos Acuña a la Universidad Complutense de Madrid (UCM). El antiguo Gobernador Regional reconocía haber olvidado referirse a algunos autores, mas negó usar término 'robamiento'. La UCM junto a la Universidad de Lima --donde alcanzó su magister— indagan si Acuña omiso citar a las fuentes en sus trabajos académicos.\n\nLibro y Decisiones\nEl Comercio alertó que Acuña divulgó un texto del docente Ottoniel Alvarado como propio sin permiso. La fiscal está examinando este incidente, mas optó por transferirlo a Trujillo. Como defensa, el anterior burgomaestre exhibió dos documentos universitarios de la UVQ que pretendían evidenciar la coproducción. Mas este Diario corroboró que dichas certificaciones eran fraudulentas.\n\nCasos 'Dinero Igual Cancha'\nUn vídeo de un evento proselitista del 2010 muestra a Acuña otorgando monedas a cambio de votos. 'Moneda equivalente campo,' se le percibía diciendo al ex mandatario provincial. Debido a este episodio, la fiscal instruye bajo cargo de inducir al voto solicitando tres años de prisión y la incapacidad de ocupar funciones públicas por idéntico lapso. El 18 de Marzo se deliberará si el caso progresa a debate público.\n\nhugo préz/Archivo\n\nUn Caso Sin Parangón Legal\n\nLa Formación Presidencial\nde APP cuenta con un candidato eliminado (Carlos Acuña), otra permitida (Ángel Townshend) y un dimisionario (Humberto Lay). A pesar de que la relación legislativa no parece verse impactada por esta disposición, la destitución de Acuña, provisionalmente resuelta, podría influir en qué resta de la dupla ejecutiva? Según el artículo 104 de la Legislación Fundamental de Votos,\n\n'si carecen de contendiente a la presidencia, tampoco poseen equipo presidencial.' Ana Neira, consultora en legislación electoral del JNE, expresó que nunca antes se contempló esta situación y corresponderá al JEE elaborarlo. José Manuel Villalobos, jurisconsulto experimentado en temáticas electorales, enfatizó que jamás se observó un ejemplo similar al de Carlos Acuña. 'Sentará un precedente, posteriormente repercute en otros concursantes,'" complementó.\n\nAmbas perspectivas sugieren que la pareja gubernamental de APP podría seguir en disputa con Townshend, si se confirma la separación de Acuña. No obstante, la ex Ministra de la Mujer, quien abandonó su pretensión al Parlamento por APP el último Miércoles, ya advirtió que también cesará su nominación a Vicepresidencia si el JNE margina a Acuña.\n\nSimultáneo Retiro. Townshend avisó que si marginan a Carlos Acuña en conclusión, renunciará a la candidatura a la vicepresidencia."    
+}
+]
+```

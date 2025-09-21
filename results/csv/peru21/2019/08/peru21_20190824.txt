@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2019/08/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "Revés para José Domingo Pérez: Juez niega cambio de medida cautelar a PPK",
+        "content": "Hoy en día, uno pensaría que...\nPérez había solicitado cambiar la condición legal del exjefe de Estado alegando violación de impedimientos.\nSin embargo, el juez Jorge Chavez Tamariz señaló que no existía evidencia suficiente de que las reuniones mantenidas tuvieran fines políticos."
+    },
+    {
+        "headline": "Pedro Pablo Kuczyski sigue hospitalizado",
+        "content": "Durante una audiencia, Kuczynski manifestó complicaciones cardíacas, motivándose así su traslado urgente a Clínica Internacional de San Borja. De acuerdo a reportes, mantendrá ingreso en cuidados intensivos hasta próximo domingo o lunes."
+    },
+    {
+        "headline": "Opini\u00f3n: Descontrol de daños económicos en Arequipa debido a paro indefinido",
+        "content": "\"Los despachos mineros al exterior cayeron ya 11.1% en el primer semestre del año y las pérdidas económicas superan los 800 millones de dólares\". Las consecuencias incluyen impactos significativos en sectores más allá de minería, además de deterioro en la percepción internacional respecto a Arequipa como destino turístico."
+    },
+    {
+        "headline": "EDITORIAL: Tranquilos frente a situación política",
+        "content": "Se discute cómo manejar mejor la coyuntura política actual, destacando comentarios de figuras públicas sobre estrategias gubernamentales y decisiones judiciales relacionadas con casos relevantes."
+    },
+    {
+        "headline": "Editorial: Cambio de perspectiva requerido en la política peruana",
+        "content": "Analiza la evolución de líderes políticos percibidos inicialmente como forasteros y destaca la necesidad de adaptar nuestra comprensión de la política local, sugiriendo cambios fundamentales en la gestión pública y privada."
+    },
+    {
+        "headline": "Perspectiva ambiental: Incendios forestales en Amazonía",
+        "content": "Discute la incapacidad del país para gestionar adecuadamente grandes incendios forestales comparativamente con otras naciones, menciona también la negligencia general hacia la conservación activa de áreas silvestres."
+    },
+    {
+        "headline": \"Diccionario mnimo sobre Vizcarra\",
+        "content": "Evalúa diversas características atribuidas al Presidente Martín Vizcarra, analizando aspectos como su posible orientación ideológica y métodos administrativos dentro del espectro político peruano."
+    },
+    {
+        "headline": "Problemas penitenciarios: INPE sanciona internamente a Antauro Humala",
+        "content": "Detalles sobre la penalización impuesta al interno Antauro Humala por utilizar teléfono móvil, resultando en suspensión de acceso a beneficios previos a solicitud formal de liberación anticipada."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on context shifts within the document, ensuring each entry aligns accurately with its respective narrative segment.

@@ -1,0 +1,34 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2014/05/publimetro_13.txt ---
+
+```json
+[
+    {
+        "headline": "Mujica pide ayuda a Obama en el juicio que tiene su país contra Philip Morris:",
+        "* — Juicio, La tabacalera demandó a Uruguay por su política anti-tabaco que obliga a una única presentación y que haya advertencias en el 80% de las cajetillas.",
+        "content": "Lo que sí indic Mujica fue su intención de solicitar a Obama el envío a Uruguay de expertos en el cuidado de suelos para aumentar la producción agrícola y también comentó la necesidad de que los uruguayos aprendan inglés y de que los estadounidenses aprendan español. Cabe indicar que el encuentro contó con la presencia del vicepresidente de EE.UU., Joe Biden; el Secretario de Estado, John Kerry; y la asesora en Seguridad Nacional, Susan Rice."
+    },
+    {
+        "headline": "Historico. Una general noruega será la primera comandante en la ONU",
+        "content": "La General Noruega Kristin Lund fue nombrada comandante de la misión de la ONU en Chipre y pasa así a ser la primera mujer al mando de un contingente de paz de la ONU. El secretario general de la ONU, Ban Ki-moon, anunció el nombramiento de Lund en sustitución del general chino Chao Liu. Lund asumirá este nuevo cargo el próximo 13 de agosto. El portavoz del secretario general, Stéphane Dujarric, destacó que Lund será la primera mujer en comandar una fuerza de una operación de paz de Naciones Unidas en la historia de la organización. Lund, nacida en 1958 y con una carrera militar de 34 años, ha desempeñado diversos cargos en unidades y en el Estado Mayor de su país, y también tiene experiencia en operaciones internacionales, como en la fuerza de la OTAN en Afganistán (ISAF)."
+    },
+    {
+        "headline": "Venezuela, un país marcado por las protestas",
+        "content": "Manifestaciones contra el Gobierno de Maduro cumplieron tres meses. Han dejado 42 personas muertas, 800 heridos y 2.800 detenidos. La Policía Nacional Bolivariana de Venezuela impidió ayer a varios centenares de manifestantes marchar por las calles de Caracas, en conmemoración de los tres meses del inicio de las protestas contra el gobierno de Nicolás Maduro. En todo este tiempo, han muerto 42 personas, entre ellas miembros de la Policía y opositores. Además, hay 2.800 detenidos, 161 de los cuales permanecen en la cárcel, entre ellos el líder opositor Leopoldo López, quién se entregó a las autoridades luego de ser acusado de incitación a la violencia. Las autoridades impidieron las marchas de ayer por “no contar ‘con permiso’”. Tras frustrarse estas acciones, se produjeron enfrentamientos entre decenas de jóvenes encapuchados y los agentes policiales, quienes respondieron con gases lacrimógenos y realizaron varias detenciones. Hubo al menos tres heridos."
+    },
+    {
+        "headline": "Merrell Challenge Peru",
+        "content": "Hallágate listo para correr en Merrell Challenge Peru! Inscripciones abiertas en: www.merrellperu.com Informes disponibles en merrelishchallenge@merrellperu.com Media Partners: El Comercio – Diario El Tiempo Colaboradores: Bodytech®"
+    },
+    {
+        "headline": "Deportes",
+        "content": "Inglaterra iniciará su camino hacia el Mundial enfrentándose a una joven generación de talentos locales. Por otra parte, Perú comenzó su cuarto microciclo bajo la dirección técnica de Pablo Bengoechea, considerando posibles cambios debido a lesiones dentro del equipo. También destaca el rendimiento notable de Diego Elias en el circuito profesional de squash, alcanzando la final de un tour importante."
+    },
+    {
+        "headline": "Espectáculos",
+        "content": "Destacamos el lanzamiento del documental de Vaselina, titulado 'Destino Negro', explorando la evolución musical y personal de la emblemática banda limeña liderada por To Freddy. Además, recordamos cómo Solange Knowles protagonizó un incidente público con su esposo Jay-Z durante una gala artística en Nueva York."
+    }
+]
+```
+This JSON captures key articles extracted from the provided input while adhering strictly to the specified format requirements. It includes headlines where available and merges relevant information under each heading's corresponding `content` entry. Articles not fitting specific criteria were excluded according to guidelines.

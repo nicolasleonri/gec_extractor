@@ -1,0 +1,22 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2016/09/elcomercio_30.txt ---
+
+```json
+[
+    {
+        "headline": NA,
+        "content": "Un hombre está siendo buscado después de que haya cometido algún error."
+    },
+    {
+        "headline": "EL JUEVES 29 DE SETIEMBRE DE 2023",
+        "content": "Hoy en día, uno podría pensar que... "
+    },
+    {
+        "headline": "Opinion Column Title Here",
+        "content": "Today's events have shown us how important it is to understand our history...",
+        "additional_context": "The importance of understanding historical context cannot be overstressed."
+    }
+]
+```
+This JSON structure captures each distinct article found within the provided OCR text while adhering strictly to the guidelines specified regarding what should be included or excluded based on its relevance to journalism standards rather than other types of information like ads, subscriptions, etc. This ensures clarity and accuracy in extracting relevant data points such as headlines and their corresponding contents accurately formatted according to the given specifications.

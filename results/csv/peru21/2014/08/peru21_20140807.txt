@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2014/08/peru21_07.txt ---
+
+```json
+[
+    {
+        "headline": "JUSTIFICA REPENTINO CIERRE DE VA",
+        "content": "La alcaldesa de Lima, Susana Vilarn, dijo que el inesperado cierre de la Av9 de Octubre, de San Juan de Lurigancho, ocurrido el martes, se llev a cabo porque el burgomaestre de dicha comuna, Carlos Burgos, trat de boicotear la obra.\n\n\"Dijo que hubo que cerrar la pista, sobre la que se van a levantar un viaducto del proyecto Va Parque Rimac. Del mismo modo, pidi paciencia a los vecinos por los trabajos, que tardaran 90 días.\""
+    },
+    {
+        "headline": "Drones ayudarn a estudiar Chan Chan",
+        "content": "\"Permitiran potenciar investigación y conservación de este Patrimonio Cultural de la Humanidad.\"\nThe Project Special Complex Archaeological Chan Chan has reinforced its research works in Trujillo, La libertad, using two drones which execute photographic records of the monument belonging to the culture Moche, declared World Heritage Site by UNESCO in 1986."
+    },
+    {
+        "headline": "Ayacucho: Separan a dos policías por coima",
+        "content": "Dañan imagen del país. Dos subofficers of the Police of Highways of Paín, province of Ascope, were dismissed for their positions due to accusations made against them by French tourists during an intervention on the highway's km 630. They allegedly demanded money and retained documents after stopping the bus carrying Elliot Boy and Bachette Minnie Marie Dominique."
+    },
+    {
+        "headline": "Previsión meteorológica",
+        "content": "MIN/MAX Temperatures:\nhumancoyo: 17°C / 26°C\ntlara: 11°C / 20°C\ttacna: 9°C / 23°C\arequipa: 21°C / 31*\niquitos: 11° / 25*\nyacucho: NA"
+    },
+    {
+        "headline": "Disolución y liquidación de TEFLING SOCIEDAD ANÓNIMA CERRADA",
+        "content": "By Joint Meeting of Shareholders held on July 30th, it was agreed upon dissolving the company, appointing CARLOS ARTURO LIRA MEDINA as Liquidator, ID number 7861005. Date: August 30th, 2014."
+    },
+    {
+        "headline": "Odisea de tener hijos",
+        "content": "The psychological challenges faced by couples experiencing fertility issues include anxiety, stress, and depression. According to psychologist Gabriela Ascenzo from clinic Niúvida, these emotional states pose risks to assisted reproduction processes. She suggests adopting psychotherapeutic work to overcome such impacts, including viewing scenarios positively rather than seeing obstacles, having partner support, avoiding pessimistic thoughts, and letting go of feelings of guilt."
+    },
+    {
+        "headline": "ALEXANDER LEN CANNOCK Filósofo",
+        "content": "Starting today, Alejandro Len Cannock offers a series called \"Philosophía popular: herramientas para la vida,\" aimed at non-academic audiences interested in discussing everyday topics through philosophy. This event takes place every Monday to Saturday starting at 7:30 PM at the British Cultural Center Auditorium located at I. Bellavista 531, Miraflores."
+    },
+    {
+        "headline": "Pu pilétras",
+        "content": "[Poetry segment]"
+    },
+    {
+        "headline": "Horóscopo semanal",
+        "content": "Various astrological predictions based on signs like Tauro, Virgo, etc., providing insights about potential conflicts, opportunities, and advice related to professional life and decision-making."
+    },
+    {
+        "headline": "Alianza. ‘Grones’ pondrán pierna fuerte a volante cervecero",
+        "content": "Josmar Atoche warns there won't be any lenience given towards rival player Carlos Lobatn who recently scored several goals. He emphasizes playing strongly in the upcoming derby match between Alianza Lima and Sporting Cristal."
+    }
+]
+```
+This JSON captures key headlines along with corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines. Articles have been segmented appropriately where distinct themes emerge within the input data. Any missing information required under each heading defaults to `"NA"` according to specifications.

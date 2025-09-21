@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2014/05/publimetro_27.txt ---
+
+```json
+[
+    {
+        "headline": "Paolo Rossi",
+        "content": "Además de ser el goleador\n\nde Mundial, el italiano fue\n\nelegido por la FIFA como el\n\mbest player del torneo y recibió el Balón de Oro.\n\nEste premio se otorgó por primera vez en esta edición."
+    },
+    {
+        "headline": "Diario Amar': un Romance entre la Improvisación y la Música",
+        "content": "Show de improvisación testimonial se estrena hoy en el CCPUCP. Va desde el 10 hasta el 11 de junio.\n\nLa pareja de improvisadores Christian Ysla y Carolina Hernández, junto al duo musical Alejandro y María Laura, presentan Diario Amar', un espectáculo de improv testimonial en el cual los artistas narran sus propias vivencias románticas alternándolas con relatos generados en vivo.\n\nLa función comienza todos los jueves a las 8 PM en el Centro Cultural de la PUCP hasta el 11 de junio. Boleta general: S/.35."
+    },
+    {
+        "headline": "Alejandra Guzmán",
+        "content": "Tras diecisiete años, la intérprete mexicana regresa a reunirse con el público peruano en el Jockey Club del Per. El esperado concierto de ‘Torbellino del Rock’ registró entradas agotadas rápidamente.\n\nDurante este encuentro especial, formará parte de su tour La Mujer Fanática interpretando éxitos clásicos tales como Eterno Resplandor de una Menta Colérica, Ni tú ni nadie, Entre la pluma y el puñal, además de nuevos hits exitosos como Luz sin Gravedad, Devuélveme a ese hombre y Me equivoqué otra vez. Vale destacar que tras visitar Cusco el pasado domingo, la artista grabó material audiovisual durante su visita."
+    },
+    {
+        "headline": "Shades Of Cool",
+        "content": "La cantautora estadounidense Lana Del Rey presenta Shadows of Cool, segunda canción de su próximo álbum titulado Ultraviolence disponible próximamente el 13 de junio.\n\nActualmente colabora intensivamente con el productor Dan Auerbach, también conocido por liderar The Black Keys. Anteriormente había liberado West Coast en abril del año precedente."
+    },
+    {
+        "headline": "Justin Bieber tiene un Mensaje Nuevo",
+        "content": "Recientes informes sugieren que el joven ícono juvenil Justin Bieber está causando sensación nuevamente, aunque esta ocasión no sea debido a controversiales incidentes relacionados con sustancias ilícitas. Durante unas merecidas vacaciones en Montecarlo, compartió fragmentos de su próxima melodía denominada Estamos Funcionando mediante su perfil oficial de Instagram.\n\nParticularmente intrigantes fueron las líneas seleccionadas que insinúan indirectamente hacia su antigua relación sentimental con la reconocida cantante Selena Gomez."
+    },
+    {
+        "headline": "Maxim Revela Lista Anual de Celebridades Más Sexies",
+        "content": "La prestigiada revista Maxim anunció recientemente a través de su portal digital quienes conforman el codiciado compendio de las 100 figuras femeninas más seductoras globalmente, siendo divulgado completamente en su siguiente número físico programado para salir a circulación el 3 de junio.\n\nEncabezando dicha clasificación aparece la afamada maniquí surafricana Candice Swanepoel, representante exclusiva de Victoria’s Secret. Además, otras personalidades notables incluyen a la aclamada actriz Scarlett Johansson posicionada en el segundo escalón, así como Katy Perry ubicada terceralmente gracias a su resonancia internacional post-Kissed a Girl. También cabe mencionar a Irina Shayk, compañera sentimental del deportista Cristiano Ronaldo, obteniendo el cuarto lugar dentro de esta selección tan disputada."
+    },
+    {
+        "headline": "Imágenes Sensacionales de Matrimonio Real",
+        "content": "Mediante la plataforma de imágenes digitales Instagram bajo @kanyeloveskim, emergieron instantáneas preliminares correspondiente al casorio realizado entre el renombrado músico Kanye West y la influencer mediática Kim Kardashian, acontecido el sábado último en Florencia, Italia.\n\nEntre las fotografías difundidas se observaban detalles significativos del vestuario utilizado por la contrayente, momentos clave de la ceremonia religiosa, y particularmente, un fotomatón interactivo destinado a los participantes del banquete nupcial. Posteriormente, estos registros visuales circularían ampliamente a través de diversas plataformas virtuales, provocando gran expectación pública respecto a la calidad profesional de las mismas, valoradas económicamente en cifras astronómicas según reportajes periodísticos."
+    },
+    {
+        "headline": "¿Qué Hierbas Combaten Mejor el Cáncer?",
+        "content": "Investigaciones científicas apuntan al palillo indio como el nutriente más analizado en tratamientos contra cánceres diversos. Sus componentes activos contribuirían tanto a inhibir la proliferación celular maligna como a bloquear suministros vitales requeridos por células cancerosas, facilitando potencialmente avances médicos relevantes en oncología."
+    }
+]
+```
+This JSON captures each distinct article found within the provided OCR text while adhering strictly to the specified format requirements for headlines and contents. Articles were identified based on their thematic separation and presence of significant textual information related to journalism standards outlined in the task description.

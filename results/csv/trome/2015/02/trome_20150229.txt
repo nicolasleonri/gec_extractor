@@ -1,0 +1,80 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/02/trome_29.txt ---
+
+```json
+[
+    {
+        "headline": "¿Qué hacer?",
+        "content": "Confía en Nadie\nNo has visto que ora sale cualquiera y asegura que te robó, que te escribió, que estuvo contigo en una fiesta.\nLa chica incluso contó que tú supuestamente tuviste un choque importante con Nicolás Porcel."
+    },
+    {
+        "headline": "Salí a conocer gente",
+        "content": "Casi todos los domingos voy a quince aeródromos. Me contratan como chamán y he visitado lugares que no imaginé existían. Como se suele decir, ‘Adonde el agua lleva consigo’. ¿Cuánto tiempo te queda en el tono?\nUna hora, bailo con la dueña del cumpleaños, me vacilan mucho.\nSupongo que los invitados e invitadas se olvidan de la homenajeada y se van contigo. Yo hago que no se pierda ese encanto con la del nomástico.\nAlgún achuchón, la que cumple años, te ha declarado su amor?"
+    },
+    {
+        "headline": "Entrevista exclusiva",
+        "content": "‘Te hablo de ir rumbeando, imagino que debes defenderte.’\nHace años era difícil, pero después de tanto ir y haber aprendido a bailar, cómo dicen, la práctica hace al maestro.\n’Es que tengo más noches que guardavidas; ¡Ja, Ja!’\nNo parece pintar de futbolista.\nSí, los lunes jugaba, hasta lesionarme. Apostitas?\nEl equipo que pierde paga la cancha. No me gustan esos juegos en los cuales todos pagan el campo. As no hay emoción.\nDestacas?\nCumplen y nada más.\nEres amiguero, sí sales a un tono’, pagas toda la cuenta.\nNo tanto, pero ponés y apostás bien. Si alguno de estos patas te dice que le gusta tu ex-flaka?”
+    },
+    {
+        "headline": "Opinión pública",
+        "content": "Normal, que vaya para adelante.\nY si te traiciona la ex de uno de tus causas?’\nNo me importará en una flaca que haya estado antes con un amigo. As son mis códigos.\nHoy manejáis una buena nave, pero tu pasado es michimi-chiche.\nYo, cuando empezamos Combate, me iba en combi y me bajaba una cuadra antes. Algún vez con tu caa te has cruzado con alguna movilidad escolar?\nSí. Fue hace tres años. Era una de quinto de secundaria. Había una muy linda, de ojos celestes. Le pedí que me agregue al Facebook.\nY salieron?\nNo sé más de ella. Pero está leyendo, debe ser mayor de edad. As que por favor, mágame también ahí, ja.\nBueno, espero que chequees este Trome, esta entrevista y nos des tu opinión públicamente. Qué querías saber cómo soy en el diario más leído del país. Muchas gracias."
+    },
+    {
+        "headline": "Comentario deportivo",
+        "content": "Sporting Cristal alistó un once mixto para recibir a San Martín hoy, a las 4 p.m. en el Alberto Gallardo por el Grupo A. Sheput, Manicero y Blanco serán titulares cansándose a Carlos Lobatón (contractura en el gemelo derecho), Horacio Calcaterra y al argentino Cesar Pereyra, tarea la expectación. Los santos mantendrán el toreo ofensivo que los hacen peligrosos con Alejandro Hohberg, Nicolás Meneses y Joel Sánchez."
+    },
+    {
+        "headline": "Confirmación oficial",
+        "content": "Gareca confirmó que será dt de la Selección Peruana. Volvé a casa. Al verde, que aguantó el saltoblanquiazul. Al estadio amigo de fines de semanas. Del ataúd a La Victoria y triunfos. Alianza Lima tuvo fiesta polémica con el 3–1 sobre Ayacucho FC en el Grupo C del Torneo del Inca."
+    },
+    {
+        "headline": "Análisis táctico",
+        "content": "Patadita Santa\nMelgar viene repuntando. Sporting Cristal listó un oncenameztto para enfrentar a San Martín hoy, a las 4 p.m. en el Alberto Gallardo por el grupo A. Sheput, Manicero y Blanco serán titulares cansándose a Carlos Lobatón (contractura en el gemelo derecho), Horacio Calcaterra y al argentino César Pereyra, tarea la expectación. Los santos mantendrán el toreo ofensivo que los hace peligrosos con Alejandro Hohberg, Nicolás Meneses y Joel Sánchez."
+    },
+    {
+        "headline": "Reflexiones filosóficas",
+        "content": "Cómo diría el gran Hesíodo, poeta de la antigua Grecia: ’La fama es peligrosa, su peso es ligero al principio, pero se hace cada vez más pesado el sostenerlo y dificultoso descargarlo.”
+    }
+]
+```
+This extraction captures distinct sections based on their thematic focus while adhering strictly to the provided guidelines for identifying headlines and contents within the given OCR input. Articles were segmented where appropriate, ensuring each entry aligns with the defined structure. Any unclear data was marked appropriately using `"NA"` according to instruction requirements.
+
+--- ERROR ENTRY: data/txt/trome/2015/02/trome_29.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista [ 9 ]",
+        "content": "Es muy heterogénea. La selva y muchas zonas rurales son áreas en las cuales tenemos que mejorar mucho más (construir aproximadamente 100 colegios más de la zona).\n\nEn esta evaluación de aprendizajes del año pasado, tanto las zonas rurales como la selva han crecido, y es el mayor crecimiento observado en los últimos ocho años, aunque las brechas siguen siendo muy grandes.\n\nEn Moquegua, las cifras son muy buenas, es decir, renuncia comprensión lectora y niveles satisfactorios en matemáticas. ¿Qué es lo que hemos hecho para llegar a este nivel?\nPoner recursos. Prestaría mucha atención desde la cabeza y la gestión de las escuelas."
+    },
+    {
+        "headline": "‘Mudo’ y Villaran pelean epílicas ante cambios en transporte",
+        "content": "\"Mudo\" y Villaran pelean episódicamente debido a normativas municipales respecto a Rutas del Sur. Según informes, estas medidas buscan otorgar a la ciudad un sistema de transporte moderno y organizado. Sin embargo, persisten preocupaciones acerca de cómo afectará esto a ciertos sectores durante tres años consecutivos."
+    },
+    {
+        "headline": "Eliseo Arrieta",
+        "content": "El huantarín de 2.10 celebró 25 años. Necesita camas y zapatos de su talla. Tras sobrevivir a dos peligrosas cirugías, vive actualmente enfrentándose a dificultades físicas derivadas de dichas intervenciones quirúrgicas. Vive modestamente cocinando y durmiendo en espacios reducidos, mostrando resiliencia frente a adversidades personales."
+    },
+    {
+        "headline": "Carnavalés de la costa, sierra y selva",
+        "content": "Contemplando antiguas costumbres y vibrante música típica de diversas regiones, centenares de danzarines ofrecieron espectáculos coloridos en el Centro de Lima. Las coreografías fueron premiadas por destacar tradiciones culturales representativas de cada región participante."
+    },
+    {
+        "headline": "Fiscal Luis Landáez",
+        "content": "¿Hay pruebas suficientes para condenar a Daniel Urresti?", preguntó el Fiscal Luis Landáez, refiriéndose al proceso judicial contra el exministro del interior, implicado directamente en el homicidio del periodista Hugo Bustos. Argumentó que existe evidencia robusta similar a casos previos involucrando altos mandos militares."
+    },
+    {
+        "headline": "Cardenal Juan Luis Cipriani",
+        "content": "Durante su programa radial, el Cardenal Juan Luis Cipriani criticó el impacto negativo de aplicaciones como WhatsApp en las dinámicas familiares, sugiriendo que facilitan actitudes infieles que contribuyen al deterioro de muchos matrimonios. Abogó además por el fortalecimiento familiar como medida preventiva contra violencia doméstica."
+    },
+    {
+        "headline": "Organización América Televisión",
+        "content": "Anunció el Primer Foro de Televisión Abierta titulado \"Desafíos de la Televisión Para la Nueva Generación\", programado para abril de 2015. Este evento reunirá a académicos, especialistas internacionales y figuras relevantes del sector audiovisual para dialogar sobre tendencias emergentes en la industria televisiva globalizada."
+    },
+    {
+        "headline": "Analisis político Gastón Acuña",
+        "content": "Ex procurador y analista político, Gastón Acuña reflexiona sobre la corrupción endémica en el país, señalando responsabilidades compartidas entre autoridades corruptoras y aquellos dispuestos a beneficiarse económicamente mediante prácticas ilegítimas. Subraya la necesidad imperiosa de empoderar a la sociedad civil para combatir eficazmente tales males sistémicos."
+    }
+]
+```

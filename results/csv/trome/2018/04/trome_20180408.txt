@@ -1,0 +1,99 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/04/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Préstamos?",
+        "content": "Hipotecas\nDenuncia ante Indecopi\nCrdito vehicular\nInstituciones financieras ofrecen diversas opciones de créditos.\nPágina dedicada a información financiera."
+    },
+    {
+        "headline": "Defensoría del pueblo",
+        "content": "Oficina ubicada en Av. Sucre 222, Pueblo Libre. Contacto disponible mediante teléfonos proporcionados. Sitio web oficial incluido."
+    },
+    {
+        "headline": "Colegio Daniel A. Carrón",
+        "content": "Ubicación y contacto disponibles junto con detalles académicos relevantes. Información sobre cursos técnicos también está provista."
+    },
+    {
+        "headline": "Centro Educativo Global Mining",
+        "content": "Detalles sobre certificaciones y programas educativos relacionados con minería están especificados aquí."
+    },
+    {
+        "headline": "Programación televisiva Domingo 8 de abril del 2018",
+        "content": "Lista completa de programaciones televisivas para el referido fecha, destacándose eventos deportivos y series populares."
+    },
+    {
+        "headline": "Cartas: Dr. Santa Rosa 247, séptimo piso, Lima",
+        "*Que significa tu Nombre?",  
+        "Contenido personalizado basado en nombres propuestos, descripciones características asociadas y sugerencias generales."
+    },
+    {
+        "headline": "Un día como hoy...",
+        "content": "Aniversario del nacimiento de la actriz y cantante Stephanie Cayo conocida por roles en distintas producciones televisivas."
+    },
+    
+    {
+        "headline": "Novelas ESPÍAS POR: EL BHÓ",
+        "content": "Artículo analizando obras clásicas de espías, particularmente enfocado en la obra ‘El espía que surgió del frio’ de John le Carré. Discute temas centrales y contexto histórico relevante."
+    },
+
+    {
+        "headline": "ELI sigue a la Selección",
+        "content": "Narrativa centrada en Eli, admiradora ferviente de la selección peruana, deseosa de acompañar al equipo durante el mundial en Rusia."
+    }
+]
+```
+This JSON structure captures each identified article within the provided OCR data while adhering strictly to the specified format requirements for headlines and contents. Articles were extracted based on their thematic separation and relevance according to typical journalism standards outlined in the task description.
+
+--- ERROR ENTRY: data/txt/trome/2018/04/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Vive en la selva con su esposa y dice que es un padre ejemplar y ayuda a hacer las tareas a sus hijos",
+        "content": "Según señora Liliana afirma que merece estar en la Selección."
+    },
+    {
+        "headline": "Pancho López en Estados Unidos",
+        "content": "\"Chato\" Matta llegó al restaurante por su causa de langostinos y un cebiche de ojo de uva con su jarrita de limonada frozen. \"María, Pancho López es un personaje de aquellos. Me timbré cerca de la medianoche. ‘Caúseta’, me grite, y se puso a cantar ‘Durá’ de Daddy Yankee. ¿Qué estas dura, dura, dura, dura, qué estás dura, mano arriba porque tú te ves bien/Estás dura, mamita...‘Chaquito, ya llevo un mes entre California, Miami, New Jersey, Las Vegas, Los Ángeles y ya me ahogo aquí en Estados Unidos. Esto no es lo mío. Si me dan a escoger entre Manhattan y La Trinchera, me quedo con la Trinchera, con su olor a pisco. Me preguntan por South Beach, y más me divierto de noche en la Costa Verde. Estuve en el Hard Rock y en el Red Bull viendo a la selección, y me dio el gusto de narrar los goles de ‘Orejas’ y la ‘Culebra’. Cuando estaba en plena emoción gritando: Ay, mi mamita, mi querido Perú, ayayayyyy, una morena de 1.80 metros no me quitaba la vista de encima, me alucinaba de pies a cabeza, vea cómo sudaba en plena transmisión y se excitaba. Me hacía juegos de luz, ‘you are wonderful (eres maravilloso)’, me dijo en su inglés sensual. Apenas terminó el partido, le sacué la lenguita, que es el idioma universal de los tramposos, y ella sonrió. Al otro día, nos fuimos en un yate, pedí champagne y me disfracé de Foquita, me puse la número diez, hice un hat-trick y defendió bien a los peruanos. ‘Sigue Perú, sigue, dale, ohhh, my God.’ Recordé mi época dorada cuando mi programa radial tenía auspiciadores como PetroPerú y la Backus, que me pagaban miles de dólares y viajaba por Sudamérica transmitiendo partidos de la Copa Libertadores y las Eliminatorias. Paramos en salserías y me daba la gran vida. Había una mancha que me seguía a todos lados. Pero cuando los auspiciadores me cortaron el pelo, cerré mi propio programa radial y ya no podía pagar las cuotas del auto, desaparecieron todos los chupamedias. La vida es una ruleta, está arriba o abajo. Igual es con las mujeres. Nunca te regales como si estuvieras mendigando un poco de cariño. Ellas deben llegar a ti solas. Mi táctica es carisma, flor, chispa y mis historias. Salud, nene bonito\", me dijo la hermosa Tracy en su español maltrecho. Termino y me quedé vacío mirando el mar. Me vino la reflexión y recordé a la psicóloga, quién en las madrugadas me muerde mi cuelito y me dice: Gordito, hazme el amor otra vez. Todo es dinero, trabajo full time, la gente ni te saluda; si no tienes carro, no vas a ningún lugar. Nadie te regala una sonrisa. Ahí en mi Callao, pichanguéo a mitad de semana, contrató orquestas, en una esquina subo mi ‘cantor’ a todo volumen con mi caja de chelas en el medio, lo malo es que los ‘gatillos flojos’ ahora están dando vueltas por todas partes.\" Este señor Pancho López es un sin vergüenza. En todos lados hace sus cochinerías. Me voy, cuidensen.”
+    },
+    {
+        "headline": "Idolo del “joga sucio”: Adora el verde dólar, patea como mula, pica como caballo y para como burro",
+        "content": "Lo habla Trome\nPedro Cateriano reclama puentes en avenida Grau.\nPide más atención con jóvenes\nComo lo comentó el fotógrafo Gary el otro día a la redacción María, los padres, las empresas y las instituciones públicas deben tomar más atención a los jóvenes, quienes han nacido en la era digital y tienen nuevos estilos de vida, preferencias y expectativas. Estas generaciones son el futuro del Perú y el mundo. Esther Bustamante:\nestbusmast@redimmagina.cl\nLos llamados millennials, quienes actuellmentemente tienen entre 23 y 37 años, son hijos de la globalización y están más conectados con el mundo digital. Ellos merecen mayor atención de los padres y las autoridades,\n220 páginas\r\ntodos saben las condiciones carcelarias de...\nhumorísticamente\nDirector – Contenido elaborado....– Fax 316353, Imprimido en la planta Pando de Empresa Periodística: Diario El Mo Editora El Comercio SA. Jr. Paracas No. 330, Pueblo Libre, teléfono: 315-0500, correo electrónico: editoriales@editoraelcomercio.com, Twitter @Diario_ElComercio, Facebook: facebook/diari.elcomercio, Instagram: instagram/el_comercio, YouTube: youtube/comerciodeelperu. Todas las ediciones del periódico El Comercio son propiedad intelectual de Editorial El Comercio S.A. Prohibida su reproducción total o parcial. Copyright © 2023 Editora El Comercio S.A. Reservados todos los derechos. \nTodos los domingos vive el mundial Rusia 2018 con entrevistas exclusivas, estadísticas de Mr. Chipi, anécdotas y las historias jamás contadas.\nTwitter\nFelipe\nTower\nSin mí también Tres Reyes mi vida no tiene sentido.\nEncuestas\nOpinion Fox\nCree que deben dar libertad a Ollanta Humala y Nadine Heredia?\nAyer\nCree que Susana Villegas es culpable de lavado de activos?"
+    },
+    {
+        "headline": "Exclusivo: Sinvergüenza y computo de Lula...",
+        "content": "Finalmente está preso el sinvergüenza y corrupto de Lula... ¡Que siga la impunidad... y festejemos!\nFELIPE\nE\nTOWER\nSin mí tampoco Tres Reyes mi vida no tiene sentido.\nOPINIÓN FOX\nCree que deben dar libertad a Ollanta Humala y Nadine Heredia?\nAYER\nCree que Susana Villarán es culpable de lavado de activos?\nTROME.PE\nDEL DÓLAR\n323 325\nCompra venta\nOMERGENCIAS\nBomberos 116\nEmergencias 105\nDefensa Civil 112\nEssalud 01-801000\nQuijaldras negras 3623277\nEscuadrón Verde – 4276904\nLuz del Sur 06175000\nSedapal 03178000\nIndecopi 02247800\nProhibida su reproducción total o parcial.\nEDITORIAL\nEditorial El Comercio S.A. Jirón Paracas No. 330, Pueblo Libre, Teléfono: 315-0500, Correo Electrónico: editoriales@editoraelcomercio.com, Web: http://www.editoraelcomercio.com/\n© Derechos Reservados 2023 Editora El Comercio S.A. "
+    },
+    {
+        "headline": "Participación de Utilidades Ejercicio 2017",
+        "content": "Invitamos a los colaboradores de Distribuida Cummins Peru S.A.C. que trabajaron en nuestra empresa durante el período 2017, que se acerquen con su Documento Único de Identificación a nuestras oficinas ubicadas en Av. Argentina 4453 – Callao, a partir del 9 de abril de 2018, de 2:30 p.m. a 5:00 p.m., a recoger su Certificado y Cheque de Participación de Utilidades."
+    },
+    {
+        "headline": "Utilidades Reparto Ejercicio 2017",
+        "content": "Informamos a los empleados que laboraron durante el ejercicio fiscal 2017, conforme al decreto legislativo No. 892, podrán acercarse a nuestras instalaciones a partir del 12 de abril del año 2018, para recibir el pago de sus utilidades correspondientes al mencionado periodo."
+    },
+    {
+        "headline": "Detención de Violador Sobornado",
+        "content": "Agentes policiales detuvieron a un individuo implicado en agresiones sexuales contra su propia sobrina, utilizando intimidación económica. Durante el intento de remisión, la pistola utilizada por el sospechoso falló debido a problemas técnicos."
+    },
+    {
+        "headline": "Robo Con Granadas",
+        "content": "Dos adolescentes fueron secuestrados por extorsionadores armados con granadas para perpetrar ataques contra una ferretera. Uno de ellos logró alertar a las autoridades mientras huían después del incidente."
+    },
+    {
+        "headline": "Premios Sorprendentes",
+        "content": "Este sábado será realizado el Sorteo de Premios Increibles incluyendo Smart TVs, autos y casas para mascotas. Invitan a participar comprando productos específicos y registrándose online."
+    },
+    {
+        "headline": "Beneficios Nutricionales Del Pimiento",
+        "content": "El consumo regular de pimientos ofrece múltiples ventajas nutricionales, protegiendo células frente al estrés oxidativo y reduciendo riesgos asociados al cáncer de próstata."
+    },
+    {
+        "headline": "Entrevista Juan Sheput",
+        "content": "Sheput critica decisiones gubernamentales sugiriendo cambios urgentes dentro del equipo ministerial liderado por Villanueva, enfatizando la necesidad de integridad política y eficacia en enfrentamientos sociales."
+    }
+]
+```

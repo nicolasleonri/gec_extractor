@@ -1,0 +1,97 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/09/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Según investigadores, falta enfrentarse problemas judiciales",
+        "content": "“No tiene sentido decir que se está ‘tratando de impulsar la reforma judicial’ si en paralelo no se enfrenta el problema de Chávarry’. ‘Es incoherente’, comentó a este medio."
+    },
+    {
+        "headline": "Comentarios tras reunión parlamentaria",
+        "content": "\"La semana pasada, por ejemplo, hemos sesionado y los miembros de Constitución entraban y salían. Dilatar esto, como lo hace Segura, beneficia al fiscal\", agregó a este medio."
+    },
+    {
+        "headline": "Opina.21: Posible intervención militar en Venezuela",
+        "content": "\"...El secretario general de la Organización de Estados Americanos (OEA), Luis Almagro, no descarta una posible intervención militar para restablecer la democracia en Venezuela.\" \"Ante dichas declaraciones, personajes importantes de la política peruana lo tildaron de golpista por no respetar la soberania de Venezuela,\" continuó el texto."
+    },
+    {
+        "headline": "Leamanana a Mariella Balbi",
+        "content": "«El presidente Martín Vizcarra se reunió ayer con sus homólogos de Cuba, Miguel Díaz-Canel, y Paraguay, Mario Abdo Benitez, en el marco de las sesiones de la Asamblea General de las Naciones Unidas.» «Durante la cita con Díaz-Canel, los mandatarios discutieron la situación internacional y las perspectivas comerciales; mientras que con Abdo ratificaron continuar fortaleciendo las relaciones binacionales.\""
+    },
+    {
+        "headline": "Sentencia pendiente para Daniel Urresti",
+        "content": "«El 4 de octubre se leerá la sentencia a Daniel Urresti por el caso Bustios», según indica el artículo. «El ministerio público lo acusa de asesinar al periodista en 1988 en Castropampa, Ayacucho.»"
+    },
+    {
+        "headline": "Flores Nano critica gestión de Belmont",
+        "content": "«La ex candidata presidencial Lourdes Flores criticó al candidato Ricardo Belmont por su pasado como burgomaestre en dos períodos entre 1990 y 1995». Ella afirmó que era casi imposible que el tribunal declare culpable a Urresti debido a evidencias insuficientes.”
+    },
+    {
+        "headline": "Humberto Lay presenta planes urbanísticos",
+        "content": "«¿Qué podría hacer para revalorar las casas antiguas?, preguntó Humberto Lay. Propone ofrecer bonos a dueños para reparación y conversión en espacios culturales. Además, sugiere cambios legislativos para manejar adecuadamente residuos sólidos.”"
+    },
+    {
+        "headline": "Carlos Parodi analiza economía nacional",
+        "content": "«Para crecer una economía, ¿qué debería saber un economista?», plantea Carlos Parodi. Resalta la importancia de inversiones más altas y aumento de productividad, además de políticas claras y confiables para incentivar la actividad económica.”
+    },
+    {
+        "headline": "Innovación científica regional avanza gracias a Canon Minero",
+        "content": "«Siete regiones del país están listas para potenciar investigación e innovación mediante el uso del canon del sector energético y minero. Este movimiento involucra varias universidades públicas buscando optimizar recursos disponibles para desarrollos futuros en diversas áreas industriales."""
+    },
+    {
+        "headline": "Producción Cafetera mejora después de afectación por Roya Amarilla",
+        "content": "«Desde agosto hasta enero, más de 31 mil agricultores consiguieron rehabilitar hectáreas devastadas por enfermedades causadas por la roya amarilla, beneficiándose así de créditos accesibles proporcionados por el Gobierno.»"
+    },
+    {
+        "headline": "Incremento de Aranceles USA-China impacta mercado bursátil",
+        "content": "«La implementación de nuevas barreras arancelarias entre Estados Unidos y China provocó fluctuaciones notorias en la bolsa limeña y en el valor del dólar estadounidense frente al sol.»"
+    },
+    {
+        "headline": "Reducción en morosidad de tarjetas de crédito alcanza mínimo histórico",
+        "content": "«Agosto registró la tasa de morosidad más baja en treinta meses para las tarjetas de crédito en el Perú, indicativo de una mejora notable en el cumplimiento puntual de pagos por parte de consumidores locales.»"
+    }
+]
+```
+This JSON structure captures each identified article's headlines and contents based on their significance within the provided document excerpt while adhering strictly to the specified format requirements.
+
+--- ERROR ENTRY: data/txt/peru21/2018/09/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "GUERRA COMERCIAL MARC JOERNDADES DE BVLS Y DLAR",
+        "content": "La entrada en vigor de los aranceles impuestos por Estados Unidos a China marc la agenda del lunes para el tipo de cambio del dólar y los resultados de la Bolsa de Valores de Lima (BV).\n\nSi bien, según lo indicado por el Banco Central de Reserva del Perú (BCRP), los mercados vienen anticipando los efectos de una guerra de aranceles entre ambas potencias, y por ello reaccionan de manera más medida ante los anuncios de ambos países,\nmChina también impuso aranceles a EU.\n\nSin embargo, el valor de estos impuestos solo incluye productos valorizados en US\$60 mil millones.\n\ndonald trump, presidente de EE.UU., dijo que dría aranceles a más productos por US\$267 mil millones si China toma represalias."
+    },
+    {
+        "headline": "TENSION COMERCIAL",
+        "content": "Este comportamiento del dólar y la bolsa se enmarca en una jornada en la que ya estuvieron vigentes los aranceles que EE.UU. ha impuesto a las importaciones chinas por un valor de US\$200 mil millones.\n\nEsto generó que China emitiera un \"fuerte mensaje\" en cuanto a \"guerra comercial\", según un reporte de la agencia EFE.\n\nEl último comentario del gigante asiático Lamín resaltó que el país norteamericano ha debilitado las vinculaciones comerciales bilaterales."
+    },
+    {
+        "headline": "MOROSIDAD TARJETA DE CREDITO MEJORÓ EN AGOSTO",
+        "content": "En agosto, los peruanos se pusieron al día en el pago de sus tarjetas de crédito. Según el último reporte de la Asociación de Bancos del Perú, la tasa de morosidad de estos productos financieros fue 5.51%. \n\nDe esta manera, la tasa fue la más baja desde febrero de 2016. Además, el uso de líneas de crédito de las tarjetas de crédito sumó S/\u002723,616 millones, un 6.97% más que en agosto de 2017."
+    },
+    {
+        "headline": "HAY BUENOS CANDIDATOS?",
+        "content": "\"¿Acaso Reggiardo, Belmont o Urresti son garantía para cambiar esa situación?\". Que esta campaña municipal sea la más disputada de las últimas décadas podría terminar siendo bastante más grave de lo que parece. Lima está completamente lapsada, abandonada, destruida. Deténganse a mirarla sin ojos de compasión. Podremos llenarla de elogios, pero es innegable que se ha vuelto la ciudad de la furia donde ya nadie pide permiso ni perdón. Todo se hace a la mala. Salvo por algunos pocos distritos con recursos, Lima es una ciudad donde las autoridades parecen haber renunciado a su rol. La ausencia del estado es la norma. En Lima gobiernen los intereses privados que oscilan entre la informalidad e ilegalidad.\""
+    },
+    {
+        "headline": "MUJAIL PALACIOS Y BARBERÍA OPINA",
+        "content": "\"Entrevista Mujail Palacio\"\nPregunta: ¿Cómo empezaste en la música?\nRespuesta: El primer contacto con la música que tenemos es la percusión, porque lo primero que escuchamos son los latidos del corazón de nuestra madre. Además, los tambores son una antigua forma de comunicación. Me encanta encontrar formas de decir algo sin palabras ni melodías, sólo con ritmos, me libera."
+    },
+    {
+        "headline": "LOS CHEQUES DE CAVASSA",
+        "content": "\"Su periodo de asesoría, de noviembre de 2015 a abril de 2016, coincide con el huaico de diez tachas que sacaron de carrera al candidato Julio Guzmán. Una la interpuso Antonio Sigifredo Castillo Miranda, presentado por la prensa como militante de PP-K. Mercedes Araoz anunció que sería separado, pero no estaba oficialmente inscrita. Por el contrario, en septiembre de 2016, fue nombrado rector de la Oficina de Coordinación centralizada del Organismo de Formalización de la Propiedad (COFOPRI), cargo que ocupa hasta la actualidad. Además, es nada menos que candidato de PP-K a la alcaldía de San Juan de Lurigancho.\""
+    },
+    {
+        "headline": "EX PRESIDENTA ARGENTINA ACUSADA POR CORRUPTORA",
+        "content": "La Fiscalía Argentina presenta un escrito de apelación buscando ampliar la imputación a la expresidenta Cristina Fernández por estar implicada en 913 casos de corrupción. Ella es acusada de presuntamente liderar una red formada por empresarios y exfuncionarios de su administración para otorgar contratos públicos."
+    },
+    {
+        "headline": "CRISIS POLICIAL EN SAN ISIDRO",
+        "content": "Manuel Liendo enfrenta investigación preliminar por el presunto delito de exposición al peligro común después de amenazar con su arma a un conductor. Ante preguntas sobre cumplimiento de órdenes judiciales, él afirma esperar formal notificación antes de entregar su arma."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct topics such as economic impacts due to trade wars, political opinions about city governance, personal stories related to music careers, corruption allegations against Argentine officials, among others. Unrelated sections like ads, subscriptions, etc., have been excluded according to specified criteria.

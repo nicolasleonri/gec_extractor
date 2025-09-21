@@ -1,0 +1,132 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2015/04/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Guardiola debe imaginar lo que puede hacer este tridente",
+        "content": "En el go entre líneas hace mucho dao con Messi, Suárez y Neymar como pares.\r\n\r\nGuardiola debe imaginar lo que puede hacer este tridente ante una defensa adelantada y desatenta como a veces es la del Bayern.\r\n\r\nSin renunciar a su máxima de \"atacar, atacar, car\", Guardiola quizás presente en el Camp Nou la versión más utilitaria de su Bayern: un equipo con las líneas juntas y que se defienda con la pelota sin tomar demasiados riesgos ofensivos."
+    },
+    {
+        "headline": "\"Mos ganará la Libertadores\"",
+        "content": "\r\n\"No me hagan reír ahora sobre eso tema (por las palabras de Turín).\r\nCorinthians ya demostró que puede ser campeón,\r\nestán tranquilos porque vamos a demostrar que somos el mejor equipo de Brasil,\" apuntó el atacante nacional.\r\n\r\nGuerrero también habló sobre los días que debió descansar a causa del dengue.\r\n\"Fue difícil estar en el estadio o ver al equipo por televisión,\" expresó el peruano."
+    },
+    {
+        "headline": "Cedrón no olvida ni perdona a agresores",
+        "content": "\r\nVictor Cedrón, volante de Cienciano, enfrentará mañana por la final del Torneo del Inca a Alianza Lima, club del que se marchó hace tres meses debido a que lo agredieron barristas íntimos.\r\n\"Vincha\'no se olvida de ello y le envía un mensaje al Comando Sur que lo amenazaron otra vez.\" \r\n\"No hay forma de disculparse a los que me agredieron. Es bonito que están preocupados por mí. Estoy preparado para enfrentarlo todo sea quien sea y no tengo temor,\" señaló.\r\n\r\nEl cuadro trujillano llegó ayer a Lima y por la tarde entrenó en el Club Regatas."
+    }
+]
+```
+This extraction includes three distinct pieces based on their headlines and contents while excluding non-article elements like ads and unrelated information. Adjustments were made for clarity and continuity where necessary due to potential OCR issues such as split words across lines.
+
+--- ERROR ENTRY: data/txt/peru21/2015/04/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Sector Bancario también presenta fallos más aún en las entidades pequeñas.",
+        "content": "Es por ello que se trabaja en\nel desarrollo de un programa\nde seguro de depósitos, para\nreducir la desconfianza de los\ndepositantes ante rumores de\nposibles quiebas de algunos\nbancos.\n\nMichael Spencer, de \nChe Bank en Hong Kong,\nnunció que un elemento clave para el desapalancamiento\nde la economía \"es redirigir con éxito los préstamos fuera de\nlas empresas estatales satisfactoriamente hacia las empresas\nprivadas\"."
+    },
+    {
+        "headline": "Promovió un portfolio de proyectos por \$12,000 millons en México.",
+        "content": "Para atraer inversionistas\nEl road show en México\n\"Invierta en Perú. ¡Es posible!\", a\ncargo de Promperú, y ayer en la Ciudad de\nMéxico.D.F.\nMediante este encuentro\nse promocionó un portfolio\nde proyectos de asociación público–privada (PPP)\nde más de 12,000 millones de dólares a\ninversionistas mexicanos.\nLa decisión de llevar el road show fue por un estudio de mercado que indicó la\nexistencia de grandes empresas en el sector construcción mexicano,"
+    },
+    {
+        "headline": "Rescate Financiero a Grecia es de \$7,800 Millones.",
+        "content": "Eurogrupo presiona\npor las reformas\nLa reunión informal entre el\nEurogrupo y Grecia para discutir los avances en las reformas\na las que está condicionado el rescat financiero que espera el país no colmó las expectativas de este grupo. El montón del rescate es de 7,800 millones de dólares.\nGrecia no ha realizado las acciones necesarias para facilitar las negociaciones de la lista de reformas que se le pidieron y ha dejado insatisfechos a sus acreedores."
+    },
+    {
+        "headline": "Importe de la china podría abrir nuevas oportunidades de negocio.",
+        "content": "\"Hay una gran oportunidad para iniciar un negocio importando productos chinos! Aquí algunas recomendaciones para hacerlo:\nBusque productos y sus condiciones,\nTrate de encontrar productos novedosos para traer, Infórrese de los beneficios, sus características y si el producto está libre de aranceles o sí es un residuo."
+    },
+    {
+        "headline": "Chile, cenizas del Volcán Causing Suspensions of Flights in Buenos Aires and Montevideo.",
+        "content": "El volcán Calbuco afecta a más países\nSe ordenó la cuarentena de los residentes de Chaitén, Lago Chapo y Correntoso en Chile. Después de erupción en dos ocasiones después de 43 años de inactividad, volvió a emitir columnas de cenizas ayer, cubriendo algunas localidades del sur de Chile, e inclusive llegó a las capitales de Argentina y Uruguay."
+    },
+    {
+        "headline": "EEUU Ganará a Todos los Probables Candidatos Republicanos.",
+        "content": "Hillary Favorita en Sondeo\nWashington (DPA) – Según una encuesta realizada por la cadena estadounidense Fox News, la exsecretaria de estado Hillary Clinton ganaría a todos sus posibles rivales del Partido Republicano, si bramarían hoy las elecciones presidenciales en Estados Unidos."
+    },
+    {
+        "headline": "Negacionismo Coomo Odio.",
+        "content": "Un día como ayer, 24 de Abril de 1915, las autoridades del Imperio Turco-Otomano detuvo a 235 miembros destacados de la minoría Armenia de Estambul, iniciando una política sistemática de expulsiones y deportaciones masivas de esta comunidad cristiana, que condujo al exterminio de más de un millón de ellos, según muchos historiadores, y los descendientes de todo el mundo consideran esto como el primero genocidio del Siglo XX."
+    },
+    {
+        "headline": "Colombia, tensión sigue alta.",
+        "content": "Las FARC advierten que no aceptarán que el Presidente colombiano, Juan Manuel Santos establezca una fecha límite para concluir la negociación de Paz en La Habana. Mientras tanto, el Mandatario manifiesto que se deberá poner un plazo a la negociación con la Guerrilla, dado que la paciencia se agota."
+    },
+    {
+        "headline": "Ciudad, Policías en 15 Patrulleros Disparan Contrato Cuatro Ocasionales de Moderno Vehículo.",
+        "content": "Temporada Metropolitana\nUna persecución policial terminó en una intensa confrontación en varias partes de la ciudad. Un automóvil moderno provocó alerta debido a conductores sospechosos, dando lugar a una serie de incidentes violentos involucrando múltiples unidades policiales."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/peru21/2015/04/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Empresarial sea mostrar congruencia",
+        "content": "Demostrar que no solo velan\npor sus legítimos intereses corporativos,\nsino que éstos sean congruentes con un\ntérmino más grande.\nGracias a tendencias como la responsabilidad social,\nel rol de las empresas ha evolucionado significativamente."
+    },
+    {
+        "headline": "El caso Balarezo revela negligencia",
+        "content": "Este incidente muestra cómo ciertas prácticas irresponsables pueden comprometer la integridad de sectores enteros. Los gremios deben elevar sus estándares institucionales mediante acciones tangibles."
+    },
+    {
+        "headline": "Defensoría afirma poder económico frente a la justicia",
+        "content": "Un aspecto positivo es evidenciar que ningún actor financiero queda impune bajo la ley gracias a organismos como la SUNAT y la Fiscalía."
+    },
+    {
+        "headline": "PEDRO PIÑERA SOBRE MINERÍA",
+        "content": "\"Si esta mina no continua será un golpe duro para el Perú, no va a haber inversión minera\". Pedro Pablo Kuczynski expone preocupación sobre futuras inversiones en minería nacional."
+    },
+    {
+        "headline": "POLÉMICAS FINANCIACIONES DE TODO GRAPH",
+        "content": "Informes sugieren irregularidades financieras relacionadas con figuras políticas importantes, generando controversia pública y judicial."
+    },
+    {
+        "headline": "REDUCE POBLACIÓN EN EXTREMOPRECARIO",
+        "content": "Presidente Ollanta Humala señala éxito en reducción de índice de pobreza, atribuyéndolo a estrategias gubernamentales efectivas incluso en tiempos difíciles."
+    },
+    
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined scope and format requirements. Articles were identified based on distinct topics and structured accordingly for clarity and coherence.
+
+--- ERROR ENTRY: data/txt/peru21/2015/04/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "BASTA! No sigáis al mercenario el mapa",
+        "content": "Compartir el vídeo\nRecordad y está\nla norma ES J\nNo APÓYEMOS la moda\ningenua.\ny sí alguien\nniega razón no\nadelanta verdad,\nes falso\nDe esto vamos al ejemplo del enamorado de la modelo, con quien aparece en las imágenes y que la filmó sin su consentimiento. \"Vamos a denunciar a las personas que están involucradas en esto, comenzando por la persona que está en el video. Milett no sabía que estaba siendo grabada. Él era su novio. Si grababan sin tu autorización están violentando tu intimidad y eso está penalizado\", dijo después de revelar la identidad del joven. \"Se llama Alexander Geek. Ese es el nombre del miserable que ha atentado contra su dignidad e intimidad\"."
+    },
+    {
+        "headline": "Discutido en el Congreso",
+        "content": "\"Una parte se considera una buena noticia porque sólo incluye a los animales domésticos, silvestres en cautividad; pero excluye a toros y gallos. Por supuesto, con la conveniente excusa de que las corridas de toros y las peleas de gallitos sean un espectáculo natural, los aficionados a la tortura y el abuso y todos los que ven aquí un negocio están felices porque sienten que han triunfado, Pero se equivocan, porque el simple hecho de poner en debate en el Parlamento el respeto animal ya es un paso importante.\" Recordemos que los animales en nuestro país han sido considerados desde siempre poco más que cosa. También se equivocan, pues cada día somos más las personas que vamos a seguir impulsando desde nuestras posiciones para conseguir lo que en Argentina, Uruguay, Cuba, Nicaragua, Panamá, Colombia en el 40% de ciudades colombianas y en los más de ochenta países y provincias de España, como Asturias, Andalucía, Canarias, y Cataluña han conseguido. Aquí y en muchas otras ciudades del mundo se consigue prohibir la violencia disfrazada de cultura. Solo es cuestión de tiempo amigos míos, para que dejen de matar legalmente con sangre ajena."
+    },
+    {
+        "headline": "SUICIDE INTEXAS Muere el actor Sawyer Sweeten",
+        "content": "El actor Sawyer Sweeten, de dieciocho años, quién actuó en la serie Everyone Loves Raymond junto a su hermano gemelo Sullivan, se suicidó el jueves en casa de su familia en Texas (EE.UU.), según informaron sus padres en un comunicado. \"Estamos destrozados por perder a nuestro querido hermano, hijo y amigo, Sawyer Sweeten,\" dice el documento. Sweeten se disparó en la cabeza cerca de su casa."
+    },
+    {
+        "headline": "INTERVIEW ANDREA LUNA. Actriz incursiona en el teatro y series de tv.",
+        "content": "Desde pequeña supo que quería ser actriz, a pesar de que recibió criticas por sus inicios como modelo. Sin embargo, Andrea Luna está dispuesta a ganarse su lugar en la actuación. Esta año dio un gran salto con la serie Locura de amor. ¿Cómo ha cambiado tu vida? Fue muy importante para mí hacer el personaje protagónico (Jessica) porque me ayudó a crecer como actriz. Fue muy completo y me dio la oportunidad de formarme más. Ahora será tu rol en la nueva serie Amor de Madre? Recién estamos grabando Amor de Madre y aún no puedo adelantar mucho. No sé cuándo sale al aire. Es un elenco más grande, los actores son increíbles y puedo aprender. ¿Te sientes cómoda actuando en televisión o en el teatro?"
+    },
+    {
+        "headline": "Robert Downey Jr. hizo su petición",
+        "content": "Spidey también podría integrarse a ‘Los Vengadores’?\nThe actor Robert Downey Jr. solicitó a la producción de la saga Los Vengadores que incorporen al personaje de Spidey en la próxima película de esta franquicia. Creo que sería maravillososo que Spider-Man esté en la siguiente película de Los Vengadores. Soy un fanático del personaje y no dudaría en compartir pantalla con él," afirmó Downey Jr."
+    },
+    {
+        "headline": "Claudio Cordero critica cine",
+        "content": "Después de varios años –quizás desde “El Mercader de Venecia,” en el 2004– hemos visto nuevamente a Al Pacino en un rol principal merecedor de aplausos. Debemos agradecerle a ‘Director al Corazón’ por traernos de regreso a este coloso de la actuación. Nos encontramos frente a una película amable y humilde que simplemente desea entretenernos, cumpliendo así su propósito. Más allá del drama inherente a la vida de ‘Danny,’ permitimos que su espíritu positivo conquiste nuestra atención. Podrían surgir preguntas respecto a qué tan profundos son los cambios internos experimentados por el personaje, pero Hollywood no realiza películas cotidianas centradas en dramas humanos capaces de generar miles de dólares en ingresos."
+    },
+    {
+        "headline": "Opinan sobre flores",
+        "content": "Forma paralela a las ferias de arte se desarrollan varias exhibiciones significativas. Entre ellas, la galería Laura Gonzalez inauguró ‘Unidad I: El Paraíso’, muestra de Gianine Tabaja, quien reflexiona mediante obras contemporáneas cómo interactúan diferentes épocas históricas. Un elemento moderno dialoga directamente con registros tradicionales dentro de este contexto cultural."
+    }
+]
+```

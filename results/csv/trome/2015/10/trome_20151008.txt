@@ -1,0 +1,54 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/10/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "\"Padre no es el que engendra\"",
+        "content": "Y acribillan a su\nReal — Elu l e E\nUn dia en Familia\nMi amigo, el fotgrafo Gary, lleg al restaurante por un\secro de res preparado con chicha deja y acompaado de frijoles,\n\"Mara, obligaciones como el trabajo y los estudios impiden a padres e hijos compartir tiempo.\nEn la actualidad, muchas familias pasan algunos minutos juntos sólo por las mañana, cuando despertán y están listos para ir al colegio, la universidad o el trabajo. Realmente, eso no es compartir.\nPues bien, durante las noches, cuando los padres llegan a casa, los niños ya están dormidos. O al revés, cuando los niños llegan del trabajo o de estudio, muchos padres ya están descansando."
+    },
+    {
+        "headline": "Eliminato",
+        "content": "RUSSIA 2018\nDesde Barranquilla con nuestros enviados especiales\nPERÚ CARAJOO!\nmarciovz &\nMarcio VALVERDE\nMe gustan Toledaa decir que Gustón pertence a \"Trilogía del Mal.\" pieroll78 a Piero\nPiérolamo\nCREE QUE ALAN GARÇA PODRIA SER ELECTO PRESIDENTE EL 2016?\nayer CREÉ QUE PERÚ TIENE CHANCE DE CLASIFICAR AL MUNDIAL DE RUSSIA 2018?"
+    },
+    {
+        "headline": "Negación de Participación en Crimen Patrocinado",
+        "content": "Niega participacin en crimen patrocinado Gerson Glvez Calle con Jorge Luis Alexander Alcntara Prz, quien según la policía habria intervenido en el asesinato de Aldo Esquivel Valle. \nDebe precisar que Gerson Glvez Calle no forma parte de ninguna banda ni mucho menos conoce ni tiene vínculos con los involucrados."
+    },
+    {
+        "headline": "Le llaman ‘’El Caballero de los bares’'",
+        "content": "Faxcíbalo\nPagina Web Director – Periodístico:\nContenido: Carlos – Prensa Popular SA – ww.trome.ee\nMd Quesada 247, Email:"
+    },
+    {
+        "headline": "‘’El caballo negro’’, ¿qué significa?",
+        "content": "CRITICA A OLLANTA POR INSEGURIDAD\nPenso que al Presidente Humala nunca le importó la Seguridad Ciudadana. Cuánto más quisiera él y su familia viviesen cómo cualquier ciudadano, sin resguardo ni seguridad. Qué sentirían el temor que nosotros sentimos de dejar a nuestros hijos salir a la calle por el pandillerío. Cuando terminará su Gobierno, imagino qué será de su consciencia."
+    },
+    {
+        "headline": "Señalan aumento de Inseguridad bajo el Gobierno Actual",
+        "content": "Niños robados en Brasil\nLas noticias han sido difundidas por la Policía, que está investigando el asesinato. Cumplimos con la publicación de la carta del abogado de Gerson Glvez Calle, quien es conocido como “El Caballero de los Bares.” Impreso en Empresa Editora El Comercio Jr. Poracas 530, Pueblo Libre. Chequeo legal No 2001–1992. Los artículos firmados son responsabilidad de sus respectivos titulares y no compromete editorialmente a esta Casa Editorial."
+    },
+    {
+        "headline": "Detención de Ladrones tras Robo Millonario",
+        "content": "Capturan a Ángel Quispe Calderón (32), Luis Valdez Ascencio (46) y Elsa Enriquez Velázquez (24), acusados de robar 30 toneladas de cobre valuado en 200 mil dólares. Agentes de la División de Investigación Criminal (Dirincri) lograron dar con estos individuos después de identificar el camión utilizado para transportar el material ilícito."
+    },
+    {
+        "headline": "Encapuchados Asalten a Empleado Televisa",
+        "content": "Durante el día festivo dedicado a la medicina, varios encapuchados armados interceptaron a un empleado de televisión por cable cerca de su centro laboral, forzándolo a abandonar rápidamente el sitio mientras les entregaba aproximadamente veinte mil soles recolectados ese día."
+    },
+    {
+        "headline": "Expolicial Detenido con Pistola Oculta",
+        "content": "Pedro Rojas (57) reportó el hurto de varias bebidas destiladas mientras estaba ausente brevemente de su hogar. Sin embargo, poco después, fue arrestado junto a otros cómplices encontrados ocultando ilegalmente un arma de fuego en sus ropas íntimas."
+    },
+    {
+        "headline": "Premios Sorpresa Esperan Lectores Felices",
+        "content": "¡GANÁ DINERO FACÍLTITO! Tirilo en el periódico de mayor circulación mundial. Desde lunes a viernes salen tres premios de cincocientos soles cada uno y los domingos un gran pozo de cinco mil soles. Además, el último domingo de cada mes ofrecemos un premio especial de siete mil soles."
+    },
+    {
+        "headline": "Celebración Mundial del Huevo",
+        "content": "Este evento global reconoce al huevo como el alimento más completo nutricionalmente. Más de 150 países organizaron eventos similares, destacando la relevancia universal de este ingrediente básico en diversas culturas culinarias."
+    },
+    
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were segmented according to changes in topics indicated by distinct headings within the input text. Any non-article sections such as ads, subscriptions information, etc., have been excluded following the defined scope and goal.

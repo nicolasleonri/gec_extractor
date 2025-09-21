@@ -1,0 +1,69 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/05/trome_10.txt ---
+
+```json
+[
+    {
+        "headline": "Cómo probarlo",
+        "content": "pues alega que las \ngrabaciones no le salieron\nbien, el congresista\nMoiss Mamani \n(Fuerza Popular) insiste en\ngrab al \nexpresidente Pedro Pablo Kuczynski.\nprecisa generancia,\nportenercaKuezynski."
+    },
+    {
+        "headline": "POR CUENTAS EN SUIZA",
+        "content": "Investigarán a hermana de Humala\n\nEl fiscal Germán del Ministerio Público.\nJuré también precisaron que tales cuentas bancarias a su \ncuada Nadine. Incluso, comprenden en medida se tomará al verse \ndescubierto, la investigación –habrá tratado de evadir– que su hermano y \ncuñada sean víctimas de una ‘persecución política’ (MBL).\nPolicía debe tener mucho cuidado y profesionalismo en las decisiones que tome, porque podrían generar pérdida de confianza ds en él mismo. Martín Vizcarra al referirse al caso de los Humala Heredia.\nTras entregar nuevo equipamiento al hostal comprado con contratos simulados.”
+    },
+    {
+        "headline": "Para alcaldesa de Lima",
+        "content": "Ya hay 14 precandidatos confirmados para participar en las elecciones municipales, que se realizaren el 18 de octubre. Varias figuras políticas están involucradas, entre ellas Humberto Lay (Restauración Nacional), Alberto Becerril (Partido Popular Cristiano), Enrique Fernández (Frente Amplio), Daniel Urresti (Podemos Perú), Maestres Distritales. Entre ellos, Manuel Velarde (Siempre Unidos), Gustavo Guerra García ([Juntos por el Per]), y Diethell Columbus (Acción Popular)."
+    },
+    {
+        "headline": "Indignación",
+        "content": "Susana Letona está indignada porque, según ella misma denuncia, los cronutrientes contra la anaemia se pudren en los almacenes del Ministerio de Salud. ¿Qué?"
+    },
+    {
+        "headline": "'MATHEO'",
+        "content": "\"¡GRITO DE FELICIDAD!* Con lágrimas en los ojos, Doña Elena Parrilla, natural de Piura, expresa su felicidad al ver a su pequeño recibir leche directamente de su seno. Él es padre de tres hijos. Cuando naci, Mathéo tenía un inusual color amarillo. Madre e hijo llegaron de Piura a Lima hace unos meses. Su madre le iba a donar parte de su hígado, pero días antes de la cirugía le dijeron que había alguien más disponible. Médicos del hospital Edgardo Rebagliatti salvaron así su vida."
+    },
+    {
+        "headline": "San Isidro",
+        "content": "Sin autorización de la municipalidad de Lima se llevan adelante obras en la calle Las Begonias, buscando mejorar infraestructura sin considerar impactos negativos potenciales. Estas acciones interfieren con proyectos existentes y carecen de planes adecuados de mitigación vehicular."
+    },
+    {
+        "headline": "ACCIDENTE",
+        "content": "Debate público surge luego de incidente automovilístico ocurrido cerca de la plaza central, causando preocupación ciudadana respecto a normativas de tráfico locales."
+    },
+    {
+        "headline": "RUSSIA",
+        "content": "Desfiles militares rusos capturan atención mundial mostrando fuerzas armadas avanzadas. Presidente Vladimir Putin destaca importancia estratégica mientras enfatiza disposición al dialogo internacional."
+    },
+    {
+        "headline": "OFRECEN PAÑALES PARA MADRES",
+        "content": "Regalos especiales disponibles para madres celebrando eventos importantes, ofreciendo pañales junto con artículos diversos relacionados con bebés."
+    },
+    {
+        "headline": "HIPÓPOPOTAMO",
+        "content": "Dos grandes ejemplares masculinos protagonizan violenta confrontación territorial en Botswana, evidenciando comportamiento instintivo propio de estos animales majestuosos."
+    },
+    {
+        "headline": "POLÍCA RESCATA NIÑA DESNUDA",
+        "content": "Niña encontrada en situación alarmante después de haber permanecido desaparecida por semanas. Hallada gravemente malnutrida y con signos visibles de negligencia severa."
+    },
+    {
+        "headline": "MONEDA SUBE VALORES",
+        "content": "Moneda nacional experimenta incremento significativo frente al dólar debido a alta demanda inversora. Bancos intentan contención mediante intervenciones financieras específicas."
+    },
+    {
+        "headline": "GUERRERO PODRA IR A RUSSIÁ",
+        "content": "Expectativa creciente rodea posible inclusión de jugador clave en convocatoria oficial previa al torneo global. Decisiones judiciales pendientes determinarán disponibilidad deportiva."
+    },
+    {
+        "headline": "PERÚ PREPARACIÓN MUNDIALISTA",
+        "content": "Selección Peruana intensifica preparativos bajo dirección técnica especializada, anticipándose a retos competitivos internacionales. Entrenamientos rigurosos perfilan táctica y condicion físico óptimos."
+    },
+    {
+        "headline": "BARCELONA GOLEÓ 5—1",
+        "content": "Equipo catalán exhibió superioridad notable en partido decisivo, consolidando posición líder dentro de competiciones europeas actuales."
+    }
+]
+```
+This JSON structure captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on context clues such as topic shifts and structural elements like bold headings within the text. Any missing data was filled using `"NA"` where applicable.

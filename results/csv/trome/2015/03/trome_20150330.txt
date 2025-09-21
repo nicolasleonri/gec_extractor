@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2015/03/trome_30.txt ---
+
+```json
+[
+    {
+        "headline": "Cómo describir?",
+        "content": "> Achacar significa atribuir, imputar a alguien o algo un delito, defecto o desgracia, generalmente con malicia o sin fundamento. La Fundé recuerda que achacar tiene connotaciones negativas y, por tanto, no debe emplearse en un sentido positivo.\n\nEjemplo:\n\n— El éxito lo achacan a su buena estrategia. (Incorrecto)\n— El éxito lo asocian a su buena estrategia. (Correcto)"
+    },
+    {
+        "headline": "¿Qué es El Niño?",
+        "content": "Niño es un fenómeno meteorológico que se repite en períodos irregulares entre tres y ocho años y que modifica el normal régimen climático de Asia, Oceanía y América (con especial énfasis en Sudamérica y Perú).\n\nLa causa es el calentamiento de las aguas del mar. Eso lleva a cambios en la fauna marina, provoca altas temperaturas atmosféricas, sequías y lluvias torrenciales en diversas zonas."
+    },
+    {
+        "headline": "Robert Bunsen",
+        "content": "Roberto Bunsen fue un químico alemán (1811–1899) que construyó el quemador o mechero Bunsen, empleado actualmente en laboratorios químicos. Descubrió el cesio y el rubidio, metales alcalinos, así como el uso del hidróxido de óxido férrico como antidoto contra la intoxicación por arsénico."
+    },
+    {
+        "headline": "Macenes Santa Clara",
+        "content": "- MACENES SANTA CLARA: ATE — Av. Narciso Ayllón 1685. \n- Mendíola — Av. Alfredo Mendiola 1637. \n- Tarma — Av. Vivanco 360. \n- Arequipa — Av. Villa Hermosa 1021. \n- Huancayo — Av. San Agustín 1990 (Alt. Km 6.8 Carretera Central). \n- Neomotos: Trujillo — Av. La Marina S/N (Curva del Sol) — Av. Mansiche 1023. Urb. Santa Isabel, Piura — Av. Viceministro Zona Industrial Mz. 229 Lt 2B. \n- Chiclayo — Km 776. Carretera a Lambayeque. Chimbote — Av. Enrique Meiggs 1871. \n- Jaén — Av. Balconcillos S/N. Fundo Los Sauces (Camino a los Balconcillos). \n- C&C: Tacna — Av. Manuel Odría S/N."
+    },
+    {
+        "headline": "Consultas al:",
+        "content": "Consultas al teléfono 201 0930."
+    },
+    {
+        "headline": "Comenta Claudia Ramírez sobre Mario Hart",
+        "content": "\"Fraternizando\" con su soltera. Esto después del ampáy pilotón donde besaban. \"Se ve que la mujer le baila todo el tiempo.\" \"Si conmigo era cariñoso? Bueno, conmigo no. Él está soltero y tiene derecho a salir y pasarla bien. Y, bueno, se nota que la está pasando bien. Nosotros seguimos siendo amigos\", expresó la integrante de la agrupación Latinas."
+    },
+    {
+        "headline": "Detalles tras cámaras",
+        "content": "Ser pareja celosa?\n\nLa gente podría hablar tímidamente...\n\nContéstame qué ves?"
+    },
+    {
+        "headline": "Denuncia pública",
+        "content": "Publican foto junto a Joshua Peña, su nuevo romance según dice haber perdido ‘su’ cabra y vaca.”
+    },
+    {
+        "headline": "Opinión pública",
+        "content": "El Concejo Municipal de Carmen de la Legua-Reynoso expresa su extrañeza por la forma parcializada con que se están desarrollando las investigaciones relacionadas con actos de corrupción cometidos por el ex-alcalde Daniel Almanzor Lecca Rubio."
+    },
+    {
+        "headline": "Programas de capacitación",
+        "content": "Ofrece cursos tales como Especialización en Gestión Pública, elaboración y simulación de indicadores de gestión en recursos humanos, formación de auditores internos de sistemas integrados de gestión, y más."
+    },
+    {
+        "headline": "Promoción dermástética",
+        "content": "+ Incrementa colágeno y elasticidad facial. – No necesitarás cirugías faciales."
+    },
+    {
+        "headline": "Sorteos",
+        "content": "Participantes podrían ganar máquinas de coser sorteándose mediante crucigramas entregados en puntos específicos."
+    }
+]
+```
+This JSON contains extracted information structured according to the provided guidelines for each identified article within the given input data. Articles were segmented based on headlines and relevant contents while excluding non-journalistic elements like ads and contact details not directly related to any specific story narrative.

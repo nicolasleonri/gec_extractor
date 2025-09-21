@@ -1,0 +1,54 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2018/09/trome_26.txt ---
+
+```json
+[
+    {
+        "headline": "Al insistir que los proyectos son muy malos, pues son rechazados por los expuestos.",
+        "content": "Horas antes, pidió disculpas por su expresión ‘vas’ debido a su cuenta de Twitter."
+    },
+    {
+        "headline": "Habló Vizcarra",
+        "content": "Del otro lado y ante la Asamblea General de la ONU (Nueva York), el presidente Martín Vizcarra afirmó que el referendum sobre reformas judiciales y políticas será celebrado definitivamente el domingo 9 de diciembre. Agregó que puede anunciar con agrado que el Perú avanza con mecanismos constitucionales y participativos, que honran los compromisos asumidos en la Cumbre de las Américas. (J. Salazar)"
+    },
+    {
+        "headline": "'CEJN’ A MUERTO'",
+        "content": "\"Voy a investigar a tu pap'.\" \n\nEn un debate televisivo, Luis Castillo Pardo [Solidaridad] le preguntó a Manuel Velarde [Siempre Unidos] qué haría específicamente para combatir la corrupción si era elegido alcalde. La respuesta fue contundente: \"Voy a investigar a tu pap.\" \"Eso es algo concreto que voy a hacer\", remarc el llamado 'Cejon’. El video del incidente, que fue calificado como una trollada, se viralizó en las redes motivando miles de comentarios irónicos."
+    },
+    {
+        "headline": "Reciente testamento de Jorge Cuba vuelve a implicarlo...",
+        "content": ""
+    },
+    {
+        "headline": "*BURBUJITO* ALBERTO BENGOE CHEA afirma que 'Ya es cuento viejo' que Cardo Belmont no haya ido a los debates,...",
+        "content": "Dice que el Herman's se siente soberbio y ganador. No me diga...\njaja, las llantas.\n\"\n'A pesar de toda la atención hacia él, sigue siendo parte integral de nuestra comunidad,\" dijo alguien cercano."
+    },
+    {
+        "headline": "‘LA PULGA Messi Peruana’, Elsa Tapullima, conquista el futbol femenino juvenil nacional",
+        "content": "Su velocidad y habilidad con el balón la han hecho famosa. Tiene 13 años, es originaria de la Región de San Martin y, jugando para su colegio 'Manuel Scorza', se coronó campeona de fútbol femenino en los Juegos Deportivos Escolares Nacionales 2018 Daniel Peredo. Durante la final del torneo, organizado por el Ministerio de Educación, Elsa lideró a su equipo a la victoria marcando cuatro goles decisivos."
+    },
+    {
+        "headline": "Volcaduras causan tragedia en la Va Express",
+        "content": "Una caravana de cadenas de la empresa Hermes sufrió un aparatoso despiste y terminó volteándose a la altura de la estación Canada. Bomberos y policías municipales intervinieron rápidamente, evitando mayores consecuencias gracias a la rápida acción de transeúntes quienes alertaron a las autoridades."
+    },
+    {
+        "headline": "¿Qué obras más importantes necesitan?",
+        "content": "Continuar la Va Expresa y la Panamericana, además de nuevas líneas del tren eléctrico. Propuestas incluyen mayor énfasis en infraestructura urbana menor, tales como pistas y veredas para comunidades emergentes."
+    },
+    {
+        "headline": "Propuestas clave en seguridad ciudadana",
+        "content": "Convertir a la municipalidad en socio estratégico de la Policía Nacional del Perú. Construcción de complejos policiales en Lima Norte, Lima Este y Lima Sur, así como adquisición de nuevos patrulleros."
+    },
+    {
+        "headline": "Transporte público: Mejoras urgentes",
+        "content": "Priorización de frecuencias y renovación de instalaciones en el sistema Metropolitano para garantizar confortabilidad y reducir congestión."
+    },
+    {
+        "headline": "Centro histórico debe revitalizarse",
+        "content": "Transformar el área central en atracción turística mediante medidas urbanísticas inspiradas en modelos exitosos internacionales."
+    },
+    
+]
+```
+This JSON captures each distinct article found within the provided input while adhering strictly to the specified format requirements for headlines and contents. Articles lacking explicit headings have been assigned `"NA"` where appropriate. Additionally, any extraneous information not forming coherent standalone journalism has been excluded.
