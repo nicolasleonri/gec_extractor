@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/09/publimetro_14.txt ---
+
+```json
+[
+    {
+        "headline": "Na",
+        "content": "+ — 1671, Se celebra en Lima la primera misa en honor del Señor de los Milagros.\n\n+ — 2000, El congresista Fernando Olivera presenta un vídeo donde aparece el asesor presidencial Vladimiro Montesinos sobornado a otro congresista de la oposición, Luis Alberto Kouri.\n\n+ — 2009. Fallece en Los Ángeles el actor estadounidense Patrick Swayze, a los 57 años, por un cáncer de páncreas."
+    },
+    {
+        "headline": "Por: Josip Muhić-Pintar",
+        "content": "Ramiro Escriba\nAnalista Internacional \xAAXX La diplomacia internacional es un entramado muy complicado. Lo correcto, desde el punto de vista de la identificación de nuestro gobierno con los derechos humanos, seria decir algo. Pero China es un gran socio comercial e imagino que ese elemento gravita en la agenda toná. Aunque en la ‘China es un gran socio comercial’ según se piensa, también hay otras formas, sin ser tan bilaterales’, de expresar que para el Perú sí son importantes los derechos humanos. Por ejemplo, si vienen inversiones chinas, se debe dejar en claro que deben hacerse respetando estándares laborales justos.\n\n‘Estados Unidos, que reclama tanto por los derechos humanos en Venezuela, nunca dice nada de China.’ Creo que el Gobierno Peruano no debiera seguir ese ejemplo.”
+    },
+    {
+        "headline": "Eduardo Abusada",
+        "content": "'El estado puede y debe decir que siempre hay que salvaguardar las libertades civiles, pero el gobierno debe tener en cuenta lo que negocia en cada momento específico.'"
+    },
+    {
+        "headline": "Javier Angulo",
+        "content": "‘Así como Pedro Pablo Kuczyski [PPK] denuncia las violaciones de derechos humanos y las persecuciones en Venezuela, debería hacer lo mismo en China.’"
+    },
+    {
+        "headline": "Bryan Candori",
+        "content": "‘No lo creo. Keiko Fujimori está demasiado ocupada atendiendo a la oposición de Venezuela.’"
+    }
+]
+```
+This extraction focuses on identifying sections within the provided text that resemble structured journalism pieces based on their context and format while adhering strictly to the guidelines for inclusion/exclusion specified. Note how non-article elements like astrological forecasts were excluded due to lack of substantial journalistic content.

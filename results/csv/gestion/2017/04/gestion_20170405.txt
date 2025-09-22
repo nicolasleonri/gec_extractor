@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/04/gestion_05.txt ---
+
+```json
+[
+    {
+        "headline": "Reacciones",
+        "content": "En conferencia de prensa,\n\nAlberto de Belaunde critic\lla decisión del fujimorfismo\ny afirmó que les han dado la\nespalda a la comunidad\nLGTBI.\n\n\"Como tienen la mayoría\nhan sido una apisonadora \netre el derecho de todos. \nAhora todo queda en manos del\nplen\", declara la prensa."
+    },
+    {
+        "headline": "¿Cuál fue el argumento?",
+        "content": "\"Minutos después, el\nsecretario de la Comisión\nconstitucionales presidencia,Miguel Torres,indicó que dicho\ndecretodel excede las faculdades\ndelegadas.\n\n«Si quieren legislar sobre esa\nmateria, vengan y presenten un\nproyecto de ley, no vamos a\naceptar normatividad de\ncontrabando», añadió.\""
+    },
+    {
+        "headline": "ADENDA",
+        "content": "En dos semanas Contralora\ngará informe sobre Chinchero\n\nLa Contralora está en la fase final de la evaluación de la adenda No1\ndel contrato de construcción del aeropuerto de Chinchero, informó Edgar\nÁlarez, contralor general de la República.\n\nCabe recordar que la obra\nestá a cargo del consorcio\nKunturWasi.\n\nÁlzare señaló que se entregarán dos informes, uno sobre el proceso de\ncontratación y otro sobre la firma de la adenda.\n\nComo se sabe, el Ejecutivo asegura que no va hacer ningún desembolso al\nconsorcio KunturWasi, mientras la Contralora emita su informe sobre la\nadenda firmada.\n\nEl ministro Martín Vizcarra iba a ser sometido a una interpelación sobre la\nadenda, sin embargo, ésta quedó suspendida."
+    },
+    {
+        "headline": "PARLAMENTO cita a Zavalaz por decreto de urgencia",
+        "content": "El jefe del Gabinete,Fernando Zavala, deberá comparecer al\nCongreso para defender los alcances del Decreto de Urgencia No 003-2017,\nel cual tiene relación con proyectos de inversión pública e impedir que\nempresas implicadas en casos de corrupción vendan sus activos.\n\nSe trata de una disposición vinculada a denuncias de pago de coimas\ncontra Odebrecht.\n\nInicialmente debía asistir el premier el mes anterior para explicar dicha\nnorma, pero debido a inundaciones causadas por lluvias fuertes, el evento\nfue aplazado.\n\nEl presidente del grupo parlamentario, Miguel Torres, menciona que Zavala\ncomparecerá el próximo 11 de abril."
+    },
+    {
+        "headline": "CIFRA",
+        "content": "El dato:\nLas funciones del Congreso consisten en llenar la vacancia del magistrado del Tribunal\nConstitucional (TC) Salvador Urviola quien completó su período. Una vez logrado\nel consenso, la designación será confirmada durante la sesión del consejo directivo."
+    },
+    {
+        "headline": "COMISION DE ÉTICA",
+        "content": "A pesar de que había votado a favor, el congresista Yonhy Lescano (APP)\ncambió de opinión y planea reducir la recomendación de suspensión por 120 días\nal oficialista Carlos Bruce."
+    },
+    {
+        "headline": "ACCIONES LEGALES CONTRA ODUBRECHT",
+        "content": "La segunda sala Penal Transitoria de la Corte Suprema determinó que era necesario extender la investigación respecto al exjefe de campaña\nAlejandro Toledo, Martin Belaúnde Lossio, por cargos tales como colusión agravada,\ntráfico de influencias en detrimento del estado, entre otros."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text based on their headlines and contents while adhering strictly to the specified format requirements. Articles lacking explicit headings have been assigned `"headline": "NA"` where applicable. Any non-article sections such as ads were excluded according to guidelines.

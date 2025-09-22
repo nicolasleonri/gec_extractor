@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/09/gestion_12.txt ---
+
+```json
+[
+    {
+        "headline": "Control Posterior en Grandes Proyectos",
+        "content": "\"La cifra\" indica que 228 proyectos importantes están siendo gestionados en el país. Además, se menciona que 40,800 obras más pequeñas también forman parte de este panorama. Está planeado introducir nuevos métodos de supervisión antes incluso de comenzar la construcción, según declaraciones hechas en conferencias recientes."
+    },
+    {
+        "headline": "Nuevo Control Funcional Como Alerta Temprana",
+        "content": "Shack afirmó que el control será utilizado como herramienta preventiva ante irregularidades futuras. Actualmente, existe escasa aplicación de medidas disciplinarias hacia funcionarios implicados en casos de corrupción, resaltándose la necesidad de robustecer capacidades de vigilancia externa mediante organismos civiles."
+    },
+    {
+        "headline": "Pidieron Reforzamiento de Sociedades Civiles",
+        "content": "Debate sobre aumentos tarifarios relacionados con el uso de aguas subterráneas está programado para hoy. Representantes empresariales expresan preocupación frente a impactos económicos derivados de tales ajustes. También se aborda cómo fortalecer roles sociales en procesos de monitoreo gubernamental."
+    },
+    {
+        "headline": \"Características Económicas Actuales\",
+        "content": "Análisis realizado por Page Group sugiere un optimismo considerable entre profesionales locales respecto a expectativas salariales. Paralelamente, pronósticos apuntan a un repunte significativo en el Producto Interno Bruto debido principalmente a precios elevados de commodities básicas."
+    },
+    {
+        "headline": "Carlos E. Paredes Analiza Futuro Político",
+        "content": "Discusiones políticas giran en torno a estrategias adoptadas por el fujimorismo frente a conflictos laborales y administrativos. Examinan opciones disponibles sin comprometer principios fundamentales ni alienar bases electorales tradicionales."
+    },
+    {
+        "headline": "Perspectivas Macroeconómicas Positivas",
+        "content": "Agencia Moody’s anticipa un crecimiento favorable gracias a inversiones públicas planificadas. Esto podría impulsar aún más el desarrollo económico regional mientras se mantienen ratios fiscales saludables."
+    },
+    {
+        "headline": "Encuesta Pulso Per Revela Opinión Ciudadana",
+        "content": "Resultados muestran divisiones notorias en percepciones populares sobre gobernabilidad y cohesión política. Mayorías evidencian reticencia hacia ciertas figuras políticas y priorizan temas críticos como seguridad pública y combate a la corrupción."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on thematic breaks within the input data.

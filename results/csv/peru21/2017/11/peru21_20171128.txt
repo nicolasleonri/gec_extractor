@@ -1,0 +1,76 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/11/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Medida cautelar para Susana Villaran tras investigación por corrupción",
+        "content": "El Poder Judicial accedió al pedido del Ministerio Público y prohibió temporalmente la salida del país a la ex alcaldesa de Lima, Susana Villaran, debido a sospechas relacionadas con casos de corrupción ligados a financiamiento ilegal de campañas políticas."
+    },
+    {
+        "headline": "Opini\u00f3n: Responsabilidades legales de Susana Villaran",
+        "content": "\"Villaran debía estar consciente de quiénes contribuían económicamente a su campaña,\" afirma el penalista Carlos Caro, destacando la importancia de la transparencia en el uso de fondos públicos y privados dentro de contextos electorales."
+    },
+    {
+        "headline": "Comisi\u00f3n Lava Jato demanda respuestas formales del Presidente Kuczynski",
+        "content": "La presidenta de la comisión Lava Jato, Rosa Bartra, critica la postura evasiva del presidente respecto a comparecer personalmente frente a la comisión, considerándola una falta de compromiso hacia la rendición de cuentas pública necesaria en tiempos de crisis política."
+    },
+    {
+        "headline": \"Denuncia contra jueces del Tribunal Constitucional\",
+        "content": "Representantes legales de militares señalan supuestos errores cometidos por jueces del Tribunal Constitucional en relación con el caso conocido como ‘El frontón’, donde se discute si ocurrieron violaciones graves a los derechos humanos durante disturbios carcelarios."
+    }
+]
+```
+This JSON structure captures key articles extracted based on their relevance and substance while adhering strictly to the provided guidelines for inclusion criteria and data cleanup. Note how each entry includes both a `headline` and corresponding `content`, formatted according to specified requirements.
+
+--- ERROR ENTRY: data/txt/peru21/2017/11/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "IL LARGARSE SIN. Casi nueve horas duró audiencia en la subcomisión.",
+        "content": "El exmagistrado Gerardo Eto Cruz asistió a la Subcomisión de Acusaciones, en calidad de testigo, ya que fue uno de los firmantes del voto en minoría de la sentencia de 2013.\n\nRespecto de la decisión de Vergara, explicó que independientemente de la estructura de la sustentación de su voto, \"el fallo se dio y no se pudo cambiar\"."
+    },
+    {
+        "headline": "Carlos Mesa aseguró que Vergara sí estaba de acuerdo con que lo acontecido en El Frontón era delito de lesa humanidad...",
+        "content": "\"No obstante, agregó que nadie debía 'cambiar' el voto del ex miembro del Tribunal Constitucional.\" \n\nEl magistrado Ernesto Blume añadió que la inamovilidad de la sentencia da seguridad a la justicia."
+    },
+    {
+        "headline": "Ex Directivo Del Futbol De Colombia Dice Que Cinco Ex Colegas Aceptaron Us\$1 Millón Para Firmar Contratos De Transmisión",
+        "content": "Un testigo implicó a Manuel Burga en el pago de un millonario soborno. Un productor televisivo ofreció hasta us$15 millones para apoyar a Qatar para el Mundial. El juicio por el escándalo de corrupción en la FIFA a Manuel Burga y a otros exdirectivos de fútbol de la región ingresa a su tercera semana en una corte de Nueva York."
+    },
+    {
+        "headline": "Sector Defensa Sustento Presupuesto Para 2018",
+        "content": "El Ministerio de Defensa destinará unos $205 millones para el mantenimiento de las instalaciones navales, áreas y terrestres de las Fuerzas Armadas, según anunció el ministro de esa cartera, Jorge Nieto, durante la sustentación del pliego presupuestal de su sector para el año fiscal 2018."
+    },
+    {
+        "headline": "Sentido De La Democracia",
+        "content": "Democracia significa muchas cosas. Entre ellas está entender sus alcances mediante la regulación del poder, limitando las funciones de autoridades e instituciones para equilibrar poderes. Otro significativo aspecto es garantizar la igualdad ante la ley, protegiendo así las decisiones de mayoría manteniéndose dentro de los límites necesarios para resguardar los derechos fundamentales de las minorías."
+    },
+    {
+        "headline": "TERRORISTAS EN LISTA DE RECOMPENSAS",
+        "content": "La Policía Nacional informó que 18 requeridos por terrorismo están en el programa de recompensas ‘Que ellos se cuiden’. Ofrece entre S/.50,000 y S/.125,000 por información que conduzca a su captura."
+    },
+    {
+        "headline": "Entrevista Ricardo Monzón Komatsu",
+        "content": "Comentario sobre la situación jurídica de la expresidenta regional Susana Villarán tras medidas legales relacionadas con casos de corrupción. Discute posibles inconsistencias financieras en su campaña política."
+    },
+    {
+        "headline": "Mejoras en inversiones públicas y privadas destacadas por Ministro Economía Finanzas",
+        "content": "Claudia Cooper señaló más de 1300 proyectos de inversión planeados para implementarse a través de la modalidad de Obra por Impuestos, enfocado principalmente en zonas afectadas por eventos climáticos recientes."
+    },
+    {
+        "headline": "Negociación colectiva en el sector público será posible gracias a nueva legislación",
+        "content": "Una comisión parlamentaria aprueba normativas que facilitan discusiones salariales entre empleados gubernamentales y el estado, impactando positivamente a cerca de 1.5 millones de servidores públicos."
+    },
+    {
+        "headline": "MVCS Construir Más de 35,700 Viviendas en 2018",
+        "content": "Programas como Techo Propio y MIVIVIENDA buscan proporcionar miles de unidades residenciales nuevas, además de generar numerosas conexiones de agua potable urbanas y rurales."
+    },
+    {
+        "headline": "Inflación Sería Negativa Según Scotiabank",
+        "content": "Reportaje económico anticipa variación negativa en índices de inflación debido a fluctuaciones en precios agrícolas y energéticos, marcando niveles históricamente bajos comparables únicamente a periodos antiguos."
+    }
+]
+```

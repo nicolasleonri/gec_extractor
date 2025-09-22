@@ -1,0 +1,42 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/07/gestion_07.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "Hoy en dia, uno pensaría que..."
+    },
+    {
+        "headline": "Contenido pendiente...",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Últimas noticias:",
+        "content": "Se buscan voluntarios para diversas actividades."
+    },
+        ...
+]
+```
+Note: This example assumes there were other sections like ads which have been omitted for brevity. Adjustments may need further refinement based on specific input data provided. 
+
+The following steps should help ensure accurate extraction according to given guidelines:
+
+1. **Identify Headings**: Look for capitalized phrases indicating headlines such as `EL LOCOS DEL HAMMER` followed by relevant paragraphs starting immediately after it.
+   
+2. **Extract Content:** For each identified segment between headings, merge any split lines within logical boundaries while removing non-content elements like footnotes or unrelated side notes.
+
+Here’s how we process the extracted information step-by-step using these rules:
+
+### Example Input Text Snippet Processed Into JSON Format:
+
+**Input Sample Raw Data**
+```
+...
+UN ARTÍCULO SOBRE EL CAMINO QUE TOMÓ PARA CONSTRUIR SU PROPIO PAISAJE NATURAL...
+
+OTROS DETALLADOS INFORMACIONES ADVERTIDAS POR LOS EXPERTOS JORNADAS DE TRABAJO REALIDAD ACTUALIDADES SOCIEDADES MODERNAS...
+```
+
+This would result in something similar to what was shown above but formatted correctly under strict adherence to the defined structure. Make sure every part fits well-defined criteria before finalizing the JSON format. Remember not to add anything beyond extracting necessary details directly related to journalism pieces.

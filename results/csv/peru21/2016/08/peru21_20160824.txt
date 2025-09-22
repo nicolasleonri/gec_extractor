@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/08/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "PIDE QUE PESQUISAS SOBRE PRESUNTO ‘ESCUDOÑ DE LA MUERTE’ SEAN RÁPIDAS",
+        "content": "PPK: ’Queremos que\nse investigue bien’. \nmPresidenta de la\ndefensa expresa sus dudas\nsobre existencia de\ntodo este equipo irregular.\nEl presidente Pedro Pablo czynski pidi ayer que se \ninvestigué “bien” y rápidamente” el caso del presunto 'escuadrón de la muerte’, integrado por policías en actividad. Según un reporte oficial revelado el lunes por el ministro del interior, rubén Vargas, este grupo habrá estado formado por nueve agentes: un general, un comandante y siete suboficiales. Durante los años 2012 a 2015, dicho equipo irregular habrá simulado enfrentamientos para abatir a supuestos delincuentes."
+    },
+    {
+        "headline": "PLANEACIÓN DE POLÍTICAS PÚBLICAS",
+        "content": "“Fortalecerá capacidad de gestión”. Hoy en día, uno pensaría que... Para agilizar los trabajos, pide declararse de interés nacional crear un Sistema Integrado de Planeación de Políticas Públicas."
+    },
+    {
+        "headline": "INICIATIVAS LEGISLATIVAS SON DEL EJECUTIVO Y DE LA BANCADA DE FUERZA POPULAR",
+        "content": "Pleno debatirá mañana proyectos sobre La Oroya. La Junta de Portavoces decidi exonerar discusión a nivel de comisión por estar cerca la fecha límite. Ambas propuestas legislativas se debatirán mañana y fueron prioritizadas al tener carácter de urgencia. Por ello, se exonera su discusión en una comisión ordinaria."
+    },
+    {
+        "headline": "ACCIONES CONTRA CRIMINALIDAD ORGANIZADA",
+        "content": "Hallan cuerpos en Vraem. Los cuerpos de dos personas fueron encontrados ayer en el valle de los ríos Apurimac, Ene y Mantaro (Vraem), según versiones de pobladores de la localidad de Quisto Valle. Una de estas víctimas podría corresponder al suboficial Edgar Quispe Rojas, quien había desaparecido días atrás."
+    },
+    {
+        "headline": "CRISIS PREVISIONAL",
+        "content": "\"Mejorar el sistema\". El ex presidente de Chile señaló que es vital incrementar el ahorro destinado a financiar la jubilación de los trabajadores. Además, recomendó extender la edad productiva laboral y asegurar contribuciones gubernamentales focalizadas en sectores más vulnerables."
+    },
+    {
+        "headline": "BRASIL CELEBRA SUS LOGROS OLIMPICOS",
+        "content": "‘Experiencia exitosa’. Michel Temer destacó que Brasil organizó eventos excepcionales durante los Juegos Olímpicos, resaltando el papel central del pueblo brasileño en tales éxitos."
+    },
+    {
+        "headline": "DEMOCRACIA EN VEZUELAA",
+        "content": "Finalización temprana". Luis Almagro, Secretario General de la OEA, comentó que después de la sentencia judicial contra Leopoldo López, parece que llegó el término de la democracia en Venezuela debido a la falta de derechos fundamentales y políticos."
+    }
+]
+```
+This extraction focuses solely on significant journalistic pieces while excluding non-content elements like ads, subscriptions prompts, etc. It maintains the integrity of each article's structure according to provided guidelines.

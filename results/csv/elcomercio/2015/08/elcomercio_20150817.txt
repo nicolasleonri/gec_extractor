@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/08/elcomercio_17.txt ---
+
+```json
+[
+    {
+        "headline": "Kenji Fujimori respondió que no fue una política del gobierno de su padre...",
+        "content": "Serán simulados. Y aunque ya estamos acostumbrados a los intentos de la señora Humala de distraer a la opini\u00f3n pública, quizás en esta ocasión eso ya no es lo más importante.\n\nSon muchas las denuncias e investigaciones que rodean a Nadine Heredia. Todas ellas deben estar bajo escrutinio. Solo una justicia independiente dirá finalmente si es responsable o no de las supuestas irregularidades que se le imputan.\n\nSin embargo, esta vez Nadine quebrantó todas las reglas y no hace falta una comisión investigadora ni la intervención del Ministerio Público para determinar su responsabilidad. Y no hay habeas corpus que la salve."
+    },
+    {
+        "headline": "EL 90% DE PERUANOS SE SIENTE INSEGURA EN LAS CALLES",
+        "content": "Según la última encuesta nacional urbana de El Comercio-Ipsos, el 59% se siente inseguro, inclusive, en su casa.\n\nDentro del 76% que desaprueba la gestión del presidente Humala, la mayoría lo hace por la inseguridad ciudadana (60%).\n\nEl crimen está presente y así lo siente y teme la población.\n\nSegún la última encuesta nacional urbana de El Comercio-Ipsos, nueve de cada diez peruanos (el 90%) se sienten inseguros en las calles e, incluso, el 59% indica que no se siente a salvo dentro de sus viviendas. Además, 31% señalaron haber sido víctimas de la delincuencia en los últimos doce meses.\n\n[...] \n\n\"Lo terrible es que el 59% no se sienta seguro ni en su vivienda\", expresó un experto en seguridad."
+    },
+    {
+        "headline": "POPULARIDAD DEL BURGOMAESTRE SIGUE SUBIENDO",
+        "content": "\"APROBACIÓN AL ALCALDE DE LIMA\"\n\nSegún sondeo de El Comercio-Ipsos, el 69% de limeños aprueba su gestión. Expertos atribuyen el alza a la falta de oposición política real.\n\n[L]a popularidad del alcalde de Lima, Luis Castañeda Lossio, ha subido [...] Este incremento confirma la tendencia al alza [...].\n\n[C]ausas del aumento incluyen la proximidad de las elecciones generales y la ausencia de rivales políticos destacables."
+    },
+    {
+        "headline": "IMPORTANTE GOLPE AL TERRORISMO",
+        "content": "[...] Capturan 'René' y 'Uri', dos líderes senderistas clave en La Convención, Cusco. Esto marca otro paso adelante después de la eliminación previa de Gabriel y Alipio.\n\nLas últimas detenciones permiten a las fuerzas de seguridad tomar la iniciativa, debilitando la influencia de Sendero Luminoso en áreas cruciales."
+    },
+    {
+        "headline": "DICTAN LEY QUE REGULA EL USO POLICIAL DE ARMAS DE FUERZA",
+        "content": \"Publican dos nuevos decretos legislativos referentes al uso de armamento letal por parte de la Policía Nacional Peruana. Estos buscan regular situaciones específicas como defensa propia y protección de civiles.\"\
+    },
+    {
+        "headline": "CYCLISTS DEMAND SAFE SPACE ON COSTA VERDE ROADWAY",
+        "content": "Following the death of cyclist Gustavo López Mejía due to being hit by a vehicle, cyclists blockaded parts of the road demanding better safety measures against speeding vehicles along the route."
+    },
+    {
+        "headline": "INTERVISTA CON SILVANA MUTTI SOBRE ASISTENCIA HUMANITARIA EN EL VRAEM",
+        "content": "Silvana Mutti, directora regional del Comité Internacional de la Cruz Roja, habla sobre cómo están trabajando junto al gobierno peruano para desarrollar un protocolo destinado a ayudar a individuos liberados de cautividad, particularmente aquellos pertenecientes a comunidades Asháninka."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were identified through distinct headings followed by relevant textual bodies within the given input. Any non-article elements such as surveys, ads, etc., have been excluded according to specified rules.

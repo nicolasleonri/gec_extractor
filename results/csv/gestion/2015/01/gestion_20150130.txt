@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/01/gestion_30.txt ---
+
+```json
+[
+    {
+        "headline": "Azúcar la banca debe cuidarse en desarrollar opciones y alternativas para el ahorro de sus clientes.",
+        "content": "Para Vera, la principal preocupación es cómo lograr una mayor inclusión financiera en el país. \"Le vamos a dar un impulso este año a través del dinero electrónico\", añadi.\n\nPara mejorar la situación bancaria en el país, Torres-Llosa sugiere trabajar en tres variables principales: la información de centrales de riesgos públicas, la formalización de documentos para una rápida ejecución de garantías."
+    },
+    {
+        "headline": "Advírtelo Sentínels aumentan clientes de hipotecas con algún retraso en otros préstamos",
+        "content": "\"Cerca de 49,000 personas con crédito hipotecario figuran como buenos pagadores en la SBS, pero dejaron de cumplir pagos con entidades no reguladas.\" Guillermo... Para mejorar la inclusión financiera, según datos proporcionados por Sentinel, hay más retardo actualmente comparado con años anteriores."
+    },
+    {
+        "headline": "Guillermo...",
+        "content": "... Más mujeres acceden a hipotecas. Durante el 2014, el número de mujeres que fueron clientes de hipotecas subió 9.1%, mientras que el número de hombres subió 71%. Esto indica que las mujeres tienden a tener mejores puntajes de riesgo en Sentinel."
+    },
+    {
+        "headline": "Retornan acciones sector minero en enero",
+        "content": "El gerente general de Continental Bolsa, Jorge Ramos, señala que la expectativa del anuncio del Banco Central Europeo causó volatilidad internacional afectando a la bolsa local y global. \"Febreo podría ser mejor que enero\" menciona, destacando proyectos importantes entrando en producción especialmente en minería."
+    },
+    {
+        "headline": "Entrega de Derechos",
+        "* Resumen de movimientos de acciones en mercados locales e internacionales.*\nIndicadores económicos globales incluyen tasas de intereses y cotizaciones de commodities."
+    },
+    {
+        "headline": "Gabrielé en vivo",
+        "content": "Pese al apoyo de Humala, la oposición presentará el próximo lunes una censura contra Jara. Mandatario hizo eco a llamado de diálogo. Premiers rechazó que el jefe de estado sea parte de una campaña de desprestigio."
+    },
+    {
+        "headline": "Proceso",
+        "content": "Bolivia considerará expulsar a Belaunde Dosso si no demuestra ser perseguido políticamente. Tiene 15 días para sustentar su posición. Abogado solicita detención del trámite de extradición."
+    },
+    {
+        "headline": "Subasta de arte moderno portugués",
+        "content": "En su primera subasta del año, el Museo de Arte de Lima presenta obras jóvenes y creativas. Destaca una obra de Alejandro Jaime valuada en US$ 9,000."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure for each entry. Articles were identified based on context changes such as topic shifts indicated by headings or significant breaks between sections. Non-article elements like financial data summaries have been included where relevant but formatted appropriately under appropriate titles.

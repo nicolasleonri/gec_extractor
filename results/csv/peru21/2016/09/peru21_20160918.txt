@@ -1,0 +1,72 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/09/peru21_18.txt ---
+
+```json
+[
+    {
+        "headline": "\"EL EMPATE SE VALORA\"",
+        "content": "\"Por cómo se dio el\n\ndió, creo que \nfuesmos ganar,\nenfrentamos a un gran equipo,\nvivieron muchos momentos difíciles.\nDa bronca porque estábamos muy\ncerca del segundo gol\"."
+    },
+    {
+        "headline": "CLÁSICO. ALLIANZA LIMA IGUAL 1–1 CONTRA UNIVERSITARIANO EN UN CLÁSICO LLÉNO DE EMOCIÓN",
+        "content": "\"Un Clásico Picante\"\n\n\"Creo que debimos ganar, enfretamos a un gran equipo, viví muchas emociones durante el juego. Me duele especialmente porque estuve tan cerca del segundo gol.\""
+    },
+    {
+        "headline": NA,
+        "content": "\"Juan Novoa Shura\n\nContra Universidad Nacional\n\n‘’ ‘’\n\nUniversitarios entraron al campo de Matute llenos de energía. Parece que este espíritu les acompañará toda la noche contra Alianza Lima. Sorprendentemente, encontraron éxito cuando transformaron un centro en gol gracias a Juan Pablo Pino, resultando en un 1–1 que beneficia a los universitarios avanzando a semifinales del Descentralizado 2016, aunque deja a los últimos descendiendo posiciones generales.\""
+    },
+    {
+        "headline": "BARCELONA APABULLÓ 5–1 AL LEGANÉS CON GOLES DE LA MEJOR FORMACIÓN",
+        "content": "\"Barcelona recuperó la sonrisa después de perder frente al Alaves. Esta vez, gracias a Messi, Suárez y Neymar Jr., conocidos como la 'MSN’, consiguieron revertir la situación y aplastar 5–1 al Leganes en su propio terreno. Este resultado marca el regreso victorioso de Barça en la liga española.\""
+    },
+    {
+        "headline": "SPORTING CRISTAL BUSCAR OTRO TRIUNFO ANTE DEFENSORES DE LA BOCANA",
+        "content": "\"Sporting Cristal buscará continuar su buena racha al recibir a Defensor La Bocana. Buscan mantener su posición líder acumulando más puntos en la competición actual.\""
+    },
+    {
+        "headline": "MESSÍ ES RELEVADO POR SU CAPACIDAD PARA DECIDIR PARTIDO",
+        "content": "\"Guardiola destacó a Messi diciendo que él siempre está entre los mejores, seguido de cerca por otros talentosos futbolistas como De Bruyne.\""
+    },
+    {
+        "headline": "VARILLAS Y PANTA FALLAN ANTE VENEZUELANOS",
+        "content": "\"La dupla peruana formada por Juan Pablo Varillas y Brian Pantojas sufrió una derrota significativa contra Venezuela, complicando así el avance directo de Perú en la zona americana de la Copa Davis.\""
+    },
+    {
+        "headline": "GRAN BRETAÑA DESCONTÓ ANTE ARGENTINA",
+        "content": "\"Andy Murray experimentó dificultades en su camino dentro de la semi-final, donde Argentina demostró superioridad sobre Gran Bretaña en partidas cruciales.\""
+    },
+    {
+        "headline": "VERSTAPPEN LOGRA POLE POSITION EN GRAND PRIX DE SINGAPUR",
+        "content": "\"Max Verstappen obtuvo el mejor tiempo en clasificación previa al Grand Prix de Singapur, mostrándose listo para dominar la primera línea de salida junto a Lewis Hamilton.\""
+    },
+    {
+        "headline": "GOBERNADOR IRANI MUERE DURANTE COMPETENCIA CYCLE",
+        "content": "\"Durante la categorización de ciclo deportiva, ocurrieron eventos lamentables incluyendo el fallecimiento del gobernador Irani, afectando gravemente al evento competitivo.\""
+    }
+]
+```
+This extraction captures various sports-related headlines along with their corresponding contents based on the provided input data while adhering strictly to the defined scope and goal for extracting relevant information. Non-article sections such as recipes were excluded according to guidelines.
+
+--- ERROR ENTRY: data/txt/peru21/2016/09/peru21_18.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista. Humberto Morales, Congresista por el Frente Amplio",
+        "content": "SEÑALA QUE EL CONGRESO DEL BLOQUE SE REALIZARÁ EN NOVIEMBRE Y PRÓXIMA SEMANA COMO QUIEREN LOS SEGUIDORES DE MENDEZ\n\n\"La crisis en el Frente Amplio es inevitable\", asegura.\n\nDatos:\nHumberto Morales nació en el distrito de Chincho, provincia de Angaraes, Huancavelica. Estudió en la Universidad Nacional San Cristóbal de Huamanga. Bachiller en Ciencias Agrarias.\n\nSEMBRAR INCENDIA LA PRADERA AL SEPARARSE SUS LEGADOS MARISA GLAVE, PEDRO FRANCHE E IRMA PFUKKER DEL COMIT PERMANENTE DEL FRETE AMPLIO?\n\nEste solo es responsabilidad de Tierra y Libertad. \"Publicamos un comunicado oficial...\". Había propuestas nuestras y también de Sembrar, de Verónica Mendoza. Pero al momento de votar, Marisa y ellos votaban por las de Sembrar, sin defender la posición de Tierra y Libertad, de donde son militantes.\n\nLE ADVIRTIERON QUE SERÍAN SEPAREIDOS?\n\nNo han sido separados del partido sino del comité permanente del Frente Amplio. Clarísimo, se lo advertimos...\nPero ¿POR QUÉ PIDEN LICENCIA FRANCHE, GLAVE Y PLÜCKER?\n\nNO ESTABAN DE ACUERDO CON LO DICHO POR TIERRA Y LIBERTAD. CLARAMENTE LES ADVERTIMOS...\n\nELLOS DIJERON QUE FUERON SORPENDIDOS...\n\NCADA UNO ES RESPONSABLE DE SUS PALABRAS, NO TENGO PORQU DISPUTAR, ADICIONALMENTE MARISA ES UNGRA DAMA. \n\nTIERRA Y LIBERTAD OFRECIO SU INSPIRICIÓN PARA FORMAR PARTE DEL COMITE EJECUTIVO NACIONAL DEL FRENTE AMPULO POR JUSTICA, VIDA Y LIBERTAD."
+    },
+    {
+        "headline": "\"¿Qué es el FA entonces?\"",
+        "content": "\n\"FA, pero cuando vienen las votaciones comienzan a votar por Sembrar.\" \n\n\"Abriendo la inscripción en el Frente Amplio fue otro encontrónazo que tuvieron con Mendoza, Glave, Francke, Plücker y varios otros.\"\n\n\"Hay discrepancia, según él, tierra y libertad ya no existe sino el frenté amplio. Correcto, puedes ser militar del fa llenando una ficha. Lo que no puede es inscribirse como sembrar o grupo político.\"\n\n\"Cómo?, legalmente deben asumir los estatutos y normas del TYLF.A. Cuando cambiarán de nombre de TYL a FA modificarían los estatutos? Son los mismos, no hemos cambiado absolutamente nada. Por eso digo que es un falso debate. Cuál es la tendencia, desaparecer una organización y quedarse con la inscripción? Destruir al compañero Marco Arana...\"\n\n\"Es obvio que para varios milites de TYL-F.A. el liderazgo de Mendoza (sembrar) ha remplazado al de Arana. La disquisición no es sobre mendez sino cómo nos ordenamos en ty-l-f.a. Nadie ha tirado por el suelo el frente amplio (...)"
+    },
+    {
+        "headline": "Trabajo Organizado",
+        "content": "\"Veronica Mendez no es la causa del triunfo, ha sido un conjuntos de esfuerzos de militantes y simpatizantes. Es mentira que la revolución bolchevique se debió a lenín. No funciona así, la historia la hace el pueblo.\"\n\n\"Mendez es valiosa para el frente amplio? Como cualquiera otra militante. Mendez enarbole un hashtag 'vamos por más...' Me suena a un cliché fujimorista. Preferiría 'con el pueblo sí podemos'.\"\n\n\"Comienza a proyectarse para la Presidencia en el 2021. Parece tener prisa, no? Para ellos está en juego eso, están hablando de votos, de caritas bonitas, de marketing. Nosotros hablamos de partido, de ideología, de trabajo...\"\n\n\"Cómo no se dieron cuenta de esto antes? No sé. Comenzaron bien con nosotros, ahora están en este debate. No hay que jalarse de los pelos tampoco. El debate es necesario, será más centrado en nuestro congreso de Noviembre. Respectuosamente respondámonos como organización. Si hacen su evento del 25 de septiembre, nosotros no podríamos responder a una inscripción de estas personas, luego de noviembre podemos debatirlo. Qué es la desesperación?"
+    },
+    {
+        "headline": "OPINIÓN Juan José Garrido director periódico.com",
+        "content": "\"Nombrar a un Defensor del Leitor, a comienzos del año pasado, jamás esperábamos el impacto tan positivo que ello tendría en el Diario y, sobre todo, en la relación con nuestros Lectores y la Sociedad en su Conjunto. Hoy, Presentamos con mucha alegría a Claudia Izaguirre como nuestra Defensora del Lector. Claudia Ha sido una Pieza Fundamental en la Arquitectura de Este Diario: Trabajó Desde Sus Inicios Hasta el 2014, ocupando Distintas Posiciones y Asumiendo Distintas Responsabilidades Hasta Llegar a editora Central de Esta Casa. Es una Persona que Respira Periodismo, Tiene un Tremendo Talento para Identificar Prácticas, Procesos y Principios. Es, en Dichosen Sentido, una Persona Índea para el Encargo.\"\n\n\"En cuanto Imaginamos la Pertinenica de Nombrar a un Defensor Del Lector, Sabíamos que Era Importante Limitar el Poder Mediático mediante Autorregulación Interna. La Figura del Defensor del Lector No Menosprecia la Rigurosis del Medio. Mucho Más Bien, La Estimula. Ningún Error Evitará que Se Cometan Errores, Menos aún Usar un Poder de Manera Indebida. Lo que Podemos Hacer es Buscar Limítalo y Remediarlos. Claudia Izaguirre Gozará, Como Defensora, de Absoluta Libertad de Acción. Nuestro Compromiso con los Principios Rectores, Así como con Nuestro Decalogio y Nuestros Valores Personales y Profesionales, Son Nuestra Mejor Guía en el Dia-a-Día. Por Éste Motivo Entonces, Daré la Bienvenidas a Claudia, Desearle el Mayor Xito e Incentar a Nuestros Lectores a Usar Dicha Canal Cuando Sientan que el Medio Pudo Hacer las Cosas Mejor (o También, Cuando Deseen Brindar Algúna Retroalimentación Acerca de Temas Particularizados). Nuestro Compromiso con Ustedes, Nuestros Lectores, es Clara: Brindarles el Mejor Periodismo Posible, de Tal Forma que la Toma de Decisiones Cuente con la Información Más Completa Posibles.\""
+    }
+]
+```

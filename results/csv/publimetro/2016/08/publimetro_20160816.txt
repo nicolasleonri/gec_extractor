@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/08/publimetro_16.txt ---
+
+```json
+[
+    {
+        "headline": "Barack Obama declara emergencia al sur oriente",
+        "content": "Hoy en día, uno pensaría que permitirá a las autoridades locales disponer de fondos federales para financiar la ayuda a las víctimas.\n\nA las tareas de búsqueda y rescate se unieron 1700 agentes de la Guardia Nacional que han sido desplegados en todo el estado.\n\nLos desplazados recibieron 1,2 millones de litros de agua y 750.000 raciones de comida, mientras tanto esperan que la fase de búsqueda y rescate termine."
+    },
+    {
+        "headline": "En Mercosur, Uruguay desestima presidencia colectiva en el bloque",
+        "content": "\"No está previsto, y si lo estuviera, igual necesitamos un consenso\", indicó el canciller uruguayo, Rodolfo Nin Novoa.\n\nEstos países – se oponen a que Venezuela asuma la presidencia pro tempore del bloque, como le correspondería, por la crisis que atraviesa. Además, Caracas aún no ratificó algunas normas de Mercosur."
+    },
+    {
+        "headline": "Playas sin burkinis",
+        "content": "Medio centenar de municipios españoles han adoptado medidas restrictivas respecto al baño integral en sus costas. Ya son tres las localidades que han prohibido el uso de esta ropa de baño para mujeres musulmanas en sus playas: Cannes, Villeneuve-Loubet y Six-Fours-les-Plages.\n\n\"Esto abre la puerta a la prohibición de todo signo religioso en espacios públicos.\" Sefen Guez Guez, vocero del Colectivo contra la Islamofobia en Francia."
+    },
+    {
+        "headline": "Noticias de los JJ.OO. de Rio",
+        "content": "El pesista peruano Hernán Vera (23), que debutaba en unos Juegos Olímpicos, se colocó décimo tercero en la categoría de 105 kilos tras cargar un total de 351 kilos (151 en arranque y 200 en envión) y quedarse a cuatro kilos del récord nacional. \n\nLa medalla de oro fue para el uzbeco Ruslan Nurudinov (431 kilos).\n\nThiago Da Silva dio la sorpresa y le dio ayer a Brasil su segundo oro en Río. Fue en salto con garrocha, donde superó los 6,03 metros, nuevo récord olímpico."
+    },
+    {
+        "headline": "Milagro deportivo universitario frente a Emelec",
+        "content": "Desde las 9 p.m. (emitido por Fox Sports) en el Estadio Christian Benitez de Guayaquil, EMELEC recibió hoy a Universidad Católica, que tentará revertir el 3–0 sufrido en la ida por la primera fase de la Copa Sudamericana, jugada el pasado martes 9 en Lima."
+    },
+    {
+        "headline": \"Jackelyn Friedman Licenciada en Nutrición\",
+        "content": "Hipotiroidismo y dificultad para perder peso. Muchas personas sufren frustración porque a pesar de seguir una dieta para bajar de peso y realizar rutinas de ejercicio, no logran eliminar esos kilos extras. Una posible causa podría relacionarse con problemas de función tiroidea."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and format requirements. Articles were identified through distinct headings followed by relevant textual information. Non-article sections such as ads, sports scores unrelated directly to narrative journalism, etc., have been excluded according to specified rules.

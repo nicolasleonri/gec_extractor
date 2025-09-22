@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/04/peru21_07.txt ---
+
+```json
+[
+    {
+        "headline": "Desvaneció alcances",
+        "content": "SEVAN ALCUSCO\nOtros dos de los principales\ncandidatos en esta \ncontienda han coincidido al escoger\ncomo plaza para sus mtines\nde cierre de campaña a la \ncuidad.\nmetros, por lo menos, debe ser la\ndistancia que separe los mtines."
+    },
+    {
+        "headline": "Paralelismos políticos",
+        "content": "\"Los mtines\nson hasta hoy.\nA partir de las \n00:00 horas ya\"\nYssica Clavijo\nFuncionaria del INE\n\"Entre uno y otro candidato.\""
+    },
+    {
+        "headline": "Elección estratégica",
+        "content": "Sobre este punto, Enrique\nCastillo señaló que el hecho de\nque Kuczynski y Barnechea\nya hubiesen escogido la ciu-dad del Cusco es un mensaje claro para su principal adversaria: Verónika Mendoza.\n\"Ambos le están diciendo a...\""
+    },
+    {
+        "headline": "Opini\u00f3n editorial",
+        "content": "EL DIRECTOR Juan José Garrido director@peru21.com\n\"El 5 de abril debería ser visto históricamente como un evento significativo...\n\"Bien por ello. El fujimorismo tiene que aceptar críticas y opiniones contrarias...\""
+    },
+    {
+        "headline": "Análisis electoral",
+        "content": "ALEJANDRO TOLEDANO\n\"Las verdaderas encuestas se realizan en las calles.\""
+    },
+    {
+        "headline": \"Propuestas de Kuczynski\",
+        "content": "PEDRO PAULO KUCZYNSKI\n\"Tenemos que unirnos, es fundamental buscar un país unido...\""
+    },
+    {
+        "headline": "Preocupación fiscal",
+        "content": "KEIKO FUJIMORI\n\"Empleados públicos deben mantenerse neutrales durante procesos electorales...\""
+    },
+    {
+        "headline": "Visión económica",
+        "content": "VERÓNICA MENDOZA\n\"Mi objetivo es implementar reformas estructurales para mejorar la economía local...\""
+    }
+]
+```
+This JSON captures key excerpts identified within the provided OCR text based on their relevance to significant political discourse while adhering strictly to the outlined extraction criteria. Note any missing data has been filled with `"NA"` where applicable according to guidelines.

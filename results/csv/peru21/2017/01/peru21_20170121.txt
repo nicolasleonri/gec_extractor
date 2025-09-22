@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/01/peru21_21.txt ---
+
+```json
+[
+    {
+        "headline": "FISCALA ACUSA A GOBERNADOR REGIONAL DEL CALLAO DE PRESUNTO DELITO DE COLUSIÓN AGREVIADA",
+        "content": "Denuncian a Félix Moreno\npor obras en Gambetta.\nAnticorrupción pide\ntomar acciones drásticas.\nLa Primera Fiscalía \nEspecializada en Delitos de Corrupción\nde Funcionarios del Callao,\na cargo de Plínio Hermoza,\nfundamentó denuncia por colusión\nagraviada contra el gobernador regional\ndel Callao, Félix Moreno, debido\na irregularidades detectadas en la ejecución\nde trabajos de remodelación en la\navenida Néstor Gambeta."
+    },
+    {
+        "headline": "RECOMIENDAN LA DEROGACIÓN DE NORMATIVA QUE TRANSFERÍA EL INEN AL MINSA",
+        "content": "Se opone a regulación sanitaria.\nComisión de Constitución aprueba sugerencia\npara revocar el Decreto Legislativo 1305,\nelaborado mediante poderes especiales,\ny que movió el Instituto Nacional de\nEnfermedades Neoplásicas (INEN)\nal Ministerio de Salud (MINSA).\nSegún explicó el líder de la comisión,\nestá fuera de las capacidades establecidas.\nIndicaron enviarán la recomendación\na la Comisión Permanente u otra instancia\nlegislatura para discusiones adicionales."
+    },
+    {
+        "headline": "INTERÉS POR UNA SOLUCIÓN SIN ASAD EN EL CONFLICTO SIRIO",
+        "content": "\"Siria necesita involucrar a todas partes interesadas,\" afirma Mehmet Şimşek,\nvicesecretario turco. \"Excluir a Bashar al-Assad parece poco realista.\""
+    },
+    {
+        "headline": "TRUMP COMPLETA PRIMER DISCURSO PRESIDENCIAL AMBIENTANDOSE CAÓDICAMENTE",
+        "content": "Washington.- Durante su primera intervención pública,\npresidente Donald Trump enfoca políticas internas\ny externas priorizando EE.UU. ante otros países.\n\"Ser prioritario será nuestra guía\", mencionó.\nSin embargo, manifestantes provocaron disturbios\nresultando en numerosos arrestos mientras él hablaba."
+    },
+    {
+        "headline": "ODIBERTHA OFRECERA REPARACIONES MILLONARIAS A REPÚBLICA DOMINICANA",
+        "content": "San Domingo.—Constructora admite compensará\n\$184 millones por prácticas corruptas\nen contratos públicos. Además, está suspendida\ntemporalmente en futuras licitaciones según\nautoridades locales."
+    },
+    {
+        "headline": "DESCUBREN PERSONAS VIVEN DESPUÉS DE ACCIDENTE NEVADO ITÁLICO",
+        "content": "Diez individuos hallados con vida después de\navalancha devastadora en Hotel Rigopiano.\nAutoridades italianas intensifican búsqueda\na pesar de adversidades climáticas severas."
+    },
+    {
+        "headline": "CRISIS LEGISLATIVA POST-INVESTIGACIÓN RELATIVA A LOS SODALICIENSES",
+        "content": "Periodista Pedro Salinas critica manejo legal\ntras investigación inicial impulsada por\ninforme publicado. Denuncia negligencia\ny posible influencia eclesiástica detrás de\ndecisiones judiciales controversiales."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected due to substantial journalistic value within the given context. Other sections like ads, listings, and non-content elements have been excluded according to specified criteria.

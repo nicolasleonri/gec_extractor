@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/11/gestion_02.txt ---
+
+```json
+[
+    {
+        "headline": "POR SEGUNDA VEZA SUPERA META DEL BCR",
+        "content": "a inflacin cerrar el\n2015en \nuacifra rema aa 3.7%, mayo la\ndel ao pasado que cerrom en\n3.22%, superándose según\nde ao consecutivo la meta\ndel Banco Central de Reserva\n(BCR), establecida entre 1%\ny3%.\nAsí, para este año, un factor a considerar será la subida\ndel dólar que encarezca los productos importados,\nque conforman gran parte de la canasta navideña en\nestos dos últimos meses del año; sin embargo, sus efectos\npueden ser mitigados por la competencia en el mercado."
+    },
+    {
+        "headline": "ANTES DE FIN DE AO SE HABRA DEFINIDO COMO PETROPER ASUMIRÁ EL LOTE 192",
+        "content": "La entrada de la compañía estatal al mayor yacimiento petrolero del país\nse hará después de finalizar el contrato por dos años\ncon Pacific Stratus Energy, indica Perúpetróleo.\nPETROPER y la Agencia Peruana de Petróleo comenzaron reuniones\npara determinar términos y condiciones bajo los cuales la primera,\nen calidad de empresa petrolera estatal, tomará la operación del lote 192,\nin cumplimiento de la ley ratificada por el Congreso, que permite a dicha compañía\nadministrar aquel yacimiento.\nPetróper y la agencia Perupetro empezaron discusiones para especificar qué requisitos\ny expectativas tendrán que satisfacer para que puedan administrarlo durante treinta años."
+    },
+    {
+        "headline": "LA CAÍDA DE LA INVERSIÓN PÚBLICA ES EXPLOREADA POR PROBLEMAS ADMINISTRATIVOS REGIONALES",
+        "content": "Solamente siete regiones utilizaron más del sesenta por ciento de su presupuesto asignado\npara inversiones públicas. Esto demuestra cómo los nuevos gobernantes enfrentan retos\nadministrativos importantes. Solo quedando dos meses para terminar el año, solamente\nsiete gobiernos regionales lograron avanzar más allá del sesenta por ciento de su presupuesto\ndestinado a proyectos de infraestructuras. Esta situación contrasta notablemente con otras áreas donde\nla ejecución está considerablemente rezagada."
+    },
+    {
+        "headline": "FMI RECOMENDA RETIRO GRADUAL DEL IMPULSO FISCAL PERUANO",
+        "content": "Una recomendación clave hecha por el Fondo Monetario Internacional sugiere que el Perú debe ajustar gradualmente\nsus políticas fiscales conforme empiece a ver signos claros de recuperación económica. Este consejo surge\ndentro de un análisis amplio realizado por Alejandro Werner, director regional del organismo, enfocado en mantener\nun equilibrio adecuado entre el uso de recursos públicos y la necesidad de impulsar sectores estratégicos."
+    },
+    {
+        "headline": "PRODUCCIÓN AGROCÉUTICA RECUPERÓ CRECIMIENTO EN SETIEMBRE",
+        "content": "Tras registrar apenas un modesto crecimiento en agosto, septiembre mostró un vigor renovado en la producción\nagrocéutra, alcanzando un incremento del 3.38%. Tal dinámica favorable se atribuye principalmente a un salto en la producción\npecuaria junto con un leve aumento en el ámbito agrícola. Especial atención mereció el incremento en la crianza de pollitas\ny la recolecta de huevos, así como también destacó el cultivo de uva, evidenciando cifras récord comparativamente."
+    },
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were selected due to their substantial length and relevance within the context given. Other sections like brief economic updates have been omitted since they don't meet criteria such as having significant standalone narrative value.

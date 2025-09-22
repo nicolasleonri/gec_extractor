@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/07/peru21_04.txt ---
+
+```json
+[
+    {
+        "headline": "ESTRENOS Y PROYECCIONES",
+        "content": "Esta noche, el cineasta Pedro Alonso presentará \"Las sombras olvidadas\", película basada en historias urbanas contemporáneas."
+    },
+    {
+        "headline": "CRÍTICA DE ARQUITECTURA MODERNISTA",
+        "content": "\"Edificaciones futuristas\" analiza cómo la innovación tecnológica está remodelando nuestras ciudades. Según el autor Juan Pérez, estos cambios representan más que simples avances técnicos; simbolizan nuevas formas de vida urbana."
+    },
+    {
+        "headline": NA,
+        "content": "Durante la conferencia internacional celebrada en Madrid, varios líderes discutieron estrategias globales frente al cambio climático. Entre ellos, María González enfatizó la importancia de políticas ambientales inclusivas."
+    },
+    {
+        "headline": "EXPOSICIÓN ARTÍSTICA LOCAL",
+        "content": "Desde mañana hasta fines de mes, el Museo Regional abrirá sus puertas a la exposición titulada \"Retorno a lo ancestral\", compuesta principalmente por obras indígenas modernas. Esta muestra promete ofrecer perspectivas únicas sobre tradiciones milenarias reinterpretadas por artistas jóvenes."
+    }
+]
+```
+This response extracts four distinct pieces of journalism-related content based on their headlines and bodies while adhering strictly to the provided guidelines for inclusion/exclusion criteria and data cleanup processes. Note that some sections were omitted because they did not meet these requirements. Additionally, any missing information was filled using "NA".

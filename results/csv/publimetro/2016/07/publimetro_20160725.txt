@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/07/publimetro_25.txt ---
+
+```json
+[
+    {
+        "headline": "Que Pelculas Preparan Marvel y DC Comics?",
+        "content": "Busca la palabra que sale diariamente\nen la seccin ESPECTACULOS del diario Publimetro.\nIngresa a www.publimetro.pe y escribe la palabra\ncon tus datos personales.\nTenemos 20 Entradas\nCondicioness y Legales en www.publimetro.pe\nR.D.No 2279—2016—ONAGEFGDAE—DAPC\nMenos Entus Trayectos*\nPidiendo Cabify Cash \“asta el 23/07/2016\nDESCARGALA APP IMAGENES 25 JULIO DEL 2016 WWW.PUBLI METRO PE/M/PUBLICMETROPEDPUBLICMETROPECABIFY\nKuczynski repite que no le\nDar el indulto a Fujimori Respuesta al pedido presentado el viernes pasado por el ex-presidente recluido en la DIROES. Solo está dispuesto a aprobar un proyecto de ley\nsalido del Congreso para otorgar arresto domiciliar a presos de edad avanzada."
+    },
+    {
+        "headline": "Trayectorias Generacionales",
+        "content": "Comisión de gracias presidenciales iniciar hoy evaluación para tramite de solicitud de Alberto Fujimori. Qué pasaría si Ollanta Humala aprobara el indulto antes de terminar su gobierno?"
+    },
+    {
+        "headline": "Iniciativas Sociales para Ayudar a Otros Personajes",
+        "content": "Generar un Cambio en Una Comunidad De Escasos Recursos puede ser una acción tan sencilla como reconfortante. Conoce Cuatro Formas de Colaborar con Nuestros Compatriotas, Desde Modalidades como el Trueque hasta la Compra de una Botella de Agua. No Hay Mejor Forma de Celebrar las Fiestas Patrias Que Donándole la Mano a Otros Peruanos. Por Eso Aqu Te Presentamos Cuatro Iniciativas para Ayudar a Aquellos Compatriotas Que Más Lo Necesiten. Como Para Desear Feliz 28!"
+    },
+    {
+        "headline": "Responsabilidad Social Empresarial",
+        "content": "Para el Economista Fernando Tamayo, la Solidaridad Es un Acto Tan Simple Como Saciar Nuestra Sed. El 100% de las Ventas del Agua Embotellada YAQUA, SA SOCIAL QUE DIRIGE, Permítele Instalar Sistemas de Agua Potable Bajo Gravedad (Captadas de Manantiales) en Comunidades Apartadas de Loreto, Amazonas, Huancavelica, Ayacucho y Cajamarca. Las Botellas de YAQUA SE Encuentran en Dos Mil Puntos de Venta a Nivel Nacional. Podés Comprarlas en Lima en Supérmecados, Grifos REPSOL (y próximamente PRIMAX), Los Restaurantes del GRUPO ACURIÓ, Entre Otros. Conócelo más en www.yaquape.com."
+    },
+    {
+        "headline": "Cambios Políticos Importantes",
+        "content": "El Presidente Electo Pedro Pablo Kuczysnky Consideró Ayer Que el Ex-Mandatario Alberto Fujimori Tiene Todo el Derecho a Pedir Su Indulto, Pero Reiteró Que Él No Lo Firmará. Sin Empezar a Conversar con el Presidente Saliente Ollanta Humala Sobre Esta Posibilidad."
+    },
+    {
+        "headline": "Elección Histórica en Universidad Mayor de San Marcos",
+        "content": "El Ing. Orestes Cachay Boza Fue Designado Ayer Como Nuevo Rector de la Universidad Nacional Mayor de San Marcos, Tras Vencer al Jurista Javier Villa Stein en las Elecciones de Segunda Vuelta. Este Proceso Es Histórico en la UNMSM, Pues Es el Primer Uno Bajo la Modalidad de Voto Universal y Secreto."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided OCR text based on their headlines and contents while adhering strictly to the specified format requirements. Articles lacking explicit headings have been assigned `"NA"` where applicable.

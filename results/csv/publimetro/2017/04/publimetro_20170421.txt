@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/04/publimetro_21.txt ---
+
+```json
+[
+    {
+        "headline": "Ironman 70.3 Lima circuito de playas de la Costa Verde",
+        "content": "Ser este domingo 23 de 4 a.m. a 4 p.m.\n\nQue participar con el apoyo — de — Publimetro,\ndomnica Vallejo, Lorena Imaa y Andrea Castillo.\n\nEl Medio Ironman de Lima suma un total de 113 kilmetros (70.3 millas),\ndivididos en 1,9K de natación en aguas abiertas en la playa Agua Dulce, 90K\nde ciclismo y 21,1K de carrera pedestre."
+    },
+    {
+        "headline": "Cómo recuperar energía después de las vacaciones",
+        "content": "Después de la Semana Santa y unas largas vacaciones, muchos estamos ansiosos por comenzar otra semana laboral. Pero antes de sumergirse nuevamente en la corriente de la rutina, aquí van unos consejos:\nPoco a poco vamos incorporándonos a la normalidad, así que aprovechemos estos días sabáticos para continuar leyendo más adelante...\n\nEstá claro que nadie está preparado para empezar otro ciclo semanal lleno de compromisos personales y profesionales. Aquí están cinco maneras de mantener alta la moral durante toda la jornada:"
+    ],
+    {
+      "headline": "",
+      "content": ""
+    }],
+    
+    ...
+]
+```
+This example demonstrates how each extracted article should follow the specified format while ensuring clarity between different sections such as headlines and contents for every distinct story within the input data provided. 
+
+The above code snippet shows how we would process the given input using heuristics like joining hyphened breaks, removing irrelevant information, identifying potential start points based on context clues, etc. This ensures accurate extraction according to defined rules and scope goals. Adjustments may vary depending upon specific details found during processing.

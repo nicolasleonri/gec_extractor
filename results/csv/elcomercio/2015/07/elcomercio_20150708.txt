@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/07/elcomercio_08.txt ---
+
+```json
+[
+    {
+        "headline": "Arriba al parque Bicentenario, el Sumo Pontífice dispuso detener el vehículo...",
+        "content": "Para besé a una anciana que había a un costado, a quién también le prodigió un abrazo y bendiciones.\n\n\"No nos esperábamos nunca lograr alcanzar este gran gesto del Papa\", dijo Liliana Rueda, hija de la anciana.\n\nAntes de oficiar misa, el Papa se reunió con obispos ecuatorianos y, en la tarde, visitó la Universidad Católica. Concluyó su jornada con un encuentro con la sociedad civil, a la que fueron invitados indígenas opositores al mandatario Correa."
+    },
+    {
+        "headline": "La OMS pide aumentar los impuestos sobre el tabaco y sus derivados",
+        "content": "\"La Organización Mundial de la Salud (OMS) indica que los países deben imponer más impuestos sobre el tabaco y sus derivados, para así reducir el número de muertes que causa su adicción y generar más fondos para los sistemas de salud.\""
+    },
+    {
+        "headline": "NASA's probe approaches Pluto despite technical failures",
+        "content": "\"The space probe New Horizons of NASA, which heads towards Pluto, experienced technical issues preventing data collection. According to official sources, the problem was resolved and the spacecraft maintains its course directly toward the dwarf planet.\""
+    },
+    {
+        "headline": "Climate anomaly collapses ice caves in Washington",
+        "content": "\"Popular among tourists' ice caves partially collapsed in the state of Washington due to abnormal heat for the season, resulting in one death and several injuries. Authorities blame climate change.\""
+    },
+    {
+        "headline": "New treatments show cervical cancer isn't synonymous with infertility",
+        "content": "\"There are now treatment options like trachelectomy and cone biopsy that remove tumors while preserving fertility after surgery. These methods allow women under certain conditions to maintain their ability to conceive post-treatment.\""
+    },
+    {
+        "headline": "How to avoid being victimized by cyberattacks at work",
+        "content": "\"Employees should not trust emails of dubious origin and regularly update security systems. Kaspersky Lab recommends these steps along with using verified memory sticks and keeping devices updated.\""
+    },
+    {
+        "headline": "Tony Cueva, first Peruvian accepted to participate in MIT entrepreneurship camp",
+        "content": "\"Tony Cueva developed 'Drop', a device aimed at improving life quality for people suffering hyperhidrosis through iontophoresis technology integrated within wearable tech. His project aims to provide non-invasive sweat reduction therapy three times weekly.\""
+    },
+    {
+        "headline": "Editorial: EU shows serious limitations amid Greek tragedy",
+        "content": "\"Greece’s economic management has been criticized alongside European Union institutions for creating tension leading up to Greece's financial troubles. This editorial discusses how both parties have contributed to current challenges faced by Greece.”"
+    },
+    {
+        "headline": "Importance of mining investments discussed amidst ideological divides",
+        "content": "\"Debate continues over whether growth driven by private investment outweighs potential environmental impacts. Critics argue against prioritizing GDP increases over sustainable development practices.”
+    }
+]
+```
+This JSON captures key headlines and contents extracted from various sections of the provided newspaper text according to specified criteria. It excludes irrelevant information such as ads, subscriptions prompts, etc., focusing solely on substantial journalistic pieces.

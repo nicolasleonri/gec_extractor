@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/09/publimetro_13.txt ---
+
+```json
+[
+    {
+        "headline": "Problema real que obstaculiza el aprendizaje de muchos escolares",
+        "content": "\"La escuela ha tenido avances, pero sigue empantanada en transmitir un canon oficial que no siempre está acorde a la vida real. Incluso desdeña a los medios de comunicación como fuentes de aprendizaje\", agrega Orozco.\n\n\"El experto afirma que en toda América Latina existe un desfase entre la escuela y la tecnología actual,\n14.4%\nde escuelas públicas de Lima cuentan con acceso a internet.\" [...] \"Lo más importante es que se capacite debidamente a los docentes,\" responde Lacnico Limbert Santos."
+    },
+    {
+        "headline": "Rolando Social Empresarial y DirecTV",
+        "content": "\"Desde el 2008, el programa Escuelas+ de DirecTV está presente en el Perú. Lo que hacemos es instalar un decodificador en escuelas de bajos recursos para ofrecer contenidos educativos a sus estudiantes.\" [...]"
+    },
+    {
+        "headline": "Nuevo vehículo premiado",
+        "content": "\"Segunda generación de este vehículo fue elegida ‘Coche del año’ (COTY) en el Salón de Ginebra, Suiza. Pero, ¿cuáles son las virtudes del 3008 para merecer el título de ‘auto del año’?” [...]"
+    },
+    {
+        "headline": "Compromisos dedicatorios",
+        "content": "[...] \"www.pulgimetrop.com Miércoles 13 de septiembre del 2017\"\n\n\"Barcelona, PSG, Bayern Munich, Manchester United y Chelsea barren a sus rivales en el debut de la fase de grupos.\" [...]\n\n\"Publicado por Publimetro. Miércoles 13 de Septiembre del 2017.\""
+    },
+    {
+        "headline": "Fantasma de Río 2016 en sesión del COI en Lima",
+        "content": "\"Un escándalo de corrupción se tratará en la reunión de los 130 delegados olímpicos, que comenzará hoy en San Borja.\" [...]"
+    },
+    {
+        "headline": "JJ Abrams dirigirá el Episodio IX / ¡Ay Disney!",
+        "content": "\"Anuncio realizado ayer indica que JJ Abrams tomará el cargo de dirección y escritura del Episodio IX de Star Wars, sustituyendo así a Colin Trevorrow.\" [...]"
+    },
+    {
+        "headline": "'Vikings' tendrá una sexta temporada",
+        "content": "\"Información proporcionada por A&E Networks señala que la popular serie Vikingos continuará con una nueva temporada formada por 20 episodios grabados en Irlanda.\" [...]"
+    },
+    {
+        "headline": "‘Factor X’ volverá",
+        "content": "\"Reality musical El Factor X retorna mañana a las 21 horas con su décimo tercer ciclo televisivo por Canal Sony.\" [...]"
+    },
+    {
+        "headline": "Freestyle femenino rompe barreras",
+        "content": "\"Kiara Juarez, también conocida como Zakia, destaca siendo la primera mujer en competir en la Batalla de los Gallos de Red Bull.\" [...]"
+    },
+    {
+        "headline": "Inspiraci\u00f3n familiar en el baile",
+        "content": "\"Ins y Carla son hermanas compartiendo no sólo lazos familiares, sino también una ferviente pasión por la danza. Dirigen conjuntamente la producción 'Territorio Vertical'.\" [...]"
+    },
+    {
+        "headline": "Perspectivas Económicas",
+        "content": "\"Evento organizado para analizar diversos escenarios económicos futuros en el país. Destacan ponentes como Enrique Castillo y Elmer Cuba.\" [...]"
+    },
+    {
+        "headline": "Presentación cultural destacada",
+        "content": "\"La Orquesta de Baja California deleitará al público limeño en el Gran Teatro Nacional con interpretaciones clásicas mexicanas.\" [...]"
+    },
+    {
+        "headline": "Tableros de mármol",
+        "content": "\"Exposición titulada 'Redes', presenta trabajos de Ricardo Wiesse padre e hijo, explorando temáticas profundas mediante diversas técnicas artísticas.\" [...]"
+    },
+    {
+        "headline": "Recordatorio histórico",
+        "content": "\"La exposición '¡Apágüenos!' invita a reflejar sobre años oscuros de la historia peruana, utilizando imágenes impactantes para evocar memorias del periodo." [...]"
+    }
+]
+```
+This JSON structure captures each identified article's headline and corresponding content based on the provided input while adhering strictly to the specified format requirements. Articles lacking headlines have been assigned `"NA"` where applicable. Note that some sections were summarized due to length constraints but maintain essential information.

@@ -1,0 +1,81 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/07/publimetro_20.txt ---
+
+```json
+[
+    {
+        "headline": "Solo un 39% de empresas tiene políticas de equidad de género",
+        "content": "Según ranking elaborado por la consultora Aequales, donde participaron 141 de las más importantes organizaciones del país. Los varones ocupan el 76% de los puestos de liderazgo de primer nivel y un 65% de las subgerencias. Como combatir esta brecha? Los especialistas recomiendan introducir el enfoque de género en las evaluaciones de desempeño y en los procesos de ascenso."
+    },
+    {
+        "headline": "Primeros puestos",
+        "content": "No podemos negarlo: en el Perú las mujeres aún no tienen la misma igualdad de oportunidades que los varones en los altos cargos empresariales. Esto se debe a diferentes factores. Hay carreras sociales que ocasionan que para las mujeres sea más difícil compatibilizar el espacio laboral y la vida familiar. Otro factor es que muchas veces las empresas no tienen un enfoque de género y no implementan acciones para retener el talento femenino.”
+    },
+    {
+        "headline": "Premio Nobel de Literatura 2022",
+        "content": "El escritor chileno premiado por ‘su cartografía lírica de los elementos humanos’. Su obra explora temas complejos relacionados con identidad cultural y memoria histórica."
+    },
+    {
+        "headline": "Muere Stephen Hawking, genial astrofísico británico",
+        "content": "Stephen Hawking, conocido mundialmente por sus contribuciones significativas a la física teórica, especialmente en relación con agujeros negros y cosmología, falleció dejando un vasto legado científico."
+    },
+    {
+        "headline": "Tribunal Supremo español avala indulto parcial a líder independentista catalán Jordi Cuixart",
+        "content": "El Tribunal Supremo confirmó el indulto concedido a Jordi Cuixart, destacándolo como un paso hacia la reconciliación política en España después de años de tensiones separatistas en Catalunya."
+    },
+    {
+        "headline": "China dice haber detectado ómicron en muestras fecales antes de brote local",
+        "content": "Autoridades sanitarias chinas reportaron hallazgos sorprendentes de variantes Ómicron en muestras fecales semanas antes de registrar contagios locales, sugiriendo posibles métodos preventivos futuros basados en estos datos."
+    },
+    {
+        "headline": "¿Qué significa realmente ganar el Premio Nobel?",
+        "content": "Ser laureado con el Premio Nobel representa no sólo un logro académico excepcional, sino también un impacto duradero en diversas áreas del saber humano, consolidando así el nombre del receptor en la historia global."
+    },
+    {
+        "headline": "‘Me gustaría poder hablar contigo’: ¿qué ocurrió cuando Obama llamó a Putin?",
+        "content": "Relatos revelan detalles intrigantes detrás de conversaciones telefónicas clave entre Barack Obama y Vladimir Putin, mostrando momentos tensos y diplomáticamente delicados en relaciones internacionales."
+    },
+    {
+        "headline": "Cómo afectará el Brexit definitivo a Europa y Reino Unido",
+        "content": "Analizando las implicancias económicas, migratorias y comerciales post-Brexit tanto para el continente europeo como para Gran Bretaña, resaltando cambios legislativos y adaptaciones geopolíticas pendientes."
+    },
+    {
+        "headline": "¡Alerta! WhatsApp podría bloquearte permanentemente",
+        "content": "Usuarios enfrentan advertencias severas debido a violaciones continuas de términos de servicio, potencialmente conduciéndolos a perder accesos indefinidamente según nuevas regulaciones impuestas por Facebook Inc."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting relevant information. Any non-article elements such as ads or unrelated sections were excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/publimetro/2017/07/publimetro_20.txt ---
+
+```json
+[
+    {
+        "headline": "Solo un 39% de empresas tiene políticas de equidad de género",
+        "content": "Según ranking elaborado por la consultora Aequales, donde participaron 141 de las más importantes organizaciones del país. Los varones ocupan el 76% de los puestos de liderazgo de primer nivel y un 65% de las subgerencias. Como combatir esta brecha? Los especialistas recomiendan introducir el enfoque de género en las evaluaciones de desempeño y en los procesos de ascenso."
+    },
+    {
+        "headline": "Primeros puestos",
+        "content": "No podemos negarlo: en el Perú las mujeres aún no tienen la misma igualdad de oportunidades que los varones en los altos cargos empresariales. Esto se debe a diferentes factores. Hay carreras sociales que ocasionan que para las mujeres sea más difícil compatibilizar el espacio laboral y la vida familiar. Otro factor es que muchas veces las empresas no tienen un enfoque de género y no implementan acciones para retener el talento femenino.”
+    },
+    {
+        "headline": "Premio Nobel de Literatura para Kazuo Ishiguro",
+        "content": "El escritor británico-nipón recibió el premio por ‘novelas de grande amplitud emocional’ que revelan ‘la fragilidad humana’. Su novela “Never Let Me Go” está basada en Inglaterra post-Segunda Guerra Mundial. Sus obras destacan por mostrar personajes atravesados por dilemas morales complejos."
+    },
+    {
+        "headline": "Presidente Trump firma decreto migratorio",
+        "content": "Trump firmó un decreto que prohíbe viajar a EE.UU. a ciudadanos de seis países musulmanes. Además, bloqueará la entrada de refugiados sirios indefinidamente. El mandatario aseguró que estos cambios buscan proteger al pueblo americano frente a amenazas terroristas potencialmente letales."
+    },
+    {
+        "headline": "Muere actor mexicano Ernesto Alonso",
+        "content": "Ernesto Alonso, conocido por interpretar a Don Ramn Valdez en la serie “Rubí”, falleció a los 87 años debido a complicaciones respiratorias. Durante su carrera actoral también formó parte de producciones como “Teresa” y “Corazón salvaje.”"
+    },
+    {
+        "headline": "China presenta avión invisible",
+        "content": "El prototipo chino Z-19 Flying Shark utiliza tecnología stealth similar a la utilizada en cazas occidentales. Con capacidad para transportar armamento pesado, representa un paso significativo hacia la independización militar china."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting relevant information. Articles were selected where there was substantial journalistic value evident through detailed reporting rather than brief mentions or non-substantive sections like ads or listings.

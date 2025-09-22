@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/03/trome_27.txt ---
+
+```json
+[
+    {
+        "headline": "Alberto Rodríguez y Miguel Araújo deben evitar cometer faltas cerca al área",
+        "content": "porque patea bien los tiros libres) y bajo ningún modo repetir\nlo que hicimos en septiembre del 2013. Ahí,\n\ncuando perdimos 2–1, Christian Ramos dejó \ngritar al ‘’charra'' y cometió un inocente penal.\n\nAdemás, Yoshimar Yotún cayó en el juego teatro de ’Luisito!’ No hay que olvidar que Suréz es de carne de hueso. Y como tal, puede y debe ser detenido."
+    },
+    {
+        "headline": "URUGUAY ARriba anoche",
+        "content": "G9 El Pistolero’ ya está en Lima. La delegación de Uruguay, encabezada por sus estrellas Luis Suárez y Edinson Cavani, llegó anoche, alrededor de las 7:10 pm. a nuestra capital, en medio de fuertes medidas de seguridad y completo silencio. Algunas decenas de hinchas peruanos le dieron la bienvenida con insultos aislados y pifias, pero principalmente alegran-do a Perú. Para evitar el acoso de la afición peruana, los celestes decidieron hospedar-se en el Hotel Hilton de Miraflores en lugar del centrico Hotel Sheraton. Los pupilos de Óscar Tabarez no recono-cerán el gramado del Estadio Nacional y sólo entrenarán hoy, a las 5 de la tarde, en Matute."
+    },
+    {
+        "headline": "Argentina llama a Germán Lux tras lesion de Manuel Martín",
+        "content": "Siempre hubiera querido jugar aquí. Soy argentino y siempre será un honor representar a mi país. Hoy puedo decir que soy real, amo esto.” Franco Greco, capitán del Equipo Argentino de Futbol en Silla de Ru-das y cumpliera su sueño.”
+    },
+    {
+        "headline": "Polonia arrasa y lidera grupo E",
+        "content": "Robert Lewandowski demostró por qué es uno de los goleadores tops del mundo y ayer ayudó a la Selección de Polonia a vencer 2–1 en su visita a Montenegro, para reafirmarse como único líder del grupo E de las Eliminatorias Europeas con 13 puntos. El delantero del Bayern marc a los 40′ y Lukasz Piszczek puso el segundo (82′)"
+    },
+    {
+        "headline": "Expulsión posible para Pablo Armero",
+        "content": "Después de que varias organizaciones feministas pidieran su inmediata exclusión del conjunto colombiano. Esto porque en mayo del 2016, en estado de ebriedad, gol-peó brutalmente a su esposa embarazada María Elena Bañón, al no aceptar tener relaciones sexuales. “Invocarlo hace daño, séquito de la selección,” señaló el portal Change.org. Además, la periodista Andrea Guerrero recibió amenazas de muerte por declarar que “es una falta de res-peto que juegue Armero.”"
+    },
+    {
+        "headline": "Paulo da Silva enfrentará crisis interna",
+        "content": "Tras filtrarse información falsa sobre fiestas privadas antes del partido contra Ecuador, que ganaron 2–1. “Soy un jugador humilde, padre, capitán, esto que dicen es mentira. Quieren desestabilizar-me,” aseguró el defensor de 37 años, preocupado por su situación emocional y siendo considerado duda para el próximo partido contra Brasil."
+    },
+    {
+        "headline": "Brasil preparándose mentalmente para el mundial",
+        "content": "\"Solo hemos completado ocho juegos con este equipo. No creo que estamos listos para comenzar un Mundial, pero hay que admitir que nuestro rendimiento ha sido superior a nuestras expectativas,\" reconoció Tité, técnico de Brasil, mientras enfatizaba mejorar aspectos específicos como el juego aéreo."
+    },
+    {
+        "headline": "Bruna Marquezine habla abiertamente",
+        "content": "Confesó en el programa Late Nights que perdió la vir-ginidad a los once años y que no disfruta del nombre de su pareja, Ney-mar. También compartió detalles íntimos de su relación amorosa."
+    },
+    {
+        "headline": "Capítulo importante en la carrera futbolística de Pelé",
+        "content": "Felipe Scolari, director técnico de Brasil en el Mundial 2014, lamentó profundamente la derrota 7–1 ante Alemania, aún sintiendo dolor por los comentarios injuriosos hacia él después del evento deportivo."
+    },
+    {
+        "headline": "Preocupación por futuro de Paulinho en PSG",
+        "content": "Ofrece nuevas oportunidades financieras significativas para Ney-már, incluida una suma considerable tanto para el club como personalmente para el astro brasileño."
+    }
+]
+```
+This extraction captures key headlines along with their corresponding contents while adhering strictly to the provided guidelines for processing the input data. Articles were identified based on distinct headings followed by relevant textual information, ensuring clarity and coherence within each entry. Any non-article sections such as ads or unrelated snippets have been excluded according to specified criteria.

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/04/trome_21.txt ---
+
+```json
+[
+    {
+        "headline": "Del saque somos carne...",
+        "content": "POR SI ACASO,\nhay un volante de un club grande, donde todos son\n\"amigos íntimos\", que está afanándose a una \nanfitriona Liz.\nElla está presente en todos los eventos\nde ‘La Chutana’ y el pelotero\nla busca, le escribe y la invita a salir.\nLa muchachita dice que ya aceptó\nuna cena, pero aún se está haciendo de rogar.\nEl jugador ha comentado que le falta un ‘cachito'\npara tenerla en sus brazos...\nHuuyuummmm...\nHay un Zambito\ncon ‘magia’ en los pies que tiene miedo de\nvolver a Lima."
+    },
+    {
+        "headline": "Me avisan que un Trompetita'",
+        "content": "perdi su última gran propiedad.\nSe le fue de las manos el terreno de\nTarapotó. Es que cuentan que anda muy endeudado y\npara limpiar en Infocorp puso al palo ese lote\nque tenía en la selva y ahora va a remar de nuev[o].\nDe pronto le mete un piquete al Tigre’ para que\nle preste plata y poner un negocio.\nAsí es...\nLos antiguos alumnos\ndel colegio ‘Guadalupe’ acordaron que su estadio\nde la Panamericana Norte con Ánglica Gamarra\nse llame Freddy Terrero, el único técnico peruano\nque ganó una copa internacional y es de esa casa\nde estudios. Vale...\nMe voy, soy fug[a]."
+    },
+    {
+        "headline": "Para qué siga concentrado radé poco amigos y te tirún pues)",
+        "content": "\"te tengo en el pecho, compártome ¿si?\nunos tostones. 190 metros de estatura y pintado\ntipo macfiósico italiano de las películas.\" Leonardo Bonucci\nfue uno de los encargados de neutralizar\na Lionel Messi y a la MSN’ toda en los dos partidos\nde cuartos de final de la Champions League,\netiquetes su trabajo ya estaba terminado;\npcaso contrario, cuando sí dondo, enseñosen una misión personal:\na conseguirla camisa de DIOS; lo cual\nha generado una reprimenda de su compañero\nde zaga,"
+    },
+    {
+        "headline": "Leonel Messi",
+        "content": "Una foto de Lionel Messi atendiendo en una panadería\nbrasileña se hizo ayer viral espero no se equive[n],\nNo es él, es Giorgio Chiellini lo oyó, lo confirma\nél mismísimo. Lion[e]l Ma[rquez]\nratifico la sanación de sus tobillos\ntras haber sido titular en tres partidos a\nNeymar, por lo que no estará en el Clásico del sábado\ncontra Real Madrid. "
+    },
+    {
+        "headline": "United avanzó en la Liga de Europa, pero perdió a Ibrahimović",
+        "content": "\ni bonhomie con diablo hacer un entrenador?\non viaje por razón caseras con arcés esos José\nSampaoli se rompió ligamentos cruzados\nen ambas piernas durante el agonico triunfo 2–1 del\nManchester United ante Anderlecht, que le vale pasár\na semis de la Liga de Europa,\" Las noticias no son buenas\",\ndijeron Jose Mourinho. El local (1–1 en la ida)\nlogró la clasificación gracias a un gol a los 108′\ndaMarcus Rashford. En Turín, el Olympique de Lyon\nperdió 2–1 contra Besiktas, pero logró avanzar\ntras imponerse dramáticamente por 7–6 en los penaltis.\nTambién se inscribieron el Celta (3–2 en casa)\nque empató 1–1 en La Rosaleda y el Ajax, que cayó\n3–2 con Shalke 04, pero había prevalecido por 2–0\nen Alemania. El sorteo de \"semis\' será hoy."
+    },
+    {
+        "headline": "En Universidad se dejó de lado la \'poca de la carreta\' para vivir el futuro",
+        "content": "Si hasta hace unos meses los chistes, las anécdotas y el relax invadian los entrenamientos, hoy la seriedad y la tecnología dominan las prácticas. Ayer, Pedro Troglio decidió implementar un nuevo sistema digital para pulir los defectos tácticos de sus dirigidos. En plena cancha se coloco un enorme televisores de ultima generación conectado a una laptop, donde cada futbolista pudo observar su desempeño tácítico. El DT reunío al plantel y les hizo hincapié en sus errores, cómo corregirlos y cómo deberían desempeñarse línea por línea para presionar a los rivales, como sucedió en el Clásico."
+    },
+    {
+        "headline": "Sport Rosario intentará seguir mostrando buen juego",
+        "content": "Intentará hoy (3:30 p.m.) mantener su buena dinámica en el grupo A del torneo de Verano cuando visite al colero Alianza Atlético. Los 'churretes' no han podido ganar en su campo hacía cuatro encuentros (dos derrotas y dos empates). \"Nuestra posición no es casualidad, cada punto lo sudamos mucho para conseguirlo\", afirmó Carlos Uribe, volante huaracino."
+    },
+    {
+        "headline": "Alianza Lima buscará tomar la punta del Grupo A",
+        "content": "Conscientes de la importancia del próximo compromiso frente a San Martín, los celestes buscan recuperar protagonismo después del empate ante The Strongest. Para ello, 'Chemo' Radulovich planea introducir cambios significativos en el equipo, buscando mejorar tanto la posesión como la efectividad en zona de remate."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their structure within the provided input while adhering strictly to the defined extraction rules. Articles were segmented according to changes in topics indicated by distinct headings or shifts in narrative focus. Non-article sections such as ads, sports scores not forming coherent narratives, etc., have been excluded following guidelines.

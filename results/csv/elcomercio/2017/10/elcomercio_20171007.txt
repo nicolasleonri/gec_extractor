@@ -1,0 +1,84 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2017/10/elcomercio_07.txt ---
+
+```json
+[
+    {
+        "headline": "CaixaBank busca proteger los intereses de sus clientes y garantizar la permanencia de la entidad en la zona euro.",
+        "content": "El Fondo Monetario Internacio\- nal (FMI) advirtió que la tensión \"podria pesar en la confianza y las inversiones\" en la economía española, la cuarta de la Eurozona. Pese a ello, la previsión para la economía española se mantiene en un crecimiento del 3,1% para este año."
+    },
+    {
+        "headline": "\"Disculpas por represín\"",
+        "content": "En Barcelona, el delegado del Gobierno Español en Cataluña, Enric Millo, pidió disculpas por los heridos causados por la policía al tratar de impedir el referendum del pasado domingo. \"Sé que hay gente que ha recibido golpes y empujoness, incluso hay una persona que está aún hoy hospitalizada. Cuando he visto estas imágenes, no puedo hacer más que lamentarlo, pedir disculpas en nombre de los agentes\", dijo Millo a la televisión pública catalana TV3."
+    },
+    {
+        "headline": "\"Declaración postergada\"",
+        "content": "El presidente del gobierno catalán, Carles Puigdemont, decidió posponer para el martes su comparecencia en el Parlamento regional para explicar cómo proceder después del referéndum independentista ilegal celebrado el 1 de octubre. En un principio, Puigdemont se iba a presentar el lunes, fecha en la que se presumía declarase la independencia de Cataluña. Ante eso, el jueves el Tribunal Constitucional suspendió la convocatoria del pleno, declarándolo 'radicalmente nulo y sin valor ni efecto alguno' cualquier acción."
+    },
+    {
+        "headline": "Activistas anti-nucleares de la ICAN reciben el Premio Nobel de la Paz",
+        "content": "Conforme a un mensaje para apaciguar la tensión nuclear en el planeta, el comité del Premio Nobel otorgó el máximo galardón de la paz a la Campaña Internacional para Abolir las Armas Nucleares (ICAN). Setenta años después de que fueran lanzadas las bombas atmosféricas estadounidenses sobre Hiroshima y Nagasaki, el comité destacó los incansables esfuerzos de la ICAN para liberar al mundo de las armas nucleares."
+    },
+    {
+        "headline": "Mauro Marsili Embajador de Italia en el Perú",
+        "content": "\"Hay muchas oportunidades en el Perú.\" Repasamos la relación bilateral con motivo del cumplimento de 50 años de la Cámara de Comercio Italiana en el Perú (CCI). Renzo Ginés Velásquez menciona varios vínculos históricos entre Italia y el Perú, incluida la figura del Dr. Giuseppe Cafàri de Borghe, médico del Ejército de Simón Bolívar."
+    },
+    {
+        "headline": "Matan periodista en México y ya son once en el año",
+        "content": "El cuerpo del reportero gráfico Edgar Daniel Esqueda Castro fue hallado sin vida, con señales de tortura, sobre un montículo de escombros cercano al Aeropuerto Internacional de San Luis Potosí, México. Había sido secuestrado mientras estaba en casa por individuos identificados falsamente como agentes de Policía Ministerial."
+    },
+    {
+        "headline": "Ciencias EN EE.UU.: Retiran parlante para niños por seguridad",
+        "content": "Mattel cesará la venta de su altavoz Aristotle debido a preocupaciones relacionadas con la privacidad infantil, exposición a publicidad y vulnerabilidades ante hackers. Además, estudios revelan que el ADN confirma que el insecto Palo de Howe en Australia había evolucionado conservando características originales."
+    },
+    {
+        "headline": "Emprendedores argentinos frente a favoritismos mundiales",
+        "content": "Alberto Goachet reflexiona sobre el emocionante encuentro futbolístico entre Perú y Argentina, describiendo cómo un país entero respaldó a su selección deportiva frente a adversidades significativas, marcando así un hito memorable en la historia deportiva sudamericana."
+    }
+]
+```
+This JSON captures key articles based on their headlines and contents extracted from the provided OCR text while adhering strictly to the defined scope and goals for extraction. Articles were selected according to criteria such as having substantial textual information relevant to journalism standards outlined in the task description. Other sections like ads, subscriptions, and non-article elements have been excluded following these guidelines.
+
+--- ERROR ENTRY: data/txt/elcomercio/2017/10/elcomercio_07.txt ---
+
+```json
+[
+    {
+        "headline": "Todo lo que quieren, pero sin abusos". Sin embargo, Fujimori no especific qué medidas tomará respecto a la investigación por lavado de activos...",
+        "content": "\"Todo lo que quieren, pero sin abusos\".\n\nSin embargo, Fujimori no especific\u00f3 qu\u00e9 medidas tomar\u00eda respecto a la investigaci\u00f3n por lavado de activos en la que está incluido su esposo Mark Vito Villanella.\n\nEn dialogo con El Comercio, el vocero de Fuerza Popular, Daniel Salaverry, indic\u00f3 que tambi\u00e9n eval\u00fan tomar acciones como bancada.\n\n\"Nos parece una barbaridad lo que est\u00e1n haciendo. Se est\u00e1 evaluando con los abogados qu\u00e9 medidas tomar, pero vamos a ir hasta las \u00faltimas consecuencias\", afirm\u00f3 junto a los integrantes de su bancada, Keiko Fujimori, quien se pronunci\u00f3 sobre la investigaci\u00f3n fiscal.\n\n\"Se est\u00e1 evaluando qu\u00e9 medidas tomar, pero iremos hasta las \u00faltimas consecuencias.\"\ndaniel salaverry Vocero de Fuerza Popular\n\nAdem\u00e1s, Fujimori cuestion\u00f3 el trabajo del titular del Ministerio Público, Pablo Sánchez, quién esa misma semana mencionó que evaluaría el trabajo de la fiscal que había archivado la investigación por lavado de activos a Jaime Yoshiyama Tanaka, ex secretario general de Fuerza Popular y ex legislador de dicho partido.\n\n\"Y si al señor Fiscal de la Nación, Pablo Sánchez, no le gusta el fallo, ahora él sale a decir que va a evaluar la actuación de la fiscal Sara Valdez. Eso no se llama intromisión? ¿Qué se pretende, sancionar a una fiscal que ha cumplido con su deber? O peor aún, presionar a ésta y a otros fiscales?\", enfatizó Fujimori.\n\nLa Procuraduría Anticorrupción también apeló ayer el archivo de la investigación por lavado de activos y desbalance patrimonial al ex secretario general de Fuerza Popular Jaime Yoshiyama Tanaka, así como a sus familiares y a Keiko Fujimori."
+    },
+    {
+        "headline": "Reestructuran la dirección de gracias presidenciales",
+        "content": "El nuevo director de dicha dependencia es el ciudadano Orlando Franchini Orsi. El ministro de Justicia y Derechos Humanos, Enrique Mendoza, designó director de la Dirección de Gracias Presidenciales a Orlando Franchini Orsi, de 92 años.\n\nEste remplaza a Freddy Contreras, quien ocupaba el cargo durante el gobierno anterior. Además, mediante otra resolución publicada, el ministerio nombró nuevos miembros de la comisión responsable de evaluar solicitudes de indultos y conmutaciones de sentencias.\n\nEl tema generó comentarios políticos dado que coinciden con discusiones públicas sobre potenciales decisiones gubernamentales relativas a figuras históricas controversiales."
+    },
+    {
+        "headline": "Política",
+        "content": "- Modifican las sanciones por entregar sobornos. Actualización legal sugiere incrementar castigos financieros antes de aplicar exclusiones electorales directas.\n\n- Sesión del Congreso aprueba agenda legislativa conjunta con el Ejecutivo, buscando mejorar eficiencia política basándose en compromisos previos establecidos bajo el acuerdo nacional.\n\n- Propuestas legislativas destacadas incluyen restricciones más severas para individuos con antecedentes criminales post-sentencia, especialmente aquellos implicados en crímenes terroristas, impidiéndoles roles significativos en sectores público-social."
+    },
+    {
+        "headline": "Dimeses&Diretes",
+        "content": "[...] Las fotografías tomadas mientras Richard Acuña estaba fuera realizando funciones diplomáticas causaron malestar entre algunos compañeros de bancada, evidenciando tensiones internas sobre responsabilidades partidarias versus compromisos personales.[...]"
+    },
+    {
+        "headline": "Los nuevos retos de la Marina de Guerra del Per",
+        "content": "El almirante Gonzalo Rosa Polostrí destaca cómo la Marina contribuye a la seguridad interna y externa del país además de ofrecer importantes beneficios sociales. Discute preparativos para futuros eventos climáticos extremos y promoción gradual de mujeres en rangos militares elevados."
+    },
+    {
+        "headline": "Asalto violento en Carretera de Puno",
+        "content": "Un incidente nocturno resultó en robos múltiples y ataques físicos graves cerca de la frontera de Sandia y Juliaca. Testimonios describen amenazas con armamento letal y detallan pérdidas económicas y emocionales significativas para las víctimas afectadas."
+    },
+    {
+        "headline": "Suboficial retorna a servicio después de altercado",
+        "content": "Tras recibir atención pública considerable, José Torres Castro volvió a trabajar en la unidad asignada. Esto sigue disputas legales complejas sobre propiedad corporativa en contextos industriales clave, exacerbadas por intervención judicial contradictoria."
+    },
+    {
+        "headline": "Juicio programado contra exfuncionario corrupto",
+        "content": "Una figura prominente será sometida a juicio por acusaciones de corrupción ligadas a contratos fallidos en infraestructura judicial. Detalles adicionales cubren circunstancias complicadas de financiamientos y cronogramas extendidos."
+    },
+    {
+        "headline": "Barrio Santos y Devoción",
+        "content": "Residentes devotos continúan practicando rituales religiosos tradicionales en condiciones precarias. Sus hogares están ubicados en áreas vulnerables a catástrofes naturales, demostrando resistencia cultural y espiritual notable."
+    }
+]
+```

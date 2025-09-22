@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/06/gestion_01.txt ---
+
+```json
+[
+    {
+        "headline": "PUERTAABIERTA",
+        "content": "En julio, se cumple tres años del contrato entre el Estado y Kuntur Was. Desde entonces abre la opción poder renegociar el contrato.\n\nLas posibilidades son amplias como dijo Guerra. Esto al ser consultado si al final Kuntur Was podría seguir al frente de la construcción \"Todas las opciones son posibles. Estamos evaluando todas las combinaciones de escenarios posibles así que no quiero anticiparme para evitar generar ruido innecesario\", afirmó."
+    },
+    {
+        "headline": "DAN TREUGA AL EJECUTIVO HASTA EL 12 DE JUNIO",
+        "content": "Cusco: En mesa técnica se verificará si el aeropuerto será realizado como obra pública.\n\nLa propuesta inicial del Gobierno Regional del Cusco era revertir los terrenos para el Aeropuerto de Chachapoyas al estado peruano y asumir la área de la edificación parece haber sido abandonada según Gestión 23.05.2017. \n\nEl gobernador regional Edwuín Valdivieso expresó a Gestión que esto debe discutirse en una mesa técnica de dialogo donde se debaten diferentes soluciones inmediatas para el proyecto. Entre ellas está la posibilidad de llevarlo a cabo como obra pública, añadió. Subrayó que la fecha límite para instauración de dicha mesa de trabajo en la ciudad de Cusco sea el 12 de junio, enfatizando que la obra debe completarse ‘ahora o nunca’...\n\nRecordemos que había planes de realizar un paro definido en la capital, pero fue aplazado mientras se espera la respuesta del gobierno central. Indicó que el gobierno nacional debe proporcionar información sobre qué ocurrió con el proyecto además de explorar alternativas de ejecución para asegurar la culminación del mismo. Todos los cusqueños vamos a respaldar los acuerdos tomados’, señaló Valdivieso. Agregó que participará el Presidente Martín Vizcarra, el Premier Fernando Zavala, junto a todos los ministros involucrados en el proyecto del Aeropuerto Internacional de Chachapoyas."
+    },
+    {
+        "headline": "EJECUTIVO RATIFAQUE NO HUBO PRENSIÓN AL CONTADOR GENERAL",
+        "content": "El gobierno afirma que el destino del Contador General depende del Congreso y la Fiscalía.\n\nEl Primer Ministro insistió en buscar una Contralora con integridad moral y capacidades técnicas. Explicó que después de recibir la denuncia, ésta fue remitida primero a la Contraloría Nacional antes de llegar al Parlamento. Mientras aún se espera la decisión del Congreso sobre si procederán a indagar al contador general Edgar Alarcón, el líder del consejo ministerial confirmó que el ejecutivo no intervendrá en el asunto. Legisladores solicitaron formalizar cargos legales contra él debido a imputaciones hechas públicas. Sin embargo, el ejecutivo confía en resolver cualquier irregularidad dentro de la autoridad correspondiente.”
+    },
+    {
+        "headline": "TE ORGANISMOS CONVOCA A AUDIENCIA",
+        "content": "El Tribunal Constitucional acepta tramitar la petición de invalidez contra la Ley que penaliza a quienes cambian partido político durante el periodo legislativo.\n\nEste recurso legal fue presentado por varias agrupaciones partidarias incluyendo Acción Popular y el Frente Amplio. La controversia surge luego de la dimisión de algunos diputados por diferencias ideológicas significativas. Las disposiciones impiden integrar nuevas facciones o ocupar roles clave en la administración política si ocurren cambios de filiación partidaria. Ahora, el tribunal prepara cronogramas específicos para analizar casos individuales y convocar a las partes implicadas a defender sus argumentos. Posteriormente, emitirá fallos basándose en evidencias recolectadas."
+    },
+    {
+        "headline": "POLÍTICA",
+        "content": "Continúa investigación judicial relacionada con el caso Chinchero. Dentro de 15 días comenzará la fase preliminar de interrogatorios dirigidos principalmente hacia figuras gubernamentales asociadas con proyectos anteriores. Además, se examinarán acciones relevantes vinculadas a la asignación contractual. Un equipo designado por el órgano fiscalizador planea invitar a testigos y expertos para consolidar testimonios pertinentes. También existe expectativa sobre decisiones futuras relativas a documentos comprometedores encontrados en posesión de ciertos funcionarios."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by substantial textual information related to political events and issues within Peru. Other sections like ads, subscriptions, etc., have been excluded according to specified criteria.

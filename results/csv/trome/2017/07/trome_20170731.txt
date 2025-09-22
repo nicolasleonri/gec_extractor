@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/07/trome_31.txt ---
+
+```json
+[
+    {
+        "headline": "\"Manolo Rojas\" coment...",
+        "content": "Manolo Rojas coment que se llev\nuna grata sorpresa al ver actuar a su\ndaughter Ruby en la película 'Gemelos sin cura'. \"Fui al estreno y me sorprendí al ver a mi\nhija en una pequeña escena. No me había dicho nada,\nbueno, lo hace bien. Ella siempre ha tenido el ‘bichito’\nde la actuación y la apoyo\", indicó el comediante.\n‘Por otra parte’, reveló que le ha prohibido aparecer en algún \n‘ampay’. Mis hijos ya están avisados, tienen que escoger bien a\nsus amigos y cuidar su vida personal,\" añadió."
+    },
+    {
+        "headline": "\"Qué se ponga a derecha\") manifest la actriz Lucy Bacigalupo...",
+        "content": "'Qué se ponga a derecho)', manifest la actriz\nLucy Bacigalupo sobre la situación de Korina Rivadeneira,\nquién continua en la clandestinidad. \"He sido migrante y también me\nhan echado del trabajo, porque no tenía documentos en EE.UU.,\ny es humillante. Le deseo lo mejor, quizás está mal asesorada.\nLe sugiero que se ponga a derecho, pues las leyes se deben respetar\",\noscurrió Bacigalupo, quién además anunció que el Festival del Mar\nestaría hasta el 6 de agosto."
+    },
+    {
+        "headline": "\"¿Cómo mantener el amor con tanto diferenci?",
+        "content": "Como mantener el amor con tan mucha edad?\nDe otro lado, confió en que su hermana pueda iniciar medidas legales\ncontra quienes la difaman. Muchos decían que ella estaba con él\npor interés, pero cualquiera se hubiese largado, pero ella se quedó\nmientras duró el escándalo. ¿Cuál era el problema?"
+    },
+    {
+        "headline": "\"La actriz Yidd Eslava contó que se casará...\",
+        "content": "La actriz Yidd Eslava contó que se casará con su pareja\ny padre de su hijo, Julián Zuñiga, a fines de año. \"Queremos casarnos\npor civil en diciembre y será aquí en Perú, así que la familia de\nJulián vendrá desde Argentina. Todavía no organizaré nada, pero\nme casaré aunque sea en jeans\", señaló Eslava."
+    },
+    {
+        "headline": "\"Wendy Sulca comentó que planea lanzar su marca de ropa\"",
+        "content": "Wendy Sulca comentó que planea lanzar su marca de ropa tras el éxito\nque tiene en YouTube y recientemente en el cine. \"Yo fui una de las\nprimeras artistas en subir vídeos de mis canciones en YouTube y me\nhe vuelto reconocida mundialmente, pero seguiré innovando y ahora\nquiero lanzar mi línea de ropa con influencias andinas que me caracterizan\"\nprecisó la cantante de electrofolclor. Además, mencionó que viene trabajando\nen un nuevo álbum para sorprender a su público y realizará presentaciones\ninternacionales."
+    },
+    {
+        "headline": "\"Gness Tapia se encuentra emocionada...",
+        "content": "Gness Tapia se encontraba emocionada y ansiosa porque en apenas\nuna semana se volvería a transformar en mamá de su tercer hijo, a quien llamará\nFe Murillo. \"Estoy bastante nerviosa, pero llenísima de ilusiones por conocer\na mi nueva princesa. Me preparo físicamente para enfrentarlo todo con energías positivas.\""
+    },
+    {
+        "headline": "\"Jess consultó a la doctora Carmen sobre cómo encontrar a la mujer ideal\"",
+        "content": "Jess preguntó a la Dra. Carmen qué significa su nombre y buscó consejo\nacerca de cómo hallar a la mujer perfecta. Tras compartir su pasado complicado\ny expresar su intención actual de buscar alguien especial, solicitó orientación\nromántica. La respuesta enfatizó la importancia de dejar de lado el pesimismo\ny centrarse en alcanzar objetivos personales antes de involucrar a otras personas."
+    }
+]
+```
+This extraction captures several distinct articles based on their headlines and contents while adhering strictly to the provided guidelines for cleaning up and structuring data within the specified format. Articles were identified through changes in topics and presence of potential headings followed by relevant paragraphs. Any non-article sections such as ads, listings, etc., have been excluded according to the scope defined.

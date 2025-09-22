@@ -1,0 +1,80 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/01/gestion_20.txt ---
+
+```json
+[
+    {
+        "headline": "Calcula el Parlamentario",
+        "content": "Poseer teléfonos, cuando hace poco más de diez años apenas alcanzaban a 300\", calcula el parlamentario."
+    },
+    {
+        "headline": "Ex Ministro Revela Detalles Internos DINI",
+        "content": "\"Por otra parte, el ex ministro del Interior Fernando Rospigliosi indicó que en la actualidad hay 300 agentes operativos en la DINI, además de los pertinentes a los otros órganos de inteligencia (ver organización).\n\n\"Alertó que hay poderosos detrás de la verdadera dirección de la DINI.\n\n‘El que realmente sigue manejando ese organismo es su director ejecutivo, Iván Kamisaki’, reveló también analista.\""
+    },
+    {
+        "headline": "Grexit: Advertencias desde el FMI",
+        "content": "'FMI advierte a Grecia sobre el impacto de reestructurar su deuda'\n\n'Sin embargo, la directora gerente del Fondo Monetario Internacional, Christine Lagarde, evitó comentar sobre la sustentabilidad de la carga de deuda griega.'\n\n'Reiteró que aunque los planes colectivos son bien recibidos, incurren en consecuencias significativas.'
+        
+        ‘Al cambiar las condiciones contractuales surgen repercusiones económicas y pérdida de credibilidad.’"
+    },
+    {
+        "headline": "Presión sobre el BCE",
+        "content": '"Lagarde insta al BCE a compartir riesgos"\n\n'Lagarde señaló que el amplio respaldo dado por el abogado general del Tribunal de Justicia Europeo proporcionará claridad respecto a las acciones futuras del BCE.'"
+
+    },
+    {
+        "headline": "Elección Griega Preocupa Mercados",
+        "content": "'Partido opuesto al rescate internacional podría gobernar según sondajes'"
+    },
+    {
+        "headline": "Alemania Limita Acciones del BCE",
+        "content": "'El Bundesbank está intentando establecer límites a las políticas monetarias expansivas del BCE'."
+    },
+    {
+        "headline": "Precio del Crudo Según Emiratos Árabes",
+        "content": "'Subsecretario petrolero indica improbabilidad de prolongada baja en precios del petróleo'."
+    },
+    {
+        "headline": "Medidas Económicas Anunciadas por Brasil",
+        "content": "'Ministerio brasileño presenta nuevo conjunto de tasas fiscales destinadas a balancear economía interna'."
+    },
+    {
+        "headline": "Continúan Sanciones UE hacia Rusia",
+        "content": "'Ministros europeos afirman continuidad de restricciones comerciales frente a Rusia', destacándose tensiones persistentes en Ucrania."
+    },
+    {
+        "headline": "Supervisión Fiscal Argentiniza Exportaciones Agrícolas",
+        "content": "'Superavit comercial argentino experimenta notable ascenso gracias a ajustes tarifarios y regulaciones agrícolas'."
+    },
+    {
+        "headline": "Investigan Muerte de Fiscal Nisman",
+        "content": "'Funcionario judicial argentina solicita investigación exhaustiva tras hallazgo fatal del fiscal especial Alberto Nisman'."
+    },
+    {
+        "headline": "Crece Popularidad de Hollande Post Atentados",
+        "content": "'Presidente francés observa repunte en índices de aceptación pública después de incidentes terroristas en París'."
+    },
+    {
+        "headline": "Avances Diplomáticos EE.UU-Cuba",
+        "content": "'Washington aspira finalización de barreras de viaje vigentes hacia representantes cubanos'."
+    },
+    {
+        "headline": "Incertidumbre Política Peruana Reforzada",
+        "content": "'Inicio tumultuoso del año política muestra signos preocupantes para gobierno central, exacerbados por controversias judiciales y administrativas'."
+    },
+    {
+        "headline": "Reformas Presupuestarias Necesitan Resultados Tangibles",
+        "content": "'Priorizar inversiones públicas basadas en rendimientos efectivos resulta crucial para maximizar beneficios gubernamentales'."
+    },
+    {
+        "headline": "Transporte Urbano Demandando Autoridad Única",
+        "content": "'Persistente crisis vehicular urbe requiere implementación urgente de cuerpo regulatorio consolidado'."
+    },
+    {
+        "headline": "Finanzas Locales Buscan Reducción de Dependencia Cambiaria",
+        "content": "'Sector financiero avanza hacia normalización de créditos domésticos mediante depreciación gradual del dólar'."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines for extraction. Articles were identified based on context shifts indicated through headings and thematic changes within the document.

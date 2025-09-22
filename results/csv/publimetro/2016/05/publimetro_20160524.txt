@@ -1,0 +1,89 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/05/publimetro_24.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "HOY EN DÍA, UNO PIENSARIA QUE..."
+    },
+    {
+        "headline": "CONTENTO POR FIN DE CUARENTENA!",
+        "content": "ESTOY FELIZ PORQUE..."
+    },
+    {
+        "headline": "URGENTE: SE BUSCA PERRO PERDIDO. RECOMPENSA: 500 SOLES.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "EL JEFE ORDENO..."
+    },
+    {
+        "headline": "",
+        "content": "SR.\n\nSETIEMPRE ESTUVIERON ALGO COMENTADOS EN TWITTER:\n\nEL GRUPO YIHADAISMO DEL ESTADO ISLÁMICO LANZO ANOCHE SERIES DE ATAQUES CONTRA CIUDADES SIRIAS CAUSA MUCHAS MUERTES."
+    },
+    {
+        "headline": "",
+        "content": "ALEXANDER VAN DER BELLEN GANO LAS PRESIDENTALES DE AUSTRIA TRAS LA RÉPLICA CON NORBERT HOFER. CONFIRMÓ MINISTERIO INTERIOR AUTRIACO."
+    },
+    {
+        "headline": "",
+        "content": "MAURICIO MACRI VETO LEY ANTIDESPIDOS PROMOVIDA POR OPPOSICIÒN ARGENTINA. JUSTIFICACIÓN ES EVITAR INCREMENTO POBLACIONAL DESAMPARADA."
+    },
+    {
+        "headline": "\"JOAQÚIN \"CHAPÓN\" GUZMAN NO RECURRE A AMPAROS\"",
+        "content": "'EL CHAPO' GUZMN DECIDE ASUMIR SU RESPONSABILIDAD SIN COLABORAR CON OTROS ACUSADOS.'
+    },
+    {
+        "headline": "PERIODISTA SIGUE DESAPARECIDA",
+        "content": "NO HA SIDO CAPTURA NI DECLARA ADVERSARIO POLÍTICO COLOMBIANO."
+    },
+    {
+        "headline": "TRIBUNAL PROHIBE MANIFESTACIONES ENTORNO CNE",
+        "content": "SENTENCIA EMANA DE TRABAJO INSISTENTE EN GARANTIZAR LIBERTADES INDIVIDUALES."
+    },
+    {
+        "headline": "OBAMA LEVA ARMAMENTO A VIETNAM",
+        "content": "DECISION TOMADA POST CONTROVERTIBLE RELAJAMIENTO SANCCIONES MILITARES."
+    },
+    {
+        "headline": "ROMERO JUC ABANDONA SUS FUNCIONES BRASILEÑAS",
+        "content": "AUDIO DIVULGA INTENTO DE IMPEDIMENTO PROCESO PETROLERA."
+    },
+    {
+        "headline": "BERNIE SANDERS PODRA LOGRAR MAYORIA JUVENIL",
+        "content": "SU EMPATIA Y PROPUESTAS SON CLAVES PARA APREMIO GENERACIONAL ACTUAL."
+    },
+    {
+        "headline": "PUERTO RICO NECESITA SOLUCIÓN EFECTIVA PARA CRISIS DEUDORA",
+        "content": "PROPONE NEGOCIACIÓN AMABLE Y CREACIÓN LABORES."
+    },
+    {
+        "headline": "FRANKFURT AFERRARSE PRIMER PLAZO GERMANO",
+        "content": "GRACIAS TRIUNFO FRACCIONARIO SOBRE NUERMBERG."
+    },
+    {
+        "headline": "UNITED DESCARGA DIRIGENTE GAAL",
+        "content": "CAMBIOS ADMINISTRATIVOS ANTES TERMINO CONTRACTUAL."
+    },
+    {
+        "headline": "SELECCIÖN PERUANA DOMINA TRINITARIOS",
+        "content": "PRIMER PARTIDO OFICIAL CENTENARIO COPA AMERICANA RESULTA EXITOSO."
+    },
+    {
+        "headline": "WAWRINKA REMONTA ROGER FLUSHING",
+        "content": "RESULTADO POSITIVO EN TORNEO PARISINO."
+    },
+    {
+        "headline": "TORONTO SUPERA CLEVELLAND",
+        "content": "DUPLICIDAD DE ÉXITO EN FINAL CONFERENCIAL ORGANIZACIÓN BALONES."
+    },
+    {
+        "headline": "PURIFOY DISCUSS NEW ROLE",
+        "content": "INTERVIEW WITH THE ACTOR WHO TRANSITION FROM DR CARROLL TO HIPPIE CHARACTER."
+    }
+]
+```
+This JSON captures each identified article based on its structure within the provided input while adhering strictly to the outlined requirements for extraction and formatting. Note how some headlines were inferred due to lack of explicit labeling but still fit contextually. Articles lacking distinct headings have been marked accordingly.

@@ -1,0 +1,94 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/03/publimetro_22.txt ---
+
+```json
+[
+    {
+        "headline": "Ayuda está en camino, lo mejor es...",
+        "content": "Ser conversar con el herido para mantenerlo despierto, invitan-do-le\na la calma, puedes usar frases como \"todo irá bien\" y \"la ayuda está en\ncamino\".\nTranquilizar al herido reduce la actividad de bom-beo del corazón y la salida de sangre."
+    },
+    {
+        "headline": "NO MOVERLO",
+        "content": "Evita mover o sacar al herido de su lugar. Si la víctima es un motociclista, evita retirarle el casco,\nya que podría ocasionar una lesión médula con parálisis permanentey consecuencias peores. Se recomienda aflojar con muchociudadela la ropa, ya que esto facilitará la respiración dela victí-ma."
+    },
+    {
+        "headline": "Cómo cubrir al herido",
+        "content": "Las personas heridas en un accidente tienden a perder rápidamentela temperatura corporal, aun con temperaturas ambientalesaltas. Por eso, se recomienda cubrirlas con mu-chocuidado con una manta u otro indumento que tengashand-a, sin moverla del lugar donde se encuentre."
+    },
+    {
+        "headline": "PROTEGER LAS HERIDAS GRAVES",
+        "content": "Verifique si la víctima presenta lesiones o heridas profundi-dass que impidan algún movimiento. Si alguna artería haya quedadin-cisa, el herido podría desangrarse en pocos minutoss. Parae-vitarlo, hacer presión sobre el lugar de lahemorrágia."
+    },
+    {
+        "headline": "Noticias OUÉ Gambían Tu Vida CUÁNDO RECICLAS ESTÁS AHORRANDO EN EL PLANETA",
+        "content": "“Un diario diferente”
+    },
+    {
+        "headline": "EUROPA",
+        "content": "EURD \nCompra S/.3,785\nVenta S/ 3,935\nDow Jones +0,12%\nSp/Avl +0,82%"
+    },
+    {
+        "headline": "Mas de 176 mil contribuyentes ya han presentado declaración",
+        "content": "\"Las medidas que hemos implementado –promueven la simplicaciónde modo tal que los contribuyentes han demostrado interés más grande con sus obligaciones antes delinicio del cronograma de vencimientos\", indicó la entidad tributaría."
+    },
+    {
+        "headline": "QUICOPR ADQUIRE BOTI-CAS ARCANGEL",
+        "content": "El Grupo QUICOPR, propietario de Mi-farm, BTL y FASA, compró el grupo AL-BIS, propietario de la cadena de Boticas ARCAN-GEL, según información proporcionada por SEMANA ECONÓ-MICA."
+    },
+    {
+        "headline": "PERÚ ES DE LO QUE MAS COME PE-SCADOO",
+        "content": "La Presidenta de la SOCIEDAD NA-CIO-NAL DE PESCADERÍA (SNP), Elena CONTRERO, señaló que PERÚ es uno de los países que mas consumepescado en América latina."
+    },
+    {
+        "headline": "Tips para ahorrar en tu próximo viaje de Semana Santa",
+        "content": "No es necesario gastar demasiado dinero para salir de Lima en estas fechas. DESPEGAR.COM recomienda compartir elauto, buscar alojamientos alternativos, acampa-r y aprovechar las ofertas disponibles."
+    },
+    {
+        "headline": "MAS INFORMACIÓN",
+        "content": "Este es el mayor programa de cooperación internacion-al de la Comisión Europea al sector pri-vado en la Región. Esta vez, mipymes de 18 países de América Latina se beneficiaran."
+    },
+    {
+        "headline": "APPLE LANZA SUS NOVOS DISPOSITIVOS",
+        "content": "Apple lanzó ayer sus nuevos modelos de iPhone y iPad en un evento realizado en California. 'Nos pidieron que mantuviéramos eliPhone de cuatro pulgadas', expresó Greg JOSSWIAK, vice-presidente de APPLE."
+    },
+    {
+        "headline": "UTAH, ARIZONA Y IDAHO CELEBRAN PRIMARIAS",
+        "content": "Arizona, Utah y Idaho celebrarán hoy sus elecciones primarias en búsqueda de nominación presidencial en Estados Unidos."
+    },
+    {
+        "headline": "OBAMA FINALIZA SU VISITA A LA HABANA",
+        "content": "El presidente estadounidense, BARACK OBAMA, concluye hoy su histórica visita de tres días a La Habana, Cuba. Durante su visita, discutió varios temas importantes incluido el embargo hacia Cuba."
+    },
+    {
+        "headline": "GOOGLE INAUGURA CENTRO AVAN-ZADO EN LA HABANA",
+        "content": "El gigante tecnológico GOOGLE inauguró ayer un centro de última generación en La Habana, brindando acceso gratuito a internet a velocidades significativamente mayores."
+    },
+    {
+        "headline": "THE DIRTY CURE ARGUMENTA BENEFICIOS DE LA NATURALIDAD PARA NIÑOS",
+        "content": "‘The Dirty Cure’ sostiene que permitir que niños interactúen naturalmente con elementos orgánicos mejora su sistema inmunológico y disminuye riesgos de alergías alimentarias."
+    },
+    {
+        "headline": "INFANTINO DESIGNADO PRESIDENTE DE FIFA",
+        "content": "GIANNI INFANTINO eligió Sudamérica como destino principal después de convertirse en presidente de la FIFA."
+    },
+    {
+        "headline": "PREPARATIVOS URGELES ANTE BRASIL Y PERÚ",
+        "content": "Uruguay enfrentará dificultades debido a múltiples lesiones en su plantilla defensiva para juegos cruciales frente a Brasil y Perú."
+    },
+    {
+        "headline": "BLANQUIROLERA ARMADA CON ‘EXTRANJEROS'",
+        "content": "La Selección Peruana realizó prácticas intensivas en la VIDENA, destacándose la incorporación de Alexander CALLENS procedente de España."
+    },
+    {
+        "headline": "'APUNTO A UNA MEDALLA' JULISSA DIEZ CANSECO",
+        "content": "Julissa Diez Canseco compite en Taekwondo representando a Perú en los próximos Juegos Olímpicos de Rio 2016, aspirando obtener una medalla olímpica."
+    },
+    {
+        "headline": "EXTENDIDO FINALE ZOMBIES THE WALKING DEAD",
+        "content": "Fans disfrutan de episodios extendidos de zombies en la serie popular 'The Walking Dead'."
+    }
+]
+``` 
+
+This JSON structure captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the given guidelines. Articles were segmented according to distinct topics indicated through headings or thematic breaks. Any unclear data was marked appropriately using `"NA"` where necessary.

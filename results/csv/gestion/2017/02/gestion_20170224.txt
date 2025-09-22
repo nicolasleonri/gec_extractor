@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/02/gestion_24.txt ---
+
+```json
+[
+    {
+        "headline": "Arrestos y allanamientos en Rio de Janeiro durante investigación Lava Jato",
+        "content": "Hubo arrestos y 15 allanamientos ayer en el estado de Rio de Janeiro. Dentro de las operaciones de la pesquisa Lava Jato, que investiga una red de corrupción dentro de la petrolera Petrobras y también de Odebrecht. Las autoridades no entregaron los nombres de los sospechosos."
+    },
+    {
+        "headline": "Allanamiento relacionado con casos de corrupción en Panamá",
+        "content": "Además, en Panamá, fiscales y policías del país allanaron varias oficinas de los hijos del expresidente Ricardo Martinelly y de una abogada cercana a su familia, parte de la investigación sobre el pago de sobornos de Odebrecht. Los allanamientos ocurrieron un día después de que la abogada panameña Evelyn Vargas fuera detenida preventivamente tras declarar ante la Fiscalía Especial Anticorrupción por el escándalo de Odebrecht."
+    },
+    {
+        "headline": "Editorial: ¿Qué sigue?",
+        "content": "\"Diez días atrás, desde estas líneas saludábamos la decisión del Ejecutivo de buscar mecanismos que pudieran asegurar al Estado la recuperación del dinero que le fue sustraído a través de la corrupción mediante la publicación del Decreto de Urgencia 003, pero también advertimos que se trataba apenas de un primer paso que debía ser acompañado de más medidas, que aún no se han dado.\n\nA pesar de la premura del tema, han pasado ya once días y el Ministerio de Justicia no ha dictado las medidas necesarias planteadas en el Decreto de Urgencia 003 para su implementación, lo cual en la práctica impide su aplicación, pues no se pueden constituir aun los fideicomisos. Esta actitud deja flotando la duda sobre si la norma fue bien meditada en el interior del gobierno o fue, principalmente, una respuesta a la presión que enfrenta.\""
+    },
+    {
+        "headline": "Perspectivas políticas post-Lava Jato",
+        "content": "\"Las investigaciones sobre el caso Lava Jato y sobre los sobornos confesados por Odebrecht pusieron los reflectores sobre los gobiernos de Toledo, García y Humala. Sin embargo, recientes eventos podrían complicar aún más la situación política, afectando potencialmente figuras clave como Pedro Pablo Kuczynski y Martín Vizcarra.\""
+    },
+    {
+        "headline": "División económica global bajo administración Trump",
+        "content": "\"Marcelo Pérez analiza cómo podría cambiar la economía mundial con nuevas políticas estadounidenses. Según él, existe preocupación respecto a posibles cambios drásticos en tratados internacionales y aranceles, lo que podría influir directamente en países dependientes de exportaciones agrícolas y manufacturas.""
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on their thematic relevance while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. It ensures each extracted segment has both a discernible headline and substantial content related to journalism standards.

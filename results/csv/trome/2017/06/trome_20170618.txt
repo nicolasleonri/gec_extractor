@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/06/trome_18.txt ---
+
+```json
+[
+    {
+        "headline": "Domingueros",
+        "content": "Hoy en día, uno pensaría que...\nPregunta: ¿Qué piensa sobre cómo se hacen las políticas?\nRespuesta: \"Algunos opinan que sí el Congreso censure (a Thorne)...\"\n\n¿Cómo ve el rol actual del gobierno frente a ciertas situaciones complicadas?"
+    },
+    {
+        "headline": "Vacancia",
+        "content": "\"Annollegamos al primer año de gobierno. Creé que el fujimorismo buscava vacancia presidencial?\" \nExplicación: \"Verdad nos divide del fujimorismo, porque hay gente del fujimorismo con quien dialogo constantemente,...\n\nOpinión personal sobre el manejo interno del oficialismo.\n\nReflexiona sobre posibles cambios ministeriales."
+    },
+    {
+        "headline": "Un ano. Muy dificil",
+        "content": "\"Sesiente satisfecha con lo que viene logrando el Gobierno hasta ahora?\" Respuesta: \"No, todavía falta mucho y quisiríamos haber hecho más.\" Explicación detalla los temas complejos enfrentados durante el mandato, tales como el caso ‘Lava Jato’ y otras problemáticas económicas y sociales."
+    },
+    {
+        "headline": "Cuidadores son 'padres adoptivos'",
+        "content": "\"Son dedicación y amor, los cuidadores de animalitos del Zoo de Huachipa han convertido en 'papitos adoptivos' de jirafas, cebras, hipopotamos, jirafas y zebras. [...] Los cuidadores José Flores y Cristopher Montés ocupándose de 'Ciwa', la primera tigresa blanca nacida en el Perú; del león 'Simba'; del cocodrilo 'Coco' y otros.\""
+    },
+    {
+        "headline": "Según Reniec",
+        "content": "\"Hoy se festeja el Da del Padre y, al respecto, el Registro Nacional de Identificación y Estado Civil (Reniec) informó que hay peruanos con nombres vinculados a esta celebración. Existen 183 ciudadanos bautizados como 'Papi,' mientras que 14 se llaman 'Paterno.' También hay siete 'Papito' y dos 'Padre.' Todos estos están con vida y sus nombres han sido registrados hasta inicios del 2017.\""
+    },
+    {
+        "headline": "Peligran empleos tras accidentes",
+        "content": "\"Hasta la fecha, se ha inhabilitado de manera definitiva a 50 conductores del servicio de transporte público, que ocasionaron accidentes de tránsito en varios puntos de la capital, según dio a conocer la Municipalidad de Lima. Entre los choferes sancionados está los de las empresas Sarita Colona y Villa Sol, Nueva Era Señor de Muruhuay y Carretera Central, que cubren la ruta Lima-Chosica, conocidas como 'Chosicanos!'\""
+    },
+    {
+        "headline": "Pan con Chicharrón celebra su día",
+        "content": "\"Millones disfrutan restaurantes, mercados y paladares miles ayer alejados del tradicional 'pan con chicharrón' y sus variantes. Familias abarrotaron locales para deleitarse con este platillo emblemático. Detalles sobre preparación y variaciones disponibles en festivales gastronómicos.\""
+    },
+    {
+        "headline": "Detienen a 'Retuerto',
+        "content": "\"Agentes del Escuadrón de Emergencia Este 1 atraparon a Armando Retuerto Saavedra (36), alias 'Retuerto;' luego de robar dos cachorros de raza pit bull a un joven que había dejado solo un momento en la entrada de su hogar, ubicado en San Juan de Lurigancho. La policía sospecha que podría formar parte de una organización criminal involucrada en el tráfico ilegal de mascotas.\""
+    },
+    {
+        "headline": "'Cincuenta años' arrestado",
+        "content": "\"Guido Rivera Tafur (53), alias 'Cincuenta años;', fue intervenido usando una réplica de arma de fuego para intentar robo a transeúnte femenina cerca de la avenida Republica de Polonia, número 210, en San Juan de Lurigancho. Durante el procedimiento, se encontraron munición falsa en posesión del individuo.\""
+    },
+    {
+        "headline": "Propuestas decentes",
+        "content": "\"Patricio Quiñones, esposo de Milett Figueroa, comparte detalles íntimos de su relación basada en sinceridad y profesionalismo. Relatan momentos significativos desde antes de iniciar su romance, destacando actitudes genuinas y compromisos compartidos.\""
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure for each entry. Articles were identified based on context clues such as distinct topics, changes in narrative style, and thematic breaks within the document.

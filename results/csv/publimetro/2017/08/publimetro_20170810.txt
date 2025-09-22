@@ -1,0 +1,133 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/08/publimetro_10.txt ---
+
+```json
+[
+    {
+        "headline": "CONVERSACION CON ALDO MIYASHIRO",
+        "content": "Conversamos con este actor y conductor de TV, quien dirige y protagoniza la comedia peruana \"Once machos\". Se ve desde hoy en nuestros ci.\xA0\nA Miyashiro no le quita el sueño la critica. Afirma que esta nueva pelicula solo busca divertir a los espectadores.\n¿Cómo ves la recepción a las comedias nacionales, que a veces no son bien recibidas por la critica?\nSiempre habrá eso. Yo hago películas pensando en divertir al público, que la pase bien. Es una película muy simple, sencilla, sin más pretensiones que pasar un buen rato y mover algo en la gente. Los criticos tienen todo el derecho de dar opiniones. Esta es una comedia que ojalá enganche con los peruanos."
+    },
+    {
+        "headline": "\"ONCE MACHOS\"",
+        "content": "Los vecinos de un barrio han apostado sus casas en un partido de fútbol. La suerte de estas personas depende de Once Machos, un equipo amateur que está acostumbrado a perder y que ahora tendrá que enfrentarse a Los Diamantes, un equipo profesional dirigido por Jaime, un expueblo del barrio que pretende derribar las casas del lugar para construir un centro comercial.\nPietro Sibill, Vanessa Saba, Erika Villalobos, Cristian Rivero, Yaco Eskenazi, Daniel Peredo, Andrés Silva, Andrés Salas."
+    },
+    {
+        "headline": "TERCERA EDICIÓN DE CIUDAD ROCK NO SERÁ ESTE AÑO",
+        "content": "Kandavu Producciones confirmó ayer que la tercera edición del Festival Ciudad Rock no se realizará este año, sino en 2018. Explica que ha sido \"muy complicado\" lograr que grandes artistas coincidan en una misma fecha en Lima."
+    },
+    {
+        "headline": "LUIS FONSÍ EN LIMA PARA UN CONCERTO",
+        "content": "El cantante puertorriqüense Luis Fonsí ofrecerá un concierto en Lima el próximo 4 de octubre en la Pelouse del Jockey Club del Perú, como parte de su gira Love + Dance Tour, según informó la productora Work Shows. Durante el evento, el interprete del famoso tema \"Despacito\" entonará sus baladas más románticas y los ritmos de rhythm & blues que le han otorgado reconocimiento internacional."
+    },
+    {
+        "headline": "'13 REASONS WHY': NUEVAS CARACTERIZACIONES ANUNCIADAS",
+        "content": "Desde su debut en marzo pasado, 13 Razones Para Serán convirtió en una de las series más populares del 2027. Ayer, la plataforma Netflix reveló a los siete nuevos personajes que formarán parte de la segunda temporada, aún sin fecha oficial de estreno. Entre estos están Chris (interpretado por Bryce Cass), líder problemático de los \"oprimidos\", su hermana Mackenzie (Chelsea Alden), así como las abogadas Sonia (Allison Miller) y Jackie (Felice O’Hara); además de Chloe (Anne Winters), la nueva \"niña bonita\"."
+    },
+    {
+        "headline": "ESTRENAN IMAGENES Y DETALLES DE STAR WARS: THE LAST JEDI'",
+        "content": "La versión digital de la revista Entertainment Weekly mostró recientemente avances sobre lo que será el anticipado Episodio VIII. Las imágenes y datos adicionales de The Last Jedi fueron divulgados, destacándose momentos clave donde aparecerían Daisy Ridley (Rey), John Boyega (Finn), Mark Hamill (Luke Skywalker) y Carrie Fisher (Leila Organa), quien completó todas sus escenas antes de su lamentable partida el 27 de diciembre de 2016. Además, se mencionan aspectos intrigantes de la narración, tales como cómo Rey interactúa con Luke Skywalker, transformado en un anciano lleno de remordimientos."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/publimetro/2017/08/publimetro_10.txt ---
+
+```json
+[
+    {
+        "headline": "CONVERSACION CON ALDO MIYASHIRO",
+        "content": "Conversamos con este actor y conductor de TV, quien dirige y protagoniza la comedia peruana Once machos. Se ve desde hoy en nuestros ci. \xA0\nA Miyashiro no le quita el sueño la critica. Afirma que esta nueva pelicula solo busca divertir a los espectadores.\n\nCómo ves la recepción a las comedias nacionales, que a veces no son bien recibidas por la critica?\nSiempre habrá eso. Yo hago películas pensando en divertir al público, que la pase bien. Es una película muy simple, sencilla, sin más pretensiones que pasar un buen rato y mover algo en la gente. Los criticos tienen todo el derecho de dar opiniones. Esta es una comedia que ojalá enganche con los peruanos."
+    },
+    {
+        "headline": "\"ONCE MACHOS\"",
+        "content": "\nSinopsis:\nLos vecinos de un barrio han apostado sus casas en un partido de fútbol. La suerte de estas personas depende de Once Machos, un equipo amateur que está acostumbrado a perder y que ahora tendrá que enfrentarse a Los Diamantes, un equipo profesional dirigido por Jaime, un expueblo del barrio que pretende derribar las casas del lugar para construir un centro comercial.\n\nReparto:\nPietro Sibill, Vanessa Saba, Erika Villalobos, Cristian Rivero, Yaco Eskenazi, Daniel Peredo, Andrés Silva, Andrés Salas."
+    },
+    {
+        "headline": "TERCERA EDICIÓN DE CIUDAD ROCK NO SERÁ ESTE AÑO",
+        "content": "Kandava Productions confirmó ayer que la tercera edición del festival Ciudad Rock no se realizará este año, sino el 2018. Explica que ha sido \"muy complicado\" lograr que grandes artistas coincidan en una misma fecha en Lima."
+    },
+    {
+        "headline": "LUIS FONSÍ EN LIMA PARA UN CONCERTO EL PRÓXIMO OCTUBRE",
+        "content": "El cantante puertorriqueño Luis Fonsí ofrecerá un concierto en Lima el próximo 4 de octubre en la Pelouse del Jockey Club del Perú, como parte de su gira Love + Dance Tour, según informó la productora Work Shows. Durante el evento, el interprete del famoso tema ‘Despacito’ entonará sus baladas más románticas y los ritmos de rhythm & blues que le han otorgado reconocimiento internacional."
+    },
+    {
+        "headline": "'13 REASONS WHY': LA TEMPORADA DOS TRAE PERSONAJES NUEVOS",
+        "content": "Desde su debut en marzo pasado, 13 Razones Para Morirse convirtió en una de las series más populares del 2027. Ayer, la plataforma Netflix reveló a los siete nuevos personajes que formarán parte de la segunda temporada, aún sin fecha oficial de estreno. Entre estos están Chris (Bryce Cassidy), líder problemático de los “oprimidos”; Mackenzie (Chelsea Allen); las abogadas Sonia Miller y Jackie (Felicia O’Hara); Chloe (Anna Winters), la nueva chica bonita."
+    },
+    {
+        "headline": "ESTRENAN IMAGENES Y DETALLES DE STAR WARS: THE LAST JEDI",
+        "content": "La versión digital de la revista Entertainment Weekly mostró recientemente avances sobre lo que será el anticipado Episodio VIII. Las imágenes muestran a los personajes principales como Daisy Ridley (Rey), John Boyega (Finn), Mark Hamill (Luke Skywalker) y Carrie Fisher (Leila Organa), quien completó todas sus escenas antes de su lamentable partida en diciembre de 2016. Además, se detalla cómo Rey buscará inspiración en un viejo maestro jedi, encontrándose con un hombre marcado por el remordimiento."
+    },
+    {
+        "headline": NA,
+        "content": "El presidente de la Asociación Pro Seguridad Ciudadana del Perú, Cesar Ortiz Anderson, menciona que ningún distrito limeño puede considerarse completamente seguro. Destaca que Miraflores responde eficientemente ante situaciones criminales gracias a reuniones constantes lideradas por el Alcalde Jorge Muñoz Wells con diversos agentes encargados de mantener la paz pública."
+    }
+]
+```
+This JSON captures several distinct articles extracted from the provided input while adhering strictly to the defined scope and guidelines for extraction and cleanup. Articles were identified based on headlines followed by relevant content sections, ensuring clarity between different pieces within the document. Any missing data was marked appropriately using `"NA"` where necessary.
+
+--- ERROR ENTRY: data/txt/publimetro/2017/08/publimetro_10.txt ---
+
+```json
+[
+    {
+        "headline": "Señalan falta de respaldo internacional frente a ANC venezolana",
+        "content": "Por su parte, la Asamblea Nacional (AN), de mayoría opositora, – destac ayer la declaración pronunciada el martes en Lima, en donde 17 países de América y el Caribe ratificaron su rechazo a la Asamblea Nacional Constituyente (ANC).\n\n\"Nuestra lucha ahora tiene el apoyo de la comunidad internacional\", indicó el presidente de la AN, Julio Borges. El texto será remitido a las sedes diplomáticas de los países que participaron."
+    },
+    {
+        "headline": "Abuchean a Michel Temer durante evento público",
+        "content": "\"Temer es abucheado luego de discurso\"\n\nEl presidente brasileño, Michel Temer, que el mes pasado fue salvado por sus aliados en el Congreso de sufrir una investigación penal por corrupción, fue abucheado ayer en Rio de Janeiro al concluir un encuentro con exportadores.\n\nNo sirvió que Temer recalcase que su \"no ha avanzado mucho\" y que la economía había crecido 1%. Acenas"
+    },
+    {
+        "headline": "Ministerio alerta sobre más de 400 disidentes de las FARC",
+        "content": "\"FARC tendría más de 400 disidentes\"\n\nEl ministro colombiano de Defensa, Luis Carlos Villegas, advirtió ayer que entre un 5% y 7% de los integrantes de las FARC, lo que equivaldría a más de 400 personas, no se ha acogido al acuerdo de paz y actualmente hacen parte de grupos disidentes.\n\nSegún Villegas, esta cifra es menor que la \"profecía que hacían ciertos politólogos y analistas\", quienes vaticinaban al menos 7 mil guerrilleros dejarían las armas tras el acuerdo de paz firmado en noviembre del año 2016."
+    },
+    {
+        "headline": "Donald Trump promete potencial militar superior",
+        "content": "\"Trump cruza amenazas con Corea del Norte\"\n\nEl presidente estadounidense respondió a información sobre los avances armamentísticos de Pyongyang presumiendo de su arsenal nuclear. Un general norcoreano lo calificó de persona \"sin raciocinio\".\n\nTras afirmar que el arsenal nuclear de EE.UU. está \"más poderoso y fuerte que nunca\", añadió que desarrollará planes militares significativos hacia Corea del Norte."
+    },
+    {
+        "headline": "Expulsión de diplomáticos cubanos de Washington",
+        "content": "\"EE.UU. expulsa a diplomáticos cubanos\"\n\nEE.UU. expulsó a dos diplomáticos de la embajada cubana en Washington debido a una serie de incidentes que causaron varios síntomas físicos en ciudadanos estadounidenses empleados en la embajada americana en La Habana, según reportó el Departamento de Estado."
+    },
+    {
+        "headline": "Jonah Sargent planea libro de fotografías de perros durmiendo",
+        "content": "\"Resting Bitch Face\": Fotografo captura imágenes de perros durmiendo\n\nJonah Sargent, fotógrafo estadounidense, decide documentar expresiones únicas de perros mientras duermen. Planea reunir fondos mediante crowdfunding para publicar estas imágenes en un libro titulado \"Resting Bitch Face\"."
+    },
+    {
+        "headline": "Samsonite lanza línea de maletas Hudson para vuelos low-cost",
+        "content": "\"Maletas Hudson ideales para vuelos económicos\"\n\nConsiderando el modelo de vuelos low-cost y requisitos reducidos de equipaje, Samsonite introduce su línea de maletas Hudson, caracterizada por peso mínimo, resistencia a rayones y variedad de tallas disponibles en diferentes establecimientos comerciales."
+    },
+    {
+        "headline": "Moschino innova con fragancias inspiradoras",
+        "content": "\"Moschino lanza frescura irreverente\"\n\nPresentación de la última colección de perfumes de Moschino, notable por su diseño similar a aerosoles multi-uso tradicionales, combinando notas aromáticas frutales y florales, accesible en múltiples cadenas minoristas."
+    },
+    {
+        "headline": "Atención a fans de redes sociales con gadgets prácticos",
+        "content": "\"Gadgetspour Fans de Redes Sociales\"\n\nExploración de dispositivos tecnológicos diseñados específicamente para mejorar la interacción en redes sociales, tales como cámaras portátiles para streaming, contadores de ‘likes’ físicos y otros equipos multifuncionales."
+    },
+    {
+        "headline": "Jefferson Farfan ausente en empate de Lokomotiv",
+        "content": "\"Empate sin Farfan en Rusia\"\n\nDurante la Fecha 5 de la Premier League rusa, Lokomotiv de Moscú empató 1–1 contra Rubin Kazán. El técnico Yuri Semín confirmó la baja de Jefferson Farfán por motivos médicos."
+    },
+    {
+        "headline": "Preparativos intensificados previo a torneos importantes",
+        "content": "\"Entrenamientos clave para próximos compromisos deportivos\"\n\nDetallando cómo clubes como Real Garcilaso y Alianza Lima están optimizando estrategias y ajustándose tácticamente para maximizar rendimiento en juegos cruciales dentro del Torneo Apertura."
+    },
+    {
+        "headline": "Historia hecha realidad en Mundial de Atletismo",
+        "content": "\"Usain Bolt obtiene bronzo en Londres\"\n\nUna revisión detallada de la performance históricamente relevante de Usain Bolt en el Mundial de Atletismo de Londres, junto con análisis comparativo respecto a otras figuras emergentes en el ámbito atlético."
+    },
+    {
+        "headline": "Roger Federer triunfa en inicio sólido en Canadá",
+        "content": "\"Federer domina en Toronto\"\n\nDescripción del exitoso debut de Roger Federer en el Masters 1.000 de Montreal, superando fácilmente a su contrincante inicial y anticipando retos mayores en rondas subsiguientes."
+    },
+    {
+        "headline": "Producción cinematográfica nacional destaca humor y música",
+        "content": "\"Once Machos’: Película Permanece fiel al espíritu cómico\"",
+        
+        """José Barreto reflexiona sobre su rol dual como director y actor principal en “Once Machos”. Destaca la importancia de la banda musical enriquecedora y el impacto cultural positivo buscado."""
+    }
+]
+```

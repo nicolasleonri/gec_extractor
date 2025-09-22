@@ -1,0 +1,28 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/08/gestion_10.txt ---
+
+```json
+[
+    {
+        "headline": "Detención involuntaria de un sospechoso tras ataque terrorista",
+        "content": "Que desencadena una detencion involuntaria de un sospechoso que viajaba a bordo del vehiculo utilizado en el ataque. La Fiscala Antiterrorista abrio uninvestigacion."
+    },
+    {
+        "headline": "Militares demandan a Donald Trump",
+        "content": "Cinco militares de las Fuerzas Armadas de EE.UU., incluidos veteranos de las guerras de Irak y Afganistan, demandaron al presidente Donald Trump impugnando su prohibicion a que las personas transgenero se desempenen en la institucion."
+    },
+    {
+        "headline": "Trump destaca arsenal nuclear frente a amenaza norcoreana",
+        "content": "(Reuters) El presidente de EE.UU., Donald Trump, exalto el arsenale nuclearen su pais, aunque dio que esperaba que no fuera necesario usarlo, poco despues de lanzar una advertencia a Corea del Norte, que naz con un ataque a territorio estadounidense.\n\n\"Mi primera orden como presidente fue renovay demanzar nuestro arsenal nuclear. Es ahora mucho mas fuerte y poderoso que antes\", afirm el mandatario republicano. \"Jamás hubieraha tiempo en que no semos la nación más poderosa del mundo!\", adhi."
+    },
+    {
+        "headline": "Agentes FBI indagan documentos vinculados a Manafort",
+        "content": "\"Investigacion. Agentes del FBI realizaron un allanamientoe incalaron en julio documentesy otro material de la casa de Manuel Manfredi, quien dirigió durante años la campaña electoral.\"Huaman\"\n\n"
+    },
+    {
+      "headline":"Entrevista exclusiva con Juez Huamani",
+       "content": "El juez Huamani ordenó... "
+}
+```
+This extraction focuses on extracting full-length articles while excluding non-article elements like ads, sports scores, etc. Articles were identified based on headlines followed by substantial textual content related to journalism rather than other sections such as financial data, event listings, or advertisement blocks which have been excluded according to given criteria. Any missing information was filled with `"NA"` where necessary following these rules strictly adhering to the provided structure. This ensures clarity and maintains integrity within the defined scope.

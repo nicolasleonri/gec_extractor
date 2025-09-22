@@ -1,0 +1,47 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/11/gestion_22.txt ---
+
+```json
+[
+    {
+        "headline": "Malos de Publicidad?",
+        "content": "Hace un año la TV era reacia a nuevas formas de sociedad y se quedaba en el famoso spot de 30 segundos en una tanda. Esto ha ido cambiando. El año pasado creamos un primer grupo de branded content.\n\nCreo que tenemos mente abierta para nuevos formatos de publicidad."
+    },
+    {
+        "headline": "¿Cuáles han sido las tácticas?\nNosotros hemos tenido experiencias exitosas fuera de tanda. Tenemos programas donde se activan marcas, como EEG ('The Grand Show'), también hemos hecho intervenciones en series. Si bien la mayoría de ingresos proviene de la tanda, más del 80%, vemos que los nuevos formatos van a crecer. Si tenemos que involucrar artistas, lo haremos."
+    },
+    {
+        "headline": "Harán cambios en la programación?\nSi algo funciona, no hay por qué cambiarlo. Estructuralmente no habrá grandes cambios."
+    },
+    {
+        "headline": "América TV no tiene los derechos del Mundial, ¿qué harán?\nEso no quita que nosotros nos ocupemos, ahora estamos estructurando cómo manejaremos esto. Obviamente, vamos a fortalecer nuestros espacios deportivos."
+    },
+    {
+        "headline": "LANZAMIENTO MT pone en mira a las mujeres",
+        "content": "La oficina londinense de J.Walter Thompson lanzó Female Tribes Consulting. Esta nueva unidad busca cambiar cómo el mercado ve a las mujeres y captura el valor que ellas aportan al mundo, según recoge el portal especializado Adlatina. El proyecto se basa en Women’s Index, un compendio de cinco años de investigaciones sobre la femineidad contemporánea y la forma en que se representa en los medios."
+    },
+    {
+        "headline": "Informe Adultos mayores alejados de spots?",
+        "content": "Al menos siete de cada diez adultos mayores de 50 años no se sienten correctamente representados por la publicidad. Según una encuesta de la consultora británica Yougov, sólo el 21% de ese grupo de personas está conforme con el modo en que las marcas los retratan, mientras que el 12% no sabe. Así, señala Nelson D’Onghie, director general de Kantar Worldpanel Media España, las industrias de belleza, moda y tecnología son las que más alienan a los adultos mayores con su comunicación."
+    },
+    {
+        "headline": "VAMOS A DARLE NUEVA DIMENSIÓN A NUESTRA TECNOLOGÍA DE REALIDAD VIRTUAL PARA CONOCERMEJOR AL CLIENTE",
+        "content": ""
+    },
+    {
+        "headline": "ESCRIBIR UN PROGRAMA QUE HAGA SENTIRSE CÓMO ESTÁ EN CASA EL WIFIACTIVATED IN THE BOX",
+        "content": ""
+    },
+    {
+        "headline": "La última edición de la Guía Michelin",
+        "content": "Hoy se revelará una nueva versión de esta publicación para España y Portugal con 275 distinciones. Dos de los países más destacados son España y Portugal, donde hoy se darán a conocer los restaurantes que han ganado (o renovado) una, dos o tres estrellas, por lo que formaran parte de la guía del 2018. En la nueva edición para los países de la Península Ibérica se repartirán 275 estrellas. Habrá, al menos, un nuevo tres estrellas y una veintena conseguirán su primera distinción, informa Expansion de España."
+
+    ,
+    {
+        "headline": "",
+        "content": "\nLos líderes del sector culinario japonés suman cerca de 600 estrellas Michelin distribuidas principalmente en cuatro ciudades importantes: Nara, Osaka, Kyoto y Tokyo. Estas últimas cuentan con numerosos reconocimientos debido a su excelencia en la oferta gastronómica. Entre estas, Tokyo sobresale con el récord mayor número de triples estrellas en una única ciudad, contabilizando hasta doce restaurantes galardonados con tal honor. Un ejemplo notable es Usuki Fugu Yamadaya, conocido por su especialización en preparativos delicados de pez globo, potencialmente venenosos sin manipulación adecuada. Tras las actualizaciones de la Guía Michelin para regiones europeas, próximamente será turno de Tokio para recibir atención similar durante su onceava revisión. Hong Kong sigue siendo otra metrópolis prominente dentro del ámbito gourmet internacional, acumulando 87 estrellas Michelin en 61 restaurantes distintos, tres de los cuales poseen la máxima calificación trilateral.\n\nDetrás de escenas, más de ochenta y cinco inspectores trabajan arduamente evaluando diversos establecimientos bajo estrictos parámetros de anonimato y rigor crítico. Su misión consiste exclusivamente en evaluar la calidad intrínseca de la comida ofrecida, descartando factores externos tales como decoración o servicios adicionales. Joel Robuchón figura como el cocinero francés con mayor cantidad de premios Michelin, superando incluso a figuras internacionales renombradas como Gordon Ramsay. Por último, chefs españoles como Martín Berasategui continúan figurando en listas prestigiadas gracias a bodegas emblemáticas como Alejandro, anticipándose a futuros honores posibles en revisiones subsiguientes de la Guía Michelin."
+    }
+]
+```
+This JSON captures each distinct article found within the provided OCR text while adhering strictly to the guidelines for extraction and cleanup specified in the task description. Articles lacking explicit headlines have been assigned `"NA"` where appropriate, ensuring clarity and consistency across entries.

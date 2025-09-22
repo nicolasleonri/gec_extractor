@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/10/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "Interés económico disminuye",
+        "content": "Ahora los términos de intercambio no están favorables y el margen de maniobra fiscal tampoco es el mejor. Si continuamos en esta tendencia, también será improbable alcanzar las metas de crecimiento de 4.5% para el año 2017 en adelante.\n\nDesde ahora deberíamos comenzar la implementación de los proyectos estructurales que se consolidarán para los próximos períodos."
+    },
+    {
+        "headline": "Proyectos pendientes",
+        "content": "Recuérdense que aún persisten algunos proyectos gubernamentales antiguos que continúan paralizados, tal como el Parque Rimac y la línea 2 del metro de Lima."
+    },
+    {
+        "headline": "Panorama nacional",
+        "content": "\"Cuando parecía que en este país todo colapsaba alrededor de nosotros, había personas excepcionales dispuestas a ofrecer sus vidas. Estas historias inspiradoras destacan cómo individuos han sacrificado mucho más por los demás.\" \n\n\"Uno de estos ejemplos es la vida de Alonso Salas Chanduv, quien decidió convertirse en bombero tras experimentar personalmente el impacto devastador del terremoto de Pisco en 2007. Desde entonces, trabajó incansablemente junto a organizaciones benéficas para reconstruir comunidades afectadas.\""
+    },
+    {
+        "headline": "Heroísmo juvenil",
+        "content": "\"Con sólo diecisiete años, Alonso optó por dejar atrás su juventud convirtiéndose en bombero voluntario. Esta decisión surgió después de ver el horror causado por el terremoto de Pisco, impulsándole a servir activamente en rescates y labores de recuperación post-desastre.\"\n\n\"Su compromiso con la causa solidaria lo mantuvo ocupado incluso antes de ingresar oficialmente al cuerpo de bomberos, colaborando con grupos como ‘Un techo para mi patria’.”\n\n\"Finalmente, el joven héroe falleció heroicamente combatiendo un incendio en El Agustino, dejando un legado de valentía y altruismo.”
+    },
+    {
+        "headline": "Denuncia en Fiscalía",
+        "content": "\"Una nueva controversia surge debido a la denuncia interpuesta contra el alcalde de San Martín de Porres, Adolfo Mattos Piaggiou, relacionada con el presunto delito de favorecimiento a la explotación sexual infantil. Las tensiones aumentan conforme avanza la investigación judicial.\"\n\n\"Durante una visita a la Cuarta Fiscalía Provincial Penal Corporativa, Ana María Lozada Romeral, Ministro de la Mujer y Poblaciones Vulnerables, expresó su profundo malestar frente a la lentitud procesal observada en el manejo del caso. Insisten en solicitar acciones rápidas y eficientes para resolver el problema legal enfrentado actualmente.\""
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Any extraneous information such as ads was excluded according to the scope defined.

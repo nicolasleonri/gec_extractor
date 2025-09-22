@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2017/08/elcomercio_21.txt ---
+
+```json
+[
+    {
+        "headline": "Mea culpa de PPK",
+        "content": "En entrevista con CNN en Español, el mandatario calific\u00f3 como su \u201camyor fracaso\u201d el no haber logrado reacti\-var la econom\u00eda. Se\u00f1al\u00f3 que sus electores esperaban que \"la economi-a iba a vo-lar\" y no ha volado.\nPablo Kuczyn-ski admiti\u00f3 errores en su primer año de gobierno, destacando el bajo cre-cimiento eco-nom\u00eds-co como su 'mayor fra-ca-so'.\nDurante una conversaci\u00f3n con Andrés Op-penheim er, el Presidente descri-bi\u00f3 el panorama econ\u00f3-mico peruano post elecciones."
+    },
+    {
+        "headline": "Indulto a Fujimori",
+        "content": "\"[El indulto hu-manita-rio a Fuji-mori] no es mi ide-a. Es la idea de much-isimos peruan-os.\" Ped-ro Pablo Ku-czyń ski\nEl president-e discuti-o la posible liberación condicional de Alberto Fuji-mori basándose tanto en razones médicas como en el apoyo popular mostrado en encuestas. Reafirm\u00f3 que cualquier decision seria independientemente de influencias políticas u obligatorias."
+    },
+    {
+        "headline": "Reforma Magisterial Urgente",
+        "content": "\u201CEs im-perati-vo in-dagan-ar cm-o y por q-u esos 250 profeso-res con-denados por terr-orismo han vu-el-ta-do a ense-ar a nues-tros ni-os.\u201D Diana Sem-inaro\nUn reportaje destaca la problemática existente en el sector educativo debido a la reincorporación de docentes anteriormente implicados en actividades extremistas. Subraya la importancia de adherirse rigurosa-mente a la ley vigente que prohibe tales prácticas."
+    },
+    {
+        "headline": "Organización Criminal Filtra Justicia",
+        "content": "Capturan a bandas criminales ligadas a funcionarios judiciales en La Liberdad. Dos agentes de Policía y un secre-tario de ju-zgado formaban parte de la estructura corrupta facilitada por Los Angeles Negros. Investigaciones sugieren conexiones adicionales dentro del Ministerio Publico local."
+    },
+    {
+        "headline": "Preparativos Ante Tsunami",
+        "content": "Simulacros insuficientes y planes deficientes amenazan la capacidad de respuesta ante potenciales tsunamis en La Punta, Callao. Solo un pequeño porcentaje posee kits de supervivencia adecuados, y existe incum-plimiento generalizado en cuanto a evaluaciones estructurales residenciales."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while excluding irrelevant sections like ads and non-journalistic elements. It maintains the structure required for further processing or analysis.
+
+--- ERROR ENTRY: data/txt/elcomercio/2017/08/elcomercio_21.txt ---
+
+```json
+[
+    {
+        "headline": "No lo vamos a lograr",
+        "content": "En 20 minutos, apenas llegábamos al cruce con la Av. Paz Soldán [altura de la Fortaleza Real Felipe]. Por eso optamos por la experiencia de Japón: usar edificios\", explica el jefe de la División de Gestión de Riesgos de Desastres y Defensa Civil de La Punta, Moisés Llallahuaman.\n\nEn el 2010 se identificaron 19 edificios con más de 12 metros de alto. En las azoteas se acopilaron artículos de supervivencia: chalecos, comida, agua, palos y una radio para comunicarse con el centro de operaciones de emergencias del distrito, cuya sede, paradójicamente, seria la primera en inundarse por su cercanía al litoral. Según Llallahuaman, el próximo mes se trasladarían al cuarto piso de la Escuela Naval."
+    },
+    {
+        "headline": "Obras y gestiones",
+        "content": "Las partes altas de los 19 edificios \u2013incluyendo a la Escuela Naval\u2013 pueden refugiarse en conjunto a 5 mil personas, según estimaciones de la municipalidad. Alcanzaría solo algo más de la mitad de la población que todos los días duerme en La Punta. La evacuación se complicaría aún más si el maremoto ocurre en la temporada de verano, ya que el distrito suele recibir a 30 mil visitantes diariamente. Por eso último, esta gestión municipal plante restricción del ingreso a sus dos malecones: Figueredo y Pardo. El estudio del aforo arrojó que ambos espacios públicos debieran recibir máximo a 10.846 personas. \"Na más\". Según Llallahuaman, la propuesta que data del 2015 se elevó al Centro Nacional de Evaluación Prevencción y Reducción del Riesgo de Desastres (Cenepred) y a la Oficina de Desarrollo Urbano de la Municipalidad del Callao. Hay una segunda iniciativa pendiente: un refugio para 10 mil personas. Sería una estructura de columnas enterradas y con una elevación de 14 metros. Ubicada en un terreno de 30 mil m² que el Callao le cesó a La Punta, en la Playa Carpayo. En el 2014 se gestionó que la obra la construya el Gobierno Central, pero por el momento está en proyecto. La oficina de Defensa Civil de La Punta no pudo especificar el presupuesto requerido ni qué fase están las negociaciones."
+    },
+    {
+        "headline": "\"La gestión actual quiere construir un refugio\"",
+        "content": "\u00bfCómo?", pregunta Wilber Garavito, Decano del Colegio de Ingenieros del Callao. \"Con una ola de 9 metros, los buques van a terminar en la costa. Hay que pensar en el peor escenario.\""
+    },
+    {
+        "headline": "Clínica EL COMERCIO | Salud mental",
+        "content": "- ¿Qué tan eficiente es la ketamina?\n   * Siempre debe utilizarse dentro de protocolos de investigación rigurosos, aseguran médicos consultados.\n   * Para evitar riesgos graves, siempre debe aplicarse mediante infusiones intravenosas ambulatorias realizadas únicamente por personal capacitado.\n   * Las evidencias sugieren que podría funcionar incluso después de fracasar múltiples ensayos previos con diferentes clases de drogas.\n   * Existe preocupación respecto al posible desarrollo de tolerancias rápidas y dependencia física.\n   * También existen temores relacionados con el impacto neurológico prolongado derivado de su uso repetido.\n   * Además, persisten interrogantes sobre cómo interactúa con otros medicamentos y condiciones patológicas concurrentes.\n   * Finalmente, dado que la FDA no ha otorgado formalmente su aprobación específica para el manejo de la depresión resistente, cualquier aplicación práctica sigue siendo experimental."
+    },
+    {
+        "headline": "GALETA",
+        "content": "Las horas perdidas durante la huelga Desde el 12 de julio, los docentes de Lima Metropolitana se sumaron a la huelga nacional de maestros que en algunas regiones lleva casi dos meses. Según la Dirección Regional de Educación de Lima Metropolitana, la semana pasada el ausentismo de maestros de escuelas públicas en los 43 distritos de la capital llegó casi al 50%. En este contexto, también permanecen esperanzados aquellos estudiantes que carecen de oportunidades educativas adecuadas. Muchos niños y adolescentes vagan por instalaciones abandonadas de sus instituciones educativas, mientras otros prefieren pasar tiempo libre jugando en las calles durante periodos destinados al aprendizaje. Durante este período inciert

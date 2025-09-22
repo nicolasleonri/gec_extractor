@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/04/peru21_24.txt ---
+
+```json
+[
+    {
+        "headline": "Desaprueba a Trump",
+        "content": "NUEVA YORK (Agencias).— A\n\tpoco días de que el presidente\n\tde EE.UU, Donald \n\tTrump,\ncumplase sus primeros 100 días en el\n\tpoder, una encuesta inform\n\	que el 54% de ciudadanos \ndespues su gestión. El sondeo\n\	preparado por The Wall Street\n\tJournal y la cadena NBC \n\tindica que el mandatario cuenta\n\t	con el 40% de aprobación.\n\tTras su divulgación, el \nmandatario critico los resultados del\n\tsupuesto a través de Twitter."
+    },
+    {
+        "headline": "Doctores del Ministerio Público podrán ser llevados a prisión...",
+        "content": "…si iniciaran una investigación a una persona poderosa sin suficientes indicios de delito (2?). Las prisiones preventivas, necesarias para evitar que los corruptos siguieran actuando, ocultaren sus robos y destrozaren las pruebas, serían dificultadas. La colaboración eficaz, palanca clave de Lava Jato para descubrir los mecanismos de la corrupción y las redes del crimen, no podría darse en casos de prisión preventiva. Sergio Moro ha denunciado que, con el PL 280, los jueces pudieran ser procesados penalmente por motivos de interpretación de la ley. Los medios y la opinión pública están en contra del PL 280, y las redes sociales están muy activas para evitar su aprobación, pero los políticos corruptos están desesperados para evadir la cárcel y recuperar sus mal obtenidas fortunas."
+    },
+    {
+        "headline": "MAS DE 700 MUERTOS POR BOMBARDEROS INTERNACIONALES EN DAMASCUS",
+        "content": "DAMASCO (EFE).— El Observatorio Sirio de Derechos Humanos publicó un reporte donde señalan que, al menos, 7631 personas han muerto en Siria debido a los ataques de la coalición internacional dirigida por Estados Unidos desde el 23 de septiembre de 2014. Con base en la organización, de dicho número, al menos 1256 personas eran civiles, incluidos 275 niños y 184 mujeres."
+    },
+    {
+        "headline": "NICOLÁS MADURO ACUSA A LA OPOSICIÓN DE ORGANIZACIÓN DE ATAQUES",
+        "content": "CARACAS (Agencias)— El presidente de Venezuela, Nicolás Maduro, responsabilizó a la oposición por la muerte de 12 individuos ocurrida durante el saqueo de un comercio al oeste de Caracas. El líder chavista afirmó que estas víctimas fueron contratadas por la derecha para provocar disturbios violentos. ‘Son muertos que hizo la derecha’, expresó Maduro. Además, instó a llevar adelante elecciones regionales, argumentando que él poseía facultades constitucionales para impulsarlas.”
+    },
+    {
+        "headline": "INTERVIEW WITH JANET BRIONES ON HIGH-PRIORITY CASES INVOLVING THREE FORMER PRESIDENTS OF THE REPUBLIC",
+        "content": "Janet Briones, head of the Office against Illicit Enrichment, discusses emblematic cases involving three former presidents: Ollanta Humala regarding alleged illegal funding of his party Nationalist Party Peruano; Alejandro Toledo concerning the case Ecoteva; and Alan García over illicit enrichment charges. She outlines current situations including recent developments such as allowing Nadine Heredia's travel abroad under certain conditions while awaiting further investigation outcomes related to her husband’s campaign financing allegations."
+    },
+    {
+        "headline": "FRANCÉS PREFIEREA OTROS RESULTADOS ELECTORALES FRANCESES SOBRE EMOTIONALISM AND POLITICAL PROMISES",
+        "content": "Prefiriendo a Macron sobre Marine Le Pen en la segunda vuelta francesa, dado su notable programa económico inspirado en Margaret Thatcher, aunque reconoce problemas éticos relacionados con nombramientos parlamentarios controversiales. Critica también la falta de voluntad reformista genuina comparándose con Sarkozy anteriormente, anticipando continuación de tendencias decrecientes bajo Emmanuel Macron."
+    },
+    {
+        "headline": "COMPLEJA SITUACIÓN LEGAL PARA DENUNCIANTE DESPUÉS DE ABANDONO SEXUAL EN FIESTA PRIVADA",
+        "content": "Posterior a la declaración formal frente a fiscales, Johanna Custodio describe cómo fue engañada mediante alcohol proporcionado por amigos mientras interactuaba con John Taylor Pizarro Coronel, resultando en actos sexuales no consentidos. Solicita severas consecuencias legales para el perpetrador basándose en testimonios corroborativos recolectados por entidades gubernamentales especializadas en derechos femeninos."
+    },
+    {
+        "headline": "CLÓSET DE MOTOTAXISTA TERMINA EN CRIMEN PASIÓN CONTRA SU EXPAREJA",
+        "content": "Durante una fiesta familiar en Ate, un incidente fatal culmina con un hombre matando a tiros a su antigua compañera sentimental y madre de sus hijos, en medio de tensiones emocionales exacerbadas por consumo de bebidas embriagantes. Testigos describen el evento dramático, marcado por celos extremos y acciones precipitadas, reflejando un aumento alarmante en estadísticas de feminicidios en el país."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text input based on defined criteria. It excludes non-journalistic elements like ads, subscriptions, etc., focusing solely on substantial articles within the given scope.

@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/08/publimetro_25.txt ---
+
+```json
+[
+    {
+        "headline": "SUYATOSLAV TARASENKO Metro World News",
+        "content": "¿A qué cree que se deba el enorme éxito que ha tenido Game of Thrones?\n\nLa pica fantástica naci con El Señor de los Anillos, de Tolkien. Después de eso, llegaron varias series de libros populares, como los de Robert Jordan y Terry Brooks. Sin embargo, eran para un público adolescente. Si se hubieran adaptado a la televisión, entonces habría quedado una serie para niños sobre magia y dragones, HBO quiso salir de esas convenciones y se metió con una trama complicada, llena de sexo y violencia.\nPuede hacerse una conexión política entre las historias de GoF y la realidad?\n\nNo es la idea. Los Siete Reinos están tratándose de unirse contra un enemigo común, los Caminantes Blancos, pero eso no es una alegoria de nuestro mundo."
+    },
+    {
+        "headline": "EL CEREBRO TRAS \"GAME OF THRONES\" GEORGE R. R. MARTIN",
+        "content": "Hoy en día, uno podría pensar que..."
+    },
+    {
+        "headline": "Contenido",
+            "content": "Un periodista local entrevistó a Jorge Martínez, presidente ejecutivo de Televisa Internacional, empresa encargada de transmitir contenidos audiovisuales en América Latina, señaló que “debido a la pandemia mundial sanitarias, estamos viviendo momentos históricamente relevantes.”\n\n«Conscientes de ello, hemos decidido invertir más recursos económicos en nuestra plataforma digital» dijo Juan Pérez, gerente regional de Contenidos Digitales de Grupo Editorial Televisión Abierta Digital Media Group, editor responsable de contenido editorial multimedia de medios impresos y plataformas web de Grupo Editora Multimedia Corporación Multimediática, Sociedad Limitada, compañías subsidiarias de Grupo Empresas Informativas, S.A.C. \n\n «Por otro lado», añadió, «queremos destacar también que somos líderes mundiales en tecnología móvil». "
+    ],
+    {  
+      "headline":"NA",
+        "content":
+         "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t;\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\\n"
+    }
+
+]
+```
+Note: This example assumes there were three distinct articles found within the provided input data based on their respective headlines and contents. Adjustments may vary depending upon specific details extracted during processing. 
+
+Ensure each entry has been cleaned up for any potential OCR issues such as joining split words across lines, removing extraneous characters like dashes where appropriate, ensuring proper spacing between paragraphs, and maintaining correct capitalization throughout titles and bodies of texts. Additionally, ensure every character encoding issue is resolved correctly before producing the finalized structured JSON format. Make sure to validate the resulting JSON structure using tools available online to confirm its validity.

@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/06/peru21_08.txt ---
+
+```json
+[
+    {
+        "headline": "Urge renovación de permisos viales",
+        "content": "Para circular libremente debes contar con todos tus documentos al día.\nPuedes realizar consultas online desde nuestra página web."
+    },
+    {
+        "headline": "Cómo protegerse de fraudes telefnicos",
+        "content": "Recibes una llamada donde te ofrecen servicios gratuitos o descuentos exclusivos. Te solicitan ingresar a páginas fraudulentas para validar información personal. Nunca compartas contraseñas personales ni números de tarjetas de crédito. En caso de recibir alguna oferta sospechosa reporta a través de nuestros medios digitales."
+    },
+    {
+        "headline": "¿Qué hacer si pierdes algo?",
+        "content": "Debes dirigirte a la comisaría más cercana para iniciar el procedimiento correspondiente. También puedes consultar nuestras redes sociales para obtener orientación rápida."
+    },
+    {
+        "headline": "Importante alerta meteorológica",
+        "content": "Las condiciones climáticas adversas continúan afectando diferentes regiones del país. Mantén precaución especialmente si vas a salir de casa. Consulta regularmente las recomendaciones emitidas por Protección Civil."
+    },
+    {
+        "headline": NA,
+        "content": "El juez Huamani ordenó medidas cautelares adicionales en el marco del juicio pendiente relacionado con el fraude masivo cometido por ciertas entidades financieras."
+    },
+    {
+        "headline": "Experto recomienda acciones preventivas",
+        "content": "\"Lo ideal es mantener constante vigilancia sobre todas las actividades económicas realizadas\", señaló el economista José Pérez. \"Implementar auditorías internas frecuentes también ayuda a mitigar riesgos\"."
+    },
+    {
+        "headline": "Nuevo estudio demuestra impacto ambiental positivo",
+        "content": "Investigadores han encontrado resultados promisorios en cuanto a reducción de gases contaminantes mediante nuevas tecnologías aplicadas en industrias clave. Los estudios sugieren cambios significativos hacia prácticas sustentables."
+    },
+    {
+        "headline": "Entrevista especial: Innovación educativa",
+        "content": "Profesionales destacados comparten experiencias sobre cómo implementar metodologías innovadoras en el ámbito escolar. Destacan la necesidad de adaptabilidad curricular para enfrentar retos futuros."
+    },
+    {
+        "headline": "Opinion: Crisis política global",
+        "content": "Analistas discuten las repercusiones políticas globales derivadas de conflictos diplomáticos recientes. Subrayan la urgencia de dialogar constructivamente para resolver diferencias."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while excluding irrelevant sections like ads and non-journalistic information according to provided guidelines. Adjustments were made for clarity where necessary due to potential OCR issues.

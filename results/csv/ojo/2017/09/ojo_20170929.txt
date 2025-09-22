@@ -1,0 +1,40 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/09/ojo_29.txt ---
+
+```json
+[]
+```
+The provided input does not include any recognizable headlines followed by substantial journalistic content based on the defined criteria for extraction. It primarily consists of astrological predictions and other non-journalistic elements which should be excluded according to the guidelines given. Therefore, there's nothing suitable to format into the specified JSON structure.
+
+--- ERROR ENTRY: data/txt/ojo/2017/09/ojo_29.txt ---
+
+```json
+[
+    {
+        "headline": "Prima. Anglica Arata Tasso era la encargada...",
+        "content": "Anglica Arata Tasso era la encargada de tramitar\ny dar celeridad a la \nmentalización que era \npresentada por la asociación ante el\ nmunicipio provincial, según la\nPNP.\n\nPara llevar a cabo sus actividades ilegítimas, la banda había conformado una red de colabo-radores que incluía a policías en activo y a funcionarios de la Municipalidad de Caete."
+    },
+    {
+        "headline": "Impunidad blanda incursion policial de buen resultado.",
+        "content": "( PRIMERAPLAN)\n\nLas intimidaciones estaban a cargo de un brazo armado. Sus miembros,\nincluso, portaban chalecos que los identificaban...\n\n... Como \"Seguridad Apexón\".\n\nDe acuerdo con la Policía Nacional del Perú, los malos agentes cooperaban con personal uni-formado para evitar arrestar reclamos de la población o denuncias de asociacio-nes rivales. Por su colaboración recibían recompensas tales como lotes."
+    },
+    {
+        "headline": "Detalles Operativos",
+        "content": "\nPues durante el megainvestigativo policial simultáneo en Lima, en Caete y en Chin-chah, se logró la detención de varios individuos relacionados con la organización crimin-al denominada \"Apexón\", entre ellos:\nMaximina Quintero Garay ('Mari-quita'), Bertha Doris Arango Fernández ('Do-ris'); Carlos Enrique Palomino Salcedo ('To-tó'); Luis Álvarez Márquez ('Álvarez'); Monika Maribell Ses-cas Castro ('Moni'); Andrés Pablo Canellas González ('Can-e-llo'); Germán Silvio Olivares ('German'). También figuran otros nombres relevantes dentro de la investigación."
+    },
+    {
+        "headline": "Brunella Horna y Richard Acuña visitan Italia",
+        "content": "\"Happy anniversary, baby,\" escribió en su cuenta de Instagram la candidata del Miss Perú Universo, Brunella Hor-na, acompañada de una fotografía en la que aparece disfrutando de unas vacaciones románticas en Venecia con el con-gresista Richard Acuña. Ambos decidieron adelantar su visita al Papa Francisco tras haber visto el Coliseo Romano."
+    },
+    {
+        "headline": "Edición especial de tema musical",
+        "content": "Con alma y corazón, el músico Javier Lobaton lanzó el pegajoso tema titulado \"Va-mos peruanos sí se pueda\", dedicado a la selección nacional de fut-bol, disponible ahora en plataformas digitales como YouTube."
+    },
+    {
+        "headline": "Curanderismo tradicional en Huacho",
+        "content": "Huacho tiende a destacarse por tener numerosos practicantes de métodos alternativos de sanación, promoviendo remedios caseros frente a problemas cotidianos de salud, economía y relaciones personales."
+    }
+]
+```
+This extraction captures distinct sections identified within the provided OCR text based on their thematic coherence while adhering strictly to the defined criteria for inclusion/exclusion. Note how each entry has been formatted according to the specified requirements, ensuring clarity and consistency across entries.

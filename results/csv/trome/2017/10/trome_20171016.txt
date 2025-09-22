@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/10/trome_16.txt ---
+
+```json
+[
+    {
+        "headline": "CORZO ROBA PROTAGONISMO",
+        "content": "Hoy en día, uno pensaría que...\nPero ayer demostró otra cosa.\nGiordano Mendoza se gan aplausos en la volante y Juan\nVargas, en su estreno como central, sacó barata ante la\mma actuación del mediapunta Hideyoshi Arakaki.\nLa sonrisa local llegó temprano:\npelotera en el área ‘santa’ y Roberto Siucho que pone la lucidez con un\ncontrol y media vuelta de zurda para anotar a los 6'\nUn festejo con desahogo que puso a la ’U’ a buscar el segundo de contragolpe."
+    },
+    {
+        "headline": "SI LA CREACIÓN ERA EL PROBLEMA...",
+        "content": "si la creatividad era el problema en Universitario,\nela pelota parada iba a ser la solución. Eso y el bueno \nsalto de Aldo Corzo, que cerró con un frentazo el tiro libre del ‘Loco’ Vargas. El marcador derecho marcó su primer gol con la U' y mostró el camino a sus compañeros, que no la pasaron bien en el final. Los Santos apretaron y se lanzaron, pero la mala puntería de Arakaki, Ramiro Carreras y Fabrice Fossò les impidió derrumbar el muro merengue. La U' solo intentó con pelotazos o desbordes sin efecto. Igual, su construcción ganó un piso."
+    },
+    {
+        "headline": "‘CACHITÓ’ RAMÍREZ",
+        "content": "El golpe el pecho y lavó sus pecados, aunque sea un cachito!\nEl doloroso empate 1–1 ante Cantolao tuvo como impensado villano a Luis Ramírez, quien cometió un doloroso penal contra Leonel Valencia y eso significó el gol chalaco. Una vez que acabó el encuentro, el volante reunió a sus compañeros en el camarín y expresó las disculpas del caso por el error que les costó el triunfo. Transcendi que se había hecho responsable del resultado, pero se comprometerá a retomar su buen juego, que lo erigiera como figura en las últimas jornadas. ‘Cachito’ también habría recibido la recomendación del técnico Pablo Bengoechea de no dejarse llevar por el juego fuerte de los rivales y así evitar caer en la provocación."
+    },
+    {
+        "headline": "LOS ‘BLANCOS’ SE PUÑETEARÁN CONTRA LOS ‘ALL WHITES'",
+        "content": "Los blancos se pondrán palomas. Ante las numerosas manifestaciones de los peruanos en distintas ciudades de Nueva Zelanda y Australia apoyando a la Blanquirroja, el director deportivo de los Kiwis, Andy Marshall, se puso saltón. Y es que el aliento, hurrás, cantos, banderazos y reuniones de nuestros compatriotas en los últimos días despertaron la pasión por el futbol en un país donde el rugby es el deporte favorito. \"No vamos a lanzar la alfombra roja a la Selección Peruana. Los aficionados de los All Whites tienen que hacérselas escuchar, hay que hacerles sentir cómo va a estar difícil para ellos\", precisan el directivo neozelandés."
+    },
+    {
+        "headline": "LAS DOS CARAS DE CORZO",
+        "content": "\"Yo siempre he querido ayudar a mis amigos\" dijo Aldo Corzo tras convertirse en héroe de Universidad Católica. Su tanto permitió mantener invicto al conjunto universitario durante toda la fase regular del Torneo Clausura. Sin embargo, hace apenas unos meses estaba siendo criticado por algunos sectores debido a su bajo promedio dentro del plantel. Hoy está más cerca de renovar su vínculo contractual gracias a su entrega y sacrificio dentro del césped."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Non-article sections such as sports scores, ads, etc., have been excluded according to specified criteria.

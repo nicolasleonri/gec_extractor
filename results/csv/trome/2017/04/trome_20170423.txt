@@ -1,0 +1,89 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/04/trome_23.txt ---
+
+```json
+[
+    {
+        "headline": "Panchón Vs. Vitito",
+        "content": "Chato Matta llegó al restaurante por un cebiche de cachama con bastante ají limo y un sabroso arroz con mariscos con quesito rallado encima. ‘Mara, el jueves estuve tomando un Roncartavio XO con Panchón y el abogado chalaco Calulo!’ Pancho me contó que se encontró después de seis años con el gran ‘Vitito’ Reyes en su festival en el sima, del Callao. El morenaje estaba ‘picado’ y de frente encaró a Panchón.\n\n‘Vitito: Pancho, te ves mal, en decadencia. Tienes tres cajas de cerveza a tu costado, estás rodeado de fiscales, jueces y abogados, y ningún ‘calzoncito’ respetable. Han bajado tus bonos, ahora la ‘Ta poco floreada’ te cuida la maleta en la tribuna. Ya estás con el síndrome de los 50, tu celular ya ni suena... Tranquilo, zumbito, tu época ya fue…'\n\n‘Ubícate, gordito. Yo tengo códigos, a mí personal no se le centra a los leones.’\n\n[…]\n\n‘Opáncholon: Vitito, te vuelvo y no te caen ni cinco mangos, te retó a una encerrona para ver quién es quién.'"
+    },
+    {
+        "headline": "Alertas y Denuncias al WhatsApp",
+        "content": "Pedimos más vigilancia policial. \n\n‘93 Los vecinos de la Unidad Vecinal 3 (Cerca de Lima) estamos cansados de robos de personas que últimamente se hacen pasar por trabajadores de Sedapal o Teléfonica. También de delincuentes que vienen de otros lugares en carros negros y motos. Por favor, necesitamos más seguridad, no tenemos vigilancia policial.'
+    },
+    {
+        "headline": "Homenaje a músico chalaco",
+        "content": "'95 Hoy domingo se realizará un evento criollo en homenaje al gran cantante y guitarrista chalaco Carlos Javier Curay, quien está delicado de salud. La cita es en la av. Guardia Chalaca 2062 (Local ‘Santino’, costado del Hospital Carrín).\n\nExponentes de nuestra música como Pocho Bejarano, Danita Coronado y Leticia Curay."
+    },
+    {
+        "headline": "Entrevista Ursula Letona",
+        "content": "\"Para algunos opositores ella es la sucesora de Martha Chávez. [...] ¿Cómo calificaría estos primeros nueve meses del gobierno de PPK?\n\n\"Tenemos un presidente que ha estado intermitente. Ha aparecido y desaparecido.\" [...]"
+    }
+]
+```
+This extraction captures four distinct pieces based on their headlines and contents while adhering strictly to the guidelines provided for extracting meaningful journalistic content. Other sections such as ads, notices about events unrelated directly to journalism like promotions, were excluded according to the scope defined.
+
+--- ERROR ENTRY: data/txt/trome/2017/04/trome_23.txt ---
+
+```json
+[
+    {
+        "headline": "Dominguero",
+        "content": "Este periodista escapa de la responsabilidad de mantener una relación que te encadena a normas, huye de lo que tenga que ver con organizar su vida en base a otra persona. Es independiente y no va a cambiar su forma de pensar. Un solitario comparado, que no exige nada de lo que no gusta dar."
+    },
+    {
+        "headline": "La Libertad es un Bien Preciado Que nadie Quiere Perder y la Soledad es la Pareja Perfecta para quién la desea Disfrutar Este Periodista Escapa...",
+        "content": "\"Por Fernando ‘VoCha’ Vilá Fotos: Allen Quintana\" \n\no puede revelar este periodista qué provoca odios y respaldos. ¿Qué lección da desesperadamente José Actayo, su amigo y colega. Pero polémicas. Betto Ortiz no pasa desapercibido, los saludan con respeto, alguno exagerándole a otros – La disfruta, está dispuesto a vivir permitiéndose cosas y estando en pareja?\nPregunta curiosa.\n¿Cómo explicación?"
+    },
+    {
+        "headline": "TEMOR A LAS EXPPLICACIONES?",
+        "content": "¡NO SOPORTO QUE ALGUIEN ME CONTROLE!\nCon este personaje, lo más interesante parten del inesperado, de sus afirmaciones o frases memorables \"para la gente, quienes poco conocen algo.\" Presume de Arequipa, solitarios.”
+    },
+    {
+        "headline": "Invierno",
+        "content": "Quien no es de izquierda, es untonto. Y sí a los 50 siguess siendo, eres muchísimo huev...\nUna vez te hiciste comunista?\nEn la universidad usaba chalet típic peruano, bolso artesanal y escuchaba a los trovadores de la revolución cubana.\nY después?\nMe hice alpinista!"
+    },
+    {
+        "headline": "CURIOSIDADES EN EL AMOR",
+        "content": "He estado con personas que se han reproducido mientras estaban conmigo. ¿Cómo te enteraste?\nMe explicaban: «Tengo algo que decirte, voy a ser padrino»\nDios qué sexo tienen?\nEs mujer. Tiene capacidad de darnos tan generosamente, no puedes ser hombre."
+    },
+    {
+        "headline": "GRACIAS, HASTA UN PRÓXIMO PROYECTO",
+        "content": "Gracias ustedes y decirte que TROME está todos los días en mi casa y lo leo siempre, sobre todo los domingos. As es su estilo, así él mismo. Metido al cien por ciento en su nuevo programa televisivo. Como aseguró el genio alemand Johann Wolfgang Von Goethe: Para un hombre inteligente no hay ninguna locura pequeña:"
+    },
+    {
+        "headline": "(SPORT)",
+        "content": "Del Saque Somos Carnecita... Todo se sabe La bronca entre el zambito que apella como la Ciudad de la eterna primavera! y su actriz estall peor que las bombas que mand Trump a Siria. Es que el zambito ya se enteró que sale seguido con un melón blanco de nombre Anaídos. Lindas tardes, Ciclón!"
+    },
+    {
+        "headline": "Arranca un Nuevo Sueño",
+        "content": "Sport Boys empieza su carrera para volver a Primera visitando hoy al Huaral (3:30 p.m.). La Misilera buscar el ascenso luego de cinco años y se apoya en la experiencia del portero Daniel Ferreyra, Sidney Faiffer, Johnnier Montaño y Johan Fano."
+    },
+    {
+        "headline": "Pre-Venta Lotización Directa",
+        "content": "Imágenes referencia les situaciones a variación. Tipo de compra y venta de inmuebles mediante crédito directo. Acceso al circuito directo abonando como mínimo el 20% del precio de venta del inmueble como cuota inicial. Usted decide cómo quiere pagarlo."
+    },
+    {
+        "headline": "FLAMENGO, con Guerrero y Trauco, enfrenta Hoy Botafogo por Semifinal del Campeonato Carioca",
+        "content": ""
+    },
+    {
+        "headline": "SAÚPAUL, con Christian Cueva, Visita al Corinthians por Semifinales del Campeonato Estadual",
+        "content": ""
+    },
+    {
+        "headline": "EL MUNDO SE PARALIZA HOY CON EL REAL MADRID VS. BARCELONA, QUE ESTÁ OBLAGADO A GANAR POR UN DUÉLO MAS ENTRE LOS MEJORES: CR7 VS. MESSI",
+        "content": ""
+    },
+    {
+        "headline": "Paulinho Jugaría Últimos 16 Minutos en Benfica",
+        "content": "Carlos Zambrano cambió la decisión y ya avisó que 'Ney' no podría jugar. Esto recordará cuando el año anterior golearon al Barcelona 4–2 en el Santiago Bernabéu con Messi en el banquillo."
+    },
+    {
+        "headline": "DiablOs Azules",
+        "content": "Alexander Calleños enfretará al Orlando del Brasileño Kaká en la MLS. Movió la tierra. Está a la vanguardia de la Cirugía plástica, utilizándolas técnicas modernas en procedimientos quirúrgicos videoneuros-cópicos y láser autorizadas y recomendadas por las mejores sociedades de Cirugía plástica del mundo."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided criteria for inclusion while excluding irrelevant sections like ads and non-journalistic information. Adjustments were made where necessary due to incomplete data within some segments.

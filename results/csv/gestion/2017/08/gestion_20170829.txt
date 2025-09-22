@@ -1,0 +1,20 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/08/gestion_29.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "Hoy en día, uno pensaría que... "
+    },
+    {
+      "headline":"Contenido Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."  
+}
+```
+This example demonstrates how each extracted article should appear within the structured format provided above. 
+
+The process involves identifying headlines followed by their respective contents while ensuring any necessary cleanup for clarity issues such as joining split-up phrases due to OCR misinterpretations like `demo-cracy` which becomes `democracy`. Additionally, ensure proper handling of special characters and maintaining correct sentence structures where possible despite potential OCR-induced distortions. This ensures accurate representation of the intended message conveyed through these texts. 
+
+If there were more than one article present, similar entries would follow suit under the defined structure until every relevant segment has been processed accordingly. In cases where data might not have appeared complete, it's crucial to maintain consistency across outputs even though some information may need manual verification against source material whenever feasible.

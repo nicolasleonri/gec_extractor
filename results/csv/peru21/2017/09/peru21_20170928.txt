@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/09/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Un poco de empaña",
+        "content": "Según el presidente del Consejo Nacional de Seguridad Vial, Omar Revolledo, la seguridad vial afecta a unas 50 mil personas al año. En 2016 se registraron más de 2,600 muertes por accidentes de tránsito.\n\nNilos marcas, nilos asaltantes al paso, ni los secuestradores, ni las pandillas, todos juntos, matan y afectan a tanta gente. En el caso de algunos choferes, deberíamos replantearnos el apelativo: un sujeto con decenas de infracciones graves que atropella a un representante del orden para darse a la fuga no es un conductor temerario, es un delincuente."
+    },
+    {
+        "headline": "Entrevista",
+        "content": "\"Patricia Quispe V.\"\npquispeperu?1.com\n\"¿Por qué considera importante contar con una segunda cámara legislativa?\nSempre hemos defendido la conveniencia de un Parlamento bicameral porque ah donde existen los sistemas democráticos existe una segunda cámara o Cámara de Senadores que actúa como revisora de la calidad de las leyes y le da equilibrio al buen trabajo del Parlamento.\"\n\n\"Qué mejora con un sistema bicameral?\nPrimero, la calidad de las leyes, que son propuestas por una primera cámara y están sujetas a una revisión de la segunda cámara. Esa permite que en el interim se produzca lo que es indispensable en la producción legislativa, que es la participación de la opinión pública expresando lo que piensa y contribuyendo a la mejora de los proyectos aprobados.\"\n\n\"Raúl Ferrero Costás, constitucionalista\": \"‘’HAY QUE FORTALECER A LOS PARTIDOS POLITICOS, NO IMPOSER LOS CRITERIOS DE UN SOLO SECTOR, PERO TAMBIÉN NO SE DEBE DESCARTAR A LOS MOVIMIENTOS LOCALES.’’”
+    },
+    {
+        "headline": "Shirley Álvarez",
+        "content": "Cae narcotraficante ligado a ‘Caracol’. \nBen Cheikh, quién tenía una orden de captura internacional y tendría vínculos con la mafia de Gerson Galvez Calle, Caracol’, fue detenido por la Policía en la urbanización San Juan Bautista, en Chorrillos. De acuerdo con la INTERPOL de su país, este individuo operaba dentro de redes empresarias destinadas a ocultar cargamentos ilícitos bajo cobertura legal."
+    },
+    {
+        "headline": "Marcas' desatan terror en Va Expresa",
+        "content": "Tres hampones fueron detenidos después de iniciar un enfrentamiento armado en la Va Expresa de Paseo de la Republica. Durante el incidente, varios transeúntes buscaron protección lanzándose al suelo mientras los agentes perseguían a los criminales. Entre los arrestados estaba Anibal Astocondor, previamente implicado en actividades ilegales."
+    },
+    {
+        "headline": "Luís García afirma que iglesia es la responsable de definir el sitio de la misa papal",
+        "content": "Existe controversia respecto al lugar elegido para la celebración masiva liderada por el Papa Francisco en el Perú. Si bien inicialmente se había sugerido la Costa Verde, autoridades militares ofrecieron alternativas basadas en capacidades logísticas. Luís García enfatizó que finalmente será la Iglesia Católica quien determine el espacio definitivo."
+    },
+    {
+        "headline": "Hallan cuatro ídolos",
+        "content": "Dentro de una estructura ceremonial en Chan Chan, región de Trujillo, se encontraron varias figuritas antiguas junto a artefactos ceremoniales. Una figura notable muestra a un personaje portando una especie de recipiente ritualístico. Investigadores sugieren que estas podrían servir como marcadores de sepulturas pertenecientes a miembros destacados de sociedades ancestrales."
+    },
+    {
+        "headline": "Celinda Hinaco Baillón deberá pagar alimentación",
+        "content": "El poder judicial determinó que Celinda Hinaco Baillón debía cubrir una suma económica mensual para sustentar a sus tres hijos menores, decisión respaldada debido a circunstancias familiares específicas documentadas anteriormente."
+    },
+    {
+        "headline": "Choques mortales aumentan preocupación",
+        "content": "Después de un grave accidente ocurrido en la carretera Mollendo-Mezahuala, el número total de fatalidades ascendió a diez. Dos vehículos involucrados sufrieron severos destrozos, provocando pérdidas irreemplazables para familias enteras residentes en la zona."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria and data cleanup processes.

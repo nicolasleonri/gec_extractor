@@ -1,0 +1,28 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/07/gestion_11.txt ---
+
+```json
+[
+    {
+        "headline": "Corea del Norte\nNuevas sanciones",
+        "content": "Estados Unidos planea impulsar una votación dentro de semanas en el Consejo de Seguridad de la ONU sobre una resolución que imponga sanciones más estrictas a Corea del Norte."
+    },
+    {
+        "headline": "Convocatoria",
+        "content": "Petroleos del Perú – PETROPERÚ S.A., para dar facilidades al Proyecto Modernización Refinería Talara, convoca a la Pre-calificación de Participantes del Procedimiento de Selección del Contratista de la Obra \"Construcción del Colegio Villareal\" ubicado en el distrito de Parías, provincia de Talara, departamento de Piura.\n\nCalendario:\nDel 12/07/2017 al 25/07/2017\nPublicación de lista de Participantes Pre-calicados: El 02/08/2017\nRegistro de Participantes\nPresentación de información solicitada\nEsta convocatoria tendrá como fin la selección de los participantes para el Procedimiento de Selección del Contratista de la obra \"Construcción del Colegio Villareal\".\nP petróleo del Perú - Petróleos del Perú S.A."
+    ],
+    {
+        "headline": "Invirtiendo en democracia",
+        "content": "Hoy en día, uno pensaría que...\n\nEstoy feliz porque..."
+    },
+    {
+        "headline": "El loco del martillo",
+        "content": ""
+    },
+    {
+        "headline": "",
+    }]
+]
+```
+This code snippet represents how each extracted article's structure should look like after processing through the given heuristics for extracting relevant information while adhering strictly to defined criteria provided within the input constraints. Note that some sections may not have been included due to their irrelevance based on predefined rulesets such as including specific keywords related to contextually significant topics. This ensures clarity and relevance across different segments of textual data extraction tasks.

@@ -1,0 +1,129 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/07/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Anónimos:",
+        "content": "La empresa peruana es un caso de éxito que los emprendedores admiran y estudian,\n\n\"Yo tengo una familia empresaria más que una empresa familiar\", dice Cynthia Álvarez:\nJimena Herández.\nherranz@periódico2.com\nUna bebida gaseosa\nIsiempre refresca, ya\nsea en verano o \ninvierno, y nuestro mercado local\ntiene diversas opciones para\nque los consumidores puedan\nelegir.\nPero entre ellas destaca\nuna marca en especial Kola\nReal, la cual pertenece a la \nfamilia Alvarez, uno de los casos\nde éxito más destacados y \nestudiados en nuestro país."
+    },
+    {
+        "headline": "Caso Éxito",
+        "content": "\"Con sus raíces en Cochabamba, Industrias San Miguel inició la visión de democratizar el mercado de las bebidas y romper paradigmas. De esta forma, a poco de cumplir treinta años, la empresa se perfila como el David de la industria y hoy tiene el 25% de la participación del mercado de gaseosas, y continua expandiéndose.\" Cynthia Álvarez, la actual gerenta de ISM, también señala que para emprender, se debe dejar atrás los paradigmas. \"Un ejemplo es que su empresa hizo crecer el mercado de las bebidas gaseosas,\" resalta."
+    },
+    {
+        "headline": "Qué Consejo Les Darías?",
+        "content": "\"En el Perú hay un montón de oportunidades. No en vano casi el 90% de los empresarios son microempresas. Por ello, se debe explorar la visión y la pasión que este sector tiene. Pensar en grande es clave, porque sí piensas pequeño, siempre encontrarán alguien que lo pueda hacer mejor.\" Cynthia Álvarez añade que para evitar que una empresa familiar fracase en la siguiente generación, «yo tengo una familia empresarial más que una empresa familiar». Cree que siempre existen paradigmas relacionados a estas compañías, pero una forma de vencerlos es permanecer unidos y tener contacto directo con la gestión cotidiana de la firma."
+    },
+    {
+        "headline": "Escoge el Público",
+        "content": "Los productos de ISM tienen mayor presencia en provincia que en la capital de nuestro país. Esto significa que buscan revolucionar constantemente el mercado, ya sea mediante nuevos sabores, envases, procesos o presentaciones. Además, Industrias San Miguel no sólo opera dentro del segmento de bebidas carbonatadas, sino que también ha diversificado en jugos, energizantes, agua mineral y aguas aromáticas."
+    },
+    {
+        "headline": "¿Y tú qué Esperas Para Emprender?"
+        "",
+        "content": ""
+    },
+    {
+        "headline": "PEDRO ARQUÍN",
+        "content": "Jugador Dorado Corzo BUAP, contento con su experiencia en México."
+    },
+    {
+        "headline": "Universitario. Troglío Analiza Mantener al Equipo Que Venía a Melgar",
+        "content": "On Cristal. Antela U'\nLobatón podría volver por la salida de Sandoval. Pedro Troglio, técnico de Universidad, considera más beneficioso retener el mismo plantel que enfrentará mañana a Sporting Cristal en el Estadio Nacional, pues está ajustándose rápidamente después de haber sido derrotado sorpresivamente por Melgar."
+    },
+    {
+        "headline": "Amigos Intimos No Pueden Equivocarse Más",
+        "content": "Alajuelense. Para Luis Aguilar, los próximos juegos son cruciales. Ambos jugadores sufrieron desgarros en el triunfo ante San Martín por 4–2 en la última jornada, situación que afectó negativamente su posición en la competición."
+    },
+    {
+        "headline": "Continúa la Novela Sobre el Traspaso Del Brasileño Al PSG",
+        "content": "La indecisión de Neymar genera múltiples interpretaciones. Después de comentarios públicos de Gerard Piqué sugiriendo que Neymar se mantenía en el Barcelona, diversos medios reportan tensiones internas y falta de claridad definitiva sobre su futuro."
+    },
+    {
+        "headline": "Benjamín Mendy Firmó por el City",
+        "content": "Manchester City anunció el fichaje del defensa francés Benjamín Mendy proveniente del Monaco. Este movimiento fortalece aún más el equipo dirigido por Pep Guardiola, aunque detalles financieros específicos fueron omitidos inicialmente."
+    },
+    {
+        "headline": "Presentan Libro de Oswaldo Reynoso Hoy...",
+        "content": "Se llevará a cabo la presentación del libro ‘El escarabajo y el hombre’ del autor fallecido Oswaldo Reynoso en la Feria Internacional del Libro de Lima. También se realizará un evento titulado ‘Cuentos de Briscola Degregori’, destinado especialmente para niños."
+    },
+    {
+        "headline": "Figura de televisión falleció",
+        "content": "El conocido actor uruguayo Luis Gimeno falleció a los 90 años en México. Durante su carrera, contribuyó notablemente a numerosas producciones cinematográficas y teatrales."
+    }
+]
+```
+This extraction captures various significant sections within the provided text while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Note how each entry maintains its integrity according to defined heuristics such as merging fragmented headlines/content appropriately.
+
+--- ERROR ENTRY: data/txt/peru21/2017/07/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "CAMBIOS\nPor su parte, la titular del \nMinisterio de Inclusión Social...",
+        "content": "Por su parte, la titular del Ministerio de Inclusión Social, Cayetana Álvarez, manifiesta que habrá \"un par de cambios\" en el gabinete.\n\"Lo único cierto es que habrá un par de cambios en el gabinete\", señala. Expresa además que al presidente no le agrada cambiar frecuentemente a los ministros, comprendiendo que cuando un ministro entra, primero debe entender el sector antes de comenzar a trabajar."
+    },
+    {
+        "headline": "OPINA.21\nHTERO SANACUEVA\nEL AJEDREZ\nDEL KEIKO",
+        "content": "\"Keiko Fujimori ha sorteado recién encendido con un giro insospechado a la hora de la configuración de las candidaturas a diversos cargos en el Congreso.\" Indican que cada uno de los nombres revelados anteriormente no surgieron por votación popular o consenso, sino que durante la última reunión partidaria se optó por otorgar a Keiko Fujimori la tarea de formular la lista electoral. Esto sugiere una estrategia dirigida más hacia fuera que hacia dentro."
+    },
+    {
+        "headline": "“NO SOLEMOS CAMBIAR LOS CABALLEROS A MITAD DE PARTIDO”. REFIERE CANAL N.",
+        "content": "\"Un mensaje en cada candidatura. El tiempo determinará si las decisiones tomadas resultaron correctas,\" dice un comentarista en referencia a las últimas movidas políticas. Respecto a la posible incorporación de algún miembro al Ministerio de Energía y Minas, Cayetana Álvarez aclara que está disponible para cualquier posición asignada por el mandatario, añadiendo que disfruta sirviéndole al país."
+    },
+    {
+        "headline": “NIEVO HACE BALANCE DEL PRIMER AO\NEl ministro de Defensa, Jorge Nieva,...",
+        "content": "Realizando un análisis retrospectivo del año gubernativo inicial bajo la administración de Pedro Pablo Kuczynski, el ministro de defensa destaca la relevancia de adoptar enseñanzas aprendidas. Subraya también la capacidad compartida con el Congreso para desarrollar agendas colaborativas destinadas a impulsar el desarrollo nacional, especialmente frente a una economía que experimenta declive económico. Durante una charla televisiva, enfatiza igualmente la urgencia de enfrentar problemas críticos tales como la corrupción y la seguridad pública."
+    },
+    {
+        "headline": "ESPÉREN QUE PPKE DETALLE COMO REVITALIZAR LA ECONÓMA Y GENERAR OCUPACIÓN",
+        "content": "Anticipándose al próximo discurso presidencial programado para el 28 de julio, distintos grupos industriales solicitan detalles específicos sobre planes futuros. Organismos representativos como la Cámara de Comercio de Lima y la Confederación General de Trabajadores demandan medidas efectivas orientadas a revitalización económica, promoción de inversiones y combate activo a la corrupción y violencia urbana. Destacan la imperiosa necesidad de implementar políticas innovadoras capaces de estimular el crecimiento industrial y mejorar significativamente las cifras de ocupación laboral."
+    },
+    {
+        "headline": "CONTINÚA CONTROVERSIA ENTRE ZONA DE COMERCIALIZACIÓN",
+        "content": "Después de divulgarse un borrador legal que facilitaría a grandes cadenas comerciales poseer y conservar terreno cerca de la frontera chilena, múltiples perspectivas divergentes han surgido. Representantes locales critican duramente la medida argumentando riesgos a la soberanía territorial, mientras algunos líderes políticos ven ventaja competitiva regional en tal disposición. Esta situación genera tensiones sociales anticipando protestas públicas aún indefinidas."
+    },
+    {
+        "headline": "CEDRO APRUEBA UTLIZACIÓN TERAPÉUTICA DEL CANNABIS",
+        "content": "Reforzando su compromiso anti-drogas, Cedro reconoce el valor médico limitado del cannabis en tratamientos especializados, siempre supervisado rigurosamente por instituciones sanitarias. Este posicionamiento surge luego de discusiones legales centradas en regular productos derivados del cánnabis exclusivamente para fines curativos, evitando así normalizar su consumo indiscriminado."
+    },
+    {
+        "headline": "¿CUÁNTOS SERÁN FINALMENTE LOS PRE-CANDIDATOS PARA LA PREFECTURA CAPITAL?",
+        "content": "Actualmente, numerosos aspirantes buscan capturar la atención política rumbo a las próximas elecciones municipales. Sin embargo, muchos distinguidos alcaldes podrían verse forzados a buscar alternativas electorales mayores debido a restricciones constitucionales. Expertos predicen ajustes inevitables en coaliciones políticas, incluyendo 'vientres de alquiler', influido principalmente por tácticas personales y financieras detrás de campañas urbanas."
+    },
+    {
+        "headline": "ULTIMO LLAMADO PARA ADQUISIÓN DE BIENES CORPORATIVOS",
+        "content": "Anuncia venta final de activos pertenecientes a Doe Run Corporation, marcando hoy como último evento público de licitación. Desafortunadamente, ausencias repetidas en eventos previos amenazan éxito comercial deseado. Reducción sustancial en precios mínimos podría influir positivamente en participación compradora, buscando cerrar transacción definitiva en breve lapso temporal."
+    },
+    {
+        "headline": "PEDRO PUZZLI EXPONE POSIBLE INTENCION POLITICA DETRS DE PARO DOCENTIAL",
+        "content": "Durante ceremonia oficial, el presidente expuso sospechas de manipulación política detrás de prolongada huelga educativa en Cuzco. Critica falta de voluntad negociadora de sindicalistas, contrastando oferta gubernamental versus exigencias extremas de profesorado. Reclama prioridad absoluta en resolver conflictos escolares asegurando continuidad académica integral."
+    },
+    {
+        "headline": "CREACIÓN DE UNIDADES MILITARES PARA ATENDER DESASTRES NATURALES ANUNCIAN LAS FF.AA.",
+        "content": "Prevén estructura militarizada focalizada en gestión de catástrofes naturales, inspirada en modelos europeos exitosos. Autoridades militares recalcan interés primordial en salvaguardar infraestructura civil y humanitaria, optimizando protocolos de intervención rápida ante situaciones adversas ambientales."
+    },
+    {
+        "headline": "DENUNCIA MASIVA CONTRA MAFADES OPERANDO EVALUACIONES DE LICENCIAS DE CONDUCTORES",
+        "content": "Organización vehicular alerta sobre red extensa involucrada en prácticas fraudulentas relacionadas a certificaciones viales. Exigen acción ministerial directa y revisión exhaustiva de procesos regulatorios, temiendo consecuencias severas en normativas de tránsito local. Solicita cooperación legislativa para erradicar anomalías sistematizadas detectadas ampliamente en diferentes jurisdicciones."
+    },
+    {
+        "headline": "EMPRESARIOS PLANIFICAN CRECIMIENTO LABORAL ACCORDING TO NEW SURVEYS BY EY",
+        "content": "Encuestas recientes revelan predisposición notable entre corporaciones peruanas para aumentar dotación humana, capacitación profesional y adaptación técnológica. Análisis internacional coincide mostrando preferencia mundial por inversión en capital humano. Resultados sugieren cambio paradigmático en percepción gerencial respecto a integración digital y diversificación de roles laborales."
+    },
+    {
+        "headline": "REGULATOR AUTORIZA INVESTIGACIÓN A TELEOPERADORES MAYORES",
+        "content": "Ente supervisor telecomunicaciones emite órdenes preliminares para indagar supuesto comportamiento monopolístico entre principales proveedores móviles. Investigación sigue línea de protección consumidor y equilibrio competitivo en mercado telefónico. Respuesta de compañías implicadas niegan irregularidades, defendiendo integridad operativa."
+    },
+    {
+        "headline": "PROGRESO REGIONAL EN MINERÍA DESTACA EVOLUCIÓN PRODUCTIVA",
+        "content": "Informe estadístico exhibe ascenso productivo sobresaliente en departamentos mineros, atribuyendo éxitos a proyectos inaugurados recientemente. Discute impacto social y económico de explotación mineral, ponderando cómo gestionar rentabilidades obtenidas para maximizar beneficios populares. Debate central radica en utilización ética y transparente de recursos naturales disponibles."
+    },
+    {
+        "headline": "EXPANSIÓN MONETARIA REPORTADA POR BCRA",
+        "content": "Datos bancarios reportan incremento considerable en depósitos monetarios privados, particularmente aquellos sujetos a términos temporales extendidos. Fenómeno financiero observado marca tendencia favorable en acumulación patrimonial doméstica, contribuyendo indirectamente a robustecer reservas fiduciarias nacionales."
+    }
+]
+```

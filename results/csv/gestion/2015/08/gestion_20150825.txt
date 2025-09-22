@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/08/gestion_25.txt ---
+
+```json
+[
+    {
+        "headline": "Opinion",
+        "content": "Si bien el margen de maniobra\npara revertir el negativo estado de ánimo de la inversión\privada es bajo —los paquetes de estimulo aún no surten mucho efecto—,\nel gobierno sí está en \ncondiciones de reanimar la construcción de obras públicas, de modo que se nos hace incomprensible que ese tipo de\ninversión también haya estado decreciendo.\n\nAhora que el frente externo está más enrarecido —de nuevo gracias a China— y que la amenaza de El Niño se intensifica, cabe preguntarse si el gobierno está preparado para capear este nuevo temporal y sobre todo qué tan capaz será la próxima administración para superarlo."
+    },
+    {
+        "headline": "Sea Roja!\nPregunta de Hoy:\n¿Deben los industriales pagar por el uso de aguas subterráneas?",
+        "content": "Es contradicción que el bierno siga poniendo más sobrecostos a los industriales, especialmente en épocas de desaceleración económica. Rosaura Souza Peralta argumenta que no, dado que según la Ley de Recursos Hídricos, aquellas empresas que cuentan con sistemas de monitorización de aguas están exentas de pagar una tarifa. Ivaro Del Guila Cerés añade que esto podría considerarse contrario a la legislación vigente."
+    },
+    {
+        "headline": "Informe de Fitch",
+        "content": "Se espera que continúen las rebajas en el rating crediticio de las compañías peruanas en los próximos 12 meses debido a factores adversos como el aumento del gasto de capital y el riesgo cambiario. Las expectativas de varias firmas fueron ajustadas a negativas mientras algunas mejoraron sus prospectivas."
+    },
+    {
+        "headline": "Con Carácter de Urgencia",
+        "content": "El ejecutivo envió al Congreso un proyecto de ley para eximir del Impuesto a la Renta a las ganancias derivadas de la compra-venta de acciones en la Bolsa de Valores de Lima (BVL) por tres años. Están sujetas a condiciones específicas respecto a la participación minoritaria y la liquidez de las transacciones."
+    },
+    {
+        "headline": "Ay Reñía contraataca...",
+        "content": "\"... Denuncia que detrás de la divulgación de documentos personales existe una intención política dirigida por el APRA para ocultar supuestos escándalos financieros. Además, admite reunirse con empresarios brasileños y españoles.\""
+    }
+]
+```
+This JSON captures key excerpts based on their headlines where applicable, following the provided guidelines for extraction while maintaining clarity and relevance within each entry's context. Note any missing data has been marked appropriately according to instruction requirements.

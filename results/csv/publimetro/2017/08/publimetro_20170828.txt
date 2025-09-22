@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/08/publimetro_28.txt ---
+
+```json
+[
+    {
+        "headline": "Sara Van presenta nuevo material discográfico",
+        "content": "Sara Van presentará los temas de su disco debut Talit Kum (2014), además de nuevas canciones que estarán en su próximo disco Hotel Bollver. Ella estará acompañada por una nutrida banda, en la que destcan el guitarrista estadounidense Eric Kurimski, Julio Zavalá en el bajo y Marvin Miyashiro en las percusiones.\n\nEl espectáculo contará con la proyección de las fotografías de Ana De Orbegozo, artista visual que ofrecerá sus trabajos sobre la identidad peruana."
+    },
+    {
+        "headline": "Importancia de imaginar a los compañeros de forma positiva",
+        "content": "Un estudio de la Universidad de Nebraska-Lincoln asegura que las personas que imaginan a su compaño de estudio o trabajo de forma positiva, segura y capaz, muestran rasgos de confianza en sí mismas. Según los resultados, las percepciones de los demás dicen mucho sobre qué tipo de persona realmente somos. \n\n\"Las percepciones de los demás dicen mucho sobre qué tipo de persona realmente somos\", afirma Ismael Cala, conferencista escritor y periodista cubano. \"Entre otras razones, porque cuando miramos a otros, estamos mirándonos nosotros mismos.\""
+    },
+    {
+        "headline": "Eventos culturales próximos",
+        "content": "\"Korean Invasión\": Li@Entertainment y la municipalidad de San Miguel anunciaron un evento de K-pop en Perú llamado 'Korean Invasión'. El sábado 2 de septiembre en el domos Art de la costa verde se reuniran aproximadamente 3000 fans del género, incluyendo youtubers, grupos de cover y clubes de fans. El acceso será gratis."
+    },
+    {
+        "headline": NA,
+        "content": "Ismael Cala explica cómo intentar crecer perjudicando a otros puede dejar una marca negativa en nuestras vidas. Destaca que el desarrollo interno basado en valores positivos fortalece nuestros vínculos personales y profesionales. Además, recalca la importancia de respetar y valorar el talento y capacidad de quienes nos rodean."
+    }
+]
+```
+This JSON contains four extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles lacking explicit headlines were assigned `NA` where appropriate.

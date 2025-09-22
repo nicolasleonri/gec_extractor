@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/09/peru21_23.txt ---
+
+```json
+[
+    {
+        "headline": "La Fiscalía de Lavado de Activos investiga a Fuerza Popular",
+        "content": "La Fiscalía de Lavado de Activos le puso la puntera a los cocteles organizados por el partido político Fuerza Popular, liderado por Keiko Fujimori.\n\nEl pasado 15 de agosto, el fiscal Germán Juréz requirió al mencionado partido la documentación relacionada a diversos eventos celebrados durante 2015 y principios de 2016. Esto forma parte de una investigación más amplia vinculada a donativos ilícitos.\n\nJuréz también solicitó información financiera relevante sobre estas actividades."
+    },
+    {
+        "headline": "Investigan a Ollanta Humala por pagos sospechosos de Odebrecht",
+        "content": "Miembros de la comisión Lava Jato planean interrogar al ex presidente Ollanta Humala, actualmente detenido, sobre el posible pago irregular de $3 millones provenientes de la empresa brasileña Odebrecht. Este evento está ligado a la obtención anticipada de beneficios económicos derivados del proyecto del gasoducto del sur."
+    },
+    {
+        "headline": "Defensor legal asegura regularidad en documentos de Fuerza Popular",
+        "content": "\"Todo está en regla\", afirmó Edward García, abogado de Keiko Fujimori, en relación a la documentación de eventos organizados por Fuerza Popular. Destacó que están dispuestos a colaborar con la investigación judicial, aunque criticaron ciertas demoras procesales."
+    },
+    {
+        "headline": "Presidente Kuczyski se encuentra con el Papa Francisco",
+        "content": "Pedro Pablo Kuczynski tuvo un encuentro cordial con el Papa Francisco en Roma, donde intercambiaron ideas sobre la lucha contra la corrupción y la pobreza. Durante la cita, el Presidente extensió formalmente la invitación para la próxima visita del Sumo Pontífice al Perú."
+    },
+    {
+        "headline": "Extradición de Mariella Huerta Minaya aprueba la Corte Suprema",
+        "content": "La solicitud de extradición para Mariella Huerta Minaya, implicada en el Caso Odebrecht, ha sido aceptada por la Corte Suprema. Esta medida permitirá que permanezca en EE.UU. mientras enfrenta cargos legales correspondientes."
+    },
+    {
+        "headline": \"Opinión dividida sobre potencial indulto a Alberto Fujimori\",
+        "content": "Las perspectivas varían significativamente respecto a un eventual indulto humanoitario para Alberto Fujimori. Miguel Torres sugiere considerar el contexto moral post-visita del presidente al Vaticano, mientras figuras como Mauricio Mulder advierten contra decisiones apresuradas."
+    },
+    {
+        "headline": "Escision corporativa anunciada por Alto Risgo SAC",
+        "content": "Conforme a disposiciones legales, Alto Risk SAC comunicó mediante junta accionaria la división patrimonial de activos empresariales, beneficiando a Minera Troy SAC y a Inversiones Mineras Atlas SAC. Como resultado, se realizará un ajuste en el capital social de Alta Risk SAC."
+    },
+    {
+        "headline": "Congresista critica manejo internode discrepancia partidaria",
+        "content": "Federico Pariona expresó preocupación frente al tratamiento dado a Kenji Fujimori dentro de Fuerza Popular, calificado como exagerado. Subrayó la importancia de mantener espacios adecuados para debate interno y evitar confrontaciones innecesarias."
+    },
+    {
+        "headline": "Análisis de inversiones en APP revela planes multimillonarios",
+        "content": "El MTC presenta un conjunto de propuestas valoradas en aproximadamente S/86,000 millones destinadas a mejorar infraestructura y conectividad en transporte y telecomunicaciones. Las prioridades incluyen desarrollos ferroviarios y portuarios clave."
+    },
+    {
+        "headline": "Denuncia pública demanda retiro urgente de jabones peligrosos",
+        "content": "Ante la inclusión de compuestos nocivos en productos domésticos, ASPEC insta a medidas drásticas para remover tales artículos del comercio, argumentando riesgos sanitarios evidenciados por regulaciones vigentes."
+    }
+]
+```
+This JSON structure captures each significant article within the provided text while adhering strictly to the specified format requirements. It includes headlines where available and merges related information under coherent sections for clarity. Any missing data has been marked appropriately according to guidelines.

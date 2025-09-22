@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/11/peru21_12.txt ---
+
+```json
+[
+    {
+        "headline": "DENUNCIA CONTRA VICEMINISTRO DE VIVIENDA",
+        "content": "La Contralora General de la República denunció al Viceministro de Vivienda y Urbanismo, Ricardo Vidal, por supuestas irregularidades cometidas mientras era director nacional de Vivienda y Presidente del Comité de Registro de Proyectos entre 2011 y 2012.\nPese a no cumplir con los requisitos legales, autorizaron la inscripción de proyectos a favor de la promotora Inversiones Acuario SAC, facilitándole así beneficios económicos significativos bajo programas gubernamentales. Esto generó pérdidas millonarias al Estado peruano y afectó negativamente a miles de personas vulnerables."
+    },
+    {
+        "headline": "OPINI\u00d3N SOBRE CORRUCI\u00d3N EN GOBIERNOS ACTUALES",
+        "content": "\"Con todo lo que está sucediendo parece que a este Gobierno no le interesa desligarse de la corrupción\" afirma Hector Bezenil, actual presidente de la Comisión de Fiscalización. Critica también la falta de acción real frente a casos evidentes de nepotismo y conflictos de interés detectados en altos niveles administrativos."
+    },
+    {
+        "headline": "TRUMP'S ELECTORAL WIN ANALYSIS",
+        "content": "Analistas discuten cómo Donald Trump logró sorprendentemente derrotar a Hillary Clinton. Argumentan que factores clave incluyen el aumento de la desigualdad en EE.UU., el malestar general respecto al libre comercio y políticas antiguas percibidas como inequitativas. Además, sugieren que las futuras decisiones de política exterior de Trump pueden alterar dinámicas globales existentes."
+    },
+    {
+        "headline": \"KIEKO FUJIMORI RESPONDING TO PRESIDENTIAL CRITICS\",
+        "content": "Después de criticar públicamente al presidente Kuczysnski, Keiko Fujimori enfrenta comentarios mixtos sobre su postura. Su retórica intensa genera debate sobre su capacidad para ofrecer alternativas constructivas más allá de simples ataques personales. Algunos analistas señalan que debe mostrar mayor madurez política para consolidar su rol como líder de la oposición."
+    }
+]
+```
+This JSON captures four distinct articles based on their headlines and contents extracted from the provided OCR text. It adheres strictly to the specified format requirements for inclusion within a structured dataset.

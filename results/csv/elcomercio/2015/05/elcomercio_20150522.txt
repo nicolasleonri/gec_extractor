@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/05/elcomercio_22.txt ---
+
+```json
+[
+    {
+        "headline": "Investigación continúa después del asesinato de un pastor",
+        "content": "Peritos de criminalística de la Policía recolectan evidencias en el vehículo donde fue asesinado el Pastor de Paz.\n\n**Mayor Amenazas:**\nTras el homicidio de dos hermanos guardianes en el Colegio Alpamayo, el supervisor del establecimiento Taylor, situado en Cantogrande, reportó recibir amenazas. \"Si no contactas [este número], nos enfrentaremos\", advierte una carta encontrada en la entrada escolar atribuida a 'Los Malditos de Bayavar', según Américatv."
+        
+    },
+    {
+        "headline": "Alcalde solicita emergencia debido a bandas criminales",
+        "content": "\"Pedí que el Distrito sea declarado en Estado de Emergencia\" menciona Juan Navarro, alcalde de San Juan de Lurigancho, instando también a la intervención militar para combatir a grupos ilegales. Mayor PNP Juan Sandoval, comisario de la Dependencia Mariscal Cáceres, confirmó estas preocupaciones."
+
+    },
+    {
+        "headline": "Detalles oscurecen causa de asesinato de líder religioso",
+        "content": "Las autoridades sospechan que el crimen podría estar relacionado más con conflictos personales que con extorsión, ya que días antes, el mismo tratamiento había sido dado a otras víctimas similares. Las tensiones domésticas parecen jugar un papel crucial aquí, especialmente involucrando disputas legales con su esposa Acela Coronel."
+
+    },
+    {
+        "headline": "Alerta en áreas vulnerables de Lima",
+        "content": "Un listado muestra lugares históricos bajo riesgos significativos dentro de Lima Metropolitana y provincias cercanas, destacándose incidentes terroristas registrados en años anteriores."
+
+    },
+    {
+        "headline": "Prisión Preventiva para presunto asaltante",
+        "content": "José Manuel Goicochea Álvarez, imputado por secuestrar a Paola Contreras Cortés, será mantenido bajo custodia preventiva conforme resolución judicial basada en antecedentes penales y ausencia de residencia fija."
+
+    },
+    {
+        "headline": "Nuevo centro médico planeado para San Borja",
+        "content": "Una nueva infraestructura sanitaria financiada por EsSalud está siendo desarrollada en San Borja, beneficiará aproximadamente a miles gracias a inversiones valoradas en más de S/.45 millones."
+
+    },
+    {
+        "headline": "Evaluación de daños en Malecón Costanera",
+        "content": "Este emblemático sitio presenta fracturas estructurales graves, obligando a restricciones temporarias mientras se determinan causas específicas detrás de tales deterioros."
+
+    },
+    
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while excluding irrelevant sections like ads and non-journalistic information. Adjustments were made for clarity where necessary within constraints provided.

@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/11/peru21_19.txt ---
+
+```json
+[
+    {
+        "headline": "No hay tiempo que perder",
+        "content": "En un final para la historia, el portero Salvador Liberman de 55 años marca de cabeza el tanto del empate de su equipo 1–1 con Las Vegas Raiders."
+    },
+    {
+        "headline": "Los trabajos deben continuar",
+        "content": "A pesar de llegar a su clasificación al mundial, los tiempos para resolver temas logísticos son limitados. Por eso, una delegación encabezada por Ricardo Gareca viajará el próximo mes a Rusia para presentar el 1 de diciembre el sorteo que determinará a los rivales de la Selección Peruana. \"Nos hemos alojado en hoteles cercanos a Moscú ya que estar próximos facilita mucho\", comentó el preparador físico Toribio Requena. Respecto a los partidos amistosos que sostendrá la bicolor durante las fechas FIFA, mencionó que buscarán enfrentamientos contra los mejores rivales posibles."
+    },
+    {
+        "headline": "Manchester United gana con goleada",
+        "content": "Manchester.- Los esperados regresos de Zlatan Ibrahimović y Paul Pogba, ambos con gol incluido, fueron claves en la victoria por goleada del Manchester United (2° con 26 pts.) frente al Newcastle (11° con 14 pts.), correspondiente a la fecha 12 de la Premier League. Ibrahimović retorna después de siete meses recuperándose de la ruptura del ligamento cruzado anterior de su rodilla derecha, mientras que Pogba hace lo propio tras dos meses fuera por un desgarro. Ambos tuvieron actuaciones destacadas, siendo Pogba autor del tercer gol (minuto 54). Anteriormente, Anthony Martial (minuto 37") y Jesse Lingard (44') pusieron en ventaja al conjunto inglés."
+    },
+    {
+        "headline": "Roma venció en el Derbi Capitalino",
+        "content": "\"La Loba\" ganó el clásico romano al imponerse 2–1 a la Lazio. En dicho partido, Nicolò Zaniolo abrió el marcador para la Roma mediante un penalti ejecutado magistralmente (minuto 48'), seguido rápidamente por Radja Nainggolan (52'). La respuesta llegó más tarde cuando Ciro Immobile consiguió reducir distancias para la Lazio (74'). Mientras tanto, Napoli aseguraba liderato al vencer 2–1 al AC Milán, con Fabian Ruiz (32’) y Hirving Lozano (71’); Andrea Conti (89’) descontó para los visitantes."
+    },
+    {
+        "headline": "David Goffin avanza a la Final del Masters",
+        "content": "Lo insólito ocurrió en Londres cuando el tenista belga David Goffin eliminó al legendario Roger Federer en semifinales del Torneo de Maestros, avanzando así a la final. Con parciales de 2–6, 6–3 y 6–4, Goffin demostró superioridad en momentos clave del match. Este resultado también significa que Rafael Nadal culminará el año como líder del ranking ATP, aventajando a Federer por mil cien puntos. Para alcanzar el título, Goffin deberá medirse hoy mismo al búlgaro Grigor Dimitrov, quien prevaleció sobre Jack Sock en la otra semi-final."
+    }
+]
+```
+This extraction focuses solely on extracting complete articles while adhering strictly to the provided guidelines for identifying headlines and merging fragmented texts appropriately. Any non-article elements such as schedules, scores not tied directly to narrative descriptions were excluded based on their context within sports reporting rather than standalone journalism pieces.

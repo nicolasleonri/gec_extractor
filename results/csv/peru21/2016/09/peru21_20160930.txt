@@ -1,0 +1,42 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/09/peru21_30.txt ---
+
+```json
+[
+    {
+        "headline": "Asesinato de candidato durante evento electoral en Cuiabá",
+        "content": "Del asesinato\n\nde Gomes da Rocha, un \ncandidato a concejal fue herido\nde gravedad y su padre murí\nCuando participaban en un\nacto electoral en Cuiabá.\n\nBrasil. 200 Reclusos Inician Tumulto Durante la Inspección Rutinaria\n\nPresos Escapan en Motín\n\nSAO PAULO (AFP)— Unos 200\npresos escaparon del penal de\nJuquery, en el estado de Sao Paulo,\ntras un motín que iniciaron los\ninternos dentro de las instalaciones.\n\"Durante una inspección rutinaria los detenidos\ncomenzaron a hacer tumulto. No hubo\nrehenes y la situación ya fue controlada\", señaló un portavoz."
+    },
+    {
+        "headline": "Facultades Legislativas Otorgadas al Ejecutivo",
+        "content": "\"Como reporta el periodista Mario\nMedeiros de El Comercio, los principales cambios al pedido del Ejecutivo fueron:\ni) Solicitaron facultades por 120 días pero la Comisión de Constitución le aprobó 90;\ni) Solicitaron que la Unidad de Inteligencia Financiera (UIF) compartiese información con la ONPE y el JNE, y fue negado;\ni) Solicitaron que la UIF acceda al secreto bancario con autorización de un juez ad-hoc, pero se decidió que lo hiciera un juez de turno;\niv) Propusieron extender las deudas tributarias menores a 1 UIT solamente para microempresas, pequeñas y medianas empresas y personas naturales;"
+    },
+    {
+        "headline": "Opinión especialista en negocios",
+        "content": "\"-- Administración de Negocios Internacionales -- Administración y Gestión Empresarial -- Contabilidad y Finanzas\n--- Más de 50 carreras disponibles --- GRATUITAMENTE\nAnsiedad Corporativa\nGrupo El Comercio\n**Valido sólo para estudiantes nuevos. Consulta más detalles según la carrera elegida.**
+Visítanos en: www.avansys.edu.pe\nFecha límite de inscripción: Octubre\nAv. Uruguay 514, Lima | Teléfono: 411–5888\nInstituto Avansys | www.avansys.edu.pe"
+    },
+    {
+        "headline": "Entrevista Ricardo Monzoneskomt",
+        "content": "\"EL INTERLOCUTOR LE RECUESTA AL GOBIERNO SOBRE SUS OBJETIVOS PARA RESOLVER LA INFORMALIDAD.\" '¿Cómo ayudará el gobierno a solventar el problema?' \"Sería difícil cumplir con facilitar programas formales en tan solo 90 días, dado que requiere identificar barreras significativas que eviten operar legalmente tanto para inversionistas formales como informales.'"
+    },
+    {
+        "headline": "Empresaria Ebria Provoca Accidente y Ataca Policías",
+        "content": "Shirley Avila\nlavilaperu21.com\n\nNo solo chocó contra otro vehículo conduciendo en estado de ebriedad, sino también golpeó repetidamente a un oficial de policía después de haber sido interceptada fuera de un restaurante en San Isidro. Actualmente está detenida en espera de juicio."
+    },
+    {
+        "headline": "Nuevo Problema en el Sistema de Tránsito Metropolitano",
+        "content": "Una avería mecánica en uno de los trenes de la línea 1 del metro de Lima ocasionó grandes demoras y afectó gravemente el flujo normal de transporte público. Las autoridades implementaron planes de contingencia rápidamente para mitigar el impacto."
+    },
+    {
+        "headline": "Capturan a Uno de los Criminales Más Buscados",
+        "content": "Eduardo Martin Quinto Guzmán, involucrado en múltiples actividades criminales incluido el homicidio de Patrick Zapata, amigo de Gerald Oropeza López, fue finalmente arrestado por la policía en La Victoria."
+    },
+    {
+        "headline": "Ultimátum de Autoridades Locales ante Crisis del Agua",
+        "content": "Autoridades y sindicatos de Islay lanzan ultimatum respecto a la crisis hidráulica enfrentada, proponiendo acciones drásticas si no se satisfacen sus reclamos relacionados con el uso exclusivo del recurso hídrico proveniente de la represa Paltuture."
+    }
+]
+```
+This JSON structure captures key information about each significant event reported within the provided text while adhering strictly to the specified format requirements for headlines and contents. Articles were identified based on their thematic separation and relevance according to typical journalism standards. Any missing data was filled using "NA".

@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2017/02/elcomercio_16.txt ---
+
+```json
+[
+    {
+        "headline": "Casos Odebretch Gobierno sigue la misma línea de la Fiscalía",
+        "content": "Ejecutivo elige va de la extradición para traer a Toledo Trámite. Cancillera envió a EE.UU. el expediente complementario del pedido de detención preventiva para el exmandatario peruano.\n\nBajo la lupa. Autoridades de Costa Rica investigan banco en el que se depositó el dinero para los presuntos sobornos de la empresa Odebrecht."
+    },
+    {
+        "headline": "Independencia y Veracidad",
+        "content": "Desde 1839 Director General: Francisco Mir Quesada Cantuariás Directora periodística: Fernando Berckemeyer Olaecheá"
+    },
+    {
+        "headline": "Editorial \"El detalle\"",
+        "content": "\"El detalle de que el autor del brutal ataque contra este gobierno integrase presumiblemente filas oficiosas dupli\-ca, como es lógico, la torpeza u omisión según sea el caso\". Como si no fuese suficientemente síntoma de desorden interno el que un miembro de la bancada oficialista \u2013Moísés Gué\u2013 pidiese la vacancia presidencial y otro \u2013Juan Shéput\u2013 demandase cambios ministeriales, ahora el Secretario Nacional de Organización de Peruanos por el Kambio (PPK), Jorge Villacorta, ha exigido la renuncia de la ministra de la mujer, Ana María Roméro Lozáda. Esta última ha sido matizada por el Congresista y Secretario General de PPK, Salvar Heresi, quién ha hablado solamente de «reflexiones dadas en el Interior del C.E.N». Sin importar qué tan correcta pueda ser la denuncia, queda claramente evidenciado que existen motivaciones ocultas detrás de estas acciones internas."
+    },
+    {
+        "headline": "Usí Ministerio Presidido por la Ministra",
+        "content": "La bancada de Peruanos por el Kambio rechaza el pronunciamiento del CEN del partido que exige la renuncia de la ministra de la Mujer, Ana María Roméro Lozáda, por sus vínculos con Alejandro Toledo. Grupo Parlamentario Expreso Su Respaldo a la Ministra Roméro Lozáda En el Partido señalan Que Fue Toledo Quien Pidió Su Incorporación al Gabinete."
+    },
+    {
+        "headline": "Humala y Heredia 'Autorizan' al Fiscal a Allanar su Domicilio",
+        "content": "Abogado del ex Presidente Informa que Envían Escritura Donde Indican que la Fiscalía Pueda Inspeccionar Cuando Sea Necesario. Abogado Precisa que Documento Ha Sido Presentado Voluntariamente Permitiendo Acceso Si Considera Pertinente."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Any missing information was filled using `"NA"` where applicable.

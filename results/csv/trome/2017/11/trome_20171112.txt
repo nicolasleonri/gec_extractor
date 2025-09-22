@@ -1,0 +1,101 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "Debes seguir promoviendo su difusión y uso.",
+        "content": "Se necesita seguir promoviéndo su difusón y uson. Habitos tales como lectura y la investigación son indispensables del proceso educativo, por cuanto apoya la formación de actitudes, virtudes."
+    },
+    {
+        "headline": "Tamara espera triunfo peruano frente a Nueva Zelanda",
+        "content": "Como millones de peruanos, la hermosa Tamara vio el partido de Perú ante Nueva Zelanda, all en Wellington, comiéndose las uñas. Pero ella confía en que en el Estado Nacional, la cosa será diferente. Apuesta doble contra simple que ganaremos con goles de Farfán y ‘Cuevita’.”
+    },
+    {
+        "headline": "Literatos y futbol",
+        "content": "Techo se pone a tono en sus domingos literarios con un selecto grupo de escritores. Carlos Beltrán presenta algunos destacados autores relacionados con el fútbol.\n\nCARLOS BELLI: Integra el notable grupo de 'Los Cuatro Poetas Fantásticos'. Dedica un poema al guardameta, defendiendo esa posición olvidada muchas veces de forma injusta.\n\nBALÓN SOCCERO: Su obra incluye descripciones vívidas sobre experiencias de aficionados durante partidos importantes.\n\nMARÍO VARGAS LLONA: Expresa abiertamente su afición por Universitario de Deportes, mencionando figuras icónicas del club.\n\nBLANCHE VÁRELIA: Le dedica versos al fútbol en su colección 'Valses y otras falsas confesiones', mostrándola también interesada en el tema.\n\nTOÑITO CICHEROS: Revela su ferviente admiración hacia el Club Sporting Cristal, narrando cómo surgió su interés por dicho equipo."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on context clues such as headlines and thematic shifts while adhering strictly to the guidelines for inclusion/exclusion specified in the task description. Note how each entry captures both a title where applicable and its corresponding detailed narrative.
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "Escuchándole otra...",
+        Dalí impresión de que nunca gritaba...",
+        "content": "Cuando mis hijos Ignacio y Cristóbal juegan futbol, ¿hablando de trabajo?\n\nCada uno maneja su agenda y tenemos oficina separadas.\n¿Les gustan las discotecas?\n¡Yo mamá y no me interesa ir de farra!\nComo nutricionista, un consejo...\nPues un plato de muchas verduras y comer peces que quepan en la sarten ahorrará fuerzas. Además, son los más baratos.\nLos vegetarianos no prueban nada de carne...\nDeben haberlo hecho alguna vez porque contiene vitamina B12, esencial para el funcionamiento del cerebro.\nTodo lindo, pero algo que corre riéndose en Raúl?\nCuando sólo tenía un jean.\nAlgún tecnológico al que haya integrado?\nUsar WhatsApp.\nLo que te genera admiración?\nSer visionario.\nMirar hacia atrás y volver al presente, qué dirías?\nY aún veo amor."
+    },
+    {
+        "headline": "Vimientieri está vivo",
+        "content": "Raúl vestía formal y apoya su espalda en el sillón cuando la escucha. Vive tranquilo hoy, aunque momentos durillos marcan su historia. \n\"Vimientieri está vivo. Era inevitable tener que renunciar a todo por ser la expareja de tu hijo...\"\nFue infamia y matarlo, pero cómo es la vida, muchos de quienes me agredían están presos ahora, abandonados.\n¿Eres feliz?\nVivo en paz. Es más difícil eso sí...\nLa felicidad es un instante, no es para siempre.\nHas aprendido de ella paciencia y reflexión.\nCeloso?\nDebe serlo porque es muy hermosa, pero no me causa problemas.\nSegura que deja encuesta en el censo que te dan categoría de \"jefa del hogar\"...\nDice médico: Lo tuyo es muchísimo mejor, ¡es mi joya!"
+    },
+    {
+        "headline": "En mercados navideños",
+        "content": "\"Muchos consumidores visitan estos lugares buscando diversificar sus opciones de regalos, árboles de Navidad, Papás Noel, etc.\" Al día, se calcula que unos 800 mil consumidores frecuentan estos sitios, esperando alcanzar los 5 millones días antes de Navidad. Entre las innovaciones destaca el diseño inspirado en estructuras icónicas adaptadas para pequeñas viviendas."
+    },
+    {
+        "headline": "Conferencia de prensa de Gareca",
+        "content": "Durante la conferencia de prensa posterior al encuentro frente a Nueva Zelanda, Ricardo Gareca enfatiza la necesidad de mejorar aspectos específicos del juego. Destaca la importancia de regularidades tácticas y estratégicas para asegurar resultados positivos en próximas confrontaciones internacionales."
+    },
+    {
+        "headline": "Pedro Gallese motiva a la selección",
+        "content": "Después del empate en Nueva Zelanda, el guardameta nacional llama a concentrarse en objetivos claros. Publica mensajes optimistas animando a continuar trabajando conjuntamente para cumplir aspiraciones mayores en el camino hacia el mundial."
+    }
+]
+```
+This JSON captures key excerpts based on their headlines where possible while maintaining coherence within each entry according to the provided guidelines. Note any missing information has been marked appropriately following the instruction requirements.
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "RYAN THOMAS ANALIZÓ EMPATE CONTRA PERÚ",
+        "content": "\"Manos firmes, cabeza fría\". El portero Pedro Gallese analizó seriamente el empate de Perú con Nueva Zelanda. \"La primera autocrítica siempre es nuestra, porque queríamos ganar aquí. Estos son partidos de 180 minutos y hay que corregir cosas. Debemos ser más regulares.\""
+    },
+    {
+        "headline": "PERÚ BUSCARÁ SALVARSE EN RUSSIA 2018",
+        "content": "\"Ya en el avión rumbo a Lima, el golero motivó a la Blanquirroja con un mensaje en su Instagram: ‘Solo 90 minutos más para alcanzar nuestro sueño. Más unidos que nunca’, publicó. Mi preocupación pasa por lo mental. Por la presión, ansiedad y desesperación. Son esos los rivales a vencer."
+    },
+    {
+        "headline": "CRÓNICA DEL EMPIEZO DE LA REVANCHILLA ENTRE PERÚ Y NEWS ZELANDA",
+        "content": "\"Anteriormente, Ryan Thomas, volante de New Zealand, menciona cómo el equipo está preparándose para enfrentar nuevamente a Perú. Anthony Hudson, técnico de Nueva Zelanda, agarró moral con miras a la revancha en Lima. ‘Solo necesitamos un gol’.”
+    },
+    {
+        "headline": "PAOLO GUERRERO CONFÍA EN SUS RESULTADOS",
+        "content": "\"Paulo Guerrero llegó a Brasil tras el momento difícil que atravesaba. ‘La contraprotesta confirmó la sustancia (benzoilecgonina), pero también que esto puede estar presente en alimentos o bebidas’. Paolo expresó tranquilidad y determinación frente a estas circunstancias.”"
+    },
+    {
+        "headline": "NEYMAR LE DA BIENVENIDA A ARGENTINA EN MOSCU",
+        "content": "\"Argentina debutó derrotando 1–0 a Rusia en el estadio Luzhniki. Neymar, después de 17 meses desde su último gol internacional, encontró redención al marcar en su retorno a la Albiceleste. Este resultado posiciona a Sergio Agüero junto a figuras históricas argentinas en cuanto a goleo nacional.”
+    }
+]
+```
+This extraction captures key sports-related stories while adhering strictly to the provided guidelines for extracting headlines and contents. Other non-journalistic sections like ads were excluded according to the scope defined.
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_12.txt ---
+
+```json
+[
+    {
+        "headline": "PANCHOLON PARTIDO REPORTERO ALERTAS Y DENUNCIAS AL WHATSAPP",
+        "content": "Pancholon Partidor\n\n1 Chato Matta lleg al restaurante por un sabroso chanhito en caja china, mejor que el de Mistura.\n\"María, el gran Pancholin volvi como esos tigres que avanzan pacito en medio de la selva para cazar a su presa.\" \"Chaquito, deja todo y baja en ‘one’ a mi banco para contarme la última\". Cuando llegué, el abogado mujeriego escuchaba a todo volumen una canción que se le había pegado de \u201CMalu baby\u201D, \u201CFelices los cuatro:\u201D \"Si conmigo te quedas/ o con otro tú te vas/ No me importa un carajo/ porque sé que volverás/ Si conmigo te quedas/ o con otro tú te vas/ no me importa un carajo/ porque sé que volverás/ Y si con otro pasas el rato/ vamos a ser feliz/felices los cuatro/ Te agrandamos el cuarto...\".\nCausicita --me dijo-- estuve encerrado en casita dos semanas, pero me timbró el Doctor Chotillo para ver el partido contra Nueva Zelandia con una parrillita y dos mujeresónes,\nPanchito, me escribió por WhatsApp, la amiga de mi saliente se muere por conocerte, Ya de ahí, que pase lo que pase\". Chaquitito, cuando llegué vi al cirujano que abrazaba a una mujer más rica que Milett. Chotillo tenía bien apretujadita, Ella es mi amor y su amiga es totita para ti, me dijo en tono burlesco. Voltee y vi a una tal que se parecía a Belén. Se acercó y gritó: \'Panchito, no te me corras. Ya me contaron que eres el coyote, porque sólo paras con trampa, ja, ja, ja\'.'La belleza que estaba con el doctor me impactó, se llamaba Mal, era Colombiana, de Medellín, y ví que lo besaba con los ojos bien abiertos.\nPancholin no perdi tiempo, se tomó dos vasos cargadazos de Johnny Walker Etiqueta Dorada y gritó: Mal, Mamita, ustedes ya clasificaron al mundial! Nosotros definimos el próximo Miércoles y estoy seguro de que ganaremos. Te voy a narrar el Gol de Farqua, el que nos llevará a Rusia. Toca la Pelota Trauco, avanza por la banda Izquierda, se perfiló, levantó la cabezota, tiró el Centro, la Mata Jefferson con el pecho, la Amortiguó, se sacó a un Grandazo, Disparó y Gol, Gooolcol, Gooolfil ll Peruano. Para Todo el Mundo, por mi Viejita, por mi Mazamonita,\"Farquita\", valés un millón!\nPues él hubiese subido el Whisky y se emocionó. Al reportero le brillaban los ojos. Después se acercó a Chotillo y le sirvió un vaso de Whisky llenecito. Quería Emborracharlo! El Cirujano ya estaba Movídizo, Tu me salvaste de un Juicio, Panchito, te debo la vida, te agradezco, aunque por ahora no te puedo pagar porque estoy Misío... El gordito, en vez de abrazarlo, le volvió a llenar el vaso con Whisky y no le puso Agua Ni Hielo. Un ratito después Exclamó: \'¡Ey Seguridad!. El Doctor ya está cansado. Llévale en tu Taxi a Su Casa y, de Paso, dejas a Su Amiga Belén. Yo Voy a Llevarla a Ella a Comer un Sangucherito\". Al Ratito se Perdieron con dirección al Hostal Nueva Zelandia. Los gritos de ¡Ah, Ah, Ah!, se escucharon a Dos Cuadras a la Redonda\"."
+    },
+    {
+        "headline": "PAULO GUERRERO DECLARA ANTES DE VIAJAR A BRASIL",
+        "content": "\"Afirma Que Es Inocente y Quienes Lo Hayan Acusado Tendrán Que Responder Por Sus Palabras. Se Refiere Directamente Al Periodista Argentino Que Le Dio Falopero'\n(Técnico Drogado).\n\nT ME HACES FALTA, PORQUE LA CLASIFICACIÓN SE HACE TAN LARGA CUANDO EN TI PIENOOO....\nT ME HACES FALTA, POR LOS GOLES QUE TU HAS DEJADO EN MI CORAZÓN.....\"\n\nEs lamentable, Pero Los Índices De Delincuencia Siguen Siendo Altos, Pese A Los Esfuerzos Del Gobierno Por Reducirlós. En Esta Lucha Deberían Participar Todos, El Mismo Gobierno, La Policía, Los Jueces, Los Fiscales Y Los Ciudadanos.\n\nEs Mencionable, Pero Los Ndices De Delincuencia Siguen Siendo Altos, Pese A Los Esfuerzos Del Gobierno Por Reducirlos. En Estas Luchas Deben Participar Tod@s, El Mismo Gobierno, La Policía, Los Jueces, Los Fiscales Y Los Ciudadanos."
+    },
+    {
+        "headline": "EXOBRAZO DISCUUTE PELEAN BALACERA MOTOTAXISTAS PERÚ NEUSELANDIA SAN MARÍN DE PORRES",
+        "content": "Exobrador Había visto el partido de Perú Junto a su amigo y le pidió que lo lleve a su casa. Cuando Finalizó el Partido, Hidalgo Jimenez le dijo al Mototaxista que no contaba con Dinero para Pagárle. Fue en Ese Momento que Discutieron y Luego Ambos se Agarraron a Golpes. Sorprendentemente, Manuel Hidalgo Sacó Una Pistola y Le Disparó al Chofer en la Cabeza. El Cadáver Qued Tiroteado en el Cruce de los Jirones Callao con Apurmac, Contó el General Victor Rucoha, Jefe de la Región Policial Lima. "
+    },
+    {
+        "headline": "AMIGOS IBAN EN MOTO CAEN VOLANDO TRÁNSITO COSTA VERDE BARRANCOPÉRGOLA",
+        "content": "Dos Motociclistas Resultaron Heridos Tras Caer de Su Vehículo Por Intentar Evitar Colisionar Con Una Camioneta Que Les Cerro el Paso Cuando Circulaban Por La Costa Verde, En Barranco. Christian Días (21) y Un Adolescente de 17 años Estaban A Bordó de La Moto de Placa 3957–7F Por La Playa Los Yuyos; Cuando Fueron Embestidas Por El Vehiculo Con Lunas Polarizadas. El Motociclista Se Despistó Para Evitar La Colisión y Salió Volando Con Su Pasajero. Los Uniformados Del Escuadrón de Emergencia Los Auxiliaron y Trasladarón a Un Hospital de la Zona."
+    }
+]
+```

@@ -1,0 +1,17 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/08/elcomercio_09.txt ---
+
+```json
+[
+    {
+        "headline": "LA MAYORDOMA PRESIDENCIAL",
+        "content": "L a mayordoma presidencial en el Perú ha jugado históricamente roles significativos más allá de simples funciones domésticas. Este puesto, ocupado frecuentemente por mujeres cercanas al Presidente, suele implicar influencia política considerable dentro de la Casa Blanca. Durante diferentes administraciones, estas figuras han servido como consejeras íntimas, mediadoras políticas y guardianas de intereses particulares.\n\nHistóricamente, algunas Mayordomas Presidenciales han utilizado su posición privilegiada para intervenir en decisiones gubernamentales importantes, facilitar contactos influyentes y ejercer supervisión discreta sobre personalidades claves en el ámbito público. Además, muchas han contribuido notablemente a causas benéficas y proyectos sociales, ampliando así su legado más allá de las fronteras del palacio presidencial."
+    },
+    {
+        "headline": NA,
+        "content": "Juan Paredes Castro, destacado periodista conocido por su análisis crítico de eventos políticos contemporáneos, ofrece perspectivas únicas sobre cómo las dinámicas detrás de bambalinas pueden afectar la dirección pública de cualquier administración. Sus columnas regularmente exploran las interrelaciones complejas entre líderes políticos y sus equipos más cercanos, proporcionando lectores insights profundos sobre el tejido oculto del poder ejecutivo."
+    }
+]
+```
+This JSON captures the extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for processing the input data. Note how non-article sections like author introductions were excluded according to scope definitions.

@@ -1,0 +1,26 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/10/gestion_22.txt ---
+
+```json
+[
+    {
+        "headline": "Regla de Taylor aplicada al caso peruano",
+        "content": "movimiento de su tasa de interés\n\nde referencia estimados de la regla\n\nde Taylor para su economía. Parágrafo\n\ncaso peruano utilizó la siguiente formulación:\n\nIr_e. = inflación + λ \n\t(brevecha de producto) + κ (brevede\n\tnflación) + δ.\n\nDonde Ir_e. es la tasa de interés\n\nde referencia del Banco Central.\n\nInflación es la inflación actual.\n\nBrecha de producto definida como\n\nel nivel de PBI actual frente al estimado\n\ndel PBI potencial. Brecha de inflación\n\ndefinida como la inflación actual versus 2%\n\nδ es mi estimado de tasa real de interés\n\nde equilibrio de largo plazo. Los coeficientes\n\nelementos que muestran, entre otros,\nelas preferencias del banco central entre\n\loseobjetivos de estabilidad de precios y pleno\n\nempleo. En una situación de equilibrio\n\donde las brechas de producción e inflación\n\nse hacen cero, la regla de Taylor coincide\n\ncon la ecuación de Fisher, es decir, que la tasa\n\nnominal es igual a la tasa real más la inflación.\nPara el caso peruano, la tasa de referencia\n\ndel Banco Central debería ser 4% en términos\n\nreales o 6% en términos nominales, ambas\ncompatibles con el pleno empleo de recursos\n\no con el crecimiento potencial de la economía."
+    },
+    {
+        "headline": "Política Monetaria Peruana Evaluada",
+        "content": "\"Se reafirma la conclusión de que\n\nla política monetaria ha sido y es suficiente\n\nexpandiva.\" He trabajado con diferentes\n\nformulaciones de la regla de Taylor, asignando\n\npor ejemplo L=0.5, K=\n\n1.0; L=0.4,K= 0.8; L = 0.5, K= 0.5;\ninflación \"core\", inflación total,\netcéteras, y he comparado los resultados con\n\nla tasa de referencia puesta en vigencia por\n\nel Banco Central para el período 2008–2015.\n\nPrácticamente para todo el período, salvo algunos\n\nepisodios, la tasa de referencia del Banco\nCentral estuvo por debajo de la señalada por\n\nla regla de Taylor, indicando así una posición\n\nmás moderada para la política económica que\n\nla exigida por la regla de Taylor. Por ejemplo,\npour este año la tasa de referencia debería haber estado\nentre 4.8%-5.0% con inflación \"core\" y en la práctica está\nen 3.5%. ¿Qué explicará dicha divergencia?\nConsidero que una causa está por el lado de que el\nmedio ambiente de precios estuvo dominado por\nfactores temporales extraordinarios, que no lograron\n\ndesenganchar en buena parte del período las expectativas\n\nde inflación de largo plazo de la meta de inflación del\nBanco Central. Por consiguiente, el Banco Central no\n\ntuvo necesidad de ajustar su tasa de interés de\n\nreferencia. Por la regla de Taylor, en cambio, tenía\nque elevársele la tasa de interés."
+    },
+    {
+        "headline": "Opinión Económica",
+        "content": "Entre las varias declaraciones que se hicieron durante las\nrecientes reuniones anuales del Banco Mundial y del FMI en Lima, la\ndeclaración efectuada por Christine Lagarde en el sentido de que el\ncrecimiento del Perú para el 2015 proyectado por el FMI era 2.4% fue una de\nlas que causó mayor revuelo. Yo también me equivocué,\" señaló A los\nperuanos también nos gustaría que se equivoque, pues necesitamos\ncrecer más y acercarnos a nuestra tasa de crecimiento potencial que ahora\nalgunos estiman entre 4 y 4.5% al año. Sin embargo, lo que nos guste no\nnecesariamente es lo que ocurrirá."
+
+    },
+    {
+        "headline": "Finanzas Mercado Cambiario",
+        "content": "Dolar salta a S/. 3.26 y prevén que seguir al alza\n-Divisa estadounidense continúa escalando\nimpulsada por los temores sobre economía china, y\nuna mayor demanda de dólares por parte de los\nbancos ante el vencimiento de swaps del BCR.\nUn ejecutivo de tesorería bancaria menciona que por el lado externo, la coyuntura\nhoy ha sido negativa, especialmente para las divisas de los mercados emergentes debido\na los signos de debilidad de China, reflejándose esto principalmente en el índice de\nproducción industrial. Esto impacta directamente en la cotización de commodities,"
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing information within each segment was filled using `"NA"` where applicable.

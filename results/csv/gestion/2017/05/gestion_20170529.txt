@@ -1,0 +1,95 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/05/gestion_29.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que...",
+        "article_id_1": 1,
+        "title": "",
+        "text": ""
+    ],
+    {
+      "headline": "Contenido principal",
+        "content": "Hoy en día, uno pensaría que..."
+    }
+
+{
+   "headline":"El loco del martillo",
+     "content": "Hoy en día, uno pensaría que..."}
+
+]
+```
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en dia, uno pensaría que..."
+    },
+
+    {
+       "headline": "Contento por final de cuarentena!",
+         "content": "Estoy feliz porque....",
+
+    },  
+    {   
+          "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",    
+           "content": "NA"
+    },
+
+
+    {
+
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+        
+    }]
+
+}
+```
+
+--- ERROR ENTRY: data/txt/gestion/2017/05/gestion_29.txt ---
+
+```json
+[
+    {
+        "headline": "Cierra Preocupación",
+        "content": "Macroconsult señala que en el análisis de algunas variables que dividen en subgrupos a la PEA empleada en la capital, se ve que, por edad, el grupo de personas entre 25 y 44 años es mayor (54% del total) y su empleo decreció superior al resto, alcanzando una disminución significativa en abril."
+    },
+    {
+        "headline": "Tras Escándalo de Corrupción",
+        "content": "Producto Interno Bruto\nLas expectativas económicas bajan conforme a la incertidumbre política generada por el escándalo de corrupción involucrando al Presidente Michel Temer, quien enfrentará dificultades para avanzar con sus planes legislativos según indica Moody’s."
+    },
+    {
+        "headline": "Merke Adviert Desconfianza hacia Estados Unidos",
+        "content": "Europa deberá confiar más en sí misma después de divisiones causadas por Brexit y comentarios de Donald Trump respecto a la dependencia europea. Merkel destacó la necesidad de acción independiente aunque buscando mantener buenas relaciones internacionales."
+    },
+    {
+        "headline": "Después de Dos Meses de Protestas",
+        "content": "La situación violenta continúa escalando en Venezuela, sumando otra víctima mortal a casi 600 reportadas en dos meses de disturbios civiles relacionados con demandas políticas y sociales."
+    },
+    {
+        "headline": "Editorial: Pisco es Perú (a veces)",
+        "content": "Discute cómo la gestión deficiente y la complacencia gubernamental están dañando la reputación global del pisco peruano, especialmente evidenciado por incidentes diplomáticos con Chile y decisiones controvertidas tomadas por compañías peruanas."
+    },
+    {
+        "headline": "Julio Lira Segura Opinan",
+        "content": "Reflexiona sobre la dinámica conflictiva entre el gobierno y el Congreso en Perú, sugiriendo la urgencia de construcción de puertos de entendimiento para facilitar el avance democrático y administrativo del país."
+    },
+    {
+        "headline": "¿Qué Sucedería si el Pisco...",
+        "content": "...Nos Pone ‘Huascar’?" Examina el patriotismo generado en torno al conflicto del pisco, preguntándose qué tan profundo está arraigado realmente el orgullo patriótico asociado a este licor emblemático."
+    },
+    {
+        "headline": "Orden Presidencial de Trump",
+        "content": "Analiza la implicación de órdenes ejecutivas emitidas por Donald Trump dirigidas a abordar déficit comerciales y proteger intereses industriales estadounidenses, evaluando potenciales impactos en tratados bilaterales como el TLC entre EE.UU. y Perú."
+    },
+    {
+        "headline": "Identidad Nacional",
+        "content": "Aborda la tensión cultural y económica surgida por disputas legales sobre nombres geográficamente sensibles, usando el caso del pisco versus aguardiente de uva como estudio principal de pérdida de identidad nacional en contextos comerciales."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were selected where there was substantial narrative or informational value consistent with typical journalism standards. Any missing data has been marked appropriately according to instruction requirements.

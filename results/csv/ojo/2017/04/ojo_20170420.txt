@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/04/ojo_20.txt ---
+
+```json
+[
+    {
+        "headline": "Concerto ‘Amor en el aire’",
+        "content": "Los participantes del programa de imitación Yo y Palito Ortega, Hugo Apaza Ricardo Montaner' y Daniela Zambrano Janis Joplin, presenta el show Amor en el aire este 3 de junio en el local El Viejo Almacen."
+    },
+    {
+        "headline": "Julia Roberts elegida Mujer más Bella del 2017",
+        "content": "La actriz Julia Roberts fue elegida como la ’Mujer más bella del 2017’, por la revista People. En dicha publicación, Roberts hace un recuento de sus inicios en el cine, así como de detalles en su vida personal con su familia."
+    },
+    {
+        "headline": "Rossana Fernandez Maldonado y Gian Piero Daize vuelven a conducir ‘Factoría de Sueños'",
+        "content": "Rossana Fernandez Malldonnadan y Gian Piero Daz volvern a conducir desde este sábado 22 de abril Factoría de sueos, programa con el que esperan ayudar a todos. Ellos son conscientes de que no la tendrán fácil, pues competirán con espacios ya consolidados como El Gran Show, El Wasap de JB y El Reventónazo de la Chola, pero eso no los asusta, sino los incentiva a dar lo mejor de ambos."
+    },
+    {
+        "headline": "Corporacion Woallance pago de utilidades año 2016",
+        "content": "Convoca a sus trabajadores y ex-trabajadores que hayan laborado en el ejercicio económico 2016, a que se acerquen a la empresa a partir del 20/04/2017 a la siguiente dirección: Calle Ing. Nicolás Cochli NT 681 Torre piso 15 Victoria – Mañana para el pago de Utilidades en horarios de mañana 10:00–14:00 y tarde 16:00–19:00 siguientes modalidades:"
+    },
+    {
+        "headline": "‘Fabula de Sueños’ regresa a Marisol Mayta",
+        "content": "Rossana Fernandez Maldonado y Gian Piero Daz volvern a conducir desde este sábado 22 de abril Fabula de sueos, programa con el que esperan ayudar a todos. Creo que hay una tarea pendiente y con el apoyo de ellos, Ney (Guerrero), que siempre impulsó la idea, estamos listos."
+    },
+    {
+        "headline": "Olinda Castaeda critica a Tilsa Lozano",
+        "content": "Olinda Castaeda se manifestó en contra de Tilsa Lozano, quien la insultó con palabras soeces incluso se burló de ella por su incursión en la música, ¿Qué puedo esperar de una persona tan básica?, escuche tantas groserías que me dan lástima por ella. No tiene educación. Yo nunca he dicho tanto hacia ella, ni tampoco ninguna grosería fuerte.”
+    },
+    {
+        "headline": "Deyvis Orosco dedica show a su abuelita y a su padre",
+        "content": "Deyvis Orosco está consciente de que debe seguir avanzando y complaciendo a su público. Esto es lo que hará mi padre si fuera vivo, esto me enseñó él. Además, anunció que este 20 de mayo también comienza el rodaje de la película Somos Nectar."
+    },
+    {
+        "headline": "Obra ‘Un país tan dulce’ celebra centenarios de José Santos Chocano",
+        "content": "Como parte de los 100 años del fallecimiento del poeta José Santos Chocano, el Teatro Ricardo Blume presenta la obra Un País Tan Dulce, dirigida por Alberto Isola, y protagonizada por Miguel Álvarez, Juan Carlo Orozco, entre otros."
+    },
+    {
+        "headline": "Justin Bieber realiza sorpresiva aparición junto a Luis Fonsi",
+        "content": "Durante su concierto en Puerto Rico, Justín Bieber dio una sorpresa a sus admiradores al invitar al músico Luis Fonsi al escenario. Cantaron juntos la última versión del éxito Despacito."
+    },
+    {
+        "headline": "Bitl O'Reilly retira de Fox News por denuncia de acoso sexual",
+        "content": "El presentador Bill O'Reilly fue retirado del canal Fox News en Estados Unidos después de múltiples denuncias de acoso sexual en su contra."
+    },
+    {
+        "headline": "Alianza Lima jugará sin cambios significativos según Bengoechea",
+        "content": "Ante Municipal, el técnico Pablo Bengoechea confirma que intentará replicar el estilo mostrado en el clásico frente a Universitario, buscando obtener otra victoria crucial."
+    },
+    {
+        "headline": "Selección Peruana aspira superar grupo eliminatorio",
+        "content": "Sonrisas y optimismo rodean a la Selección Peruana luego de su triunfo sobre Uruguay. Según Anderson Santa María, existe capacidad suficiente para conquistar los próximos encuentros cruciales rumbo a Rusia 2018."
+    },
+    {
+        "headline": "Monaco alcanza semifinales de la UEFA Champions League",
+        "content": "El equipo francés Monaco derrotó al Barça en casa y selló su paso a las semifinales de la Champions League, demostrando fortaleza similar a la exhibida en temporadas anteriores."
+    }
+]
+```
+This JSON contains extracted headlines and contents for each identified article based on their significance within the provided text input. Non-article sections such as ads were excluded according to specified guidelines.

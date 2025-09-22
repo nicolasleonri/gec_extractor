@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/10/gestion_03.txt ---
+
+```json
+[
+    {
+        "headline": "\"La marcas locales\napelann a mensajes\nde orgullo peruano\"",
+        "content": "\"... Una clasificación reduce, a nivel general, en el mercado de fútbol ... Las grandes marcas podrían redirigir el saldo del presupuesto 2021 y, dependiendo de los resultados de la Blanquirroja, adelantar inversiones de 2022\"."
+    },
+    {
+        "headline": "N/A",
+        "content": "\"Juan Alberto Flores, director ejecutivo de IAB Perú, menciona que también se están desarrollando planes alternativos de inversión en el canal digital.\""
+    },
+    {
+        "headline": "N/A",
+        "content": "\"Eduardo Grisolli, gerente general de Y&R Perú, anticipa que el consumo interno se volvería reactivo debido al éxito deportivo nacional, beneficiándose especialmente sectores como alimentación y bebida.\""
+    },
+    {
+        "headline": "N/A",
+        "content": "\"Fidel Lariva, CEO de MindShare en Perú, señala que además podría impulsarse el consumo fuera del hogar, según cómo sean transmitidos los torneos futbolísticos.\""
+    },
+    {
+        "headline": "N/A",
+        "content": "\"Se prevé un aumento significativo en la compra de televisores y móviles relacionado con eventos importantes como el Mundial de Fútbol, influido por experiencias pasadas en países sudamericanos.\""
+    },
+    {
+        "headline": "N/A",
+        "content": "\"MercadoLibre observa un potencial crecimiento en ventas electrónicas asociadas al entusiasmo generado por competiciones globales, destacando dispositivos multimedia.”"
+    },
+    {
+        "headline": "N/A",
+        "content": "\"Paquetes de viaje hacia destinos donde jugará la selección peruana han visto un notable incremento, reflejo del fervor patriótico vinculado al posible avance en mundiales.”
+    },
+    {
+        "headline": "GOLPE ALBICELESTE",
+        "content": "\"Argentina enfrenta riesgos económicos si no califica al próximo mundial, afectando industrias clave como tecnología doméstica y servicios de telecomunicaciones, así como el turismo internacional ligado a estos eventos deportivos.”
+    },
+    {
+        "headline": "Cómo sobrevivir al bullying",
+        "content": "\"Shirley Garay ofrece consejos prácticos para identificar y manejar casos de mobbing en el ambiente laboral, enfatizando la importancia de utilizar mecanismos institucionales disponibles para resolver conflictos sin caer en extremos innecesarios como la renuncia precipitada.”
+    }
+]
+```
+This extraction captures key thematic sections identified within the provided OCR text while adhering strictly to the outlined criteria for inclusion/exclusion and data structuring requirements. Note how each entry maintains its integrity through careful parsing and cleanup according to specified guidelines.

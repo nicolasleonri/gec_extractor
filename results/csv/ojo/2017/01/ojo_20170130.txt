@@ -1,0 +1,117 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/01/ojo_30.txt ---
+
+```json
+[
+    {
+        "headline": "\"El loco del martillo\"",
+        "content": "Hoy en día, uno pensaría que... "
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque... "
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "",
+        "content": "Completamente engañada por su exasesor en Estados Unidos. \"La Abogada de los pobres\" contará toda su verdad en el programa \"Noy\" de Televisa."
+    },
+    {
+        "headline": "",
+        "content": "Exclusiva en Hoy': Todo sobre la cirugía\nDel médico casi me mató en Perú y la estafa perpetrada en Miami!, dice ella.\nComo recordaremos, la periodista peruana informó que podría haber muerto durante una intervención quirúrgica."
+    },
+    {
+        "headline": "",
+        "content": "Ahora también reveló en el programa \"Suelta la sopa\" que fue víctima de otra estafa en Estados Unidos por parte de Fabian Ruiz, un exasistente llamándose falsamente Fabian Bozzo usando su apellido, número de Seguro Social y tarjeta de crédito. Ella nunca entendió cómo algo así pudiera pasar en Estados Unidos."
+    },
+    {
+        "headline": "",
+        "content": "Michelle Alexander envía mensaje a Christian Domínguez:\n'Si Christian Domínguez está feliz con Isabel, María, Cecilia, Melissa, que lo sea, pero que cuide su plata nomás', recomendó la productora Michelle Alexander al cantante."
+    },
+    {
+        "headline": "Rubí Rojas, hija de Manuel Rojas, tentada para entrar a Reality",
+        "content": "'Recibí una proposición emocionante. Estoy físicamente lista, entreno hace nueve años.' Indicó Rubí, quién pronto grabará junto a su amiga modelo Alison Pastor."
+    },
+    {
+        "headline": "Tras batalla legal, obtiene custodia de su hija Luna",
+        "content": "Logró obtener la custodia después de disputas legales con su expareja Árpád Szakonyi."
+    },
+    {
+        "headline": "Yvonne Fraissinet y Marcelo Oxenford se casaron por civil",
+        "content": "Celebración rodeada de famosos invitados tras meses de relación pública."
+    },
+    {
+        "headline": "Ándres Hurtado celebra su cumpleaños grande",
+        "content": "Organiza fiesta especial celebrando su nueva etapa personal acompañado de sus hijos."
+    },
+    {
+        "headline": "Marcelo Galliano aclara situación laboral anterior",
+        "content": '"Jamás tuve inconvenientes con América TV." Explica Galliano respecto a declaraciones públicas.'
+    },
+    {
+        "headline": "Natalia Lafourcade cierra en Lima su éxito ‘Hasta la Raz’",
+        "content": "Presentará su última producción musical antes de terminar su gira mundial."
+    },
+    {
+        "headline": "Jefferson Farfán firma con Lokomotiv Moskva",
+        "content": "Expresa su satisfacción por jugar en Rusia y espera contribuir significativamente al equipo."
+    },
+    {
+        "headline": "Gran aporte técnico de Flamengo destaca debut Miguel Trauco",
+        "content": "Trauco impresiona en su primera aparición con cuatro tantos frente al Boavista."
+    },
+    {
+        "headline": "Versión 2017: Rimenses listos para torneo",
+        "content": "Universitari@s presenta su formación completa y enfrentamientos próximos."
+    },
+    {
+        "headline": "Superior a Plus: Nuevo Sistema Natural",
+        "content": "Promete resultados naturales y eficientes para mejorar aspectos personales específicos."
+    },
+    {
+        "headline": "Arranca Cantolao con fuerza",
+        "content": "Triunfa en encuentro preliminar demostrando solidez futbolística."
+    },
+    {
+        "headline": "Juan Manuel Vargas analiza próximo juego",
+        "content": "Confirma estrategias clave para superiores rendimientos en juegos venideros."
+    },
+    {
+        "headline": "Juventus consigue importante victoria",
+        "content": "Derrotó a Sassuolo gracias a goles decisivos de Gonzalo Higuaín y compañeros."
+    },
+    {
+        "headline": "Real Madrid sigue liderando",
+        "content": "Victoria aplastante sobre Real Sociedad afianza posición líder en la tabla."
+    },
+    {
+        "headline": "Arsenal persigue a Antoine Griezmann",
+        "content": "Interés renovado por contratar al talentoso jugador francés."
+    },
+    {
+        "headline": "Roger Federer gana título en Australian Open",
+        "content": "Victorias históricas marcan el retorno glorioso de Federer en Melbourne."
+    },
+    {
+        "headline": "Cómo evitar humedad en ropas almacenadas",
+        "content": "Remedio simple utilizando bicarbonato y vinagre para conservar prendas secas."
+    },
+    {
+        "headline": "Medidas preventivas para seguridad domiciliaria",
+        "content": "Propuestas prácticas para proteger residencias durante ausencias prolongadas."
+    },
+    {
+        "headline": "Heladerías artesanas: negocio promisorio",
+        "content": "Curso ofrecido por chef Isabel Pacchioni enseña técnicas básicas para iniciar negocio propio."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the outlined extraction rules. Articles lacking explicit headings have been assigned `NA` where appropriate.

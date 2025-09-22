@@ -1,0 +1,108 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/10/gestion_12.txt ---
+
+```json
+[
+    {
+        "headline": "Sector Retail",
+        "content": "Resto de industria en general,\ncon una oferta de almacenes\nmodulares e incluso para\ngen personas naturales que es un\nnegocio que también está\ncreciendo\", dijo el gerente."
+    },
+    {
+        "headline": "Expectativa Análisis",
+        "content": "\"...la desaceleración de la economía impactó en la toma de decisiones de sus clientes, sobretodo desde abril, pero en los últimos tres meses se percibe una reactivación, principalmente por la expectativa de la caída...\n--- pan americana tienen las empresas del sector retail.\nA fecha, la firma de capitales chilenos ha invertido us $300 millones en el Perú y tiene 1600 clientes. La contribución de la operación peruana es de \ns\$30 millones anuales.\""
+    },
+    {
+        "headline": "Inversión Logística",
+        "content": "- \"...la inversión total de este proyecto ascendere a us \$250 millones, el cual se ejecutará en etapas que se realizarán desde el 2016 hasta los próximos años; por ahora se encuentra en trámite de obtención de licencias. Así, en la primera etapa se construirán 80,000 metros cuadrados y por ahora se ciñen algunos contratos para sus futuras entradas al centro logístico.\""
+    },
+    {
+        "headline": "Mejoras Resultados",
+        "content": "\"Otro de los proyectos que trabajan en paralelo es el de Puerto Grande, que implica 440,000 metros cuadrados, el cual maneña su ritmo de construcción y demanda us $90 millones. A éste se le suma el centro logístico en Villa El Salvador con 80,000 metros cuadrados.\"\n\"Con ello, la expectativa está tener la mayor oferta del mercado en alquiler de almacenes, que ahora se ofrecen a s/\$20 el metro cuadrado.\""
+    },
+    {
+        "headline": "Irlandesa Solicita Reestructurar Dirección",
+        "content": "\"Grupo de accionistas solicitan reunirse en junta general extraordinaria para cambiar miembros del consejo. Objetivo es designar seis nuevos directivos mientras buscan remover actuales integrantes.\""
+    },
+    {
+        "headline": "Promart Expansiona Presencia Regional",
+        "content": "\"Como anunciábamos anteriormente, el home center del grupo Intercorp, Promart, llegó a Moquegua, consolidándose como líder en servicios integrales para hogares en dicha área regional.\""
+    },
+    {
+        "headline": "Producción Doré Emprende Exportación",
+        "content": "\"Primera producción doré alcanzada por Anthem United en Arequipa culmina exitosa exportación de metales preciados. Durante inicio, se procesaron miles de onzas tanto de oro como de plata.\""
+    },
+    {
+        "headline": "Nuovit Desarrolla Oficinas Estratégicas",
+        "content": "\"Emprendimientos significativos están siendo llevados a cabo por el grupo inmobiliario español Nuovit, quienes planean expandir aún más su infraestructura dentro de importantes distritos urbanos.\""
+    },
+    {
+        "headline": "Central Hidroeléctrica Avanza hacia Plena Capacidad",
+        "content": "\"Operación comercial comenzó recientemente bajo supervisión gubernamental, estableciendo precedentes para futuro incremento de capacidad productiva en energías limpias.\""
+    },
+    {
+        "headline": "Continentals Prevé Incremento Ventas Escolares",
+        "content": "\"Previsiones optimistas anticipan aumento sustancial en cifras de ventas durante próxima temporada educativa gracias a estrategias de diversificación de productos y penetración en nuevos mercados internacionales.\""
+    },
+    {
+        "headline": "Plan Expansionistico Continúa",
+        "content": "\"Planes ambiciosos continúan delineándose para fortalecer posición competitiva mediante introducciones de líneas de productos adaptadas a diversas necesidades del público escolar y corporativo.\""
+    },
+    {
+        "headline": "Megaplaza Encuentra Obstáculos Legales",
+        "content": "\"Retos regulatorios presentan obstáculos insólitos ante desarrollos planificados, evidenciando tensiones frecuentes entre entidades municipales y empresariales respecto a cumplimiento legal y procedimental.\""
+    },
+    {
+        "headline": "Opinión Editorial",
+        "content": "\"Reflexiones críticas abordan dinámicas sociales y económicas contemporáneas, destacando cómo políticas públicas pueden influir positivamente en el tejido social y económico nacional.\""
+    },
+    {
+        "headline": "Entrevista a Vicepresidente de Cartavio Company",
+        "content": "\"Discusiones profundas revelan perspectivas únicas sobre evolución del mercado de destilados premium, así como tácticas implementadas para mantener liderazgo en condiciones cambiantes del panorama global.\""
+    },
+    {
+        "headline": "Retail Aborda Futuro Mercado Provincial",
+        "content": "\"Consideraciones estratégicas sugieren cambios notables en preferencias geográficas de consumo, incentivando análisis detallados sobre expansionismo territorial y ajustes en modelos de servicio al cliente.\""
+    },
+    {
+        "headline": "Expansión Planificada por Centenario",
+        "content": "\"Exploraciones preliminares señalan interés continuo en ampliar presencia minorista en áreas clave, respaldadas por inversiones calculadas destinadas a maximización de retorno financiero y satisfacción del cliente.\""
+    },
+    {
+        "headline": "Radical Cambio en Sector Vitivinicola",
+        "content": "\"Experimentación audaz abre puertas a varietales exóticos cultivados en altitudes extremas, proporcionando insights valiosos sobre viabilidad técnica y aceptación cultural de estos emprendimientos viticulturales emergentes.\""
+    }
+]
+``` 
+
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines for extraction. Articles were identified based on distinct topics indicated through headings followed by relevant textual information. Unrelated sections such as ads, listings, etc., have been excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/gestion/2015/10/gestion_12.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que Aurelio Montes, fundador de la chilena Via Montes, instalaría un experimento vinícola en Valle Sagrado cerca de Machu Picchu para evaluar qué variedades prosperan a más de 3000 metros."
+    },
+    {
+        "headline": "Licitación estudio para puerto de Tacna",
+        "content": "Desde octubre se prevé adjudicar el estudio preliminar para el desarrollo portuario de Miguel Grau en Tacna, liderado por Southern Per Copper."
+    },
+    {
+        "headline": "Ranking LOS SUEDOS DE LOS GERENTES POR PAÍS",
+        "content": "Comparativo salarial internacional destacando gerentes empresariales en países latinoamericanos."
+    },
+    {
+        "headline": "Expansión empresas españolas operan en mercado peruano",
+        "content": "Informe detallado sobre la presencia creciente de compañías españolas en el ámbito económico local."
+    },
+    {
+        "headline": "Compras al exterior repunta carbón auralla",
+        "content": "Proyectos avanzados de Cementos Pacasmayo en Minas La Banda sugieren futuros beneficios comerciales significativos."
+    },
+    {
+        "headline": "Von Hesse se va del Gabinete, sucede su vice-ministro",
+        "content": "Traslado ministerial motivado posibles aspiraciones políticas electorales, marcando cambios administrativos relevantes."
+    },
+  

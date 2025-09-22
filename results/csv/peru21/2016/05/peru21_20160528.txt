@@ -1,0 +1,93 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/05/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Magaly Medina Le Responde a Gisela Valcárcel",
+        "content": "\"La ex batallana jura\nque no es cucufata\"\nA través del Twitter, Magaly \nMedina le contestó a \nGisela Valcárcel, quien la crít\nció por \"meterse en la vida\nprivada de los de\".\n\"La ex bailarina \njura ue no es \ncuculata. Ja!\nSe persigna\ny reza para mostrar\npura cochinada en su\nreality...\nDesesperada\npor meter la Sr.a,\ncristiana crea puro cuento entre\nsus invitados y jura que\neso es TV blanca\", escribió Medina.\nAsí mismo, la popular 'Urraca'\nmarcó distancia de su ex\n\"comadre'. »Me da risa. Ella hace cosass peores, la diferencia\nes que yo no razóno voy a misa antes\ndel programa. Yo\nasumo quién soy», sentenció."
+    },
+    {
+        "headline": "Mark Salling. Trabajo en la Serie ‘Glee’",
+        "content": "Actor es acusado de\npornoagrafa infantil\nEl actor Mark Salling, que \npaticipó en la serie Glee, fue \nacuzado por un jurado federal por\ncargos de pornoagrafa infantil,\nSalling fue detenido en \ndiciembre del año pasado, luego\nde que el Depatamiento de\nCrimes Cyberneticos contra\nMenores de la Policía de Los Angeles\nallanará su residencia\nen Sunland, California.\nAl actor de 33 años se le adjudicaron dos cargos por poseer, recibir y processar \nnografia infantil en su computadora, así como un dispositivo para almacenarla, Ahora podrá ir 20 años preso."
+    },
+    {
+        "headline": "Anuncián a Iggy Pop en el Perú",
+        "content": "Una de las leyendas del rock.\nNuevamente una estrella del\nrock nos visitará este año para ofrecer, por primera vez, un grande concierto, Esto trata de Iggy Pop, según anunció la página web Conciertos Per.\nEl conocido cantante vendrá para presentar su nuevo disco Post Pop Depression, que grabó con Josh Homme, Dean Fertitta de Queens of the Stone Age y Matt Helders de Arctic Monkeys.\nAún no se ha dado a conocer la fecha ni la ubicación del concierto, sabemos que Iggy Pop llegará a dar presentaciones en Sur América en Octubre y para participar en el Festival BUE, de Argentina."
+    },
+    {
+        "headline": "Clásico, varias secuelas",
+        "content": "Habrá hasta Power Rangers 7\nLa compañía de cine Lionsgate, que tiene los derechos de la franquicia Power Rangers, planea hacer hasta siete películas de los populares héoes de la década de los 90.\nPero para esto tienen que esperar a ver cómo les va en la taquilla y la recepción del público con la primera película titulada Saban’s Power Rangers, que será estrenada el 13 de enero de 2017.\nEsta historia presenta a la nueva generación de Power Rangers quienes intentaran salvar al mundo."
+    },
+    {
+        "headline": "Real Madrid y Atlético se vuelven a encontrar",
+        "content": "El crack portugués le han notado al Atlético 22 goles en 23 partidos.\nel apoyo de sus socios de gol suma similitud en el terreno.\ngoals hizo en esta edición.\non complicado pero nosotros también sabemos sufrir y eso es lo que nos va a ayudar en el partido.\nPartidos favorecedores Partidos empatados\nEl Merengue busca su undécima Orejona, mientras los pupilos del 'Cholo' Simeone van por la primera.\nDicen que el Real Madrid hará con el uniforme que lleva el logo de la BBC, comentan que el Atlético de Madrid usará un overol que destaque el esfuerzo.\ne el único lugar donde el mundo observa. Dicen que el Real Madrid lo har con el uniforme que lleva el logo de la BBC, comentan que el Atlético de Madrid usará un overol que resalte el esfuerzo.\nen ese momento, los merengues quieren la undécima; los colchoneros sueñan con revancha después de la final perdida en 2014.\nEl Madrid contará con Cristiano Ronaldo y Karim Benzema. A ellos se les unirá un Gareth Bale vital en semifinales contra el City. La BBC está en buena medida gracias a los 27 goles a esta Champions League.\nEl estilo Simeone también está de moda. Un esquema defensivo bien estructurado y el arquero Oblak, una muralla, en la mitad de campo, el control de Koke y la creatividad de Saúl forman el puente hacia el máximo goleador Griezmann y el Niño Torres."
+    },
+    {
+        "headline": "Manchester United Presenta a Mou como Su Nuevo Director Técnico",
+        "content": "'Mou' puso la firma certificado MU\nMourinho ya se metió al bolsillo a los aficionados del Manchester United.\nEl técnico portugués asegura que bajo su liderazgo, los Devils Red volverán a competir por trofeos importantes.\n'MOU': Olviden los últimos tres años. Siguiendo su característico tono directo, José Mourinho tomó oficialmente las riendas del Manchester United, comprometiéndose durante las próximas tres temporadas en sustitución del holandés Louis van Gaal.\nRefiriéndose al período sin éxito en la Premier League desde que Ferguson abandonó el cargo, Mourinho declaró: Prefiero centrarme en el magnífico club que tengo actualmente y pienso que lo que realmente importa es nuestra ambición compartida de obtener éxitos.'"
+    },
+    {
+        "headline": "Claudio Bravo sobre Diego Simeone",
+        "content": '"Hay aspectos de Diego Simeone que personalmente encuentro difíciles," dijo Ronaldinho respecto al director técnico del Atlético de Madrid.'
+    }
+]
+```
+This extraction captures several distinct articles based on their headlines and contents while adhering strictly to the provided guidelines for processing and structuring data extracted from the given input. Articles were identified through recognizable patterns such as bold headings followed by relevant textual information. Non-article sections like sports schedules have been excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/peru21/2016/05/peru21_28.txt ---
+
+```json
+[
+    {
+        "headline": "Tecnocrático y desconectado",
+        "content": "Hoy en día, uno pensaría que... Tampoco aprovecho las oportunidades (el rechazo a la compración)... Para otros, frente a un fujimorismo arrasador... PPK es un tecnócrata que quiere ser presidente pero no quiere ejercer como político."
+    },
+    {
+        "headline": "\"Los argumentos de Hernando de Soto son cantinflescos e irresponsables\"",
+        "content": "José de Echave en alusión a dichos respecto a ‘Sendero Verde’ Ex vicecanciller de Gestión Ambiental Economista afirma que candidato \"tiene que demostrar que no volverá a salir\"... Admitió que entreg un USB... Patricia Quispé V. tras varios días de silencio digital, el economista Hernando de Soto declar ayer que el candidato presidencial de Peruanos por el Cambio (PPK), Pedro Pablo Kuczynski, “se excedió”… "
+    },
+    {
+        "headline": "Martín Vizcarra Denuncia \"Alianza Política\"",
+        "content": "El candidato a la primera vicepresidencia de Peruanos por el Cambio, Martín Vizcarra, denunció una “alianza política del gobernador regional de Moquegua, Jaime Rodríguez, con la señora Keiko Fujimori” orientada a desacreditar su postulación.... Respondiendo a las declaraciones de su contendora de Fuerza Popular, José Chlimper, quien lo acusó de tener 34 denuncias ante la Fiscalía Anticorrupción de Moquegua,..."
+    },
+    {
+        "headline": "Bruce y Salgado Tienden Posiciones Diferentes",
+        "content": "Ante el margen de casi seis puntos de ventaja de Keiko Jimézi sobre Pedro Pablo Kuczynski en la última encuesta Pulse Perú de Datum, el legislador Carlos Bruce afirmó que esos resultados eran sólo datos estadísticos... Por su parte, la congresista fujimorista Luz Salgado notificó que las cifras de las encuestas muestran que el trabajo de la candidata de Fuerza Popular va por buen camino."
+    },
+    {
+        "headline": "Evita Opinar Sobre Resultados Adversos de Sondeos",
+        "content": "PPK: “La gran encuesta será la del 5 de junio.” ... Desde Cusco, el líder de PPK denunció amenazas a su jefe de campaña en esa región para tratar de impedir que realice una actividad proselitista.”
+    },
+    {
+        "headline": "‘Nadie Sabe Para Quién Trabajan'",
+        "content": "Cuando alguien trabaja buscando cierto objetivo termina, sin querer ni pensar mucho, favoreciendo a sus contrarios... Cuando Nadine no se cansa de tuitear atacando a Keiko, ¿qué pasa?"
+    },
+    {
+        "headline": "Retiros de Ahorros Prevencionales Ya Disponible",
+        "content": "Desde el pasado lunes 16 de mayo, los afiliados al Sistema Privado de Pensiones han comenzado los trámites correspondientes por ley para acceder al retiro de hasta el 95.5% de sus fondos... Ayer se inici oficialmente la entrega de los fondos a quienes realizan el trámite y manifiestan voluntad de disponer de sus ahorros."
+    },
+    {
+        "headline": "Eventos Importantes Durante Semana Actual",
+        "content": "Este jueves y viernes se lleva a cabo, en Lima, la Reunión Ministerial de Turismo del Foro de Cooperación Económica Asia Pacífico – APEC... También se estudia desarrollo para más aeropuertos amigables dentro de la APEC."
+    },
+    {
+        "headline": "Escasez Superando el 80%",
+        "content": "Según la encuestadora Dataanalisis, la escasez de productos básicos en Venezuela supera el 82.6%, estimándose una inflación de 450% este año."
+    },
+    {
+        "headline": "'Protests Won't Stop France's Economy', Says President François Hollande",
+        "content": "President Francois Hollande declared during meetings of the G7 in Japan that it was not time to put French economy problems ahead especially since there has been improvement recently."
+    },
+    {
+        "headline": "Historical Visit by U.S. President to Hiroshima",
+        "content": "Barack Obama paid homage to victims of the first atomic bombing in Hiroshima, marking history as the first sitting American president visiting the city affected by World War II bombings."
+    },
+    {
+        "headline": "Reform Labor Challenges Ahead",
+        "content": "The proposed reforms aim to facilitate dismissals within companies facing economic difficulties but face opposition from unions like the Confédération générale du travail (CGT)."
+    }
+]
+```
+This extraction captures various significant topics covered across different sections such as politics, economics, international events, etc., while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes.

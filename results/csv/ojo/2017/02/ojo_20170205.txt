@@ -1,0 +1,81 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/02/ojo_05.txt ---
+
+```json
+[
+    {
+        "headline": "Amiga íntima de Abencia Meza",
+        "content": "Es una de las personas que frecuentemente la visita en el penal Santa María de Chiclayo.\n\nTrabajo y ella simplemente las vendió."
+    },
+    {
+        "headline": "EL AMOR",
+        "content": "\"Tras haber pasado tan duros momentos estando en prisión, le pregunto ¿Qué queda del amor?\n\n\"Se queda así\", tarda en responder. \"¿Cómo vive el amor actualmente?, pregunta más tarde...\n\n\"El amor no es una prioridad, yo ahora tengo amor para dar a mi familia, mis hijos, a mis nietas. Pero no a una persona, por ahora.\""
+    },
+    {
+        "headline": "Prefiere no hablar de ella...",
+        "content": "\"...Creo que ya no se le escucha en los medios. Sigue cantando? No estoy pensando en lo que dice, no le deseo ni le guarde rencor, Pedro Mamanchura ni siguiéramos a él.\"\n\n\"Me he vuelto a enamorar, eso vendrá con el tiempo,\" reflexiona después."
+    },
+    {
+        "headline": "Polémica visita a Abencia Meza en prisión",
+        "content": "\"Visité a Abencia Meza en prisión, del amor y cómo la cárcel le enseñó mucho. He aprendido muchas cosas en los talleres que se imparten aquí. También práctico deporte y visito a la psicóloga, según ella me ayudará a sobrellevar el tiempo que estaré encerrada.\""
+    },
+    {
+        "headline": "Apodo de ‘’La Pistolita’'",
+        "content": "\"Protagonizó en 2009 un grave accidente durante su espectáculo en Huari (Ancash): disparó un balazo que herido a alguien. Desde allí fue llamada ‘La pistolita’.\"\n\n\"Durante el juicio junto a Mamanchura, fue sentenciada por ser ‘autoría intelectual’ del crimen de la cantante Alicia Delgado.\""
+    },
+    {
+        "headline": "‘La Reina de las parranditas’ no piensa en liberación",
+        "content": "\"Ha estado haciendo actividades diversas en prisión, incluido coser artículos diversos. Prefiere centrarse en mejorar su situación legal y mantener relaciones positivas con compañeros de celda.\""
+    },
+    {
+        "headline": "Infidelidad y agresiones nunciadas por violencia",
+        "content": "\"Antes de ser asesinada por Pedro Mamanchura en noviembre de 2009, Alicia Delgado había acusado públicamente infidelidades mutuas y maltrato físico hacia sí misma y hacia Abencia Meza.\""
+    },
+    {
+        "headline": "CRÍTICA A EXPRESIDENTE TOLEDO",
+        "content": "\"Ketty Cabrera critica duramente al expresidente Alan García Pérez, negándole cualquier mérito político significativo. Ella afirma tener evidencias suficientes para contradecir afirmaciones previas de García respecto a investigaciones legales.\""
+    },
+    {
+        "headline": "Solaris Festival promete diversidad musical",
+        "content": "\"Anuncio de la edición número dos del festival que congregará géneros musicales variados tales como cumbia, ska, reggae, rock alternativo, folk-indie, etc. Destacan artistas como Dengue Dengue, Lagunas Pai, Tus Mirlos, Barrio Calavera, entre otros.\""
+    },
+    {
+        "headline": "Actrices aclaran relación con reality shows",
+        "content": "\"Las actrices Edith Tapia, Kukuli Morante, Junior Silva y Ángel López niegan tener conflictos con figuras de reality show, destacando que cualquier parecido con realidades externas es coincidente y forma parte exclusivamente del libre desarrollo creativo de la obra.”"
+    },
+    {
+        "headline": "Marisol Mayta destaca valentía de Valeria Piazza",
+        "content": "\"Valeria Piazza mostró fortaleza emocional en el certamen internacional, siendo aplaudida por su rendimiento. Su paso deja expectativa sobre quién podría ocupar su lugar en próximas convocatorias.”
+    },
+    {
+        "headline": "Rodrigo Cuba ansioso por debutar con Municipal",
+        "content": "\"Explica que aunque acabaron eliminados de la Copa Libertadores, están enfocados completamente en el Torneo de Verano, esperando ofrecer un excelente inicio de temporada.""
+    },
+    {
+        "headline": "Wilmer Aguirre respeta a Cantolao",
+        "content": "\"Destaca la importancia de respetar todos los equipos rivales, independientemente de resultados anteriores, especialmente en contextos competitivos como el campeonato local."""
+    },
+    {
+        "headline": "'Tío terrible' Bengoechea prepara once titular",
+        "content": "\"Ya está decidido el once inicial para enfrentar a Universidad Católica, con cambios tácticos destinados a maximizar el rendimiento del equipo en el próximo compromiso crucial."""    
+    },
+    {
+        "headline": "Defensor Cazulo admite deudas con hincha",
+        "content": "\"Confiesa que existe una obligación pendiente con la afición debido a fallos en temporadas anteriores, pero recalcan su determinación para revertir esa imagen en la próxima campaña.""  
+    },
+    {
+        "headline": "Torres lidera remontada del Atlético de Madrid",
+        "content": "\"Un doblete de Fernando Torres permite al Atlético de Madrid obtener una vital victoria sobre Leganés, consolidando aún más su posición líder en la tabla de la Primera División Española."""
+    },
+    {
+        "headline": "Messi marca diferencia en Barcelona",
+        "content": "\"Leo Messi contribuye decisivamente al triunfo del FC Barcelona sobre Athletic Club de Bilbao, demostrando habilidades excepcionales y solidificando su rol clave en el éxito continuo del equipo."""
+    },
+    {
+        "headline": "Paolo Guerrero continúa brillando con Flamengo",
+        "content": "\"Dos tantos adicionales elevan el total de goles de Guerrero en el Campeonato Carioquinho, aumentando la anticipación entorno a su impacto futuro en el conjunto brasileño."""
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure and guidelines for extraction. Articles were identified based on distinct topics within the text block, ensuring each entry contains both a `headline` and its associated `content`. Any missing data was filled using `"NA"` where applicable, though most entries had sufficient information available directly from the input.

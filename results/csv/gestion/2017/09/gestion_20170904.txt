@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/09/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "Propuesta Ser Presentada A Fin De Ano En El Congreso",
+        "content": "GOBERNACIÓN\nnueva ley para\npetróquímica a\ningresarán impulso\nal gasoducto Sur.\nDIANECHÁVEZ\nSe revisa la legislación vigente."
+    },
+    {
+        "headline": "Macropolíts Centenario Entrega Desde Diciembre 2017",
+        "content": "Con financiamiento directo,\nlotes disponibles desde 1,000m².\nVarios inversionistas mostraron interés en desarrollar la \npetróquímica según la Ministra de Energía y Minas, Cayetana Álvarez. Destacó que la licitación del \ngasoducto será independiente del desarrollo de la petroquímica."
+    },
+    {
+        "headline": "Acciónistas Exigen Rentabilidad Anual Del 12%\xA0%A Empresas",
+        "content": "Los métodos financieros más usados están centrados en el flujo de caja, siendo ésta la opción favorita para evaluar el retorno mínimo requerido por los accionistas. Un análisis realizado muestra variaciones mínimas respecto a años anteriores."
+    },
+    {
+        "headline": "Primer Solar Proyecto Operará Comercialmente Próxima Fechas",
+        "content": "La planta de Intipampa en Moquegua significará una inversión de USD 55 millones hacia finales de año. Esta nueva iniciativa permitirá satisfacer la demanda eléctrica emergente en regiones clave."
+    },
+    {
+        "headline": ":Postpago Claro MX Con Estos Smartphones Disfruta Más Coche Log:",
+        "content": "Plan postpagado ofrecido por ClaroMX presenta opciones económicas para modelos Huawei P10 y P10 Plus, destacándose por llamadas limitadas a otros operadores dentro de la red LTE mejorada."
+    },
+    {
+        "headline": "Precisión Negocios Gastronomía",
+        "content": "Ocho restaurantes peruanos expandirán presencia en Chile durante el próximo semestre. Entre ellos figuran reconocidas cadenas lideradas por Gastón Acurio y chefs renombrados como Mitsuharu ‘Mich’ Tsumura."
+    },
+    {
+        "headline": "Restauración Arte Expresa Tiene Dos Urban Hall Mas En Centro Historico",
+        "content": "Artículo expresó recientemente haber cerrado importantes adquisiciones de bienes históricos en el área metropolitana de Lima, marcando así un nuevo capítulo en su expansión urbana."
+    },
+    {
+        "headline": "Ampliará Arn Ampliara Planta Para Elevar Producción De Joyas",
+        "content": "Fabricante y exportadora de joyas ARÍN está evaluando expansiones planteadas para mejorar producción ante niveles máximos alcanzados en varias líneas productivas."
+    },
+    {
+        "headline": "Entrevista Sebastian Landi, Gerente General En Peru De The Clorox Company",
+        "content": "\"Evalúan entrada a nuevas categorías\" señala el entrevistado mientras destaca el potencial de crecimiento en el país dado el consumo per cápita relativamente bajo comparado con la región."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were selected where there was substantial journalistic value evident within each segment. Other sections like ads, subscriptions, etc., have been excluded according to specified criteria.

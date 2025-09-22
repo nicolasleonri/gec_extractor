@@ -1,0 +1,17 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/02/publimetro_23.txt ---
+
+```json
+[
+    {
+        "headline": "Se hace inviable un acuerdo entre el Fujimorismo y el Gobierno?",
+        "content": "En el Per, siempre es posible que se den alianzas políticas, pero parece muy difícil que se dé a estas alturas por el tipo de trato que le ha dado antonio el fujimorismo al gobierno. Además, creo que no resulta deseable para ambos, en la medida en que representan refren distintos conocidos a sectores diferentes de la población.\nCon el Ministerio Público\nfortalecido,\nciaustamente no resulta fácil para Fuerza Popular sea estableble para ambas partes, en la medida en que presentan enfrentamientos en cuanto a investigaciones sobre casos como el de Los Cuellos Blancos del Puerto contra los Fujimori son una pieza clave de la población".\nManipulación del gobierno.\nLo que les queda tanto al gobierno como al fujimorismo es responder a las acusaciones cruzadas de la manera más transparente posible, pues el nivel de confianza público hacia ellos es bastante críticos en la población. No parece funcionar ya el argumento de la \"cortina de humo\", la gente no se lo cree."
+    },
+    {
+        "headline": "¿Por qué no protestará Keiko si está involucrado?\nAntonio Gutierrez",
+        "content": "\"No, porque Keiko es una líder política que va a preferir gobernar, en lo posible, a través de su mayoría en el Congreso.\" \n\"Techo escriben\"\nParecería que PP K estaría involucrado con Odebrecht.\nMax Salas\n\"Lo más probable es que exista más bien una tregua entre el apra y el bierno para esta tremenda cortina de humo.\""
+    }
+]
+```
+This extraction includes headlines where possible and merges related paragraphs under each heading while excluding non-article elements like unrelated numbers and symbols. Note how some sections were merged based on context continuity despite missing explicit headings for every segment.

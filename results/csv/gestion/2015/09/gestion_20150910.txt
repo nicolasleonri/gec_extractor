@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/09/gestion_10.txt ---
+
+```json
+[
+    {
+        "headline": "Lo difícil hoy es conseguir un trabajo",
+        "content": "Hace 50 años lo dificil era acceder a la educación y muy pocos lograban ser profesionales. Hoy, lo que parecía difícil quedó de lado, pero no al 100%. Ahora lo realmente difícil es conseguir un trabajo."
+    },
+    {
+        "headline": "Competencia laboral más fuerte",
+        "content": "\"Estimados Abel y Javier:\n\nLa competencia en el ámbito laboral está aún más fuerte.\""
+    },
+    {
+        "headline": "¿Phenomeno inflacionario temporal?",
+        "content": "\"La pregunta de hoy:\nPerciben que estamos ante un fenómeno inflacionario temporal?\n\nCreo que una de las razones del incremento de la inflación en los últimos dos meses es el alza del dólar, que influye en los precios de algunos productos de la canasta familiar.\n\n-Juan José Guzmán P.-\n\nLa pregunta de mañana:\n¿Debe fijar ITMI la propiedad de la tierra agrícola?"
+    },
+    {
+        "headline": "Subirá tasas de interés de hipotecas en un año",
+        "content": "\"RECIENTEMENTE SUBIRÁN TASAS DE INTÉRSES DE HIPOTECAS\n\n-Recomiéndanse char que hoy costó de hipotecas están en mínimos históricos y que precios de viviendas están establecidos.\n\n-Créditos MiVivienda repuntaron en Agosto.\n\n‘HOY ES UN BUENO MOMENTO PARA ADQUIRIR UNA VIVIENDA’, enfatizó el gerente general del Fondo MiVivienda, Gerardo Freiberg.\n\nSolo las tasas de intereses de los créditos hipotecarios están en niveles mínimos históricos, sino también los precios de los inmuebles se han estabilizado y según prospectivas indican que no hay razones para que aumenten en el mediano plazo, indica.\n\nSin embargo, advierte que esa situación no durará para siempre. Todos los fundamentos económicos locales e internacionales apuntan hacia un aumento del financiamiento hipotecario en un futuro cercano, explica.”
+    },
+    {
+        "headline": "Capitalización habitacional será opción para comprar casas",
+        "content": "\"LA CAPITALIZACIÓN INMOBILIARIA SERÍA OTRA FORMA PARA LO QUE BUSCAN REALIZARSE EL SUENO DE CASA PROPIA.\n\nEl Gobierno publicó ayer el decreto que regulará el régimen de capitalización habitacional. Este esquema permitirá que quienes arriendan una vivienda puedan acumular un fondo de capitalización que sea utilizado para adquirirla en algún período específico.\n\nLos clientes pagarían una cuota mensual que consistiría en el aporte a la capitalización individual para la compra del inmueble, el pago por el arrendamiento de la vivienda, impuestos y una prima de seguro. ‘Ello permite que las familias puedan habitar en el inmueble que deseen adquirir’ dice el ministerio de Vivienda.\n\nBAJO ESTE ESCHEMA LAS FAMILIAS PODRÁN EJERCER LA OPCIÓN DE COMPRA EN CUALQUIERA MOMENTO. SI NO ACUMULAREN EL MONTO NECESARIO PUEDEN RECUPERAR TODO EL FUNDO DE CAPITALEZA INMOBILIARIA Y DESTINA A OTROS PROPÓSITOS\""
+    },
+    {
+        "headline": "Incrementan préstamos hipotecarios con retrasos",
+        "content": "\"PRÉSTAMOS HIPOTECARIOS CON ATASCOS SE INCREMENTAN EN 43%\n\n-Hombres entre 35 y 45 años son aquellos que llevan mayor riesgo de impago.\n\nExisten 12,467 deudores de hipotecas que tienen atasco mayores a treinta días en algunas deudas externas al sector financiero regulado. Los datos muestran que el 39.9% pertenecen a hombres entre 35 y 45 años, señalan registros de la central de riesgo Sentinal. Esto sugiere que ellos tendrían mayores probabilidades de incumplir sus compromisos futuros.\""
+    },
+    {
+        "headline": "Beneficiarán dinero móvil a todos",
+        "content": "\"MASIFICACIÓN. EL DINERO ELECTRONICO BENEFICIARA TODOS DESDE CLASE MEDIA BAJA...\n\nAnunciaremos billetera electrónica durante la próxima semana, afirma la SBS. Actualmente podemos evaluar el riesgo crediticio basándonos en redes sociales como Facebook, destaca Schydlowski, supervisor de banca, seguros y AFP.\""
+    },
+    {
+        "headline": "Fundos de AFP se recuperarán el próximo mes",
+        "content": "\"LOS FONDOS DE AFP SE RECOVERARÁN PRONTO\n\n-Si bien los fondos de pensiones sufrieron pérdidas significativas debido a la volatilidad global, la SBS espera una rápida recuperación próximamente. Además, reducción notable en gastos administrativos post-reforma del Sistema Privado de Pensiones.\""
+    },
+    {
+        "headline": "Casos políticos provocan disputas parlamentarias",
+        "content": "\"DISPUTA ENTRE PARTIDO OFICIALISTA Y OPPOSICIÓN\n\nDurante el debate en el Pleno del Congreso, hubo tensiones notorias relacionadas con el Caso Lava Jato y las supuestas agendas de Nadine Heredia. Oficialistas argumentan falta de voluntad política para abordar adecuadamente el tema mientras que representantes de partidos minoritarios critican decisiones procedimentales tomadas por el liderazgo legislativo.\""
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined scope and rules outlined in the task description. Articles were identified through their distinct headings followed by relevant textual bodies, ensuring clarity between different topics covered within the document.

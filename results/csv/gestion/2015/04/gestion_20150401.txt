@@ -1,0 +1,42 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/04/gestion_01.txt ---
+
+```json
+[
+    {
+        "headline": "Preocupación empresarial de que ru’…’7C político CLl-:: u/IS A INVERSIONES",
+        "content": "Ep pide\nun premier\nde consenso.\nCon\nHumala califica de\nirresponsable al\nCongreso y cree que\ncon nuevo premio se\nvolverá a la normalidad."
+    },
+    {
+        "headline": "RUPTURA ENTRE FUJIMORISTAS, APRA Y PP.C DISPUESTOS A OTRA CESIÓN Y DISolución'",
+        "(")("ngrés-o.",
+        "content": ""
+    },
+    {
+        "headline": "CONFIRMAN INTERVENCIÓN BCRI PARA EVITAR SUBIDA DEL TIPO CAMBIARIO",
+        "content": "Si bien al inicio de \nlajornada de ayerel tipo de cambiosuperaba los S/. 3.10, el BCR intervinoyrevirtió elalza. Es más, la bolsa tuvo un ligero incremento."
+    },
+    {
+        "headline": "LA CELEBRACIÓN POR EL FIN DE CUARENTENA NO DETENDRÁ DEMANDA SOBERANA PERUANO",
+        "content": "Pese a toda el ‘‘ruido politico'' crece demanda por bonos peruanos."
+    },
+    {
+        "headline": "EL PRESIDENTE HUMALA LLAMA A CONSENSO ANTE CRISIS POLITICA",
+        "content": "\"Sino se tiene la confianza necesaria, esto puede tener repercusiones que puedan afectar el crecimiento del país.\" Guillermo Ferreyros Presidente de COMEX \"La cesura a la primera ministra debe dar paso a una renovación en el Ministerio de Economía\" Carlos Lozada Vicepresidente de ADEX"
+    },
+    {
+        "headline": "CESE DE PRIMER MINISTRA GENERÓ INCERTIDUMBRE AMONG INVERSOR",
+        "content": "Lo que se necesita ahora mismo son medidas claras y rápidas para recuperar la confianza entre los inversionistas internacionales."
+    },
+    {
+        "headline": "LAS EXPECTATIVAS EMPIRICIAS SON OPTIMISTICAS DESPUÉS DE UN MES DE ESTABLECIDAD",
+        "content": "Algunos analistas del sector creen que la tendencia negativa de la bolsa podría revertirse recién en la segunda mitad del año."
+    },
+    {
+        "headline": "CONSEJO DE NEGOCIACIONES TRIBUTARIAS RECHAZA PROPUESTAS ACTUALES",
+        "content": "Consideran que estas propuestas podrían generar mayores costos fiscales sin garantías suficientes sobre sus beneficios económicos futuros."
+    }
+]
+```
+This extraction captures key headlines along with their respective contents based on significant political events affecting economic conditions described within the provided text snippet. Note any missing data has been filled with `"NA"` where applicable according to guidelines given for handling incomplete information.

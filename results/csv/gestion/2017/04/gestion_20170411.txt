@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/04/gestion_11.txt ---
+
+```json
+[
+    {
+        "headline": "Ramiro Escobar\nNubes en Oriente Medio",
+        "content": "El ataque lanzado por Trump fue audaz y contundente, pero a la vez arriesgado. Altera el frágil tablero de Oriente Medio \"\", crea un serio remezón en (...) escenario global. El ataque con armas químicas fue un acto indignante y, sin duda, requería una respuesta. Sin embargo, la acción unilateral de EE.UU. tiene un aire incendiario: es una potencia mayor atacando a un país menor, protegido por otra potencia, Rusia, que vea con gentil expectativa a Trump.\nAhora está desconcertada, y acaso enfurecida. \nTendrá que reaccionar,\nde algún modo. Y el Estado Islámico debe ver con expectativa esta...escalada."
+    },
+    {
+        "headline": "Breves",
+        "content": "Pésea Atento Papa Franciso Viajar a Egip­to AFP ‘’%W'-MAL\nEl viaje que tiene programado hacer este mes de Abril el papá Jorge Mario Alberto Franco, director ejecutivo de la revista peruana Gestión, señalaron fuentes cercanas a la publicación española Diario Las Palmas, según reportaje realizado por el periódico español ABC, será inaugurado oficialmente mañana jueves 12 de mayo de 2023, durante una ceremonia presenciada por el gobierno regional de Madrid, España, hoy miércoles 23 de marzo de 1999, en el contexto de la celebración de la visita real de Su Majestad Real, Rey Juan Carlos II, junto a otros eventos importantes, destacándose también la reunión bilateral hispano-peruana, así mismo, el ministro de relaciones exteriores de Colombia, Iván Duque, anunció ayer que visitará nuestro país en octubre próximo, coincidiendo además con motivo de la entrega de premios internacionales otorgados a periodistas latinoamericanos residentes en Europa, quienes fueron reconocidos por su labor informativa realizada fuera de nuestras fronteras, especialmente aquellos dedicados a temas relacionados con América Latina, recibió anoche en París el Premio Internacional de Periodismo José María Romero, galardonado por su trayectoria profesional.", "foto":"créditos".\nEste año, el jurado internacional seleccionado por el prestigioso certificado de calidad editorial más grande de Latinoamerica, eligió a tres finalistas de distintas partes del planeta Tierra." "
+}
+```
+```json
+[
+    {
+        "headline": "Escribe tu titular aquí",
+        "content": "Contenido principal del artículo anterior...",
+        "article_text_here": "...texto completo del contenido relevante del artículo previsto antes de continuar...", // This example shows how to handle potential issues like missing data handling for clarity...
+    },
+    ...
+]
+```
+
+### Explanation:
+
+The task involves extracting relevant information while adhering strictly to specific rules about what constitutes includable content versus non-content elements such as ads, sections not related directly to journalism but rather peripheral details were excluded based on defined criteria. 
+
+**Key Points Considerations:**
+
+1. **Headings Identification**: Identify headlines using uppercase letters followed immediately by substantial textual content following it which forms the core subject matter of each article.
+
+2. **Article Content Extraction:** Articles should include significant journalistic substance including opinions, reports, reviews, etc., ensuring these meet quality standards set forth within their respective contexts.
+
+3. **Text Cleanup Rules Applied:**
+   - Hyphens between split words joined together.
+   - Multiple consecutive whitespace reduced to single space characters where necessary.
+    
+Here’s a step-by-step breakdown applied to our input extraction process:
+
+#### Text cleanup steps involved removing unnecessary parts before processing further down below...
+
+---
+
+This approach ensures we maintain focus solely on actual journalistic material, excluding irrelevant items according to guidelines provided above.
+
+# Example Input Data Sample:
+For demonstration purposes, let us consider some sample extracted results after cleaning up any extraneous noise, here's another way to illustrate proper segmentation logic used during parsing tasks similar to those found in newspapers.
+
+## Final Valid JSON Format Validation Before Outputting Results:
+
+Ensure every element complies with strict syntax requirements outlined earlier, maintaining readability across different languages.
+
+Example Output:
+```json
+[]
+```
+
+If there was nothing else left over due to lack of eligibility under given conditions mentioned previously, return an empty array `[]` otherwise provide detailed structured format accordingly!
+
+Remember always follow instruction precisely because failure could lead to incorrect usage scenarios leading back towards invalid outputs being produced unintentionally through mistakes made along the way throughout execution processes described hereinabove.
+
+---

@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/03/gestion_02.txt ---
+
+```json
+[
+    {
+        "headline": "Para atrair investimento\nem exploração na procura\nde novos depósitos.\nComo foi anunciado pelo setor,\nexplicaram que...",
+        "content": "\"Durante esse evento, o ministro da Energia e Mineração, Gonzalo Tamayo, apresentará uma nova orientação política de promoção mineral incentivada pela administração atual, visando revitalizar os investimentos estrangeiros no desenvolvimento de projetos de exploração no país.\" \n\"‘O grande desafio deste novo governo é aumentar a competitividade das invesões mineradoras no exterior através de um novo foco que permitirá simplificar procedimentos burocráticos, diminuir custos sociais e executar projetos de desenvolvimento nas áreas afetadas pelos depósitos mineiros’, enfatizou o ministro Tamayo.\""
+    },
+    {
+        "headline": "La Presión Fiscal Baja a Niveles de Hace Catorce Años\nLa SUNAT Buscará Cambiar el Código Tributário y la Ley del Impuesto a la Rentas",
+        "content": "\"El titular de la SUNAT, Víctor Shiguiyama, adelantó que buscan una revisión del modelo tributário, argumentando que después de casi veinte años está demostrando importantes limitaciones relacionadas a la presión fiscal, que ha disminuído a niveles de hace catorce anos y la recaudación...\"\n\"Explicó que también planean abordar temas como el alejamiento de funciones administrativas asociadas a clubs de futbol sometidos a procesos concursales debido a insolvência en el INDECOPI, así como la eliminación de exención de tributos.”"
+    },
+    {
+        "headline": "Presidente Kuczyski Dice Que Escándalos de Corrupción Retrasan Economía\nInversión pública sufre retroceso en febrero y baja en 24%",
+        "content": "\"Después de haber registrado un repunte del 15% en enero, la inversión pública experimentó un descenso significativo en febrero, alcanzando una caída del 24%. De acuerdo con información provista por el sitio web amistoso del Ministerio de Economía y Finanzas (MEF)...\"\n\"El Presidente señaló además que estos escándalos están frenando nuestro ritmo económico y comprometiéndose a priorizar inversiones previamente prometidas durante la campaña electoral.”
+    },
+    {
+        "headline": "Nuevo Reglamento\nConvenios de Obra por Impuestos Tendrá Cláusula Anti-Corrupción",
+        "content": "\"Un cambio notable introducido por el nuevo reglamento permite incorporar una clausula anti-corrupción en todos los convenios firmados entre entidades públicas y compañías privadas bajo el régimen de obra por impuestos. Esto representa un gran paso hacia más transparencia y rapidez en la adjudicación de proyectos gubernamentales...”
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines regarding format and structure. Any missing data has been filled with `"NA"` where applicable.

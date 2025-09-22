@@ -1,0 +1,80 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/01/gestion_08.txt ---
+
+```json
+[
+    {
+        "headline": "Espectáculos",
+        "content": "El 2014 no ha sido un buen año para Hollywood. Y no se trata de una percepción, sino que los números han hablado fuertemente claro: el año pasado registró la peor caída en taquilla en los últimos nueve años v según un informe de Hollywood Reporter, eso significa que en el 2014 se recaudó 5% menos que en el 2013.\n\nYeso parece aún más evidente cuando se vea la fotografía completa, ya que en los peores meses –en el verano estadounidense de junio a septiembre– la caída respecto al año previo llegó hasta el 15%. \n\nSegún la publicación, el bajón también es doméstico, puesto que las cifras más bajas vienen desde dentro de casa: la taquilla en cines de EE.UU está muy afectada. De hecho, según la publicación, el impacto dolió menos debido a países como China, donde películas que incluso no pudieron siquiera cubrir su presupuesto, lograron sobrepasar las expectativas."
+    },
+    {
+        "headline": "Noticia. Son los...",
+        "content": "NA"
+    },
+    {
+        "headline": NA,
+        "content": "LA CAÍDA DE LA TAQUILLA \"GRINGA\" ES LA MAYOR EN NUEVE AÑOS\n\nEn el 2014 la recaudación en EE.UU disminuyó $1000 respecto del año anterior. La razón: presupuestos exorbitantes, hackeos a Sony y actores fallidos.\n\n\"Suicide Squad.\" Legends of Oz: Dorothy’s Return\" ha sido la película con mayor pérdida en el año ($85 millones); sólo recaudó $18 millones en EE.UU.\n\nAdemás, adaptaciones tampoco tuvieron éxito este año. Películas como Exodus’ hasta ‘Noé’, el género no ha remontado en taquillas. El film Legend of Hercules figura entre los diez mayores fracasos del 2014 del portal Business Insider.\n\nLa apuesta para estas últimas semanas fueron Quiero Matar a mi Jefe 2″ y Los Pingüinos de Madagascar’. Ninguno logró lo esperado en EE.UU.; aunque nuevamente las ganancias vinieron de la taquilla mundial, algo nuevo para una industria que siempre midió su rentabilidad en función de lo que pasaba dentro de sus propias fronteras.\n\nPerder el toque\n\nOtra posible explicación serían algunos de los estrenos y su temática misma, quienes se basaban principalmente en la participación de actores que garantizaban buenas entradas. Johnny Depp es quizás el caso más notorio.\n\nEl actor favorito de grandes éxitos cinematográficos ha perdido ese encanto. Su última producción Transcendance”, costó $135 millones y apenas obtuvo $103 millones en EE.UU.\n\nTodo esto sumado al ataque hacker contra Sony Pictures Entertainment, quien filtró varias producciones completas online antes de tiempo, además de guiones de otros títulos de gran perfil, han significado un mal año para estudios de cine.\n\nAhora, la industria confía en nuevos estrenos para poder levantar cabeza después de tantos tropiezos ocurridos el último año."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on headlines and coherent blocks of related information while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Note how some parts were marked `NA` due to lack of clarity regarding their context or completeness.
+
+--- ERROR ENTRY: data/txt/gestion/2015/01/gestion_08.txt ---
+
+```json
+[
+    {
+        "headline": "Juan Inchiustegui apostará por Gastón Au...",
+        "content": "Hoy en día, uno pensaría que...\n\nY aquí viene su apuesta,\nya que Juan Inchustegui \napuesta por un candidato\nga quien no es otro que el chef y empresario Gastón Aur... \"Yo apuesto por él no\nes él se hará una \nprioridad_, porque hay \nocasos_;\neo candidatos del\npartido\", sostiene el \next funcionario.\n\nEntre ellos, aunque no lo quisiese confirmar, suena el nombre de Raúl Diez Cansec...\"Tenemos esas opciones\ny voy a trabajar como lo \nhizo con Valentín Paniguag en su momento', asever.\nPero la política no será\nel eje de su vida y uno de\nlos planes es retomar sus negocios. Uno de ellos está en Arequipa, su tierra nat..., y es el cementerio Ellardi de Arequipa, negocio al que entr no por su gusto sino por «una carambola» de su amigo Felipe ‘Pipo’ Thorne...",  
+    },    
+    {
+        "headline": "Precio del Oro y Precios del Cobre...",
+        "content": "\"El precio de los metales ha mostrado una tendencia descendente en los primeros días del 2015, e incluso, el cobre ha tocado su menor nivel en los últimos cuatro años y todo indica que las presiones hacia la baja se mantendrán en el mediano plazo, golpeando a la economía peruana.\" ... Pero a opinión del jefe de análisis de Inteligo SAB, Luis Ordóñez, el precio del oro seguiría cayendo en el transcurso de 202015 hasta ubicarse alrededor de los USD $1,100 la onza, ante un mayor fortalecimiento del dólar, por un esperado aumento de las tasas de interés en Estados Unidos."
+    },
+    {
+        "headline": "Gobierno culminará este año la concesión de todos los tramos de la Panamericana...",
+        "content": "... Los dos tramos que restaban para terminar de conectar toda la Carretera Panamericana serán adjudicados este año mediante concursos públicos, anunció ayer el ministro de Transportes y Comunicaciones (MTC), José Gallardo. ..."
+    },
+    {
+        "headline": "Proyección: producción de petróleo subió 10%",
+        "content": "«Al cierre del 2014, la producción de hidrocarburos líquidos en el país alcanzó los 172,700 barriles por día (bpd)... Sin embargo, un pronóstico de esa misma agencia calcula que la producción de crudo en el presente año sería de sólo 51,600 bpd. Esto significa que tendría una retracción de 25.54% en comparación con lo alcanzado en el 2014."   
+    },
+    {
+        "headline": "Tarifas eléctricas se elevan en 3.7% para industria y comercio...",
+        "content": "Si bien, por un lado, los consumidores se vieron beneficiados con las reducciones en los precios de los combustibles, por el otro, a partir de este mes, los usuarios del servicio eléctrico en el Sistema Interconectado Nacional (SEIN) deberán pagar una mayor tarifa..."      
+    },
+    {
+        "headline": "‘Captaremos S/. 500 millones con APP para Institutos Tecnológicos’, afirma Viceministro de Gestión Institucional del MINEDU...",
+        "content": "«Este esfuerzo que estamos realizando por construir una política de estado en el sector educación no pasa nicamente por fortalecer la obra pública; también estamos avanzando de forma muy agresiva en incorporar la participación privada», señaló Juan Silva, viceministro de Gestión Institucional del Minedu."
+    }     
+]
+```
+
+--- ERROR ENTRY: data/txt/gestion/2015/01/gestion_08.txt ---
+
+```json
+[
+    {
+        "headline": "Opinión: Dimisión docente",
+        "content": "\"La oposición entiende los\nbeneficios de un régimen más '_\nflexible, pero elige darle la espalda\npor un cálculo político\".\n\nDa la impresión, entonces, de que la opinión \netiende los beneficios que traería tanto para la economía del\npaís como para la gran mayoría de jóvenes –que no están\nen planilla– un régimen más flexible para un \nsérum particularmente rezagado y menos vulnerable,\ny aún así eligen darle la espalda por un cálculo político con miras a\nlas elecciones del 2016.\n\nPor otra parte, el Ejecutivo demostró disposición\npara negociar ciertos términos de la ley e incluir reclamos de los opositores a la medida. Dichas\nmodificaciones se harán visibles en el reglamento de la ley según\nel Ministro ‘Abajo’, Fredy Otrola, está \"casi listo\". Según lo expresado previamente por miembros\ndel Ejecutivo, uno de los cambios será el anticipo del pago de utilidades en la nueva figura.\nEl objetivo es poner más candados legales para proteger a los\njóvenes que ya se encuentren en el régimen mencionado. Ambas medidas tienen el propósito de ser conciliadoras.\n\nPor ello, resultaría disparatar discutir la derogación de la ley o modificarla sin primero observar el nuevo\nplan del Ejecutivo. Ojalá que la crítica se efectúe después de publicar el reglamento y la discusión se base en su contenido;\nnada aspiracional políticamente.\""
+    },
+    {
+        "headline": "El dólar, un tuerto entre ciegos",
+        "content": "\"... EUA ha cargado un déficit público anual promedio de 85%\ned su PIB durante el período 2008-2014. Para financiarlo, su\npresidente ha tomado prestado mucho, por lo cual su deuda pública ahora\nsupera el 110% de su PIB, siendo la mayor entre las 30 principales\neconomías, sólo excedido por Japón (250%) y Italia (136%). Aunque su défit\nse ha ido disminuyendo en los últimos cuatro años, se estima que nuevamente aumentará a partir del\n2016 cuando el gasto público incrementará debido a las medidas aprobadas en seguridad social y salud, además del probable aumento de tasas de interés...\n\nSin estas malas noticias, parece que el FMI les habrían impuesto a Estados Unidos la receta clásica de austeridad y depreciación monetaria,... Pero esa fórmula no es apta para EE.UU., pues posee la única moneda que es aceptada universalmente, permitiéndole financiar su gigantesca deuda sin inconvenientes y a bajo costo, atrayendo a los inversores buscando refugio ante la incertidumbre económica global.\""
+    },
+    {
+        "headline": "Impulsar la ciencia, tecnología e innovación",
+        "content": "\"‘India es demasiado pobre como para poder dedicarse a la ciencia’. Citando a este extraordinario líder, rompemos con el paradigma que sugiere que la investigación científica, el desarrollo tecnológico y la innovación productiva son privilegios exclusivos de países altamente industrializados. Son precisamente estas actividades las únicas herramientas disponibles para naciones como el Perú para ascender a categorías de primera clase internacionalmente.\n\nNuestros recursos naturales son simplemente eso, recursos naturales. Poseerlos no asegura ni siquiera el inicio del desarrollo sustentable. Como ejemplo claro, podemos citar cómo fluctúan los precios mundiales de los minerales impactando directamente nuestra producción económica, nuestras exportaciones, ingresos fiscales y distribución regional de canon minero.\n\nComparándonos con Chile, encontramos evidentes discrepancias en cuanto a inversión en Investigación y Desarrollo (I+D): mientras nosotros asignamos apenas US\$ 241 millones en 2013, ellos invierten significativamente más. Además, carecemos de suficiente personal especializado en relación poblacional respecto a Chile. Todo indica que debemos priorizar urgentemente la formación de un Ministerio específico encargado de coordinar iniciativas de ciencia y tecnología junto con universidades y el sector productivo.”"
+    },
+    {
+        "headline": "Rebaja Tributaria",
+        "content": "\"Resulta indiscutible que la rebaja fiscal dirigida a inversiones en curso o proyectos recién lanzados merecen aplausos. Sin embargo, persisten obstáculos procedimentales, administrativos y ambientales que continúan representando barreras insuperables para estimular una verdadera oleada de inversiones. Solo en minería, tal dinámica podría impulsar al país hasta convertirse en referente mundial.\n\nUna justicia tributaria equitativa siempre será bien vista, nadie renuncia voluntariamente a ventajas financieras. Ahora depende del gobierno legislar normativas clarificadoras que faciliten flujos millonarios necesarios para revitalización económica. ¿Cuánto empleo, qué expansión comercial secundaria podríamos generar mediante reformas judicious?”"
+    },
+    {
+        "headline": "Modernizando la Facturación Electrónica en Perú",
+        "content": "\"Muchas compañías optan por adoptar la factura electrónica no solo por mandato legal, sino también por los notables beneficios derivados de optimizar procesos tradicionales. Antiguamente, imprimir documentación física implicaba múltiples etapas laboriosas y costosas. Con la transición a métodos digitales, se elimina la carga innecesaria de materiales consumibles y tiempos muertos asociados al envío postal manual.\n\nDesde principios de año, varias firmas comenzaron a integrar dichas prácticas conforme a requerimientos gubernamentales. Implementar tales transformaciones demanda tiempo y colaboración multidisciplinar dentro de las estructuras corporativas. Emprender tempranamente dicho cambio minimiza complicaciones posteriores, favoreciendo adaptaciones fluidas y exitosas.”
+    }
+]
+```
+This extraction captures key articles while adhering strictly to the provided guidelines regarding inclusion criteria, segmentation logic, cleanup rules, and required format specifications.

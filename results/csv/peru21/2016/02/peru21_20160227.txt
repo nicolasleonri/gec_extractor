@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/02/peru21_27.txt ---
+
+```json
+[
+    {
+        "headline": "Corrosión externa revela vulnerabilidad en infraestructura petrolera",
+        "content": "había adecuado el oleoducto al Decreto Supremo No081–2007–EM\n(el que aprueba el reglamento\nde transportes de petróleo a través de ductos) y observó\nque el grosor de la tubería había reducido en un 70%\npor efectos de un proceso de corrosión externa.\nSomos un país con un inmenso \nposibilidades de energías renovables\n(solaire, vientos y hasta aguas de\nmar) en el cual seguimos insistiendo en\nexplorar un recurso contaminante,\nen un contexto global de bajísimos\nprecios para el petróleo. Todo indica que a\nPetroperú le espera una multa de S/60\nmillones, pero dado su tamaño, es evidente\nque seremos nosotros quienes tengamos que\npagarlo, puesto que la compañía estatal no está preparada para manejar esa valiosa\nriqueza natural."
+    },
+    {
+        "headline": "Opini\u00f3n: Fujimori permanece firme, pero sin avance significativo",
+        "content": "\"Ace mucho tiempo\nque Fujimori va pri\nmera en las encuestas, prácticamente desde cuando comenzó el menguado gobierno\nde Ollanta Humala y Nadine Heredia. Desde que empezó esta competición política, no sale de ese treinta y algunos por ciento estadístico. Subir o bajar apenas unos tres puntos significa que está claramente estancada.\nSabemos que su voto duro es aquel que dice ‘yo siempre he votado por ella’ y difícilmente cambiarán de parecer. También reconocemos que su anti-voto ha ido descendiendo y actualmente representa sólo la mitad de antes...\nPero todo esto no alcanza para que Keiko crezca más. A pesar de intentarlo, su base electoral no aumenta. Los consejos deben preocuparse por romper esta situación paradójica donde prospera.”
+    },
+    {
+        "headline": "Recursos legales buscan impedir candidatura de Julio Guzmán",
+        "content": "Cuatro solicitudes pretenden remover a Julio Guzmán de la lista \"Todos por el Per\". Alejandro Toledo, junto a otras figuras políticas y civiles, presenta recursos de impugnación tras decisiones controvertidas del Jurado Electoral Especial (JEE).\nNano Guerra García advierte sobre posibles conflictos éticos dentro del panel evaluador debido a relaciones personales cercanas. Además, se discuten acciones judiciales relacionadas con procesamientos previos y conductas indebidas."
+    },
+    {
+        "headline": "Amnistía Internacional alerta sobre riesgos para derechos fundamentales",
+        "content": "Un análisis detallado sugiere que algunas propuestas legislativas podrían socavar garantías básicas establecidas constitucionalmente. Expertos señalan peligros latentes en normativas emergentes que limitan libertades individuales y protegen intereses particulares frente a principios universales de justicia social."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been marked appropriately according to the rules specified.

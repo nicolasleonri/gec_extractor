@@ -1,0 +1,42 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/05/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamán ordenó..."
+    },
+    {
+        "headline": "MS DE 270 CASOS DE CONSTRUCTORAS PERUANAS DENUNCIADAS",
+        "content": "\"HABA UN MODUS OPERANDI\" DE LAS FIRMAS BRASILEÑAS. EMPIEZAN A\nTRABAJAR DESDE LA CAMPAÑA PARA ASSEGURARSE LUEGO LAS OBRAS.\"; ROSA BARTRA . PRESIDENTA DE LA CORREA. 51 \"LAVA-JATO\"\nODEBRECHT CONFIRMA QUE ENTREGÓ \nUSD$3 MILLONES A HUMALA\ncarlos neyraperú21.com\nMARCEL ODEBRECHT, EX DIRECTOR GENERAL DE LA CONSTRUCTORA LEA QUE LLEVA SU APPELLIDO, RATIFICÓ ANTE EL MAGISTRADO GERMAN JUREZ, DE LA SEGUNDA FISCALÍA DE LAVADO DE ACTIVOS, QUE ENTREG USD$3 MILLONES A OLLANTA HUMALA PARA LA CAMPAÑA DEL AÑO 2011, Y QUE FUE PEDIDA DEL LIDER NA-CIONALISTA Y DE SU ESPUSA, NADINE HEREDIA,\nas lo revel a peru21 uno de los particiapntes de la diligencia que se realzi ayer en curitiba brasil, ciudd donde se encuentra recluida el empren-sario brasileño."
+    },
+    {
+        "headline": "PROTESTAS CONTRA MADURO",
+        "content": "DIRECTOR PERIODSTCA, IPO Y SSSE INTENDENTE PG. 12\nANTE EL FISCAL T CETAMARCELO RATIFI CO ENTREGA DE US$3 MIL-LONES DINERO FUE PARA LA CAMPAÑA PRESIDENCIAL DE HUMALA DEL AÑO 2011. RC.%QUÉ VAN A DECIR LOS CARRERAS PROFESIONALES PERUANAS Y POSTGRADOS A DISTANCIA?\nDirección Universitaria Educación Distancia\n08 I :\navirtual.uap.edu pe google %|ee er gg 3 rn ja ac rl ones .../dm il mp.edu INSCRIPCIÓN ABRIERON\nw ww.péru2.l pé é Pé ru2 ípe ! É Pé rzí ¡ "
+    },
+    {
+        "headline": "COMISIONES PARLAMENTARIAS PLANEAN REVISIÓN LEGISLATIVA SOBRE MEDIO AMBIENTE",
+        "content": "SIGUEN CRÍTICAS A PROYECTOS FUJI-MORISTAS SOBRE MEDIOS\nMRSULA LETONA NEG QUE SU PRO-YECTO SEA SIMILAR A LOS QUE SE HA-BEN APROBADOS EN VENE-ZUELA.\nLOS PROYECTOS LEGISLATIVOS DE CON-GRESISTAS DE FUERZA POPULAR QUE AFEC-TAN A LOS MEDIOS DE COMUNI-CACIÓN CONTINUAN EN EL OJO DE LA TOR-NEDA.\nLa Directora de Ipys Venezuela, Ma-ranela Balbi, Advirtió Que Dos Proyectos De Esta Quete De Iniciativa Del Fuji-morismo Son Similares A La Ley De Telecomunicaciones Y La Ley De Responsabi-lidad Social De Su País. Ambas Indicó, Derivaron En Acciones Mucho Restrictivas Para La Liber-tad De Expreción."
+    },
+    {
+        "headline": "POLÍTICA |
+       MIEMBROS DE LA COMISIÓN DE CONSTITUCIÓN PLANTEAMIENTOS SOBRE REFORMA ELECTORAL",
+        "content": "Debate Reforma Electoral\nEl Predictamento Para Una Nueva Ley Ele-coral Que Se Presentará Hoy En La Comisión De Constitución Sofri Modifica-ciones Durante Su Discusión. Esto Debido A Que Al-gunos Miembros De Este Grupo Discre-pañ De Los Artículos De Esta Propuesta He-chada Por Sub-comisión De Re-forma Electoral.\nUno De Los Quienes Discrepa De Alguns Articulos De Esta Propuesta Es Miguel Cast-ro, De Fuerza Popular. Declaro A Perú21 Estár En Des-acuerdo Con Captulos Destinados Al Financiamien-to De Los Partidos Y La Valla Electorial.\nP Or Su Par-te, El Tambén Miembro De La Comisión De Consti-tución, Javier Velásquez Quesquiñ, Asegur Habér Le-do Los 420 Artículos Del Predicte-men Y Tenér Varias Observaciones,"
+    }
+]
+```
+This JSON captures several distinct articles extracted based on their headlines and contents while following the specified guidelines for cleaning up and structuring data. Note how each entry maintains its integrity according to the provided rules about what constitutes separate articles versus non-content elements like ads or unrelated sections.

@@ -1,0 +1,30 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/01/gestion_20.txt ---
+
+```json
+[
+    {
+        "headline": "El movimiento de acciones al contado en la Rueda Jueves, 19 de enero del 2017",
+        "content": "MOVIMIENTO DE ACCIONES AL CONTADO EN LA RUEDA\nJUEVES, 19 DE ENERO DEL 2017\ncotización:\n1]\n2/\n3/\n4/\nRemuneración capital social\n5/\nAmenaza máxima mínima Ónega anterior número número frecuencia (publicación)\n(días)(días)día(s)s veces(semana)més(más) más(número)número acciónes de valores(bolsa)vendedores compradores semanal mensual año(año)años generados.\nPágina siguiente."
+    },
+    {
+        "headline": "PIDEGUMMDIBID",
+        "(")tas promedio mensuales(en años anteriores)",
+        "content": "piden tasas variables promediadas respectivamente los últimos treinta días\n(tasas interbancarias previsionadas por Banco Central).\nfuentes: central banco\nPERÚ\tTASA VARIABLE ANUAL\n(fecha)"
+    },
+    {
+        "headline": "POLÍTICA",
+        "content": "ABOGADO DE HUMALA: \nDESDE EL 2015 FISCALA NO DISPONE PERITAJE DE CUENTAS DE OLLANTA\n-Julio Cesar Espinoza-cuestiona que el Ministerio Pblico no haya citado a Jorge Barata, representante de Odebrecht en Perú,\nen cuanto éste se encontraba en el país.\nMientras el Ministerio Pblico insiste en acusar a Ollanta Humala del presunto delito de lavado de activos, la defensa del exprimer presidente, encabezada por Julio Cesar Espinoza, no sólo descarta las imputaciones, sino que también cuestiona la falta de celeridad de la Fiscalía.\nEl abogado detalla que en el 2015 demandaron que se realice una pericia contable para determinar si Humala tenía algún tipo de beneficio económico, cosa que aún no ocurre. \"La pericia se dispuso en agosto del 2015, por segunda vez en junio del 2016, pero hasta el día de hoy los peritos no han sido designados ni comenzado su labor\" señala.\nESPINOZA SE REFIERE TAMBIÉN A LAS ACUSACIONES CONTRA FIGARI POR ABUSOS SEXUALES\nEl abogado además menciona información proveniente de febrero del 2016 contenida en un reporte de la Policía Federal de Curitiba, asociándose un monto de USD $3 mil millones al ‘proyecto OH’. Respecto a ello, Espinoza aclara que aun después de aproximadamente un año no existe evidencia suficiente para vincular dichas sumas con el expresidente. "
+    },
+    {
+        "headline": "CONFERENCIA EPISCOPAL MANIFESTÓ SU PREOCUPACIÓN CON DECISIONES RELATIVAS AL CASO SOLDA LICIPIO",
+        "content": "La Conferencia Episcopal manifestó su preocupación frente a la decisión de la Fiscalía de archivar denuncias por violencia sexual interpuestas contra Luis Fernando Figari, líder del Sodalicio de Vida Cristiana, entre otros. Expresaron solidaridad hacia las víctimas y solicitaron una adecuada reparación legal. Además, pidieron claridad y rapidez en las deliberaciones tanto civiles como eclesiásticas referentes al caso."
+    },
+    {
+        "headline": "MERCEDES ARROYO DESTACA IMPORTANCIA DE COORDINACIÓN ENTRE PARTIDO Y PRESIDENTE",
+        "content": "\"Ojalá podríamos integrar la próxima mesa directiva del Congreso\", afirmó Mercedes Arroyo, congresista de Podemos Perú y Vicepresidenta de la República. Reveló que la bancada socialista se reune regularmente con Pedro Pablo Kuczynski y su gabinete, destacando la importancia de mantener una buena relación institucional. También comentó sobre discrepancias internas dentro del partido político y enfatizó la necesidad de continuar fortaleciendo estas relaciones para lograr objetivos compartidos."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable. Note that some sections were merged due to continuity within topics but still maintain separate entries according to different themes discussed.

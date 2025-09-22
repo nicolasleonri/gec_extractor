@@ -1,0 +1,73 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/04/gestion_22.txt ---
+
+```json
+[
+    {
+        "headline": "CONTINGENTES",
+        "content": "NA"
+    },
+    {
+        "headline": "LatinoFocus Consensus Forecast\nConsenso espera que inversión se recupere\nen segundo trimestre y crezca 1.2%",
+        "content": "-El sondeo realizado en\n-abril a 29 entidades prev\nde que la economía peruana crecerá\n3.5% este año, menor al\n4.1% previsto el mes pasado\nante los débiles resultados\ndel primer trimestre.\n-Omar Marílu Zlaguna\n-Las expectativas sobre la \néconomía peruana se siguen de\ndeteriorando y ya casi nadie\n-apuesta por un crecimiento mayor\n-a 4% y menos aún por un repunte de\n-la inversión este año, en momento\n-en que los agentes económicos\n-se muestran cada vez más cautelosos.\n-Este LatinoFocus Consensus\n-Forecast de abril prevé que en el\n-primer trimestre de este año,\nel-inversión (pública y privada)\ncayó 1%, pero proyecta que\n-se recuperará para avanzar 12%\n-al final del segundo trimestre."
+    },
+    {
+        "headline": "Estado de Resultados y otros datos financieros",
+        "content": "NA"
+    },
+    {
+        "headline": "Portuario. Tres terminales portuarios se adjudicarán en 2021",
+        "content": "\"Este año consolidaremos las\n-initiativas privadas que ya recibimos\n-por los terminales portuarios de Chimbote,\n-de Salaverry y de Ilo. Estos nuevos\n-portuarios implican inversiones cercanas\n-a S/.1,500 millones\", declaró el titular\n-del MTC, José Gallardo."
+    },
+    {
+        "headline": "Agroexportación\nLambayeque impulsa segunda etapa de la irrigación de Olmos",
+        "content": "-El gobernador Humberto Acuña solicitó\n-su homologo de Cajamarca apoyar el\n-proyecto, dado que se precisa trasvasar\n-dos ríos de dicha región hacia el río\n-Huancabamba.\n-Acción coordinada organizada por Ceprompo\n-con el apoyo de CONFIEP y la CAF, Acuña\n-se encontró con el gobernador regional de\n-Cajamarca, Pedro Medina, quien expresó:\n-'Los recursos naturales deben beneficiar\n-nuestra gente'."
+    },
+    {
+        "headline": "Producción Pesquera\nProduce sanciona a pesqueras que no alcancen su cuota",
+        "content": "-Previa. El 20 de mayo se alcanzar\u00eda la cuota\n-en Norte Centro. Las empresas pesqueras que\n-no cumplen su cuota individual perderán dicho\n-recurso como castigo y para incentivar mayores\n-extracciones en el sur del país, según informó\n-el Ministro de la Producción, Piero Ghezzi."
+    },
+    {
+        "headline": "Mejoras Infraestructurales\nMirando hacia adelante",
+        "content": "-El Gobierno Regional de Lambayeque avanza\n-sobre la segunda etapa de desarrollo de la\n-región mediante planes estratégicos enfocados\n-en mejorar la gestión de sus recursos hídricos\n-y expandiendo oportunidades de trabajo."
+    },
+    {
+        "headline": NA,
+        "content": "El ministro de Economía, Alonso Segura,\
+-discute políticas públicas relacionadas con\
+-las limitaciones fiscales y la importancia de mantener\
+-un equilibrio prudente en la expansión de la infraestructura."
+    }
+]
+```
+This JSON captures several distinct sections identified within the provided OCR text based on their thematic relevance while adhering strictly to the specified format requirements for headlines and contents. Some entries have been marked `NA` where specific details were not discernible due to fragmented information.
+
+--- ERROR ENTRY: data/txt/gestion/2015/04/gestion_22.txt ---
+
+```json
+[
+    {
+        "headline": "Somos la universidad peruana que más destaca por su internacionalidad...",
+        "content": "Según el \"Ranking de las mejores universidades del Perú 2014\" de América Economía."
+    },
+    {
+        "headline": "Cómo hablar de uno mismo en una entrevista de trabajo?",
+        "content": "\"Opinión\"\n\nEliana Espinoza\nd... \nCuándo vas a las entrevistas te pasa que te digan: ‘‘Háblame de ti’’, palabras que podrían dejarte atónito si no has practicado adecuadamente. Necesitas estar listo y contar con guías claras de cómo describir brevemente tu vida laboral.\nPuede ser útil estructurar rápidamente tu formación profesional y después detallar tu trayectoria de forma clara y directa. Piensa qué habilidades quieres mostrar especialmente relacionadas con el puesto actual. Preparar esto puede ayudarte durante la entrevista."
+    },
+    {
+        "headline": "Hectarea para cultivo de mandarina ya se vende en US$ 50,000",
+        "content": "\n-Se produce más de un millón de hectáreas de cítricos en el país. Una parte significativa está destinada al cultivo de mandarinas. La expectativa era alcanzar 700,000 TM de producción de mandarinas para 2020. Esta situación genera interés en áreas agrarias próximas a centros urbanos, incrementando así el precio de estas hectareas."
+    },
+    {
+        "headline": "Producción de cítricos es de 1.08 millones de días en mandarinas, naranjas, tangelo y limones...",
+        "content": "Durante el último año hubo récord en la producción citrícola según Sergio del Castillo, quien también señaló que mientras la mandarina sí tiene proyecciones de exportación, la naranja principalmente sirve para consumo local en jugos. Junín lidera la producción nacional de naranjas bajo la gestión de ProCitrus, que supervisa aproximadamente 7,000 hectáreas cultivadas."
+    },
+    {
+        "headline": "Southern evalúa mina en Chile, pero Tambo sigue como prioridad",
+        "content": "Una semana tras terminar el comienzo de operaciones en Tambo (Arequipe) programado para 2017, Southern Copper mostró interés en explorar oportunidades mineras en Chile. Si bien reconocen que invertir ahí implica altos costos, confían en obtener buen retorno económico. Su CEO, Óscar González Rocha, indicó que están evaluando factibilidad para empezar una explotación aurífera próxima a la frontera chilena-peruana desde principios de 2016."
+    },
+]
+``` 
+
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected where there was substantial journalistic value evident within the given input data. Other sections like financial reports have been excluded due to lack of narrative journalism context.

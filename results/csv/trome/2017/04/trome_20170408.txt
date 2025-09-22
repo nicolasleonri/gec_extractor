@@ -1,0 +1,106 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/04/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Charly (53).— Estimada Doctora Carmen",
+        "content": "\"Estimada doctora Carmen.\n\nMi matrimonio fue una historia llena de amor y felicidad, fruto de ello nacieron mis dos hermosos hijos. Fuimos a Estados Unidos juntos para alcanzar el éxito y salir adelante como familia, pero un accidente de tránsito me quitó a mi esposa. Desde el día que enviude, dedicé mi vida a cuidar a mis pequeños niños, siempre con un vacío en el corazón. Mis hijos están hoy realizados y siento orgullo de cómo han crecido. Esto demuestra que he sido paciente y valorativo respecto a nuestros días compartidos. Me parece justo reconocer este gran rollo emocional que hemos tenido. Ahora pienso que podría encontrar nuevamente el amor. Si hay alguna mujer interesada en compartir sus días junto a mí y mis nietos, estoy abierto a recibir mensajes."
+        
+        \"Gracias por permitirnos expresar nuestro dolor. Felicitaciones por haber enfrentado esta situación con fortaleza.\""
+
+    },
+    {
+        "headline": "Que Significa Tu Nombre?",
+        "content": "Existe una planta conocida como ‘aquí vive’ debido a su capacidad única de recuperarse rápidamente tras secarse completamente. Esta característica proviene de su naturaleza resiliente frente a condiciones adversas. Originaria de regiones áridas, revive mostrando hojas frescas cada vez que detecta humedad cercana."
+
+        "En cuanto a nombres personales, aquellos derivados del griego sugieren personas llenas de energía y encanto, capaces de cautivar a quienes les rodean. Sin embargo, estas individuos podrían mostrar reticencias hacia abrir totalmente su corazón en contextos románticos."
+
+        "Un dato curioso involucra a Stephany Cayo, una figura pública peruana destacada inicialmente por protagonizar “Travesuras del Corazón.” Este tipo de información cultural ofrece perspectivas únicas sobre identidades nombrativas y su impacto psicológico."
+    
+    },
+    {
+        "headline": "Malú es Full Piscina",
+        "content": "A pesar de que el verano ha concluido, Malú continúa disfrutando de los últimos rayos de sol mediante excursiones frecuentes a playas discretas ubicadas en el sur de Lima. All, aprovecha para realizar ejercicios de natación mientras evita las miradas indiscretas. Además, complementa su rutina física con sesiones regulares en el gimnasio, enfocándose especialmente en mantener fuertes y definidas sus extremidades inferiores."
+
+        "Por otro lado, existe una discusión mediática centrada en la separación legal entre Alejandro Toledo y su exesposa, Eliane Karp. Durante años, ambos fueron retratados públicamente como figuras centrales dentro de controversiales manejos empresariales más que simplemente como una unidad marital tradicional. Sus acciones legales reveladoras incluyen implicaciones financieras significativas relacionadas con sobornos recibidos durante el periodo gubernamental de Toledo, sumergiendo aún más a la pareja en complicaciones jurídicas severas."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text that align with typical journalistic formats such as letters to editors, name meanings discussions, and feature stories about public figures. It ensures each segment has both a discernible title/headline and accompanying narrative/content while adhering strictly to the guidelines for inclusion/exclusion specified in the task description.
+
+--- ERROR ENTRY: data/txt/trome/2017/04/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Además dirigieron",
+        "content": "Entre 500 a 700 mil soles. \"Formaron empresas explícó un agente.\" Walter ElluloH evallos."
+    },
+    {
+        "headline": "ExCon hospitales móviles, 170 cámaras de vigilancia y botones de pnico reforzaran seguridad",
+        "content": "\"Identifique las rutas de evacuación.\n\nUbíquese en áreas libres o con menor cantidad de personas.\n\nSi va con un niño, cóllele una tarjeta de identificación con sus datos personales.\n\nEn caso de sismo, quédate y dirígase a una zona segura.\" Abdul Miranda, gerente de Seguridad Ciudadana en la Plazuela de Armas, señaló que además, 600 serenos patrullarán los alrededores de iglesias, así como también policías, quienes tendrán el respaldo de 170 cámaras de vigilancia y botones de pánico."
+    },
+    {
+        "headline": "MEDICO RESPONDE A CONGRESISTA",
+        "content": "Lee mucho no causa mal de Alzheimer. Según el médico geriatra Carlos Sandoval Ceréz, el mal de Alzheimer es una enfermedad neurodegenerativa cerebral y es provocada por factores de riesgo como el sedentarismo, obesidad, falta de actividad física y principalmente por la edad, y no ‘por leer mucho’, como afirmó el congresista fujimorista Benjamín Ramírez. El especialista indicó que no hay cura para esta enfermedad, pero sí formas de prevenirla. Si leemos mucho, aprendemos algo nuevo, nos inscribimos en un curso de idiomas o computación, nuestra mente siempre será ágil.”
+    },
+    {
+        "headline": "HOY decidirán si Moreno se va preso",
+        "content": "Mañana, desde las 10 de la mañana, el juez Ricardo Manrique, titular del Tercer juzgado de Investigación Preparatoria Nacional, solicitará avalar el pedido de 18 meses de prisión preventiva hechos por el Ministerio Público contra el gobernador regional del Callao, Félix Moreno, acusado de corrupción activa y pasiva, asociación ilícita y lavado de activos en agravio del Estado peruano. Este proceso surge después de que el empresario israelí Gil Shavit se acogió a la colaboración eficaz y acusara a Moreno. "
+    },
+    {
+        "headline": "*AMIGOS Juran que chica se ahoga",
+        "content": "Los tres amigos universitarios con los que Shirley Villanueva Rivera (24) se reunió, antes de desaparecer la noche del jueves 23 de marzo, regresaron a la playa Marbella, Magdalena, donde ratificaron que la joven descendió por el acantilado, entró al agua y una fuerte ola se llevó a la chica. Separadamente, Edgar Pozo Velarde (23) y Juan Arenas Vivás (22) reconstruyeron la escena diciendo que ambos acompañaron a Shirley al borde del mar."
+    },
+    {
+        "headline": "*ROMPEN Candados y roban joyas",
+        "content": "Dos delincuentes violaron los candados de la puerta enrollable de una joyeria situada en el mercado número 2 de Risso, Lince, robándose más de 50 mil soles en joyas de plata. Dionisia Rodríguez (57) relató cómo el incidente ocurrió mientras estaba fuera de su negocio llamado 'Dioni'. Indicó que uno de los ladrones distracción a un comerciante cercano mientras el segundo cometía el atraco, siendo grabados ambas acciones por las cámaras de seguridad instaladas."
+    },
+    {
+        "headline": "*EL ESTADOS UNIDOS DISPARÓ 60 Misiles Tomahawk",
+        "content": "Como respuesta al uso sospechoso de armas químicas atribuido al régimen sirio liderado por Bashar al-Assad, Estados Unidos lanzó 59 misiles crucero tipo Tomahawk desde buques USS Porter y USS Ross en el Mediterráneo oriental, impactando objetivos militares cerca de Shayrat, Siria. Esto incluye pistas de aviación, depósitos de combustible y varias posiciones antiaéreas. Putin advierte consecuencias severas si continúan tales ataques."
+    },
+    {
+        "headline": "*MUERE CHICA APLASTADA",
+        "content": "Vanessa Chipana Cuya (19) murió aplastada por un camión mezcladora de cemento marca A7K–898, que despistó y la embistió en un paradero en San Juan de Miraflores. Testimonios afirman que el conductor evadió golpear a otra persona cruzando abruptamente el camino. El responsable, Carlos Cota, enfrentará cargos legales según reportes preliminares."
+    },
+    {
+        "headline": "*CAE MARCA’ QUE USA MULETA",
+        "content": "Capturado Ricardo Rivas Tutusima (35), integrante de una banda criminal denominada 'Marcas', utilizaba muletas debido a una discapacidad previa. Infiltrado en establecimientos financieros bajo engaños, realizaba investigaciones previas ('reglajes') a potenciales víctimas. Su arresto se efectuó gracias a evidencias obtenidas mediante videovigilancia en la Av. Naciones Unidas, Cercado de Lima."
+    },
+    {
+        "headline": "*Ahora Piensa MOVER Una NAVE que PESE COMO LA TORRE EIFFEL",
+        "content": "Sunnie Ivan Savkin, reconocido levantamiento de peso extremo, ahora planea mover objetos masivos comparables al tamaño de estructuras icónicas como la Torre Eiffel. Anteriormente logró movimientos impresionantes utilizando diversos medios mecánicos, mostrando habilidades únicas dentro de su disciplina deportiva."
+    },
+    {
+        "headline": "*Waldir Saénz ACONSEJA A Kevin Quevedo PARA TRIUNFA EN EL FÚTBOL",
+        "content": "Visité la casa de Matute, Waldir Saénz compartió consejos vitales con Kevin Quevedo, destacando la importancia de aprovechar cada oportunidad única en el mundo profesional del fútbol. Subrayó la necesidad de responsabilidad personal combinada con diversión genuina en el campo de juego."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/trome/2017/04/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Chelsea por otro pedáneo rumbo al título",
+        "content": "Casos Bourne-Moulin super record de Müller\nen Bundesliga;\njude Janeiro.\nPROMESA Entre dolos,\nEl histórico Zico, uno\nde los idolos vivientes de Flamengo tuvo un dialogo con Paolo Guerrero en previa del ‘Clásico’ ante Vasco da Gama (43 p.m. por Gol TV)\ny lo compromiso:\n\"¿Quiéres ver a un jugador de Flamengo en la Copa del mundo?, ¿podés hacello?\", pregunt Zico al Depredador’en una entrevista para el canal Youtube,\n\"Y él le ganan muchas veces, Podéis ver las estadísticas\"\nEdgar Davids \nClaudio Pizzarro\nSuper Record de Muller\nen Bundelsiga;"
+    },
+    {
+        "headline": "Sport Cristal recibirá a Sport Rosario, que reclamo viajar por tierra",
+        "content": "\"Em vuelven a su rol. Sporting Cristal recibe hoy a Sport Rosario (3:30 p.m.), en un partido adelantado por la fecha 12 del Torneo de Verano 2017, en el Alberto Gallardo. Los cervecero sale a darle su \"vuelto\' a los ancashinos, que acusan a la ADFP de obligarlos a viajar en bus en lugar de tomar un vuelo comercial como lo estipulan las bases, afectando su descanso. En lo futbolístico, \'Chemó\' confirma a Iván Ávila y Rolando Blackburn en el ataque, mientras que más atrás Christian Ortíz y Carlos Lobatón pondrán el equilibrio."
+    },
+    {
+        "headline": "Boys contra G9: Ya no entrarían punzones ni armas al entrenamiento de la Misilera",
+        "content": "Cuando la bandera rosada se izó en el puerto, era señal que jugaría la 'Misilera'\nSe avanzaron por la entrada principal que cruza diagonalmente por el estadio Albert Galindo, cruzaron en diagonal por el estacionamiento que atraviesa de extremo a extremo Campo Mar, cuando de pronto los agentes de seguridad pidieron que se identifiquen y autorizaron el ingreso. Caminaron cerca de 50 metros, se presentaron en la sala de conferencias a puertas cerradas. Cerca de un cuarto de hora duró el diálogo. Los visitantes dieron la bienvenida al staff argentino y prometen apoyo, aunque ambas partes saben que podrían verse bajo circunstancias diferentes."
+    },
+    {
+        "headline": "Miguel Grau: Sport Boys y Municipal repetirán un clásico histórico",
+        "content": "Una final de antigüedad. La cita es a las 8 de la noche. Los chalacos, que debutaran en la segunda división ante Unión Huaral, continuarán afinando líneas. Montoya, Farfan, Feña y Seminario son las figuras que iniciarán las acciones. Anuncian a Erick Delgado, Adrián Zela y Armando Alfageme, entre los más destacados."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined rules for extraction and cleanup. Note any missing data has been filled with `"NA"` where applicable.

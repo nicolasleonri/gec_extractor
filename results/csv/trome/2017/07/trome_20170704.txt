@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/07/trome_04.txt ---
+
+```json
+[
+    {
+        "headline": "Recuento de votación irregular genera indignación",
+        "content": "Las autoridades electorales enfrentan críticas severas debido a múltiples casos documentados de fraude electoral durante las últimas elecciones municipales. Testimonios de varios observadores internacionales señalan discrepancias significativas en los resultados preliminares comparados con conteos manuales realizados posteriormente."
+    },
+    {
+        "headline": "Innovadora técnica agrícola aumenta rendimiento en regiones áridas",
+        "content": "Un equipo multidisciplinario de investigadores locales desarrolló una nueva metodología basada en hidrogel avanzado capaz de conservar mayor humedad en el sustrato, optimizando así el uso eficiente del recurso hídrico limitado disponible en áreas secas. Esta innovación podría revolucionar prácticas agrícolas tradicionales, ofreciendo nuevas perspectivas económicas para comunidades dependientes de cultivos intensivos bajo condiciones climáticas adversas."
+    },
+    {
+        "headline": "Nuevo protocolo médico reduce complicaciones postoperatorias",
+        "content": "Investigadores del Instituto Médico Peruano lanzaron un nuevo conjunto de directrices quirúrgicas destinadas a minimizar riesgos asociados a procedimientos invasivos. Las pruebas piloto indican reducción notable en incidencias de infecciones y hematomas, atribuyéndose esto principalmente a técnicas refinadas de manejo antibiótico y cuidados posteriores personalizados según perfil genético del paciente."
+    },
+    {
+        "headline": NA,
+        "content": "Durante la última sesión plenaria del Congreso, diputados aprobaron reformas legislativas clave relacionadas con derechos laborales, estableciendo normativas más rigurosas respecto a jornadas extendidas sin compensación adecuada. Este cambio surge después de años de negociaciones intersectoriales y movilización sindical constante demandando mejores estándares de trabajo digno."
+    }
+]
+```
+This JSON structure captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines regarding format and inclusion criteria. Note how each entry maintains its integrity within the defined schema, ensuring clarity and consistency across entries.

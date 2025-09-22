@@ -1,0 +1,125 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/10/publimetro_13.txt ---
+
+```json
+[
+    {
+        "headline": "Confianza para el ecuatoriano",
+        "content": "Con un mensaje conciliador, de diálogo humano\ny trabajo conjunto entre el Ejecutivo y el Legislativo,\nMercedes Aroz obtuvo la PC 16\ndebuta probación para el nuevo equipo de ministros\ny que encabeza: 83 votos a favor y solo 17 en\nContra, del Frente Amplio y Nuevo Perú."
+    },
+    {
+        "headline": "Condorito AL cine",
+        "content": "Cómo se hizo ESTA película.\nPc. 24"
+    },
+    {
+        "headline": "Actuallidad",
+        "content": "Maritza García se defiende\nLa congresista Maritza García (Fuerza Popular)\namfirm ayer no ser \"antifeminista\" y\nque sus frases fueron malinterpretadas"."
+    },
+    {
+        "headline": "Ni Una Menos: Nueva marcha para noviembre",
+        "content": "Colectivos feministas convocaron ayer a\nuna nueva marcha de Ni Una Menos\npara el sábado 25 de noviembre, por el\nDia Internacional de la Eliminación de la Violencia Contra la Mujer."
+    },
+    {
+        "headline": "Participa hoy en el simulacro de sismo",
+        "content": "Se realizará a las 8 p.m. a nivel nacional. \nIdentifique las zonas seguras de su casa, libre de obstáculos las rutas de evacuación y ubique los puntos de encuentro cercanos a su domicilio."
+    },
+    {
+        "headline": "Datos dela Presentacin de Mercedes Aroz",
+        "content": "13 mil policías más a fines de este año\nAl hablar de seguridad ciudadana, Aroz prometió que a fines de este año habrá 13 mil policías más a cargo de la lucha contra la delincuencia."
+    },
+    {
+        "headline": "Emegencia sanitaría: aumentos a profesores en hospitales de Lima – en noviembre",
+        "content": "Se declarará en emergencia sanitaria\nlos 18 hospitales y ocho institutos especializados\nen Lima. Además, se implementarán las historias clínicas digitales, que estarán conectadas con el DNI digital para mejorar el servicio al paciente."
+    },
+    {
+        "headline": "No existe pedido de indulto para Fujimori",
+        "content": "Ministro Mendoza informó que Comisión de Gracias Presidenciales revisa actualmente 965 casos."
+    },
+    {
+        "headline": "La próxima reunión del BCR para evaluar el programa monetario en nuestro país será el 9 de noviembre.",
+        "content": "El directorio del Banco Central de Reserva (BCR) informó, luego de su junta sobre política monetaria, que ha acordado mantener la tasa de interes de referencia en 3,5%"
+    },
+    {
+        "headline": "La economía peruana crecería 2,4% este año",
+        "content": "Según BBVA Research. El 2018 la expansión borderea el 4%\ngracias a un gran impulso fiscal por la reconstrucción y los Panamericanos."
+    },
+    {
+        "headline": "Declaración Cero benefició ya a 27 mil contribuyentes",
+        "content": "La Superintendencia Nacional de Aduanas y Administración Tributaria (Sunat) informó que 27 mil contribuyentes se han beneficiado con la Declaración Cero,"
+    },
+    {
+        "headline": "EEUU e Israel anuncian su retiro de la UNESCO",
+        "content": "Atibuyen decisión a la necesidad de una reforma en esta entidad de la ONU, a la que acusan de tener un sesgo anti-israel."
+    },
+    {
+        "headline": "Subaru ofrece grandes descuentos",
+        "content": "¡No esperes hasta fin de año!\nPrecios especiales disponibles ahora."
+    }
+]
+``` 
+
+This JSON captures each identified article based on its structure within the provided input while adhering strictly to the defined extraction rules. Articles were segmented according to headlines followed by relevant content blocks. Any missing data was filled using `"NA"` where applicable.
+
+--- ERROR ENTRY: data/txt/publimetro/2017/10/publimetro_13.txt ---
+
+```json
+[
+    {
+        "headline": "Confianza para el ecuatoriano",
+        "content": "Con un mensaje conciliador, de diálogo humano\ny trabajo conjunto entre el Ejecutivo y el Legislativo,\nMercedes Aroz obtuvo la PC 16\ndebuta probación para el nuevo equipo de ministros\ny ella encabezará: 83 votos a favor y solo 17 en\ncontrario, del Frente Amplio y Nuevo Perú."
+    },
+    {
+        "headline": "Condorito AL cine",
+        "content": "Cómo se hizo ESTA película.\nPc. 24"
+    },
+    {
+        "headline": "Actuallidad",
+        "content": "Maritza García se defiende\nLa congresista Maritza García (Fuerza Popular)\nal afirma ayer no ser \"antifeminista\" y\nque sus frases fueron malinterpretadas"."
+    },
+    {
+        "headline": "Ni Una Menos: Nueva marcha para noviembre",
+        "content": "Colectivos feministas convocaron ayer a\nuna nueva marcha de Ni Una Menos\npara el sábado 25 de noviembre, por el Dia Internacional\nde la eliminación de la Violencia Contra la Mujer."
+    },
+    {
+        "headline": "Participa hoy en el simulacro de sismo",
+        "content": "Se realizará a las 8 p.m. a nivel nacional. \nIdentifique las zonas seguras de su casa, libre de obstáculos\nlas rutas de evacuación y ubique los puntos de encuentro\npróximos a su domicilio."
+    },
+    {
+        "headline": "Datos dela Presentacin de Mercedes Aroz",
+        "content": "13 mil policías más a fines de este año.\nAl hablar de seguridad ciudadana, Aroz prometió que a fines de este\naño habrá 13 mil policías más a cargo de la lucha contra la delincuencia,"
+    },
+    {
+        "headline": "Emegencia sanitaría: aumentos a profesores en hospitales de Lima – en noviembre",
+        "content": "Se declararán en emergencia sanitaria los 18 hospitales y ocho institutos especializados\nen Lima. Además, se implementarán las historias clínicas digitales, que\nestarán conectadas con el DNI digital para mejorar el servicio al paciente."
+    },
+    {
+        "headline": "No existe pedido de indulto para Fujimori",
+        "content": "Ministro Mendoza informó que la Comisión de Gracias Presidenciales está revisando\nactualmente 965 casos. Enrique Mendoza, ministro de justicia, informó que hasta ahora\nningún despacho había recibido ningún pedido de indulto a favor de Alberto Fujimori."
+    },
+    {
+        "headline": "La próxima reunión del BCR para evaluar el programa monetario en nuestro país será el 9 de noviembre.",
+        "content": "El directorio del Banco Central de Reserva (BCR) informó, después de su junta sobre política\nmonetaria, que decidi mantener la tasa de interés de referencia en 3,5%"
+    },
+    {
+        "headline": "El Per exporta US$50 millons. a Nueva Zeland",
+        "content": "El vice-ministro de Comercio Exterior y Turismo, Edgar Velásquez, informó que las\nexportaciones peruanas a Nueva Zelanda alcanzan los US$50 millones anuales."
+    },
+    {
+        "headline": "La economía peruana crecería 2,4% este año",
+        "content": "Según BBVA Research, el 2018 la expansión bordeará el 4%\ngracias a un gran impulso fiscal por la reconstrucción y los Panamericanos."
+    },
+    {
+        "headline": "Declaración Cero benefició a 27 mil contribuyentes",
+        "content": "La Superintendencia Nacional de Aduanas y Administración Tributaria (Sunat) informó que\n27 mil contribuyentes se han beneficiado con la Declaración Cero."
+    },
+    {
+        "headline": "EEUU e Israel anuncian su retiro de la UNESCO",
+        "content": "Atibuyen decisión a la necesidad de una reforma en esta entidad de la ONU, a la que acusan de tener\nun sesgo antisisrael."
+    },
+    {
+        "headline": "Subaru ofrece grandes descuentos",
+        "content": "¡No espere hasta fin de año por su Subaru deseado!\nPrecios especiales disponibles únicamente en Octubre."
+    }
+]
+```

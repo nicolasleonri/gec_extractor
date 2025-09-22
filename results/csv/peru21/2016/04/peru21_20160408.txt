@@ -1,0 +1,46 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/04/peru21_08.txt ---
+
+```json
+[
+    {
+        "headline": "Prioridad al desplazamiento del transporte público",
+        "content": "Este nuevo eje vial se podría conectar con los túneles de San Juan de Lurigancho (SIL), formando así el eje SJL-Prolongación Tacna-Av. Tacna-Garcilaso-Arequipa.\n\nCon la marcha blanca, inicia un proceso de monitoreo que permitirá realizar ajustes, cambios y otras medidas de cara a la implementación total del bypass 28 de julio."
+    },
+    {
+        "headline": "Desempeño y Seguridad",
+        "content": "De la estética, el diseño y la seguridad son tres de los aspectos más importantes para los amantes de las motocicletas. Siempre están tratando de mejorarlos a través de innovaciones, accesorios y otro tipo de instalaciones.\n\nNuevo Imagen:\nEl primer paso para darle una apariencia distintiva a la motocicleta es pintarla nuevamente. Se pueden utilizar colores vivos incluso combinándolos. También se puede usar uno solo con diferentes tonalidades. Por su parte, los adhesivos con distintos motivos también son muy populares. El carenado (revestimiento de fibra de vidrio o plástico) puede modificarse completamente para darle una imagen diferente a la unidad y mejorar su aerodinámica. En el mercado existen kits que se pueden instalar en talleres,\n\nMejor Desempeño:\nPara que la moto tenga mejores prestaciones se pueden realizar muchas modificaciones mecánicas y exteriores. Para la ignición, nuevas bujías son la mejor opción; además, los filtros de competición incrementan la velocidad. Otro cambio popular es modificar las ruedas)"
+    },
+    {
+        "headline": "Accesorios Futuros",
+        "content": "En el pasado, si uno viajaba acompañado era muy difícil entablar algún tipo de conversación debido a la ausencia de los cascos, el ruido del exterior y del propio vehículo. Hoy existen intercomunicadores Bluetooth en los cascos que tienen conexión al celular, MP3 y con el pasajero, sí es que se cuenta con un juego de dos. Estos se pueden adquirir en tiendas por Internet o centros especializados."
+    },
+    {
+        "headline": "Selección. Oblitas avanza lo que pasará en la Copa América",
+        "content": "\"Se vienen cambios\"\nn Gareca cambiaría su lista de llamados. Carlos Ascues se refirió a su error en el 2–2 ante Venezuela.\n\"No hay peor ciego que aquel que no desea ver». Para que el refrán no tenga asidero en la selección peruana, el director técnico de la FPF, Juan Carlos Oblitas, avanzó lo que se avecina. La mira está puesta en la Copa América Centenario.\" \n\"En la convocatoria para la Copa América habrá cambios. No puedo dar nombres, Ricardo Gareca se encargará de dar la lista. Ya se darán cuenta\", declaró Oblitas a RPP."
+    },
+    {
+        "headline": "Liverpool de Klopp dao al Dortmund",
+        "content": "Grítalo, tíralo, pero seguro le dolió. El entrenador del Liverpool, Jurgen Klopp, no se guardó el festejo en el gol contra su antiguo equipo, Borussia Dortmund, en el partido correspondiente a la ida de cuartos de la Europa League.\n\"Los teníamos. Mucha gente pensó que nos iban a golear, pero jugamos fenomenal», dijo Klopp, quien dirigiera siete años al Dortmund. Ayer, el DT se emocionó con la ovación que le dio el público del Borussia Dortmund. \"Fue algo muy especial\", sostuvo."
+    },
+    {
+        "headline": "Europa League. DT se vio las caras con su ‘ex’",
+        "content": "El Liverpool de Klopp dao al Dortmund\ngrutas"
+    },
+    {
+        "headline": "Separan a U de Chile a peruano Ortíz",
+        "content": "Gonzalo Espinoza, Cristian Surez, Leonardo Valencia, Joao Ortíz (de ascendencia venezolana) y Luis Felipe Pinilla fueron separados por indisciplina de Universidad de Chile. Ellos se negaron el martes, en el pleito de Espínova, acompañados de treinta mujeres y amigos. El permiso era solamente hasta las once PM del lunes.\n\"Pinilla (dieciocho años) pudo haberse dejado influenciar por su juventud, pero los otros cuatro nunca van a volver a vestir la camiseta de la \'U\' en su vida\", dijo un directivo del club."
+    },
+    {
+        "headline": "Camila Valle logra boleto a Rio de Janeiro",
+        "content": "\"Oficialmente vamos a los JO. Rio 2016. Nos sentimos felices de poder llegar hasta aquí, pero esto sólo es el principio,\" expresó la nadadora peruana Camila Valle, quien clasificó a los Juegos Olímpicos en Santiago, capital de Chile."
+    },
+    {
+        "headline": "Henry Brady, Leyenda Peruana Del Automovilismo, Muere A LOS 75 Años",
+        "content": "(Entre 1979 y 1988) deja escrita una leyenda en la ruta Panamericana."
+    }
+]
+``` 
+
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were segmented according to distinct topics identified within the input text. Any missing information was marked appropriately using `"NA"` where necessary.

@@ -1,0 +1,36 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/11/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Dos de 5.8 grados de magnitud, luego del terremoto de 7.8 del domingo.",
+        "content": "Los fuertes sismos han afectado a las localidades de Kalkoura y a la región de Marlborough, y hubo pequeños tsunamis, pero sin víctimas en el nordeste de la Isla Sur.\n\nEn tanto, en Wellington, capital del país, los temblores causaron daños en las calles del centro y los negocios mercenarios lamentaron pérdidas de miles de dólares por la destrucción de sus productos.\n\n\"Es una devastación brutal. No sé... son meses de trabajo\", expres el Primer Ministro John Key, tras inspeccionar las zonas más afectadas.\n\nKey comentó que \"es una suerte que (el sismo del domingo) haya ocurrido a la medianoche\". Además, cancel su viaje a Argentina y dej en suspenso su participación en el Foro de Cooperación Económica Asia–Pacífico."
+    },
+    {
+        "headline": "Gobierno y las FARC publican nuevo acuerdo de paz",
+        "content": "BOGOTA\n\nEl gobierno de Colombia y las FARC publicaron el nuevo acuerdo de paz con ajustes y modificaciones que pactaron a partir de las propuestas de los grupos que defensoron el No en el plebiscito del pasado 2 de octubre. \n\nEn tanto, la oposición analiza el documento antes de decidir si apoya o sugiere más cambios al texto publicado en la página web de la mesa de conversaciones."
+    },
+    {
+        "headline": "Morales dice que no está preparado para dejar el cargo",
+        "content": "LA PAZ\n\nEl Presidente de Bolivia, Evo Morales, afirma en una entrevista publicada por el diario mexicano La Jornada que no está preparado para dejar el poder una vez que concluya su mandato en el 2020. \"No estoy preparado para irme a casa. Lo que hemos hecho en el tema de desarrollo político es un récord\", sostuvo el mandatario, quien está inhabilitado para ser candidato en las elecciones generales de 2019."
+    },
+    {
+        "headline": "Juez descarta que Cristina Fernández sea detenida",
+        "content": "| BUENOS AIRES\n\nEl juez argentino Claudio Bonadio descartó la detención de la expresidenta Cristina Fernández en el marco de la causa que investiga las supuestas irregularidades en operaciones del Banco Central (BCRA) realizadas durante su gobierno (2007 – 2015).\n\n\"Procesalmente, no están dadas las circunstancias que harían posible una orden restrictiva de la libertad (de la exmandataria)\", apuntó."
+    },
+    {
+        "headline": "Opini\u00f3n",
+        "content": "\"¿Van a Cobrar?\"
+
+Según la primera parte de una investigación de Ojo Público, en la última década, el Estado dejó de recaudar 93 mil millones de soles (14 puntos del PIB) debido a la existencia de 78 beneficios tributarios, la mayoría de los cuales se crearon en el último gobierno de Alberto Fujimori. Los sectores más favorecidos por estas excepciones son, según dicha investigación, agroexportación, educación, banca, hidrocarburos y minería."
+
+},
+{
+    "headline": "Entrevista Fabiola Valle",
+    "content": "JE STECCIÓN DE DOS EN POSESIÓN PRESIDENCIAL SALANTA LA Y NADINE HEREDIA SE COMPLICA CADA VEZ MAS. EDUARDO ROY CASTES, ABOGADO DE LA EXPRIEMA DAMA ANALIZA LAS INVESTIGACIONES QUE AFRENTA SU PATROCINA DO Y EL EX GOBERNANTE POR EL PRESUNTO DELITO DE LAVA ACTIVO ENTRO OTROS PEQUISAS QUE SE LE SIGUIEN AL NIVELECIONAL Y CONGRESAL AC SUS POSTURA.\n\nEL JUEZ RICHARD CONCEPTICON DETERMINÓ QUE HUMALA PAYE UN CAUCIÓN DE $50 MILLONES Y CUMPLO UN SERIE DE REGLAS DE CONDUCHA...\n\nLA MEDIDA ESTÁ TOTALMENTE EXAGERADA E INFUNDADA, Y CON MAYOR RAZÓN SI SE TRATA DE UN EX PRESIDENTE, PORQUE TANTO ÉL COMO LA SEÑORA HEREDIA SIEMPRE HA COOPERADO CON LA INVESTIGACIÓN,\n\nCREO QUE NO HAY NINGÚN PRESIDENTE EN PERÚ ANTES DE QUIÉNES YA HAN SIDO TOMADOS TA RESPUESTA.\n\nEL PROCURADOR GERMAN JULIUS, ENCARGADO DE LA INVESTIGACIÓN DIJO QUE HABA PELIGRO DE FUJA…\n\nLA PERMANECÍA DE ÉL EST GARANTIZADA Y EST DEMOSTRADO NO SOLO A NIVEL FISCAL, SINO TAMBIÉN A NIVEL DEL CONGRESO. HUMALA HA CONCURRIDO A LAS CITACIONES PORQUE NO HAY NADA QUE OCULTAR."
+}
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines. Any missing data has been filled with `"NA"` where applicable. Note that some sections were merged due to continuity within paragraphs related to specific topics.

@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/07/elcomercio_14.txt ---
+
+```json
+[
+    {
+        "headline": "Las estadísticas de las heladas?",
+        "content": "Alguien prometió que en su gobierno nadie moría\npor culpa del invierno? Ninguno. Que yo recuerde tampoco ha existido\una sola ministra de la Mujer que haya hecho historia porque en su gestión\nninguna familia de las comunidades altoandinas se quedase sin recibir su kit de heladas.\nCulpar a la burocracia, eso hacen todas las ministras. ¿Conocen a un ministro de Salud\nque haya viajado a Puno de manera permanente cada invierno cruel?\nYo no. Cuando bajan las temperaturas a menos veinte grados en el Sur del Perú,\nal aumento de la fiebre de la ineficacia en la Capital. Cada año es peor."
+    },
+    {
+        "headline": "Seamos sinceros. Tenemos dinero en efectivo?",
+        "content": "Sí. Podemos evitar que peruanos humildes mueran por el frío? Sí. Sabemos hacerlo?\nNo. Si un Ministro con suficiente poder sabe que todos los años llueva, nieve y que la tempe-ratura descendiese a menos veinte; si un Presidente y su corte de funcionarios saben que sí habrá frio en Puno, ¿por qué no llevan la ayuda con anticipación? \nPero entonces, ¿por qué nos entramos por los periodistas de que sólo se han distribuido 33 mil kits cuando la meta era alcanzar 228 mil? Quién es el responsable? El presupuesto estaba destinado a gastar 11 millones este año en las heladas? Exacto. Solo se gastaron 6, cómo está esto?. Además, no se realizó la licitación cuando debía y dado que los pro-vendedores incumplían sus obligaciones, ahora están lamentándose por el frío. Este fenómeno tiene un nombre: Ineficiencia criminalizada y beneficiaria."
+    },
+    {
+        "headline": "¿Cuánto vale tu silencio?",
+        "content": "Obviamente le gustaron los nuevos así que hicimos el inter-cambio y desde entonces lo conservo. Me acompañó durante toda mi vida. Con él he visitado países como Ecuador, Colombia, entre otros. Y también compartí escenarios con figuras destacadas... Como Raúl Del Mar. Tuve 18 años y colaboré con él durante cuatro años en Radio Victoria; fue una época maravillosa donde además encontré a quien hoy comparte mi vida. También actuamos en radio América y durante los primeros tiempos de la televisión. Recientemente participé nuevamente con Bartola en Televisión Peruana. Actualmente estoy vinculado musicalmente con Victor Marchand, un virtuoso del piano que ha girado internacionalmente junto a Eva Ayllu."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on their thematic continuity while adhering strictly to the guidelines for extracting headlines and contents. Note how each segment has been treated separately due to its unique subject matter, ensuring clarity and relevance according to the defined criteria.

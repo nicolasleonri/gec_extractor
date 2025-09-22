@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/07/gestion_07.txt ---
+
+```json
+[
+    {
+        "headline": "Una oferta de US$ 1,485 millones a la Liga de Fútbol Profesional (LFP)",
+        "content": "De España por la explotación de los derechos televisivos en el extranjero en los próximos tres años, según revelaron fuentes cercanas al proceso al diario español Expansion.\nThe compañía, que ya cuenta con los derechos del Barcelona, Real Sociedad, Celta y Espanyol, ha ofrecido US$ 495 millones por año. La proposición se ha hecho directamente a la LFP."
+    },
+    {
+        "headline": "Panorama de ofertas\nLa LFP comunicó el pasado 19 de junio...",
+        "content": "Que había llegado a un acuerdo con 38 clubes de las Ligas BBVA y Adelante para avanzar la venta anticipada de sus derechos audiovisuales al periodo 2015-16.\nLa oferta de Telefonica supone USD $55 millones más que La Liga. La transmisión de los partidos también podría hallar un buen espacio en el entorno digital.\n\"Nunca vamos a vender los derechos a una mano, salvo que ocurra algo excepcional\", dijo el Presidente de la Liga de Futbol Profesional. No les ponen fácil Telefonica."
+    },
+    {
+        "headline": "Los comprometidos por Mediaproducen...",
+        "content": "\"...garantizando el pago de US$ 440 millones si era designada como agente para negociar la venta de sus derechos internacionales,\" han explicado las fuentes."
+    },
+    {
+        "headline": "Negocio real\nEn Perú, los partidos de la liga de España se transmiten...",
+        "content": "...a través de Directv. Jesús Ruiz, Supervisor de la Agencia de Medios Resett, observa el panorama y explica \"en un conductor regular, un campeonato tan importante es transmitido por un solo operador de cable,\" que en este caso puede ser Cable Magic, de Telefonica.\" También podrían darse una alianza dependiendo de si es un buen negocio para ambos partes."
+    },
+    {
+        "headline": "Un hueso duro de roer para la Telco\nEl presidente de la Liga de Fútbol Profesional (LFP)...",
+        "content": "Confirmó la oferta de Telefonica por los derechos internacionales de la liga, pero afirmó que esta es insuficiente pues esperaban recaudar más dinero bajo lo que ellos creen es el mejor método. \n\"Puede confirmar la oferta de Telefonica porque la empresa envió una carta certificada, una manera interesante de hacer llegar mensajes importantes. Pero hemos gestionado todos estos países desde que fue elegida como representante internacional de los derechos, esto hace parte de nuestra estrategia,\" señala Javier Tebas, presidente de la LFP."
+    },
+    {
+        "headline": "Operadores locales y oportunidades comerciales...\nEl operador que consigue el derecho de emisión localmente...",
+        "content": "\nPuede negociar su propia comercialización. Normalmente, en eventos internacionales existe una venta de paquete promocionales que incluyen espacios publicitarios, introducciones especiales y despedidas destacables junto a campañas de marketing específicos," destaca Jesús Ruiz."
+    },
+    {
+        "headline": "Marcas potencialmente interesadas en la transmisión local,\nVilma Valle, directora de Estrategias y Buying de la Agencia Forward Media,...",
+        "content": "\"Enumera algunas posibles empresas interesadas tales como bancos (BBVA), cervezas (Backus), retail (Sodimac), entre otras categorías relevantes como energéticas (Red Bull).\"\n\nEl especialista de Resett sugiere además que Telefonica podría utilizar sus plataformas digitales existentes para maximizar la exposición pública durante estas transmisiones deportivas."
+    }
+]
+```
+This extraction captures distinct sections identified within the provided input based on their context and structure while adhering strictly to the defined rules for extracting headlines and contents. Any unclear data has been marked appropriately according to guidelines.

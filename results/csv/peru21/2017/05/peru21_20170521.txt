@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/05/peru21_21.txt ---
+
+```json
+[
+    {
+        "headline": "REAL MADRID SE CORONAR CAMPEÓN CON SOLO EMPATAR ANTE EL MALAGA",
+        "content": "España. BUSCA LA GLORIA\nmEl Barcelona recibe\nt al Fútbol Club Barcelona, pero para\nlograr el título necesita\nganar y que los \n merengues pierdan.\nMALAGA.—Lo único que se \ninterpone entre Real Madrid y su\nprimero titulo de Liga en cinco\n años es el Malaga. A los \nmerengues sólo les basta empatar en cancha de los \ndaluques para celebrar. En \ncambio, el Barcelona debe derrotar\nal Eibar y esperar que se le\nhace el milagro de ver perder\na los blancos para lograr el \"triple\".\n Así de emocionante se\npuso la última fecha del \ntorneo español. Los de Zinedine\nZidane lideran la tabla con 90\npuntos, mientras que los \n blaugranas tienen 87.\n\"Dependemos de nuestro\npartido, será un partido\nmuy difícil. El malagueño está \nnavegando resultados muy buenos y creo que va a ser aún más complicado que el \nviernes pasado cuando ganamos al Celta\", sealó Zidane."
+    },
+    {
+        "headline": "ITÁLIA. LA ‘VIEJA SEÑORITA’ SERÍA CAMPEÓN SI HOY DERROTO AL FRÁGIL CROTONE",
+        "content": "Turno.— Juve(nueves con 85)\npuede coronarse hexacampeon de Italia si hoy derrota\ncomo local al humilde crotonés(neoteno con 33), en la penultima fecha de la 'calcio'.\nLos triunfos de la roma(segundo con 84), 5–3en su visita \nal Chievo Verona(treceavo con 43), y del Napoli(tercer con 83), 4–1 como local ante la Fiore(ntimo séptimo con 59), impedían que la Vieja Senhora—que el miércoles se corono campeón de la copa italia—celebrase ayer sin jugar.\nLa Loba se imponía con goles de Stephan El Sharrawy(28′ y 58″), Mohamed Salah(42° y 76"), y Edin Dzeko(83"). Nahuel Castro(15") y Roberto Inglese(37'' y 86") descontaban.\nLa Victoria era crucial\npara la Roma en la competición por la segunda posición, sumamente importante en Italia puesto que otorga participación en la siguiente etapa de champions league evadiendo la tediosa preliminar,\nen Agosto.\nPor otro lado, Napoles se impuso con los goles de kalidou Koulibaly(8'), Lorenzo Insigne(36") y de Dries Mertens(57'' y 64"),
+    },
+    {
+        "headline": "DJOKOVICH FUÉ UNA MAQUINA Y LOGRA ACCEDER A LA FINALE ROMA",
+        "content": "Novak Djokovich\nserá el rival número uno en el Master de Roma después de haber tenido una intensa jornada sábado. Durante la vigésima quinta fecha del torneo, primero terminó su enfrentamiento contra el argentino Juan Martin Del Potro—aquel suspendido el viernes por precipitaciones climáticas—, al cual superó por marcador de 6–1 y 6–4. Más adelante, avanzará hacia la final frente al alemán Alexander Zverev, luego de vencerlo por parciales de 6–4 y 6–1."
+    }
+]
+```
+This JSON contains three extracted articles based on their headlines and contents following the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable, though none was needed here due to sufficient information being available within each segment.

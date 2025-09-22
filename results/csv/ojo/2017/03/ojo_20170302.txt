@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/03/ojo_02.txt ---
+
+```json
+[
+    {
+        "headline": "Accidente Fatal",
+        "content": "Según algunas recomendaciones que se dan a los conductores, \"Solo en lo que va del año hemos atendido un promedio de 50 siniestros en las playas del sur, una cifra que va en aumento durante esta temporada.\" Proceso similar ocurrió cerca de las costas de Asia y Chilca\", señaló Rodrigo Rodríguez Amayo, subgerente de servicio al cliente de la Positiva Seguro."
+    },
+    {
+        "headline": "Erick Sabater enfrentará a Heillé Sofier",
+        "content": "\"Está desesperada\" afirmó que tiene prueba... Gustavo Hom, padre de Chabelita Pañiy’lz’, hija de la cantante Brunella Hom’a, acepta – Redacción Isabel Pantoi'a, fue captada bailando junto a Antonio Pavón en una discoteca Renzo Cost’. ‘‘No puedo decir que estoy mintiendo, aunque es cierto que es algo que esperabas'', dijo el progenitor de la modelo, quien no la ve casada a los 21 años.”
+    },
+    {
+        "headline": "Anuncia Fin de Romance Katy Perry y Orlando Bloom",
+        "content": "Exige explicación Warren Beatty pidió a Cheryl Boone Isaacs, presidenta de la Academia, dejar en claro que a sus 75 años sigue siendo activa y relevante dentro de Hollywood."
+    },
+    {
+        "headline": "Posa Desnuda en Instagram",
+        "content": "Aficionados celebran el cambio radical de Look de Barbara Morí, mostrándose completamente rubia. Además, Karla Solís dice nada de Ronny García después de haber dado positivo en embarazo mientras él estaba detenido."
+    },
+    {
+        "headline": "Christian Castro Besa Periodista y Ofrece Matrimonio",
+        "content": "Durante su estadía en Puerto Rico, el cantante mexicano Cristian Castro fue abordado por la periodista Yulianna Vargas, quién le preguntó si era verdad lo dicho respecto a compartir novia con Luis Miguel y si tenía planes matrimoniales. Él respondió bromeando que sí podría hacerlo con ella."
+    },
+    {
+        "headline": "Daniel Kiri Confirma Cambio Radical de Imagen",
+        "content": "El cantautor Daniel Kiri Escobar ofrece un show para deleite de sus fanáticos. Su próxima aparición será mañana a las 20:00 hrs. en el local clandestino bar cultural ubicado en Pachitea 185, Lima."
+    },
+    {
+        "headline": "Magaly Medina Conductora de Televisión",
+        "content": "Magaly Medina comenta cómo espera recibirla el público en su nuevo papel como conductora del magazine matinal. Expresa que está preparada gracias a su experiencia acumulada a lo largo de muchos años en el medio."
+    },
+    {
+        "headline": "Confirma que quería renunciar a EEG por culpa de Krystyan Pérez",
+        "content": "Mario Hart confirmó que consideró seriamente abandonar el reality show debido a conflictos personales surgidos con otra participante, destacando momentos tensos vividos durante la producción."
+    },
+    {
+        "headline": "Kevin El Auténtico Impone su éxito por Youtube",
+        "content": "El cantante Kevin El Auténtico alcanza más de 16 millones de vistas en YouTube, ocupando posiciones privilegiadas en rankings musicales internacionales."
+    },
+    {
+        "headline": "Alianza Lima contratará jugador sudamericano",
+        "content": "Desde adentro nos informan que el futbolista buscado por Alianza Lima aún juega en la Copa Libertadores. Solo si supera rondas adicionales llegaría a jugar en La Victoria."
+    },
+    {
+        "headline": "Universitario rezó por la salud de Roberto Chale",
+        "content": "Miembros del club Universitario llevaron flores y veladoras hasta la parroquia Nuestra Señora del Consuelo en Surco, solicitando sanidad divina para su técnico lesionado."
+    },
+    {
+        "headline": "Juan Aurich Busca Primer Triunfo en Sudamericana Hoy Annte Arsenal",
+        "content": "El Ciclon buscará obtener su primer triunfo internacional en la Copa Sudamericana enfrentando al Arsenal de Sarandí en el Mansiche de Trujillo."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on recognizable patterns within the provided OCR text while adhering strictly to the defined rules and scope outlined in the task description. Articles were identified through their distinct structure involving headlines followed by relevant textual information. Unrelated sections such as ads, sports scores unrelated to narrative journalism, etc., have been excluded according to guidelines.

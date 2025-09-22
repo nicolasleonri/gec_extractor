@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/05/ojo_09.txt ---
+
+```json
+[
+    {
+        "headline": "Desesperado grita sus males y se siente morir en la cárcel",
+        "content": "\"La única realidad es que solo muriendo o\nen fase terminal saldrá en libertad\", dice.\n\"Naranjas\" piden el indulto,\nMeche Álvarez-Isla:s,a dice que aprey."
+    },
+    {
+        "headline": "Temple humano",
+        "content": "En San José (California), la artista Termy Merry pas cerca de nueve horas pintando meticulosamente desnudos y formándolos en un polo\nasí 54 mujeres respira\". El propósito de la obra de arte\nMenérra ayuda para mejorar la condición física\nde jóvenes en Nepal."
+    },
+    {
+        "headline": "Por un perro cuestan cerca de 1500 dólares",
+        "content": "Contrato contra todo pronóstico, una niña de 10 años, en Florida,\npeligroso enfrentamiento con un caiman de más de dos\nmetros de largo que la mordió mientras ella estaba nadando,\nCuando la menor disfrutaba del agua\napareció el cocodrilo y le mordió en la\npantorrilla y la rodilla. La pequeña fue\ncapaz de liberarse abriendo la\nmandíbula del animal, en un acto\nimposible para su edad, según los\ninvestigadores de la Comisión de\nConservación de Pesquerías y Fauna Salvaje\nde Florida."
+    },
+    {
+        "headline": "Pasero. Aunque el origen de los 7 kilos de cocaína envueltos en bolsas de\nmasa de maca, habas y ajos, que se le halló\narmado y a su amigo Daniel Quispe Alvarado (27), aún está en investigación,"
+        "content": "fuente policiales afirmaron que \"aparentemente el joven\nera 'pasero' y por hacer ese trabajo conseguía entre\nmil y dos dólares\". \"En el país el kilo de cocaína puede costar 20 mil dólares\",\nespecularon."
+    },
+    {
+        "headline": "Extorsionadores menesterosos postras Policías",
+        "content": "A menos de una semana desde que le dejaron una\ngranada, la ciudadana de Origen chino Yu Huan Dal denunció que mentalmente los \nresponsables amenazan con matar su chifa Lu W, ubicado en Miraflores Alto, en el\nCercado de Lima, si no le entrega dinero. Según\nla denunciante, un sujeto la llamó por teléfono y se\nhizo pasar como mayor PNP de la Dirincri para exigirle el pago de cupos semanal."
+    },
+    {
+        "headline": "Pistoleros mataron a dos taxistas",
+        "content": "Una fiesta patronal acabó en un baño de sangre, en una\nzona alta de Independencia. Delincuentes armados persiguieron a balazos a dos\nasistentes que bebían cerveza en la esquina del paradero 7 de la Av. \nIndependencia. Las víctimas son Bruzz Lee Sulzer Andrade (42)\ny Renzo Pacheco Mendoza (18), quienes intentaron huir\nmaniobrando los taxis con los que trabajaban."
+    },
+    {
+        "headline": "Padre e hijo son acusados de corrupción",
+        "content": "Detención de dos ecuatorianos buscados en Ecuador. Minutos antes de las 11 de la mañana, personal de Interpol Lima detuvo a Carlos \"Charles\"\nPareja Cordero (63) y Carlos Alberto Pareja Davison (33) padre e hijo respectivamente-- en la sede de\nAgencia de la ONU para los Refugiados, en la cuadra 38 de la avenida Paseo de la República, en San Isidro."
+    },
+    {
+        "headline": "Negocian. Según Cachay, esta cesión implicará un acuerdo con la Municipalidad de Lima para que les brinden una compensación, como el pago de los arbitrios, y la reconstrucción del taller de maestrancia y del cerco perimetral.",
+        "content": ""
+    },
+    {
+        "headline": "Empresas alertan mafia cobrar por recargas en Estaciones del Metropolitano",
+        "content": "Operativa de revendedores de saldo de tarjeta en las estaciones del metro de Lima. Rodrigo Fernandez, representante de atención al cliente de la línea 1, menciona que hay grupos organizados que hacen pasar a las personas pagando dos soles adicionales."
+    }
+]
+```
+This JSON captures each identified article's headlines and contents based on the provided criteria for extraction while ensuring proper cleanup according to specified guidelines. Articles lacking sufficient information have been marked appropriately where necessary.

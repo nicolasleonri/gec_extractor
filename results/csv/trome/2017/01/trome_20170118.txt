@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/01/trome_18.txt ---
+
+```json
+[
+    {
+        "headline": "Temblorem Lima y temen más huaicos",
+        "content": "COMIERON PAVITA ENVOLVERDA CON ENSALADA RUSSA\nle % 2 4 NOVIOS\nA — AN\nW INVITADOS\nea — 'o’' '.I '.\nPágina 13 — y\na . Tendrá que pedir permiso para salir del país y pasarán su secreto bancario."
+    },
+    {
+        "headline": "Pelpo sicarios le dispararon siete balazos delante de enamorada",
+        "content": "- CAUSA FUERE,\n‘Gracias a Dios’, ‘Gary llegó al restaurante por unos sabrosos tallarin – rosados con una pierna grande de pollo, acompañado de un plato de pasta a la huancaina con huevito duro y aceitunas. Para calmar la sed, se pidió un té heladito.’\n'Mara, el libro del reconocido periodista Pedro Salinas, “Mitad monjes, mitad soldados,” recoje el impactante testimonio de 30 antiguos integrantes del Sodalicio y relata los abusos físicos, psicológicos y sexuales de los que fueron víctimas, cuando eran menores de edad, a manos de algunos líderes de ese movimiento.'\nEl Sodalicio de Vida Cristiana es una institución católica peruana fundada hace más de cuatro décadas en Lima por Luis Fernando Figari Rodríguez, quién también es acusado de haber cometido ultrajes sexuales contra adolescentes. Ha sido muy comentado en los medios de comunicación y en redes sociales la decisión de la magistrada Pilar Peralta Ramírez de archivar el caso por pruebas’. La sentencia aduce que ‘no hubo ningún afectado que se acercara a denunciar que haya sido víctima de dichos abusos; lo cual Pedro Salinas desmiente. La fiscal también consideró que el hecho que el Sodalicio haya sido creado hace 40 años lleve a pensar que los delitos ya habrían prescrito, incluso si hubieran sido cometidos. Aquí está lo grave del asunto."
+    },
+    {
+        "headline": "Exoner Flores",
+        "content": "Apoyo a Verónica Mendoza. Hay que enfrentar la corrupción cara a cara. Conoce firmes inigualables. Encontró el determinante para los errores de los ’90". "
+    },
+    {
+        "headline": "Casos Moreira",
+        "content": "De otrolado, Becerril informó que la investigación tus actos de corrupción de Carlos Moreno estaba avanzada en un 80%. Indicó que Charálex gerente ejecutado de negocios del SIS puede decir que la Ministra de Salud, Patricia García, fue colocada en el cargo por Moreno, y que es por estar ahí, trata con guantes de seda al médico."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on the provided input while adhering strictly to the defined rules for extraction and cleanup. Note any missing data has been filled with `"NA"` where applicable according to guidelines.

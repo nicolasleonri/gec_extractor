@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/05/gestion_04.txt ---
+
+```json
+[
+    {
+        "headline": "SUBEN LAS TASAS DE INTERÉS PARA DEPOSITOS CTS",
+        "content": "Hay 33 entidades financieras que compiten por captar\nS/ 2,000 millones hasta el 15\nde mayo.\nExiste una cuenta\nCTS de S/ 7.6 millones.\nAhora la tasa de interés más elevada\nque se paga por los depósitos de CTS\nen soles es de 8.20%\nEn esta edición,\nel ranking de las instituciones que ofrecen\nmayores tasas en soles y dólares."
+    },
+    {
+        "headline": "EL DATO. CAJAS ADELANTARN FONDOS CON CARGO A DEVOLVERLOS CON ABONO DE CTS",
+        "content": "NA"
+    },
+    {
+        "headline": "HOY EVALÚAN MODIFICACIONES AL REGÍMEN LABORAL PARA EXPORTACIÓN NO TRADICIONAL",
+        "content": "Se pretende que no sea limitada la renovación de los contratos temporales.\nP. 12\nEl Gobierno está dispuesto a ampliar plazo\nde contratización en proyecto de nueva ley de empleo juvenil.\nCorte Suprema adoptará nuevo criterio para demandas por accidentes de trabajo."
+    },
+    {
+        "headline": "RELAPASA INVERTIRA US$ 89 MILLONES EN NUEVO TERMINAL PARA COMBUSTIBLES",
+        "content": "El objetivo de la iniciativa en Ventanilla\nes superar los cierres de terminales marítimos por oleajes anormales.\nRepónsa (\\"Ommercial SAC\\") subsidiaria de Relapasa,\nfocalizada en comercialización de combustibles,\nconsolidó su resultado operativo en el primer trimestre,\nque fue de US\$ 6.34 millones (un incremento de 80%),\ny mantuvo sus ventas a pesar de la reducción de la demanda local."
+    },
+    {
+        "headline": "MAS CONSULTING BUSCA EXPANSIÓN DEL CONCEPTO \"FOOD GOOD\"",
+        "content": "\"Mas Consulting\", especializado en producción de marcas y franquicias,\nbuscando expandirse hacia nuevas áreas gastronómicas.\nActualmente opera con éxito en varios centros comerciales importantes,"
+    },
+    {
+        "headline": "EMPRESAS ESTADOS UNIDENSES INVIERTE FUERTEMENTE EN PROPIEDAD",
+        "content": "Según estudios, familias de ingresos medios están destinando cerca de un tercio de sus ingresos a inversiones habitacionales."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual information. Unrelated sections such as ads, subscriptions, etc., have been excluded according to specified criteria.

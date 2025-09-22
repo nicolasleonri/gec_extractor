@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/06/peru21_26.txt ---
+
+```json
+[
+    {
+        "headline": "SEPA COMO ES EL PAGO DE FERIADOS Y DOMINGOS NO LABORABLES",
+        "content": "debido a los \neriados que se vienen\npor el Dia de San\ Pedro y San Pablo (jueves\n29 de junio) además del\ncaso particular sobre el \ntratamiento laboral y \nremunerativo aplicable al feriado y\nal dia no laborable.\nVictor Zavala, gerente del\nCentro Legal de la CCL, manifiesta que el trabajador del sector privado que laboure el jueves 29 de\njunio tendrá derecho a percibir tres remuneraciones."
+    },
+    {
+        "headline": "VENEZUELA, CHAVISMA CELEBRÓ QUE NO SE APRUBAREN PRONUNCIAMIENTOS SOBRE SU ESTADO",
+        "content": "\"En ONU\nOEA, doble victoria\"\nmLilian Tintori\ndenuncia que lleva más\nde 20 días sin poder\nver a su esposo,\nLeopoldo López.\nCaracas (Agencias).\n– El presidente venezolano, Nicols Maduro, manifest en su programa de televisión que su país obtenió una \"doble victoria\" tanto en la OEA como en la ONU porque no se aprobaron resoluciones que según éliban en contra de Venezuela. Según el Chávez, esos mismos organismos intentaban imponer un grupo de contacto que pretendía intervenir Venezuela. Además, señala que Paraguay presentó ante la ONU un documento injuriatorio, indignante y vulgar que no recibió ningún voto aparte del propio país."
+    },
+    {
+        "headline": "EEUU INDICA QUE CLINTON Y DEMOCRÁTAS ACTUARON CONTRA BERNIE SANDERS",
+        "content": "Donald Trump acusa a Hillary Clinton de \"conspirar\" con el Partido Democrático para asegurar la victoria frente al candidato Bernie Sanders en las primarias democráticas para las elecciones presidenciales de 2016. Su acusación sugiere conexiones con la investigación sobre interferencia rusa en las elecciones estadounidenses y vínculos con el equipo de campaña de Trump."
+    },
+    {
+        "headline": "EXPLOTACIÓN DE UN CAMIÓN CISTRERA DEJA AL MENOS 139 MUERTOS",
+        "content": "Islamabad (Agencias)\n– Una tragedia deja al menos 139 personas muertas y 110 heridas tras la explosión de un camión cisterna lleno de gasolina cerca de Lahore, Pakistán. Autoridades reportan que gran número de cuerpos están irreconocibles debido a la magnitud de la detonación. Bagir Hussain, miembro del equipo de rescate, menciona que identificar a las víctimas será complicado y requerirá análisis genéticos."
+    },
+    {
+        "headline": "IMPIDIERON MARCAZO DE ORGULLO GAY EN ISTAMBÚL",
+        "content": "Turcos disparen gases lacrimgenosos para bloquear protesta LGBT+ proscrita por razones de seguridad. Activistas reunidos en Plaza Taksim sufrieron ataques policíacos, marcando la tercera ocasión donde tal evento es obstaculizado oficialmente."
+    },
+    {
+        "headline": "EL EDIFICIO DESTINO ERA SER FACTORIA DE FIETES AHORA EST TUGURIZADO",
+        "content": "Emergencia continúa en Lima después de incendio devastador en local comercial. Bomberos combaten nuevas llamas emergentes en estructuras afectadas previamente. Testimonios revelan preocupaciones persistentes respecto a medidas preventivas deficientes y falta de recursos adecuados para manejar tales catástrofes urbanas eficientemente."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable, though none was necessary here given sufficient information within each segment.

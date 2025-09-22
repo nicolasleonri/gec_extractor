@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_07.txt ---
+
+```json
+[
+    {
+        "headline": "PODRÍA SER TU DESTINO ESTÁ ESCRITO EN EL CILOMBOLARIUM",
+        "content": "En el amor, es muy celosa y se entrega totalmente a su pareja. Según estudios astrógicos."
+    },
+    
+    {
+        "headline": "ESTE BOCHO VE QUE LOS DIAS PASAN RAPIDEZ",
+        "content": "Este Bocho ve que los días y la coyuntura política pasan rápidamente, como esos ‘píquitos’ en la boca que le da Brunellita a su Richard ‘Chucky’ Águila. Y ya saben, el que se pica pierde.\n\nBABUSO DE PODER: El fujimorismo, a través de su vocero Daniel Salaverry, interpuso una acusación constitucional contra el Fiscal de la Nación, Pablo Sánchez. Para este columnista, el asunto es grave. Que no se excuse diciendo que es a título personal. Lo peor es que su argumento se basa en que Sánchez “no realizó una investigación exhaustiva de la red vinculada a los actos de corrupción de la empresa Odebrecht.”\n\nEsta columna sostiene que esto es una venganza del fujimorismo, pues Keiko y su “gringuito” Mark Vito están incluidos en otra investigación como parte de una organización criminal por lavado de activos. Esto son los peligros de tener mayoría parlamentaria sin saber cómo manejarla adecuadamente.\n\nOLA JEFESA': En una controvertida resolución judicial, un magistrado chiclayano dej libre a Katiuska del Castillo, conocida infamemente como La Jefasa, quien estaba casada emocionalmente con el detenido expresidente regional de Lambayeque, Roberto ‘Betinho’. Ambos han sido señalados de liderar una agrupación corrupta llamada Los Limpios de la Corrupción, junto a otros cómplices familiares y administrativos. Han defraudado millones a la comunidad local y extorsionaban grandes sumas por contratos públicos. De humildes comerciantes ambulantes, gracias a su relación ilícita, lograron comprar propiedades multimillonarias, vehículos costosos y valiosas piezas de joyería. Ella dirigía directamente estos negocios turbios y manejaba fondos sucios según denuncia oficial. ¿Por qué tardaron tantos años en sentenciarlas?\nMadre e hija causaron revuelo tras recuperar su libertad bajo excusa legal técnica. Atención también hacia Rodolfo Orellana, quién podría solicitar igual beneficio procesal. Una verdadera falta de justicia palpable.\n\nOGUARDÉ PRESIDENTE: Parecería que está extraviándose políticamente. Mientras en el Parlamento grupos mayoritariamente antiguerristas planean acciones legales contra algunos integrantes gubernamentales, él decide visitar Argentina discutiendo temas relacionados con el indulto otorgado anteriormente a Alberto Fujimori. Además, piensa seguir rumbo a Vietnam ignorando demandas locales post-desastre natural reciente. Su famoso dicho de que “los perros ladren” resultará insuficiente si nuestros jugadores no consiguen avanzar internacionalmente.”
+    },
+
+    {
+        "headline": "ROSADO SE DESPIDIÓ CON GRANDES ACTORES",
+        "content": "Claudia Dammert era reconocida principalmente por su trabajo en telenovelas populares. Sin embargo, ella destacó más aún en el ámbito teatral donde formó varias generaciones de talentosas figuras artísticas. Era amante apasionada de la cultura y exploradora constante de nuevas experiencias vitales, incluso llegando a abandonarlo todo temporalmente para residir en lugares remotos como el Valle de Huaylas. Ahora descansa eternamente entre nosotros."
+    },
+
+    {
+        "headline": "TODO SOY PERÚ",
+        "content": "Nuestro equipo nacional ha llegado a Auckland, Nueva Zelandia. Ha sido emotivo ver cómo nuestra gente dispersa globalmente celebra fervientemente cada paso adelante de nuestro representativo deportivo. All, términos negativos asociados habitualmente aquí carecen significancia cultural. Todo gira entorno a ellos ahora, especialmente después de enfrentamientos previos complicados. Solo queda enfocarnos en el próximo encuentro crucial. As debe ser. Me desconecto momentáneamente de cualquier distracción visual."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on headlines and coherent narrative structures while adhering strictly to the guidelines for inclusion/exclusion criteria specified. Any unclear data has been marked appropriately according to instruction requirements.
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_07.txt ---
+
+```json
+[
+    {
+        "headline": "\"Loco\" del martillo",
+        "content": "Hoy en día, uno pensaría que ella estaba bien. Mi hermano me contó que iba aún a una reunión. Cuando baja al garage él la encuentra sentada en bicicleta, apoyada en la pared."
+    },
+    {
+        "headline": "Actriz Claudiam Domingo",
+        "content": "\"Ella estaba bien. Mi hermano me contó que iba aún a una reunión. Cuando baja al garage él la encuentra sentada en bicicleta, apoyada en la pared.\" Ella siempre dijo: \"No quiero que me entuben ni estar en un hospital, quiero morir tranquilo y así se fue, tranquilo y en paz. Y la recordé ayer diciéndome: ‘Árate 40 años, ¡feliz y vive!’\", indicó. De otro lado, precisó que espera el estreno de una de las últimas películas que hiciera su madre, Deliciosa fruta secreta, además será cremado sus restos en privado."
+    },
+    {
+        "headline": "Genesis Tapia debutará como cantante urbana",
+        "content": "\"Muchos no saben que, cuando integraba un grupo de cumbia, gran parte de las canciones tenía mi voz. Ahora me decidí y este verano lanzaré un tema con Dj Peligro\", dijo Genesis. Por otro lado, adelantó que con su esposo presentarán shows internacionales en verano, pues piensa contratar a cantantes como Lil Silvo y el Vega, Victor Muñoz y Manuel Turizo."
+    },
+    {
+        "headline": "Mejor homenaje",
+        "content": "\"Se merecen sólo porque para mí era la mejor actriz del mundo, sino porque el mensaje de la película es positivo, donaldonde alienta a las personas a seguir por sus sueños\", señala."
+    },
+    {
+        "headline": "Michell’ «Pato» Ovalle presenta su unipersonal",
+        "content\": \"‘Casados con guinda’, dónde bromeará sobre las distintas situaciones que se viven en el matrimonio.\"
+

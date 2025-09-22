@@ -1,0 +1,100 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/02/trome_18.txt ---
+
+```json
+[
+    {
+        "headline": "Bruno Rocha afirma que tuvo relación con la alcaldesa cuando ella estaba con ‘Potró’",
+        "content": "Alejandra engañó a RubíAmenza a Prastleo Guw\nSe tom selfie con jugadores de la Sub–17 que van a Chile\nde disciplina.\nEncontraron cadáver a página 16."
+    },
+    {
+        "headline": "Padre permisivo ofrece mucho afecto, pero sin límites ni normas",
+        "content": "Por lo cual los hijos suelen ser más inmaduros. Si los intereses y deseos del niño marcan la relación con los padres, estamos impidiendo que sean capaces de controlar sus impulsos. Habrá un autocontrol mínimo o inexistente debido a un bajo nivel de exigencia. Este tipo de padres hacen que sus hijos sean obedientes, pero sumisos, lo cual no está muy bien. Usualmente aplican el castigo sin mucha explicación, haciendo que los niños se sientan culpables y depresivos además de desarrollar una baja autoestima. No existirá dialogo con los hijos, resultando en ausencia de confianza y desarrollo limitado de habilidades sociales."
+    },
+    {
+        "headline": "Centro de Lima sede del Ministerio Público, en el Cercado de Lima",
+        "content": "Polícia constató que los seguros suman fortunas nada del mercado libre. Polícia asegura que están enganchados por internet y luego vendían estos artículos por Facebook. Policía intervino a un supuesto integrante de una banda de ladrones de tarjeta de crédito y débito, quién probaba dispositivos electrónicos por internet y después los vendía. Trabajo en la comisaría Primavera.”
+    },
+    {
+        "headline": "Detenido falsificado primo del 'Hombre Roca'",
+        "content": "Roberto Gabriel, vendedor de caramelos, intentó aprovecharse de una mujer mayor de edad mediante mensajes de texto haciéndose pasar por familiar. Agentes especiales detuvieron al individuo tras recibir información de vecinos alertándoles sobre actividades sospechosas cerca de la víctima."
+    },
+    {
+        "headline": "Después de años, finalmente saldrán miles de soles en efectivo",
+        "content": "Desde mañana domingo comenzará el sorteo de $5,000 dólares mensuales. Participa registrándote al número 710–0260 o visitando nuestra web. Todos los días puedes participar enviando SMS gratis. Solo necesitarás responder correctamente preguntas relacionadas con noticias recientes publicadas en nuestro medio."
+    },
+    {
+        "headline": "Kenji, Hiro y Sachi, hermanos de la excandidata presidencial Keiko Fujimori, podrían enfrentar cargos legales",
+        "content": "La Fiscalía integral inició investigación por posible lavado de activos vinculado a contratos obtenidos ilegalmente. Además, se solicitan detalles financieros adicionales respecto a negocios asociados a miembros de la familia Fujimori. Esta acción surge dentro del contexto ampliado de la Operación Lava Jato, colaborando también con entidades internacionales."
+    }
+]
+```
+This extraction focuses on identifying distinct headlines followed by their respective contents while filtering out irrelevant sections such as ads, contact information, etc. It ensures each entry adheres strictly to the required format for inclusion within the specified JSON structure.
+
+--- ERROR ENTRY: data/txt/trome/2017/02/trome_18.txt ---
+
+```json
+[
+    {
+        "headline": "Presentan en el Congreso miles de personas pertenecientes al género...",
+        "content": "pertenecientes al género’ que, según el colectivo ‘Con mi(s) Hijos’, promueve el Estado mishijos note atrávsdelCurrículoNacionaledela Educación Bsica.\n\nmetas marcharon ayer\nto al Congreso dela República\n\n*EN GAMARRA \nin dir y corbata», indic una vendedora.\n\nEn Mesa Redonda,\ntam Rematan bin se pueden encontrar\nuniformes escolares a precios cómodos. Por ejemplo, si su nío es talla 8,\nlos pantalones se encuentran desde 25 soles, las camisas 10 soles, y las chompas 28 soles.\nDe regalo puede recibir una corbata o una correa."
+    },
+    {
+        "headline": "Es más hombre cocina*, lava**",
+        "content": "Top3 –pm\n\nG Según un estudio realizado por la plataforma de Patrimoniedades Perú, las cifras del machismo en el país están disminuyendo (un 30%) y hay más hombres que cocinan, cuidan a sus hijos, lavan ropa y ayudan en otras tareas domésticas,"
+    },
+    {
+        "headline": "Dos mujeres en banda de »raqueteros«",
+        "content": ""
+    },
+    {
+        "headline": "*Manaña domingo",
+        "content": "Ecuadorianos eligen al sucesor de CORREA\nLenín MORENO, del partido oficialista Alianza País, y el exbanquero Guillermo LASO lideran las encuestas de cara a Rafael Correa, con más de diez años en el poder.\n\nEn tercer lugar se ubica la excandidata de derecha Cynthia VITERI, seguida del exalcalde de Quito, PACO MONCAYO, y otros cuatro candidatos. Un total de 12.8 millones de votantes está(n) habilitados para sufragar."
+    },
+    {
+        "headline": "Campán de solidaridad",
+        "content": "Hasta marzo\nApoyo a Juanjo, un niño de 8 años que padece de Leucemia Linfática Aguda y necesite costear su tratamiento.\n\nEncargado del Estudio Nacional del Fenómeno de El Niño (ENFEN).\nPese a ello, anunció que habrá lluvias muy fuertes en Tumbes, Piura y Lambayeque.\n\nPara ayudarlo puedeen comprar fotos disponibles en Facebook bajo el libro Una Foto por Juanjo y adquirir alguna fotografía. También hacer una donación a la cuenta de ahorros BCP en soles número 19219367526056."
+    },
+    {
+        "headline": "PaulBobadilla",
+        "content": "Agentes contaron que el mismo jueves horas después del hallazgo del cuerpo sin vida, se dirigiera al gimnasio Gym2345 dónde trabaja el sospechoso. Allí algunas compañeras dijeron que no había llegado a dar sus clases esa tarde. Supo que el físicoculturista residía varios años en Venezuela y que volvía junto a su esposa e hijo. Preparándose para la competición Mister Per 2017 era aspirante alt título de Mister Per.”
+    },
+    {
+        "headline": "Tiempo Australia",
+        "content": "Árbol mide 16 centímetros\n\nxCantante de «Va valió la pena» tiene 47 años y sale con modelo Dominicana\n\nOlvidó a Richiboya\n\n*Araña giganta\n\nSe afirma que estos animales son muy temidos y cuando los ven, inmediatamente los matan. \"Por eso es raro\" afirmó Faulker."
+    },
+    {
+        "headline": "Roberto Chale se juega el puesto ante UTC y no contará con los lesionados Juans Vargas, Albert Rodríguez y el expulsado Archimeyes Figuera",
+        "content": "primero, los malos resultados. Segundo, los violentos que agredieran a los jugadores. Y tercero, los lesionados y expulsados. A Universitario parece costarle más que al resto. Mañana visitará Cajamarca y dog desguiriégalos rivales figuras quedarían fuera del compromiso ante UTC: Juan Vargas con fractura en la pierna izquierda y Alberto Rodriguez desgarro muscular derecho. El 'Loco' se queda en Lima por un mes detención médica entendiendo que podría agraviarse aún más. Regresarán durante Real Garcilaso go."
+    },
+    {
+        "headline": "As que PPQ qued sorprendido cuando entró a la Videna",
+        "content": "\"El primero parte es siempre el más difícil\", cree él. Que será contra Brasil y luego vienen Argentina. Nosotros estamos en Perú o Argentina.\" La verdad que metió una chicaperica con elegancia. Firme que algunos se la llevan sin levantar un brazo. Resuelve..."
+    },
+    {
+        "headline": "Pedro Pablo Kuczynski, Presidente de la República, hace espacio en su agenda para motivar a la Selección Peruana Sub–17",
+        "content": "Que participará en el Sudamericano de Chile. Pedro Pablo Kuczynski, presidentede la República, hizo un espaciopor venir hastala Videna y darle lamanoaca dauno de los jugadores dela selecciñSub–17de Perú, quienes se alistapor participe nelSudamericanode Chile. Creo que el primer partido es repentinamente el más dificilt. Quizás contraBrasil y despues vieneArgentina.Nosotros estamos en Perú o Argentinas.No más una plantita o vidrio roto paramandonar el partido'"
+    },
+    {
+        "headline": "Alianza Lima no fichará a Iván Santivián",
+        "content": "Al arrocito Zambito. Irven Vilà rechazó la posibilidad de ser prestado a Alianza y seguir tentando una oportunidad en Cristal. Nadie me ha comunicado sobre ese interés. Me quedo aquí todo el 2017 y pienso en la Copa Libertadores. Ya quiero jugar y salir en banca ante la San Martín,\" comentó el 'Cholito', quién tiene una chance ante la ausencia del argentino Christian Ortìz, debido a que aun no llega su carta pasè."
+    },
+    {
+        "headline": "Académica Cantolao pierde con autogol de Paulo Albarrácín",
+        "content": "Casualidad o destino, Académica Cantolao sigue sin saber qué es un solo triunfo. Ayer, con un auto-gol de Paulo Albarrácín, cantautor del año, tirón de orejas a Carlos Orejuela, lateral derecho de Willian Municpal, otra vez bella a Genaro Collazos, defensor central de Sporting Cristal, perdería 3-1 ante Sport Boys en el Miguel Grau del Callao."
+    },
+    {
+        "headline": "Celebremos el aniversario",
+        "content": "Viernes 17 Feb.\nYa se presentó...\n¡Su número!"
+    },
+    {
+        "headline": "Venta final",
+        "content": "Ventas mayores a $3500 en muebles y electrodomésticos, Pagando con Tarjeta Cencosud. Ejemplo: Por un consumo total de S/ 2,000, a un plazo de 12 meses, pagar cuotas de S/ 135.75, que incluyen el total de intereses de S/ 475.47, comisión por envío físico de estado de cuenta mensual S/ 4.90 y gastos por seguro de desgravamen mensual S/ 7.90. Se cobra una comisión anual por membresía de S/ 99.00. Las cuotas no canceladas en la fecha de pago, estarán sujetas al cobro de penalización por pago tardío de acuerdo al tarifario vigente."
+    },
+    {
+        "headline": "",
+        "content": "LUIS SÚÑEZ dice que en el futbol no hay nada imposible y ansa un turno. Corre y embala al argentino Paulo Dybala nada."
+    }
+]
+```

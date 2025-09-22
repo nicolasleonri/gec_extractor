@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/01/elcomercio_11.txt ---
+
+```json
+[
+    {
+        "headline": "Entrevista a: Alán García Pérez",
+        "content": "\"Es un quinquenio \npérdido por falta\n\nde objetivos\"\n\nMuy poco. El líder aprista\n\ncuestiona exígüas cifras\nde crecimiento del país en\n\nel gobierno de Humala.\n\nSin inversión. Cree que el\n\ncapital privado no super\n\lla desconfianza generada\n\ntenía la campaña del 2006.\n\nComparaciones. Niega\n\ttener un ego colosal y dice\n\ntambién que este gobierno\n\ncarece de grandes obras sociales.\n\n'Narcoindultos'. Subraya\n\ntambién que presidentes de\notros países también han dado\n\nindultos y no se los crítica."
+    },
+    {
+        "headline": "HOY escriben",
+        "content": ""
+    },
+    {
+        "headline": "Casos políticos y controversias",
+        "content": "\nPregunta sobre 'narcoinsultos': Mire,\nlíderes como Bachelet y Piñera liberaron\na miles incluidos muchos por narcotráfico.\n\n\"No me ha pagado ningún narcotraficante.\" Insiste con la\nacusación hacia Ollanta Humala. Tiene buena memoria.\nEntró a política por fe en la historia peruana.\nRumores sugieren cambios en el Gobierno. ¿Será útil?\n¿Cuándo decide competir?"
+    },
+    {
+        "headline": "Belaúnde podría permanecer más días en Bolivia",
+        "content": "El prófugo Martín Belaúde Lossío dispone aún de 95 días según la legislación boliviana, dentro de los cuales no será deportado ni extraditado mientras espera resolución de su petición de refugio. Su situación está siendo evaluada por la Comisión Nacional del Refugiado (CONARE).\n\nSu abogado señala que existe margen para múltiples convocatorias antes de que su solicitud sea abandonada automáticamente. Esta información proviene directamente de fuentes diplomáticas y legales involucradas en el proceso."
+    },
+    {
+        "headline": "Presidente Humala advierte sobre futuras decisiones legislativas",
+        "content": "El Presidente enfatiza la importancia de priorizar el desarrollo económico y educativo joven, especialmente en zonas vulnerables. Critica duramente la nueva regulación laboral destinada a jóvenes, argumentando que sacrifica derechos básicos por intereses partidistas temporales. Insta a los parlamentarios a reconsiderar estas medidas en nombre de principios éticos y responsabilidad pública."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles lacking distinct headings were assigned `"NA"` where appropriate.

@@ -1,0 +1,50 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/06/gestion_01.txt ---
+
+```json
+[
+    {
+        "headline": "DECLARA COMO NECESIDAD NACIONAL CONTAR CON LEY REGULADORA",
+        "content": "Se aprobará?\n\nLa agenda está cargada. En los próximos días debe verse los casos de los congresistas Augustín Molina (Gana Perú) y María Corredor (Fuerza Popular). Ambos se les acusan de haber reducido el salario de sus trabajadores.\nPero no son...\n\nQUE DECLARE\nPago de Impuestos."
+    },
+    {
+        "headline": "Urge declaración jurada y pago de impuestos",
+        "content": "\"\nPara Mauricio Mulder, Nadine Heredia debe presentar las declaraciones juradas y pago de impuestos que realice por el dinero que ingresaba a sus cuentas bancarias producto de consultorias, etcétera, antes de despejar las dudas sobre su origen,\nEntre ellos, el de la empresa venezolana de inversiones Kayssmak C.A., por más de US$ 108,004.\n\"Ya hemos pedido que sean depósitos por más de US$ 86,000.\nDesde el oficialismo, ya han señalado que el dinero no proviene de los fondos de Kayssmak, sino de peruanos que vivían en Venezuela, quienes envíen sus ahorros a través de dicha compañía, a efectos de apoyar la candidatura de Ollanta Humala a la presidencia.\nLos depósitos llegaron en el año 2005. En el reportaje se menciona que el Partido Nacionalista apenas se registró ante JNE en junio de 2006.\nCuando la Fiscalía decidiese reabrira la investigación no sólo lo haría con motivo de los movimientos financieros, según Andrés Rebagliati indicó que Perú Patria Segura no apoya a PPK.\nEl legislador, quien demostró otra vez que soñar no cuesta nada, señaló que está conversando con tres políticos de peso para que sean sus candidatos."
+    },
+    {
+        "headline": "LA AGENDA RECARGADA",
+        "content": "\nEn los próximos días debe verse los casos de los congresistas Augustín Molina (Gana Perú) y María Corredor (Fuerza Popular).\nAmbos se les acusan de haber reducido el salario de sus trabajadores.\nPero no son... \n\nQUE DECLARE\nPago de Impuestos."
+    },
+    {
+        "headline": "Karina Abárca analiza tendencias electorales",
+        "content": "¿Sin freno aún? En constante carrera parecer estar la popularidad del alcalde de Lima, Luis Castañeda, quién poco a poco fue ganándole el respaldo de los sectores socio-económicos que lo llevaron al poder.\nSegún la encuestadora GFK Opinion, Castañeda perdió en solo un mes ocho puntos porcentuales en el estrato C.\nMientras tanto, en los sectores D y E aumentó en tres puntos porcentuales.\nEn abril, la aprobación del burgomaestre capitalino en el sector C era de 63% y hoy es de 55%. Mientras en D y E un 33% de sus simpatizantes optó por distanciarse de él tras completar treinta días de su gestión.\nNo obstante, los sectores A mantienen firme su esperanza en el trabajo de Castañeda.\nCasos polémicos incluyen aquel relacionado con Alberto Fujimori, así como también critican acciones gubernamentales bajo el gobierno de Alejandro Toledo."
+    },
+    {
+        "headline": "Evalúa ciudadanía agradecimiento a Luis Castaña",
+        "content": "GF: Aprobación de Castañeda cae, pero se recupera ocho puntos en sector AB.\n-Sus asesores le recomendaron ser más comunicativo y dar más detalles de las obras.- Zo & Burgomaestre incrementó en segmentos C, D y E.\nKarina Abárca explica cómo la percepción pública varía dependiendo de diversos eventos y administrativas medidas tomadas durante el periodo inicial de gestión municipal."
+    },
+    {
+        "headline": "Acusación internacional involucra a Diosdado Cabello",
+        "content": "Demandará a medios de España\n---\nEl funcionario venezolano exigirá que los medios internacionales presenten pruebas en su contra.\nWall Street Journal publicó documentos que sostienen que Diosdado Cabello y otros altos funcionarios están siendo investigados por trafico de drogas y blanqueo de dinero.\nCabello realizará la denuncia en Venezuela y posteriormente en España y EE.UUU.\n-No puede ser que la prensa haga juicios a alguien sin presentar ninguna evidencia-", afirmó en una entrevista reproducida por Televen."
+    },
+    {
+        "headline": "Armada Árabe ataques Yemen",
+        "content": "Aviones de una coalición encabezada por Arabia Saudita bombardearon el sábado posiciones de hutíes yemenitas, mientras que el Gobierno del país en el exilio informó que las milicias rebeldes habían estado en conversaciones con Estados Unidos en Omán."
+    },
+    {
+        "headline": "EE.UU. evalúa política anti-Estad Islámico",
+        "content": "Jeb Bush califica como un fracazo la política actual de Estados Unidos frente al Estado Islámico y sugiere enviar tropas adicionales para entrenar a fuerzas locales y ayudarlas a identificar mejor a sus objetivos."
+    },
+    {
+        "headline": "Primer test electoral para Matteo Renzi",
+        "content": "Italia enfrenta elecciones locales que servirán como primera evaluación significativa para el Primer Ministro Matteo Renzi después de triunfar en las elecciones europeas hace un año. Destaca la alta abstención comparada con ciclos anteriores."
+    },
+    {
+        "headline": "Revisión financiera mediante apps móviles",
+        "content": "Existe una variedad de aplicaciones diseñadas para manejar finanzas personales eficientemente, tales como ToshFinances, Expensify, SepacoMon, DollarBird, Monefy, BillTracker, Doxo, Pocket Money, Splitwise, GastoDiarios, y MoneyControl. Cada aplicación ofrece características únicas adaptadas a diferentes preferencias y necesidades de usuario."
+    }
+]
+``` 
+
+This JSON captures each distinct article found within the provided input while adhering strictly to the specified format requirements for headlines and contents. Articles were identified through changes in context, topic shifts, and recognizable headings throughout the document. Any unclear data was marked appropriately according to guidelines given.

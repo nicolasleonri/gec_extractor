@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/05/trome_19.txt ---
+
+```json
+[
+    {
+        "headline": "Milagros Vivar asegura que Verónica Alcalá...",
+        "content": "Milagros Vivar asegura que Verónica Alcalá le dijo que iba a destrozala por estar con su hijo Iván Rivera Plastata y Shirley Arias, quienes están sentenciados.\n\nAsí mismo, en el 2012, durante un programa en México, Bozzoa afirmó que \"Gisela ‘es la reina’ de la televisión peruana\", una persona que admira y quiere. Jamás en mi vida he hablado mal de ella,” coment."
+    },
+    {
+        "headline": "Divertidos momentos detrás de cámaras",
+        "content": "\"Me diverti\" Por otro lado, Laura comentó que se divirtió mucho al grabar con Jorge Benavides. Era la primera vez que grababa con él. Las pastas más muy buenos con la parodia en la que participó Nicolás Palacios,\" detalló la abogada. Entretanto, Alfredo Benavides ('Paluch') destacó la buena disposición de la figura de la televisión para grabar. \"Ha sido fenomenal grabar con Laura, es una mujer con mucha carrera y chispa. En vez de molestarse con la presencia de Paluch, se divirtió," dijo el cómico."
+    },
+    {
+        "headline": "Atención legal tras demandas laborales",
+        "content": "Tula Rodríguez fue denunciada por dos extrabajadores de su spa, a quienes debería indemnizar por despidarlos arbitrariamente. Carlos Mendoza y Marco Antonio Carbajal piden a la actriz que cumpla con pagarles. \"Ya está sentenciado en todas las instancias y no puede apelar más, pero lo que más me indigna de la señora Tula Rodríguez es que, en vez de solventar su problema, crea problemas declarando que nos colgamos de ella. Inclusive dijo que el señor Carbajal nunca trabajó para ella para justificar su falta,\" indicó Carlos Mendoza, a quien la 'peludita' le adeuda 29 mil soles.\" Ella tenía que abonar a los cinco días de emitida la sentencia, han pasado 32 y nada. Ahora el juez determinó el embargo de sus cuentas bancarias. Tendrá que pagar de todas formas,\" añadió."
+    },
+    {
+        "headline": "Polémicas entre celebridades continúan",
+        "content": "Kimberley Soifer dijo que su hermana Michell podría demandar a su exnovio, el bailarín Gustavo Rivera, por todos los comentarios sobre ella. Además, el español Santiago Lesmes afirma ser igual Rocky Belmonte de los zapatos, argumentando que posee más de 150 pares. Luciana Fuster expresó sentirse tranquila respecto a Austin Palao y compartió que el combatiente es un chico sencillo, reservado y amoroso."
+    },
+    {
+        "headline": "Confrontación pública en reality show",
+        "content": "Mario Hart y Krystyan Paz fueron protagonistas de una tensa situación en el set de 'Esto es Guerra,' luego de que la producción decidió silenciar micrófonos después de que Hart advirtiese a Pérez que no se meta con él y sugiriendo que podrían arreglarlo después. La presencia de Peréz incomodó al piloto y a su esposa Marlene Figueredo, así como también a Nicola Porcel, quien criticó la conducta diciendo: \"Acá necesitamos competidores y no esto\". Finalmente, Mario optó por pasar al equipo contrario, provocando aún mayor confrontación."
+    },
+    {
+        "headline": "Alexander Blas aclara relación con Karla Tarazona",
+        "content": "Después de difundirse el video del cumpleaños de Karla Tarazona en un penthouse frente al mar de propiedad del empresario y cantante Alexander Blas, especulan sobre una relación más profunda. \"Somos amigos, tenemos una bonita amistad. Karla es una mujer guapa, trabajadora y tenemos planes interesantes en el futuro. Pero no tenemos ningún tipo de relación,\" aclaró Blas."
+    }
+]
+```
+This extraction captures several distinct stories within the provided text while adhering strictly to the guidelines for identifying headlines and merging relevant content paragraphs together. Any non-article elements such as ads were excluded according to the specified criteria.

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/01/gestion_11.txt ---
+
+```json
+[
+    {
+        "headline": "QUÉ VALORES GUÍAN TU COMPORTAMIENTO?",
+        "content": "“Sus valores son sólidos y los tienes muy claros, te servirán como armas de seguridad contra las tentaciones”. Los mares de la vida están llenos de cantos de sirenas o tentaciones donde no sirva de mucho que llenaras con cera tus oídos, pero el mástil al que puedes amarrarte para asegurarte que no sucumbas ante ellas, es tu absoluto compromiso de vivir en armonía con tus valores.\n\nCómo dice Fred Kofman en su libro \"La Empresa Centrica\", vivimos en un mundo donde frecuentemente te encuentras con la tentación de comportarte de una manera que no está alineado con tus valores. Si tus valores son sólidos y los tienes muy claros, te servirán como armas de seguridad contra estas tentaciones."
+    },
+    {
+        "headline": "Entrevista Jaime Rodríguez-Fras, Gerente General de Citron",
+        "content": "\"En enero abrirémos dos tiendas en Lima y en febrero una en Trujillo\"\n—La compañía francesa se suma al portafolio de Derco, que invierte S/ 5 millones para mejorar la distribución. Annuncio la llegada de dos nuevos modelos.\n\n\"¿Qué fue lo que determinó que Derco fuera elegido?\nSu experiencia. Derco viene bien en ventas, postventa y una red acorde a lo que PSA requería. En cuanto a cifras, ofrecimos para el primero año una inversión de S/ 5 millones para mejorar la red de distribución en algunos puntos, es decir, mejorar la experiencia del cliente.\""
+    },
+    {
+        "headline": "Cambiar y Reforzar Identidad",
+        "content": "\n"Citrón no estaba posicionado en el mercado", declar Jaime Rodríguez Fras, gerente de la marca. Según señala, un estudio de mercado determinó que las personas tenían una percepción nula o alejada de la marca.\n\n\"La gente cree que tenemos servicios costosos, pero eso está alejado de la realidad», argumenta el directivo, quién en tanto señala que Citró[n estar en un cambio global de identidad... y refortzará la percepción del cliente."
+    },
+    {
+        "headline": "Campus Tecnológico Universitario",
+        "content": "Después de haber diseñado conjuntamente la carrera de Ingeniería Biomedica, la Universidad Peruana Cayetano Heredia (UPCH) y la Pontifica Universidad Católica del Perú (PUCP) VOILÁN a sumar esfuerzos. Ahora, planean ejecutar un campus técnológico en Santa María del Mar."
+    },
+    {
+        "headline": "Expansión de Mineras",
+        "content": "La producción de cobre de Perú alcanzaría este año niveles récord de hasta 2.7 millones de toneladas, frente a 2.2 millones estimados en todo el 2016, un crecimiento de 20% este año."
+    },
+    {
+        "headline": "Nuevo Operación de Las Bambas",
+        "content": "Controlada por MMG –filial de la China Minmetals– y la expansión de la mina Cerro Verde de Freeport McMoran Inc ampliaron a capacidad extractiva de cobre en Perú en el 2016."
+    },
+    {
+        "headline": "Tequila Premium Ganó Juicio",
+        "content": "Patrón Spirits Internacional ganó un juicio contra la marca de pisco Portón, logrando cancelar el registro de la marca peruana, argumentando que confundirá a los compradores por la pronunciación."
+    },
+    {
+        "headline": "Franquicias Expanding",
+        "content": "Para acelerar su expansión en el Perú, Mail Boxes ETC del Grupo Italiano Finemeffè proyecta la apertura de una segunda tienda propia."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies within each segment. Unrelated sections such as ads, contact information, etc., have been excluded according to specified criteria.

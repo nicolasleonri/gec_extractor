@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2017/06/elcomercio_21.txt ---
+
+```json
+[
+    {
+        "headline": "Conozca las claves del polémico video arbitraje en el futbol",
+        "content": "Después de que se vote cuestión de confianza a Thorne\nCarlos Basombro acude \nhoy al Parlamento para responder a interpelación.\nPregunta. Titular del Interior contestará 39 preguntas sobre inseguridad, el Movadef y un presunt... "
+    },
+    {
+        "headline": "Editorial",
+        "content": "\"Desde que fuera designado Contralor General de la República [...]\", editorial de El Comercio \"Los descontrol...\" Desde que fue designado Contralor General de la República en junio del año pasado, Edgard Alarcón ha figurado en los titula...
+    },
+    {
+        "headline": "EL CONGRESO NO RESPALDA A ALFREDO THRONE",
+        "content": "Con los números en rojo Definición ● Solo el oficialismo apoyará la cuestión de confianza solicitada por el Ministro de Economía, quién tendrá que renunciar en las próxi...
+    },
+    {
+        "headline": "EDUCACIÓN ECONÓMICAMENTE EFICIENTE PARA UN PAÍS MEJOR",
+        "content": "Pedro Pablo Kuzcyński reveló cómo será el primer 'jale' para su Gabinete en caso de victoria electoral. Sin embargo, después de solo unos meses, la situación política cambió drásticamente."
+    },
+    {
+        "headline": "DECLARACION DE NAHDINE HEREDIA SE FRUSTRA POR CAMBIO DE ABOGADO",
+        "content": "Antes de testificar, buscar acreditar como propio al defensor de Ollanta Humala. Según Nadine Heredia, Julio Espinoza es parte de su equipo legal. Este último también representa a Humala."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined rules for extraction and cleanup. Note how each entry corresponds to distinct sections identified within the given text. Some entries have been truncated due to length constraints but maintain essential information relevant to their context.

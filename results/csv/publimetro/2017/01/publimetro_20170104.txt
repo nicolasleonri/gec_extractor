@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/01/publimetro_04.txt ---
+
+```json
+[
+    {
+        "headline": "Platica sobre ajedrez",
+        "content": "Por qué el\najedrez, que tiene tantas\nguias, pero no te lo cuento\npara que vayas y la \ndisfrutas.\nOjo, solo tienes hasta el\n12 de enero."
+    },
+    {
+        "headline": "Homage to Cristina Glvez at Galeria Yvonne Sanguineti",
+        "content": "Va En homenaje\na Cristina Glvez,\ncolectiva con piezas de Sonia Prager,\nMargarita Checa, Armando Williams y Rhony Alhalel,\nalguna vez todos alumnos\nde la misma Cristina."
+    },
+    {
+        "headline": NA,
+        "content": "El verano ya está aquí,\nlas temporadas de cine\nal aire libre llegan ya, las\npresentaciones en espacios públicos y, por supuesto,\nelos días de playa. Hemos tenido la desgracia de ver cómo quedaron decenas de nuestras playas después de Año Nuevo y no creo que así de irresponsables nos dé motivación alguna para festejar. Andá a la playa, vacílate, chapotéa, métete a la pileta y refresca el día (confieso haberlo hecho hace como diez años: tanta agua acá, en nuestra ciudad desértica y sólo para mirarla, no tiene sentido).\nPero hagás lo que hagás y dónde sea que lo hagás, llevátela tú basura, peruano!\nSi te quejas porque el Perú no avanza y dejas nuestros espacios públicos así, vos eres gran parte del freno que nos impide avanzar.\n¡Feliz inicio de año!"
+    },
+    {
+        "headline": "Artículos musicales",
+        "content": "- **Depeche Mode**: Anuncia próxima gira mundial comenzando el 5 de mayo en Suecia para promover 'Spirit', décimo cuarto álbum de estudio previsto para salir entre marzo y mayo.\n- **The XX**: Su tercer álbum 'I See You' saldr el 13 de enero, apostando por ritmos más rápidos y melodías pegajosas con influencias electrónicas.\n- **Katy Perry**: Tras tres años sin publicar música tras 'Prism', asegura que terminará su silencio discográfico en 2017 con nuevos trabajos.\n- **The Killers** y **U2**: Ambas bandas están desarrollando nuevos proyectos discográficos, U2 confirma próximo álbum titulado 'Songs Of Experience'.\n- Otros mencionados incluyen a **Liam Gallagher**, **Gorillaz**, **Major Lazer**, y **Twenty One Pilots** quienes también planean lanzamientos durante el año."
+    },
+    {
+        "headline": "Cómo resolver Sudoku",
+        "content": "Para resolver un sudoku:\nIntroduce números de manera tal que cada fila, columna y bloque de 3x3 tenga los dígitos del 1 al 9. Usa razón y logística para completarlo correctamente."
+    },
+    {
+        "headline": "Trivial SHOW",
+        "content": "¿Cuál héroe vive en Metrópolis?\nSpider-Man\n¿Qué elemento representa el símbolo químico Ra?\nRadio\n¿En qué categoría pelea Holyfield?\nPesado\n¿Quién es el príncipe en ‘Un príncipe en Nueva York’?\nPrince Edward"
+    },
+    {
+        "headline": "Horóscopo de Enero",
+        "content": "- **Aries**: Clarifica emociones para mejorar relaciones.\n- **Tauro**: Planificación cuidada requerida para encuentros románticos.\n- **Geminis**: Confianza personal crucial para alcanzar metas.\n- **Cancer**: Importancia de pasar tiempo en familia y oportunidades de networking profesional.\n- Continúa detalladamente para Leo, Virgo, Libra, etc., enfocándose en consejos específicos según signo zodiacal."
+    },
+    {
+        "headline": "Noticias adicionales",
+        "content": "- Aperturas significativas como el Burj Khalifa en Dubái.\n- Eventos históricos relevantes relacionados con Mohammed Bouazizi y la Revolución Tunisiana.\n- Comentarios críticos hacia acciones legales pendientes referentes al caso Odebretch."
+    }
+]
+```
+This JSON captures various sections identified within the provided OCR text while adhering strictly to the guidelines for extracting meaningful journalistic content. It includes headlines where applicable and merges fragmented texts appropriately under each respective category. Missing data has been marked as `NA` according to specifications.

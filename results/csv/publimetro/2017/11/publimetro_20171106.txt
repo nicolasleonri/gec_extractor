@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/11/publimetro_06.txt ---
+
+```json
+[
+    {
+        "headline": "Una característica interesante de la obra",
+        "content": "\"Según Gonzalo Torres, es que al ser un cóctel de fallos, algunos errores reales ‘pasan pa’ llá’. Nunca me había pasado en ninguna obra que los errores pasaran luego a formar parte del guión en las siguientes funciones\", cuenta.\n\n\"Ritter añade: \"Lejos de ser una burla al teatro, creo que es un homenaje. Que el actor, por muy aficionado que sea, y a pesar de las adversidades, trata de llegar hasta el final de la función.\""
+    },
+    {
+        "headline": "KAZUHITO YAMASHITA INTERPRETARÁ HOY UN VARIEDAD REPERTORIO PIECES CLÁSICAS ARREGLOS PROPIOS",
+        "content": "LA ASOCIACIÓN PERUANO-JAPONESA CELEBRARA SU ANIVERSARIO CON PROGRAMACION ACTIVIDAD GRATUITAS QUE DESTACAN LA CULTURA NIPO EN PAÍS."
+    },
+    {
+        "headline": "AJEDRECISTA JAPONÉS",
+        "content": "+ EL PRÓXIMO SÁBADO 11 DE NOVIEMBRE DESDE LAS 11 AM SE REALIZAR TORNEO SHOGI, JUEGO ESTRATEGIA LLAMADO AJEDREZ JAPONÉS.\n*LUGAR HALL CENTRO CULTURAL PERUANO JAPONÉS INGRESO INSERCION LIBRES CAPACIDAD LIMITADA."
+    },
+    {
+        "headline": "QUÉ DEBE JUGAR POR GUERRERO?",
+        "content": "JEFFERSON FARÑA ES MI PRIMER OPCIÓN, EXPONE EDWARD FLEISCHMAN, PERIODISTA DEPORTIVO. \n“EL LOCOMOTIVISTA MARCA GOLES Y DA PASSES DECIDORES PARA SUS COMPAÑEROS.”\n“RAL RUEDA PODRIA SER OTRA ALTERNATIVA, YA QUE OCUPA ESA POSICIÒN EN UNIVERSITARIOS Y AHORA MORELIANS.”
+    }
+]
+```
+This extraction includes four distinct pieces identified within the provided OCR text based on their headlines and associated contents while adhering strictly to the defined criteria for inclusion/exclusion. Any extraneous information such as ads, schedules unrelated directly to journalism, etc., has been omitted according to guidelines.

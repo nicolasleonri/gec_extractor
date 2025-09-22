@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/05/peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "Deporte y Opinión",
+        "content": "’Seguro que vamos a sufrir, pero vamos a seguir\ncon nuestro camino. Para nosotros, estamos 0–0’. \nZinedine Zidane.\nDT Cel A’a id no se confía por la ventaja del 3–0 de la ida.\nCHAMPIONS LEAGUE. REAL MADRID VISITA AL ATLETICO EN LA VUELTA DE LAS SEMIFINALES."
+    },
+    {
+        "headline": "Aguiar critica a jugadores peruanos",
+        "content": "Dura crítica. El volante de Alianza Lima Luis Aguiar\npuso una opini\u00f3n que seguramente no les gustar\u00eda a muchos de sus colegas. Para el uruguayo,\nal jugador peruano le ’falta carácter’. ‘Creo que al futbolista peruano\nle falta carácter, hay jugadores dotados físicamente y técnica mente sobrados, como lo son Christian Cueva o Miguel Trauco en Brasil.’"
+    },
+    {
+        "headline": "'Carlos Viguria Chavez'",
+        "content": "‘Lock range is the New black’, cuenta con gran cantidad por presentar, con humor y drama, las historias de las prisioneras de la cárcel de Litchfield, dividida por jerarquías y razas. Entre ellas está el Spanish Harlem, donde reside ‘Daya’ Diaz.'
+    },
+    {
+        "headline": "Magneto y Mercurio regresarán a los años 90",
+        "content": "“Vamos a dar lo mejor de nosotros en este concierto de Magneto y Mercurio será solo uno. Ser un show inolvidable.” Contó Mauri Sternman, integrante de Magneto.”
+    },
+    {
+        "headline": NA,
+        "content": "TECNOLÓGICA DE ALIMENTOS SA.SUCURSAL DEL PERÚ EN LIQUIDACIÓN BALANCE GENERAL 31.12.2017 EXPRESADO EN NUEVOS SOLES Activo corriente 31042018 Pasivo corriente 31042018 Electivo y equivalente de activo 35204 Créditos fiscales 030 Total patrimonio 387000000 Activos disponibles para venta 1003282.51 Resultado del ejercicio (04303)"
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided input based on headlines and associated contents while filtering out non-journalistic elements like financial data unrelated directly to any narrative context. Adjustments were made for clarity where necessary, ensuring each entry adheres strictly to the defined structure.

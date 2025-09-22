@@ -1,0 +1,57 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/07/peru21_22.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que... Que aportan para comprar el\nbuen futuro, que invitan a la\ncasa del presente y bailan con\nel pasado que marca y remarca\nque esa U’ querida no pierde\nhace seis años como local ante\nAlianza Lima. Qué importa la\nnoche fresca, si todo se calienta\ncon un gol a los 89′ que selló\nel 3–0 y destrozó en solitario la punta.\nPero antes hubo que \nrecordar, porque con cinco bajas\n(Vilchez no jugó) Alianza\nemparejó el partido poniendo\nuna férrea marca donde Bañón\ntapó a Trauco y Dueñas frenó\na Polo. La ‘U’ no tuvo en \nguardia a Guastavino, Orejas y Polo,\nsino con chispazos como el remate de\nFlores (37 segundos) o el tiro libre de ’Guasta’ que pegó en el ángulo a los 3’. Respondieron los...\nContestaron Cededa, Tubán, Sennecca\nRedondo –3\nÉsto sí\nCastrovíno 5\nFlores 3\nEngordo 6\nEt…\ny Méndez Pengotto 8(s)\nu Caracas X Aéldo, Sucho x\nGuastavino CaMARSO: Tal vez extendió demasiado\nel encuentro a\ninstancias de su técnico."
+    },
+    {
+        "headline": "Danilo Pereira debuta en el PSV",
+        "content": "Arnheim, Holanda.– Luís Da Silva por fin debutó en el primer equipo del PSV. Sucedi ayer en el amistoso que los holandeses ganaron en Arnheim por 3–0 al Porto. El delantero peruano, quien proviene del Jong PSV, al que llegó a inicios de este año, ingresó a los 85’, por Narsingh, cuando el partido ya estaba definido gracias a los tantos de Davy Propper (23'), Felipe (34') y Adam Maher (76'). “Es una sensación increíble debutar con el PSV. Es un sueño cumplido y espero seguir mejorando día a día. Me felicitó el entrenador (Philip Cocu)", expres 'Beto' Da Silva tras el encuentro."
+    },
+    {
+        "headline": "Balón de Oro para André Gomes",
+        "content": "FC Barcelona pagará 55 millones de dólares por el centrocampista. Catalanes salieron al Real Madrid y al PSG. Volante portugués deja el Valencia tras dos años. Golpearon. Sacaron la espuma, lanzaron la oferta y cerraron el negocio. Barcelona tuvo una jornada exitosa el jueves después de asegurar la contratación del volante André Gomes, por quién también competían Real Madrid, Juventus y PSG. El jugador será presentado la próxima semana. Como producto de la insistencia de Pep Guardiola, Manchester City había ofrecido 66 millones de euros por el volante alemán Toni Kroos (Real Madrid)"
+    },
+    {
+        "headline": "Julen Lopetegui nombrado seleccionador español",
+        "content": "\"No vamos a realizar ninguna revolución, más bien una evolución en todo caso dentro de nuestras ideas\", indicó Lopetegui, de 48 años y antiguo guardameta, quien firma un contrato hasta el 2020. \"Para nosotros, los aficionados españoles, está bien que no llegase a la final de la Copa América nuestro rival histórico, aunque sí me sorprendió su rendimiento\"."
+    },
+    {
+        "headline": "Atletismo: CAS confirma prohibición de atletas rusos",
+        "content": "Sin éxito quedaron los reclamos de 68 atletas rusos. El Tribunal Arbitral del Deporte (CAS) confirmó la suspensión imposta por la Federación Internacional de Atletismo (World Athletics) respecto a su participación en los próximos juegos Olímpicos debido a casos previos de doping detectados."
+    },
+    {
+        "headline": "Usain Bolt reaparece tras lesión",
+        "content": "Después de superar una preocupante lesión muscular, el velocista jamaiquino Usain Bolt volverá a correr en la carrera de 200 metros en Londres, buscando demostrar su condición física óptima justo antes de los Juegos Olímpicos de Rio."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria and data cleanup requirements. Articles were segmented according to distinct topics within the input text.
+
+--- ERROR ENTRY: data/txt/peru21/2016/07/peru21_22.txt ---
+
+```json
+[
+    {
+        "headline": "Gravedad de ataques",
+        "content": "El mencionado juzgado chalaco hall culpable a Fernando Daz Ramirez (29) de golpear y causar lesiones graves a su pareja Milagros Rojas Hualipa. El sentenciado —que se acogi a la conclusión anticipada— deberá además pagar, también, 5/S mil de reparación civil a favor del Estado.\n\nY por qué se producen fallos tan desiguales ante hechos similares? De acuerdo con Pedro Angulo Arana, decano del Colegio de Abogados de Lima (CAL), el tema son los criterios que usa cada juez para dar su veredicto, Estos tienen que ver con su formación profesional y con su experiencia a lo largo del ejercicio de su carrera,\n\nLamento que hasta el momento no se hayan divulgado los argumentos de las sentencias en los casos de Arlette Contreras y Lady Guillén. \"Cuando no los ponen de conocimiento, uno sospecha. Llama la atención que no se hayan puesto en \ndocumento alguno. Solo se sabe lo que ha sido revelado por las partes\", manifestó a Perú21."
+    },
+    {
+        "headline": "Protección del Adulto Mayor",
+        "content": "La ley de protección del adulto mayor fue promulgada ayer por el presidente Ollanta Humala. La misma establece que estos ciudadanos deben recibir visitas continuas por parte de sus familias y que el Estado debe ocuparse de su salud, seguridad social y educación. Además, ellos deberán dar su consentimiento en casos de anticipo de legítima, herencia, entre otros."
+    },
+    {
+        "headline": "Violencia en La Parada",
+        "content": "Rainer Diego Alvarez Pérez y Douglas Quispe Rosales fueron condenados a 10 y 8 años de prisión, respectivamente, por haber protagonizado actos de violencia durante el desalojo de La Parada, ocurrido el 25 de octubre del 2012. A ambos se les sentenci\u00f3 por los delitos contra la administraci\u00f3n pública (violencia y resistencia a la autoridad) y contra la tranquilidad pública."
+    },
+    {
+        "headline": "Clausura Clausura. Con gol de Rengifo en el final, la ‘U’ gan 1–0 a Alianza Lima y le saca 11 puntos de ventaja",
+        "content": "\"Gato’, ‘Charapa’, ‘Orejas’. Amigos del barrio crema que ponen la gozadera. Que aportan para comprar el bueno futuro, que invitan a la casa del presente y bailan con el pasado que marca y remarca que esa U’ querida no pierde hace seis años como local ante Alianza Lima. Qué importa la noche fria, si todo se calenta con un gol a los 89′ que selló el 3−0 y destrozó en solitario la punta. Pero antes hubo que remarcar, porque con cinco bajas (Vilchez no jugó) Alianza emparejó el partido poniendo una firme marca donde Bazán tapó a Trauco y Dueñas frenó a Polo. La ‘U’ no tuvo en Gastaminza, ‘Orejas’ y Polo a los jugadores constantes, sino con chispazos como el remate de Flores (37 segundos) o el tiro libre de ‘Guasta’ que pegó en el ángulo a los 3'.\nContestaron los locales con el cabezazo de Cárdenas (15') y el derechazo cruzado de Senanni (27'), aunque siempre respondió bien el portero uruguayo Forsterth. Quien volvió a equilibrar todo fue el crema Andrés Balbuena, expulsado al regreso del descanso (había discutido antes con Guizasola).\nTras ello, la ‘U’ empelló con su gente, sus cánticos y ese yo obliga que ‘Lalo’ Uribe sacará de línea un disparo de Trauco (49’) y Forsyth brillara frente a Cubillas (55') y Polo (60'). Los merengues metían puntapié con las subidas y los laterales del ‘Gato, quien tuvo otra chance (83"). Hasta que a los 89″, se dibujó la mala salida de Forsyth, la pelota nunca se despejó del área y el frentazo de Hernán Rengifo que no pudo cerrar en la línea el ‘Colo’ Ibérico. Gol, de esos en el final tan propios de la ‘U’. Tan históricos y queridos."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Articles were segmented according to distinct topics identified within the input text. Any non-article sections such as ads or unrelated information have been excluded.

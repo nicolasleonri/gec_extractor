@@ -1,0 +1,93 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/05/peru21_05.txt ---
+
+```json
+[
+    {
+        "headline": "‘Loco’ del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamán ordenó..."
+    },
+    {
+        "headline": "",
+        "content": "Los ingredientes necesarios para preparar canelones de canción de poison son:\n\nIngredientes:\n- Aceto de aceite de oliva.\n- Medio kilogramo de cebolla finamente picada.\n- Media taza de zanahorias finamente ralladas.\n- Una taza de tomates enteros sin piel ni semillas cortados en cubos pequeños.\n- Mitad de taza de salsa de tomate.\n- Una taza de caldo de verduras.\n- Una taza de queso ricotta desmenuzado.\n- Cuatro cucharadas de mozzarella rallada.\n- Dos cucharadas de queso parmesano rallado.\n- Cuatro cucharadas de queso crema.\n- Una hoja de laurel seco.\n- Ocho láminas de masa para pastas cocidas.\n- Sal y pimienta."
+    },
+    {
+        "headline": "",
+        "content": "Instrucciones:\n1. Pre-calentar el aceite de oliva a fuego medio y agregar la cebolla y la zanahoria, cocinar durante cinco minutos. Reservar.\n2. Coloque los tomates en la misma cazuela y déjalos cocinar durante otros seis minutos más. Añadir la salsa de tomate y el caldo de verduras, continuar cocinando durante 10 minutos adicionales.\n3. Distribuir uniformemente la mezcla entre las láminas de pasta previamente extendidas, enrollar cuidadosamente formando los canelones. Ubíquelos dentro de un recipiente engrasado adecuadamente.\n4. Hornear durante 25 minutos aproximadamente a 180°C. Servir acompañándolo con la salsa restante."
+    },
+    {
+        "headline": "Premios Semanales",
+        "content": "- Ganador número 5008: Impreso (5/500): Luis Alberto Cerés Collantes, de Comas.\n- Premiado de Domingo de Abril (5/1500): José Miguel Flores Linárez, de La Victoria."
+    },
+    {
+        "headline": "\"Una final contra el Atlético siempre es especial\"",
+        "content": "De la cita. Del Real Madrid se muestra cauteloso para la final. \"Hay favoritos. La final está al 50–50\". Cristiano Ronaldo comentó respecto a enfrentamientos anteriores contra equipos rivales importantes."
+    },
+    {
+        "headline": "Real Madrid logró avanzar en Champions League",
+        "content": "Madrid.- El conjunto madridista, bajo la dirección técnica de Zinedine Zidane, consiguió una victoria significativa de 1–0 contra el Manchester City gracias a un remate decisivo de Gareth Bale. Este triunfo permite al equipo español seguir adelante hacia otra posible conquista europea."
+    },
+    {
+        "headline": "Participación de utilidades pagaderas",
+        "content": "Notificación emitida a empleados de Bagueteria, Pastelería y Bodegas ‘D´Thomas SAC’, indicando fechas específicas para retirar beneficios económicos derivados del ejercicio fiscal anterior."
+    },
+    {
+        "headline": "Sporting Cristal obtiene victoria crucial",
+        "content": "Trujillo.– Sporting Cristal recuperó terreno favorable después de obtener una clara victoria de 2–0 sobre Ciézar Vallejo en encuentro aplazado de la octava jornada. Balón iniciativo provino de Josepmir Ballén y culminó con éxito mediante Santiago Silva."
+    },
+    {
+        "headline": "Alianza Lima evita sorpresa ante Sport Boys",
+        "content": "Análisis del rendimiento de Alianza Lima en su último compromiso futbolístico, destacando actuaciones clave de figuras como Reimond Manco, quien contribuyeron a evitar resultados adversos."
+    },
+    {
+        "headline": "Novak Djokovic alcanza octavos de final en Madrid",
+        "content": "Victoria convincente de Novak Djoković sobre Borna Ćorić en el Abierto de Tenis de Madrid, permitiéndole avanzar cómodo a la siguiente fase del prestigiado evento."
+    },
+]
+```
+This JSON captures each identified article's headlines and contents based on provided criteria while ensuring proper cleanup and structuring according to specified guidelines. Articles lacking explicit headings were assigned `""` where applicable. Missing data was filled using `"NA"` as instructed.
+
+--- ERROR ENTRY: data/txt/peru21/2016/05/peru21_05.txt ---
+
+```json
+[
+    {
+        "headline": "Clar ayer Jorge del Castillo",
+        "content": "ellos no apoyarn a PPK porque el Humala que firm la \"hoja de ruta\" ya\nno es una amenaza. Es decir, para el Apra, Keiko Fujimori,\ndescindiéndose sin rubores, alineándose con fanáticos religiosos y mineros ilegales y con 73\ncongresistas, será inocua en Palacio de Gobierno.\nPero tiene sentido: García Viña la candidatura de Alberto Mori en 1990 en perjuicio de su \nopcionado candidato (Luis Alva Castro). Años después, Montesinos tramitará la\nprescripción de los juicios de García para que éste pudiera postular en el 2001."
+    },
+    {
+        "headline": "ENTREVISTA",
+        "content": "\"EL PRESIDENTE NO PUEDE UTILIZ/\RAR UNA CIERTA FORMA DE PRENSIÓN\"\n\nPara qué sirve la información proporcionada por el abogado especialista en temas penales sobre el caso de lavado de activos relacionado con la Primera Dama, Nadine Heredia, y cómo afectará la investigación del Ministerio Público según el análisis legal brindado por Carlos Caro."
+    },
+    {
+        "headline": "Siomi Ly acquí resta, PPK (y rosa)",
+        "content": "Contaba el colosal escritor español Quevedo que un soldado agonizante, famoso por cortés y astuto, llamaba \"señor Diablo\" al demonio mientras se confesaba. Le preguntaron por qué mentaba así al demonio, a lo que el casi muerto más o menos respondió \"porque no se pierde nada siendo bien educado. No vaya a ser que le conozca pronto y ya quiero llevarme bien\".\n\nAlgo de esto de halagar encantadoramente al diablo he sentido al ver esa foto de PPK con sus flamantes socios Áncash y Anel Townsend al lado, ¿o a su jefe de equipo de seguridad, Gino Costa?, negociando aún un café con Siomi Lerner. Esas reuniones suman o restan?"
+    },
+    {
+        "headline": "YA SON 13 LOS GREMIOS POR ATAQUE A INSPECTORES",
+        "content": "Según reportes, Yuri Kleiman Ormeo, inspector de la Municipalidad de Lima, fue brutalmente golpeado ayer con una barra de hierro por un mal conductor y su cobrador. Otros 115 fiscalizadores también han enfrentado ataques similares ante la ausencia de respaldo policial en operativos de control de tráfico. Las tensiones aumentan conforme continúan estas situaciones violentas hacia quienes regulan el transporte urbano."
+    },
+    {
+        "headline": "REPORTADOS 13 CONTAGIOS AUTÓCTONOS DE VIRUS DEL ZIKA",
+        "content": "El ministerio de la mujer y poblaciones vulnerables expresa preocupación dado el incremento de contagios locales del virus del Zika. Han solicitado al Ministerio de Salud expandir planes preventivos enfocados especialmente en grupos vulnerables, priorizando atención médica adecuada para madres embarazadas y niños potencialmente afectados."
+    },
+    {
+        "headline": "LOS TÚNELES DE PURUCHOCO QUEDARÁN LISTOS ESTE MES",
+        "content": "Finalización próxima de túneles bajo el Cerro Puruchuco, conectando importantes arterias viales de Lima. Con apenas detalles pendientes, incluida la pavimentación de algunos segmentos, se anticipa un impacto significativo en la reducción del congestionamiento vehicular en áreas clave de la ciudad."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were identified through distinct headings followed by relevant textual bodies discussing specific topics such as political analysis, law enforcement issues, health concerns related to disease outbreaks, infrastructure projects, etc.

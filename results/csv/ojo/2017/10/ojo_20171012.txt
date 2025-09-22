@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/10/ojo_12.txt ---
+
+```json
+[
+    {
+        "headline": "Repostería escolar enseña habilidades prácticas",
+        "content": "El taller se dicta una vez por \nsemana y todos los alumnos deben\n leer, antes de lanzarse con los \ningredientes a la cocina, un texto\ntutorial que les explica cómo\npreparar determinado potaje.\nLuana, de 8 años, participa activamente diciendo:\n\"Algunos partimos las pecanas,\nothers limpíamos las pasas.\" Este proyecto educacional enfocado en repostería permite a niños aprender tanto técnicas culinarias como vocabulario especializado."
+    },
+    {
+        "headline": "Minichefs aprenden más que solo cocina",
+        "content": "\"Conocimiento\": Falla de Minichefs\"\nLa metodología incluye instrucción inicial mediante libros de cocina, después aplicación práctica en talleres equipados adecuadamente gracias a donativos parentales. Además de desarrollar destrezas culinarias, los estudiantes amplían su léxico familiarizando términos específicos de la repostería."
+    },
+    {
+        "headline": "Violenta riña familiar durante partido deportivo",
+        "content": "Durante el emocionante partido entre Perú y Colombia, una familia sufrió graves altercados internos debido a conflictos previos relacionados con propiedades habitacionales. Resultaron heridos múltiples individuos, generándose disturbios públicos severos. Vecinos reportaron incidentes similares anteriores causados por consumo de alcohol."
+    },
+    {
+        "headline": "Robo frustrado en tiendas comerciales",
+        "content": "Intento infructuoso de hurto involucró aproximadamente 1707 boletos robados destinados a venta oficial. Detenido un sospechoso justo antes de realizar ventas fraudulentas. Investigaciones policiales continúan para identificar cómplices adicionales implicados en manipular documentos originales."
+    },
+    {
+        "headline": \"Medalla dorada para el país\",
+        "content": "Paolo Guerrero recibió halagos de figuras televisivas post-partido crucial frente a Colombia. Mediocampista resalta por demostrar compromiso único en campo según comentarios emitidos en programas populares. Celebraciones extendidas hacia jugadores clave reflejan unidad nacional en aspiraciones mundiales."
+    }
+]
+```
+This JSON captures key articles extracted based on provided criteria while maintaining structure integrity for further processing. Note how each entry includes both `headline` and `content`, formatted according to specified guidelines.

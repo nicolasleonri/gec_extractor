@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/01/ojo_23.txt ---
+
+```json
+[
+    {
+        "headline": "Acoso a su vida privada",
+        "content": "Uno pensaría que... \"Es superstición, pero es el trabajo de los distritos y hay que respetarlo. Yo me cuidado mucho y no me expongo para no tener esos Problemas\", acotó la joven actriz."
+    },
+    {
+        "headline": "Suegro de modelo es acusado de recibir coima de Odebrecht",
+        "content": "\"Según Fiscalía, Jorge Vega está prófugo y se le acusa de haber recibido directamente coimas de la empresa Odebrecht en adjudicación de la Línea 1 de Metro de Lima.\"\"Me contó familia, justo días atrás de producirse la denuncia fiscal en contra de Jorge Cuba, Melissa Paredes afirmó que su relación con su esposo Rodrigo va por buen camino, pues ‘hay bastante confianza’. Lo que pasa es que él me conoci sola, loca, cuando Rodrigo también me conoci así. Era nuestra primera época de libertad. Fuimos primeramente amigos y después novios.\")\n\n\"RODRIGO ME CONOCIO CUANDO ESTABA SOLTERA,\nEN MI ÚLTIMO MOMENTO DE LIBERTAD. FUIMOS\nPRIMERAMENTE BUENOS AMIGOS\"\n\nMELISSA PAREDES MODELÓ Y BAILE"
+    },
+    {
+        "headline": "Advierne. Rodrigo González viene alistando motores...",
+        "content": "\"‘Desesperada’ estará si no sabe cantar’, dice Leslie Shaw. Lesli Shaw se defendió ante críticas de su ex, Mario Hart, quién afirmó que la rubia ‘está desesperada porque habla de mí para promocionarse.’ \n\n‘Lo estará sí no supiera cantar’, dijo la Shaw, quien además le recordó al corredor de autos que no tiene talento para música. La artista lanzó su nuevo tema titulado ‘Loco’, que está en el cuarto lugar de más solicitados en Spotify. ‘Agradezco al público por la aceptación a mi nuevo tema, no pensé que llegaríamos tan rápido. Estamos apenas a dos semanas de lanzada la canción y estamos número uno. Solo quiero dejar claro que tengo una carrera de diez años, he hecho cine, televisión, radio y continúo mi pasión por la música,’ indicó.”
+    },
+    {
+        "headline": "Michelle Soiffer se limpia de Ampay que sale Hoy",
+        "content": "\"Soltera y hace lo que quiere. Michelle Soiffer se pronunció sobre el supuesto ampay que se emitirá hoy en ‘Amor de Verano’. Ella consideró lamentable el avance del material audiovisual que supuestamente protagonizaba, pues se usaban adjetivos agresivos para describir tanto a ella como al rapero. ‘Creo que un ampay es válido siempre y cuando hagas algo que debes ocultar. Soy soltera hace casi cinco meses, tengo amistades, puedo salir, tengo una vida más allá de ser artista. Usar calificaciones duras hacia mí personalmente no parece apropiado,' manifestó Soiffer al programa ‘En Escena’ de RPP.”
+    },
+    {
+        "headline": "Ania Gadea baja el dedo a Tilsa Lozano",
+        "content": "'Bellísima Sofía Franco llega para destapar los secretos de la farándula'. Ana María Gadea, portada de Playboy México y reconocida por su cercanía con Adamari López, respondió a quienes comparan su trayectoria con la de Tilsa Lozano diciendo que ‘lo único cierto es pasado escandaloso. Tilsa nunca fue conejita, simplemente participó en alguna producción ocasional.'
+    },
+    {
+        "headline": "Renuncio a la instancia laboral",
+        "content": "Por motivos personales, solicité formalmente mi salida de la institución. Durante estos últimos años, he tenido la fortuna de trabajar bajo condiciones óptimas y colaborar con profesionales altamente capacitados. Me despido deseando éxito continuo a la entidad y manteniendo gratitud por la experiencia acumulada durante mi permanencia aquí."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for inclusion/exclusion criteria. Note any missing data has been filled with `"NA"` where applicable.

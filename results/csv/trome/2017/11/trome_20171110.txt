@@ -1,0 +1,36 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_10.txt ---
+
+```json
+[
+]
+```
+The provided input does not include any recognizable headlines followed by substantial journalistic content based on the defined criteria for extraction. It primarily consists of fragmented information such as addresses, astrological signs descriptions, financial terms related to credit cards, promotional offers, etc., which fall under excluded categories like ads, promotions, and non-journalistic sections. Therefore, there's nothing extracted according to the specified guidelines.
+
+--- ERROR ENTRY: data/txt/trome/2017/11/trome_10.txt ---
+
+```json
+[
+    {
+        "headline": "HABILIDADES EN EL TRABAJO",
+        "content": "Amigo Gary llegó por su platillo emblemático del norte chico y más antiguo que el chancho al palo, con sus yucas sancochadas y su jarrita de chicha morada. \"María, el campo laboral es cada vez más competitivo. Además de una buena preparación técnica o universitaria, se requiere de una formación mental que nos permita tener éxito y marcar la diferencia. Se trata de muchas habilidades sociales como la interrelación con los demás, escucha activa, persuasión y capacidad de comunicación, que pueden ampliarse o modificarse de acuerdo al perfil profesional y las necesidades del puesto. También son necesarias habilidades profesionales como trabajo en equipo, liderazgo, organización, racionalización, buen criterio, capacidad de síntesis, innovación creativa e iniciativa. Y entre las aptitudes personales están, por ejemplo, el respeto, la calma, la sinceridad y la elegancia. Aquí te dejo algunos consejos para ser un profesional competente.\n\nAprender a aceptar las críticas: La mejor forma de evitar las críticas es escuchándolas, reflexionando sobre ellas e introduciendo los cambios necesarios para que no se vuelvan a repetir,\nFlexibilidad y adaptación: Los cambios nos obligan a estar siempre actualizados, atentos a las nuevas demandas y necesidades. El aprendizaje debe ser constante.\nCapacidad de decisión: Si surge algún problema, debemos buscar la solución para resolverlo. Esta habilidad es muy reconocida.\nMotivación y confianza: Debemos tener una buena dosis de confianza en nosotros mismos. Mentalizarnos de que somos capaces de lograr las metas y objetivos.\nValores éticos: No se pueden olvidar los principios morales básicos. Son muy reconocidos en un mundo cada vez más complicado, donde a veces hay sospecha y la desconfianza.\nSoportar la presión: Hay que controlar las situaciones de estrés y mantener la calma.\nTrabajo en equipo: La colaboración y la coordinación con los otros compañeros son requisitos cada vez más importantes. El trabajo es como una orquesta, un solo músico puede arruinar el trabajo del resto.\nPlanificación: El manejo o gestión del tiempo es indispensable para cumplir con las tareas. Para ello se precisa de disciplina, constancia y conciencia de hasta dónde pueden llegar nuestras capacidades.\nHabilidades comunicativas: La habilidad de relacionarse y mantener una comunicación fluida es esencial para el correcto desempeño.\nPositivismo: Permite el trabajo en equipo y aumenta la productividad al generar un buen ambiente laboral\". Gary tiene razón, qué buenos consejos."
+    },
+    {
+        "headline": "SEÑALA LECCIÓN",
+        "content": "\"Gary tiene razón, ¿qué buenos consejos.\""
+    },
+    {
+        "headline": "ESPÍRITU COMBATIVO",
+        "content": "Defensora de derechos humanos advierte que ‘hay sectores’ interesados en vacar al Presidente. \n‘Hay sectores políticamente motivados’, dice María Elena Moyano, presidenta ejecutiva de la Coordinadora Nacional de Derechos Humanos (CNDDHH).\n\n‘Lo único que buscan estos grupos minoritarios es crear zozobra social’. Por eso llama a defender la democracia y a votar masivamente contra quienes pretenden acabar con ella.”
+    },
+    {
+        "headline": "OPINIÓN POLÉMICA",
+        "content": "¿Qué tan grave es el caso de Odebrecht?\nPara el izquierdista Jorge Castro hay negligencia punible de la Fiscalía en el acuerdo con Odebrecht. Dice que ‘si hay que tumbarse a alguien es a Keiko.’\nNo quiso satanizar a ninguna otra clase política, señaló. ‘Debe hacerse,’ agregó. ¡Ohhh!"
+    },
+    {
+        "headline": "DISCUSIONES CONTINUAS",
+        "content": "Daniel Salaverry reveló cómo conoció a Raúl Diez Canseco y asegura que él fue quien le presentó al investigado por el delito de lavado de activos. Hmm...\nSteven Levitsky indica que el esfuerzo que hizo Keiko para moderarse ‘fue abandonado’ y ahora el fujimorismo es más autoritario... Auténtico drama político."
+    }
+]
+```

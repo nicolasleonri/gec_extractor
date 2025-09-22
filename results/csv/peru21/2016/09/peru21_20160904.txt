@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/09/peru21_04.txt ---
+
+```json
+[
+    {
+        "headline": "No sanciona con pena vitalicia ilegal cultiva de coca",
+        "content": "Cabe mencionar que fue Morales quien lideró, desde fines de la década del 80, protestas de los cocaleros del Chapare para que se les permitiese la siembra en esa región del país."
+    },
+    {
+        "headline": "Oposición esceptica ante declaración de Evo Morales",
+        "content": "Miembros de la oposición al gobierno de Evo Morales manifestaron su escepticismo frente a las declaraciones de Evo Morales, quien el viernes pasado afirmó \"no estar en campaña\" y \"estar listo\" para abandonar el poder cuando termine su mandato en 2020. Por su parte, el ex vicepresidente boliviano Victor Hugo Cárdenas señala que eso no será la primera ni última ocasión en que el presidente dice algo y después actúa completamente diferente."
+    },
+    {
+        "headline": "Francisco pide rezar por Brasil tras destitución de Dilma Rousseff",
+        "content": "\"Tras la destitución de Dilma Rousseff de la presidencia de Brasil, el Papa Francisco solicitó rezar a la Virgen de Aparecida para proteger al país y a toda la población brasileña en este difícil momento.\" Además, comentó sobre la canonización de Madre Teresa de Calcuta, invitándoles a seguir su ejemplo para mitigar el sufrimiento mundial."
+    },
+    {
+        "headline": "Multan a más de 1300 dueños de mascota en Surco",
+        "content": "Más de 1300 propietarios de animales domésticos recibieron multas emitidas por inspectores municipales de fiscalización en Surco, quienes notificaron infracciones relacionadas con la recolección adecuada de heces fecales dejadas por sus mascotas."
+    },
+    {
+        "headline": "Buscan a líder narco Richer Soto Pérez alias ‘Zorro’",
+        "content": "Oficialmente ofrecidos $50 mil dólares estadounidenses por información que lleve a localizar a Richer Soto Pérez, conocido como 'Zorro', considerado cabecilla de una organización criminal vinculado al suministro de drogas hacia México. También buscan a Al Cueva Rojas, 'Al'.
+    },
+    {
+        "headline": "Detienen a implicados en violación grupal de adolescente en Ayacucho",
+        "content": "John Ronald Castro Tenorio, de 19 años, admitió haber cometido el ataque sexual que resultó fatal para la víctima. Un segundo implicado, de 17 años, también se encuentra bajo custodia policial. Ambos forman parte de cuatro individuos arrestados por este horrendo incidente."
+    },
+    {
+        "headline": "Capturan a implicados en homicidio múltiple ocurrido en La Oroya",
+        "content": "Durante un choque frontal en la provincia de La Oroya, cinco miembros de una misma familia murieron. Entre ellos estaba el conductor del auto, Jorge Luis Galarza Barzola, junto con otros ocupantes aún no identificados."
+    },
+    {
+        "headline": "Preocupación creciente por riesgos cardíacos",
+        "content": "Es importante reducir factores de riesgo tales como estrés, dieta deficiente y sedentarismo para disminuir probabilidades de padecer problemas cardiacos severos. Mantener hábitos dietéticos balanceados dentro del hogar puede contribuir significativamente a mejorar la calidad nutricional familiar."
+    },
+    {
+        "headline": "Soluciones prácticas para enfrentar situaciones cotidianas",
+        "content": "Para superar momentos difíciles, mantener una perspectiva positiva ayuda mucho. Incluso circunstancias adversas pueden transformarse en experiencias valiosas si se enfoca correctamente."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined structure for each entry. Articles were identified based on context clues such as topic shifts and distinct headings within the document's flow.

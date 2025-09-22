@@ -1,0 +1,29 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/09/peru21_11.txt ---
+
+```json
+[
+    {
+        "headline": "Choque con Argentina disminuye en $5 millones",
+        "content": "‘Ol?3$’ Horas Menos presupuesto\nEl colmo: roban en cementerio de Ate.\nPIDE CALMA PARA BECAS\nDIRECTOR PERIODISTICO: JUAN SOSÉ GARRIDO\NE T LUNES 11 DE SETIEMBRE DEL 2017\nIkma deja alerta y destrucción\nPánico en EE.UU. por huracán."
+    },
+    {
+        "headline": "Reducci\u00f3n significativa en presupuestos para becas y créditos educativos en 2018",
+        "content": "\"NO ES UN PRESUPUESTO CENTRALISTA\" (...)\nFERNNANDO ZAVALA\nPRIMER MINISTRO Y TITULAR DE ECONOMÍA Y FINANZAS\nEl jueves de la semana pasada,\nel primer ministro y también\n\t titular de Economía y \nfinanzas, Fernando Zavala, asistió al\nCongreso para exponer el \nproyecto de presupuesto de 2018.\nDe acuerdo con la \npresentación que hizo, para el próximo año se desembolsará\n\$157.159 millones, es decir, un incremento de 10.3%\nrespecto de 2017.\nUno de los sectores que más dinero recibir es el de Educación.\nDe acuerdo con la gráfica presentada por Zavala, aquí se destinará \$28.308 millones,"
+    },
+    {
+        "headline": "Presidenta del Consejo Directivo señala preocupantes bajos fondos para seguridad",
+        "content": "LA PRESIDENTA DE LA COMISION DE PRESUPUESTO, KARINA BETETA (FP), CRITICA EL MONTO DESTINADO AL SECTOR ORDEN INTERNO PARA EL PROXIMO AO.\nSEGÚN LA SENTACIÓN DEL MINISTRO FERNANDO ZAVALA EN EL CONGRESO, ESTE SECTOR TENDRA \$9,722 MILLONES EN 2018, ES DECIR, UN CRECIMIENTO DE 3.9% RESPECTO AL AO PASADO.\n\"ES MUCHO PELO.\" HA DICHO BETHETTA, \"HA TENIDO UN IMPORTANTE DESAFÍO POR PARTE DEL GOBIERNO PARA MEJORAR LAS MEDIDAS DE SEGURIDAD EN TODO EL PAÍS.\""
+    },
+    {
+        "headline": "Director editorial reflexiona sobre importancia de implementar reformas políticas",
+        "content": "ZOON.21 ASIDDÓNICA\nCORTITAS\nAEROPUERTO JORGE CHAVEZ –|\nLas autoridades peruanas retuvieron en el Aeropuerto Jorge Chavezz a Jadietu El Mohtari, mujer que se presentó como diplomática de la República Árabe Saharahuí.\nAEROPUERTO JORGE CHAVEZZ –11\nDE LA RAIZ\nDEL MOMENTO\nSEGÚN FUENTES DE TORRE TAGUA DE CABINETE ZAVAÑA HAN IDO EN AUMENTO, Y APARECIERA QUE ESTÁN A PUNTITO DE SER ATENDIDOS. SE HAN BARAJADO NOMBRAMIENTOS EN CIERTOS MEDIOS Y SE HAN PROPUESTO MOTIVACIONES PARA CERTAS CARTERAS. DICHO ESTO, PARECIEIRA QUE ALGUNOS CAMBIOS SON IMMINENTES.\nCOMO TODO EN LA VIDA, DE HACERSE CAMBIOS, CREO QUE LOS MISMO DEBERAN ESTAR ESTRUCTURADOS A TRAVÉS DE USTRATEGIAS INTEGRADAS, NO SIMPLEMENTE UNA CARTERA ACA Y ALLÁ."
+    },
+    {
+        "headline": "Denuncias emergen sobre entrega indebida de dineros relacionados a casos legales",
+        "content": "CUARTO PODER DENUNCIA QUE LA LEGISLATIVA YESENA PONCE (FP) HUBIERA DEPOSITADO S/10 MIL AL DIRECTOR DE SU COLEGIO, QUIEN ERA TESTIGO CLAVE PARA ARCHIVO DE UNA DENUNCIA CONTRA ELLA EN ETICA.\nPOR MICHELANGELO PALAZZO\nDENUNCIAN ENTREGA DE DINERO\nDepósito realizado por la legisladora Yesenia Ponce (FP)"
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable. Note that some sections were merged due to context continuity within each identified story segment.

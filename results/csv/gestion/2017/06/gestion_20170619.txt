@@ -1,0 +1,59 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/06/gestion_19.txt ---
+
+```json
+[
+    {
+        "headline": "El París socialista está fuera de dudas",
+        "content": "\"Hoy, el derrumbe del Partido Socialista está fuera de duda. El presidente público tiene todos los poderes\", dijo Jean-Marc Cambadélis tras anunciar que se retirará como líder del partido.\nThe escala de mayoría concede a Macron, un triunfa favor de la Unión Europea, una sólida base para cumplir promesas que van desde rejuvenecer la política francesa hasta relajar las regulaciones según los inversores dificultan el crecimiento de la segunda economía más grande de la zona euro."
+    },
+    {
+        "headline": "POR QU LOS EMPRENDIMIENTOS NO DEBERÍAN BUSCAR ATENCION MEDIA PRONTO",
+        "content": "Comunicación\nQué la cobertura mediática no te distraiga. El mejor momento para buscar publicidad es cuando tu compañía demuestra un verdadero avance o cuando alcanza un hito clave, sustenta esta columna escrita por Andrew Zacharakis y Alisa Jo Charles.\nStudiamos 60 empresas financieras y encontramos que las firmas exitosas tienden a tener mucha atención mediática. Sin embargo, esto podría resultar contraproducente si ocurre demasiado temprano.\nZachary Kessler\n\nEl juez Huamani ordenó...\nPensamiento final: Mantén tus objetivos claros y evita distracciones innecesarias."
+    }
+
+```
+**Note:** This extraction focuses solely on identifying distinct headlines followed by their respective contents based on provided criteria while ensuring proper cleanup for readability within the constraints given. Some sections were omitted because they did not meet the inclusion requirements such as ads, contact information, etc.
+
+--- ERROR ENTRY: data/txt/gestion/2017/06/gestion_19.txt ---
+
+```json
+[
+    {
+        "headline": "Finanzas",
+        "content": "El nuevo recorte de interés en dólares lleva al BCR a liberar US$ 110 millones al sistema financiero, según Velarde. ‘Hemos bajado la tasa de interés en dólares para julio a 42%, y vamos a continuar bajando. La idea es atenuar en algo la subida de la tasa de interés del Fed.’\n\n‘Con esta medida buscamos que suba menos porque estamos bajando el costo del fondeo debido a la subida de tasa de la Fed en Estados Unidos’, explicó."
+    },
+    {
+        "headline": "Entrevista Jane Fraser, CEO de Citigroup para Latinoamérica",
+        "content": "'Cómo ve el negocio de Citigroup Group en el país y qué mayorías oportunidades?' Tenemos aquí 97 años y el banco es casi peruano. Vemos muchas oportunidades, con mucho potencial en infraestructura y, en general, en la economía.\n\nAyudamos a muchas multinacionales, multilaterales y empresas de todas partes del mundo en sus inversiones en el país, y también a empresas peruanas que quieran conectarse con el resto del mundo.' \n\n'Tenemos como mil clientes en el Perú, en los diferentes negocios, como cambiario y renta fija (emisiones de bonos), entre otros.'
+        
+        '¿Son todos del mercado empresarial?' Sí, todos son empresas. Pero aún así mantenemos gestión de patrimonio, que lo ven desde afuera.'
+
+        'La banca privada es parte de Citi, y muchos de nuestros clientes son los empresarios y dueños de las empresas aquí en Perú.'
+
+        Destacó la importancia de la infraestructura. 'Es muy importante, especialmente ahora, dado que los proyectos de infraestructura están avanzando lentamente debido a los problemas de algunas empresas brasileras.'"
+
+    },
+    {
+        "headline": "Megaprojecto",
+        "content": "Citibank continuará financiando el Gasoducto Sur Peruano, anunció Jane Fraser. ‘Estudiamos mucho el proyecto. Estábamos dentro de los bancos que lo evaluaron porque iba a ser el megaproyecto de inversión en América Latina. Ahora, con la nueva licitación que viene del gasoducto, queremos participar y esto es sumamente importante.’
+
+        'No podemos olvidar que hemos sido un ejemplo, como país, en desarrollo de infraestructura en todos los aspectos', destacó."
+
+    },
+    {
+        "headline": "Opini\u00f3n",
+        "content": "Pregunta: ¿Considera usted que el ministro no cometió ningún error durante su presentación?\nRespuesta: Sentimiento de decepción respecto a la crisis económica actual. \"Nosotros nos consideramos que él debería dar un paso al costado\". Expresa preocupación por las repercusiones económicas derivadas de estas decisiones políticas."
+    },
+    {
+        "headline": "Balance en la Comisi\u00f3n de Constituci\u00f3n",
+        "content": "El próximo presidente de la Comisión de Constitución recibir la posta de Miguel Torres con una carga significativa de 54 proyectos de ley de reforma constitucional. Muchas de ellas versan sobre materias electorales, incluidas normas de democracia interna y cambios relacionados con cargos públicos."
+    },
+    {
+        "headline": "Elecciones en Francia",
+        "content": "Macron obtiene mayoría absoluta en el Parlamento. De acuerdo con sondajes, Emmanuel Macron podría obtener hasta 373 escaños en la Asamblea Nacional, marcando un claro triunfo sobre los partidos tradicionales y consolidando su posición política en Francia."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and structuring. Articles were selected based on substantial journalistic value rather than peripheral information like ads or non-content sections.

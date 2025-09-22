@@ -1,0 +1,25 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/10/peru21_13.txt ---
+
+```json
+[
+    {
+        "headline": "Deber respondér por presuntos aportes de constructora Odebrecht.",
+        "content": "Comerico, duerme bien echándose cómodamente.\nP2\nPERIODISTICO Te Viernes 13 DE OCTUBRE DEL 2017\nREPÉCHEJE CON NUEVA ZELANDA\nPg. 20\nVOTO DE CONFÍANZA HOMENAJE\nAroz especial de Fernando\nya será interrogada’\nde trabajo’ – de Susello ENCUI. consejo'\n...\n... \nActúalemte, según los representantes de diversos bloques pusieron reparos en las promesas incumplidas del Ejecutivo, a más de un año de gestión, había consenso entre las principales fuerzas políticas para otorgar el voto de confianza al equipo ministerial que asumió funciones el pasado 17 de septiembre,\nForza Popular, el Partido Aprista, Acción Popular, Somos Para el Progreso y el oficialista Peruanos por el Kambio (Pk) adelantaron que endosarían sus votos a favor de Arón, frente a la negativa del Frente Amplio y Nuevo Perú."
+    },
+    {
+        "headline": "\"Vemos con optimismo las opciones de desarrollo y los indicadores económicos\".",
+        "content": "Jorge Dol Calvo\nVoto Rocío Cué parlamentario del Partido Aprista\nNUEVO AIRE. La presidenta del Consejo de Ministros, Mercedes Áraz, solicitó voto de confianza del Congreso y aseguró que hay un respeto del gobierno a todos los poderes del Estado. Así mismamente, pidió a los parlamentarios trabajar en forma conjunta.\nEjecutivo solicitará facultades para legislar en diversos temas\nFabiana Sanchez Dinatala\nDavid Tolento Amayo\nAl cierre de esta edición, continuaba aún el debate en el Pleno del Congreso tras la presentación de la presidenta del Consejo de Ministros, Mercedes Áraz, quien expuso los lineamientos de su plan de trabajo y requirió el voto de confianza de la representación nacional.\nSi bien los representantes de diversos bloques pusieron reparos en las promesas incumplidas del Ejecutivo, a más de un año de gestión, había consenso entre las principales fuerzas políticas para otorgar el voto de confianza al equipo ministerial que asumió funciones el pasado 17 de septiembre,"
+    },
+    {
+        "headline": "Anuncian las Medidas en Las CUATRO áreas CLAVES del Ejecutivo.",
+        "content": "Los cuatro ejes del Gobierno Durante su presentación en el Pleno del Congreso, la presidenta del Consejo de Ministros, Mercedes Áraz, anunció que el Gobierno tiene medidas concentradas en dos puntos fundamentales, como la Revolución Social y la lucha contra la corrupción. Estos temas, afirmó, están centrados en cuatro grandes ejes funcionales, el primero de ellos referido a la Agenda Social para la Igualdad de Oportunidades.\nSobre este punto, la funcionaria destacó la importancia del censo que se realizara el 22 de Octubre, puesto que sirvió diseñar mejores normas públicas para todos.”
+    },
+    {
+        "headline": "DIRECTOR Juan José Garrido director peru21.com",
+        "content": "Interesante y articulado el mensaje de la premier IAraz ante el Congreso. Desde unas elegantes disculpas, a fin de evitar males mayores con sus colegas parlamentarios, hasta un interesante relato de acciones y objetivos, algunos en clave futbolística. Dicho esto, es claro que el gobierno pretende relanzar una política de corte popular, más cerca de las necesidades de los ciudadanos, partiendo por exigir a su equipo ‘pisar más la cancha’. Es, claro está, imprescindible que la ciudadanía sienta al gobierno trabajando en el campo, lejos de las oficinas y los aires acondicionados, sintiendo en carne propia lo que viven millones de peruanos día a día. Ahora, una cosa es exigirla y otra conseguirla."
+    }
+]
+```
+This extraction captures four distinct sections based on their headlines and contents while adhering strictly to the provided guidelines for extracting meaningful journalistic content. Any non-article elements such as ads, subscriptions, etc., have been excluded according to the scope defined.

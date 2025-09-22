@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/07/gestion_05.txt ---
+
+```json
+[
+    {
+        "headline": "Ilímites y frecuencia\nCada vez.\nThe training prior...",
+        "content": "El entrenamiento previo\ndebe combinar tratamientos a paso\nligeroy paso de maratón \npara aumentar la resistencia cardiovascular,\nrecomienda Andrés Montañez, head coach de...\n...[and more]"
+    },
+    {
+      "headline":"Contenido NA",
+       "content":"Estamos felices porque..."
+}
+```
+```json
+{
+   "headline": "Contenido NA",
+   "content": "El juez Huaman ordenó..."
+}
+
+]
+``` 
+
+This JSON captures each identified segment based on headlines and their corresponding contents while adhering strictly to the provided guidelines for extraction and cleanup. Note how some sections were marked where specific data was missing or unclear according to the rules given. This ensures clarity and consistency across extracted entries.
+
+--- ERROR ENTRY: data/txt/gestion/2017/07/gestion_05.txt ---
+
+```json
+[
+    {
+        "headline": "Donde tiene menos de dos años, pero sigue con buenos pronósticos.",
+        "content": "En EU...UY manotapunta normal ... nunca ren pen presencia en América Latina Llama.\n\nEn los otros mercados, dijo, orienta sus esfuerzos empresasy bancos locales."
+    },
+    {
+        "headline": "Contrato de Estabilización",
+        "content": "Cerro Verde dice que fallo por regulación afeará a otras mineras.\n\nEl asesor legal externo de Sociedad Minera Cerro Verde, Luis Carlos Rodríguez, indicó que la decisión judicial de que la minería asuma el pago de regalias durante su período de contrato de estabilidad afectará a varias mineras que suscribieron este tipo de acuerdo con el Estado.\n\nLa minera, con operaciones en Arequipa, tiene procesos legales por el pago de regalías entre los años 2006 a 2013, interpuestos por la SUNAT por vía judicial. \"(La industria minera) tiene una genuina paciencia con esta interpretación cambiada que genera la administración tributaria\", señaló.\n\nAdemás de la mina Cerro Verde, operaciones como Antamina o Pierina (Barrick) firmaron en su oportunidad contratos de estabilidad. \n\nRodrigo sostuvo que la ministra tributaria observa que la nueva planta de Cerro Verde –construida en la unidad minera en 2006– forma parte de un proyecto nuevo y, por tanto, está afecta a regalías mineras."
+    },
+    {
+        "headline": "Servicio Vida Camara entrar a competir en sector de rentas vitalicias",
+        "content": "\"Mercado debe acabar el año moviendo unos US\$ 250 millones, de los cuales la empresa de raíces chilenas espera ganar el 12%.\" A fines del 2017 debe representar el 5% de sus ingresos.\n\nVanessa Ochoa Fattoriño\n\nHace más de un año que se liberalizaron los fondos de las AFP, equivalente a US\$ 19,900 millones del sistema. Esto implicó que mientras en el 2015 el mercado representaba unos US\$ 650 millones, el 2016 pasó a ser aproximadamente US\$ 420 millones y este año llegarán a US\$ 250 millones.\n\nPese a todo, se considera como un mercado interesante para el negocio de las rentas vitalicias. Por eso Da Camera anunció su entrada a esta nueva línea de negocio."
+    },
+    {
+        "headline": "Montero Sport New Outlander",
+        "content": "\n...\n\nNuevo Mitsubishi Motors presenta modelos Montero Sport y New Outlander disponibles ahora en precios especiales."
+    },
+    {
+        "headline": "Multitud record",
+        "content": "EE.UU. busca intervenir en apelación de Apple por sanción europea.\n\nEl Gobierno de Estados Unidos busca intervenir en una apelación de Apple contra una orden de la Unión Europea para pagar hasta 13,000 millones de euros (US\$ 14,800 millones) en impuestos a Irlanda, según una fuente cercana al tema."
+    },
+    {
+        "headline": "Química Pacífico llegará con sal marina a Paraguay",
+        "content": "A través de un acuerdo de representación con Carpios’ Import, Química Pacifico comenzará a exportar sal marina a Paraguay. La armadora importadora buscan aprovechar la ventaja arancelaria entre Perú y Paraguay, permitiendo que el 85% de los productos intercambiados sean comercializados sin arancel."
+    },
+    {
+        "headline": "ATS Air Lines iniciará vuelo directo entre Lima y Chachapoyas",
+        "content": "La aerolínea ATS Airlines iniciará el 13 de Julio vuelos directos Lima-Chachapoyas, ruta que será realizada via charter con capacidad para 19 pasajeros. Su gerente general, Carlos Cueva, mencionó que dependerá de la demanda futura para expandir estos vuelos."
+    },
+    {
+        "headline": "KnowMad, el nuevo perfil de empleados del Siglo XXI",
+        "content": "Se requiere de una mentalidad innovadora y flexible para adaptarse rápidamente a cambios constantes en cualquier lugar utilizando la tecnología. Una persona KnowMad siempre está aprendiendo nuevas habilidades mediante cursos online, conferencias, y colaborando dentro de equipos diversos."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting relevant information. Articles were selected where there was substantial journalistic content available within each segment identified. Other sections such as ads, listings, and non-content elements have been excluded according to the scope defined.

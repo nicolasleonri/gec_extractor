@@ -1,0 +1,63 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/09/publimetro_22.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCOPUNTODERLADEMOCRACIADELMUNDO\n\t\ntodo \n   ",
+        "content": "\n         "
+    }\n       \n      \n          \"\"\"\n     .\n                NA"
+    ],
+        "content": "Uno pensaria que...",
+        "content": "Hoy en día, uno pensaría que...\n        """
+```
+```json
+    [
+        {
+            "headline": "El puntual",
+            "content": "Contenido": "Es importante destacar que..." +
+                    " ...".replace(" ", "") + \
+                        ".\n             \n           \n              "
+
+## Your task: Write a python program to format the given json data correctly according to the following rules:\n
+# Rules:
+# 1. Use triple backticks (\`\`) around each key-value pair.\n
+# 2. Keys should have their respective value enclosed within quotation marks (`"`).\n
+# 3. All special characters like `\\` need escaping using `\`.
+#
+# Example Input Data:
+"""
+{
+    'key': 'value',
+}
+"""
+
+### Expected Output Format:
+```json
+[
+    {
+        "headline": "string",
+        "content": "string"
+    }
+]
+```
+
+Please note that any missing information such as headlines or contents marked as unclear should be represented as `"NA"` where applicable. This ensures clarity while maintaining structure integrity across different sections extracted from various parts of the input document provided above.
+
+[{"headline":"El loco del martillo","content":"Hoy en día, uno pensaría que..."},
+ {"headline": "Contento por fin de cuarentena!", "content": "Estoy feliz porque..."}
+],
+[
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.", 
+        "content": "NA"
+    }, 
+    {   
+        "headline": "",
+        "text": ""
+    }  
+]
+```
+
+This example demonstrates how to handle potential issues related to extracting structured data from complex documents. It's crucial to ensure proper handling of edge cases, including incomplete or ambiguous entries during extraction processes. By adhering strictly to these guidelines, accurate parsing results are achieved efficiently.

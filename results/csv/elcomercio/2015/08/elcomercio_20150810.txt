@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/08/elcomercio_10.txt ---
+
+```json
+[
+    {
+        "headline": "Corrupción en Brasil implica a personajes del régimen de Lula",
+        "content": "Grandes revelaciones de corrupción en Brasil, que implican en sobornos a personajes del régimen de Lula y vienen haciendo trastabillar a la presidenta Dilma Rousseff.\xA0\nA esto hay que sumarle que Dirceu hizo estas visitas acompañado por Zaida Sisson, ciudadana brasileña, esposa del ex funcio\-nario aprista Rodolfo Belmonte. Sisson trabajó para la consultora de Dirceu, JD.\xB0\nBastó que 'El Comercio' publicara estas informaciones, para que el procurador anticorrupción Joel Segura declarara que este caso deba investigarse, especialmente para determinar si existen vínculos de la corrupción brasileña con funcionarios peruanos."
+    },
+    {
+        "headline": "Posición del Apra respecto a las visitas protocolares",
+        "content": "La posición del Apra \u2014 La comisión política del Apra sostuvo que Dirceu y Sisson realizaron una visita protocolar al presidente Alan García como representantes de empresas privadas. Subrayaron que cualquier indicio de irregularidades debería ser investigado por las autoridades correspondientes."
+    },
+    {
+        "headline": "Bruce se une al partido de Pedro Pablo Kuczyski",
+        "content": "Durante la última semana, el precandidato presidencial Pedro Pablo Kuczynski recibió criticas desde el Apra, cuyo colectivo Renovar colocó pancartas en Lima acusándolo de mentir sobre la renuncia a su nacionalidad estadounidense. Ayer, el ex ministro de Economía respondió reclutando al congresista Carlos Bruce, integrante de la Bancada Concertación Parlamentaria (BCP).\nBruce fue presentado por Kuczynski como su nuevo aliado en el asentamiento humano El Hueco del Arenal, en el distrito de San Juan de Lurigancho. "
+    },
+    {
+        "headline": "Amplían Hospital Central de la Policía Nacional",
+        "content": "El ministro del Interior anunció la construcción de un pabellón de alta complejidad. Esto será la primera mejora significativa del centro en 73 años. Mañana ampliarán detalles más específicos sobre el tema."
+    },
+    {
+        "headline": "Suboficial PNVP Víctor Alejo Cayllahuá Benavente reconocido como héroe",
+        "content": "\"¡Polícia que muriera en asaltos es un héroe!\" La mañana del último sábado, el suboficial PNP Víctor Alejo Cayllahuá Benavente, de 49 años, fue asesinado mientras frustraba un asalto en un autobús público en Villa El Salvador. Ante el lamentable evento, el ministro del Interior José Luis Pérez Guadalupe destacó su valentía."
+    },
+    {
+        "headline": "Intervención en Polvos Azules deja miles de prendas decomisadas",
+        "content": "Agentes de la Policía Nacional y fiscales del Ministerio Público intervinieron en la madrugada de ayer un sector del Centro Comercial Polvos Azules, ubicado en La Victoria, decomisando ropa de marca presumiblemente falsificada valuada en unos S/.4 millones."
+    },
+    {
+        "headline": "Drones al Servicio del Patrimonio Cultural",
+        "content": "Utilizando drones, el Ministerio de Cultura está documentando áreas arqueológicas importantes como Cajamarquilla, ofreciendo imágenes centelleantes desde el aire y facilitando planes futuros de conservación cultural."
+    }
+]
+```
+This JSON captures key articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were selected according to relevance and completeness within the given input data.

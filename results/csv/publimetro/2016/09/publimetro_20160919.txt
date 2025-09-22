@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/09/publimetro_19.txt ---
+
+```json
+[
+    {
+        "headline": "El actor mexicano Alfonso Herrera nos da la clave de la serie ‘El Exorcista’",
+        "content": "El celular\nes un aliado\ne.o un enemigo\nDel profesor?\nDebate en educación.\nEspeciales consultados por Publimetro creen\nque pueda incorporarse en el aprendizaje. Es un dispositivo cotidiano\npara los nativos digitales. Daría más dinamismo a las clases."
+    },
+    {
+        "headline": "CELULARES EN CLASES: DE DISTRACTORES A ALIADOS",
+        "content": "Especialistas afirman\nque los smartphones podrían incorporarse\ncomo herramientas de aprendizaje.\nServirán para hallar respuestas en tiempo real y como fuente\nde aplicaciones que vinculen al alumno\ncon materias como la física o la química.\nPueden ayudar a encontrar – respuestas en tiempo real y contienen\naplicativos para enganchas materiales complejas con la vida diaria.”
+    },
+    {
+        "headline": "ESSALUD. TRES PERUANOS MUEREN AL DÍA POR FALTA DE DONANTES DE ÓRGANOS",
+        "content": "El gerente de Procura y Transplantados de Essalud,\nCarlos Carvallo Niñique, reveló ayer que aproximadamente\ntres peruanos mueren cada día al no poder encontrar\nun donante de órganos. Ante esta estadística, que convierte\nal Perú en uno de los países con la tasa de donantes más bajas\ndel mundo, Essalud realizará charlas informativas en sus 28 redes\nasistenciales a nivel nacional, durante la Semana del Donante de Órganos."
+    },
+    {
+        "headline": "MINISTROS VAN HOY AL CONGRESO",
+        "content": "Los Ministros Edmer Trujillo (Vivienda), Marisol Pérez Tello (Justicia)\ny Jaime Saavedra (Educación) sustentarán hoy ante el Congreso\nel pedido de facultades legislativas en sus respectivos sectores."
+    },
+    {
+        "headline": "PARADA EN NUEVA YORK. PRESIDENTE PARTICIPARÁ EN ASAMBLEA GENERAL DE LA ONU",
+        "content": "Después de su exitosa gira por Asia, el presidente Pedro Pablo Kuczysnki llegó\nayer a Nueva York, EE.UU., donde realizará varias actividades oficiales,\nenmarcándose dentro del 71º periodo de Sesión de la Asamblea General\nde las Naciones Unidas."
+    },
+    {
+        "headline": "AUTOPISTA EN CHOCLLA. INMUEBLES DE LA ZONA TIENDRÁN UN MAYOR VALOR",
+        "content": "José Luis Zar, subgerente de Promociones de la Municipalidad de Chaclla,\ndeclaró que la construcción de la Autopista Central incrementará\nel valor económico de los inmuebles situados en esa área."
+    },
+    {
+        "headline": "SMARTPHONES USUARIOS LLEGARÁN A 8,6 MILLONES",
+        "content": "A finales de este año, cerca de un tercio de la población poseerá teléfonos inteligentes.\nLos días 27 y 28 de octubre se llevará a cabo el V Congreso de Negocios en la Era Digital (NED 2016).\nSe prevé que la cantidad de usuarios aumente significativamente gracias a la rápida adopción de nuevas tecnologías."
+    },
+    {
+        "headline": "PERÚ CON BUENA SOLIDEZ MONETARIA",
+        "content": "El Sol disfruta de buena salud según el índice de libertad económica del Instituto Fraser.\nObtuvo la máxima calificación en América Latina respecto a la solidez monetaria."
+    },
+    {
+        "headline": "FERNNÉNDIZE DENUNCIA OTRO PLAN CÓNDOR'",
+        "content": "La expresidenta argentina Cristina Fernández mencionó un supuesto \"Nuevo Plan Condor Judicial\"\ntanto contra ella misma como contra Luís Inácio Lula da Silva, basándose en declaraciones periodísticas recientes."
+    },
+    {
+        "headline": "HOY DEFINIMOS LA SERIE DE COPA DAVIS ANTE VENEZUELA",
+        "content": "Nicholas Álvarez lleva ventaja frente a Luis Ramírez en el enfrentamiento crucial por avanzar en la competición."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined scope and goal for extracting relevant information. Articles were identified through their distinct headings followed by substantial textual bodies related to journalism topics such as politics, technology, health issues, sports events, etc. Non-article sections like ads, subscriptions, and repetitive elements have been excluded according to guidelines.

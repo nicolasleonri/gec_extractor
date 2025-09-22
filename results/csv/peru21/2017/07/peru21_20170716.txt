@@ -1,0 +1,88 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/07/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "Lula da Silva es condenado a prisión",
+        "content": "El ex presidente de Brasil Luiz Inácio ‘Lula’ da Silva (2003–2010)\nfue condenado, en primera instancia, a nueve años y medio\nde prisión por corrupción pasiva y lavado de dinero.\nAsí lo determinó el juez Sérgio Moro,\nPese a su condena, el ex gobernante ratific\nsu candidatura para las elecciones presidenciales del 2018."
+    },
+    {
+        "headline": "Capturan a pastor evangelico que violó y mató a niña",
+        "content": "En Huancayo, la Policía capturó a Fernando Matos Paucar, el\nasesino confeso de una niña de 8 años, a quien el detenido\nsecuestró y ultrajó. El sujeto confesó que arrojó el cuerpo en\nun costal. Una cámara de seguridad grabó el momento en\nque la niña fue retenida por el sujeto."
+    },
+    {
+        "headline": "Kenyi Fujimori se presenta ante el Congreso",
+        "content": "Ante el Comité Disciplinario de la agrupación que lo procesa por\nsupuesta conducta infractora e indisciplina partidaria. All calificó\nexpresamente el procedimiento de arbitrario y ajeno a la Constitución.”
+    },
+    {
+        "headline": "Polícia detiene a modelo Eyal Berkovér",
+        "content": "Después de que Migraciones ordenara su expulsión del país,\nal Modelo Israelí Eyal Berkovér fue arrestado por haber presentado\ndocumentos falsificados para conseguir una visa laboral en el Perú.\nSin embargo, el Ministerio de Relaciones Exteriores admitió que se había cometido “un error”, dado que su condición de refugiado sigue válida hasta agosto."
+    },
+    {
+        "headline": "El 30% de niños con leucemia no recibe tratamiento",
+        "content": "Mientras en EE.UU. y Europa el 90% de niños sobrevive, en el Perú sólo alcanzan el 35%\nporque existen numerosos obstáculos para recibir atención médica adecuada.\nEl Ministerio de Salud lanzará un plan completo destinado a mejorar la atención infantil afectada por la enfermedad."
+    },
+    {
+        "headline": "OPINIÓN: Antifujimorismo enfrenta crisis ética",
+        "content": "Esta semana argumenté que el fujimorismo desconoce y malinterpreta al antifujimorismo, bajo la errónea idea de que éste último consiste únicamente en grupos radicales irrelevantes. Este análisis resulta incorrecto y peligroso. Ha resultado efectivo bloquear repetidamente el acceso político del fujimorismo mediante la división organizativa y aprovechar la ventaja moral percibida por la sociedad civil. Las implicaciones del Caso Lava Jato amenazan gravemente esta posición moral privilegiada."
+    },
+    {
+        "headline": "¿Queema o no queema?",
+        "content": "Martín Vizcarra, Vicepresidente de la República, junto al Ministro de Energía Solar de Moquegua destacaron la energía solar crucial para el progreso regional sureño."
+    },
+    {
+        "headline": "Prontuarios y realidades económicas",
+        "content": "Si decides invertir en una casa para alquilar basándote en un presupuesto inicial de 1.3 millones de soles, esperando una rentabilidad del 13.5%, descubrirás rápidamente cómo errores de cálculo incrementan significativamente tus inversiones previstas, reduciendo drásticamente las tasas de retorno netas."
+    },
+    {
+        "headline": "Claudia Izaguierre reflexiona sobre política actual",
+        "content": "Lo ocurrido con la pareja presidencial destaca la urgencia de reformular controles financieros dentro de los partidos políticos. Es fundamental entender que aún estamos en las primeras etapas del juicio relacionado con cargos de blanqueo de capitales vinculados a fondos de campaña electoral."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/peru21/2017/07/peru21_16.txt ---
+
+```json
+[
+    {
+        "headline": "Posiciones similares",
+        "content": "Una posici\u00f3n similar \ntru su colega de Accion\nPopular Armando Villanueva,\nquien\neralt que Shack cuenta con\nla \"solvencia moral\" necesaria\npara ser el futuro controllor."
+    },
+    {
+        "headline": "Dom Vs Bolivia",
+        "content": "NA"
+    },
+    {
+        "headline": "Nelson Shack",
+        "content": "Hoy en da, uno pensara que...\nUno de los grupos evaluadores dará un reporte preliminar.\nDaniel Salaverry dijo que su grupo discutirá una posición colegiada.\nPercy Alcal confirmará pronto el informe sobre la candidatura de Nelson Shack."
+    },
+    {
+        "headline": "Justicia peruana critica",
+        "content": "\"Despus de escuchar a abogados penalistas, resulta claramente injustificado el uso preventivo de la prisi\u00f3n de Humala y Hereda.\" Además, menciona cómo esto afecta emocionalmente a los niños implicados."
+    },
+    {
+        "headline": "Reconstrucción en Piura y Lambayeque",
+        "content": "Anuncio de Jos Manuel Hernandez sobre infraestructura hidrica valorizada en más de \$342 millones destinados a mejorar capacidades productivas mediante nuevos reservorios y canales de riego."
+    },
+    {
+        "headline": "Investigaciones políticas en América Latina",
+        "content": "Expone las dificultades actuales de líderes políticos en Latinoamérica debido a investigaciones judiciales, destacando casos específicos en Brasil y Perú."
+    },
+    {
+        "headline": "Separación política en Perú",
+        "content": "Detalla la división interna del partido Frente Amplio en Perú, describiendo quiénes conforman 'Nuevo Perú' frente a 'Tierra y Libertad'. Analiza también las repercusiones electorales y parlamentarias derivadas de dicha fractura."
+    },
+    {
+        "headline": "Referendum venezolano",
+        "content": "Descripción del contexto político en Venezuela relacionado con el referendum para la constitución de una nueva Asamblea Constituyente bajo Nicolás Maduro."
+    },
+    {
+        "headline": "Intento de Golpe en Turquia",
+        "content": "Presidente turco Tayyip Erdoğan advierte severamente a aquellos responsables del intento de golpe militar anterior, atribuyendo acciones a varias entidades extremistas."
+    }
+]
+```
+This JSON structure captures each identified article's headlines and contents based on their significance within the provided text while adhering strictly to the specified format requirements. Articles lacking explicit headings have been assigned `"NA"` where appropriate. Additionally, any extraneous information not fitting these criteria has been excluded.

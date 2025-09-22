@@ -1,0 +1,33 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2015/06/gestion_12.txt ---
+
+```json
+[
+    {
+        "headline": "El reto\nEs saber qué\_ capacitaciones es necesario\nde desarollar y cómo aprenderlas”. ",
+        "content": "Estas organizaciones han demostrado tener una \ncapacidad de aprendizaje sobre su \"trabajo\" inigualable.\nas a la práctica del desarrollo profesional continuo,\nageilidad de ejecución, planificación de potencial, capacidades emergentes y empleados como cocreadores.\nEstos principios son los que caracterizan las capacidades en la era digital, y marcan el desarrollo profesional como fuera un juego de Lego, donde siempre están añadiéndo piezas y nunca se dan por finalizado el proyecto.\nEl sistema operativo de las empresas de hoy en día aprovechan las capacidades más humanas, la capacidad de adaptación y la capacidad de aprender. Y cuanto más practiquen estas habilidades digitales, más capacitados estarán para enfrentar un mundo cambiante con predicciones inciertas.\nEl reto es identificar qué capacitaciones es necesario desarrollar y cómo aprenderlas, sobre todo si tomamos en consideración la rapidez con la que vivimos, y la innovación provocada por nuevas tecnologías."
+    },
+    {
+        "headline": "Según reporte de Mapcity\nPrecio de parqueo en Lima Top supera en 5 veces a los de Jesús María y Callao",
+        "content": "-En San Isidro, la disponibilidad de parqueo está solamente al 50%\n debido a que concentra el mayor número de playas. El parqueo en el país es uno de los más altos de la región.\n Sin embargo, según el último reporte de Mapcity, que ubica a Los Portales y Central Parking como los principales operadores del sector, e indica que el alto precio de parqueo también está asociado al elevado precio del metro cuadrado en esas zonas.\n Actualmente, dichas compañías cuentan con 231 parkings en Lima, aunque el 58% se concentra solo en San Isidro, Miraflores y Surco. \"No obstante, justamente donde hay más estacionamientos, existe una demanda insatisfecha. En San Isidro se estima un déficit del 50\", anotó Fernando Hornea, vicepresidente ejecutivo de la firma de geobusiness."
+    },
+    {
+        "headline": "Negocio\nCrayola alista trece lanzamientos este año",
+        "content": "La marca norteamericana Crayola alista trece lanzamientos este año, con miras a las campañas del Día del Niño y la de Navidad, adelantó la representante de la marca, Carolina Conde. Detalló que con miras a la campaña del Día del Niño (Agosto), se prepararían ocho lanzamientos entre juguetes y sets artísticos; y para Navidad unos cinco lanzamientos, principalmente juguetes más elaborados, como los aerografos con forma de Minions."
+    },
+    {
+        "headline": "Radical Empresarial\nCamargo Correa niega pagos irregulares",
+        "content": "La constructora brasileña Camargo Correa rechazó haber realizado pagos irregulares para adjudicarse el lot 4 de la Carretera Interoceanica Sur, que une Perú y Brasil, ni haber incrementado irregularmente los presupuestos de dicho proyecto, tal como denuncia un informe divulgado por la Fundación BRIOT (Gestion 11.06.2015)"
+    },
+    {
+        "headline": "Autotor\nVentas de vehículos nuevos se contrajeron 9.6% en mes de Mayo",
+        "content": "En el quinto mes del año, las ventas de vehículos nuevos alcanzaron las 14,402 unidades y registraron una caída de 9.6% respecto a los 15,933 vendidos en mayo del 2014, reportó la Asociación de Representantes Automotores del Perú. Como resultado, el sector cae por sexta ocasión consecutiva desde diciembre. Rafael Prado, gerente de Marketing de Nissan, estimó que la tendencia continuar en los próximos meses por la coyuntura económica, el ruido político y la demora en los proyectos mineros y de infraestructura."
+    },
+    {
+        "headline": "Opinion\nEntorno se complica para países emergentes",
+        "content": "\"Países que invierten en educación y salud de su población, mejoran el entorno para hacer negocios y crean empleos modernizando su infraestructura saldrán muy fortalecidos de esta crisis en años venideros.\" Ayhan Koç, Director de Perspectivas de Desarrollo del Banco Mundial."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by substantial textual content related to journalism topics such as professional development challenges, urban transportation costs, product launches, corporate integrity issues, automotive sales trends, and economic outlook discussions. Non-article sections like ads and repetitive information have been excluded according to specified criteria.

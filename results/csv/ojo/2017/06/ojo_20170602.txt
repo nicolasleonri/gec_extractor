@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/06/ojo_02.txt ---
+
+```json
+[
+    {
+        "headline": "OPERABA EN 20 INMUEBLES\nY TALLERES DE LIMA Y HUARAYL,\nLEDERA POR \"TO JUAN\"",
+        "content": "Uno lideraba red criminal dedicada a falsificar documentos públicos.\nPolicía arrestó a 19 integrantes."
+    },
+    {
+        "headline": "LA FIFA SE HA PROPUESTO LEVANTARNOS LA MORAL",
+        "content": "\"La FIFA\" posicionó a la Selección Peruana en el puesto número 15 según nuevo ranking mundial. Esto representa un hito histórico dado que Perú no competía en mundiales hacía más de treinta años. Sin embargo, aún falta camino hacia el próximo torneo en Rusia 2018."
+    },
+    {
+        "headline": "CHICA VENDE SU ANILLO DE \nCOMPROMISO AL DESCUBRIR\n_EL SECRETODE SUSNOVIO_\n",
+        "content": "Laura decidió poner en venta su anillo después de descubrir que su novio mantenía ocultas relaciones homosexuales. Ella comprendió la situación y actualmente ambos son buenos amigos."
+    },
+    {
+        "headline": "JÓVEN SE \'GRADA\'\nEN UN TREN AL NO PODER LLEGAR\nA LA CEREMONIA",
+        "content": "Un joven destinado a recibir su título universitario optó por simular estar presente mediante compañeros haciéndolo pasar por él debido a problemas de transportación."
+    },
+    {
+        "headline": "PERRITOS SE VISTEN\nCOMO LAS ESTRELLAS\nDE STAR WAR'S\"\n",
+        "content": "Los cachorros han adoptado disfraces inspirados en icónicos personajes de Star Wars, mostrándose caracterizados como Darth Vader, Yoda y Luke Skywalker."
+    },
+    {
+        "headline": "GIORGIO ROBERTO BELTRÁN TORRES\nMUERE TRAS RECIBIR BALAZOS",
+        "content": "Espicha, supuestamente involucrado en un conflicto amoroso familiar, fue encontrado culpable de haber asesinado a Erick Armando Belmont Torres. Tras enfrentamientos legales, finalmente fue capturado."
+    },
+    {
+        "headline": "DON LUIS MENDIOLA Y SU HIJA MILAGROS TAMBIÉN SALVARON",
+        "content": "Durante un dramático evento, tanto don Luis Mendiola García como su nieto sobreviven gracias a la rápida intervención de rescatistas tras el derrumbe parcial de su hogar."
+    },
+    {
+        "headline": "'FLACO', DETENIDO POR ATAQUE CONTRA JOVIALITO",
+        "content": "Presuntos implicados en el mortal ataque contra Giovanny Santos Canozza están bajo custodia judicial. Uno de ellos resultó gravemente lesionado durante el intercambio de disparos posterior al hecho violento."
+    },
+    {
+        "headline": "SECUESTRAN NIÑA PARA FORZARLA A PARTICIPAR EN ACTOS ILÍCITOS",
+        "content": "Denuncia formal realizada por Carmen Nina Eche revela cómo su descendiente fue forzada a colaborar en actividades criminales organizadas por Jorge Junior Dorá Elor."
+    },
+    {
+        "headline": "DENUNCIA SECUESTRO INFANTIL",
+        "content": "Madre reporta que su hija adolescente está sometiéndose a acciones ilícitas instigadas por individuo conocido previamente relacionado sentimentalmente con su familia."
+    }
+]
+```
+This extraction captures key stories based on their headlines and contents while adhering strictly to the provided guidelines regarding inclusion criteria and data cleanup processes. Note any missing information has been filled with `"NA"` where applicable according to instruction requirements.

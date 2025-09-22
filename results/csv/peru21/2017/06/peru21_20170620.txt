@@ -1,0 +1,31 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/06/peru21_20.txt ---
+
+```json
+[
+    {
+        "headline": "Conductora lanza críticas",
+        "content": "La conductora de espectáculos Jazmín Pinedo se refirió al reality 'Esto es guerra', donde participó años atrás. ‘Últimamente el programa donde están trabajando (Michelle Soifer y Érick Sabater) está abocado mucho más al show que a lo que era antes. Obviamente podría servir’, expresó Pinedo."
+    },
+    {
+        "headline": "\"Maricarmen Vargas y yo estamos felices\"",
+        "content": "\"Maricarmen Vargas y yo estamos felices con que al público le guste lo que hacemos en 'Qué Tal Sorpresa!',\" dijo el actor Sergio Galliani. \"¿Cómo les fue en el rodaje de la película 'Django 2'? ¿Cuántos proyectos tienes?\"
+
+\"Me gustó muchísimo volver a actuar en 'Django' junto a Giovanni Ciccia, Tatiana Astengo y Melissa Urbina. Este año estoy haciendo bastante cosas en el cine. En julio se estrena la película de 'Melcochita' ('Gemelos Sin Cura'), donde yo también participo. Además, comenzaremos hacia fines de año con la producción de mi cortometraje 'Sueños De Azar', que trata de un momento social y político de nuestra historia.\"
+
+\"¿En qué consiste tu nuevo proyecto teatral 'El Test'? ¿Cuál será tu personaje?\"
+
+\"Mi personaje se llama Héctor, soy pareja de Pauline, papel interpretado por Vanesa Saba, y básicamente es una comedia sobre cuatro amigos que enfrentan problemas económicos entre ellos. La obra cuenta además con la actuación de Javier Delgiudice y Ximena Duarte.\""
+    },
+    {
+        "headline": "Raúl Sanz recibe reconocimientos",
+        "content": "'Es un honor para mí este reconocimiento,' manifestó Raúl Sanz quien recibirá el premio en la víspera de los Latin Grammys, evento programado para el 15 de noviembre."
+    },
+    {
+        "headline": "Shaila Gutiérrez revela romance secreto",
+        "content": "Shayna Rosales, exnovia de Christian Domínguez, habría sido vista saliendo con el cantante peruano Gian Marco Zignago durante sus vacaciones en Miami Beach. Según informaron fuentes cercanas a ambos artistas, esta relación estaría causando revuelo dentro del ambiente artístico local."
+    }
+]
+```
+This extraction includes four distinct pieces based on their headlines and associated contents while adhering strictly to the guidelines provided for extracting meaningful journalistic content. Any extraneous information such as unrelated personal details was excluded according to the scope defined.

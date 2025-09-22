@@ -1,0 +1,45 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/08/publimetro_15.txt ---
+
+```json
+[
+    {
+        "headline": "EXTENDIMOS LA VENTA DE FACTORÍA HASTA EL 21 DE AGOSTO:",
+        "content": "NUEVA CHEVROLET CAPTIVA\nANTE:\nUSD 26,990 / 5\.89,067o\nAHORA DESDE:\nPistas referenciales.\nTipo de cambio S/\u002730\u0027 es referencial y puede variar según fluctuaciones de mercado."
+    },
+    {
+        "headline": "El país con mejor clima económico",
+        "content": "El Perú retomó el primer lugar en el índice de Clima Económico (ICE) de América Latina, elaborado por el Instituto IFO de la Universidad de Munich y la Fundación Getulio Vargas. Según el reporte del tercer trimestre del año 2016, nuestro país alcanzó 134 puntos (en abril obteníamos 104). Le siguieron Paraguay (127 puntos) y Colombia, Argentina y Bolivia con 100 puntos."
+    },
+    {
+        "headline": "ADEX. Pide mejorar en competitividad para acelerar exportaciones",
+        "content": "El presidente de la Asociación de Exportadores (ADEX), Juan Varilias, dijo ayer que la meta por el Ministerio de Comercio Exterior de duplicar las exportaciones hacia el 2021 es un reto que el sector acepta, pero \"es una carrera contra el tiempo\". 'Existen problemas críticos con el timing', señaló, instando a las autoridades a agilizar procesos para incrementar la competitividad."
+    },
+    {
+        "headline": "LA SUNAT YA NO APPLICA MULTAS EN ESTOS CASOS...",
+        "content": "Para favorecer a los contribuyentes, particularmente a los microempresarios o personas naturales, la Superintendencia Nacional de Aduanas y Administración Tributaria (Sunat) cesará la aplicación de sanciones y cierres de locales en determinados contextos, conforme a normativas publicadas en el Diario Oficial El Peruano."
+    },
+    {
+        "headline": "REMEDIACIÓN COLEGIO FE Y ALEGRA MEDIANTE OBRA POR IMPUESTOS",
+        "content": "AFP Integra remodeló el colegio mediante obras sociales corporativas, transformándolo completamente. Ahora dispone de instalaciones modernas incluyendo nuevas áreas académicas y tecnológicas, proporcionando así un entorno más adecuado para cerca de mil estudiantes."
+    },
+    {
+        "headline": "Muerte en Suiza después de ataque terrorista",
+        "content": "Trágicamente, el individuo responsable de incitar violencia en un tren en Suiza falleció debido a lesiones graves causadas por autoincendiarse. Este incidente resultó en varias víctimas mortales y múltiples lesionados."
+    },
+    {
+        "headline": "Investidura de Medina en RD",
+        "content": "Presidentes mundiales convergerán en Santo Domingo para la ceremonia de investidura del mandato continuo de Danilo Medina, quien previamente logró un triunfo electoral destacado."
+    },
+    {
+        "headline": "PERÚ SE PROCLAMA CAMPEÓN DEL ISA WORLD SURFING GAMES 2016",
+        "content": "El seleccionado peruano consigue su título mundial en Costa Rica, marcando un hito histórico fuera de nuestras costas. Destacan las victorias personales de jóvenes talentos como Lucía Mesinas, quienes brillaron en competición internacional."
+    },
+    {
+        "headline": "RESULTADOS CLÁUSERA PERUANO",
+        "content": "Resumen de resultados clave en el torneo Clausura, mostrando posiciones actuales y jugadores sobresalientes basados en número de goles anotados."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined format requirements. Articles were identified based on significant changes in topic indicated through headings and structured paragraphs within the document's flow.

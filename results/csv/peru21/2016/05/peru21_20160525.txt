@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/05/peru21_25.txt ---
+
+```json
+[
+    {
+        "headline": "Universitario",
+        "content": "La versión del reportero contradice la del oficialismo, que sostiene que el referéndum que intentará activar los opositores no podrá celebrarse este año, sino en el 2017, cuando venza el lapso constitucional para que pueda ser elegido un nuevo gobierno."
+    },
+    {
+        "headline": "Encuentro de líderes que transforman el país",
+        "content": "Escuela Naval del Perú. Del 29 de junio al 2 de julio."
+    },
+    {
+        "headline": "BOLOVIANA. CHILE DESPLAZA AGENTES, DENUNCIA MORALESA",
+        "content": "\"DENUNCIA ESPIONAJE\nLA PAZ (AFP)— El presidente de Bolivia, Evo Morales, denunció que Chile desplegó agentes de inteligencia a su país dos días después de periodistas para ‘‘buscar cómo debilitarlo’’ y hacer fracasar la economía nacional, ‘‘una de las más sólidas de la región’’, según él.\""
+    },
+    {
+        "headline": "Patricia Quispé V.: Entrevista",
+        "content": "- \"Así empezó la senadora única candidata...\n---\nJuan Sheput, vocero de la agrupación, señala que están detrás de la baja de preferencias electorales de PPK.\n¿Cambiará la estrategia?\n-No. Mantenernos enfocados en nuestras propuestas sigue siendo clave."
+    },
+    {
+        "headline": "KEIKO SUBE,\nPAPÁ APÉRTATE...",
+        "content": "\"Keiko Fujimori lidera actualmente en las últimas encuestas. ¿Cómo revertirá PPK esto?\nCreo que Keiko ha alcanzado un límite máximo. Hay que encontrar qué causó la disminución en popularidad hacia Pedro Pablo Kuczynski.”
+    },
+    {
+        "headline": "Ciudad",
+        "content": "Análisis económico y político de la situación en Venezuela bajo el régimen de Nicolás Maduro, destacando problemas severos de inflación, escasez de alimentos básicos y productos diarios."
+    },
+    {
+        "headline": "Pidén Investigar Liberación de Detenidos",
+        "content": "Expertos advierten sobre una crisis sistémica en el ámbito de la justicia peruana, evidenciada por la rápida liberación de individuos implicados en actividades ilícitas."
+    },
+    {
+        "headline": "Mexicanos Caen Con Droga En El Estómago",
+        "content": "Detención de dos viajeros mexicanos en el Aeropuerto Jorge Chavez portadores de cocaina dentro de cápsulas digestivas."
+    },
+    {
+        "headline": "Incendio Devastador En Textilería",
+        "content": "Un gran incendio afectó una fábrica textil en Santa Clara, generando importantes pérdidas materiales y lesionando a un empleado."
+    },
+    {
+        "headline": "Argentinización de Policías Capturados",
+        "content": "Orden de arresto emitida contra funcionarios corruptos de la policía vinculados a secuestros de vehículos comerciales."
+    },
+    {
+        "headline": "Jaime De La Cruz Retenido",
+        "content": "Revocado beneficio legal previo, ahora deberá responder por acciones legales pendientes derivadas de movilizaciones sociales anti-mineras."
+    }
+]
+```
+This JSON contains extracted headlines and their corresponding contents based on significant topics identified within the provided OCR text input. It excludes non-journalistic elements such as ads, listings, etc., focusing solely on substantial reporting material.

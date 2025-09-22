@@ -1,0 +1,21 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/07/gestion_14.txt ---
+
+```json
+[
+    {
+        "headline": "‘El padre’ ocupa toda su atención",
+        "content": "\"El Padre\", hoy un proyecto acapara toda su atención. \"Es lo que me han dejado las tablas\" , reconoce Ang Lee quien asegura que aunque por momentos pueda ser ««El Padre», ya está dentro de nosotros. Así que, aunque por detrás o sobre nuestras mesas, este arte fue ayer merced de unos pocos, él quiere servirse del presente, no se le ha pasado por la cabeza «jubilarse» y evita pensar demasiado en la muerte."
+    },
+    {
+        "headline": NA,
+        "content": "Cumplidos 84 años y no considerándose un anciano, tiene la energía fluyendo todavía. Hoy un proyecto acapara toda su atención. \"El Padre\", hoy un proyecto acapara toda su atención. \"El Padre\", hoy un proyecto acapara toda su atención. Hace más de cuatro décadas ha sabido mantenerse activo interpretando personajes diversos. Y arguye, sin abandonar la modestia, que uno de sus méritos es haber construido obras donde \"nadie muere en la víspera,\" citando a Jorge Luis Borges. "
+    },
+    {
+        "headline": NA,
+        "content": "Mario Vargas Llosa tras 50 años junto a su esposa experimentó situaciones intensas. Dice que existe un instante tan poderoso que implica decisiones inevitables. Sostiene que la infidelidad muchas veces depende de oportunidades disponibles. Con entusiasmo afirma querer vivir plenamente cada experiencia, especialmente con proyectos como ‘El Padre’, que estimulan e invitan a reflexionar profundamente. Confiesa que si bien hubiera deseado mayor público durante épocas anteriores, actualmente percibe un interés creciente hacia el buen teatro."
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on thematic continuity while adhering strictly to the guidelines for extracting headlines and contents where applicable. Note how some segments were merged under broader themes given their narrative connection rather than separate headings being explicitly present.

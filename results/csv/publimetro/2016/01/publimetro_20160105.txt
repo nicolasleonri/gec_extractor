@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/01/publimetro_05.txt ---
+
+```json
+[
+    {
+        "headline": "Esta vez en una propuesta live-tion — acompañada de muchas genéricas...",
+        "content": "Protagonizada por el actor infantil Neel Sethi (Moana). Bill Murray y Scarlett Johansson se van a poner las voces a los personajes del oso Baloo y la pantera Kaa, respectivamente. Otras estrellas que prestan sus voces son Lupita Nyong’o (la lobezna Raksha) e Idris Elba (el tigre Shere Khan).\n\nEstreno mundial: 14 de abril."
+    },
+    {
+        "headline": "Angry Birds",
+        "content": "Recordamos ese juego para celular tremendamente adictivo en el que lanzábamos pájaros contra cerditos. Bien, esos mismos personajes quieren volar alto en el cine con una adaptación animada que contarán con las voces de Peter Dinklage, Josh Gad, Jason Sudeikis y otros.\n\nEstreno en EE.UU.: 20 de mayo.\nEn el Perú: 12 de mayo.\nEstreno Mundial: 5 de mayo."
+    },
+    {
+        "headline": "*X-Men: Apocalypse",
+        "content": "Sempre há algum tentando destruir o mundo. Na essa aventura um grupo de pessoas com super-poderes muito específicos deverão deter o vilão Apocalipse (Óscar Isaacs). Já estão confirmados personagens como Raven (Jennifer Lawrence) e Professor Xavier (James MacAvoy). Eles, junto a outros homens-X, deverão alcançar derrotar o vilão. É dirigida pelo diretor cinematográfico Bryan Singer."
+    },
+    {
+        "headline": "Documentary Series",
+        "content": "Se você achava que esse jogo online de guerra é só pra nerd, está enganado. Esse filme dirigido por Duncan Jones e baseado na série de videogame promete ser uma das maiores apostas deste ano. Veremos uma disputa pela sobrevivência humana versus zumbis. Atuarão Sam Worthington, Tom Felton e mais.\n\nEstreia: 10 de Junho."
+    },
+    {
+        "headline": "*Dia da Independência: Resurgence",
+        "content": "Usando tecnologia obtida dos aliens que invadiram a Terra 20 anos atrás, países do globo inteiro têm trabalhado numa enorme rede de proteção planetária. Contudo isso não garante que nós estamos realmente preparados para enfrentar outro embate intergalático. Participação especial de Liam Hemsworth e Charlize Theron. Direto por Roland Emmerich.\n\nEstreia mundial: 24 de Junho."
+    },
+    {
+        "headline": "*Ghostbusters 3'",
+        "content": "Todo mundo ri quando as investigadoras Erin Gilbert (Kristen Wiig) e Abby Yates (Melissa McCarthy) escreveu sobre fantasmas existirem. Mas Manhattan fica cheia desses espíritos e todo mundo corre até eles pedindo ajuda. Guión e direção ficaram nas mãos de Paul Feig.\n\nEstreia nos EUA: 15 de Junho.\nEm Peru: 21 de Junho."
+    },
+    {
+        "headline": "\"Esquadron Suicida\"",
+        "content": "Não encontrou nenhum heroi disponível? Então contrata alguns vilões. Essa vai ser uma das melhores adaptações de quadrinhos esperadas neste ano onde vamos conhecer um novo Joker (interpretado por Jared Leto). Teremos também presença de Harley Quinn (Margot Robbie), Deadshot (Will Smith), Rick Flag (Joel Kinneman) e muitos outros.\n\nEstreia mundial: 05 de Agosto."
+    },
+    {
+        "headline": "'Doctor Estranho'",
+        "content": "Você conseguiu arrumar emprego mas não foi médico? Experimente então fazer carreira salvando o mundo. Exatamente assim fez o doutor Stephen Strange (Benedit Cumberbatch) depois de perceber que sua trajetória profissional havia acabado. Ele será guiado por Scott Derrickson."
+    },
+    {
+        "headline": '*Star Trek: Sem Limites',
+        "content": "Na sequência de ‘Star Trek: Into Darkness’, conhecemos novamente à bordo da USS Enterprise agora liderada pelo capitão James T. Kirk (Chris Pine) sendo surpreendentemente confrontados por desconhecidos alienígenas. Assim, nossa equipe fica isolada num planeta distante. Será dirigido por Justin Lin.\n\nEstreia mundial: 21 de Julho."
+    },
+    {
+        "headline": '"Rogue One"',
+        "content": "Os fanáticos de Star Wars já podem conferir outra história ligada diretamente às Guerras Clônicas. Aqui acompanhamos um time rebelde fazendo tudo possível para roubar os planos secretos da Estrela da Morte. Comanda a obra o diretor britânico Gareth Edwards.\n\nEstreia: 16 de Dezembro."
+    },
+    {
+        "headline": "Assassin’s Creed!",
+        "content": "Filme conta a saga de Callum Lynch (Michael Fassbender) que através de uma revolução tecnológica pode acessar suas memórias ancestrais experimentando a vida de seu antecessor, Aguilar de Nerha, na Espanha medieval. Descobre-se ali estar conectado a uma sociedade oculta de assassinos. Lança dia 21 de dezembro."
+    }
+]
+```
+This JSON captures each significant film-related segment identified within the provided input while adhering strictly to the outlined extraction rules. Non-article sections such as ads were excluded based on their nature not fitting the criteria for inclusion.

@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/01/peru21_05.txt ---
+
+```json
+[
+    {
+        "headline": "Receta de cocina peruana tradicional",
+        "content": "ngredientes\n•\tlitro de yuyo\n•\ntzas. de palabrita(forchioros)\n•\nuas de cangrejo jumbo \n•\ntzs. dechicha de jora\n•\n600 g de filete de pescado \n•\nchancadas \n•\ntzs. de caldo de pescado\n•\nceites •\ntlcolas del langostino mezclado \n•\nl tz, de yuca sancochada,\n•\nz tz, de cebolla picada\n•\nnanas en bastones\n•\ctdas. de ajamarillo molido \n•\lzomelo\n•\netas entiras\n•\nodajas de rocoto, sin semillas\n•\npimiento\n•\napas\nDecore con las rodajas de rocoto y un poco de yuyo."
+    },
+    {
+        "headline": "Horóscopo de José Diez Canseco",
+        "content": "José Diez Canseco presenta predicciones astrales:\nTauro: No arriesgues demasiado en el proyecto que tienes en mente.\nPiscis: Asume tus errores cometidos facilitará superarlos.\nEscorpio: Terminarás un trabajo complicado gracias al apoyo recibido.\nVirgo: Equilibra adecuadamente para conquistar.\nLibra: Incrementarán tus ingresos, cuidado con gasto excesivo.\nAcuario: Evalúa tus logros y sentimientos de capacidad ampliación.\nCapricornio: Podrías resolver malentendidos o agrandar conflictos."
+    },
+    {
+        "headline": "Casos Exitosos: Academia Musical Moderna",
+        "content": "Una entrevista revela cómo inició esta academia musical moderna. Destacan la inversión significativa requerida debido a la última tecnología disponible. Ofrece talleres durante vacaciones y eventos especiales para práctica de estudiantes. Además, cuenta con convenio educativo internacional con Berklee College of Music de Boston, EE.UU."
+    },
+    {
+        "headline": "Entrevista exclusiva a Zinedine Zidane",
+        "content": "\"Florentino Pérez\" confirma cambios importantes en el Real Madrid nombrando a \"Zidane\", anteriormente técnico interino, como entrenador permanente. Explica motivos de cambio incluyendo resultados insatisfactorios previos y tensiones internas. Resalta cualidades personales y profesionales de Zidane, así como su experiencia exitosa jugando para el club."
+    },
+    {
+        "headline": "Diego Manicero firma con Universitario",
+        "content": "Después de recuperarse completamente de cirugía en la rodilla, Diego Manicero pasa exámenes médicos satisfactoriamente y formaliza su incorporación a Universitario. Ambiciona competir intensivamente en el torneo nacional y avanzar en la Copa Sudamericana. Comenta sobre el compromiso compartido del plantel para alcanzar nuevos éxitos deportivos."
+    },
+    {
+        "headline": "Arranca Sueño Crema con Reforzamiento",
+        "content": "Universitario fortaleció su plantilla con nuevas contrataciones clave mientras enfrentaban retos físicos anteriores. El equipo trabaja conjuntamente bajo dirección técnica renovada para aspirar al título número 27. Detalles adicionales mencionan partidos amistosos programados frente a rivales sudamericanos."
+    },
+    {
+        "headline": "Iniciativas Culturales Italianas Protegerán Patrimonio Cultural",
+        "content": "Italia planea invertir 300 millones de euros en próximas tres décadas destinados a salvaguardar patrimonio cultural. Esta medida forma parte de un ambicioso plan gubernamental centrado en conservación histórica y desarrollo turístico sustentable."
+    },
+    {
+        "headline": "Literatura Peruana Brillará en Chile",
+        "content": "Jeremías Gamboa y Eduardo Neyra participarán en la prestigiosa Feria Internacional del Libro de Valparaiso, siendo Perú país invitado de honor. Discusiones girarán en torno a obras contemporáneas latinoamericanas, además de conferencias y exposiciones relacionadas con autores emergentes regionales."
+    }
+]
+```
+This JSON captures key information about each identified article while adhering strictly to the provided format requirements. Articles were extracted based on their thematic coherence within sections like recipes, astrology predictions, sports updates, music education insights, football management changes, player signings, and international literary events. Any extraneous details such as ads or unrelated listings have been excluded according to guidelines.

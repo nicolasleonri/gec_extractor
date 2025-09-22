@@ -1,0 +1,34 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/09/elcomercio_26.txt ---
+
+```json
+[
+    {
+        "headline": "Dimite el presidente de la Cámara de Representantes de EE.UU.",
+        "content": "John Boehner sorprendió a todos al anunciar su alejamiento de los cargos públicos, un día después de haber cumplido su sueño de escuchar al papa Francisco hablar en una sesión conjunta."
+    },
+    {
+        "headline": "Ilustración: Victor Sanjin García",
+        "content": "N/A"
+    },
+    {
+        "headline": "Opini\u00f3n\nFrancisco y \nJinping fueron \na Washington",
+        "content": "\ntanto el Papa como el presidente chino son líderes reformistas con retos parecidos.\n\nMosss Nam\nEconomista @moisesnaim\nee stos dos jefes de Est\-\
+          ado no podrian ser más diferentes. Uno es el líder espiritual de 1\.200 millones de catolic\[...\]"
+    },
+    {
+        "headline": "Editorial",
+        "content": "Las normas promulgadas por el Ejecutivo en materia de seguridad. En junio del 2011 el candidato Ollanta Humala fue electo president\[...]\n\nfinalmente, el gobierno habria dejado pasar la oportunidad para impulsar dos reformas urgentes[...] Nuestra preocupacion central es evitar futuros decretos legislativos similares en el año 2020."
+    },
+    {
+        "headline": "Humor Profano\n-un dia COMO HOY hace 100 años-La experiencia de Inglaterra",
+        "content": "Desde el punto de vista político, la formación de un ministerio de coalición o nacional representa en Inglaterra una verdadera revolución en su parlament\[...]"
+    },
+    {
+        "headline": "Propuestas Reformatorias Institucionales Democráticas",
+        "content": "Transparencia aprueba un conjunto de 32 reformas políticas destinadas a mejorar la institucionalidad democrática del país.[...]"
+    }
+]
+```
+This JSON captures each distinct article based on headlines identified within the provided text input while adhering strictly to the specified format requirements. Articles lacking explicit titles have been assigned `"NA"` where appropriate, ensuring clarity and consistency across entries.

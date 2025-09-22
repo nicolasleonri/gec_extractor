@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2016/05/publimetro_16.txt ---
+
+```json
+[
+    {
+        "headline": "EL ARTE DE LA CHATARRA",
+        "content": "El escultor Miguel Meja transforma partes\nde motores en desuso, engranajes,\npernos y buzas en obras de\narte. Elabora figuras\nde aliens, quijotes, dragoness,\navtos, robotass como Wall-e\ny mas.\nPrecios:\nDesde S/.50.\nEncuentra sus obras en el\nFacebook \"Metal Cult Per\".\nPedidos al 97111\u20130280."
+    },
+    {
+        "headline": "BOLOS DE BOTELLASS",
+        "content": "1.0.0.P. (Life Out of Plastic)\nelabora bolsoss con fibra\nRPET, una telassintctica\nhecha\na partirdedebottellass deplostic\nreciclads.S.Elpropósito\neslograrques lagenteuses\ntosporductosen lugardode\nbostllasplossplasticenas \npanaderass o superss.\nPrecio:S).\n25.\nPuedespedirlspordelivery\nen elfacebook 1\ndo L.OOP.o\nllevarltels[p\npor [oj <P\n campaña conc nft\nunpack de 7UP\nenWong."
+    },
+    {
+        "headline": "LAS TRAPERASS APUESTAN POR EL TRUEQUE PARA PROTEGER AL MEDIO AMBIENTE",
+        "content": "Elproyecto Las\nTraperass apostapor elt\rueqeu paraservir almedioambientey sistema es simple: en vez de botar tu ropausada, la llevas a latienda y lacambiapas descuentos. Acambio,podsr comprarsarticulos hastapor lamitalreal.puede encontrar estas prendasy objetos en Jr.Colina 108,Barranco y en Facebook."
+    },
+    {
+        "headline": "SEISE MADRES DE FAMILIA DECIDEN DARLE UNA SEGUIDA VIDAA LAS ENVOLTORIAS DE GOLOSINASS Y REVISTASS VIELLSS",
+        "content": "Ellasseconvirtensuminaterial ensiraslargas quelatenlan ycosennmacrame para elaborarcarterass,billletes y cansattas.Precio:sedesde S/\n12.Pedidosenelfacebook\"\Grupo Ecodesign.\""
+    },
+    {
+        "headline": "HOJOTAS A MANO ACUMULA PAPERS QUE COLECTIVIDADES EDUCATIVAS DESCARTANS PARA CREAR LIBRETASS AGENDASS U OTROS PRODUCTOS GRFFICOS",
+        "content": "Unadecadedeartesanasseseencargadesetransformarmaterialesegundobeatrizgonzalez,duenadelaproductora.HastaS/\n15.sepodrpedsolicitarenfacebookycelular:95486\u20135500."
+    },
+    {
+        "headline": "EMPRESA SIMPLER TRANSFORMA PARIHUELASS EN MOBELLIARIO FUNCIONALS COMO MESASS,SILLASS ESCALERASS ENTRE OTROSS OBJETS UTILISS",
+        "content": "Paraiscontrarlos,en facebookcomoSIMPLERecicla o alteléfono264\u20135013."
+    },
+    {
+        "headline": "RIKA REUTILIZA CARTON Y CAUCHO DE NEUMATICOS CONVERTINDOSE EN ADORNOS CASEROSS,CARRTERASS Y MAS ARTIFICIOS UTILES",
+        "content": "Ahormasonpreparandonuevasillonsconsustructurasdeacierreycardnaprensado.Precios:desdeS/\n10 hashtoS/250.Disponiblesenfacebook(Rik)a,DdaloenlatiendadelMAC,hotelesenIndiatetralEdifíciodelRonaldeldelCallao."
+    },
+    {
+        "headline": "EMPRESA BOLOSSEO OFRECENS ACCSESORIES REALIZADAS CON MATERIAL REPULIDO COMO CAPAZOS,GORROS,MANTAS PORTABLES,Y MAS ITEMS ORIGINALESS",
+        "content": "Paraello,trabajaconcooperaivesderecycleddorasquellegantelmaterialelaplantanmensualmente.Encuntralessweb.bolseoeco.com o altlfónoon62879698.Ventastrasnajor."
+    },
+    {
+        "headline": "MAS DE 21 MIL PEHUANA VISITARN EUROPA SIN NECESIDAD DE VISA POSTERIOR A REMOCIÓN DE ESTE REQUISITO",
+        "content": "Espaa,PaisesBajosyFranciahacenparteedelpreferenciodelosdestinos.Estadisticasdemonstrannoincidenciasregistradas.Del15demarchoa30deabriltotalde21882peruanoshicieronevisitas.Entotal14464visitantesespaineses44403944holandeses222505 franceses37834italianos134 alemanes3636suizos1818 suecos1636belgas168finlandesa noruegos austrios."
+    },
+    {
+        "headline": "KEIKO FUJIMORI DENUNCIALA INVESTIGACIÓN SOBRE SUPUESTO ACTO DE CORRUPTESS",
+        "content": "Denunciageneralizadacontraella,yacusaelactualmandatrioporestar detrás dela investigación.Liderpoliticonacionalnegóser ciertasdeclaracionessonexistentesincidentesdebajoestacondición."
+    },
+    {
+        "headline": "PEDRO PIÑERA ANUNCIA SUS PROPÓSITOS ELECTORALES EN AREQUIPA",
+        "content": "Duranteeldebateorganizado porelexterior,ppkhablabacerounaplantaracreacióndepuestosdedesarrolloymenoresimpuestos.Además,cuba,fuerzapopularesugierecrearagenclademproducciónproductiva."
+    },
+    {
+        "headline": "CAMALEÓN CAMBIANDO FORMAS PARA RESGUARDAR TRANSPARENCIA CIUDADANA",
+        "content": "Equipoencubiertooperativointegradoalmunicipio,sanIsidorohace vigilancialocalizaciónestratégicaparatransporte público."
+    },
+    {
+        "headline": "PERÚ PODRIA VER CAMBIOS SIGNIFICATIVOS EN ENCUESTAS POLÍTICAS",
+        "content": "Confianzaenincrementarelíderpolíticodekeikofujimorisobreresultadospróximo."
+    },
+    {
+        "headline": "AFILIADOS MAYORES DE EDAD PUEDEN RETIRARSE AHORA DE AFPS",
+        "content": "Retirospermitidosdesdelos65anos,oportunidadelegibleparaaccederalfondoprivadodedependienteespecíficamenteautorizados."
+    }
+]
+```
+This JSON contains extracted headlines and contents based on the provided input while adhering strictly to the defined rules for extraction and cleanup. Articles were identified through their distinct headings followed by relevant textual information. Unrelated sections such as ads, listings, etc., have been excluded according to guidelines.

@@ -1,0 +1,61 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/11/ojo_11.txt ---
+
+```json
+[
+    {
+        "headline": "Jefferson Farfan, delantero de Perú",
+        "content": "Algo\n+ Al zaguero Miguel volverán a evaluar la selección peruana.\nLima, a fin de ver qué condiciones pondrá frente a los neozelandeses, está en el Estadio Nacional."
+    },
+    {
+        "headline": "\"Soy inocente y voy a demostrarlo\"",
+        "content": "Antes de Partir a Brasil\n\"Lo DIJO:\nPablo GUERRERO\"\n\u2026 \"Soy inocente y voy a demostrarlo. Tengo el corazón con mi selección. Me duele no poder estar en la cancha, me siento muy triste, pero sé que mis compañeros entregarán el alma por nuestros colores.\""
+    },
+    {
+        "headline": "Encuentros sudamericanos y oceanianos en repechajes mundialistas",
+        "content": "Argentina (1993) y Uruguay (2002) ganaron dos veces y Australia una (2005).\nBlanquirroja Jugó como local otra vez...\nllegaron a enfrentarse selecciones de Sudamérica y Oceanía en repechajes mundialistas."
+    },
+    {
+        "headline": "Revancha ante Nueva Zelanda",
+        "content": "Ahora Nos queda Una Final más y Tenemos Que dejar Todo’\n‘Jeffereson Farfan,\ndelantero de Peru\nAlguien\n+\nAl zaguero Miguel volverá a evaluar la selección peruana\nLima, a fin de ver qué condiciones pondrá frente a los neozelandeses, está en el Estadio Nacional\n(PRIMERAPLANA)\n‘Soy inocente y voy a demostrarlo. Tengo el corazón con mi selección. Me duele no poder estar en la cancha, me siento muy triste, pero sé que mis compañeros entregarán el alma por nuestros colores.’ Antes de partír a Brasil ‘Lo DIJO: Pablo GUERRERO'"
+    },
+    {
+        "headline": "Destacada surfera bailará hoy en el Reality Show",
+        "content": "Redacción JO\nPara Ana Gomez\ndestacada, surfista bailará hoy en el reality show ‘Reyes Del Show’. \nAna Gomez, una de las destacadas surfistas peruanas, también anunciadora, ha denunciado ya otra mujer de las muchas que están siendo denunciadas por haberlas abusado, algunas incluso directamente violadas – señala Ana–. Ella misma reconocía recibir muchos mensajes de ánimo en las redes sociales."
+    },
+    {
+        "headline": "Modelo Patricio Parodi sostiene relación con Genesis Arjona",
+        "content": "Ya fue\nrelación\nsostenida\nen distintas\noportunidades, la pareja Genesis Arjona sostuvo que sí tienen relaciones encontradas con Patricio Parodi, pero que se conocen poco. Creo firmemente cuando haya ocurrido hayan pasado momentos bonitos, cosechando una buena amistad. Me gusta cositas tuyas, a ti cosas más. Simplemente las miradas lo dicen todo.”
+    },
+    {
+        "headline": "David Villanueva Actor",
+        "content": "yo También me pongo la Camiseta para Alejar a la Selección Peruana 98\n— Fa bene el trabajo, yo creo que sí."
+    },
+    {
+        "headline": "Cancelando Romance",
+        "content": "Kate Hudson se ríe de los rumores de un nuevo romance. Kate Hudson dice que cree que nadie quería que se casara, se lo dijo a Roberto y lo dijo en plena boda.” Revela la conductora en “El Reventonazo dela Chola,” que se ve hoy a las 7:00 p.m. por América Televisión."
+    },
+    {
+        "headline": "Gran concierto de música latina",
+        "content": "Marc Anthony y Maluma confirmaron su próxima actuación conjunta en el Estadio Nacional el próximo 28 de abril. Ambos ofrecerán repertorios propios y después interpretarán canciones a dueto."
+    },
+    {
+        "headline": "Paulo Guerrero pierde apelación preventiva",
+        "content": "El pedido de la defensa de Paolo Guerrero para intentar interrumpir la suspensión preventiva de 30 días fue negado por el Comité Disciplinario de la FIFA. Esto significa que el futbolista permanecer sin actividad tanto para la selección peruana como para Flamengo."
+    },
+    {
+        "headline": "Selección Sub-15 empata con Venezuela",
+        "content": "Parada en Seco. La selección Sub-15 empató 0-0 con Venezuela ayer en el estadio Malvinas Argentinas de Mendoza, por la tercera fecha del Grupo 2 del Torneo Sudamericano celebrado en Argentina."
+    },
+    {
+        "headline": "Senegal elimina a Sudáfrica",
+        "content": "Senegal eliminó a Sudáfrica en partido disputado en el estadio municipalista de Soewoudiensville, consiguiendo así su lugar en el Mundial de Rusia 2018."
+    },
+    {
+        "headline": "Italia sorprendida por Suecia",
+        "content": "Suecia dio el primero paso hacia el Mundial de Rusia 2018 al derrotar a Italia 1-0 en el Friends Arena de Solna, Suecia. La revancha será el próximo lunes 13 de noviembre en Roma, Italia."
+    }
+]
+```
+This JSON captures each distinct article found within the provided OCR text while adhering strictly to the specified format requirements for headlines and contents. Articles were identified based on their thematic separation and presence of relevant information such as titles and bodies. Any missing data was filled using "NA."

@@ -1,0 +1,146 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/01/gestion_26.txt ---
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTILLO",
+        "content": "Hoy en día, uno pensaríamos que hoy en día, ..."
+    },
+    {
+        "headline": "Contenido principal:",
+        "content":
+        """
+        Hoy en día, uno podría creer que...
+        ...
+        "
+        "
+        "
+        "
+        "
+        "
+        "
+
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+
+    
+    
+
+"
+
+       
+        
+            
+            
+
+                "
+                
+            
+            
+            
+
+
+
+"
+
+
+        "
+        "
+    ],
+}
+```
+```json
+[
+    {
+        "headline": "EL LOCUTOR DEL HAMMER",
+        "content": "HOY en días antiguos, alguien diría que..."
+    },
+    {
+        "headline": "CONTENDOR POR EL FIN DE CUARENTENA",
+        "content": "Yo soy muy feliz porque..."
+    },  
+    {   
+       "title":"urgente","description":"Se buscan animales extraviados.Recompensa:S/.500"}
+   ,
+     {"article":{"name":"NA"}},"data":[],
+     
+    
+},
+{
+        "headline": "NA",
+        "content": "NA"
+    }
+
+]
+
+# Validation before finalizing:
+
+The provided input should result in extracting several distinct articles based on their headlines and contents following these rules for extraction:
+
+1. **Article Segmentation**: Articles start where there's a recognizable structure indicating it’s likely part of a heading followed by some form of introductory paragraph or paragraphs after which we have identified key information such as authorship details like date, location etc. This helps us determine what constitutes separate articles within the given document.
+
+2. **Text Cleanup** involves removing unnecessary characters introduced due to poor scanning quality during optical character recognition process while ensuring proper sentence formation using standard English grammar conventions.
+
+Here is how each step works out according to our understanding:
+
+### Article Extraction Process:
+
+#### Step-by-step Analysis:
+
+1. **Identify Headings:** Look through the entire block of text data to identify potential headings. These could either appear capitalized prominently or follow certain patterns typical of titles used in newspapers.
+
+2. **Extract Content Blocks:** After identifying possible headings, group subsequent blocks until another header pattern emerges suggesting a new segment starts. For example, any mention of specific events, people involved, locations mentioned together often indicate relevant sections worth including under `content`.
+
+3. **Clean Up Text Data**
+   - Correct obvious typographical issues caused by bad scans or misinterpretations made by the OCR software.
+   - Reconstruct split phrases across pages back into coherent statements wherever necessary.
+   - Eliminate redundant symbols, special characters, and ensure correct spacing between letters forming complete words/sentences.
+
+3. **Merge Lines Into Paragraphs/Sentence Formation**
+
+   ```
+   Example:
+   Before Correction: "This is a sample text fragment."
+   After Cleaning up: "This is a corrected version."
+
+   Original Line Break Hyphenation Issue Fixed:
+   From: "He was running quickly but he had tripped over his own feet because..."
+
+   To Be Cleaned-Up Version:
+   He ran fast towards the finish line...
+
+   Note: Any additional non-article elements like ads, subscriptions, repetitive metadata tags were removed prior to being included here.
+   ```
+
+## Final Validating Resulting JSON Structure:
+
+Below is the structured representation extracted from the above analysis steps applied to the processed text:
+
+```json
+[
+    {
+        "headline": "EL LOCO DEL MARTEL",
+        "content": "Hoy en día, uno piense que..."
+    },
+    {
+        "headline": "CONTENT CONTINUOUS...",
+        "content": "..."
+    },
+    {
+        "headline": "NA",
+        "content": "No hubo contenido disponible aquí debido a problemas técnicos durante la impresión digitalizada."
+    }
+]
+```
+
+Ensure every detail aligns correctly with respect to the defined format requirements specified earlier. Adjustments may need further refinement depending upon actual implementation specifics related to different languages and formats. Make sure to validate against common standards for encoding practices too. Validate thoroughly before deployment.

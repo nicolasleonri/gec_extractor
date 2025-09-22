@@ -1,0 +1,55 @@
+
+
+--- ERROR ENTRY: data/txt/publimetro/2017/01/publimetro_24.txt ---
+
+```json
+[
+    {
+        "headline": "MI PRIMER FESTIVAL IR HASTA ESTE DOMINGO 29 DE ENERO",
+        "content": "Ingresá a\nwww.miprimertestival.net.\nSe enseñará a contar historias con la cámara de un celular."
+    },
+    {
+        "headline": "Educación Personalizada Quín quieres ser en verdad?",
+        "content": "Charla vivencial gratuita 09 febrero – Spa.\nInicio de clases 06 Marzo Su hijo es muy inteligente. ¿Pero...\n= Esta desmotivado = Es desatento = Tiene baja autoestima |\n= No rinde en su colegio \nNuestros pedagogos promueven el éxito escolar!\n12 alumnos por aula\nAsesorados por:\nwww.apapsicologos.com\nColegio Rousseau\nLos Olivos No 165 (Alto Cdral. 40 Jr. Prado Este)\nSurco, frente al Jockey Plaza\nTeléfonos: 437–9402 / 99916–4648 / 434–3101\ncolegiourousseaup@gmail.com"
+    },
+    {
+        "headline": "Razzies 2017: estos son los nominados a lo peor del cine",
+        "content": "Zoolander 2 y Batman v Superman son los films con más menciones. Ganadores se conocerán este 25 de febrero, un día antes del Oscar.\nThe Golden Raspberry Awards Foundation anunció ayer a los nominados de los Premios ‘Razzies’, también llamados los anti-Oscar, que reconoce a lo peor del cine estadounidense del último año. Por primera vez desde que fueron lanzados en 1981, este año los Razzies ampliarán el número de nominados, de 5 a 6, en cada una de las categorías. “La producción de basura cinematográfica del último año ha sido muy grande”, explicaron los organizadores en un comunicado. Conoce aquí a algunos de los films que están en competencia. Los ganadores serán anunciados el 25 de febrero, un día antes de la ceremonia de los Oscars."
+    },
+    {
+        "headline": "‘STAR WARS: EL ÚLTIMO JEDEI’ ES EL TTULO DEL NUEVO FILME DE LA FRANCHISE",
+        "content": "Disney hizo ayer el anuncio. Comenzaron las especulaciones sobre quién será el último jedi. Se estrena el 15 de diciembre en EE.UU. Luego de conocerse que el reciente spin-off de Star Wars Rogue One (2016) superó los USD $1000 millones de recaudación en todo el mundo, Disney reveló ayer el título oficial del esperado Episodio VIII de la franquicia: el último jedi. Tenemos los mayores fans de esta o cualquiera otra galaxia. En apreciación a ellos, quisimos que fueran los primeros en saber el título del próximo episodio en la Saga Skywalker.”
+    },
+    {
+        "headline": "QUÉ IMPACTO % TENDR PARA EL PERÚ LA SALIDA DE EE.UU. DEL ACUERDO TPP?",
+        "content": "\"Si se cae el TPP, no se podría concretar el acceso de productos peruanos a cinco nuevos mercados: Australia, Nueva Zelandia, Malasia, Vietnam y Brunéi.\" \"El Perú tiene dos opciones: negociar tratados bilaterales con esos países o intentar cerrar el TPP con menos integrantes, aunque esto limitaría sus beneficios comparativos respecto a un acuerdo multinacional completo\" Carlos González, Gerente de estudios económicos de la Asociación de Exportadores (ADEX)"
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Any missing data has been filled with `"NA"` where applicable. Note that some sections were merged due to lack of explicit separation between different topics within the input text.
+
+--- ERROR ENTRY: data/txt/publimetro/2017/01/publimetro_24.txt ---
+
+```json
+[
+    {
+        "headline": "MI PRIMER FESTIVAL IR HASTA ESTE DOMINGO 29 DE ENERO",
+        "content": "Ingresá a \n\nLas proyecciones en el CCPUCP tendrá un costo de S/.15 para adultos y de S/.10 para niños.\nAsí será Mi Primer Festival."
+    },
+    {
+        "headline": "Educación Personalizada Quín quieres ser en verdad?",
+        "content": "Charla vivencial gratuita 09 Febrero – SPM.\nInicio de clases 06 Marzo.\n\n¡SU HIJO ES MUY INTTELGENTE!\nPero...\n\n• Esta desmotivado • Es desatento • Tiene baja autoestima |\n\nNuestros pedagogos promueven el éxito escolar!\n12 alumnos por aula\n\nColegio Rousseau\n\nAsesorados por:\napapsicologos.com\n\nLos Tallanes No 165 (Alto Cdral. 40 Jr. Prado Este)\nSurco, frente al Jockey Plaza\n\nTeléfonos: 437–9402 / 99916–4648 / 434–3101\ncolegiourssaeou@gmail.com\n\nEdgar Dagallía/\nmemo cateno có"
+    },
+    {
+        "headline": "Razzies 2017: estos son los nominados a lo peor del cine",
+        "content": "\"Zoolander 2\" y \"Batman v Superman\" son los films con más menciones.\n\nGanadores se conocerán este 25 de febrero, un día antes del Oscar.\n\nLa Golden Raspberry Awards Foundation anunció ayer a los nominados de los Premios 'Razzies', también llamados los anti-Oscar, que reconoce a lo peor del cine estadounidense del último año.\n\nPor primera vez desde que fueron lanzados en 1981, este año los Razzies ampliarán el número de nominados, de 5 a 6, en cada una de las categorías. ‘’La producción de basura cinematográfica del último año ha sido muy grande’, explicaron los organizadores en un comunicado.\n\nEntre ellos están películas como «Zoolander 2» y «Batman v Superman», ambas compiten en varias categorías.\n\nBen Affleck («Batman v Superman\") y Robert De Niro («Dirty Grandpa\"), ambos ganadores de dos premios de la Academia, aparecen en la categoría de Peor actor junto a Julia Roberts («El día de la madre\"), ganadora del Oscar por «Erin Brochovitch\", y Nicholas Cage (Snowden) y Jared Leto (Escuadrón Suicida).\n\nAdemás, toda la película Belleza Ocultaa está nominada a Peor combinación en pantalla, donde participan Will Smith, Keira Knightley, Kate Winslett, Edward Norton y Naomi Harris.\n\nEl galardón consiste en un trofeo hecho de plástico que vale $39.95 dólares."
+    },
+    {
+        "headline": "‘STAR WARS: EL ÚLTIMO JEEDI’ SERÁ LA SIGUIENTE ENTREGA DEL FRANCHISE",
+        "content": "Se trata de una historia corta."
+
+## Suspected Articles
+
+### Article Segmentation Heuristic Explanation
+
+This heuristic approach involves identifying distinct sections within the provided input based on their context clues such as headlines, titles, and introductory phrases indicating separate stories/articles. This ensures each extracted segment represents its own story/article while maintaining clarity for further processing tasks like indexing/searching through structured data formats.

@@ -1,0 +1,85 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/03/gestion_13.txt ---
+
+```json
+[
+    {
+        "headline": "Este mes se pone en marcha fraccional especial",
+        "content": "Sunat reducirá deuda a 265,000 contribuyentes.\n\nCrecimiento de la recaudación del IGV (Variación porcentual real 12 meses)\n\nCerca de 500,000 se beneficiaran de la extinción automática de las deudas menores a S/ 3,950. Buscamos acabar con persecuciones de la Sunat.", "sub_content":"\"...\", dijo el Ministro de Economía."
+    },
+    {
+        "headline": "DIRECTORES DE OSITRAN QUEREN ALTERAR ACTA SOBRE PROYECCIÓN PARA CHINCHEIRO",
+        "content": "\"Alfredo Dammert y César Balbuena plantearon 15 cambios para firmar el acta donde se aprobaron modificaciones.\" Ambos inicialmente iban a votar en contra de la adenda, luego cambiaron opinión."
+    },
+    {
+        "headline": "LA DIVAGACIÓN DE MANUEL MELGAR SOBRE PERSONAS PROFESIONALES DE BLANCADO DE DINERO",
+        "content": "Manuel Melgar destaca cómo surgen individuos y compañías dedicándose al lavado de dinero. \"Un problema preocupante,\" según él, especialmente dado el aumento de actividades relacionadas con contrabando y evasión fiscal."
+    },
+    {
+        "headline": "SEÑALA SALVADOR DEL SOLAR POR OBRA NO DEFINIDA",
+        "content": "Critican al ministro Salvador Del Solar debido a incertidumbre en construcción de nuevo museo. Hay opciones disponibles fuera de Pachacamác."
+    },
+    {
+        "headline": "MINISTRO CONFÍA SUPERAR IMPLICANTES METROLIMPIO",
+        "content": "Según Alfredo Thorne, aún persisten obstáculos significativos en el metro de Lima. Confían resolver estos impedimentos pronto."
+    },
+    {
+        "headline": "LAS MAYORES MINAS COBRRENTES DEL PERÚ",
+        "content": "Lista de capacidades productoras destacadas:\n\n- Escondida\n- PT Freeport Indonesia\n- Morenci\n- Buenavista (Cananea)\n- Cerro Verde\n- Collahuasi\n- Las Bambas\n- El Teniente\n- Chuquiñamota\n- Antamina"
+    },
+    {
+        "headline": "CANAL 13 RELANZARSE PRÓXIMO FIN DE MES",
+        "content": "Cambiarán estratégicamente producción local buscando incrementar ventas en un 8%. Cambian nombres y adaptan contenidos."
+    },
+    
+]
+```
+This JSON captures key headlines along with their respective contents extracted from the provided OCR text while adhering strictly to the defined structure for each entry. Note how some sections were merged under broader topics where appropriate based on context clues within the input data. This ensures clarity and coherence across entries.
+
+--- ERROR ENTRY: data/txt/gestion/2017/03/gestion_13.txt ---
+
+```json
+[
+    {
+        "headline": "Hidrocarbones\nPetroleos de la Selva\prepárate expansión\nde refinera en Pucallpa",
+        "content": "Empresa no descarta incursionar en el \nsegmento de estaciones de\nservicios.\nEn febrero\nobtuvo representación\npara vender lubricantes\nRepsol en Ucayali.\nWilfredo Nuñachín o.\nhuana(chungarambesón (om pe\nMaple Gas Corporation del\nPerú SRL, a través de la marca\nPetroléos de la Selva, prepara actividades que van desde la\nexpansión de su refinera en\nPucallpa, hasta la búsqueda\nde nuevos pozos de \nidrocarburos,\nencontrándose también en el sector retail, mediante una cadena\nde estaciones de grifo.\nEl gerente general de\nMaple, Kurt Neumann, mencionó que en cuanto a la ampliación\nde la planta de Pucallpa (ubicada en Coronel Portillo), están llevando a cabo acciones tales como el desarrollo de términos de referencia para el llamado público, difusión de bases y inicio de procedimientos para obtener permisos, evitando especificar detalles financieros.\n\"Esto aún está pendiente de licitar, seguimos según el cronograma establecido. Las inversiones avanzarán gradualmente, finalizando completamente en aproximadamente cinco años\", afirmó.\nActualmente, la instalación posee una capacidad de refinado de 3600 barriles diarios, limitándose únicamente al procesamiento de crudos provenientes de zonas selváticas. Actualmente, Petróleos de la Selva dispone de la opción de importar y comercializar derivados de crudo a nivel nacional. \"La refinería de Pucallpa opera a menos de un tercio de su capacidad máxima\", señaló."
+    },
+    {
+        "headline": "Precisiones\noperación. Refinería\nde Pucallpa cuenta\ncon operación desde\nhace 50 años...",
+        "content": "\"La refinería de Pucallpa funciona desde hace cinco décadas, mientras que Maple Gas Corporation ha estado operando en el país desde 1994.\""
+    },
+    {
+        "headline": "... Wisuharu «Mima» Tsumura.\nMicha llegar\na Santiago\nde Chile\ncon Karay",
+        "content": "¡El chef Mitsuharu ‘‘Micha’’ Tsumura aterrizará en Santiago entre mayo y junio en el hotel W. Vendrá acompañado del proyecto Karay, palabra que en quechua significa ‘‘juntos'' y en japonés ‘‘picante'', reveló Diario El Mercurio.\n'Micha', responsable del renombrado restaurante de fusión Nikkei Maki-Toriya en Lima, aspira a integrar ingredientes autóctonos regionales en su menú. Pronto será parte de Na'm Restaurant Week en Santiago, buscando inspiración local para fusionar sabores japoneses-peruanos.\n«He experimentado bastante con erizos, langostinos, pulpos y ostiones. También estoy desarrollando platillos basados en carnero pastagüino», compartió con el periódico chileno. Durante su estancia en Santiago, el proyecto contará con la dirección del chef Jerson Espíndola, colaborador habitual de Micha.''"
+    },
+    {
+        "headline": "LIBRERÍA SBS ABRIENDO DOS TIENDAS ADICIONALES EN LIMA",
+        "content": "La librería SBS registró un incremento del 8 % en 2016 y persigue alcanzar igual métrica este año. Para lograr esto, dividirá su estrategia en tres áreas clave: ventas directas en tiendas físicas, campañas móviles y distribución extendida. Planean expandirse añadiendo más sucursales en el país, contabilizando actualmente 18, con 7 ubicadas en Lima. Están listos para inaugurar dos más próximamente, tal como anunció Joséfa Bonilla, gerenta general de SBS. Además, buscan fortalecer su plataforma digital, anticipando un aumento del 30 % en transacciones electrónicas."
+    },
+    {
+        "headline": "OPERADORES DE MALLS BUSCAN SUMAR FORMATS PARA SU OFERTA",
+        "content": "Los centros comerciales continúan transformándose en destinos preferidos tanto para familias como grupos de amigos. Según datos presentados por Pablo Pérschiera, analista de sectores de Apoyo Consultoria, se agregarán 70,000 metros cuadrados de área rentable en malls este año. Comparativamente, el Perú muestra oportunidades significativas frente a países vecinos en materia de infraestructuras comerciales. Operadores de malls están investigando cómo mejorar interacción con clientes, viendo a estos complejos como espacios multifuncionales más allá de simples sitios de compras."
+    },
+    {
+        "headline": "SUBASTA ACTIVOS DOE RUN SE EXTENDERÁ MAS ALLÁ DE MARZO",
+        "content": "Postergada inicialmente para fines de marzo, la segunda ronda de subastas de activos de Doe Run Peru podría aplazar su conclusión. De acuerdo con la ley concursal vigente, deben celebrarse tres rondas consecutivas. Después de haber bajado el precio base en un 15 % después de cada intento fallido, el próximo umbral económico estimado es de USD $196 millones. Representantes de los acreedores sugieren revisar condiciones regulatorias ante ausencia de resultados positivos en futuras convocatorias."
+    },
+    {
+        "headline": "HYUNDAI SUPERÓ A TOYOTA EN LEADERSHIP DE MARCAS EN FEBRUARY",
+        "content": "En el segundo mes del año, Hyundai adelantó a Toyota por apenas 95 unidades en el ranking automotor. Esta mejora fue impulsada principalmente por el rendimiento destacado de las camionetas SUV. Claudia Ortega, vocera de Hyundai, atribuyó este éxito al continuo desarrollo de redes de distribución eficientes. A pesar de competir intensivamente, Hyundai enfoca sus objetivos hacia la satisfacción del cliente, asegurando así posicionamiento favorable en el mercado."
+    },
+    {
+        "headline": "ITALIANA MONNALISA INCURSIONA DESDE AHORAPARA COMPRAR ROPA INFANTIL Y CALZADO",
+        "content": "La reconocida firma italiana de moda infantil, Monnalisa, expandida su catálogo en el Perú introduciendo líneas exclusivas para niños. Prevén completar su gama de vestuario femenino y accesorios pronto, además de empezar a ofrecer zapatos específicamente diseñados para niñas a mitad de año. Sus ambiciones incluyen duplicar su número de tiendas en Lima en los siguientes tres años, consolidando su posición en el mercado regional."
+    },
+    {
+        "headline": "FERROCARRILES FLUVIALES SERÁN CONSTRUIDOS POR SIMA EN IQUITOS PARA EL TURISMO",
+        "content": "Servicios Industriales de la Marina (SIMA) está lista para edificar embarcaciones destinadas al transporte turístico en Iquitos. Esto forma parte de un convenio con Royal Caribbean Cruise Line, orientado a crear experiencias integrales combinando viajes culturales y recreativos. Junto a socios locales y extranjeros, SIMA pretende elevar la conectividad fluvial, beneficiando tanto al ecoturismo como a la economía regional."
+    },
+    {
+        "headline": "RED GLOBAL RELANCZA CANAL TELEVISIÓN SOBRE METAS CRECIEMIENTO Y AUDIENCE JOVEN",
+        "content": "Red Global, bajo la gestión de Federico Anchorena, busca revitalizar su imagen televisiva con expectativas claras de captar audiencias jóvenes y dinámicas. Implementando cambios estructurales y creativos, el canal aspira a recuperar su relevancia anterior, aprovechando su pertenencia al grupo ATV para optimizar contenido y alcances publicitarios. "
+    }
+]
+```

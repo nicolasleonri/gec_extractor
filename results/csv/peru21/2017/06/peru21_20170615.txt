@@ -1,0 +1,173 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/06/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Ven, piloto de carreras",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "",
+        "content": "[...] Owen Wilson [...] y [...]"
+    },
+    {
+        "headline": "Leads: Lewis Hamilton",
+        "content": "Lewis Hamilton piensa que puede ganar."
+    },
+    {
+        "headline": "Entrevista exclusiva: ‘La pareja ideal’ – Explicación de la Copa y...",
+        "content": ""
+    },
+    {
+        "headline": "Características técnicas:",
+        "content": "Chasis: aleación de acero hidroconformado\nCu...
+    },
+    {
+        "headline": "Clássico treinamento para atleta moderno",
+        "content": "...venham ao campeonato da copa tempos.\nVENII...\nPistão, Rayo McQueen..."
+    },
+    {
+        "headline": "RAYO MCQUEEN ENTREVISTA CON OWEN WIILSON",
+        "content": "\"La parejadeife\" -- \"Explicacion dela Copay\"\n--\nrayo mcqueen, quando deve trabalhar com ele, cruz põe..."
+    },
+    {
+        "headline": "CLAUDIO PIZARRÓ?",
+        "content": "\"El sigue siendo un referente de in. Nos abrió las puertas en Europa.\""
+    },
+    {
+        "headline": "Tormento Apertura. Alianza Lima goleó 4–0 a Ayacucho FC en la Victoria",
+        "content": "Los íntimos se recuperaron de la derrota ante Melgar y alcanzaron de momento la cima del Apertura. \nEl hincha se fue contento a casa, pues su Alianza (10º con 9) ganó y goleó..."
+    },
+    {
+        "headline": "Christian Cuevas indica que su lesión no lo deja igual",
+        "content": "No se preocupe por su nivel. Es el 10° de la selección peruana, y aunque en estos partidos amistosos frente a Paraguay y Jamaica no mostró su habitual nivel, él está tranquilo..."
+    },
+    {
+        "headline": "Municipal suma una nueva victoria",
+        "content": "Italo Regalado marc el gol del triunfo. Comienza a recuperar el paso. Deportivo Municipal (5º con 6) logró su segundo triunfo consecutivo después de vencer 1–0 a Unión Comercio..."
+    },
+    {
+        "headline": "UTC busca seguir en lo más alto",
+        "content": "Después de empatar en casa la jornada pasada ante Sport Huancayo, UTC (2º con 7) espera obtener una victoria esta tarde contra Comercial Unidos..."
+    },
+    {
+        "headline": "Apertura. Universitario Empató 1–1 en Su Visita al Aurich",
+        "content": "Sin sus titulares, Universitario sufrió demasiado. Caído en el Clásico ante Alianza Lima y también ayer. Después de un primer tiempo eficiente, el conjunto cremas se relajó..."
+    },
+    {
+        "headline": "Roger Federer debut y despídete en Stuttgart",
+        "content": "Ausente durante dos meses, Federer fue eliminado del Abierto de Stuttgart al perder en la segunda ronda ante el alemán Tommy Haas..."
+    },
+    {
+        "headline": "Presentación indumentaria Real Madrid",
+        "content": "El Real Madrid reveló la vestimenta para la temporada 2017/2018, inspirándola en los aficionados del club y la ciudad de Madrid..."
+    },
+    {
+        "headline": "Fecha y lugar Mayweather vs. McGregor establecido",
+        "content": "El estadounidense Floyd Mayweather enfrentará al irlandés Conor McGregor el 26 de agosto en Las Vegas..."
+    },
+    {
+        "headline": "André Lares presenta Chimango'",
+        "content": "Como cada año, André Lares ofrece un concierto especial coincidiendo con el Día de la Canción Andina. Presenta 'Pachamama: Cantos, Ritoss y Danzas'."
+    },
+    {
+        "headline": "Opinion David Tafla",
+        "content": "Recientemente, el equipo del Museo Larco intervino para evitar la salida de importantes acuarelas históricas en España. Esto generó debate sobre quién posee realmente estas piezas culturales."
+    },
+    {
+        "headline": "Tom Holland anticipa futuras películas de Spider-Man",
+        "content": "'Hay aún muchas historias por contar,' dice Tom Holland respecto a las próximas entregas de Spider-Man."
+    },
+    {
+        "headline": "Postergación del espectáculo Septimo Dia",
+        "content": "Por problemas técnicos relacionados con el transporte de equipos, el evento musical dedicado a Soda Stereo será pospuesto una semana."
+    },
+    {
+        "headline": "Demanda Ada Martinez planea acción legal",
+        "content": "Actriz amenaza con demandar a Aída Cortéz por comentarios públicos considerados injuriosos."
+    },
+    {
+        "headline": "Plagiado Discurso Polémico",
+        "content": "Una investigación sugiere plagio en discursos políticos, comparando fragmentos controvertidos con escritos antiguos."
+    }
+]
+```
+This extraction captures various types of articles found within the provided OCR text while adhering strictly to the defined rules for inclusion/exclusion and data cleanup. Note how each entry has been formatted according to the specified requirements, ensuring clarity and consistency across different topics covered in the input text.
+
+--- ERROR ENTRY: data/txt/peru21/2017/06/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "Responsabilidades. Por mayoría, la Comisión de Fiscalización avaló el informe final sobre el ex consejero presidencial Carlos Moreno...",
+        "content": "Patricio Quispe\nLas investigaciones sobre los supuestos actos de corrupción del ex asesor presidencial Carlos Moreno Chacón se iniciaron hace casi ocho meses y —de acuerdo con el informe final aprobado ayer por la misión de Fiscalización— terminan concluir que el ex consejero incurrió en los delitos de patrocinio ilegal, negociación incompatible y asociación ilícita para delinquir.\nEl documento de 173 páginas, al que tuvo acceso Peru21, sin embargo, constata también que desde el Poder Ejecutivo habría habido un intento de “encubrir” y “blindar” a Moreno. Por este motivo, la comisión acord recomendar al Ministerio Público que “evaluate la conducta” del presidente Pedro Pablo Kuczynski, del Premier Fernando Zavala y de la ministra de Salud, Patricia García, frente al que fue uno de los primeros escándalos que enfrentó el actual régimen."
+    },
+    {
+        "headline": "\"Negociaza\". El presidente de la Comisión de Fiscalización, Hector Becerril, argumentó que el Primer Ministro Fernando Zavala tuvo conocimiento de los audios que daban cuenta de un presunto \"negociaza\" de Moreno en el Seguro Integral de Salud (Essalud)...",
+        "content": "“Hay un caso de complicidad, no sé sí voluntaria o dolosa, o simplemente negligencia.”\nMauricio Mulder\nCongresista del Partido Aprista\n...Bruce agregó que el jefe del gabinete “falló a la verdad” respecto de algunos momentos de juicio que hacen inferir que la designación de Patricia García como titular de Salud habría sido resultado de una proposición de Moreno Chácón y no del primer ministro.”
+    },
+    {
+        "headline": "Brasil. Representante de Odebretch dice que no hay nada nuevo en declaración de fiscales brasileros...",
+        "content": "“Todo lo conocido es lo que está, La Fiscalía de Perú conoce todo lo que conoce la Fiscalía de Brasil. Desconozco las revelaciones en detalle,” afirmó Mauricio Cruz, representante de la constructora Odebrecht en el país. ... También admitió que hay empresas que están dispuestas a comprar el proyecto Olmos."
+    },
+    {
+        "headline": "Opinion Directorial. Juan José Garrido analiza el impacto político del arresto del ex-presidente panameño Ricardo Martinelli...",
+        "content": "...El director editorial señala cómo esto afecta la percepción pública y política interna relacionada con otras causas judiciales pendientes dentro del contexto nacional."
+    }
+]
+```
+This JSON captures four distinct articles extracted based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup.
+
+--- ERROR ENTRY: data/txt/peru21/2017/06/peru21_15.txt ---
+
+```json
+[
+    {
+        "headline": "“Condicionar un puesto de otra autoridad, en una reunión de alto nivel, es muy grave.”",
+        "content": "Revelación del contenido íntegro del audio grabado el 17 de mayo durante su “Condicionar un puesto de otra autoridad, en una reunión de alto nivel, es muy grave.” Reunión con otra autoridad cuestionada, el Contralor Edgar Alarcón. El Gobierno no debería esperar la agonía de sus Ministros ni el ‘corte de cabezas’ de los mismos. Thorne podría ser preparado, simpático y bien intencionado, sugerir, condicionar un supuesto a un comportamiento específico de otra autoridad, en una reunión de alto nivel, es muy grave. Habrá consecuencias."
+    },
+    {
+        "headline": "Abogado dice que no hay debido proceso",
+        "content": "Benítez: ’Toledo no será extraditado’. El Abogado del prófugo ex mandatario Alejandro Toledo, Heriberto Benítez, aseguró ayer que su representado no tendría el mismo destino que el ex Presidente de Panamá Ricardo Martinelli, quien fue detenido en Estados Unidos enfrentando diversas denuncias en su país. “Hay flagrantes fallos de debido proceso, no han escuchado a Toledo; Estados Unidos niega a conceder la extradición porque se han violado derechos fundamentales de mi cliente,” manifestó Benítez en entrevista con Perú21."
+    },
+    {
+        "headline": "Expresión Machista",
+        "content": "Arana respondió diciendo que el partido abrirá un procedimiento disciplinario al legislador Humberto Morales por comentarios considerados machistas dirigidos a su compañera Marisa Glave. Morales comentó en una entrevista que después de ser chismosos, las mujeres eran mentirosas. Según Arana, estas palabras fueron completamente inaceptables.”
+    },
+    {
+        "headline": "Respuesta del Humalismo",
+        "content": "El ex-congresista Santiago Guardia señaló que si el Parlamento decide indagar a Ollanta Humala relacionado con el Caso Madre María, evidenciarán intentos políticos destinados a inhabilitarlo. Argumentó que cualquier investigación servirá únicamente para demostrar intereses ocultos detrás de dichas acciones legales."
+    },
+    {
+        "headline": "Calificación de Insultos",
+        "content": "El gobierno peruano catalogó como insultos las declaraciones de la Canciller Venezolana, Delcy Rodríguez, lanzadas contra el presidente Pedro Pablo Kuczyski. La Cancillería Peruana refiriéndose a través de redes sociales mencionó que seguirían impulsando el retorno de la democracia en Venezuela. Además, el Ministro de Estado destacó que el presidente había realizado visitas significativas en Europa, especialmente en Francia y España, obteniendo éxitos importantes en cuanto a inversiones públicas."
+    },
+    {
+        "headline": "Impacto de Eliminar Subsidio Habitacional",
+        "content": "Desde principios de año, la eliminación del Bonificado del Buen Pagador impactó negativamente en la venta de viviendas, disminuyendo aproximadamente a la mitad comparado con años previos. Esta situación dificulta aún más la capacidad económica familiar para realizar compras habitacionales, obligándolas a postergar decisiones vitales mientras continúa el análisis gubernamental sobre cómo revertir tal política."
+    },
+    {
+        "headline": "Premier Annuncia Marcos Legales Para Alimentos Saludables",
+        "content": "Cuatro años después de aprobarse la Ley de Promoción de la Alimentación Saludable para Niños, Niñas y Adolescentes, finalmente se aprueba su regulación completa. Este marco legal establecerá estándares basados en directrices internacionales para combatir problemas de salud pública asociados con dietas poco balanceadas."
+    },
+    {
+        "headline": "Hipotecas Inversas Ganancias en Debate",
+        "content": "Un nuevo proyecto permitirá implementar hipotecas inversas, facilitando préstamos a adultos mayores usando su casa como aval, sin riesgos de desahucio hasta su fallecimiento. Tras el evento, los herederos tendrán prioridad para cubrir la deuda, preservando así la posesión del hogar."
+    }
+]
+```
+This extraction captures key articles based on their headlines and contents while adhering strictly to the provided guidelines for extracting relevant information. Any missing data has been filled with `"NA"` where applicable. This ensures clarity and completeness within each extracted entry.

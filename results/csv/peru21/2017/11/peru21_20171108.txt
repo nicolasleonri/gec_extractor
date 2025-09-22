@@ -1,0 +1,65 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/11/peru21_08.txt ---
+
+```json
+[
+    {
+        "headline": "SELECCI\u00d3N. FARFA\u0301N SER\u0100 EL RESPONSABLE DE CUBRIR LA POSICI\u00d3N DE PORTERA",
+        "content": "\n\n\"ESTOY SEGURO DE QUE SE PROBAR QUE TODO ES FALSO.\n\nJEFFERSON FARFA\u0301N, EL ATACANTE, QUE EN MARZO DEL AO PASADO FU\u00cd RELLEGADO DE LA SELECCI\u00d3N PERUANA LUEGO DEL EMPATE 2--2 ANTE VENEZUELA EN LIMA POR LAS ELIMINATORIAS, HOY TIENE LAS MAYORES CHANCES DE SER EL '9'\nENCARGADO DE MARCAR LOS GOLES QUE PODRIAN LLEVARNOS AL MUNDIAL DE RUSSIA DURANTE LOS PARTIDOS DE REPESCAGNE ANTENA NUEVA ZELANDA.\n\nTRAS CONOCERSE LA SANCI\u00d3N IMPUESTA POR LA FIFA A PAULO GUERRERO POR UN RESULTADO ADVERSIVO LOGRADOP DESPU\u00c9S DEL 0--0 EN LA BOMBONERA ANTE ARGENTINA, LA \"FOQUITA\" SERA EL NUEVO ABANDERADO DEL ATAQUE DE LA BLANQUIROCJA.\n\nEL MOTIVO NO SER\u00c1 DIFICIL DE ENTENDER SI SE TOMA EN CUENTA QUE LOS 'KIWS' INTENDRN IMPONER SU FUERZA FSICA. LA PROBADAY CONFIRMADA RESISTENCIA FSICA, FRUTO DE LA CONTEXTURA GANADA A LO LARGO DE SUS 13 AOS DE CARRERA,\nLOS HAR\u00c1 POSEEDELANTE DE OTROS ATAQUANTES DE LA 'BLANQUIROCJA', RA\u00dcL RIUDIOZ Y YORDY REYNA."
+    },
+    {
+        "headline": "DEFENSIVADEPAOLOGUERREROCONFIADEDARCONSIGUIENTE MINIMA SANCIO",
+        "content": "\"\n\nLA FE ES LO \u00d�LTIMO QUE SE PIERDE, Y SI SE TRATA DE PAOLO GUERRERO, NADIE PIENSAR LO CONTRARIO. LOS ABOGAODOS DEL ATACANTE DE LA SELECCIN PERUANA ARIBARON A BRASILEIRO Y SE MOSTRARON OPTIMISTA Y CONFIADOS CON LA POSIBILIDAD DE CONSEGUIR UMA MNIMA SANCIN PARA EL 'DEPREDAEDOR'O INCLUSO INTENTAR QUE NO HAYA CASTIGO ALGUNO.\n\n\"ESTAMOS MUUU COOOFFFFIIDAAADS EN LA INOCENCIA DE GUERRERO Y HASTA FIN DE MES SEGNRAEMENTE TENREMOS UNA CONCLUSIONPOSITIVA QUE DEMOSTRAR SU INOCENCIA\", MANIFEST PEDRO FREDDA, ABOGADO DEL ATACANTE.\n\nENTRETANTO, MEDIOS BRAITEOS TOMARON DE VOZ DEL MISMO FREDDA, A SU LLEGADA A BRASILEIRO, QUE LA POSIBLES ES QUE \"GUERRERO HA IGGERIDO SIN QUEREHO HOJA DE COCA EN UN TE CONTAMINADO DURANTE LA PRODUCCIN DE OTRO TE QUE S CONTABA HOJA DE COCA\", SEGUN INFOOMO EL PORTAL GLOBEOESPRT."
+    },
+    {
+        "headline": "PRCTICA.LA BI COLOR TRABAJA SIN CESAR",
+        "content": "\n\nAUCKLAND.- LUEGO DE LA LLEGADA DE MIQUELTRAUCO,SERGIOPEREA Y EDMOND FLORES,A TERRESTRIA SELCECCIN PERUVIANAREALIZO AYER A LAS 10:30 PM (4:30PM,HORA LOCAL)SU SEGUNDO ENTRENAMIENTO CON MIRAS AL DUETO IDA ANTE VA NZELANDA,SIENDO ESA LA PRIMERA CON EL PLANE!COMPLETO.LA BUENA NOTICIA PARA DO GARACA ES Q UE, FORA DEL LESIONADO MIGUEL ARAJOYO QUIENNO SE ENCUTRA EN LA LISTA DE CONVOCADOS,PERO COMPAAAA EL EQUIPO,TODO EL PLANTEL SE ENCUENTRA ENBUENASCONDICINESFSICAS.\"ESTNN TOOODOS MUCHO BIEN,NOSOTROS NO VANOA TENER DIFICULTADES\", SOUSTENO NSTOR BONILL,O PREPARATOR FSICO DE LA SELECCIN."
+    },
+    {
+        "headline": "DIRECTOR DEPORTIVO DE LA FPFLTIENE MUCHO RESPETO POR NUEVA ZELANDA",
+        "content": "\"\n\nEN LA COPA CONFEDERACIONESS VIEMOS UN EQUIPO BIEN ORDENADO, CON UNA IDEA DE AJETARSE MUCHO AL RIVAL\", DIJO EL CIEGO'.\"\n\n\"ASS COMO CRISTIAN BENAVENTE,HA Y OTROS JOCADORES(JAIN LA MIRA DE GAECUA.GARECA DECIDIR SI EN ALGN MOMENTO LO LLAMA\", SOSTUYO SL DIRECTOR DEPORTIVO.Juan CARLOS OBLLITAS, DIRECTOR DEPORTIVO DE LA FPF EN INTERVIEW CON DIGITALCHE."
+    }
+]
+```
+This JSON contains extracted articles based on their headlines and contents while adhering strictly to the provided guidelines for extraction and cleanup. Articles were identified through distinct headings followed by relevant textual bodies, ensuring clarity between different pieces within the input data. Any extraneous information such as ads or unrelated sections was excluded according to specified criteria.
+
+--- ERROR ENTRY: data/txt/peru21/2017/11/peru21_08.txt ---
+
+```json
+[
+    {
+        "headline": "Advirtió el legislador",
+        "content": "Eltitular del Poder Legislativo subrayó que lo que hubo en el Perú fue “un grupo terroristas, asesino, que sometía a una sociedad jaqueada en su estado de derecho.” En esta línea, lamentó que por ‘mesquin-dad política’ de algunos sectores se distorsiona la historia en perjuicio de los estudiantes."
+    },
+    {
+        "headline": "DENUNCIA CONSTItUCIONAL",
+        "content": "Daniel Acosta presentará una demanda constitucional contra el fiscal de la Nación, Pablo Sánchez, por “grave omisión funcional contra la corrupción.” Una Fiscalía fisurada cerr filas para defender a Sánchez, quien argumentó: “Aquí no vamos a tener miedo.”
+    },
+    {
+        "headline": "ERR también el fiscal de la Nación...",
+        "content": "Error también el fiscal de la Nación, porque no trata de tener o no miedo. A todas luces, la ciudadana observa que la Fiscalía no da cuenta de sus acciones al país, no transparentemente como se dice, y genera sospechas. De las procuradoras (que luego fueron echadas) exigían información, no eran atendidas. Hay personas que no son ni siquiera investigadas, cuando hay elementos consistentes. El caso Madre María recibe cada vez más testimonios de que el ’Capitán Carlos’ era Ollanta Humala, pero la investigación fiscal se lentifica innecesariamente."
+    },
+    {
+        "headline": "La peregrina idea de investigar por organización criminal...",
+        "content": "La peregrina idea de investigar por organización criminal al fujimorismo y al Apra resulta desconcertante. Más elementos hay para aplicar la figura a Odebrecht, que tenía inclusive un departamento de coimas. La gente, que no es tonta, percibe que las movidas judiciales son severas con unos e indulgentes con otros."
+    },
+    {
+        "headline": "Escuela de Gestión Pública",
+        "content": "Se llevará a cabo el Seminario Internacional: Buenas Prácticas en el Sector Público en época de Transición Política. Expositores incluyen a Mercedes Aroz Álvarez, Elsa Galvéz Larrea, Sara Arends, Pedro Rodríguez, Humberto Salicetti, y Alfredo Velásquez."
+    },
+    {
+        "headline": "Reporte de la CAF señala que otro riesgo es la seguridad...",
+        "content": "Un reporte de la CAF indica que aproximadamente cuatro de cada diez familias en Perú viven en unidades con déficit cualitativo. Otro riesgo identificado está asociado a la falta de acceso a servicios básicos, especialmente a redes de alcantarillado."
+    },
+    {
+        "headline": "Inyección de Eficiencia",
+        "content": "Explicó el ministro de Salud, Fernando D´Alessio, detalles de su plan para reestructurar el MINSA priorizando el uso eficiente de los recursos públicos mediante un sistema de batas grises."
+    },
+    {
+        "headline": "Paraguay. Preocupación mundial por amenazas terroristas durante eventos deportivos",
+        "content": "INTERPOL advierte que el terrorismo sigue siendo una amenaza significativa contra grandes eventos deportivos globales."
+    }
+]
+```
+This JSON captures key headlines and their corresponding contents extracted from the provided OCR text while adhering strictly to the specified format requirements. Articles were identified based on distinct topics within the text block. Any missing data was filled using `"NA"` where applicable.

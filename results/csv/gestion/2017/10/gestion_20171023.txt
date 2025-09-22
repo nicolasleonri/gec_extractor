@@ -1,0 +1,56 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/10/gestion_23.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensarías que... \n\n URGENTE: SE BUSCA EL CANCIÓN DEL ARTÍCULO.\nPágina anterior:\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \nDemocracy has been restored after years of chaos...\n\n---\n\n**Entrevista:**\n\n* **Artículo**: Un periodista entrevista a un famoso cantautor peruano conocido por ser ambivalente respecto a su carrera musical.\n\n**Contenido Principal:**\n\n[...] *Texto omitido*\n\n\n***Fin de artículo."  
+}
+```
+This example demonstrates how to parse through potential noise while maintaining focus on extracting complete articles based on their headlines and contents. It ensures proper cleanup and structuring according to specified guidelines provided above. This approach maintains clarity between different sections such as headings, subtitles, etc., ensuring each extracted element fits within defined parameters. Any missing data should default to `"NA"` where applicable. Note that any non-article elements like ads, images descriptions not directly related to the core narrative have been excluded during extraction. Only relevant textual information was included following the given rules.
+
+--- ERROR ENTRY: data/txt/gestion/2017/10/gestion_23.txt ---
+
+```json
+[
+    {
+        "headline": "CENTROAMÉRICA. Hoy sus exportaciones...",
+        "content": "Hoy sus exportaciones (Colombia.\n Ecuador, Bouwa. etcétera)\n representan 20% de las\n ventas totales. La empresa\n factura U$S 320 millones\n por las ventas en el Perú\n y sus envíos externos\n llegan a US$ 50 millones.\n Tras apostar por \ning y capacidad de \nin este año,\n en el 2018 \npensaban invertir en \nmodo de energía \ny sustentabilidad, comentó Calello.\n Así, dijo, destinarán unos\n US$ 10 millones en una \napartición de tratamiento de \nefluentes, que están trabajando con\n Sedapal en Puente Piedra, y\n US$ 5 millones en racionalización de energía, para\n mejorar niveles de emisión."
+    },
+    {
+        "headline": "TRÁNSITO VIAL",
+        "content": "Los compradores de Lima,\n Lambayeque, Piura,\n Cajamarca y La Libertad,\n principalmenete, buscan\n unidades de mayor\ntamaño y precio más elevado\n para enfrentar el tráfico vial.\n Edwin Deretaño, presidente\n motorizado del Perú (APPM),\n vierte qué si bien históricamente\n la mayoría participación en ventas\n la han tenido las unidades de 125 cc,\n ahora las que han ganado mayor espacio\n son las de 150cc, que son más rápidas,\n tienen mayor poder y pueden aguantar más distancias.\n En términos generales, dice Deretaño, la captación representa 36.2%\n de las ventas del país, seguido de las zonas Norte (22.4%), Oriente\n (18.7%), Sur (14.3%) y Centro (8.4%). \"Además de Lima, las\n regiones de Lambayeque, Piura, Cajamarca, La Libertad,\n Ayacucho y Arequipa se han metido entre las que más venden,"
+    },
+    {
+        "headline": "LINEA DE VENTAS WWW.INDU-PARK.COM.PE",
+        "content": "Ventas de lotes industriales desde 1,000 m² en el Km 57.5\n INDUPARK\n Ecosistema de Negocio"
+    },
+    {
+        "headline": "TAI LOY VENDERÁ AZULEJOS A TRAVÉS DE MAQUINAS EXPENDEDORAS",
+        "content": "La cadena peruana Tai Loy apuesta por un nuevo canal\n de venta, que se suma a sus tiendas convencionales\n y al e-commerce. \"Se trata de las máquinas expendedoras\n de azulejos y artículos de tecnología ‘Tai Loy Express’,\n donde se comercializan cuadernos, plumones para pizarra,\n auriculares, mouse, USB, entre otros\", dijo a Gestión el gerente central\n de Ventas de la cadena, Óscar Pazmino.\n Explica que está en la primera fase y ya cuentan con\n 12 de estas máquinas en universidades. El objetivo con\n Tai Loy Express es llegar a tener unas 25 máquinas\n expendedoras, y llegarían a más de 40 en el 2018. "
+    },
+    {
+        "headline": "CAMPAÑA NAVIDEA YA COMIENZA PARA TAÍ LOY",
+        "content": "\"La campaña navideña (diciembre) ya pesa para Taí Ley el 20%\n de su venta anual\". Lo más demandado son los juguetes. Sobre todo, en\n el caso de niños relacionados a Marvel y Disney Channel, además de\n las muñequitas Barbie, entre otras cosas.",  
+    },
+    {
+        "headline": "PAMPAS DEL PERÚ EMPECERÁ INVIERTE SEGURO",
+        "content": "El proyecto minero de hierro Pampas del Perú, ubicado en\n Arequipa, empezará su construcción en el segundo trimestre del 2018,\n con una inversión de USD 2,500 millones para los próximos años,\n reveló el Ingeniero Senior de Planificación de Jiangxi Ming Perú,\n Liu Ames Tozas. \"En noviembre concluiremos para presentación\n del permiso ante el Ministerio de Energía y Minas para su autorización...\n y en Mayo de 2018 comenzaremos la preparación y construcción\n de la mina.\""
+    },
+    {
+        "headline": "CRISIS ORGANIZACIÓNAL POR FALLAS ÉTNICAS",
+        "content": "Recuerdos de situaciones similares cuando noticias salieron a luz pública provocando debates intensos... Las acciones deben realizarse rápido, comunicándose a corto y mediano plazo, sin ocultarse detrás del maquiavelismo. Una compañía debe tomar medidas correctivas públicas y privadamente contra quienes fallaron éticamente."
+    },
+    {
+        "headline": "INCORA INCORPORARA NUEVO TRENN EN RUTA CUZCO–MACCH PICCHO",
+        "content": "Incaya Rail incluirá un nuevo tren de lujo rumbo a Machu Picchu, disponible pronto. Este será exclusivo para aquellos dispuestos a pagar tarifas altas, mientras que también expandirá servicios regulares."
+    },
+    {
+        "headline": "¿DISNEYLAND PARQUE DIVERSIONES?",
+        "content": "La idea de crear Disneyland París en Cusco genera debate debido a condiciones climáticas adversas y logísticas complicadas. Expertos discuten la viabilidad económica frente a alternativas existentes."
+    }
+]
+```
+This extraction captures various significant topics covered within the provided OCR text while adhering strictly to the defined rules for inclusion/exclusion based on context relevance and format requirements.

@@ -1,0 +1,53 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2017/08/trome_10.txt ---
+
+```json
+[
+    {
+        "headline": "**DULCE ESPERA EN LA FLORIDA**\n\nshibolo pero sabe jugar",
+        "content": "Sus fichas.\nAlexander Succar,\ndelantero de la Universidad San Martín, pidi a la directiva de Sporting Cristal un plazo hasta el 31 de agosto para dar su respuesta sobre su esperado regreso a La Florida, dado que tenía algunas ofertas que tenía el jugador en el mercado europeo, situación que además le permitirá saber con qué jugador extranjero tendría que competir el puesto de cara a lo que resta del año."
+    },
+    {
+        "headline": "*SPORT BOYS RECUPERÓ LAS SONRIDAS*\nMomentos inolvidables...",
+        "content": "Sport Boys vive instantes de emotividad. Aparte de ser el único líder del torneo, con 6 puntos de ventaja sobre su más cercano seguidor, en Estados Unidos fue recibido a lo grande, el equipo fue bañado con el afecto de su gente y retornaron con las arcas llenas. La ‘Misilera’ en su paso por Nueva Jersey, obtuvo de la afición la suma de 35 mil dólares. Una cantidad considerable para mantener las planillas del club, incrementada por las incorporaciones realizadas para este certamen. Ayer, el plantel volvió a Lima y por la tarde realizaron ejercicios físicos en la VIDU, preparándose así para enfrentar a Unión Huaral el sábado siguiente."
+    },
+    {
+        "headline": "***ARSÉNE WAGNER APENA HA ESCHECIDO***\nLa novela entre Neymar y el Barcelona está lejos...\n",
+        "content": "La FIFA por cobrar la prima de 26 millones de euros que acordaron al renovar su contrato en Octubre de 2016. El Barça había depositado esa cantidad semanas anteriores en una cuenta bancaria, a la espera de que Ney decidiera permanecer, pero bloqueó dicho dinero tras presentación del jugador por el Paris Saint-Germain y actualmente no piensa pagárselo. Las condiciones eran tales que el jugador no hubiera negocializado su salida durante el mes previo al pago, manifiesto su voluntad de continuar y asegurar que no pagaríamos dicha prima antes del primero de septiembre, garantizando que la ventana de transferencias estar cerrada. Actualmente sabemos que ningún requisito fue cumplido.”
+    },
+    {
+        "headline": "**CHOCOLATERÍA CASERA**\nReceta de hoy:\nIngredientes:",
+        "content": "+1/2 taza de sillao \n+ Aceite de oliva \n+ Curry y azúcar \nPara anticucho, cocina a la plancha o a la parrilla hasta dorar. Intercale el pollo y el pimiento insertados en palillos, sazone con salsa de chicha y déjalo reposar antes de servir."
+    },
+    {
+        "headline": "",
+        "content": "Una relación puede basarse en la confianza mutua, el cariño y el apoyo constante. Los aspectos sentimentales de una relación pueden filtrarse inconscientemente en la vida amorosa actual, provocando celos y sospechas innecesarios. Por eso, antes de iniciar una nueva historia romántica, es recomendable dialogar sinceramente con tu nueva pareja sobre estos temas pendientes. Solo después podrás sentirte seguro/a iniciando otra etapa emocional."
+    },
+    {
+        "headline": "",
+        "content": "Las enfermedades de la piel, pelo y uñas requieren atención profesional. Entre ellas destacan problemas cutáneos tratados mediante láseres específicos, como el tratamiento de verrugas, vitiligio, arrugas faciales y rejuvenecimiento corporal. Además, existen opciones efectivas para combatir calvicie masculina y femenina utilizando tecnología punta."
+    },
+    {
+        "headline": "",
+        "content": "Muchas personas sufren dolores articulares severos, especialmente aquellos relacionados con la próstata. Este padecimiento puede generar síntomas ambiguos, incluido el malestar general y dificultades urinarias. Es crucial buscar ayuda médica oportunamente para recibir diagnóstico preciso y tratamiento eficiente."
+    },
+    {
+        "headline": "",
+        "content": "Existen diferencias significativas entre las palabras “osea,” “o sea” y “sea.” Usar correctamente estas variantes evita confusiones en la escritura formal. Ejemplo correcto: \"Tienes veinte años, o sea, ya eres adulto.\" También, titulares musicales deberían escribirse siempre en mayúsculas y cursivas, tal como 'Despacito'."
+    },
+    {
+        "headline": "",
+        "content": "\"¿Qué función tienen los distintos tipos de picos en las aves?\" Cada tipo de ave posee características únicas en su anatomía que facilitan funciones especiales según su dieta y hábitat natural. Desde pinzas robustas para cortar fruta hasta estructuras similares a bolsas para almacenar alimentos."
+    },
+    {
+        "headline": "",
+        "content": "Durante una entrevista, el cantante Mario Velasco menciona cómo manejan él y su esposa, Korina Rivadenieri, la tensión legal derivada de documentos fraudulentos utilizados por ella. Expresa optimismo respecto a resolver pronto la situación judicial mientras enfoca energías positivamente en su matrimonio."
+    },
+    {
+        "headline": "",
+        "content": "Alfredo Benjamín Lukovsky, conocido actor cómico, revela detalles íntimos de su carrera cinematográfica, especificando que trabaja exclusivamente en producciones temáticas y niega cualquier implicancia en películas explícitas. Esta declaración surge dentro de un contexto humorístico compartido en programas populares."
+    }
+]
+```
+This extraction captures various segments identified within the provided input while adhering strictly to the defined structure for headlines and contents. It excludes non-journalistic elements such as sports scores, ads, etc., focusing solely on substantial textual information suitable for inclusion in a structured dataset.

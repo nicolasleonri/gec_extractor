@@ -1,0 +1,41 @@
+
+
+--- ERROR ENTRY: data/txt/gestion/2017/01/gestion_30.txt ---
+
+```json
+[
+    {
+        "headline": "Bruno Fritsch vendió 4,500 vehículos nuevos en el 2016 ahora",
+        "content": "La compañía se esfuerza para invertir entre US\$ 80 millones y US\$ 90 millones en Perú y Colombia en los próximos dos años.\n\nAmbos países son los focos de atención de la empresa."
+    },
+    {
+        "headline": "Administradora Jockey plaza hopping entrar por resultados acumulados",
+        "content": "Tierra Rica en un terreno de Villa El Salvador está por iniciarse, luego que la municipalidad de Limá cambie la zonificación del área.\n\nEl Presidente del Instituto Peruano del Deporte (IPD), Sergio Fernández, espera que la ejecución de infraestructura comience este trimestre de 202019."
+    },
+    {
+        "headline": "Ingreso al Perú avanza",
+        "content": "La franquicia estadounidense The Little Gym se expande hacia Trujilo y Arequipa. Su director regional, Isabel Alfonzo Carvallo, adelantó a Gestión que a su sede en el Distrito de San Borja sumará tres locales más este año. Además, evalúa lanzar presentaciones crujientes en su portafolio de chips."
+    },
+    {
+        "headline": "Franquicia estadounidense The Little Gym se expande",
+        "content": "Tras cinco meses en el mercado peruano, la cadena anunció planes de abrir nuevas sucursales en Lima y provincias. Buscan vender la franquicia a otras personas en el país. \"El costo aproximado de la franquicia es de alrededor de US\$ 400,000\" menciona Isabel Alfonzo Carvallo."
+    },
+    {
+        "headline": "Encuesta de Confianza Consumidor muestra preocupación por precios",
+        "content": "\"Según el Índice de Confianza del Consumidor, aunque la situación económica personal mejora, persiste la preocupación por el precio de algunos productos básicos.\" Detalla Juan Carlos García, consultor de Apoyo Consultoria."
+    },
+    {
+        "headline": "Denuncia Willax TV involucra a ministra Tamayo en caso Odebrecht",
+        "content": "Mara del Rosario Patio, asesora del ministerio de Energía y Minas, participó en el proceso de concesión del Gasoducto Sur Peruano a Odebrecht según reportaje de Willax TV. Actualmente investiga la Fiscalía estas implicancias."
+    },
+    {
+        "headline": "Sector pesca registra notable crecimiento",
+        "content": "Durante diciembre de 2016, el sector pesca experimentó un incremento significativo gracias principalmente al aumento en las capturas de recursos hidrobiológicos. El ministro de Producción destacó estos números positivos contribuyentes al Producto Bruto Interno."
+    },
+    {
+        "headline": "Entrevista Fernando Piscoya, gerente general de Sedapal",
+        "content": "Indicó que tendrá que ajustar la presión del agua debido a reservas insuficientes. Planea inversiones cerca de S/\`2,000 millones en los siguientes cinco años para fortalecer la red hídrica."
+    }
+]
+```
+This JSON captures key headlines along with their corresponding contents extracted from the provided OCR text while adhering strictly to the defined scope and goal for extracting significant journalistic pieces. Articles related purely to ads, listings, etc., have been excluded according to guidelines.

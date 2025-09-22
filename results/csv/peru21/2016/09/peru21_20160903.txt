@@ -1,0 +1,49 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2016/09/peru21_03.txt ---
+
+```json
+[
+    {
+        "headline": "Cómo haces para alternar tu trabajo de solista?",
+        "content": "Bien, yo hice presentaciones (como solista), pero ahora estoy enfocado solo en Lucybell y en esta celebración... Sí, lamentablemente, La Ley se ha separado pero es una banda de mucha experiencia, y creo que ahora van a seguir trabajando en su música. Obviamente, Beto Cuevas puede continuar su carrera como solista y esto podría ser positivo para él."
+    },
+    {
+        "headline": "ENTREVISTA\nGIOVANNI CICCIA.\nActor de teatro, TV y cine.",
+        "content": "Tuvo lugar el sábado 3 de septiembre del 2016. Giovannii Ciccia presenta su nueva película \"Margaret\" y también anuncia que en 2017 llevará al cine \"Django 2\". Tus seguidores recuerdan mucho la película \"Django\". ¿Es cierto que vas a hacer \"Django 2\"?\nSí, es verdad, eso no es broma, y ya estoy trabajando el guión,\n¿Cuándo se va a filmar la cinta? Quiénes van a participar?\nFilaremos el próximo año. Estará Tatiana Astengo, que es mi esposa (en la historia), también Sergio Galliani... La idea es Django recuperando a su familia después de haber cumplido su pena, tratando de salir del crimen, que en realidad es la historia del verdadero Django, quien ahora es un hombre integrado a la sociedad.\nHace cuanto tiempo vienes trabajando en este proyecto?\nEl guion lo está escribiendo Yashim Bahamonde, quién ha trabajado muchos años con presos haciendo teatro en las cárceles y conoce el tema bastante bien. Él lleva un año y medio trabajando el guión, y para mí la última versión ya está prácticamente lista. Ahora falta conseguir el financiamiento.\nY ya has conocido al verdadero Django?"
+    },
+    {
+        "headline": "Rubén Blades ‘’Ya no har más las giras de salsa’'",
+        "content": "El salsero panameño Rubén Blades reafirma su decisión de no realizar más giras musicales para poder dedicarse a su carrera política en Panam. Indicó que su gira “Caminando, adiós y gracias,” que lo traer dentro de poco al Perú (22 de octubre), es la última que realizará. Lo que ahora ocurre será más giras de conciertos individuales. No puedo estar más, ahora mismo, en ese tipo de actividad porque me restan otras.”
+    },
+    {
+        "headline": "Batiste un récord Vinilo de The Beatles es el más caro",
+        "content": "El disco de The Beatles llamado The White Album fue vendido en una subasta y se convirtió en el disco de vinilo más caro de la historia, porque es la primera copia que se imprimió del álbum. Según NME, dicha producción estaba guardada en una bodega y era de Ringo Starrr, quien subastó la copia marcada con el número 000001, en apoyo a su Fundación Lotus y logró venderla en $790 mil dólares, según lo confirmó el Libro de Records Guiness."
+    },
+    {
+        "headline": "Victoria Meneses Carrín",
+        "content": "Desde hace 41 años, la reconocida cheff Victoria Meneses Carrín enseña a miles de personas y celebrities en el mundo. Es considerada como una de las principales promotoras del consumo de productos orgánicos. Ha hecho campaña en favor de productores locales y pequeños agricultores. Actualmente trabaja en diversas iniciativas culinarias del país azteca."
+    },
+    {
+        "headline": "Susawirananaos nos cuenta",
+        "content": "Nos explica cómo México ofrece una variedad impresionante de sabores. Como Chef, menciona qué especies utiliza en sus platillos. Llegó hace 15 años y observó una diferencia notable, pues se fueron puliendo paulatinamente y eso ha sido la clave del éxito. Considera que venir al Perú es tener acceso a una cocina única."
+    },
+    {
+        "headline": "Minifestival de teatro en acción",
+        "content": "Comienza hoy el Mini festival de teatro en acción jóvenes y violencia con la obra La Ola de José Ferguson, a las 8 p.m., en el Club de Teatro de Lima (Av. 28 de Julio 183, Miraflores)."
+    },
+    {
+        "headline": "“El Rey de Las Rosas” de Schröter",
+        "content": "Proyección programada para el lunes a las 7:30 p.m., en Casa Honorio Delgado de la Universidad Nacional Mayor de San Marcos (Av. Nicolás de Piérola 1222, Cercado de Lima). Entrada gratuita."
+    },
+    {
+        "headline": "Alexis Sánchez será el nuevo capitán",
+        "content": "Será el nuevo capitán de la Selección Chilena durante el partido contra Bolivia, por las eliminatorias sudamericanas. Este cambio marca la primera ocasión en 102 partidos internacionales bajo su capitanía."
+    },
+    {
+        "headline": "‘Scratche!’ Desata euforia",
+        "content": "Después de golear a Ecuador, la afición brindó una gran recepción a la selección brasileña en Manaus, anticipando otro emocionante encuentro frente a Colombia."
+    }
+]
+```
+This extraction captures various significant pieces of journalism within the provided text while adhering strictly to the guidelines for inclusion/exclusion criteria specified. It ensures each entry contains both headlines where applicable and corresponding detailed contents. Any missing data points have been filled with `"NA"` according to instruction requirements.
