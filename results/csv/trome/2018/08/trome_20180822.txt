@@ -195,3 +195,63 @@ This extraction captures various sections identified within the provided input w
     }
 ]
 ```
+
+--- ERROR ENTRY: data/txt/trome/2018/08/trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "ACEPTÉ LE HA ACONSEJADO QUE SE INTERNE PARA SANAR SUS HERIDAS MÁS QUE DEL CUERPO, DEL ALMA",
+        "content": "\"Acepto le ha\naconsejado que se intern\nea\nparaserinterneparasanarsusheri\ndasmásquelodelcorpodellama\ndo\"."
+    },
+    {
+        "headline": "EL POPULAR CANTANTE ABELARDO GUTÍRREZ, MEJOR CONOCIDO COMO ‘TONGO’, DICHA QUE JOHN KEVLIN LE FALTÓ MÁS CHISPAAAA QUANDO LOIMIT EN ’EL ARTISTA DEL AO’",
+        "content": "\"Abelardo Gutírrerez,\nmáscónocidocomo'TONGO'\ndijo quelJohnKelvinlefalta\ndañochispaaaaquandoloimiténel‘ArtístadelAo’. \n'AJohnlefaltapotencialenvozymovimientomas.\nImprovización,cuan[Giselalepedeaúnquetunebaenglésl,túnebasín'tonglish!\nDebehaberbismohabilidad,sacarbailardetiFiorellarádguezoCeci\labramontede.Impresión,porgustasonmandadosensentencia.'\"\n'"
+    },
+    {
+        "headline": "EXPECTACIÓN POR LA SALIDA DE UN PROGRAMA MUSICAL Y RETIRO DE ROBERTO CARMONA",
+        "content": "'Magdyel UggazexpresaexpectaciónporRobertCarmona,yesposodeTularódíguez,luegoinfartofinalfindeSemana.\n''EsperoqueRobertoMejoren,nohecomunicadoconTulasiguependientesu esposo,masesperoquepersonassuperioresquierensaberqueestamosconella.Enmomentodifícilesto.Estaremosorándoporél''.\nEnotromodo,CindyMarinoconfíaenretornoalaprogramaciónguiadaconmusica,dondeharánentrevistas.Mientras,MaggysánchezdeclaracontinuaracomerciantessobreliderazgosynotasmarriageinscritocomHaroldCortésenReniec.'"
+    },
+    {
+        "headline": "OPINIÓN SOBRE POLÍTICA Y JUSTICIA",
+        "content": "'Este artículo analiza lacorrupciónprofundainstitucionesjudiciales.LafigurasnotablesincluyenJuanGonzálezChavez,fiscalcondetenidoporextorsiónyotroscasoshumanosrelevantesencontextopolíticoactual.Perúrequiereunaestrategiadecompletocontrol.'
+    }
+]
+```
+This extraction focuses on identifying distinct sections within the provided text based on their thematic relevance while adhering strictly to the guidelines for extracting headlines and contents. Note how some entries may have been merged due to lack of explicit separation between different topics but still maintain coherence under each heading.
+
+--- ERROR ENTRY: data/txt/trome/2018/08/trome_22.txt ---
+
+```json
+[
+    {
+        "headline": "Col oe 100,5 Tm ...'L m;luuswf(z mm 30930…m— 5 SUDOTA",
+        "content": "m…[ of m conps zu tr porlisao :bs Rgm[wmsznsmssms\n(9 |Doh| 250 530 3i0 ls …2[141 ol ICool 340 100 23 mmo\na W ?o+ 350520740 t')smmo\nt.u.n.m.&3)7 El pstidero 2\n4303n &20|hmnni2 33\nla ne a me sl o y oo ea 3 (uliseblioso\net 15 en las alturas\n3](LD&I 300520 DE] o] [m-,a A940 Saetio —— Tu3\ntgn N l st ea\n 5LA p y\n Re’ eal\no ocenmersm Lus ob ue mencuentro tr &El\nlT’B 13 ':3?’o\"':3 comes e 9 n e o o a\n\n_l uou.… 1 z%lo o?nW Wullznllov , — Eilepa ra\nRep -unlullml icem2 04 5amsaw 7…0…”T L la \"'1 21\nlvml3wamaz&\" vur1uxn%f Il |(om e wm)n ls b3l lloi\n0\nS\n340, 60, S 1030 Hotel Tne\na a,\n|\n\'ow.. lmolzooszouommear\n$51m4m&10120 3J\n320 550 1000\n120140600 (!Ians\naBuRtEvuZA SA RoG wsn en u\nmt;xnmrmun3m l29)m 3 1sso r'€.'.’&m L&Ho' znff?l? …m%3i['ll?oll… 4000 790.950Namma mi 042006900 o  parerl m7so a |-'1Ml T''o''' [fmlm Bg\noegado L'f‘“ : uO E\n] bo eie l ; ?olx] ral d %zo?“&nmms 3 %… %23$&5\n|>w xmsznu… 4 cesueeninte , 1oa A,\nJ P M osnummmao  g;; .t ?w her tote la muaento 0 regpiatn (H oo3o“'...'| na 3 tl (Pl 2 9zsc\n?W D'o eme y oras nara sbretin E ie 1alzullooohm brata ) an a e el mu” t m?[z'o?[" &%o&un E…… & 5zomuo…z Mrf mies\nL ad.i20 mna % 3?lz? Rescaielos: Egun%mnsow…m&lwl [Dobl T' E3Wxas poptee oe mo 26 ds 62\n(c m1mso iras ta ol 20 5030, wzn… 220 430, 650 jvenes Stanes en acin Ap —— 650, mm…… Pob]Sis.5d5,t5,915 mn…'b?o" os sasos\n"
+    },
+    {
+        "headline": "REPÚBLICA PERUANA MINISTERIO DE EDUCACIÓN SECRETARIAT GENERAL DIRECTORA EXECUTIVA INSTITUTO NACIONAL DE EVALUACIÓN EDUcativa",
+        "content": ""
+    },
+    {
+        "headline": "¿Qué opinas?",
+        "content": "¡Participa!"
+    },
+    {
+        "headline": "Descarga gratis nuestra edición digital",
+        "content": "[http://app.elpopular.pe/trome]"
+    },
+    {
+        "headline": "",
+        "content": "Para ver más noticias visita nuestro portal web:\n[trome.pe]\nRecibe nuestras últimas noticias cada semana.\nSuscríbete aquí."
+    },
+    {
+        "headline": "Milagros Laura",
+        "content": "+500 Grs Espagueti \n+tza. de Agua \n+Sal, pimienta y perejil \n+ Queso Parmesano rallado \n+2 Dientes de ajos \n+1 Cebolla picada en juliana \n+Sofre el ajo y la cebolla. Agrega el agua, azúcar, tomates cortados en dados, hojas de laurel, sal y pimienta. Cocine durante 45 minutos aproximadamente. Retire del calor y licúe. Reserve.\nPique el tocino y reserve. Aparte revuelve los huevos y agrégale los ingredientes sofritos. Revuelva rápidamente, en una olla subida de presión o hasta que hierva. Agrégele queso parmesano y perejil picadito."
+    },
+    {
+        "headline": "Personajes destacados:",
+        "content": "- Personaje estadounidense Truman Capote, autor de novelas célebre como ‘A Sangre Fría’. Sus citas incluyen reflexiones profundas sobre la culpabilidad personal, adaptación, juicio social, literatura moderna, relaciones humanas y éxito.\n-Famoso periodista peruano Carlos Barbas, también conocido como Plátano Azul, destaca por su humor característico y comentarios sociales incisivos.\n-Dorita Orbegoso, figura pública involucrada en controversias mediáticas relacionadas con figuras públicas como Jefferson Farfán.\n-Cristiano Ronaldo, jugador portugués de fútbol mundialmente renombrado, discutiendo temas personales y profesionales.\n-Anelh Arías, víctima de violencia familiar, buscando ayuda legal y emocional tras incidentes reportados en los medios."
+    }
+]
+```
+This JSON captures several distinct sections identified within the provided OCR text based on their thematic coherence while adhering strictly to the specified format requirements for headlines and contents. Some entries have been marked as `NA` where appropriate data was missing or unclear.

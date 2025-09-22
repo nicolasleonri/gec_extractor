@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: ojo_18.txt ---
+
+```json
+[
+    {
+        "headline": "Canadiense mata a inglés en Ayahuasca",
+        "content": "Stevens Frenan (26) ingirió el brebaje y durante las visión imagínó a su esposa siendo infiel con su amigo de nacionalidad inglesa. Tomó un cuchillo y le abrió el abdomen, causándole la muerte."
+    },
+    {
+        "headline": "Grencia Delta Grupo Epensa Pe",
+        "content": "Que recojan las bolsas (de dinero)", dijo uno de los tres oficiales detenidos en un megaoperativo de la Fiscalía de Delito Organizado de Trujillo. Una llamada interceptada fue clave para desmantelar la red criminal \"Los malditos de Chicago\". Junto a otros 15 delincuentes, un abogado y un menor de edad, fueron trasladados a la carcelera de la División de Investigación Criminal (Divincri), en La Libertad. Durante la intervención también se logró ingresar a dos celdas de los penales La Capilla, en Juliaca (Puno) y el Milagro, en Trujillo. "
+    },
+    {
+        "headline": "Chimbote ‘Cumplita’ echó a su cómplice Sebastían",
+        “content”: "\"Yo observe que el carro rojo... Ya había salido el primero rompemuelle y se desplazaba despacio para pasar el segundo rompemuelle. Es all donde me acerqué por el lado del chofer y empiece a disparar las seis balas (del revolver)...\" Reveló el menor de 16 años, conocido como Cumplita, sobre cómo perpetró el crimen del alcalde de Samanco y su asesor legal."
+    },
+    {
+        "headline": "Huancayo Rosa Jiménez anunció el hallazgo de un tornillo oxidado en la sopa de su hija",
+        "content": "Informó que la abuela de la niña le dio a beber, encontrando dentro un tornillo. Solicitó el libro de reclamaciones a los administradores del hospital, aunque esto último fue negado."
+    },
+    {
+        "headline": "Internacional Barack Obama exigió al Congreso levantar bloqueo a Cuba",
+        "content": "Obama destacó que el embargo es un fracaso y sugiere que podría mejorar la calidad de vida cubana eliminándolo. Sin embargo, el Congreso muestra poco interés en cambiar dicha política."
+    },
+    {
+        "headline": "Colombia Quién pegó a Rajoy dice que repetirá",
+        "content": "Andrés V.F., el adolescente involucrado, expresó orgullo por sus acciones hacia el Presidente español, motivado por sospechas relacionadas con supuestos sobresueldos no declarados."
+    },
+    {
+        "headline": "Menor de 17 años mató a su novia embarazada también adolescente",
+        "content": "Confesó haber cometido el homicidio después de enfrentamientos personales derivados del embarazo de ella. Familiares demandan investigación más profunda respecto a quiénes pudieran haber ayudado en el crimen."
+    }
+]
+```
+This extraction focuses solely on significant journalistic pieces while excluding irrelevant sections like ads, subscriptions, etc. It maintains the integrity of headlines and contents according to provided guidelines.

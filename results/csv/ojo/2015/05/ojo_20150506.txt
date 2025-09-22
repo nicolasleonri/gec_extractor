@@ -1,0 +1,19 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2015/05/ojo_06.txt ---
+
+```json
+[
+    {
+        "headline": "CAE EXJEZ SUPREMO POR Y “CNSO ONMN A",
+        "content": "LA POLICA LE SIGUE LOS PASOS A JUAN BERROS NAVARRO, PRIMO DE JONATHAN NAVER RO BERR OS , QUEN FUE BALEADO DENTRO DEL NARCOPORSCH E Y PRO_T_EQE Y SU JEFE 'TONY MONTANA?'
+        
+        ‘CARA DE DEDO’ OE I DIN [m . EGZOON IS "
+    },
+    {
+        "headline": "PNP DESCUBRE EN CELULAR DE ’CARA DE DEDO’ QUE CLAN OROPENSA SE COMUNICA POR WHASTAP",
+        "content": "NA"
+    }
+]
+```
+This extraction includes headlines identified based on their prominence within the provided text snippet while ensuring any associated content was captured accurately according to given heuristics for merging fragmented lines and removing irrelevant sections like game rules mentioned at the end. Note how some parts were merged due to being part of continuous narrative despite breaks caused by layout constraints typical in newspapers.

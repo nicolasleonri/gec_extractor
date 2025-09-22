@@ -285,7 +285,7 @@ def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, 
             mean_agreed_prob = sum(agreeing_probs) / len(agreeing_probs) if agreeing_probs else 0.5
             majority_agreed_topics.append((i, agreed_topic, mean_agreed_prob))
 
-    topic_labels = valid_results[1]['topic_keywords']
+    topic_labels = valid_results[0]['topic_keywords']
 
     agreed_rows = []
     for i, agreed_topic, mean_agreed_prob in majority_agreed_topics:
