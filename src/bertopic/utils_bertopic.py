@@ -22,8 +22,6 @@ def process_row(row):
     output_parts = []
     if row.get('headline') != 'NA':
         output_parts.append(row['headline'])
-    if row.get('subheadline') != 'NA':
-        output_parts.append(row['subheadline'])
     if row.get('content') != 'NA':
         output_parts.append(row['content'])
 

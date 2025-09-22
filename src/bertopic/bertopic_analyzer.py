@@ -1,25 +1,25 @@
+from typing import Union, List, Dict, Any, Optional, Tuple
+from sklearn.feature_extraction.text import CountVectorizer
+from sentence_transformers import SentenceTransformer
+from bertopic.representation import KeyBERTInspired
+from collections import Counter
 from bertopic import BERTopic
 from utils_bertopic import *
-import os
-import plotly.io as fig
-from sentence_transformers import SentenceTransformer
-from sklearn.feature_extraction.text import CountVectorizer
-from collections import Counter
 import multiprocessing as mp
-from bertopic.representation import KeyBERTInspired
-from umap import UMAP
-from datetime import date
 from hdbscan import HDBSCAN
+from datetime import date
 from pathlib import Path
-import gc
+import plotly.io as fig
+from umap import UMAP
+import numpy as np
+import argparse
+import pickle
 import torch
 import time
-import argparse
 import csv
 import re
-import numpy as np
-import pickle
-from pathlib import Path
+import os
+import gc
 
 def check_gpu():
     result = subprocess.run(
@@ -28,7 +28,7 @@ def check_gpu():
     )
     print("GPU Memory:", result.stdout.strip())
 
-def run_single_model(documents, embedding_model_name, newspaper, load_model=False, chunk_size=1000):
+def run_single_model(documents, embedding_model_name, newspaper, base_model_path, load_model=False, chunk_size=1000):
     spanish_stopwords = [
         'de', 'la', 'que', 'el', 'en', 'y', 'a', 'los', 'del', 'se', 'las', 'por',
         'un', 'para', 'con', 'no', 'una', 'su', 'al', 'lo', 'como', 'más', 'pero',
@@ -111,7 +111,7 @@ def run_single_model(documents, embedding_model_name, newspaper, load_model=Fals
         n_neighbors=175,
         n_components=100, 
         min_dist=0.01,
-        metric='cosine',
+        # metric='cosine',
         random_state=42,
         low_memory=False,
         n_jobs=-1,
@@ -121,11 +121,11 @@ def run_single_model(documents, embedding_model_name, newspaper, load_model=Fals
     hdbscan_model = HDBSCAN(
         min_cluster_size=25,
         min_samples=7,
-        metric='cosine',
+        # metric='cosine',
         cluster_selection_method='eom',
         prediction_data=True,
-        core_dist_n_jobs=-1,  # Use all CPU cores
-        algorithm='boruvka_kdtree'
+        core_dist_n_jobs=-1  # Use all CPU cores
+        # algorithm='boruvka_kdtree'
     )
 
     model = BERTopic(
@@ -148,7 +148,7 @@ def run_single_model(documents, embedding_model_name, newspaper, load_model=Fals
     check_gpu()
 
     model_suffix = re.sub(r'\W+', '_', embedding_model_name.split('/')[-1])
-    model_path = f"./results/models/bertopic/bertopic_model_{model_suffix}_{newspaper}_{date.today()}"
+    model_path = f"{base_model_path}/bertopic/bertopic_model_{model_suffix}_{newspaper}_{date.today()}"
     os.makedirs(os.path.dirname(model_path), exist_ok=True)
     pickle_file = model_path + ".pkl"
     loaded_saved_model = str(model_path)
@@ -196,14 +196,14 @@ def run_single_model(documents, embedding_model_name, newspaper, load_model=Fals
     return results, loaded_saved_model
 
 
-def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, load_model=False):
+def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, model_path, load_model=False):
     results_dir = "./results/csv/bertopic/"
     os.makedirs(os.path.dirname(results_dir), exist_ok=True)
 
     csv_filename = f"results_topics_{newspaper}_{date.today()}_.csv"
     output_csv = os.path.join(results_dir, csv_filename)
 
-    print(f"Processing {len(input_files)} CSV files from {str(input_folder)}.")
+    print(f"Processing {len(input_files)} CSV files from {str(input_folder)}")
 
     if not all_documents:
         print("No valid documents found to process.")
@@ -225,7 +225,7 @@ def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, 
         print(f"{'='*50}")
         
         try:
-            results, loaded_saved_model = run_single_model(all_documents, model_name, newspaper, load_model)
+            results, loaded_saved_model = run_single_model(all_documents, model_name, newspaper, model_path, load_model)
             all_model_results.append(results)
             saved_models.append(str(loaded_saved_model))
             print(f"Completed: {model_name}")
@@ -345,6 +345,7 @@ def parse_arguments():
     parser.add_argument('-n', '--newspaper', type=str, required=True, help='Newspaper name (required)')
     parser.add_argument('-c', '--cpu_num', type=int, required=True, help='Number of available CPUs')
     parser.add_argument('-lm', '--load_model', type=int, required=False, default=False, help='Number of available CPUs')
+    parser.add_argument('-mp', '--model_path', type=str, required=True,  help='Path for models')
 
     return parser.parse_args()
 
@@ -378,6 +379,7 @@ def validate_arguments(args) -> Dict[str, Any]:
     config["cpu_num"] = args.cpu_num
     config["load_model"] = args.load_model
     config["visualize_model"] = args.visualize_model
+    config["model_path"] = args.model_path
 
     if errors:
         print("❌ Validation errors:")
@@ -392,7 +394,8 @@ def main() -> None:
 
     config = validate_arguments(args)
     csv_files = gec_csv_files(config["input_folder"])
-    all_documents, row_mappings = process_all_rows(csv_files, max_workers=config["cpu_num"]):
+
+    all_documents, row_mappings = process_all_rows(csv_files, max_workers=config["cpu_num"])
     print(f"Total valid documents: {len(all_documents)}")
 
     if config["visualize_model"] == True:
@@ -421,7 +424,7 @@ def main() -> None:
         print(f"✅ Visualizations saved to {viz_output_dir}")
     else:
         start_time = time.time()
-        bertopic(csv_files, config["newspaper"], config["input_folder"], all_documents, row_mappings, config["load_model"])
+        bertopic(csv_files, config["newspaper"], config["input_folder"], all_documents, row_mappings, config["model_path"], config["load_model"])
         print(f"⏱️ Total time: {time.time() - start_time:.2f} seconds")
     
     return None
