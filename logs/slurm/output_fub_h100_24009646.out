@@ -1,44 +1,0 @@
-Loading modules...
-Setting folders...
-Activating virtual environment...
-Running python script...
-[W921 11:58:19.983945149 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
-  Overriding a previously registered kernel for the same operator and the same dispatch key
-  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
-    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
-  dispatch key: AutocastCPU
-  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
-       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
-INFO 09-21 11:58:21 [__init__.py:216] Automatically detected platform cuda.
-Skipping data/txt/elcomercio/2015/12/elcomercio_01.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151201.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_02.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151202.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_03.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151203.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_04.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151204.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_05.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151205.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_06.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151206.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_07.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151207.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_08.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151208.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_09.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151209.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_10.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151210.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_11.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151211.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_12.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151212.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_13.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151213.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_14.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151214.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_15.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151215.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_16.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151216.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_17.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151217.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_18.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151218.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_19.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151219.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_20.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151220.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_21.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151221.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_22.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151222.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_23.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151223.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_24.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151224.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_25.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151225.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_26.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151226.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_27.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151227.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_28.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151228.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_29.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151229.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_30.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151230.csv
-Skipping data/txt/elcomercio/2015/12/elcomercio_31.txt - corresponding CSV file exists: results/csv/elcomercio/2015/12/elcomercio_20151231.csv
-Processing files:   0%|          | 0/333 [00:00<?, ?it/s]Processing files:   0%|          | 1/333 [00:01<07:36,  1.37s/it]Processing files:   1%|          | 4/333 [00:01<01:34,  3.48it/s]Processing files:   2%|▏         | 7/333 [00:01<00:49,  6.60it/s]Processing files:   3%|▎         | 10/333 [00:01<00:32,  9.81it/s]Processing files:   4%|▍         | 13/333 [00:01<00:24, 13.03it/s]Processing files:   5%|▍         | 16/333 [00:01<00:19, 16.04it/s]Processing files:   6%|▌         | 19/333 [00:02<00:16, 18.62it/s]Processing files:   7%|▋         | 22/333 [00:02<00:14, 20.77it/s]Processing files:   8%|▊         | 25/333 [00:02<00:13, 22.19it/s]Processing files:   8%|▊         | 28/333 [00:02<00:12, 23.61it/s]Processing files:  10%|▉         | 32/333 [00:02<00:11, 25.87it/s]Processing files:  11%|█         | 35/333 [00:02<00:13, 22.83it/s]Processing files:  12%|█▏        | 39/333 [00:02<00:11, 24.98it/s]Processing files:  13%|█▎        | 42/333 [00:02<00:11, 26.10it/s]Processing files:  14%|█▍        | 46/333 [00:03<00:10, 27.96it/s]Processing files:  15%|█▍        | 49/333 [00:03<00:09, 28.42it/s]Processing files:  16%|█▌        | 52/333 [00:03<00:10, 25.82it/s][2025-09-21T11:58:26.540] error: *** JOB 24009646 ON g016 CANCELLED AT 2025-09-21T11:58:26 DUE to SIGNAL Terminated ***
