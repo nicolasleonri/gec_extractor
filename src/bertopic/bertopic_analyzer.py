@@ -94,7 +94,10 @@ def run_single_model(documents, embedding_model_name, newspaper, base_model_path
     check_gpu()
     start_time = time.time()
 
-    embedding_model = SentenceTransformer(embedding_model_name) # Create fresh embedding model and BERTopic instance
+    embedding_model = SentenceTransformer(embedding_model_name, model_kwargs={
+        "torch_dtype": "float16",
+        # "attn_implementation": "flash_attention_2",
+        }) # Create fresh embedding model and BERTopic instance
     
     vectorizer_model = CountVectorizer(
         stop_words=spanish_stopwords,
@@ -104,13 +107,13 @@ def run_single_model(documents, embedding_model_name, newspaper, base_model_path
         strip_accents="unicode",
         min_df=2,  # Remove very rare terms
         max_df=0.95,  # Remove very common terms
-        token_pattern=r'\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]{2,}\b'  # Spanish-aware tokenization
+        token_pattern=r'\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]{3,}\b'  # Spanish-aware tokenization # Min 3 chars
     )
 
     umap_model = UMAP(
-        n_neighbors=175,
-        n_components=100, 
-        min_dist=0.01,
+        n_neighbors=30,
+        n_components=15, 
+        min_dist=0.0,
         # metric='cosine',
         random_state=42,
         low_memory=False,
@@ -119,8 +122,8 @@ def run_single_model(documents, embedding_model_name, newspaper, base_model_path
     )
 
     hdbscan_model = HDBSCAN(
-        min_cluster_size=25,
-        min_samples=7,
+        min_cluster_size=6,
+        min_samples=2,
         # metric='cosine',
         cluster_selection_method='eom',
         prediction_data=True,
@@ -131,7 +134,7 @@ def run_single_model(documents, embedding_model_name, newspaper, base_model_path
     model = BERTopic(
         embedding_model=embedding_model, 
         language="multilingual", 
-        min_topic_size=5,
+        min_topic_size=3,
         top_n_words=35, # Words per topic
         seed_topic_list=list(seeded_topics.values()),
         representation_model=KeyBERTInspired(),
@@ -169,6 +172,7 @@ def run_single_model(documents, embedding_model_name, newspaper, base_model_path
             start_time = time.time()
             topics, probs = model.fit_transform(documents)
             print(f"Training time: {time.time() - start_time:.2f} seconds")
+            print(f"Number of topics: {len(set(topics)) - 1}")  # -1 for outlier topic
             topic_keywords = get_topics_keywords(model)
             model.save(model_path, save_embedding_model=True)
             topic_info = model.get_topic_info().to_dict('records') if hasattr(model, 'get_topic_info') else None
@@ -181,6 +185,7 @@ def run_single_model(documents, embedding_model_name, newspaper, base_model_path
             print("Topic info (head):")
             topic_info = model.get_topic_info()
             print(topic_info.head())
+            print(f"Total no of topics: {len(topic_info)}")
 
             with open(pickle_file, "wb") as f:
                 pickle.dump(results, f)
