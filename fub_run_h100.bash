@@ -13,7 +13,7 @@
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=26G
 
-#SBATCH --time=07:00:00
+#SBATCH --time=06:00:00
 
 echo "Loading modules..."
 module purge
@@ -28,13 +28,14 @@ echo "Activating virtual environment..."
 source ./venv/bertopic/bin/activate
 
 echo "Running python script..."
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/correo/ -n correo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/correo/ -n correo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
 # python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/peru21/ -n peru21 -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
 # python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/trome/ -n trome -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ojo/ -n ojo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/publimetro/ -n publimetro -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/gestion/ -n gestion -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ojo/ -n ojo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/publimetro/ -n publimetro -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/gestion/ -n gestion -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ -n total -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
 
 deactivate
 module purge
