@@ -39,7 +39,9 @@ def process_all_rows(csv_files, max_workers=64):
     futures = []
 
     with ProcessPoolExecutor(max_workers=max_workers) as executor:
-        for csv_file in csv_files: 
+        for csv_file in csv_files:
+            if "bertopic" in str(csv_file):
+                continue
             with open(csv_file, newline="", encoding="utf-8") as f:
                 reader = csv.DictReader(f)
                 for idx, row in enumerate(reader):
