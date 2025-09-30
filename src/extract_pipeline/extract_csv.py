@@ -171,7 +171,7 @@ def get_model_configuration(config: Dict[str, Any]) -> Dict[str, Any]:
 
     if config["gpu_type"] == "H100":
         repo_id = "MaziyarPanahi/phi-4-GGUF"
-        filename = "phi-4.Q4_K_M.gguf"
+        filename = "phi-4.fp16.gguf"
         model = hf_hub_download(repo_id, filename=filename)
 
         model_config.update({
@@ -212,7 +212,7 @@ def process_chunking_decision(processed_files, model_config: Dict[str, Any]) -> 
     def calculate_chunk_parameters(model_config: Dict[str, Any]) -> Dict[str, int]:
         max_model_len = model_config["max_model_len"]
         
-        usable_context = int(max_model_len * 0.40)  # reserve 60% of context for output and prompt
+        usable_context = int(max_model_len * 0.25 - 800)  # reserve 75% of context for output and prompt
 
         overlap_ratio = 0.1   # 10% overlap
         chunk_size = min(usable_context, 100000)
@@ -497,12 +497,24 @@ def initialize_model(model_config):
         n=1,
         temperature=0.0,
         top_p=0.95,
-        top_k=0,
-        seed=42,
-        min_p=0.0,
-        max_tokens=int(model_config["max_model_len"] * 0.5), # reserve 50% of context for input and prompt
-        repetition_penalty=1.25
+        top_k=40,
+        # seed=42,
+        min_p=0.05,
+        max_tokens=int(model_config["max_model_len"] * 0.75 - 800), # reserve 25% of context for input and prompt
+        repetition_penalty=1.125
     )
+
+    # sampling_params = SamplingParams(
+    #     n=3,
+    #     temperature=0.4,
+    #     top_p=0.95,
+    #     top_k=40,
+    #     # seed=42,
+    #     min_p=0.05,
+    #     max_tokens=int(model_config["max_model_len"] * 0.75 - 800), # reserve 25% of context for input and prompt
+    #     repetition_penalty=1.125,
+    #     best_of=3
+    # )
 
     llm = LLM(
         model=model_config["model_name"],
@@ -510,6 +522,7 @@ def initialize_model(model_config):
         max_model_len=model_config["max_model_len"],
         gpu_memory_utilization=model_config["gpu_memory_utilization"],
         seed=42,
+        dtype='float16',
         quantization=model_config["quantization"],
         swap_space=model_config["swap_space"],
         cpu_offload_gb=model_config["cpu_offload"], # TODO: Try more
