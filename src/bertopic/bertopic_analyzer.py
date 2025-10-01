@@ -221,9 +221,9 @@ def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, 
         return None
 
     embedding_model_names = [
-        "sentence-transformers/distiluse-base-multilingual-cased-v1",
+        # "sentence-transformers/distiluse-base-multilingual-cased-v1",
         # "jaimevera1107/all-MiniLM-L6-v2-similarity-es",
-        "hiiamsid/sentence_similarity_spanish_es",
+        # "hiiamsid/sentence_similarity_spanish_es",
         # "Qwen/Qwen3-Embedding-8B", 
         "Linq-AI-Research/Linq-Embed-Mistral"
     ]
@@ -258,9 +258,9 @@ def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, 
 
     valid_results = [r for r in all_model_results if r is not None]
     
-    if len(valid_results) < 2:
-        print("❌ Not enough valid model results for majority voting")
-        return None
+    # if len(valid_results) < 2:
+    #     print("❌ Not enough valid model results for majority voting")
+    #     return None
     
     print(f"\nProcessing majority vote from {len(valid_results)} models")
     

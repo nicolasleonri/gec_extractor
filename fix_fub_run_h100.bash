@@ -13,7 +13,7 @@
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=30G
 
-#SBATCH --time=06:00:00
+#SBATCH --time=03:00:00
 
 # echo "Loading modules..."
 # module purge
@@ -42,11 +42,10 @@ export HF_HOME=/home/nicolasal97/.cache/huggingface
 
 echo "Activating virtual environment..."
 source ./venv/bertopic/bin/activate
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 echo "Running python script..."
 python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/gestion/ -n gestion -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-
-echo "Script finished successfully"
 
 deactivate
 module purge
