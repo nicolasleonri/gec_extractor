@@ -13,23 +13,23 @@
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=30G
 
-#SBATCH --time=01-00:00:00
+#SBATCH --time=06:00:00
 
-echo "Loading modules..."
-module purge
-module load CUDA/12.1.1
-module load cuDNN/8.9.2.26-CUDA-12.1.1
-module load virtualenv/20.26.2-GCCcore-13.3.0
+# echo "Loading modules..."
+# module purge
+# module load CUDA/12.1.1
+# module load cuDNN/8.9.2.26-CUDA-12.1.1
+# module load virtualenv/20.26.2-GCCcore-13.3.0
 
-echo "Setting folders..."
-export HF_HOME=/home/nicolasal97/.cache/huggingface
+# echo "Setting folders..."
+# export HF_HOME=/home/nicolasal97/.cache/huggingface
 
-echo "Activating virtual environment..."
-source ./venv/extract_csv/bin/activate
+# echo "Activating virtual environment..."
+# source ./venv/extract_csv/bin/activate
 
-echo "Running python script..."
-python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/trome/ -tn H100 -aram 29 -ngpus 1
-deactivate
+# echo "Running python script..."
+# python3 -u ./src/extract_pipeline/extract_csv.py -f ./data/txt/gestion/ -tn H100 -aram 29 -ngpus 1
+# deactivate
 
 echo "Loading modules..."
 module purge
@@ -44,10 +44,7 @@ echo "Activating virtual environment..."
 source ./venv/bertopic/bin/activate
 
 echo "Running python script..."
-python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/trome/ -n trome -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-
-deactivate
-module purge
+python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/gestion/ -n gestion -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
 
 echo "Script finished successfully"
 
