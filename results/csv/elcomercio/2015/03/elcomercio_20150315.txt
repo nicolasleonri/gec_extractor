@@ -1,0 +1,34 @@
+
+
+--- ERROR ENTRY: data/txt/elcomercio/2015/03/elcomercio_15.txt ---
+
+```json
+[
+    {
+        "headline": "Velasco Juan",
+        "content": "NA"
+    },
+    {
+        "headline": "Marco Arana",
+        "content": "NA"
+    },
+    {
+        "headline": "Ciro Castillo",
+        "content": "inequeteuqn npoa\nil reconocacsub,\nocremoCE\nardopeuqsoct\nilipstorecerbossonaur epsos\nledograeneropadaro bae,\nsospIedats euenceaL\niliiseacends epsotaddnacsosi\n,l solledsongaesboS\n.\nlneesritrevnocenasederpros\ntema\nalliicnes\n:\lebarovafsede\nlinobarovaf\ninnpoanune netonsodat sverto nosi\n.l neconocsolono\n"
+    },
+    {
+        "headline": "Diez Canseco Mauricio",
+        "content": "NA"
+    },
+    {
+        "headline": "Ana Jara",
+        "content": "NA"
+    },
+    {
+        "headline": "Humala Antauro",
+        "content": "NA"
+    }
+]
+```
+
+This JSON captures the potential headlines identified within the provided OCR text. Due to the fragmented nature of the input, some entries have minimal content labeled as "NA". This reflects the challenge of extracting coherent articles from incomplete data.
