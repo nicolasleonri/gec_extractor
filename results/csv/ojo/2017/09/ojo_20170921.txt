@@ -1,0 +1,52 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2017/09/ojo_21.txt ---
+
+```json
+[]
+```
+The provided input does not contain any recognizable headlines or substantial journalistic content based on the defined criteria for extraction. It primarily consists of fragmented text, numbers, and symbols unrelated to coherent articles. Therefore, the output is an empty array indicating no eligible articles were found.
+
+--- ERROR ENTRY: data/txt/ojo/2017/09/ojo_21.txt ---
+
+```json
+[
+    {
+        "headline": "Por intereses, la Línea II solo se hace para un sismo 8.",
+        "content": "ponsable\", tuite el expresidente Alan García para resaltar al primer tramo del Metro de Lima, concluido en su gobierno, y de paso criticar a su sucesor Ollanta Humala, quien firmó el contrato del segundo tramo.\n\n\"Usted está desinformado. La línea 2 (fue) destrabada exigiendo coeficiente de 1.5, igual que la línea 1, 180 kilos de fierro por metro cuadrado. Factor de seguridad por uso esencial\", le respondió por Twitter el ministro de Transportes y Comunicaciones, Bruno Giuffra."
+    },
+    {
+        "headline": "MEGAOPERATIVO POLICIAL SE EJECUTÓ CON ÉXITO EN ICA Y LIMA",
+        "content": "Capturan a 26 de \"La Gran Sangre\"\n\nREDACCIÓN OJO\n\nredacciongrupoepensa.pe\n\n1,815 efectivos policiales y 47 representantes del Ministerio Público participaron, la madrugada de ayer, en un megaoperativo en Pisco (Ica) que permitió capturar a 26 presuntos miembros de la organización delictiva \"La Gran Sangre del Sur\".\n\n\"El balance final es de 26 detenidos y 56 inmuebles allanados\", comunicó vía Twitter el ministro del Interior, Carlos Morán.\n\nLa banda, que operaba en las regiones de Ica, Ayacucho, Huancavelica y Lima, era liderada por Carlos Basombrío. Entre los apresados hay un policía. \"La Gran Sangre del Sur\" es sindicada por la Policía Nacional como responsable de al menos ocho asesinatos por robo o por encargo. Sus integrantes acechaban a empresarios que retiraban efectivo del banco o realizaban cobros de dinero para pagar las planillas de sus trabajadores.\n\nProntuario. La banda, que operaba en las regiones de Ica, Ayacucho, Huancavelica y Lima, era liderada por José Antonio Uculmana Gutiérrez, un delincuente con tres reclusiones en penales del país por los delitos de hurto agravado, tenencia ilegal de explosivos y homicidio."
+    },
+    {
+        "headline": "LORETO EN EMERGENCIA",
+        "content": "El Gobierno declaró, por 90 días, la emergencia sanitaria en los distritos de Parinari, Urarinas y Nauta, en Loreto, que soportan una grave crisis de salud debido a la falta de agua potable."
+    },
+    {
+        "headline": "HALLAN CUERPO EN CANAL",
+        "content": "El cadáver de Julio Enrique Rosales Yupanqui (40) fue encontrado en un canal de regado en Huaral. Al parecer, habría sido asesinado por oponer resistencia al robo de su auto."
+    },
+    {
+        "headline": "’PIRATAS’ ASALTAN A CUARENTA PASAJEROS DE BUS",
+        "content": "Rumbo a Lima. Hampones armados asaltaron un bus de la empresa Civa y desvalijaron a unos 40 pasajeros que viajaban con destino a la ciudad de Lima. El atraco se registró ayer en el distrito de Chicama, en la provincia de Ascope (La Libertad).\n\nOcurrió a eso de las tres de la madrugada, cuando cinco hampones se hicieron pasar como pasajeros y tomaron el control del minibús. Robaron celulares y dinero."
+    },
+    {
+        "headline": "3 SISMOS EN FILA METEN MIEDO A AREQUIPENOS",
+        "content": "Un sismo de magnitud 5.2 grados en la escala de Richter se registró a las 00.26 horas de ayer, a 8 kilómetros de la ciudad de Arequipa. Otro sismo volvió a sacudir la región a las 03.07 horas, esta vez a 10 kilómetros al sur del distrito de Maca. Además, a las 22.15 horas del martes se reportó un temblor de 3.5 grados de magnitud que caus temor entre la población de Caylloma."
+    },
+    {
+        "headline": "BOLIVIA: OPOSICIÓN RECHAZA",
+        "content": "El Gobierno Morales rechazó el recurso legal que el presidente Evo Morales present ante el Tribunal Constitucional para que lo autorice a postular para un cuarto mandato consecutivo en 2019, algo prohibido por la Constitución del 2009. Partidos políticos de oposición condenaron la intención y detallaron que \"es el mayor exceso al que han llegado\"."
+    },
+    {
+        "headline": "HURACÁN ‘MARA’ ARRASA TODA LA ISLA Y DEJA MILES DE DESTROZOS A SU PASO",
+        "content": "SAN JUAN. El huracán ‘Mara’ llegó a Puerto Rico el último miércoles casi 90 años después afectado a todo el territorio especialmente en la región central. Dej a su paso infraestructura devastada y ahora se dirige a República Dominicana y bordeará las Islas Turcas."
+    },
+    {
+        "headline": "NO HABRÁ RETROCESO EN ACUERDO CLIMÁTICO",
+        "content": "NUEVA YORK. El presidente de Francia, Emmanuel Macron, sostuvo en la ONU que \"todos nos vemos afectados por los embates climáticos. Este acuerdo no volver a negociarse\", afirmó frente a la incertidumbre generada por la retirada de los Estados Unidos."
+    },
+    {
+        "headline": "MAYORÍA DE DISTRITOS TIENEN SUELOS BLANDOS",
+        "content": "Limeños están en riesgo por sismo\n\nCRISVLCHEZ\ncivilchezgrupoepensa.pe\n\nLos millones 100 mil habitantes de Lima se encuentran en peligro si ocurriera un sismo de grado 8, debido al material de construcción de sus viviendas, el tipo de suelo donde estas se ubican y la sobrepoblación, alertaron las autoridades.\n\nLos distritos de la capital que llevarían la peor parte, según el Instituto Nacional de Defensa Civil (Indeci), son Carabayllo, Comas, San Juan de Lurigancho, Ventanilla, Callao y La Molina. Tienen suelos blandos y, ante sismos de gran magnitud, las ondas tienden a amplificar el movimiento sísmico\", explicó la especialista Sheyla Yauri.\n\nPara el jefe del Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (Cenepred), Vladimiro Giovannini, el alto nivel de riesgo se debe a que hay tres o cuatro tipos de suelos en cada distrito, al tipo de material de las viviendas (in base, adobe o quinch

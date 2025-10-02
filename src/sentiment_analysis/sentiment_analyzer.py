@@ -1,21 +1,57 @@
+from utils_sentiment_analyzer import *
 from transformers import pipeline
 import multiprocessing as mp
-from utils_sentiment_analyzer import *
-import os
-import pandas as pd
-import csv
+from datasets import Dataset
+from datetime import date
+import concurrent.futures
 from glob import glob
 from tqdm import tqdm
-import concurrent.futures
-from datasets import Dataset
+import pandas as pd
+import argparse
+import csv
+import os
+from typing import Union, List, Dict, Any, Optional, Tuple
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Do sentiment analysis (of newspaper articles' headlines) with majority voting of three spanish specialized models.", 
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument("-f", "--input_folder", type=str, required=True, help="Path to folder containing input csv files")
+
+    return parser.parse_args()
+
+def validate_arguments(args) -> Dict[str, Any]:
+    config = {}
+    errors = []
+    
+    if not os.path.exists(args.input_folder):
+        errors.append(f"Input folder does not exist: {args.input_folder}")
+    else:
+        csv_files = list(Path(args.input_folder).rglob("*.csv"))
+        if len(csv_files) == 0:
+            errors.append(f"No .csv files found in input folder: {args.input_folder}")
+        config["csv_files_count"] = len(csv_files)
+        config["input_folder"] = args.input_folder
+    
+    if errors:
+        print("❌ Validation errors:")
+        for error in errors:
+            print(f"  - {error}")
+        sys.exit(1)
+    
+    return config
 
 def main():
-    input_folder = "./results/csv/test/"
-    results_dir = "./results/csv/"
-    output_csv = os.path.join(results_dir, "results_sentiment.csv")
+    args = parse_arguments()
+    config = validate_arguments(args)
 
-    # Read and append CSV files
-    all_files = glob(os.path.join(input_folder, "*.csv"))
+    results_dir = "./results/csv/sentiment_analysis/"
+    os.makedirs(os.path.dirname(results_dir), exist_ok=True)
+    csv_filename = f"results_sentiment_analysis_{date.today()}.csv"
+    output_csv = os.path.join(results_dir, csv_filename)
+
+    all_files = glob(os.path.join(config["input_folder"], "*.csv"))
     df_list = []
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
@@ -24,17 +60,11 @@ def main():
             df_list.append(df_chunk)
 
     df = pd.concat(df_list, ignore_index=True)
-
-    # For applying process_row, you can keep tqdm as before
-    df["combined_text"] = tqdm(df.apply(process_row, axis=1), total=len(df), desc="Processing rows")
-    df = df[df["combined_text"].notnull()].reset_index(drop=True)
-
+    
     print(f"📄 Total valid rows: {len(df)}")
 
-    # Convert pandas DataFrame to HF Dataset
     dataset = Dataset.from_pandas(df)
 
-    # Define models to loop over
     models = {
         "sabert": "VerificadoProfesional/SaBERT-Spanish-Sentiment-Analysis",
         "robertuito": "pysentimiento/robertuito-sentiment-analysis",
@@ -77,21 +107,6 @@ def main():
         print(f"Loading model: {model_name}")
         classifier = pipeline("text-classification", model=model_path, batch_size=64)
 
-        # def classify_batch(batch):
-        #     results = {}
-        #     for col in ["headline", "subheadline", "content"]:
-        #         texts = batch.get(col, [])
-        #         texts = [text if text is not None and text != "NA" else "" for text in texts]
-
-        #         preds = classifier(texts, truncation=True)
-
-        #         labels = [label_maps.get(model_name, {}).get(p["label"], p["label"]) for p in preds]
-        #         scores = [p["score"] for p in preds]
-
-        #         results[f"{col}_label"] = labels
-        #         results[f"{col}_score"] = scores
-        #     return results
-
         def classify_batch(batch):
             texts = batch.get("headline", [])
             texts = [text if text is not None and text != "NA" else "" for text in texts]
@@ -109,15 +124,6 @@ def main():
         # Run batch inference on dataset
         dataset = dataset.map(classify_batch, batched=True, batch_size=64)
 
-        # Store the model's results in dict to merge later
-        # all_model_results[model_name] = {
-        #     col: {
-        #         "label": dataset[f"{col}_label"],
-        #         "score": dataset[f"{col}_score"]
-        #     }
-        #     for col in ["headline", "subheadline", "content"]
-        # }
-
         all_model_results[model_name] = {
             "headline": {
                 "label": dataset["headline_label"],
@@ -126,12 +132,6 @@ def main():
         }
 
         del classifier
-
-    # Now, add those results into df as columns
-    # for model_name, res in all_model_results.items():
-    #     for col in ["headline", "subheadline", "content"]:
-    #         df[f"{model_name}_{col}_label"] = res[col]["label"]
-    #         df[f"{model_name}_{col}_score"] = res[col]["score"]
 
     for model_name, res in all_model_results.items():
         df[f"{model_name}_headline_label"] = res["headline"]["label"]
@@ -147,16 +147,9 @@ def main():
         results = list(tqdm(executor.map(aggregate_row, range(num_rows)), total=num_rows))
 
     aggregated_results = {i: results[i] for i in range(num_rows)}
-    
-    # for col in ["headline", "subheadline", "content"]:
-    #     df[f"agreed_{col}_label"] = [aggregated_results[i][col]["label"] for i in range(len(df))]
-    #     df[f"agreed_{col}_score"] = [aggregated_results[i][col]["score"] for i in range(len(df))]
 
     df["agreed_headline_label"] = [aggregated_results[i]["headline"]["label"] for i in range(len(df))]
     df["agreed_headline_score"] = [aggregated_results[i]["headline"]["score"] for i in range(len(df))]
-
-
-    print(f"✅ Results written to: {output_csv}")
 
     # Save results
     df.to_csv(
@@ -168,7 +161,7 @@ def main():
         encoding='utf-8'
     )
 
-    print(f"Saved sentiment results to: {output_csv}")
+    print(f"✅ Results written to: {output_csv}")
 
     return None
 

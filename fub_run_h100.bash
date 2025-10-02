@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=run_h100
+#SBATCH --job-name=sent_run_h100
 #SBATCH --output=./logs/slurm/output_fub_h100_%j.out
 
 #SBATCH --partition=scavenger
@@ -10,10 +10,10 @@
 #SBATCH --ntasks=1
 
 #SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:h100:1
-#SBATCH --mem=104G
+#SBATCH --gres=gpu:a5000:1
+#SBATCH --mem=9G
 
-#SBATCH --time=12:00:00
+#SBATCH --time=00:10:00
 
 echo "Loading modules..."
 module purge
@@ -25,17 +25,10 @@ echo "Setting folders..."
 export HF_HOME=/home/nicolasal97/.cache/huggingface
 
 echo "Activating virtual environment..."
-source ./venv/bertopic/bin/activate
+source venv/sentiment_analysis/bin/activate
 
 echo "Running python script..."
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/correo/ -n correo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/peru21/ -n peru21 -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/trome/ -n trome -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ojo/ -n ojo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/publimetro/ -n publimetro -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/gestion/ -n gestion -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ -n total -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+python3 ./src/sentiment_analysis/sentiment_analyzer.py -f ./data/csv/sentiment_analysis
 
 deactivate
 module purge
@@ -81,10 +74,12 @@ echo "Script finished successfully"
 ###################### 02: BERTopic task ###########################
 # source ./venv/bertopic/bin/activate
 
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 3 --load_model False
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/correo/ -n correo -c 3 --load_model False
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/peru21/ -n peru21 -c 3 --load_model False
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/trome/ -n trome -c 3 --load_model False
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ojo/ -n ojo -c 3 --load_model False
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/publimetro/ -n publimetro -c 3 --load_model False
-# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/gestion/ -n gestion -c 3 --load_model False
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/elcomercio/ -n elcomercio -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/correo/ -n correo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/peru21/ -n peru21 -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/trome/ -n trome -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ojo/ -n ojo -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/publimetro/ -n publimetro -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/gestion/ -n gestion -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+# python3 -u ./src/bertopic/bertopic_analyzer.py -f ./results/csv/ -n total -c 1 -mp /scratch/nicolasal97/gec_extractor/results/models
+

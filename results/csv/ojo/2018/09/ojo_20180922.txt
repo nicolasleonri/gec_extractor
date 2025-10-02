@@ -1,0 +1,47 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2018/09/ojo_22.txt ---
+
+```json
+[]
+```
+The provided OCR text does not contain any complete articles with headlines and substantial content suitable for extraction based on the given criteria. It primarily consists of classified ads, crossword clues, astrological signs, and other non-journalistic elements. Therefore, the output is an empty array indicating no eligible articles were found.
+
+--- ERROR ENTRY: data/txt/ojo/2018/09/ojo_22.txt ---
+
+```json
+[
+    {
+        "headline": "HERMANO Y SOBRINITOS DE “PLATA COMO CANCHA" VIVEN DE MILAGRO",
+        "content": "AL COLISIONAR con un Placo y TRAILER, _ ' : _? '  ._\nCHOQUE TRIPLE PUDO\nACABAR EN TRAGEDIA\n\nGrimaldo Acuay los mellizos del\nador de lamba ue, Humberto\ncua, terminaron hos' zados\n\nI.a familia de Csar Acua viajaba\na1'ru iilloparaunamisaenhonor\n‘’ Patriarca, “… Aala PRIMERA PLANA . PGS. 12 y13"
+    },
+    {
+        "headline": "UN ESTUDIANTE DE PERIODISTA INTENTA ROBARSE UN AVIÓN",
+        "content": "Parece que su ansiedad por\nconvertirse en piloto pudo\nms que su sensatez. Un\njoven estudiante de aviación\nse col en el Aeropuerto\nInternacional Orlando-Melbourne de\nFlorida [EEUU.] e intent robar un\nAirbus comercial que en esos momentos\nse encontraba en mantenimiento,\ninform un portavoz del aeropuerto.\n\nLa aeronave perteneca a la aerolínea\nAmerican Airlines. Evidentemente, el\njoven —cuya identidad no \ntrascendió— logró su cometido y fue detenido\npor las autoridades."
+    },
+    {
+        "headline": "PERRO INVADE CAMPO DE FÚTBOL Y LESIONA A UNO DE LOS JUGADORES",
+        "content": "RUMANIA. Durante un\npartido de la cuarta división\nrumana, un perro salt al\nterreno de juego. En su\ncarrera, choc contra uno de\nlos jugadores, el cual tuvo que\nser cambiado. Se especula\nque el plan del can era\nlesionar al futbolista para\ntomar su puesto en el partido."
+    },
+    {
+        "headline": "USÓ SU TELÉFONO PARA EVITAR ATAQUE",
+        "content": "Abuela evita apuñalamiento gracias a su teléfono\n\nFrente a sus alumnos de educación inicial del colegio San María Virgen, en San Juan de Miraflores, ocurrió un incidente alarmante. Roleras fueron\nlanzadas hacia el grupo mientras transitaban por la Pista Nueva, según imágenes de videovigilancia.\n\nUn ladrón, vestido con un cuchillo, ascendió de la unidad mototaxi y se aproximó a una de las profesoras con el arma blanca. \"(El ladrón) la cogió del cuello con un cuchillo de casi 30 centímetros e intentó apuñalarla en el abdomen, pero menos mal ella tenía un celular oculto en su mandil, que la protegi\", explicó un testigo de atraco.\n\nSin embargo, el ladrón no logró su objetivo, abordó el mototaxi de su cómplice y huyó."
+    },
+    {
+        "headline": "SECUESTRO Y ROBO DOMÉSTICO",
+        "content": "Un sujeto, más sorprendido aún, descubrió a tres delincuentes entrando en su casa, ubicada en San Juan de Lurigancho. Los denunció ante las autoridades. Agentes del cuadrante de Emergencia Este lograron capturar in fraganti a Miguel Jesús Huamán Bendez, Anthony Muñoz Intermillas y Luis Charly Guillén Quispe. Pretendían robarle S/13,000, dinero destinado para la operación de él y de su hijo."
+    },
+    {
+        "headline": "PISTOLEROS EXTORSIONABAN A CONDUCTORES DE COLECTIVOS",
+        "content": "Tres presuntos hampones fueron capturados por agentes de la Dirincri cuando extorsionaban a choferes en un paradero de colectivos, en la cuadra 10 de la Av. Independencia (Puente Nuevo), en El Agustino. Los detenidos son Elder José Ledezma Ampuero, Antonio Malpartida Cárdenas, Jesús Arana Villegas y Wilson Castillo Ramos. Se les incautaron dos armas de fuego."
+    },
+    {
+        "headline": "ESTAFA CON CUENTO DE LAS MONEDAS DE ORO",
+        "content": "\"Mi madre de familia\" fue víctima de una inescrupulosa mujer que la estafó con el cuento de las \"monedas de oro\", logrando sustraerle S/75,000 soles, dinero que estaba destinado para la operación de su hijo. Johana Cruz Lozano cuenta que la mañana del jueves fue abordada por una mujer de unos 25 años cuando salía del hospital de Puente Piedra. \"Ella dijo que había llegado a Lima procedente de Huánuco para visitar a un familiar enfermo y además mencionó haber encontrado un saco lleno de monedas de oro. Yo le creí y accedí a intercambiar el dinero\"."
+    },
+    {
+        "headline": "INTENTA DEGOLLAR A EX, FUGA Y LA PNP LO BUSCA",
+        "content": "Texto incompleto debido a limitaciones de entrada."
+    }
+]
+```
