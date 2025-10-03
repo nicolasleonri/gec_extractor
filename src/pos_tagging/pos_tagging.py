@@ -1,4 +1,5 @@
 from typing import Dict, List, Optional, Tuple
+from datetime import date
 from pathlib import Path
 import pandas as pd
 import argparse
@@ -12,9 +13,9 @@ import re
 
 class POSTaggerAnalyzer:
     def __init__(self):
-        spacy_udpipe.download("es")
+        # spacy_udpipe.download("es")
         self.udpipe_model = spacy_udpipe.load("es")
-        self.nlp = spacy.load("es_core_news_sm")
+        self.nlp = spacy.load("es_dep_news_trf")
         return None
 
     def preprocess_text(self, text) -> str:
@@ -138,8 +139,12 @@ class POSTaggerAnalyzer:
                                 pos_codes[new_code] = pos_structure
                                 print(f"New POS structure: {new_code} -> {pos_structure}")
                                 new_structures += 1
-                            
+                            else:
+                                existing_code = [code for code, struct in pos_codes.items() if struct == pos_structure][0]
+                                print(f"Found POS structure: {existing_code} -> {pos_structure}")
+
                             code = next(k for k, v in pos_codes.items() if v == pos_structure)
+                            
                             row_codes.append(code)
                 
                 # store all codes for the row (or None if empty)
@@ -200,7 +205,10 @@ class POSTaggerAnalyzer:
                 df, pos_codes = self.process_csv_file(csv_file, lexems, pos_codes)
                 
                 if not df.empty:
-                    output_path = csv_file.replace('.csv', '_pos.csv')
+                    # output_path = csv_file.replace('.csv', '_pos.csv')
+                    csv_path = Path(csv_file)
+                    output_path = Path(str(csv_path).replace('data/csv/', 'results/csv/')).parent / f"{csv_path.stem}_pos_{date.today()}{csv_path.suffix}"
+                    output_path.parent.mkdir(parents=True, exist_ok=True)
                     try:
                         df.to_csv(output_path, index=False)
                         print(f"Saved annotated data to {output_path}")

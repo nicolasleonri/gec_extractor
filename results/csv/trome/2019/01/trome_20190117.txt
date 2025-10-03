@@ -1,0 +1,39 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/01/trome_17.txt ---
+
+```json
+[]
+```
+The provided OCR text does not contain any substantial journalistic content such as news articles, opinion columns, interviews, or feature stories. It primarily consists of advertisements, product listings, promotional offers, and contact information, which fall under the exclusion criteria specified for extraction. Therefore, there are no articles to include in the JSON output.
+
+--- ERROR ENTRY: data/txt/trome/2019/01/trome_17.txt ---
+
+```json
+[
+    {
+        "headline": "SE CONFIRMO que sí se restarán puntos a los clubes que no cumplan con los reglamentos",
+        "content": "EL TORNEO INTERMEDIO 'Bicentenario'\ncon equipos de Primera y Segunda\nSe jugará Repechaje\nParticiparán 32 clubes divididos en 8 grupos de\n4 equipos. El sorteo será en los próximos días.\nSabían que si no \nllegaban a un acuerdo, el hijo\ndel ‘Toro’ podría ir a un \neequipode el sur, donde el ‘bravo’\nes íntimo de ‘Camilo \nSesto’, que fue quien le lavó la\ncabeza al chibolo y a su \nviejo. Noooo...\nEL QUERIDO\n‘MAGA’, que fue \ntricampeón con Cristal y también\nla rompi en la ’U’, está \nsaltando en un pie. Su reto\nMartín, que el año \npasado estuvo en el Grau de\nPiura, jugar en el \nGandzasar Kapan de la Primera de\nArmenia. El chico promete y\naunque no tiene la picardía\nde su viejo, la conoce como\n."
+    },
+    {
+        "headline": "v *SUB-20 DE PERÚ ENTRENÓ EN CHILE",
+        "content": "|OS TRAVIESOS\nDE DANIEL\nCuric.- Empieza el sueño rumbo al Mundial\nSub-20 de Polonia. La selección, que dirige\nDaniel Ahmed, entrenó por primera vez en \ntierra chilena y qued listo el equipo que debutará _ XLOS\nla mañana ante Uruguay, por el Grupo B, en Talca. Por qué\nnunca los dos. Que siga creciendo y se aleje de todo lo\nmalo que perjudica al \nfutbolista. Vale... Me voy, soy\nfuga.\nEl Grupo A romperá fuegos hoy con los dueños:\nColombia vs. Venezuela [3:10 p.m.) y Chile vs. Bolivia (5:30 p.m).\nDescansará Brasil. y sería reservado para el duelo ante Paraguay."
+    },
+    {
+        "headline": "TANQUE PLÁNICO...",
+        "content": "% DELANTERO DE 35 AÑOS Y 1,79 DE ESTATURA LLEGARÁ A ALIANZA LIMA\nA PEDIDO DEL TÉCNICO MIGUEL ÁNGEL RUSSO, SEGÚN PRENSA ARGENTINA\nEl peruano [Legia de Varsovia, 1860 Munich AEK \nAtenas) lo hacen un jugador interesante.\nSu versatilidad 2019 será argentina. El nombre de\n— UN PASITO AT!\nno aportar”, señaló el directivo con lo que zanjó la\npolémica con el chileno."
+    },
+    {
+        "headline": "EL ÚLTIMO POETÍTICO",
+        "content": "Jos del Solar ya tiene listo su plan\ntel para reaparecer en Primera, pero\nsolo le falta una pieza al engranaje y ese\nserá el volante argentino Cristian Ortiz,\nexSan Martín y Cristal. El Poeta pertenece a\nIndependiente de Avellaneda, pero su \npréstamo no sería un problema si se ofrece una\nimportante cantidad de dinero. Los \n'poetas' disputarán un cuadrangular amistoso en\nEcuador del 21 al 23 de enero junto a \nPearol, Nacional y Barcelona de Guayaquil. — G"
+    },
+    {
+        "headline": "XEWILLY RIVAS fue anunciado\ncomo refuerzo en Real Garcilaso.\nXDUILIO CISNEROS es nuevo\n técnico de Cienciano,"
+        "content": ""
+    },
+    {
+        "headline": "¿SERÁ TITULAR ANTES QUE CARVAJO?",
+        "content": "Universitario jugó su primer \namistoso del año y el técnico Nicolás Córdova\ncomenzó a delinear lo que será su oncena\nprincipal en el Apertura. El DT chileno volvi\na apostar por Patrick Zubczuk en el arco en\nlugar del flamante refuerzo José Carvallo y\nformó con Aldo Corzo, Guillermo Rodríguez,\nNelinho Quina, Jerson Vásquez; Armando\nAlfageme, Emmanuel Pucar, Pablo \nLavandeira, Alejandro Hohberg, Anthony Osorio y\nGermán Denis. Con este equipo la 'U' goleó\n5—0 a la reserva, con dobles de Denis y\nHohberg, y se presentará en los amistosos\nante la U. de Chile y la U. de Concepción. G"
+    }
+]
+```

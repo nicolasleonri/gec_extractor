@@ -1,0 +1,37 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_11.txt ---
+
+```json
+[]
+```
+
+The provided input does not contain any recognizable headlines or substantial journalistic content based on the defined criteria for extraction. It primarily consists of product listings, prices, and promotional information, which fall under excluded categories such as advertisements and classifieds. Therefore, there are no articles to extract, resulting in an empty JSON array.
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_11.txt ---
+
+```json
+[
+    {
+        "headline": "HOHBERG EN EL PERÚ",
+        "content": "Equipo año — goles\n\nMelgar 2014 3\nSan Martín 2015 9\nVallejo 2016 11\nAlianza Lima 2017 5\nAlianza Lima 2018 1\n\nEl a mayor cantidad de asistencias (10) las dio en Alianza, en el 2018.\n\nZ0S\n\nXOHHBERG se encar al final del partido con Edgar Villamarín, quien lo ‘rasc’ en varias oportunidades.\n\nEL LATERAL Jersson Vásquez ofreció disculpas a sus compañeros por la expulsión y bronca al final con Carlos Orejuela.\n\nMarcar es importante, pero aquí\n\nsomos un grupo y todos defendemos a muerte la camiseta.”\n\nALEJANDRO HOHBERG\n\nNos hemos preparado de la mejor manera para lo que viene, los puntos en serio.” \n\nNICOLÁS CRÓDORA\n\n18 (DEPORTES)\n\nDEL SAQUE somos carne picada... ESTE UNIVERSITARIO no deslumbra, pero creo que peleará arriba. A diferencia del año pasado, tiene mejores variantes en su volante, donde el enano Hohberg ha empezado a demostrar que puede ser el hombre que desequee con gambeta y velocidad. Después de ver los partidos ante Concepción y Vallejo, resalto a Alfageme, quien está haciendo el trabajo sucio”, quitando pelotas y limpiando la cancha para sus compañeros. En la zaga, hay tremendo cambio con Quina y el ‘charra’ Rodríguez, ambos no son Sergio Ramos ni Piqué, pero comparados a ‘Ua de gato’ y Ven a mi casa, fijo que habrá menos bloppers. Lo que sí está al debe es el ataque. ‘Chiquitin’ es el más movedizo, porque el Tanque’, con 37 años, se mueve menos que ‘Melcochita’ en las cuatro perillas. Y no va cher... A PRO hay un video que está circulando por ‘wasap’ donde se ve a algunos jugadores haciéndola linda en un tono. Espero que sea pasado. La pretemporada fue exigente y no pueden echar todo el trabajo al tacho. As es... EN EL REAL, trabajan contra el tiempo después de la patinada del ‘men’ que dirige el club. O sea, contrataron a ‘Obama’ sin saber cómo entrenaba, esperaron que llegara para darse cuenta de que no estaba a la altura. Vivas tiene un estilo bielsista, lo malo es que ya tiene un plantel con jugadores que él no pidi y tendrá que acoplarse a lo que hay. Si el argentino apuesta por algunos ‘experimentados’, le puede ir mal. Velocidad y alta presión son requisitos básicos en su forma de juego. El debut en el campeonato local es en unos días, y en menos de un mes lo harán en la Copa, donde sus rivales se reforzaron bien y trabajando con tiempo y planificación, Guarda con los papelones... Me voy, soy fugaz."
+    },
+    {
+        "headline": "BRERO DEL 2019",
+        "*TECNICO DEL INTER SE RINDE ANTE PAOLO\nUN GUERRERO EXCEPCIONAL\nG? Porto Alegre.— Se gan a todos. Paolo Guerrero todavía no debut en el Internacional de Porto Alegre, pero ya tiene a los hinchas entusiasmados, al igual que a sus compañeros y también al técnico, Odair Hellmann, quien lo llenó de elogios.\n\n\"Guerrero es un jugador excepcional. Él quiere trabajar y está muy contento de estar aquí. Cada día él quiere más trabajo\", señaló el DT ‘colorado:\n\n\"Paolo está haciendo una reestructuración muscular y ya estamos insertándolo en el contexto técnico también. Hemos realizado una muy buena planificación para que pueda estar disponible el día en que se libera de su suspensión\", añadió. El ‘Depredador’ ya entrena con normalidad, podría volver a jugar a partir del 5 de abril."
+    },
+    {
+        "headline": "FERNANDO GARECA cumplió ayer 61 años y recibió múltiples saludos de afecto desde Argentina. Legiones de Vélez Sarsfield y Talleres Las tribunas de su ciudad natal, Junín, lo ovacionaron ayer por su paso por el fútbol argentino. Ayer por la tarde, el seleccionador nacional celebró su cumpleaños junto a su familia en Buenos Aires. Fernando Gareca, quien lleva casi tres décadas alejado de su tierra, regresa este jueves a Perú para continuar con la preparación de la selección peruana rumbo a Rusia 2018. Su última vez en nuestro país había sido en noviembre del 2017, cuando visitó Lima para dirigir un amistoso frente a Venezuela. El estratega argentino, quien se encuentra en pleno proceso de adaptación a nuestra cultura, aseguró que espera poder disfrutar de su estadía en el Perú. \"Me gustaría conocer más sobre la gastronomía peruana y pasar tiempo con mis amigos y familiares\", comentó Gareca durante una entrevista exclusiva con un medio local."
+    },
+    {
+        "headline": "JEFFERSON FARFÁN ganó en Marbella, España.— Bien concentrado. A pesar de la visita de su nueva pareja, Ivana Yturbe, en las bellas costas de Marbella, Jefferson Farfán no pierde de vista su objetivo y ayer lució bien en el amistoso del Lokomotiv Mosc, que se impuso por 3—1 al FK Haugesund, en un duelo de pretemporada. La ‘Foca’ jug los primeros 45 minutos, se mostró en forma e incluso generó el primer tanto de su equipo a base de potencia y velocidad, apenas al primer minuto. Que siga así."
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_11.txt ---
+
+```json
+[]
+```
+The provided input does not contain any recognizable journalistic content such as headlines or article bodies based on the defined criteria for extraction. Therefore, the output is an empty array indicating no eligible articles were found.

@@ -1,0 +1,43 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2014/03/trome_08.txt ---
+
+```json
+[]
+```
+The provided OCR text does not contain any recognizable news articles, opinion pieces, interviews, or feature stories with substantial journalistic content based on the defined criteria. It primarily consists of product listings, promotional information, and unrelated snippets which should be excluded according to the guidelines. Therefore, the output is an empty array indicating no eligible articles were found.
+
+--- ERROR ENTRY: data/txt/trome/2014/03/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Chiquito' volverá a subir al ring.",
+        "content": "El boxeador peruano Alberto Rossel defenderá esta noche, por cuarta vez consecutiva, su cinturón mundial Minimosca AMB. Esta vez se medirá al colombiano Gabriel ‘El Cata’ Mendoza, a quien enfrentará en el coliseo Eduardo Dibós (11:30 p.m./Frecuencia Latina).\n\nEl pugilista, de 36 años, descartó que ésta sea quizás la última pelea profesional. \"He escuchado que mi opo\-nente dijo que no me dejaría retirarme como campeón. Que tengo libres, en los guardia\-nos con lo que él dice, porque quizás yo lo retire al. Y si quiere un cinto, mejor que vaya a buscarlo\".\n\n\"Yo jamás he dicho que me voy a retirar. Me quedan más peleas por disputar. Para ello seguiré trabajando. Hay Chiquito para rato\", añadió.\n\nRossel ya realizó tres defensas de título desde que se lo arrebató al mexicano José Rodríguez hace dos años, pero el cafetero no será presa fácil, pues viene de dos victorias consecutivas y tiene una foja de 19 ganadas (16 por KO), 2 derrotas y 2 empates."
+    },
+    {
+        "headline": "Los jugadores del Real Madrid se hacen guapos con las declaraciones de Mourinho.",
+        "content": "\"Y ahora nos pondremos bien guapos si jugamos contra ellos\", habrá dicho uno de los referentes del plantel en el vestuario, según el diario 'Mundo Deportivo' de España.\n\nMadrid.— Los jugadores del Real Madrid se hacen guapos con las declaraciones de José Mourinho, quien aseguró que hacían cola en el espejo antes de salir a jugar. Ahora se mueren de ganas de enfrentar al Chelsea en la Champions League."
+    },
+    {
+        "headline": "Barcelona visita a Valladolid con la Liga española reñida que nunca.",
+        "content": "Valladolid.— Con la Liga de España reñida que nunca, Barcelona (2° con 63 puntos) visita hoy (10 a.m.) a Valladolid (18° con 23 puntos) con la necesidad de ganar para no desprenderse de la lucha por el título, aunque tendrá un rival urgido por salir de la zona del descenso. Atlético Madrid (3° con 61 puntos) juega en casa del Celta de Vigo a las 2 p.m. mientras que Real Madrid (1° con 64 puntos) estará atento, pues recibirá mañana al Levante."
+    },
+    {
+        "headline": "Dr. Carlos Zavala Coca ofrece charla gratuita sobre nutrición.",
+        "content": "JR. CAMAN 780 Of. 101 Lima\nTELEF. 426 2638 /990031841\nCHARLA GRATUITA\nSABADO 22 DE MARZO\n\nAlameda Central\nLUGARES DE DEPOSITO TROME\nHoy depositas tus cupones, Mañana\ntúnicas Cuamaná\npt\nFANNY\ny nueve\nPróximamente:\nAv. Abancay 270 of. 110 Galera Bolívar\n\nOPERARIOS DE LIMPIEZA\nRequisitos:\n— Ambos sexos, mayores de 18.\n— Con o sin experiencia.\n— DNI (original y copia)\n\nAv. Arenales No 1302\nOf. 142 — Jesús María\nde lunes a viernes\na horas 8:30 am.\n\nBeneficios:\n— Pagos Funtuales. Ingreso a planilla.\n— Capacitación constante.\n— Seguro de salud y atención médica.\n— Oportunidad de desarrollo.\n— Buen clima laboral."
+    },
+    {
+        "headline": "Angela Leyva muestra su belleza en sesión fotográfica.",
+        "content": "A pocas semanas de haber sido coronada como la voliblistas más popular del planeta, Angela Leyva hizo gala de toda su belleza en una sesión fotográfica para la revista Cosas'. Angelita demostró que también puede dedicarse al modelaje.\n\n\"En la cancha me transformo. Soy de mandar. Solo tenemos que hacer, sí controlar al equipo. Y de eso trata, ser una líder en el grupo. Pero fuera del voley, soy más pasiva, no me gusta hablar mucho\", señaló la capitana de las Matadorcitas.\n\nLa atacante y es una verdadera estrella y por eso, inclusive, recibió una invitación para participar en 'El valor de la verdad', que conduce Beto Ortiz, aunque la rechazó."
+    },
+    {
+        "headline": "Recetas saludables para niños y adultos.",
+        "content": "**Para que una lonchera sea saludable, debe contener siempre una fruta (aporta vitaminas y minerales que elevan las defensas), una fuente de proteínas como leche, queso, yogurt y huevo (favorece el crecimiento), agua o jugo natural de frutas y una grasa como maíz, trigo, quinoa o kiwicha.**\n\n**Preescolar:**\n- Lunes: Fruta + 1 vaso de yogurt + refresco natural.\n- Martes: 1 huevo cocido + 1 fruta + agua.\n- Miércoles: 1 barrita de granola + 1 puñado de maní + 1 fruta + refresco.\n- Jueves: 1 pan con pollo deshilachado + 1 fruta + refresco de quinua.\n- Viernes: 1 paquete de galletas integrales + yogurt + 1 fruta + agua.\n\n**Primaria:**\n- Lunes: 1 sandwich mixto con jamón y queso Edam + agua.\n- Martes: 1 sandwich de palta + 1 pera + yogurt + agua.\n- Miércoles: 1 paquete de galletas de avena + 1 huevo cocido + agua o jugo.\n- Jueves: Lechoclo cocido desgranado con queso fresco + 1 manzana + agua.\n- Viernes: 50 gr de queso Edamer cubitos + 25 gr de mango pecanas + 1 durazno + agua."
+    },
+    {
+        "headline": "Desayuno poderoso para comenzar el día con energía.",
+        "content": "Sin lugar a dudas, el desayuno es la comida más importante del día. Después de ayunar todo un día, nuestro organismo necesita sustituir energías para reiniciar la jornada. Omitirlo podría ser la razón de que sientas que el almuerzo te hace temblar, que estás de mal humor, no puedes concentrarte en tus tareas.\n\nEs importante saber que las personas que desayunan tienden a manejar mejor su consumo de alimentos durante todo el día (tienen menos probabilidades de consumir refrigerios más calóricos entre comidas).\n\n¿Cómo debe ser un desayuno balanceado? La fórmula del desayuno ideal: cereales integrales + leches descremadas + fruta. Las frutas aportan energía de fácil asimilación, vitaminas y fibra. Son fáciles de preparar en diversas formas muy divertidas y pueden disfrutarse tanto en ensaladas como en jugos. Los lácteos son una fuente importante de proteínas de alta calidad, calcio y vitaminas básicas para el desarrollo en niños y adultos. Los cereales aportan energía, vitaminas, minerales y fibras. Te sugiero que prefieras cada día: pan integral, tostadas integrales, cereales de desayuno con leche, etc. Empieza tu mañana con energía."
+    }
+]
+```
