@@ -1,0 +1,52 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2018/07/peru21_30.txt ---
+
+```json
+[]
+```
+
+The provided input does not contain any recognizable headlines or substantial journalistic content based on the defined criteria for extraction. It primarily consists of product listings, specifications, and prices related to industrial equipment, which fall outside the scope of inclusion for news articles, opinion pieces, or similar journalistic content. Therefore, the output is an empty array indicating no eligible articles were found.
+
+--- ERROR ENTRY: data/txt/peru21/2018/07/peru21_30.txt ---
+
+```json
+[
+    {
+        "headline": "Sentencia en Elartsta del año",
+        "content": "Es una batalla que no he perdido y la voy a vencer. Lo que me llama la atención es que me atacan en redes sociales diciéndome que yo no toco y qué hago aquí, No me pueden comparar con cantantes profesionales y es como si yo les dijera a ellos que hagan una doble pirueta como bailarines, Estoy aprendiendo y mira tú, es cantar mejor.", "seal."
+    },
+    {
+        "headline": "Padre critica a Meghan",
+        "content": "\"Yo la hice la duquesa que es hoy\" Thomas Markle arremetió contra su hija, Meghan Markle, luego de que ella se alejara de él por haber vendido unas fotos a un paparazzi antes de contraer matrimonio con el príncipe Harry. \"Estoy muy dolido por que me haya sacado de su vida... Lo triste es que en algún momento Meghan y Harry tendrán un bebé y yo seré abuelo, y si no nos hablamos, yo no podré ver a mi nieto... Lo que me saca de quicio es su complejo de superioridad. Ella no será nada sin mí. Yo la hice la duquesa que es hoy. Todo lo que es, fue gracias a mí\", declaró a Daily Mail."
+    },
+    {
+        "headline": "Michelle Williams revela que se casó con cantante",
+        "content": "Después de diez años de la muerte de su ex pareja, el actor Heath Ledger, la actriz Michelle Williams reveló que se casó con el músico Phil Elverum, \"Nunca cerré las puertas al amor... Merece la pena celebrar que tengo a Phil en mi vida\", declaró a Vanity Fair."
+    },
+    {
+        "headline": "Wilmer Valderrama visita a diario a la cantante",
+        "content": "Demi Lovato recibe un fuerte apoyo de su familia y de su ex pareja, Wilmer Valderrama, mientras se recupera de una sobredosis en un hospital de Los Ángeles. El actor estadounidense, quién salió con la artista durante seis años, visitó Cedars Sinai en varias ocasiones desde el martes por la mañana, cuando Lovato fue trasladada de emergencia al centro médico. \"Wilmer ha pasado horas en el hospital todos los días. Parece muy preocupado por ella\", dijo un allegado de la cantante a la revista People."
+    },
+    {
+        "headline": "Demoler, de Carlos Torres",
+        "content": "La primera radiación del rock en el Perú logró un nivel inusual. En los últimos 10 años el rock y sus episodios únicos y transgeneracionales tuvieron su capítulo único y trasgresor: Demoler. El rock en Perú 1965—1975, de Carlos Torres, es una obra regida y aumentada. Una historia del rock hecho en el Perú. ¿Dónde está la riqueza de esta primera generación? Su técnica y sensibilidad fueron inusuales: mucho más jóvenes que, por ejemplo, quienes comenzaran a tocar glam. Cul fue la influencia de esta primera generación? Muy indirecta. Los de Frágil iban, por ejemplo, a los ensayos del grupo de mi papá, Together, que, dicho sea de paso, era más cercano a un power pop en el año 72 y, posteriormente, hizo Rock del Sur. Gran parte de la gente que se formó en Rock del Sur luego fue crítica en Perú. Sigo siendo de la generación de la ‘jato hardcore’. Cómo conectas con la primera época del rock nacional? Ya en los noventa. Este libro es un homenaje personal: los sesenta, setenta son una de mis décadas favoritas. Fue una época muy gris. Demoler es una suerte de mansión que había que empezarla a demoler y perderme en ese mundo. Mis padres fueron mis guías. Los seguidores. Ellos me dieron los ladrillos, yo puse el cemento."
+    },
+    {
+        "headline": "Miembros del Directorio de la FPF piden reunirse de urgencia con Oviedo",
+        "content": "No es suficiente. El Presidente de la FPF no dio la cara, pero emiti un comunicado en el que niega haber cometido delitos. No cambia nada. El presidente de la FPF, Edwin Oviedo, por estos días uno de los personajes más cuestionados del país, no dio la cara de manera pública y se escondió detrás de un comunicado emitido por la misma Federación, en el que niega haber cometido ningún delito, o haber favorecido a personajes políticos con beneficios durante el Mundial. Finalmente, se comprometió a renunciar a la FPF si es que es declarado culpable de delitos graves por el Poder Judicial, o si la auditoría que citó para revisar toda la información relacionada a nuestra participación en el Mundial comprueba que actuó en perjuicio de la FPF. Poco de esto importa en el directorio de la FPF, pues han enviado una carta notarial al cuestionado dirigente solicitando una reunión. Según Chuquizuta, el comunicado de Oviedo no satisface al directorio; \"el directorio es el que tiene que expresarse y no solo una persona, somos nueve integrantes.\""
+    },
+    {
+        "headline": "Futuro de Paolo es incierto",
+        "content": "En doce días vence el contrato de Paolo Guerrero con Flamengo y los indicios de una posible renovación no son ros. Por ejemplo, el 'Depredador' inici desde el banco de suplentes el encuentro donde el 'Mengao' venció por 4—1 a Sport Recife, situación que podría interpretarse como una postura del equipo carioca. Se sabe que el capitán de la selección peruana, que ingres a los 74’, es uno de los mejores pagados del club y busca seguir en la escala salarial más alta, mientras que en Flamengo esperan que rebaje sus pretensiones por su edad (34 años) y lo incierto de su futuro por el tema de su sanción."
+    },
+    {
+        "headline": "Semana decisiva",
+        "content": "En los últimos días hubo dos reuniones que marcaron la agenda de lo que se vendrá para la selección como para los proyectos de la FPF que son fundamentales para que la clasificación a Rusia no sea una anécdota aislada. La primera fue entre el comité consultivo, el director de selecciones y la presidencia de la FPF. La segunda, entre el director de selección y un miembro del comando técnico de la selección. En el primer encuentro se confirmaron los cuatro puntos que son prioritarios en la agenda de la FPF: renovación de Gareca, la organización del Mundial Sub 17, la liga profesional 2019 y el sistema de licencias. Además, se ratificó la importancia de estos proyectos en la gestión actual. Adicionalmente, se le pidió al presidente que aclare sus temas personales, ya que la credibilidad de estos propósitos eran puestos en duda. Felizmente, lo hizo ayer en un comunicado que esperemos, ayude a restablecer la estabilidad en la FPF."
+    },
+    {
+        "headline": "Apertura. Municipal goleo de local 4—0 a Melgar",
+        "content": "Ediles hicieron la fiesta en su aniversario. Cerraron la fiesta con el mejor regalo posible. El viernes, Municipal celebró 83 años de vida institucional y ayer le puso la cereza al pastel con una goleada 4—0 a Melgar (5° con 14), por la fecha 9 del Apertura, donde se colocaron en el segundo lugar con 15 unidades, igualando a Cristal y Alianza, que deben un partido. Los goles de los ediles fueron marcados por José Carlos Fernández (1’ y 38’) y Rodrigo Cuba (7’ y 32’)."
+    }
+]
+```
