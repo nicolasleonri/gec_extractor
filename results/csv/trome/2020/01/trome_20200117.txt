@@ -1,0 +1,40 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2020/01/trome_17.txt ---
+
+```json
+[]
+```
+
+The provided input does not contain any recognizable headlines or substantial journalistic content based on the defined criteria for extraction. It primarily consists of fragmented text, numbers, and advertisement-related information, which should be excluded according to the guidelines. Therefore, the output is an empty array indicating no eligible articles were found.
+
+--- ERROR ENTRY: data/txt/trome/2020/01/trome_17.txt ---
+
+```json
+[
+    {
+        "headline": "Se confirma que 'Pinky' disparó",
+        "content": "Luis Jos Rodríguez Rodríguez, 'Pinky'; aumentan, pues el resultado del análisis toxicológico comprobó que había roscón armado fuego días después de su detención. Por otro lado, los agentes obtuvieron videos de las redes sociales, donde se aprecia la vida de lujo y derroche de los venezolanos en Nicaragua, con participación de un fiscal de Lima, quienes permanecieron en el lugar más de cuatro horas. Se supo que revisaron minuciosamente los vehículos que estaban en la cochera para determinar si eran robados."
+    },
+    {
+        "headline": "Pidieron emergencia en la frontera",
+        "content": "Mafias de ‘coyotes’ hacen ingresar ilegalmente a migrantes venezolanos, entre los que se encuentran prontuariados delincuentes, el parlamentario andino Mario Ziga pidió al Gobierno declarar en emergencia la frontera norte. Precisó que con esta declaratoria nuestras fuerzas del orden deberían ser desplegadas en los pasos de filtración en Tumbes y Piura para impedir que ingresen delincuentes que luego nos tienen en zozobra.”
+    },
+    {
+        "headline": "Un desgraciado momento",
+        "content": "Antes de la dimisión de Mora, su esposa publicó un mensaje en Twitter: ‘Ante la difusión de una denuncia que involucra a mi persona, expreso que se está utilizando y exagerando un desgraciado momento en la vida de un matrimonio de 50 años para hacer daño... Pido que no se encaminen con mi esposo. No destruyan, gratuitamente, a un buen peruano.’"
+    },
+    {
+        "headline": "Ya comenzó liquidación",
+        "content": "Disfruta las ofertas que tenemos para ti en miles de productos de temporada (hombre, mujer e infantil)."
+    },
+    {
+        "headline": "Operación alcantarillado",
+        "content": "De 6 a 8 años de cárcel podría recibir la odontóloga Dennise Nieto Lajo (36) por el delito de violencia a la autoridad, tras morder a un policía el martes último. As lo afirmó el abogado penalista Roberto Miranda, quien señaló que los últimos años varios ciudadanos fueron enviados a prisión por desobedecer las disposiciones de los efectivos o agredirlos en plena intervención. La mujer sigue detenida."
+    },
+    {
+        "headline": "Quebrada de San Antonio",
+        "content": "Chosica se prepara contra huaicos. En la quebrada de San Antonio, uno de los puntos más vulnerables de Chosica, alrededor de 2 mil trabajadores municipales, serenos y vecinos plantaron cerca de 7 mil árboles donados por el Servicio de Parques (Serpar Lima). Acompañado de regidores, el alcalde Víctor Castillo encabezó esta jornada de prevención. También se colocaron sacos de arena contra huaicos."
+    }
+]
+```

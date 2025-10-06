@@ -1,0 +1,47 @@
+
+
+--- ERROR ENTRY: data/txt/peru21/2017/11/peru21_10.txt ---
+
+```json
+[]
+```
+The provided input does not contain any recognizable journalistic content such as news articles, opinion columns, interviews, or feature stories. It primarily consists of product listings, promotional material, event announcements, and other non-journalistic content. Therefore, there are no articles to extract according to the given criteria.
+
+--- ERROR ENTRY: data/txt/peru21/2017/11/peru21_10.txt ---
+
+```json
+[
+    {
+        "headline": "CICLO DE VIDEOARTE EXPERIMENTAL",
+        "content": "El ciclo de videoarte experimental peruano ser exhibido, este 14 y 15, en el C.C. del Ministerio de Cultura (Av. Javier Prado Este 2465, San Borja). A las 7 p.m. El ingreso es libre."
+    },
+    {
+        "headline": "LIMA PERA FEST AL TEATRO MUNICIPAL",
+        "content": "Recuerde que este 16 y 18 de noviembre, en el Teatro Municipal, será el Lima pera Fest. El colectivo internacional está encabezado por la soprano italiana Anastasia Bartoli. Teleticket."
+    },
+    {
+        "headline": "COLOQUIO SOBRE CIRO ALEGRA",
+        "content": "Este lunes, la Universidad de Lima presenta un coloqui o sobre el escritor indigenista Ciro Alegra, a 50 años de su fallecimiento. A las 6 p.m., en el Aula Magna A. El ingreso es libre."
+    },
+    {
+        "headline": "REPECHAJE. PER SE MIDE CON NUEVA ZELANDA EN EL DUELO DE IDA DE LO REMFSCA",
+        "content": "En Wellington, el ‘Tigre’ Gareca apostará por Farfán como ’9’. Advíncula entrará por Corzo.\n\nWELLINGTON.— El corazón de 32 millones de peruanos late con más fuerza. Y es que llegó el día más esperado, el día que puede marcar el anhelado camino de regreso a un Mundial tras 35 años. Atrás quedaron las palabras y todo lo demás. Hoy, la ‘Blanquirroja’, sin la presencia de su capitán y líder Paolo Guerrero, disputará la ida del repechaje intercontinental ante Nueva Zelanda, al que enfrentará desde las 10:15 p.m. (hora peruana) en el Westpac Stadium de Wellington. Llegar a esta instancia no ha sido nada fácil. Perú obtuvo este derecho tras finalizar quinto en las Eliminatorias sudamericanas, consideradas las más difíciles del mundo.\n\nEl equipo que entrena Ricardo Gareca llega a este encuentro con la moral al tope más allá de la ausencia de Guerrero, quien fue suspendido provisionalmente por 30 días por la FIFA tras el dopaje analítico adverso que obtuvo en el control antidoping que se le realizó el pasado 5 de octubre, tras el duelo con la selección de Argentina en la penúltima jornada de las Eliminatorias a Rusia 2018.\n\nPara dar el primer paso para clasificar al Mundial Rusia 2018, el equipo está super motivado. Renato Tapia de la Blanquirroja: ‘Todos estamos con Guerrero en este momento duro. Por él vamos a buscar el objetivo de clasificar al Mundial.’\n\nOJO A LAS VARIANTES\n\nEl ‘Tigre’ mantendrá el mismo once inicial y todo apunta a que Jefferson Farfán será el punta en reemplazo del ‘Depredador’. Y es que con la ‘Foquita’, la bicolor suma experiencia, velocidad, explosión, elementos muy necesarios para superar a la dura defensa ‘kiwi’. Aunque en el papel Perú sea el favorito en este duelo, el delantero del Lokomotiv Moscú pide mesura. ‘No somos favoritos. Nosotros solo esperamos dar lo mejor y sacar un resultado positivo’, señaló Farfán.\n\nOtra variante que podría hacer Gareca es en la banda derecha, Luis Advíncula parte como favorito en lugar de Aldo Corzo. Con ‘Bolt’, la selección gana velocidad y potencia. En el resto del equipo no habría novedades.\n\nDe otro lado, Nueva Zelanda, que llegó a este momento tras ganar la clasificatoria en Oceanía, tiene jugadores a tener en cuenta, como su estrella Chris Wood, autor de 24 goles en 54 duelos con su selección. En defensa cuenta con hombres experimentados como Winston Reid y Andrew Durante.\n\nLos ‘kiwis’ no serán una víctima en dulce, pero sí nuestros están aplicados, podemos sacar un buen resultado que generará tranquilidad para la vuelta en el Nacional, el próximo miércoles."
+    },
+    {
+        "headline": "SELECCIÓN. CARRILLO",
+        "content": "‘Estamos marcando la diferencia’\nPAMIÑ ARUY\nWELLINGTON.— Andr Carrillo, volante de la selección peruana, remarcó que la presente generación de la ‘Blanquirroja’ es distinta a las demás y que va a dejar una huella para más adelante,\n\n‘Es un equipo joven. Creemos el uno en el otro, es una generación que está marcando la diferencia. Estamos muy emocionados’, manifest la ‘Culebra’ para la web del Watford, su equipo en Inglaterra.\n\nDe otro lado, Luis Advíncula, posible titular hoy en el lateral derecho, indicó que está en un buen momento en su carrera, ‘Me siento muy bien en todos los aspectos, más maduro en mi carrera’, dijo."
+    },
+    {
+        "headline": "FTBOL. ESTA NOCHE",
+        "content": "HUDSON DESEA UN ESTADIO LLENO\nWELLINGTON.— La emoción de disputar la ida del repechaje en casa y con un estadio lleno es una idea que emociona al técnico de la selección de Nueva Zelanda, Anthony Hudson, tal y como lo expresó en la previa del encuentro de esta noche ante Perú.\n\n‘Ser increíble jugar en un estadio lleno hasta la bandera por primera vez en tres años’, sostuvo el DT ‘Kiwi’, quien agregó que ante Perú ‘debemos mantener el nivel’."
+    },
+    {
+        "headline": "FTBOL. LA SELECCIÓN DE ITALIA VISITA A SUECIA EN LA IDA DEL REPECHAJE",
+        "content": "Van por el primer paso\nmLa ‘Azzurra’ deberá apelar a su recorrido internacional para pelear por un cupo al Mundial.\n\nESTOCOLMO.— La selección italiana visitará esta tarde a su similar de Suecia con la misión de dar el primer paso de cara a la clasificación mundialista en la ida del repechaje de la zona europea.\n\nLa tetracampeona del mundo, que quedó en el segundo lugar en el grupo G por detrás de España en las Eliminatorias, llegará con figuras como el portero Gianluigi Buffon y los defensas Leonardo Bonucci, Andrea Barzagli y Giorgio Chiellini como base sólida. En tanto, Suiza venció 1—0 a Irlanda del Norte.\n\n‘Ni siquiera tomamos en consideración la idea de no ir al Mundial’, declar Daniele De Rossi, volante de la ‘Azzurra’, a la selección holandesa tras la renuncia de Dick Advocaat luego de afuera del Mundial Rusia 2018. En tanto, la selección española, con Isco, reconoció ayer que el inicio de temporada del equipo blanco no ha sido el esperado, ya que tras ganar las Supercopas hemos dado un pequeño bajón. Estamos a ocho puntos, que es una distancia complicada, del líder, pero el Real ha conseguido anotarse mucho más difícil.”
+    },
+    {
+        "headline": "ISCO RECONOCE MAL INICIO DE TEMPORADA DEL REAL MADRID",
+        "content": "El volante del Real Madrid reconoce que el inicio de temporada del equipo blanco no ha sido el ideal, pero que confía en revertir la situación actual del cuadro merengue, ‘El inicio de la temporada para el Madrid no ha sido el esperado, ya que tras ganar las Supercopas hemos dado un pequeño bajón. Estamos a ocho puntos, que es una distancia complicada, del líder, pero el Real ha conseguido anotarse mucho más difícil’, sostuvo."
+    }
+]
+```

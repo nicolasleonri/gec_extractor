@@ -416,7 +416,7 @@ def extract_data_and_generate_output_file(file_path):
         day = match.group(1)
     except Exception as e:
         print(f"Error {e} in {day} found in {file_path}")
-        day = int(15)
+        day = "15"
 
     date_string = f"{day.zfill(2)}/{month.zfill(2)}/{year}"
     date_string_suffix = f"{year}{month.zfill(2)}{day.zfill(2)}"

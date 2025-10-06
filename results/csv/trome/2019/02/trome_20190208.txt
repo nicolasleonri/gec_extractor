@@ -1,0 +1,43 @@
+
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_08.txt ---
+
+```json
+[]
+```
+
+The provided input does not contain any recognizable headlines or substantial journalistic content based on the defined criteria for extraction. It primarily consists of product listings, prices, and promotional information, which should be excluded according to the guidelines. Therefore, the output is an empty array indicating no eligible articles were found.
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_08.txt ---
+
+```json
+[
+    {
+        "headline": "Detalles de la denuncia de drogación de Poly Avila",
+        "content": "aulaAvila se trasladó, acompañada de su abogado, hasta el distrito de Asia para rendir su manifestación en la comisaría de dicha comuna, luego que afirmó haber sido drogada en una reunión que compartió con chicos reality el pasado 26 de enero.\n\nAl promediar las 11:25 de la mañana de ayer, la argentina ingresa a la dependencia policial, donde permaneció hasta las 2 de la tarde, pues fue conducida en una camioneta policial hasta Mall Plaza para pasar por el médico legista.\n\nEn la denuncia policial, a la que tuvo acceso Polígrafo, Polly refiere que asistió a la reunión, que se desarrolló en el ‘Condominio Ecológico’ de Asia del Mar, propiedad de Porcela Solimany, la cual, además de contar con dos vasos de whisky, también había servido dos vasos pequeños de Jack que estuvieron servidos en una jarra, luego comió y empezó a sentirse mal, con la boca reseca al punto de desvanecerse y que otros invitados le refirieron que habían sido drogados, por lo que decidió llamar a su ex novio, Andrés Castillo, según se lee en el parte.\n\nEn otro momento, expresa que el chofer del ganado Baladán, Ricardo Ziga, más conocido como el ‘Zorro Zupe’, contó que su amigo Nicolás Porcella estaba bastante ‘afectado’ tras haber sido involucrado en la denuncia que hizo Polly Avila, quien reveló que fue drogada en una fiesta de Asia, donde también se encontraba el ‘guerrero’ quien la trasladó hasta el grifo Primax Km 975 de la Ignacio Baladán (Panamericana Sur), dónde llegó Castaeda, con quien “supo” que Polly se sentía mal y regresó a Lima hasta su departamento, en estos momentos, pero para finalizar, recalca que al mantenerse despiertos por más de 24 horas se hicieron una prueba toxicológica en la Clínica Anglo Americana, que arroj positivo para anfetaminas y con respecto a las otras personas que están viendo involucradas con un tema con el que quizá no tienen nada que ver. Nicolás está afectado e incomodo porque tiene un hijo pequeño y es complicado. No lo han acusado, pero se está jugando a la ambigüedad”, expresó el ‘Zorro’. \n\nAsimismo, se conoció que Porcella ya se habría reunido con su abogado y estaría alistando una demanda en contra de la conductora Magaly Medina y Andrés Castaeda."
+    },
+    {
+        "headline": "Ignacio asegura que está afectado y hará demanda",
+        "content": "Ignacio prepara la parrilla para los invitados en Asia, pues fue el entusiasta, tomó una copa de vino y no presentó ningún malestar. Como Ignacio nunca se sintió mal, cuando Poly se puso mal, Ignacio fue el chico que nos ayudó, pero se está jugando a la ambigüedad”, expresó el ‘Zorro’. \n\nAsimismo, se conoció que Porcella ya se habría reunido con su abogado y estaría alistando una demanda en contra de la conductora Magaly Medina y Andrés Castaeda. Alexandra Muñoz, la ‘Chama’, le respondió a Magaly Medina, quien señaló que la venezolana es la ‘escudera de Nicolás Porcella’. Ella se las da de digna y vocifera en su programa [‘Magaly TV, la firme’) que es la defensora de las mujeres, pero a otra persona que no conoce le dice que es un ‘bicho’, coment Múñez. Por otro lado, la modelo difundió un audio en ‘Válgame Dios’ donde se escucha que Paula Avila cuenta que Andrés Castaeda la quiso aventar de su auto tras rescatarla en Asia. Quería abrir la puerta y lanzarme. Un asco, Andrés está recaliente, pero le dije que no sabemos quién fue [el que la drog]. No sabemos si fue Faru, Nicolás o la chica de rojo”, se escuchaba en el audio."
+    },
+    {
+        "headline": "Hugo García desmiente rumores sobre relación",
+        "content": "Hugo García desmintió que su relación con Christian Domínguez fuera sentimental con Mafer Neyra haya llegado por reincidir al manejar sin cinturón de seguridad y llevar en el asiento del copiloto a su hija mayor. En ese video que colgó en sus redes hay indicado cómo cuatro faltas. Maneja sin cinturón y su hija tampoco lo lleva, la niña no debe estar en ese asiento y encima se graba con el celular, eso no puede pasar. Debe ser más responsable y cuidadoso. Anteriormente hizo algo similar con el hijo que tiene con Karla Tarazona. Optamos por no hablar de nuestra vida privada, la estuvimos exponiendo mucho”, acotó. "
+    },
+    {
+        "headline": "Melissa Paredes recuerda experiencia similar",
+        "content": "La Avila quien aseguró que la drogaron en una fiesta de Asia donde participaron algunos chicos reality. Sacar mis propias conclusiones, fue en la época que estaba soltera, hace unos tres o cuatro años. Me sentí muy rara, estaba con gente del medio, pedí que me ayudaran y que me sacaran ah. Quiz fue alguien que no estaba bien de la cabeza. Recuerdas qué personajes del medio estaban en aquella reunión? No, pero en esa época estaba con la gente de ‘Combate!’ Le das tu respaldo y te solidarizas con Paul Avila? Como madre y mujer, apoyo a Poly porque es terrible el hecho de sentirse rara. Da mucho miedo y lo he sentido. Nosotros sí nos drogaron, pero me sentía extraña y felizmente estaba al lado de mis amigos. Esperas que se haga justicia, sea quién sea el culpable de todo? Obviamente, no hay que satanizar sólo a los chicos de la farándula, porque hay violadores que están libres. Todas las mujeres necesitamos justicia, sin excepción."
+    },
+    {
+        "headline": "Janet Barboza critica a Melissa Paredes",
+        "content": "Janet Barboza no tard en responderle a la expareja de Erick Sabater, Giuliana Barrios, quien se burló de ella por su edad, luego que la ‘Ruji’tos’ comentó que ‘cuando vienen artistas del extranjero solicitan a los empresarios que les busquen chicas’, en alusión al ‘ampay’ de la modelo con el cantante colombiano, no, ‘El Vega’. Me parece una falta de respeto que una NN intente cogerse de algo para conseguir un minuto más de pantalla o para que los medios le den interés. Me parece una malcriadez, estamos con esta especie de virus, de estos chicos que se hacen llamar ‘celebrities’ o ‘influencers’, creen que son importantes solo por tener un poco de seguidores. Un poquito de ubicana.”
+    }
+]
+```
+
+--- ERROR ENTRY: data/txt/trome/2019/02/trome_08.txt ---
+
+```json
+[]
+```
+The provided OCR text does not contain any identifiable news articles, opinion pieces, interviews, or feature stories with substantial journalistic content based on the defined criteria. It primarily consists of commercial listings, product descriptions, and miscellaneous information unrelated to traditional journalism. Therefore, the output is an empty array, indicating no eligible articles were found for extraction.

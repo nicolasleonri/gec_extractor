@@ -221,9 +221,9 @@ def bertopic(input_files, newspaper, input_folder, all_documents, row_mappings, 
         return None
 
     embedding_model_names = [
-        # "sentence-transformers/distiluse-base-multilingual-cased-v1",
+        "sentence-transformers/distiluse-base-multilingual-cased-v1",
         # "jaimevera1107/all-MiniLM-L6-v2-similarity-es",
-        # "hiiamsid/sentence_similarity_spanish_es",
+        "hiiamsid/sentence_similarity_spanish_es",
         # "Qwen/Qwen3-Embedding-8B", 
         "Linq-AI-Research/Linq-Embed-Mistral"
     ]
