@@ -1,0 +1,52 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2015/11/ojo_12.txt ---
+
+```json
+[]
+```
+The provided input does not contain any recognizable headlines or substantial journalistic content based on the given criteria for extraction. It primarily consists of fragmented text, numbers, and symbols that do not form coherent articles or sections typical of a newspaper's editorial content. Therefore, according to the specified guidelines, there are no articles to include in the JSON output.
+
+--- ERROR ENTRY: data/txt/ojo/2015/11/ojo_12.txt ---
+
+```json
+[
+    {
+        "headline": "El loco del martillo",
+        "content": "Hoy en día, uno pensaría que..."
+    },
+    {
+        "headline": "Contento por fin de cuarentena!",
+        "content": "Estoy feliz porque..."
+    },
+    {
+        "headline": "Urgente: Se busca perro perdido. Recompensa: 500 soles.",
+        "content": "NA"
+    },
+    {
+        "headline": "NA",
+        "content": "El juez Huamani ordenó..."
+    },
+    {
+        "headline": "Melar en dimes y diretes",
+        "content": "DESDE\nUS$ 16,990\nS/. 55,218\nASIENTOS FIJOS |\nie el a\nCUSCO: 236—561. CHICLAYO: ,320—298, HUANGAYO: $421—017. CHINCHA: 266—478, TRUJILLO: G291—146.\nLIMA: Av. Rep. Panam 3837, Surquillo. & 225—4242 / 224—2352. / La Marina 3000, San Miguel $561—2550 / Ayln 3660, Ate, 348—6689 / Aylin 1770, San Luls, $,439—2022 / Panamericana\nSur km 18.5, Villa El Salvador, $719—3036 / 719—3037 / RPM: $983618685 / Av. Mendiola 5241, Los Olivos. $,528—8477. AREQUIPA: Av. Dolores 431—843 / Av. Aviacin $250—505."
+    },
+    {
+        "headline": "E&n programa ”Dr. TU”",
+        "content": "Puchungo se hizo examen de prstata\nEl exfutbolista Alfonso ”Puchungo” Yez venci sus temores y se realizó en el programa ”DR. TV” un examen de prstata, uno de los análisis médicos más importantes para el género masculino. ”A partir de los 40 años, es necesario para todos los hombres someterse a un examen prostático y así se puede prevenir la segunda causa de muerte por cáncer en los varones”, dijo ”Puchungo”, cuyos resultados señalaron que se encuentra muy bien de salud."
+    },
+    {
+        "headline": "EXGUERRERA LA NUEVA MISS PER UNIVERSO",
+        "content": "La modelo y exintegrante de ”Esto es guerra”, Priscila Howard, fue coronada y presentada como candidata oficial al Miss Perú Universo Lima Capital 2016. La flamante reina se mostró emocionada por la importante decisión: ”Me siento muy feliz y al mismo tiempo comprometida a ser una representante a la altura del certamen. Estoy acostumbrada a hacer las cosas bien. Por eso decidí tomarme mi tiempo, terminar mis estudios para asumir este nuevo reto”, destacó."
+    },
+    {
+        "headline": "NICOLA PORCELLA DESMARCÓ HABER INICIADO UNA RELACIÓN CON LA PERIODISTA FERNANDA KANNO",
+        "content": "Nicola Porcella desmintió haber iniciado una relación con la periodista Fernanda Kanno, tal como lo dej entrever un reportaje del programa ”Al aire”. ”No. Están malinterpretando las cosas. La ’china’ es solo mi amiga y habíamos quedado en ir a comer como amigos hace mucho po, pero ella tuvo que viajar”, señaló. Vale indicar que el programa de América TV mostró capturas de pantalla con conversaciones en redes sociales entre el excapitán de Las Cobras y la ’piernona’. ’De verdad no pasó nada. Hemos quedado en salir a almorzar como amigos’, añadió el exguerrero que reapareció ante la sa con aires de divo y en plena conferencia de la Feria Nacional de Artesana del Campo de Marte se retiró abruptamente al ver las cámaras de Latina. Antes, declar vía micrófono que iría a la conferencia de prensa de la telenovela ’Ven, baila quinceañera’, ..."
+    },
+    {
+        "headline": "Exquerrero Operado de Emergencia",
+        "content": "El líder de la popular orquesta Agua Marina, José Quiroga Quereval, tuvo que ser intervenido de emergencia el martes en la clínica San Miguel de Piura, debido a un cuadro de nitis que lo obligó a cancelar sus presentaciones. El cantante de ’Tu amor fue una mentira’, ’A escondidas’ y otros éxitos contó que estar unos días alejado de los escenarios hasta recuperarse. Sin embargo, Agua Marina continuará con sus presentaciones en diversas provincias del país y el 22 viajan a Argentina. ’Espero regresar la próxima semana con los shows, haré caso en todo a las recomendaciones del doctor porque tengo toda la fe de encontrarme con nuestros seguidores de Buenos Aires la próxima semana’, coment Pepe Quiroga desde su cama en la clínica."
+    },
+    {
+        "headline": "Farfán y Guerrero en el ataque peruano",
+        "content": "Ante algunos lesionados, el estratega ensaya variantes para vencer a los guaraníes. Un partido está cerca y ya se vive un clima de eliminación en todo el Perú. Nuestra selección recibirá mañana a Paraguay y se especula mucho sobre el once inicialista que mandará Gareca a la cancha. Ayer, en conferencia de prensa, el mismo Ricardo Gareca descartó a Carrillo y Vargas. El golero del Aurich, Pedro Gallese, irá al arco y en su reemplazo jugará Diego Penny. En la volante también se darán variantes. La bicolor saldrá al campo con el siguiente equipo: 1). Penny; 1.. Advíncula, C. Zambrano, C. Ascues, J. Cas

@@ -1,0 +1,68 @@
+
+
+--- ERROR ENTRY: data/txt/ojo/2016/05/ojo_30.txt ---
+
+```json
+[]
+```
+The provided input does not contain any recognizable headlines or substantial journalistic content based on the defined criteria for extraction. It primarily consists of garbled text likely due to OCR errors, which makes it impossible to identify any coherent articles. Therefore, the output is an empty array indicating no eligible articles were found.
+
+--- ERROR ENTRY: data/txt/ojo/2016/05/ojo_30.txt ---
+
+```json
+[
+    {
+        "headline": "Esta vez intentan las canciones tradicionales con el ritmo del rock",
+        "content": "Pero no ensayan mucho, sino que llevadas al ritmo del rock. 'No queremos que la gente se olvide de nuestra música', dijo el líder de la banda de rock, quien anunció que si lo hacían les llevaría a emprender una gira por Chile y posteriormente por toda América Latina."
+    },
+    {
+        "headline": "Dorita Orbegoso pide que no le mencionen a sus ex",
+        "content": "Dorita Orbegoso se caracterizó como Beyoncé para ‘El gran show’. 'No me parezco a la cantante, pero hice mi mejor esfuerzo', señaló la bailarina, quien dio a conocer que le ha enviado una carta notarial a Pamela Franco. Como se recuerda, la modelo sostuvo en el programa 'Al Aire' que su pareja, Chemo Ruiz, seguía en comunicación con Dorita Orbegoso mientras ellos estaban juntos. 'Le he enviado una carta notarial, todo lo voy a llevar por esa vía. Ya pues, no... ya basta. A la prensa no le tengo nada que decir, es retrocediendo', aclaró."
+    },
+    {
+        "headline": "‘Betito’ inicia taller de teatro",
+        "content": "Efren Aguilar, exitoso productor de 'Al fondo hay sitio', invita al público en general a inscribirse a su taller de teatro y televisión, cuyas clases se iniciarán el lunes 6 de junio en el Teatro Canout."
+    },
+    {
+        "headline": "Despide su corta temporada",
+        "content": "Mañana 31 será la última función de 'Orquesta de señoritas', un clásico del humor negro francés del gran dramaturgo Jean Anouilh, presentado por el Teatro de Cámara. A las 8 p.m. en el Centro Cultural CAFAE."
+    },
+    {
+        "headline": "“No me meto con mis protagonistas”, dice molesta con comentarios",
+        "content": "Michelle Alexander se mostró irritada por los comentarios vertidos por los conductores de 'Hola a Todos', quienes se sorprendieron porque Carlos Cacho dej entrever que habría pasado algo entre la productora y Christian Domínguez. 'En mi casa de Del Barrio tenemos más de 20 producciones exitosas. No es soberbia, puesto que es un gran equipo de trabajo. Pero deslizar que a mis amantes los pongo de protagonistas es una bajeza. La verdad, ni siquiera voy a dar su nombre, lo gracioso es que esa persona llama todo el día a mi director de casting para trabajar en algún lado. Obviamente no va a trabajar nunca', señaló tajante."
+    },
+    {
+        "headline": "Karen Dejo conductora",
+        "content": "Josetty Hurtado reveló que aún no ha decidido si regresar a 'Reto de Campeones', de donde se alejó porque sufrió un accidente. 'Yo quiero volver, estaría feliz de estar con mis compañeros. Pero también hay personas que me lo impiden', señaló la joven."
+    },
+    {
+        "headline": "Muy coqueto ‘Chiquito’ se convirtió en Gloria Gaynor",
+        "content": "'Chiquito' Flores en la pista de baile se inspiró en Gloria Gaynor, quien popularizó su éxito sobre todo imitando a un roche."
+    },
+    {
+        "headline": "Renato Tapia está bien y jugará la copa sin problemas",
+        "content": "Felizmente, todo no pasó de un susto. Renato Tapia no acabó el partido ante El Salvador porque sufrió un choque con un atacante rival y tuvo que dejar su lugar a Christian Ramos, cuando el reloj marcaba el minuto 61. Lo bueno es que el jugador del Feyenoord Rotterdam pasó pruebas médicas por el golpe en la cabeza y está okay."
+    },
+    {
+        "headline": "Hoy la blanquirroja trabaja en Seattle",
+        "content": "La selección peruana partió hoy (8:50 a.m.) rumbo a la ciudad de Seattle, en donde trabajará para el debut de la Copa América Centenario frente a Haití (4 de junio). La delegación arribará al Aeropuerto Internacional de Seattle-Tacoma, a las 12:45 p.m. y zarpará al hotel Westin Bellevue, ubicado en pleno centro financiero de la ciudad. Finalmente, los seleccionados tienen programado para esta tarde realizar trabajos desde las 5:00 p.m."
+    },
+    {
+        "headline": "Arrancamos",
+        "*alo-peruano* Gianluca Lapadula hizo un gol en el triunfo 0–2 del Pescara ante Novara, en la ida por los playoff de ascenso en Italia...",
+        "content": "Lanús goleó 4–0 a San Lorenzo en la final del torneo argentino y se coronó campeón por segunda vez, luego del título obtenido en 2007, con goles de Benítez, Imbert, Sand y Acosta. Chauvin..."
+    },
+    {
+        "headline": "Diego Mayora no se cansa de hacer goles",
+        "content": "Con otra gran actuación de su delantero Diego Mayora, Torre Dos Talleres goleó 3–0 al Defensor en La Bocana en cotejo de la cuarta fecha del nuevo Clausura, jugado en el estadio IPD de Moquegua. Desde el inicio, el cuadro de Nueva Cajamarca supo poner condiciones, demostrando un mejor nivel de juego. El primer gol de Torre Dos Talleres fue de buena factura, un mal despeje del golero Neremia fue bien aprovechado por el paraguayo José AmulMontiel, quien de soberbio remate marcó el primero, tan solo a los 40'. Luego apareció Mayora con un doblete (36' y 78'). Minutos después, Kevin Ortega, quien expulsó a Israel Kahn de La Bocana."
+    },
+    {
+        "headline": "Hasta fin de año ‘Tyson’ Galliquio es cremas otra vez",
+        "content": "Al final John Calliquio se salió con la suya por pedido del plantel de futbolistas y comando técnico, quienes exigieron a la directiva su fichaje para la segunda parte del año. El experimentado zaguero y la directiva crema llegaron a un acuerdo hasta fin de año. 'Tyson' ganará 4500 dólares mensuales."
+    },
+    {
+        "headline": "Lionard Pajoy: ‘Tenemos mucho por mejorar en Alianza Lima’",
+        "content": "El delantero de Alianza Lima, el colombiano Lionard Pajoy, tras el empate en Trujillo ante Vallejo comentó que todavía tenían muchas cosas por mejorar en el cuadro íntimo. 'Tenemos que trabajar más caso en la definición, porque ese partido (ante Vallejo) dimos haberlo ganado', refirió Pajoy."
+    }
+]
+```
