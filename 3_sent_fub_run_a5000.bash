@@ -13,7 +13,7 @@
 #SBATCH --gres=gpu:rtx2080ti:1
 #SBATCH --mem=4G
 
-#SBATCH --time=00:15:00
+#SBATCH --time=01:00:00
 
 echo "Loading modules..."
 module purge

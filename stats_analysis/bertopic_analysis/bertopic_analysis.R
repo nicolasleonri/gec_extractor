@@ -213,11 +213,11 @@ keywords_voluntarista <- c(
 )
 ### Apply for each conceptual group ###
 economia_informal_df <- filter_by_keywords(combined_df, keywords_economia_informal)
-perspectiva_modernizante_df <- filter_by_keywords(combined_df, keywords_modernizante)
-perspectiva_estructuralista_df <- filter_by_keywords(combined_df, keywords_estructuralista)
-perspectiva_neoliberal_df <- filter_by_keywords(combined_df, keywords_neoliberal)
-perspectiva_posmoderna_df <- filter_by_keywords(combined_df, keywords_posmoderna)
-perspectiva_voluntarista_df <- filter_by_keywords(combined_df, keywords_voluntarista)
+perspectiva_modernizante_df <- filter_by_keywords(economia_informal_df, keywords_modernizante)
+perspectiva_estructuralista_df <- filter_by_keywords(economia_informal_df, keywords_estructuralista)
+perspectiva_neoliberal_df <- filter_by_keywords(economia_informal_df, keywords_neoliberal)
+perspectiva_posmoderna_df <- filter_by_keywords(economia_informal_df, keywords_posmoderna)
+perspectiva_voluntarista_df <- filter_by_keywords(economia_informal_df, keywords_voluntarista)
 
 ### Extract randomized/stratified samples ###
 set.seed(123)  # For reproducibility
@@ -244,3 +244,5 @@ write.csv(perspectiva_estructuralista_df, file = "./perspectiva_estructuralista_
 write.csv(perspectiva_neoliberal_df, file = "./perspectiva_neoliberal_df.csv", row.names = FALSE)
 write.csv(perspectiva_posmoderna_df, file = "./perspectiva_posmoderna_df.csv", row.names = FALSE)
 write.csv(perspectiva_voluntarista_df, file = "./perspectiva_voluntarista_df.csv", row.names = FALSE)
+
+summary(economia_informal_df)
