@@ -1,6 +1,6 @@
 #!/bin/bash
-#SBATCH --job-name=sent_fub_run_rtx2080ti
-#SBATCH --output=./logs/slurm/output_fub_sent_rtx2080ti_%j.out
+#SBATCH --job-name=sent_fub_run_a5000
+#SBATCH --output=./logs/slurm/output_fub_sent_a5000_%j.out
 
 #SBATCH --partition=scavenger
 #SBATCH --account=agfritz
@@ -10,8 +10,8 @@
 #SBATCH --ntasks=1
 
 #SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:rtx2080ti:1
-#SBATCH --mem=4G
+#SBATCH --gres=gpu:a5000:1
+#SBATCH --mem=5G
 
 #SBATCH --time=01:00:00
 

@@ -102,7 +102,10 @@ class POSTaggerAnalyzer:
         print(f"Processing {csv_path}...")
         
         try:
-            df = pd.read_csv(csv_path)
+            df = pd.read_csv(csv_path, 
+                            sep=';',
+                            encoding='utf-8',
+                            quotechar='"')
             
             if 'content' not in df.columns:
                 print(f"Warning: 'content' column not found in {csv_path}")
@@ -153,8 +156,21 @@ class POSTaggerAnalyzer:
             all_codes = sorted({c for codes in pos_codes_found for c in codes})
             one_hot = pd.DataFrame(0, index=lexem_rows.index, columns=[f"pos_{c}" for c in all_codes])
 
+            # for idx, codes in zip(lexem_rows.index, pos_codes_found):
+            #     one_hot.loc[idx, [f"pos_{c}" for c in codes]] = 1
+
             for idx, codes in zip(lexem_rows.index, pos_codes_found):
-                one_hot.loc[idx, [f"pos_{c}" for c in codes]] = 1
+                if not codes:  # skip None or empty
+                    continue
+
+                # Deduplicate codes and make sure the columns exist
+                unique_codes = sorted(set(codes))
+                valid_cols = [f"pos_{c}" for c in unique_codes if f"pos_{c}" in one_hot.columns]
+
+                if not valid_cols:
+                    continue
+
+                one_hot.loc[idx, valid_cols] = 1
 
             df = pd.concat([df, one_hot], axis=1)
             df[one_hot.columns] = df[one_hot.columns].fillna(0).astype(int)

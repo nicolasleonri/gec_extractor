@@ -12,7 +12,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
 
-#SBATCH --time=00:30:00
+#SBATCH --time=00:45:00
 
 echo "Loading modules..."
 module purge
