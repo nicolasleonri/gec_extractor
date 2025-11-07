@@ -11,9 +11,9 @@
 
 #SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:h100:1
-#SBATCH --mem=4G
+#SBATCH --mem=3G
 
-#SBATCH --time=01:00:00
+#SBATCH --time=00:15:00
 
 echo "Loading modules..."
 module purge
@@ -24,12 +24,16 @@ module load virtualenv/20.26.2-GCCcore-13.3.0
 echo "Setting folders..."
 export HF_HOME=/scratch/nicolasal97/.cache/huggingface
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+export TOKENIZERS_PARALLELISM=false
 
 echo "Activating virtual environment..."
 source venv/multi_label/bin/activate
 
 echo "Running python script..."
-python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -tm True -ns 600 -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label
+
+# python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700
+
+python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/results_pos_2025-10-10.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -lm True
 
 deactivate
 module purge
