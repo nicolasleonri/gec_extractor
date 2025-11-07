@@ -184,7 +184,7 @@ def parse_arguments():
     parser.add_argument('-mp', '--model_path', type=str, required=True, default=None, help='Directory path to save/load the model')
     parser.add_argument('-ns', '--number_samples', type=int, required=False, default=None, help='Limit training to first N samples (for training)')
     parser.add_argument('-tm', '--train_model', type=bool, required=False, default=False, help='Flag to train the model')
-
+    parser.add_argument('-eo', '--eval_on', type=str, required=False, default="accuracy", choices=["accuracy", "macro_f1"], help="Metric to optimize for best model (accuracy or macro_f1)")
     return parser.parse_args()
 
 def validate_arguments(args) -> Dict[str, Any]:
@@ -234,6 +234,8 @@ def validate_arguments(args) -> Dict[str, Any]:
         print(f"Using only the first {config['number_samples']} samples for training/evaluation")
     elif config["number_samples"] is None:
         print("Using all available samples for training/evaluation")
+
+    config['eval_on'] = args.eval_on
 
     # Exit if any validation errors occurred
     if errors:
@@ -385,25 +387,49 @@ def train(config) -> None:
 
     model = MultiTaskLongformer("mrm8488/longformer-base-4096-spanish")
 
+    if config['number_samples'] is not None and config['number_samples'] < 501: 
+        per_device_train_batch_size = 32
+        per_device_eval_batch_size = 32
+        gradient_accumulation_steps = 2
+        dataloader_prefetch_factor = 4
+        num_train_epochs = 8
+        learning_rate = 3e-5
+        weight_decay=0.001
+        save_total_limit = 3
+        warmup_ratio = 0.2
+    elif config['number_samples'] is not None and config['number_samples'] < 1001: 
+        per_device_train_batch_size = 24
+        per_device_eval_batch_size = 24
+        gradient_accumulation_steps = 4
+        dataloader_prefetch_factor = 2
+        num_train_epochs = 6
+        learning_rate = 2e-5
+        weight_decay = 0.01
+        save_total_limit = 2
+        warmup_ratio = 0.1
+
     training_arguments = TrainingArguments(
         output_dir="./results/checkpoints",
-        learning_rate=2e-5,
+        learning_rate=learning_rate,
         eval_strategy="epoch",
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=32,
-        gradient_accumulation_steps=2,
-        bf16=True,  
-        dataloader_num_workers=4,
+        per_device_train_batch_size=per_device_train_batch_size,
+        per_device_eval_batch_size=per_device_eval_batch_size,
+        gradient_accumulation_steps=gradient_accumulation_steps,
+        bf16=True,
+        dataloader_num_workers=1,
         dataloader_pin_memory=True,
-        dataloader_prefetch_factor=4,
-        num_train_epochs=4,
-        weight_decay=0.01,
+        dataloader_prefetch_factor=dataloader_prefetch_factor,
+        num_train_epochs=num_train_epochs,
+        weight_decay=weight_decay,
         save_strategy="epoch",
-        save_total_limit=2,
-        load_best_model_at_end=True,
-        metric_for_best_model="macro_f1",
-        greater_is_better=True,
+        save_total_limit=save_total_limit,
         logging_strategy="epoch",
+        load_best_model_at_end=True,
+        metric_for_best_model=config['eval_on'],
+        greater_is_better=True,
+        max_grad_norm=1.0,
+        warmup_ratio=warmup_ratio,
+        lr_scheduler_type="linear",
         push_to_hub=False,
         fp16_full_eval=False,
         remove_unused_columns=False,
@@ -433,21 +459,21 @@ def train(config) -> None:
     pprint(test_results)
     print("="*60 + "\n")
 
-    if config['save_model']:
+    if config['save_model'] == True:
         print(f"💾 Saving model to {config['model_path']}")
         trainer.save_model(config['model_path'])
         tokenizer.save_pretrained(config['model_path'])
-
-        if config['number_samples'] is not None:
-            results_path = os.path.join("./results/csv/multi_label", f"test_results_{number_samples}_{date.today()}.json")
-        else:
-            results_path = os.path.join("./results/csv/multi_label", f"test_results_total_{date.today()}.json")
-        
-        with open(results_path, 'w') as f:
-            json.dump(test_results, f, indent=2)
-        
         print(f"✅ Model saved to {config['model_path']}")
-        print(f"✅ Results saved to {config['model_path']}")
+
+    if config['number_samples'] is not None:
+        results_path = os.path.join("./results/csv/multi_label", f"test_results_{config['number_samples']}_{config['eval_on']}_{date.today()}.json")
+    else:
+        results_path = os.path.join("./results/csv/multi_label", f"test_results_total_{config['eval_on']}_{date.today()}.json")
+    
+    with open(results_path, 'w') as f:
+        json.dump(test_results, f, indent=2)
+        
+    print(f"✅ Results saved to {config['model_path']}")
 
 def load(config) -> None:
     """
