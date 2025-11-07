@@ -48,7 +48,7 @@ echo "Running python script..."
 # python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -sm False
 
 # python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -sm True -eo macro_f1
-python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -lm True
+python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/results_pos_2025-10-10.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -lm True
 
 deactivate
 module purge
