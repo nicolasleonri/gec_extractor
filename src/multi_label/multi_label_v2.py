@@ -53,7 +53,7 @@ class TrainingConfig:
     num_classes: int = 3
     dropout_rate: float = 0.1
 
-    # Tokenizer Configuration (ADD THESE)
+    # Tokenizer Configuration 
     eos_token_id: int = None  
     pad_token_id: int = None  
     bos_token_id: int = None  
@@ -62,23 +62,22 @@ class TrainingConfig:
     learning_rate: float = 2e-5
     head_learning_rate: float = 5e-4
     batch_size: int = 8
-    num_epochs: int = 1 # TODO: Increase to 10
+    num_epochs: int = 10
     warmup_ratio: float = 0.1
     weight_decay: float = 0.01
     max_grad_norm: float = 1.0
     
     # Augmentation Configuration
-    augment_prob: float = 0.3
-    swap_ratio: float = 0.1
-    deletion_prob: float = 0.1
+    swap_ratio: float = 0.15
+    deletion_prob: float = 0.15
     
     # Cross-Validation
     cross_validate: bool = False
-    n_folds: int = 2 # TODO: Increase to 5
+    n_folds: int = 5
     
     # Hyperparameter Tuning
     hyperparameter_tuning: bool = False
-    num_trials: int = 1 # TODO: Increase to 10
+    num_trials: int = 10
     
     # Paths
     results_dir: str = "./results/csv/multi_label"
@@ -461,7 +460,7 @@ def evaluate_single(config: TrainingConfig, trainer: Trainer, test_df: pd.DataFr
     test_dataset = TextClassifierDataset(
         test_encodings, test_labels, tokenizer, 
         swap_ratio=config.swap_ratio,
-        type_augmentation=config.type_augmentation,
+        type_augmentation=None,
         deletion_prob=None
     )
     
@@ -949,7 +948,7 @@ def load(config) -> None:
     for i, task in enumerate(task_names):
         df[task] = [pred[i] for pred in all_predictions]
 
-    input_filepath = Path(config['model_path'])
+    input_filepath = Path(config.model_path)
     file_name = str(input_filepath.stem) + ".csv"
     file_name = file_name.replace("model_", "results_multi_label_")
 
