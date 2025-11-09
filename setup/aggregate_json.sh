@@ -14,12 +14,24 @@ for filepath in "$RESULTS_DIR"/*.json; do
     filename=$(basename "$filepath")
     basename_no_ext="${filename%.json}"
 
-    # Parse filename from the right-hand side
+    # Parse fixed fields from the right
     date="${basename_no_ext##*_}"
     basename_no_date="${basename_no_ext%_*}"
 
     metric="${basename_no_date##*_}"
     basename_no_metric="${basename_no_date%_*}"
+
+    IFS='_' read -ra parts <<< "$basename_no_date"
+    len=${#parts[@]}
+
+    # Check for 'macro_f1'
+    if [[ "${parts[$((len-2))]}" == "macro" && "${parts[$((len-1))]}" == "f1" ]]; then
+        metric="macro_f1"
+        basename_no_metric="${basename_no_date%_macro_f1}"
+    else
+        metric="${parts[$((len-1))]}"
+        basename_no_metric="${basename_no_date%_*}"
+    fi
 
     samples="${basename_no_metric##*_}"
     basename_no_samples="${basename_no_metric%_*}"
@@ -30,12 +42,18 @@ for filepath in "$RESULTS_DIR"/*.json; do
     ht="${basename_no_cv##*_}"
     basename_no_ht="${basename_no_cv%_*}"
 
+    # Remaining part is prefix + augmentation
     prefix_and_aug="${basename_no_ht}"
-    IFS='_' read -r prefix prefix2 augmentation <<< "$prefix_and_aug"
+
+    # Split first two as prefix/prefix2, rest as augmentation
+    prefix=$(echo "$prefix_and_aug" | cut -d'_' -f1)
+    prefix2=$(echo "$prefix_and_aug" | cut -d'_' -f2)
+    augmentation=$(echo "$prefix_and_aug" | cut -d'_' -f3-)
+    [ -z "$augmentation" ] && augmentation="None"
 
     # Extract only the desired JSON values
     eval_accuracy=$(grep -oP '"eval_accuracy":\s*\K[0-9.]+|null' "$filepath")
-    # eval_mean_task_accuracy=$(grep -oP '"eval_mean_task_accuracy":\s*\K[0-9.]+|null' "$filepath")
+    eval_mean_task_accuracy=$(grep -oP '"eval_mean_task_accuracy":\s*\K[0-9.]+|null' "$filepath")
     eval_macro_f1=$(grep -oP '"eval_macro_f1":\s*\K[0-9.]+|null' "$filepath")
 
     # Append row to CSV
