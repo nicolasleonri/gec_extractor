@@ -51,7 +51,7 @@ class TrainingConfig:
     model_name: str = 'mrm8488/longformer-base-4096-spanish'
     num_tasks: int = 5
     num_classes: int = 3
-    dropout_rate: float = 0.1
+    dropout_rate: float = 0.15
 
     # Tokenizer Configuration 
     eos_token_id: int = None  
@@ -60,9 +60,9 @@ class TrainingConfig:
     
     # Training Configuration
     learning_rate: float = 2e-5
-    head_learning_rate: float = 5e-4
+    head_learning_rate: float = 3e-4
     batch_size: int = 8
-    num_epochs: int = 10
+    num_epochs: int = 7
     warmup_ratio: float = 0.1
     weight_decay: float = 0.01
     max_grad_norm: float = 1.0
@@ -92,8 +92,8 @@ class TrainingConfig:
     
     # Advanced Settings
     use_mixed_precision: bool = True
-    gradient_accumulation_steps: int = 1
-    early_stopping_patience: int = 1
+    gradient_accumulation_steps: int = 2
+    early_stopping_patience: int = 5
     save_model: bool = True
 
 
@@ -587,7 +587,7 @@ def hyperparameter_tuning(config: TrainingConfig, df: pd.DataFrame, label_column
         trial_config = replace(
             config,
             learning_rate=np.random.choice([1e-5, 2e-5, 5e-5, 1e-4]),
-            batch_size=int(np.random.choice([8, ])), # 16, 24, 32
+            batch_size=int(np.random.choice([1, 2, 4])),
             warmup_ratio=np.random.uniform(0.05, 0.2),
             weight_decay=np.random.choice([0.01, 0.001])
         )
