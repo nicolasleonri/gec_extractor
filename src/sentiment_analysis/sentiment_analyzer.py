@@ -151,14 +151,18 @@ def main():
     df["agreed_headline_label"] = [aggregated_results[i]["headline"]["label"] for i in range(len(df))]
     df["agreed_headline_score"] = [aggregated_results[i]["headline"]["score"] for i in range(len(df))]
 
-    # Save results
     df.to_csv(
         output_csv,
         index=False,
-        sep=';',
-        quotechar='"',
-        quoting=csv.QUOTE_ALL,
-        encoding='utf-8'
+        header=True,
+        encoding="utf-8",
+        na_rep='NA',
+        sep=';',            # Use semicolon as delimiter
+        quotechar='"',      # Force double quotes around strings
+        date_format='%d-%M-%Y',  # Format datetime columns consistently
+        quoting=csv.QUOTE_ALL, # Ensure all fields are quoted
+        decimal='.', 
+        errors='strict',
     )
 
     print(f"✅ Results written to: {output_csv}")

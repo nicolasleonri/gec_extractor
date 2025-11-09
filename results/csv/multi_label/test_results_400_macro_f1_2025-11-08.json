@@ -1,0 +1,20 @@
+{
+  "eval_loss": 0.6705738306045532,
+  "eval_accuracy": 0.6966666666666667,
+  "eval_macro_f1": 0.3374744078779296,
+  "eval_mean_task_accuracy": 0.6966666666666667,
+  "eval_task_0_acc": 0.6666666666666666,
+  "eval_task_0_f1": 0.4,
+  "eval_task_1_acc": 0.5666666666666667,
+  "eval_task_1_f1": 0.24113475177304966,
+  "eval_task_2_acc": 0.75,
+  "eval_task_2_f1": 0.2857142857142857,
+  "eval_task_3_acc": 0.95,
+  "eval_task_3_f1": 0.3247863247863248,
+  "eval_task_4_acc": 0.55,
+  "eval_task_4_f1": 0.4357366771159875,
+  "eval_runtime": 0.4407,
+  "eval_samples_per_second": 136.145,
+  "eval_steps_per_second": 4.538,
+  "epoch": 8.0
+}

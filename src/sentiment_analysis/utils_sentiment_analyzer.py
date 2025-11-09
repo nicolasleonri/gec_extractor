@@ -34,4 +34,4 @@ def aggregate_single_row(all_model_results, i):
     }
 
 def read_csv_file(file):
-    return pd.read_csv(file, sep=",", na_values="NA", quotechar='"')
+    return pd.read_csv(file, sep=";", decimal=".", na_values="NA", quotechar='"', encoding="utf-8")

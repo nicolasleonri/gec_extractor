@@ -10,6 +10,7 @@ import json
 import glob
 import sys
 import re
+import csv
 
 class POSTaggerAnalyzer:
     def __init__(self):
@@ -102,10 +103,16 @@ class POSTaggerAnalyzer:
         print(f"Processing {csv_path}...")
         
         try:
-            df = pd.read_csv(csv_path, 
-                            sep=';',
-                            encoding='utf-8',
-                            quotechar='"')
+            # df = pd.read_csv(csv_path, 
+            #                 sep=';',
+            #                 encoding='utf-8',
+            #                 quotechar='"')
+            df = pd.read_csv(csv_path,
+                            sep=";", 
+                            decimal=".", 
+                            na_values="NA", 
+                            quotechar='"', 
+                            encoding="utf-8")
             
             if 'content' not in df.columns:
                 print(f"Warning: 'content' column not found in {csv_path}")
@@ -223,10 +230,23 @@ class POSTaggerAnalyzer:
                 if not df.empty:
                     # output_path = csv_file.replace('.csv', '_pos.csv')
                     csv_path = Path(csv_file)
-                    output_path = Path(str(csv_path).replace('data/csv/', 'results/csv/')).parent / f"{csv_path.stem}_pos_{date.today()}{csv_path.suffix}"
+                    output_path = Path(str(csv_path).replace('data/csv/', 'results/csv/')).parent / f"results_pos_{date.today()}{csv_path.suffix}"
                     output_path.parent.mkdir(parents=True, exist_ok=True)
                     try:
-                        df.to_csv(output_path, index=False)
+                        # df.to_csv(output_path, index=False)
+                        df.to_csv(
+                            output_path,
+                            index=False,
+                            header=True,
+                            encoding="utf-8",
+                            na_rep='NA',
+                            sep=';',            # Use semicolon as delimiter
+                            quotechar='"',      # Force double quotes around strings
+                            date_format='%d-%M-%Y',  # Format datetime columns consistently
+                            quoting=csv.QUOTE_ALL, # Ensure all fields are quoted
+                            decimal='.', 
+                            errors='strict',
+                        )
                         print(f"Saved annotated data to {output_path}")
                         total_processed += 1
                     except Exception as e:

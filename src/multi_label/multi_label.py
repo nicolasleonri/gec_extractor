@@ -38,11 +38,13 @@ from datetime import date
 from pathlib import Path
 from pprint import pprint
 from tqdm import tqdm
-import argparse
+import subprocess
 import evaluate
+import argparse
 import json
-import csv 
+import csv
 import sys
+import gc
 import os
 
 class MultiTaskPipeline(Pipeline):
@@ -166,6 +168,18 @@ class MultiTaskLongformer(nn.Module):
             loss = torch.stack(losses).mean()
         
         return {"loss": loss, "logits": logits}
+
+def print_gpu_usage(note=""):
+    print(f"\n🔍 GPU Memory Usage: {note}")
+    print(f"Total avilabe: {torch.cuda.get_device_properties(0).total_memory / 1024**2:.2f} MB")
+    print(f"Allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
+    print(f"Reserved : {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
+
+    try:
+        output = subprocess.check_output(["nvidia-smi"], encoding='utf-8')
+        # print(output)
+    except Exception as e:
+        print(f"Could not run nvidia-smi: {e}")
 
 def parse_arguments():
     """
@@ -436,6 +450,7 @@ def train(config) -> None:
     )
 
     print("🚀 Starting training...")
+    print_gpu_usage(note="Before running train()")
 
     trainer = Trainer(
         model=model,
@@ -449,6 +464,7 @@ def train(config) -> None:
     )
 
     trainer.train()
+    print_gpu_usage(note="After running train()")
 
     print("📊 Evaluating on test set...")
 
@@ -460,10 +476,18 @@ def train(config) -> None:
     print("="*60 + "\n")
 
     if config['save_model'] == True:
-        print(f"💾 Saving model to {config['model_path']}")
-        trainer.save_model(config['model_path'])
-        tokenizer.save_pretrained(config['model_path'])
-        print(f"✅ Model saved to {config['model_path']}")
+        if config['number_samples'] is not None:
+            model_folder = f"model_{config['number_samples']}_{config['eval_on']}_{date.today()}"
+        else:
+            model_folder = f"model_total_{config['eval_on']}_{date.today()}"
+        model_path = os.path.join(config['model_path'], model_folder)
+        os.makedirs(model_path, exist_ok=True)
+
+        print(f"💾 Saving model to {model_path}")
+
+        trainer.save_model(model_path)
+        tokenizer.save_pretrained(model_path)
+        print(f"✅ Model saved to {model_path}")
 
     if config['number_samples'] is not None:
         results_path = os.path.join("./results/csv/multi_label", f"test_results_{config['number_samples']}_{config['eval_on']}_{date.today()}.json")
@@ -526,7 +550,11 @@ def load(config) -> None:
     for i, task in enumerate(task_names):
         df[task] = [pred[i] for pred in all_predictions]
 
-    output_filepath = f"./results/csv/multi_label/results_multi_label_{date.today()}.csv"
+    input_filepath = Path(config['model_path'])
+    file_name = str(input_filepath.stem) + ".csv"
+    file_name = file_name.replace("model_", "results_multi_label_")
+
+    output_filepath = os.path.join("./results/csv/multi_label/", file_name)
 
     df.to_csv(
         output_filepath,
@@ -552,11 +580,21 @@ def main() -> None:
         train(config)
     elif config['load_model']:
         load(config)
+    
 
 if __name__ == "__main__":
     torch.cuda.empty_cache()
-
     if torch.cuda.is_available():
         torch.cuda.reset_peak_memory_stats()
 
+    print_gpu_usage(note="Before running main()")
+
     main()
+
+    print_gpu_usage(note="After running main()")
+
+    gc.collect()
+    torch.cuda.empty_cache()
+    if torch.cuda.is_available():
+        torch.cuda.reset_peak_memory_stats()
+
