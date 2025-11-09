@@ -7457,13 +7457,13 @@ New POS structure: 7101 -> ADJ(nsubj)-ADP(case)-PROPN(nmod)-CCONJ(cc)-ADP(case)-
 Added 7102 new POS structures
 Total POS codes: 7102
 
-Saved annotated data to results/csv/pos_tagging/results_pos_2025-11-08.csv
+Saved annotated data to results/csv/pos_tagging/results_pos_2025-11-09.csv
 Saved 7102 POS codes to logs/pos_codes.json
 
 === Processing Complete ===
 Files processed: 1/1
 Total POS patterns discovered: 7102
 Results saved to: ./data/csv/pos_tagging
-Time needed: 1806.8039255142212 seconds
-Average time per csv: 1806.8039255142212
+Time needed: 1778.2286131381989 seconds
+Average time per csv: 1778.2286131381989
 Script finished successfully
