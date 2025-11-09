@@ -16,6 +16,7 @@ results/_old/**
 # Ignore saved BERTopic models or other large model files
 results/models/**
 results/tokenizer/**
+models/**
 
 # Ignore quantized models
 data/quantizied_models/**
