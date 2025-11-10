@@ -1,18 +1,18 @@
 #!/bin/bash
-#SBATCH --job-name=multilabel_fub_run_a5000
-#SBATCH --output=./logs/slurm/output_fub_multilabel_a5000_%j.out
+#SBATCH --job-name=multilabel_fub_run_h100
+#SBATCH --output=./logs/slurm/output_fub_multilabel_h100_%j.out
 
 #SBATCH --partition=scavenger
 #SBATCH --account=agfritz
-#SBATCH --qos=standard
+#SBATCH --qos=prio
 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 
 #SBATCH --cpus-per-task=1
-#SBATCH --gres=gpu:a5000:1
-#SBATCH --mem=5G
-#SBATCH --time=06:00:00
+#SBATCH --gres=gpu:h100:1
+#SBATCH --mem=10G
+#SBATCH --time=15:00:00
 
 echo "Loading modules..."
 module purge
@@ -30,37 +30,37 @@ source venv/multi_label/bin/activate
 
 echo "Running python script..."
 
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -sm False
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ta random_deletion -sm False
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ta random_swap -em accuracy -sm False
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -cv True -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -cv True -ta random_deletion -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -cv True -ta random_swap -sm True
 
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -sm False
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ta random_deletion -sm False
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ta random_swap -sm False
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -cv True -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -cv True -ta random_deletion -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -cv True -ta random_swap -sm True
 
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -cv True -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -cv True -ta random_deletion -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -cv True -ta random_swap -sm False
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ht True -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ht True -ta random_deletion -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ht True -ta random_swap -sm True
 
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -cv True -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -cv True -ta random_deletion -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -cv True -ta random_swap -sm False
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ht True -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ht True -ta random_deletion -sm True
+# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ht True -ta random_swap -sm True
 
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ht True -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ht True -ta random_deletion -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ht True -ta random_swap -sm False
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ht True -cv True -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ht True -cv True -ta random_deletion -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ht True -cv True -ta random_swap -sm True
 
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ht True -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ht True -ta random_deletion -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ht True -ta random_swap -sm False
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ht True -cv True -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ht True -cv True -ta random_deletion -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ht True -cv True -ta random_swap -sm True
 
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ht True -cv True -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ht True -cv True -ta random_deletion -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em accuracy -ht True -cv True -ta random_swap -sm False
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ta random_deletion -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em accuracy -ta random_swap -em accuracy -sm True
 
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ht True -cv True -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ht True -cv True -ta random_deletion -sm False
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 100 -em macro_f1 -ht True -cv True -ta random_swap -sm False
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ta random_deletion -sm True
+python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp ./models/multi_label -tm True -ns 600 -em macro_f1 -ta random_swap -sm True
 
 # python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/results_pos_2025-11-09.csv -mp ./models/multi_label/model_False_False_accuracy_100_accuracy_2025-11-09 -lm True
 

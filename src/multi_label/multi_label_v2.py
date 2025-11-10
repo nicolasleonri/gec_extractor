@@ -14,7 +14,7 @@ from sklearn.model_selection import KFold
 from safetensors.torch import load_file
 from sklearn.metrics import f1_score
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from pprint import pprint
 import torch.nn as nn
@@ -83,7 +83,7 @@ class TrainingConfig:
     results_dir: str = "./results/csv/multi_label"
     model_path: str = "/scratch/nicolasal97/gec_extractor/results/models/multi_label"
     input_file: str = ""
-    output_dir: str = "./results/checkpoints/"
+    output_dir: str = "/scratch/nicolasal97/multi_label/checkpoints"
     
     # Evaluation
     eval_metric: str = ""
@@ -413,7 +413,7 @@ def create_training_arguments(config: TrainingConfig, fold: Optional[int] = None
         load_best_model_at_end=True,
         metric_for_best_model=config.eval_metric,
         greater_is_better=True,
-        save_total_limit=2,
+        save_total_limit=1,
         
         # Advanced settings
         fp16=config.use_mixed_precision,
@@ -660,52 +660,52 @@ def save_final_model(config: TrainingConfig, trainer: Trainer, model: torch.nn.M
         results: Optional training results dictionary
     """
     # Create model path
-    model_path = f"{config.model_path}/model_{config.type_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.number_samples}_{config.eval_metric}_{date.today()}"
+    # model_path = f"{config.model_path}/model_{config.type_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.number_samples}_{config.eval_metric}_{date.today()}"
 
-    if os.path.exists(model_path):
-        shutil.rmtree(model_path)
-        print(f"🗑️  Removed existing folder: {model_path}")
+    # if os.path.exists(model_path):
+    #     shutil.rmtree(model_path)
+    #     print(f"🗑️  Removed existing folder: {model_path}")
 
-    os.makedirs(model_path, exist_ok=True)
+    # os.makedirs(model_path, exist_ok=True)
 
-    print(f"\n💾 Saving model to: {model_path}")
+    # print(f"\n💾 Saving model to: {model_path}")
 
-    try:
-        tokenizer = trainer.processing_class
-        tokenizer.save_pretrained(model_path)
-        print("✅ Tokenizer saved")
-    except Exception as e:
-        print(f"⚠️  Could not save tokenizer: {e}")
+    # try:
+    #     tokenizer = trainer.processing_class
+    #     tokenizer.save_pretrained(model_path)
+    #     print("✅ Tokenizer saved")
+    # except Exception as e:
+    #     print(f"⚠️  Could not save tokenizer: {e}")
     
-    try:
-        trainer.save_model(model_path)
-        print("✅ Model weights saved")
-    except Exception as e:
-        print(f"⚠️  Could not save model weights: {e}")
+    # try:
+    #     trainer.save_model(model_path)
+    #     print("✅ Model weights saved")
+    # except Exception as e:
+    #     print(f"⚠️  Could not save model weights: {e}")
     
-    model_config = {
-        'model_name': config.model_name,
-        'num_tasks': len(label_columns),
-        'label_columns': label_columns,
-        'num_labels': 5,
-        'num_classes_per_task': 3,
-    }
+    # model_config = {
+    #     'model_name': config.model_name,
+    #     'num_tasks': len(label_columns),
+    #     'label_columns': label_columns,
+    #     'num_labels': 5,
+    #     'num_classes_per_task': 3,
+    # }
     
-    with open(os.path.join(model_path, 'model_config.json'), 'w') as f:
-        json.dump(model_config, f, indent=2)
-    print("✅ Model config saved")
+    # with open(os.path.join(model_path, 'model_config.json'), 'w') as f:
+    #     json.dump(model_config, f, indent=2)
+    # print("✅ Model config saved")
 
     # Save training configuration
-    with open(os.path.join(model_path, 'training_config.json'), 'w') as f:
-        # Convert dataclass to dict, handling non-serializable types
-        config_dict = {}
-        for key, value in config.__dict__.items():
-            if isinstance(value, (int, float, str, bool, list, dict, type(None))):
-                config_dict[key] = value
-            else:
-                config_dict[key] = str(value)
-        json.dump(config_dict, f, indent=2)
-    print("✅ Training config saved")
+    # with open(os.path.join(model_path, 'training_config.json'), 'w') as f:
+    #     # Convert dataclass to dict, handling non-serializable types
+    #     config_dict = {}
+    #     for key, value in config.__dict__.items():
+    #         if isinstance(value, (int, float, str, bool, list, dict, type(None))):
+    #             config_dict[key] = value
+    #         else:
+    #             config_dict[key] = str(value)
+    #     json.dump(config_dict, f, indent=2)
+    # print("✅ Training config saved")
 
     if results is not None:
         if config.number_samples is not None:
@@ -723,7 +723,7 @@ def save_final_model(config: TrainingConfig, trainer: Trainer, model: torch.nn.M
             json.dump(serializable_results, f, indent=2, cls=NumpyEncoder)
         print(f"✅ Results saved to: {results_path}")
     
-    print(f"\n✅ All files saved successfully to: {model_path}")
+    # print(f"\n✅ All files saved successfully to: {model_path}")
 
 def prepare_serializable_results(results: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -1080,13 +1080,31 @@ def validate_arguments(args) -> TrainingConfig:
 
     return config
 
+def create_checkpoint_dir(base_dir: str, preset_name: str) -> str:
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    run_name = f"{preset_name}_{timestamp}"
+    checkpoint_dir = os.path.join(base_dir, run_name)
+    os.makedirs(checkpoint_dir, exist_ok=True)
+    return checkpoint_dir
+
+def clean_checkpoint_dirs(input_dir: str) -> None:
+    for item in os.listdir(input_dir):
+        if item.startswith("checkpoint-") or item.startswith("fold_"):
+            path = os.path.join(input_dir, item)
+            shutil.rmtree(path)
+            print(f"  Removed {item}")
+
 def main() -> None:
     args = parse_arguments()
     config = validate_arguments(args)
-
+        
     if args.train_model:
         print(f"🚀 Starting training with preset: {args.training_preset}")
+        config.output_dir = create_checkpoint_dir(config.output_dir, args.training_preset)
+        print(f"📁 Checkpoint directory: {config.output_dir}")
         train(config)
+        print(f"🧹 Cleaning up checkpoints from {config.output_dir}")
+        clean_checkpoint_dirs(config.output_dir)
     elif args.load_model:
         load(config)
     
