@@ -9,11 +9,10 @@ Longformer architecture. It processes long documents (up to 4096 tokens) and per
 from typing import Union, List, Dict, Any, Optional, Tuple
 from sklearn.model_selection import train_test_split
 from torch.utils.data.dataset import Dataset
-from typing import Optional, List, Dict, Any
 from sklearn.model_selection import KFold
 from safetensors.torch import load_file
 from sklearn.metrics import f1_score
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
 from pprint import pprint
@@ -26,6 +25,7 @@ import numpy as np
 import subprocess
 import evaluate
 import argparse
+import time
 import torch
 import json
 import csv
@@ -46,30 +46,76 @@ from transformers import (
 )
 
 @dataclass
+class FoldMedianPruner:
+    metric_name: str = "accuracy"
+    min_folds_before_prune: int = 1
+    margin: float = 0.0
+    trial_timeout_s: Optional[int] = None
+
+    # internal state
+    fold_histories: Dict[int, List[float]] = field(default_factory=dict)
+    completed_trials_by_fold: Dict[int, List[float]] = field(default_factory=dict)
+    trial_start_time: Dict[int, float] = field(default_factory=dict)
+
+    def start_trial(self, trial_id: int):
+        self.fold_histories[trial_id] = []
+        self.trial_start_time[trial_id] = time.time()
+
+    def observe_fold(self, trial_id: int, fold_score: float, fold_idx: int):
+        self.fold_histories[trial_id].append(fold_score)
+        self.completed_trials_by_fold.setdefault(fold_idx, []).append(fold_score)
+
+    def should_prune(self, trial_id: int, fold_idx: int) -> bool:
+        # timeout check
+        if self.trial_timeout_s is not None:
+            if (time.time() - self.trial_start_time[trial_id]) > self.trial_timeout_s:
+                return True
+
+        # not enough info yet
+        if fold_idx + 1 < self.min_folds_before_prune:
+            return False
+
+        cur_scores = self.fold_histories[trial_id]
+        running_mean = float(np.mean(cur_scores))
+
+        # Build a baseline from *other* trials at this same fold index
+        population = self.completed_trials_by_fold.get(fold_idx, [])
+        population = [s for s in population if s is not None]
+        if len(population) == 0:
+            return False
+
+        median_baseline = float(np.median(population))
+        # prune if clearly below the median (minus slack)
+        return running_mean + self.margin < median_baseline
+
+@dataclass
 class TrainingConfig:
     # Model Configuration
     model_name: str = 'mrm8488/longformer-base-4096-spanish'
     num_tasks: int = 5
     num_classes: int = 3
     dropout_rate: float = 0.15
+    random_seed: int = 42
 
     # Tokenizer Configuration 
     eos_token_id: int = None  
     pad_token_id: int = None  
     bos_token_id: int = None  
+
+    label_columns: list = None
     
     # Training Configuration
     learning_rate: float = 2e-5
     head_learning_rate: float = 3e-4
-    batch_size: int = 8
-    num_epochs: int = 7
-    warmup_ratio: float = 0.1
+    batch_size: int = 16
+    num_epochs: int = 10
+    warmup_ratio: float = 0.15
     weight_decay: float = 0.01
     max_grad_norm: float = 1.0
     
     # Augmentation Configuration
-    swap_ratio: float = 0.15
-    deletion_prob: float = 0.15
+    swap_ratio: float = 0.2
+    deletion_prob: float = 0.2
     
     # Cross-Validation
     cross_validate: bool = False
@@ -93,7 +139,7 @@ class TrainingConfig:
     # Advanced Settings
     use_mixed_precision: bool = True
     gradient_accumulation_steps: int = 2
-    early_stopping_patience: int = 5
+    early_stopping_patience: int = 3
     save_model: bool = True
 
 
@@ -203,46 +249,36 @@ class TextClassifierDataset(Dataset):
         
     def __getitem__(self, idx):
         item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
-        
+
         if self.type_augmentation == "random_swap":
             item = self._random_swap(item)
         elif self.type_augmentation == "random_deletion":
             item = self._random_deletion(item)
-            
+
         item["labels"] = torch.tensor(self.labels[idx], dtype=torch.float32)
         return item
     
     def _random_swap(self, item):
         """Randomly swap words in the sequence"""
         try:
-            input_ids = item['input_ids'].clone()
+            input_ids = item["input_ids"]
+            seq_len = input_ids.size(0)
             
-            if len(input_ids) < 5:
+            if seq_len < 6:
                 return item
+
+            # Number of swaps proportional to sequence length
+            n_swaps = max(1, int(seq_len * self.swap_ratio))
+
+            # Build random index pairs
+            idx = torch.randperm(seq_len)[: 2 * n_swaps].view(-1, 2)
+
+            # Swap in-place
+            swapped = input_ids.clone()
+            swapped[idx[:, 0]], swapped[idx[:, 1]] = swapped[idx[:, 1]].clone(), swapped[idx[:, 0]].clone()
+
+            item["input_ids"] = swapped
                 
-            text = self.tokenizer.decode(input_ids, skip_special_tokens=True)
-            words = text.split()
-            
-            if len(words) > 4:
-                num_swaps = max(1, int(len(words) * self.swap_ratio))
-                
-                for _ in range(num_swaps):
-                    idx1, idx2 = np.random.choice(len(words), 2, replace=False)
-                    words[idx1], words[idx2] = words[idx2], words[idx1]
-                
-                augmented_text = ' '.join(words)
-                augmented_encoding = self.tokenizer(
-                    augmented_text, 
-                    truncation=True, 
-                    max_length=4096,
-                    padding=False,
-                    return_tensors="pt"
-                )
-                
-                if len(augmented_encoding['input_ids'][0]) > 0:
-                    item['input_ids'] = augmented_encoding['input_ids'][0]
-                    item['attention_mask'] = augmented_encoding['attention_mask'][0]
-            
         except Exception as e:
             print(f"Random swap failed: {e}")
             pass
@@ -252,33 +288,31 @@ class TextClassifierDataset(Dataset):
     def _random_deletion(self, item):
         """Randomly delete words with probability"""
         try:
-            input_ids = item['input_ids'].clone()
-            
-            if len(input_ids) < 5:
+            input_ids = item["input_ids"]
+            attention_mask = item["attention_mask"]
+            seq_len = input_ids.size(0)
+
+            if seq_len < 6:
                 return item
-                
-            text = self.tokenizer.decode(input_ids, skip_special_tokens=True)
-            words = text.split()
-            
-            if len(words) > 3:
-                kept_words = []
-                for word in words:
-                    if torch.rand(1).item() > self.deletion_prob:
-                        kept_words.append(word)
-                
-                if len(kept_words) >= max(2, int(len(words) * 0.5)) and len(kept_words) < len(words):
-                    augmented_text = ' '.join(kept_words)
-                    augmented_encoding = self.tokenizer(
-                        augmented_text, 
-                        truncation=True, 
-                        max_length=4096,
-                        padding=False,
-                        return_tensors="pt"
-                    )
-                    
-                    if len(augmented_encoding['input_ids'][0]) > 0:
-                        item['input_ids'] = augmented_encoding['input_ids'][0]
-                        item['attention_mask'] = augmented_encoding['attention_mask'][0]
+
+            # Random keep/drop decision per token
+            keep_mask = torch.rand(seq_len) > self.deletion_prob
+
+            # Always keep at least a few tokens
+            if keep_mask.sum() < 5:
+                return item
+
+            # Replace dropped tokens with the pad token
+            pad_id = self.tokenizer.pad_token_id
+
+            dropped = input_ids.clone()
+            dropped[~keep_mask] = pad_id
+            item["input_ids"] = dropped
+
+            # Fix attention mask
+            new_mask = attention_mask.clone()
+            new_mask[~keep_mask] = 0
+            item["attention_mask"] = new_mask
             
         except Exception as e:
             print(f"Random deletion failed: {e}")
@@ -361,7 +395,7 @@ class MultiTaskLongformer(nn.Module):
 
 def print_gpu_usage(note="") -> None:
     print(f"\n🔍 GPU Memory Usage: {note}")
-    print(f"Total avilabe: {torch.cuda.get_device_properties(0).total_memory / 1024**2:.2f} MB")
+    print(f"Total available: {torch.cuda.get_device_properties(0).total_memory / 1024**2:.2f} MB")
     print(f"Allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
     print(f"Reserved : {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
 
@@ -423,42 +457,73 @@ def create_training_arguments(config: TrainingConfig, fold: Optional[int] = None
         report_to=None,  # Disable external logging for now
     )
 
-def cross_validate_training(config: TrainingConfig, df: pd.DataFrame, label_columns: List[str], type_augmentation: str) -> Dict[str, Any]:
+def cross_validate_training(config: TrainingConfig, 
+                            train_encodings: Dict[str, list], 
+                            train_labels: List[List[float]],
+                            type_augmentation: str,
+                            pruner: Optional[FoldMedianPruner] = None, 
+                            trial_id: Optional[int] = None) -> Dict[str, Any]:
     """K-fold cross validation that returns trainers"""
-    
-    kf = KFold(n_splits=config.n_folds, shuffle=True, random_state=42)
+
+    num_samples = len(train_labels)
+    kf = KFold(n_splits=config.n_folds, shuffle=True, random_state=config.random_seed)
     fold_metrics = []
+
+    if pruner is not None and trial_id is not None:
+        pruner.start_trial(trial_id)
     
-    for fold, (train_idx, val_idx) in enumerate(kf.split(df)):
+    for fold, (train_idx, val_idx) in enumerate(kf.split(range(num_samples))):
         print(f"🎯 Training Fold {fold + 1}/{config.n_folds}")
+
+        train_fold_encodings = {k: [v[i] for i in train_idx] for k, v in train_encodings.items()}
+        val_fold_encodings   = {k: [v[i] for i in val_idx] for k, v in train_encodings.items()}
+        train_fold_labels = [train_labels[i] for i in train_idx]
+        val_fold_labels   = [train_labels[i] for i in val_idx]
         
-        train_fold = df.iloc[train_idx]
-        val_fold = df.iloc[val_idx]
-        
+
         # Train on this fold and return trainer
-        fold_result = train_single_fold(config, train_fold, val_fold, label_columns, type_augmentation, fold)
+        fold_result = train_single_fold(
+            config,
+            train_fold_encodings,
+            train_fold_labels,
+            val_fold_encodings,
+            val_fold_labels,
+            type_augmentation,
+            fold
+        )
+
         fold_metrics.append(fold_result)
+
+        if config.eval_metric == "accuracy":
+            fold_score = fold_result["eval_metrics"]["eval_accuracy"]
+        elif config.eval_metric == "macro_f1":
+            fold_score = fold_result["eval_metrics"]["eval_macro_f1"]
+        else:
+            raise ValueError(f"Unknown eval_metric: {config.eval_metric}")
+
+        if pruner is not None and trial_id is not None:
+            pruner.observe_fold(trial_id, fold_score, fold_idx=fold)
+            if pruner.should_prune(trial_id, fold_idx=fold):
+                print(f"⚡️ Trial {trial_id} pruned after fold {fold + 1}.")
+                # Aggregate what we have so far so the caller can still log/compare
+                partial = aggregate_fold_metrics(fold_metrics)
+                partial["pruned"] = True
+                return partial
         
-        torch.cuda.empty_cache()
-        gc.collect()
+        clean()
     
     final_metrics = aggregate_fold_metrics(fold_metrics)
+    final_metrics["pruned"] = False
     print_cross_validation_results(fold_metrics, final_metrics)
     
     return final_metrics
 
-def evaluate_single(config: TrainingConfig, trainer: Trainer, test_df: pd.DataFrame, label_columns: List[str]) -> Dict[str, Any]:
+def evaluate_single(config: TrainingConfig, trainer: Trainer, 
+                    test_encodings: Dict[str, torch.Tensor], test_labels: List[List[float]]) -> Dict[str, Any]:
     """Evaluate the trained model on the test set"""
-    
-    tokenizer = trainer.processing_class
-
-    test_texts = test_df['combined_text'].tolist() 
-    test_labels = test_df[label_columns].values.tolist()
-    
-    test_encodings = tokenizer(test_texts, truncation=True, max_length=4096)
-    
+        
     test_dataset = TextClassifierDataset(
-        test_encodings, test_labels, tokenizer, 
+        test_encodings, test_labels, None, 
         swap_ratio=config.swap_ratio,
         type_augmentation=None,
         deletion_prob=None
@@ -468,21 +533,13 @@ def evaluate_single(config: TrainingConfig, trainer: Trainer, test_df: pd.DataFr
     
     return eval_results
 
-def train_single_fold(config: TrainingConfig, train_df: pd.DataFrame, 
-                     val_df: pd.DataFrame, label_columns: List[str], type_augmentation: str, fold: int):
+def train_single_fold(config: TrainingConfig, 
+                    train_encodings: Dict[str, torch.Tensor], train_labels: List[List[float]],
+                    val_encodings: Dict[str, torch.Tensor], val_labels: List[List[float]],
+                    type_augmentation: str, fold: int):
     """Train model on a single fold and return trainer"""
     
     tokenizer = AutoTokenizer.from_pretrained(config.model_name, do_lower_case=True)
-    
-    # Prepare data
-    train_texts = train_df['combined_text'].tolist()
-    val_texts = val_df['combined_text'].tolist()
-    train_labels = train_df[label_columns].values.tolist()
-    val_labels = val_df[label_columns].values.tolist()
-    
-    # Tokenize
-    train_encodings = tokenizer(train_texts, truncation=True, max_length=4096)
-    val_encodings = tokenizer(val_texts, truncation=True, max_length=4096)
     
     # Create datasets
     train_dataset = TextClassifierDataset(
@@ -493,16 +550,18 @@ def train_single_fold(config: TrainingConfig, train_df: pd.DataFrame,
     )
     val_dataset = TextClassifierDataset(
         val_encodings, val_labels, tokenizer, 
-        swap_ratio=config.swap_ratio,
-        type_augmentation=type_augmentation,
-        deletion_prob=config.deletion_prob
+        swap_ratio=0.0,                       # no augmentation
+        type_augmentation=None,                # disable augmentation
+        deletion_prob=0.0                      # disable deletion
     )
     
     # Initialize model
     model = MultiTaskLongformer(config)
     
     # Setup metrics
-    metrics_calculator = MultiTaskMetrics(len(label_columns), label_columns)
+    num_tasks = len(train_labels[0])
+    task_names = [f"task_{i}" for i in range(num_tasks)]
+    metrics_calculator = MultiTaskMetrics(len(config.label_columns), config.label_columns)
     
     # Create training arguments
     training_args = TrainingArguments(
@@ -521,6 +580,8 @@ def train_single_fold(config: TrainingConfig, train_df: pd.DataFrame,
         fp16=config.use_mixed_precision,
         report_to=None,
     )
+
+    data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
     
     # Create trainer
     trainer = Trainer(
@@ -528,7 +589,8 @@ def train_single_fold(config: TrainingConfig, train_df: pd.DataFrame,
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        processing_class=tokenizer,
+        data_collator=data_collator,
+        # processing_class=tokenizer,
         compute_metrics=metrics_calculator.compute_detailed_metrics,
         callbacks=[EarlyStoppingCallback(early_stopping_patience=config.early_stopping_patience)]
     )
@@ -575,41 +637,68 @@ def print_cross_validation_results(fold_metrics: List[Dict], final_metrics: Dict
     print(f"Mean Train Loss: {final_metrics['mean_train_loss']:.4f}")
     print("="*60)
 
-def hyperparameter_tuning(config: TrainingConfig, df: pd.DataFrame, label_columns: List[str]) -> Dict[str, Any]:
-    best_score = 0
+def hyperparameter_tuning(config: TrainingConfig, val_encodings: Dict[str, torch.Tensor], val_labels: List[List[float]]) -> Dict[str, Any]:
+    np.random.seed(config.random_seed)
+
+    best_score = -float("inf")
     best_config = None
     trial_results = []
+    best_trial = None
+
+    pruner = FoldMedianPruner(
+        metric_name=config.eval_metric,
+        min_folds_before_prune=max(1, int(0.5 * config.n_folds)),
+        margin=0.05,
+        trial_timeout_s=None  # e.g., 1800 for 30 min per trial
+    )
     
     for trial in range(config.num_trials):
         print(f"🔍 Hyperparameter Trial {trial + 1}/{config.num_trials}")
         
-        # Sample hyperparameters
         trial_config = replace(
             config,
-            learning_rate=np.random.choice([1e-5, 2e-5, 5e-5, 1e-4]),
-            batch_size=int(np.random.choice([1, 2, 4])),
-            warmup_ratio=np.random.uniform(0.05, 0.2),
-            weight_decay=np.random.choice([0.01, 0.001])
+            learning_rate=float(10**np.random.uniform(-5, -4)),
+            batch_size=int(np.random.choice([2, 4, 8])),
+            warmup_ratio=float(np.random.choice([0.05, 0.1, 0.15])),
+            weight_decay=float(np.random.choice([0.01, 0.001, 0.0001])),
+            dropout_rate=float(np.random.choice([0.1, 0.15, 0.2])),
         )
-        
+
+        effective_batch = 32  # TODO: Try with 16
+        trial_config.gradient_accumulation_steps = max(1, effective_batch // trial_config.batch_size)
+
         try:
-            results = cross_validate_training(trial_config, df, label_columns, type_augmentation=None)
-            score = results['mean_macro_f1']
+            results = cross_validate_training(
+                trial_config, 
+                val_encodings, 
+                val_labels,
+                type_augmentation=None,
+                pruner=pruner, 
+                trial_id=trial + 1
+            )
+            
+            if config.eval_metric == "accuracy":
+                score = results['mean_overall_accuracy']
+            elif config.eval_metric == "macro_f1":
+                score = results['mean_macro_f1']
             
             trial_info = {
                 'trial_num': trial + 1,
                 'config': trial_config,
                 'score': score,
-                'results': results
+                'results': results,
+                'pruned': results.get('pruned', False)
             }
             trial_results.append(trial_info)
 
-            print(f"   Score: {score:.4f}")
+            status = "PRUNED" if results.get('pruned', False) else "DONE"
+            print(f"   [{status}] Score: {score:.4f}")
 
-            if score > best_score:
-                best_score = score
-                best_trial = trial_info
-                print(f"   🎯 New best configuration! Score: {best_score:.4f}")
+            if not trial_info["pruned"]:
+                if best_trial is None or score > best_score:
+                    best_score = score
+                    best_trial = trial_info
+                    print(f"   🎯 New best configuration! Score: {best_score:.4f}")
                 
         except Exception as e:
             print(f"   ❌ Trial {trial + 1} failed: {e}")
@@ -645,10 +734,11 @@ def hyperparameter_tuning(config: TrainingConfig, df: pd.DataFrame, label_column
         'best_model': best_model,
         'best_results': best_results,
         'best_score': best_score,
-        'trial_results': trial_results
+        'trial_results': trial_results,
+        'best_trial': best_trial
     }
 
-def save_final_model(config: TrainingConfig, trainer: Trainer, model: torch.nn.Module, label_columns: List[str], results: Dict[str, Any] = None):
+def save_final_model(config: TrainingConfig, trainer: Trainer, model: torch.nn.Module, results: Dict[str, Any] = None):
     """
     Save the final trained model, tokenizer, configuration, and results.
     
@@ -660,52 +750,52 @@ def save_final_model(config: TrainingConfig, trainer: Trainer, model: torch.nn.M
         results: Optional training results dictionary
     """
     # Create model path
-    # model_path = f"{config.model_path}/model_{config.type_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.number_samples}_{config.eval_metric}_{date.today()}"
+    model_path = f"{config.model_path}/model_{config.type_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.number_samples}_{config.eval_metric}_{date.today()}"
 
-    # if os.path.exists(model_path):
-    #     shutil.rmtree(model_path)
-    #     print(f"🗑️  Removed existing folder: {model_path}")
+    if os.path.exists(model_path):
+        shutil.rmtree(model_path)
+        print(f"🗑️  Removed existing folder: {model_path}")
 
-    # os.makedirs(model_path, exist_ok=True)
+    os.makedirs(model_path, exist_ok=True)
 
-    # print(f"\n💾 Saving model to: {model_path}")
+    print(f"\n💾 Saving model to: {model_path}")
 
-    # try:
-    #     tokenizer = trainer.processing_class
-    #     tokenizer.save_pretrained(model_path)
-    #     print("✅ Tokenizer saved")
-    # except Exception as e:
-    #     print(f"⚠️  Could not save tokenizer: {e}")
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(config.model_name, do_lower_case=True)
+        tokenizer.save_pretrained(model_path)
+        print("✅ Tokenizer saved")
+    except Exception as e:
+        print(f"⚠️  Could not save tokenizer: {e}")
     
-    # try:
-    #     trainer.save_model(model_path)
-    #     print("✅ Model weights saved")
-    # except Exception as e:
-    #     print(f"⚠️  Could not save model weights: {e}")
+    try:
+        trainer.save_model(model_path)
+        print("✅ Model weights saved")
+    except Exception as e:
+        print(f"⚠️  Could not save model weights: {e}")
     
-    # model_config = {
-    #     'model_name': config.model_name,
-    #     'num_tasks': len(label_columns),
-    #     'label_columns': label_columns,
-    #     'num_labels': 5,
-    #     'num_classes_per_task': 3,
-    # }
+    model_config = {
+        'model_name': config.model_name,
+        'num_tasks': len(config.label_columns),
+        'label_columns': config.label_columns,
+        'num_labels': 5,
+        'num_classes_per_task': 3,
+    }
     
-    # with open(os.path.join(model_path, 'model_config.json'), 'w') as f:
-    #     json.dump(model_config, f, indent=2)
-    # print("✅ Model config saved")
+    with open(os.path.join(model_path, 'model_config.json'), 'w') as f:
+        json.dump(model_config, f, indent=2)
+    print("✅ Model config saved")
 
     # Save training configuration
-    # with open(os.path.join(model_path, 'training_config.json'), 'w') as f:
-    #     # Convert dataclass to dict, handling non-serializable types
-    #     config_dict = {}
-    #     for key, value in config.__dict__.items():
-    #         if isinstance(value, (int, float, str, bool, list, dict, type(None))):
-    #             config_dict[key] = value
-    #         else:
-    #             config_dict[key] = str(value)
-    #     json.dump(config_dict, f, indent=2)
-    # print("✅ Training config saved")
+    with open(os.path.join(model_path, 'training_config.json'), 'w') as f:
+        # Convert dataclass to dict, handling non-serializable types
+        config_dict = {}
+        for key, value in config.__dict__.items():
+            if isinstance(value, (int, float, str, bool, list, dict, type(None))):
+                config_dict[key] = value
+            else:
+                config_dict[key] = str(value)
+        json.dump(config_dict, f, indent=2)
+    print("✅ Training config saved")
 
     if results is not None:
         if config.number_samples is not None:
@@ -799,7 +889,7 @@ def load_and_prepare_data(config: TrainingConfig) -> pd.DataFrame:
     # Limit samples if specified
     if config.number_samples is not None:
         df = df.head(config.number_samples)
-        print(f"⚠️  Limited to {config.number_samples} samples for testing")
+        print(f"⚠️ Limited to {config.number_samples} samples for testing")
     
     return df
 
@@ -809,13 +899,13 @@ def identify_label_columns(df: pd.DataFrame) -> List[str]:
     label_columns = [col for col in df.columns if col not in not_chosen_columns]
     return label_columns
 
-def split_data(df: pd.DataFrame, test_size: float = 0.15, val_size: float = 0.176, random_state: int = 42):
+def split_data(df: pd.DataFrame, random_seed: int, test_size: float = 0.15, val_size: float = 0.176):
     """
     Split data into train/val/test sets.
     Default split: 70% train, 15% val, 15% test
     """
-    train_val_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
-    train_df, val_df = train_test_split(train_val_df, test_size=val_size, random_state=random_state)
+    train_val_df, test_df = train_test_split(df, test_size=test_size, random_state=random_seed)
+    train_df, val_df = train_test_split(train_val_df, test_size=val_size, random_state=random_seed)
     
     print(f"📊 Data split: Train={len(train_df)}, Val={len(val_df)}, Test={len(test_df)}")
     
@@ -844,59 +934,94 @@ def print_test_results(test_results: Dict[str, Any]):
     
     print("="*60)
 
+def tokenize_df(config, df, tokenizer):
+    texts = df['combined_text'].tolist()
+    labels = df[config.label_columns].values.tolist()
+    encodings = tokenizer(texts, truncation=True, max_length=4096, padding=True)
+    return texts, labels, encodings
+
 def train(config: TrainingConfig) -> Dict[str, Any]:    
     print("🚀 Starting (Enhanced) Training Pipeline")
     print("="*60)
+
+    tokenizer = AutoTokenizer.from_pretrained(config.model_name, do_lower_case=True)
     
     df = load_and_prepare_data(config)
-    label_columns = identify_label_columns(df)
-    config.num_tasks = len(label_columns)
+    config.label_columns = identify_label_columns(df)
+    config.num_tasks = len(config.label_columns)
     
-    print(f"📊 Dataset: {len(df)} samples, {len(label_columns)} tasks")
-    print(f"🏷️ Tasks: {label_columns}")
+    print(f"📊 Dataset: {len(df)} samples, {len(config.label_columns)} tasks")
+    print(f"🏷️ Tasks: {config.label_columns}")
+
+    train_df, val_df, test_df = split_data(df, random_seed=config.random_seed) # 70/15/15
+    train_val_df = pd.concat([train_df, val_df], ignore_index=True)
     
+    print("🔄 Pre-tokenizing dataset...")
+    train_val_texts, train_labels, train_encodings = tokenize_df(config, train_df, tokenizer)
+    val_texts, val_labels, val_encodings = tokenize_df(config, val_df, tokenizer)
+    test_texts, test_labels, test_encodings = tokenize_df(config, test_df, tokenizer)
+    train_val_texts, train_val_labels, train_val_encodings = tokenize_df(config, train_val_df, tokenizer)
+    print("✅ Pre-tokenization complete.")
+    print("\n" + "="*60)
+
     best_trainer = None
     best_model = None
 
-    train_df, val_df, test_df = split_data(df, random_state=42)
-    train_val_df = pd.concat([train_df, val_df], ignore_index=True)
-
     if config.hyperparameter_tuning:
         print("\n🎯 Starting Hyperparameter Tuning")
-        tuning_results = hyperparameter_tuning(config, val_df, label_columns)
+        tuning_results = hyperparameter_tuning(
+            config, 
+            val_encodings, 
+            val_labels
+        )
         config = tuning_results['best_config']
-        best_trainer = tuning_results['best_trainer']
-        best_model = tuning_results['best_model']
         print(f"✅ Best hyperparameters found with score: {tuning_results['best_score']:.4f}")
         clean()
     
     if config.cross_validate:
-        print("\n🔄 Starting Cross-Validation")
-        final_results = cross_validate_training(config, train_val_df, label_columns, config.type_augmentation)
-        
+        print("🔄 Pre-tokenizing dataset...")
+        print("✅ Pre-tokenization complete.")
+        print("\n" + "="*60)
+
+        final_results = cross_validate_training(
+            config, 
+            train_val_encodings, 
+            train_val_labels, 
+            config.type_augmentation
+        )
+
         best_fold = max(final_results['fold_metrics'], key=lambda x: x['eval_metrics']['eval_accuracy'])
         best_trainer = best_fold['trainer']
-        
         print(f"✅ Best fold: {best_fold['fold']} with accuracy: {best_fold['eval_metrics']['eval_accuracy']:.4f}")
+
         print("\n📊 Evaluating on Test Set")
-        
-        test_results = evaluate_single(config, best_trainer, test_df, label_columns)
+        test_results = evaluate_single(config, best_trainer, test_encodings, test_labels)
         print_test_results(test_results)
         clean()
     else:
-        print("\n🎯 Starting Standard Training (Single Split)")
-        final_results = train_single_fold(config, train_df, val_df, label_columns, config.type_augmentation, fold=None)
+        print("🎯 Starting Standard Training (Single Split)")
+        final_results = train_single_fold(
+            config, 
+            train_encodings, 
+            train_labels, 
+            val_encodings, 
+            val_labels, 
+            config.type_augmentation, 
+            fold=None
+        )
+
         best_trainer = final_results.get('trainer')
         best_model = final_results.get('model')
+
         print("\n📊 Evaluating on Test Set")
-        test_results = evaluate_single(config, best_trainer, test_df, label_columns)
+        test_results = evaluate_single(config, best_trainer, test_encodings, test_labels)
         print_test_results(test_results)
         clean()
 
     if config.save_model == True:
-        save_final_model(config, best_trainer, best_model, label_columns, test_results)
+        save_final_model(config, best_trainer, best_model, test_results)
 
-    print("\n✅ Training completed successfully!")
+    print("✅ Training completed successfully!")
     clean()
     
     return final_results
@@ -962,7 +1087,7 @@ def load(config) -> None:
         na_rep='NA',
         sep=';',            # Use semicolon as delimiter
         quotechar='"',      # Force double quotes around strings
-        date_format='%d-%M-%Y',  # Format datetime columns consistently
+        date_format='%d-%m-%Y',  # Format datetime columns consistently
         quoting=csv.QUOTE_ALL, # Ensure all fields are quoted
         decimal='.', 
         errors='strict',
@@ -1053,9 +1178,9 @@ def validate_arguments(args) -> TrainingConfig:
     if args.number_samples is not None and args.number_samples <= 0:
         errors.append("Number of samples must be a positive integer")
     elif args.number_samples is not None:
-        print(f"\nUsing only the first {args.number_samples} samples for training/evaluation")
+        print(f"Using only the first {args.number_samples} samples for training/evaluation")
     elif args.number_samples is None:
-        print("\nUsing all available samples for training/evaluation")
+        print("Using all available samples for training/evaluation")
 
     if errors:
         print("❌ Validation errors:")
@@ -1099,7 +1224,6 @@ def main() -> None:
     config = validate_arguments(args)
         
     if args.train_model:
-        print(f"🚀 Starting training with preset: {args.training_preset}")
         config.output_dir = create_checkpoint_dir(config.output_dir, args.training_preset)
         print(f"📁 Checkpoint directory: {config.output_dir}")
         train(config)
@@ -1116,6 +1240,5 @@ if __name__ == "__main__":
     main()
     print_gpu_usage(note="After running main()")
     clean()
-
-    
+    print("\n" + "="*60)
 
