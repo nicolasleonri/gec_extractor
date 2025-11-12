@@ -1,5 +1,5 @@
 {
-  "eval_loss": 3.1690824031829834,
+  "eval_loss": 3.080116033554077,
   "eval_accuracy": 0.7088888888888889,
   "eval_modernizante_accuracy": 0.6666666666666666,
   "eval_modernizante_f1_macro": 0.4,
@@ -39,8 +39,8 @@
   "eval_corr_neoliberal_posmoderna": 0.0,
   "eval_corr_neoliberal_voluntarista": 0.0,
   "eval_corr_posmoderna_voluntarista": 0.0,
-  "eval_runtime": 0.6616,
-  "eval_samples_per_second": 136.035,
-  "eval_steps_per_second": 9.069,
+  "eval_runtime": 0.6563,
+  "eval_samples_per_second": 137.143,
+  "eval_steps_per_second": 9.143,
   "epoch": 4.0
 }
