@@ -30,37 +30,41 @@ source venv/multi_label/bin/activate
 
 echo "Running python script..."
 
+### FINAL RUNS!
+python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -cv True -em accuracy -sm True
+python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -cv True -em macro_f1 -sm True
+python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -cv True -ta random_deletion -em accuracy -sm True
+
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -cv True -ta random_swap -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -cv True -ta random_deletion -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -cv True -ta random_swap -em accuracy -sm True
+
 ### ONE TEST!
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -em accuracy -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -ta random_deletion -em macro_f1 -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -em accuracy -cv True -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -em macro_f1 -ht True -cv True -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -ta random_deletion -em macro_f1 -ht True -cv True -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -em accuracy -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -ta random_deletion -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -em accuracy -cv True -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -em macro_f1 -ht True -cv True -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 100 -ta random_deletion -em macro_f1 -ht True -cv True -sm True
 
 ### RERUN!
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -em accuracy -sm True
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -em macro_f1 -sm True
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ta random_deletion -em accuracy -sm True
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ta random_swap -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -em accuracy -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ta random_deletion -em accuracy -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ta random_swap -em macro_f1 -sm True
 
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -cv True -em accuracy -sm True
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -cv True -em macro_f1 -sm True
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -cv True -ta random_deletion -em accuracy -sm True
-python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -cv True -ta random_swap -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -cv True -em accuracy -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -cv True -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -cv True -ta random_deletion -em accuracy -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -cv True -ta random_swap -em macro_f1 -sm True
 
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -em accuracy -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -em macro_f1 -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -ta random_deletion -em accuracy -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -ta random_swap -em macro_f1 -sm True
-
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -cv True -em accuracy -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -cv True -em macro_f1 -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -cv True -ta random_deletion -em accuracy -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -ht True -cv True -ta random_swap -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -em accuracy -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -em macro_f1 -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -ta random_deletion -em accuracy -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -ht True -ta random_swap -em macro_f1 -sm True
 
 ### TO RERUN AND ANNOTATE!
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 600 -em macro_f1 -ta random_swap -sm True
-# python3 -u ./src/multi_label/multi_label_v2.py -f ./data/csv/multi_label/results_pos_2025-11-09.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label/model_False_False_accuracy_100_accuracy_2025-11-09 -lm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 700 -em macro_f1 -ta random_swap -sm True
+# python3 -u ./src/multi_label/multi_label_v3.py -f ./data/csv/multi_label/results_pos_2025-11-09.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label/model_False_False_accuracy_100_accuracy_2025-11-09 -lm True
 
 deactivate
 module purge
