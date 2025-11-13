@@ -49,6 +49,7 @@ import seaborn as sns
 from collections import Counter
 from scipy.stats import chi2_contingency, entropy
 from smote import *
+from torch.nn import functional as F
 
 @dataclass
 class FoldMedianPruner:
@@ -353,13 +354,32 @@ class FocalLoss(nn.Module):
         probs = torch.exp(log_probs)
         targets = targets.long()
 
-        focal_weight = (1 - probs) ** self.gamma
+        ce_loss = F.nll_loss(log_probs, targets, reduction='none')
+
+        pt = probs.gather(1, targets.unsqueeze(1)).squeeze(1)
+        focal_weight = (1 - pt) ** self.gamma
+
         if self.alpha is not None:
             alpha = self.alpha.to(inputs.device)
-            focal_weight = alpha[targets] * focal_weight
+            alpha_t = alpha[targets]
+            focal_weight = alpha_t * focal_weight
 
-        loss = F.nll_loss(focal_weight * log_probs, targets, reduction=self.reduction)
-        return loss
+        loss = focal_weight * ce_loss
+    
+        if self.reduction == 'mean':
+            return loss.mean()
+        elif self.reduction == 'sum':
+            return loss.sum()
+        else:
+            return loss
+
+        # focal_weight = (1 - probs) ** self.gamma
+        # if self.alpha is not None:
+        #     alpha = self.alpha.to(inputs.device)
+        #     focal_weight = alpha[targets] * focal_weight
+
+        # loss = F.nll_loss(focal_weight * log_probs, targets, reduction=self.reduction)
+        # return loss
 
 
 class MultiTaskLongformer(nn.Module):
@@ -428,7 +448,8 @@ class MultiTaskLongformer(nn.Module):
             gamma = focal_cfg.get('gamma', 2.0)
 
             for i in range(self.config.num_tasks):
-                task_labels = labels[:, i] + 1
+                task_name = self.config.label_columns[i]
+                task_labels = labels[:, i] + 1  # pasar de [-1,0,1] → [0,1,2]
                 task_logits = logits[:, i, :]
                 # task_loss = loss_fct(task_logits, task_labels.long())
                 # losses.append(task_loss * self.task_weights[i])
@@ -1209,15 +1230,22 @@ def train(config: TrainingConfig) -> Dict[str, Any]:
     print(f"   - Test:  {len(test_df)} samples ({len(test_df)/len(df)*100:.1f}%)")
 
     class_weights = compute_class_weights(train_df, config.label_columns, method='effective')
-    config.class_weights_per_task = {
-        task: data['weights']
-        for task, data in class_weights.items()
-        if task != 'config'
-    }
+    config.class_weights_per_task = {}
+    for task, data in class_weights.items():
+        if task != 'config':
+            # data['weights'] tiene formato {-1: peso, 0: peso, 1: peso}
+            # Necesitamos convertirlo a {0: peso, 1: peso, 2: peso}
+            adjusted_weights = {
+                original_class + 1: weight 
+                for original_class, weight in data['weights'].items()
+            }
+            config.class_weights_per_task[task] = adjusted_weights
     config.focal_loss_config = {
         'gamma': 2.0,
         'alpha_per_task': config.class_weights_per_task,
     }
+    
+    clean()
     
     print("🔄 Pre-tokenizing dataset...")
     train_val_texts, train_labels, train_encodings = tokenize_df(config, train_df, tokenizer)
