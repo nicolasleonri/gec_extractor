@@ -116,7 +116,7 @@ class TrainingConfig:
     learning_rate: float = 2e-5
     head_learning_rate: float = 3e-4
     batch_size: int = 16
-    num_epochs: int = 10
+    num_epochs: int = 10 # Before: 10
     warmup_ratio: float = 0.15
     weight_decay: float = 0.01
     max_grad_norm: float = 1.0
@@ -131,7 +131,7 @@ class TrainingConfig:
     
     # Hyperparameter Tuning
     hyperparameter_tuning: bool = False
-    num_trials: int = 10
+    num_trials: int = 8 # Before: 10
     
     # Paths
     results_dir: str = "./results/csv/multi_label"
