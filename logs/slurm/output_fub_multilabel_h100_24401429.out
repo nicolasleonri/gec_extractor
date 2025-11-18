@@ -1,0 +1,23 @@
+Loading modules...
+Setting folders...
+Activating virtual environment...
+Running python script...
+
+🔍 GPU Memory Usage: Before running main()
+Total available: 81079.12 MB
+Allocated: 0.00 MB
+Reserved : 0.00 MB
+Using only the first 1200 samples for training/evaluation
+============================================================
+📁 Checkpoint directory: /scratch/nicolasal97/multi_label/checkpoints/model_20251118_211511
+🚀 Starting (Enhanced) Training Pipeline
+============================================================
+⚠️ Limited to 1200 samples for testing
+📊 Dataset: 1200 samples, 5 tasks
+🏷️ Tasks: ['modernizante', 'estructuralista', 'neoliberal', 'posmoderna', 'voluntarista']
+📊 Data split: Train=840, Val=180, Test=180
+   - Train: 840 samples (70.0%)
+   - Val:   180 samples (15.0%)
+   - Test:  180 samples (15.0%)
+============================================================
+🔄 Pre-tokenizing dataset...

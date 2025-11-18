@@ -470,6 +470,10 @@ def train_single_fold(config: TrainingConfig,
         metric_for_best_model=config.eval_metric,
         greater_is_better=True,
         fp16=config.use_mixed_precision,
+        lr_scheduler_type="constant_with_warmup", # For Hyperparameter Tuning consistency
+        gradient_accumulation_steps=config.gradient_accumulation_steps,
+        # dataloader_pin_memory=True,
+        remove_unused_columns=False,
         report_to=None,
     )
 
