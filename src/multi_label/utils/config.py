@@ -22,13 +22,13 @@ class TrainingConfig:
 
     # Training Configuration
     learning_rate: float = 2e-5
-    head_learning_rate: float = 3e-4 # TODO: Implement
+    head_learning_rate: float = 0.0002149719644275139 # TODO: Implement
     batch_size: int = 16 
     num_epochs: int = 8 
-    warmup_ratio: float = 0.15 
-    weight_decay: float = 0.01 
-    max_grad_norm: float = 1.0
-    dropout_rate: float = 0.15 
+    warmup_ratio: float = 0.05249928641779438
+    weight_decay: float = 0.2808836125696343 
+    max_grad_norm: float = 2.5348065843037997
+    dropout_rate: float = 0.280737187667872
 
     # Augmentation Configuration
     swap_ratio: float = 0.25
@@ -59,7 +59,7 @@ class TrainingConfig:
 
     # Advanced Settings
     use_mixed_precision: bool = True
-    gradient_accumulation_steps: int = 2 # TODO: Add to Hyperparameter Tuning
+    gradient_accumulation_steps: int = 1 # TODO: Add to Hyperparameter Tuning
     early_stopping_patience: int = 3 
     save_model: bool = True
     automatic_augmentation: bool = False

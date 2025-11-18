@@ -384,7 +384,6 @@ def cross_validate_training(config: TrainingConfig,
     kf = StratifiedKFold(n_splits=config.n_folds, shuffle=True, random_state=config.random_seed)
     fold_metrics = []
 
-    
     for fold, (train_idx, val_idx) in enumerate(kf.split(indices, y)):
         print(f"🎯 Training Fold {fold + 1}/{config.n_folds}")
 
@@ -462,6 +461,8 @@ def train_single_fold(config: TrainingConfig,
         per_device_eval_batch_size=config.batch_size,
         num_train_epochs=config.num_epochs,
         weight_decay=config.weight_decay,
+        warmup_ratio=config.warmup_ratio, 
+        max_grad_norm=config.max_grad_norm,
         eval_strategy="epoch",
         save_strategy="epoch",
         logging_strategy="epoch",

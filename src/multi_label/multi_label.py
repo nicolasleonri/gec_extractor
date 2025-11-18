@@ -225,8 +225,23 @@ def train(config: TrainingConfig) -> Dict[str, Any]:
 
         print("✅ Best Hyperparameters found:")
         pprint(best_params)
+        param_mapping = {
+            'per_device_batch': 'batch_size',
+            'dropout': 'dropout_rate',
+        }
+
         for param, value in best_params.items():
-            setattr(config, param, value)
+            config_param = param_mapping.get(param, param)
+            setattr(config, config_param, value)
+
+        print("✅ Config after updating:")
+        print(f"  learning_rate: {config.learning_rate}")
+        print(f"  batch_size: {config.batch_size}")
+        print(f"  gradient_accumulation_steps: {config.gradient_accumulation_steps}")
+        print(f"  warmup_ratio: {config.warmup_ratio}")
+        print(f"  weight_decay: {config.weight_decay}")
+        print(f"  dropout_rate: {config.dropout_rate}")  # This should now be correct!
+        print(f"  max_grad_norm: {config.max_grad_norm}")
         print("="*60)
 
     if config.cross_validate is True:

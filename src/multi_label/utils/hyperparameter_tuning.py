@@ -18,18 +18,15 @@ def hyperparameter_optimization(config, train_encodings, train_labels, val_encod
         warmup_ratio      = trial.suggest_float("warmup_ratio", 0.0, 0.2)
         weight_decay      = trial.suggest_float("weight_decay", 0.0, 0.3)
         dropout           = trial.suggest_float("dropout", 0.0, 0.4)
-        max_grad_norm = trial.suggest_float("max_grad_norm", 0.5, 5.0)
-        max_accum = 32 // per_device_batch
-        max_accum = max(1, max_accum)
-        gradient_accumulation_steps = trial.suggest_categorical("gradient_accumulation_steps", list(range(1, max_accum + 1)))
+        max_grad_norm = trial.suggest_float("max_grad_norm", 0.5, 5.0)  
+        gradient_accumulation_steps = trial.suggest_categorical("gradient_accumulation_steps", [1, 2, 4])
 
-        config.learning_rate   = learning_rate
-        config.per_device_train_batch_size = per_device_batch
-        config.per_device_eval_batch_size  = per_device_batch
+        config.learning_rate = learning_rate
+        config.batch_size = per_device_batch
         config.gradient_accumulation_steps = gradient_accumulation_steps
-        config.warmup_ratio     = warmup_ratio
-        config.weight_decay     = weight_decay
-        config.dropout          = dropout
+        config.warmup_ratio = warmup_ratio
+        config.weight_decay = weight_decay
+        config.dropout_rate = dropout
         config.max_grad_norm = max_grad_norm
 
         training_args = TrainingArguments(
@@ -51,30 +48,40 @@ def hyperparameter_optimization(config, train_encodings, train_labels, val_encod
             metric_for_best_model=config.eval_metric,
         )
 
-        trainer = Trainer(
-            model=model,
-            args=training_args,
-            train_dataset=train_dataset,
-            eval_dataset=val_dataset,
-            #processing_class=tokenizer,
-            compute_metrics=metrics_calculator.compute_detailed_metrics,
-            callbacks=[EarlyStoppingCallback(early_stopping_patience=config.early_stopping_patience)]
-        )
+        try:
+            trainer = Trainer(
+                model=model,
+                args=training_args,
+                train_dataset=train_dataset,
+                eval_dataset=val_dataset,
+                #processing_class=tokenizer,
+                compute_metrics=metrics_calculator.compute_detailed_metrics,
+                callbacks=[EarlyStoppingCallback(early_stopping_patience=config.early_stopping_patience)]
+            )
 
-        trainer.train()
+            trainer.train()
 
-        eval_results = trainer.evaluate()
+            eval_results = trainer.evaluate()
 
-        if config.eval_metric == "accuracy":
-            metric_value = eval_results["eval_accuracy"]
-        elif config.eval_metric == "macro_f1":
-            metric_value = eval_results["eval_macro_f1"]
+            if config.eval_metric == "accuracy":
+                metric_value = eval_results["eval_accuracy"]
+            elif config.eval_metric == "macro_f1":
+                metric_value = eval_results["eval_macro_f1"]
 
-        del model
-        del trainer
-        torch.cuda.empty_cache()
+            del model
+            del trainer
+            torch.cuda.empty_cache()
 
-        return metric_value
+            return metric_value
+        except Exception as e:
+            print(f"Trial failed with error: {e}")
+            if "out of memory" in str(e).lower() or "CUDA out of memory" in str(e).lower():
+                print(f"CUDA OOM with batch_size {per_device_batch}, accum_steps {gradient_accumulation_steps}")
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                raise optuna.TrialPruned()
+            else:
+                return float('inf')
     
     study = optuna.create_study(
         direction="maximize",
