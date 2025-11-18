@@ -7,7 +7,7 @@ OUTPUT_CSV="./results/csv/multi_label/aggregated_results.csv"
 [ -f "$OUTPUT_CSV" ] && rm "$OUTPUT_CSV"
 
 # Header row
-echo "prefix,prefix2,augmentation,ht,cv,samples,metric,date,eval_accuracy,eval_mean_task_accuracy,eval_macro_f1" > "$OUTPUT_CSV"
+echo "prefix,prefix2,augmentation,aa,ht,cv,samples,metric,date,eval_accuracy,eval_mean_task_accuracy,eval_macro_f1" > "$OUTPUT_CSV"
 
 # Loop through all JSON files
 for filepath in "$RESULTS_DIR"/*.json; do
@@ -42,8 +42,11 @@ for filepath in "$RESULTS_DIR"/*.json; do
     ht="${basename_no_cv##*_}"
     basename_no_ht="${basename_no_cv%_*}"
 
+    aa="${basename_no_ht##*_}"
+    basename_no_aa="${basename_no_ht%_*}"
+
     # Remaining part is prefix + augmentation
-    prefix_and_aug="${basename_no_ht}"
+    prefix_and_aug="${basename_no_aa}"
 
     # Split first two as prefix/prefix2, rest as augmentation
     prefix=$(echo "$prefix_and_aug" | cut -d'_' -f1)
@@ -57,7 +60,7 @@ for filepath in "$RESULTS_DIR"/*.json; do
     eval_macro_f1=$(grep -oP '"eval_macro_f1":\s*\K[0-9.]+|null' "$filepath")
 
     # Append row to CSV
-    echo "$prefix,$prefix2,$augmentation,$ht,$cv,$samples,$metric,$date,$eval_accuracy,$eval_mean_task_accuracy,$eval_macro_f1" >> "$OUTPUT_CSV"
+    echo "$prefix,$prefix2,$augmentation,$aa,$ht,$cv,$samples,$metric,$date,$eval_accuracy,$eval_mean_task_accuracy,$eval_macro_f1" >> "$OUTPUT_CSV"
 done
 
 echo "✅ Aggregated JSON files into $OUTPUT_CSV"
