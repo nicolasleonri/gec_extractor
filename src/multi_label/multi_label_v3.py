@@ -9,7 +9,7 @@ Longformer architecture. It processes long documents (up to 4096 tokens) and per
 from typing import Union, List, Dict, Any, Optional, Tuple
 from sklearn.model_selection import train_test_split
 from torch.utils.data.dataset import Dataset
-from sklearn.model_selection import KFold
+from sklearn.model_selection import KFold, StratifiedKFold
 from safetensors.torch import load_file
 from sklearn.metrics import f1_score
 from dataclasses import dataclass, field
@@ -536,13 +536,16 @@ def cross_validate_training(config: TrainingConfig,
     """K-fold cross validation that returns trainers"""
 
     num_samples = len(train_labels)
-    kf = KFold(n_splits=config.n_folds, shuffle=True, random_state=config.random_seed)
+    indices = np.arange(num_samples)
+    y = [lbl[0] for lbl in train_labels]
+    # kf = KFold(n_splits=config.n_folds, shuffle=True, random_state=config.random_seed)
+    kf = StratifiedKFold(n_splits=config.n_folds, shuffle=True, random_state=config.random_seed)
     fold_metrics = []
 
     if pruner is not None and trial_id is not None:
         pruner.start_trial(trial_id)
     
-    for fold, (train_idx, val_idx) in enumerate(kf.split(range(num_samples))):
+    for fold, (train_idx, val_idx) in enumerate(kf.split(indices, y)):
         print(f"🎯 Training Fold {fold + 1}/{config.n_folds}")
 
         train_fold_encodings = {k: [v[i] for i in train_idx] for k, v in train_encodings.items()}
@@ -550,7 +553,6 @@ def cross_validate_training(config: TrainingConfig,
         train_fold_labels = [train_labels[i] for i in train_idx]
         val_fold_labels   = [train_labels[i] for i in val_idx]
         
-
         # Train on this fold and return trainer
         fold_result = train_single_fold(
             config,

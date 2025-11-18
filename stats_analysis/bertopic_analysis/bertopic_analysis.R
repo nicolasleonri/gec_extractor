@@ -5,8 +5,13 @@ library(ggplot2)
 library(scales)
 # install.packages("lubridate")
 library(lubridate)
-install.packages("patchwork")
+#install.packages("patchwork")
 library(patchwork)
+#install.packages("COINr")
+library(COINr)
+library(treemap)
+install.packages("treemapify")
+library(treemapify)
 
 ############# Functions ########################
 fix_invalid_dates <- function(date_vector, format = "%d/%m/%Y") {
@@ -82,6 +87,33 @@ filter_by_keywords <- function(df, keywords) {
     grepl(pattern, df$model_1_topic_label, ignore.case = TRUE) |
     grepl(pattern, df$model_2_topic_label, ignore.case = TRUE)
   df[mask, ]
+}
+
+save_df <- function(df, nombre_archivo = NULL, prefijo = "df_", carpeta = NULL) {
+  if (!is.null(carpeta) && !dir.exists(carpeta)) {
+    dir.create(carpeta, recursive = TRUE)
+  }
+  
+  if (is.null(nombre_archivo)) {
+    timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+    nombre_archivo <- paste0(prefijo, timestamp, ".csv")
+  } else if (!grepl("\\.csv$", nombre_archivo)) {
+    nombre_archivo <- paste0(nombre_archivo, ".csv")
+  }
+  
+  if (!is.null(carpeta)) {
+    ruta_completa <- file.path(carpeta, nombre_archivo)
+  } else {
+    ruta_completa <- nombre_archivo
+  }
+  
+  write.csv(df, file = ruta_completa, row.names = FALSE, fileEncoding = "UTF-8")
+  
+  cat("✓ Dataframe guardado:", ruta_completa, "\n")
+  cat("  - Dimensiones:", nrow(df), "filas ×", ncol(df), "columnas\n")
+  cat("  - Tamaño:", format(object.size(df), units = "auto"), "\n")
+  
+  return(ruta_completa)
 }
 
 ############### CODE ####################
@@ -242,7 +274,7 @@ keywords_voluntarista <- c(
   "rentabilidad", "fraude", "subdeclaración", "subdeclaracion", "economía ilegal", "economia ilegal"
 )
 ### Apply for each conceptual group ###
-# economia_informal_df <- filter_by_keywords(combined_df, keywords_economia_informal)
+economia_informal_df <- filter_by_keywords(combined_df, keywords_economia_informal)
 perspectiva_modernizante_df <- filter_by_keywords(economia_informal_df, keywords_modernizante)
 perspectiva_estructuralista_df <- filter_by_keywords(economia_informal_df, keywords_estructuralista)
 perspectiva_neoliberal_df <- filter_by_keywords(economia_informal_df, keywords_neoliberal)
@@ -285,8 +317,7 @@ write.csv(perspectiva_voluntarista_df, file = "./perspectiva_voluntarista_df.csv
 
 summary(economia_informal_df)
 
-### Analysis of results
-
+################ TABLES + GRAPHS ######################
 # 1. PORCENTAJE GENERAL
 total_noticias <- nrow(combined_df)
 muestra_noticias <- nrow(economia_informal_df)
@@ -297,12 +328,14 @@ resumen_general <- data.frame(
   Value = c(
     format(total_noticias, big.mark = ","),
     format(muestra_noticias, big.mark = ","),
-    sprintf("%.2f%%", porcentaje_general)
+    sprintf("%.4f%%", porcentaje_general)
   )
 )
+print(resumen_general)
+save_df(resumen_general, prefijo = "resumen_general_")
 
 # 2. PORCENTAJE POR PERIÓDICO
-porcentaje_periodico <- combined_df %>%
+resumen_periodico <- combined_df %>%
   count(newspaper, name = "total") %>%
   left_join(
     economia_informal_df %>%
@@ -312,9 +345,132 @@ porcentaje_periodico <- combined_df %>%
   mutate(
     muestra = ifelse(is.na(muestra), 0, muestra),
     porcentaje = (muestra / total) * 100,
-    porcentaje_formateado = sprintf("%.2f%%", porcentaje)
+  ) %>%
+  # Calcular Weighted Harmonic Mean
+  mutate(
+    hwa = sum(total)/(sum(total / porcentaje)),
+    desviacion = porcentaje - hwa
+  ) %>%
+  # Agregar fila de totales
+  bind_rows(
+    tibble(
+      newspaper = "Total",
+      total = sum(.$total),
+      muestra = sum(.$muestra),
+      porcentaje = (sum(.$muestra) / sum(.$total)) * 100,
+      hwa = NA_real_,  # No aplica para el total
+      desviacion = NA_real_
+    )
+  )
+resumen_periodico$hwa <- NULL
+print(resumen_periodico)
+sum(resumen_periodico$total) / (sum(resumen_periodico$total / resumen_periodico$total))
+hwa <- sum(resumen_periodico$total) / (sum(resumen_periodico$total / resumen_periodico$porcentaje))
+save_df(resumen_periodico, prefijo = "resumen_periodico_")
+
+datos_desviacion <- resumen_periodico %>%
+  mutate(
+    tipo_desviacion = ifelse(desviacion > 0, "Por encima del promedio", "Por debajo del promedio"),
+    desviacion_absoluta = round(abs(desviacion), 2)
+  )
+datos_desviacion$newspaper <- c("Correo", "El Comercio", "Gestión", "Ojo", "Perú21", "Publimetro", "Trome")
+
+grafico_desviacion <- ggplot(datos_desviacion, 
+                             aes(x = reorder(newspaper, desviacion), 
+                                 y = desviacion, 
+                                 fill = tipo_desviacion)) +
+  geom_col(alpha = 0.8) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red", size = 0.5) +
+  geom_text(aes(label = sprintf("%+.2f%%", desviacion)),
+            hjust = ifelse(datos_desviacion$desviacion > 0, 0, 0.5),
+            size = 3.25, fontface = "bold") +
+  coord_flip() +
+  scale_fill_manual(values = c("Por encima del promedio" = "#59A14F", 
+                               "Por debajo del promedio" = "#E15759")) +
+  labs(title = "Desviación por periódico respecto al promedio general",
+       subtitle = paste("Línea roja = Promedio general (", sprintf("%.2f%%", hwa), ")"),
+       x = "",
+       y = "Desviación del promedio (%)",
+       fill = "Posición relativa") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        legend.position = "bottom")
+
+# 2. CAMBIO POR ANO
+resumen_general_anual <- combined_df %>%
+  mutate(year = year(date)) %>%
+  count(year, name = "total") %>% 
+  filter(year < 2020)
+resumen_general_anual_muestra <- economia_informal_df %>%
+  mutate(year = year(date)) %>%
+  count(year, name = "muestra") %>% 
+  filter(year < 2020)
+resumen_anual_completo <- resumen_general_anual %>%
+  left_join(
+    resumen_general_anual_muestra,
+    by = "year"
+  ) %>%
+  mutate(
+    muestra = ifelse(is.na(muestra), 0, muestra),
+    porcentaje = (muestra / total) * 100,
+  ) %>%
+  # Calcular Weighted Harmonic Mean
+  mutate(
+    hwa = sum(total) / sum(total / porcentaje),
+    desviacion = porcentaje - hwa
+  )
+resumen_anual_completo$hwa <- NULL
+print(resumen_anual_completo)
+sum(resumen_anual_completo$total)
+sum(resumen_anual_completo$muestra)
+save_df(resumen_anual_completo, prefijo = "resumen_anual_completo_")
+sum(resumen_anual_completo$total) / (sum(resumen_anual_completo$total / resumen_anual_completo$muestra))
+
+# 2. TREEMAP
+treemap_data <- resumen_periodico %>%
+  mutate(
+    porcentaje = muestra / sum(muestra) * 100
+  ) %>%
+  mutate(
+    label = paste0(
+      newspaper, "\n",
+      "Muestra: ", muestra, "\n",
+      "Porcentaje: ", round(porcentaje, 2), "%"
+    )
+  )
+resumen_periodico$newspaper <- c("Correo", "El Comercio", "Gestión", "Ojo", "Perú21", "Publimetro", "Trome")
+
+ggplot(treemap_data, aes(
+  area = porcentaje,
+  fill = newspaper,
+  label = label,
+  subgroup = newspaper
+)) +
+  geom_treemap(show.legend = FALSE) +
+  geom_treemap_text(
+    color = "white",
+    place = "topleft",
+    reflow = TRUE,
+    grow = FALSE,
+    padding.x = grid::unit(2, "mm"),
+    padding.y = grid::unit(2, "mm")
+  ) +
+  labs(
+    title = "Distribución de muestras por periódico",
+    subtitle = paste(
+      "En relación al total de la muestra extraída (n=9271)."
+    )
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+    plot.subtitle = element_text(size = 12, hjust = 0.5),
+    plot.caption = element_text(face = "italic")
   )
 
+
+################ ARCHIVO ######################
+  
 # Gráfico 1: Comparación general
 datos_general <- data.frame(
   categoria = c("Artículos del CGEC13-20", "Muestra extraída"),
@@ -337,38 +493,6 @@ grafico_general <- ggplot(datos_general, aes(x = categoria, y = cantidad)) +
   theme_minimal() +
   theme(plot.title = element_text(face = "bold", size = 14),
         axis.text.x = element_text(size = 11))
-
-# Gráfico 2: Desviación por periódico
-promedio_general <- porcentaje_general
-
-datos_desviacion <- porcentaje_periodico %>%
-  mutate(
-    desviacion = round(porcentaje, 2) - round(promedio_general, 2),
-    tipo_desviacion = ifelse(desviacion > 0, "Por encima del promedio", "Por debajo del promedio"),
-    desviacion_absoluta = round(abs(desviacion), 2)
-  )
-datos_desviacion$newspaper <- c("Correo", "El Comercio", "Gestión", "Ojo", "Perú21", "Publimetro", "Trome")
-
-grafico_desviacion <- ggplot(datos_desviacion, 
-                             aes(x = reorder(newspaper, desviacion), 
-                                 y = desviacion, 
-                                 fill = tipo_desviacion)) +
-  geom_col(alpha = 0.8) +
-  geom_hline(yintercept = 0, linetype = "dashed", color = "red", size = 0.5) +
-  geom_text(aes(label = sprintf("%+.2f%%", desviacion)),
-            hjust = ifelse(datos_desviacion$desviacion > 0, 0, 0.5),
-            size = 3.25, fontface = "bold") +
-  coord_flip() +
-  scale_fill_manual(values = c("Por encima del promedio" = "#59A14F", 
-                               "Por debajo del promedio" = "#E15759")) +
-  labs(title = "Desviación por periódico respecto al promedio general",
-       subtitle = paste("Línea roja = Promedio general (", sprintf("%.2f%%", promedio_general), ")"),
-       x = "",
-       y = "Desviación del promedio (%)",
-       fill = "Posición relativa") +
-  theme_minimal() +
-  theme(plot.title = element_text(face = "bold", size = 14),
-        legend.position = "bottom")
 
 # Gráfico 3: Evolución anual de la cobertura
 levels(datos_evolucion$newspaper) <- c("Correo", "El Comercio", "Gestión", "Ojo", "Perú21", "Publimetro", "Trome")

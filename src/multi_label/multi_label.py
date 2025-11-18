@@ -6,12 +6,28 @@ Longformer architecture. It processes long documents (up to 4096 tokens) and per
 5 simultaneous classification tasks with 3 classes each.
 
 """
-# Core ML and Deep Learning
-import torch
+from typing import Union, List, Dict, Any, Optional, Tuple
+from safetensors.torch import load_file
+from dataclasses import dataclass, field
+from datetime import date, datetime
+from pathlib import Path
+from pprint import pprint
 import torch.nn as nn
+from tqdm import tqdm
+from dataclasses import replace
+import shutil
+import pandas as pd
 import numpy as np
-
-# Transformers and Hugging Face
+import subprocess
+import evaluate
+import argparse
+import time
+import torch
+import json
+import csv
+import sys
+import gc
+import os
 from transformers import (
     TrainingArguments,
     Trainer,
@@ -24,30 +40,30 @@ from transformers import (
     LongformerModel,
     Pipeline
 )
+import matplotlib.pyplot as plt
+import seaborn as sns
+from collections import Counter
+from scipy.stats import chi2_contingency, entropy
+from smote import *
+from torch.nn import functional as F
 
-# Data Processing
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import f1_score
-from torch.utils.data.dataset import Dataset
-from safetensors.torch import load_file
+from utils.data_management import *
+from utils.data_processing import *
+from utils.eval import *
+from utils.config import TrainingConfig
+from utils.smote import *
+from utils.train import *
+from utils.hyperparameter_tuning import *
 
-# Utilities
-from typing import Union, List, Dict, Any, Optional, Tuple
-from datetime import date
-from pathlib import Path
-from pprint import pprint
-from tqdm import tqdm
-import subprocess
-import evaluate
-import argparse
-import json
-import csv
-import sys
-import gc
-import os
 
 class MultiTaskPipeline(Pipeline):
+    def __init__(self, *args, device=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        if device is None:
+            device = next(self.model.parameters()).device
+        self.device = torch.device(device)
+        self.model.to(self.device)
+
     def _sanitize_parameters(self, **kwargs):
         return {}, {}, {}
 
@@ -66,438 +82,260 @@ class MultiTaskPipeline(Pipeline):
 
     def postprocess(self, logits):
         preds = torch.argmax(logits, dim=-1).cpu().numpy()[0]
-        preds = preds - 1  # Map back to [-1,0,1]
+        preds = preds - 1
         return {"predictions": preds.tolist()}
 
-class TextClassifierDataset(Dataset):
+def handle_severe_imbalance(train_val_df: pd.DataFrame, config: TrainingConfig, tokenizer: Any, class_distributions: Dict[str, Any]) -> Tuple[pd.DataFrame, Dict[str, Any], Dict[str, Any]]:
     """
-    PyTorch Dataset for multi-task text classification.
-    
-    Handles tokenized text inputs and multi-label outputs for training
-    and evaluation of the Longformer model.
+    Handle severe class imbalance through synthetic paraphrasing augmentation.
     
     Args:
-        encodings: Tokenized text inputs from the tokenizer
-        labels: Multi-task labels in shape (n_samples, n_tasks)
-    """
-    def __init__(self, encodings, labels):
-        self.encodings = encodings
-        self.labels = labels
-
-    def __len__(self):
-        return len(self.labels)
-
-    def __getitem__(self, idx):
-        """
-        Retrieves a single sample with all task labels.
+        train_val_df: Training + validation DataFrame
+        config: Training configuration
+        tokenizer: Tokenizer for re-tokenization
         
-        Returns:
-            dict: Contains input tensors and multi-task labels as float32
-        """
-        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
-        item["labels"] = torch.tensor(self.labels[idx], dtype=torch.float32)
-        return item
-
-class MultiTaskLongformer(nn.Module):
-    """
-    Multi-Task Learning wrapper for Longformer with separate classification heads.
-    
-    This model uses a shared Longformer encoder with 5 independent classification
-    heads, allowing simultaneous learning of related tasks while sharing
-    representations.
-    
-    Args:
-        model_name: HuggingFace model identifier for pretrained Longformer
-        num_tasks: Number of classification tasks (default: 5)
-        num_classes: Number of classes per task (default: 3)
-    """
-    def __init__(self, model_name, num_tasks=5, num_classes=3):
-        super().__init__()
-
-        # Load pretrained Longformer encoder
-        self.longformer = LongformerModel.from_pretrained(model_name)
-
-        # Required for HuggingFace pipelines and saving/loading
-        self.config = self.longformer.config
-        self.config.num_tasks = num_tasks
-        self.config.num_labels = num_classes
-        
-        # Create independent classification heads for each task
-        self.classifiers = nn.ModuleList([
-            nn.Linear(self.longformer.config.hidden_size, num_classes)
-            for _ in range(num_tasks)
-        ])
-
-    @property
-    def device(self):
-        return next(self.parameters()).device
-    
-    def forward(self, input_ids, attention_mask, labels=None):
-        """
-        Forward pass through the model.
-        
-        Args:
-            input_ids: Token IDs from tokenizer
-            attention_mask: Attention mask for padding
-            labels: Ground truth labels (optional, for training)
-            
-        Returns:
-            dict: Contains 'loss' (if labels provided) and 'logits' for all tasks
-        """
-        # Get contextualized representations from Longformer
-        outputs = self.longformer(input_ids=input_ids, attention_mask=attention_mask)
-        pooled_output = outputs.last_hidden_state[:, 0, :]  # Extract CLS token
-        
-        # Generate predictions from each task-specific head
-        logits = [classifier(pooled_output) for classifier in self.classifiers]
-        logits = torch.stack(logits, dim=1)  # Shape: (batch_size, num_tasks, num_classes)
-        
-        # Calculate loss if labels are provided (training mode)
-        loss = None
-        if labels is not None:
-            loss_fct = nn.CrossEntropyLoss()
-            # Calculate loss for each task
-            losses = []
-            for i in range(len(self.classifiers)):
-                # Map labels from [-1, 0, 1] to [0, 1, 2] for CrossEntropyLoss
-                task_labels = labels[:, i] + 1  # -1→0, 0→1, 1→2
-                task_logits = logits[:, i, :]
-                losses.append(loss_fct(task_logits, task_labels.long()))
-
-            # Average loss across all tasks
-            loss = torch.stack(losses).mean()
-        
-        return {"loss": loss, "logits": logits}
-
-def print_gpu_usage(note=""):
-    print(f"\n🔍 GPU Memory Usage: {note}")
-    print(f"Total avilabe: {torch.cuda.get_device_properties(0).total_memory / 1024**2:.2f} MB")
-    print(f"Allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
-    print(f"Reserved : {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
-
-    try:
-        output = subprocess.check_output(["nvidia-smi"], encoding='utf-8')
-        # print(output)
-    except Exception as e:
-        print(f"Could not run nvidia-smi: {e}")
-
-def parse_arguments():
-    """
-    Parse command-line arguments for the training script.
-    
     Returns:
-        argparse.Namespace: Parsed arguments
+        Tuple of (balanced_dataframe, analysis_results, tokenized_data)
     """
-    parser = argparse.ArgumentParser(
-        description="Multi-task text classification with Longformer for long Spanish texts.",
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter
+    
+    print("⚠️ Severe imbalance detected. Applying synthetic paraphrasing...")
+    
+    # Apply paraphrasing augmentation
+    train_val_df_balanced = simple_paraphrase_augmentation(
+        df=train_val_df,
+        label_columns=config.label_columns,
+        text_column='combined_text',
+        target_samples_per_class=config.target_samples_per_class,
+        max_augmentation_per_sample=config.max_augmentation_per_sample,
+        model_name="milyiyo/paraphraser-spanish-t5-small",
+        device='cuda' if torch.cuda.is_available() else 'cpu',
+        num_beams=config.num_beams,
+        temp=config.temperature,
+        batch_size=config.batch_size,
+        verbose=True
     )
-    parser.add_argument("-f", "--input_file", type=str, required=True, help="Path to input CSV file containing text to annotate or text and labels to train model")
-    parser.add_argument('-sm', '--save_model', type=bool, required=False, default=True, help='Flag to save the trained model')
-    parser.add_argument('-lm', '--load_model', type=bool, required=False, default=False, help='Flag to load a pretrained model instead of training')
-    parser.add_argument('-mp', '--model_path', type=str, required=True, default=None, help='Directory path to save/load the model')
-    parser.add_argument('-ns', '--number_samples', type=int, required=False, default=None, help='Limit training to first N samples (for training)')
-    parser.add_argument('-tm', '--train_model', type=bool, required=False, default=False, help='Flag to train the model')
-    parser.add_argument('-eo', '--eval_on', type=str, required=False, default="accuracy", choices=["accuracy", "macro_f1"], help="Metric to optimize for best model (accuracy or macro_f1)")
-    return parser.parse_args()
-
-def validate_arguments(args) -> Dict[str, Any]:
-    """
-    Validate command-line arguments and prepare configuration dictionary.
     
-    Args:
-        args: Parsed command-line arguments
-        
-    Returns:
-        dict: Validated configuration dictionary
-        
-    Raises:
-        SystemExit: If validation fails
-    """
-    config = {}
-    errors = []
+    # Validate synthetic data quality
+    quality_metrics = validate_synthetic_quality(
+        df_original=train_val_df,
+        df_synthetic=train_val_df_balanced,
+        text_column='combined_text',
+        sample_size=3
+    )
     
-    if not os.path.isfile(args.input_file):
-        errors.append(f"Input file does not exist: {args.input_file}")
-    else:
-        config["input_file"] = args.input_file
-
-    config["load_model"] = args.load_model
-    config["train_model"] = args.train_model
-
-    if config["train_model"] == False and config["load_model"] == False:
-        errors.append("Either --train_model or --load_model must be specified")
-    elif config["train_model"] == True and config["load_model"] == True:
-        errors.append("Only one of --train_model or --load_model can be specified")
-
-    config["model_path"] = args.model_path
-
-    if config["model_path"] == None:
-        errors.append("Model path must be specified (--model_path)")
-
-    config["save_model"] = args.save_model
-
-    if config["save_model"] == False:
-        print("Attention! Not saving the model after training.")
-
-    config["number_samples"] = args.number_samples
-
-    if config["number_samples"] is not None and config["number_samples"] <= 0:
-        errors.append("Number of samples must be a positive integer")
-    elif config["number_samples"] is not None:
-        print(f"Using only the first {config['number_samples']} samples for training/evaluation")
-    elif config["number_samples"] is None:
-        print("Using all available samples for training/evaluation")
-
-    config['eval_on'] = args.eval_on
-
-    # Exit if any validation errors occurred
-    if errors:
-        print("❌ Validation errors:")
-        for error in errors:
-            print(f"  - {error}")
-        sys.exit(1)
+    # Analyze post-augmentation distribution
+    analysis_results_post = evaluate_dataset(train_val_df_balanced, config)
+    class_distributions_post = analysis_results_post['class_distributions']
     
-    return config
-
-def compute_metrics(eval_pred):
-    """
-    Compute evaluation metrics for multi-task classification.
+    # Print improvement summary
+    print(f"✅ IMPROVEMENT AFTER AUGMENTATION:")
+    print(f"   IR average: {class_distributions['summary']['mean_imbalance_ratio']:.2f} → "
+          f"{class_distributions_post['summary']['mean_imbalance_ratio']:.2f}")
+    print(f"   Severity: {class_distributions['summary']['overall_severity'].upper()} → "
+          f"{class_distributions_post['summary']['overall_severity'].upper()}")
     
-    Calculates overall accuracy, per-task accuracy, F1 scores, and aggregated
-    metrics across all classification tasks.
+    # Re-tokenize the balanced dataset
+    print("🔄 Re-tokenizing dataset...")
+    train_val_texts, train_val_labels, train_val_encodings = tokenize_df(
+        config, train_val_df_balanced, tokenizer
+    )
     
-    Args:
-        eval_pred: Tuple of (predictions, labels) from the Trainer
-        
-    Returns:
-        dict: Dictionary containing all computed metrics
-    """
-    predictions, labels = eval_pred
-
-    # Convert logits to class predictions
-    predicted_classes = np.argmax(predictions, axis=2)  # Shape: (batch_size, num_tasks)
-    true_classes = (labels + 1).astype(int)  # Map [-1, 0, 1] to [0, 1, 2]
-
-    num_tasks = predictions.shape[1]
-
-    # Calculate overall accuracy across all tasks
-    accuracy = (predicted_classes == true_classes).mean()
+    # Clean up memory
+    clean()
     
-    # Calculate per-task metrics
-    task_accuracies = []
-    task_f1_scores = []
+    return train_val_df_balanced, analysis_results_post, {
+        'texts': train_val_texts,
+        'labels': train_val_labels, 
+        'encodings': train_val_encodings
+    }
 
-    for i in range(num_tasks):
-        # Accuracy for this specific task
-        task_acc = (predicted_classes[:, i] == true_classes[:, i]).mean()
+def train(config: TrainingConfig) -> Dict[str, Any]:
+    print("🚀 Starting (Enhanced) Training Pipeline")
+    print("="*60)
 
-        # Macro F1 score for this task (average across classes)
-        task_f1 = f1_score(
-            true_classes[:, i],
-            predicted_classes[:, i],
-            average='macro'
+    tokenizer = AutoTokenizer.from_pretrained(config.model_name, do_lower_case=True)
+    
+    df = load_and_prepare_data(config)
+    config.label_columns = identify_label_columns(df)
+    config.num_tasks = len(config.label_columns)
+    
+    print(f"📊 Dataset: {len(df)} samples, {len(config.label_columns)} tasks")
+    print(f"🏷️ Tasks: {config.label_columns}")
+    train_df, val_df, test_df = split_data(df, random_seed=config.random_seed) # 70/15/15
+    train_val_df = pd.concat([train_df, val_df], ignore_index=True)
+    print(f"   - Train: {len(train_df)} samples ({len(train_df)/len(df)*100:.1f}%)")
+    print(f"   - Val:   {len(val_df)} samples ({len(val_df)/len(df)*100:.1f}%)")
+    print(f"   - Test:  {len(test_df)} samples ({len(test_df)/len(df)*100:.1f}%)")
+    print("="*60)
+
+    print("🔄 Pre-tokenizing dataset...")
+    train_texts, train_labels, train_encodings = tokenize_df(config, train_df, tokenizer)
+    val_texts, val_labels, val_encodings = tokenize_df(config, val_df, tokenizer)
+    test_texts, test_labels, test_encodings = tokenize_df(config, test_df, tokenizer)
+    train_val_texts, train_val_labels, train_val_encodings = tokenize_df(config, train_val_df, tokenizer)
+    print("✅ Pre-tokenization complete.")
+    print("="*60)
+
+    best_trainer = None
+    best_model = None
+
+    if config.hyperparameter_tuning is True:
+        print("🎯 Starting Hyperparameter Optimization")
+
+        if config.automatic_augmentation is True:
+            analysis_results = evaluate_dataset(train_df, config)
+            class_distributions = analysis_results['class_distributions']
+            class_weights = analysis_results['class_weights']
+            recommendations = analysis_results['recommendations']
+
+            if class_distributions['summary']['overall_severity'] in ['high', 'severe']:
+                train_df, analysis_results, tokenized_data = handle_severe_imbalance(train_df, config, tokenizer, class_distributions)
+
+                class_distributions = analysis_results['class_distributions']
+                class_weights = analysis_results['class_weights']
+                recommendations = analysis_results['recommendations']
+                
+                train_texts = tokenized_data['texts']
+                train_labels = tokenized_data['labels']
+                train_encodings = tokenized_data['encodings']
+
+        class_weights = compute_class_weights(train_df, config.label_columns)
+        config.class_weights_per_task = {}
+
+        for task, weight_dict in class_weights.items():
+            adjusted_weights = {
+                original_class + 1: weight 
+                for original_class, weight in weight_dict.items()
+            }
+            config.class_weights_per_task[task] = adjusted_weights
+
+        config.focal_loss_config = {
+            'gamma': 2.0,
+            'alpha_per_task': config.class_weights_per_task,
+        }
+
+        best_params = hyperparameter_optimization(
+            config,
+            train_encodings=train_encodings,
+            train_labels=train_labels,
+            val_encodings=val_encodings,
+            val_labels=val_labels,
+            tokenizer=tokenizer,
         )
 
-        task_accuracies.append(task_acc)
-        task_f1_scores.append(task_f1)
-    
-    overall_f1 = np.mean(task_f1_scores)
+        print("✅ Best Hyperparameters found:")
+        pprint(best_params)
+        for param, value in best_params.items():
+            setattr(config, param, value)
+        print("="*60)
 
-    metrics = {
-        "accuracy": float(accuracy),
-        "macro_f1": float(overall_f1),
-        "mean_task_accuracy": float(np.mean(task_accuracies)),
-    }
-    
-    # Add per-task metrics dynamically
-    for i in range(num_tasks):
-        metrics[f"task_{i}_acc"] = float(task_accuracies[i])
-        metrics[f"task_{i}_f1"] = float(task_f1_scores[i])
-    
-    return metrics
+    if config.cross_validate is True:
+        print("🎯 Starting Cross-Validation Training")
+        if config.automatic_augmentation is True:
+            analysis_results = evaluate_dataset(train_val_df, config)
+            class_distributions = analysis_results['class_distributions']
+            class_weights = analysis_results['class_weights']
+            recommendations = analysis_results['recommendations']
 
-def train(config) -> None:
-    """
-    Main training pipeline for the multi-task Longformer classifier.
-    
-    Steps:
-        1. Load and preprocess data
-        2. Split into train/validation/test sets
-        3. Tokenize text inputs
-        4. Initialize model
-        5. Train with early stopping
-        6. Evaluate on test set
-        7. Save model and results
-    
-    Args:
-        config: Configuration dictionary with all training parameters
-    """
-    print("📂 Loading data...")
-    df = pd.read_csv(
-        config["input_file"],
-        sep=",",
-        doublequote=True,
-        encoding="utf-8",
-        encoding_errors="strict",
-        header=0,
-        date_format='%Y-%M-%d'
-    )
+            if class_distributions['summary']['overall_severity'] in ['high', 'severe']:
+                train_val_df, analysis_results, tokenized_data = handle_severe_imbalance(train_val_df, config, tokenizer, class_distributions)
 
-    if config['number_samples'] is not None:
-        df = df.head(config['number_samples'])
+                class_distributions = analysis_results['class_distributions']
+                class_weights = analysis_results['class_weights']
+                recommendations = analysis_results['recommendations']
+                
+                train_val_texts = tokenized_data['texts']
+                train_val_labels = tokenized_data['labels']
+                train_val_encodings = tokenized_data['encodings']
 
-    df['date'] = pd.to_datetime(df['date'], format='%Y-%M-%d')
-    df['newspaper'] = df['newspaper'].astype('category')
+        class_weights = compute_class_weights(train_val_df, config.label_columns)
+        config.class_weights_per_task = {}
 
-    # Combine headline and content into single text field
-    df['combined'] = df.apply(
-        lambda row: '. '.join(row[['headline', 'content']].dropna().astype(str)),
-        axis=1
-    )
+        for task, weight_dict in class_weights.items():
+            adjusted_weights = {
+                original_class + 1: weight 
+                for original_class, weight in weight_dict.items()
+            }
+            config.class_weights_per_task[task] = adjusted_weights
 
-    print("✂️ Splitting dataset...")
-    train_val_df, test_df = train_test_split(df, test_size=0.15, random_state=42) # 85% train+val, 15% test
-    train_df, val_df = train_test_split(train_val_df, test_size=0.176, random_state=42) # 70% train, 15% val (from the 85%)
+        config.focal_loss_config = {
+            'gamma': 2.0,
+            'alpha_per_task': config.class_weights_per_task,
+        }
 
-    print(f"Number of rows in training set: {len(train_df)}")
-    print(f"Number of rows in validation set: {len(val_df)}")
-    print(f"Number of rows in test set: {len(test_df)}")
+        final_results = cross_validate_training(
+            config, 
+            train_val_encodings, 
+            train_val_labels, 
+            config.type_augmentation
+        )
 
-    not_chosen_columns = ['headline', 'content', 'newspaper', 'date', 'combined', 'comentario']
-    label_columns = [col for col in df.columns if col not in not_chosen_columns]
+        best_fold = max(final_results['fold_metrics'], key=lambda x: x['eval_metrics']['eval_accuracy'])
+        best_trainer = best_fold['trainer']
+        print(f"✅ Best fold: {best_fold['fold']} with accuracy: {best_fold['eval_metrics']['eval_accuracy']:.4f}")
 
-    num_tasks = len(label_columns)
-    print(f"📊 Detected {num_tasks} classification tasks: {label_columns}")
-
-    # Extract labels for each split
-    train_labels = train_df[label_columns].values.tolist()
-    val_labels = val_df[label_columns].values.tolist()
-    test_labels = test_df[label_columns].values.tolist()
-
-    # Extract text data
-    train_texts = train_df['combined'].tolist()
-    val_texts = val_df['combined'].tolist()
-    test_texts = test_df['combined'].tolist()
-
-    print("🔤 Tokenizing texts...")
-    tokenizer = AutoTokenizer.from_pretrained(
-        'mrm8488/longformer-base-4096-spanish',
-        do_lower_case=True
-    )
-    
-    train_encodings = tokenizer(train_texts, truncation=True, max_length=4096)
-    val_encodings = tokenizer(val_texts, truncation=True, max_length=4096)
-    test_encodings = tokenizer(test_texts, truncation=True, max_length=4096)
-
-    # Data collator handles dynamic padding
-    data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
-
-    train_dataset = TextClassifierDataset(train_encodings, train_labels)
-    val_dataset = TextClassifierDataset(val_encodings, val_labels)
-    test_dataset = TextClassifierDataset(test_encodings, test_labels)
-
-    print(f"🤖 Initializing model with {num_tasks} task heads...")
-
-    model = MultiTaskLongformer("mrm8488/longformer-base-4096-spanish")
-
-    if config['number_samples'] is not None and config['number_samples'] < 501: 
-        per_device_train_batch_size = 32
-        per_device_eval_batch_size = 32
-        gradient_accumulation_steps = 2
-        dataloader_prefetch_factor = 4
-        num_train_epochs = 8
-        learning_rate = 3e-5
-        weight_decay=0.001
-        save_total_limit = 3
-        warmup_ratio = 0.2
-    elif config['number_samples'] is not None and config['number_samples'] < 1001: 
-        per_device_train_batch_size = 24
-        per_device_eval_batch_size = 24
-        gradient_accumulation_steps = 4
-        dataloader_prefetch_factor = 2
-        num_train_epochs = 6
-        learning_rate = 2e-5
-        weight_decay = 0.01
-        save_total_limit = 2
-        warmup_ratio = 0.1
-
-    training_arguments = TrainingArguments(
-        output_dir="./results/checkpoints",
-        learning_rate=learning_rate,
-        eval_strategy="epoch",
-        per_device_train_batch_size=per_device_train_batch_size,
-        per_device_eval_batch_size=per_device_eval_batch_size,
-        gradient_accumulation_steps=gradient_accumulation_steps,
-        bf16=True,
-        dataloader_num_workers=1,
-        dataloader_pin_memory=True,
-        dataloader_prefetch_factor=dataloader_prefetch_factor,
-        num_train_epochs=num_train_epochs,
-        weight_decay=weight_decay,
-        save_strategy="epoch",
-        save_total_limit=save_total_limit,
-        logging_strategy="epoch",
-        load_best_model_at_end=True,
-        metric_for_best_model=config['eval_on'],
-        greater_is_better=True,
-        max_grad_norm=1.0,
-        warmup_ratio=warmup_ratio,
-        lr_scheduler_type="linear",
-        push_to_hub=False,
-        fp16_full_eval=False,
-        remove_unused_columns=False,
-    )
-
-    print("🚀 Starting training...")
-    print_gpu_usage(note="Before running train()")
-
-    trainer = Trainer(
-        model=model,
-        args=training_arguments,
-        train_dataset=train_dataset,
-        eval_dataset=val_dataset, 
-        processing_class=tokenizer,
-        data_collator=data_collator,
-        compute_metrics=compute_metrics,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
-    )
-
-    trainer.train()
-    print_gpu_usage(note="After running train()")
-
-    print("📊 Evaluating on test set...")
-
-    test_results = trainer.evaluate(test_dataset)
-    print("\n" + "="*60)
-    print("FINAL TEST SET RESULTS:")
-    print("="*60)
-    pprint(test_results)
-    print("="*60 + "\n")
-
-    if config['save_model'] == True:
-        if config['number_samples'] is not None:
-            model_folder = f"model_{config['number_samples']}_{config['eval_on']}_{date.today()}"
-        else:
-            model_folder = f"model_total_{config['eval_on']}_{date.today()}"
-        model_path = os.path.join(config['model_path'], model_folder)
-        os.makedirs(model_path, exist_ok=True)
-
-        print(f"💾 Saving model to {model_path}")
-
-        trainer.save_model(model_path)
-        tokenizer.save_pretrained(model_path)
-        print(f"✅ Model saved to {model_path}")
-
-    if config['number_samples'] is not None:
-        results_path = os.path.join("./results/csv/multi_label", f"test_results_{config['number_samples']}_{config['eval_on']}_{date.today()}.json")
+        print("\n📊 Evaluating on Test Set")
+        test_results = evaluate_single(config, best_trainer, test_encodings, test_labels)
+        print_test_results(test_results)
+        clean()
     else:
-        results_path = os.path.join("./results/csv/multi_label", f"test_results_total_{config['eval_on']}_{date.today()}.json")
+        print("🎯 Starting Standard Training (Single Split)")
+        if config.automatic_augmentation is True:
+            analysis_results = evaluate_dataset(train_df, config)
+            class_distributions = analysis_results['class_distributions']
+            class_weights = analysis_results['class_weights']
+            recommendations = analysis_results['recommendations']
+
+            if class_distributions['summary']['overall_severity'] in ['high', 'severe']:
+                train_df, analysis_results, tokenized_data = handle_severe_imbalance(train_df, config, tokenizer, class_distributions)
+
+                class_distributions = analysis_results['class_distributions']
+                class_weights = analysis_results['class_weights']
+                recommendations = analysis_results['recommendations']
+                
+                train_labels = tokenized_data['labels']
+                train_encodings = tokenized_data['encodings']
+
+        class_weights = compute_class_weights(train_df, config.label_columns)
+        config.class_weights_per_task = {}
+
+        for task, weight_dict in class_weights.items():
+            adjusted_weights = {
+                original_class + 1: weight 
+                for original_class, weight in weight_dict.items()
+            }
+            config.class_weights_per_task[task] = adjusted_weights
+
+        config.focal_loss_config = {
+            'gamma': 2.0,
+            'alpha_per_task': config.class_weights_per_task,
+        }
+
+        final_results = train_single_fold(
+            config, 
+            train_encodings,
+            train_labels,
+            val_encodings,
+            val_labels,
+            config.type_augmentation, 
+            fold=None
+        )
+
+        best_trainer = final_results.get('trainer')
+        best_model = final_results.get('model')
+
+        print("\n📊 Evaluating on Test Set")
+        test_results = evaluate_single(config, best_trainer, test_encodings, test_labels)
+        print_test_results(test_results)
+        clean()
+
+    if config.save_model is True:
+        save_final_model(config, best_trainer, best_model, test_results)
+
+    print("✅ Training completed successfully!")
+    clean()
     
-    with open(results_path, 'w') as f:
-        json.dump(test_results, f, indent=2)
-        
-    print(f"✅ Results saved to {config['model_path']}")
+    return final_results
 
 def load(config) -> None:
     """
@@ -506,34 +344,30 @@ def load(config) -> None:
     Args:
         config: Configuration dictionary with model path
     """
-    print(f"📦 Loading model from {config['model_path']}")
-    model = MultiTaskLongformer("mrm8488/longformer-base-4096-spanish", num_tasks=5)
-    state_dict = load_file(f"{config['model_path']}/model.safetensors")
+    print(f"📦 Loading model from {config.model_path}")
+    model = MultiTaskLongformer(config)
+    state_dict = load_file(f"{config.model_path}/model.safetensors")
     model.load_state_dict(state_dict)
-
-    device = 0 if torch.cuda.is_available() else -1
-    if device >= 0:
-        model.to("cuda")
     model.eval()
 
-    tokenizer = AutoTokenizer.from_pretrained(config["model_path"])
+    tokenizer = AutoTokenizer.from_pretrained(config.model_path, do_lower_case=True)
 
     print("✅ Model loaded successfully")
 
     pipe = MultiTaskPipeline(
         model=model,
         tokenizer=tokenizer,
-        device=0 if torch.cuda.is_available() else -1
+        device=0 if torch.cuda.is_available() else "cpu"
     )
 
     print("📂 Loading data...")
     df = pd.read_csv(
-        config["input_file"],
-        sep=",",
-        encoding="utf-8",
-        encoding_errors="strict",
-        header=0,
-        date_format='%Y-%M-%d'
+        config.input_file,
+        sep=";", 
+        decimal=".", 
+        na_values="NA", 
+        quotechar='"', 
+        encoding="utf-8"
     )
 
     print("🤖 Annotating data...")
@@ -550,7 +384,7 @@ def load(config) -> None:
     for i, task in enumerate(task_names):
         df[task] = [pred[i] for pred in all_predictions]
 
-    input_filepath = Path(config['model_path'])
+    input_filepath = Path(config.model_path)
     file_name = str(input_filepath.stem) + ".csv"
     file_name = file_name.replace("model_", "results_multi_label_")
 
@@ -564,37 +398,35 @@ def load(config) -> None:
         na_rep='NA',
         sep=';',            # Use semicolon as delimiter
         quotechar='"',      # Force double quotes around strings
-        date_format='%d-%M-%Y',  # Format datetime columns consistently
+        date_format='%d-%m-%Y',  # Format datetime columns consistently
         quoting=csv.QUOTE_ALL, # Ensure all fields are quoted
         decimal='.', 
         errors='strict',
     )
     print(f"✅ Annotated CSV saved to {output_filepath}")
 
-
 def main() -> None:
     args = parse_arguments()
     config = validate_arguments(args)
-
-    if config['train_model']:
+        
+    if args.train_model:
+        config.output_dir = create_checkpoint_dir(config.output_dir)
+        print("="*60)
+        print(f"📁 Checkpoint directory: {config.output_dir}")
         train(config)
-    elif config['load_model']:
+        print("="*60)
+        print(f"🧹 Cleaning up checkpoints from {config.output_dir}")
+        clean_checkpoint_dirs(config.output_dir)
+    elif args.load_model:
         load(config)
     
-
+    print("🎉 Process completed successfully!")
+    
 if __name__ == "__main__":
-    torch.cuda.empty_cache()
-    if torch.cuda.is_available():
-        torch.cuda.reset_peak_memory_stats()
-
+    clean()
     print_gpu_usage(note="Before running main()")
-
     main()
-
     print_gpu_usage(note="After running main()")
-
-    gc.collect()
-    torch.cuda.empty_cache()
-    if torch.cuda.is_available():
-        torch.cuda.reset_peak_memory_stats()
+    clean()
+    print("\n" + "="*60)
 
