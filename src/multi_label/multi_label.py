@@ -44,7 +44,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from collections import Counter
 from scipy.stats import chi2_contingency, entropy
-from smote import *
 from torch.nn import functional as F
 
 from utils.data_management import *
@@ -445,3 +444,8 @@ if __name__ == "__main__":
     clean()
     print("\n" + "="*60)
 
+# TODO: 
+# 1) Continue pretraining the base model on all the unlabeled newspaper text
+# 2) 5 fully independent models
+# 3) For each task and each class (-1, 0, +1), find optimal thresholds using dev set
+# 4) Run a two-stage model (1) Detect mention (0 vs ±1) (2) Decide polarity (+1 vs -1)
