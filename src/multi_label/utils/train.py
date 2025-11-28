@@ -262,6 +262,7 @@ class MultiTaskLongformer(nn.Module):
         
         # Load the pretrained Longformer with its original config
         self.longformer = LongformerModel.from_pretrained(config.model_name)
+        print("Loaded Longformer model:", config.model_name)
         self.longformer_config = self.longformer.config  # Use the original model's config
         
         # Enhanced classification heads

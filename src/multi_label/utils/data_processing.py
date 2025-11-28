@@ -275,6 +275,11 @@ def validate_arguments(args) -> TrainingConfig:
     config.type_augmentation = args.type_augmentation
     config.save_model = args.save_model
     config.automatic_augmentation = args.automatic_augmentation
+    config.use_pre_trained = args.use_pre_trained
+
+    if config.use_pre_trained == True:
+        config.model_name = "/scratch/nicolasal97/gec_extractor/longformer-dapt"
+
     if args.number_samples:
         config.number_samples = args.number_samples
 
@@ -303,5 +308,6 @@ def parse_arguments():
     parser.add_argument('-ht', "--hyperparameter_tuning", type=bool, required=False, default=False, help="Enable k-fold cross validation")
     parser.add_argument('-ta', "--type_augmentation", type=str, required=False, default=None, choices=["random_deletion", "random_swap", None], help="Probability to apply data augmentation")
     parser.add_argument('-aa', "--automatic_augmentation", type=bool, required=False, default=False, help="Determines if automatic augmentation is applied.")
+    parser.add_argument('-up', "--use_pre_trained", type=bool, required=False, default=False, help="Uses re-pretrained model.")
 
     return parser.parse_args()

@@ -1,112 +1,0 @@
-Loading modules...
-Setting folders...
-Activating virtual environment...
-Running python script...
-
-🔍 GPU Memory Usage: Before running main()
-Total available: 81079.12 MB
-Allocated: 0.00 MB
-Reserved : 0.00 MB
-Using only the first 1200 samples for training/evaluation
-============================================================
-📁 Checkpoint directory: /scratch/nicolasal97/multi_label/checkpoints/model_20251119_054221
-🚀 Starting (Enhanced) Training Pipeline
-============================================================
-⚠️ Limited to 1200 samples for testing
-📊 Dataset: 1200 samples, 5 tasks
-🏷️ Tasks: ['modernizante', 'estructuralista', 'neoliberal', 'posmoderna', 'voluntarista']
-📊 Data split: Train=840, Val=180, Test=180
-   - Train: 840 samples (70.0%)
-   - Val:   180 samples (15.0%)
-   - Test:  180 samples (15.0%)
-============================================================
-🔄 Pre-tokenizing dataset...
-✅ Pre-tokenization complete.
-============================================================
-🎯 Starting Hyperparameter Optimization
-📈 DATASET DISTRIBUTION ANALYSIS
-============================================================
-1️⃣ Analyzing class distribution...
-   📊 Global Summary:
-   - Total samples: 840
-   - Overall severity: SEVERE
-   - Average IR: 192.87
-   - Maximum IR: 827.00
-   - Most imbalanced task: posmoderna
-   📋 Details per task:
-   - modernizante        : IR= 3.00 | Distribution: -1(0, 0.0%) 0(630, 75.0%) 1(210, 25.0%) | [moderate]
-   - estructuralista     : IR= 4.89 | Distribution: -1(174, 20.7%) 0(553, 65.8%) 1(113, 13.4%) | [moderate]
-   - neoliberal          : IR=34.24 | Distribution: -1(17, 2.0%) 0(582, 69.3%) 1(241, 28.7%) | [severe]
-   - posmoderna          : IR=827.00 | Distribution: -1(1, 0.1%) 0(827, 98.5%) 1(12, 1.4%) | [severe]
-   - voluntarista        : IR=95.20 | Distribution: -1(5, 0.6%) 0(476, 56.7%) 1(359, 42.7%) | [severe]
-2️⃣ Analyzing label combinations...
-   🔢 Combination statistics:
-   - Unique combinations: 45
-   - Rare combinations (<5 samples): 26 (57.8%)
-   - Most common combination: (np.int64(0), np.int64(0), np.int64(0), np.int64(0), np.int64(0))
-   - Most common count: 222
-3️⃣ Splitting data into train/val/test...
-📊 Data split: Train=588, Val=126, Test=126
-   - Train: 588 samples (70.0%)
-   - Val:   126 samples (15.0%)
-   - Test:  126 samples (15.0%)
-4️⃣ Comparing distributions between splits...
-   ⚠️  8 problems detected:
-     • modernizante: Classes [-1] missing in train
-     • modernizante: Classes [-1] missing in val
-     • modernizante: Classes [-1] missing in test
-     • neoliberal: Large distribution shift (17.5%)
-     • neoliberal: Classes [-1] missing in test
-     • posmoderna: Classes [-1] missing in val
-     • posmoderna: Classes [-1] missing in test
-     • voluntarista: Classes [-1] missing in val
-5️⃣ Analyzing correlations between tasks...
-   🔗 0 strong correlations detected (|r| > 0.3)
-   - Independent tasks: True
-6️⃣ Calculating class weights for loss function...
-   ⚖️  Weights per task (format: [-1, 0, 1]):
-   - modernizante        : [196000000.333, 0.450, 1.289]
-   - estructuralista     : [1.661, 0.496, 2.613]
-   - neoliberal          : [15.077, 0.483, 1.160]
-   - posmoderna          : [196.000, 0.338, 28.000]
-   - voluntarista        : [49.000, 0.563, 0.831]
-7️⃣ Identifying critical samples...
-   📌 Extreme cases:
-   - All positive: 0
-   - All negative: 0
-   - All neutral: 160
-   ⚠️  Alerts:
-     • Only 0 samples with all positive labels
-     • Only 0 samples with all negative labels
-8️⃣ Generating strategic recommendations...
-   🎯 Recommended Strategy: ADVANCED_IMBALANCE_HANDLING
-   - Reasoning: Maximum imbalance ratio: 827.0
-   - Most problematic task: posmoderna
-   💡 Recommended techniques:
-     • Class weights
-     • Focal loss
-     • Aggressive oversampling
-     • Ensemble methods
-     • Avoid stratified splitting - use random splits
-============================================================
-⚠️ Severe imbalance detected. Applying synthetic paraphrasing...
-======================================================================
-🚀 SIMPLE PARAPHRASE AUGMENTATION
-   Model: milyiyo/paraphraser-spanish-t5-small
-   Device: cuda
-======================================================================
-📦 Loading model...
-📋 Plan:
-Task                 Class    Actual     Target     To generate
-----------------------------------------------------------------------
-modernizante         1        210        441        231       
-estructuralista      -1       174        387        213       
-estructuralista      1        113        387        274       
-neoliberal           1        241        407        166       
-neoliberal           -1       17         407        85        
-posmoderna           1        12         578        60        
-posmoderna           -1       1          578        5         
-voluntarista         -1       5          333        25        
-----------------------------------------------------------------------
-Total synthetic samples to be generated: 1059
-Generating paraphrases:   0%|          | 0/8 [00:00<?, ?it/s]Generating paraphrases:   0%|          | 0/8 [00:04<?, ?it/s, task=modernizante, class=1, generated=2]Generating paraphrases:   0%|          | 0/8 [00:05<?, ?it/s, task=modernizante, class=1, generated=4]Generating paraphrases:   0%|          | 0/8 [00:17<?, ?it/s, task=modernizante, class=1, generated=6]Generating paraphrases:   0%|          | 0/8 [00:18<?, ?it/s, task=modernizante, class=1, generated=8]Generating paraphrases:   0%|          | 0/8 [00:20<?, ?it/s, task=modernizante, class=1, generated=10]Generating paraphrases:   0%|          | 0/8 [00:23<?, ?it/s, task=modernizante, class=1, generated=12]Generating paraphrases:   0%|          | 0/8 [00:25<?, ?it/s, task=modernizante, class=1, generated=14]Generating paraphrases:   0%|          | 0/8 [00:32<?, ?it/s, task=modernizante, class=1, generated=16]Generating paraphrases:   0%|          | 0/8 [00:34<?, ?it/s, task=modernizante, class=1, generated=18]Generating paraphrases:   0%|          | 0/8 [00:38<?, ?it/s, task=modernizante, class=1, generated=20]Generating paraphrases:   0%|          | 0/8 [00:41<?, ?it/s, task=modernizante, class=1, generated=22]Generating paraphrases:   0%|          | 0/8 [00:50<?, ?it/s, task=modernizante, class=1, generated=24]Generating paraphrases:   0%|          | 0/8 [00:51<?, ?it/s, task=modernizante, class=1, generated=26]Generating paraphrases:   0%|          | 0/8 [01:01<?, ?it/s, task=modernizante, class=1, generated=28]Generating paraphrases:   0%|          | 0/8 [01:08<?, ?it/s, task=modernizante, class=1, generated=30]Generating paraphrases:   0%|          | 0/8 [01:10<?, ?it/s, task=modernizante, class=1, generated=32]Generating paraphrases:   0%|          | 0/8 [01:12<?, ?it/s, task=modernizante, class=1, generated=34]Generating paraphrases:   0%|          | 0/8 [01:17<?, ?it/s, task=modernizante, class=1, generated=36]Generating paraphrases:   0%|          | 0/8 [01:18<?, ?it/s, task=modernizante, class=1, generated=38]Generating paraphrases:   0%|          | 0/8 [01:25<?, ?it/s, task=modernizante, class=1, generated=40]Generating paraphrases:   0%|          | 0/8 [01:28<?, ?it/s, task=modernizante, class=1, generated=42]Generating paraphrases:   0%|          | 0/8 [01:32<?, ?it/s, task=modernizante, class=1, generated=44]Generating paraphrases:   0%|          | 0/8 [01:33<?, ?it/s, task=modernizante, class=1, generated=46]Generating paraphrases:   0%|          | 0/8 [01:35<?, ?it/s, task=modernizante, class=1, generated=48]Generating paraphrases:   0%|          | 0/8 [01:37<?, ?it/s, task=modernizante, class=1, generated=50]Generating paraphrases:   0%|          | 0/8 [01:41<?, ?it/s, task=modernizante, class=1, generated=52]Generating paraphrases:   0%|          | 0/8 [01:44<?, ?it/s, task=modernizante, class=1, generated=54]Generating paraphrases:   0%|          | 0/8 [01:46<?, ?it/s, task=modernizante, class=1, generated=56]Generating paraphrases:   0%|          | 0/8 [01:48<?, ?it/s, task=modernizante, class=1, generated=58]Generating paraphrases:   0%|          | 0/8 [01:50<?, ?it/s, task=modernizante, class=1, generated=60]Generating paraphrases:   0%|          | 0/8 [01:54<?, ?it/s, task=modernizante, class=1, generated=62]Generating paraphrases:   0%|          | 0/8 [02:04<?, ?it/s, task=modernizante, class=1, generated=64]Generating paraphrases:   0%|          | 0/8 [02:10<?, ?it/s, task=modernizante, class=1, generated=66]Generating paraphrases:   0%|          | 0/8 [02:15<?, ?it/s, task=modernizante, class=1, generated=68]Generating paraphrases:   0%|          | 0/8 [02:19<?, ?it/s, task=modernizante, class=1, generated=70]Generating paraphrases:   0%|          | 0/8 [02:22<?, ?it/s, task=modernizante, class=1, generated=72]Generating paraphrases:   0%|          | 0/8 [02:29<?, ?it/s, task=modernizante, class=1, generated=74]Generating paraphrases:   0%|          | 0/8 [02:31<?, ?it/s, task=modernizante, class=1, generated=76]Generating paraphrases:   0%|          | 0/8 [02:38<?, ?it/s, task=modernizante, class=1, generated=78]Generating paraphrases:   0%|          | 0/8 [02:44<?, ?it/s, task=modernizante, class=1, generated=80]Generating paraphrases:   0%|          | 0/8 [02:46<?, ?it/s, task=modernizante, class=1, generated=82]Generating paraphrases:   0%|          | 0/8 [02:49<?, ?it/s, task=modernizante, class=1, generated=84]Generating paraphrases:   0%|          | 0/8 [02:50<?, ?it/s, task=modernizante, class=1, generated=86]
