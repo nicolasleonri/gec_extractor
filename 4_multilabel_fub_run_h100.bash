@@ -35,7 +35,7 @@ echo "Running python script..."
 
 ### FINAL RUNS! # Minimum specs: # Normal: 30min + 5GB # With CV: 45min + 6GB
 python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 1200 -em macro_f1 -sm True -cv True -ht True -aa True -up True
-python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 1200 -em acuacy -sm True -cv True -ht True -aa True -up True
+python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 1200 -em accuracy -sm True -cv True -ht True -aa True -up True
 # python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 1200 -em macro_f1 -sm True -cv True -ht True -aa True -ta random_swap
 # python3 -u ./src/multi_label/multi_label.py -f ./data/csv/multi_label/etiquetado_perspectivas.csv -mp /scratch/nicolasal97/gec_extractor/results/models/multi_label -tm True -ns 1200 -em macro_f1 -sm True -cv True -ht True -aa True -ta random_deletion
 
