@@ -217,7 +217,7 @@ def main():
     dataset = subsample_by_token_budget(
         dataset,
         tokenizer,
-        target_tokens=1500000000 # TODO: Test with 5 times (rn, needs 6hours) 
+        target_tokens=3000000000 # TODO: Test with 5 times (rn, needs 6hours) 
     )
 
     print("✂️ Tokenizing corpus...")
@@ -257,7 +257,7 @@ def main():
     print("🛠️ Setting up Trainer...")
     args = TrainingArguments(
         output_dir=OUTPUT_DIR,
-        overwrite_output_dir=True,
+        overwrite_output_dir=False,
         per_device_train_batch_size=1, 
         gradient_accumulation_steps=4,  # effective batch size = PER_DEVICE_BATCH * accum * n_gpus
         learning_rate=3e-5,
@@ -287,6 +287,13 @@ def main():
     )
 
     clean_gpu()
+
+    checkpoint = None
+    if os.path.exists(OUTPUT_DIR):
+        checkpoints = glob.glob(f"{OUTPUT_DIR}/checkpoint-*")
+        if checkpoints:
+            checkpoint = max(checkpoints, key=os.path.getctime)
+            print(f"🔄 Resuming from checkpoint: {checkpoint}")
 
     print("🚀 Starting DAPT Pretraining...")
     trainer.train()
