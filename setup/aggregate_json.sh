@@ -7,7 +7,7 @@ OUTPUT_CSV="./results/csv/multi_label/aggregated_results.csv"
 [ -f "$OUTPUT_CSV" ] && rm "$OUTPUT_CSV"
 
 # Header row
-echo "prefix,prefix2,augmentation,aa,ht,cv,samples,metric,date,eval_accuracy,eval_mean_task_accuracy,eval_macro_f1" > "$OUTPUT_CSV"
+echo "prefix,prefix2,augmentation,aa,ht,cv,up,samples,metric,date,eval_accuracy,eval_mean_task_accuracy,eval_macro_f1" > "$OUTPUT_CSV"
 
 # Loop through all JSON files
 for filepath in "$RESULTS_DIR"/*.json; do
@@ -36,8 +36,11 @@ for filepath in "$RESULTS_DIR"/*.json; do
     samples="${basename_no_metric##*_}"
     basename_no_samples="${basename_no_metric%_*}"
 
-    cv="${basename_no_samples##*_}"
-    basename_no_cv="${basename_no_samples%_*}"
+    up="${basename_no_samples##*_}"
+    basename_no_up="${basename_no_samples%_*}"
+
+    cv="${basename_no_up##*_}"
+    basename_no_cv="${basename_no_up%_*}"
 
     ht="${basename_no_cv##*_}"
     basename_no_ht="${basename_no_cv%_*}"

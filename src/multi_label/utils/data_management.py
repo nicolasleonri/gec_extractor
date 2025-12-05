@@ -97,7 +97,7 @@ def save_final_model(config: TrainingConfig, trainer: Trainer, model: torch.nn.M
         label_columns: List of label column names
         results: Optional training results dictionary
     """
-    model_path = f"{config.model_path}/model_{config.type_augmentation}_{config.automatic_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.number_samples}_{config.eval_metric}_{date.today()}"
+    model_path = f"{config.model_path}/model_{config.type_augmentation}_{config.automatic_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.use_pre_trained}_{config.number_samples}_{config.eval_metric}_{date.today()}"
 
     if os.path.exists(model_path):
         shutil.rmtree(model_path)

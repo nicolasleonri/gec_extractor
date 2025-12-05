@@ -12,7 +12,7 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem-per-cpu=50G
-#SBATCH --time=64:00:00
+#SBATCH --time=10:00:00
 
 echo "Loading modules..."
 module purge

@@ -289,14 +289,44 @@ def main():
     clean_gpu()
 
     checkpoint = None
+
+    # if os.path.exists(OUTPUT_DIR):
+    #     checkpoints = glob.glob(f"{OUTPUT_DIR}/checkpoint-*")
+    #     if checkpoints:
+    #         checkpoint = max(checkpoints, key=os.path.getctime)
+    #         print(f"🔄 Resuming from checkpoint: {checkpoint}")
+    #     else:
+    #         print("📍 No checkpoint found, starting from scratch")
+
     if os.path.exists(OUTPUT_DIR):
         checkpoints = glob.glob(f"{OUTPUT_DIR}/checkpoint-*")
+        
         if checkpoints:
-            checkpoint = max(checkpoints, key=os.path.getctime)
-            print(f"🔄 Resuming from checkpoint: {checkpoint}")
+            # Sort by checkpoint number
+            checkpoints_sorted = sorted(checkpoints, key=lambda x: int(x.split('-')[-1]), reverse=True)
+            
+            for ckpt in checkpoints_sorted:
+                weights_file = os.path.join(ckpt, "model.safetensors")
+                if os.path.exists(weights_file):
+                    file_size = os.path.getsize(weights_file) / (1024**2)  # MB
+                    print(f"🔍 Checking {ckpt}: {file_size:.1f}MB")
+                    
+                    if file_size < 100:  # Less than 100MB is definitely corrupted
+                        print(f"⚠️ Skipping corrupted checkpoint (too small): {ckpt}")
+                        continue
+                        
+                    checkpoint = ckpt
+                    print(f"✅ Valid checkpoint found: {checkpoint}")
+                    break
+            
+            if checkpoint is None:
+                print("❌ No valid checkpoints found, starting from scratch")
+    else:
+        print("📍 No checkpoint found, starting from scratch")
 
     print("🚀 Starting DAPT Pretraining...")
-    trainer.train()
+    # trainer.train()
+    trainer.train(resume_from_checkpoint=checkpoint)
 
     print("💾 Saving model and tokenizer to:", OUTPUT_DIR)
     trainer.save_model(OUTPUT_DIR)
