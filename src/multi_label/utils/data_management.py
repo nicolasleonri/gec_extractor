@@ -144,9 +144,9 @@ def save_final_model(config: TrainingConfig, trainer: Trainer, model: torch.nn.M
 
     if results is not None:
         if config.number_samples is not None:
-            results_filename = f"test_results_{config.type_augmentation}_{config.automatic_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.number_samples}_{config.eval_metric}_{date.today()}.json"
+            results_filename = f"test_results_{config.type_augmentation}_{config.automatic_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.use_pre_trained}_{config.number_samples}_{config.eval_metric}_{date.today()}.json"
         else:
-            results_filename = f"test_results_{config.type_augmentation}_{config.automatic_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_total_{config.eval_metric}_{date.today()}.json"
+            results_filename = f"test_results_{config.type_augmentation}_{config.automatic_augmentation}_{config.hyperparameter_tuning}_{config.cross_validate}_{config.use_pre_trained}_total_{config.eval_metric}_{date.today()}.json"
         
         results_path = os.path.join(config.results_dir, results_filename)
         os.makedirs(config.results_dir, exist_ok=True)

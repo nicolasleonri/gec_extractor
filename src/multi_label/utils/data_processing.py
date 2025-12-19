@@ -279,6 +279,7 @@ def validate_arguments(args) -> TrainingConfig:
 
     if config.use_pre_trained == True:
         config.model_name = "/scratch/nicolasal97/gec_extractor/longformer-dapt"
+        print(f"⚠️ Using re-pretrained model for training: {config.model_name}.")
 
     if args.number_samples:
         config.number_samples = args.number_samples

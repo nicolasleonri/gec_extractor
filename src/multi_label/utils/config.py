@@ -22,20 +22,21 @@ class TrainingConfig:
 
     # Training Configuration
     learning_rate: float = 2e-5
-    head_learning_rate: float = 0.0002149719644275139 # TODO: Implement
+    head_learning_rate: float = 2e-4 # TODO: Implement
     batch_size: int = 16 
-    num_epochs: int = 8 
-    warmup_ratio: float = 0.05249928641779438
-    weight_decay: float = 0.2808836125696343 
-    max_grad_norm: float = 2.5348065843037997
-    dropout_rate: float = 0.280737187667872
+    num_epochs: int = 10
+    warmup_ratio: float = 0.05
+    weight_decay: float = 0.3
+    max_grad_norm: float = 2.5
+    dropout_rate: float = 0.3
 
     # Augmentation Configuration
-    swap_ratio: float = 0.25
-    deletion_prob: float = 0.25
+    swap_ratio: float = 0.15
+    deletion_prob: float = 0.15
     
     # Cross-Validation
     cross_validate: bool = False
+    use_pre_trained: bool = False
     n_folds: int = 5
     
     # Hyperparameter Tuning

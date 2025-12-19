@@ -63,7 +63,7 @@ for filepath in "$RESULTS_DIR"/*.json; do
     eval_macro_f1=$(grep -oP '"eval_macro_f1":\s*\K[0-9.]+|null' "$filepath")
 
     # Append row to CSV
-    echo "$prefix,$prefix2,$augmentation,$aa,$ht,$cv,$samples,$metric,$date,$eval_accuracy,$eval_mean_task_accuracy,$eval_macro_f1" >> "$OUTPUT_CSV"
+    echo "$prefix,$prefix2,$augmentation,$aa,$ht,$cv,$up,$samples,$metric,$date,$eval_accuracy,$eval_mean_task_accuracy,$eval_macro_f1" >> "$OUTPUT_CSV"
 done
 
 echo "✅ Aggregated JSON files into $OUTPUT_CSV"
